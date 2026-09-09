@@ -125,8 +125,7 @@
           color: #6f8198;
           font-size: 13px;
           font-weight: 700;
-          letter-spacing: 0.06em;
-          text-transform: uppercase;
+          letter-spacing: 0;
         }
 
         .detail-nav-link {
@@ -831,8 +830,7 @@
         .jbrowse-meta-label {
           display: block;
           font-size: 12px;
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
+          letter-spacing: 0;
           color: #7a8baa;
           margin-bottom: 4px;
           font-weight: 700;
@@ -883,8 +881,7 @@
           display: block;
           margin-bottom: 0;
           font-size: 12px;
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
+          letter-spacing: 0;
           color: #7a8baa;
           font-weight: 700;
         }

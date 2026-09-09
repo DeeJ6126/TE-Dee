@@ -61,7 +61,7 @@ $quickLinks = [
       <section class="status-section">
         <div class="proto-container">
           <div class="section-title">
-            <h3>Dataset Status</h3>
+            <h3>Dataset status</h3>
             <p class="section-title-subcopy">Built from 2,308 core human TE papers and multi-layer annotation resources.</p>
           </div>
           <div class="status-layout" data-home-stats data-home-stats-url="<?= htmlspecialchars(tekg_api_url('home_stats.php'), ENT_QUOTES, 'UTF-8') ?>">
@@ -110,7 +110,7 @@ $quickLinks = [
                   <svg class="status-donut" viewBox="0 0 360 360" role="img" aria-label="Relation predicate composition donut chart" data-donut-chart="relation"></svg>
                   <div class="status-donut-center">
                     <div class="status-donut-total" data-donut-total="relation">--</div>
-                    <div class="status-donut-label">BIO_RELATION</div>
+                    <div class="status-donut-label">Bio relation</div>
                   </div>
                 </div>
                 <div class="status-legend" data-donut-legend="relation">

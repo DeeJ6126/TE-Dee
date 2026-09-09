@@ -474,8 +474,7 @@
           color: #0f172a;
           font-size: 11px;
           font-weight: 900;
-          letter-spacing: 0.05em;
-          text-transform: uppercase;
+          letter-spacing: 0;
         }
         .inspect-card__section-head {
           display: flex;

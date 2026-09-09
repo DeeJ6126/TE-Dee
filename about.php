@@ -53,7 +53,7 @@ $aboutSections = [
                 'heading' => 'What the page contains',
                 'items' => [
                     'Overview summarizes the purpose and scope of TE-Dee.',
-                    'Dataset Status reports the current Neo4j database scale. Its donut charts show entity composition, TE classification, and relation predicate composition.',
+                    'Dataset status reports the current Neo4j database scale. Its donut charts show entity composition, TE classification, and relation predicate composition.',
                     'Entity Composition counts the principal knowledge-graph entity categories among stored nodes.',
                     'TE Classification can switch classification levels, allowing the chart to move from broad classes to more specific levels.',
                     'Relation Composition uses detailed predicate counts to reveal common relationship types.',
@@ -102,7 +102,7 @@ $aboutSections = [
                 'items' => [
                     'Both sides of the search form contain a narrow category selector and a wider entity selector.',
                     'After an entity is selected on one side, candidates offered on the other side are constrained to entities connected with the selected entity.',
-                    'Increase MAX HOPS to search a wider multi-hop neighborhood.',
+                    'Increase Max hops to search a wider multi-hop neighborhood.',
                 ],
             ],
             [

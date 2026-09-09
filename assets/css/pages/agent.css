@@ -124,8 +124,7 @@
   color: #6f7d96;
   font-size: 0.88rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: 0;
 }
 
 .agent-research-template-list {
@@ -476,8 +475,7 @@
   color: #5a6780;
   font-size: 0.92rem;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0;
 }
 
 .agent-answer-body {
@@ -770,8 +768,7 @@
 .agent-inspector-eyebrow {
   margin: 0 0 6px;
   color: #8291ad;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0;
   font-size: 0.78rem;
   font-weight: 700;
 }
@@ -914,8 +911,7 @@
 .agent-graph-popup-eyebrow {
   margin: 0 0 4px;
   color: #7a88a2;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0;
   font-size: 0.75rem;
   font-weight: 700;
 }

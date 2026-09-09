@@ -25,7 +25,7 @@ $sideDeepThinkConfig = [
     </header>
     <div class="side-dt-messages" id="sideDeepThinkMessages"></div>
     <form class="side-dt-form" id="sideDeepThinkForm">
-      <textarea id="sideDeepThinkInput" rows="2" placeholder="Ask where to find TE sequence, genome annotation, expression, graph, or datasets."></textarea>
+      <textarea id="sideDeepThinkInput" rows="3" placeholder="Ask where to find TE sequence, genome annotation, expression, graph, or datasets."></textarea>
       <button id="sideDeepThinkSubmit" type="submit">Send</button>
     </form>
     <button class="side-dt-resize side-dt-resize-w" id="sideDeepThinkResizeW" type="button" aria-label="Resize Deep Think assistant width"></button>

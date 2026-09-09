@@ -27,7 +27,7 @@ require __DIR__ . '/head.php';
             <section class="path-finder-panel" aria-label="Path Finder query controls">
               <form class="path-finder-form" id="pathFinderForm">
                 <label class="path-field">
-                  <span>Source Entity</span>
+                  <span>Source entity</span>
                   <div class="path-entity-control">
                     <select id="pathSourceType" name="source_type" aria-label="Source entity type">
 <?php foreach ($pathFinderEntityTypes as $entityType): ?>
@@ -42,7 +42,7 @@ require __DIR__ . '/head.php';
                   </div>
                 </label>
                 <label class="path-field">
-                  <span>Target Entity</span>
+                  <span>Target entity</span>
                   <div class="path-entity-control">
                     <select id="pathTargetType" name="target_type" aria-label="Target entity type">
 <?php foreach ($pathFinderEntityTypes as $entityType): ?>
@@ -57,7 +57,7 @@ require __DIR__ . '/head.php';
                   </div>
                 </label>
                 <label class="path-field path-depth-field">
-                  <span>Max Hops</span>
+                  <span>Max hops</span>
                   <select id="pathMaxDepth" name="max_depth">
                     <option value="1">1</option>
                     <option value="2">2</option>

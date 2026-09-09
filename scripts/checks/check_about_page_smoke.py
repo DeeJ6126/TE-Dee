@@ -94,7 +94,7 @@ def main() -> None:
                 "What TE-KG is",
                 "Evidence principles",
                 "Recommended workflow",
-                "Dataset Status",
+                "Dataset status",
                 "category selector",
                 "evidence tables",
                 "interactive G6 graph",
