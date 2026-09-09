@@ -1,0 +1,47 @@
+{
+  "accession": "DF000281840",
+  "name": "DasNov-1.259_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "DasNov-1.259_LTR"
+  ],
+  "species": "Dasypus novemcinctus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Dasypus novemcinctus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Dasypodidae",
+    "Dasypus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 934 BP; 155 A; 385 C; 234 G; 160 T; 0 other;"
+  },
+  "sequence": "tgcggtcacccctcgggctgaagtgtggtttgctggcctggcgggggagcagccgcggcaggccaagccgctgcccccataatagggtggctggtcggactcaccgccacccctgaagggagctcggcatgggcgcagagtgccctcgggtctccccttctcggcagccatgcttccgcggccgcccctcctcccggatggcgccacacgatgcctgtggggcggcacccttcttcttctttctccctgcgcaggcgcagggcggaaaattccagtctgcccttttcccctcccccgacagcagcaacagccaggcgtgggcggaaaaatccagtctgcccttttcccctcccccgacagcagcaacagccaggcgtgggcgggaaactcaagtctgccctccaccccagcaacagcagccaccaatccctaaaccctgccccttcccccagcaacagcgacagccaatccctaaccaccacccctcccccgtccagtaccgcccactgacctttcgccggcaaccaatcagaacagggcgtggcttcgaccaatcagccttccccagcccctataaaactgttgcctctccctcaataaagtggacttgcgtgtttaccttgtctccgcggtagttcttctgccgtgcgccctccagtcctgagagcccccgacaagggcctggcctcccttgtccccagttcgtcgcctgcttctccgggcgaccccttcgtcgccggcttcgccgggcgaccccgtcagccgaaccgcgcaaccccttgtgagaccgatccctcgtctgctgccggaccgacccctcgtcccaagtgggaccgacccctcgtcccaagcgggaccgacccctcgtccagagctggaccgacccctcgtccgcagccagaccccacctctaccgaccgagcaagccgccgca",
+  "length_bp": 934,
+  "sequence_length_bp": 934,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

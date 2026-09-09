@@ -1,0 +1,50 @@
+{
+  "accession": "DF000274758",
+  "name": "AmmLer-1.95",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Ammotragus lervia",
+  "display_classification": "SINE/tRNA | Ammotragus lervia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Caprinae",
+    "Ammotragus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 214 BP; 61 A; 64 C; 56 G; 32 T; 1 other;"
+  },
+  "sequence": "gggacttccctggtggtccagtggttaagaatccgccttccaatgcaggggacgcgggttcgatccctggtcggggaactaagatcccacatgccgcggggcaactaagcccgcgcgccgcaactactgagcccgcgcgccgcaacgaaagancccgcgtgccgcaactaagacccgacgcagccaaataaataaatattttaaaaaaaaaaaa",
+  "length_bp": 214,
+  "sequence_length_bp": 214,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

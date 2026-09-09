@@ -1,0 +1,45 @@
+{
+  "accession": "DF000000550",
+  "name": "LTR55",
+  "description": "LTR55 (Long Terminal Repeat) likely for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR55"
+  ],
+  "species": "Boreoeutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Boreoeutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 548 BP; 111 A; 187 C; 104 G; 137 T; 9 other;"
+  },
+  "sequence": "tgttatataaatgagccaaagatggcctctgtgtattggcccctaggttgtttatttcttcacngcaggctgagacccgttagctcaaaagcccgccggcgccaaactcaaatttttacacatccanattgttttaaanatagcccaaacaagcagatttttagccatttagagcctgcctgctttgcataccccgcgaaaccgcacccaacatctgctagccattgcacttataagaccccaagccgctgctgcccttcggagctctctgacccagagactccccgnccgtgctgctgagcgacatcacctagacacgtaagccccctctccgattcccctctcccccgggagttcccttgccctcctccccttctgggtggtggccccgntccctaagcctctggacggtctcntgctgtgagggacttccccttcatgcaancctgtcnaagcgccgcccaataaagcttgttgtgtgctactgccncttcgtggtcatatctttttccttgatcagcccccaaatccctcgaaccccctacaca",
+  "length_bp": 548,
+  "sequence_length_bp": 548,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR55"
+  ]
+}

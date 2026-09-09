@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003464",
+  "name": "DNA-1-8_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/ | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1561 BP; 519 A; 266 C; 297 G; 467 T; 12 other;"
+  },
+  "sequence": "taggctcgtttgaggtgcgcctcgccttgactgcattgtaaacgagagcaggcgtgcgcagtaagaggagggctcaaaaattacatcagaagtcggacacctgccgaatctcgctgtttngccacctggaaacgtcaccagtggcggagatctcgttcgcgttttttatcgcagacgaatgacctcatgaaaaaatactatggtgatttatagtaaatattatagcgtttttgaacatgtttnttcagtattgggttgtgtttatagttgttgtgataccanagcaactatagaatttaaataggctattttataacatggttcaaaaacactacagtatacattactatagtattttttaatgtgggagtggatgcaatagaaatatcactgtttttacaaaaagannatggtcagaattacagaagatgaacagctcattaactaaaagggtgtatttaaaatataattctgtatattcaacaaacgttaaaagaataacaaaataaacagcttatacagcaagaaagctttcaagaaacctaatttggctacattataaatgaagtagccatagcaagatgcttttgagtgacgggtcatgacaaatgtttgtttgacaaataaattcttagggggttaattatattgacatgcttattaggtctatataaactgcttttactccagccaaantaaaacaaatagcccaagactttctccagaanaaaaantattagactgtaggaaanactgtgaaaatgttcttggtctattaaacatgacttttgacttcacatacatatacatatacatatgtgtgtgtgtgtgtgtgtgtgtgtgtcttgtttactacacccttttcacttctcatatgaaaccacacaaagatgaggcataatgacaaaacagtctgattacctttgtatgtctgaatatatgtatatattggattgactttnatggaataacgctgcataaaaattacaatacaaaattcacacaaacatacaaaaagtgaaaatgacaacaaacaggacttaaaactgagagagaaataaaatacagcacacgcacatcctaatgatttattagtaacatttagttatattggataggtcacgttatgttttacaaagatgtgttttgtttttgtttgcgtgtaaatctaaataaataaccatatgtaatgctctttatgactttttttttaattatcaacgaaaatacaaaaaaanggtattcaacaaatccaggtataaaccttagtaaaacaagataataaagtgtaatgtgtcagtctcatccaatcagcattaagctgtgtcgtcagccagtcgtttcccatcatgcttttggtaacgcagtcttttgagagcaactgcggccgactgctcnatccgaggtacccgcctcgcgatcgcgagagttttttggcgcacgtcagcgtgacatcagagcgaggcgaaggcaaggcggacacatttctaaccggcatgcatcttgcggtgatcaccggtgatcgattctgcgcagattttggccaagtcaaacgagccta",
+  "length_bp": 1561,
+  "sequence_length_bp": 1561,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA-1-8_DR"
+  ]
+}

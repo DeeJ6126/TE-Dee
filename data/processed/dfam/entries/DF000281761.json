@@ -1,0 +1,53 @@
+{
+  "accession": "DF000281761",
+  "name": "ColAng-6.2003_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ColAng-6.2003_LTR"
+  ],
+  "species": "Colobus angolensis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Colobus angolensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Colobinae",
+    "Colobus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 476 BP; 88 A; 173 C; 122 G; 93 T; 0 other;"
+  },
+  "sequence": "ctgtttggacgaacggaggcaggatggcgcacttccgggttcttcttcaccaacttttcccgcgcgcgcgaaaatgcagccggcgcccgggaaggtgcagaccaaccgggcatgcgccaggtgacgtcaatccgaagagaccaagatttacctggtcgcacctgcggaacgccccccgacacgcccgtgccccgcctattgccctcccactcctagaaaagccgctctcggccagcgcgccacgcggccttccccggtcccccactcctgtcgggatgtcgggactgcaggaactccgtccgagagccccaccgggggactctgccggcctcctttgccggaggccgacagacctctccccacccaccttcttccctgaagctaggtgaccaaaaataaatttgcagttttgctcctacccttgcctactcgctggttcttttgtgcccgctctggtggtcttagaaaaacaaatc",
+  "length_bp": 476,
+  "sequence_length_bp": 476,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

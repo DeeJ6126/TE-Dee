@@ -1,0 +1,46 @@
+{
+  "accession": "DF000280994",
+  "name": "TolMat-1.31",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Tolypeutes matacus",
+  "display_classification": "SINE/tRNA | Tolypeutes matacus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Chlamyphoridae",
+    "Tolypeutes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 435 BP; 128 A; 107 C; 149 G; 50 T; 1 other;"
+  },
+  "sequence": "gggaaacggatgtggctcaagcgattgggctcccgtctaccatataggaggtccagggttcgattcccggggcctcctggtgaaaggcaagctggcccgcgcggcgagctggcccgngcggagagctggcccgcgcaggagtgctggcccgcgcaggagtgctggcccgcgcggagagctggcgcagcaagatgacgcaacaaaaagagacacagaggagagacaataagagacgcagcagaccagggagctgaggtggcgcaagagattgagcgcctctctcccactccggaaggtcccaggatcggttcccggtgccgcctaaagagaagacaagcagacacagaagaacacacagagagcagacagcgagcgcaaaacaacggggggggggggggggaaataaataaataaataaatctttaaaaaaaaaaa",
+  "length_bp": 435,
+  "sequence_length_bp": 435,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

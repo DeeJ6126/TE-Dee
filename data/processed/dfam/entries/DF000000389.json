@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000389",
+  "name": "LTR109A2",
+  "description": "LTR109A2_Mam (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR109A2"
+  ],
+  "species": "Euarchontoglires",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Euarchontoglires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 419 BP; 127 A; 93 C; 64 G; 126 T; 9 other;"
+  },
+  "sequence": "tgttaaaataaaataaaatggagaccaggcttgagaatcccccgagcagacaaaaccagttaggccacgtaagcgaaacttaanctagcttatttcntgaacgtaagcgaaacttaacttaggttatttcttgtaaatgcctctgataatcataaacaaaacttaagtcgccttccaaaaatggtataagatgatcgcttttaaccaatcctctgccatctggaaacccccattgtaataaccaatcattgtaaaggttaaacaacttcctcattttcgctttataagccatcctgtaacgncgtgcctctgagcttcttaccactttcgggtttgaggtctcccggttcgcgaactgttcttttcttncncaataaantnttcatatcaagtaaagcnctctgantttatttttgaca",
+  "length_bp": 419,
+  "sequence_length_bp": 419,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,66 @@
+{
+  "accession": "DF000003062",
+  "name": "RTEX-2_DR",
+  "description": "RTE-like non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/RTE-X"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/RTE-X | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3260 BP; 1216 A; 632 C; 581 G; 818 T; 13 other;"
+  },
+  "sequence": "caatggcagggtgagaggagactctctgggcagatacacctacagctcatttctcggtagctcaacagttgactacatgatcacagatttagatctgttctctttcagtgcattcactgttaaacccctaacgcctctatcagatcacagccaaattacactttatataaaaaggaacaagaatactaatatattttcacaatccagtaaattgtgtaacattaaaaataattatagatgggtacaagacagctctgagaaatacaggaacgcaattgaagacccccaaataggtttacttttggatanatttatggaaaatagttatcctgataatggagatggtgttaatctagctgtagaaaacataaattacatatttgattatttggcaacgatgtctaatattaaaactactaagaaaacctttaaacaaaaacaagagaatgaaaaatggtatgactttgattgtaaaacaataaggaaaaanttaagacaactagcaaatcaaaaacacaggcaaccagagaatacagatttacgtcttcggtactacgaggagcttaaaaaatataaaaacacaatcagaaaaaagaaagnagagtacacccaaaaacagctcaaaacaattgaagaatctgttgactcnaacaatttctgggacaactggaacctccttaataaaaagaaacgtgaacagctaacaatacaaaatggagacacctggaaaaaccactttgaaaaactgtttagtaaaataaacatgagtacagaacaatcgcttatatataataaattaacccatacagagcaaatatttggcaaataccaaaatccgttagactacccaatcacagaaaaagagctactagataaaatacaagtcctaccaacaaaaaaggcaagtggtccagacggtatccttaatgaaatgattaaaaacataaatcacaaattccaattggctataatgaaactgtttaatttggttctgagtgttggtcatttccctgacatatggaataaaggattaataacgcccatattcaagagtggagacaaatcagaccctaataattacagaggcatctgtgtgagcagtaatctggggaagctgttctgcagcatcatcaacaccagactcataggcttccttacagagcacaatgtcctcagcaaaagtcagattgggtttctgccaaattacagaacatcagaccatatcttcacccttcagactctgattgacaaatacgtcnatcaaaacaaaaacaaaatatttgcttgctttgtagattttcagaaagcgtttgattcaatttggcatgaaggtctgctgtctaaacttctagaatcaggtatcggcggtaaaacatacaacattataaaaacaatgtattcgaacaatcagtgcgcaattaaaataggaaataagcgaacagaattcttcactcaggggcggggtgtgagacagggctgtccactgtcaccaaccctcttcaatatttacatcaatcaattggcaatgctcctagagcaagcagatacgccgggtctcacactatacgactccagtgtgaagttcctgctgtttgcagatgatctggtgctgctgtcgccaacagaagagggtctacagcagcagctggatatcctgcacagcttctgtcagacctgggccctgaccgttaacccaaagaaaaccaaaaccctaatattccagaaaaaaacccagatgtcagggaaagaaacacagcttcacccttggtatgacaaaaattgaacctgccacaagctacacataccttgggttgaaaataagtgctaatggaaaactaaatttggctgtgaatgaactgaaagagaaagcaagaagggccttttacgccattaaaaaaatcaacacaaatagaaattccaattcgaatctggctcaaaattttccagtcagtgattgaacctatagtnctatacgggagtgaagtgtggggtcctctcctcagtcatgagtttgataagtgggataaaaatccagttgaaagcctacatgcagagttctgtaggagcatcctcagggtacagaggaacacacccagcaatgcatgcagggcagaattaggccagtatcctctactcatgcgcattgagaaacganccgtcaaattttggaaacacatnaaaatgagtgaccccaactcttatcattttaaagccctcaaaacaccaagaaatggacattgaaaaaagccccctgattcagatggtcctgaagctgcaaacacaaaccaacacaacgaatatgactaacagcaggcagcatcaggacacggacatgctcatccacaaaattaagcccaatcaaataataaatgcacgaaaagaagagtatctgatttactggaatgaagcagccggaaaacaaagtaaacttcaatgttatttagacctaaatagagattataccacagcaacatatctgagtgcagtaaaggacagtaaactaagaacaacaatgaccaaatacaggctgagtgctcacagtctgactgtagagacgggccgatacagacagaactggcaacccagagagagccgcatctgcccacactgtgcccaggcagaggtggagacggaggaacacttcctcacccgctgcacaaactatcagcacatcagagaaacattctaccccaaactacagagcatttacccacaattcactgagttagacaataaaacacagcttcaatatttactaggggaaaaaaatgantgtgtccttctagcggcacaatacattaatgcctgtcacaaaaagagagagcaganccaataaaaacatcagtgatgcgcctgcaaacacacacacacacacacacacacctagatgattataaatgaatcattgtaaatatactgattattattgtttttattactgttttatcctaaaatgttgattgttaaatgtacagtttattctgatctatttttntattgatttgtatgaataatatgatatattgaataataagaataatatgatgtattgttgatattttatttaattattatatataaatatcatctttttttactactactatttactgtgtntactgttttttattatatatgtatgttactttttatgtaaactttataantgctttggcaatacatttgtaacatttgtcatgccaataaagcaattattgaattgaattgagagagagagagagagagagagagagagagag",
+  "length_bp": 3260,
+  "sequence_length_bp": 3260,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "1..2833",
+      "start": 0,
+      "end": 2833,
+      "qualifiers": {
+        "product": "RTEX-2_DR_pol",
+        "number": "1",
+        "note": "Fragment, via tfasty with RTEX-1_DR_pol [Danio rerio]",
+        "translation": "NGRVRGDSLGRYTYSSSLGSSTVDYMITDLDLFSFSAFTVKPLTPLSDHSQITLYIKR"
+      },
+      "label": "RTEX-2_DR_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "RTEX-2_DR"
+  ]
+}

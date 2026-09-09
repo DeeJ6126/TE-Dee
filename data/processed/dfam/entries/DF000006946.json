@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006946",
+  "name": "ZenoSINE1_hTel",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "SINE/"
+  ],
+  "species": "Heliconius",
+  "display_classification": "SINE/ | Heliconius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae",
+    "Heliconiini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 354 BP; 81 A; 98 C; 97 G; 77 T; 1 other;"
+  },
+  "sequence": "tttgtgccgtgtgatcccggcctagaataggatcatcctggtactggtggtgtcgtaagaggcgactaaagtacgtgtggtagagtcacgtcgccagcaatggcaacacgcatgggcagactcgaccggatcattaccacccccggcatttaaaaccggcgtgaagtagtggctttatgccactgcgtttcgcatcaggtaatgccgggctccggcgcccaacccaccttaaaggccggcaacgcacctgtagctcctctggtgttgcacggggtcgtgggcggcggtgatcacttaccatcaggtgacccgcacgctcgtttgccttgccttntccataaaaaaaaaaaaaaa",
+  "length_bp": 354,
+  "sequence_length_bp": 354,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

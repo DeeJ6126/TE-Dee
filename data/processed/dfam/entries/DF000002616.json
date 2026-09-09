@@ -1,0 +1,49 @@
+{
+  "accession": "DF000002616",
+  "name": "B1_Mur4",
+  "description": "SINE1 from Muridae.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Muroidea",
+  "display_classification": "SINE/Alu | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 150 BP; 40 A; 40 C; 47 G; 23 T; 0 other;"
+  },
+  "sequence": "agccgggcggtggtggcgcacgcctttaatcccagcactcgggaggcagaggcaggcggatctctgtgagttcgaggccagcctggtctacagagtgagttccaggacagccagggctacacagagaaaccctgtctcaaaaaaacaaaa",
+  "length_bp": 150,
+  "sequence_length_bp": 150,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "B1_Mur4"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281589",
+  "name": "ArtJam-5.74_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ArtJam-5.74_LTR"
+  ],
+  "species": "Artibeus jamaicensis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Artibeus jamaicensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Stenodermatinae",
+    "Artibeus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 333 BP; 81 A; 91 C; 77 G; 83 T; 1 other;"
+  },
+  "sequence": "tgtgggaagctttggaaaacctttgttcacccaaaccccaagcgccctgggagagcgataaggccgtctgggaaaagcaaacagcaggatattcacaagggctagggctagcacccccgcggttagaactaatttccgcatttagcctttgtactctgcttctgccacgtagntagaactaatttccgcattccgcttctgtatcccgctttgctacgtagacaggaagaccccgtagactatataaaccccaagaatcctttgttcggggctcagaatttggagactgactcctctgggcccgtgcacgttaataaacctcgtgttttccgc",
+  "length_bp": 333,
+  "sequence_length_bp": 333,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

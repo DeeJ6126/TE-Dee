@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279681",
+  "name": "OrcOrc-1.244",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Orcinus orca",
+  "display_classification": "DNA/TcMar-Tigger | Orcinus orca",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Delphinidae",
+    "Orcinus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1023 BP; 279 A; 224 C; 237 G; 283 T; 0 other;"
+  },
+  "sequence": "cagtaagtcccctacatacgaaccttcaagttgcgaactttcaaagatgcgaacgtgcgttcgcatgtccaatcacgtaagttagttcacgtgtctggcgtacattgtcacgtgcgtgcatcctctacaagtggttgtgcttttgtgtactttactgtacagtactgtatagagtacagtagtacagtatctttatttcaagcccaggatgtccggaagcaactagacccagcgagaagctggagctagatctgcaagaggacgacttcactgaactccttgctgtgcaacacgaggagcttactaatgaagacctgatggaattggaggcccagagaaaggacgaagagagacaagaggaagaagaagtaactgaagaaccgaagagattcacgacgcaggaaatggcaaggggattttctttatttgaggaggcactgttagtttttgaggcacaggacccgaacgtagaacggtacacgaaggttgcagcagccgttcagaatgcaatccagtgctaccgtgtcatctatgacgagaaaaaaagagctactacccagacatcactggatcgttttttcaagagggtagatagaattgaatccagcaaggaaccagaacctgtgccatcaacgtcaggcgtgagtgaaattgcagcttgccctccgtctcctattgctgacgatccttcagctctaccatctcccacctcctctccctcctccagtcagtaactcttcttgcctgttcactcgatgccagcccctgtatgccagctgttgtactgtactactgtacttttcaaggtactgtactgtaagattaaaaatgttttctttattttttgtgtttgttttttatgtattatttgtgtgaaaagtattataaacctattacagtacagtactatatagccgattgtgttagttgggtacctaggctaactttgttggacttacgaacaaattggacttacgaacgcgctctcggaacggaactcgttcgtatgtaggggacttactg",
+  "length_bp": 1023,
+  "sequence_length_bp": 1023,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275360",
+  "name": "CavTsc-1.199",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CavTsc-1.199"
+  ],
+  "species": "Cavia tschudii",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Cavia tschudii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Caviidae",
+    "Cavia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 198 BP; 49 A; 46 C; 75 G; 28 T; 0 other;"
+  },
+  "sequence": "gcggagagcggaccggtagaggcttcgggacagactgtagggagaagcacgcaaggagccgcggggagcggaccaacagaggcttcggccgggaggattcccggggcaggctgtacggagaaggaaaataaaagaaaaggttgtccactgccagactttgttgtgtgtccttcctgccggccgggagtgacaccgaca",
+  "length_bp": 198,
+  "sequence_length_bp": 198,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

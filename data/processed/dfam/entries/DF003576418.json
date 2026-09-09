@@ -1,0 +1,39 @@
+{
+  "accession": "DF003576418",
+  "name": "SINE_C.gigas_cons_1_sub2",
+  "description": "Repetitive sequence family identified in Crassostrea gigas",
+  "keywords": [
+    "SINE/tRNA-V"
+  ],
+  "species": "Crassostrea gigas",
+  "display_classification": "SINE/tRNA-V | Crassostrea gigas",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Ostreida",
+    "Ostreoidea",
+    "Ostreidae",
+    "Crassostrea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 136 BP; 22 A; 35 C; 44 G; 34 T; 1 other;"
+  },
+  "sequence": "aggtgtccaagtagcgtagtggacaatgcactcgcttntcaccgctgcgacccgagttcgatccccgtgatcgacagtggttgtatgtgatagggtatggcggtcgcccgcttggacacgtgggttctctccgggt",
+  "length_bp": 136,
+  "sequence_length_bp": 136,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

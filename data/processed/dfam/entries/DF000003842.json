@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003842",
+  "name": "TE-U_1_DR",
+  "description": "Non-autonomous transposable element from zebrafish",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Satellite/ | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 286 BP; 76 A; 69 C; 44 G; 96 T; 1 other;"
+  },
+  "sequence": "tgtttgtttttgtgaaaagtggggacattacataggtttccattcattttatactgtccaaaccgtatattgtattgccctcaccccaccccacccctaaacccaaccatcacaggagactgtgtgcagctttactctctgattaaactcattctgtaggatttataagcnttttgagaaatgaggacgtcaccaatgtcctcatatttcacctcctttttgtaatacctgtgtcatacccatgtcattatacagatttgtgtcctgatatgtcacaaaaacacgt",
+  "length_bp": 286,
+  "sequence_length_bp": 286,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TE-U_1_DR"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000977",
+  "name": "MER85",
+  "description": "PiggyBac DNA transposon, MER85 subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "DNA/PiggyBac | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 139 BP; 40 A; 30 C; 27 G; 41 T; 1 other;"
+  },
+  "sequence": "ccatttatgcctagtgttccattattggaacgctaagcatgtgggagttatttatatcctactgctcaaggtcatcgccaaggtctgatttttcacncgcgcaaaaattcaaaaaattgcaacctcaggcataaatggg",
+  "length_bp": 139,
+  "sequence_length_bp": 139,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER85"
+  ]
+}

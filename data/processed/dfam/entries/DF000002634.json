@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002634",
+  "name": "hAT-N132_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Tip100 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1293 BP; 423 A; 240 C; 253 G; 375 T; 2 other;"
+  },
+  "sequence": "cagggccggattaacgtaagggctaggtggggctgaagccccagggcccacggaagaagggggcccttgattggctgaagaattaatttgcgctatgacgcgggaaacgcctctttgcgttatgctttctctcgtcgataatgtgaagtattcctttcggttcgctgctgttcaaaaacagtgacgccggtgctaaactggggctcggagtggctgtagcccaatcagaatattgaatagccctgttttagtcacccataagggtgatcagatgtcccaattttcccaggacagtcccttatttcggcactaccgcgagaaccgtccagtcaaaggtaggctaaccaagctcgtcgtagaacaaaaaataaaattcaaacagtcttcatcattgatacacttgtacatgtagtaacagaagctgggataggcggaatcatgctgaatggactcataactgaagcgctgtctcggccgcgcggcggttacagctggactcaaaccggcgcgcgcccgcacaatccttccatcacacaatataaccgagacagtgtgcgaacaaatcaaatagcctacacaagcagttatcaaaatatccatcgttgcggagtatctatctcaagtaaatacactcggttatgctttacagtaagtctaactgaaccagttagaaagcaaacttttttatgaatgtttactttgccccttttatgaaaacgacagtaataatatggagcaatgaaatattggcgctggctttcatcagacaatatatctgatgcaaaaaataaataaataaataaaataaggatgctagccttctgtaactcagaagaccacaataagctattttggatattagaagcatggatnttaaagatattatatcattagggatttatggtcagctaaagttctaaagaanctttttaaaggtaaacccctatttaaagtatttattataaagcactaatttaggaagtattgcaaatgtttttttttttttttgctgatttttgcagcctgtttgaactttaaagttcatattatgtcattacttaattttgtatacttgcaggcctattttaataaaatagaaaaatatataataatcaaatataaatcaaatggtggaaaattagataataatattaattagtaaattattaataataataacaacaataataacaacaacaataatatatattttacttttgtgaggtaaaaataaaagggggcccttggatttgctatagccccagggcccaatgtgttcttaatccggccctg",
+  "length_bp": 1293,
+  "sequence_length_bp": 1293,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "hAT-N132_DR"
+  ]
+}

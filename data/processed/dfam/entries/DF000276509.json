@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276509",
+  "name": "DolPat-1.48",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Retroposon/sno-L1"
+  ],
+  "species": "Dolichotis patagonum",
+  "display_classification": "Retroposon/sno-L1 | Dolichotis patagonum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Caviidae",
+    "Dolichotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 723 BP; 176 A; 167 C; 198 G; 182 T; 0 other;"
+  },
+  "sequence": "gtggccctgaagcaaggccagcagatcgctgtagctgctggtttcaaacaggagcctaaagagaattctttctgtggtctgttggccatttcagaactttggaaatggaatggtcaattcatcagaaagaaatagcaggtgagtatggcggactttagggggcctgcaggggagagaccctggcgcctcgggacctgcaccgtgcggttgactcggggtgccgggagaacaaggagctcctcccctctctggggggcggctgagagtgtggcagactttcggcggcccgaaggagagagaccctggcgcgtcgggacctgcaccgtgcggttgactcggggtgccgggagaacaaggaactcttcccgtctctggggggcgactgtgatcctgcctgcgtgtgggctgagaatcagacatctcatgtcgtcctgtcccccatcccgtgtcccccctccccctcccccctgcctagcaagtgggagccagtgaactacacatcttgtgaaaagattggctatgttatttagtatgagctctccatatgcaaagataaggacaaccatttggaagaaaacaagagacaatatgacagatagtgaagatctctggttgtctagctttgaaatttatgctttcttatgtcccattctgttctgttttgttgtgtttaattttactcccttttaaaataaaataaaaaaattttaaaaaaaaaattaa",
+  "length_bp": 723,
+  "sequence_length_bp": 723,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

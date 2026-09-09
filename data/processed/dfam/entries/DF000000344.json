@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000344",
+  "name": "L1PA7_3end",
+  "description": "3' end of L1 retrotransposon, L1PA7_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "LINE/L1 | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 901 BP; 343 A; 180 C; 193 G; 185 T; 0 other;"
+  },
+  "sequence": "ctaatatccagaatctacaaggaacttaaacaaatttacaagaaaaaaacaaacaaccccatcaaaaagtgggcgaaggatatgaacagacacttctcaaaagaagacatttatgcggccaacaaacatatgaaaaaaagctcatcatcactggtcattagagaaatgcaaatcaaaaccacaatgagataccatctcacgccagttagaatggcgatcattaaaaagtcaggaaacaacagatgctggagaggatgtggagaaataggaacgcttttacactgttggtgggagtgtaaattagttcaaccattgtggaagacagtgtggcgattcctcaaggatctagaaccagaaataccatttgacccagcaatcccattactgggtatatacccaaaggattataaatcattctactataaagacacatgcacacgtatgtttattgcggcactgttcacaatagcaaagacttggaaccaacccaaatgcccatcaatgatagactggataaagaaaatgtggcacatatacaccatggaatactatgcagccataaaaaaggatgagttcatgtcctttgcagggacatggatgaagctggaaaccatcattctcagcaaactaacacaggaacagaaaaccaaacaccgcatgttctcactcataagtgggagttgaacaatgagaacacatggacacagggaggggaacatcacacaccggggcctgtcggggggtggggggctaggggagggatagcattaggagaaatacctaatgtagatgacgggttgatgggtgcagcaaaccaccatggcacgtgtatacctatgtaacaaacctgcacgttctgcacatgtatcccagaacttaaagtataataataaaaaaaaaa",
+  "length_bp": 901,
+  "sequence_length_bp": 901,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1PA7"
+  ]
+}

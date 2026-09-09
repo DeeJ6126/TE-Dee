@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280439",
+  "name": "RhiPru-5.47",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Rhizomys pruinosus",
+  "display_classification": "LINE/L1 | Rhizomys pruinosus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Spalacidae",
+    "Rhizomyinae",
+    "Rhizomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1121 BP; 414 A; 197 C; 210 G; 299 T; 1 other;"
+  },
+  "sequence": "aagatggctgagaaacatcttaaaaagtgttcaacatcgttaataattaaggaaatgcaaattaaaaccactctaagatatcatctcactccgataagactggctaagatcaagaaaacaaaagacaccaaatgctggagaggttgtggggaaaggggaacactcatccactgctggtgggaatgtaaactcgtacaaccgctgtggaaagcagtgtggagaacccttaaaagactcaaaatgagcctaccacctgacccagccataccacttctgggtatatacccacgagactcatcctactgcaaagatacatgcacatctatgtttattgcagctcttttcacaatagcgaagagttggaaccaacccaaatgcccctcaactgaggactggataacaaaaatgtggtacatctacacaatggagttctatgcagcggtaaagaaagatgacatcatgagatttgcaggtaaatggatggaacttgaagccattatgctaagtgaagtaacacagtcccccanaaaacaaacggggaatggtttccctcatttgtggatgctagtaccaaatcccccaattgaaagaaaagctgagcaatgttattgttatatttctttctatctgaaagcaactgtgatgttataatgtgaatatcttaatgagccctagaattaacttaccacctactttcaggcatggtaattaatgtacatgggcggaaggtatatattcatattttagagtaatataaaattaaaagaaaaaatctgaacccctgaacataataaaaaaagaagggatgtgtggatgaaactgatcaatgaataccaagttggttacatacagcatgatgctttggtgtacgattttacagtaggatcaatatagatgtgatattgcatgcatttcaaaagcctcaaagaaagaactgtgtaattttgttcagaactgtggaatttttaaccacaaagaaattatacatgtttaacgacctagacatgttcagcagttttaagttttaaacaatgtatatatgcatgaaacatcatgtgaccctataaatatgtacaactttatatttgtatatgtcagccaaaataaattaaataaaaaaa",
+  "length_bp": 1121,
+  "sequence_length_bp": 1121,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

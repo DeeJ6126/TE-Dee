@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281881",
+  "name": "DinBra-1.190_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "DinBra-1.190_LTR"
+  ],
+  "species": "Dinomys branickii",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Dinomys branickii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Dinomyidae",
+    "Dinomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 419 BP; 71 A; 153 C; 91 G; 104 T; 0 other;"
+  },
+  "sequence": "tgataagtcacaaggcagccagcctcacccccctcgtgggaaaactttaactctcaatatttctctcgttcccttacctgttccacttcagttcccctcggccacaaaagctgcccccgccctcattcgctctggcagttcacctgctcgggtcattctgacatgggcaactcctgccgttcaggcttctggcctggacgccctcccggccgctcagggctcggcctgttctggcccagggacatctccttaccccaccccacccccgccagaaaaaagagcttaaaggcccacgctttcctcagctcggggctaccttggtccgctaggtagcctgctactctgtccctcccccaataaagacttctctcgtgtcagaaggtctggtctggttccgtgtggggtctcggtttctatca",
+  "length_bp": 419,
+  "sequence_length_bp": 419,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

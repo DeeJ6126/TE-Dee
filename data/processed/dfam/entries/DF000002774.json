@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002774",
+  "name": "L2-48_DR",
+  "description": "Non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/L2"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/L2 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1146 BP; 327 A; 243 C; 189 G; 384 T; 3 other;"
+  },
+  "sequence": "ctgacttgcggtgttccacagggatcgattcttgcaccccagctattctcgttatatatgctgcccttaggaactataatgagaaagtttggaattatgtatcactgctatgcagatgatacacagctttatatacctatccaaaanaatgatagcttaaccctcaagagattagaagattgtcttcgcgaaatcaaactctggctcaccgataactttatgcttttgaatgaagataaaacccgagttattctttttggtcctccacagcattctagcaaaccacctaccgatctcggtgtattaaactgttacctcacctctgaagttaaaaaccttgggtttctactagacagtagtctaaaacttgacaaacaaataagtaaaatagtaagttcaagtttttatcatctacgacgactagccaaagtgaaacccttcctaagcaggaagggctttgaaacgactattcatgcttttatttccacgcgattagattattgtaattctttatatattggtctaccttcatcttctatttctagacttcaaatggtccaaaatgcggccgcccgtttgctcacgagtagccacaaatatgaccatatcacaccaatattgcgatcactacattggttgccggttcatttccgaatagactataaaattttactctttgtttataaaaccttgcataacctagcgccaccgtatctttctgatctgatcactactaaggcccaaacccgatcgcttagatcaaattccgactgccatctattgcaaatacctcgatctcgtctcaaatgcaggggcgatagagcctttgcagttgtgggtccgaaanctatggaataagttaccattaaaaatcagaatagcacccactctatctatttttaaatcgatgttaaagactcatcttttttcgagtgcatttaatattccctaatggcggttccaggctatactaaattgcttctttcttggaaacttttactgttgttactattgttttatattgttgtttttattgtagtgtattgctgttttttnacctgctactgctattgtacagcaccttggtcgaccaaaggttgtaattaagtgtgctctagaaataaactttgatttgatttgatttga",
+  "length_bp": 1146,
+  "sequence_length_bp": 1146,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L2-48_DR"
+  ]
+}

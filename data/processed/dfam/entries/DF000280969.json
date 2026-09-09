@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280969",
+  "name": "ThrSwi-4.14",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B4"
+  ],
+  "species": "Thryonomys swinderianus",
+  "display_classification": "SINE/B4 | Thryonomys swinderianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Thryonomyidae",
+    "Thryonomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 289 BP; 75 A; 84 C; 84 G; 45 T; 1 other;"
+  },
+  "sequence": "gggccggagggttagctcagtggttccggcgcctgcctcgcaagcgcaaggtcctgagttcgatccccggtaaccacatataatgctgggcgtggagacacgcccaccaacaatcaacaccgcataccacaatgccgggcgtggtggctcacgcctgtnatcccagcactcgggaggcagagacaggaggattgctgagttcgcggcggcttgcctgggcaccatagtgagctcagggccagcctgaactacaaagcgagaccctgtctcaaaaagcaaaaaaaaaaaa",
+  "length_bp": 289,
+  "sequence_length_bp": 289,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,39 @@
+{
+  "accession": "DF000001085",
+  "name": "UCON11",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON11 subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Tetrapoda",
+  "display_classification": "DNA/TcMar-Tigger | Tetrapoda",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 438 BP; 133 A; 88 C; 77 G; 130 T; 10 other;"
+  },
+  "sequence": "tacagtggnaccctgttacagcgagtcccctgananagcgaacgtttcctgaagtcccgttnctttccaatgtatttnagtagagcaaaaacnccgttatagtgaacgaatcccctgttacagtgaacaatcactcggcagcgtaggttattttaatggacacatcactttaaactaagccttcaccatctgttccgccctctaattacaaatgcaaaaagaacataattcacaattgcatcataaaaaagtaagatataagtgatttaaatgcatgtntatgttctttattcaatgcagcatgcatctgttatgtttttctcatgtttcaggcacaaatcaggagggaaactgctcttccctgatggagtgaatttcctgacatagtnaanttttttcacgggaaacaggaattcattanaagagggtttcactgta",
+  "length_bp": 438,
+  "sequence_length_bp": 438,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON11"
+  ]
+}

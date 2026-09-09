@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275230",
+  "name": "CamFer-1.20",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Camelus ferus",
+  "display_classification": "LINE/L1 | Camelus ferus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Tylopoda",
+    "Camelidae",
+    "Camelus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 704 BP; 272 A; 116 C; 149 G; 166 T; 1 other;"
+  },
+  "sequence": "gtgtggagaaaaaggaaccctcctacactgttggtgggaatgtaaattggtgcagccactatggaggacagtatggaggttcctcaaaaaactaaaaatagacttaccatatgatccagcaatcccactcctgggcatatatccggagaaaaatataattcgaaaagacacatgcaccccaatgttcacagcagcactatttacaatagccaagacatggaaacaacccaaatgtccatcgacagatgactggataaagaagatgtggtgtatatatatacaatggaatactactcagccataaaaaagaataaaataatgccatttgcagcaacatggatggacctggagatcgtcattctaagtgaagtaagccagaaagagaaagaaaaataccatatgatatcgcttatatgtggaatctaaaaaaaaaaggacacaaatgaacttatctacaaaacagaaacagactcacagacatagagaacaaacttatggttaccagggggtaaagggggtgggaagggataaattgggaattcgaaatttgcacctcttggggagtgatggaaatgttagctatcttgattgtggtggtggtttcatnggtgtatacatctatcaaaattcatcaaattgtacatctgaaatatgtgtagtttactgtacaggaatcataccacaataaaggtgttaaaaaaaaa",
+  "length_bp": 704,
+  "sequence_length_bp": 704,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

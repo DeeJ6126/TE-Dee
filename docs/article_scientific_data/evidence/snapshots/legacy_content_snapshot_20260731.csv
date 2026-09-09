@@ -1,0 +1,11 @@
+component,unit,count,definition,source,snapshot_date,boundary
+Neo4j,TE node,225,TE entities in tekg3,read-only Neo4j label-count query,2026-07-31,Not identical to Browse catalogue entries
+Neo4j,Paper node,2308,Retained publications represented in the graph,read-only Neo4j label-count query,2026-07-31,Agrees with final retained literature corpus
+Neo4j,directed BIO_RELATION,12444,Stored biological relationships counted once in their stored direction,read-only Neo4j relationship-count query,2026-07-31,Undirected traversal count rejected because it double-counts stored relations
+Neo4j,biomedical entity category,11,Supported entity categories excluding Paper DiseaseCategory and taxonomy labels,schema and label audit,2026-07-31,Categories differ in record count and source coverage
+Browse,catalogue entry,276,Versioned MySQL-backed TE catalogue record,live api/browse.php response,2026-07-31,Different record unit from graph TE nodes
+Taxonomy,TE with taxonomy class,192,TE with assigned taxonomy class in live summary,live api/taxonomy.php?view=summary response,2026-07-31,Denominator is 225 live taxonomy TEs
+Expression,sample,1158,Sum of 205 normal tissue 307 normal primary cell and 646 cancer cell line samples,matrix shape audit,2026-07-31,Contexts are not a matched experimental cohort
+Co-expression,searchable catalogue entry,784,285 TE plus 499 Gene entries,live co-expression catalogue response,2026-07-31,Approved display catalogue rather than full offline-network features
+Download,file,10,Six expression two graph and two taxonomy files,runtime Download route audit,2026-07-31,Durable public release and file licences remain missing
+

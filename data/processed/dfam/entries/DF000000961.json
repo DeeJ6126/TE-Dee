@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000961",
+  "name": "MER95",
+  "description": "MER95 Long Terminal Repeat for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER95"
+  ],
+  "species": "Euarchontoglires",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Euarchontoglires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 431 BP; 138 A; 95 C; 66 G; 124 T; 8 other;"
+  },
+  "sequence": "tgttnaagaaaataaaaatggaggccacagtttagatataccccaaggccaaccgcccatagccacgtagccaaaacttaagtcatcctgatttccccgaaacgctagctctaatcataaacgaaacacaaaacgtaagctttacgtccttgtcagcatgattcagtgaaattaaaccaatcagctatagacaaatcagcttaaacagctctgcttgccttaaaaagaatgttaatgtataacagccaatcacgaaaaaggtcaaaatacttcctcctttatgctttataaactgtgctgtaactgctgtaagnngagcttcttaccactttcggtttgaggtctcccggttcgcgaactgttctttnnnncgntgtatgcacaataaactttaaaatttttcctaacttgatctgattttatttttgaca",
+  "length_bp": 431,
+  "sequence_length_bp": 431,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER95"
+  ]
+}

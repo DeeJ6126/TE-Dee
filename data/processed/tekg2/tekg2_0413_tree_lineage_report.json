@@ -1,0 +1,35 @@
+{
+  "source_files": {
+    "tree_file": "transposon_tree\\tree_rmsk_repbase_4.18.txt",
+    "seed_file": "data\\processed\\tekg2\\tekg2_0413_seed.json"
+  },
+  "counts": {
+    "seed_te_count": 244,
+    "parsed_tree_lines": 1779,
+    "matched_tree_node_lines": 156,
+    "missing_tree_node_lines": 1430,
+    "missing_tree_node_unique_names": 1370,
+    "lineage_edges": 73
+  },
+  "meta_node_summary": {
+    "root": 10,
+    "Class I": 1,
+    "Order": 3,
+    "Superfamily": 25,
+    "Family": 146,
+    "Subclade": 1,
+    "Class II": 1,
+    "Subclass I": 1,
+    "Subclass II": 1,
+    "Subclass III": 1,
+    "Subclass IV": 1,
+    "Subclass V": 1,
+    "Subclass VI": 1
+  },
+  "generated_files": {
+    "lineage_json": "data\\processed\\tekg2\\tekg2_0413_tree_rmsk_repbase_lineage.json",
+    "lineage_csv": "data\\processed\\tekg2\\tekg2_0413_tree_rmsk_repbase_lineage.csv",
+    "missing_json": "data\\processed\\tekg2\\tekg2_0413_tree_rmsk_repbase_missing_nodes.json",
+    "lineage_cypher": "imports\\import_tekg2_0413_tree_rmsk_repbase_lineage.cypher"
+  }
+}

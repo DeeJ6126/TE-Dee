@@ -1,0 +1,48 @@
+{
+  "accession": "DF003440156",
+  "name": "Helitron8_pKuh",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Pipistrellus kuhlii",
+  "display_classification": "SINE/tRNA | Pipistrellus kuhlii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Pipistrellus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 448 BP; 121 A; 100 C; 125 G; 100 T; 2 other;"
+  },
+  "sequence": "aaaaaaaanttagccgaaaccggtttggctcagtggatagagtaggggtgtcgaactcaatcagagaaggggccaaaatctaaaatccagcctaaatcgcgggccgaatggtttactgaacagtcataaactgtcattgtgatggaaacgcagcggagtgcagtgatgacagcgcggtgcgggccacattgcaaggcctggcgggacggatttggcccgcgggccttgtgtttgacacatgtgggatagagcgtcggcctgcggactgaagggtcccgggttcgattccggtcaagggcacgtaccttggttgcgggcacatccccagtagggggtgtgcaggaggcagccgatcgatgnttctctctcatcgatgtttctaactctctatccctctcccttcctctctgtaaaaaatcaataaaatatatttaaaaaaaaaaaaaaa",
+  "length_bp": 448,
+  "sequence_length_bp": 448,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

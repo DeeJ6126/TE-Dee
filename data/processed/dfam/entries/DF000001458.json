@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001458",
+  "name": "PAL9A_CE",
+  "description": "PAL9A_CE is a putative nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/MULE-MuDR"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/MULE-MuDR | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1947 BP; 592 A; 368 C; 359 G; 592 T; 36 other;"
+  },
+  "sequence": "ggcaatctatcccatgctcacatttcccatgcacacatttcccatgctgacactttctcccgtgcatacaaaattcccatgcttacgcccagtagttcgagtactcccatgcctacaattaatttttctcctttttttccgttcccatgctgacattcccatacatacattttctcccgtgcatacaaaatattccgatgcttacatccagtagtcgaagtactcctatgcctacaactcatttttcccttttttttcgttcccatgctgacattcccatacatacattttctcccgtgcatacaaaattcccatgcttacatccagtagtcgaacgttcccatgccgacattcccacacatacatttgttcccatacttacaaaaatgtattcccatgccgacatggagcatttttgtgctccagaagagcacaaagtcaatttttttgctcattttcattgtattaggcttacttgacagctttcagttacaactgatcgctttttttttcaaaatgcattagttctcgattatgaacaaggaatcgaagaaaaatggggatgactgcctatagagtaaaatttttttttgctcaaaaaaaattttttttttgaaaattttttttctctctattttgtaggatataattaattcggtgaattccacaacttcgaatgttcatattgctgtttccgtgcagttatgagtttcgcagtgtcttaggaacattccattttttgttgcattttgtaggaattcggagctatcttataatttctacaaattagaaaatccatttcgcattatttcatgtaacttgaacctattgcttcaaaaatagcacagaacgaatgttgattctgtttctttcattaaaaaatgtgctactgtgcattttttcccacttctacgactttaaaggngggcgcatttatgcgaaatggtcccgccattggtctcgccagcgctcaacaaatcaatgggatgcgcgtggcgagaccattgcgcgnaaattcgcgcgcctttaaagtcgtagaagtgggaaaaaatgcacagtagcacattttttaatgaaagaaacagaatcaacattcgttctgtgctatttttgaagcaataggttcaagttacatgaaataatgcgaaatggattttctaatttgtagaaattataagatagctccgaattcctacaaaatgcaacaaaaaatggaatgttcctaagacactgcgaaactcataactgcacggaaacagcaatatgaacatttgaagttgtggaattcaccgaattaattatatcctacaaaatagagagaaaaaaatttttcaaaaaaaaaattttttttgagcaaaaaaaaattttactctataggcagtcatccccatttttcttcgattccttgttcataatcgagaactaatgcattttgaaaaaaaaagcgatcagttgtaactgaaagctgtcaagtaagcctaatacaatgaaaatgagcaaaaaaattgactttgtgctcttctggagcacaaaactgttccatgtcggcatgggaatacatttttgtaagtatgggaacaaatgtatgtntgggaatgtcggcatgggaacgnncgnnnnncgnncgnnnncgcgnnnnnnncgnncgcgcgnnnnnnnncgnncgnatgggaatgtcagcataggaacgaaaaaaaatggaaaaaatgaggtgtatgcataggagtacttcgactactggatgtaagcatgggaattttgtatgcaccggaaaaaatgtatgtatgggaatgtcagcatgggaacggaaaaaagggaaaaaatgagttgtaggcatgggagtactcgaactactgggcgtaagcatgggaatattttgtatgcacgggagaaaatgtcagcatgggaaatgtgtgcatgggaaatgtgagcatgggatagattgcc",
+  "length_bp": 1947,
+  "sequence_length_bp": 1947,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PAL9A_CE"
+  ]
+}

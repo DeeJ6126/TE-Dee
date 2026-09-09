@@ -1,0 +1,5 @@
+{"case_id":"TPL_AGENT_001_MECHANISM","question":"How does LINE-1 contribute to cancer?","expected_best_mode":"agent","template_label":"Mechanism review"}
+{"case_id":"TPL_AGENT_002_EVIDENCE_AUDIT","question":"What papers support the relationship between LINE-1 and Alzheimer's disease?","expected_best_mode":"agent","template_label":"Evidence audit"}
+{"case_id":"TPL_AGENT_003_BATCH_COMPARISON","question":"Compare the evidence strength linking L1HS, AluY, and HERVK to cancer.","expected_best_mode":"agent","template_label":"Batch comparison"}
+{"case_id":"TPL_AGENT_004_GRAPH_RANKING","question":"Which disease has the strongest association with transposable elements in the knowledge graph?","expected_best_mode":"agent","template_label":"Graph ranking"}
+{"case_id":"TPL_AGENT_005_RESEARCH_REPORT","question":"Generate a research report for L1HS including sequence, genomic location, expression, disease links, and literature evidence.","expected_best_mode":"agent","template_label":"Research report"}

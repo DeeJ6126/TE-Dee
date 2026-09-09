@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282398",
+  "name": "OnyTor-1.268_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OnyTor-1.268_LTR"
+  ],
+  "species": "Onychomys torridus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Onychomys torridus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Neotominae",
+    "Onychomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 404 BP; 82 A; 116 C; 93 G; 112 T; 1 other;"
+  },
+  "sequence": "tgatagaaaattacaacatgtccacacggttgggcttgcccggcggaccgcctaattatttccggttcaaaatagccatttccaggtcagaacatctcgcgtggctaggactccgtggctttacatggttgcgtaaagcgcgcgcggccatgtaatctacgcgcatgcgtggagtagccacatgcggtcctgtacgcatgcgcggcccactctttaaaaagccggcgccattttgcacaggtctctcttcttcttctcttctctcctctcctcactcacgtgtgtgcttcacacaggcctgtcacgtctntcctctatcctatattaataaacagctcttctgtggatttgtcgtgttcgggacgtgttcctcgcggggtaagagcgccgctaaataactaaca",
+  "length_bp": 404,
+  "sequence_length_bp": 404,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

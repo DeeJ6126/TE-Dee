@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002150",
+  "name": "RMER13A",
+  "description": "Long terminal repeat of retrovirus-like element.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RMER13A"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 860 BP; 171 A; 312 C; 225 G; 146 T; 6 other;"
+  },
+  "sequence": "tgtgggacgtaaaaccatgccaggaagcttggtaaggtagagcgggttgagacccggagactcggtgggcacacacctgaggcttaggcgactcccngctccctgccagactcctggcctggaacacgtgccacgctcctcacataaagaaacgtgacctgtggtcacgtaggcccaaaacagagttctccatgctaatgaggtacctagaggcccggagggcttagccaataagcttcccttcccagacattcctccctgcaaaaggtatttaatctcaggcccaccctgagaagtgggtatggtncgntatgcatccattttccgccatgaacagccaataaacngtttagaaccatggactgtctctttcatcaagatccgccgtggggagccatggagaaggccttcgcctacagagccgcagcctaattctcccgtagaaggcctctctgcgctcccagccacaaccgccaccaagcctgcctccgccaagctaaggacaatcaccgctgggacaagccggagctcccctttcccccggccccgggctagacgctgtccccagcccgcgggcccccactccgttctcngctcttccgcgactcccagcggcgcctggatgtccaagagtctgagaaccccacggccccggcctcgtcgcaggcccggggacccccgaaccagctccggctttcccacatctcagactgcgctttcccacccccggagcggtgtctcggcgcttccctacagcccagcacccgcccggcggcggcgtgggataagcgcagtcaaactccccgcgttccgcctccccaagcggccgtgcccngcggcggggcggacgcggacccaca",
+  "length_bp": 860,
+  "sequence_length_bp": 860,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RMER13A"
+  ]
+}

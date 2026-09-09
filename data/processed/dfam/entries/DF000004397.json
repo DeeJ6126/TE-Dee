@@ -1,0 +1,51 @@
+{
+  "accession": "DF000004397",
+  "name": "Halyomorpha_halys-1_family-204",
+  "description": "Repetitive element of unknown type",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "Unknown/ | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 185 BP; 57 A; 40 C; 15 G; 72 T; 1 other;"
+  },
+  "sequence": "tttttttttntctttttatttatacccgcacctgtcaaatacaaaattgacaatcagcggattgcctgactgttacattaattaaacaaatagcatattagtgcacccccaaccatcttctcctcatatatatcatccacggtcaactatcttctcataattttatattttatatttattaaaga",
+  "length_bp": 185,
+  "sequence_length_bp": 185,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,44 @@
+{
+  "accession": "DF000277970",
+  "name": "MacSob-6.163",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Chiroptera",
+  "display_classification": "DNA/TcMar-Tigger | Chiroptera",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 175 BP; 40 A; 45 C; 37 G; 53 T; 0 other;"
+  },
+  "sequence": "caggcatacctcgttttattgcgcttcgctttattgcgcttcacagatgttgcgttttttacaaattgaaggcaagaccctccaccagcaaaaagattacgactcgctttattgcgatactcgctttattgcggtggtctggaaccgaacccgcaatatctccgaggtatgcctg",
+  "length_bp": 175,
+  "sequence_length_bp": 175,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

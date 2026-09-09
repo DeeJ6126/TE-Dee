@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002070",
+  "name": "RLTR25B",
+  "description": "ERV2 Endogenous Retrovirus from Muridae.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR25B"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1028 BP; 288 A; 214 C; 284 G; 234 T; 8 other;"
+  },
+  "sequence": "tgccgagtccngcatggccatggaagggacggcgtgacatggtttcctgcccctggaacagagccagcagggcgtgggcctccacgagtgttgatggttgctgtgggcgtaaggcttgtttgtataataatgtacatattttcacgttcctccttcgaggaatgtcctccctgccaaggttaatgactccatgataatcagagacagcacgagtccgggaggcgagggtgtgtctatgtctcagcaaaatggtaaacgctgngaccttcaggacagcccttaaggctgtgggaaagaactctgaaaacatgagttcaaaaatatataatttctcaactatgcaaaatataaggatgcaatatgaattgtatgaggggcttcacggacctaaaggaacagaggcagctgcactatgagccagcttgtcagaaagatacaaaggnaggcagaaggcaggcagattcctgagttcaaggtcagcctgggacagagcgagtttaggcccaggantatggtgggaatggtaatctcagggcggggtcccacccagctagcttattgtctgtgcttacaaaggcaggcagatctctgaattcntttgcaatgttaaaaaaaaaatntgtgcttgctgtctctttctaagaatcaaggggctggggtcatggaatgctgattcgtgggataatcaaaagggaacctggagtaaatgactgaattgatatgtaaataaaagactgggcttttggtctgcaagagatgagctatccagagagcttttagaatagcaagagagagctgcttgagaactgtctcgagcagaacatagagagagctgtctggagatctccggagaaagcagntcagagagaagaaagcagaacagagagaaagctgtctagagagccgtctcgagcagaacacaggccgtcagcttgnacccacgatttgacttcgagtcgttcgttttcgccgctcccaaacaccccttctctcaggacccctctccaagccgaggctggtccttggca",
+  "length_bp": 1028,
+  "sequence_length_bp": 1028,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR25B"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001431",
+  "name": "LTR2_CE",
+  "description": "LTR2_CE is a putative long terminal repeat from an unknown retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR2_CE"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 434 BP; 114 A; 78 C; 105 G; 135 T; 2 other;"
+  },
+  "sequence": "tgtttcggatcggtataggttcnnagtggtagaattatataaatatttattactaaaaaccttttcataaccacattaaagtgctgaccgacagcatttcggtgagagcagaagtagcacgaggacgaagtccattccttgcggccaatgcgcgtgccgcccaggtggaggagattacggtagcagtcgtttcacgtgtgtcgtagtgtcggcgtggcgagaccaattggcggtagttcaaatagggatttccattgttgctctttcgcggggttgtcgtcgttgggttgcatagataaagttgagcattgactagcggttatttcgtaataataatatataatatacttgcatttctttgtagttcactaactctttacatttaagaataagttgcgagctgacgaatattcatattctcagcattcgcaaca",
+  "length_bp": 434,
+  "sequence_length_bp": 434,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR2_CE"
+  ]
+}

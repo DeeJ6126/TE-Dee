@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "generated_at": "2026-09-03T15:38:34.547Z",
+  "request": {
+    "topic": "",
+    "title": "The heterogeneous pharmacological medical biochemical network PharMeBINet",
+    "dois": [],
+    "pdf_url": "https://www.nature.com/articles/s41597-022-01510-3.pdf",
+    "si_requested": false,
+    "language_override": "",
+    "route_override": "open_access",
+    "source_url": "",
+    "api_fallback_web": null,
+    "api_fallback_web_for": [],
+    "no_api_fallback_web_for": []
+  },
+  "summary": {
+    "total": 1,
+    "downloaded": 1,
+    "seconds": 3.4
+  },
+  "results": [
+    {
+      "title": "The heterogeneous pharmacological medical biochemical network PharMeBINet",
+      "status": "open_access_downloaded",
+      "provider": "direct_url",
+      "accessMode": "open_access",
+      "ok": true,
+      "file": "docs\\article_scientific_data\\writing_examples\\papers\\pharmebinet\\PDFs\\The_heterogeneous_pharmacological_medical_biochemical_network_PharMeBINet.pdf",
+      "bytes": 2782269,
+      "sha256": "b25992b94267b4c9363809b48d98579b76947df57637b4207926bee64d9a68af",
+      "contentType": "application/pdf",
+      "format": "pdf",
+      "source": "https://www.nature.com/articles/s41597-022-01510-3.pdf",
+      "si_requested": false
+    }
+  ]
+}

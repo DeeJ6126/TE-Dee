@@ -1,0 +1,48 @@
+{
+  "accession": "DF000281384",
+  "name": "ZalCal-6.9",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Zalophus californianus",
+  "display_classification": "DNA/TcMar-Tigger | Zalophus californianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Otariidae",
+    "Zalophus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 341 BP; 89 A; 64 C; 71 G; 117 T; 0 other;"
+  },
+  "sequence": "cagttgacccttgaacaacacgggtttgaactgcgcgggtccacttatacgcggatttttttcgataaatacagtacagtactgtaaatgtattttctcttccttatgattttcttaataacattttcttttctctagcttactttattgtaagaatacagtatataatacatataacatacaaaatatgtgttaatcgactgtttatgttatcggtaaggcttccggtcaacagtaggctattagtagttaagttttgggggagtcaaaagttatacgtggattttcgactgcgcggggggtcggcgcccctaacccccgcgttgttcaagggtcaactg",
+  "length_bp": 341,
+  "sequence_length_bp": 341,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

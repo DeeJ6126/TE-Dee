@@ -1,0 +1,41 @@
+{
+  "accession": "DF000000837",
+  "name": "Tigger20a",
+  "description": "TcMar-Tigger DNA transposon, Tigger20a subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tigger | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 973 BP; 277 A; 188 C; 253 G; 253 T; 2 other;"
+  },
+  "sequence": "cagtaatccctccccaaccgcgagttccccttacgcgaaattctagtatacgcggatttacttctgtataccttttcggcaaccgcgagaatttcggttccagtatacgcgaattgcgagtcactcctgttggggataattagaaaaagaggaaactgggggttgggaatagaaaagggaggtaaagcggatggcagagcaggagtagaggtttttgcaatgaagccttgggagagataaaggaagctgagggaaagtaaacccgggccttagaactgcactcctgcgtctgtnaggagggagggagctgagacgtgtgtaagaggggctgacggcatgtgctttggcatgaagttatcatgggcggagctaaggctgcataaccctgngtattggggagggggtttgagaaatacctactcagctatgccgagtaggttaaataaaggttacccaaagctttttccatctcaagcatccaagttactctgcgtctctgggaccacggtgggacccgggaggcgggagtcaacaactccgagtcataaaatcagaaaggcattgaacatttggatggaggaccagacacagaaaaaaatgcctcttagtatgcatattatctgcaacaaagcaaaacgaatttacaagcatctcgttgaaactgcggaggagggagatcctgaaaagtttctagcgagcaagggatggtaaatggaaattaattgtacagtacccattattactaatttaagatgtgtaaaatgtcattgatattctctttatttagtgtgctgtctttattgttttattttagtgaatataaaaatatttataagggctttcataggttcactcgcgaccttagtctccctaaccctatttttcccataaggtcttaagttcctcaaccgcgaattctcctaccacgggggttttcaggaacctaaccctcgcggttggggagggactactg",
+  "length_bp": 973,
+  "sequence_length_bp": 973,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

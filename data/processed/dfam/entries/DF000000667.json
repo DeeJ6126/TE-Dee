@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000667",
+  "name": "tRNA-Tyr-TAT",
+  "description": "tRNA-Tyr (decoding TAT) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 73 BP; 17 A; 16 C; 20 G; 20 T; 0 other;"
+  },
+  "sequence": "ccttcaatagctcagctggtagagcagaggactatagctccttaggttgctggttcgattccagcttgaagga",
+  "length_bp": 73,
+  "sequence_length_bp": 73,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "tRNA-Tyr-TAT"
+  ]
+}

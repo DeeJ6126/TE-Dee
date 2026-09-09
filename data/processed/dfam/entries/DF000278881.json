@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278881",
+  "name": "MurFea-6.1209",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Blackjack"
+  ],
+  "species": "Murina aurata feae",
+  "display_classification": "DNA/hAT-Blackjack | Murina aurata feae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Murina",
+    "Murina aurata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 212 BP; 53 A; 49 C; 59 G; 51 T; 0 other;"
+  },
+  "sequence": "taaggtgaccagacgtcccgcttttggcgggacagtcccgatttttaacaatttgtcccgcgtcccgcggcgttttaaaaaagtcccgatttttggaaagaatgcacgacaagctagggaacggcgggagaacgggaagggaatatacggttttcggcggccaagcggtcaatggtgtcccgctttaccaatgttaaaatctggtcacctta",
+  "length_bp": 212,
+  "sequence_length_bp": 212,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

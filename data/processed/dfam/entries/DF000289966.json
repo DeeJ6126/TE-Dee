@@ -1,0 +1,52 @@
+{
+  "accession": "DF000289966",
+  "name": "MsSE1",
+  "description": "Lineage-specific SINE element found in an lepidopteran insect",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Manduca sexta",
+  "display_classification": "SINE/tRNA | Manduca sexta",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Bombycoidea",
+    "Sphingidae",
+    "Sphinginae",
+    "Sphingini",
+    "Manduca"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 267 BP; 45 A; 62 C; 87 G; 72 T; 1 other;"
+  },
+  "sequence": "gactgcctcggtggcgtagttgtactgcatgcgcggtacggcagcgctctgaggtcctgggttcgaatcccgggtcgggcaaagtgatatttgggtttttctgctcagtatcagcccggagtctggaatttgtgcccgatatggcgataggctcgccccctatcacatcatgggacggaacacacttggcgaaaagtgggtgccntggttgcgcctctgcataccccttcggggataaaatgcgtgatgttgtgtgtgtgtgtgtgt",
+  "length_bp": 267,
+  "sequence_length_bp": 267,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

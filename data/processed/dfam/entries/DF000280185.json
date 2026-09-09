@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280185",
+  "name": "PsaObe-1.2",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Psammomys obesus",
+  "display_classification": "SINE/Alu | Psammomys obesus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Gerbillinae",
+    "Psammomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 149 BP; 43 A; 40 C; 46 G; 20 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcacgcctgtaatcccagcactcggggaggcagaggcaggcggatctctgtgagttcgaggccagcctggtctacaaagcgagtccaggacagccaaggctacacagagaaaccctgtctcaaaaaaaaaaaa",
+  "length_bp": 149,
+  "sequence_length_bp": 149,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

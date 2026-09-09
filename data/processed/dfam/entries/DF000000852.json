@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000852",
+  "name": "Tigger8",
+  "description": "TcMar-Tigger DNA transposon, Tigger8 subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tigger | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 667 BP; 191 A; 135 C; 145 G; 195 T; 1 other;"
+  },
+  "sequence": "caggcggtcctcgactttcgtacgttcgactttcgnacaacccgcactttcgtacattatacattgacacccctaaaccgcctttcgtacgccgaattcggactttcgtacatcagctgacgaacgaacatttcgagctatcgcatggtggcgctgcctgccagccaacagttcagtttcggcagcgtcgccatctttgtctgtacagcagtgtttgtgcaattatttgaatattttattgcattttgcccttattattttataaaaatgagtggaaaacggaaaaatgaaagtgctgatactagtgataagaagcgtaggtctcataaacttaatacaattgagacaaagatggaaatcattaggcgtgccgaaagcggcgaatctttagcctcaatcggacgctcattggacttaagccggtcgactgtgtgttcaattgtgaaggaaaagaacaaaattaaagaacatgtacgaaatgctggaaatatatcgtcgaagattgtgtctaaaaggcgaggtgtaattagggattttataatattttttagctctctgggaatagaaccctccttataacatgtaagtctattgttcgactttcgcacattcgactttcgtacacgttttcaggaacgcattatgtacgaaagtaggggactgcctg",
+  "length_bp": 667,
+  "sequence_length_bp": 667,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TIGGER8"
+  ]
+}

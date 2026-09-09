@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277292",
+  "name": "HemHyl-1.282",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Hemitragus hylocrius",
+  "display_classification": "DNA/TcMar-Tigger | Hemitragus hylocrius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Caprinae",
+    "Hemitragus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 445 BP; 104 A; 107 C; 86 G; 148 T; 0 other;"
+  },
+  "sequence": "cagtaagtcccctacatacgaaccttcaagttgcgaactttcaaagatgcgaatgtgccatcaacgtcaggcgtgagtgaaattgcagcttgccctccgtctcctattgctgacgatccttcagctctaccatctcccacctcctctccctcctccagtcagtaactcttcttgcctgttcactcgatgccagcccctgtatgccagctgttgtactgtactactgtacttttcaaggtactgtactgtaagattaaaaatgttttcttttttgtgtttgttttttatgtattatttgtgtgaaaagtattataaacctattacagtacagtactatatagccgattgtgttagttgggtacctaggctaactttgttggacttacgaacaaattggacttacgaacgcgctctcggaacggaactcgttcgtatgtaggggact",
+  "length_bp": 445,
+  "sequence_length_bp": 445,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

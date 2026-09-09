@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000113",
+  "name": "DNA1_Mam",
+  "description": "TcMar DNA transposon, DNA1_Mam subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tc1 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 407 BP; 131 A; 68 C; 65 G; 143 T; 0 other;"
+  },
+  "sequence": "cagggtgtccgaaaagtcgggaaacataggataaacttatttttaaacagtatgttagttacattttcaaataatatgctcaatatgtttttcttcaacctccagacaccttttcaggtgaagtacctctaaatttaaagcaatgggtccaattgttaatctgaaaaaagtacaataaatacactattttccctgtgtttccagactttttggacactctgtagtgtatttattgtacttttttcagattaacaattggacccattgctttaaatttagaggtacttcacctgaaaaggtgtctggaggttgaagaaaaacatattgagcatattatttgaaaatgtaactaacatactgtttaaaaataagtttatcctatgtttcccgacttttcggacaccctg",
+  "length_bp": 407,
+  "sequence_length_bp": 407,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA1_Mam"
+  ]
+}

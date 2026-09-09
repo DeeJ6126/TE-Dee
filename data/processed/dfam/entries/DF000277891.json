@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277891",
+  "name": "LipVex-1.162",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Lipotes vexillifer",
+  "display_classification": "DNA/hAT-Charlie | Lipotes vexillifer",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Lipotidae",
+    "Lipotes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 228 BP; 40 A; 89 C; 67 G; 32 T; 0 other;"
+  },
+  "sequence": "caggggtccccaacccccgggccgcggaccggtaccggtccgcggcctgttaggaaccgggccgcacagcaggaggtgagcggcgggcgagcgagcgaagcttcatctgccgctccccatcgctccccatcgctcgcattaccgcctgaaccatccccccccccgccccgtccgtggaaaaattgtcttccacgaaaccggtccctggtgccaaaaaggttggggacc",
+  "length_bp": 228,
+  "sequence_length_bp": 228,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

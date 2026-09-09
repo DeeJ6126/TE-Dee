@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001476",
+  "name": "Tc1A",
+  "description": "C. elegans TC1A nonautonomous DNA transposon.",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Tc1 | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 855 BP; 268 A; 139 C; 128 G; 274 T; 46 other;"
+  },
+  "sequence": "tacagtgccggccaaaaanatatccactttcggttttttgataatttcgnnantttttcaaacgagcataactcnaaaactaggaatgctatcgaaaaantttcaactgacgaaatattgcccgtgatcacgtctatntgtttttacatgtttnaattattcaccnatnncatggcaagnaatanagcggccgacatctcgtgagtccgtttttgacgacgnttactgaancgaccgtaactcgagaancatatttttnatgaaaggtttgngaaagtaananaatnttcatataatttttcatcgtttgcgcatattaactttgtcctgaaacctccattnaaaaagatgtgtgngctgaaactagtgtctcacnagacactgtttagaggctntgttcaaaaatcaggtttcttggattgaaaatctttttccgacaatttttgtgaanaactaatgtngttatnatatttgaactacatattaaccaanaaacagaattcagaaaaaaaatccactatttncgaganatgagctcgagattactctacactnctctngtttnanctctcatatctttttcgntggaggtttcaggacaaagttaatatgtncaaacaatgaaaaattatataaacattgtgttactttctaaaaaccttccattaaaaatatgtttctcgagttacagtcgttttagtnaatcatgtcaaaatacatgggcctgatcacgagcnacattttgtcagttgaaanttttttgatagcntttctagttttngagttatactcatttgaaaaantnncgaaatcatcaaaaaacnaaaagcggatatatttttggccagcactgta",
+  "length_bp": 855,
+  "sequence_length_bp": 855,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TC1A"
+  ]
+}

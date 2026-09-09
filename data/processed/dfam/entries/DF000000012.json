@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000012",
+  "name": "5S",
+  "description": "5S rRNA gene / pseudogene",
+  "keywords": [
+    "rRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "rRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 121 BP; 22 A; 33 C; 39 G; 27 T; 0 other;"
+  },
+  "sequence": "gtctacggccataccaccctgaacgcgcccgatctcgtctgatctcggaagctaagcagggtcgggcctggttagtacttggatgggagaccgcctgggaataccgggtgctgtaggcttt",
+  "length_bp": 121,
+  "sequence_length_bp": 121,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "5S"
+  ]
+}

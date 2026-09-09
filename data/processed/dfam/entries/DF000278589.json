@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278589",
+  "name": "MirCoq-4.2925",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Mirza coquereli",
+  "display_classification": "DNA/hAT-Charlie | Mirza coquereli",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Cheirogaleidae",
+    "Mirza"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 223 BP; 43 A; 65 C; 79 G; 36 T; 0 other;"
+  },
+  "sequence": "caggggtcctcaaactttttaaacagggggccagttcactgtccctcagaccgttggagggccgttggagagtgcggcgcacattccacacatgcgcactgtgggcccgggacgagtcggctgctaagcaggacaggcagcggcggcaaaaacacccggcgggccggataaatgtcctcggcgggccgcatgtggcccgcgggccgtagtttgaggacgcctg",
+  "length_bp": 223,
+  "sequence_length_bp": 223,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

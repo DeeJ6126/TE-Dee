@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280835",
+  "name": "SurSur-1.125",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "SurSur-1.125"
+  ],
+  "species": "Suricata suricatta",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Suricata suricatta",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Herpestidae",
+    "Suricata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 626 BP; 157 A; 162 C; 146 G; 159 T; 2 other;"
+  },
+  "sequence": "tgtaaggacgcaggtctgaatcaaactgactccatgacaggcttcaagtttcccctctgaccttggaggcctaggtgtcggtttctcagaatcattagacaataaaagggcacacattgcccaaggcaggagggaccacccttgtaacacccaatcaggaaaggccagctaacacccttaacattcctaagggcaggcctagagatagaagctatagataatcacttattgcttaaggctagttacaccctacgtgagggtcctgggtccactctgtaattggttaacactctaaatgttgtgattgggtcccgccaaaagtaacgaacactctggacaatgtgtatggttaaagttactgccaatgatgttatgcgataatgattggaccnctgtacctgtgtcacaatttcctgtaactcccccttcccaaacccataaaggccctaccccgcctttgttcggggctctcagcacggatccactgcgctggtgaagtctgtgagcccgagtttaggcccggccagcctaagcccgtaataaagccctttgcttttgcatgcgtgactcggtctccctggcggtctctggttttnggggacgatattgaaatcttgggcataaca",
+  "length_bp": 626,
+  "sequence_length_bp": 626,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

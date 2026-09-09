@@ -1,0 +1,55 @@
+{
+  "accession": "DF000000367",
+  "name": "L5",
+  "description": "RTE-X retrotransposon, L5 subfamily",
+  "keywords": [
+    "LINE/RTE-X"
+  ],
+  "species": "Theria",
+  "display_classification": "LINE/RTE-X | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2263 BP; 669 A; 506 C; 405 G; 632 T; 51 other;"
+  },
+  "sequence": "taaaccannatagattcaaatanctgaaaggnttggcanaattattacagtaaaatnttcgaggttctttcttaggnatgtagtcaaaattttntaataaacataacnaacttgcttcagnagactccaattaccacaggagagatnaaaggtctcagtgcatttctttcctcgggcaaggcaccaagggaggntgtgttgccnccagagatatttaaacaatttcctgacnggtgggcnccaattctggctaaattnttcacacagattagcaaagcangggtttttcctgctgagtggaaacagaatattgtcttcccaatatttaaaaaggataacaaacaggacccgggtaactatcgcccaataagtctcttngatgtagcctccaagttntatggcaaacacntattgaacangctagaagnctgngagaaatccaatagtntcatccaccctgaacaagctggttttagaagaggacaatcaacaancgaccantgtataactctccatnatntagtanaacgaagnatatggagccctnntaaataccntcgcgctncatttgtagatctagcngcagcctttgactcggtcaacagaaaccggctctggcacaaattanctggcactaacatcgacaggcgtctcttatttctgcttcagcagcttcacagcgacacgaccgccagaataaaagtagggatttccggttctttgacagagncgatctctattgaccaanggntnaagcaagggtntntcttagccccacttctattcgatctttaccttaatgacataattaaaaggttatctggcccagaattttttcttctctcaattgactctcgcaaaatctctatccttctgtatgccgacgatacggtcctactatcctttattatttacgtaggtctcaaaaagctactgtccaaactctatgatgcgttaaaagaggaatctttaaatattaattattcaaaaaccgaagtgatgatttttagaaagaaacccagcaantttcgatgggctataaataatcagccgatcgatcagtgctgggtatttaaatatctaggcgtttattttaatgaaacgctttcctggaaatcacacaccaagatagtaaaggccacagtcactaaaaccataggagctatactgaaattctatcgcacnaaaggtggccacttaattgatcctgcnctaaaactcttccatagcaaagcagtggcccaaattctttntggagcagaggtntggggctgggacgatacacagattacaaatctggaaaccttacaaaacagttttcttaaaaacatcttacatttgccccctagtaccccggcagctctaatccgggcagaggtcggactcccctcaattagagcccgtgttcatgtggccataatcaaatacttaaagaaactgaaagtttcccctgagaaccatctgtcaaaattgtgctatgtccagctacagaactgtaaggactgggtttataaataccatagactgcttcaactctattccatctctgnggactcacaggtcatttctcaagcaggcaccaatctacgngactggatcttcgatcaaaacgctntgtccgacaggctggctattttagacacaaatttttccaggcggtataggataattaaaagtgatcacagtagatcattctacctggtcaatcttacctttcctaagctcagacaagcctttatggcaatctgtttccaaaccatgcccactgccatgatcgaaggcagataccgccggactcctctagcccagcgaacctgtatctgtggagcccctgagctagaggaccttccacattaccttttattctgccccgtgtatctggaaccacgccagaagtttcttggggtaattttaactagtattcactctagaacaataccagaaaaggtaagttacttactgtccgacacggacacgtacgtaacttttagagtctcttnttttgcactggccgcttcaaaaatcagagctaaagctattttagacactacagttaaaacgacacggtgatgtattggtctgatgattccttttatgaaatcaactctgaaatgttacctatttttacgctcagaaactcactctaactttgttctgttttgatctttataacttattttaaagatcacattgtacctactctttgctctgtaagtcttgcaatggcctttggccaaaagcaataaaattctgacctgacctg",
+  "length_bp": 2263,
+  "sequence_length_bp": 2263,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "5..2069",
+      "start": 4,
+      "end": 2069,
+      "qualifiers": {
+        "product": "L5_pol",
+        "number": "1",
+        "note": "RTE group, but L4- and L5-pol seem to share a C-terminal 200 AA"
+      },
+      "label": "L5_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "L5"
+  ]
+}

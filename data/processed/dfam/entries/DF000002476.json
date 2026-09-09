@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002476",
+  "name": "DNA8-14_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/ | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1401 BP; 484 A; 209 C; 238 G; 460 T; 10 other;"
+  },
+  "sequence": "ctatatggggcgtctgcagacttggatccaggcagttttacgaccnaggcagttttacgccccacagctttacgcccctgttgttcctaatgcgtccagtagggggggatgaaagatacatggccaaataatacatttgaagtcaacgctcccagattattaaatgtcctgttcataaatatatatanttttaattagattacgctaaatatgaacgctaagttaatgtatcagaaagtgagttataaactcactatanaatatgcagaattgatacactcaccaaataatttcagatatgcaaaagcccaattgcaaattaatttagattcatttaattagaaaaanttaaaaacacaaatagttggatagtgtaatggttaattgtagcctagttatacgttttcatatagagatatgcatttgttgtattgtttatatataaagttgcattttgaaaataacaaaattataaccaaacaatacagtgtaatatggagtaatgatgtgctttgataagaatgcagtggtattgttacaataaatattatgaaacaataagngataaacaatatgantgcatgtgcaatgcaaacttcattgctaatatataaaatgtactgtatagctatatgaacaaaaatnagtagaccatttataattgtgagtttctctatgcatttatagatatatgatagtttaattgtttaaactagaacaggattgcattatattgantgtaattgaangcaatgcaattttaaaatttaaaataaaatcaattaaattttcagatctgtttagatttatttcaatatttaagaaagtcaaatttggaggaataatgtagtgtagttgnagtgtagatttggctgacaacccagaccacgcaagtgtattgtctaatctatgagaaaatatatatctttaaataattattaaatatataataattactcccttgctgagacaaaaaggtaaaagaaaattagcctacataacacactttcttatgtaggttaatgttcttttactcttttgttgatgtagaacatgtagctggcctgcacatagttagctaaaattgagtcaaactaacacattgctgttatattacaccaatttgtttgtgttgacatacactcatatcgaccttaatctaataaaaaaaaggtttaagtttcatgtttgctaatgttttaaacacgtatttaacatagatacctcttcatcgtgtcgcgtttggttgggtgtgataaagttctggaggcttaaaataatactgtactgcctccctctactggacgcatcaggaacaacaggggcgtaaaactgcctgggccgtaaaactgcttgggccgtagatctgtctggatccaagtctgcagcctccccctactc",
+  "length_bp": 1401,
+  "sequence_length_bp": 1401,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA8-14_DR"
+  ]
+}

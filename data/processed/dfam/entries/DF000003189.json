@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003189",
+  "name": "hAT-N41_DR",
+  "description": "Putative non-autonomous hAT DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Ac | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1260 BP; 431 A; 217 C; 218 G; 390 T; 4 other;"
+  },
+  "sequence": "taggggtgtaacgatacactcagctcacgatacgatgtgtatcacgatataatgttcacgattcgatatgtatcacgatatttggaataaaaattgaaaattaaactgaaatgcaaattttaccaagtaaactattttttatgtatttcttttgtttcaacttgttaaactgaaccttctttaagaaaataaattaaacaggcctgtctctggaaaataaaacaatttaaaaacttcttaaaaantattattgaaatgacagagacaaaattaaggaacaatttaagtaaaggtgcaaaaaaaaanaagctttctattcaattgaatttaacagtaagagcttaaggctttgcttggtcacttgcgttttttgtgtgtgcaaaaaaaaantccacatttccaggtatttaattcatatttaattaaattcatttagagatatctctaattacaattgtgactagtcaaaactcatttagagatatctgcaaatatttttcaatggaagtcaatggaggaatatgactagtcataatatatttgcagatatctccaatctgatttcgtactagtacaattgtaattgcagatatctctaattgtcattctgactagtcgaattataattatgactagtcaaaatataattagagatatctctaaatatatttatggatagtcagaacaaaggtttaaatgctaaaacggcttgccatacgcgcgcgtctatcatagtccgccctctgtagtaacagctcacggtcagctcacgtcatgtgtgattttgcggcgggaaatacatcattatatgaagacagaatgatattttagggtgaattgtaccttataaatacagtatgtgactctttcaacaccattaggaggtatccntgtcgctgtgcaaagtatgtaaatcactgtgaagactttaaaacttaggatgtttgacccagtatgcgtgtcaaaaagcggacgagtctaaagcaatgactgtacaaccgaaatgttgccagacgtctgattttgagaggatgggccatcctctatttcagctccactcatcttggtctgctaacattactgctgctgcaatctgaactcacgtgcgacagcaggtggaacgtagctcacgtgcaaacagctcaactaataagagaaaacggacgtcatatcgtaatcaaatcgtcataacgccacgatgcatattgtgacatttttgcatcgcaataaatcgtacaacgataaatcgttacaccccta",
+  "length_bp": 1260,
+  "sequence_length_bp": 1260,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "hAT-N41_DR"
+  ]
+}

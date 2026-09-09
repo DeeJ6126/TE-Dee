@@ -1,0 +1,48 @@
+{
+  "accession": "DF000281380",
+  "name": "ZalCal-5.1614",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Zalophus californianus",
+  "display_classification": "SINE/tRNA | Zalophus californianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Otariidae",
+    "Zalophus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 200 BP; 41 A; 60 C; 42 G; 56 T; 1 other;"
+  },
+  "sequence": "tgggcgcctgggtggctcagttggttaagcgactgccttcggctcaggtcatgatcctggagtcccgggatcgagtcccacatcgggctccctgctcagcggggagtctgcttctccctctgaccctcttccctctcgtgctctctntctctcattctctctctctcaaataaataaataaaatctttaaaaaaaaaaaa",
+  "length_bp": 200,
+  "sequence_length_bp": 200,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

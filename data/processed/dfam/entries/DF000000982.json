@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000982",
+  "name": "MamGypLTR3",
+  "description": "MamGypLTR3 (Long Terminal Repeat) for Gypsy retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MamGypLTR3"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 894 BP; 204 A; 214 C; 293 G; 180 T; 3 other;"
+  },
+  "sequence": "tgtagcgggatgccccgccagagattaaatttgtgtttttctctcttctctagcgagagaggtgccagaaaatcaccttggaatcactgagggnagtctcccttagaagggtaaatcaccttggaatcactgaaggtagcctccctcagaagggtggaaatagggcaccttggagtcactgagggtagcctcccttagaagggtggatgcagggcgagtagccccattgtccggaggaaaggggtgtaatcagaccctttgtgttttgagggtttaaaaggaaaagctgcccgacccctnggggtggatccctggggaggaaagggggacggtggttctgggtccgcgaggtggcagatgccggaaccagtcctgacccagcgctcctggggccggctggcgccctgggaggtggctgtgtatgtgaactgaaagagctgagcactaagagctgcaaccttgggagcccaagcgtggggcacccttggccgagcttagcactgagggagtgggatcgtcctccctcgaagaaccacngcggcctgtgcagggatctggaccagcaagggcatcaccgcagcagcggaccctggaatctgcaggaccagtcttcaacagcgacaccgtgtggcagcgagaagcaacggcagtagtggactgatcagactccagttctctccccgcttgggtgtggaagccggactgaccccccctttggactgcgtaagcccctagggttcttggacaattcagggggagggggaagcctcaagagggagatactggacttcctgctaataaggcaggtgggggctcgagcgattaattggaaaaataaaagagatgtgaccgtatttgtaccccgagtttgtggagcagttcataccggttaca",
+  "length_bp": 894,
+  "sequence_length_bp": 894,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MamGypLTR3"
+  ]
+}

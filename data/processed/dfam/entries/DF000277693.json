@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277693",
+  "name": "LasBor-1.105",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Lasiurus borealis",
+  "display_classification": "RC/Helitron | Lasiurus borealis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Lasiurus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 370 BP; 72 A; 126 C; 112 G; 58 T; 2 other;"
+  },
+  "sequence": "tctatatatataaaagcctaagcgaccgtccgacccgaccggtagctatgacgcgcactgaccaccagggggcagacgctcaacgcaggagctgccgagctgcggtgacttggcagcngcggttctcgggtgacgcacccggaaccagagaggagggagcccgattccggggtgcgtcacccgagaaccgccctctcgcaatccgggacccctcgggggatgtcggagagccggtttcggcccgatccccgcaggccaggccgagggaccccaccggccagggggttggctccagggcatgtcnggcccatctcacccagtcccgccccaccggccaccttctaattaatttcctttcaatgtgcatgaa",
+  "length_bp": 370,
+  "sequence_length_bp": 370,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

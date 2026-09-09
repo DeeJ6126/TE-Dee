@@ -1,0 +1,51 @@
+{
+  "accession": "DF000002108",
+  "name": "RLTR45",
+  "description": "LTR of non-autonomous element.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR45"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 482 BP; 102 A; 157 C; 103 G; 117 T; 3 other;"
+  },
+  "sequence": "tgttgggagctattaagacaacgctattgtcctgatctctgaattgggcctctccccccgagaagaaaagggggtcaaaagcgggccaccgacgcaccgactccgagaacaaccacagaatgttccagccctaagtcagcgccgatgtcctgaccacaccctgataccaccaagttcctgcttccccgtgtagctgccaaaagaaagcgnaatttctactgccccaccccccgctgataagtacttccccttttgcttgtattgccccatccctcccgctgagaagtatctgtacttccccttttgcttgtgcatttaagccttgggccttgctcaatacantggggccttgatgcnactcagaacggtttccgtgtcgttattcgcacaaggccctcgtctctctctaccccccccccatttggttcttaggagaaggtcccctcgagaccctcgaataactggacctgctggacgggtca",
+  "length_bp": 482,
+  "sequence_length_bp": 482,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

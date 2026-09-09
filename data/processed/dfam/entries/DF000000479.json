@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000479",
+  "name": "LTR27E",
+  "description": "LTR27E (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR27E"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1077 BP; 208 A; 365 C; 331 G; 160 T; 13 other;"
+  },
+  "sequence": "tgatagcggcaggagacagacaaattcctaggcagacagggacgggtccccaggtgaaacccgaccttcaagccaaagacagcctgaagcctgaaaaccgagctgccagttccgggtagagtccacgaccggagtgagaacttcctcgatgccttttagccaatcgaatggtgctttttccaggcccgcccatggaccaatcagcacgcactcccccattctgagcccataaaaanccccggactcagccacacagagggctacccgctttcgggccccctctcacacagagggctacccactttcgggtcccctctcgttgtcgagagctttcgttctgtcgctcaataaaattcttctnctgccttgctcactctccggtgtccgcgtaacctcattcctcttggtcgcgggacaagaacccggaacccgccgaacggcgggtgcgaaagctgtnaacactgtaaccctccctcccgctcgccgagcaacgggggagaaaaagccgctgggcgccacacgctcccgttcgccgagctgcgggagtgaagagctgtgacncnnccgngggcccagacctggagacnnnccgagnnagagctgtaacacgcccccgttcgccgagctgcgggcggcgggaacgaacgcgagctgtaacacaaacgagctgtaacacgccccccgccgttcgccgagctgcgggcggcgggaacgagagagagctgtaacatttcttgggggctcagacctcgggactccccgagcaagagctgtaacaccccttggggctccgcggttgctggcatctccgagttttcgggcgccaccgcgttcccctcgtccagacgccggcgcccaaggcggaagccgctcgcggcacgcccggtccagccgcgggctgcgcgccacggcgggcgcgggatccgggccggtagcgcgagccgagcgcagcctgccgggccgagtgggcggagcgagcccagtggcgagcccagngccgagcgaggcccgggcagaggcgccgccggccgcggagatttccggctggcgaagcggcaccgaaagaatcctgtgtca",
+  "length_bp": 1077,
+  "sequence_length_bp": 1077,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR27E"
+  ]
+}

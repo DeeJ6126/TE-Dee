@@ -1,0 +1,49 @@
+{
+  "accession": "DF000000451",
+  "name": "LTR21B",
+  "description": "Long terminal repeat of endogenous retrovirus HERVH22",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR21B"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 437 BP; 88 A; 169 C; 86 G; 89 T; 5 other;"
+  },
+  "sequence": "tgttagggtcaccccgaccagaccgttcccttcccctcccacaggccttacaatacagtcccttgcgctctccgcacagctnccccagggcaaaagacaaaccccccttcactgacccctccagtaactgtccagacagttacaggatgcggttaacatgtctgttnacctcgcataacaaagctggcaaaaaacatctccaggatgcggtcaagacacctgcacccccgactcanncggctcccccaccccgacccagtcctcctgcacccccgactcagctcccccaccccgacccggtcctggccctataaagccctgctgtagtctgtaagcggggctgcctcctctgactgtngtggagcagcccggcagctcaataaagcttgcttgcctgactttgggtctcctcgtcctttctctcggctgaccttaca",
+  "length_bp": 437,
+  "sequence_length_bp": 437,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR21B"
+  ]
+}

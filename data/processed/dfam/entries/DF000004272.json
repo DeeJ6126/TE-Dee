@@ -1,0 +1,53 @@
+{
+  "accession": "DF000004272",
+  "name": "TguERVL2a2_LTR-Lb_fAlb",
+  "description": "Long Terminal Repeat for an ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "TguERVL2a2_LTR-Lb_fAlb"
+  ],
+  "species": "Ficedula albicollis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ficedula albicollis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Archosauria",
+    "Dinosauria",
+    "Saurischia",
+    "Theropoda",
+    "Coelurosauria",
+    "Aves",
+    "Neognathae",
+    "Passeriformes",
+    "Muscicapidae",
+    "Ficedula"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 782 BP; 126 A; 233 C; 223 G; 186 T; 14 other;"
+  },
+  "sequence": "tgttgggggttggttttttttttctttcnctcgttgcctgtggaatttttcccattganttgctaagaagcactgatggctaggtacttgagacgggggagggggaacccctctggtttttgggagtttctctcggagggagggagacaccgcgagattagaagcgggtaaaaggagagcgggggggcagctgctgcctctcgctcgctctcggcttcggaggaggagggtcgccgctaccccatagcccagccaggggccgcctcttctctgctgtgctgganggattacccaccggactgccattctgcgtcggagtcctgcggcgcncctgtccctaccctgccccggggttcgtgnagcaaagcctctcttctccatcccttcccgtctgggnccagccgccatcnccgcncgctcccccggcccgcgccgcagcgccccctgccgccgcggggggatcatcgcacctgccccgcncaccgggagccgccggcgctccctgccggctgtgacgggaactgcaccgaaggggaaantgcccgcggccgagaggactggnactgggctcctgctctgcttgntattaattccatagttgttgttgtttgtttgccttgttatacatactagtaaagaactgttattcctatccccatatctttgcctgagagccccttaatttcaaaatcatantaattcggagggagggggtttacattctccantccaagggagggtcctgccttccctagcagacacctgtctttcaaaccgagaca",
+  "length_bp": 782,
+  "sequence_length_bp": 782,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

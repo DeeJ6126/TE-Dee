@@ -1,0 +1,52 @@
+{
+  "accession": "DF000289965",
+  "name": "LaSE2",
+  "description": "Lineage-specific SINE element found in an lepidopteran insect",
+  "keywords": [
+    "SINE/5S"
+  ],
+  "species": "Lerema accius",
+  "display_classification": "SINE/5S | Lerema accius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Hesperioidea",
+    "Hesperiidae",
+    "Hesperiinae",
+    "Hesperiini",
+    "Lerema"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 348 BP; 71 A; 86 C; 111 G; 80 T; 0 other;"
+  },
+  "sequence": "gaagcgctcatagcccggcggcttgcgtcgatcctaagcgatcgacaaagttaagcaactgcgggcgcggtcggtaagtggatgggtgaccgctagtggcaaaaatatcttgagcgtttccgtgcttcggagggcacgttaagccgtcggtcccggttgttaccgttaggtgacaatcgttagccatgtcggaggcctttgggtggcataaaaatttccgacacttgggttggccactaacccctccgccaatccgcactggagcagcgtggtggagtatgctctaggcctcctcagttatgaggagagacccgtgctcagtagtgggccgttaatgggttgaggcca",
+  "length_bp": 348,
+  "sequence_length_bp": 348,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

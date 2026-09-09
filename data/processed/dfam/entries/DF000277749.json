@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277749",
+  "name": "LasBor-1.34",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Lasiurus borealis",
+  "display_classification": "DNA/hAT-Charlie | Lasiurus borealis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Lasiurus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 193 BP; 56 A; 46 C; 46 G; 45 T; 0 other;"
+  },
+  "sequence": "cagcggttctcaacctgtgggtcgtgacctgttttctgatggtcttaggctctacagcagtgacccacaggttgagaaccactagcagggtcgcctaagaccatcagaaaacacagatatttacattacgattcaccacaacacgaggaactgtattaaatggtcgcggcattagaaaggttgagaaccactg",
+  "length_bp": 193,
+  "sequence_length_bp": 193,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

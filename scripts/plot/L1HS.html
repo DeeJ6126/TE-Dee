@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>L1HS Structure - Interactive</title>
+    <style>
+        /* 让 SVG 可缩放 */
+        .structure-svg {
+            width: 100%;
+            height: auto;
+            background: #fafafa;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        /* 所有功能区的矩形默认 transition */
+        .structure-svg rect {
+            transition: transform 0.2s ease, filter 0.2s ease;
+            cursor: pointer;
+        }
+
+        /* 鼠标悬浮：向上移动 5px，并加轻微阴影 */
+        .structure-svg rect:hover {
+            transform: translateY(-5px);
+            filter: drop-shadow(0 4px 4px rgba(0,0,0,0.2));
+        }
+
+        /* 可选：显示 tooltip 提示 */
+        .tooltip {
+            position: absolute;
+            background: #333;
+            color: #fff;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <h3>Human L1HS (LINE-1) Structure</h3>
+    <div style="position: relative; display: inline-block; width: 100%;">
+        <!-- 这里用 object 或直接内嵌 SVG -->
+        <object id="l1hs-svg" data="L1HS_structure.svg" type="image/svg+xml" class="structure-svg"></object>
+    </div>
+
+    <script>
+        // 等待 SVG 加载完成
+        const svgObject = document.getElementById('l1hs-svg');
+        svgObject.addEventListener('load', function() {
+            const svgDoc = svgObject.contentDocument;
+            // 获取所有 rect 元素（功能区）
+            const rects = svgDoc.querySelectorAll('rect');
+            
+            // 为每个 rect 添加一个 data 属性（可选，用于识别区域）
+            const labels = ['5′ UTR', 'ORF1', 'EN', 'RT', 'CTD', '3′ UTR', 'polyA'];
+            rects.forEach((rect, idx) => {
+                if (idx < labels.length) {
+                    rect.setAttribute('data-name', labels[idx]);
+                }
+                // 已经通过 CSS 实现了 hover 效果，这里无需额外操作
+            });
+        });
+    </script>
+</body>
+</html>

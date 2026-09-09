@@ -1,0 +1,46 @@
+{
+  "accession": "DF000279725",
+  "name": "OryAfe-1.270",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Orycteropus afer",
+  "display_classification": "DNA/TcMar-Tigger | Orycteropus afer",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tubulidentata",
+    "Orycteropodidae",
+    "Orycteropus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 373 BP; 108 A; 69 C; 78 G; 118 T; 0 other;"
+  },
+  "sequence": "caggcagtccccggattacgaacgagttccgttcctaagtctgtctttaagtcgaatttgtacgtaagtcggaacagttaggtacggttcgtatctaacgtcagttagtcaaatgtttgtcttagtatatagtatatagtgtacctttctatgcataaaaaacattaaagaaacacttccagatacactaaaacatctttaacataataatacagtaataataatgttttgatgcgcgtcgcaaagtagcgcccgtttgttattacgaaccattgtatgtacctcgaatttttaatataataggctttacgggggttggttcgtaactacgggttgtacgtaagtcggacgttcgtaacccggggactgcctg",
+  "length_bp": 373,
+  "sequence_length_bp": 373,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276151",
+  "name": "CunPac-1.1",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B4"
+  ],
+  "species": "Cuniculus paca",
+  "display_classification": "SINE/B4 | Cuniculus paca",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Cuniculidae",
+    "Cuniculus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 235 BP; 60 A; 66 C; 73 G; 36 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggctcacgcctgtaatcccagcactcgggaggctgagacaggcggatcgttgtgagttcgagaccagcctgggctacaaagtgagctcaaggccagcctgaacggcatagtgagaccctgtctcaaaaacaccagggccggggatctagctcagcggcctaagcgcctgcctggcaagcgcaaggtcgtgagttcaatccccggtgccgcaaaaaaaaaaaa",
+  "length_bp": 235,
+  "sequence_length_bp": 235,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

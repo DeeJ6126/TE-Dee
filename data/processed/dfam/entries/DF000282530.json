@@ -1,0 +1,53 @@
+{
+  "accession": "DF000282530",
+  "name": "PilTep-1.171_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PilTep-1.171_LTR"
+  ],
+  "species": "Piliocolobus tephrosceles",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Piliocolobus tephrosceles",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Colobinae",
+    "Piliocolobus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 462 BP; 90 A; 161 C; 121 G; 89 T; 1 other;"
+  },
+  "sequence": "tgtttggacgaacggaggcaagatggtgcacttccgggttcttcttcaccaccaactcttcccgcgcgcgcgaaaatgcagccggcgcccgggaaggtgcagaccaactgggcatgcgccaggtgacgtcaatccgaagagaccaagatttacctggtcgcacctgcggaacgcccccgacacgcccgtgccccgcctattgccctcccactcctagaaaagccgctctccgccattgagccacgcggccttctcacagccccactcctgtcgggatgtcgggactgtgggaagtccgtccgagagccccgcggggggactctgccggcctccttcgccggaggccgacagacttctcccgcacaccttaggttaccaaaataaacttgcagttttgctnctacacttgcctacccgctggttcttttgcgcccgctcggctggtcttagaaaaacaagaca",
+  "length_bp": 462,
+  "sequence_length_bp": 462,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

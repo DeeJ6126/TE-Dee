@@ -1,0 +1,48 @@
+{
+  "accession": "DF000282269",
+  "name": "MyrTri-1.10_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MyrTri-1.10_int"
+  ],
+  "species": "Myrmecophaga tridactyla",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Myrmecophaga tridactyla",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Pilosa",
+    "Vermilingua",
+    "Myrmecophagidae",
+    "Myrmecophaga"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1495 BP; 413 A; 276 C; 437 G; 368 T; 1 other;"
+  },
+  "sequence": "agattttggtaccggagagtggggtgctgctgctgcggtttgcaaataccaaacatgttggaacggctttttaaatggataaggggaagantctggaggagttgtgagaagcttgatagagaaggcctagaatgctttggagagactgttggtagaaatgtggactctaaagatacctctgatgaggccttagacagaaatgaggcacgtgttattgcaaactggaaggaaggcgatccttgttttaaaatggcagataatctggcaaagttgactagtggctttggctggaaggcagattttaaaagccatgaacttggatatttagcagaagagatctccaaattaaatgtggaaagtgcagcctggtttctcctcgcagcttatagtgaaatgcgacaggaaagagataagctgaaaactgaactcttgagtaaaaagaaaccagaaattgaggtcctggaaaattctgggcctacagaaagggagaccccagagaatagtgccccgcgtgaggatttaaccaaatgtggaaccagtcagccatttcagagaaagccaggatcggacatggagttatccaggaaggatttgtggaaactccttatgtctgatgggcatgatccaacgctactgcatagaaagccgacgagagtgctgtgggacctgtataaacagagccgctgccagtctggactggggggttcagagaagggacacattggaggaaaaataacttcagaggcaaaaccatggaggctgaggtctgaagtcaagaagcctcgggccaggagagcggacccacccaagcccgtggagagggtgagtttgccccaaaggcagagaatgggccttccacctcgttgcagtggaagagtcatgccgcctcaggccttggagaaggtgaagcacattccttggggtttggggagagcctggctgccaccacatggaggggttgagcgtgtgccccggagatggcagagagcccgggtgcggccccaatgcttggagagggtggagccgagagaaaggtggtctccccaatatcccccaaggttgcattcggagagaggcaggcgtaggcatttggaaagggtgggactgccgctttctaaagccctgaggataaatgactctcagactttgaaatctaatggactttgccctgcgggttttcgaaactgtatgggtccggtgacccctgtgttccttcctccctatggaaatgtgtatatgtatcctatgaatgttcctcctttgtatgttggcagcaaataacttgttatgagttttcaaaggtccagagcaaatggagagaattttgccttaggacagaccatgcctgtaactgacttgatgagattttatactgtctctaattttgtacttcattgtattgctactgaaaggtttaaggtttctgatattgttatgaaattaatgtattttgtatatgggaaaaacatgtcttttttaggggccagagggtgga",
+  "length_bp": 1495,
+  "sequence_length_bp": 1495,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

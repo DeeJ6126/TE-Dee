@@ -1,0 +1,52 @@
+{
+  "accession": "DF000275409",
+  "name": "CerAty-1.140",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Cercocebus atys",
+  "display_classification": "LINE/L1 | Cercocebus atys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Cercopithecinae",
+    "Cercocebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1156 BP; 468 A; 245 C; 249 G; 194 T; 0 other;"
+  },
+  "sequence": "gtctggagtggacctccagcaaactccagcagacctgcagcagaggggcctgactgttagaaggaaaactaacaaacagaaaggaatagcatcaacatcaacaaaaaggacgtccacacaaaaaccccatccgaaggtcaccaacatcaaagaccaaaggtagataaatccacgaagatgaggaaaaaccagcgcaaaaaggctgaaaattccaaaaaccagaacgcctcttctcctccaaaggatcacaactcctcgccagcaagggaacaaaactggacggagaatgagtttgacgaattgacagaagtaggcttcagaaggtgggtaataacaaactcctccgagctaaaggagcatgttctaacccaatgcaaggaagctaagaaccttgaaaaaaggttagaggaattgctaactagaataaccagtttagagaagaacataaatgacctgatggagctgaaaaacacagcacgagaacttcgtgaagcatacacaagtatcaatagccgaatcgatcaagcggaagaaaggatatcagagattgaagatcaacttaatgaaataaagcatgaagacaagattagagaaaaaagaatgaaaaggaatgaacaaagcctccaagaaatatgggactatgtgaaaagaccaaacctacgtttgattggtgtacctgaaagtgacggggagaatggaaccaagttggaaaacactcttcaggatattatccaggagaacttccccaacctagcaagacaggccaacattcaaattcaggaaatacagagaacaccacaaagatactcctcgagaagagcaaccccaagacacataatcgtcagattcaccaaggttgaaatgaaggaaaaaatgttaagggcagccagagagaaaggtcgggttacccacaaagggaagcccatcagactaacagcggatctctctgcagaaaccctacaagccagaagagagtgggggccaatattcaacattcttaaagaaaagaattttcaacccagaatttcatatccagccaaactaagcttcataagcgaaggagaaataaaatcctttacagacaagcaaatgctgagagattttgtcaccaccaggcctgccttacaagagctcctgaaggaagcactaaatatgg",
+  "length_bp": 1156,
+  "sequence_length_bp": 1156,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

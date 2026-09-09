@@ -1,0 +1,52 @@
+{
+  "accession": "DF000281515",
+  "name": "AllBul-1.332_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "AllBul-1.332_LTR"
+  ],
+  "species": "Orientallactaga bullata",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Orientallactaga bullata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Dipodoidea",
+    "Dipodidae",
+    "Allactaginae",
+    "Orientallactaga"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 420 BP; 90 A; 134 C; 87 G; 109 T; 0 other;"
+  },
+  "sequence": "tgttaggtcggacaggctcccaaaatggagtcaccaaggacagcaggatggcgacagagacataaggaagtggattatccacattcctcaagaaaccgcccagccattatcccctccttgcctgcaatgcccccaggtcatggtttcctgcccccttatctcgtaagtcacctggtcactgttctggtgtcacaccctggctatcttagatctcccctaaaggaacctttcttattcagctcttcccttcctcaccttcccccaactgaaagccctataaagcccactacctgaggaactcaggtgggctgtgctcctctcttgtgagccagccctggcagctcgtgcttttcccgaataaaagctttcatctttgcctcagagtggtttgcgtggtcgtggtcactcccgaaccttaca",
+  "length_bp": 420,
+  "sequence_length_bp": 420,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,57 @@
+{
+  "accession": "DF000000788",
+  "name": "MER45R",
+  "description": "hAT-Tip100 DNA transposon, MER45R subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1581 BP; 472 A; 324 C; 353 G; 422 T; 10 other;"
+  },
+  "sequence": "cagggccggcttcatgggcgtgcgacctgtgcagtcgcacagggccccgcgctcagaagggccccgcgcttggtttaatgctctgctgtcgccgtcttgaaattcttaataattttatctttgaacttgtgttttgtaagtgaagtccgatgggacaatggagcatgcgcgtgagcagaggagatacgccgggcggcagcgcncacggcctgcgggggccggcaggcagcgtgcatgccaccgagcagttggccnggccgcccggtgtgcacgacacgccggggcagtccggggcgccgcggggccccgagggggcaggccaggaccngngcccanantggcggcggcagcagnagcagcagcagnggtggcagcggccgcagccccgggagagaggagggnctccgtgcgggggcagcgccgggacccgccgtgggaggccggcttgtcctgtcnccggccatctgcacaaatattaactctccggcctgagcgccgggacaggaactgccggcgctcaggcagtaaactttgtcagtaaattattacaaaataaaagcgtacacatggacattgcaataaagcatatcagggagttattagaattcttcaaagagtttagaatctctggttttgaaaactgctgcaacattgcaaagcaaatatccacaggcttagaaatagaaattaaatttaaagatcgtcgcattcgacggaaaagaacactattttcatatgaagcttcggatgaaccaattattaacgaggaagacaattttaaaattaatttttccttgtaattgaagatacagcgatagaatgcataaacaggcgttttgaattatatacaaatcatgaagccactttcggtttcttgtacgacctccacaagttacaggaaatgtcagaggaaacattaaaatgccattgtataaatttacatttaaaattaaattcagacttacacgaaactgatttgtatgaagagttaaatctttttagaaaaattgttccgcgagaatcatcagctctagatgtactaaaatttatatttcgaaataatttatcagaaatttatcccaatgttgtcacagcctataaaatactcttaacagctccagtaacagttgcatcagcagaaagatccttctcaaaattaaaaattatcaaaaattatttgcgatcttgcatttgccaagagcgactgacgtcgctttcaattatatcgattgaaaatgaagttgctaaaagtataaattttgatgacctaataaatgaatttgcagaaaagcgagccagaaaaatcttatgatcaatcaagatatcacattaataaagtattattatttattgtattatataaaattatgacaccaaaatattattttttgcaatttgtaagtttatgttgttactcatgtatcactattacccctattacgttttataagtaataaaatattttaaaaggaaaagctttatattttagtacctttaacggcacttttttcctgctttttgaacaaggggccccgcattttcattttgcactgggccccgcaaattatgtagccggccctg",
+  "length_bp": 1581,
+  "sequence_length_bp": 1581,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "521..1309",
+      "start": 520,
+      "end": 1309,
+      "qualifiers": {
+        "product": "MER45R_tp",
+        "number": "1",
+        "note": "wised with 9293884_Ath [Eutheria]",
+        "translation": "AVNFVSKLLQNKSIHMDIAIKHIRELLEFFKEFRISGFENCCNIAKQISTGLEIEIKF"
+      },
+      "label": "MER45R_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "MER45R"
+  ]
+}

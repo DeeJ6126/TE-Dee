@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280511",
+  "name": "RhiSin-4.1510",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Rhinolophus sinicus",
+  "display_classification": "DNA/TcMar-Mariner | Rhinolophus sinicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Rhinolophidae",
+    "Rhinolophinae",
+    "Rhinolophus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 960 BP; 264 A; 211 C; 224 G; 260 T; 1 other;"
+  },
+  "sequence": "cgaggtgtgatcaaanaatacggtgaatgtttaaattaaaaaaattattacagtaaaagacacattgccattaatccccctcaaaatactccccctcgcttcgaacacacttatcccatcgttcttgccactttctgaagcagttctggaagtcctctttcgtgagtgtctttagttgcgctgtcgtggctgcctcgatgtcctgaatcgattcaaaacgtttacctttcatggtcattttgactttggggaagagccagaagtcgcacggtgccagatccggtgaataaggtggatgaggacacaccgtaatgtttttatttgacagaaattgccgtaccagaagcgatgtgtgacacggagcctttccgttgtgatcacaaaatacggtgaatgctgctgccgagtgccatccaacggaaaggcagggatcttcaatacgggaagcggcgcgtcgaaccttagtaacagtgtgtgacaagtttcaacttgttcggtgcagtcagtcgggtgtgagctacggttgagagaaggtgtgttttaaagtgtgccgtaaatcatggatcacgaacaacgcattaacatgaaatgggcaaacggtttcatcctccatcatgacaacgctccgtgtcacacatcgcttctggtacggcaatttctgtcaaataaaaacattacggtgtgtcctcatccaccttattcaccggatctggcaccgtgcgacttctggctcttccccaaagtcaaaatgattcaggacatcgaggcagccacgacagcgcaactaaagacactcacgaaagaggacttccagaactgcttcagaaagtggcaagaacgatgggataagtgtgttcgaagcgagggggagtattttgagggggattaatggcaatgtgtcttttactgtaataattttttttaatttaaacattcaccgtattttttgatcacacctca",
+  "length_bp": 960,
+  "sequence_length_bp": 960,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

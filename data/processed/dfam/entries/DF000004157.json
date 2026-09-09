@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004157",
+  "name": "RLTR12B",
+  "description": "Mouse long terminal repeat - a consensus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR12B"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 556 BP; 165 A; 97 C; 135 G; 145 T; 14 other;"
+  },
+  "sequence": "tgtaggcataatgttattgtgcactgtgtaaagattatccttgtattattcaaatgctgatttctctgcccccnnatatcnntggttgcgaatccggacatggcattgtaatgcttattctaagaatctcctgtctcaatgttgtgtaaacattgctccccatttattctctgatttgtcaataaaaagctgatcagccaatgactgagcagaggagagaatagggctggacttccgntcccagccaggggagggggggagagagagagaggaagagaggattcggccacgaggagagggtcgncaggagacaccatgggaaaacnnacacctggagcagagagagccagatcaatactaaaantgcaagtatctcggggattttggctgggaggtagccagattagcttagaggattaaaatagattaataactgctcagnttattgtgccgtaaagcngcttgattaaataaatctnatagtctctgtctcanttatttgggagctagccgggntaaagaaaaaaactatcactttttaaaaattgcactaaca",
+  "length_bp": 556,
+  "sequence_length_bp": 556,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR12"
+  ]
+}

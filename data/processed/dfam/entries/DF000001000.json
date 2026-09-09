@@ -1,0 +1,60 @@
+{
+  "accession": "DF000001000",
+  "name": "Merlin1_HS",
+  "description": "Merlin1_HS -- Merlin DNA transposon",
+  "keywords": [
+    "DNA/Merlin"
+  ],
+  "species": "Primates",
+  "display_classification": "DNA/Merlin | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1175 BP; 307 A; 255 C; 226 G; 381 T; 6 other;"
+  },
+  "sequence": "ttggatcaattgaacaatttgtccctgcaggtcaaattcctcaattgtggcgggtcaaattcctcaattgtgatcaanccctgtgggtcaaattcaaattttatttttttagtggttttatttttgagaaaattttcatttcacctctcccaatggataggcgtttatttcaagatacactgcaacctattattgtcaacgcttcaaacctaccagccactgacttcttgaagcagcgtaatttgttatctgtggctcctgaacgttcctcatgtcaccaacccttacggtgnatngtatgatgtcaatgcaaagatggctattcgtggaaatgcgttcaccgcaattgccaatcgtcatgggtctcncttcgaaaggaatctttttcgcaaantccaacatttccctgaaaatgtggcttcatcttctattcttatggtctatggaagtcacagagaaagcagcnactgctgttactggaatttcggcccatactatggtcgatatctacaatttctgtcgcaaagtatgcaagcattactttgaactgcatccgatacagcttggtggtccaggtcattacttgcaaatcgacgagtcctgttttagccacaaaatcaagtatcatcatggccgtgctccggagagggaaatatgggtttttggtgtcgtagatactacccatcaaccagctattggttatttggaaattgttggtgaccgttctgcccaaactttgccgcctattttgcaatgcgtagttcagcctggttctaccattcactccgattcacgggctgcgtataataacattcagcctctccttggtttccaacatgctcaggttaaccataatgatcccaacttccgtttcgtgtcacctcttggcgtgcatacccaaaacatcgagtcctattggaacaaatgtaaagcaaagtgcaagaccatgagaggagttcgtcgcgatatgttggactcatatttggccgaatttatgtggcgcgatcgatttggaaataatgctttcaattcccttttactgcatatatcagaacaatttcctgttaactaatatgatgttttgacttttggttttagtatgttttagtacaaatatccagggacaaattcttcaattgaatacatctgagagacaaattgttcaattgatccag",
+  "length_bp": 1175,
+  "sequence_length_bp": 1175,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "152..1069",
+      "start": 151,
+      "end": 1069,
+      "qualifiers": {
+        "product": "Merlin1_HS",
+        "number": "1",
+        "note": "( [Primates]",
+        "translation": "MDRRLFQDTLQPIIVNASNLPATDFLKQRNLLSVAPECSSCHQPLRWMVRCQCKDGYS"
+      },
+      "label": "Merlin1_HS"
+    }
+  ],
+  "repbase_aliases": [
+    "Merlin1_HS"
+  ]
+}

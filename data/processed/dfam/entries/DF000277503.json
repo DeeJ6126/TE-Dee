@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277503",
+  "name": "HyaHya-4.127",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Hyaena hyaena",
+  "display_classification": "SINE/tRNA | Hyaena hyaena",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Hyaenidae",
+    "Hyaena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 222 BP; 42 A; 65 C; 52 G; 63 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccgacttcggctcaggtcatgatctcacggttcgtgggttcgagccccgcgtcgggctctgtgctgacagctcagagcctggagcctgtttcagattctgtgtctccctctctctctgaccctcccctgctcacgctgtctctctctctctctcagaaataaataaaacattaaaaaaattttttaaaaa",
+  "length_bp": 222,
+  "sequence_length_bp": 222,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

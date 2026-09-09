@@ -1,0 +1,47 @@
+{
+  "accession": "DF000001044",
+  "name": "MSTC",
+  "description": "MSTC Long Terminal Repeat for ERVL-MaLR retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MSTC"
+  ],
+  "species": "Primates",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 428 BP; 113 A; 99 C; 104 G; 111 T; 1 other;"
+  },
+  "sequence": "tgctatggtttgaatgtttgtcccctccaaaactcatgttgaaacttaatccccaatgtggcagtattgagaggtggggcctttaagaggtgattgggtcatgagggctctgccctcatgaatggattaatccattcatggattaatggattaatggattaatgggttatcatgggagtgggactggtggctttataagaagaggaagagagacctgagctagcacgctcagccccctcgccatgtgatgccctgcgccgcctcgggactctgcagagagtccccaccagcaagaaggccctcaccagatgcggcccctcgaccttggacttctcagcctccanaactgtaagaaataaattccttttctttataaattacccagtttcaggtattctgttataagcaacagaaaacggactaagaca",
+  "length_bp": 428,
+  "sequence_length_bp": 428,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MSTC"
+  ]
+}

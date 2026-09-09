@@ -1,0 +1,41 @@
+{
+  "accession": "DF000004107",
+  "name": "CELE1",
+  "description": "CELE1 nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Tc1 | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 329 BP; 107 A; 58 C; 58 G; 103 T; 3 other;"
+  },
+  "sequence": "tattacgggaacacaaaattctgagaatgcgtattgcgcaacatatttgacgcgcaaaatatctcgtagcgaaaactacagtaattctttaaatgactactgtagcgcttgtgtcgatttacgggctntcgattttcgaaatgaattaaaatttaatgaatatcgtantcantattcgaaaataaattcatttcgaaaatcgagcccgtaaatcgacacaagcgctacagtagtcatttaaagaattactgtagttttcgctacgagatattttgcgcgtcaaatatgttgcgcaatacgcattctcagaattttgtgttcccgtaata",
+  "length_bp": 329,
+  "sequence_length_bp": 329,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CELE1"
+  ]
+}

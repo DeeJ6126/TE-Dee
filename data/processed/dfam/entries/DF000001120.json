@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001120",
+  "name": "X7B_LINE",
+  "description": "CR1 (Chicken Repeat 1) retrotransposon, X7B_LINE subfamily",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Amniota",
+  "display_classification": "LINE/CR1 | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 250 BP; 102 A; 35 C; 45 G; 68 T; 0 other;"
+  },
+  "sequence": "caccaaattccaatacatgagtactagaaagctctttgaaacttaaaaaagataattttaggacaaataaaaggaagtactactttacacagcgggtagtaaacttatggaactcattactcccaaagaggtagtacaggctgaaaatataaataggttcaaaaaaggtttagataaattcatggatgatagatccataatgggttattaaaggaaattaggatgttttgaagacatccctaacctttga",
+  "length_bp": 250,
+  "sequence_length_bp": 250,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X7B_LINE"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "generated_at": "2026-09-03T15:38:15.228Z",
+  "request": {
+    "topic": "",
+    "title": "SciSciNet A large-scale open data lake for the science of science research",
+    "dois": [],
+    "pdf_url": "https://www.nature.com/articles/s41597-023-02198-9.pdf",
+    "si_requested": false,
+    "language_override": "",
+    "route_override": "open_access",
+    "source_url": "",
+    "api_fallback_web": null,
+    "api_fallback_web_for": [],
+    "no_api_fallback_web_for": []
+  },
+  "summary": {
+    "total": 1,
+    "downloaded": 1,
+    "seconds": 3.1
+  },
+  "results": [
+    {
+      "title": "SciSciNet A large-scale open data lake for the science of science research",
+      "status": "open_access_downloaded",
+      "provider": "direct_url",
+      "accessMode": "open_access",
+      "ok": true,
+      "file": "docs\\article_scientific_data\\writing_examples\\papers\\sciscinet\\PDFs\\SciSciNet_A_large-scale_open_data_lake_for_the_science_of_science_research.pdf",
+      "bytes": 2872876,
+      "sha256": "bcc49f7b3184469d10a37ad0bb2b20f92fcc885fa678813df380203ac3bfb26f",
+      "contentType": "application/pdf",
+      "format": "pdf",
+      "source": "https://www.nature.com/articles/s41597-023-02198-9.pdf",
+      "si_requested": false
+    }
+  ]
+}

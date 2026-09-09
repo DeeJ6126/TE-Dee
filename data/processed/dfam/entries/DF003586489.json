@@ -1,0 +1,39 @@
+{
+  "accession": "DF003586489",
+  "name": "Pfuc_SINE-2_MD",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "DNA/PIF-Spy"
+  ],
+  "species": "Pinctada fucata",
+  "display_classification": "DNA/PIF-Spy | Pinctada fucata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Pterioida",
+    "Pterioidea",
+    "Pteriidae",
+    "Pinctada"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 350 BP; 82 A; 84 C; 104 G; 75 T; 5 other;"
+  },
+  "sequence": "ggggtggcgtagctcagttggtagagcgctnagtacgtcgactcgtggccagtgaagcatgngactgaccagcttcgaatccgacgagcgccaggtggagggacgattaccaacttagagcctcgccaggtgttgtgggctaacaccttgtatatagccaagtaaccccagcctagtctttcggaagggactataaacgggggtcccgtgtctcggatnggcgtaggcacgtnaaaganccctcactgcttcgggtgggtccgttgcataggtcaaaattccaacatacagcttacgtcttcggacggtacgcctagtagaggcgggatctataactgaactgaactgaa",
+  "length_bp": 350,
+  "sequence_length_bp": 350,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,266 @@
+{
+  "case": {
+    "case_id": "TPL_AGENT_001_MECHANISM",
+    "question": "How does LINE-1 contribute to cancer?",
+    "expected_best_mode": "agent",
+    "template_label": "Mechanism review"
+  },
+  "dt": {
+    "ok": false,
+    "skipped": true,
+    "answer": "",
+    "errors": []
+  },
+  "agent": {
+    "ok": false,
+    "http_status": 202,
+    "headers": {
+      "Date": "Sat, 30 May 2026 11:39:31 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Content-Length": "179",
+      "Connection": "close",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "create": {
+      "ok": true,
+      "run_id": "run_ffc10bd68790f245",
+      "request_id": "req_e799de516010aa27",
+      "session_id": "eval-agent-TPL_AGENT_001_MECHANISM",
+      "status": "pending"
+    },
+    "run_id": "run_ffc10bd68790f245",
+    "run": {
+      "run_id": "run_ffc10bd68790f245",
+      "request_id": "req_e799de516010aa27",
+      "session_id": "eval-agent-TPL_AGENT_001_MECHANISM",
+      "question": "How does LINE-1 contribute to cancer?",
+      "mode": "academic",
+      "status": "failed",
+      "created_at": "2026-05-30T11:39:31+00:00",
+      "updated_at": "2026-05-30T11:40:14+00:00",
+      "started_at": "2026-05-30T11:39:31+00:00",
+      "finished_at": "2026-05-30T11:40:14+00:00",
+      "current_stage": "Understanding",
+      "workflow_state": {
+        "current_stage": "Understanding",
+        "stage_statuses": {
+          "Understanding": "failed",
+          "Planning": "pending",
+          "Collecting": "pending",
+          "Executing": "pending",
+          "Integrating": "pending",
+          "Writing": "pending"
+        },
+        "traversed_edges": [],
+        "complete": true
+      },
+      "events_count": 2,
+      "last_sequence": 2,
+      "answer": "",
+      "language": "english",
+      "writing_failed": true,
+      "failure_stage": "Understanding",
+      "failure_reason": "llm: stage=understanding provider=deepseek model=deepseek-v4-pro: LLM provider returned HTTP 500 relay=http://127.0.0.1:18087/chat",
+      "error": "",
+      "used_plugins": []
+    },
+    "events": [
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-TPL_AGENT_001_MECHANISM",
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "message": "Understanding",
+        "payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "display_text": "Understanding",
+        "sequence": 1
+      },
+      {
+        "type": "node_llm_error",
+        "session_id": "eval-agent-TPL_AGENT_001_MECHANISM",
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "stage": "Understanding",
+        "schema_version": "understanding_result.v1",
+        "ok": false,
+        "artifact": null,
+        "errors": [
+          "llm: stage=understanding provider=deepseek model=deepseek-v4-pro: LLM provider returned HTTP 500 relay=http://127.0.0.1:18087/chat"
+        ],
+        "summary": "Understanding LLM artifact failed: llm: stage=understanding provider=deepseek model=deepseek-v4-pro: LLM provider returned HTTP 500 relay=http://127.0.0.1:18087/chat",
+        "message": "Understanding LLM artifact failed: llm: stage=understanding provider=deepseek model=deepseek-v4-pro: LLM provider returned HTTP 500 relay=http://127.0.0.1:18087/chat",
+        "payload": {
+          "stage": "Understanding",
+          "schema_version": "understanding_result.v1",
+          "ok": false,
+          "artifact": null,
+          "errors": [
+            "llm: stage=understanding provider=deepseek model=deepseek-v4-pro: LLM provider returned HTTP 500 relay=http://127.0.0.1:18087/chat"
+          ],
+          "summary": "Understanding LLM artifact failed: llm: stage=understanding provider=deepseek model=deepseek-v4-pro: LLM provider returned HTTP 500 relay=http://127.0.0.1:18087/chat"
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "stage": "Understanding",
+          "schema_version": "understanding_result.v1",
+          "ok": false,
+          "artifact": null,
+          "errors": [
+            "llm: stage=understanding provider=deepseek model=deepseek-v4-pro: LLM provider returned HTTP 500 relay=http://127.0.0.1:18087/chat"
+          ],
+          "summary": "Understanding LLM artifact failed: llm: stage=understanding provider=deepseek model=deepseek-v4-pro: LLM provider returned HTTP 500 relay=http://127.0.0.1:18087/chat"
+        },
+        "display_text": "Understanding LLM artifact failed: llm: stage=understanding provider=deepseek model=deepseek-v4-pro: LLM provider returned HTTP 500 relay=http://127.0.0.1:18087/chat",
+        "sequence": 2
+      }
+    ],
+    "answer": "",
+    "done_payload": {},
+    "used_plugins": [],
+    "citations": [],
+    "evidence_package": {},
+    "evidence_walk": {},
+    "report_plan": {},
+    "integrity_report": {},
+    "evaluation_report": {},
+    "models": {},
+    "writing_failed": false,
+    "failure_stage": "",
+    "failure_reason": "",
+    "timings": {
+      "total_ms": 42738
+    },
+    "errors": [
+      {
+        "type": "run_not_completed",
+        "run": {
+          "run_id": "run_ffc10bd68790f245",
+          "request_id": "req_e799de516010aa27",
+          "session_id": "eval-agent-TPL_AGENT_001_MECHANISM",
+          "question": "How does LINE-1 contribute to cancer?",
+          "mode": "academic",
+          "status": "failed",
+          "created_at": "2026-05-30T11:39:31+00:00",
+          "updated_at": "2026-05-30T11:40:14+00:00",
+          "started_at": "2026-05-30T11:39:31+00:00",
+          "finished_at": "2026-05-30T11:40:14+00:00",
+          "current_stage": "Understanding",
+          "workflow_state": {
+            "current_stage": "Understanding",
+            "stage_statuses": {
+              "Understanding": "failed",
+              "Planning": "pending",
+              "Collecting": "pending",
+              "Executing": "pending",
+              "Integrating": "pending",
+              "Writing": "pending"
+            },
+            "traversed_edges": [],
+            "complete": true
+          },
+          "events_count": 2,
+          "last_sequence": 2,
+          "answer": "",
+          "language": "english",
+          "writing_failed": true,
+          "failure_stage": "Understanding",
+          "failure_reason": "llm: stage=understanding provider=deepseek model=deepseek-v4-pro: LLM provider returned HTTP 500 relay=http://127.0.0.1:18087/chat",
+          "error": "",
+          "used_plugins": []
+        }
+      }
+    ]
+  },
+  "evaluation": {
+    "schema_version": "mode_comparison_live_proxy.v1",
+    "case_id": "TPL_AGENT_001_MECHANISM",
+    "expected_best_mode": "agent",
+    "recommended_mode": "agent",
+    "dt_ok": false,
+    "agent_ok": false,
+    "dt_answer_length": 0,
+    "agent_answer_length": 0,
+    "dt_plugins": [],
+    "agent_plugins": [],
+    "dt_latency_ms": 0,
+    "agent_latency_ms": 42738,
+    "agent_artifact_score": 0.0,
+    "dt_artifact_score": 0.0,
+    "depth_delta": 0.0,
+    "agent_value_added": "none",
+    "agent_overkill": false,
+    "dt_errors": [],
+    "agent_errors": [
+      {
+        "type": "run_not_completed",
+        "run": {
+          "run_id": "run_ffc10bd68790f245",
+          "request_id": "req_e799de516010aa27",
+          "session_id": "eval-agent-TPL_AGENT_001_MECHANISM",
+          "question": "How does LINE-1 contribute to cancer?",
+          "mode": "academic",
+          "status": "failed",
+          "created_at": "2026-05-30T11:39:31+00:00",
+          "updated_at": "2026-05-30T11:40:14+00:00",
+          "started_at": "2026-05-30T11:39:31+00:00",
+          "finished_at": "2026-05-30T11:40:14+00:00",
+          "current_stage": "Understanding",
+          "workflow_state": {
+            "current_stage": "Understanding",
+            "stage_statuses": {
+              "Understanding": "failed",
+              "Planning": "pending",
+              "Collecting": "pending",
+              "Executing": "pending",
+              "Integrating": "pending",
+              "Writing": "pending"
+            },
+            "traversed_edges": [],
+            "complete": true
+          },
+          "events_count": 2,
+          "last_sequence": 2,
+          "answer": "",
+          "language": "english",
+          "writing_failed": true,
+          "failure_stage": "Understanding",
+          "failure_reason": "llm: stage=understanding provider=deepseek model=deepseek-v4-pro: LLM provider returned HTTP 500 relay=http://127.0.0.1:18087/chat",
+          "error": "",
+          "used_plugins": []
+        }
+      }
+    ]
+  }
+}

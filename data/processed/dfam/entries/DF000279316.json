@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279316",
+  "name": "NeoAsi-4.904",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Neophocaena asiaeorientalis",
+  "display_classification": "SINE/tRNA | Neophocaena asiaeorientalis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Phocoenidae",
+    "Neophocaena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 339 BP; 103 A; 108 C; 87 G; 41 T; 0 other;"
+  },
+  "sequence": "ggggcttccctggtggcgcagtggttaagaatccgcctgccaatgcaggggacacgggttcgagccctggtccgggaagatcccacatgccgcggagcaactaagcccgtgcgccacaactactgagcctgcgctctagagcccgcgagccacaactactgaagcccgcgcgcctagagcccgtgctccgcaacaagagaagccaccgcaatgagaagcccgcgcaccgcaacgaagagtagcccccgctcgccgcaactagagaaagcccgcgcgcagcaacgaagacccaacgcagccaaaaataaataaattaaataaataaatttaaaaaaaaaa",
+  "length_bp": 339,
+  "sequence_length_bp": 339,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,82 @@
+{
+  "accession": "DF000001708",
+  "name": "Tabor_I",
+  "description": "TABOR_I is an internal part of retrovirus TABOR.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "Tabor_I"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "Long terminal repeat of retrovirus-like element | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 6341 BP; 2608 A; 1079 C; 1098 G; 1553 T; 3 other;"
+  },
+  "sequence": "tggcgaccgtgacatggtcacttaagcctgtaaaacaataataaaaagaaatatataaaagttaaaatgcgaacagtgaccattaaaaaataaaattgtgacaattgatcaaacccagacgacaacagaagccgcaaactggaggactctgctcctatcgagcaaagggacgcacctactctacaagaggcactagaggtgtgtccaaacgatggaccacgcccactcacaatagctgagtatagggcaagaagacagccgaaaccaaaaataaagaagaaaagaagcggcaaaaggatcaagcttcttcaacaacggagattaataaaggacctaataaagacggcaactacggaggaagagaaaactaaccaagccaaaaatctggaagcgattgaagccaaattgtgcagtggtgcgcaataacgcagttgaggctgtatttaataccaatgccccaatctgccttaatattaaaaatacatacctcaagccgatgcgtgaaaacgctgcttgaaaaatactaatctctgttaggcttttactaaaaacatgtgtacggtattgaattatatagagcaaaacattgtaaaccgtacacatgccctctaactaactttttcttggacagacatacgtgtagggagaaattatagcaatatacaatttttaatcaaaatttaataaataaataaataataataatcgttcaattaacaactatgggttggttcggatctgacgatagtcagaccaaagacaacacggctaatgtcgtgaacaacgtcaaaattgtagatcacacagaagatattcaagcactgtgggttttactcctaattttgacaattacaagtgtggcccagttccttctgacgttgtacataaaacacaacaaaatattaaaaagaagatatatgagtagggcgaataatctagacagggtttaaaagaaaaaaaaaaaatatattttaaagaatgagtatataaatatatactaacaagtaggaatatataaaatagtatggaatggaacgagttacgtaaaaacataacaagaataagaaacgaatttgaaaaatctcataaatgtttgtcgcaaaatagacctattttaggaccgacaacaaagaaacatgcaaatattctggtaaattccttcaacgaagcacgaatactagtgtatgataacaaggaaagactaaatccagatcattggtctcaggtatcgaaagttctcataaaacttagatcgaacttgttatctgtaaaattgaaacttggtttggatatatcaataccaaccattttaaattcgccaataaaaatagaatcggacgaacaaacagaaacagaaatagaagacgaagatttaaacaacttaacaattccagctatattaacactagctgaattgacggaggaagaattggctgagtcagacatagaagaaacagaaacaaaatctgtcatcatggtggacgaagcagctgcccagagggcatacataaaagacatttcaacggcgattccggaatttgacggtaaaaagatcaatttgcgtagatttatcacggcaatcaagttggttaacctgactaagggaccacatgaagctattgccattgaagtgattaaatcaaaaataatcggaacaacactctatagagtacagaatgaagttacaattgatgccataatcaggaaattagaagaagtggtcgtaggagaaacaacggacgtagtaagagcaaaaatggcaaatgtttaccaaaaaggtaaaacagccacacaatttacaaatgaaattgaaaacctacgcaagtctcttgaatcttcatatatagatgaaggattgcaaccagaacatgctatcaaatttagcacaaaggaagcaatcaatacaatgacaaagaattgcgatcatggaaaactgaaaacaatcctagaggcaggaacatttaagacaatggacgaagcaataagtaaatacatccattgcagcactgagatgacaggaagtgcaagttccgttttgttttacaagagaggacaaggaagttacaccagaggtaactaccgaggacgaggaaatggtcgaggtggtaataatagaaataattataaccagaacaccggccaatacaacaactttaataattataacaatagcaatggcagaggacgaggaggatatagagaatataactaccagaacagaggcggtggtaactataacaaccaaaaccgcaatttctcaagttatagccaaaatggtaatgtcagacatgcacaaggcacgtcggaaaaccagcaggctcccttagggcatcaagaacagtaaaacaaaaggttcataccatcaatcttaatctaaatattttcattaaagtaaaaaatgaacacacaaataagatacttacatttctagtagacacaggcgccgatatatcagtcattaaagaaaactcagatgaacttttgaatcttgatcataataatataacacaaattacaggaattggaaagggttcaataaattcaataggtttaacacttctcgagatgagaaccggtaactatatagtaccgcacaattttcatgttgtggacgacaattttccgatccctggtgacggaatagttggaatcgacttcataaaaacattcaattgccaattagattttactacagaaagtgattttttcattctaagaccaaacaatattaaacaagcgatacaaataccaatttttcataatatcgataacactgagataaccataccatctcgttgtgaggttattaggcaaattaccgtaagttcggtggataaccaaattctaatacccaatcaggaaatagaagatggtgtatttgtcggaaattcgatatcagattcaaaaaacacgtacatccgaatactaaacacaactaacagcaataaaattttaaatgtaaacaaaatcaattttgaaccattaactaactacaaaatagcagacctaaacgactccataagagccgaatcaattttaagcagattaaagaaaaactttccatctgcacataagaaaatgttgactgaactgtgttcacaatatactgatatttttggattggagacagagccaatcactacaaataaattttacaaacaaaagataagattgagagatgatgaaccaagctatattaagaactatagaacaccccattcacaacaagccgaaatatcgagacaggtaactaaattaatagaagacaagatagtagaaccagctgtatctgaatacaatagcccattattgctagttccaaagaaatccttaccggattcaaaagaaaaaaaatggcgtttagtgatagactatcgccaaataaataaaaagttgttagctgacaagttccccttgccaagaatagatgacatacttgatcaattaggccgagcaaaatatttctcgtgcctggatcttatgtcgggattccatcaaatagagttagaagaagattctcgaaatataacatccttttctacgagcagtggctcttatcgcttcacgcgactaccatacggattaaaaatagctccaaattcctttcaacgaatgatgacaacggcatttacaggtctggaaccatctcaagcatttctgtacatggatgacttaattgtcataggctgttctgaaaaacacatgaccaagaatcttacaaatgtttttgaactatgcaggaaaaacaacctcaaactgcatccagataagtgctcatttttcatgagtgaagtcacttttcttggacacaaatgtactgataaaggcatattgcctgacaatactaaatatgatgctatacagagatatccagttcctactgacgcagacagtgccagaagattcgtagcattttgtaactattatagacgttttatacaaaattttgcagattattcccgtcacataacaagattatgtaagaaaaatgtaaagttcgaatggacagctgattgccagcatgccttcgaacacctgaaaaaacaactaatgaatccaactttgctgaaataccccgactttagcaaagagttctgtattataactgatgcaagcaaagaggcatgcggagcggtattgacccagaactataatggtatccatttgccagtagcttatgcatcccgtagcttcactaagggtgagagcaacaagtcaacaacagagcaagagttgtcagcaatacattgggcgataaatcatttcaaaccatatatatatggtagacacttcaccgtcaaaacagatcacagaccgttaacatacttgttctcgatggttaatccaagctcaaaactgaccagaatgaggcttgatttagaagaatatgaatttactgtggaatatcttaagggaaaagacaattacgtagcagatgcgttatccagaataaccatcgaccaactaaaaaatatatccaaacaagtacttaaagtcactacaagaaatcaaagtagacaggaatcctgcgcaggaaaaggaaataaaaatgataaagtagaattgcctaagcaaactactcaagaagcttctaagcccaaagtatacggagtcattaataacgacgaagtacgcaaagtagtgacattgcatgtaaataatatgatatgtttttttaaacatggaaaaaaaattactgcaagatacaacgttgaagatttgtatactaatggaactctcgacttaggtcaatttttccacaggcttgaaaagcaggccggtatgcataatatcaatcaacttaaaatggcaccgtgggaaaatatctttganaacatttcaatagatacatttaagaaaatgggcaataaaacattaaaactattaagagtagcgctactcaacccggtgaccttagtgaatacaaagaaagaaaaagaagcaatcctgtctacacaccacgacgatccaacacaaggaggacacgcaggcattacaaaaaccctggccaggattaaaagacattacttttggaaaggtatgactcgggaaataacagagtacatacggaaatgtccaaaatgccaaaaagctaaaattatgaaacacacaaaaactcctttatcaattacagagacaccaataagcgcatttgacagagtcatagtggatacgataggtccactaccaaagtcagaaaacggtaatgaatatgctgttacacttatatgcgacctgacaaaatatttggtaaccattccaatcgcaaataaaagcgcaaatacagtagcgaaagcaatatttgaatcctttgtactaaagttcggtccaatgaagacgttcatttcggacatgggaactgaatacagaaattcaattatcaaagacttatgcaaatacctgaaagtagaaaatataacttcttcagcacaccatcatcagacggtaggaacagtggaaagaagtcatagaacttttaacgaatacatccggtcatacatatcggttgataaaactgactgggacgtatggataaaatatttcgaattttgttttaatactacaccatctatggcacataattattgtccatatgagttgattttcggtaaaacatgcaatttaccaaagcattttaatagcacggatagaatagaacccatttataatatagaagactatgctaaagaaagtaaatataggttagaagtagcatataacagagcaagaattatgctcgaagaacagaagaaaaagaataaagaattatatgacttaaaattaaacgatataagtatatcaataggagataaggtgttattaaaaaacgaaaccggacataaattagatttcaaatatactggaccatatacggtagtaaagattgaagaaagggataatatagtaatatcaaatgataagaaaaaaccacaaacggtacataaggataggttaaaattgtttagttctnaaaaaaaaaaaaaataaataatatggtggccaccagcaaaaaaaaaaaaaaatatatatagagaaaagagttaaccccacataagtgcattgaatgtaagaaaacatttttcttttatcatctttgatggttgaacgattataaactaaaaatttaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaccccaagaacacgtatgtttgtacagaatgttccttaaatttccttaacattaaaattacttccttaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaatatatatatataaaatttttaattataaaataacttcataanattacgttatttttcaaaaggagggagatg",
+  "length_bp": 6341,
+  "sequence_length_bp": 6341,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "1024..2341",
+      "start": 1023,
+      "end": 2341,
+      "qualifiers": {
+        "product": "TABOR_gag",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "MEWNELCKNITRIRNEFEKSHKCLSQNRPILGPTTKKHANILVNSFNEARILVYDNKE"
+      },
+      "label": "TABOR_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "2280..5970",
+      "start": 2279,
+      "end": 5970,
+      "qualifiers": {
+        "product": "TABOR_pol",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "CQTCTRHVGKPAGSLRASRTVKQKVHTINLNLNIFIKVKNEHTNKILTFLVDTGADIS"
+      },
+      "label": "TABOR_pol"
+    }
+  ],
+  "repbase_aliases": []
+}

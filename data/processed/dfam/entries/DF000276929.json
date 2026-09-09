@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276929",
+  "name": "EubJap-1.113",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Eubalaena japonica",
+  "display_classification": "DNA/TcMar-Tigger | Eubalaena japonica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Mysticeti",
+    "Balaenidae",
+    "Eubalaena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 217 BP; 49 A; 56 C; 61 G; 51 T; 0 other;"
+  },
+  "sequence": "cagttgacccttgaacaacacgggtttgaactgcgcgggtccacttatacgcggatttttttcaatagtaaatactacagtactacacgatccgcggttggttgaatccgcggatgcggaaccgcggatacggagggccgactataagttatacgcggattttcgactgcgcggagggtcggcgcccctaacccccgcgttgttcaagggtcaactg",
+  "length_bp": 217,
+  "sequence_length_bp": 217,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

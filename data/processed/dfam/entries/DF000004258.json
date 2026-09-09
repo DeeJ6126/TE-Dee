@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004258",
+  "name": "CR1-X1_fAlb",
+  "description": "CR1 LINE element",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Ficedula albicollis",
+  "display_classification": "LINE/CR1 | Ficedula albicollis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Archosauria",
+    "Dinosauria",
+    "Saurischia",
+    "Theropoda",
+    "Coelurosauria",
+    "Aves",
+    "Neognathae",
+    "Passeriformes",
+    "Muscicapidae",
+    "Ficedula"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1063 BP; 240 A; 245 C; 373 G; 199 T; 6 other;"
+  },
+  "sequence": "catgnggtgggtgagcaactggctcacgggtcgggcacgaagggttacagngaatggggtgacatcagactggcgacctgtcactagtggggttccacagggctccgtcctcggccccgtgctcttcaacatcttcatnaacgacttggacgcaggactggaagggatactgagcaagttcgcagacgacacaaaactgggaggagctgttgactccctcgaaggcagggaggccctgcagagagacctcgacaaatcggagggctgggcaatcaccaaccgtgtgaagttcaacaagggaaagtgccggattctgcacctgggacggggcaaccctggatgtacggacagaccggggaatgagaggctggagagcagtgccgcggaaagggacctgggggtcctggtcgatggcaagttgaatatgagccagcagtgccctggcagccaggagggccaaccctgtcctgggggcatcaggcacagcatcaccagccgggcaagggaggggattgtcctgctctgctctgngctggggcagcctcacctccagtgctgggggcagctctgggtgccacaatgtaagaaagacattaaactattagagagtgtccaaaggagggcaacgaggatggtgaagggccttgaggggaagccgtgtgaggagcggctgaggtcacttggtctgttcagcctggaggagactgaggggagacctcactgcagttacagcttccttgtgaggggaagaggaggggcaggcactgatctctgctctgtggtgaccagtgacaggacccgagggaatggcctgaagctgtgtcaggggaggtttaggttggatattaggaaaaggttcttcacccagagggtggttgggcactggaacaggctccccagggaagtggtcacagcaccaagcctgacagagctcaaggagcgtttggacaatgctctcgggcacatggtgtgactcttggggatggtnctgtgcagggccaggagttggactcgatgatccttgtgggtcccttccaactcagcatattctgtgattctgnga",
+  "length_bp": 1063,
+  "sequence_length_bp": 1063,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282402",
+  "name": "OnyTor-1.356_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OnyTor-1.356_int"
+  ],
+  "species": "Onychomys torridus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Onychomys torridus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Neotominae",
+    "Onychomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1423 BP; 458 A; 241 C; 348 G; 372 T; 4 other;"
+  },
+  "sequence": "tctggcgcccaacgttcgtggtacgaattcatgaaaaagcctcttgcctgtggccttgcgggccccagctcaggcccgagctacactcggccggttgtggtggcgcacgccggtaggatttactgaagaaggcagaggcaggaggatcccgagtttgaggccggcctaggagaagcttcggccggggcagagccacaaacagtgtcggtgggaccatggaggcagtggctgctgctccgagttgccggctgcttctcatcgtgttggtgactgcggtgatgctgctacctgggacaaagggtttactgctgcttgttcagagaagaattgccaggaccatcgtgttacaagaaagcatcggcaaaggtcagtttggaaaagtttggcaagacaaatggtggggagaaattgctgtgaagattttctcttctagggaagaacgttcatggttccgagagacagacatttatcagactgtgattgctccaaaccacagaggaggcacaaaaaaaaaaaaaaaatctanagggaaccatgaccacgcctaacagtgactttgaaatcttcaaaaggatgacgggaccccacaatgatgatnccacatggactatggtaaagccattaagctgattaacaccacggaaagatcgactttggactacaaactgctcaggacaatttcgagatggctggctgagatgatccagcctgacagactacttgaacaaggacttgaaacaagccctgcactttctcattatgcagcggctggacaaatgatacaggacttgacaattaacccaaaaattttcttttcaggatcccctaaagatggaagtaattttaagaagacgacgcccacatccccaaaaggtgggatgggaggttttcggtcgtttaatgagttttggatattgtcattgtttatgatgattggttacaagttgttaattgttaatggtcaggaaaaaagctgaacatggagattagattcagaggttttgtttaaaaaagaaaaggaaaaagagaatatagatatgaggtagatcactgaatctactctgagaaaaaagataaagaaataataggataaatgggtagatcattgaatctactctaaaaagaaaaaggggaagatataaaaatgacaaaaggtagattactgaatctattatgaaaagaaaaaaggaactacttgttttaaataggataagtaatgaaaantttttgtctgagtttatcaaatgttactggactggacattgttatatataatggagtttttcacctgaatctgtcaaatgttaatggactagacatcgttaatgtaatcttgactgtgtatattgtatatacttattggatatgatttttcttgtattagttataaccttttttnaattttagacaaaaacaggggaaa",
+  "length_bp": 1423,
+  "sequence_length_bp": 1423,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

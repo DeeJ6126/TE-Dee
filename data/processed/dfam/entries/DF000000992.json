@@ -1,0 +1,42 @@
+{
+  "accession": "DF000000992",
+  "name": "MamRep434",
+  "description": "Putative TcMar-Tigger DNA transposon, MamRep434 subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/TcMar-Tigger | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 426 BP; 138 A; 78 C; 71 G; 137 T; 2 other;"
+  },
+  "sequence": "cagtaaaacctcattaattcggactccactaattcggaatttgtgataattcggacaggggctgggctgaagtttacctttgcactatctatgaaaaaagggtttgctaagcaaattaatagtgtaaacaagattgcaaggggaatgtttaacctacttaagagaacaaactgttttcaagcactttagaagcatccatttgcatacaaataattaatatgctaattacaaatnattcttatctattcattaaagcaggtccagcaggacctctacttggcaacactttgttagcctagttcgagttactgtatgtacttgaaagtaataaaactgcatttctttnaaaatattctataattcagacttttcactaattcagactggccttccccccaattagtccgaattagtgaggttttactg",
+  "length_bp": 426,
+  "sequence_length_bp": 426,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MamRep434"
+  ]
+}

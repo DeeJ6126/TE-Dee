@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275878",
+  "name": "CraTho-5.2317",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Craseonycteris thonglongyai",
+  "display_classification": "DNA/PiggyBac | Craseonycteris thonglongyai",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Craseonycteridae",
+    "Craseonycteris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 690 BP; 236 A; 154 C; 125 G; 175 T; 0 other;"
+  },
+  "sequence": "ccctttcgctgcgctggtattttattgccgtacgcgaagcggtttcagggaggtggtggagttttgtccctcgtaacctgatccgccgccgatgatgattcacagcttttgccgtcaaaacaatgtcagaaaatgccctattacacttctgcttcttttcacacgcagtgagatgaattgagcaatttcaccaccttctagaattataagcactcccggcgcactcgaaagtctccattcagcacacgcaacttccgcaaaggaaactctgtaacatcaacgccaaacgcccagtagaaaagtaaaatatttcgcaaaaaattatgatttttctttatataaaaatactaaagaagtataaaataaaggttgaataaatgaaaatgtagtttcaaaatccttatgtgttatttcttcgcaacgtaaatcaaacaccgaaaaattttcacttatgacatttggatacaacatatatatcgaaaaaaaattttgaaggtgaccgtggctccatccagcgaataaaatacaagtgttttatcataaactgcattgccacacgcgcctgtactacaataaaatacgcggagaggcgaaaaacgcgaacgaaaaccaagacgagacatactcgtcatacgcatagcagcaatagcaactcatgacgagacattatcgtcacacgcagcgaaaggg",
+  "length_bp": 690,
+  "sequence_length_bp": 690,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

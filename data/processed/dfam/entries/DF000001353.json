@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001353",
+  "name": "CELE45",
+  "description": "CELE45 is a putative SINE-like retroelement related to RTE1",
+  "keywords": [
+    "SINE/tRNA-RTE"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "SINE/tRNA-RTE | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 266 BP; 60 A; 74 C; 69 G; 62 T; 1 other;"
+  },
+  "sequence": "gggggcagatagctcagtcggtagtggtggccgctagcaatctggaggtcacgagttcaagtccggcctcaccccctaggttcacccagcctctattgggaagtggagcaatccacgactggattatcggccacagtccccggctaggacgtggcttaaattacagcccagngggatcaccaccaggcagtgtacctgaatcccagatccgcagtgcatagcacttgaagaacggatcgtcctttaatccttttttttaatccttt",
+  "length_bp": 266,
+  "sequence_length_bp": 266,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CELE45"
+  ]
+}

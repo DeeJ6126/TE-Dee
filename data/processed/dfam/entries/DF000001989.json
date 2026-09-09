@@ -1,0 +1,52 @@
+{
+  "accession": "DF000001989",
+  "name": "RLTR11D",
+  "description": "Long terminal repeat of ERV2 Endogenous Retrovirus from rodents.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR11D"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 501 BP; 148 A; 91 C; 150 G; 109 T; 3 other;"
+  },
+  "sequence": "tgttgggggttggtctggtgctgctatgtattcaaatgctaaattctgtaccccaagatctggttgccccaagacgagcgaattctcacgtacaccagcctttgttgtgtaaaccttgctccccaatttaaagttaattggttaataaaaggctagagcctgtgattgggcagtagagagaggaaggcgggacttgaggatcgagtgaggggtctcaggagagaccagggaagaaggagaaaggagacggagagaggaggaggccgccatgagaggagatggaccatgagcacgtggccaggagaagtgnaccctgaggacaggctgatggagcagaaacagcccgggcgagactcaaacagcaagtaacaaggggcatatggctgggatgtaagttagaatagctcagaacctgcccaatctaggcttacagcttgtaaataaaataccaggnttttgtgtcttttatacgggctagctagaatanataattcatttaca",
+  "length_bp": 501,
+  "sequence_length_bp": 501,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR11D"
+  ]
+}

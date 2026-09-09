@@ -1,0 +1,63 @@
+{
+  "accession": "DF000001975",
+  "name": "ORR1D-int",
+  "description": "ERV3 Endogenous Retrovirus from rodents.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ORR1D-int"
+  ],
+  "species": "Myomorpha",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Myomorpha",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1370 BP; 371 A; 241 C; 405 G; 336 T; 17 other;"
+  },
+  "sequence": "gaagttggtaccagggagtgggntattgctgtgacaggcctgaccatgctgntttttggaggaatgtggaagactttgggactttggactagaaaagcggttgaacgctntaagcggggcttaatgggccatcctagtaggagcntggaagacagtagtgctgagagcaatgtggactgtggaggcccagctcaagaggtttcagaggggaacaatattagcaactgggctagagaccattcttgtgatattttggcaaagaatgtggctgctttctgcccttgtcctaagaatctgcctgaggctaaattgaagagttntggactaatttcnttggcagaggagatttcaagacagcctagtattgactctgtcgcgtggttattagtgatcactcttatgcagatctacaatgaaaaagagcaagcggggcaaaaagaaatacaaaatgtacagtttgaagagaaaaagagcaccaggaaatttaatgttggagccaaggcttgtgctgaaagagatgagattaaggagaggcctgatncgaaatggaataaagggagtggtgncctcggggcgagaccccacccagctaagcttccaacttgtgaaaggaaaaggcctaaggaattttctgctcctagaaagcaacaacaaanagaaanttntgcaaatgtgattcaaggaggccaggttccatcccaagcaggcagcagaacttggcagcgtcgnccacgtggttctggctttagagtcatgaaggatacaggagtaaaggggtcgtggaatcttcctccgcggttaaggaaagccgctgaggccaggcgtgtggcaggggagtccctgcatggaggcccngagaggccattgcgtgaagctgtgaaagtgaagcctggattgcgttggagacccaagatgttggagatgccagagccgtgggatatctgccaaggagagctgcanacagggagtggaaccagcccaagagagagaagtgtgttgcagtcagcaaagctggaagggnagagccatctaagccctttgacatcggacatggagntacaggatttggagtttgccctgctgggtttcggtcttgctttggtccagtatttcctcactatgctcccnttcctcccttttggaatggtaatgtatattctgtgccattgtatgttggaagtatgtaatttgctttttgattttacagggggttacaattaagagattgccttgagtctcagaagagactttggactttggacttttaaacagtgttgagactgtgaaagactatggggacttttgaagttggactaaatgcattttgcattatgatatggccacaagcctatgggggccagggagtggaa",
+  "length_bp": 1370,
+  "sequence_length_bp": 1370,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "45..1020",
+      "start": 44,
+      "end": 1020,
+      "qualifiers": {
+        "product": "ORR1D_gag",
+        "number": "1",
+        "note": "[Rodentia]",
+        "translation": "MLXFGGMWKTLGLWTRKAVECCKQGLMGHPSRSLEDSSAESNVDCGGPAQEVSEGNNI"
+      },
+      "label": "ORR1D_gag"
+    }
+  ],
+  "repbase_aliases": [
+    "ORR1D-int"
+  ]
+}

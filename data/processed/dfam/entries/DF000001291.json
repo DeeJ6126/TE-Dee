@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001291",
+  "name": "CR1-13_AMi",
+  "description": "Non-LTR retrotransposon.",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Amniota",
+  "display_classification": "LINE/CR1 | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 724 BP; 258 A; 125 C; 157 G; 177 T; 7 other;"
+  },
+  "sequence": "aaaaagggattagaaaataatactgaanatantataatgccattatataaatcgatggtgcacttcacttgaataccgcgttcagttctggtcaccctatctcaaagaaatanagcagaaataaggagttcgagacgggcgacgaaaatgattagaggcagagagacttccatatgaagagagantgaagactggactgtttagtttagagaggagacgaatgaggggacatgatagaggtatacaaaataatgaatggacaggggagcaatcgggagctcctatttaccctttctcataatacaagaacaaggacattcaatgaaattgaaaggcaacaatttaaaactgataaaaggaaatactttttttacacaatgcataattaacctgtggaactcactgccacaagatatcactgaggccaagagcttagcaggattcaaaaaggattagacatttatatggataacgagaacatccgcagttacattagataggataaaaaatataagggatataancctcatgcttcagggcataagccaaccactaactgacggggttaggaagaaacttcccctatgggcaggttattccataattgccattatggggnttttgcaccttcctctgaagcatctggtactggccactgtcagagacaggatactggactagatggaccactggtcattccactatngcgaattaattgttctta",
+  "length_bp": 724,
+  "sequence_length_bp": 724,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CR1-13_AMi"
+  ]
+}

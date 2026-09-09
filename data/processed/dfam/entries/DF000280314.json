@@ -1,0 +1,50 @@
+{
+  "accession": "DF000280314",
+  "name": "RanTar-1.91",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Rangifer tarandus",
+  "display_classification": "LINE/L1 | Rangifer tarandus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Cervidae",
+    "Odocoileinae",
+    "Rangifer"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 805 BP; 294 A; 141 C; 188 G; 180 T; 2 other;"
+  },
+  "sequence": "ctatcatcaaaaaatccacaagcaataaatgctggagagggtgtggagagaagggaaccctcctacactgttggtgggaatgtaaattggtacagccactatggagaanagtacggaggttccttaaaaaactaaaaatagagctaccatatgaccctgcaatcccactcctgggcatatatccggagaaaaacatgatccgaaaggacacatgcaccccaatgttcattgcagcactgtttacaatagccaagacatggaagcaacctaaatgtccatcgacagaggaatggataaagaagatgtggtacatatatacaatggaatattactcagccattaaaaagaatgaaataatgccatttgcagcaacatggatggacctagagantgtcatactgagtgaagtaagtcagacagagaaggagaaatatcgtatgacatcccttatatgtggaatctaaaaagaaatgatacaaatgaacttacttacaaaacagaaagagactcacagacttagagaacgaacttatggttgccagggggaaggatggggggaagggatagttagggagtttgggatggacatgtacacactgctatatttaaaatggataaccaacaaggacctactgtatagcacagggaactctgctcaatgttatgtggcagcctggatgggaggggagtttgggggagaatggatacatgtatatgtatggctgagtcccttcgctgttcacctgaaactatcacaacattgttaatcggctataccccaatacaaaataaaaagtttaaaaaa",
+  "length_bp": 805,
+  "sequence_length_bp": 805,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

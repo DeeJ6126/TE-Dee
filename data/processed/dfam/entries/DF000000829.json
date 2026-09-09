@@ -1,0 +1,42 @@
+{
+  "accession": "DF000000829",
+  "name": "Tigger16b",
+  "description": "TcMar-Tigger DNA transposon, Tigger16b subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/TcMar-Tigger | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 331 BP; 83 A; 68 C; 87 G; 88 T; 5 other;"
+  },
+  "sequence": "ggttggaggaagcggtgcgaggacgggagtccccgttcctactgccgagggctnccggagacagggaagatgtgttcctggcatcccgagttggaactcggaacgcattttcccacagaaacantgttatanatggtggttaggttctatagtactattagtactatanttcagntacattatgggttaaataggcttttgtgggctggcctgggaacctaaccaccatttataacattgtttctatgggaaaatgcgttccgagttccaaacaactgacttacaaacgaacttttggaacacaacccgttcgtaagttggggactgcctg",
+  "length_bp": 331,
+  "sequence_length_bp": 331,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Tigger16b"
+  ]
+}

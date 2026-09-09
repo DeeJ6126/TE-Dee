@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280797",
+  "name": "SpeDau-6.1746",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Spermophilus dauricus",
+  "display_classification": "LINE/L1 | Spermophilus dauricus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Sciuridae",
+    "Xerinae",
+    "Marmotini",
+    "Spermophilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 985 BP; 231 A; 343 C; 276 G; 133 T; 2 other;"
+  },
+  "sequence": "ggggatccaacatggccgccggcgaggaagcagcgattccaatgtctccacattaacgggatcagaaagacccattggaacagcggcagtctacctactgaggaacttctagcaaaattccgttaagaggggacctgccgggaattggtaggtttattagaagtgtcagtttgtcccagacaagtggatcttggccggccacgcgggcgcggaggtccagtcccgcagccaccagccgcttcngcaagcggccggcggcccngagcggcgcggcccgcccgaacccgcagacggcacccgccatctcgccgccccgggaggccccgctctcgctcagcgaacggccaccccgcccgcccggatcttagccacgcggccgcagctgcccggctctacaggcagcccccggcggcccggcgcagcgagaagtgtccccgcctggcccagcagacagcccgtgccctcccggctctactaacagccccgcccacccggcgaacggctcccccccctgagacagcgtgaagggaatctaaccaaccctttacgaaatagcgaactgggaactaaaaccagagattgtgtcagaccagagacaagccagttccacccctcccttcggacactccggcaaggagccaggggcccgccatagcagagaggggaagtcaccaaagttcggccaaagagattccttcccagcggaatctactttagcaggtgtgtgactcccacccacaccagatacaaacaaccgggaaacttcaaaatctctccgtgggcgtgaccgtaagggccaaaggactctcgacccccaactccccctactgccagtgacaagggcgtgactgtaggggcagagggaagcagagaagactccccacccccaaatcccccaaccgcgaactgagagggtgtgacggtaggggcggagggaaacagaggacactccagacccccaactcctcctaccgccagcagtgtg",
+  "length_bp": 985,
+  "sequence_length_bp": 985,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

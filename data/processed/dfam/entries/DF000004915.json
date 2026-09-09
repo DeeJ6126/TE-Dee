@@ -1,0 +1,51 @@
+{
+  "accession": "DF000004915",
+  "name": "Halyomorpha_halys-1_family-585",
+  "description": "R1 LINE element",
+  "keywords": [
+    "LINE/R1"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "LINE/R1 | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 415 BP; 114 A; 87 C; 105 G; 107 T; 2 other;"
+  },
+  "sequence": "ctcgtacttattccaaagagtaagggaagaccggaagacccgtcaacctatcgtccaatttgcttattggatactatgggtaaggcattcgagaaaatcctttccctcaggctacaagagttcacggagggagttaatggcctctcgcgggctcaatncggatttcgtaaagagcgatccacgatagatgctgttggattggtagtcgagatggcccgcacagcaattgcaggagcaaggtggaggagaggtgctaagtgttatgcagcaatcatcacnctagacgttaagaatgcctttaacactgcaagatggacctgtataatagatgccctacggactatggcggtgccagcctatcttatgagagttctcacagactacttcaaagatagagttctgttttatttttcag",
+  "length_bp": 415,
+  "sequence_length_bp": 415,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

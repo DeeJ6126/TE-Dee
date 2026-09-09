@@ -1,0 +1,31 @@
+{
+  "accession": "DF000000637",
+  "name": "tRNA-Ala-GCG",
+  "description": "tRNA-Ala (decoding GCG) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 72 BP; 12 A; 20 C; 24 G; 16 T; 0 other;"
+  },
+  "sequence": "ggggatgtagctcagtggtagagcgcatgcttcgcatgtatgaggccccgggttcgatccccggcatctcca",
+  "length_bp": 72,
+  "sequence_length_bp": 72,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

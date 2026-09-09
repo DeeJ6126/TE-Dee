@@ -1,0 +1,53 @@
+{
+  "accession": "DF000002323",
+  "name": "Gypsy97-LTR-B_DR",
+  "description": "LTR retrotransposon from zebrafish: long terminal repeat",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "Gypsy97-LTR-B_DR"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 403 BP; 57 A; 87 C; 94 G; 157 T; 8 other;"
+  },
+  "sequence": "tgtcacggttgcaggtttgtgcgctcttccggagtgtctgtttgatcacgtgggtttgttttgtttttgttgtccacgtgtatttgttttggtcacgtgtcatgacggcactcagctggnttgattagctcgccagctgaggctcattatcgngcctatatatgggcgacgttttctgtgtttcnttgtcagttcgttacgtgtgcttatgtgtgctatttgtctgtgctcaggaccgtgaggagttnctnctggaccctgttttcctgtctgattcctgccctggttttctcctagccctagcaccgcactcattccttgcgtttattttgactgtgtcaaataaatattattntttttcactcgcacttggatccatctgaacatttntttgancgtgaca",
+  "length_bp": 403,
+  "sequence_length_bp": 403,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Gypsy97-LTR-B_DR"
+  ]
+}

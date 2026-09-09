@@ -1,0 +1,47 @@
+{
+  "accession": "DF000004189",
+  "name": "4.5SRNA",
+  "description": "Transposable Element from rodents.",
+  "keywords": [
+    "scRNA/"
+  ],
+  "species": "Rodentia",
+  "display_classification": "scRNA/ | Rodentia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 94 BP; 16 A; 20 C; 35 G; 21 T; 2 other;"
+  },
+  "sequence": "gccggttgtggtggcgcacgccggtaggatttgctgaaggaggcagaggcaggnggatcncgagttcgaggccagcctggtctacacatttttt",
+  "length_bp": 94,
+  "sequence_length_bp": 94,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "4.5SRNA"
+  ]
+}

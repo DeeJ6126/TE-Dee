@@ -1,0 +1,42 @@
+{
+  "accession": "DF003575609",
+  "name": "SINE_A.marissinica_cons_5",
+  "description": "Repetitive sequence family identified in Archivesica marissinica",
+  "keywords": [
+    "SINE/tRNA-Deu-L2"
+  ],
+  "species": "Archivesica marissinica",
+  "display_classification": "SINE/tRNA-Deu-L2 | Archivesica marissinica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Heteroconchia",
+    "Euheterodonta",
+    "Imparidentia",
+    "Neoheterodontei",
+    "Venerida",
+    "Glossoidea",
+    "Vesicomyidae",
+    "Archivesica"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 136 BP; 25 A; 35 C; 40 G; 36 T; 0 other;"
+  },
+  "sequence": "taagtggaagtcgtgatagcgcagtggatgcgcgttcgcttcaggtgcgaaaggtccggagttcgagccccgctggagccgttacgattgtgcccttaggcaaggcatttaaattccacgttgcctcttctctctc",
+  "length_bp": 136,
+  "sequence_length_bp": 136,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001252",
+  "name": "X17_LINE",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Mammalia",
+  "display_classification": "LINE/CR1 | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 296 BP; 99 A; 45 C; 74 G; 74 T; 4 other;"
+  },
+  "sequence": "aaggagaagggatattatttaggntggtccaagggggtataactaggagtaatgggatgaaattgagcaaaggaaaatttaggctgaatatcaggaaaaatttcctaacagcgagatctattagactgtggaattaanctcccaagggaagtggtggaagccccattgcttgagtcatttaaaactagactggacaaagcacttgaaaataatcctcatggcagggaacaatcctgcantggctggaggatggacnagatgacctaataggtcttttccatctctaatttctatga",
+  "length_bp": 296,
+  "sequence_length_bp": 296,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X17_LINE"
+  ]
+}

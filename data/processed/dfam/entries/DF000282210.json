@@ -1,0 +1,50 @@
+{
+  "accession": "DF000282210",
+  "name": "MurFea-1.292_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MurFea-1.292_LTR"
+  ],
+  "species": "Murina aurata feae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murina aurata feae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Murina",
+    "Murina aurata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 230 BP; 57 A; 46 C; 74 G; 52 T; 1 other;"
+  },
+  "sequence": "tgaggaggaaggctggttttgcaaggaatgttaggccattaaaccaaacaaagccctgtcccgcggtagggcagggggctttgttttgagccctgaacctgggggaagggtagatgaacagaatnctcccttcagggccttggggggagggagtatatttgcaaatcaatgaactcgaggggcagttataaagcaaggttctcgcgtgctacccccactctggatttgga",
+  "length_bp": 230,
+  "sequence_length_bp": 230,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

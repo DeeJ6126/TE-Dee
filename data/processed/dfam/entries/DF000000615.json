@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000615",
+  "name": "LTR89",
+  "description": "LTR89 (Long Terminal Repeat) likely for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR89"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 879 BP; 192 A; 193 C; 246 G; 245 T; 3 other;"
+  },
+  "sequence": "tgttggggaggcttaaaagggggatactcaaacggaattggggtgagctatactgggcacccagcttaaggggcagaggtctgnagtcagcggatatttcaaacccgccttggcctgtattcctcttcccttttgtttcctctggatagatgcttttgatggcaattctctgccccagtgacatcctgcattcccttttatcttagagcattttatagtctccttttgtgattggggtatagttagatagttagagctgggatccttcacctttcccctatttgatatgtaggatttatgtaattttggtattcgtcttatctattgatgctggacattggggaggacacgtatggatctaagcgatatccttggtgccaagatgtcgggagcgcccggatccatctggggacttttccaggtgctnatgggcgggtgctgtatgtcacaagatgccaagagcccacaagaagaagataagatcaccggatgagacctccgaggacaaacatctccgaattggggagcgaaggtcgcatttgcaggctcgctcctcccatctctcctgataacgcccccgctgcttattatgggatgtgggttgttatggtgatgggagggggctgaactgggaggggattgtgaaagatgttgcaatgtggaaaaggggcttaacctatataaacctttgtcaaaatttactcctttgagctgggcttgagacgtcgcattgcctgctcccatgatgccggcgggcatcatgaggtcaataaagtttcctaagattctgcgagccagactggtctctgtcttcnctacgttaccccgggaccccagggaggccacggctactgaggaggggtcccggtagcggtaaca",
+  "length_bp": 879,
+  "sequence_length_bp": 879,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR89"
+  ]
+}

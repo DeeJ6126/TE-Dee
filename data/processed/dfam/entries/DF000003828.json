@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003828",
+  "name": "DNAX-17B_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/Zator"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/Zator | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 374 BP; 77 A; 94 C; 88 G; 112 T; 3 other;"
+  },
+  "sequence": "ggggccgttcacacagaacgcgtttttcctttcaatgcgctacttttctattgtttttcaatgtaaacacgcgcttgacggacgtgtgtgaccgttacgctcgcgtcttttgaagcatgcaatttttttagacgccgtgtcaagttaaancttcaactttcacacgcagcgccgctcatcactgtcagttccaaagcagtggaccaatcagaagaactcggaggcggggcaancgttcaagtttctgtttacaggcgctcgtggctgtgtccggataccctcgtgctttatgctgcgctttttttttcaaaccattccnaagcgttgcgtctcgcgtttttagaagcaaagacgcgttcggtgtgaatgagccc",
+  "length_bp": 374,
+  "sequence_length_bp": 374,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNAX-17B_DR"
+  ]
+}

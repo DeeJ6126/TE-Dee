@@ -1,0 +1,50 @@
+{
+  "accession": "DF000000717",
+  "name": "MER11C",
+  "description": "MER11C Long Terminal Repeat for HERVK11 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER11C"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1071 BP; 274 A; 260 C; 233 G; 302 T; 2 other;"
+  },
+  "sequence": "tgttgcgggaagtcagggaccccgaacggagggaccggctgaagccatggcagaagaacgtggattgtgaagatttcatggacatttattagttccccaaattaatacttttataatttcttatgcctgtctttactgcaatctctaaacataaattgtgaagatttcatggacacttatcacttccccaatcaatacccttgtgatttcctatgcctgtctttactttaatctcttaatcctgtcagctgaggaggatgtatgtcgcctcaggaccctgtgataattgcgttaactgcacaaattgtagagcatgtgtgtttgaacaatatgaaatctgggcaccttgaaaaaagaacaggataacagcaattgttcagggaacaagagagataaccttaaactctgaccgccggtgagccgggcggaacagagccatatttctcttctttcaaaagcaaatgggagaaatatcgctgaattctttttctcagcaaggaacatccctgagaaagagaatgcgcgcctgggggtaggcctctgaantggcccccccgggcgtggcctgtcttttatggtcgagactgcaggggtgaaataagccccagtctcccatagcgctcccaggcttattaggaagaggaaattcccgcctaataaattttggtcagaccggttgctctcaaaaccctgtctcctgataagatgttatcaatgacaatggtgcccgaaacttcattagcaattttaatttcgccccggtcctgtggtcctgtgatctcgccctgcctccatttgccttgtgatattctattaccttgtgaagcacgtgatctctgtgacccacacctattcgtacactccctccccttttgaaaatccctaataaaaacttgctggtttttgcggcttgtggggcatcacggaacctaccgacatgtgatgtctcccccggacgcccagctttaaaatttctctcttttgtactctgtccctttatttctcaagccggccgacgcttagggaaaatagaaaagaacctacgtgantatcggggcaggttccccgata",
+  "length_bp": 1071,
+  "sequence_length_bp": 1071,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER11C"
+  ]
+}

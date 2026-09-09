@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "generated_at": "2026-09-03T15:38:25.531Z",
+  "request": {
+    "topic": "",
+    "title": "MatKG An autonomously generated knowledge graph in Material Science",
+    "dois": [],
+    "pdf_url": "https://www.nature.com/articles/s41597-024-03039-z.pdf",
+    "si_requested": false,
+    "language_override": "",
+    "route_override": "open_access",
+    "source_url": "",
+    "api_fallback_web": null,
+    "api_fallback_web_for": [],
+    "no_api_fallback_web_for": []
+  },
+  "summary": {
+    "total": 1,
+    "downloaded": 1,
+    "seconds": 5
+  },
+  "results": [
+    {
+      "title": "MatKG An autonomously generated knowledge graph in Material Science",
+      "status": "open_access_downloaded",
+      "provider": "direct_url",
+      "accessMode": "open_access",
+      "ok": true,
+      "file": "docs\\article_scientific_data\\writing_examples\\papers\\matkg\\PDFs\\MatKG_An_autonomously_generated_knowledge_graph_in_Material_Science.pdf",
+      "bytes": 1760584,
+      "sha256": "587fb3ffe80d0c27afff2f6edd8a8b0402f156727a2eec6e06b1926b9099a499",
+      "contentType": "application/pdf",
+      "format": "pdf",
+      "source": "https://www.nature.com/articles/s41597-024-03039-z.pdf",
+      "si_requested": false
+    }
+  ]
+}

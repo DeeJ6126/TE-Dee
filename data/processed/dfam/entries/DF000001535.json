@@ -1,0 +1,53 @@
+{
+  "accession": "DF000001535",
+  "name": "ARS406_DM",
+  "description": "D. melanogaster autonomous replication sequence (ars) 406.",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Drosophila",
+  "display_classification": "Unknown/ | Drosophila",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 353 BP; 128 A; 54 C; 62 G; 108 T; 1 other;"
+  },
+  "sequence": "ctcagtgaggtatgacattccatattcagacaattattttttatgttgtggcaaaataaatgattatttgatgaccgaaatttggaaaaacagactctgcnaaaatgttgatatttacaaacgaaattttcgttataacttggctaaaaatggtcacatagatgtaagaataactgttttgagcagctacaagcaatttatactatattacatatttatttattattaaatacgtacatttcaacactttttataaaaaatacaggaggaaaaaaagcgcggcaaagtcgaaaatggagtgaccgcacactcggcttggcgaaggacttctcccaggcgtacatcttgataag",
+  "length_bp": 353,
+  "sequence_length_bp": 353,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ARS406_DM"
+  ]
+}

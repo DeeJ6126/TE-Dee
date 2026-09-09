@@ -1,0 +1,50 @@
+{
+  "accession": "DF000282172",
+  "name": "MicMur-5.656_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MicMur-5.656_LTR"
+  ],
+  "species": "Microcebus murinus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Microcebus murinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Cheirogaleidae",
+    "Microcebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 441 BP; 116 A; 93 C; 128 G; 103 T; 1 other;"
+  },
+  "sequence": "tgtagggcagaggaatttgtaggacagaggaagggcagaggaattcttccaattgtcgggaatttacttgggtggggcaatgagctaaccgcaaacctttgcttctggtcattgcttgcttgctacaccgctgtanggggaattatgggatgaggtcattgaagcacgggcgactggcccatcaggcaatagagggcaaccaacccgccaattatttcaaaaggcaatagtgggcaaccaatcattttaaaggtcaacgcatgatccatgcgtagtcggcttgtgcgcagcttgtgcaccatggggataaaaggcatgccgttgttccggtcggggtccttgcctgcgagagtggccactgcgttggtgctctggggcttggaccctggctagccagaaaataaacctcctcttgtgtgattgcaaaaaaaaaaaaaaaaa",
+  "length_bp": 441,
+  "sequence_length_bp": 441,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

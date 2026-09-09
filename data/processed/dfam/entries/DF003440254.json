@@ -1,0 +1,50 @@
+{
+  "accession": "DF003440254",
+  "name": "LTR6_rAeg",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR6_rAeg"
+  ],
+  "species": "Rousettus aegyptiacus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rousettus aegyptiacus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Megachiroptera",
+    "Pteropodidae",
+    "Pteropodinae",
+    "Rousettus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 345 BP; 68 A; 75 C; 97 G; 105 T; 0 other;"
+  },
+  "sequence": "tgtcgggagccattttgaggaaaacaagactgtttgttaagcaggatgtttttgcggagtcggccagctgtgcagtctgctgactcaggaggaagtgcacctggtgtgggggcgggaaacggaatgttctttgaatagctacagagtttccgtgattggttgttatttagaggtgttttgcttcttacgcactcagtagggtataaatatgcgttgcaaaataaactcggggctgctgcagtattgactgtgagccctcccgaatctatctcttgtctctgtcttttccttaatcctcactccccatctcgggtgctgttcgacctaggccggctggctccggca",
+  "length_bp": 345,
+  "sequence_length_bp": 345,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

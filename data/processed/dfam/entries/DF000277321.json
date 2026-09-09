@@ -1,0 +1,46 @@
+{
+  "accession": "DF000277321",
+  "name": "HetBru-1.6",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-RTE"
+  ],
+  "species": "Heterohyrax brucei",
+  "display_classification": "SINE/tRNA-RTE | Heterohyrax brucei",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Hyracoidea",
+    "Procaviidae",
+    "Heterohyrax"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 164 BP; 34 A; 37 C; 48 G; 45 T; 0 other;"
+  },
+  "sequence": "ggaaaccctggtggcgtagtggttaagtgctacgtctgctaaccaaaaggtcggcagttcaaatccaccaggcgctccttggaaactctatggggcagttctactctgtcctatagggtcgctatgagtcggaatcgactcgacggcagtgggtttggtttttt",
+  "length_bp": 164,
+  "sequence_length_bp": 164,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

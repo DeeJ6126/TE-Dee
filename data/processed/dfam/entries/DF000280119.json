@@ -1,0 +1,50 @@
+{
+  "accession": "DF000280119",
+  "name": "PonBla-3.11",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Pontoporia blainvillei",
+  "display_classification": "LINE/L1 | Pontoporia blainvillei",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Pontoporiidae",
+    "Pontoporia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1011 BP; 418 A; 174 C; 214 G; 203 T; 2 other;"
+  },
+  "sequence": "aatgggacctaatgaaacttaaaagcttttgcacagcaaaggaaaccataaacaagacgaaaagacaaccctcagaatgggagaaaatatttgcaaacgaatcaacggacaaaggattaatctccaaaatatataaacagctcatgcagctcaatattaaaaaaacaaacaacccaatccaaaaatgggcagaagacctaaatagacatttctccaaagaagacatacagatggccaagaagcacatgaaaagctgctcaacatcactaattattagagaaatgcaaatcaaaactacaatgaggtatcacctcacaccagttagaatgggcatcatcagaaaatctacaaacaacaaatgctggagagggtgtggagaaaagggaaccctcttgcactgttggtgggaatgtaaattgatacagccactatggagaacagtatggaggttccttaaaaaactaaaaatagaattaccatatgacccagcaatcccactactgggcatatacccagagaaaaccataattcaaaaagacacatgcaccccaatgttcactgcagcactatttacaatagccaggtcatggaagcaacctaaatgcccatcgacagacgaatggataaagaagatgtggtacatatatacaatggaatattactcagccataaaaaggaacgaaattgggtcatttgtagagacgtggatggatctagagactgtcatacagagtgaagtaagtcagaaagagaaaaacaaatatcgtatattaacgcatatatgtggaacctagaaaaatggtacagatgaaccggtttgcagggcagaaatngagacacagatgtagagaacaaacgtatggacaccaaggggggaaagcggcggggggtgggggtggtggtgtgatgaattgggagattgggattgacatgtatacactgatgtgtataaaatngatgactaataagaacctgctgtataaaaaataaataaaattaaattcaaaaaaa",
+  "length_bp": 1011,
+  "sequence_length_bp": 1011,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

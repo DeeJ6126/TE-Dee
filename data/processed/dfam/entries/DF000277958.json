@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277958",
+  "name": "MacSob-1.65",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Macroglossus sobrinus",
+  "display_classification": "LINE/L1 | Macroglossus sobrinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Megachiroptera",
+    "Pteropodidae",
+    "Macroglossinae",
+    "Macroglossus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 492 BP; 194 A; 72 C; 116 G; 109 T; 1 other;"
+  },
+  "sequence": "gtggccaggacatggaagcaaccgaagtgtcctacgatagatgattggctaaagaagctgtggtacatatatacaatggaatattactcagccataagaagagatgaaatactgccatttgcgacaacatggatggacctcgagataatcatgctaagcgaaataagccagacagaaaaagttgaaaatcacatgatatcacttatatgtgggatataaacctaaaagcaacaaatgaacaggacaaacaaacagagactcatggacatggacaatagactagtggttaccagagggtagggggnggggggagggtagacggggtaaagggggtcaaatatgtggtgacagaaagaaatctaactatgggaggtgaacacacagtgtaaatatatatatgccttactgttaaagtgtacagctgaaacttactggatttcgttaaccaatgtcaccataaaaaattaattaattaattttaaaaaaaaataa",
+  "length_bp": 492,
+  "sequence_length_bp": 492,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

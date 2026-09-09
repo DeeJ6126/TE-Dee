@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276093",
+  "name": "CteGun-1.20",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B4"
+  ],
+  "species": "Ctenodactylus gundi",
+  "display_classification": "SINE/B4 | Ctenodactylus gundi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Ctenodactylidae",
+    "Ctenodactylus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 240 BP; 65 A; 64 C; 74 G; 37 T; 0 other;"
+  },
+  "sequence": "ggggctggaggaatggctcagcggttaaagcgcttgagcaagcgctaagccaagcgctaagtacccgagttcgattccccagcaccacataagctgggcgtggtggcgcacgcctgtaatcccagcactcgggaggctgagacaggaggattgccgtgagtccaaggccagcctgggctctgaagtgaattcaggaccagcctggaccacagagcgagaccctgtctcaaaaaaaaaaaa",
+  "length_bp": 240,
+  "sequence_length_bp": 240,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

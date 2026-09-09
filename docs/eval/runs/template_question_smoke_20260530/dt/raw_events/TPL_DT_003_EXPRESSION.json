@@ -1,0 +1,1899 @@
+{
+  "case": {
+    "case_id": "TPL_DT_003_EXPRESSION",
+    "question": "In which tissues is L1HS expressed?",
+    "expected_best_mode": "deep_think",
+    "template_label": "Expression lookup"
+  },
+  "dt": {
+    "ok": true,
+    "http_status": 200,
+    "headers": {
+      "Date": "Sat, 30 May 2026 10:38:05 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Cache-Control": "no-cache, no-transform",
+      "X-Accel-Buffering": "no",
+      "Connection": "keep-alive, close",
+      "Content-Encoding": "none",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "text/event-stream; charset=utf-8"
+    },
+    "events": [
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-TPL_DT_003_EXPRESSION",
+        "message": "Recognized entities: L1HS (TE).",
+        "payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "display_text": "Recognized entities: L1HS (TE).",
+        "sequence": 1
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-TPL_DT_003_EXPRESSION",
+        "message": "Question type: expression. Complexity: single_hop_reasoning.",
+        "payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "display_text": "Question type: expression. Complexity: single_hop_reasoning.",
+        "sequence": 2
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-TPL_DT_003_EXPRESSION",
+        "plugin_name": "Entity Resolver",
+        "message": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "sequence": 3
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-TPL_DT_003_EXPRESSION",
+        "plugin_name": "Entity Resolver",
+        "display_label": "Resolved 1 entities",
+        "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+        "message": "These aliases will be reused by the graph, literature, genome, and sequence layers.",
+        "detail_payload_id": "tool-1",
+        "payload": {
+          "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Entity Resolver",
+              "entity_scope": "L1HS",
+              "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "matched_alias": "L1HS",
+                "used_broad_alias": false,
+                "confidence": 0.93
+              },
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta",
+              "evidence_type": "claim",
+              "coverage_dimension": "unknown",
+              "subject": null,
+              "object": null,
+              "provenance": [],
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "ok",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "required_evidence": [
+                "expression"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": [
+                  {
+                    "type": "TE",
+                    "canonical_label": "L1HS",
+                    "display_label": "L1HS",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  }
+                ],
+                "resolved_entities": [
+                  {
+                    "label": "L1HS",
+                    "canonical_label": "L1HS",
+                    "type": "TE",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "confidence": 0.93,
+                    "used_broad_alias": false
+                  }
+                ]
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ],
+            "resolved_entities": [
+              {
+                "label": "L1HS",
+                "canonical_label": "L1HS",
+                "type": "TE",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "confidence": 0.93,
+                "used_broad_alias": false
+              }
+            ]
+          },
+          "raw_preview": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 1,
+            "alias_variants": 2
+          },
+          "display_details": {
+            "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Entity Resolver",
+                "entity_scope": "L1HS",
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "matched_alias": "L1HS",
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                },
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta",
+                "evidence_type": "claim",
+                "coverage_dimension": "unknown",
+                "subject": null,
+                "object": null,
+                "provenance": [],
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": [
+                {
+                  "type": "TE",
+                  "canonical_label": "L1HS",
+                  "display_label": "L1HS",
+                  "matched_alias": "L1HS",
+                  "aliases": [
+                    "L1HS",
+                    "L1HS-Ta"
+                  ],
+                  "broad_aliases": [],
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                }
+              ]
+            },
+            "result_message": "These aliases will be reused by the graph, literature, genome, and sequence layers."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Entity Resolver",
+              "entity_scope": "L1HS",
+              "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "matched_alias": "L1HS",
+                "used_broad_alias": false,
+                "confidence": 0.93
+              },
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta",
+              "evidence_type": "claim",
+              "coverage_dimension": "unknown",
+              "subject": null,
+              "object": null,
+              "provenance": [],
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "ok",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "required_evidence": [
+                "expression"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": [
+                  {
+                    "type": "TE",
+                    "canonical_label": "L1HS",
+                    "display_label": "L1HS",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  }
+                ],
+                "resolved_entities": [
+                  {
+                    "label": "L1HS",
+                    "canonical_label": "L1HS",
+                    "type": "TE",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "confidence": 0.93,
+                    "used_broad_alias": false
+                  }
+                ]
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ],
+            "resolved_entities": [
+              {
+                "label": "L1HS",
+                "canonical_label": "L1HS",
+                "type": "TE",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "confidence": 0.93,
+                "used_broad_alias": false
+              }
+            ]
+          },
+          "raw_preview": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 1,
+            "alias_variants": 2
+          },
+          "display_details": {
+            "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Entity Resolver",
+                "entity_scope": "L1HS",
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "matched_alias": "L1HS",
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                },
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta",
+                "evidence_type": "claim",
+                "coverage_dimension": "unknown",
+                "subject": null,
+                "object": null,
+                "provenance": [],
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": [
+                {
+                  "type": "TE",
+                  "canonical_label": "L1HS",
+                  "display_label": "L1HS",
+                  "matched_alias": "L1HS",
+                  "aliases": [
+                    "L1HS",
+                    "L1HS-Ta"
+                  ],
+                  "broad_aliases": [],
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                }
+              ]
+            },
+            "result_message": "These aliases will be reused by the graph, literature, genome, and sequence layers."
+          }
+        },
+        "display_text": "These aliases will be reused by the graph, literature, genome, and sequence layers.",
+        "sequence": 4
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-TPL_DT_003_EXPRESSION",
+        "plugin_name": "Expression Plugin",
+        "message": "I will continue with the next highest-priority plugin for this simple question type.",
+        "node": "Deep Think",
+        "source": "Expression Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will continue with the next highest-priority plugin for this simple question type.",
+        "sequence": 5
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-TPL_DT_003_EXPRESSION",
+        "plugin_name": "Expression Plugin",
+        "display_label": "Summarized 1 expression profiles",
+        "summary": "I also checked the expression datasets and captured the top contexts for the recognized TEs.",
+        "message": "These expression summaries are better used as supporting context than as the core mechanism evidence.",
+        "detail_payload_id": "tool-2",
+        "payload": {
+          "summary": "I also checked the expression datasets and captured the top contexts for the recognized TEs.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "Normal Tissue | prostate gland"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Expression Plugin",
+              "entity_scope": "L1HS",
+              "claim": "L1HS has a top expression context in normal_tissue: prostate gland.",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "dataset_key": "normal_tissue",
+                "dataset_label": "Normal Tissue",
+                "top_context": "prostate gland",
+                "median_of_median": 656.744856,
+                "max_of_max": 835.161021
+              },
+              "title": "L1HS",
+              "meta": "Normal Tissue | prostate gland",
+              "body": "L1HS has a top expression context in normal_tissue: prostate gland.",
+              "evidence_type": "profile_summary",
+              "coverage_dimension": "expression",
+              "subject": "L1HS",
+              "object": "prostate gland",
+              "provenance": {
+                "source": "expression_runtime"
+              },
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            },
+            {
+              "source_plugin": "Expression Plugin",
+              "entity_scope": "L1HS",
+              "claim": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "dataset_key": "normal_cell_line",
+                "dataset_label": "Normal Cell Line",
+                "top_context": "foreskin fibroblast",
+                "median_of_median": 3816.373773,
+                "max_of_max": 8778.231116
+              },
+              "title": "L1HS",
+              "meta": "Normal Cell Line | foreskin fibroblast",
+              "body": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+              "evidence_type": "profile_summary",
+              "coverage_dimension": "expression",
+              "subject": "L1HS",
+              "object": "foreskin fibroblast",
+              "provenance": {
+                "source": "expression_runtime"
+              },
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            },
+            {
+              "source_plugin": "Expression Plugin",
+              "entity_scope": "L1HS",
+              "claim": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "dataset_key": "cancer_cell_line",
+                "dataset_label": "Cancer Cell Line",
+                "top_context": "Anaplastic large cell lymphoma",
+                "median_of_median": 1899.760443,
+                "max_of_max": 1967.618022
+              },
+              "title": "L1HS",
+              "meta": "Cancer Cell Line | Anaplastic large cell lymphoma",
+              "body": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+              "evidence_type": "profile_summary",
+              "coverage_dimension": "expression",
+              "subject": "L1HS",
+              "object": "Anaplastic large cell lymphoma",
+              "provenance": {
+                "source": "expression_runtime"
+              },
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "L1HS has a top expression context in normal_tissue: prostate gland.",
+              "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+              "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "ok",
+              "result_counts": {
+                "profiles": 1
+              },
+              "required_evidence": [
+                "expression"
+              ],
+              "latency_ms": 65
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "L1HS has a top expression context in normal_tissue: prostate gland.",
+              "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+              "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Expression Plugin",
+              "status": "ok",
+              "query_summary": "Summarized expression datasets and top contexts for the recognized TE entities.",
+              "display_summary": "I also checked the expression datasets and captured the top contexts for the recognized TEs.",
+              "result_counts": {
+                "profiles": 1
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "Normal Tissue | prostate gland"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                  "title": "L1HS",
+                  "meta": "Normal Tissue | prostate gland",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                  "title": "L1HS",
+                  "meta": "Normal Cell Line | foreskin fibroblast",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                  "title": "L1HS",
+                  "meta": "Cancer Cell Line | Anaplastic large cell lymphoma",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "te_name": "L1HS",
+                  "datasets": [
+                    {
+                      "dataset_key": "normal_tissue",
+                      "dataset_label": "Normal Tissue",
+                      "top_context": "prostate gland",
+                      "median_of_median": 656.744856,
+                      "max_of_max": 835.161021
+                    },
+                    {
+                      "dataset_key": "normal_cell_line",
+                      "dataset_label": "Normal Cell Line",
+                      "top_context": "foreskin fibroblast",
+                      "median_of_median": 3816.373773,
+                      "max_of_max": 8778.231116
+                    },
+                    {
+                      "dataset_key": "cancer_cell_line",
+                      "dataset_label": "Cancer Cell Line",
+                      "top_context": "Anaplastic large cell lymphoma",
+                      "median_of_median": 1899.760443,
+                      "max_of_max": 1967.618022
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "te_name": "L1HS",
+              "datasets": [
+                {
+                  "dataset_key": "normal_tissue",
+                  "dataset_label": "Normal Tissue",
+                  "top_context": "prostate gland",
+                  "median_of_median": 656.744856,
+                  "max_of_max": 835.161021
+                },
+                {
+                  "dataset_key": "normal_cell_line",
+                  "dataset_label": "Normal Cell Line",
+                  "top_context": "foreskin fibroblast",
+                  "median_of_median": 3816.373773,
+                  "max_of_max": 8778.231116
+                },
+                {
+                  "dataset_key": "cancer_cell_line",
+                  "dataset_label": "Cancer Cell Line",
+                  "top_context": "Anaplastic large cell lymphoma",
+                  "median_of_median": 1899.760443,
+                  "max_of_max": 1967.618022
+                }
+              ]
+            }
+          ],
+          "raw_preview": [
+            {
+              "te_name": "L1HS",
+              "datasets": [
+                {
+                  "dataset_key": "normal_tissue",
+                  "dataset_label": "Normal Tissue",
+                  "top_context": "prostate gland",
+                  "median_of_median": 656.744856,
+                  "max_of_max": 835.161021
+                },
+                {
+                  "dataset_key": "normal_cell_line",
+                  "dataset_label": "Normal Cell Line",
+                  "top_context": "foreskin fibroblast",
+                  "median_of_median": 3816.373773,
+                  "max_of_max": 8778.231116
+                },
+                {
+                  "dataset_key": "cancer_cell_line",
+                  "dataset_label": "Cancer Cell Line",
+                  "top_context": "Anaplastic large cell lymphoma",
+                  "median_of_median": 1899.760443,
+                  "max_of_max": 1967.618022
+                }
+              ]
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "profiles": 1
+          },
+          "display_details": {
+            "summary": "I also checked the expression datasets and captured the top contexts for the recognized TEs.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "Normal Tissue | prostate gland"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Expression Plugin",
+                "entity_scope": "L1HS",
+                "claim": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "dataset_key": "normal_tissue",
+                  "dataset_label": "Normal Tissue",
+                  "top_context": "prostate gland",
+                  "median_of_median": 656.744856,
+                  "max_of_max": 835.161021
+                },
+                "title": "L1HS",
+                "meta": "Normal Tissue | prostate gland",
+                "body": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                "evidence_type": "profile_summary",
+                "coverage_dimension": "expression",
+                "subject": "L1HS",
+                "object": "prostate gland",
+                "provenance": {
+                  "source": "expression_runtime"
+                },
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              },
+              {
+                "source_plugin": "Expression Plugin",
+                "entity_scope": "L1HS",
+                "claim": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "dataset_key": "normal_cell_line",
+                  "dataset_label": "Normal Cell Line",
+                  "top_context": "foreskin fibroblast",
+                  "median_of_median": 3816.373773,
+                  "max_of_max": 8778.231116
+                },
+                "title": "L1HS",
+                "meta": "Normal Cell Line | foreskin fibroblast",
+                "body": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                "evidence_type": "profile_summary",
+                "coverage_dimension": "expression",
+                "subject": "L1HS",
+                "object": "foreskin fibroblast",
+                "provenance": {
+                  "source": "expression_runtime"
+                },
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              },
+              {
+                "source_plugin": "Expression Plugin",
+                "entity_scope": "L1HS",
+                "claim": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "dataset_key": "cancer_cell_line",
+                  "dataset_label": "Cancer Cell Line",
+                  "top_context": "Anaplastic large cell lymphoma",
+                  "median_of_median": 1899.760443,
+                  "max_of_max": 1967.618022
+                },
+                "title": "L1HS",
+                "meta": "Cancer Cell Line | Anaplastic large cell lymphoma",
+                "body": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                "evidence_type": "profile_summary",
+                "coverage_dimension": "expression",
+                "subject": "L1HS",
+                "object": "Anaplastic large cell lymphoma",
+                "provenance": {
+                  "source": "expression_runtime"
+                },
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              }
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "te_name": "L1HS",
+                "datasets": [
+                  {
+                    "dataset_key": "normal_tissue",
+                    "dataset_label": "Normal Tissue",
+                    "top_context": "prostate gland",
+                    "median_of_median": 656.744856,
+                    "max_of_max": 835.161021
+                  },
+                  {
+                    "dataset_key": "normal_cell_line",
+                    "dataset_label": "Normal Cell Line",
+                    "top_context": "foreskin fibroblast",
+                    "median_of_median": 3816.373773,
+                    "max_of_max": 8778.231116
+                  },
+                  {
+                    "dataset_key": "cancer_cell_line",
+                    "dataset_label": "Cancer Cell Line",
+                    "top_context": "Anaplastic large cell lymphoma",
+                    "median_of_median": 1899.760443,
+                    "max_of_max": 1967.618022
+                  }
+                ]
+              }
+            ],
+            "result_message": "These expression summaries are better used as supporting context than as the core mechanism evidence."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Expression Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "I also checked the expression datasets and captured the top contexts for the recognized TEs.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "Normal Tissue | prostate gland"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Expression Plugin",
+              "entity_scope": "L1HS",
+              "claim": "L1HS has a top expression context in normal_tissue: prostate gland.",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "dataset_key": "normal_tissue",
+                "dataset_label": "Normal Tissue",
+                "top_context": "prostate gland",
+                "median_of_median": 656.744856,
+                "max_of_max": 835.161021
+              },
+              "title": "L1HS",
+              "meta": "Normal Tissue | prostate gland",
+              "body": "L1HS has a top expression context in normal_tissue: prostate gland.",
+              "evidence_type": "profile_summary",
+              "coverage_dimension": "expression",
+              "subject": "L1HS",
+              "object": "prostate gland",
+              "provenance": {
+                "source": "expression_runtime"
+              },
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            },
+            {
+              "source_plugin": "Expression Plugin",
+              "entity_scope": "L1HS",
+              "claim": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "dataset_key": "normal_cell_line",
+                "dataset_label": "Normal Cell Line",
+                "top_context": "foreskin fibroblast",
+                "median_of_median": 3816.373773,
+                "max_of_max": 8778.231116
+              },
+              "title": "L1HS",
+              "meta": "Normal Cell Line | foreskin fibroblast",
+              "body": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+              "evidence_type": "profile_summary",
+              "coverage_dimension": "expression",
+              "subject": "L1HS",
+              "object": "foreskin fibroblast",
+              "provenance": {
+                "source": "expression_runtime"
+              },
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            },
+            {
+              "source_plugin": "Expression Plugin",
+              "entity_scope": "L1HS",
+              "claim": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "dataset_key": "cancer_cell_line",
+                "dataset_label": "Cancer Cell Line",
+                "top_context": "Anaplastic large cell lymphoma",
+                "median_of_median": 1899.760443,
+                "max_of_max": 1967.618022
+              },
+              "title": "L1HS",
+              "meta": "Cancer Cell Line | Anaplastic large cell lymphoma",
+              "body": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+              "evidence_type": "profile_summary",
+              "coverage_dimension": "expression",
+              "subject": "L1HS",
+              "object": "Anaplastic large cell lymphoma",
+              "provenance": {
+                "source": "expression_runtime"
+              },
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "L1HS has a top expression context in normal_tissue: prostate gland.",
+              "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+              "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "ok",
+              "result_counts": {
+                "profiles": 1
+              },
+              "required_evidence": [
+                "expression"
+              ],
+              "latency_ms": 65
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "L1HS has a top expression context in normal_tissue: prostate gland.",
+              "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+              "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Expression Plugin",
+              "status": "ok",
+              "query_summary": "Summarized expression datasets and top contexts for the recognized TE entities.",
+              "display_summary": "I also checked the expression datasets and captured the top contexts for the recognized TEs.",
+              "result_counts": {
+                "profiles": 1
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "Normal Tissue | prostate gland"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                  "title": "L1HS",
+                  "meta": "Normal Tissue | prostate gland",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                  "title": "L1HS",
+                  "meta": "Normal Cell Line | foreskin fibroblast",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                  "title": "L1HS",
+                  "meta": "Cancer Cell Line | Anaplastic large cell lymphoma",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "te_name": "L1HS",
+                  "datasets": [
+                    {
+                      "dataset_key": "normal_tissue",
+                      "dataset_label": "Normal Tissue",
+                      "top_context": "prostate gland",
+                      "median_of_median": 656.744856,
+                      "max_of_max": 835.161021
+                    },
+                    {
+                      "dataset_key": "normal_cell_line",
+                      "dataset_label": "Normal Cell Line",
+                      "top_context": "foreskin fibroblast",
+                      "median_of_median": 3816.373773,
+                      "max_of_max": 8778.231116
+                    },
+                    {
+                      "dataset_key": "cancer_cell_line",
+                      "dataset_label": "Cancer Cell Line",
+                      "top_context": "Anaplastic large cell lymphoma",
+                      "median_of_median": 1899.760443,
+                      "max_of_max": 1967.618022
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "te_name": "L1HS",
+              "datasets": [
+                {
+                  "dataset_key": "normal_tissue",
+                  "dataset_label": "Normal Tissue",
+                  "top_context": "prostate gland",
+                  "median_of_median": 656.744856,
+                  "max_of_max": 835.161021
+                },
+                {
+                  "dataset_key": "normal_cell_line",
+                  "dataset_label": "Normal Cell Line",
+                  "top_context": "foreskin fibroblast",
+                  "median_of_median": 3816.373773,
+                  "max_of_max": 8778.231116
+                },
+                {
+                  "dataset_key": "cancer_cell_line",
+                  "dataset_label": "Cancer Cell Line",
+                  "top_context": "Anaplastic large cell lymphoma",
+                  "median_of_median": 1899.760443,
+                  "max_of_max": 1967.618022
+                }
+              ]
+            }
+          ],
+          "raw_preview": [
+            {
+              "te_name": "L1HS",
+              "datasets": [
+                {
+                  "dataset_key": "normal_tissue",
+                  "dataset_label": "Normal Tissue",
+                  "top_context": "prostate gland",
+                  "median_of_median": 656.744856,
+                  "max_of_max": 835.161021
+                },
+                {
+                  "dataset_key": "normal_cell_line",
+                  "dataset_label": "Normal Cell Line",
+                  "top_context": "foreskin fibroblast",
+                  "median_of_median": 3816.373773,
+                  "max_of_max": 8778.231116
+                },
+                {
+                  "dataset_key": "cancer_cell_line",
+                  "dataset_label": "Cancer Cell Line",
+                  "top_context": "Anaplastic large cell lymphoma",
+                  "median_of_median": 1899.760443,
+                  "max_of_max": 1967.618022
+                }
+              ]
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "profiles": 1
+          },
+          "display_details": {
+            "summary": "I also checked the expression datasets and captured the top contexts for the recognized TEs.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "Normal Tissue | prostate gland"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Expression Plugin",
+                "entity_scope": "L1HS",
+                "claim": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "dataset_key": "normal_tissue",
+                  "dataset_label": "Normal Tissue",
+                  "top_context": "prostate gland",
+                  "median_of_median": 656.744856,
+                  "max_of_max": 835.161021
+                },
+                "title": "L1HS",
+                "meta": "Normal Tissue | prostate gland",
+                "body": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                "evidence_type": "profile_summary",
+                "coverage_dimension": "expression",
+                "subject": "L1HS",
+                "object": "prostate gland",
+                "provenance": {
+                  "source": "expression_runtime"
+                },
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              },
+              {
+                "source_plugin": "Expression Plugin",
+                "entity_scope": "L1HS",
+                "claim": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "dataset_key": "normal_cell_line",
+                  "dataset_label": "Normal Cell Line",
+                  "top_context": "foreskin fibroblast",
+                  "median_of_median": 3816.373773,
+                  "max_of_max": 8778.231116
+                },
+                "title": "L1HS",
+                "meta": "Normal Cell Line | foreskin fibroblast",
+                "body": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                "evidence_type": "profile_summary",
+                "coverage_dimension": "expression",
+                "subject": "L1HS",
+                "object": "foreskin fibroblast",
+                "provenance": {
+                  "source": "expression_runtime"
+                },
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              },
+              {
+                "source_plugin": "Expression Plugin",
+                "entity_scope": "L1HS",
+                "claim": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "dataset_key": "cancer_cell_line",
+                  "dataset_label": "Cancer Cell Line",
+                  "top_context": "Anaplastic large cell lymphoma",
+                  "median_of_median": 1899.760443,
+                  "max_of_max": 1967.618022
+                },
+                "title": "L1HS",
+                "meta": "Cancer Cell Line | Anaplastic large cell lymphoma",
+                "body": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                "evidence_type": "profile_summary",
+                "coverage_dimension": "expression",
+                "subject": "L1HS",
+                "object": "Anaplastic large cell lymphoma",
+                "provenance": {
+                  "source": "expression_runtime"
+                },
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              }
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "te_name": "L1HS",
+                "datasets": [
+                  {
+                    "dataset_key": "normal_tissue",
+                    "dataset_label": "Normal Tissue",
+                    "top_context": "prostate gland",
+                    "median_of_median": 656.744856,
+                    "max_of_max": 835.161021
+                  },
+                  {
+                    "dataset_key": "normal_cell_line",
+                    "dataset_label": "Normal Cell Line",
+                    "top_context": "foreskin fibroblast",
+                    "median_of_median": 3816.373773,
+                    "max_of_max": 8778.231116
+                  },
+                  {
+                    "dataset_key": "cancer_cell_line",
+                    "dataset_label": "Cancer Cell Line",
+                    "top_context": "Anaplastic large cell lymphoma",
+                    "median_of_median": 1899.760443,
+                    "max_of_max": 1967.618022
+                  }
+                ]
+              }
+            ],
+            "result_message": "These expression summaries are better used as supporting context than as the core mechanism evidence."
+          }
+        },
+        "display_text": "These expression summaries are better used as supporting context than as the core mechanism evidence.",
+        "sequence": 6
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-dt-TPL_DT_003_EXPRESSION",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results"
+        ],
+        "outputs_changed": [
+          "plugin_queue"
+        ],
+        "message": "The currently collected evidence is enough to move into synthesis.",
+        "payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The expression layer already returned a direct usable hit, so no extra evidence layer is needed for this simple expression question."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "coverage": {
+                  "question_type": "expression",
+                  "status": "ok",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "required_evidence": [
+                    "expression"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "ok",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "body": "Strict aliases: L1HS, L1HS-Ta"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": [
+                      {
+                        "type": "TE",
+                        "canonical_label": "L1HS",
+                        "display_label": "L1HS",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "used_broad_alias": false,
+                        "confidence": 0.93
+                      }
+                    ],
+                    "resolved_entities": [
+                      {
+                        "label": "L1HS",
+                        "canonical_label": "L1HS",
+                        "type": "TE",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "confidence": 0.93,
+                        "used_broad_alias": false
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "Expression Plugin": {
+              "plugin_name": "Expression Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "L1HS has a top expression context in normal_tissue: prostate gland.",
+                  "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                  "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma."
+                ],
+                "coverage": {
+                  "question_type": "expression",
+                  "status": "ok",
+                  "result_counts": {
+                    "profiles": 1
+                  },
+                  "required_evidence": [
+                    "expression"
+                  ],
+                  "latency_ms": 65
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "L1HS has a top expression context in normal_tissue: prostate gland.",
+                  "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                  "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Expression Plugin",
+                  "status": "ok",
+                  "query_summary": "Summarized expression datasets and top contexts for the recognized TE entities.",
+                  "display_summary": "I also checked the expression datasets and captured the top contexts for the recognized TEs.",
+                  "result_counts": {
+                    "profiles": 1
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "Normal Tissue | prostate gland"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                      "title": "L1HS",
+                      "meta": "Normal Tissue | prostate gland",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                      "title": "L1HS",
+                      "meta": "Normal Cell Line | foreskin fibroblast",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                      "title": "L1HS",
+                      "meta": "Cancer Cell Line | Anaplastic large cell lymphoma",
+                      "support_strength": "medium"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": [
+                    {
+                      "te_name": "L1HS",
+                      "datasets": [
+                        {
+                          "dataset_key": "normal_tissue",
+                          "dataset_label": "Normal Tissue",
+                          "top_context": "prostate gland",
+                          "median_of_median": 656.744856,
+                          "max_of_max": 835.161021
+                        },
+                        {
+                          "dataset_key": "normal_cell_line",
+                          "dataset_label": "Normal Cell Line",
+                          "top_context": "foreskin fibroblast",
+                          "median_of_median": 3816.373773,
+                          "max_of_max": 8778.231116
+                        },
+                        {
+                          "dataset_key": "cancer_cell_line",
+                          "dataset_label": "Cancer Cell Line",
+                          "top_context": "Anaplastic large cell lymphoma",
+                          "median_of_median": 1899.760443,
+                          "max_of_max": 1967.618022
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "message_payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The expression layer already returned a direct usable hit, so no extra evidence layer is needed for this simple expression question."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "coverage": {
+                  "question_type": "expression",
+                  "status": "ok",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "required_evidence": [
+                    "expression"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "ok",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "body": "Strict aliases: L1HS, L1HS-Ta"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": [
+                      {
+                        "type": "TE",
+                        "canonical_label": "L1HS",
+                        "display_label": "L1HS",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "used_broad_alias": false,
+                        "confidence": 0.93
+                      }
+                    ],
+                    "resolved_entities": [
+                      {
+                        "label": "L1HS",
+                        "canonical_label": "L1HS",
+                        "type": "TE",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "confidence": 0.93,
+                        "used_broad_alias": false
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "Expression Plugin": {
+              "plugin_name": "Expression Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "L1HS has a top expression context in normal_tissue: prostate gland.",
+                  "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                  "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma."
+                ],
+                "coverage": {
+                  "question_type": "expression",
+                  "status": "ok",
+                  "result_counts": {
+                    "profiles": 1
+                  },
+                  "required_evidence": [
+                    "expression"
+                  ],
+                  "latency_ms": 65
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "L1HS has a top expression context in normal_tissue: prostate gland.",
+                  "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                  "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Expression Plugin",
+                  "status": "ok",
+                  "query_summary": "Summarized expression datasets and top contexts for the recognized TE entities.",
+                  "display_summary": "I also checked the expression datasets and captured the top contexts for the recognized TEs.",
+                  "result_counts": {
+                    "profiles": 1
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "Normal Tissue | prostate gland"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                      "title": "L1HS",
+                      "meta": "Normal Tissue | prostate gland",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                      "title": "L1HS",
+                      "meta": "Normal Cell Line | foreskin fibroblast",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                      "title": "L1HS",
+                      "meta": "Cancer Cell Line | Anaplastic large cell lymphoma",
+                      "support_strength": "medium"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": [
+                    {
+                      "te_name": "L1HS",
+                      "datasets": [
+                        {
+                          "dataset_key": "normal_tissue",
+                          "dataset_label": "Normal Tissue",
+                          "top_context": "prostate gland",
+                          "median_of_median": 656.744856,
+                          "max_of_max": 835.161021
+                        },
+                        {
+                          "dataset_key": "normal_cell_line",
+                          "dataset_label": "Normal Cell Line",
+                          "top_context": "foreskin fibroblast",
+                          "median_of_median": 3816.373773,
+                          "max_of_max": 8778.231116
+                        },
+                        {
+                          "dataset_key": "cancer_cell_line",
+                          "dataset_label": "Cancer Cell Line",
+                          "top_context": "Anaplastic large cell lymphoma",
+                          "median_of_median": 1899.760443,
+                          "max_of_max": 1967.618022
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "display_text": "The currently collected evidence is enough to move into synthesis.",
+        "sequence": 7
+      },
+      {
+        "type": "synthesizing",
+        "session_id": "eval-dt-TPL_DT_003_EXPRESSION",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results",
+          "evidence_bundle",
+          "citation_bundle"
+        ],
+        "outputs_changed": [
+          "supported_claims",
+          "answer"
+        ],
+        "message": "I am now synthesizing the plugin results into a final answer.",
+        "payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "L1HS has a top expression context in normal_tissue: prostate gland.",
+              "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+              "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma."
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "summary": "Strict aliases: L1HS, L1HS-Ta",
+                "citations": []
+              },
+              {
+                "claim": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                "summary": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                "citations": []
+              },
+              {
+                "claim": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                "summary": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                "citations": []
+              },
+              {
+                "claim": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                "summary": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "message_payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "L1HS has a top expression context in normal_tissue: prostate gland.",
+              "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+              "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma."
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "summary": "Strict aliases: L1HS, L1HS-Ta",
+                "citations": []
+              },
+              {
+                "claim": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                "summary": "L1HS has a top expression context in normal_tissue: prostate gland.",
+                "citations": []
+              },
+              {
+                "claim": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                "summary": "L1HS has a top expression context in normal_cell_line: foreskin fibroblast.",
+                "citations": []
+              },
+              {
+                "claim": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                "summary": "L1HS has a top expression context in cancer_cell_line: Anaplastic large cell lymphoma.",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "display_text": "I am now synthesizing the plugin results into a final answer.",
+        "sequence": 8
+      },
+      {
+        "type": "answer",
+        "request_id": "req_c1370da5b379f21d",
+        "session_id": "eval-dt-TPL_DT_003_EXPRESSION",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "message": "Based on the available evidence, L1HS shows top expression in the normal tissue **prostate gland**. Additional top expression contexts are reported in the foreskin fibroblast normal cell line and in the anaplastic large cell lymphoma cancer cell line. No other tissue-specific expression data are provided in the evidence set.",
+        "language": "english",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "Based on the available evidence, L1HS shows top expression in the normal tissue **prostate gland**. Additional top expression contexts are reported in the foreskin fibroblast normal cell line and in the anaplastic large cell lymphoma cancer cell line. No other tissue-specific expression data are provided in the evidence set.",
+        "sequence": 9
+      },
+      {
+        "type": "done",
+        "request_id": "req_c1370da5b379f21d",
+        "session_id": "eval-dt-TPL_DT_003_EXPRESSION",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "payload": {
+          "answer": "Based on the available evidence, L1HS shows top expression in the normal tissue **prostate gland**. Additional top expression contexts are reported in the foreskin fibroblast normal cell line and in the anaplastic large cell lymphoma cancer cell line. No other tissue-specific expression data are provided in the evidence set.",
+          "language": "english",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "answer": "Based on the available evidence, L1HS shows top expression in the normal tissue **prostate gland**. Additional top expression contexts are reported in the foreskin fibroblast normal cell line and in the anaplastic large cell lymphoma cancer cell line. No other tissue-specific expression data are provided in the evidence set.",
+          "language": "english",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "display_text": "",
+        "sequence": 10
+      }
+    ],
+    "answer": "Based on the available evidence, L1HS shows top expression in the normal tissue **prostate gland**. Additional top expression contexts are reported in the foreskin fibroblast normal cell line and in the anaplastic large cell lymphoma cancer cell line. No other tissue-specific expression data are provided in the evidence set.",
+    "done_payload": {
+      "answer": "Based on the available evidence, L1HS shows top expression in the normal tissue **prostate gland**. Additional top expression contexts are reported in the foreskin fibroblast normal cell line and in the anaplastic large cell lymphoma cancer cell line. No other tissue-specific expression data are provided in the evidence set.",
+      "language": "english",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": ""
+    },
+    "used_plugins": [
+      "Entity Resolver",
+      "Expression Plugin"
+    ],
+    "citations": [],
+    "timings": {
+      "total_ms": 3400
+    },
+    "errors": []
+  },
+  "agent": {
+    "ok": false,
+    "skipped": true,
+    "answer": "",
+    "errors": []
+  },
+  "evaluation": {
+    "schema_version": "mode_comparison_live_proxy.v1",
+    "case_id": "TPL_DT_003_EXPRESSION",
+    "expected_best_mode": "deep_think",
+    "recommended_mode": "deep_think",
+    "dt_ok": true,
+    "agent_ok": false,
+    "dt_answer_length": 326,
+    "agent_answer_length": 0,
+    "dt_plugins": [
+      "Entity Resolver",
+      "Expression Plugin"
+    ],
+    "agent_plugins": [],
+    "dt_latency_ms": 3400,
+    "agent_latency_ms": 0,
+    "agent_artifact_score": 0.0,
+    "dt_artifact_score": 0.45,
+    "depth_delta": -0.45,
+    "agent_value_added": "none",
+    "agent_overkill": false,
+    "dt_errors": [],
+    "agent_errors": []
+  }
+}

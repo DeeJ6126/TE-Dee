@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002534",
+  "name": "DNA-TTAA0-2_DR",
+  "description": "Tc1/Mariner-type non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/ | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1359 BP; 405 A; 219 C; 280 G; 450 T; 5 other;"
+  },
+  "sequence": "acagtttttctccattggtttggctcatttcttgaaacagaaattacattctcaaaacaacatggacaaacctccaaaccacttggcaattgttcacaacagaattgaatttctcattcatttcatcaaattgcaaatgtctaagtacatctttgcaaatgattaagtacagatagcctacatttagcacaatttccaagtgaatagatcttgttgatctaaactgattgttaattctcagtctaatggttgttctctccaaaatgtgtcagcgtcatttcattgtatangtcatcacatgcacaatagtctgttcaattgtcaaaattagtcaagaccataataccatgaataccatacagtaggtgaatccttggaacatttgattattgtaggggatggttgcgacattcacgccgtttcttccctcgttgcatcgcaagggagaatacgctgtgatgtggacgagaatctgtggccacacagactgcagcgtgtggatggtcaggagggtgaggacggcgggcagtgaagaactgtatgaaactccagctttatttatagcactctagttttttgtttgtgtgtttatattacaatttattacgctatttaccgttctttttgctctgatatatggaagttactttgtgtgtggttgatcattacaataaaaaaanggagttaccatttccttggcagtatgagtgcaatgtgtgacgtcaaaccttggaggctactcttaccctaaaatcctatttctttttttcagttttatacacaattgtattctgttagctagacaaaaacagtacagtaaccattgtcaatgaaggactgggctaagactgtaaggtggacatgagggatattttagtggtcctttgccataatgacnaaaacatctaaacattttgacttgcagtgcttacacaatgctaaagggacgaagcattttgggggcactgactgtttaaatgagaaggaaatttagttttgacacatgagtgaactgttttgggaaaggtatgagcttttgcaagtgagctatagtgttgtgctaaactgtanacactgttttgccaaatgatcttagaattttgagaatgtaatttctgtttcaagaaatgagtcaaaccaatggagaaaaatatttgccatttttgtggcactgacttttatatgggaaaggaatttagttttgatgcatgagtgaactgttttnggagagatatgagcttttgcaagtgagctatagtgttgtgctaaactgtaacactgttttgccaaatgatcttagaattttgagaatgtaatttctgtttcaagaaatgagccaaaccaatggagaaaaactgt",
+  "length_bp": 1359,
+  "sequence_length_bp": 1359,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA-TTAA0-2_DR"
+  ]
+}

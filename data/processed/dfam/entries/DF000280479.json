@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280479",
+  "name": "RhiSin-1.142",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Rhinolophus sinicus",
+  "display_classification": "DNA/TcMar-Tigger | Rhinolophus sinicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Rhinolophidae",
+    "Rhinolophinae",
+    "Rhinolophus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 608 BP; 130 A; 126 C; 153 G; 195 T; 4 other;"
+  },
+  "sequence": "cagcaggtcctcgaataacgtcgtttcgttcaacgtcgtttcgttataacgttgatgagaaaaaaaaatcgattcccggccggggccactgtctgtgtggagtttgcacgttctccccatgtctgcgtgggttttctccgggnactccggtttcctcccacatcccaaagatgtgcacgtgaggtgaactggcgtgtctanattgtcccagtctgagtgagtgtgggtgtgtgtgagtgnccctgcgatggaagggcgtcctgtccagggtgggttcccgccttgcgccctgagctgccgggataggctccggccacccgcgaccctgaactggaataagcgggttggaaaataattatcttacttgtttttattnatctttcttaaatgtatgtatagctcacatttatttcaatgtttaatattagaagtgttttgggtctttatttagaagtttggtgatgtttttgtgaccagaaatatgccgtaggaacttaactcttgtttatatcaattagcctatggtaaaattggtttcgttatacgtcgtttcgcttaaagtcgcagtttccaagaacctatcgacgacgttaagtgaggacttactg",
+  "length_bp": 608,
+  "sequence_length_bp": 608,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

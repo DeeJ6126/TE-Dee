@@ -1,0 +1,51 @@
+{
+  "accession": "DF000003952",
+  "name": "HATN2_DR",
+  "description": "Non-autonomous hAT DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/hAT | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1219 BP; 378 A; 244 C; 227 G; 363 T; 7 other;"
+  },
+  "sequence": "cagggcttgacattaacttttttgatcaccagccactgtggctagtagttttccaacgttactagccactcgccattttcactagccacaattttgttgttgggaaaatatattttatatgcataaatntgactttgacatgctaaaattacttgatttagattttgtgttatgtccacatgcctcctcattcatttcactttttgtgtgtcgtgtatgagcttgctcaatgngcatgagcaaatgggtcgtggtttcatagtgtcgcattgcaattagtttttatttcacatgacttttcagggctcaaaattaaggatttaccaaatttatctctgaccacaccaaaaataaataaataattatttcttagccacaaattttaaatgtgtcaaaacaagcaaaatatagctgtatactatactttttatttaacaaaacatttctttaaaaaaaaacaaaaaaaatgacatttnaaaaaaattattgtcatgtataaaatatgcacagtaatctgtcctggctaaaggtcccagatcaccagttaactacacataaatggggagttaatctcccattaaagcaatgttattgtaaaaaaaagataattaaaccatattaacaaaaataaccgtaagcaaaagaaagcaggtggaaaaacataccgtgtgataatgaaaggatgatcacgcgcacacggttaacgttaggcccgttaataatctgttcaaagaatggttaaagcgaaagcagcgaccgctgctgcttacaaaaagacaaatctggagctcttgaaagcagcaggactgtgggtgcacgancatcgctttttgtccagtctatttnaaagagaaccgatcgcaccagttgcgtttccaggcacggttgcttcgcgcaaggaaacgggagcgcgcacgttttaaacagtcgcgcgcatcacatcagctgttngcgcgagtgatcatcctctcattcggtattcacctgctttgctcgcgcgaacgcaattatttttgtcagtcgtgctgcttctcgattctaagatcacatttgcacgcatattgggccatccttattgtcgaaccctgcttttaagaaaactacaatttaaaaattattttcaaccagccaaagtggctagtgggagtgtctgtctaacccgccanagctgaaatctacccgcatttggcgggttggcgggtgttaatgtaaagccctg",
+  "length_bp": 1219,
+  "sequence_length_bp": 1219,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "HATN2_DR"
+  ]
+}

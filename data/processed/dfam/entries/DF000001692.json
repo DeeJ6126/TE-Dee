@@ -1,0 +1,67 @@
+{
+  "accession": "DF000001692",
+  "name": "R2_DM",
+  "description": "LINE-like retrotransposable element R2DM.",
+  "keywords": [
+    "LINE/R2"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "LINE/R2 | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3608 BP; 1062 A; 819 C; 900 G; 825 T; 2 other;"
+  },
+  "sequence": "ttggggatcatggggtatttgagagcagagggggagtattcttctgtaattcgtaagtcatatcatatgatgtgcggaaggggaattttactctgtaactcacaagtctctcctttactcaagtcgactcaaaacctcctcgtggtggtccccggtaatgctaaactcgtttagcagctaatttgagcggcaaaacttttccgatgggctggttccccagaggaaatttattcatattggaactacaagcacaaataacgagcctcggatacctttacacaatctgatgacgacccgaccctccgtggatatcttcccggaggaccaatatgaaccaaacgcagcggctactctatctagggttccctgcacagtatgtggccggtcctttaacagcaagagaggactcggtgttcacatgcgatctcggcacccagacgaacttgatgaagaacgtcgacgtgtcgatataaaggcaagatggagtgatgaagagaagtggatgatggcgagaaaggaggttgagctcacagcaaatggatgtaaacacataaacaagcaactagcggtgtattttgcaaaccgcagcgtcgaagccatcaaaaagctaagacagaggggcgattataaggagaaaatagagcagataagagggcaatcagctctcgccccggaagttgctaatctaaccataaggcgccgccctagtagaagtgagcaagaccaccaagtaacaacatcggaaacaactccaatcactcccttcgaacagtcgaacagggaaattttgcggacactacgcgggtatagccccgtagaatgccattccaaatggagagcccaagagttgcaaactatcattgatagggcacatctcgagggaaaggaaaccactctccaatgcttatcgctatatctcctgggaatttttccggcacagggtgtacgacacacgctgacgagacctcctcggagacctcggaacaggagagaaagcagaaggcagcagtacgctgtcgtccagcgtaactgggataagcataaaggaagatgcatcaagtccttgctaaatggaactgatgagtcggtaatgccaagccaagaaataatggttccctactggagagaagtaatgactcagcctagcccaagctcttgcagtggagaagtgatacaaatggatcactcgcttgagagggtatggtctgctattacagagcaggaccttcgggcgtcaagagtctcattatcttcgtctccggggcctgacgggataactccaaaatctgccagggaggtgccgtcaggtattatgctgcgcataatgaacctaattctatggtgcggtaatctaccacactctatacgactggccagaaccgtcttcatcccgaagacggtgacggcgaagcgaccgcaagactttcgtccaatatcagtgccttcagtcctggtaagacagctaaatgcaatattggcaacccggttgaactcatcaatcaattgggacccgcgccagcggggcttcttaccaaccgacggatgcgccgataatgcgacgatagttgacttagtcttaaggcatagccataagcactttagatcttgctacatcgcaaatttagatgtaagcaaggcatttgattctctatcgcatgcatctatatacgacaccttacgtgcttatggtgcgccaaagggcttcgttgactacgtacagaatacgtacgagggcggtggtaccagtctcaatggggacggttggagttcagaggaattcgtccctgctagaggagtgaagcagggtgaccctttgtctcctattctatttaacttggtaatggacaggttacttagaaccttacccagcgaaattggtgccaaagtcggaaatgccattactaacgcggccgcgtttgcagatgatttggtactatttgcggaaactcggatggggcttcaagtattgttggacaagacgttggattttctatctatcgtcggcctcaaacttaatgccgacaaatgttttaccgttggcattaagggccagccgaaacagaagtgtaccgtgttagaggcacagagcttctacgtaggctcgagtgagattccatcactgaagcgcacggacgagtggaagtacttaggcatcaacttcactgcaaccgggagggttcgatgcaatccggccgaggacattggtccaaagctacaaagattgacaaaggcccccctcaaaccacaacagaggttgttcgcccttcggactgtccttatcccacagctctaccacaagttagcccttgggagtgtggcgataggcgtcctacgaaaaactgacaaacttataagatactatgtgcgaagatggccaaatcttccgctggatgtgccgatagcatttgttcatgcacccccaaaaagtggaggtctcggaattccatcactaagatgggtagctccaatgttaaggctaagacgattgagtaacattaaatggcctcacctcacgcaaaacgaggtagccagctctttcctcgaagccgaaaaacaacgggcccgagatagattattagctgaacaaaatgaactgttatcgcgtccggcaatagaaaaatattgggcgaacaagttgtacctctcagttgatggtagcggactccgtgaagcgggccattatggcccgcaacacgggtgggttagtcaacccacgcgtttattaacaggaaaggaatatatagacggtattcgtctgcggataaatgccctncccacaaagtctcgtactacaaggagaaggcacgaattggaacgacagtgtcgtgcaggatgtgatgctcccgaaacaacaaaccacataatgcaaaaatgctaccgctcgcatgggaggcgggtagctagacacaactgcgtagtaaatcgaatcaagcggggacttgaggagagaggctgcgtggtcattgttgaaccaagtctgcagtgcgaatccggccttaataaaccagacctggtggcactacgacaaaatcacattgatgtgatcgacatacaaattgtgacagacggacactctatggatgatgcgcaccagcgcaaaatcaatagatacgacagaccggacatacgaactgaattgcgtcgcagattcgaagccgcaggtgacattgaattccattctgccaccctgaactggagggggatctggagtggtcaatccgttaaaagattgatagcgaagggtctcctcagcaaatatgatagtcatatcattagcgtccaggttatgagaggcagtctcggttgttttaaacagttcatgtacctgagcgggttttcccgagattggacttagctaaancgtttggttcaaaacatttgcttgctgtcttggcataacatcaataaaggcataaacatcgcaaaataatggttataattaaatggctatgaggatggttttagtacgtaggcgttgcggaacttcggttcatatagagcaacgaatcgtgcatgctaggaaaactgaccacacacagtgttggcagacctagtatctttcgaagatttccatacctccgcgatcaaaaaaaaaaaaaaaaaaaaaa",
+  "length_bp": 3608,
+  "sequence_length_bp": 3608,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "285..3351",
+      "start": 284,
+      "end": 3351,
+      "qualifiers": {
+        "product": "R2_DM_pol",
+        "number": "1",
+        "note": "R2_DSe_pol, R2_DSi_pol and R2_DYa_pol are near-identical."
+      },
+      "label": "R2_DM_pol"
+    }
+  ],
+  "repbase_aliases": []
+}

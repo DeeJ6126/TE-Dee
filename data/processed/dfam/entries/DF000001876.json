@@ -1,0 +1,49 @@
+{
+  "accession": "DF000001876",
+  "name": "L1MdV_III_3end",
+  "description": "L1MdV_III_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Murinae",
+  "display_classification": "LINE/L1 | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1063 BP; 364 A; 217 C; 284 G; 198 T; 0 other;"
+  },
+  "sequence": "tgaggacccagctataccactcctgggcatatacccagaagatgctccaacatgtaataaggacacatgctccactatgttcatagcagccttatttataatagccaggagctggaaagaacccagatgtccttcaacagaggaatggatacagaaaatgtggtacatttacacaatggagtactactcagctattaaaaacgatgaattcatgaaattcttaggcaaatggatagaactagaaaatatcatcctgagtgaggtaacccaatcgcaaaagaacacacatggtatgcactcactgataagtggatattagcccaaaagctccaaataaccaagatacaattcacagaccacatgaagctcaagaagaaggaagaccaaagtgtgggtgcttcggtccttcttagaaggagaacaaaatactcacaggagcaaatatggagataaagtgtagagcagagactgaaggaaaggccatccagagactgtcccacctggggattcatcccatatacagttaccaaacccagacactattgtggatgccaagaagtgcatgctgaaaggagcctgatatggctgtctcctgagaggccctgccagagccttacaaatacagaggcggatgctcgcagccaaccattggactgagcgcggggtccccaatagaggagttagagaaaggactgaaggagttgaaggggtttgcaaccccataggaagaacaacaatatcaaccaaccagaccccccagagctcccagggactaagccatcaacaaaggagtacacatggctccagctgcatatgtagcagaggatggccttgtcatgcatcaatgggaggagaggtccttggtcctatgaaggctcgatagatgccccagtgtaggggaatcgagggcggggaggtgggagtgggtgggtgggtggaggaacaccctcatagaagcagggggagggaggatgggatagggggtttccgggagggggggaaaccgggaaaggggataacatttgaaatgtaaataaagaaaatatccaataaaaaaaaaaaa",
+  "length_bp": 1063,
+  "sequence_length_bp": 1063,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

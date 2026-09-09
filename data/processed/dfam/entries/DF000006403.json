@@ -1,0 +1,50 @@
+{
+  "accession": "DF000006403",
+  "name": "DNA4_Diul",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Heliconiini",
+  "display_classification": "DNA/ | Heliconiini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 389 BP; 131 A; 65 C; 74 G; 119 T; 0 other;"
+  },
+  "sequence": "tacttttaaacatttttaaagtgttattccacacttaggaaaattgaaaaagacatttaaagaaaacgtataaaaatttgaacgcagcgggattcgaacccgcgcctcctgaactttaaaaatgtttaaaagtatttaataaatagcattctctcttgccaaatgattgttcgtagaataatctttgggtagcagaaatttgtaaaaatctctctacagagatgctaacaacataaataagttgtaataaagcgtataagaatttcgacgcagcggctagtagaacgcatggctcagtggtgagagcgcctgaacggtattcaggaggcgcgggttcgaatcccgctgcgttcaaatttttatacgttttctttaaatgtctttttcaa",
+  "length_bp": 389,
+  "sequence_length_bp": 389,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

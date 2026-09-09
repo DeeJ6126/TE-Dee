@@ -1,0 +1,53 @@
+{
+  "accession": "DF000001674",
+  "name": "MINOS",
+  "description": "D.hydei minos transposon-like element encoding transposase.",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Drosophila",
+  "display_classification": "DNA/TcMar-Tc1 | Drosophila",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1765 BP; 596 A; 275 C; 322 G; 467 T; 105 other;"
+  },
+  "sequence": "aatacgagccccaaccactattaattcgaacagcatgtgttttttgcggtgtgcaatgttcaacacacgacattttcaatactactacaggtaacgtatgcnaangtatttngtccgaaagagaatttnattctnttcacgncgataaaaaantttttgttntattttcaacgacaacaaaaatatnagtnatntattnaaaaggtagacntaagagataagaaaaaantgaccactattanttcgaacgctgcgtaagcatacctttatctcaaaaagaacaaaacaaaagcaactaatttaacggaannaccatctngntataatctgcaaataaaancanaatgcagaaggcgaaaaagtttaaaattactgcagatcagtcaaagttcagcaacgatggcacgtggtaagcntatttgcaccgagatcagagtattgattggagattattagaaatcagggaanananttaatgatgtaagcaaacaattaaatttgcttaaatcgtcggtgcatagggtgncacaattgtttaagaaaacngggaacatngnaaataatattgcaaataggggccgaacatcancaataacaccctgtgacaaaaggnaactngccaaaattgtaanggctnatcgtcggcaattatttagaaatttgggctcggtgtggtcgcngaaattggcaaaactgtcaagccggaatggncgngaccagttaaaaantattggatgcggttcctataaagnatgttttnttattatttangtantntacccaataacttatttgnnnnnntactcgtaggccaaggaaaaacccttgtttacgcttcgncaaaaaaagnancgtttgcaatgggctcgggaaaggatgtcttgggctaaaaggcaatgggacaccataatttttagcnatgnanctaaatttgatgttanngtcggcgatncgagaaaangcgtcntncntacaaagacagaaacntaccataaggactgccttnaagggacngtagagtttcctgcaagcactatggtatggggatgtatgtctgccaaangattaggaaaantgcattttattgaaggaacggttaatgctgaaaaatatattaatattttggaagaaagtttnctgccatcaataccaaaaccggcagattgttgtgaattcactttttagcaggacggagcgtcatcgcacanagccaaaanaaccaaaaattggctgcaatataagcaaatggaggctttagattggccatcaaatagtccagatctaagccccatagaaaatatttggtggctaataaaaagaaagcttcgaaatgagccacaaaggaacatttctgacctcaaaattaagttgcaagagatgtgggactcgatttctcgagaacattgccaaaattttttaaaatcaacgccaaaacgtgttaaatgtgtantacaggccaggggcgacgttacacaattctaatattaattaaattnntgttnnncgnncgnnnnnnnnnnatattacgcagcgttcgaattaatagtggtnatttttttcttatctcttaagtctaccttttgagtaaatnactcatatttttnttgttgttgaaantagatcaaaaatttnngtatcatcctaagaagaataaaatgctcttttagacaaaataaattttcgtccgttatctgtagtagtattgnnnnnnnnnnntgttacacagcgcaaactgcaaaaaacacacgctgttcaaattaatagt",
+  "length_bp": 1765,
+  "sequence_length_bp": 1765,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MINOS"
+  ]
+}

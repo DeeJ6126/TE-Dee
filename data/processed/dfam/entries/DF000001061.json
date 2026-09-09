@@ -1,0 +1,46 @@
+{
+  "accession": "DF000001061",
+  "name": "Ricksha_c",
+  "description": "MULE-MuDR DNA transposon, Ricksha_c subfamily",
+  "keywords": [
+    "DNA/MULE-MuDR"
+  ],
+  "species": "Primates",
+  "display_classification": "DNA/MULE-MuDR | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2048 BP; 555 A; 425 C; 441 G; 618 T; 9 other;"
+  },
+  "sequence": "gggtttggatcataatcccgaaagacacaatcccgaacgccataatcccgaatgttgaaatcccgaaagatcaaaatccctaaagtctaaaatccctaaagtctaaaatccctaacgtctaaaatcccgaaaatcacaatcccgaaagattaaaatcccaaatgttgaaatcctgaaagccgaattctggggaagggattagtgcgttttcggttgtacgcaggatagttgcatcatgttagttgcatcatgttaggcggaactattaccttgttattgtctttatttggaaattaagtatggtttaaggagatgcgtatgggtgccaagttgacaaggggtggacttgtggacttaattttaggtgtcaacttgactggattaaggaatacctagaaacctggtaaagcattattttgggtgtgtctgtgagggtgtttccagaggagattagcgtgtgagtctgagtggactaggtggggaagatccgccctcagtgtnggcgggcaccatccaatcggccgggggcccggagagaacaaanacagaaggcgaattggtctctctctgagagctgggacanactcttcttctgctgccttggacatcagaactccaggctcnccggcctttggactccaggacttacaccagcggccccccgggtcctcaggctttcggcctcggactgagagttacaccatcggcttccctggttctgaggccttcggacttggactgagccacgctaccggcatcccagggtctccagcttgcagatggcctgtcgtgggacttctcagcctccataatcgcgtgagccaattcccctaataaatcccctctcatatatctatatacatatcctattggttctgtctctctggagaaccctgactaatacagatttggtatcggggaagccgaatatcattccttcttactgtattccttacaacacaatggaagagatctgtgaaattgttccctcgcaaaaaggctgtgataagttaagtgtacgaggctacttaatggtgaaagataaaagtttaaaagctaattattattggtgctgcgaaagcagaaaatcgcttaattgcaacggccgagcaataaccagactttcaaatggacagcatatacttacaaaatttgtagaccacaaccactctccaaatacaagtgcagcgagtgtttcgaagatcatagaagtgaaaacgcaggcgaaaaatacaagaaatctcccctgccaaattattcaatcgtgtacgacttctgccccttcacacatagcgccaattcgctatgctatgtatttcatcttcgcatcatttccaatactggaggtataaattgtgtaaagacttttagagagttctaattcgttttatgcattttttttgcaaatttgactccacgaaagtgcattatcacaacgttgactttgtgtgtaagcattgtgcgtgtacgtaaaaacgttgaaacttcctcaataaatgaagagatgtcctttttgtacatctgcatttgtgaaagataaaatttctcgagatctcggctctttgggcgactgcatatgcggtggtgacccatcgcggtttttgatcgatctcgtcaaaagacttaggttgtccgtcacggtatttcagatgaccgcagttataaagctgggtgcacacaattaccaaccatagtgatatgcgtttatacatttcgctttttgacctatttctttatgaatacggttcgtctgctcataactgttatacccgtgcgactgtcgttagtatacctgagtgtttatgcttgcaaaaatatgtatgttattattgcctattttattgtgtaaagtggcctatgaagtgttctgtcgtgtttttatatgtttctcaaataaatccccttttaaaaatgtaaataaatgtcttttaaanaattttaaattattttttccagaattatattttcgggattttgatctttcgggattncgacnttcgggattntggcnttcgggattgtgtctttcgggattatggcccaaaccc",
+  "length_bp": 2048,
+  "sequence_length_bp": 2048,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RICKSHA"
+  ]
+}

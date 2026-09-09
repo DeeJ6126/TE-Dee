@@ -1,0 +1,77 @@
+{
+  "accession": "DF000003575",
+  "name": "Harbinger3_DR",
+  "description": "Autonomous Harbinger DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/PIF-Harbinger"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/PIF-Harbinger | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3599 BP; 991 A; 750 C; 762 G; 1069 T; 27 other;"
+  },
+  "sequence": "gggcctcatgtatcaacgctgcgtacgcacaaaaactttgcgtacgccaggtttcacgctcannnncgnncgcgtttggatttactaacgatgaaatgaacgtgagaatgtgcgttggtccacgccaacttcatgtctggcgtacgcgcatttcttgtgtgtgtttgttttatttccattggcgactcctagaggcaattatgttaaattgcacactacaaagtatcgcaccaacacatgtgaaaaacattgctattaatttataattgataaaatgggttaattgacacaatatttttttaccaattatgtgatttagaacatataaaagcatttgcaaatgtatacaacccttnagtctatggcaatggcagtgttggccttattagaggacattgtcaatggtcgaatccgaagggaacgcgtttttagggatcacagtgattttctggcccacgatgatgactggcttattagccgtttcagatttccaagagctatcctcttggagctctgtgctgagttgggtccaaatttggaaagagagacagcgaggagccatgcattacccgttcccttacaggtgctgacaacgcttggtatcctggcaactggttctttccaaagggaactggcagaccgctcggggttaagccagtcgtctttgagccgtgcaatggcagctgtatgggacgggatcatccgcatgtctagcaggtatataaggtttccataccatgcagttgaccagccaaacattaaagcgcaatttgcagcgatcgccggttttcccaatgtaatcggagcgatcgactgcacgcacattgctataaaggcgccatctgaagacgaatttgcatacgtgaatcggaaacatttccattcaataaatgtgcaaataatatgtgatgctcaaatgcgcttaacaaatattgtggcaaggtggccttggtcaacccatgattaattcatcctcacaaacagcatggttgggatgaggctccaaggtggcagggtgcgcgatgggtggcttcttggtgagtgatgtatttaaagatattattccagctaagtttattttattttattttgagcgtaattatttaactgcatatcaggagaccgcggttatccattaaagacgtggctgttaacccccctcaacaacccacaaactgaccaagagcgcagatacaatgatgcccattctcgcactcggtcagttgtagagcgggcgattgggcagctgaaatgccggtggcgctgccttgataagagcggaggggtgctgctataccgccctaacaaagtgttccgcatcgtgctggcctgtggtgtgctgcacaatgttgcgcacagacatggcatacctaatggtgagccagtggcaccgccagatgacccagacccaggaccagtgtgtatacaacccaaccaacaagccattcaagcccgccaacgtgtggttgcggcaatataaaaaaggtaatcagagaccaagtttattttttgaccaattcttttaatgactggcttatgtctgttaangcattacttatattttttaggtgattattaatatcaccgatggccctaacaatntcctgttgtgattccagaacagcctgcgtcaggacgcggcctgacggacgggcctcggcactggcactagcactggagacacggggggtagcgccggagacactgggttctggttcctcaggagggacgaagtccgtgtcagtggacgttcctgcaccatctaagtgtaaataaaaanaagcacgttaactgatatttgagtccattatttgggtacacgcatatttataaatgaaatagataggggagcgcggggcgcaaagtaacgcggggttaaatgtaacacggagttttagggtntttgctcagggttaaccatggcatgcttccgaggtattcaccacagtgtctgcagatgtctncctggcaattattgaaaaagtttgccgcaatttggatgagaaacaccaatttttgccgcataaaagtattttttattatagtctatctatctatctatctatctatctatctatctatctatctatctatctatctatctnttttatctatgaaagtatgcacgtaaaatcttacattgttgtaattaccgtcttctaggctaaaagattaaatcattttgaaagatgtaagaaacacacagtgactgctagccagttttgaggaanacatgacacagcggggttagttgtaacagggtgttacaattaagccacacactgttggacancaactaaactaacaaaatattttttattttaattttgagtgtaattacactttttataataaaatgttttttantagaaaatatttttnaatagaaaaacatttattgctaataatgcaaataaatgcattgtataataatggataaatggataataatgcaaatagattcaaatgtgtttatccaaataaataaatanactgtgctatgtagaataaaaanaaatgagccaattactgaggaaatatagctactttttnnnaaagtaaactgaatttaaattaattgtgtgaaatctgcctttntaagcatgtgttacaactaaccccccgtctgttacaacctgccccgcaggtgtaaatggtaacatttttactcctggcacttttgncaatactgcacagaaaccatagntccggcgatcataatttcagtgctcatttgtaggagaggcttgtgtgttgttggtaaaaaaaatggtttgtctaaccccattactttgttcattatttggccaaaaccaaaaagtgttactttgtgccccgctctcccctacataaattaattgtactgctacatgtattggaaacttaaatgcaaaccggttgtttaccaaagttaagacataaaatgagaagtaacttaccttcgtgggcttcctctaatacatctgtgtctcccacagacacggatactactccagacagtaaagtgtcgcccacaattgaggcaactctctcctcaaagggtgttagttcagcatcccctgttcccccgcctgttcggtccacactttgacggtgcgccgctgttctcctcttaacctgcacctttacatcggaccatttcttttttaattcactcacagtgcgatgttcagaccccactgcgttaaccgcgtcagctaaactctcccactctattttttttcttttgttattaattccggaggacaaacttgcaaataacacagtttttctccggtctacctccgataggagcacctccaattcacattctgtgaagtttctcttcttgcttgcttttgccattgctttttcgtttggttttgccaaagtggagtcattaccatatttatangggggaggaggcagggaggggttttgcgctcgtgcacgtgcgctcagtttcacgttaattcggatgtacaaagagaatatgcgtgggattccgcgtacgcagtgtttcatacatctgaattttttactgcgtacgcacatttacagctttgtncgtacgcaatgttttagtatgaattcaacgcaagtcttcgtacatgaggccc",
+  "length_bp": 3599,
+  "sequence_length_bp": 3599,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "3534..2901",
+      "start": 2900,
+      "end": 3534,
+      "qualifiers": {
+        "product": "Harbinger3_DR_p2",
+        "number": "1",
+        "note": "(rev) Possibly longer with intron; no matches outside this"
+      },
+      "label": "Harbinger3_DR_p2"
+    },
+    {
+      "type": "CDS",
+      "location": "361..1477",
+      "start": 360,
+      "end": 1477,
+      "qualifiers": {
+        "product": "Harbinger3_DR_tp",
+        "number": "2",
+        "note": "Genewised with Harbinger-5_XT_tp [Danio]",
+        "translation": "MAMAVLALLEDIVNGRIRRERVFRDHGDFLAHDDDWLISRFRFPRAILLDLCAELGPL"
+      },
+      "label": "Harbinger3_DR_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "HARBINGER3_DR"
+  ]
+}

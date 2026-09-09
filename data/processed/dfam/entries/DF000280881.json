@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280881",
+  "name": "TadBra-1.3",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Tadarida brasiliensis",
+  "display_classification": "SINE/tRNA | Tadarida brasiliensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Molossidae",
+    "Tadarida"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 254 BP; 44 A; 79 C; 69 G; 62 T; 0 other;"
+  },
+  "sequence": "gccctggccggtttggctcagcggttagagcgtcggcccgcggaccagagagtcccgggttcggttcccgccaagggcacgtacctcggttgcggttcgtccccggccccggttggggtcgtgcgggtggcaaccagtcgatgtgtctctctcacatcgatgtttctctctctctctcttcctccctctctccctcccgctctatctgaagataaatgcaaaaatgtcctcgggtgaggattaaaaaaaaaaaa",
+  "length_bp": 254,
+  "sequence_length_bp": 254,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

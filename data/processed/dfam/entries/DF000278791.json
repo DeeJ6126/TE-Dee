@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278791",
+  "name": "MurFea-1.33",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Murina aurata feae",
+  "display_classification": "RC/Helitron | Murina aurata feae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Murina",
+    "Murina aurata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1046 BP; 171 A; 385 C; 335 G; 155 T; 0 other;"
+  },
+  "sequence": "ctaatataataaaagagtaatatgcaaattgaccgttacccgagacacctaagccacgcccaccagccaagccacgcctcccagccaaccagagcggctgtatgcaaattagcccagccaagatggaggccggcagccatggagctagagcaaaccagaggcttctgttgcaactgcctgcctaggctggctgagcctctgctcacggccacgcccaccagccaatcagagcggctgtatgcaaattaacccagccaagatggaggctggcagggcggctctgcactgggagcctccgcggccggcatagctgtgccaggtgtgtcagctcagtggggggggggtccggcctggggcctcctcggggcgtccaggagcgcccgtcccgggtccactgcctggctccgccccccgggggcctcctcggggcgtccaggagcggccgtcctgggtccgctgcctggctccgccccgggggcctccgcggggcgtccaggagcgcctgtcctgggtccgctgcctggctctgccccgggggcctcctcgggggcgtgcgggagcacccgtccagggtccgctaccttcatccgccccccaggggcctccacagggcgtgcgggagcgtctgctgcacagtgcggagaatccgaagccagtccgctgcccggctccaccccgggtgtgtttgctcagcagcagggccccaccgagggatcctgcaccagcgtccgcccctggctcgccacccagctctgcgccaggtgtgtcccctcagcggtgggggcccaccaggcgtgtgcgatcgtgggccctccggtgggaaacgtccaggcctgcactcaccagccctcccaccccccagtgcacgaaccctgaaggggctgtgggcagcctgaaaatggccctcagcccctcacccaggctggccaggcatgccagcaggtggacatcccccccgaggtgtcccagactgcaagagggcacaggccgggctgagggacccccaccccccgagtgcacaaatttttgtgcaccgggcccctagt",
+  "length_bp": 1046,
+  "sequence_length_bp": 1046,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

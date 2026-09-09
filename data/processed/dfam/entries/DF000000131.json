@@ -1,0 +1,39 @@
+{
+  "accession": "DF000000131",
+  "name": "Eulor5B",
+  "description": "Eulor5B (Euteleostomi-conserved low frequency repeat 5B)",
+  "keywords": [
+    "DNA/Crypton-A"
+  ],
+  "species": "Tetrapoda",
+  "display_classification": "DNA/Crypton-A | Tetrapoda",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 192 BP; 57 A; 41 C; 45 G; 48 T; 1 other;"
+  },
+  "sequence": "tatttaagcaataatccccgagaaatcggtcgttaccagcagttaacgaccggtttgttagttaacggcccgaggcgaagccgagggcggttaacgctctaacaaaccggtcgttaactgcggtaacgaccgatttcgaggggattattgctattataaaccatantcaacggtttataacagcaataatgt",
+  "length_bp": 192,
+  "sequence_length_bp": 192,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Eulor5B"
+  ]
+}

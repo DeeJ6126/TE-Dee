@@ -1,0 +1,42 @@
+{
+  "accession": "DF003586469",
+  "name": "Amar_SINE-2_CORE",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "DNA/PIF-ISL2EU"
+  ],
+  "species": "Archivesica marissinica",
+  "display_classification": "DNA/PIF-ISL2EU | Archivesica marissinica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Heteroconchia",
+    "Euheterodonta",
+    "Imparidentia",
+    "Neoheterodontei",
+    "Venerida",
+    "Glossoidea",
+    "Vesicomyidae",
+    "Archivesica"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 217 BP; 52 A; 61 C; 51 G; 53 T; 0 other;"
+  },
+  "sequence": "tgtatgtatgtatgttcctttaatgtcaaacccctcgcggggacttagacatgttttcctgggcaggcttagccgacctaagcgattaaccagtactaagcaatgtgtgtgaggtgccttgctcaatgacactacatacgtggcctgaccgagtatcgaacccgggaccgttcgattccaaatccgacgctctaccactggaccacggacgccacac",
+  "length_bp": 217,
+  "sequence_length_bp": 217,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

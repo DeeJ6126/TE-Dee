@@ -1,0 +1,53 @@
+{
+  "accession": "DF000002021",
+  "name": "RLTR13G",
+  "description": "Long terminal repeat of endogenous retrovirus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR13G"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 883 BP; 207 A; 210 C; 197 G; 249 T; 20 other;"
+  },
+  "sequence": "tgccacgcacactccggtgaagtctgcttgacaggccgagaagcctggaagcactcacgaggcaaagagtttcacggaaactcacctcctggagctttggcgttctcattaacccgtatactcataccctatccccgcgttagtctggtgtatggatccacgtgctctcttttagtgttatcttattataagtgcctttcaagattgaattctgatatagtcaaagccttcgccagngttccaacgccccagaagccgacgancttggaattcggtaggaattcaacnaggaagttacctattcagtanctaattangcattataaangtcagagcctgcagctccgggctnttctgttagttgtttactaaggacagnagncagtcttanccagatacggttntaccataagaaagttagggaatcccactgagacaggntttttctctanagctagatatagcaagctncatattagaagcaagttggtgaattcttctgnagacccaggaaataggggggttgnggtattgcagtattcatgagaaggtctgctagngcagaacccctggtggtgggcttaacaatagactagctttacacctggctcccttcttngtggcagcggcctggtccccgccttcttttgatgtatacattccttttgtattgcgtcactgtaacttggtggattgtattttgcctcgnctggtttcttgttatttcttctgtataaaaagtttgatgctcgacctgacaaaatacattcagattctacacaatctcncgtgttggtctgtctgtcattcccgccgactccttgcccacctgcacccagagacccgttccacgcagacaaagggacccagagggtctgcggca",
+  "length_bp": 883,
+  "sequence_length_bp": 883,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR13G"
+  ]
+}

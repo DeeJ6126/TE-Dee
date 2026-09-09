@@ -1,0 +1,49 @@
+{
+  "accession": "DF000001797",
+  "name": "L1Lx_II_5end",
+  "description": "L1Lx_II_5end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Murinae",
+  "display_classification": "LINE/L1 | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 805 BP; 273 A; 214 C; 193 G; 123 T; 2 other;"
+  },
+  "sequence": "atccttccggtcnccatctgcacccgggagctgaggctgttccacagccctctgtgcacgggtcccgccaggagagagctggtctcccaggagtgctctcactcccgggctcagaggtgagatcgccactttctctccaataactgtccgaagcgggaccggccaggagcgcacagggcacaggaacagtggagcagctgggacaggatccttccggtcnccatctgcacccaggagctggggctgttccacagccctctgtacacaggtcccgccaggagagagctggtctcccaggagtgctgacacaggcttacaggcccacaggagggacaagctccagccagagacagcaagaccaactaacaccagagataaccagatggcgaaaggcaagcgcaagaaccttaccaacagaaaccaaggctacttggcatcatcagaacccagttctcccaccacagcaagtcctggataccccaacacaccggaaaagcaagatttggatttaaaatcacatctcatgatgctgatagaggactttaagaaggacataaataactcccttaaagaaatacaggagaacacaggtaaacaggtagaagcccttaaagaggaaacacaaaaatcccttaaagaattacaggaaaacacaaccaaacaggtgaaggaattgaacaaaaccatccaggatctaaaaatggaagtagaaacaataaagaaatcacaaagggagacaactctggagatagaaaacctaggaaagagatcaggagtcatagatgcaagcatcaccaacagaata",
+  "length_bp": 805,
+  "sequence_length_bp": 805,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

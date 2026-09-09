@@ -1,0 +1,46 @@
+{
+  "accession": "DF000276586",
+  "name": "EchTel-6.12",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/RTE-BovB"
+  ],
+  "species": "Echinops telfairi",
+  "display_classification": "LINE/RTE-BovB | Echinops telfairi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Tenrecinae",
+    "Echinops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3286 BP; 1120 A; 595 C; 822 G; 732 T; 17 other;"
+  },
+  "sequence": "ccaccacttgtctgtcagtttgtcgtactgtggtggcttgtgtgttgctgtgatgctggaagctatgtcactggtatttcaaatgccagcagggtcacccaaagtgaacaggtttcagcggagcttccagactaagaacagacaacgaagaaggactcggctccccacttcggaggaagaagccgctgaaaaccttatgcatagcttcgaagcattgtcagatactgaaagcctaancaanggaagcagaacattgtcggagatantgccggaggatgggcccctcgggtccgagggcactcgaaatgtgactgaggaggagctgatttctcggaggggagtcgaccatggtgacgtgagtcgggtaaagcctgtgggagtggagccttcgggatcttcatttgctgatggggcacgactcaaggtaaagagaaacagctgcaaaaatctnctaatgatcggaacttggaatgtgcgaagtatgaatctaggaaaattggaagtggtcaaaaatgaaatggaacgcatgaagatcgatatcctaggcattagtgagctgaaatggactggtattggccattttgaatcagaaaatcatatgatttactatgccgggaataacacaatcaagaggaatggcgtggcattcattgtcagaaaggatcttgcnaaatccatcatgaagtacaatgctgtctgtgataggattatatctatccgccttcaaggaaatccaatcaatacaactattattcaaatttatgcaccaaccacaaaagctagtgatgaagaaattgaagaattctaccaacgacttcagtcggaaattgatcaaacatgcaatcaagatgcattgatagttattggtgattggaatgcaaaagttggaaacaaagaggaaggaacagtagttggaaaatatggacttggtgatagaaatgaagctggagatcgcatgatagaattttgcaaaaccaacgacttgttcatagcaaataccttttttcaacaacacaaaaggcgactatacacatggacttccccagatggaatacacagaaatcaaattgactacatctgtgggaagacacgatggagaagctcaatatcagcagctaaaaccaggccaggggccgactgtggaacagaccatcaattgctcatatgtaagttcaggataaagctgaagaaaattaaaacaagtccacgagagccaaaatacgaccttgagtctatcccacctgaatttcgagaacatctcaagaacagatttgacgcattgaacactaatgacagaagacctgatgagctgtgggaggacatcaagaccatcattcatgaagaaagcaaaaggtcattaaaaagacaggaaagaaagaaaagatcaaagtggatgtcagaagagactctgaaacttgctcttaatcgtagagtagctaaagcaaatggaagaaangatgaagtcaaggagctgaatagaaaatttcaaagggcagctcgagaagacaaagccaaatattataacgaaatgtgcaaggacctagaattagaaaaccaaaagggaagaacacgctcagcatatctgaaactgaaagaactcaagaaaaaattcaagcctcgagttgcaatnttgaaagattctatgggcaaaatattgaatgatgcaggaagcatcaagagaagatggaaagaatacacagagtcactgtaccaaaaagaactagtcgacattccaccatttcaggaggtagcatatgagcaagaaccaatggtgctgaaggaagaagttcaagctgcactgaangcattagccaaaaacaaggctccaggaattgacggaataccnattgaaatgtttcagnaagctgaagaagcactggaagcactcactcgtctatgccaggaaatttggaagacagctacttggccaactgactggaagagatccatatttgtgcccattccaaagaaaggtgacccaacagaatgctcaaactatagaacgatatcattgatatcgcacgcaagtaaaattttgctgaagatcatccaacaacggttgcagcagtacattgacagggagctgccagaagttcaggccggattcagaagaggacgtggaacaagggatatcattgctgatgtcagatggatcttggctcaaagcagagaataccagaaagatgtttacttgtgtttcattgactatgcaaaggcattcgactgtgtggaccataataaactgtggataaccttgagaagaatgggaattccagaacacttcattgtgctcatgcggaacttgtacatggatcaagaggcagttgtgcgaacagaacaagggaatactgcatggtttaaaatcaggaaaggtgtgcgtcagggttgtatcctctcaccatacttgttcaatctgtatgctgagcaaatcatcagagaagctggattatatgaagaagagtgtggcatcaggattggaggaaggcttattaacaacctgcggtatgcagatgacacaaccttgcttgctgaaagtgaggagganttgaagcacttgctgatgaagatcaaggattgcagccttcagtatggattacaactcaatgtaaggaagaccaaaatcctcacaactggaccaataggtaacatcatgataaatggagaaaaggttgaagttgtcaaggattttgtcttgcttggatccacaatcaatgctcatggaagcagcagtcaagagatcaaaagacgnattgcattaggtaaatctgctgcacaagacctctttagagtattgaagagcaaggatgttactttgaggactaaggtgcgcctgacccaagccatggtattctccattgcntcatatgcatgtgaaagttggacattgaataaggaagaccgnagaagaatcgatgcatttgaattgtggtgctggagaagaatattgaaagtaccatggactgctaaaaggacaaaccgatctgtnttggaagaagtaaggccagagtgctccttagaggcaaggatggcgagacttcgtcttacatactttggacatgttgtcaggagagaccagtccctggagaaggacatcatgcttggtaaagtggaggggcagcgaaaaagaggaaggccctcgacgagatggattgacacagtggctgcancaatgggctcaggcataggaacaattgtgaggatggcgcaggaccgngcagtgtttcgttctgttgtgcatagggtcgctatgggtcggagccgactcgatggcacctaacaacaacaa",
+  "length_bp": 3286,
+  "sequence_length_bp": 3286,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

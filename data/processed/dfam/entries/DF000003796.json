@@ -1,0 +1,40 @@
+{
+  "accession": "DF000003796",
+  "name": "UCON9B",
+  "description": "UCON9B subfamily",
+  "keywords": [
+    "DNA/PIF-Harbinger"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/PIF-Harbinger | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1359 BP; 378 A; 272 C; 247 G; 447 T; 15 other;"
+  },
+  "sequence": "tagggctagattttcaaagagtgcattttaagcgtacagttaggggcaatgacgcgcaaaattgcgcacgcaaagaaacagaattattttcagaagngcaattgaagcgcctagtgcaactgaaaataagggatttgtgctgcccagttgcgcgcgcaacctatcatcagattttcaaaaaattcagggagaagtttttgtgctcgcaattgcacactgatcaacgcccccttgctcattaacatacacgtcccctcctatttgtgctctcatttgcactatgtaaacagcttctaacagctcctttcccctcttcgttcaaacaaacaatggcctttgtaaccaagaagaaaattagtagcaggtgaaagcttatttttaatgatgctgagaccaaattgttatttaacttaaaatatnaaaacatttctttccctcaaatcccctttaattcctcacagatattaattatagtttgtcatacctatacctctgaaatacttgctcctccgaaagagttcaaaaactaaccctttgcctgtataccctattagcagggtaaaaacgccttctctcttctcactatttttccaatacatatgatgaaaacatatgagatcgttgggatttatataggcagatttggcagccttttcatatttacttggactgcgagatataaatcgaatttggggctctctctccaagaataagttatttgttatctgaataagtatgtgttagtggatcagacacggataaggtgtttctattataactgtgtttgttaggtatgatttacattgttctatattgttttataccgtttttcattttcgattacttaatttgtttcttgttttgtgtattttgtcacggttggctgtgggtttttgtggttgactttttaactttgtaacactttaatgcaaaggaaatttaaaaaacaacaatgaaaacattttctaaatatgttcacaatcaaatntatccctcagtaatttgatttgtaggaaatggagagcaaagcattacaaacagagtgcttttcaataattcataattccttaaacgtgcaaatccgtcgcctangtttaggagcgcaatttgcgcctctaactatgttgaaaatgcacttgcgcgcttaaatagatggccgcgccctcaggcccgcccacttatttttgctcttcngtttgggcacgcagtaggttttgcgctcgtaagtgccacctgttgaaaanattcaagcgtacgcgngcgcatttgcgctcccaagtgcatgcncaattgttcgttcngcgcatncaactcaggnncgtnttttnggaaatntggcctggcatgtctaccattgta",
+  "length_bp": 1359,
+  "sequence_length_bp": 1359,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON27"
+  ]
+}

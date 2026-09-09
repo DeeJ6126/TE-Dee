@@ -1,0 +1,375 @@
+{
+  "input_file": "D:\\wamp64\\www\\TE-\\te_kg2_final_standardized_new.jsonl",
+  "unresolved_relation_count": 1868,
+  "missing_side_breakdown": {
+    "source": 1223,
+    "target": 516,
+    "source+target": 129
+  },
+  "top_relations": [
+    [
+      "associate with",
+      332
+    ],
+    [
+      "affect",
+      202
+    ],
+    [
+      "lead to",
+      194
+    ],
+    [
+      "cause",
+      164
+    ],
+    [
+      "express",
+      87
+    ],
+    [
+      "participate in",
+      84
+    ],
+    [
+      "localize to",
+      81
+    ],
+    [
+      "promote",
+      57
+    ],
+    [
+      "involve in",
+      53
+    ],
+    [
+      "inhibit",
+      50
+    ],
+    [
+      "insert into",
+      42
+    ],
+    [
+      "bind",
+      37
+    ],
+    [
+      "induce",
+      32
+    ],
+    [
+      "regulate",
+      32
+    ],
+    [
+      "utilize",
+      28
+    ],
+    [
+      "drive",
+      26
+    ],
+    [
+      "correlate with",
+      26
+    ],
+    [
+      "encode",
+      25
+    ],
+    [
+      "create",
+      24
+    ],
+    [
+      "mediate",
+      24
+    ],
+    [
+      "suppress",
+      24
+    ],
+    [
+      "disrupt",
+      23
+    ],
+    [
+      "perform",
+      23
+    ],
+    [
+      "activate",
+      20
+    ],
+    [
+      "cooccur with",
+      19
+    ],
+    [
+      "cleave",
+      19
+    ],
+    [
+      "increase risk",
+      11
+    ],
+    [
+      "treat",
+      11
+    ],
+    [
+      "trigger",
+      10
+    ],
+    [
+      "interact with",
+      9
+    ]
+  ],
+  "top_missing_sources": [
+    [
+      "Transposable elements",
+      33
+    ],
+    [
+      "LINE-1 hypomethylation",
+      23
+    ],
+    [
+      "SVA insertion in TAF1",
+      20
+    ],
+    [
+      "P53 mutation",
+      14
+    ],
+    [
+      "Mesothelin-targeting chimeric antigen receptor-modified T cells",
+      14
+    ],
+    [
+      "Transposable elements (TEs)",
+      13
+    ],
+    [
+      "LINE-1 retrotransposition",
+      12
+    ],
+    [
+      "LINE-1 insertion in CYBB",
+      10
+    ],
+    [
+      "UXT depletion",
+      8
+    ],
+    [
+      "HIV-1",
+      8
+    ],
+    [
+      "SVA insertion",
+      7
+    ],
+    [
+      "Retrotransposons",
+      7
+    ],
+    [
+      "NANOG-binding sites",
+      7
+    ],
+    [
+      "reverse transcriptase inhibition",
+      7
+    ],
+    [
+      "retrotransposons",
+      6
+    ],
+    [
+      "Assisted reproductive technologies (ART)",
+      6
+    ],
+    [
+      "FV-A2086D mutation",
+      6
+    ],
+    [
+      "LINE-1-ORF1p expression",
+      6
+    ],
+    [
+      "LINE-1 insertion",
+      6
+    ],
+    [
+      "cardiac progenitor cells",
+      6
+    ],
+    [
+      "Poc1a disruption",
+      6
+    ],
+    [
+      "Loss of nuclear TDP-43",
+      6
+    ],
+    [
+      "LINE-1 ribonucleoprotein particles (LINE-1-RNPs)",
+      6
+    ],
+    [
+      "mRNA transfection",
+      5
+    ],
+    [
+      "DNA methylation",
+      5
+    ],
+    [
+      "HENMT1 nonsense variant (c.555G>A, p.Trp185*)",
+      5
+    ],
+    [
+      "strong nucleosomes",
+      5
+    ],
+    [
+      "Polymorphic TEs",
+      5
+    ],
+    [
+      "PNLDC1 mutation",
+      5
+    ],
+    [
+      "Dysregulation of TEs",
+      5
+    ]
+  ],
+  "top_missing_targets": [
+    [
+      "RNA",
+      44
+    ],
+    [
+      "DNA",
+      20
+    ],
+    [
+      "nucleus",
+      17
+    ],
+    [
+      "Gene",
+      12
+    ],
+    [
+      "cytoplasm",
+      8
+    ],
+    [
+      "Disease",
+      8
+    ],
+    [
+      "cytoplasmic foci",
+      7
+    ],
+    [
+      "Genome instability",
+      6
+    ],
+    [
+      "Transposable elements",
+      6
+    ],
+    [
+      "LINE-1 expression",
+      6
+    ],
+    [
+      "LINE-1 retrotransposition",
+      5
+    ],
+    [
+      "Nucleus",
+      5
+    ],
+    [
+      "stress granules",
+      4
+    ],
+    [
+      "genome",
+      4
+    ],
+    [
+      "Human-specific regulatory loci",
+      4
+    ],
+    [
+      "older TEs",
+      4
+    ],
+    [
+      "Cytoplasm",
+      4
+    ],
+    [
+      "LINE-1 methylation",
+      4
+    ],
+    [
+      "Duchenne muscular dystrophy",
+      3
+    ],
+    [
+      "TSE",
+      3
+    ],
+    [
+      "TE insertion/fixation",
+      3
+    ],
+    [
+      "gene expression",
+      3
+    ],
+    [
+      "8-cell and morula specific genes",
+      3
+    ],
+    [
+      "genome instability",
+      3
+    ],
+    [
+      "underrepresentation in epigenetic studies",
+      3
+    ],
+    [
+      "retrotransposon biology",
+      3
+    ],
+    [
+      "species-specific H3K4me3 regions",
+      3
+    ],
+    [
+      "Heightened glioma cell proliferation",
+      3
+    ],
+    [
+      "subcellular compartments",
+      3
+    ],
+    [
+      "LINE-1 retrotransposition inhibition",
+      3
+    ]
+  ]
+}

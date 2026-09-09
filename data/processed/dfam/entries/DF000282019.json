@@ -1,0 +1,50 @@
+{
+  "accession": "DF000282019",
+  "name": "GirTip-6.3201_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "GirTip-6.3201_LTR"
+  ],
+  "species": "Giraffa tippelskirchi",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Giraffa tippelskirchi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Giraffidae",
+    "Giraffa"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 396 BP; 122 A; 88 C; 107 G; 79 T; 0 other;"
+  },
+  "sequence": "tgttaggtagttagaataggaaaaaggagtccagaatggcggtggctaaaagacaaggaagggaaaagcccgcgaaaatagaacaaaggaaggtccgaggaccggagtgaggacctcaggtagaacaaacagcactcctggctagcccaatttacatagggcaggcccagggggaggagaaaaaacatataaaaagaggagccaaaattgggccgggggcctctcttctcttcgcgtcttttgggtcggcatgccctcacgcctcgaggatgtattttcctttactttctaaataaaactgagctgtaacacggagctgtaacactggtcctgtccgtcgcttcaaatttttgttgcgacgagacagaaccgaggaaattacacactcccccgaca",
+  "length_bp": 396,
+  "sequence_length_bp": 396,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

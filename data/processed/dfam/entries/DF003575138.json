@@ -1,0 +1,39 @@
+{
+  "accession": "DF003575138",
+  "name": "SINE_S.glomerata_cons_7",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Saccostrea glomerata",
+  "display_classification": "SINE/tRNA | Saccostrea glomerata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Ostreida",
+    "Ostreoidea",
+    "Ostreidae",
+    "Saccostrea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 306 BP; 79 A; 80 C; 86 G; 61 T; 0 other;"
+  },
+  "sequence": "gtcgcccgcgtggcgcagtggttagagcgtctgctctagagtcgcgaagtaaggagtcaatccttacgtcgcgggttcgaatcccactgcgggacgtggagaccggtccttcggatgagaccgtataaaccgaggccccgtgtcgcagtaggtgctggcacgaaaaagatccctcactgctcaaaggccctgagtgccgagcataggacaaaatttgtagccctccaccggcaagtggtggcgtctccatatgagtgaaaaattctcgagagggacgttaaacaacatacaatcaatcaatcaatc",
+  "length_bp": 306,
+  "sequence_length_bp": 306,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

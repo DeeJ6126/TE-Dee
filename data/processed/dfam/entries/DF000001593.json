@@ -1,0 +1,68 @@
+{
+  "accession": "DF000001593",
+  "name": "Tc1-6N_DM",
+  "description": "Tc1-6N_DM (DNA/TcMar-Tc1) element.",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "DNA/TcMar-Tc1 | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1640 BP; 556 A; 297 C; 310 G; 474 T; 3 other;"
+  },
+  "sequence": "cagctgtgttcagaaaaatagcagtgcgagggaaactaagtaatacaaaggtatttttccatgtcccttttcggaatcgactttttattccacttatttttgttaaatggaatgtgtagatagggaaaaaaagaaaatccggttagtttttcatgttatcctttttttatttacattcttgagcaaaatcgcaacttttaggctgttcataagaatagcagtgtctggttttgaccaacgtaaagtcccgaaatgatcaatattttctaaaaagtgagtttggttaagttaattcgtatatttaaaagggcaataaattaaaaaaaaaataaaaattatattttagtgggtagaggacagcactgctcccaggagaaaagaatgttaattcttaagctaagaaaggaaggaaaaacatataaggacattcaaaaaacccttgaatgttctgccaaaatggtatccaatgccattaaatatgaatggaagcccgaaaaccgtggtaccaaacgtaaaaccacagatatagaggatcgacgcatagttcgttagagcaaagcctatccttttgcatcctctagggacataaagtctgagctgaacttgggaatcagtgacgttactattcggagacgactactgaatcaaaatttcagtgcgaggagtccacgaaaggttcccctacttagcccaaggcntattcaggcaaggttaancttcgctaaaacctaccnaaactggccagtctccaaatggcgtaatatcctttggactgatgggtcaaaaatagtgctatttggtggaactggttcactacagtatatctgacgacctccaaacacggagtaccacccaaaacacccactgaagactttcaatcacggtggacctaaaatcctggtatgggcttgttttttttacaatggtatgagtccataacatatgatttatggtattatagaccaaaacgcatatgtaaatatacttagtgatgtcttactgtcatattctgaatataatatgcccttaaaatggacattccaacaggataatgatccgaaacgcagaagcaaatcggctaagaataggttcacccaaaatagaatagatgcaatgccgtggccagcaccatcttccgatttaaacccgattgaaaacctgtggggggacattaaacaatatgtgtcgaagaagtccccgacgtctaaggctcagatttggcaagttgtgcaggatgcatgggcaaaaattcctcccaaacgttgccaggacctggtggactccatgccgcgtgggtgtaaggctgtgctggctaacaaaggctatccaaccaagtattaggccctaattaacatattaaaaagaaaaactaagttcgttctaagtcaagttgaattttgttactattttttcatagcactgctatttcattgaacaccagaatttctgcctattatgttgttttaatctatattttcgaaactattgaagaaataaaagtgaaacatttgttgaattgtttgaaattaaatacctaatgatattataaaaaaaaatttcccattaaaactgtaaatcataggaattttttatcttaaactctcaggtccaaagcactgctatttttatgaacacagctg",
+  "length_bp": 1640,
+  "sequence_length_bp": 1640,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "1441..2453",
+      "start": 1440,
+      "end": 2453,
+      "qualifiers": {
+        "product": "FB4_DM_tp",
+        "number": "1",
+        "note": "wised with Tc1_DM [Drosophila fruit fly genus]",
+        "translation": "KNFILVGRGQHYSQGKRMLILKLRKEGKTYKDIQKTLKCSAKMVSNAIKYKWKPENRG"
+      },
+      "label": "FB4_DM_tp"
+    }
+  ],
+  "repbase_aliases": []
+}

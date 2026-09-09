@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001190",
+  "name": "UCON103",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "UCON103"
+  ],
+  "species": "Mammalia",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 522 BP; 164 A; 109 C; 96 G; 136 T; 17 other;"
+  },
+  "sequence": "tgtgacagccggctcctccttagccgaaaccgaccgtaacaagcggnttggagtttccactagagggttatttaaanttgtttaagctgccaccaactcctcatttagcattttaataaacttcccagggcagaggagtaatttccctggaccctctttatccttgacgtgaaagtntagcatgtaatcgagggcggatcgttgttaggccgatctctcccctgcgttaatcccttatacttatgaataatcagtcacaagggnaaggggattaaaaaggcagatttattgctatttctaacactcagaacgaggggttaagtaaacacagcaacagatatataagaatgtaaatagaaacgttattttacacnancacgtaagaaaacacattnnagaaatntacgtatactgagncaanttatagcaaaatagctcgaattaaattgcctaaacgcttactgntccttatctaaanctcatctaaaagcggaagnacnaanangctcacgcagctctctc",
+  "length_bp": 522,
+  "sequence_length_bp": 522,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON103"
+  ]
+}

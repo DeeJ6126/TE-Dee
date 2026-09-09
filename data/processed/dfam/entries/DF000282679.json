@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282679",
+  "name": "SigHis-3.33_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "SigHis-3.33_int"
+  ],
+  "species": "Sigmodon hispidus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Sigmodon hispidus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Sigmodontinae",
+    "Sigmodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1466 BP; 401 A; 236 C; 436 G; 381 T; 12 other;"
+  },
+  "sequence": "gaagttggtaccagggactggggtattgctgtgataggcctgaccatgtttttgtttggaggaatntggactttggnactttgggttaggaaagcagtggaatgctttaagcgctgcttaatgggccatactagtaggagcatggaagacagtggtgctgagngtgatttgaactgtggggggctggctcaagaggtttcagaggagaagaattttagtatgttgcctagagatcgttcttgtgatattttggtgaagaangtggctgctttttgcccttgtccgaagagtctgcctgaggctaaagtgaagagttttggattaattccgttggcagaggaaatctcaaaacagcctagtatagactctgtcgtgtggttattagtgntaactctaatgaagatttataatgaaaaggagcaagctgagcaaggnaaantacaaaatgtaaaatttgaggagaaaaggagcaccaggaagtggaatggagctaaatcctgtgttcaaggagataaacagattaagaaatggaataaagggagtggtgacctcagggcaagatcccacccagctaagtttccaacttgtgaaaaggaattaaagaaaagcttagagccgggtgtggtggtgcacgcctttaatcccagcactcggaaggcagaggctggcagatctctgagtttgaggccagcctggtctacagagcaagtttcaggacagccaagcttaggcagtgaaggaaacagaaagctggtgaagatgtaattgaacgagggggccatgttccagccccagcaagcagcagaacttggcagcttcggccacgtggttctggctttagagttaaggatagaagaaaggggttatggaatttncctccgcgactaaggaaagccgctgaggccaggcatgtgtcaggggtgtccctgaatggaggcctaggagaggccattgcgtgaagctgtgaagttgaagcctggattgccttggagancccaagatgttggagatgccagagccgtgggatacctgccgaggagagctgctaacagggagtggaaccagcccaagagaaagaagtgtgttgcagtcaacaaagctgaaaggagttggagatctgaagagcgttttgacatcagacatggagatgcagagtttggagtttgcccagctggttttcggtcttgctttggtccagtatttcctcactatgctcccttccctacgttttggaatggtaatgtatatcctgtgccattatatgttggaagtatgtgatctgctttttnattttgattttacaggggattacagttaagagattgcatgaatctcagaagagactttgaactttggactttnaaacattnttgagactgtgatagactatggggacttttgaagttggactgaatgcattttgcattatgatattgttacaagcctatgggggccagggagtggaa",
+  "length_bp": 1466,
+  "sequence_length_bp": 1466,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281707",
+  "name": "ChiLan-1.87_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ChiLan-1.87_LTR"
+  ],
+  "species": "Chinchilla lanigera",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Chinchilla lanigera",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Chinchillidae",
+    "Chinchilla"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 399 BP; 87 A; 89 C; 106 G; 117 T; 0 other;"
+  },
+  "sequence": "tgttatggttgatacattgtgtcaacttggggagtctagaggtttggctaagtgactcagcaggaagccagggtgcttactttgtatacatcctgagcctgtggaagaggagggcatggagattatgtgagagctacacgccccttaggtgggggtagcctgtttacaatgtaagggagggaaagaggctgcttgccgccattcctcccttttgctctggctgtttgctgttcggctgccattcccccctttgctcttgttgctttgctatcttctgcctcggagccagccaagtatggactgaaacctccacaaactgtaagctaaataaacctttccttccttcattttgggcgttgggtattttgtctcagcaacgagagaaaagtaaccaagaca",
+  "length_bp": 399,
+  "sequence_length_bp": 399,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

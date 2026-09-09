@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000657",
+  "name": "tRNA-Met_v",
+  "description": "Variant tRNA-Met gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 74 BP; 15 A; 22 C; 21 G; 15 T; 1 other;"
+  },
+  "sequence": "gcctccttagcgcagtaggcagcgcgtcagtctcataatctgaaggtcgtgagttcgancctcacacggggcac",
+  "length_bp": 74,
+  "sequence_length_bp": 74,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "tRNA-Met_"
+  ]
+}

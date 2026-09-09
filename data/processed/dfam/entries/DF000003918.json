@@ -1,0 +1,80 @@
+{
+  "accession": "DF000003918",
+  "name": "MERVL",
+  "description": "Internal sequence of endogenous retrovirus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MERVL"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 5485 BP; 1599 A; 1111 C; 1348 G; 1425 T; 2 other;"
+  },
+  "sequence": "gaagttggtaccaggagtggttctagagtaacagaagtacaaggatgaatcttttaaaatactggaattggcttgttgatccaccagcactttcaactattgaaacctctccagattctctccctcctgggagctcagagaattttgaagacccatggttgaaactatattccgaacttaaagaagctaatgcccttgattttcttaatgaattaggtgattcagtgcacaaagctttctacaagatggggaaaaaatcggaaaatgattttactggctggctgctcttagtatctgtggaaaaaatgatgaatgaaaggaaggagttgtgtgataaaatcgaaaggctccagacacaagtaaacgatctaaaagttgctaagtgtgtccttgaggagaatcttctctcttgtagcaatagagctcaagttgcagaaaatcaaacagaaactctcattgtaaggttggctgaactacagcgaaaattcaagtctcagcctcagagtgtgtcgacagttaaagtaagggctctaattggcaaagaatgggatcctacaacatgggacggggatgtgtgggaagaccatgttgaagctgagaattttgaatcctcagattctcaagggtttgccccacctgaggaagtagtaccctcagccccaccccttgaaataatgccttccccacatgaggaaattaattttgcagagtctgataaaccagcaatgactttcactactgatgtttctcacggcccaccaatagtttcttctagacctgtaaccagactcaaagcaaaacaggctcctagaggggaggtagaaagtgtagtccatgaggaaattcgctacactactaaggagcttaatgagtttgctaattcattcaagcagaaacctggtgaatatgtgtgggaatggattttaagggtgtgggataagggtggaaggaacataaaactagagcaggctgagtttattgacatgggtcctctgagtagagattctaggtttaatacggaagctcgcatagttaaaaaaggtgtcaaaagtttgtttgaatggttggctgaggtgtttatcaaaagatggcctactggaaatgacttggagatgcctgatattccgtggcttagtgttgatgaagggattttaagacttagggaaattgcaatgctagagtggatatattgtgtaaagcataattgtccacaatgggaaggtccagaagatatgcctttcaccagctctataagacgcaaattggtgagaggggcaccagcacatttgaagggttttgttctttcccttttccttgtgccagatcttagcattggagatgcttctgctcaattagatgaattaaattcactgggtttagttggattccgaggtaacaagggccaggtggcagcattgaatcgccggagacaaggtgattctagttattataatggacagcgtagacaaaagaatgtttataataacatacccagtaatggtcagcacaggagaggtgaaatttataatggcatgactcggttggacctttggtactggctaaccaatcatggtgtttccaggaatgaaatacataggaagcctactgcatatttgtttgatctgtataagcagaaaaattctcaaacaaatgaaagaaaggctacattagatcgtggtaaacagccaaatgaaagaaaggctacattagatcgtggtaaacagcaatctcggccagtgaatcaatttccagacttgagacagtttgcagatccagaaccccttgaatgaaggggtggccaggttccgctgaggaaggatcttgataagacactcaaaggttttgctgttaccctttctccagttcttccccagagggacctacggccttttacaagggtaactgtacactggggaaaaggaaataatcagacttttcggggtctgctggatactggttctgagttgacactgatcccaggggatcccaagaaacattgtggccctccagttaaagtaggggcttatggagggcaggtgattaatggagttttgactgatgtccgactcacagtaggtccagtaggtccccggacacatcctgtggtgatttccccagttccagaatgtataattgggatagatatactcagaaattggcagaattctcatattggttccctgaactgtagagtgagggctattatggttggaaaggccaaatggaagcctttagagttgcctctgccaaagaaaatagtgaatcaaaaacagtatcgtattcctggaggnattgcagaaattactgccactatcaaggacttgaaagatgcaggggtggtggttcccaccacatctccgtttaactctcctatctggccagtgcagaaaacagatggatcatggagaatgacagttgattatcgaaaactaaatcaggtagtaactccaattgcagctgctgtaccagatgtagtttcgttacttgagcaaattaacacatctcctggcacctggtatgcggctattgatctggcaaatgccttcttctcagtacctgtccataaggaccaccagaagcaatttgctttcagttggcaaggccaacagtataccttcacagttttgcctcaaggatatattaactctcctgccctgtgtcataatttagttagaagggatcttgatcgtttggatcttccacaaaatatcacattggtgcactatattgatgacattatgctgattggaccaagtgagcaggaagtagcaaccactttggactcattggtaacacatatgcgtatcagaggatgggaaataaatccaaccaaaattcaaggaccatctacctcagtgaaattcttaggagtccagtggtgtggggcatgcagagatattccttctaaggtgaaagataagttattgcacctggcccctcctacaaccaagaaagaagcacaacgtttagtgggtctatttggattctggagacaacacatccctcacttgggtgtgttacttaggcctatttaccaagtgactcggaaagctgctagctttgtgtggggcctggaacaggagaaggcccttcaacaggtccaggctgctgtgcaggctgctctaccacttggaccatatgacccagcagacccgatggtacttgaggtgtctgtggctgatagagatgctgtttggagcctctggcaggcccctgtaggtgaatcacagaaaagacctttgggattttggagcaaagctctaccatcatctgcagacaactattctccctttgaaaaacagctcttggcctgctattgggccttagtggaaactgaacgtttgacaataggacaccaagttactatgcgacctgaactacccatcatgagctgggtactatcagaccctgcaagtcataaagtgggacgcgcacagcagcagtctattatcaaatggaagtggtatatacgtgatcgggccagagcaggtcctgaaggcacaagcaagttacatgaagaagttgctcaaatgcctatggtttctactcctgttacaatgccatctgctgccaagcatgcgcctatagcctcatggggtgttccctatgatcaactgaccgaagaggagaagactagagcctggtttactgatggctctgcacgttatgcaggcaccacccagaagtggacagctgcagcattacaacccctttctgggacaaccttgaaagacacaggtgaagggaaatcttcacagtgggcagaacttcgggcagtacacatggtattacagtttgtttgcaagaagaaatggccagatgtacgattattcactgactcatgggctgtagccaatggattggctggatggtcagggacttggaaagatcacaattggaaaattggtgagaaagacatctggggaagaagtatgtggatagatctctccaaatgggcaaaggatgtgaagatatttgtgtcccatgtaaatgctcaccaaaaggtgacttcagccgaggaggagttcaataatcaagtggataagatgacccgttctgtggacagtcagcctctctccccagccatccctgtcattgctcaatgggcacatgaacaaagtggccatggtggtcgagatggaggttatgcttgggctcagcaacacgggcttccactcaccaaggctgacctggctacagctgctgctgattgccagatctgccaacagcagaaaccaacactgagccccagatatggcaccattcctcgaggtgaccagccagcaacctggtggcaggttgactacattggaccacttccttcgtggaaaggacagcgttttgttcttactggagtagatacttattctggttatggatttgcctttcctgcacgtaatgcctctgctaaaaccaccattcacggactgacagaatgcctcatctatcgtcatggtattccacacagtattgcttctgaccaaggaactcatttcacagccagagaagtacgacagtgggcccacgatcatggaattcactggtcttaccacattccccatcatcctgaagcagctgggctgatagaaagatggaatggccttttgaagacgcagttacagcgccaattaggtggtaacagcttggaaggctggggcagagttcttcagaaggcagtatatgctttgaatcagcgctcgatatatggtacagtttcacccatagccaggattcatgggtccaggaatcaaggggtggaaaacggaatagttccacttactatcactcctagtgaccctctaggaaaatttttgcttcctgtccccataactctaggttctgctggcctagaagttttggctccagagaggggagtgctcctaccaggagctacaacaaacattccattgaactggaagctcagacttccccctggtcattttgggcttctaatgcccttaaaccaacaggctaaaaaaggaataacagtgttaggaggggtgatagatccagattaccatggggaaattggattacctcttcacaatggtggtaagcaagattatgtctggagtgtaggagatcccttagggcgtctcttagtactaccatgtcctgtgattaaagtcaatgggaaactacaacagcctaatccaagcaggatgacaaaggacgcagacccatcaggaatgaaggtatgggtcaatcctccaggaaaagagccaagacctgctgaggtgctggctgaaggtgaaggaaatacagaatgggtagtagaggaaggtagttataaataccaattaaggccacgtaaccagttgcagaaacgaggattataaagtaatatgaatgcccnattgtaaatttacaaatgcgtttgcgattgtacgagggatagttatatcgtgttaggcgtatttacaaccttgttattgtttcatgtgaacatgagatattatttgtgtcaagttgacaaggggtggat",
+  "length_bp": 5485,
+  "sequence_length_bp": 5485,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "44..1787",
+      "start": 43,
+      "end": 1787,
+      "qualifiers": {
+        "product": "MERVL_gag",
+        "number": "1",
+        "note": "[Mus mouse genus]",
+        "translation": "MNLLKYWNWLVDPPALSTIETSPDSLPPGSSENFEDPWLKLYSELKEANDLDFLNELG"
+      },
+      "label": "MERVL_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "1790..5336",
+      "start": 1789,
+      "end": 5336,
+      "qualifiers": {
+        "product": "MERVL_pol",
+        "number": "1",
+        "note": "[Mus mouse genus]",
+        "translation": "RGGQVPLRKDLDKTLKGFAVTLSPVLPQRDLRPFTRVTVHWGKGNNQTFRGLLDTGSE"
+      },
+      "label": "MERVL_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "MERVL"
+  ]
+}

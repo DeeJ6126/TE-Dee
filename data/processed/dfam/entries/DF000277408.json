@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277408",
+  "name": "HipArm-1.36",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Hipposideros armiger",
+  "display_classification": "SINE/tRNA | Hipposideros armiger",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Hipposideridae",
+    "Hipposideros"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 186 BP; 55 A; 43 C; 46 G; 42 T; 0 other;"
+  },
+  "sequence": "ggggtgaccggttagctcagttggttagagcgtggtgctgataacaccaaggttgccggttcgatccccgcatgggccactgtgagctgcgccctccctaaaagagtcaactatgccattgtagcatgaaagcaatgtgtaaccaatgaccatggctgttccccaataaaatttaaaaaaaaaaaa",
+  "length_bp": 186,
+  "sequence_length_bp": 186,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

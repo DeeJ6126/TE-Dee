@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000787",
+  "name": "MER45C",
+  "description": "hAT-Tip100 DNA transposon, MER45C subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 953 BP; 127 A; 333 C; 333 G; 159 T; 1 other;"
+  },
+  "sequence": "cagggccggcttcatgggcgtgcgaccagtgcagtcgcacagggccccgcgctcagaagggccccgcgcttggggtttaatgctctgcggtcgccgtcttgaaattcttaataattttatctttgaatttgtgttttgtaagtgaagtccgatgggacaatggagcatgcgccgggggcttggagcctcggctcacgcgcggtcccgcctcccgccgcctccccgcctccccgggacgggttctcggccgcccgctcccctgccccctggtgccccgggccccgcctgccttctccctccncgcccccgcccagcgaccgctgccgccctccgcccccggcgggggcctgggcgcgggcgcggggagggtcggggtcgggcgcacgcgccccgcggcatctcggggcggggcatggcggcggccgtccccgccccgggctggcagcgccacggcgcgttcggcgggcgactcggcgggggcgagcctctcgcccacccccgatccaggtaccgagcgcgtcccggcgcggaggttgcaatacccttgggggtcgcccgtccgccgtgggttggggcggcgggcccgtgggaaggggagatgcctggctcgacttccccgcccccggccggggcacggcgcgtcggtccggcggctggcgggagggggaacccggcagccggtgggcccatgcgtgcgcacccccgagtcgcagggcggggccccgggcgcctgtgagggtctgcactcgccccgcgagtatccccgtgcccgagggagcgcgacattaaatagcaaataaaaaacaccatgacaggtcgagagagagaccgcggaagaaaggaaaaagctttatattttagtacctttaacggcacttttttcctgctttttgaacaaggggccccgcattttcattttgcactgggccccgcaaattatgtagccggccctg",
+  "length_bp": 953,
+  "sequence_length_bp": 953,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER45C"
+  ]
+}

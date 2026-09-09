@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001413",
+  "name": "IR1_CE",
+  "description": "Putative nonautonomous DNA transposon, consensus sequence.",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 379 BP; 100 A; 86 C; 98 G; 86 T; 9 other;"
+  },
+  "sequence": "ctcggcattcagaggcaacttcctgccacactttggcaacttatttagtgccactaaaataagttgccgaattgctggcaggaagttgccgagntgttggcaggaagttgccacgtngtggcagnaagtgggaaaaaacgctcagcaacatccaaatgttggcaggaanntgcaaaagtttggcaggaagttgcaagtnagcaaagtttggcaggaagttgcctccgaatgccgaggagcgttttttcccactngctgccactacgcggcaacttcctgnnaacaactcggcaacttcctgccagcaattcggcaacttattttagtggcactaaataagttgccaaagtgtggcaggaagttgcctccgaatgccgag",
+  "length_bp": 379,
+  "sequence_length_bp": 379,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "IR1_CE"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279903",
+  "name": "PanPar-1.29",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Panthera pardus",
+  "display_classification": "SINE/tRNA | Panthera pardus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Felidae",
+    "Pantherinae",
+    "Panthera"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 322 BP; 36 A; 120 C; 46 G; 120 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccgactcttgatttcggctcaggtcatgatctcacggtttcgtgagttcgagccccgcgtcgggctctgcgctgacagcgcggagcctgcttgggattctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctcctcaaaataaataaataaacatttaaaaaaa",
+  "length_bp": 322,
+  "sequence_length_bp": 322,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

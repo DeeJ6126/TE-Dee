@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000631",
+  "name": "HY3",
+  "description": "hY3 Y scRNA gene / pseudogene",
+  "keywords": [
+    "scRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "scRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 101 BP; 20 A; 28 C; 18 G; 35 T; 0 other;"
+  },
+  "sequence": "ggctggtccgagtgcagtggtgtttacaactaattgatcacaaccagttacagatttctttgttccttctccactcccactgcttcacttgactagccttt",
+  "length_bp": 101,
+  "sequence_length_bp": 101,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "HY3"
+  ]
+}

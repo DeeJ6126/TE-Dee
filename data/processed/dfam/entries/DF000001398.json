@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001398",
+  "name": "CERP4",
+  "description": "C. elegans repetitive DNA (a consensus).",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Mariner | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 911 BP; 309 A; 142 C; 140 G; 310 T; 10 other;"
+  },
+  "sequence": "tattaggtctccaaataagttccgggtcaaaaatcataactttgttcgctgcgtatcgatttttatgaaactntgggaatttatgttatcaaccatgatctttcatttgacaatagtcacaaaattttttgaccgccccaagtgccctaactcggagccaattttttcaggcatttttcngatctcgcttcttttcagctttgaattgaggtttgtgtgcggattttgctttgtttagaatacattgtnagaaaacaacaaaagtttggaaaaaaatccgtccaaaaaattttttttggtcggtcgtcaaaaaatcttcaaaaaaattttttgtcgaaaattcttgatttttcatacaaaaatgatgtaaccaagtgtaaactatttttacacatacaaaacatntcaatttagttcgncacactaaaatgataatagaaaacataattttttcgganaatttttgagttttttgagtatttctcgagatccaaatttcaaactcaaatgntttgtatgtgtaaaaatagtttacacttggttacatcatttttgtataaaaaatcaagaattttcgacaaaaaatttttttgaagattttttgacgaccgaccaaaaaaaattttttggacggatttttttccaaacttttgttgttttcttacaatgtattctaaacaaagcaaaatccgcacacaaacctcaattcaaagctgaaaagaagcgagatcagaaaaatgcctgaaaaaattggctccgagttagggcacttcgggtggtcaaaaaattttgtgactattgtcaaatgaaagatcatggttgataacataaattcccanagtttcanaaaaatcgatacgcggcgaanaaagttatgatttttgacccggaacttatttggagacctaata",
+  "length_bp": 911,
+  "sequence_length_bp": 911,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CERP4"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000281619",
+  "name": "BosInd-1.245_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "BosInd-1.245_LTR"
+  ],
+  "species": "Bos indicus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Bos indicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bos"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 413 BP; 121 A; 96 C; 109 G; 84 T; 3 other;"
+  },
+  "sequence": "tgttaggtaggtagaatagggaaaaggagtccaaaatggcggtggctaaaagacaaggaaggcaaaggaaggtccgaggaccagagtgaagacttcaggcagaacaaacagcactcctggctaagcccaatttgcatagggcaggcccaggtggaggaaaaaacacatataaaaggaggagccaaagcgctttctctcggactctctctcccgcgtgcgtgcnctctctcctcgnnctgtattctcctgctatcttctaaataaaatagagctgtaacactgatttgcctaagagctgtagcacggtttgtccaagacccgagagctgtgacgcgccgagggctttaatgtccgtcgctccaaatctttgttgtgacgagacaaagaaccgaggaacatacactcgcgtgaca",
+  "length_bp": 413,
+  "sequence_length_bp": 413,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

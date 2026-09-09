@@ -1,0 +1,69 @@
+{
+  "accession": "DF000000362",
+  "name": "L3",
+  "description": "CR1 (Chicken Repeat 1) retrotransposon, L3 subfamily",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Theria",
+  "display_classification": "LINE/CR1 | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 4099 BP; 1295 A; 741 C; 1151 G; 872 T; 40 other;"
+  },
+  "sequence": "ccagcagccgggagnccaagaggcagtttgccgcggcagtttacaggagggagnttccagggggagccacaaaggactgtagttcatcttganacccaggaagtatggacaccgagggaactgttccagtgacctgcagggtatgtgctatgtttgtcttcctgcctgaggcgntcaccaattatgtgtgctataaatgcaagctggtctccctgctagaggagaaggtgaaagggcttgaggaacgcctctctacgctccggcttattagagaggatgaagggttcctaganaggatggaagaaataatccaggaaggaaancagaaagaaaaagattctgaggaggcggaagggaatcaaaaccagcgtcaagaggttggcgagtggaagaatgtgacacagaggaaaaggagaaagagaagaaactccgcaccactggagctanacaacaggtatgaggctcttcccacggagggtgaatccggaccttctgaagaagaagcagcattccatgctccacggaacaataaggaggattcgcaggcactagcaggtgcgaggaatcctgttactgnccccaggaggaagagacgcgtcgtggtggttggtgactccccgctgagggatacggaggcggccgtatgcagacctgacgtggctaatcgggaggtgtgctgtcttcctggagcgtgtatccgagacgtgacggagagcctgccaagactcatcaaacccgccgaccgctacccactcctgctgattcacgtgggaacgaatgacacagtcagaagaaacctggaatgcatctctagtgactttgaagtcctgggcaggaaactgaaggacttgggggcacaggtggtgttttcatctcttcttccagttgaaggtcgtgactttggaagagaaaggaggatatgggaagtgaacagctggctacgtagatggtgtcgaagaacaggatttggttttctggaccatggcttangataccagaacgatgggctcctggcnagggacggagtgcatctcacgaagaccgggaagaacgtgtttgncnggagactcgccgacctgatcaagaggactttaaactgaaatttgagggaaaggaaaaaaaatgcccagataaaactgtaaaaccggatactatggaggatancaggtatgacatagaaagaagaacaacagtggaggaggtgcccagtaattcncaggagaaaataacnggaaaagaagctagaaacaatacttatggcctcagatgtctatataccaatgcacagagtatgggtaataaanaaagtnaacttgaaattttaacacaaggaggtaaatacgatctcataggtatcaccgagacttggtgggatgggactcatgactggaatacggcgatggaagggtanaccttgttcaaaagaaacagatctantagaaggggaggnagagtagcactgtatgtcaagaagatatacacctgcgtggaaatccacgaacctgagggtagaagcgcgntggagagcatttgggtgaggataaaaggagagagaaacagaagtgatatcgttgtgggagtatactacagaccgcccggccagatggagganatggatgatgctttcctgatacagattacaaaactggcacagaggcaagatncagtagtgatgggggacttcaactatccggacatctgctggaagtctcattcngctaaaagcagagcatctgataaattcttgacttgccttgctgacaatttcatctctcagaaggtagaggaagcaacgaggggaactgctactctggacttaattctgaccaacaaggaagaactggttggtgaagtggaagtcgataggaaccttgggagaaagtgccatgtcatcttagagttcgtaatagccaagaaaggaaaagttaaaagtccacatatgttccagactttacgaggaaaagcagatttcaaaaaattcagagaaaagaggtatgattccatggccngagactcaaaaagaaagatggctcaagagggntgggaagctcttaaaaatgaaattctgactacaattacaaatgatccaatgaggaagaaaagagggagggcatttaagaaaccaacgtggctncatagagnattctctgatgtcagattttaaaaggacatgtatcagaagatggaaagaggacatataaccaaggacaaagagagagtancacaagcctgtaagaatagtgtcaggaaggctaaagcccagaatgagctgaggcttgcaaaaaaaaatgctaaggacaacaaaaanaaggcttttcaaagctatgttcggagcagaaggaaaaagaaagngacaggcccgctgcttggggcagatggcgtaatgttaacagatgacagagagaaagcagaactactcaactcctattttgcttccgtcttctctatcaaggagaatgatcttcagactggaaagggtagaacaaacatcgttaagagggaattgaagcccaagataggtgaggagatagtaagagagcacctagccgctttaaatgagttcaagtctccaggcccagacgaattacatcccagggtactgaaagaacttgcagatgtgatcgcggaaccgctgtcggtaatctttgagaaatcacggagaacggaagaggtgccagaagactggagacgggcaaatgtngtncctanttttaaaaagggaaaaaagatggattctgnaaactacagaccggtaagcttgacgtcgatccccggcaaaattctagaacggattattaaacagatggtttgtgagcacttagaaaaggaagcggtgatcactaggagccagcatgggttcactaagaacaagtcatgccaaactaacctcatttccttttttgatagggttactagactggtagatcaggggaatgccgtagacanagtgtatctggatttcagcaaggcatttgacaaagtctctcatgatatccttgtggacaagatggagaaatatgggctggatgatagtacagttaggtggattcgtagctggttgaacgactatacccaaaaggtgttgattaatggatcgatgtcaacctggagggaggtctctagtggcgtgccacagggctctgtccttggccctgtcctgttcaacatttttatcaatgacttggatgaagacatagaaggcatgcttatcaaatttgcagatgacacaaagctgggagggatagctaatacgntggatgacagaatcaagattcaaaangatctcgacaggctggaacgatgggccgaaaccaacaagatgaaatttaacagggataaatgtaaagtcctgcatttaggttcaaaaaatcaactgcacaagtacaggatggagaggatctggcttagcagcagttcacgtgaaaaagacctaggggttttagttgaccgcaagctcaatatgagccaacagtgtgatgtggctgccaaaaaagctaatgcaatcttaggctgcattaatagaagtatagtgtccagancaagggaggtaatagtcccgctgtactctgcgctggtcagaccacatctggagtattgcgttcagttctgggcgccacattttaagagggacattgacaaactggagcgcgtccagaggagagcgaccaggatggtgaagggtctggaaaccatgtcatatgaggaacggttgaaggaactggggatgtttagcctggagaagagaagacttagaggagacatgatagctgtcttcaaatatttgaagggctgtcatgtggaagagggattagacttattctgtgtggctccagagggcagaactaggaccaatgggtggaagttacagggaggcagatttcggctcaatataaggaagaactttctaacaatcagagctgtccaaaaatggaatgggctgcctcgngaggtagtgagctccccgtcactggaggtgttcaagcagaggctggatgaccacttgtcagggatgttgtagaagggattcctgcattggatgggaggttggactagatgacctctaaggtcccttccaactctgagattctgtgattctatc",
+  "length_bp": 4099,
+  "sequence_length_bp": 4099,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "104..1097",
+      "start": 103,
+      "end": 1097,
+      "qualifiers": {
+        "product": "L3_gag",
+        "number": "1",
+        "note": "[Theria mammalia]",
+        "translation": "MDTEGTVPVTCRVCAMFVFLPEAXTNYVCYKCKLVSLLEEKVKGLEERLSTLRLIRED"
+      },
+      "label": "L3_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "946..4015",
+      "start": 945,
+      "end": 4015,
+      "qualifiers": {
+        "product": "L3_pol",
+        "number": "1",
+        "note": "[Theria mammalia]",
+        "translation": "MVSKNRIWFSGPWLXIPERWAPGXGRSASHEDREERVXXETRRPDQEDFKLKFEGKEK"
+      },
+      "label": "L3_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "L3"
+  ]
+}

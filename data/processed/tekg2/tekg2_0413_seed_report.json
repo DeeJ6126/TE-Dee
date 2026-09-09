@@ -1,0 +1,146 @@
+{
+  "input_file": "D:\\wamp64\\www\\TE-\\data\\processed\\tekg2\\tekg2_0413_unresolved_fixed.jsonl",
+  "records": 2308,
+  "node_counts": {
+    "lipids": 26,
+    "carbohydrates": 12,
+    "peptides": 23,
+    "transposons": 244,
+    "pharmaceuticals": 293,
+    "mutations": 377,
+    "toxins": 67,
+    "rnas": 588,
+    "proteins": 1089,
+    "genes": 1274,
+    "papers": 2308,
+    "functions": 3682,
+    "diseases": 676
+  },
+  "relation_count": 12462,
+  "top_relations": [
+    [
+      "associate with",
+      2667
+    ],
+    [
+      "participate in",
+      2101
+    ],
+    [
+      "express",
+      982
+    ],
+    [
+      "involve in",
+      843
+    ],
+    [
+      "regulate",
+      739
+    ],
+    [
+      "lead to",
+      718
+    ],
+    [
+      "inhibit",
+      642
+    ],
+    [
+      "mediate",
+      596
+    ],
+    [
+      "affect",
+      557
+    ],
+    [
+      "utilize",
+      446
+    ],
+    [
+      "cause",
+      418
+    ],
+    [
+      "encode",
+      388
+    ],
+    [
+      "bind",
+      367
+    ],
+    [
+      "interact with",
+      350
+    ],
+    [
+      "promote",
+      336
+    ],
+    [
+      "insert into",
+      335
+    ],
+    [
+      "perform",
+      300
+    ],
+    [
+      "drive",
+      221
+    ],
+    [
+      "induce",
+      220
+    ],
+    [
+      "activate",
+      205
+    ],
+    [
+      "suppress",
+      178
+    ],
+    [
+      "treat",
+      150
+    ],
+    [
+      "catalyze",
+      142
+    ],
+    [
+      "localize to",
+      106
+    ],
+    [
+      "correlate with",
+      91
+    ],
+    [
+      "create",
+      68
+    ],
+    [
+      "cooccur with",
+      62
+    ],
+    [
+      "cleave",
+      50
+    ],
+    [
+      "disrupt",
+      48
+    ],
+    [
+      "silence",
+      45
+    ]
+  ],
+  "skipped_report_relations": 7122,
+  "unresolved_relation_count": 0,
+  "malformed_relation_count": 0,
+  "unresolved_relation_samples": []
+}

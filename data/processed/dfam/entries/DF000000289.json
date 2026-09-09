@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000289",
+  "name": "L1MD3_3end",
+  "description": "3' end of L1 retrotransposon, L1MD3_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Eutheria",
+  "display_classification": "LINE/L1 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2742 BP; 1003 A; 476 C; 568 G; 650 T; 45 other;"
+  },
+  "sequence": "cttgtatccagaatatataaagaactcttaaaactcaacaataaaaaaacaaacaacccaattaaaaaatgggcaaaagatctgaacagacacttcaccaaagaagatatacagatggcaaataagcacatgaaaagatgctcaacatcatnngtcattagggaaatgcaaattaaaaccacaatgagataccactacacacctattagaatggctaaaatcaaaaanactgacaataccaagtgctggcgaggatgtggagcaacnggaactctcatncattgctggtgggaatgcaaaatggtacagccactttggaaaacagtttggcagtttcttanaaagttaaacatacanttaccatatgacccagcaattncactcctaggtatttacccaagngaantgaaaacntatgtccacacaaaaacctgtacacgaatgtttatagcagctttattcataatngccaaaanctggaaacaaccnagatgtccntcaacaggtgaatggataaacaaactgtggtacatccatacaatggaatactattcagcaataaaaaggaatgaactactgatacatgnaacgacatggatgaatctcaaatgcatnttgctaagtgaaagaagccagnctnaaaaggctacatactgtatgattccatttatatgacattctggaaaaggcaaaactatagagacagaaaacagatcagtggttgccaggggttgagagatgggaagtggggatgactgcaaaggcgaagcacaggggattttttagggtgatgaaactattctgtatannntnttctgtatgatactgtggtggtggatacatgacnctatgcatttgtcaaaacccacagaacttgtcaaaacccacagaactttacagcacaaagagtgaactttantgtatgcaaattttaaaaaatcanttaggangtcgggggatcccaggatggaatgcagactgtgacaaangaatctaactgtattacaaatgtatganacaacctcactgaagggggtgggggaaaaaggtgctgacctaagtaactttggaaatgagtggannctgtaaggctaaagacaaaaagaactgtacataaacactgtactctagttggtaaanttgtttctcacaggggtacgggttagcaattctgaaactactntacatgtatantaggattgaacaaataagtaaatgnattgnagataatgggagccaggtttctcactgtcggagaaggaagttacaaataagcaaggggggaaggctagaatgaaccctgtggtgctggattagagtcggagatatcgtatgaactcatgtttattttanacggatatacaaatananatgtaaatatacatgggttagtatacacatatacatacatatatttcctagctctgtccgctgagagggcctagaagcagtgacaccccagtagcaacgagcacacctagcgcccagatcttggtttctaaataccattctccaataaaaggaaccagggctccttggagaaatggctgattctagggctggggcagggaaaatacaagatgagcctggagcatcttgtagtgccagaaagtaaggaagtgctcaaaaacaaaaggatgggggcatgtcaaaaggacacaggagccaacctgaaagagctcccaatggccaaagctggaacaatttgagcaacaaaataaataacgatagtattggattataacccaaagnataaaataaatatccatgagtccatactgatataaataaatgattgaataaataaataggggagaagggaaacaaatcttccttacagaagaattccaantaataaatgtagaaggaatgagggaaatagaaaatcaccattagaacaccacagtaataattgctgcaggcaagatccaccgatgaatgctaaaattagtgggcgaaactttaaggagaaacaggatatttgcatagcctcaaagtatctcccccaaaatatttattaattactgtggtggttttaacatatgtccacaaattctttgatactcctccctccaggaggtggagcttaattcccctccccttgagtgtgggctggacttagtgactcgcttccaaagaatagagtatggaaagggaaaaatagtaactttacagtggagaaacctggcagacaccaccttaaccaagtgatcaaggttaacatcaccagtgataagtcatgttgatatcatgtaccccctgatatgatgcgatgagaagggcacttcacctctgtggtattcttcccnaaaacccataaccccagtctaatcatgagaaaacatcagacaaacccaaattgagggacattctacaaaatacctgaccagtactcttcaaaantgtcaaggtcatgaaaaacaaggaaagactgagaaactgtcacagaccggaggagactaaggagacatgacgactaaatgcaatgtggtatcctggattggatcctggaacagaaaaaggacattagtggaaaaactggtgaaatccgaataaagtctgnagtttagttaatagtantgtaccaatgttaatttcttagttttgacaaatgtaccatggttatgtaagatgttaacattaggggaagctgggtgaagggtatacgggaactctctgtactatctttgcaacttttctgtaaatctaaaattattccaaaataaaaagtttatttaaaaa",
+  "length_bp": 2742,
+  "sequence_length_bp": 2742,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1MD3"
+  ]
+}

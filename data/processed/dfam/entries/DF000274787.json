@@ -1,0 +1,49 @@
+{
+  "accession": "DF000274787",
+  "name": "AnoCau-1.5",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Anoura caudifer",
+  "display_classification": "SINE/tRNA | Anoura caudifer",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Glossophaginae",
+    "Anoura"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 201 BP; 50 A; 57 C; 49 G; 45 T; 0 other;"
+  },
+  "sequence": "gccctggctggtgtagctcagtggattgagcgcgggcctgcgaaccaaaggatcgcggttcgattcccagtcagggcacatgcctgggttgcaggccagttcccggcaggggacgcacgagaggcaaccacacattgatatttctctccctctctccttcccttcccctctaaagataaataaataaaatctttaaaaaaa",
+  "length_bp": 201,
+  "sequence_length_bp": 201,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

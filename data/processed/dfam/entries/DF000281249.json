@@ -1,0 +1,47 @@
+{
+  "accession": "DF000281249",
+  "name": "UroGra-1.1",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Uropsilus gracilis",
+  "display_classification": "SINE/Alu | Uropsilus gracilis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Talpidae",
+    "Uropsilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 258 BP; 64 A; 67 C; 91 G; 36 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcgcgcctgtaatccaagcgctgggaggcaagaggccagggatcgcttgagttcgcgggttcgagactaccccgggcaacatagcgagacctggtctcgaaaaagcagccgggcgcggtggcgggcgcctgtaatcccagctacctgggaggctgaggctggggatcgcttgagtccgcgggatcgggactaccccgggcaacatagcgagacctggtctcaaaaaaaaaaaaaaaaaaaag",
+  "length_bp": 258,
+  "sequence_length_bp": 258,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

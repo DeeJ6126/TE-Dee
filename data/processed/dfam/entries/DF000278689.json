@@ -1,0 +1,48 @@
+{
+  "accession": "DF000278689",
+  "name": "MunMun-1.15",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Mungos mungo",
+  "display_classification": "SINE/tRNA | Mungos mungo",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Herpestidae",
+    "Mungos"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 212 BP; 28 A; 72 C; 47 G; 64 T; 1 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccgactcttgatttcggctcaggtcatgatctcacggttcgtgagttcgagccccgcatcgggctctgcgctgacagtgcggagcctgcttgggattctctctctctctctctctctctctgcccctccccctgctcnctctctctctctctctctctctctctcaaaataaataaataa",
+  "length_bp": 212,
+  "sequence_length_bp": 212,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

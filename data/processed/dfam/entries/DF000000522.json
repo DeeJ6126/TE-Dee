@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000522",
+  "name": "LTR43B",
+  "description": "LTR43B (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR43B"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 572 BP; 157 A; 153 C; 132 G; 125 T; 5 other;"
+  },
+  "sequence": "tgaggtaggttagatagggtggtcatagcctcccttaaaggggaacaaacttgccaaatagatggagagaacaaaccgcccgacagtgcacaaaccgcatcctgggctcgtggttagaacatcctgcagcaaggaggtagaagagcagaagggaaaatccccaaattcgcgcaagcgcagaaacccatgattagtgtccttgggctgacctntgctcattataatagtaaaaaacacacccctgggtggagatttnagatgctaatgagacatgcgatgtatgtactagcatgtacagccacagcgcatgcgcgcccaggagaccacccanaacatgcttgacagcaacgccccttcccgccccttcatgaataatcatgtaagactcccataaagggagtttccccagcgccagtcggtgctgtctcacctttgagcagccncgctctgactcagctntcagagtgtactttcgctttgcaataaacttctttgcctacttttactttggactcgctctcaaattcttttgtgcggcgaagtcaagaacctgaaccggcccaccggcaaca",
+  "length_bp": 572,
+  "sequence_length_bp": 572,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR43B"
+  ]
+}

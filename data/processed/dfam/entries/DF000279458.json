@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279458",
+  "name": "OctDeg-1.135",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Octodon degus",
+  "display_classification": "SINE/tRNA | Octodon degus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Octodontidae",
+    "Octodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 135 BP; 38 A; 38 C; 32 G; 27 T; 0 other;"
+  },
+  "sequence": "gggggcctgccccttagctcagttctttaagtggctgcttcaacaaagcagtcaggctcaggttgctgtggttcgatccccacaactcaagccagccaaacctgccctgaaggcattcggagcaaaaaaaaaaaa",
+  "length_bp": 135,
+  "sequence_length_bp": 135,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

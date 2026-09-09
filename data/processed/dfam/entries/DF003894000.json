@@ -1,0 +1,45 @@
+{
+  "accession": "DF003894000",
+  "name": "ERV-Goku_LTR",
+  "description": "Long Terminal Repeat of an endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ERV-Goku_LTR"
+  ],
+  "species": "Primates",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 561 BP; 146 A; 160 C; 116 G; 133 T; 6 other;"
+  },
+  "sequence": "tgagacaggcaggctggctggttccctgttttgatgtggtctggaggaaaaggacaaaagccccttactcaagctntagcttatctaactctcagccaatcagcaacaaaagacccaagaagctattaaccgcaagttcctgcttcagggggctagggacttccccggagccccgcatgcgcagttagacttaaactccaacctatagttaccccttcctcattttaatgctaaaaatcacgcccaggggtggagatttaaaatgctaatgctacatgcgatgtatgaagaagcatgttgagccactgcgcaagcgctagaaaaacccctcctatacatgccctgacgtaacccttccctatagaaagaccctataaaactaacccacacactaccctcggggagcagcccattccctcccccgcgttttcctttctcggtgctggctcccttgtgcacaagctnaannaanncgcgataaactttcctttgctgctatgtctggtgatctctcttgatttctatcctgggagatcgcaagaacccagggcgccggtaaca",
+  "length_bp": 561,
+  "sequence_length_bp": 561,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000281732",
+  "name": "ChoHof-6.150_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ChoHof-6.150_LTR"
+  ],
+  "species": "Choloepus hoffmanni",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Choloepus hoffmanni",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Pilosa",
+    "Folivora",
+    "Megalonychidae",
+    "Choloepus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 404 BP; 84 A; 137 C; 85 G; 95 T; 3 other;"
+  },
+  "sequence": "tgttggggacgattaaggtagcatgtataaaatccaccttcagcgatgccggagatatgcaacatggccgccagggctgatgcaacaacggcttaagttgccctcagccttctttacggaagtgatagcgttcgcgccnaaagtgctagctaccccttcgcgccagcaacgccctgctagccctacatctgccatccgccctagcaacagcagccgccaatcctagaccgccacccgtccttactagccactccctctncccctagagtatatataccctgcctcttcaataaagttttgcagcttgatcagaaacctgtcttgctgtcgttcctcgtgtctcttgtcccataccattcctccctcacaggactcggagcctccgttgancgtcccgcgggccg",
+  "length_bp": 404,
+  "sequence_length_bp": 404,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

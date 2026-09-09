@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280159",
+  "name": "ProCoq-3.300",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Propithecus coquereli",
+  "display_classification": "LINE/L1 | Propithecus coquereli",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Indriidae",
+    "Propithecus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1635 BP; 642 A; 327 C; 323 G; 343 T; 0 other;"
+  },
+  "sequence": "agaatcaacatcgttaagatgtctatactacccaaagtgatctacagattcaatgcaatccctattaaaataccaacatcattcttcacagatgtagaaaaattaattttacgctttgtatggaaccagagaagaccccgcatagcaaaaacaattctaggcaataaaaacaaaatgggaggtatcaacttaccagacttcaaactttattataaggctgtagtaatcaaaacagcttggtactggcacaaaaatagagccattgaccagtggaacagaactgagaacccagatataaaaccgtcctcatatagccacctaatctttgacaaagcagacaaaaacatacactggggaaaagaatccttattcaataaatggtgctgggaaaactggatagccacatgtagaagactgaaccaggatccacacctttcacctctcacaaaaatcaactcacgctgggtaacagatttaaacctaaggagtgaaactattagaattctagaggaagatgttggaaatactcttctagacattggcctaggcaaagaatttatgaagaagaccccaaaggcaatcacagcaacaaccaaaataaataaatgggacctgatcaaattaaaaagcttctgcacagccaaagaaactgtcacaagagcaaacagacaacctacagaatgggagaaaatttttgcatgctacaaatccgataaagggctgataaccagaatctacttagaactcgggaaaatcaacaagaaaaaatcaaacgaccctatcaaaaagtgggcaaaggacatgaacagaaacttttcaaaagaagacagaataatggccaaaaaacatatgaaaaaatgctcaacatctctaatcatcagggaaatgcaaatcaaaaccacaatgagatatcacttatctccagtgagactggcctttatcaaaaagtcccaaaacaataaatgttggcgtggatgcggagagataggaacactcatgcactgctggtgggactgcaaactagtgcaacctctgtggaaagcaatatggagataccttaaagagatacaagtagaagtaccattcgatccagcaatcccattactgggcatctacccaaaagaacaaatgatactctataagaaagacacctgcacccgaatgtttatagcagcacaattcacaattgcaaagatgtggaaacaacccaagtgtccatcaatacatgagtggattaataaaatgtggtatatgtataccatggagtactattcagctttaagaaacaatggtgatatagcacctcttgtatactcctggatagagctggaacgcattctactaagtgaggtatcccaagaatggaaagacaagcaccacatgtactcaccatcaaattggtattaactgatcaacacataagtgcacatataagaataacatctattggatgtcgggcaggggggaggggggaggagggaggaggggacgggtatatgcatacacaaagagtgcaatgcgcaccacccgaaggatggacatacttgaaactcggacttgggggggagggggggcaagggcaacatacgtaacctaaacatctgtacccccataatatgctgaaataaaaaaaaa",
+  "length_bp": 1635,
+  "sequence_length_bp": 1635,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282601",
+  "name": "RhiPru-1.349_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RhiPru-1.349_int"
+  ],
+  "species": "Rhizomys pruinosus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rhizomys pruinosus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Spalacidae",
+    "Rhizomyinae",
+    "Rhizomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 782 BP; 202 A; 229 C; 197 G; 153 T; 1 other;"
+  },
+  "sequence": "aaaaaaggcccatctgggtgccggcaagagaccttaaatatctcccccaacagggagacaatgataatgacccctccagggagtgtttcacccccgaggatggcccctctgctcttccctcaggagcggcccaggatgaaagtgacgttgctcctcctgctgctggctctcgtcccgcccagtgacgggggactcggagaccccaatgcggccagacaacgcctggaggctagtggatctgganccgtccgaaaaccggaaaaaaggagagaacttcaagaaaatcccttgtggaccggcttgcacggcttcctgccctacctcctccctctgcttggaccccttcttacactcttcctaattcttaccctcgggccctgcgtgattaacaaaatcactcaatttatccaggggaggctagatgcagtaaagttacatcaggtcgaggtccactatcacaggctcgccagccaggagccagggccttatgaatggccatcttcatacgatcgcccgacccccgccctccatgtggccaatgacgggtaagaccccagagagactggggcaacctaagacagggcatggagaggctcttcggcagaccggagtcatagcacccaatgacgggtaagatctttctgcagtcagtcaacctaagacaggggccaaacctaagctgtttgtatcccaaagacgggtaagactgagtttgcaagaatagacaacctaagacaggggctatgtttctcctcctgcattacaaaaacaaaagggggaat",
+  "length_bp": 782,
+  "sequence_length_bp": 782,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

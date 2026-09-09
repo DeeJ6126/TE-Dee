@@ -1,0 +1,46 @@
+{
+  "accession": "DF000004235",
+  "name": "RTE1_ChrAsi",
+  "description": "RTE-BovB LINE element",
+  "keywords": [
+    "LINE/RTE-BovB"
+  ],
+  "species": "Chrysochloris asiatica",
+  "display_classification": "LINE/RTE-BovB | Chrysochloris asiatica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Chrysochloridae",
+    "Chrysochlorinae",
+    "Chrysochloris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3236 BP; 1123 A; 590 C; 789 G; 726 T; 8 other;"
+  },
+  "sequence": "ccaccactcgtctgtcagtttgtcgtactgtggtggcttgtgagttgctgtgattctggaagctatgccaccggtattttaaataccagcagggtcacccatggtggacaggtttcagatgagcttccagacgaagacagactaggaagaaggagtgacgaactacttccgaatatttagtcactgaaaaccttatgaatagcagagaaacactgtcagatatagtgccggaaaatgagcccctcaggttggaaggcactcaaaatgcgactggggaagagctgcctcctcaaagtagagttgaccgtgatgacgcgaatggagtaaagcccgcgggaccttcatttgctgatggggcacaactcaaaatgaagagaaacagctgtaaacatccattganaatcggaacatggaatgtacgaagtatgaatctgggaaaattggaagttgtcaaaaatgaaatggaacgcataaacatcgatatcttaggcattagtgagctgaaatggactggtattggccattttgaatctgacgaccacatggtttactatgccgggaatgacaaattgaagaggaatggtgttgcattcatcgtcaaaaagaacatatccagatcagtcatgaggtacaacgctgtctgtgataggataatatccatgcgcctacagggaagnccagttaataccactattattcaaatttacgcaccaaccactaaagccagtgaggatgaaatagaagaattctaccaacttcttcaatctgaaattgatcaaacatgcaatcaagatgtattgatcattactggtgattggaatgcaaaggttgggagcaaagaggaaggatcagtagttggaaaatatggccttggtgatagaaatgatgctggagancgcatgatagaattctgcaaaaccaatgatttgttcatttcaaataccttctttagacagcataagagacgactatacacatggacctcaccagatggaatacacagaaatcaaattgactacatctgcggaaagagacgatggaaaagctccatatcatcagtcaaaacaaggccaggggcagactgtggaacagaccatcaattgctcatatgcaaattcaaactgaagctgaagaaaatgaaaacaagtccacgagagccaaaatatgaccttgaatatatcccacctgaatttagagatcatctgaagaacagatttgatacattaaacactaaagaccgaagaccagaagagttgtgggatgacatcaagaacatcatacatgaagaaagcaaaaagtcattaagaagacaagaaagaaggaaaaggtcaaaatggatgtcagaagagacactgaaacttgctctccagcgtagagatgctaaagcaaatggaagaaatgaggaggtacaagagctgaacagaaaatttcaaaggtcagctcgagaagacaaagccaaatattacaacgaaatgtgcaaagatctggagtcagaaaaccaaaaaggaagaacacgctcagcatttctcaagctgggggaactgaagaaaaaattcaagcctcgactttcgttattgaaggattctctgggcaaattattgaatgatgcagaaagcatcaaaagaagatggaaggaatacacagagtcactgtaccaaaaggaaatggttgatgttcaaccgtttcaagaggtagcatatgatcaagagccaatgatactgaaggaggaagtccaaggtgcattgaaggaattggcaaagaacaaggcaccaggaattgatggaataaaaattgaaatctttcaagaaagtgaggcggcacnggaggcactcactcatctntgccaagaaatttggaagacaactatctggccgactgattggaagagatccgtatttgtgcccattccaaagagaggtgacccaacggaatgcggaaatcatcggacaatntctttgatatcccatgcgagtaaagttttactaaaggtaatacagaaacggctgcaagcatacattgacagagaacttccagaggttcaagccggattcagaagaggccgtggaacgagggatatcattgctgatgtccgatggatcttggctgaaagcagagaataccagaaagatgtttacctgtgctttattgactacgcaaaggctttcgattgtgtggatcatgacaagctatggacaacattgcgaagtatgagtattccggaacacttaattgtgctcatgaggaatctgtacatggaccaagaggcagttgttcgaacagaacatgggaacactgaatggtttaaaattaagaaaggtgtgcgacagggttgtattctttcaccatacttattcaacctgtatgctgagcaaataatccgagaagctgggttatatgaagaaaaacgtggcatcaggattggaggaagactcattaacaacctgcgatatgcagatgatacaaccttgcttgctgaaagtgaagaggacttaaaatatttactgatgaagatcaaagagcacagccttcggtatggattgcatctcaatgtaaagaaaacaaaaatcctcaccactggaccaataaacaacattcttatcaacggagaaaagattgaagttgtcaaggacttcattcttcttggatcaactatcaacactcacggaagcagcagtcaagaaatcaaacgacgtattgcattaggcaaatctgctgcacaagacctttttaaagtgttgaagagcaaagatgtcagcttgaggactaaggtgcgcctgacccaagccatggtattttcaataacctcatatgcatgcgaaagctggacagtgaataaggaagaccgtagaagaattgatgcntttgagttatggtgttggaggagaatattgaaagtgccatgggctgccaaaagaaccaacagatctgtgttggaagaagtgcagccagagtgctccttggaggccaggatggccaaacttcgtctctcatacttcggacatattgtcaggagggaccagtcgctggagaaggatatcatgtttggtaaggtggagggtcagagaaaaagaggaagacccccagcgagatggattggcaaagtggcagcatcgatgggctcaagcgtggcaacagtngtgaggttggcccaggatcgggcagtgtttcgttctgctgtgcatagggtcgctatgagtcggtaccgactcgatggcacctaacaacaacaacaacaa",
+  "length_bp": 3236,
+  "sequence_length_bp": 3236,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

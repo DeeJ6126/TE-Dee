@@ -1,0 +1,51 @@
+{
+  "accession": "DF000282451",
+  "name": "OviAri-1.272_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OviAri-1.272_LTR"
+  ],
+  "species": "Ovis aries",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ovis aries",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Caprinae",
+    "Ovis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 532 BP; 138 A; 119 C; 129 G; 146 T; 0 other;"
+  },
+  "sequence": "atgaaggaggaaacagacagaacaggctccatcttgaaagcaggactccatcttgggccggactgtggactttgagctatatgcccagtatctatggaaacgacataccaactggaaaaccaggccccccggatggaagagccccagggctcgtacctagactctccgtcgcctaaaagaataccctaattatctgtgtaaccgaatagaatcataaattctattatgcttattggggtatgaccacaggcctattgataattgtccactgttaactacctaggcttaaggcatatgaatcacgggttaactttgattgtatctttcttttcctttgttcagactagtttcagggaatttggggaggtgggtttgggcacgtacacttagggtatataaggttttcacaaaaactggtcggggtccttggctaagaggagactctgccttgggcccgccggtgtaataaactgcactccactatctgcattgtccttctgagtgagtttgtttcccggaacgcgtggctaca",
+  "length_bp": 532,
+  "sequence_length_bp": 532,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

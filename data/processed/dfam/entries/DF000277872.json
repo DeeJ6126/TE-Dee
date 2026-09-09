@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277872",
+  "name": "LepWed-1.27",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Leptonychotes weddellii",
+  "display_classification": "LINE/L1 | Leptonychotes weddellii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Phocidae",
+    "Leptonychotes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1006 BP; 352 A; 162 C; 282 G; 209 T; 1 other;"
+  },
+  "sequence": "cacatgaaaaagtgctcaacatcgctcggcatcagggaaatccaaatcaaaacctcaatgagataccacctcacaccagtcagaatggctaaaattaacaagtcaggaaacgacagatgttggcggggatgcggagaaaggggaaccctcctacactgttggtgggaatgcaagctggtgcagccactctggaaaacagtatggaggttcctcaaaaagttgaaaatagagctaccatacgacccagcaattgcactactgggtatttaccccaaagatacaaatgtagggatccgaaggggtacgtgcaccccgatgtttatagcagcaatgtccacaatagccaaactgtggaaagagccaagatgtccatcgacagatgaatggataaagaagatgtggtatatatatacaatggaatattatgcagccatcaaaaggaatgaaatcttgccatttgcaacgacgtggatggaactggagggtattatgctgagcgaaataagtcaatcagagaaagacatgtatcatatgacctcactgatatgaggaattcttaatctcaggaaacaaactgagggttgctggagtggtggggggtgggagggatggggtggctgggtgatagacattggggagggtatgtgctatggtgagcgctgtgaattgtgcaagactgttgaatcacagacctgtacctctgaaacaaataatacattatatgttaaaaaaaaagaagaagatagcaggaggggaagaatgaagggggggaaatcggagggggagacgaaccatgagagactatggactctgagaaacaaactgagggttctagaggggaggggggtggggggatgggttagcctggtgatgggtattaaagagggcacgtnctgcatggagcactgggtgttatacgcaaacaatgaatcatggaacactacatcaaaaactaatgatgtaatgtatggtgattaacataacataataaaataaaaaaaaaaaa",
+  "length_bp": 1006,
+  "sequence_length_bp": 1006,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

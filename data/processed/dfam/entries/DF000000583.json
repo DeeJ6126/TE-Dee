@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000583",
+  "name": "LTR78",
+  "description": "LTR78 (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR78"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1304 BP; 331 A; 305 C; 405 G; 245 T; 18 other;"
+  },
+  "sequence": "tgtaacaggatgttaaantggaagtttcggctgaggcaccaagatacaatagataccanattccaaagtgaggtgccagaccacnatgcagantttcaaaggaggtggccgaaaaccggttnnacgactcttaaacccctcacccacatcgagggtataaaagggtcgggangttggagatgaggggagatttgtgaagaggatttctttggagagagctgttggtgtgctgtgagtcccaccccacccccaaggagagaggagggggggtgctcccccttcacctcaagccnagngagaggggcttcaacgggaccactcggagagcttgatatgtgtcccctgcagtttgggggacacagtggactggtgtctgactcncgcctgggaaatctaaagggcgagagacgggctggccagctgctctgacggcggagcaaaggagaggtggctgcgctgggatcggcctgcactcccagagtttgtcggggcaaaggatgcgtgagtgtttcccgtggaccagatgtgggccacgcgngagagagagccggcgtggggtcgtcttaggtcctgtccaagagggccgcctggaggggcgaagggacctcagcagagagaagctggaggtaccgccggattcccaggggctgaggaaggagtaagcgaccagccggaagagagatgcattcgcccgcgtcaagggaactgcaggtgagagatccccagcgatggggggggggatctccgaagaacccacgaaagcgcccacgagagaaagagtcagctttaaacacctgccaggcccagagagcgcgaagccagctcacagacagtaccagtcaagtaagaactttcctgctccccttncctctcctccctccccncgctccaaccctggaggggtcagaaaccgcggttagcaagtgggggaggaggagnagggaaagagaaaaaagaagccaccacacccccttccccggctgcaggcttccngcctgcagcaggcccgagctgggggaggggagaagctttaactttaaatcaagttcggagttttgattattacatgggactggacattttaattactgaattgagactgtgttttgtgacttaaagtgaccgtaggactttttattacctaagagtgaccagaaaagtcatgggacctgcccgagttttcatccaggggcaggggaagaactanccccactgaataaatttaaagggacagtgggagacaaaaataaagttgctttntgattacatcccatgagtcntgcttgttcaacgtaccggttaca",
+  "length_bp": 1304,
+  "sequence_length_bp": 1304,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR78"
+  ]
+}

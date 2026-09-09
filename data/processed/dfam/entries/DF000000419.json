@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000419",
+  "name": "LTR16B1",
+  "description": "LTR16B1 (Long Terminal Repeat) for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR16B1"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 480 BP; 73 A; 177 C; 119 G; 110 T; 1 other;"
+  },
+  "sequence": "tgtggcggccatggaggtgcgccgctcagatctcccttcaagagaacctgctgcggggagcgtagttggctgacagcctccagctgccgcaccttcggatccgccgcagcgttcacgccgaggccacgcttcccccgggctgctcccagccaatgactgagcacggcgggggtactagagccgggccattcctgcccgacgcgggactcctctaacgggcaatctttgctcngggactccccatcggcctggccgagactttctcagagctgcgctgcagtctgaggctcttcctacccaatcctccttccttccctctctcctttcacaggtgtcagacctgcatcgcggtctgaaggctctccctgcctactcctgctccctctcccctttatccttcacaggcgtttcccccaataaatctcttgcacgtctaattccgtcttggcgtctgcttctcggaggacccgaactgacaca",
+  "length_bp": 480,
+  "sequence_length_bp": 480,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR16B1"
+  ]
+}

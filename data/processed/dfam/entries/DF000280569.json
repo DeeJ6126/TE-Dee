@@ -1,0 +1,47 @@
+{
+  "accession": "DF000280569",
+  "name": "ScaAqu-1.11",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-L1"
+  ],
+  "species": "Scalopus aquaticus",
+  "display_classification": "SINE/tRNA-L1 | Scalopus aquaticus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Talpidae",
+    "Scalopus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 264 BP; 48 A; 90 C; 69 G; 57 T; 0 other;"
+  },
+  "sequence": "gggcctccccggtggcgcagcggttaagcgctgcgctgtggagctgtcggcagcggcgacgcgagttcgacgcccggccggggagaatcccacatggcgcggcagacctctcctgcctcgcccgctgctcccctcagcagtgtatttctgatctgcctgttctgctccccgctctgtctctggtgaaccctctcgccgccccacgcctctggcctgtaccccagcttgtatgtataaataaaataaatctttaaaaaaaaaaaa",
+  "length_bp": 264,
+  "sequence_length_bp": 264,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

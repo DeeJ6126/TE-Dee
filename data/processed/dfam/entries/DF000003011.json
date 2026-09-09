@@ -1,0 +1,51 @@
+{
+  "accession": "DF000003011",
+  "name": "DNA25TWA1_DR",
+  "description": "Non-autonomous Harbinger DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/PIF-Harbinger"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/PIF-Harbinger | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 555 BP; 136 A; 142 C; 159 G; 118 T; 0 other;"
+  },
+  "sequence": "aggctgatttatacttctgcgtcaaacgccggcgtatgctacggcgctgacgcatagcccttcgccgtggccgtcggcgtcgctgacgtgcacctctcaaaaaatgtaactacacgtcgcaacgacgcgtagcgcaagctctgtgattggtcggcttggtagcgctgacgagtctgggcgggaccgagagccgcgcgaatggcgcgagcccgatggagcgattgtttacaagtgtggagtcccgtgaaggagctccggatggaaagttttgttttgtgtttacctcatagttaaagttgttgcacgtccgccggttcctgcctcaaaatgagcgagtttgagccacttgtacatcccggaagtgttcaggaaaagcaaaacagcagcgaagaaactcgacacagaggaacatttacacctcactgccaactagcgtttcggaagtgttaatgcagaccaacagagacagcgcgcagaagtataaatgcacagccacgcgcgttgcatgcgccgtgggttacgccggtcacttgacgcagaagtataaaccaggct",
+  "length_bp": 555,
+  "sequence_length_bp": 555,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA25TWA1_DR"
+  ]
+}

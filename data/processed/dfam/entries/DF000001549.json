@@ -1,0 +1,80 @@
+{
+  "accession": "DF000001549",
+  "name": "BS2",
+  "description": "BS2 is a non-LTR retrotransposon.",
+  "keywords": [
+    "LINE/I-Jockey"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "LINE/I-Jockey | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 4721 BP; 1281 A; 1221 C; 1203 G; 971 T; 45 other;"
+  },
+  "sequence": "aatgctagaaaaaggttcgtgtctaacaatacgcanctgacaaagtggannaagtgaaattagttttcgcggtaataaacttatggacaagtccagaatactggcacatatcgcaaatagtgaccccccaagtcactancagtgaaataatagtgaaacnnaaacattttcattcaaaaatacagagttaagttnctcgaantggggctccgctgcccagctgccacgcgatcgcacaaacagctgtttgcgagcttaaagctttctatcccagggttcaagtcttggctagaaccctggtgatttgntgcacacttcaatatgaacnctttaaatgaaaccgctgcggctgatgaatcgttggntactgcgnttctctcgagcccccaatgtgctgccccgcagcgctttcaaaaaataaagcgaaagtctcgtgcttctccggagactgaaaggaaaaaacccaaatcaancatcggcaaacaaggggaaaacccttcgtctacagaacctagatatggcggcaactcaaaccgatttggtttacttgcgcatctcncagccgacaaacaagtaggcaatganattggcgatctgtatgaccagcccagtaccagtcatcaagctgcnattgctgccgctaagcgggatgcagcctccgctggtaccactagctcacccaanaaggcgcagtccaaaccacctcctatagtaatggagggagtggacgacgtatgcctgatgatgcagagcatcgaaaatatagtggacctagaaaaggttgaggctagggcgtcaatgggcggtgtcctaaggctttacgcggctgacgctaatacatttcgcaccatagtgaactggctcgagancgaagagtatgagttccactgctaccagctnaaagaggacaggccttacagggtatgcgtgaaaggcctgcaccacagtacgctacatcaccagatcaaggangagctggaaaagatcgggcacaaggtnctcgacatncacacaccgctnaggcgaaacgaaccgggtacctcaaaagcgtcgccagtcaatatgttcttcctaaatattgctgctgcggcaaacaataaggagatcctggcggtaaaggcactatgccatatgagagtagttattgagcctctccgcaagcgtaacgctattgtccagtgccatcgttgtcagcagtttggccacacagccaaatactgccgtaaggcccacatttgtgtgaaatgtgccggcgaacacccagccaaggactgtaccaggccacgcatcgagctgtgcacttgctacaactgtggcggccagcatcctgcaaactataaaggttgcagcaagctacaagcgttcctgcagcgatccagacccagaagtggagtggctggaagaacngaggtaagcgagcgaccaactccacggggcttagctggaggtaaggagatcccctcttctcgaggcggnatatcttatgcagatgtggctagagggtccgttcaccacaagcaaccantgagcctgacgcaccagcaacagaagcaacagcaacagcccnatgatggaagccccagtcgtcaaaggagccgcagccggacaagggcgtctaggggtacactccagcgctcgacggatgctagcagcagcattgaagccatcctgcagacgctnaatgagaacattaattctttgcgctcgattcaagagaagcagatggaattaatgatgatgatgatgaagcaacagcaacaacagtcacagcagcaggggcagattatcaatctgctcactgctctccaagcgcgtcaagcgccataatgatgccgctgcgcatcctagtgtggaacgccgacggcgtatccacgaagttgcccgaagtggagtgcttcgtgcgacgtcacgaaatcgatgtgttactgctcagcgagacacactgcaagggggcagagacgcctaagctattcggatttgtagcctacactgccaatgatccgagtggtggcaacgccaaaggcggagcagctatcttgatcaaanntagccttgcccacttcccgctaacaccaatagccactgncaaggtgcaacttgcgccggcggctattgaaacggcacttggtcctataagctttggagcggtctactgcccaccgagatttgcatggactacggacgagtttaaggacattttggaagagttccagacgaagttcatcgttgcgggcgattggaacgcgtcccactggctctggggtgcgggaaggagcaaccaaagaggcattgcattagcgaatctcgtcctaaattcggaggtggactcgctagcaacaggaggaccaacaagatacccgtacggctgtagaggctcaccagggtacatcgattttgcactgacaaagggtgtgctgggcatccacgctaacataagtgcggttgttgagcttagctccgaccacctgcctctggtaattacgctggatgcgggggcaatatcctaccctaagatggagcggcttatcactaggcgtactaacctggaggtattccaatcgcaactggagtccacactgcccctcaacactgccataaactctggacaggacgttgatgatgctatcgaactgctcaccaacaatatcaagtcagcagctagattggcaactcgcagcatatctcggcagcccgcggcagatcgaatcccaatacccagggagatcctgctgcttatagctgagaagaggcgcttacgcactaggtggatgaggtctcggcacccgtcggacaagacggaatggaaccgagcnctgagtaggctccgatgcgcgttggtgctgcacaaagccgcatggttcgacgaaaggcttgccaataccggagtcgaaagcgaagcgacgcattcgctgtggaaggccacgcgcgcaatcaaaaggcgttgcacgaggaaggcgcctctagtcgatagcaacgggacatggtgtcggaccgacttgggacaagcggaggtattcgctgcgcacctcgccgagcgatttcaaccattcaagcttgccagcctgcaacaggttgaagaaactcaggaccagctgaaccaagcgcttcaaatggatntgccaatcacgccgtttgaaccctgcgaggtagccgaagtcattgtgcgccagagtagcaacaaagcaccnggacatgacgtcatctgcaacgccacattgaaggccctgcccagncaagcgatcctctacataacgttggttttcaacgctattgtgaggttgcaatacttcccttatcagtggaagctcgggataatctccatgatccacaaacctggcaagccggaaagggagcccgcctcctaccggccgatcagtctcctcccttcaatttcgaaggtgtttgagagactgattgctgtccggattgtaaggattatggaagcccaggggattacccctgagcaccagttcggttttcgtgctggccactgtactgtcgagcagctccatcgggtcgtcgagcaaattctgactgcctacgacagtaaggaatattgtaacagcctcttcttggacattcgagaagcgtttgatcgagtgtggcacattggactccaactgaaaatcaagcagacgctgcctgctccatattttgggttgctgaaatcgtacctggaaggaaggaggttcgctgtgcgctttcattcagcaatttccaccgagcacaacgtggcagctggtgttccacaaggtagtgtcctcggccccctgctctactgcctgtatagccacgacatgccgcagccggatgtaagcctttacgggaaatcnatgctggccacatttgccgatgacgtgtgcgtcacctacaggtcccgatgcgagcacgacgcagccgatggtatccaggactttgcagaccggttctcggaatgggcaagacgntggaatattggcatcaatagcagtaaatccaacaacgtctgctncactttaaagcggagaacgccaccgcccgtctacatcgaggaagcccccgtaccacagccgaacgcagcaaagtaccttggagtgcttctggatcgcagactcacattttccaagcatgtgaccgacatcagaacgcgcctacgtgctaaggtggcgaagcactactggctactttgttcgcgcagtaaattgtcgctatccaacaagctgacaatttacaaacagatcctagcaccaaactggaagtatgggtgccaaatctggggcttggcntgcgacagccanatcaaaaggatccaggctattcaaaataaggtagcaagactcatcaccggctgcgagtggtttgtncgaaacaccaccctgcacagagacctgaaactcgcaacggtatttgacgagataaaccagcactcgagcagataccatgacaggctggagcgccacagaaatcggctggccagcgctctnaacagatctcgcccaccaaggaggctcaatagaaggcaaccgagggatctcattncccgatctcctttgacaagggtcagcagaagctgacgcttatcttaaatcctatttgttatatgtgattgttatgtaattgtagttaaattactgtaaactngaaaaagctaactatagttagccggcgcgcccaaatgggcngaattaatagaaaagaaggacacaaaggggctccaagatttccccgtatgccttaataaa",
+  "length_bp": 4721,
+  "sequence_length_bp": 4721,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "303..1824",
+      "start": 302,
+      "end": 1824,
+      "qualifiers": {
+        "product": "BS2_gag",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "FGAHFNMNTLNETAAADESLDTAFLSSPQCAAPQRFQKIKRKSRASPETERKKPKSTI"
+      },
+      "label": "BS2_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "1694..4550",
+      "start": 1693,
+      "end": 4550,
+      "qualifiers": {
+        "product": "BS2_pol",
+        "number": "1",
+        "note": "(BS3_DM_pol only fsmall fragment and 88% similar) [Drosophila"
+      },
+      "label": "BS2_pol"
+    }
+  ],
+  "repbase_aliases": []
+}

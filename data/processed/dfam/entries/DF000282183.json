@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282183",
+  "name": "MicOch-2.80_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MicOch-2.80_int"
+  ],
+  "species": "Microtus ochrogaster",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Microtus ochrogaster",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Arvicolinae",
+    "Microtus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1425 BP; 470 A; 260 C; 337 G; 355 T; 3 other;"
+  },
+  "sequence": "aatggcgccaacgtggacaactgcatccacataaaacctgagagagcttgggaagtaattctagacacaaaagaacagagttaagcacggcttcttggtagcagcattttctcgggtgggctctgtttgctagaggcaagcgcgtctcatttaagagaggcttcctgactcagctttagctgcaaaaaccttgcagctcttttaagaggccctgccacnaaacacttaaatggtgtttatgaatagccgacagcatgcttcttggtggtggcagggaccttgaaactccatagagttgtggcaataaacatggctccggccagtacctccgccatgaggctagactctcagaaagctaaggaatggggtggatccagccgtcaaagccacggctttaatcctagccatatcgcttagcaaattaaagactcatgtggtcagaaaaagagagatatacagtaaagatagattcagacgaagaaaacctctaaacggtttacagtgtgtttaaaaatatatgtaggcttgggagagaaaagaaaaaggataaagtccttaaaaaaaaaagaaagagagtagttgggtgtggtggcacacacctttaatcccagcacttgggaggcagaggcaggcggatctctgtgagttcaaggacagcctggtctacagagtgagttccaggacagccaaagatacacagagaaaccctgtctcaaaaagccaaaaattaaaaataaaaataaaagaaatagagtttaaaataaagccacgtaaagatggaaaatacacagagagtctggatactgtatgttattgtgttgtctttgaattgtttganngctgaggaaggagcaacagctgctaaaagacatttgattataaatgctgctggattaatccaacatatatattttgaaaatgccttgacttcaaaatttaagtcaaaagatatgttactttggagaagaggttttgcttttgtttccacaggaaatgagaggctgtggattcattctgggttaagaaaaatcaggtttgatcaaggaagaccccctgagaaatctccgataggagcggatggcccagatgatccaacatttcagaggacctctgttggagtttcctctgagttctacatccagaacagcctcaagactgctggctgagatgatcaagcctcacagaatattccagtcaggacttgaccataattctaaattttctttaggtccccataagattatcagcgcccccaatcagcaggaagtagcctggaaaactacgcccacattcccaaaaaatggattatggatgtttgtctttgtttagagtgttggttacaagttgttatggataatggtcaggaaaaaagctaaacaaaggagattagattcagagttcttgttttgaaaaaaagggggggag",
+  "length_bp": 1425,
+  "sequence_length_bp": 1425,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

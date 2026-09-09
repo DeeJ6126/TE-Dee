@@ -1,0 +1,52 @@
+{
+  "accession": "DF000281928",
+  "name": "EllLut-1.64_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EllLut-1.64_LTR"
+  ],
+  "species": "Ellobius lutescens",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ellobius lutescens",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Arvicolinae",
+    "Ellobius"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 378 BP; 105 A; 72 C; 110 G; 79 T; 12 other;"
+  },
+  "sequence": "tgatgtgggattcccctctgtatgctgtgaatatttgcttcattggttaataataaagaagctgctttgggcctgtggcagggcagaatagagcnaggcgggaaaactaaactgaatgctgggagaaagaaggcggagtcagagagangccatgtagccgccgcaggagacagacgccggncgccagcggaaccttaccggtaggccacgagccncgtggtaanacacagantaatagaaatgggttaatttaagatgtaagagctagccagnaatangcttgagctaatnggccaagcagtgttntaattaatacagtttctgtgtgattatttcgggtctgggcggccgggaacgaacaagcagcctccgncnaca",
+  "length_bp": 378,
+  "sequence_length_bp": 378,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

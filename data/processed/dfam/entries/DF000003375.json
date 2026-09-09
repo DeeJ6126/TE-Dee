@@ -1,0 +1,53 @@
+{
+  "accession": "DF000003375",
+  "name": "LTR5_DR",
+  "description": "Putative long terminal repeat (consensus).",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR5_DR"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1841 BP; 517 A; 417 C; 320 G; 560 T; 27 other;"
+  },
+  "sequence": "tgtaacgaatatggccgaccagacacataattattttgctttttattcaacaaatgagccaacttttgcccagggaagactcgatggtcagttgtaacctgattccaaggtatttacgacccaaaggaatgtgccacgcagcactgaacaaagaacggntcaggacttctttaagctccttgcttaagactgatgttttaatgtaaactttactctctctttatgtgtaatcatgtgttttgcaacgtttcccttgctcctgtattaatattttggttttaatacttctgcatacaatgtttaactctaccgaagctaaacgagctcataaacngttcatgtttaganttgtcgtaaagctnacttgctgtactaattgatcgttgacattttatgttaatacgagtgcaacatattaacattttaagagacttnaacatttctgcctcggtttgcataaaatttgcctatgcaaattcctctgcctcggacaaagagccataaanccatgattcagggaagttagtttctaattggtcaactttccatggagggtggatccgaacccgccctatanaagcttgggaccaaagcnacgcctctctctcttgctccgcanctctctgaaaccaaccttctttaaccagctctctgctctgaaactctctggaaccangctctcttaaaccgcaacctcttcaagctctgcaacctcttcaaactctctgcaacttcttcagaaagaactcttctctcaactctcttctctgaaaancgancctcttcaactcgnnncgnngcaacgacctaagaacgagacctaagcagagaaacctccaagaaagcaggcggagacccagacggaaagggttaatcgcacagctcggacatttcacatctcagataccttcttttctttattttccatcgagagtctagttaagtttagtgcgtcgcaaaccagtggtcagcacgactggccccttttgccgcttcaaacttnaaacnaccgactccaccccacttcaancctcgcgaggaccaagggaacaaccagccagaaccacgtgctcaaccaagggagcttcttcacatcacacggacanaccgcaagtacccactttcgnnnacttccnncatctgaactggtgtgaactaaatgcaaccctaaagagacaatagaagggttanattgaatttgattatgtttggttcgcttggtttgctcttacaaactccgaggttttcccatcattacattctctcaacctcttactttaccttctttactcttctctacacttgtatgaatgtgtgtttgtgttaggtgttagtttctgttagattagtcaataaagtttaattttgtataaagaaaggtgcctgtgtatatttatgaatctaatgtcttaaacttcgatcttgttaccctgctcaaacttaaatgggtttttattttcgatagcaatagccataataaactcgactgtccactcgaacgatcgctggacgattcgtttgttcggatctaaagagtcgattcgtttgaagccccgttcaaatgaatcttcctcccgttaagctaatccgctatatatataatggtgcagaagatacgcgagcactgtaatctaaatcataactcgctacattataacggtggaaaaggcgcgggaagaataaccttgagctaatttgttacagtaataatggtgtagatatgcgagcactttaatctacattataatttgttacagattattaatgtagatatgcgtgcaaatttaatctacattattattaatttgctacatgtttattggtggagaataaacgaagca",
+  "length_bp": 1841,
+  "sequence_length_bp": 1841,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR5_DR"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280344",
+  "name": "RatNor-6.282",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Rattus norvegicus",
+  "display_classification": "SINE/ID | Rattus norvegicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae",
+    "Rattus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 88 BP; 24 A; 20 C; 29 G; 15 T; 0 other;"
+  },
+  "sequence": "ggggctggggatttagctcagtggtagagcgcttacctaggaagcgcaaggccctgggttcggtccccagctccggaaaaaaaaaaaa",
+  "length_bp": 88,
+  "sequence_length_bp": 88,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

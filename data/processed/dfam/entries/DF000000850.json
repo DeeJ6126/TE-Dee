@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000850",
+  "name": "Tigger6b",
+  "description": "TcMar-Tigger DNA transposon, Tigger6b subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tigger | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1597 BP; 531 A; 280 C; 342 G; 431 T; 13 other;"
+  },
+  "sequence": "caggcagtcctcgctttgcacggttccgatatgcataaatttcagttaccacggtttagttaaataacaccagtcccccaacaacacggttcaaatttcagttaccacggtatattaactgtgagtaattgcataaagtacaaacttcgctgctagctcttcagtccacaaatcactatgtaaataacagatgcgcatcatgatcagtgaccaatcacgtcacttctttcaaagtctgtcggtgattggtcactgtgcatctgttattcagttcatgcacagacagcaaagcgtgtagttgtgttgcctccttgtctcccagtgataaacccacgtgacattttacaaaaatggataatcgaaagagggaattggccaacaaagatgaaagtgcagcaaagaaacgaaaagtgataacgctggaagtgaaattggatgtgattagaagatttgaaaatggcgacagcaaagcgaagataggacgagacctaggcctgcatgaagctgtggtacgaaccatattgaaaaagtccgatgaatataaaaaananggtaaagtcgcttcaacatcttttagtttaaattgcactaggaacagaaagccgcttgtggttgaaatggagcgtttacttctactttggattgaagactgtaatnaaaaaaaaatcccaatcagtttggctagcattcaggccgaagcgttgaagttagttgccgcattgaaagaaaacggtaattacaaggagactgaagaagaacnttttactgccagtaaaggctggtttcatcatttcagaagttggcatgaattgattaatgttaagctatctngtgaagctgcnagtgcagatgaggatgctgctgtgaaatntgcacccagattccgaggantagttaaggcaggtggntatgatgatcgtcaaatatttnatgttgatgagatagatcttttttggaaggcaaccctatcangaacttacgcgaaaaaagacgnaggatcacaaagtngccattcgagagactctagatatgcagccagaggaacttagtgaaggcgaacttatcgacataaatgaggaaagtggttgtgacgaaaaggatgaagatgtcccagaggaagtgacgctggcaaaaaacttcacattaaaggaactcttggagatatttcacgacattgaaagcgcaaaggataaaacgttggaagctgatccaaacttagaaaggagtatgacaattcgccaaggcatagaaaagatgctcgctccgtatcgtaagttatacgatgagaagaagaaggcaagcactgttcaaactactcttgataagttttttacaaagaaataaaacactttaattctcaatgtttctaatgttttaaattacagtgtactaaataaatattagttttactattttttcatttccctatacatttataaccgacagtaagagagtttttaatgttttgacaaaaatttttaaaggtcacagaacaatcgtaatttttcccattgattattaagattgctttgcacggtttcagcttgcacggtcatttttacggtcccgcactaccgtgcaaagcgaggactgcctg",
+  "length_bp": 1597,
+  "sequence_length_bp": 1597,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TIGGER6B"
+  ]
+}

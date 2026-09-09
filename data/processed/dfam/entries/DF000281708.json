@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281708",
+  "name": "ChiLan-6.1_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ChiLan-6.1_int"
+  ],
+  "species": "Chinchilla lanigera",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Chinchilla lanigera",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Chinchillidae",
+    "Chinchilla"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 913 BP; 264 A; 114 C; 241 G; 292 T; 2 other;"
+  },
+  "sequence": "caaaattggtaccgggagagtggggttattgttgtgatgttgcctggccatgtgacttaagaacctttggaattaatttggaaaagttttgagagactggccaaagaggcagcccttgtatgctgcaaactatattggagactctggtcggagcctggaaaatcagagtactgatggaaatgctgccggttaagatgaagctcaggaggcttcaattgagaaggactgcattggctgctggatcccaggtagtatattgtgctttggcagaagttggtctgcattttgcttgtgtttagagatattgcctggttggagaaacaaaatttcaatgtagtctattgttgggacggtggcatggttactgttgagagcttttggccagatctatgtttgaaattaagagcgaagagccagtagagtgatatgaaacatttggccagaggggtggctctagtggagctttgggttgcaaggatgaaatagaggagaacgtggttgttaagaacaggacaatgnaaaaatgaactgaagcctttcacctgaagataagagtgtatttgaattgcaggagatccctgttttttagtcttgccatgcattgtaaaagttaatgggaagtaaggactgtgattgtaatagttcttttaatatgtttttaatgtcgtttttagatatatgtttgtaatcaggttaattaatcaaagtattgtgttttaaccttgaattttggtcaccctttgaatattttgcttttggtgcaggaatgagtgcaaaaaaaagaattgtatatatgtaactgttatattaatgtaaatntgaatagaccaagacatgttaacttttcacaaatctgccactagagactatggattaaggaaatgtgtatggttatcaagttgaccaggggtgg",
+  "length_bp": 913,
+  "sequence_length_bp": 913,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

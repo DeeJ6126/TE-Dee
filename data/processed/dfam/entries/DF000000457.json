@@ -1,0 +1,50 @@
+{
+  "accession": "DF000000457",
+  "name": "LTR22B2",
+  "description": "LTR22B2 (Long Terminal Repeat) for ERVK endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR22B2"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 600 BP; 141 A; 133 C; 157 G; 161 T; 8 other;"
+  },
+  "sequence": "tgttggggttcaatcaggctggtgggaaaaatattaaagatagttatagtaatagtcaaaaactctcttggaaggccntgagagtttgcatagcttcagnnattgctntggctgaaggcagccagggtctctttgcaggagccagaaagattagggtgcaagtacaaaggaatgtgggaagtttatcttactaacctgtttacttatatgggcttaagactaacctttgtcctaccgcgggtactttactgcctcctactgggnncggncgggggtcggcagaagtttattacccgcaaatggtgtttgctttaggcctcggaacctggcctttaatctttaccctctagtggtgtttactcacaacttttgttaattagtcttactgaataaatgcgagcctcactagctgatcagggccgagtcgcaactgtttacagaactcagcttggagcctgtaagcggctcggaccctcagctggactggcagagcagaatatctgtgtgtcagtgtacgtttattcatccgtcgccgagtcaggggtctgcanggaacagaccccccgcagctagtgcccccgcgaaaggagcgctgcctca",
+  "length_bp": 600,
+  "sequence_length_bp": 600,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR22B2"
+  ]
+}

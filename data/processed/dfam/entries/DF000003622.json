@@ -1,0 +1,49 @@
+{
+  "accession": "DF000003622",
+  "name": "ASAT_CY",
+  "description": "Satellite sequence from Cyprinids",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Danionidae",
+  "display_classification": "Satellite/ | Danionidae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 262 BP; 90 A; 33 C; 31 G; 107 T; 1 other;"
+  },
+  "sequence": "aaatattattacaatttaaaataactgttttctattttaatatattttaaaatgtaatttattcctgtgatgcaaagctgaattttcagcatcattactccagtcttcagtgtcacatgatccttcagaaatcattctaatatgctgatttgntgctcaagaaacatttattattattatcaatgttgaaaacagttgtgctgctaatatttttttatttttgatgaatagaaagttcaaaagaacagcatttatttgaaat",
+  "length_bp": 262,
+  "sequence_length_bp": 262,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ASAT_CY"
+  ]
+}

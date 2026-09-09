@@ -1,0 +1,39 @@
+{
+  "accession": "DF003576241",
+  "name": "TcMar_C.virginica_27",
+  "description": "Repetitive sequence family identified in Crassostrea virginica",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Crassostrea virginica",
+  "display_classification": "DNA/TcMar-Tc1 | Crassostrea virginica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Ostreida",
+    "Ostreoidea",
+    "Ostreidae",
+    "Crassostrea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1586 BP; 454 A; 321 C; 329 G; 482 T; 0 other;"
+  },
+  "sequence": "ctcaacaaaaaaagttaaggaccactaaaaatttcttcaataaaaaaaatattaataaattttaattcttgctttatctcgcaaatggtcctccatacatcactaattaaatctatcgagtgctcctttcgtttgtttacatttgacagttgttccagttgtttcttcgtaaggagtctgattttccaaggttttttatgtgagttgaaaatgactaacttttgtaatcaagttctgtagacacttcattgctttccatttttgaagtgatgtgttttgatgattaagcatgccattcaggcgacacctaacagtagaggaagcctctagggccattggcttgctccaaagcggactatctcaacgtcaagtgggtgaacgttttaatgtcagtcattccgtcatttcacgattattggcacgtttccaacagacaaacagcgtgaaacaaagacaaaaaagtggccgtccaagaaaaacaactgttcgccaagaccgccaaattgtccttctggccaaacgaaaccgtatgtcatctgcagtttctcttaatagagacgtcaggacagcgacaggtgtgcgcatgtctgtccaaacagttagaaacagactccatgcgtcaggattacatgctagaaaacctgctgtacgcccacctttaactgcagaccaccgaaatcgtcgcctgcaatttggtagagatcacgtaaattggcgcgtgcgcaatttgagacctgttttattcacggacgagtcaagattttgcctcgatttcaacgacggtcggcggcgtgtttggagacaaaaaaatgaaagatttaagaactgttgtgtagccgaacatgaccggtttggtggaggctctatcatggtttggggtggtatcagttatgacggctgcacggacctctacgtgataaggaatggttctttaacgggcgtaagataccgggatgaaattcttgcaccgattgttcgaccgtttgcaggtgcgataggcgacgatttcatccttatggacgataatgctaggcctcatcgctccagactcgtcaaccagtatcttgaacaagagacaatcgaaagaatggattggcctgcgaagtctcctgatcttaatccaatcgagcatgcttgggacattcttcaaagaagaatttctaatcgtcaaaacccaccaaacactctgcaggagcttgcagacgcacttgttcaggaatggtcagcgattccacaagcggactttcgccgtcttattggcagctttccaaatcgttgtagggaagtgatccgagctcgaggtggtcatactcggtattagtgaacacacaaaggtcatttgggagacattcattcaatttcctacattttgaaaaaatcgtctttactgtaacattatgaattttctttgtgtctttgatcacaataatgctgatcgttgtttaactgacagaaaatcgtaaacatgactttttttgtatgtctgatatctgatattattctattatgaatttatgtcattccagatttaaccaatatttaaaaaaatgtttttttaaaagtggtccttaactttttttgttgag",
+  "length_bp": 1586,
+  "sequence_length_bp": 1586,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

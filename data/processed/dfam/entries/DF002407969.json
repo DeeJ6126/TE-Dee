@@ -1,0 +1,51 @@
+{
+  "accession": "DF002407969",
+  "name": "Acol_tSINE_Ele1",
+  "description": "Curated TE family",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Anopheles coluzzii",
+  "display_classification": "Unknown/ | Anopheles coluzzii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Nematocera",
+    "Culicomorpha",
+    "Culicoidea",
+    "Culicidae",
+    "Anophelinae",
+    "Anopheles",
+    "Cellia",
+    "Pyretophorus",
+    "gambiae species",
+    "complex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 206 BP; 59 A; 54 C; 54 G; 39 T; 0 other;"
+  },
+  "sequence": "gccggtctcgtagtacagtcgtcaactcgtacgacttaacaacatgcccgtcatgggttcaatccccaaatagaccgcgccgccatacgtaggactgactatcctgctatgggggggaatcaattagtcactgaaagccaagcccacaagtgggtacaggcaggccttgaccgacatcggttgttgagccaaagaagaagaagaag",
+  "length_bp": 206,
+  "sequence_length_bp": 206,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

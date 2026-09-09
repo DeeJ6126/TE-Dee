@@ -1,0 +1,68 @@
+{
+  "accession": "DF000001720",
+  "name": "Transib2",
+  "description": "TRANSIB2 is a DNA transposon, a consensus sequence.",
+  "keywords": [
+    "DNA/CMC-Transib"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "DNA/CMC-Transib | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2848 BP; 1016 A; 483 C; 515 G; 825 T; 9 other;"
+  },
+  "sequence": "cactatggtccagaattcgttttttttggcataaagtctaaatttttatgtcaatatatcgtcctttagcaattattttctaatagaaaattgatcatataaataaaaaccaaaaacaaaattgaccgaaagcttcactaaatcgttttatgagcttttaaaggtgaagtgttaaacagctgattgagagaatgcaattcccgccaaattatttgcttacttttgcacgtggtacgatcgttaatacgcatccataaattatagtaaaatatggaaaataaangccaaggtatgttgtttttaacgtatgtagttaatatatgtgtagttgtactgtttttgtgttgtgtaacatccaatttatgtgtattttaacagaaaattctaacgtgtcccctgtgtttcgtggagtataactaattttctgacaatttctgacaaaagttaaaaacgtcagtttgtacctttaactattgtctttgacggtaaagtaatatcttttgcccatttttgctcgttttcttaaaatttgattttatataggcaagttcgagttcagacatagcgacctcctggacatttggaggcgtaacaatcggcaaataagttatgtttcagattacgtttattccgcaatcaacaacaataatctggaatcgaaaaagacagaagaggttgacaaaaaaatagtaaattttgaattatttattaaaagaaaactgcccgagtgtaacagacaactagaccgatttatttccaaacataccaagtggatggcgtctaagataacaattcttgttagtgattttgaaaactccaagacaccacagcaaatgggacgccgaaacttatcttaccaaaatgcaggagaaagattaaaaaggaaactggcatccaatctggcaagtgaaagtgatcacgacacaagtcttttgattcatgcagcaactgtttctgctagaaaagaatgcaagagggacgttgcctttgttcttaaagaaactttaaaaacaccagaatttccaagcgaatcgaggatgcaaattcaatggcaaaaaccaactcctctttcaccagatgaagctctagcttatctcctggaaaacacgctgacaaaacagcaatatataagcaccaggcttttaaataaaagccataacagcgacatatatccgccctataatgaagtgatcgaagcaaaattacagtgccgaccagagggtatagaagtaatggaaaacactgctcaagtgctattacaaaatctcttggatcatacagcgcaaagattaattaagttgcaatctgatgttttcaagcaatttccagatatctttaaaatcaaattaatttgcagctacggatttgatgggacaactggtcatagtgcttacaagcagaaatttgaaactgaagcacttggcacaccaatttctgatcaatctttatttgtaacttctgtcatacccatacaaattatagattcgtttaatcggcatatctggataaacagagcaccgcagtccattcgattttgcaggcctctaaaaattgagttgataaaggaaactgctgtccacataatgatggaaaaaaatcagttagataatcaaattaataatcttacgccattcacttataaatgtgatgaaactcgtgacatagaagttacctatgaaatgcacatgacacttatagatggaaaagtcctaaacgtattaacagacactaaatctactcaatgttgtccgatctgtggagtcagcccaacacaaatgttgaaaattacaaattttagttcagaaacctttgcaccaaaagtaaaagctttacaatttggggtaagtccactacatgcttggatccggttttttgnatttgttttaaacgtatcatacagagccgagataaaaaagtggcatatnaaaggagaggacaaggttagggaaatgagtattcgaaaaaaatatatccaggaggaaatgtggagagaaatgggccttcgagtaagcatgccgaagcagaatggcagcggcaatagcaatgatggtaatacggcaagangagctttcgcaagtaccaaattctcgtcgataaccagctttaacgaaaatcttttggaaaagtttcacattattttaatagcaatatcgtccaactattttataanttccgacaaatttcgttctttttgcgatataacttttnaattatatatgcaaacgtatccatggtcacggatatcaaatcaataattcggcgttggttccacttggatgcctaggcgaaaatgcgagtgaagcccggaataaactttacaaaagggaccgattatcacatgcaaggaaaaatagtcggatcaatacgatgagcgatattttccacagagctattgattcctcggacccactattatcaacaatatgtttaaaagaaagagagagaaaaaataggaaaaaaccacttccgaaggcagtaataagtcttttggaaatacagtctagtcttaaacctgatccatcagacaaaatattggactcacattctgattctgattcgagttcagattcggaaanttataatgttgagctagaagaagaagagggcgattatttttaaaacaataatgtacacacttttatttaaaaaaaaaaaaaaanaatgaaatttcgttgactcctgagtcataccagtagttaatatgggaggcaagagagggcgtggtcgcacagacttcaaattttgtgtgcaaactatttgtggtttaanaacaaaatgtacaaagtttcaagtctgtagctcaatttttagactttatgccaaaaaaatcgaattctggaccacagtg",
+  "length_bp": 2848,
+  "sequence_length_bp": 2848,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "533..2612",
+      "start": 532,
+      "end": 2612,
+      "qualifiers": {
+        "product": "Transib2",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "FYIGKFEFRHSDLLDIWRRNNRQISYVSDYVYSAINNNNLESKKTEEIDKKIVHFELF"
+      },
+      "label": "Transib2"
+    }
+  ],
+  "repbase_aliases": []
+}

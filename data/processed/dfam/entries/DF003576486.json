@@ -1,0 +1,39 @@
+{
+  "accession": "DF003576486",
+  "name": "SINE_S.broughtonii_cons_45",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/tRNA-Deu-L2"
+  ],
+  "species": "Anadara broughtonii",
+  "display_classification": "SINE/tRNA-Deu-L2 | Anadara broughtonii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Arcoida",
+    "Arcoidea",
+    "Arcidae",
+    "Anadara"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 302 BP; 88 A; 67 C; 78 G; 68 T; 1 other;"
+  },
+  "sequence": "atgggcggacatggccgagtggtactgtcactggctttcgaagtcaagggttgtgggttcgaacctcactcgggacttggaaattttctgagatgattttcatctcctgcccatactagagccgtaaaaagctcattaccagaatagtctttcggatgagactcaaaaccgaggtcccgtgtctcagtgcacgctaaagacacctctgtagagttcgaaaaagagtaggccacctgtggccgctacagaggacgcttacaactagaagcgantgaaacagactgagcaagaagataagataa",
+  "length_bp": 302,
+  "sequence_length_bp": 302,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000276330",
+  "name": "DelLeu-1.178",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "DelLeu-1.178"
+  ],
+  "species": "Delphinapterus leucas",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Delphinapterus leucas",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Monodontidae",
+    "Delphinapterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 604 BP; 160 A; 167 C; 137 G; 140 T; 0 other;"
+  },
+  "sequence": "tgaaacaggagggaagggggcagggcacaacctttgaaagaatgacatagcccgaggacacgacataaactgattagaaccaaatgggtccaagatggcggacgagtcgacttccactagaccttgagcctcagtatacgctcactgtaacacatcagcaagctaaatgacacacccacaggcgccatgacagttccaaggccgaccataaggatcaaaaagtgggcggtggcccaattcctggaaatccccgccccttcccgaaatagctggaatactcctcccactcattagcctatgaaattacccacccctataaaaactgacaaccccataccctggtgcctttctcgccttctgagatggcccacactctgtctgtggagtgtgtttctctctaaataaatccacttcttacctatcactttgtctctcactgaattctttctgcgatgagacatcaagaacctgagcttcattaagtcctgagaccaggtgtgtgatctcagttggaagaccgtgggttcaagtcccaatctgggttttggccgggttcgagtcccggcgcgtgggttcaagtcccaatctgaggtgcacggtttca",
+  "length_bp": 604,
+  "sequence_length_bp": 604,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

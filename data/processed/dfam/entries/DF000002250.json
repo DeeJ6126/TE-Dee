@@ -1,0 +1,65 @@
+{
+  "accession": "DF000002250",
+  "name": "L1-9_DR",
+  "description": "L1-like non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Danio",
+  "display_classification": "LINE/L1 | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1131 BP; 307 A; 210 C; 177 G; 435 T; 2 other;"
+  },
+  "sequence": "ttactcctatttgttacaatcacgcatttaaaccctctcttacagataaagtttttgagcaatggcaagataaaggagtttccagtgttaaagatttatacattaataatatttttgccaccttttcacaactctctgagaaattcaacctccccccttctaatttttttaggtatcttcaggtcagaaactatgtccgtctaaatattccagattttgangttttatctttagaaggcgagttatttgatttatttttaaactctccaaacgctaggggcctaacctctttatttgttaatgcttttaaaaacaaaacagatttttcttctcttcatttgaaagtcgcttgggaagaagacctagggatttcaatctctgagactgattgggatcaatgccttttatctgtttattcatgttctagacacnaccttattcagtacaaagtattacacagacttcactattctaaaacaaagcttagtaaattctatccctcggtttcccccacatgcgacaagtgtaaagctgctgagggtaccttacatcttttttggtcctgtgttcaaattcagaatttttggttagaaatatttcagttctttgctaaggtttacgattgtgttttactccctgacccaatgatagcaatttttggctggtcagattttctggagactctcaaccgaaatgtacggttacctgttcagtatggcatgatcatagctaaaaaagttatcctttgtttctggaagaaaaatgttaggcctctttttttctgactggcttctcggactcacctccactttacatttggaaagaattagatataccacctctgggaactctgcgaaatttgataaaatgtgggatccagtcttttttttctaaaacaccataaagactaatagtgttgtttaatttctgaagatttgtaagtttttttctctctctttacatccattgctgtgtctttttgtaggtcatatatgtcttgtatgtcgccattttcccttgtttcatgctttattttacattttgcacagattattgtttcatgatgggtttgtctgtctgttctttgtttttctgtctgcaaaaactataataaaaaaaataattaaaaaa",
+  "length_bp": 1131,
+  "sequence_length_bp": 1131,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "2..782",
+      "start": 1,
+      "end": 782,
+      "qualifiers": {
+        "product": "L1-9_DR_pol",
+        "number": "1",
+        "note": "Fragmentlet [Danio]",
+        "translation": "TPICYNHAFKPSLTDKVFEQWQDKPVFSVTDLYINNIFATFSQLSEKFNLPPSNCFRY"
+      },
+      "label": "L1-9_DR_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "L1-9_DR"
+  ]
+}

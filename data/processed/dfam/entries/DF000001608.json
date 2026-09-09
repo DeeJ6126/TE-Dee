@@ -1,0 +1,95 @@
+{
+  "accession": "DF000001608",
+  "name": "GTWIN_I",
+  "description": "GTWIN_I is an internal portion of GTWIN (LTR/Gypsy).",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "GTWIN_I"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "Long terminal repeat of retrovirus-like element | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 6421 BP; 1986 A; 1498 C; 1427 G; 1509 T; 1 other;"
+  },
+  "sequence": "ggcgcccgacgtgcatttgaacctgcacctagttatatcttaacataacacttagttgagaatacaagccatgtaagtttgattaatgaagtcactcggcaaccttaagaatttagtgtggaatattaaataaataaaaaaagctaacagccatttttttgcatgcttttagggagcattattttccacagcatacttttaccaagttacaattctgtagcataccccaagttacccgctcgtttcaattgcatacttttaccaagcgtaaattctacagcataccctaggttactttgaactactgcccaaacgaattaataagaaataattatttcttctgcgcatactttttccttgtttgtttgtagggatttccttttcctttgtgtcgccttctatttctcgcgtgtgcaaatatcgcgcctcgtatggccgatcaaccgtgttcggaaagaattaaattgcgtggtgtcaaccaataaatgagttggacggcatatagagacataaaagtcgagcgcaatagtgacgacgagtttgatttagagcccgtaggtttttgtccgaatactacaaatagcactgcagccatggacgccgcacagcttcaagctattatagcgggagccgttaaccaggctttgactgagcaggaaaacagacttaagagggatttccaggcgcaattagatgaggtaaaacaacagatgcaacacttgcgtgtggaagcaccacaagtagagacataccaaaaaataaccgcaggcccggaagtacggtgcgacatcaagcttgacattgtgaagacaatgccagacttttcgggagagcaggatgactatgtgtcatggcggcagtcagccgtggacgcatacgagatcttcaaacggtataatggtagcgaggcgcattaccaggccgtttcgattatcagaaacaaaattagggggccagcaagagggctgctagttgcccataacacagtcctaaatttcgatgccattattgctcgactagactgcacctacgcggacaaaacgtcgctgcgtgtacttaggcaaggactcgacacagttaggcaaggggagcttagcctcatgcaatattacgacgatgtagagaaacggttgacattaataacaaacaagatagttatgactcacgaaccggacagtgctattctttttaataatgaagttagagaggatgctctccacgcgttcattgccggtctaaggaagcccttgagggccatagtcttgccggcgcaacccaaggatttgccctcagctttagctttggctagggaatccgaggctaccatagaacgcactaactttgccgctacatacgcaaaggctctagaggacaaggcaatcacctatgagcaccgaaaagatcggaaccactcaagggaaccgcatgggagatatagcagggccgaggacagccaagggaaaaaccctcatttttacaagaaacagggtagacaaaataattctgcccagaataataacagctaccggaatcagtcacctgagcctatggagttaggctccactgtaacccnacataggcaaccgacctccttcggaagcggtcagcctgctagcgtcaaggccgagggtgctcgtggccagaagagattcggctccgcacgcatgactggtcaaaggcgtcagagggtgcagaacaccatccaacaggctgacgataaaaacgacagcgaatatgatggcgcggccgcagcggccgttaccgagatagatgacgagtctgatgaaaatgatcagatcaattttttagggagcgctcccgactgccgttcattgaacgccagttccatgggaggaaattgagaattttaatagacacaggggcggcgaaaaactacatcaagcccgtaaaggagctaaaaaatgtggtgccggtcaattcccctttcacagttagttccatccacggttctaacacagtcaaacagaaatgtttagttaacattttcgggaaaacagcggattttttccttttggacacgttaacacttttcgatggcattattggatttgattttctagctcaagttggagcaaagctagacacagaaaaaggcacaatcaactatggttctgttgttgaagagctacagcatcatagttgcgacgaggtaaatttcactaacgtgaatgacgctacggtgccagaatctgtaaaaactgagtttacagccatgatcgcaaacagatctaaggcattttcagcctctaacgaggcactgccgtttaatacttctgttgttgccacaattcgcacaagcgatgataagccggtatattccaaattatacccgcaccccatgggtgtctctgaatttgttaagcgagaaatcgcagacttactgcagaaaggcattattagaacctcaaggtcgccgtacaacaatccaacatgggttgttgacaaaaaaggccatgacgaacaggggaacaaaaataagcgtttggttatagactttaggaaacttaacgaaaaaaccatcgctgataagtacccaatgccaaacatccccatgatactggcaaatttaggaaaagccaagtacttcacaacattagatttgaagtccggctaccaccagatatacttggccgaacatgaccgtgaaaagacctccttttcggtgaacggcggaaagtatgaattttgtcgattaccgttcggattgaagaatgcgggaagcatcttccaaagagcgatcgacgatatcctacgggaacaaattggcaagtcatgctacgtttatgtagatgacgtcattattttttctgaaaatgaaaacgaccatgttaagcacatagattgggtcttaaaaagcctgtgtgatgccaacatgaaggtgtccaacgagaagacgcacttttttaagcaaagcgttgagtaccttggatttattgtcaccaatggaggtgcaaaaaccgacccagaaaaggtaaaggccataaaggaatacccagagcctacaaatttgtatgagctaaggtcatttttgggtctggccagttattaccgctgcttcgttaaggactttgcggcgatcgctagaccgttgacgagcttgatgaaaggagaaaacggctccatcagcaagcacatgtccaggaagactcccatcgagttcggtgatttgcagagagatgcattcgagaggctgagaaatgtcttggcttctgaagatgtaattctcagataccctgatttcaggaagccattcgatctaacgacggacgcttccgcaaacggtatcggtgcagtcctatcgcaagataaaagacccatcactatgatctctaggaccctcaaagaaagcgagtcacactacgccacgaatgaaagagaattgttggccatagtgtgggccttaggcaagttgcaacactacctgtatggcactcgcgatattaacatttatacggaccaccaaccgttgacattcgcggtatccgatcggaatccaaatccgaaaataaaaagatggaaagcgtatatcgatgatcataacgcaaaaatccactacaaaccgggaaaagacaaccatgtggcagacgctctttccaggcagaacattaatgccttacaaagtgagcctccgtcagacgctgcgactattcacagcgagctgtcactgacctacacggtcgaagcaacagaccagccagtgaactgcttcagaaaccaaattgttctagaagaagcacgtttccgactaaagcgaagcttggtgttgtttcgtagtaaaactcgccacttaatcaatttcgccgacaaaagcaccattttggaaatgctaaaggaggtcgtgaaccccgatgtcgtgaatgcgatacactgcgatctacccaccctggcaagttttcaacacgacctaattgttcatttcccggctacgcaatttcgatactgtaaaaatattgtaatagacgttaccaatcgaaatgagcagttggaaattgtcacgacagagcacaatcgtgcacacagggcagcgcaggagaataccaagcaaatcctccgcgattactatttccccaaaatgagcagcctggcaaaggaagtagttgcaaattgtaagatatgcaccaaagccaaatatgacaggcaccctaagaaacaggagctcggggaaacacctattcctagctataccggcgaaatgctgcacattgatatcttttcgaccgataagaagcaattcttaacgtgcattgacaagttctcaaagtttgcaatagtgcaaccagtgctgtccagaacaatagtggacgtcacagggcccctacttcaactcgtaaatttgttccccaaaatcaagacaatatattgcgacaacgaagccgccttcaattcagagactattacctcgttacttaagaacagctaccacattgacattgtcaacgcggccccgctgcatagctcgtcaaacggccaggtggaacgattccacagcaccttgtcagagatcgccaggtgtcttaaactagacaaaaagattagcgatacgacagaattaattttgagggcaacgatagaatataataagaccctacattctgtcactcaggagaaaccggtcgagatcctccactcgggtcccgatgatcgctgcctaggcatcaaagacaagctggtaaaggcccagaaaaataacatcgaaagatgcaacccagctaggcagaaccgtgtttttgaggtaggagacgaggttttcgttaaaaacaacagaaggttaggaaacaagctaaccccgttatgcacagaacaaaaagtgcaagcagacctgggaacgtctgttcttattaaggggagggtggtccacaaggacaacctcaaataaaaaattcccacttttattttcctattcctaattgtaagccagatttaagtaaatatgccgtggtctcattctacgtttggtttgcaggttcgccctcgtaacactcatcatcctggcagtggcaaatgcacggattaccgacttttcccacgccaagtacattcccgtcgtagatggagatgtactggtgttcgaacatcgtaactgcctgaggcattcgagcaacctgtctgattatatttacatggtagatgaaacaaagaaattgtccgcttcttttccacagtcgcatatgcgcaagttgttagacgttgatacagatcacctggtaaacttgttgtccgttttaaaaatacaccaccgtatcgctagaagcttagacttcctgggtacagctcttaaggtagttgcgggaactcccgacgcctcagattttctaaagatcaaaatgaccgaagctcagctggtagattccaactccaggcaaataaatataaattccgaaacccaaatacaaataaacaaacttaccgacaccgttaacagaattattaaagcccgaaacaacgacttggtcgacaccccgcatctgtacgaggcattgctagcgaggaatagaatgctggcaacagaaatccaaaatttaattctaacaataacattggctaaagctaacatagtaaatcccacaatccttaatcatgccgatttgagctcattaattgaacaaaacactccaatagttagcttattagaagcctctaaaattagggttcttcagtccgacagcattattcacatactaatagcctatcccagggtgaaggtaaaatgtaagaaggtcctcgtatacccagtatcacactatcagacaatcctgcgactcgatgaagacaccttagcggagtgtgaggaagacaccttttcggtcaccgagtgcgtggagaccacgcacgacactttctgcgagcggtcgcgacgcgatacctgcgcccgctcactccatgcgggaaatactgcccaatgccacacgcaatccaaccaccttagggcagtaatgcctatagatgacggcatagttatcatcaacgaggcaacagcccgcgtcagcacggatggaggcccagaggtgctcgtcaaggggacgcatctaattacattcgaacaatcagctactatcaacggtacggagttcgtaaacctccgtaaggcaataaacaagcagcctggcgtagcaagatcgccgctactgaacatcgtcggccacgacccggaacttagcatgcccttgcttcaccgcatgaacaacgacaacctgcgctttatccaaggattcaaagacgaggttgacgccgcgggttcccccaaactttggttcgtggctggagtagtcctcaacgttggactgattggttcgcttatcctttttctggcattaaggaaacggcgagcctccgctgagattcaacagaccatcgataaactcaacataaccgaggacggtcataatcttagggggggagt",
+  "length_bp": 6421,
+  "sequence_length_bp": 6421,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "4949..6419",
+      "start": 4948,
+      "end": 6419,
+      "qualifiers": {
+        "product": "GTWIN_env",
+        "number": "1",
+        "note": "(one stopcodon) [Drosophila fruit fly genus]",
+        "translation": "ICRGLNLRLVCRFALVTLIILAVANARITDFSHAKYIPVVDGDVLVFEHRNCLRHSSN"
+      },
+      "label": "GTWIN_env"
+    },
+    {
+      "type": "CDS",
+      "location": "485..1859",
+      "start": 484,
+      "end": 1859,
+      "qualifiers": {
+        "product": "GTWIN_gag",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "MSWTAYRDIKVERNSDGEFDLEPVGFCPNTTNSTAAMDAAQLQAIIAGAVNQALTEQE"
+      },
+      "label": "GTWIN_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "1792..4894",
+      "start": 1791,
+      "end": 4894,
+      "qualifiers": {
+        "product": "GTWIN_pol",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "SDQFFRERSRLPFIERQFHGRKLRILIDTGAAKNYIKPVKELKNVVPVNSPFTVSSIH"
+      },
+      "label": "GTWIN_pol"
+    }
+  ],
+  "repbase_aliases": []
+}

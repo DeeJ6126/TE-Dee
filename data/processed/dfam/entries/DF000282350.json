@@ -1,0 +1,50 @@
+{
+  "accession": "DF000282350",
+  "name": "OkaJoh-5.286_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OkaJoh-5.286_LTR"
+  ],
+  "species": "Okapia johnstoni",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Okapia johnstoni",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Giraffidae",
+    "Okapia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 385 BP; 119 A; 88 C; 104 G; 73 T; 1 other;"
+  },
+  "sequence": "tgttaggtagttagaataggaaaaaggagtccagaatggcggtggctaaaagacaaagaagggaaaagcccgcgaaaatagaacaaaggaaggtccgaggaccggagtgaggacctcaggtgaaacaaacagccctcctggctagcccaatttacatagggcaggctcagggggaggagaaaaaacatataaaaagaggagccaaaattgggccgggggcctctctcttctctcttttgggtcggcccgccctcacgcctcgaggatgtattttcctttgcttgccaaataaaactgagctgtaacanagctgtaacactggtccgtcgcttcaaatttttgctgcggcgagacagaaccgaggaaattacacactcccccgaca",
+  "length_bp": 385,
+  "sequence_length_bp": 385,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

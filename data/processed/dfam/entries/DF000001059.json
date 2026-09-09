@@ -1,0 +1,46 @@
+{
+  "accession": "DF000001059",
+  "name": "Ricksha_0",
+  "description": "MULE-MuDR DNA transposon, Ricksha_0 subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/MULE-MuDR"
+  ],
+  "species": "Primates",
+  "display_classification": "DNA/MULE-MuDR | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1733 BP; 499 A; 314 C; 337 G; 582 T; 1 other;"
+  },
+  "sequence": "gggtttggatcataatcccgaaagacacaatcccgaacgccataatcccgaatgttgaaatcccgaaagatcaaaatccctaaagtctaaaatccctaacgtctaaaatcccgaaaatcacaatcacaggatagttgcatcatgttaggcggaactattaccttgttattgtctttatgcggaagaaaatggatttcaattgaatccccaaaccataatgacagatttggaattaggtgcgatcaaggcttctaaaagtgaatttcaaggtgttaccaataaagtttgtttttttccattcagcccaatgcatttggcggaaaattcagatgagtggattggccacgcgatacggcaacgacgaaaacttcagtttaaaaatgcgtcatttgcctgcattggcattccttccagctgatgacattccaggagcttttaatgaattaaagccgcatttgcctgaagaagccagcgaagttactgactggttcgaaaataattatgtgcatggtaggataagaagacacttacgcaacggtgttgctgttcgatcaccagtattgtttccgccaaatttgtggtctgtatatgagtgcatgcggaatggatttccgcgtacccaaaacaacatagaagcatggcacagaagatgggaaaatttaatagggaatgctcatgtcggtgtatatcgaatcatagaagaatttcaaaaagagcagcgccacgtagaaaatgaatgtgaacgtattctccgaggagagccatgtcctaaaagaaaaaaagcagctattcatcgtgatgcaagacttcaaaatatagttaatgatcgtgaaagtcggccagctcttatggactatctccgtgcaattgcccataatctatccctgtaatacactttttcatatgtcgaattttctttttagtttttttcttttcttttttagtttttttcactattttaaattgtcagcattattttttacaattcgctatgctatgtatttcatcttcgcatcatttccaatactggaggtataaattgtgtagagacttttagagagttctaattcgttttatgcatttttttgcaaatttgactccatgaaagtgcattatcacaacgttgactttgtgtgtaagcattgtgcgtgtacgtaaaaacgttgaaacttcctcaataaatgaagagatgtcctttttgtacatctgcatttgtgaaagataaaatttctcgagatctcggctctttgggcgactgcatatgcggtggtgacccatcgcggtttttgatcgatctcgtcaaaagacttaggttgttcgtcacggtatttcagatgaccgcagttataaagctgggtgcacacaattaccaaccatagtgatatgcgtttatacatttccctttttgacctatttctttatgaatacggttcgtctgctcataactgttatacccgtgcgactgtcgttagtatacctgagtgtttatgcttgcaaaaatatgtatgttattattgcctattttattgtgtaaagtggcctatgaagtgttctgtcgtgtttttatatgtttctcaaataaatccccttttaaaaatgtaaataaatatcttttaaanaattttaaattattttttccagaattatattttcgggattttgatctttcgggatttcaacattcgggattatggcgttcgggattgtgtctttcgggattatgatcggctccc",
+  "length_bp": 1733,
+  "sequence_length_bp": 1733,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RICKSHA_0"
+  ]
+}

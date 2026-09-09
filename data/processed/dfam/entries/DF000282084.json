@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282084",
+  "name": "JacJac-1.62_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "JacJac-1.62_int"
+  ],
+  "species": "Jaculus jaculus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Jaculus jaculus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Dipodoidea",
+    "Dipodidae",
+    "Dipodinae",
+    "Jaculus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1172 BP; 275 A; 197 C; 355 G; 342 T; 3 other;"
+  },
+  "sequence": "gtaaagtggtaccgaggagtgggattgctgctagacacctgactgtgtggcttcggccttttggagctgattttcaagaggaatgtggaaggatttgaaaccttggcctaagagatgccttgcagtgctgtaagtacagcttgatggactattctggtcngagctgnaagacctgaatgcagtaagaactatggactgtgaggtttggcttatgagggtgagaaagagctttgcctggactgggctagcagtttgtgtgagaagcttgctcttatgcccgtgtcctgagaagttgtgcagggttgctttgcgtagaaatgaactggtgtgngcagagggatatggcacagaaagaaaaatctttgggtgaactgttgcccgttcagctgcaactgagagattacaacctttgagactgggctagctgacctgcgctggggcaacaagaagaatgtagactcttttgaaggggcctgagtgctcaaggagtgtcctgttcttcaaagtctgctttattcccccctggattaacaaattggcaccctacctggtatcgtggagtataagaaatgctggaaagagggtcattgagtttgcaacacggtcttgtgttttggaaatggccatgggcagtgtgaagcgggtttgctggttgcctgcatagagaccccatggggccatgaggatgaaccgtggcttgcagtggagacccagtggagatgccgggaccatgagatggctgccgaggagctgccggccccgatgaagtttcccaggactgtgagtagcctagctggaggggcggaattggaatgccagagacttgttgctggttagaattatcggacttgaagatttgtcactggctagagttgctggacttgaagctacagagtttgatgtttgccctggttgttttaaatcttgtattggttgaatgtttctttgctatgcccaatgccatcttttgcagtgtgaatatttattctgtgccattatgggttttttgaggttattttttggtattatggctcagttaaaagatcttggactatggggatgtatgaacatcattgggattgataaaaactatggggacttttaaagtcagactgaatgcattgtattttacatcatgtatggatatcagtttatgggggccaggggcggaa",
+  "length_bp": 1172,
+  "sequence_length_bp": 1172,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

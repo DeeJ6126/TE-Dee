@@ -1,0 +1,49 @@
+{
+  "accession": "DF000002197",
+  "name": "RSINE1",
+  "description": "SINE element; RSINE1 family",
+  "keywords": [
+    "SINE/B4"
+  ],
+  "species": "Muroidea",
+  "display_classification": "SINE/B4 | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 165 BP; 36 A; 59 C; 50 G; 20 T; 0 other;"
+  },
+  "sequence": "cggggccggcgagatggctcagcgggtaaaggcgcttgccgccaagcctgacgacctgagttcgatccccgggacccacatggtggaaggagagaaccgactcccgcaagttgtcctctgacctccacacgcgcgccgtggcacgcgcgcacacacacacacaca",
+  "length_bp": 165,
+  "sequence_length_bp": 165,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RSINE1"
+  ]
+}

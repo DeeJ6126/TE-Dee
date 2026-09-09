@@ -1,0 +1,51 @@
+{
+  "accession": "DF000275379",
+  "name": "CebAlb-1.201",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Cebus albifrons",
+  "display_classification": "DNA/TcMar-Tigger | Cebus albifrons",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Platyrrhini",
+    "Cebidae",
+    "Cebinae",
+    "Cebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1047 BP; 324 A; 223 C; 212 G; 278 T; 10 other;"
+  },
+  "sequence": "caggtattgatcgacttacgacctatgcaacttacgaccattcgactttacgaccacaatcgctagccacgactgctccgcgtctggcagcgcaaacgttgcccagctgggcgtacgacagtgcggaccagcttccggcagcactaccatctccgcgtgcaccatttcaactgttatcccagactcggtacagcaatttgtgttttgtgtcttggatatttttcatcaaacccctcccaanatgtctaccaagaggaaactgtctttgtntacgcctcagcctgccaagaaggaaagaaaggccatcgatctcgacncgaanatgaaggtaattaagcagtgcgaaggangaaagaaagtgaacgtgatggcgcgcgatgcgaagttatcacactcgnccgtgtcgacgaaatttatgaagaganaaagaaacatacaattcgtgaggctgtgaaaggttctgcacccatgcgatcaacagttatgaanaaaccaacnaagcgggcccanccccgaaatggagaaactgctgcatactcggatggcgacatcaacgatccgcagccaagcaccagcggccaataaaatgtttcgtacatgtttatatattttgatatgttttgcaattgggaaaatgtttcctatggtattttttacacctgtattttgtatttttgtatgcacctgtattttgtaattttgtatgttttgcaaatattaaaccagttgtactggtaatgcagtgttttacttaaacctgacgaatgtaaaaataagaaacaaaatggtgtagagatgatacaaatggcataaaatgaacaaagaaaattatgatatataacaataatgaaagaaaattatgataaaatatgacttaaagatttttataacatcatttcacagtactgtacatatagcctactcaacttacgaccaaatcgtgttacgaccggtctgtcggaaccaatcgtggtcgtaagtcgagcactagctgtacgtgcgttcaagaatgttaacaagcacacactgcccgtctactttcgttct",
+  "length_bp": 1047,
+  "sequence_length_bp": 1047,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

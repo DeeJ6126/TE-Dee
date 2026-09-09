@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279409",
+  "name": "NycCou-1.53",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Nycticebus coucang",
+  "display_classification": "LINE/L1 | Nycticebus coucang",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lorisiformes",
+    "Lorisidae",
+    "Nycticebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1131 BP; 428 A; 208 C; 224 G; 265 T; 6 other;"
+  },
+  "sequence": "ggcaattgaagcaacaccaaaaatacattactgggatctgatcaaactaaaaagcttttgcacagccaagagcacagtaagtaaagcaaacagacaaccttcagaatgggagaagatttttgcaggttatgcttccgacaaaggtctgataactagaatccacagagaactcaaactaatcaataagaaaagaacaaataaccccatttctatgtgggcaagagacttgaacagaaacttctctgangaagacaggcgcatggcctacaaacacatgaaaaaatgctcatcatccttaatcatcagagaaatgcaaatcaaaaccactttgagatatcatctaactccagtaagattagcccacatcacaaaatcccaaaactacagatgttggcgtggatgcggagagaagggaacgcttctacactgctggtgggaatgcaagctaatacgacctttttggaaagaagtttggagaacactcaaggaactaaaagtagacctaccgttcgatcctgcaattcctctactaggtatatacccagatgatcaaaaatcattttacaacaaagacatttgcaccagaatgtttattgcagcccaattcataattgccaagacatggaaacagcccaagtgcccatcgacccatgaatggattaacaaattgtggtatatgtacaccatggaatactatgcagccataaaaaagatggagacttcacatcttttatgtttacctggatggagctggaacatattcttcttagtaaagtatctcaagaatggaaaaaaaagtatccaatgtactcaatactactatgaaatcaatatataatcacctacacattcatacgaatggcaaaacataactatagtccagaaagtagaagggaagaggagagagaggggaggggagggggganatgggaggagggagggtatttggggggacctcacctaatgtgcatgatgcaatggtacatttcaaaactattaagaaangagtataattgtggatggatgtgttanttagttcaatgtaagcatttcacattgtatatcgaancagtacactgaaccccataaatgcatcaatgtacanagttatgatttaataaaaaaaaataa",
+  "length_bp": 1131,
+  "sequence_length_bp": 1131,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

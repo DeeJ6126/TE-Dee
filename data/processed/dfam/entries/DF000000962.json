@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000962",
+  "name": "MER96",
+  "description": "hAT-Tip100 DNA transposon, MER96 subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 175 BP; 33 A; 51 C; 56 G; 33 T; 2 other;"
+  },
+  "sequence": "cagggccgggactagggtgaggcaagcgaggcgcctagggcgcaaaatttaaggaggcactcactctcagggtcgtgcaagtgcagggtcggcanntgcacgaccctgagagtgagtgcctccttaaattttgcgccctaggcgcctcgcttgcctcaccctagtcctggccctg",
+  "length_bp": 175,
+  "sequence_length_bp": 175,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER96"
+  ]
+}

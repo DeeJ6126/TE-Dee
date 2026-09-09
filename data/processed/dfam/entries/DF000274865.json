@@ -1,0 +1,49 @@
+{
+  "accession": "DF000274865",
+  "name": "AplRuf-1.2",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Aplodontia rufa",
+  "display_classification": "SINE/ID | Aplodontia rufa",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Aplodontiidae",
+    "Aplodontia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 177 BP; 53 A; 47 C; 40 G; 37 T; 0 other;"
+  },
+  "sequence": "gggctggagcggtggctcagcggttggagcgcttgcctggcatgcgcgaggacccgggttcgaaccccagcaccacatacacaactaagtgtcggagaaacaaaggccagatgaaaaaataaataaaattgattctctctctctctctctctctccctctctcttaaaaaaaaaaaa",
+  "length_bp": 177,
+  "sequence_length_bp": 177,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

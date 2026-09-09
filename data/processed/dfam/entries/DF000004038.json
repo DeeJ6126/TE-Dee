@@ -1,0 +1,51 @@
+{
+  "accession": "DF000004038",
+  "name": "DNA8-2_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/hAT-Tip100 | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 824 BP; 213 A; 171 C; 165 G; 267 T; 8 other;"
+  },
+  "sequence": "cagtgttgccagacgtacgataattatcgtatttgtacgataatttcgacctctgtacgatgtacgatcaataatgagaaaaatcctataatgtacgataatttcagaattttatggcatttaaaagtaacttcattgtaatcttngggcttctntacttattgatctagctgcatcttttctgtactgtctgtgaggagnaggtggagttaggcacgttttctatctcatcttacgttgcctcttctcagccaatcaacgtggagaatggctctctctcacgagttaacgctcctgccgcgcgtgcccgtggttaggtcagtagttttcagtttgaggtcgatcttttaagcaataatgttaaaacaattcgtgctgnaaaggaaggtgagaaggacgggagttttcccttgatgttctcgtttttccccattcaaatgcgtcntgtgaacgtgtttttttccaaagttagtctcatcaaaacaaagcatgcacacctcagagtgtgcactgctttcaagccaaccagcactatnttgcggtccatgacggcatccaatttgtacngcaaaataaatccctcaacatctggcaacacgcaacattcaatgacagcgactcggaggtggagtttgaaccttcccactaaggtacctagtttttttttaacgtattgtggtaatttgcacgttgtgtcaaaacgctatgtgtctagataatagctgtatactctcngtttgactcgtgtacgataattttcctccaaatacgataattttgaggttctggtacgatactttgacatttccaatctggcaacactg",
+  "length_bp": 824,
+  "sequence_length_bp": 824,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA8-2_DR"
+  ]
+}

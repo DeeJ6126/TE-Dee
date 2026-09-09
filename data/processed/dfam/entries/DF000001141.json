@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001141",
+  "name": "X2_LINE",
+  "description": "CR1 (Chicken Repeat 1) retrotransposon, X2_LINE subfamily",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Amniota",
+  "display_classification": "LINE/CR1 | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1408 BP; 475 A; 208 C; 385 G; 304 T; 36 other;"
+  },
+  "sequence": "agggtcaagagacagaccaagaaattacaggccagtnagcttaacatcgcngtggggaaaatnttgggaaacnatcttaagggatncggtgggagaacacctggaaaagcatagtttgattaagganagccagcatggattcaggcangggaggtcatgcttaactaacctgctggagttctttgaagatattactgccatganagataagggaaactcagtggatgtagtntacttagattttcaaaaagcatttgacaaggttccacatcggagattaatggctaaggtaaagagtcacggaanaggaggtaaantagagtgctggatagaaaantggctnaagagcaggagacaaagagnagccgtagatggaaanttttcaagctggaaaggggttacaagtggggtaccccagggatcagtntcgggacctncgctgttcaanatatntataaatgatttggacgagggtattgaaagcaagatntcnaagtttgcagatgatactaaaattggaggcagagcaaataacgaggaacaatgcaaccagattcaaaaggatttggatcgtttaggtgactgggccagcagatggcaaatgcagttcaatgtagacaaatgtaaaataattagtctgggagcaaggaaccaanctagggaatacgtgctaaatggaacagtcatccagcacactgatcaggaaagggatttgggggttattgtggaaaaatcattgaaaccatcagcccagtgcacagctgcagtaaaaaaggcaaacaggatactgggttgtattagcagaggganagaatacaaancgaaagaggcgatactgttactgtataaggcactngctagaccccatccggaatactntgtgcagtactggtcaccgnnccacaggaaggatattactgccttggagagggtgcagcatagggcagcaaagatgatnccgggtctcaagaatctangttatgaggaaaggttaaggaaactgggcttattctcactggaaaagagaagacttcgaggtgacctaattgaagttttcaaaattgcgaaagggattgataaagttganngagataaactnttcacactgncgaggggttcagaaaccaggggacacgatctaaaaattaggaaactaggagtaaatagggaactcaggcagaactatttcacgcaaagggtaataaacatatggaataagttaccggggaaggcgattgaagcaaagagtataaatgagttcaagagacacctagatttgtttctggagaaggaggggattgaagggtatggtganaaagcaggaaggtgggattgagataaaccnaaaaagggcaggcgtgttgggccggatggccttttcctgttcctaaaatttcttatgttctta",
+  "length_bp": 1408,
+  "sequence_length_bp": 1408,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X2_LINE"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "accession": "DF000002162",
+  "name": "RMER16-int",
+  "description": "ERV2 Endogenous Retrovirus from Muridae.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RMER16-int"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 5406 BP; 1578 A; 909 C; 1149 G; 1719 T; 51 other;"
+  },
+  "sequence": "gatggcgcctcaacgttggagctccagtaagcggggtacagtgaaggacaccgcgggaattggaagcgcgtgcaaaggaaagtaaagaagatttgggccagcggtgaataaaccttgtagaaggacaaggtaatggtaaagtgtgttttgtgtatgtgtttagagctatgtgaaaatctagagaagcgaaggtaattctcataggtgcttttagtctttggaccctgactagagatagtttacacccgagacatgagagagaatgggtttgagaaaagcagtnctctccgactatctggggatgatttggcgaaagagaaggaaaatgaacgtaagctgtttcagagctctcctagggacaggaggaggtcgggagacgtcctgcctcctctctggctcctactggaggaatgcttagttctgggtctcttaggtaggatatctgggtccctttgggacatctagttctcttccctctctgtctattgtctgtccttggcgcgccaatctgtccatgtctgtcaannncgnnnnnnntntatgtctgtgttttcgttttntgntntngttgtttgantgttgttctgtgtttcatgttcaaaagaaaaaaatggttaaaactttatctgctggttgttcaccccttgatttagttttaactcgtttcaaaaaaaaaaaaaagaaaaagaaaaaaaaaanaaacagtntcaattggtctttggagccctgcacctgtagttaggagtctagcgcggctggagaagccctgctaggagctgattgtccgnaaangctgctcttaaggggccagcagcttctcaagttctatggtaagggaactgatggctgtttttcctacaaaaatctctgtgnttgtgattattgggttcatcaggtgacaaggtgctcctctcttgaaattacagctagaaaaattaagaattttgtttggtttaaataagcaaatgtatgcagccatttcatttttgtttctgantggttttaaaggtataaatatgttctacatgtcttggttatagattattggctcataagttattggntatgattaaaaatttgtaacattggtaacagaaagttggcttaaaactggtaactcngggttggagtaattcagaactacaacacgcggcatgagccaacccagggaaacaggtctctaaagatacgcctaaattgggtaatattctatgtaattcttatcctagaaaccagacttataaaagataggatttagggcagtgtctctttgncgaggtattggaggctgcaccntcttgcgttcgtgtgcaggaacgggcagccaaactttgtagcatgggagtaatgctcttggtgttttttaaagagaatggattgtttgaaaattgggttttgcttcccaaaattgtggttgtgctctggtgttacaagagaaacttaaaaattatggttaaactgccagtgttccattggctgcagtttgcagttcgatcacaggctcaggattttaactcacncatatttgtaattaagaaaaaaatcaggcaggtggagattgttgcaagatttatgaaaggttaatgaggctatggaacttgtggaggcattacaacctggcttgcctactccagctgccgttcnaggaaatgcatatagaattattatggatttggaggattgtttttatactattcctttgcatcctgatgattgtaaagggtttgcttttagtgagcttgcttgtaattttaaagaacccatgaagcgatatcattggaaagttttgcctcaaggaatggctaatagccctacattatgtaaaaaatttgtctctgcttcaatacaagaagttaggactttgaatctttcagtgtatattattcattatatggatggtattttattagctgatccctctgaaggagttttactacaagcctttgctcttatacaacgagctttaaaattttggggtagttgttgctccagaaaagattcaaaggcaatatctttttcaatatttggggcntcagttatatcctaaacaaattgtggcacagaaaattcaagnaagaaaagataatttacttacttcaaattattttcaaaagcttctaggagatgttaattggctaagacctcaccttaagctcaccacaggaggacttaagcctctgtttgatattctcaagggggatgcaaatcctaattcccctngacaattaactggtgagggacgaatagctttgcagaaagtagaggaagctattagccaacaacagatacattatatagactatgatcaattgttggctgtttgcgttattgctacnnctcatgtgcccacagcagttctttggcaaaagggaccattaatgtggattcatctttcttcatctccaagtaaagttttaacaccctattatgaagctgttgctgtgttaatacagaattgtaggatagaatcatgaaagtattttggaaaagaacctgatgaaacatttattccttattccaaacagcaattaaattggttattgcagaatactgatatttggcctattgcatgtgcaaactttttaggcaaaattgataatcattatccaaaagacaagttgttanaatttgcctctatgcatgcttttgtatttcctgtaaatttacgcatgcagcccatagagaatgcgcttactgtatttacagacggctcatctaatgggaaagnagcatatgtgattggatcacatgtttattctcttgagtttccccctgcttcagcacaaataattgaattacgtgctgtagccactgtttttgaaatgttgaaaaatcaagcttttaatttgtatactgatagccaatatatagctcatggtttacaattgcttgaaattgttccttttttagatactgctaattctcaaattttgcaattatttatgcaaatacaactcaatttaagagaangtactgttccttactttntaggacatttaagagctcatactggattgcctggaccccttagcgagggcaatgccacagcagatttgtataccaggcagattataggccttacacaggaacaattggccanacaatctcattctttacatcatcaaaatagtaatagcttgagacaacaatttggtatttctagagaatgtgcacgtcaaattgtaaagacttgtcctcagtgtcctcaatttctacctgtaccacataatggtgttaatcctcgaggacttatacctaatcaattatngcaaatggatgttactcatatttctgattttggaaaattaaaatatgtacatgtgactattgacaccttttcaggctttctagttgcaactgctttaacaggagaagcaactaaaaatgtaattagtcattgcctacattgtttttctatgcttggtgttccaaatcagattaaaacagataatggaactggctattacagtcaagcatttgagatgttttgtcgacaatttaatattacccatattactgggattccttataatcctcaaggacaaggtattgnggaacaggtatcgtggaactttaaaacaatatcttcataaaacaaaaaagggggaattatatccccgtacaccacaaanttatttaaatcatgttctttttattttaaaattttaaaaatttggatgccaaggaactctctgagtgtctatggcaccctacaactaggcatacttatgcctaggtgaaatggaaggatccacttactggcatatggcatgatcctgatcaggtatttaatatggggaagagggcatgtttgtgttttttccncaggatgctgaaggagcatgctagctgccagagtgattggtgngacatgctgatgctgggacaaagaatgatgctgacctgtgagcttgctgagtgccctgacaatggtgacaggaaagctgtattgggcatatgttcctgacccacctttgcttgcctatatcccagattggacaagctgccttgcttcaagcttttagaccttgtgggacagagaacatggagactggaaactgncttcgaaaaattaatcaaaagagaagttataatgactcttctctttcctttaatgtgaccagttattctgactcaatcatggactggtctagaaatcaatccaatattggaaataacagtcttcatttggaaggctggttctggacattttcagagacatatttgaaagttagctgcagttctctatgangttacgttngcagtggataaaattgggacaggatctggatttcgaacaagtgttagtgcatgtgttaaggctcctaatcttttattaattggtcatgttaaaattacttttgtttcttctacggtatttaatgtaagttgtattgattgtacactttctaattgtgttagtgtattgaaacctggcatgtctgttnnnatggtggtctatcaaccagcttttgttttattgcctgtgagtattacaggaccttggtattctgaaaaaagcttgcaggtactggaagaagtgagtcaggctttaagcagaagcaagagggtagtgggcttgattattgctggtatagcagctttaattacattaatagctagcaccactgcttctgcaattgctttgacacaagaagttaagacagctacttttgttaatcatttagcaaaaaatgttactaatgctctgagtattcaagaggatttagataggcgtttggaacaacggattgatgctctttatgatactattcaaattattggagaggaggttcagagtttaagagtaagaagccatctcgagtgtcatgctaaataccaatggatttgtgttacttctaaaatttacaatgacagtcactataattgggaaaaagttcaaagacacttgcagggtatttggcataattctaacacctctctggatgttttaactttgcataccgagattatgaatttaaagaatgctgctccgctgagctttgatgctgcggatattgctgataaaattattcatggcctgaggtcagtatttccatcttggtcaagcttcaagaatggcatatatagcttgatcatgctagcccttcttgtcctgggaatacttttattcctgcccattgtgataaaacttgcctttaacaacatcaacatgttggcggccaaaatacatggcttgaaactaaaaatggacccccagacagagttattaatttaacaggctggcagccaangacgggtaagttctgcacagagccttaccaacctaagacagaatgtgcattgcttttgataatgcatattccacgacgggtaaggaaggcattcttgtcagaacaacctaagacaggcgcagtcttgtttatgaaataaaaaggggggaga",
+  "length_bp": 5406,
+  "sequence_length_bp": 5406,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "4228..5236",
+      "start": 4227,
+      "end": 5236,
+      "qualifiers": {
+        "product": "RMER16_env",
+        "number": "1",
+        "note": "[Muridae]",
+        "translation": "KLAAVLYEXTLAIDKIGTGSGFRTSVSACVKAPNLLLIGHVKITFVSSTVFNVSCIDC"
+      },
+      "label": "RMER16_env"
+    },
+    {
+      "type": "CDS",
+      "location": "1512..3894",
+      "start": 1511,
+      "end": 3894,
+      "qualifiers": {
+        "product": "RMER16_pol",
+        "number": "1",
+        "note": "via tfasty with SRV-2_pol [Muridae]",
+        "translation": "NSHIFVIKKKSGRWRLLQGLXRVDEAMELVEALQPGLPTPAAIPGNAYRIIMDLEDCS"
+      },
+      "label": "RMER16_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "RMER16-int"
+  ]
+}

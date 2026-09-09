@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004163",
+  "name": "CENSAT_MC",
+  "description": "Mouse centromeric satellite repeat",
+  "keywords": [
+    "Satellite/centromeric"
+  ],
+  "species": "Mus",
+  "display_classification": "Satellite/centromeric | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 59 BP; 24 A; 8 C; 16 G; 10 T; 1 other;"
+  },
+  "sequence": "acacgggatgttaatgagttgcactgaaaaacgnagaaaatgagaaacgcacagtgtag",
+  "length_bp": 59,
+  "sequence_length_bp": 59,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CENSAT"
+  ]
+}

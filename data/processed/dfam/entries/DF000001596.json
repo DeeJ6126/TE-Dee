@@ -1,0 +1,53 @@
+{
+  "accession": "DF000001596",
+  "name": "FTZ_DM",
+  "description": "Drosophila melanogaster inverted repeat in ftz gene.",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Drosophila",
+  "display_classification": "Unknown/ | Drosophila",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 72 BP; 16 A; 20 C; 17 G; 19 T; 0 other;"
+  },
+  "sequence": "agggctctctgattttgctatatatgcaggatctgccgcaggaccagctcattcgcaaactcaccagcgttg",
+  "length_bp": 72,
+  "sequence_length_bp": 72,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "FTZ_DM"
+  ]
+}

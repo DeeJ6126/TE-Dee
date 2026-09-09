@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277471",
+  "name": "HipGal-3.378",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Hipposideros galeritus",
+  "display_classification": "DNA/TcMar-Tigger | Hipposideros galeritus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Hipposideridae",
+    "Hipposideros"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 662 BP; 173 A; 147 C; 143 G; 198 T; 1 other;"
+  },
+  "sequence": "cagtagtccccccttatccgcggtttcgctttccgcggtttcagttacccgcggtcaaccgcggtccgaaaatattaaatggaaaattccagaaataaacaattcataagttttaaattgcgcgccgttctgagtagcgtgatgaaatctcgcgccgtcccgctccgtcccgcccgggacgtgaatcatccctttgtccagcgtntccacgctgtatacgctccccgcccgttagtcacttagtagccgtctcggttatcagatcgactgtcgcggtatcgcagtgcttgtgttcaagtaacccttattttacttaataatggccccaaagcgcaagagtagtgatgctggcaattcggatatgccaaagagaagccgtaaagtgcttcctttaagtgaaaaggtgagtacagtacaataagatattttgagagagagaccacattcacataacttttattacagtatattgttataattgttctattttattattagttattgttaatctcttactgtgcctaatttataaattaaactttatcataggtatgtatgtataggaaaaaacatagtatatatagggttcggtactatccgcggtttcaggcatccactgggggtcttggaacgtatcccccgcggataaggggggactactg",
+  "length_bp": 662,
+  "sequence_length_bp": 662,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

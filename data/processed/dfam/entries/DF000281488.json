@@ -1,0 +1,52 @@
+{
+  "accession": "DF000281488",
+  "name": "AcoCah-5.1837_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "AcoCah-5.1837_int"
+  ],
+  "species": "Acomys cahirinus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Acomys cahirinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Deomyinae",
+    "Acomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1256 BP; 240 A; 414 C; 279 G; 320 T; 3 other;"
+  },
+  "sequence": "tggactagttatcctgcgggacttatctggcgcccacgtgggactcgaggtgcgggtttctccccgaacggattaagggaccggtccacaggagttttcatgaccagccgagttcgcccggccggcttcgtcattaggtgagtcatccgttcgcatatctcaagaatgggccattcgctgtccaaggaagcaaagttcataagaggcttaaaggacgtactcagagagaggggtattagggtaaaaaagaaacatttgattgagttttttgtttttattgaccagacctgtccctggttcatgattgatggacctactattcattctgaaaagtggcaaaaggtggggcgtgagcttaatgcacttattaaaaaagatggtaatgcagcggtgtcgaacagtattttttcttattggggcctcatacgggacataattgagtccggcgaaaacgaaagcggacanaggcagctcctctccatggctgaactctgcctgcgcgaatctctccctccttctcgtgttccttcctgttcctctctgcagggttcctctcttacgctcattgacatgccccccgattctgtccctcctacatcctcggagcccttaaaaaatccttcccctgcgcctgcgtccaacccttccccttccccccgccgtctttatccgtcgcttcctcccacctatgaggaccccatttccgctatggaacgcgggtgttcaccacnttgtgcccctgtttttcccccaaaaagggcaccctctgcccggtccggtccgccagcctctcctgttccccctccgtcggccgccccttcacgcgcctcccgccattccgccattttcctttctcaggncccagatgagcccttggatccggatgctgctgccacccttgaggaggaggctgctcgatatcattccgatgatggcctcctccgcgcggcgccaacctttccctcctctaccttgctcactcttccccctccccttgctaagccctaccctgcctcccggctcccgccatcttgttccctcccaaactgcttttgccagacggaggcccatctccaacaccagatctcccatgcgacgaagattcttcaacttcaacaacggctttcacttttaacaacgcgcctttcctccacagccccgtttattttacccgttcccagagccagcccgccctgagcggggcgaaaactgaggcgaaaactgaggccactgattcaggcgctgcttcgggagag",
+  "length_bp": 1256,
+  "sequence_length_bp": 1256,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

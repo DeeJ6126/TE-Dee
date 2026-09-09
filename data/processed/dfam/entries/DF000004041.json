@@ -1,0 +1,53 @@
+{
+  "accession": "DF000004041",
+  "name": "Gypsy10-LTR_DR",
+  "description": "Long terminal repeat of a Gypsy LTR retrotransposon from zebrafish",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "Gypsy10-LTR_DR"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1641 BP; 467 A; 252 C; 370 G; 542 T; 10 other;"
+  },
+  "sequence": "tgtagcccttattaaaaaagagcttacttaaacccacttgcacctaaaagcagagcatantatatttttatacatagaaatatacagagattataattatatttttcatattatggtaatctaatagacagagaatattaacagaccactattctgttaagaaagtgcattttagtatgcatactattataggagttatatggtatgtttccctttaagtaactcgttcgctacatttcagtgtttggttgatttgcacttgggtgaaaatgtgctttttgctatcaagtttgtgtgttaatacctgattgggtctataccaattagtccccgcctctcttataggtgaataagctattattggtttatcgngagagctgaggagaagatcgagagaacgagaccgcagaggcttgtctctgagagaaacttgagtattataactgcaaatcgtgagttatatacagtctatattgatttaaagtgttctaaagttgtttaagaaccgtagtgtatgcgttaagtgtnataattgcgagtatattgagaccgtttgcgagctgaagacattgacgctcgtgtgagaccatatcctcgtgttttagcngtctgctacactagactgacgcagtgttttagcgagtgaactgttaagagagtgaagctcgttcaggaggacagattcattgcatcggcgggagtgttcatgctgtgtgctgacgctgcatcggactgacggttcgcggtgggggacatcgatcgcgggacggacgacatcgcgcggaacggacggacatcgatcgcgggacggacgacgatcgtgacggctgcaggaacgccaggtacatttacagtgttttctttttgctcttntaagagtgaagaggccattttgcagtttcaaaggccactacgcacccgagcaacataacaggcctgcatcgagggtgggtgagactgtgtgtgtgtgtgtgtgtgtgagagtgggcccactttcaatannntttcagtgttgcaaaagtgtttatttgctgttaacgcttacaaaagagtgaaaaaggtgttatttttacattttntttggagaatatttgctttgagattctataatctgagatacgaatgcactaaataattgtgagtaatctaaatcattcaagggtgaatntacagttttagtaagggagcgtctaaaaagtgcatcaagtcacaaaagtgtaaaatgcttattgcttaagtgattggggtccagttgttggatactcatactgtgtgtttattgaaggttaataactgtttctctttgcaattagtgttttatctattgtgtattgatataaggttgtattaataattcatatcttattataaatagcattataattatatttatacctataatatcacctttataaataacaaatacctctatactcatctttattttattttgtttataaataaatttctatttgtttataacttaatttgttttgcttacttattcattgaagttctctaaaagtggtatctgattagggggagtgaaataatagtcgagaggctaaactgtaggaatccggtgctccaccctatagagcttaggtcaggacaaagcctaagagggcagggggcgctaca",
+  "length_bp": 1641,
+  "sequence_length_bp": 1641,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Gypsy10-LTR_DR"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "accession": "DF003575737",
+  "name": "SINE_M.coruscus_cons_7",
+  "description": "Repetitive sequence family identified in Mytilus coruscus",
+  "keywords": [
+    "SINE/tRNA-V"
+  ],
+  "species": "Mytilus coruscus",
+  "display_classification": "SINE/tRNA-V | Mytilus coruscus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Mytilida",
+    "Mytiloidea",
+    "Mytilidae",
+    "Mytilinae",
+    "Mytilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 137 BP; 28 A; 34 C; 37 G; 38 T; 0 other;"
+  },
+  "sequence": "ggggcctcggtggccgagtggtctaagtagttactactgtaatcactagccagtcaacactgaggttgtgagttcgaaccccgctcgtgcgggtgcactcgactccaatcttaattgactaggattgtcagttttcc",
+  "length_bp": 137,
+  "sequence_length_bp": 137,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

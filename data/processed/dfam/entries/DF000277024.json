@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277024",
+  "name": "FelNig-1.24",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Felis nigripes",
+  "display_classification": "SINE/tRNA | Felis nigripes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Felidae",
+    "Felinae",
+    "Felis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 214 BP; 33 A; 66 C; 48 G; 66 T; 1 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttgagcgtccgactcttgatttcggctcaggtcatgatctcacggttcgtgggntcgagccccgcgtcgggctctgcgctgacagcgtggagcctgcttgggattctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctcaaaataaataaattaaaaaaaaaa",
+  "length_bp": 214,
+  "sequence_length_bp": 214,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

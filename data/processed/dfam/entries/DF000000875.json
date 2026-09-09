@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000875",
+  "name": "MER58D",
+  "description": "hAT-Charlie DNA transposon, MER58D subfamily",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 386 BP; 111 A; 86 C; 65 G; 124 T; 0 other;"
+  },
+  "sequence": "caggggtcggcaaactacggcccgcgggccaaatccggcccgccgcctgtttttgtacggcccgcgagctaagaatggtttttacagatgaacatttgcaatcgatttcgatgatagggaacactaactttgaaccccaattaagcgaaatgttatctccccaaaaagaattccattcttctcattagtagacctgtattacaaaaaattgtactcaattattattattattatattttgaatttcgtcaataaaaattttgtggaaatttgttttctctcttgttatataagtacctacataatatcctcgattttgcctcttggcccgcaaagcctaaaatatttactatctggccctttacagaaaaagtttgccgacccctg",
+  "length_bp": 386,
+  "sequence_length_bp": 386,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER58D"
+  ]
+}

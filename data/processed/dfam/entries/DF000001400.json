@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001400",
+  "name": "DNA-3-1_CE",
+  "description": "Non-autonomous DNA transposon: consensus.",
+  "keywords": [
+    "DNA/TcMar-Tc4"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Tc4 | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 711 BP; 223 A; 140 C; 136 G; 205 T; 7 other;"
+  },
+  "sequence": "actagggaaccgtcagaaggtgcccatcggacttgcatatgagacctatgccattcgatagcgcatgtcttaaaacggttactcgtgaatttttagcggcgaaactccagaaccaagctcacggcgggctctcaaagatcctaaaatagcactgtaacgaagcactttaacgatctaacgaagcaattttccaaattcactttggtagctcatatctccgcggataaattttttacagaaaagtcatcaactgaaaagttgttgatattgttgtaaagaacaagtttgtagttgaaagttttttaccaaaaaatttttgtttgagataaaagcattagaanngnaatagcagcataaaaataacaacagcagttgccgcacttcacgcgcttttatctcaaacaaaaattttttggtaaaaaactttcaactacaaacttgttctttacaacaanatcaacaacttntcagttgatgacttttctgtaaaaaatttatccgcggagatatgagctaccaaagtgaanttggaaaattggcccttcaatgcttcgttanagtgctattttaggatctttgagagcccgccgtgagcttggttctggagtttcgccgctaaaaattcacgagtaaccgttttaagacatgggctatcgaatggcataggtctcatatgcaagtccgatgggcaccttctgacggttccctagt",
+  "length_bp": 711,
+  "sequence_length_bp": 711,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA-3-1_CE"
+  ]
+}

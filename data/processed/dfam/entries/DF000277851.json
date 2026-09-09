@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277851",
+  "name": "LepAme-1.165",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LepAme-1.165"
+  ],
+  "species": "Lepus americanus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Lepus americanus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Lagomorpha",
+    "Leporidae",
+    "Lepus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 490 BP; 130 A; 127 C; 131 G; 102 T; 0 other;"
+  },
+  "sequence": "tgtggggaaccgcaggctggccacctgtgagaacctcctcatctgcatagcttgcagcaatcggtcgaccacaaggcccacgaaaacagccaggtgaaacagatgaaacagaatggactctgcataaacaactaggaggaacccggtgaaacagatgaagttgaggcaggacggactctgcataaacaactaggaagaaccaggtgaaacagatgaactttcgacctgagactatacgcgccctttcatctgattggacgataccagcgtgaactgcacgtgaagagagccgctattggctgtggagcggatgctccacgggacttggggtataaagggacattgggaattgggcttggagctcctccttctcttttcttctctcccccccactctttccttctgcccccacaagtaaaagttccttgagaaccgagaaacagtgaccgtgtcgtgattgcgttggacccttgctggcgagggtccgaca",
+  "length_bp": 490,
+  "sequence_length_bp": 490,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

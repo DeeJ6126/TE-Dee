@@ -1,0 +1,46 @@
+{
+  "accession": "DF000001136",
+  "name": "Ricksha_a",
+  "description": "MULE-MuDR DNA transposon, Ricksha_a subfamily",
+  "keywords": [
+    "DNA/MULE-MuDR"
+  ],
+  "species": "Primates",
+  "display_classification": "DNA/MULE-MuDR | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1173 BP; 336 A; 212 C; 204 G; 415 T; 6 other;"
+  },
+  "sequence": "gggtttgggtcataatcccaaaagacacaatcccgaacgccataatcccgaatgttgaaatcccgaaagatcaaaatccctaaagtctaaaatccccaaaatctaaaatcccnaangncnaaaatcccgaaaatcacgaatcatagaanaatttcaaaaagagcagcgccacgtagaaaatgaatgtgaacatattctccgaggagagccatgtcctaaaagaaaaaaagcagctattcatcgtgatgcaagacttcaaaatatagttaatgatcgtgaaagtcggccagctcttatggactatctccgtgcaattgcccataatctatccctgtaatacactttttcatatgtcgaattttctttttagtttttttcttttcttttttagtttttttcactattttaaattgtcagcattattttttacaattcgctatgctatgtatttcatcttcgcatcatttccaatactggaggtataaattgtgtagagacttttagagagttctaattcgttttatgcatttttttcgcaaatttgactccacgaaagtgcattatcacaacgttgactttgtgtgtaagcattgtgcgtgtacgtaaaaacgttgaaacttcctcaataaatgaagagatgtcctttttgtacatctgcatttgtgaaagataaaatttctcgagatctcggctctttgggcgactgcatatgcggtggtgacccatcgcggtttttgatcgatctcgtcaaaagacttaggttgtccgtcacggtatttcagatgaccgcagttataaagctgggtgcacacaattaccaaccatagtgatatgcgtttatacatttccctttttgacctatttctttatgaatacggttcatctgctcataactgttatacccgtgcgactgtcgttagtatacctgagtgtttatgcttgcaaaaatatgtatgttattattgcctattttattgtgtaaagtggcctatgaagtgttctgtcatgtttttatatgtttctcaaataaatccccttttaaaaatgtaaataaatatcttttaaagaattttaaattattttttccagaattatattttcgggattttgatctttcgggatttcgacattcgggattatggcgttngggattgtgtcttttgggattatggc",
+  "length_bp": 1173,
+  "sequence_length_bp": 1173,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Ricksha_a"
+  ]
+}

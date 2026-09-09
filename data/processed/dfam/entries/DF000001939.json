@@ -1,0 +1,49 @@
+{
+  "accession": "DF000001939",
+  "name": "MLTR73",
+  "description": "Long terminal repeat of retrovirus-like element.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLTR73"
+  ],
+  "species": "Myomorpha",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Myomorpha",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 548 BP; 141 A; 136 C; 109 G; 159 T; 3 other;"
+  },
+  "sequence": "tgctcttagttgacttaaaaatcactaattttggaggtcacacagctggagcaatacattattagtctcccactagctttgctgtagataacacctctgacgtgtgggttatgatgataacagttgcctaggttacttttcagggacttgaaggccgcttttgctgaaaacactgactcttcacttgggcccgcagataaaggtgactaaacgggatgaaaagcctngncctctgccttcatnttgtgtctgtctcctttgctgccttaacctttgggtcagattctgctcagctctgcacgtagacatgttgatcatttgagaaatgttttgtccaaaactataatacagggttaacttgacctagacttgcctagtctctctctctctccttcaaaggctaaagacacctaccagccgccatgaccggaaacaccagaccataaaaggagcgaaaagaggtggcactgagttcctggaagatctctgcctattcccagaaaagacatgaatattcctcccctttattagcctgtctctctccctca",
+  "length_bp": 548,
+  "sequence_length_bp": 548,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLTR73"
+  ]
+}

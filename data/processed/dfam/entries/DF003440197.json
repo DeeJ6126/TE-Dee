@@ -1,0 +1,49 @@
+{
+  "accession": "DF003440197",
+  "name": "LTR14_mMol",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR14_mMol"
+  ],
+  "species": "Molossus molossus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Molossus molossus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Molossidae",
+    "Molossus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1121 BP; 294 A; 293 C; 226 G; 305 T; 3 other;"
+  },
+  "sequence": "tgtaaggacagaaaacaggtttttcttttttttatgattttttcccacaatttatgagaagcacctggtattaaacacggagattgctggtgtctgcaacttcaaaccgcctttctacccaactgaaaggggcgggagagaataatagaattaatagaaaatattagaagagtaagagaactaatcatagtggggcactagccatagttataagaaatgttaatcatcctttgcaatgttaatcgtgattgctttgttctgattaaagaaaagcccattctgacctggctgggaggtgtgcgcctcgggagtttacctcgggaatgctgtccattctcctaatctgaggacaagggggactacctgacatcatggaaagattaacaacctgattatcggaacactggacccgtgactgcgactcactggcgaccagcccctgcagcccccggcccacattcctccccccttgcctgtaaccattttacccatttttttttccttttgcctaactgccctttctcacgtagtcattgtttctctaccctttaaaagcagctggcaagtgagggggggcagagcagattttacgggatgacccgctgctctcccatactgccggcaatattggaataaacgctcatatacgattcaaccttgtctctgcttaattggctcaagtagtgacaggnggcccggacccattcgttgtccggtttcacaaccagtaaaatagataagggctgggccttcccagccgtttttagcctctttcgaattctttgcaaccctttcaggtgaaactcctttttcccaagcatattttacaggctaaagaagagatgataagaaaccccctggcgcatcggccggactgtctcctgaagaccaacaaaccgaaactcctcaaggcaaccaaccccggcatctgtgtgacttaaaatacnaccccttccaataaaagggcaactcgcctatcttttgttgcccagtgccacctggtactcggccctttccctgtctatggggaaagacaaaataaatntcctcccttttctctcttctctcagttgtgaattctttcacaagcccgcgtcaccggcctaaacaaaaccctaaca",
+  "length_bp": 1121,
+  "sequence_length_bp": 1121,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282553",
+  "name": "PsaObe-1.251_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PsaObe-1.251_int"
+  ],
+  "species": "Psammomys obesus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Psammomys obesus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Gerbillinae",
+    "Psammomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3587 BP; 987 A; 868 C; 625 G; 1104 T; 3 other;"
+  },
+  "sequence": "aggaacggcttcctcatattctctcctcttagggaaacctctggcttctacacctatatttgccctactcaaatgtctaatatccagtaatatccagtaacactaagagcgatccgtgaagtaaaaaacaattccctatttctcttttctcaaagtcttgtctgtttctctctgcctgctatctcactaaatatactctctggtttctttttatactctcaaaaaaaatcttaaaattaaactgtaaaccttaaggtgaccacgtggtatgaacaattttaatcataattaattctctgtttattttatctccttttagactaggacagcaacaagtctcattttaaattggtatggatttttataaaaattcaaagttatattttacaatatatatgattcaaccctggttcaaaataatttttatataatgctaaaatttcaaagttataaaggtctattcaaattaagctaatttaaaatgtacgtctaactgcctatgtctttatcaattcctaaattaataaatgctgtttctcctgccatgagctgcctatgatccggattcaccactaggctttctggctaataggtttgctataataaattcaaatgtaattttaaaattgctttatactgttctactatattgttggttttaaaactcataactcaggggttactacgtacaagtttttaccaatactctaaattaagatctattaattttagaggcatttatttatttgttaaaacttggtcattgtgctatatcttcactatcaaaaggttaaaatatgcttggtcttgttttctaaaaatggtaatattattaatctatagtatagccttagacttttataagctatgaactttttatatactaaatcatacagaaaactgttatgctctcactttaatggactatatttatgacttttaaggctccaacttaacagggacaaaacctaaagtcctaatatttgatggttaacaaatgcaagttaatagtcagtcatctcatagatgatcaagtcctctaacatgtccaaaaatatatttatagtcctacagatgcaaacatggtctcactgccatcttaantaaacagctgaggatggtccctgagtcaccatacaggagttggtaaaaataataagagaggagccttcccgacaggctcatctacagcaaaaactatgctccagaccttggctgctgctctgaggctgttggcattcccgcacagaaaacaagaggtctgcaatgccccatcccgccggggtatagccaaaagtcaactccgccaggtgactgtttcaaatgcagccaaaggggacactggtcccgcggctgcctcaacaagccacgcgctgcctgccggcagactggcctctggaagtcaaaatgctcccatgcaggcttgtcctctgtgcccagccatggaggctcaaccagcacaagagccacagacacttccagccttcgagctccttggcctggcggaggacaaatggctcctngattcagcgacctccaccaccctcgcccagcccagggtaacattgcaggtctgttttggcctcacactcgggtcccacggacatattgccaacttctgtcttgggagacttcagatgccttctcagttctcttcatatgcaggagaccaggccttaagcctgagtcctagagttgctattgtcaggcctagacacaatatgccttgttgccagactcaagaaacaggcctcagatgtaaccttttaccatccctttagctaaaggacaataaatgttcatagcagtctcacctatgtctcatggtaaataactagatacaaaggcctaagaaaaatgttgtttgagggtctaagaaagtgttttaaggttggtaaatgcaagttatagatgtttgagggtctaagaaagtgttttaaggttggtaaatgcaagttataaaggttgcaaggtctaaggtgatttaaggtatcctaaataggtaaaaatgcttaatatttcctcctgttgctatgctactgttatattgactgtccagagctttgacctttatcaatagagctctgatttattaatctaactctaatacaaaaacattccactataccacccactatcatggttccaagctcaagattttaaatctccataatgtgtaatcatactaaaggttaagatcaagtgagcttttgtcccttctacttcacgaaaggcttctgccttttcagagctcaccttaaagaatgcttatgctgttaacacaaatgtgtatgtctactgccttttctacaatgtatatttcagtgcagattacaattgtgatgctaacatgtctaaagttttatctcctttgtaaaacttaaaagtaattcttgtaagctgcaggaaatccacctgaatccacctctcaggtcaattgggctccagataagtactgcacctattgcctatctcagagggtgggattcctcccctttccctggttttgggacttccctttcctggctacttgattgctacattcctacatccaacaccagctgattggtgagtcttcccttctggttggcatcaattcctggctaccgattgctacattcgtacacccaacaccagccgnttggtgagtcttcacttctggttggcgcaaacgcttcctaccgctctcgccaacctacatccaaacccttcatctaggaccttcttctcccttgggtaagattttccctctaccggcacggtttctctccctccccctctcgctcgtctacgaaaatcctagcgctaggtaaaccgtgtctgctacgggcaactgtgcccttggtctctggccaacgctgacgagctgttggaacagattgtaccaatctactgagtcaaaccttgctcttgggacgccttgacaggtcactgactcctacctgcccaatgggaatagtccattcgtccgttcctccagattctcctctgggatgtcttctggagaatttcagatttctacacctagtgcccgctttaagggcctctaagcttacacacctctgtaaccaaacttggcctcaatttccttagatgacagatccaaagcaaagcctttttaattactgccagtgattgggtaaatggaggttccctcaggtaaatggaggttcccatgttcaagtctctttgatccaaaccttccacctctgttcgctctcccaaaagttttaaatgtacacctaaagaaattttctccataacctacttaactttgtcttctgcctatatatatgtttcagtatcctgccagacccaggtgtttcctacatccacaacagcgccaaagcagctaccacaggtgttccagtctgacctcacagacttccgtcaagctggacctgcactttccctcccagccatggatgttctcacagaccctggacagcatcaaaacagcctgttcttcctggacttggccagcatttcagccttttgacctccctacagcgcccccagtgtcagcaggaagtagccagaagagaatctacgcccgttattcacttattattaacaaaaggctggaa",
+  "length_bp": 3587,
+  "sequence_length_bp": 3587,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

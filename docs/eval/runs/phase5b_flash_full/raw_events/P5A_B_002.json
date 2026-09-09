@@ -1,0 +1,4988 @@
+{
+  "case": {
+    "case_id": "P5A_B_002",
+    "question": "Where is L1HS located in the genome?",
+    "category": "simple_genome_lookup",
+    "expected_best_mode": "deep_think",
+    "dt_expectation": {
+      "should_answer": true,
+      "max_expected_depth": "direct_genome_lookup",
+      "required_plugins": [
+        "Genome Plugin"
+      ],
+      "should_have_evidence_walk": false
+    },
+    "agent_expectation": {
+      "should_answer": true,
+      "should_suggest_dt": true,
+      "max_plugins": 1,
+      "forbidden_plugins": [
+        "Literature Reading Plugin"
+      ],
+      "required_artifacts": []
+    },
+    "comparison_metrics": [
+      "intent_accuracy",
+      "entity_linking_accuracy",
+      "tool_argument_accuracy",
+      "route_correctness",
+      "latency"
+    ]
+  },
+  "dt": {
+    "ok": true,
+    "http_status": 200,
+    "headers": {
+      "Date": "Tue, 26 May 2026 13:16:14 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Cache-Control": "no-cache, no-transform",
+      "X-Accel-Buffering": "no",
+      "Connection": "keep-alive, close",
+      "Content-Encoding": "none",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "text/event-stream; charset=utf-8"
+    },
+    "events": [
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-P5A_B_002",
+        "message": "Recognized entities: L1HS (TE).",
+        "payload": {
+          "intent": "genome",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "genome",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "display_text": "Recognized entities: L1HS (TE).",
+        "sequence": 1
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-P5A_B_002",
+        "message": "Question type: genome. Complexity: single_hop_reasoning.",
+        "payload": {
+          "intent": "genome",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "genome",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "display_text": "Question type: genome. Complexity: single_hop_reasoning.",
+        "sequence": 2
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-P5A_B_002",
+        "plugin_name": "Entity Resolver",
+        "message": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "sequence": 3
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-P5A_B_002",
+        "plugin_name": "Entity Resolver",
+        "display_label": "Resolved 1 entities",
+        "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+        "message": "These aliases will be reused by the graph, literature, genome, and sequence layers.",
+        "detail_payload_id": "tool-1",
+        "payload": {
+          "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Entity Resolver",
+              "entity_scope": "L1HS",
+              "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "matched_alias": "L1HS",
+                "used_broad_alias": false,
+                "confidence": 0.93
+              },
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "coverage": {
+              "question_type": "genome",
+              "status": "ok",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "required_evidence": [
+                "genome"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": [
+                  {
+                    "type": "TE",
+                    "canonical_label": "L1HS",
+                    "display_label": "L1HS",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  }
+                ]
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "raw_preview": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 1,
+            "alias_variants": 2
+          },
+          "display_details": {
+            "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Entity Resolver",
+                "entity_scope": "L1HS",
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "matched_alias": "L1HS",
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                },
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": [
+                {
+                  "type": "TE",
+                  "canonical_label": "L1HS",
+                  "display_label": "L1HS",
+                  "matched_alias": "L1HS",
+                  "aliases": [
+                    "L1HS",
+                    "L1HS-Ta"
+                  ],
+                  "broad_aliases": [],
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                }
+              ]
+            },
+            "result_message": "These aliases will be reused by the graph, literature, genome, and sequence layers."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Entity Resolver",
+              "entity_scope": "L1HS",
+              "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "matched_alias": "L1HS",
+                "used_broad_alias": false,
+                "confidence": 0.93
+              },
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "coverage": {
+              "question_type": "genome",
+              "status": "ok",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "required_evidence": [
+                "genome"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": [
+                  {
+                    "type": "TE",
+                    "canonical_label": "L1HS",
+                    "display_label": "L1HS",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  }
+                ]
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "raw_preview": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 1,
+            "alias_variants": 2
+          },
+          "display_details": {
+            "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Entity Resolver",
+                "entity_scope": "L1HS",
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "matched_alias": "L1HS",
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                },
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": [
+                {
+                  "type": "TE",
+                  "canonical_label": "L1HS",
+                  "display_label": "L1HS",
+                  "matched_alias": "L1HS",
+                  "aliases": [
+                    "L1HS",
+                    "L1HS-Ta"
+                  ],
+                  "broad_aliases": [],
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                }
+              ]
+            },
+            "result_message": "These aliases will be reused by the graph, literature, genome, and sequence layers."
+          }
+        },
+        "display_text": "These aliases will be reused by the graph, literature, genome, and sequence layers.",
+        "sequence": 4
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-P5A_B_002",
+        "plugin_name": "Genome Plugin",
+        "message": "I will continue with the next highest-priority plugin for this simple question type.",
+        "node": "Deep Think",
+        "source": "Genome Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will continue with the next highest-priority plugin for this simple question type.",
+        "sequence": 5
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-P5A_B_002",
+        "plugin_name": "Genome Plugin",
+        "display_label": "Resolved 1 genomic loci",
+        "summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+        "message": "These loci are most useful as genomic context or browser entry points.",
+        "detail_payload_id": "tool-2",
+        "payload": {
+          "summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "chr1:231646101-231652225",
+              "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Genome Plugin",
+              "entity_scope": "",
+              "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Genome Plugin",
+              "meta": "",
+              "body": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "coverage": {
+              "question_type": "genome",
+              "status": "ok",
+              "result_counts": {
+                "loci": 1
+              },
+              "required_evidence": [
+                "genome"
+              ],
+              "latency_ms": 5
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Genome Plugin",
+              "status": "ok",
+              "query_summary": "Loaded representative genomic hits and browser loci for recognized TE entities.",
+              "display_summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+              "result_counts": {
+                "loci": 1
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "chr1:231646101-231652225",
+                  "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+                  "title": "Genome Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "te_name": "L1HS",
+                  "total_hits": 1620,
+                  "representative_locus": {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 231646101,
+                    "end": 231652225,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6124,
+                    "score": 25099
+                  },
+                  "sample_hits": [
+                    {
+                      "record_id": 3,
+                      "chrom": "chr1",
+                      "start": 231646101,
+                      "end": 231652225,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6124,
+                      "score": 25099
+                    },
+                    {
+                      "record_id": 2,
+                      "chrom": "chr1",
+                      "start": 174590323,
+                      "end": 174596379,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6056,
+                      "score": 28724
+                    },
+                    {
+                      "record_id": 2,
+                      "chrom": "chr1",
+                      "start": 193717837,
+                      "end": 193723892,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6055,
+                      "score": 28682
+                    },
+                    {
+                      "record_id": 1,
+                      "chrom": "chr1",
+                      "start": 80939203,
+                      "end": 80945257,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6054,
+                      "score": 28834
+                    },
+                    {
+                      "record_id": 3,
+                      "chrom": "chr1",
+                      "start": 209913771,
+                      "end": 209919823,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6052,
+                      "score": 27512
+                    }
+                  ],
+                  "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "te_name": "L1HS",
+              "total_hits": 1620,
+              "representative_locus": {
+                "record_id": 3,
+                "chrom": "chr1",
+                "start": 231646101,
+                "end": 231652225,
+                "strand": "-",
+                "class": "LINE",
+                "family": "L1",
+                "length": 6124,
+                "score": 25099
+              },
+              "sample_hits": [
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 174590323,
+                  "end": 174596379,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6056,
+                  "score": 28724
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 193717837,
+                  "end": 193723892,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6055,
+                  "score": 28682
+                },
+                {
+                  "record_id": 1,
+                  "chrom": "chr1",
+                  "start": 80939203,
+                  "end": 80945257,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6054,
+                  "score": 28834
+                },
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 209913771,
+                  "end": 209919823,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6052,
+                  "score": 27512
+                }
+              ],
+              "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "raw_preview": [
+            {
+              "te_name": "L1HS",
+              "total_hits": 1620,
+              "representative_locus": {
+                "record_id": 3,
+                "chrom": "chr1",
+                "start": 231646101,
+                "end": 231652225,
+                "strand": "-",
+                "class": "LINE",
+                "family": "L1",
+                "length": 6124,
+                "score": 25099
+              },
+              "sample_hits": [
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 174590323,
+                  "end": 174596379,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6056,
+                  "score": 28724
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 193717837,
+                  "end": 193723892,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6055,
+                  "score": 28682
+                },
+                {
+                  "record_id": 1,
+                  "chrom": "chr1",
+                  "start": 80939203,
+                  "end": 80945257,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6054,
+                  "score": 28834
+                },
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 209913771,
+                  "end": 209919823,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6052,
+                  "score": 27512
+                }
+              ],
+              "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "loci": 1
+          },
+          "display_details": {
+            "summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "chr1:231646101-231652225",
+                "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+              }
+            ],
+            "evidence_items": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "te_name": "L1HS",
+                "total_hits": 1620,
+                "representative_locus": {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                "sample_hits": [
+                  {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 231646101,
+                    "end": 231652225,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6124,
+                    "score": 25099
+                  },
+                  {
+                    "record_id": 2,
+                    "chrom": "chr1",
+                    "start": 174590323,
+                    "end": 174596379,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6056,
+                    "score": 28724
+                  },
+                  {
+                    "record_id": 2,
+                    "chrom": "chr1",
+                    "start": 193717837,
+                    "end": 193723892,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6055,
+                    "score": 28682
+                  },
+                  {
+                    "record_id": 1,
+                    "chrom": "chr1",
+                    "start": 80939203,
+                    "end": 80945257,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6054,
+                    "score": 28834
+                  },
+                  {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 209913771,
+                    "end": 209919823,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6052,
+                    "score": 27512
+                  }
+                ],
+                "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+              }
+            ],
+            "result_message": "These loci are most useful as genomic context or browser entry points."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Genome Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "chr1:231646101-231652225",
+              "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Genome Plugin",
+              "entity_scope": "",
+              "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Genome Plugin",
+              "meta": "",
+              "body": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "coverage": {
+              "question_type": "genome",
+              "status": "ok",
+              "result_counts": {
+                "loci": 1
+              },
+              "required_evidence": [
+                "genome"
+              ],
+              "latency_ms": 5
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Genome Plugin",
+              "status": "ok",
+              "query_summary": "Loaded representative genomic hits and browser loci for recognized TE entities.",
+              "display_summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+              "result_counts": {
+                "loci": 1
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "chr1:231646101-231652225",
+                  "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+                  "title": "Genome Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "te_name": "L1HS",
+                  "total_hits": 1620,
+                  "representative_locus": {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 231646101,
+                    "end": 231652225,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6124,
+                    "score": 25099
+                  },
+                  "sample_hits": [
+                    {
+                      "record_id": 3,
+                      "chrom": "chr1",
+                      "start": 231646101,
+                      "end": 231652225,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6124,
+                      "score": 25099
+                    },
+                    {
+                      "record_id": 2,
+                      "chrom": "chr1",
+                      "start": 174590323,
+                      "end": 174596379,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6056,
+                      "score": 28724
+                    },
+                    {
+                      "record_id": 2,
+                      "chrom": "chr1",
+                      "start": 193717837,
+                      "end": 193723892,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6055,
+                      "score": 28682
+                    },
+                    {
+                      "record_id": 1,
+                      "chrom": "chr1",
+                      "start": 80939203,
+                      "end": 80945257,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6054,
+                      "score": 28834
+                    },
+                    {
+                      "record_id": 3,
+                      "chrom": "chr1",
+                      "start": 209913771,
+                      "end": 209919823,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6052,
+                      "score": 27512
+                    }
+                  ],
+                  "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "te_name": "L1HS",
+              "total_hits": 1620,
+              "representative_locus": {
+                "record_id": 3,
+                "chrom": "chr1",
+                "start": 231646101,
+                "end": 231652225,
+                "strand": "-",
+                "class": "LINE",
+                "family": "L1",
+                "length": 6124,
+                "score": 25099
+              },
+              "sample_hits": [
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 174590323,
+                  "end": 174596379,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6056,
+                  "score": 28724
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 193717837,
+                  "end": 193723892,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6055,
+                  "score": 28682
+                },
+                {
+                  "record_id": 1,
+                  "chrom": "chr1",
+                  "start": 80939203,
+                  "end": 80945257,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6054,
+                  "score": 28834
+                },
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 209913771,
+                  "end": 209919823,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6052,
+                  "score": 27512
+                }
+              ],
+              "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "raw_preview": [
+            {
+              "te_name": "L1HS",
+              "total_hits": 1620,
+              "representative_locus": {
+                "record_id": 3,
+                "chrom": "chr1",
+                "start": 231646101,
+                "end": 231652225,
+                "strand": "-",
+                "class": "LINE",
+                "family": "L1",
+                "length": 6124,
+                "score": 25099
+              },
+              "sample_hits": [
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 174590323,
+                  "end": 174596379,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6056,
+                  "score": 28724
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 193717837,
+                  "end": 193723892,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6055,
+                  "score": 28682
+                },
+                {
+                  "record_id": 1,
+                  "chrom": "chr1",
+                  "start": 80939203,
+                  "end": 80945257,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6054,
+                  "score": 28834
+                },
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 209913771,
+                  "end": 209919823,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6052,
+                  "score": 27512
+                }
+              ],
+              "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "loci": 1
+          },
+          "display_details": {
+            "summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "chr1:231646101-231652225",
+                "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+              }
+            ],
+            "evidence_items": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "te_name": "L1HS",
+                "total_hits": 1620,
+                "representative_locus": {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                "sample_hits": [
+                  {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 231646101,
+                    "end": 231652225,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6124,
+                    "score": 25099
+                  },
+                  {
+                    "record_id": 2,
+                    "chrom": "chr1",
+                    "start": 174590323,
+                    "end": 174596379,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6056,
+                    "score": 28724
+                  },
+                  {
+                    "record_id": 2,
+                    "chrom": "chr1",
+                    "start": 193717837,
+                    "end": 193723892,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6055,
+                    "score": 28682
+                  },
+                  {
+                    "record_id": 1,
+                    "chrom": "chr1",
+                    "start": 80939203,
+                    "end": 80945257,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6054,
+                    "score": 28834
+                  },
+                  {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 209913771,
+                    "end": 209919823,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6052,
+                    "score": 27512
+                  }
+                ],
+                "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+              }
+            ],
+            "result_message": "These loci are most useful as genomic context or browser entry points."
+          }
+        },
+        "display_text": "These loci are most useful as genomic context or browser entry points.",
+        "sequence": 6
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-dt-P5A_B_002",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results"
+        ],
+        "outputs_changed": [
+          "plugin_queue"
+        ],
+        "message": "The currently collected evidence is enough to move into synthesis.",
+        "payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The genome layer already returned a direct usable hit, so no extra evidence layer is needed for this simple locus question."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "coverage": {
+                  "question_type": "genome",
+                  "status": "ok",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "required_evidence": [
+                    "genome"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "ok",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "body": "Strict aliases: L1HS, L1HS-Ta"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": [
+                      {
+                        "type": "TE",
+                        "canonical_label": "L1HS",
+                        "display_label": "L1HS",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "used_broad_alias": false,
+                        "confidence": 0.93
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "Genome Plugin": {
+              "plugin_name": "Genome Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+                ],
+                "coverage": {
+                  "question_type": "genome",
+                  "status": "ok",
+                  "result_counts": {
+                    "loci": 1
+                  },
+                  "required_evidence": [
+                    "genome"
+                  ],
+                  "latency_ms": 5
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Genome Plugin",
+                  "status": "ok",
+                  "query_summary": "Loaded representative genomic hits and browser loci for recognized TE entities.",
+                  "display_summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+                  "result_counts": {
+                    "loci": 1
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "chr1:231646101-231652225",
+                      "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+                      "title": "Genome Plugin",
+                      "meta": "",
+                      "support_strength": "medium"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": [
+                    {
+                      "te_name": "L1HS",
+                      "total_hits": 1620,
+                      "representative_locus": {
+                        "record_id": 3,
+                        "chrom": "chr1",
+                        "start": 231646101,
+                        "end": 231652225,
+                        "strand": "-",
+                        "class": "LINE",
+                        "family": "L1",
+                        "length": 6124,
+                        "score": 25099
+                      },
+                      "sample_hits": [
+                        {
+                          "record_id": 3,
+                          "chrom": "chr1",
+                          "start": 231646101,
+                          "end": 231652225,
+                          "strand": "-",
+                          "class": "LINE",
+                          "family": "L1",
+                          "length": 6124,
+                          "score": 25099
+                        },
+                        {
+                          "record_id": 2,
+                          "chrom": "chr1",
+                          "start": 174590323,
+                          "end": 174596379,
+                          "strand": "-",
+                          "class": "LINE",
+                          "family": "L1",
+                          "length": 6056,
+                          "score": 28724
+                        },
+                        {
+                          "record_id": 2,
+                          "chrom": "chr1",
+                          "start": 193717837,
+                          "end": 193723892,
+                          "strand": "-",
+                          "class": "LINE",
+                          "family": "L1",
+                          "length": 6055,
+                          "score": 28682
+                        },
+                        {
+                          "record_id": 1,
+                          "chrom": "chr1",
+                          "start": 80939203,
+                          "end": 80945257,
+                          "strand": "-",
+                          "class": "LINE",
+                          "family": "L1",
+                          "length": 6054,
+                          "score": 28834
+                        },
+                        {
+                          "record_id": 3,
+                          "chrom": "chr1",
+                          "start": 209913771,
+                          "end": 209919823,
+                          "strand": "-",
+                          "class": "LINE",
+                          "family": "L1",
+                          "length": 6052,
+                          "score": 27512
+                        }
+                      ],
+                      "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "message_payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The genome layer already returned a direct usable hit, so no extra evidence layer is needed for this simple locus question."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "coverage": {
+                  "question_type": "genome",
+                  "status": "ok",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "required_evidence": [
+                    "genome"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "ok",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "body": "Strict aliases: L1HS, L1HS-Ta"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": [
+                      {
+                        "type": "TE",
+                        "canonical_label": "L1HS",
+                        "display_label": "L1HS",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "used_broad_alias": false,
+                        "confidence": 0.93
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "Genome Plugin": {
+              "plugin_name": "Genome Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+                ],
+                "coverage": {
+                  "question_type": "genome",
+                  "status": "ok",
+                  "result_counts": {
+                    "loci": 1
+                  },
+                  "required_evidence": [
+                    "genome"
+                  ],
+                  "latency_ms": 5
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Genome Plugin",
+                  "status": "ok",
+                  "query_summary": "Loaded representative genomic hits and browser loci for recognized TE entities.",
+                  "display_summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+                  "result_counts": {
+                    "loci": 1
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "chr1:231646101-231652225",
+                      "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+                      "title": "Genome Plugin",
+                      "meta": "",
+                      "support_strength": "medium"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": [
+                    {
+                      "te_name": "L1HS",
+                      "total_hits": 1620,
+                      "representative_locus": {
+                        "record_id": 3,
+                        "chrom": "chr1",
+                        "start": 231646101,
+                        "end": 231652225,
+                        "strand": "-",
+                        "class": "LINE",
+                        "family": "L1",
+                        "length": 6124,
+                        "score": 25099
+                      },
+                      "sample_hits": [
+                        {
+                          "record_id": 3,
+                          "chrom": "chr1",
+                          "start": 231646101,
+                          "end": 231652225,
+                          "strand": "-",
+                          "class": "LINE",
+                          "family": "L1",
+                          "length": 6124,
+                          "score": 25099
+                        },
+                        {
+                          "record_id": 2,
+                          "chrom": "chr1",
+                          "start": 174590323,
+                          "end": 174596379,
+                          "strand": "-",
+                          "class": "LINE",
+                          "family": "L1",
+                          "length": 6056,
+                          "score": 28724
+                        },
+                        {
+                          "record_id": 2,
+                          "chrom": "chr1",
+                          "start": 193717837,
+                          "end": 193723892,
+                          "strand": "-",
+                          "class": "LINE",
+                          "family": "L1",
+                          "length": 6055,
+                          "score": 28682
+                        },
+                        {
+                          "record_id": 1,
+                          "chrom": "chr1",
+                          "start": 80939203,
+                          "end": 80945257,
+                          "strand": "-",
+                          "class": "LINE",
+                          "family": "L1",
+                          "length": 6054,
+                          "score": 28834
+                        },
+                        {
+                          "record_id": 3,
+                          "chrom": "chr1",
+                          "start": 209913771,
+                          "end": 209919823,
+                          "strand": "-",
+                          "class": "LINE",
+                          "family": "L1",
+                          "length": 6052,
+                          "score": 27512
+                        }
+                      ],
+                      "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "display_text": "The currently collected evidence is enough to move into synthesis.",
+        "sequence": 7
+      },
+      {
+        "type": "synthesizing",
+        "session_id": "eval-dt-P5A_B_002",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results",
+          "evidence_bundle",
+          "citation_bundle"
+        ],
+        "outputs_changed": [
+          "supported_claims",
+          "answer"
+        ],
+        "message": "I am now synthesizing the plugin results into a final answer.",
+        "payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "summary": "Strict aliases: L1HS, L1HS-Ta",
+                "citations": []
+              },
+              {
+                "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+                "summary": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "message_payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "summary": "Strict aliases: L1HS, L1HS-Ta",
+                "citations": []
+              },
+              {
+                "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+                "summary": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "display_text": "I am now synthesizing the plugin results into a final answer.",
+        "sequence": 8
+      },
+      {
+        "type": "answer",
+        "request_id": "req_eef71d19df87d902",
+        "session_id": "eval-dt-P5A_B_002",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "message": "L1HS is located on chromosome 1 at chr1:231646101-231652225 (representative locus).",
+        "language": "english",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "L1HS is located on chromosome 1 at chr1:231646101-231652225 (representative locus).",
+        "sequence": 9
+      },
+      {
+        "type": "done",
+        "request_id": "req_eef71d19df87d902",
+        "session_id": "eval-dt-P5A_B_002",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "payload": {
+          "answer": "L1HS is located on chromosome 1 at chr1:231646101-231652225 (representative locus).",
+          "language": "english",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "answer": "L1HS is located on chromosome 1 at chr1:231646101-231652225 (representative locus).",
+          "language": "english",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "display_text": "",
+        "sequence": 10
+      }
+    ],
+    "answer": "L1HS is located on chromosome 1 at chr1:231646101-231652225 (representative locus).",
+    "done_payload": {
+      "answer": "L1HS is located on chromosome 1 at chr1:231646101-231652225 (representative locus).",
+      "language": "english",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": ""
+    },
+    "used_plugins": [
+      "Entity Resolver",
+      "Genome Plugin"
+    ],
+    "citations": [],
+    "timings": {
+      "total_ms": 2694
+    },
+    "errors": []
+  },
+  "agent": {
+    "ok": true,
+    "http_status": 202,
+    "headers": {
+      "Date": "Tue, 26 May 2026 13:16:17 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Content-Length": "165",
+      "Connection": "close",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "create": {
+      "ok": true,
+      "run_id": "run_3d2b8994824aa4eb",
+      "request_id": "req_99299f560ad734bd",
+      "session_id": "eval-agent-P5A_B_002",
+      "status": "pending"
+    },
+    "run_id": "run_3d2b8994824aa4eb",
+    "run": {
+      "run_id": "run_3d2b8994824aa4eb",
+      "request_id": "req_99299f560ad734bd",
+      "session_id": "eval-agent-P5A_B_002",
+      "question": "Where is L1HS located in the genome?",
+      "mode": "academic",
+      "status": "completed",
+      "created_at": "2026-05-26T13:16:17+00:00",
+      "updated_at": "2026-05-26T13:17:03+00:00",
+      "started_at": "2026-05-26T13:16:17+00:00",
+      "finished_at": "2026-05-26T13:17:03+00:00",
+      "current_stage": "Writing",
+      "workflow_state": {
+        "current_stage": "Writing",
+        "stage_statuses": {
+          "Understanding": "done",
+          "Planning": "done",
+          "Collecting": "done",
+          "Executing": "done",
+          "Integrating": "done",
+          "Writing": "done"
+        },
+        "traversed_edges": [
+          "Understanding->Planning",
+          "Planning->Collecting",
+          "Collecting->Executing",
+          "Executing->Collecting",
+          "Executing->Integrating",
+          "Integrating->Writing"
+        ],
+        "complete": true
+      },
+      "events_count": 26,
+      "last_sequence": 26,
+      "answer": "## Question Scope\n\nThe query asks for the genomic location of the transposable element L1HS. A complete answer would typically specify a chromosome, cytogenetic band, or genomic coordinates. The current evidence package is limited to entity identification; no genomic positioning data were retrieved.\n\n## Key Findings\n\nThe entity L1HS was successfully resolved by the Entity Resolver plugin with two strict aliases: L1HS and L1HS‑Ta (support strength: high). No evidence providing a genomic location for L1HS was returned. The Genome Plugin was invoked but contributed no evidence items or citations to the package.\n\n## Evidence Review\n\nThe sole claim within the evidence chain originates from the Entity Resolver plugin: it confirms that L1HS was resolved with two strict alias variants and is well supported (high strength). However, this claim is restricted to entity resolution and does not address the location question. The Genome Plugin returned an “ok” status but yielded no location‑related evidence, citations, or routes. Consequently, the genomic location of L1HS is not established by the present evidence package.\n\n## Limitations\n\nA major limitation is the absence of genomic coordinates: no chromosome, start/end position, or cytogenetic band is available, constituting a complete gap with respect to the question. Additionally, no citations (PMIDs, DOIs, or database references) are attached to any claim or evidence item, leaving all statements unsourced. There is also uncertainty about pipeline completeness: the Genome Plugin ran without reported failure yet produced no output. It is unclear whether this reflects a true absence of L1HS location data in the plugin’s underlying database or a retrieval issue. The overall confidence is low, as indicated by the payload metadata.\n\n## Answer\n\nBased on the available evidence, the genomic location of L1HS cannot be determined. The entity L1HS was confirmed (with alias L1HS‑Ta), but no chromosome, coordinates, or regional annotation were retrieved. This represents a major evidence gap. Determining the location of L1HS would require a source such as RepeatMasker, the UCSC Genome Browser, or a reference database providing transposable element insertions for the human genome.",
+      "language": "english",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": "",
+      "error": "",
+      "used_plugins": [
+        "Entity Resolver",
+        "Genome Plugin"
+      ]
+    },
+    "events": [
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_002",
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "message": "Understanding",
+        "payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "display_text": "Understanding",
+        "sequence": 1
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-agent-P5A_B_002",
+        "message": "Recognized entities: L1HS via L1HS.",
+        "payload": {
+          "intent": "genome",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "genome",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "display_text": "Recognized entities: L1HS via L1HS.",
+        "sequence": 2
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-agent-P5A_B_002",
+        "message": "Question type: genome. Complexity: single_hop_reasoning.",
+        "payload": {
+          "intent": "genome",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "genome",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "display_text": "Question type: genome. Complexity: single_hop_reasoning.",
+        "sequence": 3
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-agent-P5A_B_002",
+        "message": "This is a quick lookup; Deep Think is usually faster. If you continue with Agent, I will collect evidence through the research workflow.",
+        "payload": {
+          "intent": "genome",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "genome",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "display_text": "This is a quick lookup; Deep Think is usually faster. If you continue with Agent, I will collect evidence through the research workflow.",
+        "sequence": 4
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_002",
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "message": "Planning",
+        "payload": {
+          "current_stage": "Planning",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "active",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Planning",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "active",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning"
+          ],
+          "complete": false
+        },
+        "display_text": "Planning",
+        "sequence": 5
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_002",
+        "message": "Current knowledge gap: entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted..",
+        "payload": {
+          "gap_type": "entity normalization",
+          "why_needed": "The system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+          "priority": 100,
+          "candidate_tools": [
+            "Entity Resolver"
+          ]
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "gap_type": "entity normalization",
+          "why_needed": "The system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+          "priority": 100,
+          "candidate_tools": [
+            "Entity Resolver"
+          ]
+        },
+        "display_text": "Current knowledge gap: entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted..",
+        "sequence": 6
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_002",
+        "message": "Current knowledge gap: literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps..",
+        "payload": {
+          "gap_type": "literature synthesis",
+          "why_needed": "Retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps.",
+          "priority": 72,
+          "candidate_tools": [
+            "Literature Reading Plugin"
+          ]
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "gap_type": "literature synthesis",
+          "why_needed": "Retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps.",
+          "priority": 72,
+          "candidate_tools": [
+            "Literature Reading Plugin"
+          ]
+        },
+        "display_text": "Current knowledge gap: literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps..",
+        "sequence": 7
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_002",
+        "message": "Resolve the canonical identity and alias boundaries for L1HS.",
+        "payload": {
+          "subtask": "Resolve the canonical identity and alias boundaries for L1HS."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Resolve the canonical identity and alias boundaries for L1HS."
+        },
+        "display_text": "Resolve the canonical identity and alias boundaries for L1HS.",
+        "sequence": 8
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_002",
+        "message": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+        "payload": {
+          "subtask": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted."
+        },
+        "display_text": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+        "sequence": 9
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_002",
+        "message": "Collect evidence for literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps.",
+        "payload": {
+          "subtask": "Collect evidence for literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Collect evidence for literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps."
+        },
+        "display_text": "Collect evidence for literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps.",
+        "sequence": 10
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_002",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "message": "Collecting",
+        "payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Collecting",
+        "sequence": 11
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_002",
+        "node": "Expert Execution Layer",
+        "source": "Expert Execution Layer",
+        "message": "Executing",
+        "payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing"
+          ],
+          "complete": false
+        },
+        "display_text": "Executing",
+        "sequence": 12
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-agent-P5A_B_002",
+        "plugin_name": "Entity Resolver",
+        "message": "I will stabilize entity names first so later evidence lookup does not drift across aliases.",
+        "node": "Evidence Collection Node",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will stabilize entity names first so later evidence lookup does not drift across aliases.",
+        "sequence": 13
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-agent-P5A_B_002",
+        "plugin_name": "Entity Resolver",
+        "display_label": "Resolved 1 entities",
+        "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+        "message": "These aliases will be reused by the graph, literature, genome, and sequence layers.",
+        "detail_payload_id": "tool-1",
+        "payload": {
+          "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Entity Resolver",
+              "entity_scope": "L1HS",
+              "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "matched_alias": "L1HS",
+                "used_broad_alias": false,
+                "confidence": 0.93
+              },
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "coverage": {
+              "question_type": "genome",
+              "status": "ok",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "required_evidence": [
+                "entity normalization",
+                "literature synthesis",
+                "genomic loci"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": [
+                  {
+                    "type": "TE",
+                    "canonical_label": "L1HS",
+                    "display_label": "L1HS",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  }
+                ]
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "raw_preview": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 1,
+            "alias_variants": 2
+          },
+          "display_details": {
+            "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Entity Resolver",
+                "entity_scope": "L1HS",
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "matched_alias": "L1HS",
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                },
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": [
+                {
+                  "type": "TE",
+                  "canonical_label": "L1HS",
+                  "display_label": "L1HS",
+                  "matched_alias": "L1HS",
+                  "aliases": [
+                    "L1HS",
+                    "L1HS-Ta"
+                  ],
+                  "broad_aliases": [],
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                }
+              ]
+            },
+            "result_message": "These aliases will be reused by the graph, literature, genome, and sequence layers."
+          }
+        },
+        "node": "Evidence Collection Node",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Entity Resolver",
+              "entity_scope": "L1HS",
+              "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "matched_alias": "L1HS",
+                "used_broad_alias": false,
+                "confidence": 0.93
+              },
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "coverage": {
+              "question_type": "genome",
+              "status": "ok",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "required_evidence": [
+                "entity normalization",
+                "literature synthesis",
+                "genomic loci"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": [
+                  {
+                    "type": "TE",
+                    "canonical_label": "L1HS",
+                    "display_label": "L1HS",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  }
+                ]
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "raw_preview": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 1,
+            "alias_variants": 2
+          },
+          "display_details": {
+            "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Entity Resolver",
+                "entity_scope": "L1HS",
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "matched_alias": "L1HS",
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                },
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": [
+                {
+                  "type": "TE",
+                  "canonical_label": "L1HS",
+                  "display_label": "L1HS",
+                  "matched_alias": "L1HS",
+                  "aliases": [
+                    "L1HS",
+                    "L1HS-Ta"
+                  ],
+                  "broad_aliases": [],
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                }
+              ]
+            },
+            "result_message": "These aliases will be reused by the graph, literature, genome, and sequence layers."
+          }
+        },
+        "display_text": "These aliases will be reused by the graph, literature, genome, and sequence layers.",
+        "sequence": 14
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-agent-P5A_B_002",
+        "plugin_name": "Entity Resolver",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "inputs_used": [
+          "collection_state",
+          "compressed_result",
+          "routing_policy"
+        ],
+        "outputs_changed": [
+          "sufficiency_decision",
+          "remaining_candidates",
+          "closed_gaps"
+        ],
+        "message": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases. Next queued tools: Genome Plugin. Sufficiency: The minimum evidence gate is still missing required dimensions.",
+        "payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver"
+            ],
+            "remaining_candidates": [
+              "Genome Plugin"
+            ],
+            "closed_gaps": [
+              "Entity Resolver"
+            ],
+            "active_gaps": [
+              "entity normalization",
+              "literature synthesis",
+              "genomic loci"
+            ],
+            "evidence_count": 1,
+            "citation_count": 0,
+            "question_type": "genome",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Genome Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Genome Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Genome Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "genome",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Genome Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": false,
+              "reason": "The minimum evidence gate is still missing required dimensions.",
+              "missing_dimensions": [
+                "none of the preferred experts produced a usable result"
+              ],
+              "recommended_next_experts": [
+                "Genome Plugin"
+              ]
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": false,
+            "reason": "The minimum evidence gate is still missing required dimensions.",
+            "missing_dimensions": [
+              "none of the preferred experts produced a usable result"
+            ],
+            "recommended_next_experts": [
+              "Genome Plugin"
+            ]
+          }
+        },
+        "message_payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver"
+            ],
+            "remaining_candidates": [
+              "Genome Plugin"
+            ],
+            "closed_gaps": [
+              "Entity Resolver"
+            ],
+            "active_gaps": [
+              "entity normalization",
+              "literature synthesis",
+              "genomic loci"
+            ],
+            "evidence_count": 1,
+            "citation_count": 0,
+            "question_type": "genome",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Genome Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Genome Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Genome Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "genome",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Genome Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": false,
+              "reason": "The minimum evidence gate is still missing required dimensions.",
+              "missing_dimensions": [
+                "none of the preferred experts produced a usable result"
+              ],
+              "recommended_next_experts": [
+                "Genome Plugin"
+              ]
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": false,
+            "reason": "The minimum evidence gate is still missing required dimensions.",
+            "missing_dimensions": [
+              "none of the preferred experts produced a usable result"
+            ],
+            "recommended_next_experts": [
+              "Genome Plugin"
+            ]
+          }
+        },
+        "display_text": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases. Next queued tools: Genome Plugin. Sufficiency: The minimum evidence gate is still missing required dimensions.",
+        "sequence": 15
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_002",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "message": "Collecting",
+        "payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Collecting",
+        "sequence": 16
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_002",
+        "node": "Expert Execution Layer",
+        "source": "Expert Execution Layer",
+        "message": "Executing",
+        "payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Executing",
+        "sequence": 17
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-agent-P5A_B_002",
+        "plugin_name": "Genome Plugin",
+        "message": "I will inspect the genome layer now because locus-level context is still relevant.",
+        "node": "Evidence Collection Node",
+        "source": "Genome Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will inspect the genome layer now because locus-level context is still relevant.",
+        "sequence": 18
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-agent-P5A_B_002",
+        "plugin_name": "Genome Plugin",
+        "display_label": "Resolved 1 genomic loci",
+        "summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+        "message": "These loci are most useful as genomic context or browser entry points.",
+        "detail_payload_id": "tool-2",
+        "payload": {
+          "summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "chr1:231646101-231652225",
+              "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Genome Plugin",
+              "entity_scope": "",
+              "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Genome Plugin",
+              "meta": "",
+              "body": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "coverage": {
+              "question_type": "genome",
+              "status": "ok",
+              "result_counts": {
+                "loci": 1
+              },
+              "required_evidence": [
+                "entity normalization",
+                "literature synthesis",
+                "genomic loci"
+              ],
+              "latency_ms": 2
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Genome Plugin",
+              "status": "ok",
+              "query_summary": "Loaded representative genomic hits and browser loci for recognized TE entities.",
+              "display_summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+              "result_counts": {
+                "loci": 1
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "chr1:231646101-231652225",
+                  "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+                  "title": "Genome Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "te_name": "L1HS",
+                  "total_hits": 1620,
+                  "representative_locus": {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 231646101,
+                    "end": 231652225,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6124,
+                    "score": 25099
+                  },
+                  "sample_hits": [
+                    {
+                      "record_id": 3,
+                      "chrom": "chr1",
+                      "start": 231646101,
+                      "end": 231652225,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6124,
+                      "score": 25099
+                    },
+                    {
+                      "record_id": 2,
+                      "chrom": "chr1",
+                      "start": 174590323,
+                      "end": 174596379,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6056,
+                      "score": 28724
+                    },
+                    {
+                      "record_id": 2,
+                      "chrom": "chr1",
+                      "start": 193717837,
+                      "end": 193723892,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6055,
+                      "score": 28682
+                    },
+                    {
+                      "record_id": 1,
+                      "chrom": "chr1",
+                      "start": 80939203,
+                      "end": 80945257,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6054,
+                      "score": 28834
+                    },
+                    {
+                      "record_id": 3,
+                      "chrom": "chr1",
+                      "start": 209913771,
+                      "end": 209919823,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6052,
+                      "score": 27512
+                    }
+                  ],
+                  "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "te_name": "L1HS",
+              "total_hits": 1620,
+              "representative_locus": {
+                "record_id": 3,
+                "chrom": "chr1",
+                "start": 231646101,
+                "end": 231652225,
+                "strand": "-",
+                "class": "LINE",
+                "family": "L1",
+                "length": 6124,
+                "score": 25099
+              },
+              "sample_hits": [
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 174590323,
+                  "end": 174596379,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6056,
+                  "score": 28724
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 193717837,
+                  "end": 193723892,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6055,
+                  "score": 28682
+                },
+                {
+                  "record_id": 1,
+                  "chrom": "chr1",
+                  "start": 80939203,
+                  "end": 80945257,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6054,
+                  "score": 28834
+                },
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 209913771,
+                  "end": 209919823,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6052,
+                  "score": 27512
+                }
+              ],
+              "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "raw_preview": [
+            {
+              "te_name": "L1HS",
+              "total_hits": 1620,
+              "representative_locus": {
+                "record_id": 3,
+                "chrom": "chr1",
+                "start": 231646101,
+                "end": 231652225,
+                "strand": "-",
+                "class": "LINE",
+                "family": "L1",
+                "length": 6124,
+                "score": 25099
+              },
+              "sample_hits": [
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 174590323,
+                  "end": 174596379,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6056,
+                  "score": 28724
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 193717837,
+                  "end": 193723892,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6055,
+                  "score": 28682
+                },
+                {
+                  "record_id": 1,
+                  "chrom": "chr1",
+                  "start": 80939203,
+                  "end": 80945257,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6054,
+                  "score": 28834
+                },
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 209913771,
+                  "end": 209919823,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6052,
+                  "score": 27512
+                }
+              ],
+              "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "loci": 1
+          },
+          "display_details": {
+            "summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "chr1:231646101-231652225",
+                "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+              }
+            ],
+            "evidence_items": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "te_name": "L1HS",
+                "total_hits": 1620,
+                "representative_locus": {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                "sample_hits": [
+                  {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 231646101,
+                    "end": 231652225,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6124,
+                    "score": 25099
+                  },
+                  {
+                    "record_id": 2,
+                    "chrom": "chr1",
+                    "start": 174590323,
+                    "end": 174596379,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6056,
+                    "score": 28724
+                  },
+                  {
+                    "record_id": 2,
+                    "chrom": "chr1",
+                    "start": 193717837,
+                    "end": 193723892,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6055,
+                    "score": 28682
+                  },
+                  {
+                    "record_id": 1,
+                    "chrom": "chr1",
+                    "start": 80939203,
+                    "end": 80945257,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6054,
+                    "score": 28834
+                  },
+                  {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 209913771,
+                    "end": 209919823,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6052,
+                    "score": 27512
+                  }
+                ],
+                "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+              }
+            ],
+            "result_message": "These loci are most useful as genomic context or browser entry points."
+          }
+        },
+        "node": "Evidence Collection Node",
+        "source": "Genome Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "chr1:231646101-231652225",
+              "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Genome Plugin",
+              "entity_scope": "",
+              "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Genome Plugin",
+              "meta": "",
+              "body": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "coverage": {
+              "question_type": "genome",
+              "status": "ok",
+              "result_counts": {
+                "loci": 1
+              },
+              "required_evidence": [
+                "entity normalization",
+                "literature synthesis",
+                "genomic loci"
+              ],
+              "latency_ms": 2
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Genome Plugin",
+              "status": "ok",
+              "query_summary": "Loaded representative genomic hits and browser loci for recognized TE entities.",
+              "display_summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+              "result_counts": {
+                "loci": 1
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "chr1:231646101-231652225",
+                  "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits",
+                  "title": "Genome Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "te_name": "L1HS",
+                  "total_hits": 1620,
+                  "representative_locus": {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 231646101,
+                    "end": 231652225,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6124,
+                    "score": 25099
+                  },
+                  "sample_hits": [
+                    {
+                      "record_id": 3,
+                      "chrom": "chr1",
+                      "start": 231646101,
+                      "end": 231652225,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6124,
+                      "score": 25099
+                    },
+                    {
+                      "record_id": 2,
+                      "chrom": "chr1",
+                      "start": 174590323,
+                      "end": 174596379,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6056,
+                      "score": 28724
+                    },
+                    {
+                      "record_id": 2,
+                      "chrom": "chr1",
+                      "start": 193717837,
+                      "end": 193723892,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6055,
+                      "score": 28682
+                    },
+                    {
+                      "record_id": 1,
+                      "chrom": "chr1",
+                      "start": 80939203,
+                      "end": 80945257,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6054,
+                      "score": 28834
+                    },
+                    {
+                      "record_id": 3,
+                      "chrom": "chr1",
+                      "start": 209913771,
+                      "end": 209919823,
+                      "strand": "-",
+                      "class": "LINE",
+                      "family": "L1",
+                      "length": 6052,
+                      "score": 27512
+                    }
+                  ],
+                  "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "te_name": "L1HS",
+              "total_hits": 1620,
+              "representative_locus": {
+                "record_id": 3,
+                "chrom": "chr1",
+                "start": 231646101,
+                "end": 231652225,
+                "strand": "-",
+                "class": "LINE",
+                "family": "L1",
+                "length": 6124,
+                "score": 25099
+              },
+              "sample_hits": [
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 174590323,
+                  "end": 174596379,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6056,
+                  "score": 28724
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 193717837,
+                  "end": 193723892,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6055,
+                  "score": 28682
+                },
+                {
+                  "record_id": 1,
+                  "chrom": "chr1",
+                  "start": 80939203,
+                  "end": 80945257,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6054,
+                  "score": 28834
+                },
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 209913771,
+                  "end": 209919823,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6052,
+                  "score": 27512
+                }
+              ],
+              "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "raw_preview": [
+            {
+              "te_name": "L1HS",
+              "total_hits": 1620,
+              "representative_locus": {
+                "record_id": 3,
+                "chrom": "chr1",
+                "start": 231646101,
+                "end": 231652225,
+                "strand": "-",
+                "class": "LINE",
+                "family": "L1",
+                "length": 6124,
+                "score": 25099
+              },
+              "sample_hits": [
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 174590323,
+                  "end": 174596379,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6056,
+                  "score": 28724
+                },
+                {
+                  "record_id": 2,
+                  "chrom": "chr1",
+                  "start": 193717837,
+                  "end": 193723892,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6055,
+                  "score": 28682
+                },
+                {
+                  "record_id": 1,
+                  "chrom": "chr1",
+                  "start": 80939203,
+                  "end": 80945257,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6054,
+                  "score": 28834
+                },
+                {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 209913771,
+                  "end": 209919823,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6052,
+                  "score": 27512
+                }
+              ],
+              "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "loci": 1
+          },
+          "display_details": {
+            "summary": "I located representative genomic loci and browser entry points that can be used as supporting genomic context.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "chr1:231646101-231652225",
+                "url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+              }
+            ],
+            "evidence_items": [
+              "L1HS representative locus: chr1:231646101-231652225 with 1620 total hits"
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "te_name": "L1HS",
+                "total_hits": 1620,
+                "representative_locus": {
+                  "record_id": 3,
+                  "chrom": "chr1",
+                  "start": 231646101,
+                  "end": 231652225,
+                  "strand": "-",
+                  "class": "LINE",
+                  "family": "L1",
+                  "length": 6124,
+                  "score": 25099
+                },
+                "sample_hits": [
+                  {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 231646101,
+                    "end": 231652225,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6124,
+                    "score": 25099
+                  },
+                  {
+                    "record_id": 2,
+                    "chrom": "chr1",
+                    "start": 174590323,
+                    "end": 174596379,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6056,
+                    "score": 28724
+                  },
+                  {
+                    "record_id": 2,
+                    "chrom": "chr1",
+                    "start": 193717837,
+                    "end": 193723892,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6055,
+                    "score": 28682
+                  },
+                  {
+                    "record_id": 1,
+                    "chrom": "chr1",
+                    "start": 80939203,
+                    "end": 80945257,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6054,
+                    "score": 28834
+                  },
+                  {
+                    "record_id": 3,
+                    "chrom": "chr1",
+                    "start": 209913771,
+                    "end": 209919823,
+                    "strand": "-",
+                    "class": "LINE",
+                    "family": "L1",
+                    "length": 6052,
+                    "score": 27512
+                  }
+                ],
+                "jbrowse_url": "/TE-/jbrowse.php?te=L1HS&chr=chr1&start=231646101&end=231652225"
+              }
+            ],
+            "result_message": "These loci are most useful as genomic context or browser entry points."
+          }
+        },
+        "display_text": "These loci are most useful as genomic context or browser entry points.",
+        "sequence": 19
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-agent-P5A_B_002",
+        "plugin_name": "Genome Plugin",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "inputs_used": [
+          "collection_state",
+          "compressed_result",
+          "routing_policy"
+        ],
+        "outputs_changed": [
+          "sufficiency_decision",
+          "remaining_candidates",
+          "closed_gaps"
+        ],
+        "message": "I located representative genomic loci and browser entry points that can be used as supporting genomic context. No additional tools are currently queued. Sufficiency: The primary path has already produced enough evidence for this question type.",
+        "payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver",
+              "Genome Plugin"
+            ],
+            "remaining_candidates": [],
+            "closed_gaps": [
+              "Entity Resolver",
+              "Genome Plugin"
+            ],
+            "active_gaps": [
+              "entity normalization",
+              "literature synthesis",
+              "genomic loci"
+            ],
+            "evidence_count": 2,
+            "citation_count": 0,
+            "question_type": "genome",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Genome Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Genome Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Genome Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "genome",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Genome Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": true,
+              "reason": "The primary path has already produced enough evidence for this question type.",
+              "missing_dimensions": [],
+              "recommended_next_experts": []
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": true,
+            "reason": "The primary path has already produced enough evidence for this question type.",
+            "missing_dimensions": [],
+            "recommended_next_experts": []
+          }
+        },
+        "message_payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver",
+              "Genome Plugin"
+            ],
+            "remaining_candidates": [],
+            "closed_gaps": [
+              "Entity Resolver",
+              "Genome Plugin"
+            ],
+            "active_gaps": [
+              "entity normalization",
+              "literature synthesis",
+              "genomic loci"
+            ],
+            "evidence_count": 2,
+            "citation_count": 0,
+            "question_type": "genome",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Genome Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Genome Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Genome Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "genome",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Genome Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": true,
+              "reason": "The primary path has already produced enough evidence for this question type.",
+              "missing_dimensions": [],
+              "recommended_next_experts": []
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": true,
+            "reason": "The primary path has already produced enough evidence for this question type.",
+            "missing_dimensions": [],
+            "recommended_next_experts": []
+          }
+        },
+        "display_text": "I located representative genomic loci and browser entry points that can be used as supporting genomic context. No additional tools are currently queued. Sufficiency: The primary path has already produced enough evidence for this question type.",
+        "sequence": 20
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_002",
+        "node": "Evidence Synthesis Node",
+        "source": "Evidence Synthesis Node",
+        "message": "Integrating",
+        "payload": {
+          "current_stage": "Integrating",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "active",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Integrating",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "active",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating"
+          ],
+          "complete": false
+        },
+        "display_text": "Integrating",
+        "sequence": 21
+      },
+      {
+        "type": "synthesizing",
+        "session_id": "eval-agent-P5A_B_002",
+        "node": "Evidence Synthesis Node",
+        "source": "Evidence Synthesis Node",
+        "inputs_used": [
+          "result_envelopes",
+          "evidence_package"
+        ],
+        "outputs_changed": [
+          "evidence_package",
+          "evidence_walk",
+          "report_plan",
+          "supported_claims",
+          "conflicting_claims",
+          "missing_evidence",
+          "claim_clusters",
+          "answer_structure"
+        ],
+        "message": "I am now synthesizing the resolved entities, 3 identified knowledge gaps, and 2 evidence items into a coherent answer. Tools used: Entity Resolver, Genome Plugin.",
+        "payload": {
+          "evidence_package": {
+            "schema_version": "evidence_package.v1",
+            "question": "Where is L1HS located in the genome?",
+            "generated_at": "2026-05-26T13:16:18+00:00",
+            "claims": [
+              {
+                "id": "claim_1",
+                "text": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "source_plugin": "Entity Resolver",
+                "intent": "genome",
+                "status": "ok",
+                "confidence": null,
+                "evidence_ids": [
+                  "evidence_1"
+                ],
+                "citation_ids": [],
+                "route_ids": []
+              }
+            ],
+            "evidence_items": [
+              {
+                "id": "evidence_1",
+                "claim_id": "claim_1",
+                "plugin": "Entity Resolver",
+                "intent": "genome",
+                "text": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw": {
+                  "source_plugin": "Entity Resolver",
+                  "entity_scope": "L1HS",
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "support_strength": "high",
+                  "raw_source_ref": {
+                    "matched_alias": "L1HS",
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  },
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              }
+            ],
+            "citation_map": [],
+            "route_map": [],
+            "metrics": {
+              "plugin_count": 2,
+              "claim_count": 1,
+              "evidence_count": 1,
+              "citation_count": 0,
+              "route_count": 0,
+              "empty_plugin_count": 0,
+              "failed_plugin_count": 0,
+              "statuses": {
+                "Entity Resolver": "ok",
+                "Genome Plugin": "ok"
+              }
+            },
+            "limits": {
+              "summary_max_chars": 640,
+              "truncation_count": 0,
+              "truncated_summaries": []
+            },
+            "errors": []
+          },
+          "evidence_walk": {
+            "schema_version": "evidence_walk.v1",
+            "generated_at": "2026-05-26T13:16:18+00:00",
+            "walk_steps": [
+              {
+                "id": "walk_step_1",
+                "claim_node_id": "claim_node_1",
+                "claim_id": "claim_1",
+                "order": 1,
+                "operation": "collect_evidence_claim",
+                "summary": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "evidence_ids": [
+                  "evidence_1"
+                ],
+                "citation_refs": [],
+                "route_refs": []
+              }
+            ],
+            "claim_nodes": [
+              {
+                "id": "claim_node_1",
+                "claim_id": "claim_1",
+                "text": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "source_plugin": "Entity Resolver",
+                "intent": "genome",
+                "status": "ok",
+                "confidence": null,
+                "evidence_ids": [
+                  "evidence_1"
+                ],
+                "citation_ids": [],
+                "route_ids": []
+              }
+            ],
+            "support_edges": [
+              {
+                "id": "support_edge_1",
+                "claim_node_id": "claim_node_1",
+                "claim_id": "claim_1",
+                "evidence_id": "evidence_1",
+                "support_strength": "high"
+              }
+            ],
+            "citation_refs": [],
+            "route_refs": [],
+            "gaps": [],
+            "coverage_metrics": {
+              "claim_node_count": 1,
+              "walk_step_count": 1,
+              "support_edge_count": 1,
+              "citation_ref_count": 0,
+              "route_ref_count": 0,
+              "gap_count": 0,
+              "has_minimum_evidence": true,
+              "source_claim_count": 1,
+              "source_evidence_count": 1,
+              "selected_plugin_count": 0,
+              "sufficiency_status": "unknown"
+            }
+          },
+          "report_plan": {
+            "schema_version": "report_plan.v1",
+            "question": "Where is L1HS located in the genome?",
+            "report_type": "research_report",
+            "generated_at": "2026-05-26T13:16:33+00:00",
+            "sections": [
+              {
+                "id": "section_1",
+                "key": "question_scope",
+                "title": "Question Scope",
+                "purpose": "Organize evidence for this report section."
+              },
+              {
+                "id": "section_2",
+                "key": "key_findings",
+                "title": "Key Findings",
+                "purpose": "Organize evidence for this report section."
+              },
+              {
+                "id": "section_3",
+                "key": "evidence_review",
+                "title": "Evidence Review",
+                "purpose": "Summarize supporting evidence and provenance."
+              },
+              {
+                "id": "section_4",
+                "key": "limitations",
+                "title": "Limitations",
+                "purpose": "Surface evidence gaps and uncertainty."
+              },
+              {
+                "id": "section_5",
+                "key": "answer",
+                "title": "Answer",
+                "purpose": "Provide the final concise answer."
+              }
+            ],
+            "claim_sequence": [
+              {
+                "id": "claim_sequence_1",
+                "claim_node_id": "claim_node_1",
+                "claim_id": "claim_1",
+                "order": 1,
+                "role": "primary_support",
+                "section_key": "key_findings"
+              }
+            ],
+            "citation_policy": {
+              "mode": "inline_required",
+              "minimum_citations_per_claim": 1,
+              "allow_uncited_claims": false
+            },
+            "gap_policy": {
+              "mode": "note_if_relevant",
+              "gap_count": 0,
+              "include_limitations_section": true
+            },
+            "coverage_metrics": {
+              "claim_node_count": 1,
+              "walk_step_count": 1,
+              "support_edge_count": 1,
+              "citation_ref_count": 0,
+              "route_ref_count": 0,
+              "gap_count": 0,
+              "has_minimum_evidence": true,
+              "source_claim_count": 1,
+              "source_evidence_count": 1,
+              "selected_plugin_count": 0,
+              "sufficiency_status": "unknown"
+            }
+          },
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "summary": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "citations": []
+              }
+            ]
+          },
+          "answer_structure": {
+            "response_mode": "evidence_summary",
+            "opening_claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+            "section_plan": [
+              "Main judgment",
+              "Supporting evidence",
+              "Evidence gaps and limits"
+            ],
+            "claim_order": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "citation_policy": "Use PMID-style in-text citations when available.",
+            "uncertainty_notes": []
+          }
+        },
+        "message_payload": {
+          "evidence_package": {
+            "schema_version": "evidence_package.v1",
+            "question": "Where is L1HS located in the genome?",
+            "generated_at": "2026-05-26T13:16:18+00:00",
+            "claims": [
+              {
+                "id": "claim_1",
+                "text": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "source_plugin": "Entity Resolver",
+                "intent": "genome",
+                "status": "ok",
+                "confidence": null,
+                "evidence_ids": [
+                  "evidence_1"
+                ],
+                "citation_ids": [],
+                "route_ids": []
+              }
+            ],
+            "evidence_items": [
+              {
+                "id": "evidence_1",
+                "claim_id": "claim_1",
+                "plugin": "Entity Resolver",
+                "intent": "genome",
+                "text": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw": {
+                  "source_plugin": "Entity Resolver",
+                  "entity_scope": "L1HS",
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "support_strength": "high",
+                  "raw_source_ref": {
+                    "matched_alias": "L1HS",
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  },
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              }
+            ],
+            "citation_map": [],
+            "route_map": [],
+            "metrics": {
+              "plugin_count": 2,
+              "claim_count": 1,
+              "evidence_count": 1,
+              "citation_count": 0,
+              "route_count": 0,
+              "empty_plugin_count": 0,
+              "failed_plugin_count": 0,
+              "statuses": {
+                "Entity Resolver": "ok",
+                "Genome Plugin": "ok"
+              }
+            },
+            "limits": {
+              "summary_max_chars": 640,
+              "truncation_count": 0,
+              "truncated_summaries": []
+            },
+            "errors": []
+          },
+          "evidence_walk": {
+            "schema_version": "evidence_walk.v1",
+            "generated_at": "2026-05-26T13:16:18+00:00",
+            "walk_steps": [
+              {
+                "id": "walk_step_1",
+                "claim_node_id": "claim_node_1",
+                "claim_id": "claim_1",
+                "order": 1,
+                "operation": "collect_evidence_claim",
+                "summary": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "evidence_ids": [
+                  "evidence_1"
+                ],
+                "citation_refs": [],
+                "route_refs": []
+              }
+            ],
+            "claim_nodes": [
+              {
+                "id": "claim_node_1",
+                "claim_id": "claim_1",
+                "text": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "source_plugin": "Entity Resolver",
+                "intent": "genome",
+                "status": "ok",
+                "confidence": null,
+                "evidence_ids": [
+                  "evidence_1"
+                ],
+                "citation_ids": [],
+                "route_ids": []
+              }
+            ],
+            "support_edges": [
+              {
+                "id": "support_edge_1",
+                "claim_node_id": "claim_node_1",
+                "claim_id": "claim_1",
+                "evidence_id": "evidence_1",
+                "support_strength": "high"
+              }
+            ],
+            "citation_refs": [],
+            "route_refs": [],
+            "gaps": [],
+            "coverage_metrics": {
+              "claim_node_count": 1,
+              "walk_step_count": 1,
+              "support_edge_count": 1,
+              "citation_ref_count": 0,
+              "route_ref_count": 0,
+              "gap_count": 0,
+              "has_minimum_evidence": true,
+              "source_claim_count": 1,
+              "source_evidence_count": 1,
+              "selected_plugin_count": 0,
+              "sufficiency_status": "unknown"
+            }
+          },
+          "report_plan": {
+            "schema_version": "report_plan.v1",
+            "question": "Where is L1HS located in the genome?",
+            "report_type": "research_report",
+            "generated_at": "2026-05-26T13:16:33+00:00",
+            "sections": [
+              {
+                "id": "section_1",
+                "key": "question_scope",
+                "title": "Question Scope",
+                "purpose": "Organize evidence for this report section."
+              },
+              {
+                "id": "section_2",
+                "key": "key_findings",
+                "title": "Key Findings",
+                "purpose": "Organize evidence for this report section."
+              },
+              {
+                "id": "section_3",
+                "key": "evidence_review",
+                "title": "Evidence Review",
+                "purpose": "Summarize supporting evidence and provenance."
+              },
+              {
+                "id": "section_4",
+                "key": "limitations",
+                "title": "Limitations",
+                "purpose": "Surface evidence gaps and uncertainty."
+              },
+              {
+                "id": "section_5",
+                "key": "answer",
+                "title": "Answer",
+                "purpose": "Provide the final concise answer."
+              }
+            ],
+            "claim_sequence": [
+              {
+                "id": "claim_sequence_1",
+                "claim_node_id": "claim_node_1",
+                "claim_id": "claim_1",
+                "order": 1,
+                "role": "primary_support",
+                "section_key": "key_findings"
+              }
+            ],
+            "citation_policy": {
+              "mode": "inline_required",
+              "minimum_citations_per_claim": 1,
+              "allow_uncited_claims": false
+            },
+            "gap_policy": {
+              "mode": "note_if_relevant",
+              "gap_count": 0,
+              "include_limitations_section": true
+            },
+            "coverage_metrics": {
+              "claim_node_count": 1,
+              "walk_step_count": 1,
+              "support_edge_count": 1,
+              "citation_ref_count": 0,
+              "route_ref_count": 0,
+              "gap_count": 0,
+              "has_minimum_evidence": true,
+              "source_claim_count": 1,
+              "source_evidence_count": 1,
+              "selected_plugin_count": 0,
+              "sufficiency_status": "unknown"
+            }
+          },
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "summary": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "citations": []
+              }
+            ]
+          },
+          "answer_structure": {
+            "response_mode": "evidence_summary",
+            "opening_claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+            "section_plan": [
+              "Main judgment",
+              "Supporting evidence",
+              "Evidence gaps and limits"
+            ],
+            "claim_order": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "citation_policy": "Use PMID-style in-text citations when available.",
+            "uncertainty_notes": []
+          }
+        },
+        "display_text": "I am now synthesizing the resolved entities, 3 identified knowledge gaps, and 2 evidence items into a coherent answer. Tools used: Entity Resolver, Genome Plugin.",
+        "sequence": 22
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_002",
+        "node": "Answer Writer Node",
+        "source": "Answer Writer Node",
+        "message": "Writing",
+        "payload": {
+          "current_stage": "Writing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "done",
+            "Writing": "active"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating",
+            "Integrating->Writing"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Writing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "done",
+            "Writing": "active"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating",
+            "Integrating->Writing"
+          ],
+          "complete": false
+        },
+        "display_text": "Writing",
+        "sequence": 23
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_002",
+        "node": "Answer Writer Node",
+        "source": "Answer Writer Node",
+        "message": "Writing",
+        "payload": {
+          "current_stage": "Writing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "done",
+            "Writing": "done"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating",
+            "Integrating->Writing"
+          ],
+          "complete": true
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Writing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "done",
+            "Writing": "done"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating",
+            "Integrating->Writing"
+          ],
+          "complete": true
+        },
+        "display_text": "Writing",
+        "sequence": 24
+      },
+      {
+        "type": "answer",
+        "request_id": "req_99299f560ad734bd",
+        "session_id": "eval-agent-P5A_B_002",
+        "language": "english",
+        "message": "## Question Scope\n\nThe query asks for the genomic location of the transposable element L1HS. A complete answer would typically specify a chromosome, cytogenetic band, or genomic coordinates. The current evidence package is limited to entity identification; no genomic positioning data were retrieved.\n\n## Key Findings\n\nThe entity L1HS was successfully resolved by the Entity Resolver plugin with two strict aliases: L1HS and L1HS‑Ta (support strength: high). No evidence providing a genomic location for L1HS was returned. The Genome Plugin was invoked but contributed no evidence items or citations to the package.\n\n## Evidence Review\n\nThe sole claim within the evidence chain originates from the Entity Resolver plugin: it confirms that L1HS was resolved with two strict alias variants and is well supported (high strength). However, this claim is restricted to entity resolution and does not address the location question. The Genome Plugin returned an “ok” status but yielded no location‑related evidence, citations, or routes. Consequently, the genomic location of L1HS is not established by the present evidence package.\n\n## Limitations\n\nA major limitation is the absence of genomic coordinates: no chromosome, start/end position, or cytogenetic band is available, constituting a complete gap with respect to the question. Additionally, no citations (PMIDs, DOIs, or database references) are attached to any claim or evidence item, leaving all statements unsourced. There is also uncertainty about pipeline completeness: the Genome Plugin ran without reported failure yet produced no output. It is unclear whether this reflects a true absence of L1HS location data in the plugin’s underlying database or a retrieval issue. The overall confidence is low, as indicated by the payload metadata.\n\n## Answer\n\nBased on the available evidence, the genomic location of L1HS cannot be determined. The entity L1HS was confirmed (with alias L1HS‑Ta), but no chromosome, coordinates, or regional annotation were retrieved. This represents a major evidence gap. Determining the location of L1HS would require a source such as RepeatMasker, the UCSC Genome Browser, or a reference database providing transposable element insertions for the human genome.",
+        "node": "Answer Writer Node",
+        "source": "Answer Writer Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "## Question Scope\n\nThe query asks for the genomic location of the transposable element L1HS. A complete answer would typically specify a chromosome, cytogenetic band, or genomic coordinates. The current evidence package is limited to entity identification; no genomic positioning data were retrieved.\n\n## Key Findings\n\nThe entity L1HS was successfully resolved by the Entity Resolver plugin with two strict aliases: L1HS and L1HS‑Ta (support strength: high). No evidence providing a genomic location for L1HS was returned. The Genome Plugin was invoked but contributed no evidence items or citations to the package.\n\n## Evidence Review\n\nThe sole claim within the evidence chain originates from the Entity Resolver plugin: it confirms that L1HS was resolved with two strict alias variants and is well supported (high strength). However, this claim is restricted to entity resolution and does not address the location question. The Genome Plugin returned an “ok” status but yielded no location‑related evidence, citations, or routes. Consequently, the genomic location of L1HS is not established by the present evidence package.\n\n## Limitations\n\nA major limitation is the absence of genomic coordinates: no chromosome, start/end position, or cytogenetic band is available, constituting a complete gap with respect to the question. Additionally, no citations (PMIDs, DOIs, or database references) are attached to any claim or evidence item, leaving all statements unsourced. There is also uncertainty about pipeline completeness: the Genome Plugin ran without reported failure yet produced no output. It is unclear whether this reflects a true absence of L1HS location data in the plugin’s underlying database or a retrieval issue. The overall confidence is low, as indicated by the payload metadata.\n\n## Answer\n\nBased on the available evidence, the genomic location of L1HS cannot be determined. The entity L1HS was confirmed (with alias L1HS‑Ta), but no chromosome, coordinates, or regional annotation were retrieved. This represents a major evidence gap. Determining the location of L1HS would require a source such as RepeatMasker, the UCSC Genome Browser, or a reference database providing transposable element insertions for the human genome.",
+        "sequence": 25
+      },
+      {
+        "type": "done",
+        "request_id": "req_99299f560ad734bd",
+        "session_id": "eval-agent-P5A_B_002",
+        "payload": {
+          "confidence": "low",
+          "used_plugins": [
+            "Entity Resolver",
+            "Genome Plugin"
+          ],
+          "answer": "## Question Scope\n\nThe query asks for the genomic location of the transposable element L1HS. A complete answer would typically specify a chromosome, cytogenetic band, or genomic coordinates. The current evidence package is limited to entity identification; no genomic positioning data were retrieved.\n\n## Key Findings\n\nThe entity L1HS was successfully resolved by the Entity Resolver plugin with two strict aliases: L1HS and L1HS‑Ta (support strength: high). No evidence providing a genomic location for L1HS was returned. The Genome Plugin was invoked but contributed no evidence items or citations to the package.\n\n## Evidence Review\n\nThe sole claim within the evidence chain originates from the Entity Resolver plugin: it confirms that L1HS was resolved with two strict alias variants and is well supported (high strength). However, this claim is restricted to entity resolution and does not address the location question. The Genome Plugin returned an “ok” status but yielded no location‑related evidence, citations, or routes. Consequently, the genomic location of L1HS is not established by the present evidence package.\n\n## Limitations\n\nA major limitation is the absence of genomic coordinates: no chromosome, start/end position, or cytogenetic band is available, constituting a complete gap with respect to the question. Additionally, no citations (PMIDs, DOIs, or database references) are attached to any claim or evidence item, leaving all statements unsourced. There is also uncertainty about pipeline completeness: the Genome Plugin ran without reported failure yet produced no output. It is unclear whether this reflects a true absence of L1HS location data in the plugin’s underlying database or a retrieval issue. The overall confidence is low, as indicated by the payload metadata.\n\n## Answer\n\nBased on the available evidence, the genomic location of L1HS cannot be determined. The entity L1HS was confirmed (with alias L1HS‑Ta), but no chromosome, coordinates, or regional annotation were retrieved. This represents a major evidence gap. Determining the location of L1HS would require a source such as RepeatMasker, the UCSC Genome Browser, or a reference database providing transposable element insertions for the human genome.",
+          "language": "english",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": "",
+          "workflow_state": {
+            "current_stage": "Writing",
+            "stage_statuses": {
+              "Understanding": "done",
+              "Planning": "done",
+              "Collecting": "done",
+              "Executing": "done",
+              "Integrating": "done",
+              "Writing": "done"
+            },
+            "traversed_edges": [
+              "Understanding->Planning",
+              "Planning->Collecting",
+              "Collecting->Executing",
+              "Executing->Collecting",
+              "Executing->Integrating",
+              "Integrating->Writing"
+            ],
+            "complete": true
+          }
+        },
+        "node": "Process Narrator Node",
+        "source": "Process Narrator Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "confidence": "low",
+          "used_plugins": [
+            "Entity Resolver",
+            "Genome Plugin"
+          ],
+          "answer": "## Question Scope\n\nThe query asks for the genomic location of the transposable element L1HS. A complete answer would typically specify a chromosome, cytogenetic band, or genomic coordinates. The current evidence package is limited to entity identification; no genomic positioning data were retrieved.\n\n## Key Findings\n\nThe entity L1HS was successfully resolved by the Entity Resolver plugin with two strict aliases: L1HS and L1HS‑Ta (support strength: high). No evidence providing a genomic location for L1HS was returned. The Genome Plugin was invoked but contributed no evidence items or citations to the package.\n\n## Evidence Review\n\nThe sole claim within the evidence chain originates from the Entity Resolver plugin: it confirms that L1HS was resolved with two strict alias variants and is well supported (high strength). However, this claim is restricted to entity resolution and does not address the location question. The Genome Plugin returned an “ok” status but yielded no location‑related evidence, citations, or routes. Consequently, the genomic location of L1HS is not established by the present evidence package.\n\n## Limitations\n\nA major limitation is the absence of genomic coordinates: no chromosome, start/end position, or cytogenetic band is available, constituting a complete gap with respect to the question. Additionally, no citations (PMIDs, DOIs, or database references) are attached to any claim or evidence item, leaving all statements unsourced. There is also uncertainty about pipeline completeness: the Genome Plugin ran without reported failure yet produced no output. It is unclear whether this reflects a true absence of L1HS location data in the plugin’s underlying database or a retrieval issue. The overall confidence is low, as indicated by the payload metadata.\n\n## Answer\n\nBased on the available evidence, the genomic location of L1HS cannot be determined. The entity L1HS was confirmed (with alias L1HS‑Ta), but no chromosome, coordinates, or regional annotation were retrieved. This represents a major evidence gap. Determining the location of L1HS would require a source such as RepeatMasker, the UCSC Genome Browser, or a reference database providing transposable element insertions for the human genome.",
+          "language": "english",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": "",
+          "workflow_state": {
+            "current_stage": "Writing",
+            "stage_statuses": {
+              "Understanding": "done",
+              "Planning": "done",
+              "Collecting": "done",
+              "Executing": "done",
+              "Integrating": "done",
+              "Writing": "done"
+            },
+            "traversed_edges": [
+              "Understanding->Planning",
+              "Planning->Collecting",
+              "Collecting->Executing",
+              "Executing->Collecting",
+              "Executing->Integrating",
+              "Integrating->Writing"
+            ],
+            "complete": true
+          }
+        },
+        "display_text": "",
+        "sequence": 26
+      }
+    ],
+    "answer": "## Question Scope\n\nThe query asks for the genomic location of the transposable element L1HS. A complete answer would typically specify a chromosome, cytogenetic band, or genomic coordinates. The current evidence package is limited to entity identification; no genomic positioning data were retrieved.\n\n## Key Findings\n\nThe entity L1HS was successfully resolved by the Entity Resolver plugin with two strict aliases: L1HS and L1HS‑Ta (support strength: high). No evidence providing a genomic location for L1HS was returned. The Genome Plugin was invoked but contributed no evidence items or citations to the package.\n\n## Evidence Review\n\nThe sole claim within the evidence chain originates from the Entity Resolver plugin: it confirms that L1HS was resolved with two strict alias variants and is well supported (high strength). However, this claim is restricted to entity resolution and does not address the location question. The Genome Plugin returned an “ok” status but yielded no location‑related evidence, citations, or routes. Consequently, the genomic location of L1HS is not established by the present evidence package.\n\n## Limitations\n\nA major limitation is the absence of genomic coordinates: no chromosome, start/end position, or cytogenetic band is available, constituting a complete gap with respect to the question. Additionally, no citations (PMIDs, DOIs, or database references) are attached to any claim or evidence item, leaving all statements unsourced. There is also uncertainty about pipeline completeness: the Genome Plugin ran without reported failure yet produced no output. It is unclear whether this reflects a true absence of L1HS location data in the plugin’s underlying database or a retrieval issue. The overall confidence is low, as indicated by the payload metadata.\n\n## Answer\n\nBased on the available evidence, the genomic location of L1HS cannot be determined. The entity L1HS was confirmed (with alias L1HS‑Ta), but no chromosome, coordinates, or regional annotation were retrieved. This represents a major evidence gap. Determining the location of L1HS would require a source such as RepeatMasker, the UCSC Genome Browser, or a reference database providing transposable element insertions for the human genome.",
+    "done_payload": {
+      "confidence": "low",
+      "used_plugins": [
+        "Entity Resolver",
+        "Genome Plugin"
+      ],
+      "answer": "## Question Scope\n\nThe query asks for the genomic location of the transposable element L1HS. A complete answer would typically specify a chromosome, cytogenetic band, or genomic coordinates. The current evidence package is limited to entity identification; no genomic positioning data were retrieved.\n\n## Key Findings\n\nThe entity L1HS was successfully resolved by the Entity Resolver plugin with two strict aliases: L1HS and L1HS‑Ta (support strength: high). No evidence providing a genomic location for L1HS was returned. The Genome Plugin was invoked but contributed no evidence items or citations to the package.\n\n## Evidence Review\n\nThe sole claim within the evidence chain originates from the Entity Resolver plugin: it confirms that L1HS was resolved with two strict alias variants and is well supported (high strength). However, this claim is restricted to entity resolution and does not address the location question. The Genome Plugin returned an “ok” status but yielded no location‑related evidence, citations, or routes. Consequently, the genomic location of L1HS is not established by the present evidence package.\n\n## Limitations\n\nA major limitation is the absence of genomic coordinates: no chromosome, start/end position, or cytogenetic band is available, constituting a complete gap with respect to the question. Additionally, no citations (PMIDs, DOIs, or database references) are attached to any claim or evidence item, leaving all statements unsourced. There is also uncertainty about pipeline completeness: the Genome Plugin ran without reported failure yet produced no output. It is unclear whether this reflects a true absence of L1HS location data in the plugin’s underlying database or a retrieval issue. The overall confidence is low, as indicated by the payload metadata.\n\n## Answer\n\nBased on the available evidence, the genomic location of L1HS cannot be determined. The entity L1HS was confirmed (with alias L1HS‑Ta), but no chromosome, coordinates, or regional annotation were retrieved. This represents a major evidence gap. Determining the location of L1HS would require a source such as RepeatMasker, the UCSC Genome Browser, or a reference database providing transposable element insertions for the human genome.",
+      "language": "english",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": "",
+      "workflow_state": {
+        "current_stage": "Writing",
+        "stage_statuses": {
+          "Understanding": "done",
+          "Planning": "done",
+          "Collecting": "done",
+          "Executing": "done",
+          "Integrating": "done",
+          "Writing": "done"
+        },
+        "traversed_edges": [
+          "Understanding->Planning",
+          "Planning->Collecting",
+          "Collecting->Executing",
+          "Executing->Collecting",
+          "Executing->Integrating",
+          "Integrating->Writing"
+        ],
+        "complete": true
+      }
+    },
+    "used_plugins": [
+      "Entity Resolver",
+      "Genome Plugin"
+    ],
+    "citations": [],
+    "evidence_package": {
+      "schema_version": "evidence_package.v1",
+      "question": "Where is L1HS located in the genome?",
+      "generated_at": "2026-05-26T13:16:18+00:00",
+      "claims": [
+        {
+          "id": "claim_1",
+          "text": "Resolved the TE entity L1HS with 2 strict alias variants.",
+          "source_plugin": "Entity Resolver",
+          "intent": "genome",
+          "status": "ok",
+          "confidence": null,
+          "evidence_ids": [
+            "evidence_1"
+          ],
+          "citation_ids": [],
+          "route_ids": []
+        }
+      ],
+      "evidence_items": [
+        {
+          "id": "evidence_1",
+          "claim_id": "claim_1",
+          "plugin": "Entity Resolver",
+          "intent": "genome",
+          "text": "Resolved the TE entity L1HS with 2 strict alias variants.",
+          "support_strength": "high",
+          "raw": {
+            "source_plugin": "Entity Resolver",
+            "entity_scope": "L1HS",
+            "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+            "support_strength": "high",
+            "raw_source_ref": {
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            },
+            "title": "L1HS",
+            "meta": "TE | matched via L1HS | confidence 0.93",
+            "body": "Strict aliases: L1HS, L1HS-Ta"
+          }
+        }
+      ],
+      "citation_map": [],
+      "route_map": [],
+      "metrics": {
+        "plugin_count": 2,
+        "claim_count": 1,
+        "evidence_count": 1,
+        "citation_count": 0,
+        "route_count": 0,
+        "empty_plugin_count": 0,
+        "failed_plugin_count": 0,
+        "statuses": {
+          "Entity Resolver": "ok",
+          "Genome Plugin": "ok"
+        }
+      },
+      "limits": {
+        "summary_max_chars": 640,
+        "truncation_count": 0,
+        "truncated_summaries": []
+      },
+      "errors": []
+    },
+    "evidence_walk": {
+      "schema_version": "evidence_walk.v1",
+      "generated_at": "2026-05-26T13:16:18+00:00",
+      "walk_steps": [
+        {
+          "id": "walk_step_1",
+          "claim_node_id": "claim_node_1",
+          "claim_id": "claim_1",
+          "order": 1,
+          "operation": "collect_evidence_claim",
+          "summary": "Resolved the TE entity L1HS with 2 strict alias variants.",
+          "evidence_ids": [
+            "evidence_1"
+          ],
+          "citation_refs": [],
+          "route_refs": []
+        }
+      ],
+      "claim_nodes": [
+        {
+          "id": "claim_node_1",
+          "claim_id": "claim_1",
+          "text": "Resolved the TE entity L1HS with 2 strict alias variants.",
+          "source_plugin": "Entity Resolver",
+          "intent": "genome",
+          "status": "ok",
+          "confidence": null,
+          "evidence_ids": [
+            "evidence_1"
+          ],
+          "citation_ids": [],
+          "route_ids": []
+        }
+      ],
+      "support_edges": [
+        {
+          "id": "support_edge_1",
+          "claim_node_id": "claim_node_1",
+          "claim_id": "claim_1",
+          "evidence_id": "evidence_1",
+          "support_strength": "high"
+        }
+      ],
+      "citation_refs": [],
+      "route_refs": [],
+      "gaps": [],
+      "coverage_metrics": {
+        "claim_node_count": 1,
+        "walk_step_count": 1,
+        "support_edge_count": 1,
+        "citation_ref_count": 0,
+        "route_ref_count": 0,
+        "gap_count": 0,
+        "has_minimum_evidence": true,
+        "source_claim_count": 1,
+        "source_evidence_count": 1,
+        "selected_plugin_count": 0,
+        "sufficiency_status": "unknown"
+      }
+    },
+    "report_plan": {
+      "schema_version": "report_plan.v1",
+      "question": "Where is L1HS located in the genome?",
+      "report_type": "research_report",
+      "generated_at": "2026-05-26T13:16:33+00:00",
+      "sections": [
+        {
+          "id": "section_1",
+          "key": "question_scope",
+          "title": "Question Scope",
+          "purpose": "Organize evidence for this report section."
+        },
+        {
+          "id": "section_2",
+          "key": "key_findings",
+          "title": "Key Findings",
+          "purpose": "Organize evidence for this report section."
+        },
+        {
+          "id": "section_3",
+          "key": "evidence_review",
+          "title": "Evidence Review",
+          "purpose": "Summarize supporting evidence and provenance."
+        },
+        {
+          "id": "section_4",
+          "key": "limitations",
+          "title": "Limitations",
+          "purpose": "Surface evidence gaps and uncertainty."
+        },
+        {
+          "id": "section_5",
+          "key": "answer",
+          "title": "Answer",
+          "purpose": "Provide the final concise answer."
+        }
+      ],
+      "claim_sequence": [
+        {
+          "id": "claim_sequence_1",
+          "claim_node_id": "claim_node_1",
+          "claim_id": "claim_1",
+          "order": 1,
+          "role": "primary_support",
+          "section_key": "key_findings"
+        }
+      ],
+      "citation_policy": {
+        "mode": "inline_required",
+        "minimum_citations_per_claim": 1,
+        "allow_uncited_claims": false
+      },
+      "gap_policy": {
+        "mode": "note_if_relevant",
+        "gap_count": 0,
+        "include_limitations_section": true
+      },
+      "coverage_metrics": {
+        "claim_node_count": 1,
+        "walk_step_count": 1,
+        "support_edge_count": 1,
+        "citation_ref_count": 0,
+        "route_ref_count": 0,
+        "gap_count": 0,
+        "has_minimum_evidence": true,
+        "source_claim_count": 1,
+        "source_evidence_count": 1,
+        "selected_plugin_count": 0,
+        "sufficiency_status": "unknown"
+      }
+    },
+    "integrity_report": {},
+    "evaluation_report": {},
+    "models": {},
+    "writing_failed": false,
+    "failure_stage": "",
+    "failure_reason": "",
+    "timings": {
+      "total_ms": 46707
+    },
+    "errors": []
+  },
+  "evaluation": {
+    "schema_version": "mode_comparison_live_proxy.v1",
+    "case_id": "P5A_B_002",
+    "expected_best_mode": "deep_think",
+    "recommended_mode": "deep_think",
+    "dt_ok": true,
+    "agent_ok": true,
+    "dt_answer_length": 83,
+    "agent_answer_length": 2245,
+    "dt_plugins": [
+      "Entity Resolver",
+      "Genome Plugin"
+    ],
+    "agent_plugins": [
+      "Entity Resolver",
+      "Genome Plugin"
+    ],
+    "dt_latency_ms": 2694,
+    "agent_latency_ms": 46707,
+    "agent_artifact_score": 0.65,
+    "dt_artifact_score": 0.45,
+    "depth_delta": 0.2,
+    "agent_value_added": "low",
+    "agent_overkill": false,
+    "dt_errors": [],
+    "agent_errors": []
+  },
+  "semantic_evaluation": {
+    "schema_version": "dt_agent_semantic_proxy.v1",
+    "case_id": "P5A_B_002",
+    "claim_support_score": 0.722,
+    "citation_relevance_score": 0.0,
+    "missing_evidence_score": 0.65,
+    "research_usefulness_score": 0.58,
+    "semantic_winner": "deep_think",
+    "semantic_notes": [
+      "v1 deterministic proxy only: uses saved answer text and artifact presence; it does not call an external LLM or verify biomedical truth.",
+      "Agent citation artifacts are missing or empty."
+    ]
+  }
+}

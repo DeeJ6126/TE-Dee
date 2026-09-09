@@ -1,0 +1,50 @@
+{
+  "accession": "DF003440240",
+  "name": "LTR4_pDis",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR4_pDis"
+  ],
+  "species": "Phyllostomus discolor",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Phyllostomus discolor",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Phyllostominae",
+    "Phyllostomus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 859 BP; 197 A; 245 C; 217 G; 176 T; 24 other;"
+  },
+  "sequence": "ttaccgtcggtatttagctaattattnananaggaaaggggagcaaagggaattagacattgagcttaataaactggggagcatgagcctgtttgcttcgccaggaagctacagcttttcacaccccaggggatcacagcattgcgctccgccaaggggattaacactcctccctttccccnctccggtaccggattgttggggggcgcagggggaggtgctggaccanagaggcctgtcagtctaactaggggannnnnncgnncgnncggggtgtggacccatcnaaagcccgcgaaagcttgggaagttgattggtcattttgaaaaagcacctggtccgtcccaaacccaagctnncgaatataatcccaggggaacaaagaagctctctctctctctctctctctctctctctctctctctcgctcgtgacccgcactcgccccgtgcactcgcgcgtcctctctccatagccatgtggccctagcagccgcgtggcccatggccgcgcggactcncacacgcaggctccaggagggagcctgaataccgcagcacagcaatggactgcagctggaaacacacgctaagctagccggatgctggactggactgnactttaatatggagcagaaactctggacantggccttcgtcctggccctgctgaagacaagattggactttttccatggcgggacggacggagatgggacattgggaagtcaggaggggaacccccttaattttacatcatcaataaaccntaccacagagccccatcctcccgtgcgggtctcaggaaattcttttcctcgcgacaccgcaagaaccccacttccaccgataacannat",
+  "length_bp": 859,
+  "sequence_length_bp": 859,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

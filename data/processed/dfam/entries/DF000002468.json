@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002468",
+  "name": "piggyBac-N11_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/PiggyBac | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1681 BP; 565 A; 261 C; 297 G; 555 T; 3 other;"
+  },
+  "sequence": "cccatttgtgccaaatttttaaaaatggtttcatgcatgtagccttgttaatagtgtcctatatgaacatgttttgcatttattttctccaggttttatttttttcaagaaaatcgtatttgaatatggcaactatagttgccggtgggcaaatatgttgtaagaacccttcaatgtaaaatttgaataggaggagaacatttggcattctaactcaaaacaactgctttcaanagatcaattcatattcataaacacatttattnatgttaaaattagaaaaccatttgatatgaaccccccaaatatctatcatataatttcatgaatatgaaaacacaaagaactaatccatttgtcttaaagtgataaacacacactagtttccccaacagactactgtgtgtcaaaaagataaatgaaaaagttaaaaattataattttccctacacagcaaaatcccaagagtagagagtatttggtcccacactacagagttacagcagtcaaagaaaaaaaaaaaaacataaaaaagtcaaaaagtaaatactggtgtaaatacacaaaagtaaatacataccacaatggtgcgtctaacaaaacaagtattttcagtaaatctcactacagacttttgtagacatctgacagaaatagtcaaacagcttagtaataagtaaagctgctgattctgtttgtggagttgtttaatgatcctgatgagctgagattttgagagatttattgagttttcagttgagttcctaaggccatgtccacacgtacacaggtattttttaacattttctaaaaacacagaccctggcgcttttgaaaatcttcaccctgacaagagttttaaaaattgggtttcagtgacctgatactgcgtttttgtgtgaaaaaaagctgcaatttagacaatacccatgtttgtgtggacagcagggcctaaggttgtgactgaattcggttgtagttttgtgtttttcttcagtgattctgctttttaacagcaggagttcattattctctgttcactcagcactttaactctgctccagtgttattttaactctttgtgggagtgggaccagtgggagaagttaattttactctgaggattttgctgtgtatcaaattgtgtatcaaaaaagttactttaaagtaaagatatcagttaaatggttaagttatgtttagatggggtattatgaaagcaaaaatcattaaacaagaccaataaccttgatttattaacttattaacacattattccctaattccccatgatttatgtacttacaaggtatttgcccaccggcaactatagttgccgcttgaacntttgacaaagtatacaaaaaactatagatctcttgaaagatttgttttgtttggatgaatctagagaccttcatgattatgttgatatacatttgtgaacaaaaataaatttatttgggagggtttgcatcctggaattaggggtaggaagttgaaggcctcatgtgacaggaagtaaatcaattcctttttttctttcttgaaatcttttatttggttgtttgcttgcatgtcattgagaaattaaacatggataacatgtagaaaattacttataaaaggaaaatggcaactatgaacttcggcaactaagttgccggtgggcttaaatggg",
+  "length_bp": 1681,
+  "sequence_length_bp": 1681,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "piggyBac-N11_DR"
+  ]
+}

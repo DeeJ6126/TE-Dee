@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000876",
+  "name": "MER5A",
+  "description": "hAT-Charlie DNA transposon, MER5A subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 189 BP; 47 A; 52 C; 47 G; 42 T; 1 other;"
+  },
+  "sequence": "cagtggttctcaaagtgtggtccccggaccagcagcatcagcatcacctgggaacttgttagaaatgcaaattctcgggccccaccccagacctactgaatcagaaactctgggggtggggcccagcaatctgtgttttaacaagccctccaggtgattctgatgcacgctnaagtttgagaaccactg",
+  "length_bp": 189,
+  "sequence_length_bp": 189,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER5A"
+  ]
+}

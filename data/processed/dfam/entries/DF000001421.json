@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001421",
+  "name": "LINE2G_CE",
+  "description": "CR1-type non-LTR retrotransposon from C. elegans.",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "LINE/CR1 | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2835 BP; 956 A; 557 C; 494 G; 822 T; 6 other;"
+  },
+  "sequence": "agtgacgggtctcagtaatcaatactctgtcttccgtacggatcgtgctaaaggtaaacgaggtggaggtgtttgtaacgtggtaaaagtagaaatcccatgtgaaacagtagtttcagtcgaaaacgcttaacgcttatgaaattctcgtaaatgacctgaacattgacgtagttccctttagaatcataaacatatatcgtgctccttcttgcacttatcaaaatactgttagactaattagtaaaattgaagaccttgtggaacatcaaggcaaagttgtagttgtgggagatcttaatattggaggtatcgactggggcctcaacgactctaaaactaaattaggttctttattagtagatctgtgcaaaaaccataatctggaacaatatgtcaaaatgccaacccgcaaatcgaaaattctggatgttgctctttctaattccgtaatcagcaatttaaacatcatggccccaatagggtctagtgaccacaataccattaagtttacggtacagctcttacaaaatatatctgtccctaagaaaatgataccagatttttcgaaactggactggccctgctgtgcaacatactttgaaaacatagagtggggnaaggtatttgatacccgttcccacgtgaacgatatttatgaatgctttctaggccacattagaacaatgttctcgcaggcagtcccaactatgccgatgccagagacttcaaaaccagtgcctcaatatttaaggtcttttgaacaaatggtaaaaaaccaattcagcaaaacgataatgtcgaaaactatgaatgattttatagaatacatttacctagcgagaaaatatagaaaaaagttgcggaagtatctaagtaacctggaggtaaagttatttaaaaaaaagggcaatagtaagtttagtaaacacgcaaaaactcttctgaaaccgcgaaactgtagtgttccaaccctgatagataatgacgaaaatgaaattgtctctgaactagacaaagcaaatcttctagcatcctactttgaggctcagtatacaaatcaaaataacaagaattttgctctagccgatgattttgtatcagatcaaccaattccctgggttactgatgcagaagttctaaaagtgatcatggcctcgaaaaagtcttgctctgtaacaagcgaccaggtcccatttacgtttataaaaatactatcgcctctcatcagtagcgttctggcccagattttcaacttgagcatgatgagagggcaagtcccgcacgcttggaccgaatccattgtaatacctcttggaaaaatcactaacgctaacaatccaaccgacttcagacccattagcttgacctcgcacttgtgcagagtttacgaaagatgtatattagcaaaaattgagttatttctagtagataacaaattttggtcacaaaatcaacatggattccgccccagaaaatcaacggtgactaatatgttagaatctttgaatgattggactaaaagtattgatctcggcgagcaaatcgatatcatatacctagacttttccaaggctttcgaccggctcccacacgacttacttttagataaactcgtatctttaagaatgaacaaaaatttactgatatggttgaatgaatttctgtcaaatagaagctttagggttagaattgggcaaacgctgtcatccagaaaattggccacctgtggcgtcccacaaggcgcagttctgtcaccacttttgtttggtatctacgttaatgatatatcatcaatattacccgaaaaagtagcatgtaagcagtttgcagatgacacgaaattgtatgtatcgacccctaagactgaaagcgaaaacaatttacagtctgctctagacgctgtagtagattggacaaggggatcaaaactcactctaaaccaatctaagacagttcacgtcacagtaggaaaacgtagaacagatttcaaataccacctagacggttaccctattgagcgaaaagcnattaccagagaccttggatttttaatctctgaaaagctggatttctctgagcattggaagaaatntatcaatctagctaaatttcaactggccaacatgttcaaccagtacagtacctccaataagaaactaatgattctcttatacaaaactttcatccgccctcgtttagaatatggaacagtagtgtcttctccgacaaaaaaatcggatgagaaagcaatagagtctgtacaaaacgcgttcactaggcgcctttatagtagaatcaaaaaaagatatattaatccaactgataaagattacaaaactgccatggaacgtaacgaactattcgacctccaaaccttaagcacgagacgtaaaataattgacagaatccaagtaatcagaatgaatantggtaaagtagacttaaaaacatctgagttttttgagcaacaagagacccacactcgttctaaaaagaaatatntctggagcacaggaaaanctaaacttaggagacacttttttgtcaacagaacgctacccacaatgaagcaacactgatctaatgttaccttatcctcacttctatccatcatttattcttgccttttatacatcgatatttgtgttttttgcttcttctccaatgtagccattattttcttctcatctcttttttatttttgttccgttttatttatgtaatttatttatgtaaccacttgtgatggtttgtatctattaatgtgtgttttttttctacctcacgatatcttactatcgtaataaattaaattaaattaaattaaaactt",
+  "length_bp": 2835,
+  "sequence_length_bp": 2835,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LINE2G_CE"
+  ]
+}

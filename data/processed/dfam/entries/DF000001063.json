@@ -1,0 +1,46 @@
+{
+  "accession": "DF000001063",
+  "name": "SATR1",
+  "description": "SATR1 - Satellite-like Repeat 1",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Primates",
+  "display_classification": "Satellite/ | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 423 BP; 93 A; 102 C; 114 G; 95 T; 19 other;"
+  },
+  "sequence": "agggagaggatgatattactcccaatatcgcagggggtgtacaccccccctgtgatattgttcctaatatccagggggggagaggatgatattactcccaatatcgcagggggtgtacacccccccnnnccccccgcgcgnnnnnnntgtgatattgttcctaatatccagggggggagaggagaggatgatattactcccaatatcgcagggggtgtacaccccccctgtgatattgttcctaatatccagggggggagaggatgatattactcccaatatcgcagggggtgtacaccccccctgtgatattgttcctaatatccagggggggagaggatgatattactcccaatatcgcagggggtgtacaccccccccgnncgnncgcgnnnnntgtgatattgttcctaatatccaggg",
+  "length_bp": 423,
+  "sequence_length_bp": 423,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SATR1"
+  ]
+}

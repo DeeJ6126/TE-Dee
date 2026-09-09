@@ -1,0 +1,50 @@
+{
+  "accession": "DF000002069",
+  "name": "RLTR25A",
+  "description": "RLTR25A subfamily",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR25A"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1103 BP; 310 A; 224 C; 303 G; 255 T; 11 other;"
+  },
+  "sequence": "tgccgagtccngcatggccntggnagggacggnatgacatggttcccgcccctggaacagagccagcagggcgtgggcctccacgagtgttgatggttgctgtgggcgtaaggcttgtttgtataataatgtacatattttaccatgttcctccttcgaggaatgtcctccctgccaaggttaatgactccatgataatcagagacagcacgagtccgggaggcgagggtgtgtctaatgtctcagcaaaatggtaaacgctgngaccttcaggacagcccttaaggctgtgggaaagaactctgaaaacatgagttcaaaaatatataatttctcaactatgcaaaantataaggatgcaatatgaattgtatgaggggcttcacggacctaaaagaacagaggcagctgcactatgagccagcttgtcagaaagatactaaggaaggagataaagagatttagggagtggtgatcgcagggcaagatcccacccagctaagtttatttgtttgtgcttacaaaggcaggcagattcctgagttcaaggccagcctgggacagagcgagtttaggcccaggcgtggtaggaatggtaatttcagggcggggtcccacccagctagctttattgtctgtgcttancaaaggcaggcagatctctgaattcntttgcaatgttaaaaaaaaaanntgtgcttgctgtctctttctaagaatcaaggggctggggtcatgggatgctgattcatgggataatcaaaagggaacctggggtaaatgactgaattgatatgtaaantaaaagactgggcttttggtctgcaagagatgagctatccagagaagttttttagaatagcaaagagagctgcttggagaactgtctcaagcaggcggacagaacagagagagaagagctgtctggagatctccgagaaagacagagaaagcagaacagagagagcatctggaaagccgtctcgagcagaacataggccgtcagcttggacccacgatttgacttcgagtcgtttgttttcgccgctcccagacaccccttctctcagaacccctctccaagccgaggctggtccttggca",
+  "length_bp": 1103,
+  "sequence_length_bp": 1103,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

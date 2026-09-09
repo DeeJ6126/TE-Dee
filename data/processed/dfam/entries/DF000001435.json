@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001435",
+  "name": "Mariner3_CE",
+  "description": "Autonomous DNA transposon from C. elegans",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Mariner | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1253 BP; 356 A; 287 C; 262 G; 345 T; 3 other;"
+  },
+  "sequence": "ttaggttggtcgaaaagtctttgcaaaatttgtacttttcttcatttctcagcgttaattcatttttttccgattctgtttttttatttgcatagtacgtaatgtgcatgtttaatatatttgaaaaaancttttgggtgctgttcaaaatgaccgagaatttgctcgccgaacgtcacgccctccgaggggtttttctgtacgagttcccccaaagctgcaattgcaacgaagctcgtcgtaacatgtgtgcagtgttaggcaagaactctgtcacctacaataccatgaagttttggttcgaaaagttcacgaaaaagaactacgatctcgatgataaaccaagataagatcgctctcgtttggatatcgacgaggatatttcgagagccctggaagatgatccaagagcaacgnaccgcgaactttctgcgactctcaagcatccccaaagaaccatcatcaaccatctccacgaaaccggaagggtagaaaagttcggtcaactcgttcctcacaanttgcccgattctcagaaaaattgctttgtgacctctctctttcgctgctcactaggaaacgaacaacggactgggttaaggatatcattactggaaatgataaatgggtattgtatgttagccataccaggaaaaaagagtgggtcccggtcgaggaaaccgcgacacctgacctcaaatgagaacttcacggaaaaaagtgcttctctcaattgggcgggacagtaagggtgtcatttccagagagcttcttccagactttgctacaatcaacgctggcctatactgcatttaattggaaaaggtggtccatgctcatcgattacatcgccctagaggatcaaagttgttgctgctccatgacaacgcaagaccgcatacaacttttaagacccgccagaagctccagacagtcggaatccaaattttgtcttacccatcgtattcgccgggcttggctcctactgactaccatctgttccgctcactccagaatcaccttgccgggcagaagtttcatgatcgaaaggtcgtcgaaacggggttggacgacttctttgcctcctaatcgcaggagttctaggcggagggtactgttcaacttccgttgtgttggcaagaagtcataggcattaatggtaaatatattacccattgaatcttgttcgctttgaaaaaatactacttccaaaaaaaaatcaaaattttgcaaagacttttcgaccaacctaa",
+  "length_bp": 1253,
+  "sequence_length_bp": 1253,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MARINER3_CE"
+  ]
+}

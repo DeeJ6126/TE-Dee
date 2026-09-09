@@ -1,0 +1,47 @@
+{
+  "accession": "DF000282048",
+  "name": "HetBru-1.294_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "HetBru-1.294_LTR"
+  ],
+  "species": "Heterohyrax brucei",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Heterohyrax brucei",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Hyracoidea",
+    "Procaviidae",
+    "Heterohyrax"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 550 BP; 90 A; 157 C; 132 G; 170 T; 1 other;"
+  },
+  "sequence": "tgtggtggtcaggattatgtcaacttggctactacatatttggctgctgtattaagtggcagggcggggtttgtggtggctccctgcccctcggctctcatctcgcgacctttnactacggctgctggtcgctcacgtggccaggagctcctgctctcttcttccagcgtctggttccgggacttgagctagcagctgttggactcatcagtccttacagtcggcacttgagagtcctgctccctgacctgccgatcctgggttcgccagcctctgtccgccctctgtcgcttcgtctcgccaccagcttgggatccactgacctacacaaccggtgatctagaactctggtctctgacttgctgaccttgggttcctcagcttccgtggccacgtgaggcttgtgccagagcttgggacattcagcttctgtgattacgtgagctgtttcctatatttgtatctatctatctatatatatattataaatctttccttgtacctacacgtgttactggttttgcttccctagaaaacccagcctaagaca",
+  "length_bp": 550,
+  "sequence_length_bp": 550,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

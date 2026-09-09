@@ -1,0 +1,46 @@
+{
+  "accession": "DF000001065",
+  "name": "SST1",
+  "description": "SST1 - large human satellite identified with SstI enzyme",
+  "keywords": [
+    "Satellite/centromeric"
+  ],
+  "species": "Primates",
+  "display_classification": "Satellite/centromeric | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1563 BP; 211 A; 508 C; 523 G; 262 T; 59 other;"
+  },
+  "sequence": "gagctctgggcttccatacctgtctcggacagggaagctccctcggtctccatgtcccangtgatggctgcgcgntcggtccaggaagaggcggaggaagcccaccgcgnctggcnttggccttctaggaaaggcggtgttgcatttcacctgcacttcctntctcattcttgagggncanccncttcctccgctcctggggggactgcctcctagcaccgaatcttttggctgccacggatgtcagggagcnaaagggactgggttttggctgggtgcaggggaggttgcgtcaggggtactagccggtggngggctgggggtggggtgnactttgccgaaactcttggctcctctggcaggcatccctgaacgtggcttggactcgggcacaggccccgtctcgcaggttcccaggtgcgctttgnttttccttngctttgtggggaaggtcnccagtgcccccggcgcacgcctggacaccactntccgtctcgccgtcgcccctacggcctcggagacacacgctnnctccatctgctcttgggggacgccagtgcacgcgtggncacactgnctccacctcggactcgcctctgtccctctttgcacgtgtcnccggaagccgcgtcggnntgccggagcccccgggccttggagangggggcaggccactgctccttcnagggaggagggaggcagngggctcatgggtcggtgaatttncagccgacancacgtgcggcccnngggatcnttctgtgccgcggcgaggccctncccgcctcaccgnattgggaccccatccccgntcacccggnggggtccanaatcggatccgaagaggagtccgngnanccagcnggcgccccgaagctcctcctccgncgggaaccgaagcggaagancgntcaaggaggtcctgaggacaggactcctgggggtccggccctgggncncccgcgggcccctctggcagncctcttcccacccgccgccccggctncgccgccgccgccgcggcctccagcaccgccccccgggccccgcagccgccgtcgccgccattttttaaagggncgcagcctgactctgcggagtaagggggggtggagcgngcgagtcgctcgccagcatgcgcgagcccgagccgccgctcgcgtcacagtgancgccaccgttgcctggggaccggtccctgaggcttggcgaagcaggagccctccgtggcngtgcgtcggngtcggggctgaggccngncctggccagggcggtcaccaggacggtctcggangccgggattcgcggagggccgancagcaggaagaaaccccaggaggaagaaacctcagacggatcgccggggaggcagcgcgggatcccagcctcaggcctgcccggacggtgtgcgggtgagtctccccgaaagtcgcgcccccgtgatctcgaggacaggtccgcctgcgtgcccntgggctgctctctcaccggtggntctcngtcgcggagagcagaacccgcagcctcaggggctgctgggggtgngtgtttcctgctgtatgt",
+  "length_bp": 1563,
+  "sequence_length_bp": 1563,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER22"
+  ]
+}

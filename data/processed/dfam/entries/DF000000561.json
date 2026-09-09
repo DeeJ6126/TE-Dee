@@ -1,0 +1,50 @@
+{
+  "accession": "DF000000561",
+  "name": "LTR61",
+  "description": "LTR61 (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR61"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 559 BP; 163 A; 134 C; 104 G; 154 T; 4 other;"
+  },
+  "sequence": "tgaggcagaaatttaaaaataaatatgcattcattcactccaagaaaagtaacaggcaaggcaagggttaaaaagaaaagaacaagttttcctctgcctagcnaagctcacttcaaggacagttataagataacgctgtccgagaagccaaggccaaaggaatgggctccagacacccccccncctccagagcaaggttgaaggaaaaaaagagaaagacaaattcttttactgttactcctttcccnggcttcttaagcatgattatgttttacaaatgtctgtatttagccagttcttgtttttctttcgacgcagctacaaggccaccagctatgcaaggccacaagttatgctatgctatagattacgtgacctgtcactgtatgattaactgcttttgttttgcttctgtaagnccgcttataaaaaccccgctctgtctttgttcaatgctcagctttttggatgtgaatccactgagccggtgcgtacctaaaataaacaatcctcctgtactccccatatcggtctctccggtcctcagtttcccgcaaca",
+  "length_bp": 559,
+  "sequence_length_bp": 559,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR61"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000282649",
+  "name": "RhiSin-1.189_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RhiSin-1.189_int"
+  ],
+  "species": "Rhinolophus sinicus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rhinolophus sinicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Rhinolophidae",
+    "Rhinolophinae",
+    "Rhinolophus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 847 BP; 158 A; 223 C; 302 G; 163 T; 1 other;"
+  },
+  "sequence": "atggcgcagcgagcagggtacggtgccggccaaagctctccgaagggcggtggagcagtttgtgcgtatgaacactcagtctcaggaagaccaggaggagcagctgccggagagctggacccccgtggaggggtgggaagacgtggacggttctccaaccagcataggccggagaaagcgaaggtcgttgcggccntgtgggctgggaagtgcttgctgaggcagcccgatgcgggacttgtagtcccaggaggaaacgcttgctgagtcctcgtgggggtgaggtcaaggtcgtccctcacccccaggttggggaggacttggagccctcgccctgcggagagggcacacgttgtggggccagtgcacagccctggcgaatgactgtggactatggggaattgccttccatccctgatttgatggaccgcttgactgtttgcttgggaacgtaccaccatgcagtggaaccggcggatgtttgcttcctgtgtctcgaccggccgccatcgagaatatgtaagcaccttggctgtgagccactattgttccagcacggtgccctgagaaccctggctgtgcccaggaagtctggctgtgcccagagagagtggcggtgccctgagaggccctggctgtgcccggggagactggtggtaccctaagaagcccaggaagtctggctgtgcccagaaggactggtggtgccctgagaaaccctggctgtgcccagagagcctggctgtgtccaggatattgcattcacctccaggctcctcgcacagggcccctcgcggaagacgcttgtcgcgtagattgtgaggcgagaccctggaggggtggagtg",
+  "length_bp": 847,
+  "sequence_length_bp": 847,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

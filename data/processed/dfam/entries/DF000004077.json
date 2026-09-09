@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004077",
+  "name": "Helitron-1N4_DR",
+  "description": "Rolling circle transposon from zebrafish",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "RC/Helitron | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3180 BP; 959 A; 529 C; 635 G; 1048 T; 9 other;"
+  },
+  "sequence": "atatagctgcaagcagcaattaacgggggtcaagcagtttagcagggtaaggtcatatagcagttaggacgcctgtaagtagtttattcgacaacgaaatatacgattagagtgttagagtttatagattgagctaacaaatgtttgattaaacactccagagaagcaacttcgatttttacatattgacaaatttttaatgaacatttcgagtgaccgcttttatgtcaaagtgaccagtataagcagccctatgatataatgtgtagatcgagtcatggcaccttagacaaagacacgacatgtcaaattttaagttaatcagataaatggttactcagatacagtgattttacaatgtatagcgccatcatgtggccantgtctacgagttttatgctatgaccttagactgacctcttgcatatgtgtaacaagtttggtgaagatattttaattccttcatgagttatggctattttagctcttcttaataaaaatgacaaaagagcagtgaataagctattagtgatctcctactgccatctagtggccacggtgtaatttatttatgtgattacagccatttaggtgtgcataaacatatcccttctataattgagcatgttctaactatataaaatgaaaaatttgtattttattaaaataattaaaaatctacagagtaaaaagtgtgacaagctttgactaaatttgatcttaaatgcattaactgtgttcatgccatgtcagtttgggattcagaatgcattacataacattacattacattctttgctatagagcagtaaaataaacaataagtggtctgttactgccatctagaagccacagttgtgattttctttacatatgttttaaaacaaggtgtttaatcatagaaccagttttacctattagaattattatgaagaggttaactgggaccaaattagatgtttaatgcataacagtgtttacatcaggtcaaaatgtgattcagaatgatcctaaatgcaatttccctgactttaaactcaaaaaatgtaaaacaacaaaggtatgcaaatgttntgaacaataaataagtggtcttgttgtgacatctagtggttagaaatggtaggtgacagttaaaagtctgtgttatagtggctaaaatgatagaatattgaaaatgtgtttttgagacctttaaacatccaagatggacaaaaaaataacttgtaaatcatttcagtgataagtgtgtaaatgaagcacatttactncatttttaagccattttagcatgtttttagaaccatttccactattatagcgccacctattgcccgatctccacaaaattttgcatgtttattcacattgatatgccacatctgctcaccaatttctgtgatgttttgggttttccttattggtttacaggcatgtaggttcgtgtagacacgccccttttgtaaatgagcctgttacagctatctaaaatggaaagttcaacttttttttgataattattgatctactcagtccagaggttcatacaacactggtttcgttgcgattgagttaaaaaccagggactagttcgcaaaagtaggttttgtttatattgatggttttttaatgaacggtttgagtgacagcagtggttttagtgtcaaactgttcagtatgagcagacctatcatatgatatgtagattaagtgttttttgtgaaatagtgtgtaaatgaagcanatttactttatttttaagcgatttagcattatttaaagactatttttgctattatagcgccacctatggtttgatcttcacaaaattttgcaagtttcntctcgttgatatgccacatgtgctcaccaatttctgtgatgttttgggctttccttattggtttacaggcatgtaggttcgtgtggacacgccccttttgtaaattagcctgttacagctagccaaagtgaaaagttcaacttttttttgataattattgatctacacagtccagagattccaacaacactggtttcgtcgcgattgagtgaaaaaccagggactagttcgcaaaagtaggtttttcctatattgatgaatatttaacgaacggtgtgagtgacagcagtggtttgagtgtcaaactgttcggtatgagcaggcctatcatatgatatgtattttgtgtggttgcgcaaaaggttgtgtgatacacaacccattacacactaaaaatacgtaaaatcgccccctagtggccgatttctttcaaaattcttacagacctctaggaccgtgagtcgaacatgcccagcgagtttcgtttcgatcgctcatcgttaaccttgttaaatggctgctcaattttaattggccaatggcggccatgttttttgagatatgccaatgtccttatagtatgttatgacaacttggtcaaagacactgcatgccaaatttcaagctgatcggactaacggctgtaaggttagagtaatttttatgttttttnagctttatagcgccaccatgtggccaaagtccgcgggttttgcagtgtcacctcaaattgagcttatgcatgtgtgtaccaagtttggtgatgatatctcattccgttcaaaagttatagctccaattagcatttagcttcaattagcatcgaacattgttgtgtactgtttcgagtgagaataaaaatgtcaacttttttttgataattattgatattcagtgtccagagaacatttgagagctggtttggtttagattgagtgaaaaacctaggactagttcgcaaaagtaggtttcggacaaatcgcgatgtagcgggaaaacggtgcgtcgtagagcaaaaanttctgctgtgcacttttgttcgggctaacccaaggattcaaaaaatgtaaagtttttgagtctacgacaaacggtgaacgnatagcggccaaaaatgtccaaaaagtgggtttttggcgccatagcgccacctatggtccgatttggctgatctttggcgagaacgtagtgtaccggggtactaccatctggccaagtttcagctctctcggccttacggtttggtctgggcaatagtgacttcggcagaataataataataataataataataaacaaanacaatagggtttcagcgctcgcgcttgaccccctaa",
+  "length_bp": 3180,
+  "sequence_length_bp": 3180,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Helitron-1N4_DR"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000482",
+  "name": "LTR28C",
+  "description": "LTR28C (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR28C"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1129 BP; 204 A; 395 C; 336 G; 185 T; 9 other;"
+  },
+  "sequence": "tgatagcggcaggaggcagacaaatncctaggcagacaggggcgggtccccggtgaaaccccaccttcaagccaaagacagtttaaagcctgaaagccaagctacaagtctcggataaantccacggaccggattgagaacctctcttcccgtttggcgcgctttcctctgattgatccccacccttcacctattttacatatacctacccttccctaattggttttttnnacactgtcgtgcccacctttgagtggtgcctttgttttagcctttttttgcatactcacaaaccaatcagcacgcactcccccattctgagcccataaaagccccggacccagccacactgggagagagaccacccgacttcgggtgggggaccaccctcgcgtcccctctccgctgagagctgtttcgtcgctcaataaaattcttctccgccctcctcacccttcgattgtcagcgtaacctcattcttcttggacgcgggacaagaactcgggacccaccgaacgcgggtacgaagaaggctgtaacactgtgagccctctgccctccgccggcggagggcagccgccccacgcgacgggaagcagcggcggggccgagccagccccggagccgcgggccggagcggggcaacaggnccgnnnggggctgacagagctgttaacacgccnccgtccgtcgggctgcggacggcgggactaaaagagctaattagcacgctgtaacaccccctctggggcttcggggtcgcgggcacccctgcctgggcgccaccgcgttcccctcgtctggacgccggagtccaccgcgggagtcgcttgcgacacgcctggtccagccgcaagccccgcacggagcccgctcctgtgccggcgcttggagcggccggccggaccccgcactcgctcgctcacacaccccctcccgccgggggctgagcgcgcagtcgcggcggccgcgggatccgcgccggagtgcaagccaggcgcggcccggcgggccgagtgggcggggcgcctcctgcggcgagcccgggcccgagcaaggcccgggcaggggcgtcgccggccggagaggtctccggctggcaaagtgaccgagaaaaatcctgcgtca",
+  "length_bp": 1129,
+  "sequence_length_bp": 1129,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR28C"
+  ]
+}

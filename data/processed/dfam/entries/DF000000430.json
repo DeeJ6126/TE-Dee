@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000430",
+  "name": "LTR18C",
+  "description": "LTR18C (Long Terminal Repeat) for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR18C"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 345 BP; 82 A; 100 C; 89 G; 72 T; 2 other;"
+  },
+  "sequence": "tgtaaggaacatggctgcgctgcagccaagcaggcatagggcagcaggcataggccgaggtaaacagcctggatgactcagcgggattggggcgcaggcgcacagtcccgtgccttatataatcacagccatgtagacataacatagagaagctcaccacctggctctcagccactattgtttgtgnggtgtataaatgtaacactgacnctgtgaaggagctgctgaataaagccatgtctcatctacctgctgtctctcgagtgttcttccagctccctgccccacgtccacccactcccctcggacctcagctggggctggaacctgaccctgagcatgaca",
+  "length_bp": 345,
+  "sequence_length_bp": 345,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR18C"
+  ]
+}

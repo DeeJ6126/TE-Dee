@@ -1,0 +1,933 @@
+{
+  "all_tissue_manifest_sha256": "558b4ed36d977003388b6eeb4872d751078da7b09ea216cbc6fc013d1901955d",
+  "artifact_schema_version": 1,
+  "elapsed_seconds": 6749.328672,
+  "import_order": [
+    "eqtl_tissues",
+    "eqtl_te_instances",
+    "eqtl_variants",
+    "eqtl_genes",
+    "eqtl_te_variant_overlaps",
+    "eqtl_variant_gene_tissue_associations",
+    "eqtl_te_gene_tissue_summary",
+    "eqtl_te_gene_cross_tissue_summary"
+  ],
+  "input_hashes": {
+    "archive_sha256": "aacb79873e78c3b3ca5834c47f1b2631a211dc9471292aa00cd7822e6f3b44c7",
+    "browse_catalog_sha256": "7dc80d8143dd44bf7aa1211a8b7babf44df94e440fd5d288a9d15c9840425f14",
+    "te_bed_sha256": "a47f60f213ba45041d77afdf5422167b25093489f43f67fa92f6f0d0acedf67e"
+  },
+  "part_row_limit": 250000,
+  "staging": {
+    "path": "staging/consolidation.sqlite",
+    "sha256": "eb23ece8d578831abb0959731785f53759b7f2f562438fe93ae2a9500df72428",
+    "size_bytes": 5923123200
+  },
+  "status": "complete",
+  "tables": {
+    "eqtl_genes": {
+      "columns": [
+        "gene_id",
+        "gene_id_base",
+        "gene_name",
+        "biotype",
+        "chrom",
+        "gene_start",
+        "gene_end",
+        "strand"
+      ],
+      "files": [
+        {
+          "path": "eqtl_genes/part-00000.tsv.gz",
+          "rows": 52962,
+          "sha256": "407aa12fefd18dd5e07cf8803b1832ead542389fe54d8512d17a7d50e6f18431",
+          "size_bytes": 1115883
+        }
+      ],
+      "rows": 52962
+    },
+    "eqtl_te_gene_cross_tissue_summary": {
+      "columns": [
+        "te_name",
+        "gene_id",
+        "tissue_count",
+        "supporting_variant_count",
+        "supporting_instance_count",
+        "evidence_row_count",
+        "positive_tissue_count",
+        "negative_tissue_count",
+        "mixed_tissue_count",
+        "zero_tissue_count",
+        "minimum_pval_nominal",
+        "maximum_abs_slope"
+      ],
+      "files": [
+        {
+          "path": "eqtl_te_gene_cross_tissue_summary/part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "cc5b5b2b064ffc32afe67ce70f6111b056854604b5b9546ace5700a175d8fab5",
+          "size_bytes": 7191687
+        },
+        {
+          "path": "eqtl_te_gene_cross_tissue_summary/part-00001.tsv.gz",
+          "rows": 250000,
+          "sha256": "1370513f2afe221a33430f23e0bee2577ffd995905c16c58ec78530f9601085f",
+          "size_bytes": 6996743
+        },
+        {
+          "path": "eqtl_te_gene_cross_tissue_summary/part-00002.tsv.gz",
+          "rows": 40906,
+          "sha256": "f4ee28b0436c05c0bc13066b5629b8ad3b12fbfbf68600dd9ce06e035740da7d",
+          "size_bytes": 1159956
+        }
+      ],
+      "rows": 540906
+    },
+    "eqtl_te_gene_tissue_summary": {
+      "columns": [
+        "tissue_key",
+        "te_name",
+        "gene_id",
+        "supporting_variant_count",
+        "supporting_instance_count",
+        "evidence_row_count",
+        "minimum_pval_nominal",
+        "maximum_abs_slope",
+        "positive_slope_count",
+        "negative_slope_count",
+        "direction_class"
+      ],
+      "files": [
+        {
+          "path": "eqtl_te_gene_tissue_summary/Adipose_Subcutaneous.part-00000.tsv.gz",
+          "rows": 119452,
+          "sha256": "ab660b8a1b7650f38f196b2aaaf3ee16d0e33627bd82544c2aa98d53158e4a52",
+          "size_bytes": 3353192
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Adipose_Visceral_Omentum.part-00000.tsv.gz",
+          "rows": 84769,
+          "sha256": "868da3d6fa2a8e8c74f81a87d950df852a0eeeae9d54ac58b2e058eaf480d17b",
+          "size_bytes": 2385489
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Adrenal_Gland.part-00000.tsv.gz",
+          "rows": 47356,
+          "sha256": "f8d028b7e65aae08911316bbeb52e3fe6f8ea203cd4d0fc17637c95e1ca5c561",
+          "size_bytes": 1322938
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Artery_Aorta.part-00000.tsv.gz",
+          "rows": 86399,
+          "sha256": "e3519db532b2682f375a3a496d1079683b51ea6b347eee446504db1d58709069",
+          "size_bytes": 2410277
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Artery_Coronary.part-00000.tsv.gz",
+          "rows": 37447,
+          "sha256": "7a55ba6310142acbf3a3d5ab6111331243bb5afffc49db77d25636ec64293a10",
+          "size_bytes": 1046126
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Artery_Tibial.part-00000.tsv.gz",
+          "rows": 118091,
+          "sha256": "9d74ec41b1914d78fb657454e89fad3cee359ba88bd7b44c38c572e67f530975",
+          "size_bytes": 3304638
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Bladder.part-00000.tsv.gz",
+          "rows": 4725,
+          "sha256": "98a317afd9f3d438dd690a4a3508187747276605924f0e3ca87070425f27739f",
+          "size_bytes": 120620
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Amygdala.part-00000.tsv.gz",
+          "rows": 24532,
+          "sha256": "88b87ee71667aff924edb844f59c04791ccd3948ab09cf8f91cf4907e0cfc2e9",
+          "size_bytes": 683666
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Anterior_cingulate_cortex_BA24.part-00000.tsv.gz",
+          "rows": 39898,
+          "sha256": "97d66239041d4c5557c1a8a577772cbc7d8941c2dd0c55a10bcdae6402aa72c5",
+          "size_bytes": 1131143
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Caudate_basal_ganglia.part-00000.tsv.gz",
+          "rows": 58320,
+          "sha256": "e34b396483a4de4022418b8a0cb6e3dce3639cbf5c51fa8f4c2aa42fe435039c",
+          "size_bytes": 1638283
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Cerebellar_Hemisphere.part-00000.tsv.gz",
+          "rows": 74461,
+          "sha256": "f57f9f4b22d6c72324f8f84101947b34af8dd9791d5afe7f3e5c2fc56a925b3d",
+          "size_bytes": 2088292
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Cerebellum.part-00000.tsv.gz",
+          "rows": 73431,
+          "sha256": "6799ccbb07294a60d71b508c669774018f5db45af250e5828fb178d3c708f6e6",
+          "size_bytes": 2042296
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Cortex.part-00000.tsv.gz",
+          "rows": 57591,
+          "sha256": "cd4d3efeac0c23fd7c4eb12f5b1b44902b47050c38e804c822320e3a34549d3b",
+          "size_bytes": 1602095
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Frontal_Cortex_BA9.part-00000.tsv.gz",
+          "rows": 56560,
+          "sha256": "33f7bfde9945a16e5b2a0ebc1d446bf06cb3174e1f994423a9e7e8d1701919a5",
+          "size_bytes": 1586425
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Hippocampus.part-00000.tsv.gz",
+          "rows": 38163,
+          "sha256": "3a0d91b4a26cab4fd5c4a9c35d71b628ec52533426b4c90ae9d38b63819018ae",
+          "size_bytes": 1066296
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Hypothalamus.part-00000.tsv.gz",
+          "rows": 40581,
+          "sha256": "6cce9effee57df8cf64b4f8f3dfc9398abef427407327c1be88fd9ce0d8e92a4",
+          "size_bytes": 1133929
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Nucleus_accumbens_basal_ganglia.part-00000.tsv.gz",
+          "rows": 57400,
+          "sha256": "051798abd26c7c4fe6afcdfac7d192a21dd049f5cc9ddbe4579f3681769d417f",
+          "size_bytes": 1628627
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Putamen_basal_ganglia.part-00000.tsv.gz",
+          "rows": 44614,
+          "sha256": "428c7aa03b2d3475b2496ad171de961f7aecd271b0ef769195364c4b7e950dbd",
+          "size_bytes": 1253689
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Spinal_cord_cervical_c-1.part-00000.tsv.gz",
+          "rows": 34993,
+          "sha256": "4734987e6475f94f35257e21e8d6ba479867d7c97c66c1ea85d57f3c5723772c",
+          "size_bytes": 990134
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Brain_Substantia_nigra.part-00000.tsv.gz",
+          "rows": 23990,
+          "sha256": "1736276415b40f06fcd8147e22e1e5a9c7e277a0ac11bb51f412cd895915e773",
+          "size_bytes": 672917
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Breast_Mammary_Tissue.part-00000.tsv.gz",
+          "rows": 74302,
+          "sha256": "6806144f906a6170341bd51b1ca9ac21c41cb3f0e6f26b1ffbbe0f8e6c45e7c3",
+          "size_bytes": 2088929
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Cells_Cultured_fibroblasts.part-00000.tsv.gz",
+          "rows": 124656,
+          "sha256": "5fdd9645550d524170f308d1312361cc81aa4f0c92c2abbcd764fc13ffea8654",
+          "size_bytes": 3512650
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Cells_EBV-transformed_lymphocytes.part-00000.tsv.gz",
+          "rows": 60506,
+          "sha256": "d197b7aa5bc048f6c4b7c351dcc60a8874322a6ea82ad04d883f3771db83a238",
+          "size_bytes": 1713470
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Colon_Sigmoid.part-00000.tsv.gz",
+          "rows": 70379,
+          "sha256": "e996cea608e234174134a848839331216707987463a69c2677b955d9118b219a",
+          "size_bytes": 1966131
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Colon_Transverse.part-00000.tsv.gz",
+          "rows": 74915,
+          "sha256": "e40c0219cbfe21ae127b6fdda2265f281a57b19e453838c35571a44602354f86",
+          "size_bytes": 2094175
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Esophagus_Gastroesophageal_Junction.part-00000.tsv.gz",
+          "rows": 68581,
+          "sha256": "2714c231ea257f4ab8c60ceb52b60659cc0b68ca738adfa8ac1a2f2a069e1aa8",
+          "size_bytes": 1945464
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Esophagus_Mucosa.part-00000.tsv.gz",
+          "rows": 102257,
+          "sha256": "ba2822d8b328080ad60314fbaa6132b53c8beff4750736fbf8a679dcce0a737a",
+          "size_bytes": 2861599
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Esophagus_Muscularis.part-00000.tsv.gz",
+          "rows": 99126,
+          "sha256": "9c2bab41bef858b4269221bde92e7090e088f44f8568a84a3bb361ba9798c40c",
+          "size_bytes": 2783804
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Heart_Atrial_Appendage.part-00000.tsv.gz",
+          "rows": 71706,
+          "sha256": "8614b416c89edfe559d58e6f3a36f7971e3668a4547473cdb1d5f24b574a783a",
+          "size_bytes": 2017556
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Heart_Left_Ventricle.part-00000.tsv.gz",
+          "rows": 54867,
+          "sha256": "7e742516e237c7f0de9a59dcf1f655ac74a3bd3cc6f91471fc0f60744f237d30",
+          "size_bytes": 1543630
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Kidney_Cortex.part-00000.tsv.gz",
+          "rows": 8174,
+          "sha256": "608a50bd8abb1cc15a9a584e73c07ff1836deae4fd2f2e5f95c85f484b088894",
+          "size_bytes": 221755
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Liver.part-00000.tsv.gz",
+          "rows": 31849,
+          "sha256": "0854bf89d6fdb01f428702b1f7b892318b0459243f97bede600a2e6e8a427f22",
+          "size_bytes": 886293
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Lung.part-00000.tsv.gz",
+          "rows": 95906,
+          "sha256": "a61e55e1ba24683bb25eb57f0e96255c6af1b9b8bfaacd69688e0540b0efb668",
+          "size_bytes": 2659907
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Minor_Salivary_Gland.part-00000.tsv.gz",
+          "rows": 25195,
+          "sha256": "7a5346a8ae888108790bf4f9ca75783a22ec22660d566834860658ed0d0b352e",
+          "size_bytes": 704643
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Muscle_Skeletal.part-00000.tsv.gz",
+          "rows": 97885,
+          "sha256": "b659cf8ff186bea33f34c4d9aa33fb3c200e9a1495138f5eab94547619e586ea",
+          "size_bytes": 2742629
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Nerve_Tibial.part-00000.tsv.gz",
+          "rows": 147778,
+          "sha256": "bc187a9d82e1d2d175c9dac2850e17af646249c84b5ebe21c81814e26aee2c18",
+          "size_bytes": 4120510
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Ovary.part-00000.tsv.gz",
+          "rows": 26308,
+          "sha256": "7ccd18924eec2f927cb57a66ed975a0315590d280c5a89ce09ac375aa70121a2",
+          "size_bytes": 727236
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Pancreas.part-00000.tsv.gz",
+          "rows": 56595,
+          "sha256": "9624aee4de98b8420f2221c3fd2ffbb152a752d8d4c1fe7b1a111e40bc41467b",
+          "size_bytes": 1573483
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Pituitary.part-00000.tsv.gz",
+          "rows": 63394,
+          "sha256": "db292b60977e98fe1b71539d8b262845f32eab263e66a32a56b7a2e5b0dde50c",
+          "size_bytes": 1757231
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Prostate.part-00000.tsv.gz",
+          "rows": 43728,
+          "sha256": "397a10cc54c081d88ae1a0faaf770eabc0c02fd9f334c28358f6f09b30ff9e18",
+          "size_bytes": 1212237
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Skin_Not_Sun_Exposed_Suprapubic.part-00000.tsv.gz",
+          "rows": 111258,
+          "sha256": "d30877dc17d3531c9455c8a1f90cb07cdc5ed695d1057a6c77a568e967fa3f9a",
+          "size_bytes": 3153569
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Skin_Sun_Exposed_Lower_leg.part-00000.tsv.gz",
+          "rows": 132677,
+          "sha256": "e5dbcc5886bb4e4d52772a0cd8e1d2ca35b437c18f30d2b038608daf18483d9c",
+          "size_bytes": 3730394
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Small_Intestine_Terminal_Ileum.part-00000.tsv.gz",
+          "rows": 29770,
+          "sha256": "90a0e7d37147ab14640e0599e8b2b1b100adbb381ad643186584e8b3742e6023",
+          "size_bytes": 842183
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Spleen.part-00000.tsv.gz",
+          "rows": 60135,
+          "sha256": "b4a384f960f4f58850e46ccb93f9d5bee944a7007dfc2a255219f1e4d98e1a19",
+          "size_bytes": 1666227
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Stomach.part-00000.tsv.gz",
+          "rows": 52904,
+          "sha256": "083e66cbbab6cb8fd0a37ba54e0b526bb7bc7c241e25acd9b4d5a9b278b70289",
+          "size_bytes": 1471806
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Testis.part-00000.tsv.gz",
+          "rows": 147394,
+          "sha256": "e351cffff0edfc5ead2e2547ea6cac182bbb3ccc0e921fa1bbd6df5beab72212",
+          "size_bytes": 4050976
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Thyroid.part-00000.tsv.gz",
+          "rows": 142270,
+          "sha256": "70fc7035b963de18ad8f310b971ab84d3366c368e5be111b621b30b9df07e127",
+          "size_bytes": 3947927
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Uterus.part-00000.tsv.gz",
+          "rows": 16534,
+          "sha256": "cda13a7ffe3faf0e4930ccfdc53c134c0df9667caa2125ec4c24fe61a46de94f",
+          "size_bytes": 454899
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Vagina.part-00000.tsv.gz",
+          "rows": 17190,
+          "sha256": "d475aa399cf10ddbfb6794fadb7a920c4763647d5fa7737e99d5e376e23c4275",
+          "size_bytes": 474323
+        },
+        {
+          "path": "eqtl_te_gene_tissue_summary/Whole_Blood.part-00000.tsv.gz",
+          "rows": 89737,
+          "sha256": "0cb4ff033a8db84c179992c9bcff2bee4aea9784ae776900ff7903b1a0049863",
+          "size_bytes": 2510183
+        }
+      ],
+      "rows": 3320749
+    },
+    "eqtl_te_instances": {
+      "columns": [
+        "te_instance_key",
+        "te_instance_id",
+        "te_name",
+        "te_class",
+        "te_family",
+        "chrom",
+        "te_start",
+        "te_end",
+        "te_strand"
+      ],
+      "files": [
+        {
+          "path": "eqtl_te_instances/part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "dbf60746147f8c032daba34c1e340ec17ac3d0c7184fb6771fe1fc294d43009f",
+          "size_bytes": 15570103
+        },
+        {
+          "path": "eqtl_te_instances/part-00001.tsv.gz",
+          "rows": 250000,
+          "sha256": "4112f9641f31fdc500e6e155c09c7c2ab327bf4551f307328923924eede63403",
+          "size_bytes": 15568867
+        },
+        {
+          "path": "eqtl_te_instances/part-00002.tsv.gz",
+          "rows": 96140,
+          "sha256": "70619e7519d2ef785b68dafe17c5cb6fd49bce5d52d0cab3a3e87c817d834fa0",
+          "size_bytes": 5987392
+        }
+      ],
+      "rows": 596140
+    },
+    "eqtl_te_variant_overlaps": {
+      "columns": [
+        "te_instance_key",
+        "variant_key"
+      ],
+      "files": [
+        {
+          "path": "eqtl_te_variant_overlaps/part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "bfb457351559a439ff8ae01be7138d723e5d2199f80e37a6c4e00558175ecb0c",
+          "size_bytes": 12982223
+        },
+        {
+          "path": "eqtl_te_variant_overlaps/part-00001.tsv.gz",
+          "rows": 250000,
+          "sha256": "a0a42df90e34484a69d79fac52de2e8ef33decfc40170fd1145e5186397a7ff3",
+          "size_bytes": 12982328
+        },
+        {
+          "path": "eqtl_te_variant_overlaps/part-00002.tsv.gz",
+          "rows": 164902,
+          "sha256": "1b7c6c7e09a2371700d026ff43c2abafd9518437854eda8e104824709a1e793e",
+          "size_bytes": 8566385
+        }
+      ],
+      "rows": 664902
+    },
+    "eqtl_tissues": {
+      "columns": [
+        "tissue_key",
+        "display_name",
+        "source_member",
+        "source_row_count",
+        "evidence_row_count"
+      ],
+      "files": [
+        {
+          "path": "eqtl_tissues/part-00000.tsv.gz",
+          "rows": 50,
+          "sha256": "e59030f10850eeb93cd59d5544309eff473bbe0af8406eb6bddc7613c4150fef",
+          "size_bytes": 1656
+        }
+      ],
+      "rows": 50
+    },
+    "eqtl_variant_gene_tissue_associations": {
+      "columns": [
+        "tissue_key",
+        "variant_key",
+        "gene_id",
+        "start_distance",
+        "af",
+        "ma_samples",
+        "ma_count",
+        "pval_nominal",
+        "slope",
+        "slope_se",
+        "pval_nominal_threshold",
+        "min_pval_nominal",
+        "pval_beta"
+      ],
+      "files": [
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Adipose_Subcutaneous.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "e15df5bfb7de905e50f6ee7a0727d07baa4835419031dab6231265b7cddc33eb",
+          "size_bytes": 21618100
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Adipose_Subcutaneous.part-00001.tsv.gz",
+          "rows": 157382,
+          "sha256": "2473b65d35376dd246c445f755d681c566366bc3b3ec9d870479c85e5dc4a1ba",
+          "size_bytes": 13596293
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Adipose_Visceral_Omentum.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "0f432a7dd1d15eb720018e428b83d8b402d9d30036c37252839045b409811181",
+          "size_bytes": 21874116
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Adipose_Visceral_Omentum.part-00001.tsv.gz",
+          "rows": 31076,
+          "sha256": "95f22f81de61a089b23d3aba0befcf961ec0bb900fbb12ad0867b179b786cc80",
+          "size_bytes": 2715879
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Adrenal_Gland.part-00000.tsv.gz",
+          "rows": 147154,
+          "sha256": "bb627e7c96c77cef1dfa3d06a15dc7ed4deba238d23de80eef4efc2f2750beb9",
+          "size_bytes": 13144367
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Artery_Aorta.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "f32a9e49f0f0afbf48728f3677a8c28d1edaf8d7664755a46c2f6f6ddadb010e",
+          "size_bytes": 21674067
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Artery_Aorta.part-00001.tsv.gz",
+          "rows": 32057,
+          "sha256": "e635c5c43b8ece75541729f72cf181c26304f5fa7ea0b854079d15c74119d372",
+          "size_bytes": 2781186
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Artery_Coronary.part-00000.tsv.gz",
+          "rows": 112660,
+          "sha256": "e987fe7b344038cbba8af9c3e508a9078192116f28c5eebc5224eeab16804360",
+          "size_bytes": 10103152
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Artery_Tibial.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "3ef6e674209a81004724061feb3c4a760cde3ddb9ecae5fd2384d417d1e2ee4f",
+          "size_bytes": 21688620
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Artery_Tibial.part-00001.tsv.gz",
+          "rows": 149486,
+          "sha256": "d7fce627acc73d31865c4d02c8a6dadc1464bf5b4963fd9ba626d1d2bb4b3bfb",
+          "size_bytes": 12949037
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Bladder.part-00000.tsv.gz",
+          "rows": 13795,
+          "sha256": "311556f2f67a37fd88e5674e7569af4029744b2867f215ac2c8dcad493fb1d1c",
+          "size_bytes": 1109528
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Amygdala.part-00000.tsv.gz",
+          "rows": 70918,
+          "sha256": "febf191bb62e6d28741ee742234bce45fc8103990b535d7ee6e2fb33a2a12b59",
+          "size_bytes": 6443419
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Anterior_cingulate_cortex_BA24.part-00000.tsv.gz",
+          "rows": 117869,
+          "sha256": "50973508d1a5f032d4c93f6fc2e79a70dea0f4563b67e0b4c265188f95da20b8",
+          "size_bytes": 10855775
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Caudate_basal_ganglia.part-00000.tsv.gz",
+          "rows": 177526,
+          "sha256": "0a50fee1e48ccb9b5e7cad8c174512876ab7f81d034de6ab3b313c798335239d",
+          "size_bytes": 15966044
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Cerebellar_Hemisphere.part-00000.tsv.gz",
+          "rows": 228444,
+          "sha256": "262d4a0f8d2d2825019f842f097a564c414c06ffbad023181a8057e2e8ab3f1a",
+          "size_bytes": 19770163
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Cerebellum.part-00000.tsv.gz",
+          "rows": 225338,
+          "sha256": "30cab9050fd55e4f86df6a491813d321cbdef22655b6b8d48fe863724d0611e2",
+          "size_bytes": 19305426
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Cortex.part-00000.tsv.gz",
+          "rows": 173804,
+          "sha256": "380dc57a3e76d11db2d2c24887b8662fa1ff0096cbfbd4925a8dbc1c95aeae2d",
+          "size_bytes": 15506523
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Frontal_Cortex_BA9.part-00000.tsv.gz",
+          "rows": 172978,
+          "sha256": "9dec2fb7a559da996e0c89d5b9631dcbeab3aae9cb1683d288e985b4db4e6c11",
+          "size_bytes": 15537973
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Hippocampus.part-00000.tsv.gz",
+          "rows": 113456,
+          "sha256": "e1aa86af489747acc9df744067fe81f7333e979c4117a860f7a8b0f7a1553281",
+          "size_bytes": 10305104
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Hypothalamus.part-00000.tsv.gz",
+          "rows": 121459,
+          "sha256": "6ab026b03f49fb133fc3856d0bd8cb1a18b4cee6b167376cd95d1494ffd62290",
+          "size_bytes": 10690408
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Nucleus_accumbens_basal_ganglia.part-00000.tsv.gz",
+          "rows": 176476,
+          "sha256": "42ab20a501fce846a8fd5e0858b0eb985f166805309374f168e856bfbf6635ba",
+          "size_bytes": 15858318
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Putamen_basal_ganglia.part-00000.tsv.gz",
+          "rows": 131546,
+          "sha256": "836a89130cd302db56f4c8a7233eb79521703ac6db69a4da2b88a0bb7f67f3b4",
+          "size_bytes": 12043797
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Spinal_cord_cervical_c-1.part-00000.tsv.gz",
+          "rows": 104338,
+          "sha256": "3d34c7d9c4d773ffc50a5dd496f1838787e09acfe3bde5011da00e0fc7633e67",
+          "size_bytes": 9591415
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Brain_Substantia_nigra.part-00000.tsv.gz",
+          "rows": 70326,
+          "sha256": "eca725df6b1f457d0cf1132d252fd9801632b202b4f566b87f09307033df2294",
+          "size_bytes": 6458646
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Breast_Mammary_Tissue.part-00000.tsv.gz",
+          "rows": 241719,
+          "sha256": "2e9d30f397fa37bed8112333c1c3152988053fbae9a532c3dab6e881413630be",
+          "size_bytes": 21294771
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Cells_Cultured_fibroblasts.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "3a74b896b96c6ab0f7574807eca8b31b1611242b171bd0cb05b06e18d0293552",
+          "size_bytes": 22039847
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Cells_Cultured_fibroblasts.part-00001.tsv.gz",
+          "rows": 159206,
+          "sha256": "2ae8f26f4c6add5903846c04b646c81019623850aa37be1dd796921972df32f4",
+          "size_bytes": 14025955
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Cells_EBV-transformed_lymphocytes.part-00000.tsv.gz",
+          "rows": 188036,
+          "sha256": "c6a406f83f0458e6c19655d1024552f75fa8d546c714c5426ffa601ce7d56450",
+          "size_bytes": 16544559
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Colon_Sigmoid.part-00000.tsv.gz",
+          "rows": 221703,
+          "sha256": "49141e6622bb3355bb084bbdf7749daac58952b3eea3e1e8c4a8e03a0db281c5",
+          "size_bytes": 19563583
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Colon_Transverse.part-00000.tsv.gz",
+          "rows": 241684,
+          "sha256": "ef513992c59eb47ffc05e6083be2a0b5ba50865b998850152f552cfd90a21b1a",
+          "size_bytes": 21233387
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Esophagus_Gastroesophageal_Junction.part-00000.tsv.gz",
+          "rows": 217461,
+          "sha256": "88cdc42fcf24f4752ee6b4c2e822e72da804a075bde810ca0a3130abe53d1c61",
+          "size_bytes": 19324641
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Esophagus_Mucosa.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "dd3e15ebbd336f7dfd3c6cf7ce73436cbb9142aca7073583849bc00c2d5b9741",
+          "size_bytes": 21694536
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Esophagus_Mucosa.part-00001.tsv.gz",
+          "rows": 91306,
+          "sha256": "cfebedbaf8a2ac68d24c43fe251d25ef084450ec69f5e78357677fd80600ff95",
+          "size_bytes": 7915646
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Esophagus_Muscularis.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "b5ad61cb26baa485434651e3954cfd9d39e1fdad6b3b571ab0518f5a94be48b2",
+          "size_bytes": 21812268
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Esophagus_Muscularis.part-00001.tsv.gz",
+          "rows": 76176,
+          "sha256": "d524b221519f47528fe05891dede91370f2569af30e35613846d1d0fce921768",
+          "size_bytes": 6648196
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Heart_Atrial_Appendage.part-00000.tsv.gz",
+          "rows": 231318,
+          "sha256": "1195ae16a0cabd6ed921b3fcd82645b65ea31986446a13d153ddb2643b40153e",
+          "size_bytes": 20511842
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Heart_Left_Ventricle.part-00000.tsv.gz",
+          "rows": 173488,
+          "sha256": "7d70784c121c867c0f03552c7b1e8dc550333233abb8c75f90a141b60c473c84",
+          "size_bytes": 15602992
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Kidney_Cortex.part-00000.tsv.gz",
+          "rows": 22701,
+          "sha256": "f862b3845993fe54e73b29f30fbd333cf4e98bb95cd9a35ff3bd0bdc294f3049",
+          "size_bytes": 2010641
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Liver.part-00000.tsv.gz",
+          "rows": 96873,
+          "sha256": "5a1a0915f15ac458bafa3595dbdb3dd96ad134d0a905803a7d237a7f148ecbd8",
+          "size_bytes": 8688054
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Lung.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "a0880b5036aad10a36eeebe858b3f91389e806e6e35288fc3e7ca80451537b94",
+          "size_bytes": 21552997
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Lung.part-00001.tsv.gz",
+          "rows": 71809,
+          "sha256": "acb596b0dc3d4359165175b3d0225589d331eefba0e8580a1c23f618eceba1a0",
+          "size_bytes": 6182483
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Minor_Salivary_Gland.part-00000.tsv.gz",
+          "rows": 73913,
+          "sha256": "7c88e16a96c9e847548a9038123a47889b51197a9d34fc2f2eebe8d2fc1aa5e6",
+          "size_bytes": 6629491
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Muscle_Skeletal.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "361cf3dbd8f488c873d9209148f1af62f4f3c3901b6b0194ac669b341c0a70a7",
+          "size_bytes": 21808034
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Muscle_Skeletal.part-00001.tsv.gz",
+          "rows": 70293,
+          "sha256": "e3b64092ea3ca25bfbc90965d0841641ab1fe2c7344672de9a13ade1022cd3ec",
+          "size_bytes": 6125586
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Nerve_Tibial.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "d8aa0d1d1658abcfe35ab60d88c0087c52f74a9db69bf6b6080175cfac9375b7",
+          "size_bytes": 21396726
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Nerve_Tibial.part-00001.tsv.gz",
+          "rows": 250000,
+          "sha256": "9a242d4efce2db9078b8ad30c46ad86f757918c3b270a7f55ea282dae07f2e3e",
+          "size_bytes": 21358051
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Nerve_Tibial.part-00002.tsv.gz",
+          "rows": 3745,
+          "sha256": "c36d0ce443b221fac5503a389b3641e7c4100898bd26e7cac044e484a085fc79",
+          "size_bytes": 324126
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Ovary.part-00000.tsv.gz",
+          "rows": 76339,
+          "sha256": "684fd59ae5d09fc24c397ce761e5bb98b1b39787f230b00f8f17609b36f2b3b6",
+          "size_bytes": 6639641
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Pancreas.part-00000.tsv.gz",
+          "rows": 177002,
+          "sha256": "ad9b11d127ad38f7cf08910d89bd239242ea3072eb525608a8b2d4ac96c1ebf9",
+          "size_bytes": 15850879
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Pituitary.part-00000.tsv.gz",
+          "rows": 202021,
+          "sha256": "161be97d2f1bcb7c4e7521e3d72fc850e09f8492c1c14623b9057f8e32d607eb",
+          "size_bytes": 17652995
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Prostate.part-00000.tsv.gz",
+          "rows": 135104,
+          "sha256": "2a6dc392a1ccc15606deab8c9f5cba41083f4873cd21088bb5f53685d6a22023",
+          "size_bytes": 12016454
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Skin_Not_Sun_Exposed_Suprapubic.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "091cb834a2bbb1cd7c7743413b2f23cdf6fb5e0b3b9b4dbf1e768e51ba254941",
+          "size_bytes": 21803777
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Skin_Not_Sun_Exposed_Suprapubic.part-00001.tsv.gz",
+          "rows": 123193,
+          "sha256": "78ab8941cfd8ddfed606ec73ba6a48dae42ca36686bf061eeea73a5794f26066",
+          "size_bytes": 10718261
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Skin_Sun_Exposed_Lower_leg.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "606815f7598bbf1fb515e267664246dca35522aa44dc4bb736f456af4ca7925c",
+          "size_bytes": 21606468
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Skin_Sun_Exposed_Lower_leg.part-00001.tsv.gz",
+          "rows": 199600,
+          "sha256": "77ad2f8b393fd62b25bf42b5449a4ff5b545b5ed75e043ab605ed0aa5583d346",
+          "size_bytes": 17227064
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Small_Intestine_Terminal_Ileum.part-00000.tsv.gz",
+          "rows": 89452,
+          "sha256": "12ed2915a6202376d1774e1658ee07489a26d35d5f3ef5d426de3d40869ea696",
+          "size_bytes": 8005777
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Spleen.part-00000.tsv.gz",
+          "rows": 184975,
+          "sha256": "f417bd41172b56c7a8f90afc3d419e19b5ecce258fa51e179ca0faa03ef2c3b1",
+          "size_bytes": 16290079
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Stomach.part-00000.tsv.gz",
+          "rows": 166291,
+          "sha256": "1eafd4d4eddc20aa0fba9972f1caec32262e02e597a35c8a61ad89eec475bb79",
+          "size_bytes": 14844155
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Testis.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "9eb07f6dda6155c5fcf6a1fa83258dd053d9637060b391baece1b6d9dad479e5",
+          "size_bytes": 21847653
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Testis.part-00001.tsv.gz",
+          "rows": 222593,
+          "sha256": "aa5e65817e86925a9ba8aa4050aaff0dde2bcb6da60177daae73034deb22656a",
+          "size_bytes": 19405521
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Thyroid.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "0ecbbbc16a2746b91de4a32a438033e389e63f2b4bbad5e9abee6fcd09917756",
+          "size_bytes": 21217950
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Thyroid.part-00001.tsv.gz",
+          "rows": 237618,
+          "sha256": "026a4b264b3f7728efa8ee231ed44a8803d7f3d81042e83ca50c49e4f9bdef00",
+          "size_bytes": 20142673
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Uterus.part-00000.tsv.gz",
+          "rows": 46454,
+          "sha256": "a7865aa3f56203f9986be887a2beda18ee7884e62ebcc7f63eecdd18558f38fa",
+          "size_bytes": 4088559
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Vagina.part-00000.tsv.gz",
+          "rows": 49899,
+          "sha256": "1752e623150ba187efaf2e40c57c302021b9d78676caf90176031864cf2270be",
+          "size_bytes": 4429045
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Whole_Blood.part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "9ff39f2195542735165d2dfe7c9e8cdb125d0023a1c4fc279ae371cf49ab362e",
+          "size_bytes": 21510263
+        },
+        {
+          "path": "eqtl_variant_gene_tissue_associations/Whole_Blood.part-00001.tsv.gz",
+          "rows": 50238,
+          "sha256": "06870e319e5b5bdf140b0db6ca7ed7d96d5ab08b512f9c3b26a28afc7317ddbc",
+          "size_bytes": 4320655
+        }
+      ],
+      "rows": 10670298
+    },
+    "eqtl_variants": {
+      "columns": [
+        "variant_key",
+        "variant_id",
+        "chrom",
+        "variant_start",
+        "variant_end",
+        "ref",
+        "alt"
+      ],
+      "files": [
+        {
+          "path": "eqtl_variants/part-00000.tsv.gz",
+          "rows": 250000,
+          "sha256": "1627293858cba512a187306c0336722f5c46ac88e19464e7407b1d4f2569dad2",
+          "size_bytes": 13494579
+        },
+        {
+          "path": "eqtl_variants/part-00001.tsv.gz",
+          "rows": 250000,
+          "sha256": "934abce9382e4fea57622128885438be476a8b4f94cb22252fa843e9790ee776",
+          "size_bytes": 13494955
+        },
+        {
+          "path": "eqtl_variants/part-00002.tsv.gz",
+          "rows": 164555,
+          "sha256": "e18204f75459c93b1bd6da37342ccdbefaa7e6dc04f65cbfca25604cb5d3dd11",
+          "size_bytes": 8882581
+        }
+      ],
+      "rows": 664555
+    }
+  },
+  "version_key": "gtex_v11_strict_te_overlap_v1"
+}

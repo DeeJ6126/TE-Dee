@@ -1,0 +1,50 @@
+{
+  "accession": "DF000003967",
+  "name": "NonLTR-1B_DR",
+  "description": "Nonautonomous retrotransposable element from zebrafish",
+  "keywords": [
+    "Retroposon/"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Retroposon/ | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1210 BP; 251 A; 305 C; 298 G; 348 T; 8 other;"
+  },
+  "sequence": "ttcttctttggctctcggcgaaggcggtcgcactttttccctctccgtcccatatctctccttgctggctcctcttgtcttcgtcttattctatctctgaggctctccgtgccctgctatccaaacgaataaggaattatggatttgatcaactggtctctgaatgcgattgacaccatcttctcgacgagaagtttgggctcgggagagcccacttgtcctgcggggacgtttgcagctggatacgtgatggacgggtgggagaagtggcgcgtcgtgtgcctggctgctctgtctctggaggatattgaagatatttacctattcggaactttgataacagggtttctgctgatgggcttatgcggggccctggggtatcgacgattgatgaaagcggtcagtgctgctcaaaaccccaccaggctggccggcttgattgaaacgcnnatgggtagggtcgctaatantcagactatggtcctagaccgcaaattggaaaacatcggggtgaaactagcggctttgcaacaagatttggccagatctggagacgagtgacggacattaaatatctgtgaaattggcagatattgacctaaagttgaagtatttttctactctttcggcttccctgtttttctcctgccagacggcctcggctggagaaaaacaacttctcccggatagcaagataaggagacgctctgaaattcctgctccctgtcaaggacacctgttggactctacaggcttacacacacacatacacagctacagatagacaatcaccacctatcccctcatccnaacgccttcgtgtgctttcacccactggagggggtaggcgggtctgcgaccagcgcccccatggctgcaggaccagatggctgcccgccctcatcggactatatccacaccccctgttcccatcccctgtggcaatgttgtgtcttgtctgtgtgtttntgtgctngatggggctttttttctccctggtctcacnctgccctaattcaagagcaaggtgagagggngtttttttcgcctccctctcctgaaatgtatcttacttcctttttctaaatgctacctcctgtgacctgtcttcccctgaaaattgtgatgtttgtgtacggtcgggggggttcaatttcactatacgaaagtgtatgtgacaaataaaggcctgatttgatttgatttgatt",
+  "length_bp": 1210,
+  "sequence_length_bp": 1210,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

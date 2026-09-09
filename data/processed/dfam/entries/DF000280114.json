@@ -1,0 +1,50 @@
+{
+  "accession": "DF000280114",
+  "name": "PonBla-1.24",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Pontoporia blainvillei",
+  "display_classification": "SINE/tRNA | Pontoporia blainvillei",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Pontoporiidae",
+    "Pontoporia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 371 BP; 107 A; 124 C; 97 G; 43 T; 0 other;"
+  },
+  "sequence": "gggacttccctggtggtccagtggtaaagaatccgccttccaatgcaggggacgcgggttcgatccctggtcggggaactaagatcccacatgccgcggggcaactaagcccgcgcgccacaactactgagctcgcgcgcctcaactagagagcccgcgtgccgcaaactacagagcccacgcgccctggagcccgcgcgccacaactagagagagaaaacccgcacgccacaactagagagaagcccgcgcgccgcaacgaagagcccgcgcgccgcaacgaaagatcccgcgtgcctcaacgaagatcccgcgtgccgcaactaagacccgacgcagccaaaaataaattaaataaatataaaaataaa",
+  "length_bp": 371,
+  "sequence_length_bp": 371,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

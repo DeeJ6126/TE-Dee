@@ -1,0 +1,37 @@
+{
+  "accession": "DF000001208",
+  "name": "Penelope1_Vert",
+  "description": "Penelope1_Vert subfamily",
+  "keywords": [
+    "PLE/"
+  ],
+  "species": "Tetrapoda",
+  "display_classification": "PLE/ | Tetrapoda",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1079 BP; 357 A; 259 C; 170 G; 289 T; 4 other;"
+  },
+  "sequence": "tcccatttctgactagcaacaacgttatcgaaactgatctttacagcaaacccacggatgnacacctgtatttgaatcggacatcttgtcatcccagacataccaaaatcagcattgtttacagccttgctcttaggattcgacgtatctgcaataatgaagaaaactactggaaaaaaattaaagaacttactaatcagtttgttaatcgaggatatccgcttcacattatacagagacaaattaagaaggctactgtggtacccagaaancatctgctaaacaaagtcaaaattaatgataaacaaaatcgagttccctttgtggttgattttcatccagctgcacccaactataaaagagctatcaaagaaagctacccattagttgtcaattcagaacgacttcagaaagcaatccctaaacctccantgatatctttccgacaacctcctaatctccgcaagttgttggtaagagctgcattaaaccagcctgtcatcaatcctggctctcaccgctgtaactcaaagagatgcactacctgcgatcacttagaagaaactacagcttttaaaagcacatctacaggtagaacttacaatatacaacagaatctcacttgcagatctacctctgtcatctacgtcatacagtgtcaacggcccgactgcaataaacaatacgcaggcaaaaccagcagtgacctacgtacgtatttcagaaatcgcaagtctgctatcattactaagaagctggaccaacctgtggctaaacacttcagcactccagaccacagccttgctgatctcaggattttcccaatagaaagtgtatcaaaacctgaagatctggataaaagaaaaaacttctggacgcagaggcttaaaactctagctccctgtggtttaaacctggaagacaatacatctgtttaacatcttgcagtttctggaattctcattgagaatntttctgacacagtgttccatggaacatcctttgtttgctcacactgtgcctcttttaaacttcagatgtaaacaacaaaagcttattctttttccatactatcttca",
+  "length_bp": 1079,
+  "sequence_length_bp": 1079,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

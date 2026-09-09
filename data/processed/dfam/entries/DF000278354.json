@@ -1,0 +1,46 @@
+{
+  "accession": "DF000278354",
+  "name": "MicHir-4.561",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Nesogale talazaci",
+  "display_classification": "DNA/TcMar-Tigger | Nesogale talazaci",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Oryzorictinae",
+    "Nesogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 660 BP; 167 A; 156 C; 133 G; 203 T; 1 other;"
+  },
+  "sequence": "cagtagtccccccttatccgcggtttcgctttccgcggtttcagttacccgcggtcaaccgcggtccgaaaatattaaatggaaaattccagaaataaacaattcataagttttaaattgcgcgccgttctgagtagcgtgatgaaatctcgcgccgtcctgctccgtcccgcccgggacgtgaatcatccctttgtccagcgtatccacgctgtatacgctncccgcccgttagtcacttagtagccgtctcggttatcagatcgactgtcgcggtatcgcagtgcttgtgttcaagtaacccttattgtgcctaactacgtcacaatgcctacgtcattcacctcacttcatctcatcacgtaggcattgtatcatctcacatcatcacaagaagggtgagtacagtacaataagatattttgagagagagaccacattcacataacttttattacagtatattgttataattgttctattttattattagttattgttgttaatctcttactgtgcctaatttataaattaaactttatcataggtatgtatgtataggaaaaaacatagtatatatagggttcggtactatccgcggtttcaggcatccactgggggtcttggaacgtatcccccgcggataaggggggactactg",
+  "length_bp": 660,
+  "sequence_length_bp": 660,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

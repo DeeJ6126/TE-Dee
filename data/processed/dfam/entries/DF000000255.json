@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000255",
+  "name": "L1MA10_3end",
+  "description": "3' end of L1 retrotransposon, L1MA10_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Boreoeutheria",
+  "display_classification": "LINE/L1 | Boreoeutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1081 BP; 406 A; 174 C; 220 G; 273 T; 8 other;"
+  },
+  "sequence": "ttaatatccaaaatatataaggaactcctacaactcaatagcaaaaaaacaaataacccgattaaaaaatgggcaaaggacctgaatagacatttctccaaagaagacatacaaatggccaacaggtatatgaaaaggtgctcaacatcactaatcatcagggaaatgcaaatcaaaaccacaatgagatatcacctcacacctgttaggatggctattatcaaaaaaacaaaagataacaagtgttggcgaggatgtggagaaannggaacccttgtacactgttggtgggaatgtaaantggtgcagccactatggaaaacagtatggaggttcctcaaaaaattaaaaatagaactaccatatgatccagcaatcccacttctgggtatatatccaaaagaattgaaatcaggatctcgaagagatatctgcactcccatgttcattgcagcattattcacaatagccaagatatggaaacaacctaaatgtccatcgacggatgaatggataaagaaaatgtggtatatacatacaatggaatattattcagccttaaaaaagaaggaaatcctgccatttgcgacaacatggatgaacctggaggacattatgctaagtgaaataagccagncacagaaggacaaatactgcatgattccacttatatgaggnatctaaaatagtcaaactcatagaagcagagagtagaatggtggttgccaggggctggggggagggggaaatggggagttgttgntcaangggtataaagtttcagttatgcaagatgaataagttctagagatctgctgtacaacatagtgcctatagttaacaatactgtattgtgcacttaaaaatttgttaagagggtagatctcatgttaagtgttcttaccacacaacaaaaaaaaagcacaaggaaacttttggaggtgatggatatgtttattaccttgattgtggtgatggtttcacgggtgtatgcntatgtccaaactcatcaaattgtatacattaaatatgtgcagttttttgtatgtcaattatacctcaataaagctgtttaaaaaaa",
+  "length_bp": 1081,
+  "sequence_length_bp": 1081,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1MA10"
+  ]
+}

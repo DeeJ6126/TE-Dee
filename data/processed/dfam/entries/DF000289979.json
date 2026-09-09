@@ -1,0 +1,51 @@
+{
+  "accession": "DF000289979",
+  "name": "SfSE1",
+  "description": "Lineage-specific SINE element found in an lepidopteran insect",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Spodoptera frugiperda",
+  "display_classification": "SINE/tRNA | Spodoptera frugiperda",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Noctuoidea",
+    "Noctuidae",
+    "Amphipyrinae",
+    "Spodoptera"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 298 BP; 65 A; 62 C; 87 G; 84 T; 0 other;"
+  },
+  "sequence": "tgactgcctcgttggccgagtggttgcaagtgcgactgccgggcaaggggtctcgggttcgattcccgggtcgggcgaagtattactgggcttttttcggtttttcgaaaatttctcagtggtagcacggagtctggaaatgtgcccggtatatggcaataggctcaccacctattacatgggacttacaacataaattgtgaaaagtgggtgtacacagtggcattacgtgccataatgtgcacctctgcctaccccttcggggattaaaggcgtgacgatatgtatgtatgtatgt",
+  "length_bp": 298,
+  "sequence_length_bp": 298,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

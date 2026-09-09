@@ -1,0 +1,43 @@
+{
+  "accession": "DF002389830",
+  "name": "Tcro_SINE-5_V",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Tridacna crocea",
+  "display_classification": "DNA/hAT-Tip100 | Tridacna crocea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Heteroconchia",
+    "Euheterodonta",
+    "Imparidentia",
+    "Neoheterodontei",
+    "Cardiida",
+    "Cardioidea",
+    "Cardiidae",
+    "Tridacninae",
+    "Tridacna"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 229 BP; 61 A; 52 C; 62 G; 54 T; 0 other;"
+  },
+  "sequence": "gggtcctgtgtggctcagtggtaaagtgtaggactcgtgacctggaggtcccaggttcgagcctcgctggctccactgggtttttttcacaggagtgtccttgggcaagacacttcagagcctagcctagtactggtgaaacccaggaaacatgaatatgtgaactgtcgccgtgatatgactgaaatactgttgaaagcggcgtaaaacaccattcaaaccaaacaaa",
+  "length_bp": 229,
+  "sequence_length_bp": 229,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

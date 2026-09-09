@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277805",
+  "name": "LasBor-5.997",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Lasiurus borealis",
+  "display_classification": "DNA/TcMar-Tigger | Lasiurus borealis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Lasiurus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 940 BP; 262 A; 207 C; 234 G; 236 T; 1 other;"
+  },
+  "sequence": "cagtagtccccccttatccgcggtttcgctttccgcggtttcagttacccgcggtcaaccgcggtccgaaaatattaaatggaaaattccagaaataaacaattcataagttttaaattgcgcgccgttctgagtagcgtgatgaaatctcgcgccgtcccgctccgtcccgcccgggacgtgaatcatccctttgtccagcgtctccacgctgtatacgctccccgcccgttagtcacttagtagccntctcggttatcagatcgactgtcgcggtatcacagtgcttgtgttcaagtaacccttattttacttaataatggccccaaagcgcaagagtagtgatgctggcaattcggatatgccaaagagaagccgtaaagtgcttcctttaagtgaaaaggtgaaagttctcgacttaataaggaaagaaaaaatcgtatgctgaggttgctaagatctacggtaagaacgaatcttctatccgtgaaattgtgaagaaggaaaaagaaattcgtgctagttttgctgtcgcacctcaaactgcaaaagttacggccacagtgcgtgataagtgcttagttaagatggaaaaggcattaaatttgtgggtggaagacatgaacagaaaacgtgttccgattgacggcaacgtgttgcgccagaaagcactgagcctatacgaagacttcagcaagggatcccctgaaacgagtgacaccaagccatttactgcaagtaagggatggttacacagattcaggaataggtttggactgaaaaatataaaaattactggagaggctgcgtctgccgatgaagaagctgctgccacatttccggcagagttgaagttgattagggttcggtactatctgcggtttcaggcatccactgggggtcttggaacgtatcccctgcggataaggggggactactt",
+  "length_bp": 940,
+  "sequence_length_bp": 940,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

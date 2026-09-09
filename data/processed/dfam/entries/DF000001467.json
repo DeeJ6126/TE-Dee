@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001467",
+  "name": "RC123",
+  "description": "C.elegans satellite-like repetitive DNA.",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "Satellite/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 369 BP; 80 A; 25 C; 132 G; 130 T; 2 other;"
+  },
+  "sequence": "agtttggggttagtggggggatatggtcggggtactgtagtagtactgtaggggtactgtaggagtactgtaggattactgtagttttggaaaaattgagttttcgtcttttgaagggatattggtttggggttagtggtgggatatggtcggggtactgtagtagtactgtaggggtactgtaggagtactgtaggattactgtagtttaggaaaaattgagttttcgtcttttgaagggatatnggtttggggttagtggtgggatatggtcggggtactgtagtagtactgtaggggtactgtaggagtactgtaggattactgtagtttgggaaaaattgacttttcgtcttttgaaggganatt",
+  "length_bp": 369,
+  "sequence_length_bp": 369,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RC123"
+  ]
+}

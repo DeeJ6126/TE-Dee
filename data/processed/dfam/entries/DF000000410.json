@@ -1,0 +1,49 @@
+{
+  "accession": "DF000000410",
+  "name": "LTR14A",
+  "description": "LTR14A (Long Terminal Repeat) for ERVK endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR14A"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 344 BP; 63 A; 112 C; 72 G; 97 T; 0 other;"
+  },
+  "sequence": "tgggagaaaagctgagtgttgggagagaagctgaggcagggcttgcatgtctgctagacttgctggctccttgcttctagcactcccattatctcaagcagccatatgtttctcattcacttgatacaccgtttcctttcaacccccacatcctcaccacctgtttctttgtttgagcaccaataaatagcgtgggctcccagagctcggggccttcgcagcctccacactcgcgatggccccctggtcccactttctctctcaaactgtctttttctcattcctttgactccgccggacttcgtcgcccccacgacctggtgttgggtctgatcaccccaaca",
+  "length_bp": 344,
+  "sequence_length_bp": 344,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR14A"
+  ]
+}

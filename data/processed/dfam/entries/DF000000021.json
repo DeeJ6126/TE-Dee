@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000021",
+  "name": "Charlie1a",
+  "description": "hAT-Charlie DNA transposon, Charlie1a subfamily",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1455 BP; 473 A; 259 C; 273 G; 449 T; 1 other;"
+  },
+  "sequence": "cagcggttctcaaagtgtggtccgcggacccctgggggtccccgagaccctttcagggggtccgcgaggtcaaaactattttcataataatactaagacgttatttgcctttttcactgtgttgacatttgcactgatggtgcaaaagcaatggtgggtaaaactgctggcgccttagcacgaatcaaggcagtggcaccaaactgtactagtagtcattgtattcttcaccgccacgcactcgcagtnaaaaaaaagccagtttcacttaagaatgtccttgatgaagcagtaaaaattattaattttattaaatctcgacccttgagtacacgtctttttaatattctgtgtgacgaaatgggaagtacgcataaagcacttctgctgcataccgaagtacgatggttgtctcgaggaaaagcacttgtgcgattgtttgagttgcgagctgaactagccgcttttttcatggaacaccatttttacttgaaagaacgactgacagacaaactatggttattcagacttgggtatttggcagacattttctcgaaaatgaacgaagtgagcctgtcacttcaaggaaaacaactgacagtatttgttgccaatgataaaattcgagctttcaagcgaaaattagaattttggaaaacttgtatccgccaccgtgagcttgacagcttcccaatacttaaagacttttctgatgagatcggtggtgatattaacgaatgtgattttttgatattgtataatgaaatgtgtcaacatttggaagatctgcataactcagtgaaccaatattttccaaatgaccaatgcatgatgttacaaaatcatgcatgggtaaaagatccattcaaagtgcaagatagaccaatggattttaatgtaacagagtacgaaaagttcattgatatggtttcagattccacattgcaactaacctttaagaaactaccacttgtcgagttttggtgtagtatcaaagaagaatatccacaattatctgaaaaggctattaaaatactcctcccttttccaactacatatctgtgtgaggccggattttcttcatatacttcaaccaaaacaacatatcgcaacagattgaatgcagaagcagatatgagaatccagctgtcttctattaagccagacattaaagagatttgcaaaaatgtaaaacaatgccactcttctcactaaatttttttgttttggaaaatatagttatttttcataaaaatatgttatttatgttaacatgtaatgggtttattattatttttaaatgaattaataaatattttaaaaatttctcagttttaatttctaatatggtaaatatcgatagatataacccacataaacaaaagctctttggggtcctcaataatttttaagagtgtaaaggggtcctgagaccaaaaagtttgagaaccgctg",
+  "length_bp": 1455,
+  "sequence_length_bp": 1455,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CHARLIE1A"
+  ]
+}

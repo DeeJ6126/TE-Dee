@@ -1,0 +1,40 @@
+{
+  "accession": "DF003586476",
+  "name": "Medu_SINE-8_V",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/tRNA-V"
+  ],
+  "species": "Mytilus edulis",
+  "display_classification": "SINE/tRNA-V | Mytilus edulis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Mytilida",
+    "Mytiloidea",
+    "Mytilidae",
+    "Mytilinae",
+    "Mytilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 263 BP; 68 A; 68 C; 62 G; 65 T; 0 other;"
+  },
+  "sequence": "ggggcctcggtggccgagtggtctaagtagttactactgtaatcactagccagtcaacactgaggttgtgagttcgaaccccgctcgtgcgggtgcactcgactccaatcttaattgactaggattgtcagttttcctatcgaaggtcggtggttttctccgggcactccggcttcctccaccaataaaaactggccgccacgaaatagcctaaatgcggtgcttaaaagtggcgttaaaacaccaaaaatccaaatcaaatc",
+  "length_bp": 263,
+  "sequence_length_bp": 263,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

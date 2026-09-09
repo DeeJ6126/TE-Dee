@@ -1,0 +1,40 @@
+{
+  "accession": "DF003575739",
+  "name": "TcMar_M.coruscus_19",
+  "description": "Repetitive sequence family identified in Mytilus coruscus",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Mytilus coruscus",
+  "display_classification": "DNA/TcMar-Tc1 | Mytilus coruscus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Mytilida",
+    "Mytiloidea",
+    "Mytilidae",
+    "Mytilinae",
+    "Mytilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1355 BP; 433 A; 230 C; 305 G; 378 T; 9 other;"
+  },
+  "sequence": "cagtactccgccataagtattcgtaaaaataacaatggcggtcacgtcacggnngggtaaacaagtttttactgtcgtctccatgtcacaatcgggatgacaatgaacctatatataggtagttctgtagaaaaacatgtgcttgtcatgtgacacgtgcgtgatgacgtcanagtcgtctgcacttacgttgtagctaatgtaaacaaaatgggtcgcaagggaaaagaactgacatctgatcagaaaagtcgtctcgctgcattaaatgatgcaggttacagaaaaagtgatattgtcaaattgacaggcatcaaacagagtaccgtntacagttttttgaagaggtatgaacatcggggtgatatngaaaacattcggagatcaggcagaccaaaatcctttcatgaccgggacatgagaaaactttcccgttgtgtgaaaaaacatcgccgtaaatctttatctgaaattactaatatttttaatgagagcattgatcgacctttctcaaaaagaactgttgaacgtaaattgcattctgangggttccacaagcggtcagtaaagaaaaaaattcgtatccgtgaagtcaacaagaaaaaacgagtggcatattgcagaggaaatttacataaaactgttaatgcacactggagtaaagtnattttcagcgatgagtgcaaggtagtcattgggcaggattctcgtgtcagtatctggagaaaggtcggagaagagtggttgacggattgtatttgccctccatctcagcgcaagtatagtttaatgatctggggatgtattacttaccatggtgtcggaactataactgttgttgaagggaacataaatgccttaaaatacattgacattattgacaataacgtgtggccagtggttgttcgtcattttccngatgatgactacgtttttcaagatgacaatgcccccgtccatcgagcccgatccgttcaagattttcgnagggaaacgggtttaaaaagcatgaactggccagctcagagtcctgacctcaatattattgagaactgttggtgggtattaaaaagggaactgcaaaaacgaactcagaacataaataataccaaagacctggaacgtgaaattcgtgacatatgggacaatttaactgtaacttacctgaaatcgttgtataacagcattcctaggaggattttacgagtaatgaggaacaaaggaaacattacaaagtattaaggtaggattttttttattttgttagttgttcaatagttccaagttttttcatgtgcagatttacgtcgactggcggccattttgtttttacgaatacttatggcggacgactg",
+  "length_bp": 1355,
+  "sequence_length_bp": 1355,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

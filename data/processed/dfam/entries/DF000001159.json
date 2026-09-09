@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001159",
+  "name": "UCON73",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/hAT | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 169 BP; 50 A; 46 C; 32 G; 40 T; 1 other;"
+  },
+  "sequence": "cagccttgcaaataagtaccaaaaatttaccagcccacaaaaatgttttaccagcccgccttctccccaggaggtacacaggtagtaaaataaatgaaatcagcattctttnctactcgcccggcataaatcgttactcgccctgggcgagtggctatttgcaaggctg",
+  "length_bp": 169,
+  "sequence_length_bp": 169,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON73"
+  ]
+}

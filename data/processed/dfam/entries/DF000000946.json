@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000946",
+  "name": "MER88",
+  "description": "MER88 Long Terminal Repeat for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER88"
+  ],
+  "species": "Euarchontoglires",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Euarchontoglires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 464 BP; 90 A; 158 C; 91 G; 121 T; 4 other;"
+  },
+  "sequence": "tgtattgtaaatttttaaaacttcatattttcctgatgcctcaacatccccacaaacaggctgtgagcaccccgcccaggtgaccaggtgcaccagtgtgataaggctggtccctgccacaagttccccttcttgccctcccctgactgtgacctagtgacattcaaacgcaccagtgaaatcccctcacgccttttgcttgtgtactccaccctgacccccaataaaggcacttgcccacgggtcctctctctctcggctccccacctgcttggttgagcccgctccctnggngctcctcccatgtggccccctgcgtggcgtgccgtgcctccctctctaggacctgtgagtataataaatcctttantttcntgtgcctctccgagtgtaatttccacggccgtgttggagtgatccttaaagaccccacaagggggacttactcccccatttacaacaca",
+  "length_bp": 464,
+  "sequence_length_bp": 464,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER88"
+  ]
+}

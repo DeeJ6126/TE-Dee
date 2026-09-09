@@ -1,0 +1,48 @@
+{
+  "accession": "DF003440123",
+  "name": "Helitron16_mMyo",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Myotis myotis",
+  "display_classification": "RC/Helitron | Myotis myotis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Myotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1447 BP; 242 A; 412 C; 589 G; 192 T; 12 other;"
+  },
+  "sequence": "atctacactaataaaagagaaaaatggtaattggcgtacggcgctacccttttcattggctaatcagggctatatgcaaattaactgccaactaagatggcagttaactgccaacaaagatggcggctaatttgcatatgtaggcacaatgcagggaggcgaaagggaaagcaggaagaagccccctgccactgacagtgatcggaaacccaggggggagctaagagctggggggcagggcaaaggcggccctggggccgcctttgccctgccccccagccatgatcggagaatcaggcgcctttgccgccctggccagtgatagcaggaagtaggggtggagccagcgatgggagctgggcacggtcgaagctggcagtcccgggagctaggggtcccttgcctgggcctaaagcggagcccgcgatcgcggggccgctgcagctgcgggtccccgctgcccgggccggacgcctcggccagaggcgttaggcctgggcaggggcggagcccgcgatcgcggggagctgggggtcccctgcccgggcctgacgcctcggccagaggcgttaggcctgggcaggggcggagccngcgaccgcggggagctgggggtcccctgcccaggcctgacgcctcggccggaggcgtcaggcctgggcaggggcggagccggcgatcgcggggagctgggggtcccctgcccaggcccgacgcctctgccggaggcgtcaggcctgggcggggggccganccggngatcggtgatcggagggtgatgagggtcgactcctctggccgaggcgtcaggcctgggcggggggcggagccggngatcggaggganatgggggtccccttgcccaggcctgangcctgggccagaggcgtcaggcctgggcggggggcggagccagcgatcggagggagatgggggtcccctgcccaggcctgacgcctgggccagaggcgtcaggcctgggcggggggcggagccggcgatcggggggagatgggggtcccctgcccaggcctgacgcctctggcggaggcgtcaggcctgggcgaggggccganccggcgatcggagggngatgggggtccacgcctctggccgaggcatcaggcctgggcgaggggcagagccagcgatcggaggggnntgggggtcccctgcccaggcctgacgcctgggccagaggcgtcaggcctgggcngggggcaganccagcgatggggggagatgggggtcccctgcccaggcctgacgcctctgtcagaggcgtcaggcctgggcaaggggccgatcctgcgattggagggtgatgggggtcaacgcctgagggctcccagtatgtgagagggggcaggctgggctgagggacactccccccacacacacacccagtgcacgaatttcgtgcaccgggcccctagtatatatataa",
+  "length_bp": 1447,
+  "sequence_length_bp": 1447,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

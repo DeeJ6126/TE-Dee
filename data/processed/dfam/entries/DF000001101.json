@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001101",
+  "name": "UCON26",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON26 subfamily",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/hAT-Ac | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 398 BP; 97 A; 106 C; 98 G; 96 T; 1 other;"
+  },
+  "sequence": "tagggatgggcgaaccggttcggataaaataagaaccgacctgaaccttcgcccaaaactcgaaccgaacccgaacctgaacttttttgaggttcgaaaaagttcggttaactttttttncgttatttttcattttcgcgcgcctctgcacttcctggttccggccgggaccggaagcggaagtgccgaaataccgcgagaaaggctgttctcgcggtatttccggcccgaccggaagcaggaagtaccggaaatctcgcgagaaagcctgttctcgcgagatttccagcccaattttgcagacccaagaggttcggataagcttcggataagcatccgaacttttgggtgcttatccgaaccgaacctccgaaccttttgaggttcgcccatcacta",
+  "length_bp": 398,
+  "sequence_length_bp": 398,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON26"
+  ]
+}

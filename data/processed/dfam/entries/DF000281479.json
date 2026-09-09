@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281479",
+  "name": "ZipCav-5.85",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Ziphius cavirostris",
+  "display_classification": "DNA/hAT-Charlie | Ziphius cavirostris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Ziphiidae",
+    "Ziphius"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 515 BP; 175 A; 64 C; 84 G; 191 T; 1 other;"
+  },
+  "sequence": "ctgcgctgtccaatatggtagccactagccacatgtggctactgagcacttgaaatgtggctagtgcgactgaggaactgaatttttaattttatttaattttaattaatttaaatttaaaaactgatactcgattcagttattggaaaacttttaagtatgtttggaacaacttgggtatgtgaatctactttttcaactgtaaattttatgaaatctaaatacagatcaagtatttccgatgaaaatttagcgtccgaattgagatgtgctgtaagtgtaaaatacacaccggatttcgaagacttagtacgaaaaaagaatgtaaaatatctcattaataatttttatattgattacatgttgaaatgataatattttggatatattgggttaaataaaatatattattaaaattaatttcacctgtttctttttaactttttaaaatgtggctactagaaaatttnaaattacatatgtggctcgcattatatttctattggacagcgctg",
+  "length_bp": 515,
+  "sequence_length_bp": 515,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

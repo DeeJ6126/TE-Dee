@@ -1,0 +1,47 @@
+{
+  "accession": "DF000287104",
+  "name": "TE0634_SO2_FAM1615",
+  "description": "Repetitive element found in rice weevil",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Sitophilus oryzae",
+  "display_classification": "DNA/hAT-Ac | Sitophilus oryzae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Coleoptera",
+    "Polyphaga",
+    "Cucujiformia",
+    "Curculionoidea",
+    "Curculionidae",
+    "Dryophthorinae",
+    "Sitophilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1243 BP; 428 A; 216 C; 205 G; 394 T; 0 other;"
+  },
+  "sequence": "tagggctgtgccgataccgatactcagtatcgggtatcggccgatattgactattttccgatactcgccgatacctagtacttcagataccaaagtatctgtcagatacttttttcttgtgtcaaatcgttgtaataaataaaaattggttttatgttttagttgcgtcttcttttgcaaattttcttaacatgtcacatagtcagtggctacttgctgaaaaggtagttcaaattttggctccatttcaagaagctactaaaacccttagtaaacattcgacttcattagcggatgttcttccactagttaaaggtatcaaaattgttttaaaaaaatatttggaagtagaaggtgtaaaaatgctagtaaaggaactattaacaggactagagaatcgcttcagtttcattgaaaaaaatgatctctacttaatggccacagccttagatccgcgatataaagctggtttattcactggtgaaaacgaaaatgagcaaaccgtaattcagaaaataataaatgtattaaaagataatgcaccgctagctttacatgcttcacaatcacaacagatgtctgattctgatacggatacaaatacaaatacgaactttgatgaagccccaggaacctccggttcacttattcccaattttaatctaagccttttgcaggtatatataaagttttaaaactaaaacagtgcgtattaaatatgctttactttcttttgggctactaaacaacttttacaaaaaagtcagtggagtccaagtccaaatccaaactatgatctggacaaagaaattcaactatatttacatgaaccgacaaaaaaacttgaaactgacccattagattattggaaacaggaaaccagatttccaaaactaaaaaaaacttgctgctctctatttgtcaataccagctggatctgtcttctctgaacaaactttttccgaagcagggcatattgtgaaacctacaagaacttcactaacatcagaaaatgtccagagattaatatttttaaagaaaaatttttacctcttaggttgagataaacttttttttgaagttgttagctgttatagctaaatcttatgtaacgagttttgatttttaataaaagttaagtaaaaaaaacttttatctgaatttcagatacagtatcggtatcggattttaggtatcgaaagtatcggtatcggtatctgaaaggtagtatcggcacagccct",
+  "length_bp": 1243,
+  "sequence_length_bp": 1243,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

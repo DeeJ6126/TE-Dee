@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004937",
+  "name": "Halyomorpha_halys-1_family-609",
+  "description": "Long Terminal Repeat for an Gypsy endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "Halyomorpha_halys-1_family-609"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 68 BP; 21 A; 17 C; 19 G; 7 T; 4 other;"
+  },
+  "sequence": "acggcaaaaggaggtcaccctggcntaccaccaggggaaaaccaatcatcgnggnntgaacgagacgt",
+  "length_bp": 68,
+  "sequence_length_bp": 68,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

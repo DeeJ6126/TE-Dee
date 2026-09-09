@@ -1,0 +1,43 @@
+{
+  "accession": "DF000001047",
+  "name": "ORSL",
+  "description": "ORSL (Ori-enriched Sequence L), putative hAT DNA transposon",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 275 BP; 92 A; 49 C; 54 G; 80 T; 0 other;"
+  },
+  "sequence": "cagggccgacttatccattaggcacagtaggcacagtgcctagggcccacgatacttttaggggcccacgaaaatgttttaatttcttttaaaatcagaagaaaaaatgaacttttaggtcaaagaaaatgttttaatatataatattaatatattctatattcgtctttataccaacgcagtcgtaaaatataatttttaatatttttttatggaggaaggggcccacgaaggcaaaagtgcctagggcccacgaaagtcataatgcggccctg",
+  "length_bp": 275,
+  "sequence_length_bp": 275,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ORSL"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280816",
+  "name": "SpiGra-1.1",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Spilogale gracilis",
+  "display_classification": "SINE/tRNA | Spilogale gracilis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Mephitidae",
+    "Spilogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 202 BP; 41 A; 61 C; 48 G; 52 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagttggttaagcgactgccttcggctcaggtcatgatcccggagacccgggatcgagccccacatcgggctccctgctcggcgggaagcctgcttctccctctctcactccccctgcttgtgttccctctctggctgtgtttctctctgtcaaataaataaataaaatctttaaaaaaaaaaaa",
+  "length_bp": 202,
+  "sequence_length_bp": 202,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279357",
+  "name": "NocLep-1.9",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Noctilio leporinus",
+  "display_classification": "SINE/tRNA | Noctilio leporinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Noctilionidae",
+    "Noctilio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 227 BP; 62 A; 64 C; 51 G; 50 T; 0 other;"
+  },
+  "sequence": "gccctggctggtagcacagtggataaggcgccggcctgcgaacccaaaggtcgcaggttcgattccccagccagggcacataaccaggttgcaagccaggtctccagtcaggtctgtggctggaggcaggtgaaaggcaaccatacattgatgtctctctccctctctgcctctctcccttcccctctttctaaaaataatgaaataaaatctttaaaaaaaaaaaa",
+  "length_bp": 227,
+  "sequence_length_bp": 227,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

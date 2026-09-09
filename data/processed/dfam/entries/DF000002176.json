@@ -1,0 +1,50 @@
+{
+  "accession": "DF000002176",
+  "name": "RMER1A",
+  "description": "Medium reiteration frequency repeat",
+  "keywords": [
+    "Retroposon/L1-dep"
+  ],
+  "species": "Muridae",
+  "display_classification": "Retroposon/L1-dep | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1030 BP; 195 A; 274 C; 369 G; 179 T; 13 other;"
+  },
+  "sequence": "cacctgcggcagtcgggagagctggccccggggtcatgagagcaggagagctggccctgcccctcgccggctgcagcactcgggagagcgggccctgcacctcgcctgggcagcacagtagagctggccctggtggcgggggcgcgggtgagccggccccgagggcgtgagcgcgggagagctggccccgccactcgtctgccgtgaggtggcgtgggcgngggggagatgccctcctcccctccccgcccctcgccacctgcggcagncgggagagccggccccggggtcatgagagcgggagagctggccctgcccctcgccggctgcagcactcgggagagcgggccctgcacctcgnctgggcagcacagtggagctggccctggnggcgtgggtgcgggtgagccggccccgagggcatgagagcaggagagctggccctgcctcctgccgacggcggcattgggtggcctagccggagcagtgctggagagctcgccctggtggtgcggataagggagagccggcgggctgaccagctcagctaccacccaggcccagatccagggctttgagttggcccaccccaaaatctacntcatctgtgaactgctggggcgcgtgaaagggccggtcctgcngatccaaagctgcaggatctccatgacacagggcaacaacaggatanccgggaggagtcccggtgaggatccagtattgatggtgtcgcagaagccagaggcctcgaaccagaccaatgactcattgcaatgaacatttgcaagcgaagatgtgtggacagaggggtatactgtgggacacactgtgacacactacagcttccacgatgagatgttttctatgctttgttttgtttntgttgtttgttttttngtntgtntgtntnttattttgggggggaggttgcaagggcggagggcggatacgaggggacggggagatgagtgggactggggtgcatgatgtgaaactcacaaagaatcaataaaaagttttaaaaaaaaaa",
+  "length_bp": 1030,
+  "sequence_length_bp": 1030,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RMER1A"
+  ]
+}

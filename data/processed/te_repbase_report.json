@@ -1,0 +1,16 @@
+{
+  "source": "D:\\wamp64\\www\\TE-\\data\\raw\\TE_Repbase.txt",
+  "output": "D:\\wamp64\\www\\TE-\\data\\processed\\te_repbase_structured.json",
+  "entry_count": 526,
+  "strict_name_index_count": 540,
+  "canonical_index_count": 538,
+  "with_description": 526,
+  "with_keywords": 526,
+  "with_references": 526,
+  "with_sequence": 526,
+  "db_alignment": {
+    "matched_count": 276,
+    "unmatched_db_te_count": 171,
+    "repbase_only_count": 250
+  }
+}

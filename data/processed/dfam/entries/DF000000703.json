@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000703",
+  "name": "MER106A",
+  "description": "hAT-Charlie DNA transposon, MER106A subfamily",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 236 BP; 77 A; 37 C; 68 G; 53 T; 1 other;"
+  },
+  "sequence": "catgcattctcaacgggggcgatatcgcccccaagggggcgaaaattggttcttggggggagaaaaaatcttagatattacaatggtttgtggccctccaaagggccacagtacataaacagatatacagtatatctgtggtattaaaatttcatggngggggggggcgattaggaaaaaaatgtctaaaaaggctccttaggggggcgataatgaaaaaaggttgagaaacactg",
+  "length_bp": 236,
+  "sequence_length_bp": 236,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER106"
+  ]
+}

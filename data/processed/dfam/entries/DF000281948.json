@@ -1,0 +1,49 @@
+{
+  "accession": "DF000281948",
+  "name": "EriEur-1.163_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EriEur-1.163_LTR"
+  ],
+  "species": "Erinaceus europaeus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Erinaceus europaeus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Erinaceidae",
+    "Erinaceinae",
+    "Erinaceus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 361 BP; 54 A; 99 C; 90 G; 115 T; 3 other;"
+  },
+  "sequence": "tgttggtatgcttctagttctgcttctgggatcccttctgttacattgcttgacgttgtggtctatttacatggtcattctgttacattggtttggtctcgctccccctgcctccgggagattttggtttagtcctcgctggttcgcgcttcttccttctccccgccccctatcctacgtacttccttggttcctgacgctgccgccggaggagagagatgnagganagaattgtgttgtgattaggttgttggactgcntgcccgctcgtgaataaagattgaactgcgttctcagctcagccatgagtctctggtcgtctctgtctcccgcccgcgaagccagcccggcgaaaacaaca",
+  "length_bp": 361,
+  "sequence_length_bp": 361,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

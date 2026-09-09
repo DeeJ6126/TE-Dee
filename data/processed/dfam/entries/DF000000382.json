@@ -1,0 +1,42 @@
+{
+  "accession": "DF000000382",
+  "name": "LTR106_Mam",
+  "description": "LTR106_Mam (Long Terminal Repeat) for an undefined retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR106_Mam"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 708 BP; 232 A; 121 C; 109 G; 239 T; 7 other;"
+  },
+  "sequence": "tgtcgtggaaaatcgagattctgcattgtgttttaaagttaatctgttagagtcacttattattttacttgtaaaataacttttacaaggaggaatgcctttagntatgttcctaattttaagagaatctgcacagtcttttatactggttgagttaattagaacnagatcagtgaggtcatagtcagtgggttaattatcacaaggttggtgagtaaaatcaacctcctatgacaaacatagtttacaactttaagtgaacaaacacagttttctacaacaaacattctaacaaatgtagtttcctataacaaacattcatagtctcaaggttacaagtcaacagtccttggaactattaaaacaaacctttcaatattacaggaaagctctttgccctttttagtaaacagacttagacagaaactcaactttatgatgacaagatacagaataagtatagatttaacttaaattttatggtaactggtatgtaaatattcnctaaccttcttccttatctntctaaacaaagggtaatggctagcccagtgctttgcattctcaaaagcacttgtgtcaacagcttccctttctctcaaggtttctcattaaatgctattgaaacttgtggcctntggtttcaactataattttaaccaaggctgaatcaaagatatttggggcttataatnntttatttccaca",
+  "length_bp": 708,
+  "sequence_length_bp": 708,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

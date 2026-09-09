@@ -1,0 +1,52 @@
+{
+  "accession": "DF000279028",
+  "name": "MusSpr-4.198",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Mus spretus",
+  "display_classification": "SINE/Alu | Mus spretus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae",
+    "Mus",
+    "Mus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 155 BP; 46 A; 40 C; 46 G; 23 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcacgcctttaatcccagcactcgggaggcagaggcaggcggatttctgagttcgaggccagcctggtctacagagtgagttccaggacagccagggctacacagagaaaccctgtctcgaaaaaccaaaaaaaaaaaa",
+  "length_bp": 155,
+  "sequence_length_bp": 155,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF003440086",
+  "name": "DNA1_pDis",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "DNA/TcMar-Tc2"
+  ],
+  "species": "Phyllostomus discolor",
+  "display_classification": "DNA/TcMar-Tc2 | Phyllostomus discolor",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Phyllostominae",
+    "Phyllostomus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 310 BP; 116 A; 41 C; 48 G; 105 T; 0 other;"
+  },
+  "sequence": "ccgtattttgccgtgtataatgcgcacttttttgcccaaatttttgagggaaaaataaggatgcgcattatacatgggtagtacctgaaataccttgtatctgttcttgtgttttgtaattatttgttacataaaatttcttgtaccataatatgttcaaaaataaatgctaaaattcctttataatacaaaaaacaagtatctaaatataaataaataaaaaattgaattaaaaaattaaaacgaaagatttttttcctgaaagtttgggccaaaaacgtgggtgcgcattatacacggcaaaatatgg",
+  "length_bp": 310,
+  "sequence_length_bp": 310,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

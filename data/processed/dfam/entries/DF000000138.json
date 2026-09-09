@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000138",
+  "name": "Eulor8",
+  "description": "Eulor8 (Euteleostomi-conserved low frequency repeat 8)",
+  "keywords": [
+    "DNA/TcMar"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/TcMar | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 562 BP; 166 A; 115 C; 114 G; 159 T; 8 other;"
+  },
+  "sequence": "cagcatccgaggaganncataagattncaatctcgagattgtaacgagaatgggttaagtttgtaccatttcccattctcgttacaatcntcgtcacgagaatggattcatgttgtgccattttctgttctcgttacaatctttgtcacgagaacgaggtatcagaattttaatgcctaatacgttctgtgaaatacggcagcgtgctntactgctttgaccttttcaatattctgcattttgattggctggccattccgcctcttcctcacaggttancgaggctgtaaacaggggagaacgggaatggccagccaatcaaattacagaatattgaaaaggtcaaagtagtacagcatactgctataattcacagaatatatgaggcattaaaattccgatacctcattctcgtgacaaagattgtaacgagaacagaaaatggcacgacatgaatccgttctcgtgacaangattgtaacgagaacgggaaatggtacaaanttaacccattctcgttacaatcttaagattgtaatctcgtggtcctcctcagatgccg",
+  "length_bp": 562,
+  "sequence_length_bp": 562,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Eulor8"
+  ]
+}

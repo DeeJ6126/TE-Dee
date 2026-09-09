@@ -1,0 +1,53 @@
+{
+  "accession": "DF000001783",
+  "name": "IAPEY5_LTR",
+  "description": "Endogenous retrovirus - long terminal repeat.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "IAPEY5_LTR"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 293 BP; 58 A; 63 C; 95 G; 77 T; 0 other;"
+  },
+  "sequence": "tgtgggaagcggtttccgctgtgcctgcgtggcctaattggtaaacaagcaatgtgcgcatgtgcgagagtgttttcgtgccaagtcacggcccatcccggggcgtggtgatgaggctctgggagagcagccaatcaggtgtggacacgccacactaaggtgtatataagcagcgcctttttggtgcttggggtcttcctcttcatgttgaaactggtgtaataaagttgctgcagaaggatccggtttctcacgcgtgtgttcttgctggcgagacaatagcgcgtgtgaga",
+  "length_bp": 293,
+  "sequence_length_bp": 293,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "IAPEY5_LTR"
+  ]
+}

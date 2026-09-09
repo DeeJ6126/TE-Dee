@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277688",
+  "name": "KogBre-5.186",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Kogia breviceps",
+  "display_classification": "DNA/TcMar-Tigger | Kogia breviceps",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Physeteridae",
+    "Kogia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 425 BP; 104 A; 107 C; 97 G; 116 T; 1 other;"
+  },
+  "sequence": "caggtatcccccgcttttcgaaagttcgctttatgccacttcgcttttacgaaagacctacattagtacctgttttcgctaaccgaaagaaatccgaagaggattttcgcttttacgaaaaaaggcgaaaagcgaaaatagcgttcagcgtttgttttgcagcgagccgttatagaggcagcgcgcaccccgagcagcgagagtggcaccgccaagctccttccccgggaactacactcagcatctcagcatcaagccgccanagctttgaactgtgtctgtgagcatctgtgctttatctcgatttattttgtgcatccgttagcaagatgtgtcctaaggtaattgcttcttcgctttacgccatttcggcttacgaaaggtttcataggaacgctctactttcagatagcgggggaaacctg",
+  "length_bp": 425,
+  "sequence_length_bp": 425,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

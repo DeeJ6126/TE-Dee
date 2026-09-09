@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278590",
+  "name": "MirCoq-4.315",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Mirza coquereli",
+  "display_classification": "SINE/Alu | Mirza coquereli",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Cheirogaleidae",
+    "Mirza"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 334 BP; 92 A; 78 C; 98 G; 66 T; 0 other;"
+  },
+  "sequence": "aggccgggcgcggtggctcacgcctgtaatcctagctctctgggaggccgaggtgggcggatcgtttgagctcaggagttcgagaccagcctgagcaagagcgagaccccgtctctactataaatagaaagaaattaattggccaactaatatatatatagaaaaaaaattagccgggcatggtggcgcatgcctgtagtcccagctactcgggaggctgaggcagcaggatcgcttgagcccaggagtttgaggttgctgtgagctaggctgacgccacggcactcactctagcctgggcaacaaagtgagactctgtctcaaaaaaaaaaaa",
+  "length_bp": 334,
+  "sequence_length_bp": 334,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

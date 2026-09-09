@@ -1,0 +1,72 @@
+[
+  {
+    "source": "docs/article_database/references.bib",
+    "destination": "references.bib",
+    "sha256": "acb7a2575b43e87435ac4d9ecbc92ba5781e573ec0252fced5d8fe34f0e89cde",
+    "captured": "2026-09-02",
+    "note": "Original execution/review date is defined in source; capture is not rerun."
+  },
+  {
+    "source": "docs/article_database/tables/table1_content_snapshot.csv",
+    "destination": "evidence/snapshots/legacy_content_snapshot_20260731.csv",
+    "sha256": "a0e3bb89220248658b2c0d3a9739b199d07458e79d8963a89bb7b2b8b4ebb324",
+    "captured": "2026-09-02",
+    "note": "Original execution/review date is defined in source; capture is not rerun."
+  },
+  {
+    "source": "docs/article_database/evidence/neo4j_snapshot_queries.cypher",
+    "destination": "evidence/snapshots/neo4j_snapshot_queries.cypher",
+    "sha256": "78ee30ce6d616db9d525ca45c3ca2e3c2d7f952c49bc7452af1997d378c3f4fa",
+    "captured": "2026-09-02",
+    "note": "Original execution/review date is defined in source; capture is not rerun."
+  },
+  {
+    "source": "docs/article_database/evidence/database_content_inventory.md",
+    "destination": "evidence/snapshots/legacy_database_content_inventory.md",
+    "sha256": "6c5656a631e1e6369926d56578472d025cf1b7dfd90d8f0966bbc15e0375db7a",
+    "captured": "2026-09-02",
+    "note": "Original execution/review date is defined in source; capture is not rerun."
+  },
+  {
+    "source": "docs/article_database/evidence/evaluation_register.md",
+    "destination": "evidence/snapshots/legacy_evaluation_register.md",
+    "sha256": "8334b6d25a1f2f5ffc25c59f2a58ca0d28329d9e01c72d095d1e66bedce14dc0",
+    "captured": "2026-09-02",
+    "note": "Original execution/review date is defined in source; capture is not rerun."
+  },
+  {
+    "source": "docs/eqtl/gene_mapping_audit.md",
+    "destination": "evidence/snapshots/gene_mapping_audit.md",
+    "sha256": "30f3f344d7050e5816f4019b2a6d943f2dcf2ef7df5fb53dc59f07060fc4e7cc",
+    "captured": "2026-09-02",
+    "note": "Original execution/review date is defined in source; capture is not rerun."
+  },
+  {
+    "source": "data/eQTL/derived/gtex_v11_strict_te_overlap_v1/all_tissue_manifest.json",
+    "destination": "evidence/snapshots/eqtl_all_tissue_manifest.json",
+    "sha256": "558b4ed36d977003388b6eeb4872d751078da7b09ea216cbc6fc013d1901955d",
+    "captured": "2026-09-02",
+    "note": "Original execution/review date is defined in source; capture is not rerun."
+  },
+  {
+    "source": "data/eQTL/derived/gtex_v11_strict_te_overlap_v1/mysql/manifest.json",
+    "destination": "evidence/snapshots/eqtl_mysql_manifest.json",
+    "sha256": "1d2cec7e9c07de8404bffaee7193a64be5aabf4da4bbc191ad1a6b46f04b25b1",
+    "captured": "2026-09-02",
+    "note": "Original execution/review date is defined in source; capture is not rerun."
+  },
+  {
+    "source": "data/eQTL/derived/gtex_v11_strict_te_overlap_v1/missing_browse_te.tsv",
+    "destination": "evidence/snapshots/browse_te_mapping.tsv",
+    "sha256": "2c1fb1295a1a46cd9c59d31731a7ef96d4d28fd6645e9d243f0aa334d4129ce5",
+    "captured": "2026-09-02",
+    "note": "Original execution/review date is defined in source; capture is not rerun."
+  },
+  {
+    "source": "data/eQTL/derived/gtex_v11_strict_te_overlap_v1/all_tissue_report.md",
+    "destination": "evidence/snapshots/eqtl_all_tissue_report.md",
+    "sha256": "c79fea9e6bf970a624321bea041610588f1b91c91e5c4b06207cad8ad1214057",
+    "captured": "2026-09-02",
+    "note": "Original execution/review date is defined in source; capture is not rerun."
+  }
+]

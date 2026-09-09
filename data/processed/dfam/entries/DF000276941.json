@@ -1,0 +1,51 @@
+{
+  "accession": "DF000276941",
+  "name": "EubJap-1.190",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EubJap-1.190"
+  ],
+  "species": "Eubalaena japonica",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eubalaena japonica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Mysticeti",
+    "Balaenidae",
+    "Eubalaena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 651 BP; 175 A; 179 C; 159 G; 138 T; 0 other;"
+  },
+  "sequence": "tgaaaccgagcaggaccctgtggggctcctgggcacggaagcctttccgtgtcccccgtttcttgtttgtagggaatagactccagcctccatgaccttccctgagttccaaagggcagattcgaacagttgctaatcagggaagggaggggatgcagagacaagggaggagcagccaagaaacaatagtgcagccttggggcagggtcctggttccgcctcaagggatacacataacaatatctttgagctcttttacagaactaaaacccccaacaaatggaagatgttagcattcttcattccagagaaggtcacagtttgataacctcgagaagctcatcaggagaccacctgaggccagattaaaggaaccagagaagctcatcaggagaccacctgaggccagattaaaggagtgcaggccctgcacacaccctgatccttatcagcaaccccgcccttgaaccattgctataaaactcctcaccaaatcctcccgggttgggacacacagttttgaggggcacgagcccgctgtgtccccctttgcctggcaaagcaataaagctattcttttctacttcacccaaaactctgtctccgagattcgattcggcaccggtgcacagaggccgagttttcggcatc",
+  "length_bp": 651,
+  "sequence_length_bp": 651,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

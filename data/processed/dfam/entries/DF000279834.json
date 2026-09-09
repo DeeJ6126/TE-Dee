@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279834",
+  "name": "OviAri-5.987",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Ovis aries",
+  "display_classification": "DNA/TcMar-Tigger | Ovis aries",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Caprinae",
+    "Ovis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 425 BP; 103 A; 108 C; 98 G; 116 T; 0 other;"
+  },
+  "sequence": "caggtatcccccgcttttcgaaagttcgctttacgccacttcgcttttacgaaagacctacattagtacctgttttcgctaaccgaaagaaatccgaagaggattttcgcttttacgaaaaaaggcgaaaagcgaaaatagcgttcagcgtttgttttgcagcgagctgttacagaggcagcgcgcaccccgagcagcgagagtggcaccgccaagctccttccccgggaactacactcagcatctcagcatcaagccgccatagctttgaactgtgtctgtgagcatctgtgctttatctcgatttattttgtgcatccgttagcaagatgtgtcctaaggtaattgcttcttcgctttacgccatttcggcttacgaaaggtttcataggaacgctctactttcggatagcgggggaaacctg",
+  "length_bp": 425,
+  "sequence_length_bp": 425,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

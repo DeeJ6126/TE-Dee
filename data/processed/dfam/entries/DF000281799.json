@@ -1,0 +1,52 @@
+{
+  "accession": "DF000281799",
+  "name": "CriGri-4.862_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CriGri-4.862_LTR"
+  ],
+  "species": "Cricetulus griseus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Cricetulus griseus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Cricetinae",
+    "Cricetulus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 479 BP; 140 A; 88 C; 130 G; 118 T; 3 other;"
+  },
+  "sequence": "tgatggggaangtacttctgtgtatgtttatcttattgattgttaaataaaatactgtttggccaatgagacagcaagttagacgggactaggagtcaaagaggattctgggaaatgtagtagagaagtgntgatccaggcaggaagtgacatagcaaggagactcatatttaagcgaaggagaaacaggaagggcccctcttttcccctccgctcctgctccagcggcacgatgtganccaccggcaaggagggacgccaataaggcgtccgataagataagtcttataaaatatatagatttatgataattaagactgagctaacagatgagaatcctagtcattggccaagcagctttgaacctaatacaagtttctgtgtattcatttgggcctaactcgggcgggcggctggcgtaaagctcacacgtggcggtggggctcaggcggcttttggcagaaagatttatcgtaaca",
+  "length_bp": 479,
+  "sequence_length_bp": 479,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

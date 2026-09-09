@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280887",
+  "name": "TadBra-1.92",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Tadarida brasiliensis",
+  "display_classification": "DNA/hAT-Charlie | Tadarida brasiliensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Molossidae",
+    "Tadarida"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 192 BP; 56 A; 40 C; 53 G; 43 T; 0 other;"
+  },
+  "sequence": "cagcggttctcaacctgtgggtcgcgacccctttgggggtcgaacgaccctttcacaggggtcgcctaagacataacagtagcaaaattacagttatgaagtagcaacgaaaataattttatggttgggggtcaccacaacatgaggaactgtattaaagggtcgcggcattaggaaggttgagaaccactg",
+  "length_bp": 192,
+  "sequence_length_bp": 192,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

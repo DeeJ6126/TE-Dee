@@ -1,0 +1,47 @@
+{
+  "accession": "DF000000428",
+  "name": "LTR18A",
+  "description": "LTR18A (Long Terminal Repeat) for HERV18 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR18A"
+  ],
+  "species": "Primates",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 357 BP; 77 A; 108 C; 97 G; 75 T; 0 other;"
+  },
+  "sequence": "tgtaagggaaatggctgcgctttagtcaggagtaggccgaggcggccttccggcgcagcatgactcagcgggtttggagcgcaggcgcacaactccgcacattatgtaaccacgccacgtgaggcgcattaggtgatcacccacgtgagctcgtgcttggctcggagccactattgtctgtaaaaggtataattaccctgctaacgctgtacatacggcttgcgcccaggctcgctcgcgcccagagagagagtaaagccatgtcgaaactgtctacgattcctcgagtgtttttccagctacccgccactcgcccaccgactcccctcggacctcagttcgggctagaacctgaca",
+  "length_bp": 357,
+  "sequence_length_bp": 357,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR18A"
+  ]
+}

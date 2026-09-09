@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277937",
+  "name": "MacSob-1.128",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Macroglossus sobrinus",
+  "display_classification": "DNA/TcMar-Tigger | Macroglossus sobrinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Megachiroptera",
+    "Pteropodidae",
+    "Macroglossinae",
+    "Macroglossus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 143 BP; 37 A; 24 C; 31 G; 51 T; 0 other;"
+  },
+  "sequence": "ttgtttcgttataacgttgatgagatgccgtaggaacttaactcttgtttatatcaattagcctatggtaaaattggtttcgttatacgtcgtttcgcttaaagtcgcagaacctatcgacgacgttaagtgaggacttactg",
+  "length_bp": 143,
+  "sequence_length_bp": 143,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

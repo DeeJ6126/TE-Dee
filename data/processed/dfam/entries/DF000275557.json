@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275557",
+  "name": "CheMed-1.1",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Cheirogaleus medius",
+  "display_classification": "SINE/Alu | Cheirogaleus medius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Cheirogaleidae",
+    "Cheirogaleus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 292 BP; 69 A; 76 C; 99 G; 45 T; 3 other;"
+  },
+  "sequence": "ggccgggcgcggtggctcacgcctgtaatcccagcactctgggaggccgaggcgggaggatcgcttgaggtcaggagttcgagaccagcctgggcaagagcgagaccccgtctctacnaaaaatagaaaaattagccgggcgtggtggcgcgcgcctgtagtcccagctactcgggaggctgaggcaggaggatcgcttgagcccaggagtttgaggttgcngtgagctatgatgacgccacngcactctagcccgggcgacagagcgagaccctgtctcaaaaaaaaaaaa",
+  "length_bp": 292,
+  "sequence_length_bp": 292,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

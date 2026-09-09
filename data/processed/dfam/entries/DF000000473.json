@@ -1,0 +1,47 @@
+{
+  "accession": "DF000000473",
+  "name": "LTR26E",
+  "description": "LTR26E (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR26E"
+  ],
+  "species": "Primates",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 622 BP; 156 A; 171 C; 120 G; 175 T; 0 other;"
+  },
+  "sequence": "tgaaaccgtcctcacagggttaacaagaattacatgccgggttctggacagaaatatagttataattaagcattaatcaggctgcactttggcccacttccttgtaaccgaaagtcacgtagcactagatactgaccatttgcatccccattgttcctatagataggatttctgacgttagaatcataggcttttgtttaagaattgatttgcatccccattgttcctatagataggatctctgacgttagaatcataaggcttttgtttaagaattgcttaagatgtttttcagatcctgaattccagcggaacggctgacgccaaccagtttgaagacccccacagaggaaccgaatcagcatgagaatgcggtttcttcatctccctgtcccatgacttcaccctgcactcttcgaccaatcaacgatccccacacctcggcccactccaaaccccttaaaatccctagccccaaactcctcggggaggcggatttgaggtttcctcccgtctcctcgttcggctgccctacgattattaaactctttctctgctgcaaccctggtgtctcggcgtattgacttgccgcgcatcgggcaacgaacctattacggttaca",
+  "length_bp": 622,
+  "sequence_length_bp": 622,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR26E"
+  ]
+}

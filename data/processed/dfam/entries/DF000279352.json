@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279352",
+  "name": "NocLep-1.50",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Noctilio leporinus",
+  "display_classification": "DNA/TcMar-Mariner | Noctilio leporinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Noctilionidae",
+    "Noctilio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 683 BP; 176 A; 157 C; 176 G; 174 T; 0 other;"
+  },
+  "sequence": "tgaggtctgtccggaaaaagtccagccattgttaatataacgagaacggtttgcgcgacatcgatgtaacctggcagccaaggagagtggactggaatgcgcatgcgtgaacaatgacgacttcactgtactagtcagtgggggcggtagacgccgttgagtgagcatgtgtactgtgtggccgtcgcattcaaaatgactgagcgagtagagcaacgaatctgcatcaaattttgcgttaagcttgaacattcctccgcggaaactattcggatgattcagaaggccgcagctatgggcaactggtgattggcagcttcatcacgacaacgcgcccgctcatgcatcacgtctcgtgcagagttttttggcgaaacatcaaatcacccaggtgactcagcccccctacagcccagatttggcgccctgcgacttctggcttttcccaaaactaaaatcacctttgaaagggaagagatttcagaccatcgatgagattcaggaaaatacgacggggcagctgatggcgattgggagaactgtgtgaggtcccaaggtgcctactttgaaggggactgaggcgtcattgtcctatgtacaatgtttcttgtatcttgtatcttcttcaataaatgtctctatttttcatattacatggctggataccttctggacagacctca",
+  "length_bp": 683,
+  "sequence_length_bp": 683,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

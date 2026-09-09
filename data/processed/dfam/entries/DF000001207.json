@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001207",
+  "name": "UCON81",
+  "description": "Conserved repeat present in placental mammals and marsupials.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/hAT-Charlie | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 84 BP; 27 A; 17 C; 18 G; 21 T; 1 other;"
+  },
+  "sequence": "ggttattactggcacgnaaaaccttaaattagagtgaataaatgaagacttggcatgccacttctgaaaggttgccaacccctg",
+  "length_bp": 84,
+  "sequence_length_bp": 84,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON81"
+  ]
+}

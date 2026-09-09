@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000893",
+  "name": "MER63A",
+  "description": "hAT-Blackjack DNA transposon, MER63A subfamily",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 210 BP; 45 A; 58 C; 55 G; 52 T; 0 other;"
+  },
+  "sequence": "cagtggtgtgctggagccggctcgtaccggctcgcgagagccgattgtgcgcatctcttcccaactccgcgttcagtgacgtcacgttggtagcttgaaatcggccatggtgggagtatttacaccacggaaatcggcaaacgctacaaatcagggcttttttttttcccccagagagccggttgttaaacatttaccagcacaccactg",
+  "length_bp": 210,
+  "sequence_length_bp": 210,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER63A"
+  ]
+}

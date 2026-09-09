@@ -1,0 +1,53 @@
+{
+  "accession": "DF000001765",
+  "name": "ERVB7_1-LTR_MM",
+  "description": "Mouse endogenous betaretrovirus ERVB7_1 LTR sequence",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ERVB7_1-LTR_MM"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 319 BP; 57 A; 104 C; 70 G; 88 T; 0 other;"
+  },
+  "sequence": "tgtagtctcccctcccccagcctgaaacctgcttgctcggggtggagcttcctgctcattcgttctgccacgcccactgctggaacctgcggagccacacacgtgcacctttctactggaccagagattattcggcgggaatcgggtcccctcccccttccttcataactagtgtcgcaacaataaaatttgagctttgatcagaatgaatttgtcttagctccgtttcttctttcgccccgtctagattcctctcttacagctcgagtggccttctcagtcgaaccgttcacgttgcgagctgctggcggccgcaaca",
+  "length_bp": 319,
+  "sequence_length_bp": 319,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ERVB7_1-LTR_MM"
+  ]
+}

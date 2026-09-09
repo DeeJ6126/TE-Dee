@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275561",
+  "name": "CheMed-1.232B",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Cheirogaleus medius",
+  "display_classification": "DNA/PiggyBac | Cheirogaleus medius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Cheirogaleidae",
+    "Cheirogaleus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 310 BP; 95 A; 48 C; 57 G; 110 T; 0 other;"
+  },
+  "sequence": "cacattaactgccatgtgagttgtatttaactcacgctagttttgagcccggggcctcgtgaagcaaaacctgggcaaaaccctgcagttggttcgtgaaaatcttacttgttgatgttcttattgttacaattaatattgacaaattaattctaaaaacgtggattaaatgaatagaagtcaataaatttcgtttttcattaaattagaaaggatcgttttgttttcgaagtttttattctattttcgtaataaaacaccgtggccccaaggaaaaaaaatttttttttctagtgtggcagtcaatgtg",
+  "length_bp": 310,
+  "sequence_length_bp": 310,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

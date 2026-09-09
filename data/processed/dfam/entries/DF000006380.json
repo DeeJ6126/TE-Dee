@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006380",
+  "name": "DNA16_Hera",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Heliconius",
+  "display_classification": "DNA/ | Heliconius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae",
+    "Heliconiini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 778 BP; 267 A; 159 C; 112 G; 240 T; 0 other;"
+  },
+  "sequence": "ggggccgttcaagtattacgtaagcagtttttttgcaattattgacccccccctcccctatgtcatcaaaaataagcaatcctcttaccccctcccccaatgcttacgtaaacattggcatataattttttttaaggtattttttattgatattttatttgtatctacatatataaaaggacatgttcccactgactgaggtaagacgcacgcacatccgtaaccgctgatagtagaaacgtgaaatttggacagatttatattttcgaattctggaaatccactaagaagggaatttgaaaaattttaaccctaaagggatgaaataggggttgaaagtttgtatggaaaaaaattgaaatcagcaccgatttttataaaactttaaattcagactcttaaaaatatttcattgaacacgtgtttcgtggtttattttaattcaccccctaagggtgcaaataagaggttgaaagtttgtatggaaaaatccttaaatcgccacagatttttataaaatttgaaatttagactcttgacaatgtgccattcccgctaaatagatataataaacttatatattatattataaaactaatagttatatcgtctaccatacatacgtctaccaaatatagccataatatatatgaaaaaataaataacttctgcttacgtaattactagctagaccccccaccccccatgtcatcaaaaataagcaaacccaagacccccccgcccccctacagtgcttacgtaatacttgaacggcccc",
+  "length_bp": 778,
+  "sequence_length_bp": 778,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

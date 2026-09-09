@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003726",
+  "name": "hAT-N75_DR",
+  "description": "Non-autonomous hAT DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Charlie | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1327 BP; 416 A; 207 C; 237 G; 445 T; 22 other;"
+  },
+  "sequence": "cagaggtgggcaaactacggcccgcgggccatatgcggcccgctgaacactttcatccggcccgcgagggagtttttaaaatgctgcttctgagtaacggtttggtttcagaattagtaaattaatgatgcaattacaagtgaacgccatntgatggcagtattgcacgcggtacagttagcgcaaccagtagaattagaacacactctcggatattaaaatgcactcgaccgttaatgactgaaaatgagtcaggcaaaaaaannaaatgactctgaatgtcgtgtgtttaaggaagaatggacaacaaaatacttcttcaccaatatcggacagaaagcggtaggtctaatatgccaagaaagtattgctgtttttaaagactacaacctaaggggccgatcacaccgaacgcgcatttacgttccaaaaacgcgaggtgcaccgcactgcctttttgttgacaagaaaaaaanggagcgcggtgcgcttttttatgtcgttaggcaacgactgaatcagctgggtattttgcgagagtgttgctgttgatattaatataactttatttnntcaggctcattgttcacattaacacactcataataacatgacttggaataacaaagactaagattcttcttccgttttatctcatagttttataatgattgatatgagcatattaatacaagctcaaatgagattgttgtgaatttgactcaaattatataataattgctggttaaatgtgttaatttttgtcatagaatatattttccatgcatacatccactttaaaaagttcttttatcaaagatttgtggtttcatcaagttttatcaagttttatgatgattgatctgtatattctaaaagcagtgcaaattagattattgtaaatttgactgaatagtaaactttaagaattatttttaatgtgttaatatgagattttttctatcagacaatatcttttctattctccactgtaaaaattattacattattattattattattattatnnncgnnnnnnnnatnattatattttataagggattattttattgttttatgatgattgataagtaaatataaatagcannnncgtgcaaattaatttgacttgtaaatttgactcaataataactattaaaaaaatctgttttgtgttaatgtgacatgtttctgtccgatattacatgttccatgcatactgccactataaataaaagttattttttgaaggatttgacatgtggcccttcacttggtttgcaaaacttgatgtggccctcgggtctaaaaagtttgcccaccactg",
+  "length_bp": 1327,
+  "sequence_length_bp": 1327,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "hAT-N75_DR"
+  ]
+}

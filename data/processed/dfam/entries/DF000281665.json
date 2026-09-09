@@ -1,0 +1,49 @@
+{
+  "accession": "DF000281665",
+  "name": "CatWag-1.210_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CatWag-1.210_int"
+  ],
+  "species": "Catagonus wagneri",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catagonus wagneri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Suina",
+    "Tayassuidae",
+    "Catagonus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 649 BP; 172 A; 162 C; 127 G; 187 T; 1 other;"
+  },
+  "sequence": "cactggtatgattacttagcagcgatatttgtgccttcattgggaaccactgacataatgctgcgggtggaagccttaactaattttactcgacaagctcttaatgatactgcagaagctatttctaccctaaatatggaacaacaacaaataagaaaagtagtgctacaaaaccgaatggccttagatcgattcagctcaaggaggtacctgtgctattataaaatctgaatgttgtgtctgtattcctgattattcacagaatgtgtctgattccctgcnagatctccggcagcagattcataagatgtccgatccagctccagcttttggagctgccctctggaactggttgacctcctcctcctggtggaaatatttcctcaccatagtcatcattgtgatcttgatccttttattcggaccctgtataattaattgtatttctcgcttcattacatcccgattaaaagctatcaaccttcaaatggtgatagaaggggtacccaatgtaatgtatcgaagcccactcgaccgtcccatgagtggagacctaactgctttcccctaacgacgccccttttcagcaggaagcagtcagagcggtcgtcgcccctttccccccgcagttagagtctccaactctaga",
+  "length_bp": 649,
+  "sequence_length_bp": 649,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

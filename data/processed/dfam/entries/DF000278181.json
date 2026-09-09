@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278181",
+  "name": "MelCap-1.10",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Mellivora capensis",
+  "display_classification": "SINE/tRNA | Mellivora capensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Mustelidae",
+    "Mellivoriane",
+    "Mellivora"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 202 BP; 38 A; 61 C; 49 G; 53 T; 1 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccgactcttggtttcggctcaggtcatgatctcagggtcgtgggatcgagccccgcgtcgggctccgcgctcagcgnggagtctgcttgagattctctctctccctctgcccctccccgctctctctctctctctctcaaataaataaataaatctttaaaaaaaaaaaa",
+  "length_bp": 202,
+  "sequence_length_bp": 202,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,53 @@
+{
+  "accession": "DF000006278",
+  "name": "CR1-E2_Ucy",
+  "description": "CR1 LINE element",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Uraeginthus cyanocephalus",
+  "display_classification": "LINE/CR1 | Uraeginthus cyanocephalus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Archosauria",
+    "Dinosauria",
+    "Saurischia",
+    "Theropoda",
+    "Coelurosauria",
+    "Aves",
+    "Neognathae",
+    "Passeriformes",
+    "Passeroidea",
+    "Estrildidae",
+    "Uraeginthus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 475 BP; 104 A; 109 C; 186 G; 75 T; 1 other;"
+  },
+  "sequence": "cagcacaggaaggacgtggagctgctggagagagtccagaggaggccacggagatgctccgagggctggagcccctctgctctggagccaggctgggagagctgggggtgttcacctggagaagagaaggatccagggagagctcagagccccttccagggcctaaaggggctccaggagagctggagagggacttgggacaagggatggagggacaggacacagggaatggcttcccactgccagagggcagggatggatgggatattgggaaggaattcctcnctgtgagggtggggaggccctggcacagggtgcccagagaagctgtggctgcccctggatccctggaagtgtccaaggccaggctggacggggcttggagcagcctgggatagtggaaggtgtccctgcccatggcagggggtggaactggatgagctttaaggtcccttccaacccaaaccattctgtg",
+  "length_bp": 475,
+  "sequence_length_bp": 475,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277536",
+  "name": "HydHyd-6.135",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Hydrochoerus hydrochaeris",
+  "display_classification": "LINE/L1 | Hydrochoerus hydrochaeris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Hydrochaeridae",
+    "Hydrochoerus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1001 BP; 295 A; 191 C; 193 G; 319 T; 3 other;"
+  },
+  "sequence": "agggngaaaccaagcagccagctcgccgccctggtaagtggctgtggcccggcaagccgcggccgccccagggcgagaaccatcagcgtctcctgagatccgcgtcatgttggaacttagggcgctgggaaaccaagcaaccagctcgccgccctggtaagcggctgtgagcctaccggcgcgcgggctgagattcaaacatccatccccccccccccgttagcaaatgggagccagagatctgagcatctcttgcgaggttgactatatgcaatatagcaaataagggggatttccttctaccatctctttgaaggcaaatattttttatcactgttttgctttgttctgattaatggtattgctctattcaatattctgttttgataagttctataatgttctgtatttcctttgattttactatacctgattgaaagaacaactattgtgaagaaaacgagatatantatggtacctattactgttatcccggtaacctgctgtgaagttctgtaccaatttcactacactgtctcaattggctttgttccgtcttgttctgtggtattttactactttaaaaataaataaatataaataaatataaaaagtaaataacaacaacaaaacagatcagtaaggtactgagcaagctgaaacatgatataactaaacagataatggacttaaaaagcaaaaggaggaaaagaaagtgctctaaaggatataactgcatgtatgtttaagtgtgtaggattgataaccatgttgctaagttnttgttggatcgttgaacagaactgtttgcagcctcactgtttgaatgtccactttgtatgctttaattttgtaacttgaacaactatatctaagaagacaatatgtaatttatcaactagtgatttcttactgtttatttttttgaaattctgtattgtttcttcccttttttctgttttgctttttttctctttaaataaaattttaaaaaaaaaaaa",
+  "length_bp": 1001,
+  "sequence_length_bp": 1001,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

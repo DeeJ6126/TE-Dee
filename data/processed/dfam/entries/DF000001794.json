@@ -1,0 +1,49 @@
+{
+  "accession": "DF000001794",
+  "name": "L1Lx_I_3end",
+  "description": "L1Lx_I_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Murinae",
+  "display_classification": "LINE/L1 | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1050 BP; 363 A; 221 C; 269 G; 194 T; 3 other;"
+  },
+  "sequence": "gaggatccagcaataccactcctgggcatatacccagaagatgctccaacntgtaataaggacacatgctccactatgttcatagcagccttatttataatagccagaagctggaaagaacccagatgtccctcaacagaggaatggatacagaaaatgtggtacatttacacaatggagtactactcagctattaaaaacaatgaatttatgaaattcttaggcaaatggatggatctggaggatatcatcctgagtgaggtaacccaatcacaaaagaacacacatgatatgcactcactgataagtggatattagcccagaagctcagaatacccaagatacaattcgcaaaacacatgaaactcaagaagaaggaagaccaaagtgtggatacttcgatccttcttagaagggggaacaaaatacccatggaaggagttacagagacaaagtncggagcagagactgaaggaatgaccatccagagactgccccacctggggatccatcccataaacaaccaccaaacccagacactattgcggatgccaacaagagcttgctgacaggagcctgatatagctgtctcctgagaggctctgccagtgcctgacaaatacagaagtggatgctcacagccatccattggacggagcacagggtccccaatgaaggagctagagaaagtacccaaggagctgaaggggtttgcagccccataggaggaacaacaatatgaactaaccagtacccccagagctccctgggactaaaccaccaaccaaagaaaacacatggtgggactcatggctctagctgcatatgtagcagaggatggcctagtcggtcatcaatgggaggagaggcccttggtcctgtgaaggttctatgccccagtataggggaatgccagggccaggaagcgggagtgggtgggttggngagcagggggaggggggaggggataggggattttcggaggggaaactaggaaaggggataacatttgaaatgtaaataaagaaaatatctaataaaaaaaaaaaa",
+  "length_bp": 1050,
+  "sequence_length_bp": 1050,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

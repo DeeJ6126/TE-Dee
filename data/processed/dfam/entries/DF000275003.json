@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275003",
+  "name": "BalBon-1.3",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Balaenoptera bonaerensis",
+  "display_classification": "SINE/tRNA | Balaenoptera bonaerensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Mysticeti",
+    "Balaenopteridae",
+    "Balaenoptera"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 195 BP; 58 A; 54 C; 48 G; 35 T; 0 other;"
+  },
+  "sequence": "gggacttccctggtggcgcagtggttaagactccgcgctcccaatgcagggggcccgggttcgatccctggtcagggaactagatcccacatgcatgccgcaactaagagttcgcatgccacaactaaggagcccgcgtgccgcaactaagacccggcgcaaccaaataaataaataaataaatttttaaaaaaa",
+  "length_bp": 195,
+  "sequence_length_bp": 195,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

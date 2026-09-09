@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000632",
+  "name": "HY4",
+  "description": "hY4 Y scRNA gene / pseudogene",
+  "keywords": [
+    "scRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "scRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 93 BP; 24 A; 19 C; 21 G; 29 T; 0 other;"
+  },
+  "sequence": "ggctggtccgatggtagtgggttatcagaacttattaacattagtgtcactaaagttggtatacaaccccccactgctaaatttgactggctt",
+  "length_bp": 93,
+  "sequence_length_bp": 93,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Y4"
+  ]
+}

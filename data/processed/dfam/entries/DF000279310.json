@@ -1,0 +1,51 @@
+{
+  "accession": "DF000279310",
+  "name": "NeoAsi-1.215",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "NeoAsi-1.215"
+  ],
+  "species": "Neophocaena asiaeorientalis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Neophocaena asiaeorientalis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Phocoenidae",
+    "Neophocaena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 577 BP; 151 A; 153 C; 114 G; 155 T; 4 other;"
+  },
+  "sequence": "tgtaagcagctctttgcaggaaagagctctctgcaggaggccccttttgtcttgtcactttagcaaagctatattgtaactaacctttaaaccaggcgcccccatgctctactcatctccggcccnagcacacctttcaaatcttttgatcacacaataccttgcctaacctgttggttctttccgtagatcaaagaagtagaaatgaagaataagtaattaacagatgaccagatctcttccctagcttccccttcagtaatctcgcgaacaaactgtgtgaacaagatagcatctaaagaaagatcacgaggagtcgacaagcctgcacgcagtgggggatggcgacgactctgaccccctatctcaatgattaactgagattacttccctttttccctttaaaaactttcatggctgagcagaatcttcggagntggtttttgggggacactgagtccaccntctccccagattgccggcnttctgattaaaagcaacctttcctttctaccaacacttgcctctcgagtattgactttcgagcggcgagcagccggacctgagttcggtaaca",
+  "length_bp": 577,
+  "sequence_length_bp": 577,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

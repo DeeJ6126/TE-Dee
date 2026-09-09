@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000127",
+  "name": "Eulor2C",
+  "description": "Eulor2C (Euteleostomi-conserved low frequency repeat 2C)",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 168 BP; 54 A; 31 C; 41 G; 39 T; 3 other;"
+  },
+  "sequence": "tanttaagggataatgttcacggcggaggagtatacgaagcaataaacggcttttgcgggtgattaaacgccgaagtgaagctgaggcgtttgatnaaccgcaaaagccgtttattgcgagtatactccaatgccacgaacattattcctattacacgacaaganaga",
+  "length_bp": 168,
+  "sequence_length_bp": 168,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Eulor2C"
+  ]
+}

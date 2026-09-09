@@ -1,0 +1,50 @@
+{
+  "accession": "DF000000557",
+  "name": "LTR5B",
+  "description": "LTR5B (Long Terminal Repeat) for ERVK endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR5B"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1002 BP; 237 A; 251 C; 250 G; 254 T; 10 other;"
+  },
+  "sequence": "tgtggggaaaagaaagagagatcagactgttactgtgtctatgtagaaaaggaagacataagaaactccattttgatctgtaccangaaaaattgcttctgccttgagatgctgttaatctgtaactttagccccaaccctgtgctcacagaaacatgtgctgtatngaatcaaggtttaagggatctagggctgtgcaggatgtgccttgttaacaanatgtttgcaggcagtatgcttggtaaaagtcatcgccattctccantctcgattaaccaggggcacaatgcactgcggaaagccgcagggacctctgcccaggaaagccgggtattgtccaaggtttctccccatgagacagcctgagatatggcctcgtgggaagggaaagacctgaccgtccncccagcccgacacccgtaaagggtctgtgctgaggaggattagtgaaagaggaaggcctcttgcagttgagataagaggaaggcctctgtctcctgcccgtccctgggaacggaatgtctcggtgtaaaacccgatcgtacattcgttcnattctgagataggagaaaanccgccctgtggctggaggcgagacatgctggcggcaatgctgctctgttactctttactncactgagatgtttgggtggagagaaacataaatctggcctacgtgcacatccaggcacagtaccttcccttgaacttatttatgacacagattcctttgctcacatgttttcctgctgaccttctccccactatcaccctgttctcctgccgcattcccctcgccgagatagtgaaaatagtgatcaataaatactgagggaactcagagaccggtgccggtgcgggtcctccgtatgctgagcgccggtcccctgggcccactgttctttctctatactttgtctctgtgtcttatttcttttctcagtctctcgtcccacctgacgagaaatacccacaggtgtggaggggcnggccgncccttca",
+  "length_bp": 1002,
+  "sequence_length_bp": 1002,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR5B"
+  ]
+}

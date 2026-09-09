@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001298",
+  "name": "MamTip2b",
+  "description": "hAT-Tip100 DNA transposon, MamTip2b subfamily",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/hAT-Tip100 | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 449 BP; 102 A; 106 C; 150 G; 87 T; 4 other;"
+  },
+  "sequence": "cagggccggccctacgcgtaggcagagtaggcggccgcctacgtggtgtgatttgaggggcgccgaaaggcccccctgccccaaaatatctcccccaccggcctgccgcggtgcctgaaattcccaccattagagtcattcctttgggttaaggcattgtctctagaaggcctctgttaaaatgcaaatatgttacctgggaggggtaacacattaagccattatcagccattaacaccttagcgtgaattagtttatcagattagctnnccngtcacctagcagggccctgagggaatgggacacaggacgggtaagttttgatgggggagggggagantcgggaggggtctggagcatggggcactgggccactcaggtgaggggctgtgaggatggtcacaacagtctgggggcagcagggagggcccaggcgaaaggcaggagag",
+  "length_bp": 449,
+  "sequence_length_bp": 449,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,65 @@
+{
+  "accession": "DF000004017",
+  "name": "Tc1-4_DR",
+  "description": "Autonomous Tc1/Mariner-type DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/TcMar-Tc1 | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1572 BP; 502 A; 305 C; 333 G; 423 T; 9 other;"
+  },
+  "sequence": "caaccccaaatcagaaaaagttgggacagtatggaaaacgcaaataaaaaagaaagtagtgatttccaaatttactttgacttgtatttcattgcagacaatatgaacacaaaatatttcatgttttgtctgcggtcaacttcatttcatttgtaaatatacatcctttcctgtcattcagacctgcaacacattccaaaaaatgggacaggagcagtttagggctagtaatcaggtaaattggttaaataatgatgtgatttgaaacaggtgatgtcaacaggtgattgtaattatgatttggtacaaaagcagcatccaagaaaggtctagtcctttaggagcaaagatgggccgaggatcgccagtttgccaacaaatacgtgagaaaattattgaaatgtttaaaaacaatgttcctcaaagaaagataggaagacatttggatatttcaccttcaacagtgcataacatnattaaaagattcaaggaatctggaggaatttcagtgcgtaaaggacaagggcgcaagcctaagctgaacaaccgtgatctccgatccctcaggcggcactgcatcaagaatcgtcattcatctataagcgatatcaccacatgggctcaggactactttggcaaacctttgtcaagtaccacaatacgtagttacatccacaaatgccagttaaaactgtactgtgccaaaaggaagccctatgttaacagtgtccagaagcgccgtcgacttctctgggctcggaggcatctgggatggaccatcacacagtggaaacgtgtactgtggtcagatgaatcagtatttcaggtattttttgggagaaatggacgccgtgtgctccggaccaaagaagaaaaggatcatccagactgttaccagcaacaagtccaaaagccagggtctgtcatggtatggggttgtgtcagtgcccttggcaaaggtaacttgcacttctgtgatggcaccattaatgctgaaaagtacatagagattttggagcacaatatgctgccttcgnnnnnncgnnttttccagggacgcccatgcatatttcaacaagacaatgcaaaaccacattctgcacacattacaaagtcctggctgcggaggaagaggatacaggtacttgactggcctgcctgcagtcccgacctgtctccaatagagaatgtgtggcgcattttgaagcgcaaaatgcgacaacgaagaccccgtactgttgcccaccttaagacttgtttgcaggaagaatgggacaaaattacacctgaaacacttcatcacttggtgtcttcagtccctaaacgtcttttaagtgttgtgaaaaggaatggcaacattacaaagtggtaaatgctttactgttccaacttttttgaaatgtgttgcaagaaccaaaattggaatacgtgtttattttaaaaaaaaataatcatgaggaacacattaaataatgtttgttgtattgtctgcaatgaaatacaagtcaaagtaaattaactttttttatttgcgttttccatactgtcccaactttttctgatttggggttg",
+  "length_bp": 1572,
+  "sequence_length_bp": 1572,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "274..1369",
+      "start": 273,
+      "end": 1369,
+      "qualifiers": {
+        "product": "Tc1-4_DR_tp",
+        "number": "1",
+        "note": "[Danio]",
+        "translation": "CQQVIVIMIWYKSSIQERSSPLGAKMGRGSPVCQQICEKIIEMFKNNVPQRKIGRHLD"
+      },
+      "label": "Tc1-4_DR_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "Tc1-4_DR"
+  ]
+}

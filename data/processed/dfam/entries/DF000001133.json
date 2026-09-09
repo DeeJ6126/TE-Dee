@@ -1,0 +1,47 @@
+{
+  "accession": "DF000001133",
+  "name": "MSTA1",
+  "description": "MSTA1 Long Terminal Repeat for ERVL-MaLR retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MSTA1"
+  ],
+  "species": "Primates",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 465 BP; 90 A; 128 C; 112 G; 124 T; 11 other;"
+  },
+  "sequence": "tgctatggtttggatgtttgtccccgccaaaactcatgttgaaatttgatccccaatgtggcagtgttggaggtggggcctagtgggaggtgtttgggtcatgggggcggatccctcatgaatagattaatgccctccctcgnggtgggngtgagtgagttctcgctctnncgcgggaatggattagttcccgcgagagcgggttgttaaaaagagtctggcgnctccctcctctctctctcttgcttgcttcctctctcgccatgtgatctctgcacacgcccgctccccttccncttcactttccgccatgagtngaagcagcctgaggccctcaccagatgcagctgcccgnaccntgctttttnnccagccaccagaatcgtgagccaaataaacctcttttctttataaattacccagcctcaggtattccgttatagcaacacaaaacggactaagaca",
+  "length_bp": 465,
+  "sequence_length_bp": 465,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MSTA1"
+  ]
+}

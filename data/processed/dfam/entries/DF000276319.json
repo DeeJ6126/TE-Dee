@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276319",
+  "name": "DauMad-5.330",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Daubentonia madagascariensis",
+  "display_classification": "DNA/PiggyBac | Daubentonia madagascariensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Chiromyiformes",
+    "Daubentoniidae",
+    "Daubentonia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 316 BP; 100 A; 52 C; 55 G; 109 T; 0 other;"
+  },
+  "sequence": "cacattaactgccatgtgagttgtatttaactcacgctagttttgagcccggggcctcgtgaagcaaaaccctgcagttggttcgtgaaaatcttacttgttgatgttcttattgttacaattaatattgacaatttaattctaaaaacgtggattgcgttgcatataactcacgcacagaaaacaataaaaaataacaaatttttcattaaattagaaaggatcgttttgttttcgaagtttttattctattttcgtaataaaacaccgtggccccaaggaaaaaaattttttttctagtgtggcagtcaatgtg",
+  "length_bp": 316,
+  "sequence_length_bp": 316,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

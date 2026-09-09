@@ -1,0 +1,51 @@
+{
+  "accession": "DF000275898",
+  "name": "CriGam-1.13",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B2"
+  ],
+  "species": "Cricetomys gambianus",
+  "display_classification": "SINE/B2 | Cricetomys gambianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Nesomyidae",
+    "Cricetomyinae",
+    "Cricetomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 198 BP; 67 A; 52 C; 41 G; 38 T; 0 other;"
+  },
+  "sequence": "ggggctggagagatggctcagcggttaagagcactggctgctcttccagaggacccgggttcaattcccagcacccacatggcagctcacaactgtctgtaactccagttccaggggatccgacaccctcacacagacatacatgcaggcaaaacaccaatgcacataaaataaaaataaataaaattttttaaaaaa",
+  "length_bp": 198,
+  "sequence_length_bp": 198,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

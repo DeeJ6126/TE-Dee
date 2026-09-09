@@ -1,0 +1,42 @@
+{
+  "accession": "DF003586488",
+  "name": "Rphil_SINE-5_Deu",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Ruditapes philippinarum",
+  "display_classification": "SINE/tRNA | Ruditapes philippinarum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Heteroconchia",
+    "Euheterodonta",
+    "Imparidentia",
+    "Neoheterodontei",
+    "Venerida",
+    "Veneroidea",
+    "Veneridae",
+    "Ruditapes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 308 BP; 88 A; 72 C; 70 G; 78 T; 0 other;"
+  },
+  "sequence": "gccagcccgcatagctcaatcggttagagcgcgagacttgtaatctcgacattgtgggttcgattcccgggctggccaactaaaattactaatcagtctttcggatgagactttaaatcgaggtcccgtgtatgggtgcttaaacacttggcacgctaaagaaccaggagaagcttctggaattggggcatctttctgtatctgtaattgcactatcctccaaaatctaaaatgactaatactcttctggaggactcgcccatatgggcaaccggtggcgagtataaataaacgcaaatacacacaca",
+  "length_bp": 308,
+  "sequence_length_bp": 308,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

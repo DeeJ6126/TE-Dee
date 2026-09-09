@@ -1,0 +1,50 @@
+{
+  "accession": "DF000280312",
+  "name": "RanTar-1.74",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Rangifer tarandus",
+  "display_classification": "SINE/tRNA | Rangifer tarandus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Cervidae",
+    "Odocoileinae",
+    "Rangifer"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 181 BP; 52 A; 54 C; 45 G; 29 T; 1 other;"
+  },
+  "sequence": "gggacttccctggtggtccagtggctaagactccgcgctcccaatgcagggggcccgggttcgatccctggtcagggaactagatcccacatgccgcaactaagagttcgcatgccgcaactaaagatcccgcatgccgcaactaagacccggcgcagccaaataaataaataaaaanaaa",
+  "length_bp": 181,
+  "sequence_length_bp": 181,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

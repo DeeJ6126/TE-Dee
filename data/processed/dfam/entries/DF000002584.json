@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002584",
+  "name": "DNA8-10B_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/ | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 225 BP; 43 A; 55 C; 75 G; 52 T; 0 other;"
+  },
+  "sequence": "caagtggtgctcactgcagagccacttgggcagagctgagctccagcaagggggagcttgagctccagctcctccttccttgcacttcttctacaagtgatgtcactgggggttggggttaggggtggggtgggtgtacgcattaaaacagcttataggaggaggagttggagctcaagctccccctcgttggagcccaagtggctctgcagcgagcagtgtctc",
+  "length_bp": 225,
+  "sequence_length_bp": 225,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA8-10B_DR"
+  ]
+}

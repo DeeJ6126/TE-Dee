@@ -1,0 +1,41 @@
+{
+  "accession": "DF000000083",
+  "name": "Charlie10b",
+  "description": "hAT-Charlie DNA transposon, Charlie10b subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 242 BP; 64 A; 63 C; 61 G; 54 T; 0 other;"
+  },
+  "sequence": "cagtgctactcaaagtgccggtccgcgacgagataaggagcttgcgccagaatgtaaatcaacgcactgcttccttcatcgagaaagtcttgctacgaaaaaaatgtcagctgaactaaacagtgtgcttagtgacgtagttgatttacattctggcgcaagctccttatctcgtcgcggaccggtaacaaacagttcgcggaccggcagccggtccgcggaccacactttgagtagcactg",
+  "length_bp": 242,
+  "sequence_length_bp": 242,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

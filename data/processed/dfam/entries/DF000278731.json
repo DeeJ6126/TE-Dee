@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278731",
+  "name": "MurFea-1.182",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Murina aurata feae",
+  "display_classification": "RC/Helitron | Murina aurata feae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Murina",
+    "Murina aurata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 372 BP; 75 A; 124 C; 131 G; 42 T; 0 other;"
+  },
+  "sequence": "cctatataataaaagcctaatatgcaaatcgaccgaacggcggaacgaccggtcgctatgacgcgcactgaccaccagggggcagacgctcaatgcaggagctgccccctggtggtcagtgcgctcccacagggggagcgccgctcagccagaagccgggctcacggctggcgagcgcagcggcggtggcgggagcctctcccgcctccgcggcagcgctaaggagcagcgagccgagcggtaaggagcagcgagcaggcgggcggtaaggagaatccccgaggggtcccggactgcgagagggcgcaggccgggctgagggacccccccccccccccccagtgcacgaatttcgtgcaccgggcctctagt",
+  "length_bp": 372,
+  "sequence_length_bp": 372,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

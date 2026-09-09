@@ -1,0 +1,16 @@
+{
+  "schema_version": "dt_agent_live_eval_summary.v1",
+  "total_cases": 30,
+  "dt_ok": 30,
+  "agent_ok": 24,
+  "agent_value_added": {
+    "low": 27,
+    "none": 3
+  },
+  "agent_overkill_count": 5,
+  "semantic_winner_counts": {
+    "agent": 13,
+    "deep_think": 11,
+    "tie": 6
+  }
+}

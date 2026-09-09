@@ -1,0 +1,48 @@
+{
+  "accession": "DF000281279",
+  "name": "UrsMar-1.18",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Ursus maritimus",
+  "display_classification": "SINE/tRNA | Ursus maritimus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Ursidae",
+    "Ursus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 200 BP; 39 A; 63 C; 47 G; 50 T; 1 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccgactcttgatttcggctcaggtcatgatctcagggtcgtgagatcgagccccgcgtcgggctccgcgctgggcgtggagcctgcttaagattctctctctccctctccctctgcccctccccctctctctctctctctctaaaaaaaanaaaaaaataaataaaaa",
+  "length_bp": 200,
+  "sequence_length_bp": 200,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

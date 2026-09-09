@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001488",
+  "name": "TIR9TA1C_CE",
+  "description": "TIR8TA1C_CE is a putative nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/hAT | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 255 BP; 68 A; 65 C; 55 G; 66 T; 1 other;"
+  },
+  "sequence": "tagggcttccatgtaggcgttaaaacgcctgcctgcctgaccttaaggcgacctccgcctgcctctcgcctcaatccgcgccttatgctaaaacatacgtgaacttttttttcaatttcttaatttgattttcatcaaattgatagaaatgagaaaattngaaatttgtaaattcacgaaaaaaaggcgcgaggcgggcaggtttcaggcaggcgtcaggccctgaaaccgcgcctgcctaccatggaagcccta",
+  "length_bp": 255,
+  "sequence_length_bp": 255,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TIR9TA1C_CE"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275341",
+  "name": "CavApe-1.270",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CavApe-1.270"
+  ],
+  "species": "Cavia aperea",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Cavia aperea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Caviidae",
+    "Cavia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 600 BP; 138 A; 152 C; 135 G; 171 T; 4 other;"
+  },
+  "sequence": "tgttggagaccactacgaagcggctctgagcaggatttaaattttactaattggctttctatgtttatctgtgagtctgtcctaggcctcggccccttgcctggcgacgggagctgattcatagtaagtgaacctctatgaatcactggtcctggctgaggcctgtagtggcctgtgaggccagagatacctcaaagggcaagataaggccacagctgcggacactctggctccaaccccaattaacnaggtagagactgcagctgcaaagattactcctacagtctcacttctaccatgtcttcatgataagacagtgctactgaattgacttgattcattacttggagacgtccttgaagtgactcccaaggtcctgctcattgcctgcactttcctcagtttctccgccctttgtccttggtcctaatataagtggactgatccagagaancctttgtcttngccctcgaagtctcgagcttaattaaagggttttgaccctcctggagccctaaaaatcatacaatttgtctctttttatttaacctccgccgtacactcgtttgggagatcggggatctaggncaggacccgata",
+  "length_bp": 600,
+  "sequence_length_bp": 600,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

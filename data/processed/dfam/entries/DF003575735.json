@@ -1,0 +1,40 @@
+{
+  "accession": "DF003575735",
+  "name": "SINE_M.coruscus_cons_4",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Mytilus coruscus",
+  "display_classification": "SINE/tRNA | Mytilus coruscus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Mytilida",
+    "Mytiloidea",
+    "Mytilidae",
+    "Mytilinae",
+    "Mytilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 969 BP; 311 A; 183 C; 184 G; 291 T; 0 other;"
+  },
+  "sequence": "acaagagagttaattggtgcacgcaccaaatttttgggccggaaatatggaggtttttggtgtaaaaaaagtgcaaaatattatataaacaatctgtatattgagttgactttaatcctcaattgccagaactggtccaatccaattagttatgataatgctataaaatataacttaattgtgcagttgatgaaatcgaatatcttttaagtgcagttgatgaaatggaatatcatctaattcattttcaagacttgattttgaaactcgtgactatcaaagttgcatctactgacaaaatatttgtattcctcatctcagatatggacttaaacgcagcctttcacctcatttactcatcaatgaattttatgtcaagatgacatatttttaggaccctcgattctgactattacagacgcatctactgacaaaatattatttctccacgagttgtatctcagatatggactctaacgcaaactttaatcagtcactcatatgtgaaatgtaggtcaagataaccttatttttatcaggaccccttggttattcaagacgcatctatgaacaaaatctcatgaactatgacttatacttccacagatagatgggagagccgtggtgtagtggttagcgcatcggactactaacacaaaggttcctggttcgatccccgttccggggagaaaatttcagggactgaattttcggctctcccttgacaccatttgcgagtatggtcttgagaaacgatgatagtccgtcggaaggggacgataaatggctgacccgtgttaagagagagccatatctcttgcacgtaaaagacacccttgtagatttcgaaaaagagcaggctaatgccgctacaaggcagcactcgcacccgcaaagtggaaagggattaatataagttgcaataacttgtttcccaatccactataaataaatatgtttaaactagat",
+  "length_bp": 969,
+  "sequence_length_bp": 969,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

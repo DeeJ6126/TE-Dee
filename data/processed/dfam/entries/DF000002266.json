@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002266",
+  "name": "Kolobok-N12_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/Kolobok-T2"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/Kolobok-T2 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 848 BP; 202 A; 190 C; 196 G; 258 T; 2 other;"
+  },
+  "sequence": "agggtcatgaaaccctcgactanattttctgagattttaacagatttgtgtgttgaacatcaattaagacaacgttgcatctgttagctttaattgtagggaacaactggctaattttgagcttttctccctatttcatcttccgggtttaaaatctatatggggcggcgtcactggtggtgatgtagcagactgcgagtacttcgatgacgcgtcggtgtctaattattattcatgagactgagttttcttatcctatgagaagagctgcttctgaattattcggtcaagctgtgagaccgcgcagtagttaggcgttcatgatgggtcgcggtgcgtagtgttgtcagaagcccttctacgagtctgtactgaaatgtaaaaaatgtgacgatagcagcatttcccgcttgcattttgagcgctgctgagtggattcttgaacactgctgattggccattgtgttcacgcgctcaacagatatgactgtgattggctctaatgatcaccggtttacaagagcgcttacacggacactggagcgtttgaaagccgcgtctatcagctgatccgtcagcggattgacacggcattcaaacgctgacagacacgactttcaaacgctccagtgcccgaggacttttctgtcccttcaaagtagtgttgtgtgtctaatttaaaataagcactctttaaataaaaaatnttcctcagtcagtatgggccactgacagtgttgctctcctccttctcccctgcccccccacttctgctcacagctttccacgcccttaaggattttttaatccgaggtagacttgaactgaaaggggggtttcatgaccct",
+  "length_bp": 848,
+  "sequence_length_bp": 848,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Kolobok-N12_DR"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279800",
+  "name": "OtoGar-5.851",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Otolemur garnettii",
+  "display_classification": "DNA/TcMar-Tc1 | Otolemur garnettii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lorisiformes",
+    "Galagidae",
+    "Otolemur"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 967 BP; 278 A; 195 C; 240 G; 254 T; 0 other;"
+  },
+  "sequence": "gggggtgccaaaaaaatgtatacacattttaagagatgttatctatgtattacttttcgaagttgaattgaattacggtagcaatgtgtagtatgacgttcgctcaaaagatggcgttaatcaaatgaatgctagcgtcaccatgcgacaggcaggacagtcaaagaaaatggcggaagcacggttgtcgttcgaggagcgcaagaccattttgaagtggtatttgaaattcgagaacgttgtggaagtacaacgacaatggaggcgtgagtatgcaacagaacctccaacacgcctaacaactgcacgcattcgtggtaagtttgagacgcgcggtgctgtgtgtgatgtgcacaagggaagatccgggaggcctcgcacagcaacaagtcctgcttcttctgctgtggtgttggaacagtttacacgctcgccacagaagtctaccaaacaatgtgcacgtgagacaggagttagcagaacaagcatacgacgcattcttaaaacagcaaaatggaaagttttcatcccaagattattacatgcaccgagacgtgagagcttacctcgatgagaatttgccaggacaatggataggacgaagaggtgcggttgagtttcccccacgttctcctgacttaacaccccttgacttctacctatgggggaccttaaaggatgtggtgtaccgtagaaaaccggctacactggcggtacttcgggaagaaattgaaacggcatgcgcagcgatacaagtggacactttggtcaacgttgctcaagcagtagttcgccgtaatcagaagtgtctggacgctgatggtaaccactttgagcacctcttgtaattgcagaagtcaaacgtgacttgtattcatcttttgttatcggtatatattgagtattacaattttaatacagtttttttcctttcttaaaatgtgtatacattttttggcaccctctg",
+  "length_bp": 967,
+  "sequence_length_bp": 967,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

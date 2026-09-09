@@ -1,0 +1,51 @@
+{
+  "accession": "DF000279611",
+  "name": "OnyTor-1.145",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Onychomys torridus",
+  "display_classification": "DNA/hAT-Charlie | Onychomys torridus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Neotominae",
+    "Onychomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 203 BP; 63 A; 38 C; 48 G; 54 T; 0 other;"
+  },
+  "sequence": "cagtggttctcaacctgtgggtcgcgacccctttgggggtcacatatcagatatcctgcatatcagatatttacattacgattcataacagtagcaaaattacagttatgaagtagcaacgaaataattttatggttgggggtcaccacaacatgaggaactgtattaaagggtcgcagcattaggaaggttgagaaccactg",
+  "length_bp": 203,
+  "sequence_length_bp": 203,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,53 @@
+{
+  "accession": "DF000002105",
+  "name": "RLTR43B",
+  "description": "ERV2 Endogenous Retrovirus from Muridae.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR43B"
+  ],
+  "species": "Rattus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rattus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 165 BP; 26 A; 36 C; 33 G; 55 T; 15 other;"
+  },
+  "sequence": "gagttctgggtgacacttccacctgnntgtctttataaaccggtatttttgacnaaagtttgccagcntgancaggatttcgtcttgctgtccttctttgtgtttcttatcccccattctnnnnnnnncttccaggtggacccttaagtcatgnnggttgggaca",
+  "length_bp": 165,
+  "sequence_length_bp": 165,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR43B"
+  ]
+}

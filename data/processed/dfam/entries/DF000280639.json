@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280639",
+  "name": "SigHis-5.1121",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Sigmodon hispidus",
+  "display_classification": "SINE/ID | Sigmodon hispidus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Sigmodontinae",
+    "Sigmodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 88 BP; 25 A; 18 C; 28 G; 17 T; 0 other;"
+  },
+  "sequence": "ggggttggggatttagctcagtggaagagcgtttgcctagcaagcgcaaggccctgggttcggtcctcagctccagaaaaaaaaaaaa",
+  "length_bp": 88,
+  "sequence_length_bp": 88,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

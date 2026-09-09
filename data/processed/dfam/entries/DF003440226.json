@@ -1,0 +1,50 @@
+{
+  "accession": "DF003440226",
+  "name": "LTR20_rFer",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR20_rFer"
+  ],
+  "species": "Rhinolophus ferrumequinum",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rhinolophus ferrumequinum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Rhinolophidae",
+    "Rhinolophinae",
+    "Rhinolophus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 330 BP; 83 A; 82 C; 67 G; 98 T; 0 other;"
+  },
+  "sequence": "tgataaagacgaactggaactttaagcaaacataatcagtcgggagggtctatgggaggagctagggcttatggaagttctcgcactctacgtaatcgcgagaaccctacaggaagaactctatgtttataataaagctctatggttctaacttccccttcccttaacttccttttcccttctataaatacccctccatcttggcacgcaggccagagtgtgcacgtggcttgccatgtctgcatgcgctgggttgcaaccctttctttttccccgaataaatcctttttggtgacgaaacacctagtcgatattatttttcagtcgaca",
+  "length_bp": 330,
+  "sequence_length_bp": 330,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

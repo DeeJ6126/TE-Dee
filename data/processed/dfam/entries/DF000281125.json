@@ -1,0 +1,46 @@
+{
+  "accession": "DF000281125",
+  "name": "TriMan-1.4",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-RTE"
+  ],
+  "species": "Trichechus manatus",
+  "display_classification": "SINE/tRNA-RTE | Trichechus manatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Sirenia",
+    "Trichechidae",
+    "Trichechus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 202 BP; 50 A; 57 C; 59 G; 36 T; 0 other;"
+  },
+  "sequence": "aggagccctggtggcgcaatggttaagcgctcggctgctaaccgaaaggtcggcggttcgaacccaccagcggctccgcgggagaaaagacctggcgatctgctcccgtaaagattacagcctaggaaaccctatggggcagttctactctgtcctatagggtcgctatgagtcggaatcgactcgacggcacacaacaaca",
+  "length_bp": 202,
+  "sequence_length_bp": 202,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

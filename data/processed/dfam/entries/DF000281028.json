@@ -1,0 +1,49 @@
+{
+  "accession": "DF000281028",
+  "name": "TonSau-1.126",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Tonatia saurophila",
+  "display_classification": "DNA/TcMar-Tigger | Tonatia saurophila",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Phyllostominae",
+    "Tonatia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 651 BP; 170 A; 141 C; 142 G; 197 T; 1 other;"
+  },
+  "sequence": "cagtagtccccccttatccgcggtttcgctttccgcggtttcagttacccgcggtcaaccgcggtccgaaaatattaaatggaaaattccagaaataaacaattcataagttttaaattgcgcgccgttctgagtagcgtgatgaaatctcgcgccgtcccgctccgtcccgcccgggacgtgaatcatccctttgtccagcgtatccacgctgtatacgctccccgcccgttagtcacttagtagccgtctcggttatcagatcgactgtcgcggtatcgcagtgcttgtgttcaagtaacccttattttacttaataatggccccaaagcgcaagagtagtgatgctggcaattcggatatgccaaagagaagccgtaaagtgcttcctttaagtgaaaaggtgaangttctcgacttaataaggaaagaaaaaaatttttattacggtatattgttataattgttctattttattattagctattgttgttaatctcttactgtgcctaatttataaattaaactttatcataggtatgtatgtataggaaaaaacatagtatatatagggttcggtactatccgtggtttcaggcatccactgggggtcttggaacatatcccctgcggataagggggggactactg",
+  "length_bp": 651,
+  "sequence_length_bp": 651,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

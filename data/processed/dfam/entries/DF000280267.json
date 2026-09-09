@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280267",
+  "name": "PtePar-6.1216",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tc2"
+  ],
+  "species": "Pteronotus parnellii",
+  "display_classification": "DNA/TcMar-Tc2 | Pteronotus parnellii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Mormoopidae",
+    "Pteronotus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 314 BP; 113 A; 45 C; 53 G; 100 T; 3 other;"
+  },
+  "sequence": "ccgtattttgccgtgtataatgcgcacttttttgcccaaatttttgagggaaaaataaggatgcgcattatacatgggtagtactaattccgtatctatataaatgtttttaattcttttatttatgcttatgcgttaaaagtgtaactctagaaagcaataacgatatccgtatgcaaaataataccctggaatacganaatcangtntctaaatataaataaaaaattgaattaaaaaattaaaacgaaagatttttttcctgaaagtttgggccaaaaacgtgggtgcgcattatacacggcaaaatacgg",
+  "length_bp": 314,
+  "sequence_length_bp": 314,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

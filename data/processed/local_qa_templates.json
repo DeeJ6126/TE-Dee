@@ -1,0 +1,90 @@
+{
+  "zh": {
+    "detailedEmptyItems": "- 当前未检索到可展开的本地结构化记录。",
+    "detailedNoRefs": "当前暂无本地参考文献。",
+    "detailedSections": {
+      "conclusion": "结论",
+      "mechanism": "机制与关系解释",
+      "evidence": "证据与文献",
+      "limitations": "局限与说明"
+    },
+    "detailedLimitations": [
+      "当前结果来自本地图谱子图，完整答案仍以后端知识检索为准。",
+      "若动态图谱未完全展开，部分关系可能未显示在当前页面。"
+    ],
+    "relation": {
+      "title": "L1HS 是 LINE-1 谱系中的一个更细粒度节点，当前本地图谱把它作为具体分支来展示。",
+      "bullets": [
+        "L1HS 通过 SUBFAMILY_OF 关系连接到 LINE-1。",
+        "这种关系属于分类或谱系层级关系，而不是疾病或功能作用关系。",
+        "保留更细粒度的层级有助于区分总家族与具体活跃分支。"
+      ],
+      "limitations": [
+        "当前页面优先展示局部子图，更多邻域需要继续展开。",
+        "更完整的证据应以后端 Neo4j 检索和问答结果为准。"
+      ],
+      "simple": "L1HS 与 LINE-1 的关系属于同一谱系中的层级关系。"
+    },
+    "line1FunctionTitle": "根据当前本地图谱，LINE-1 相关功能主要涉及逆转录转座、序列转导、插入突变及与其他转座元件协同的过程。",
+    "line1DiseaseTitle": "根据当前本地图谱，LINE-1 与多种神经系统疾病、遗传综合征及肿瘤相关疾病存在结构化关联。",
+    "l1hsPaperTitle": "当前本地图谱已经整理出与 L1HS 相关的文献证据，可用于支撑谱系、功能或疾病关系的解释。",
+    "line1PaperTitle": "当前本地图谱已经整理出与 LINE-1 相关的核心文献，可用于支撑疾病、功能和谱系层面的解释。",
+    "fallbackDetailed": {
+      "title": "当前本地演示图支持围绕 LINE-1 的疾病、功能、谱系关系与文献证据问答。",
+      "bullets": [
+        "你可以直接询问“LINE-1 相关疾病”“LINE-1 相关功能”。",
+        "也可以询问“L1HS 和 LINE-1 是什么关系”。",
+        "若需要证据，可继续追问文献支持情况。"
+      ],
+      "evidence": "当前回答来自本地演示图；更完整答案以后端知识检索与大模型生成结果为准。",
+      "limitations": [
+        "这是本地回退回答，不代表完整数据库检索结果。",
+        "当后端恢复后，详细模式会返回更完整的证据化回答。"
+      ]
+    }
+  },
+  "en": {
+    "detailedEmptyItems": "- No expandable local structured records were found.",
+    "detailedNoRefs": "No local references are currently available.",
+    "detailedSections": {
+      "conclusion": "Conclusion",
+      "mechanism": "Mechanistic Interpretation",
+      "evidence": "Evidence and References",
+      "limitations": "Limitations"
+    },
+    "detailedLimitations": [
+      "This local answer is based on the demo subgraph rather than the full backend retrieval pipeline.",
+      "Some relations may remain hidden when the current graph fragment is incomplete."
+    ],
+    "relation": {
+      "title": "L1HS is modeled as a finer-grained node within the LINE-1 lineage.",
+      "bullets": [
+        "L1HS is connected to LINE-1 through a SUBFAMILY_OF relation.",
+        "This is a lineage or classification relation rather than a disease or mechanism relation.",
+        "Keeping finer-grained hierarchy helps distinguish the broader lineage from specific active branches."
+      ],
+      "limitations": [
+        "The current page emphasizes a local subgraph rather than the full graph.",
+        "Full evidence should be checked through the backend retrieval pipeline."
+      ],
+      "simple": "L1HS is connected to LINE-1 through a hierarchical relation within the same lineage."
+    },
+    "line1FunctionTitle": "According to the current local graph, LINE-1-related functions mainly involve retrotransposition, sequence transduction, insertional mutagenesis, and interactions with other transposable elements.",
+    "line1DiseaseTitle": "According to the current local graph, LINE-1 shows structured associations with multiple neurological diseases, genetic syndromes, and cancers.",
+    "l1hsPaperTitle": "The current local graph already contains literature evidence associated with L1HS.",
+    "line1PaperTitle": "The current local graph already contains core literature evidence associated with LINE-1.",
+    "fallbackDetailed": {
+      "title": "The current local demo graph supports questions about LINE-1 diseases, functions, lineage relations, and literature evidence.",
+      "bullets": [
+        "You can ask about LINE-1-related diseases or functions.",
+        "You can also ask how L1HS is related to LINE-1.",
+        "Literature evidence can be expanded when needed."
+      ],
+      "evidence": "This answer comes from the local demo graph; the full backend retrieval pipeline can provide richer evidence.",
+      "limitations": [
+        "This is a local fallback answer rather than the full retrieval result.",
+        "Detailed mode becomes richer when backend retrieval succeeds."
+      ]
+    }
+  }
+}

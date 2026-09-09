@@ -1,0 +1,52 @@
+{
+  "accession": "DF000000340",
+  "name": "L1PA3_3end",
+  "description": "3' end of L1 retrotransposon, L1PA3_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Homininae",
+  "display_classification": "LINE/L1 | Homininae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Hominoidea",
+    "Hominidae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 902 BP; 345 A; 178 C; 186 G; 193 T; 0 other;"
+  },
+  "sequence": "ctaatatccagaatctacaatgaactcaaacaaatttacaagaaaaaaacaaacaaccccatcaaaaagtgggcgaaggacatgaacagacacttctcaaaagaagacatttatgcagccaaaaaacacatgaaaaaatgctcaccatcactggccatcagagaaatgcaaatcaaaaccacaatgagataccatctcacaccagttagaatggcaatcattaaaaagtcaggaaacaacaggtgctggagaggatgtggagaaataggaacacttttacactgttggtgggactgtaaactagttcaaccattgtggaagtcagtgtggcgattcctcagggatctagaactagaaataccatttgacccagccatcccattactgggtatatacccaaaggactataaatcatgctgctataaagacacatgcacacgtatgtttattgcggcactattcacaatagcaaagacttggaaccaacccaaatgtccaacaatgatagactggattaagaaaatgtggcacatatacaccatggaatactatgcagccataaaaaatgatgagttcatgtcctttgtagggacatggatgaaattggaaatcatcattctcagtaaactatcgcaagaacaaaaaaccaaacaccgcatattctcactcataggtgggaattgaacaatgagaacacatggacacaggaaggggaacatcacactctggggactgttgtggggtggggggaggggggagggatagcattgggagatatacctaatgctagatgacgagttagtgggtgcagcgcaccagcatggcacatgtatacatatgtaactaacctgcacattgtgcacatgtaccctaaaacttaaagtataataataataaaaaaa",
+  "length_bp": 902,
+  "sequence_length_bp": 902,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1PA3"
+  ]
+}

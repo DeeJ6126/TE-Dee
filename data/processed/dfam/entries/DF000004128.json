@@ -1,0 +1,49 @@
+{
+  "accession": "DF000004128",
+  "name": "MTEa",
+  "description": "rodents.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MTEa"
+  ],
+  "species": "Myomorpha",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Myomorpha",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 379 BP; 93 A; 100 C; 92 G; 89 T; 5 other;"
+  },
+  "sequence": "tgtgatggttaatcttcattgtcaacttgacnggatttagaatcacctaggagacanacctctgggcgtgtctgtgagggngtttccagagaggnttaactgaggngggaagacccaccctgaatgtgggcggcaccatcccatgggctggggtcccggactgaataaaaaggagaaagcgagctgagcaccagcattcatctctctctgcttcctgactgcggatgcaatgtgaccagctgcctcacgctcctgccgccatgccttccccgccatgatggactgtaccctcaaaccgtgagccaaaataaacccttcctcccttaagttgcttcttgtcaggtattttgtcacagcaacgagaaaagtaactaataca",
+  "length_bp": 379,
+  "sequence_length_bp": 379,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MTEa_LTR"
+  ]
+}

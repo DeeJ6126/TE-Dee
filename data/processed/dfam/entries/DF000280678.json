@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280678",
+  "name": "SorAra-1.206",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Retroposon/L1-derived"
+  ],
+  "species": "Sorex araneus",
+  "display_classification": "Retroposon/L1-derived | Sorex araneus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Soricidae",
+    "Soricinae",
+    "Sorex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1231 BP; 332 A; 272 C; 331 G; 295 T; 1 other;"
+  },
+  "sequence": "ccctttggaccctgctgcggagcgagcatgatggaagagcccaaggaagcgcccttggactccaagcagcccactgaactaattccggcacgggatcggagancccacggcgggctgaaacagtgggaaccgggcatcccccaattcttttaacctctctctctcaaccccttcctcccgagcacagcgcagggtccgcggctttctgagcgcaaaatggagacgccgagcctctctctaggtttctccatcttatgagcaccataaaagggtaaaagtttgtagtgatgttatttctggttgtactttccctggactttatacagaaacccaaaaccgcgcggccgcggccgcgcgacctaatgtcatcttagcatcagcaatatgtaatggttcctttttaatgggtcggacttttgtgggagatcctaacaagaatagtaagtctgttgctgaaatattgaaggcaatcaaagtggtagccatctctctagactgaactaagctatatccccacgccggctgagaagaaattttcttctttctcgggaagaaacgcggcgtggcgtcaaccatagtgtgatgtccattaagcaaacagacctggtggcgtgggaatgggatataaggggaaaaattatgtacatggaacagtgggacgctggtggaatctcgagccggagccgataccagcgcaagaccttcggttccagaaactgcttgcagacactctactagtctatcaactaagccagagccccacgcctgctgatgacgggaaataaccatccttttcggtttttttccctttgtcaggcagcgtggcgattactaaacaggcgtgaactcggtggcgcggggcaagggggaaaaagaaaagttatgtaacaaacagcgggacttaatatctctatattcttagcagtggagaactatcaaatgcctccttggcaataggactgtctttttcttttttgggggaaaccccaacaacggtagtgagttgtgtgttgaaacatggaatgtaatcgagataaggcgtaaacgaagtgaaacttatcacttacaagggtggggactggggaggtgggagggggcggcaggtatactgggggggttggtgatggaagatgggcactggtgaagggaagggtgtttgagtattgtataactgacataatcctgagaactatgtaaccctccacatggtgattcaataaaattaaaaaaa",
+  "length_bp": 1231,
+  "sequence_length_bp": 1231,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

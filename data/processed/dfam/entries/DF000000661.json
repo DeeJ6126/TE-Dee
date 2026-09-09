@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000661",
+  "name": "tRNA-Ser-TCG",
+  "description": "tRNA-Ser (decoding TCG) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 85 BP; 16 A; 23 C; 27 G; 19 T; 0 other;"
+  },
+  "sequence": "gctgtgatggccgagtggttaaggcgttggactcgaaatccaatggggtctccccgcgcaggttcgaatcctgctcacagcgtca",
+  "length_bp": 85,
+  "sequence_length_bp": 85,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "tRNA-Ser-TCG"
+  ]
+}

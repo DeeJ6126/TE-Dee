@@ -1,0 +1,48 @@
+{
+  "accession": "DF000278628",
+  "name": "MorBla-1.1",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Mormoops blainvillei",
+  "display_classification": "SINE/tRNA | Mormoops blainvillei",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Mormoopidae",
+    "Mormoops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 231 BP; 47 A; 67 C; 60 G; 56 T; 1 other;"
+  },
+  "sequence": "gccctggctggtgtggctcagtgggttgagcgccggcctgcgaaccgaaaggtcgccggttcgattcccggtcagggcacatgcctgggttgcgggccaggtccccggttgggggcgtgcgagaggcaaccgatcgatgtntctctcgcacatcgatgtttctctccctctctttctccctcccttcccctctctctaaaaataaataaataaaatctttaaaaaaaaaaa",
+  "length_bp": 231,
+  "sequence_length_bp": 231,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

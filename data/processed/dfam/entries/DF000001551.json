@@ -1,0 +1,68 @@
+{
+  "accession": "DF000001551",
+  "name": "BS4_DM",
+  "description": "BS4_DM is a non-LTR retrotransposon",
+  "keywords": [
+    "LINE/I-Jockey"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "LINE/I-Jockey | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 754 BP; 234 A; 162 C; 152 G; 192 T; 14 other;"
+  },
+  "sequence": "tcatatctggatggacggaagcttatggtcaggtacacggatacctactccgctccctgccaaatgttagctggagttccgcagggcagcgtccttggcccgctgctntattctttatatactgctgacctaccnagacctacctacgagaatgcgcaatacccctctaaggctatcattgcgacttacgccgatgatattgcggttctttacagatccaaatgccgtatcgaagctgcaaatgggttgcaaggataccttcaaactttatcggcgtggagtanaaggtggaacatgaaggtcaatcctttaaaaacattnaatccatgtttcacacttnaaaggcttgctacaccagcaatacaatttgaaggtgtgacattggaacagccatctcaagcgaaatacctcggcataaccttagataagcgncttacttttgggccacacataaaaacagtaaccaaangatgtggccaaagaangcagcacctaagatggctgataaataaaaggagcacnatgtcgctaagagccaaaanagcngtatacgtgnattgtatagccccaactgacttaaaagactgggattcagcaagacgattcgttnatcgtccagccctcccanaacctgctagtaatcctcgtgagaggtttggttcattaagatttgtttttatatgtgttgttaagatgctaatcagaatgcatggtttcaacgcttaataaaataatatattaaaaaaaaaaaaaa",
+  "length_bp": 754,
+  "sequence_length_bp": 754,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "24..723",
+      "start": 23,
+      "end": 723,
+      "qualifiers": {
+        "product": "BS4_DM_pol",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "MVRYTDTYSAPCQMLAGVPQGSVLGPLLYSLYTADLPRPTYENAQYPSKAIIATYADD"
+      },
+      "label": "BS4_DM_pol"
+    }
+  ],
+  "repbase_aliases": []
+}

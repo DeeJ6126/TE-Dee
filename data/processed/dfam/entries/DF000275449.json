@@ -1,0 +1,52 @@
+{
+  "accession": "DF000275449",
+  "name": "CerNeg-1.2",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Cercopithecus neglectus",
+  "display_classification": "SINE/Alu | Cercopithecus neglectus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Cercopithecinae",
+    "Cercopithecus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 295 BP; 72 A; 82 C; 97 G; 41 T; 3 other;"
+  },
+  "sequence": "ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggccgaggcgggcggatcacctgaggtcaggagntcgagaccancctggccaacacggtgaaaccccgtctctactaaaaatacaaaaaattagccgggcgtggtggcgggcgcctgtagtcccagctactcgggaggctgaggcaggagaatggcntgaacccgggaggcggagcttgcagtgagccgagatcgcgccactgcactccagcctgggcgacagagcgagactccgtctcaaaaaaaaaaaa",
+  "length_bp": 295,
+  "sequence_length_bp": 295,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

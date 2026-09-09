@@ -1,0 +1,47 @@
+{
+  "accession": "DF000280945",
+  "name": "TapTer-1.194",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Tapirus terrestris",
+  "display_classification": "DNA/TcMar-Tigger | Tapirus terrestris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Perissodactyla",
+    "Tapiridae",
+    "Tapirus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 332 BP; 88 A; 74 C; 77 G; 93 T; 0 other;"
+  },
+  "sequence": "cagtcggccctccgtatccgcgggttccgcatccgcggattcaaccaaccgcggatcgaaaggcctacgatggttgcgtctgtactgaacatgtacagactttttttcttgtcattattccctaaacaatacagtataacaactatttacatagcatttacattgtattaggtattataagtaatctagagatgatttaaagtatacgggaggatgtgcgtaggttatatgcaaatactacgccattttatataagggacttgagcatccgcggattttggtatccgcgggggtcctggaaccaatcccccgcggataccgagggacgactg",
+  "length_bp": 332,
+  "sequence_length_bp": 332,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

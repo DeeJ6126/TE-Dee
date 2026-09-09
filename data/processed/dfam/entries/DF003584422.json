@@ -1,0 +1,43 @@
+{
+  "accession": "DF003584422",
+  "name": "RTE-BovB-1_rCom",
+  "description": "Repetitive sequence family identified in Ricinus communis",
+  "keywords": [
+    "LINE/RTE-BovB"
+  ],
+  "species": "Ricinus communis",
+  "display_classification": "LINE/RTE-BovB | Ricinus communis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Viridiplantae",
+    "Streptophyta",
+    "Streptophytina",
+    "Embryophyta",
+    "Tracheophyta",
+    "Euphyllophyta",
+    "Spermatophyta",
+    "Magnoliopsida",
+    "Mesangiospermae",
+    "eudicotyledons",
+    "Gunneridae",
+    "Pentapetalae",
+    "rosids",
+    "fabids",
+    "Malpighiales",
+    "Euphorbiaceae",
+    "Acalyphoideae",
+    "Acalypheae",
+    "Ricinus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2917 BP; 729 A; 842 C; 734 G; 605 T; 7 other;"
+  },
+  "sequence": "ccaagcttagagatcaactccagccttaacataagcatgcgcccgtgcaagatttgcatcgtcggtaggatgcgaactcccgtgctaagaactttccgccacaccacctcaagcaatacaaccgaatgacattgccctcagagtgcaacatccgatcattagcacgttggagcacagcgctcatctccagcctcaacacaagcacaagcccatgctagacatgtatcatcgaccagatccaaactcctcgcaacagggaatgcgcataagcttccgccacacaaggtcaggcaatacaattgaatgacatgccctctcagtgcaacacccgcctaataacacgcccaagctcagagatcatctccagccttaacataagcatgtgcccgagcaagatctgcatcgtcggcaggatacaaactccgtgcaaagagcttccgtcacaccacctcaggcaatacaattgaatgacatgccctcataatgcaacatcatcagccctatatgacgcccgagcatgtagctcatctccagcctcaacataagcacaagcccaagctagacatgtatcatcgaccggatccaaactccttgcaacagggagtgcgcataagcttctgcgacacgaggtcaggcaatacaattgaatgacatgccctctcagtgcaacatctgcctaataacacgcccaagcttagagcttctctccagccttaacataagcatgcgcgggtgcaagatttgcatcgtcggaaggatcaaaactacgtgcataggacgcccgagcactgcagctcgtctctagcctcaacacaagcacgagcccatgcaagaaatgtatcatcgaccggatccaaactcctcgcaacagggagtgcgcataagcttccgcgacacgagctcaggcaatacaattgaatgacatgccctcgcagtgcaacatctgcctaataacacgcccaagctcggagatcatctccagccttaacataagcatacgtccgtgcaagaactgcatcgtcggcaagatacgagcttgtgtgcccatgcgaggcagatccaagaatgtgtgcctcggccgaaggggacggcgcctcatgcgtcggcatgctgcaaggttgactattgcttggtttcgggcatcttatgacaatgcatcgcccacaccgtgcgttgacaacctattagcacgctcttgcatggggttgggccccaacagctttggttggatcttccatccatgtctcggcctcgccctctacggccatcacagccgcataaaattccgtcaattcatattcgggcccgcgtcagttccgactggggctattataggctacacaacacctcgatgcctcacctacaataagaaaataaagccccatgtatgcctaaagcaagggcgatgcccatgctccatttttgaatttttccgaaaatgggccccggtgggcccaccgtgtcccgggaaattttccgacatccgggacggggcggagggggctggggtgtttgcgggccaattccgtggataccgatgcctatcttgcagcccagacatgcccccgtgcccaggctccccagcccccccaggggggtgaggcatactgcacccccctaaagaggctaagaagcatgttgaagtctgtcaggaggagacatcactatgttccacccatcacacccccccttaaaaaattcatttcaaggaattttaatttgattttttgcacatatgttaagaataatataatataccaccacaaaaattttaaaaaaatttagagcacatttagtatatttttttattttttaaatattaaaaattgagaaattcataaaaaatagaattgacatcaaaaaatcaccattttttgtgtagggccnttaaaagatatgtcaaaattattggagttatcattggtacattttctttaaaagtgcacgctcaacttgtaagatattggcttaaatggctactttgcatgtggtgatcgggctacaatagacaaccaagtagcaaacttagcaatcaatgatcctcttgatttcataagaattttacaaccttttcaggcttcctagaacatattggggctgatagattgttaggaaaaggctatggaggcatcaaatgtggtggtggcggagtgccacagcacgggcccgaaaactagcaaaaagaggttcaccgcagctgatttctcgccaaaagaggttcataggcgaggattgttgcccccgcgggctggcacgcccagcgcacgatggagctgcgaggatgcgctgccaacgggcccgcgcctgcgaggatgccctgccagcgcgcgcgctaggctgcgaggatgcgctgccagcgcgcgcgctagcctgcgaggatncccgccagcgggcccgatgggcgcgctgcgtcggcaatcgggggctggcacgcgaggattccccgccaactggcccgacgggcgcgctggctagccagcagtggctgcctgccgcctgcgaggattctcgccaacgggcccgatgggcgcgctgcgtcggcaattgggggctggcacgcgaggattcctcgccaactggcccgacgggcgcgctggctagccagcagtggctgcctggcctgcgaggattctcgccaacgggcccgatgggcgcgccgcctcggcaatggctggctggcactcgaggatttctcgccaactggcccgacgggcgcgctggctcgccagcagtggctgcctggcgtgcgaggattctcgccancgggcccgatgggcgcgcttattcggcaaagggggtcgggcacgcgaggattcctcgccaaccggcccgacgggcgcgntggctcgccagccgtggctgcctggcgtgcgagnttctcgccaannggcccgacgggcttccagagttcgctaca",
+  "length_bp": 2917,
+  "sequence_length_bp": 2917,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

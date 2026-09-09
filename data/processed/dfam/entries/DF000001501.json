@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001501",
+  "name": "CER13-LTR_CE",
+  "description": "CER13-LTR_CE is a long terminal repeat of the CER13_CE retrotransposon.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CER13-LTR_CE"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 243 BP; 63 A; 30 C; 53 G; 96 T; 1 other;"
+  },
+  "sequence": "tgtcaaatcggagatgtttcaaacatcaacgatttgatggttaataaaactgttgtgcggaggtgaatatttatgacttttgcggggtagcttttattgttttattgaggggtttaggggtatataagataactttttgtattgtagggntatatttttctacattttgaataaatctttcttattttgctatttgtcccttggactacttggatacgaaaactgttggcaaccgtgccaaca",
+  "length_bp": 243,
+  "sequence_length_bp": 243,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CER13-LTR_CE"
+  ]
+}

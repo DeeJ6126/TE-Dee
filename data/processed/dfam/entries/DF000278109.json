@@ -1,0 +1,48 @@
+{
+  "accession": "DF000278109",
+  "name": "MegLyr-1.193",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Megaderma lyra",
+  "display_classification": "DNA/PiggyBac | Megaderma lyra",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Megadermatidae",
+    "Megaderma"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 238 BP; 81 A; 48 C; 55 G; 54 T; 0 other;"
+  },
+  "sequence": "ccctaccagacctgaggccctgaacctaactgtcccctatacctgggctcctgagcattaaagagaaaaaaccaacatgatatagaaaaatgttagttacatgcaaacaagtggttagaataagatggaacttggagtcatttttttcacgtactaggcaaagtaccgaaaattaggtacagcggtatagcggcagattcggaaattaccgaaaaatcggtacagcggtctggtaggg",
+  "length_bp": 238,
+  "sequence_length_bp": 238,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

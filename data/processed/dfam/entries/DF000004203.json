@@ -1,0 +1,48 @@
+{
+  "accession": "DF000004203",
+  "name": "Charlie-N1b_Cpb",
+  "description": "hAT-Charlie DNA Transposon",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Chrysemys",
+  "display_classification": "DNA/hAT-Charlie | Chrysemys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Testudinata",
+    "Testudines",
+    "Cryptodira",
+    "Durocryptodira",
+    "Testudinoidea",
+    "Emydidae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 219 BP; 50 A; 54 C; 62 G; 53 T; 0 other;"
+  },
+  "sequence": "cagtggttttcaacctgtggtccgcggacccctgggggtccgcagactatgtctaaggggtccgcgaaaggttgtcgttaccatagaacagtggttttcaacctgtggtccgcggacccctgggggtccgcagactatgtctaagatttccaaaggggtccgcacctccattcgaaattttttaggggtccgcaaatgaaaaaaggttgaaaaccactg",
+  "length_bp": 219,
+  "sequence_length_bp": 219,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

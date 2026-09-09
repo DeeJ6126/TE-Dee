@@ -1,0 +1,51 @@
+{
+  "accession": "DF000281911",
+  "name": "ElaDav-5.614_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ElaDav-5.614_LTR"
+  ],
+  "species": "Elaphurus davidianus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Elaphurus davidianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Cervidae",
+    "Cervinae",
+    "Elaphurus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 385 BP; 119 A; 89 C; 101 G; 75 T; 1 other;"
+  },
+  "sequence": "atgttaggtagttagaataggaaaaaggagtccaaaatggcggtggctaaaagacaaagaagggaaaagcccgcgaaaatagaacaaaggaaggtccgaggaccggagtgaggacctcaggtaaaacaaacagccctcctggctagcccaatttacatagggcaggctcagggggaggagaaaaaacatataaaaagaggagccaaaattgagccggggcctctcttctcttcgcgtcttttgggtcggcccgccctcacgcctcgaggatgtattttcctttgcttnccaaataaaactgagctgtaacgctgtaacactggtccgtccgtcgcttcaaatttttgctgcggcgagacagaaccgaggaaattacacactcccc",
+  "length_bp": 385,
+  "sequence_length_bp": 385,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

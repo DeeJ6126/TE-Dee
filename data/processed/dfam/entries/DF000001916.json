@@ -1,0 +1,65 @@
+{
+  "accession": "DF000001916",
+  "name": "MERV1_I",
+  "description": "ERV1 internal portion: consensus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MERV1_I"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 4961 BP; 1292 A; 1268 C; 1394 G; 990 T; 17 other;"
+  },
+  "sequence": "tttgggggctcgtccgggattcgaggagacccccagcgaccaccgactagactgatcggagggaaaaagaccgagctcggcaacaggcgccnacttgtgtttgtcagtgtttgtctctctgtcttttgctttcactttgctcgcgagcacggtgtcggctggaaagcctctggtctggtgcggtcaattgcggcgggcagacgtgaccgtgggagtctggaggacgcttcaggcccccccggagggagtcgggaggactctgctccttttggaaacggcaagacacagtatcggcgggagccgaccgagtcttgctataacctggtttctgcgtgcccgtggcaggggcgaactgtctgttgtctttctctgtgtttgttggtgttggttatctcgttctgtgttcttggacttggactgacgacatttttggacattggacagactgaatctaccccgttaaacatcctagttaaccactggaggagaaaacttgtcagtagtagtaaagaagggcaagttagttactctctgctcctccgaatggcccaccttcggagtagggtggccacccgtagggaccttcgacttgcaggtgatcaaagcagtagaggaaagagtctttaggccaggatccctcgggcacccagaccaagtgccctatatagttacctggaagaatctagtggaggaccccccccacccccncatggataaaagcctttctttccccaagacccacctcacaggttctggccgtcaggaagaaggaaacacgggaggagggatccggacctgagaagaagtcgatcctccaagacccttcaacagcggacctgttgctccaagaccctcctcctccatatccccctacccttgcccccatggccccgccagcgccagcaccggctccgggatcctcagcccatatgggaccggggccattgtaccccccncgntttaccggagggaggagcgggaggagaccccaacttcccggtcccgccatggggacccgaagtctgagagccacctcccctgataccacggtggctctcccgctgagggcatatgggcctctaganaagggcaatcaggctatgcaatattggcccttctcttcggccgacttgtacaactggaaggcccaacacccccncctttcagataaccccaaggggccgattaatctctttgagactgttttatttactcatcagcccacctgggatgatatccaacaactcatgagagtgctcttcacgaccgaaagagcgagagaggataatgcaggaagccagaaagaatgccccctcagacacgggggcaccatcgattgaccaggctgtcgtcgacagcgggtttcccctgactagacctgactgggactttaatacggcagaaggtaaggggcacctgaaggtctaccgccaggctccgttggcaggtctcaagggggccgcacgacgacccacaaatttgaccaaggtacgtgaggttaggcagggaccagatgagtcgcccgcngcctttctagagcggctcatggaggcattccgccaatatacaccctatgaccccagcagcaaggagcacaaagctactgtgactatggcttttatagaccaggctagtagagatatcaggaaaaagcttcagaggctagagggactacaggataagtcgttgagggatttagtgcaggttgctgagaaagtctaccataacagggagacagaggaggagaaggagcagagaaagagaaagaaagaagatgaaagggagatgaaaaaaaagaaaagcgacaggaaaggaatttacagagaatcttggctacagtagttagggaaagcagagaagagagactccaaccaaagagagacagaaaaccccttgaaaaggaccagtgcgcatattgcaaggagaggggccactgggcccgagagtgccctaacaaacggaagccgggggcgggaaatcccaggccttgggaaaagcgcccccgancgncaaatggcgaaggtgttagccctgggngaagacagcgactaggggggacggggttcggaccccctccccgaacccagggtaactctgagagtggaggggaaacccactcaattcttggtggacacaggggctcaacactcggtcctcctccaagccgatggccccgtttccaagaaaaaaatcttgggtccaaggagccactggcaccaaaatgtattcatggactacccgaagaacagtggacctagggatgggccgggtatcccattcatttatggtcatcccagactgtccctaccctctgttggggcgagacttactctccaagatgggggcccagatacacttcctgcccgacgggccgcaactaactggcccaaaaggagagcccatgggtggaggaaagacctctccgactgacccctgccgggagccgaggctacctggtttacagacgggagcagttttctccatgaaggtcagagacgagcgggtgctgccgtggtggacggcacaaatgtcatctgggcggaacctctaccccccggcacgtcggcgcagaaagcggagctaattgccctcaccaaggccttggaacttggggccggcaagaaaattaacatctacacggatagcaggtatgcctttgccacagcccacgtccacggggctatataccaagagagaggactgctcacatcagagggaaaagaaataaaaaacaagcaggaaatcttggatctcttggatgccctgatgaagccggcaactgtgagtattattcattgcccaggacatcagaagggaagagactcagtggcccggggcaataaccaggcagatcaagtggctcgagaagtggctatgcaggagcctatcccggttatgggcctgcaagagacacccgctgggaaatgggactggactaagggatggcctcacttaaaatatacngaagaagaaaggactcagattgctagccaccctaccaactattacctagagaaggaagggcaatggcgcacacaagaaggaaaaactatactccccagaaagcaagcaaaagacttactaggccaaatgcacagatggactcatttaggggataaaaagctcgtccaagcagttaagggatctaaagtatatataatggacctcaggnnnttttgggccagagagatagtagaacagtgtaaggtatgccagcaagtgaatgcttatgcggccaagagtaaacagggcaaaagacctaggggagaacggcctggagtatattgggaggtcgattttacagaagttaagccaggaaaatatggttacaaataccttctagtgtttgtggatactttctctggatgggttgaggctttccccaccaagcaggaaacagctaccgtggtagccaagaagatattagaggaaattttcccgaggttcggagtgcccaaggtaattggatcggacaatggtcctgcttttgtctctaaggtaagtcagggattggcagagatattggggactaattggaagctccattgtgcgtaccgtccccagagctcagggcaggtagagagaatgaacagaaccctaaaagagaccttaactaaattgnccttggagactggcgctgactgggtggtgctccttcccctggccctgttccgagcccggaacaccccctaccattttaacctgaccccttttgagatcctgtatgggaccccacactcccttgaccccggctcttgacccccccagagtgacttttcaggctgacaaggatcttatggctcgattgcaagctttccagatcagccaccaggaattgtggcctaaacttagtgccctgtataacgcaggtaccccagaggttccacacgagtaccaagttggagattgggtatatgttaagaggcatcgtgctgaaaacttggaagcaaagtggaaagggccgttcctggtgttgttgaccaccccgacctccgttaaagtggatggagtaactgcctgggttcacgtaactcatgtcagaccagcacctgcgcctgacgccaactggatagcagccagacacccgagcaaccccctcaagctcaagatcacccgcccttctgcaaggccagagaaaccatgagatggctatggtgtatcttccnncgctgagcctcagcagcccccacaaccctaccaaggtgacttggcaggtactctcagccactggggatgtggcttggtccactacagaggaacacccgccttatatctggtggccggaccttgtctttgatctctgtaagttagcggtgggccttgactcctggggtgtccccgccctggagacacagggggagggattgcccgaatgtgggggacgagggacttgtgaatctaaaccgtgtcccagaagcggccttggagggtggggcttagggtgcggacacccgaagttgaggagtgtcctgcgagaaacccccatatatgtgtgcccccgagatgggagaagccagcagcaggcccatcagtgttgggggccaaccactttttctgtgctacctgggggtgtgaaacatcgggaagcacatactggagaccattccgggggtagttaaagattcaatggccaaggtgagagaagggctagccaagcggaagagagaaagaacagagtcagggctggttcgagtcttggtttaactcctccccttggttaaccaccctcatatccaccttgttaggacccctaattgttctcctgctattgttgacctttggaccctgcatattgaacaagcttatagccttcataaaagagagaataggagcagtgcagctgatggtcctgcgccaacaatatgagaccctgaggacaggacctgaagaatatgagttagttacccaagacccctgagcgtagctccaggattggagcttgtacaagaaaaaggggggaa",
+  "length_bp": 4961,
+  "sequence_length_bp": 4961,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "435..2045",
+      "start": 434,
+      "end": 2045,
+      "qualifiers": {
+        "product": "MERV1_gag",
+        "number": "1",
+        "note": "via tfasty with MDEV_gag, MERV1_pol is in even worse state. [Mus"
+      },
+      "label": "MERV1_gag"
+    }
+  ],
+  "repbase_aliases": [
+    "MERV1_I"
+  ]
+}

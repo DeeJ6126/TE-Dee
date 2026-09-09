@@ -1,0 +1,51 @@
+{
+  "accession": "DF002407645",
+  "name": "Acol_hAT_Ele2",
+  "description": "Curated TE family",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Anopheles coluzzii",
+  "display_classification": "DNA/hAT | Anopheles coluzzii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Nematocera",
+    "Culicomorpha",
+    "Culicoidea",
+    "Culicidae",
+    "Anophelinae",
+    "Anopheles",
+    "Cellia",
+    "Pyretophorus",
+    "gambiae species",
+    "complex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1775 BP; 556 A; 293 C; 346 G; 438 T; 142 other;"
+  },
+  "sequence": "tcagcactgtaaaattgttaggccgcttagggntagncttcagggggcacgacgaaggtgagnaattctagcaaccgaaagggaaattacntnncntgcctngagtacttaagtgagtacgatganttcctgaaacnncatttagaaaagcncggcnnccaaggnngcgggaatgtnaattatctctcanatannatttgtgatgaattcctnnagatanttggngatnncgttaggggcgaaatagtnganganattnantcggctatntattncagcattatngtngattccactcccgacgtatctcacatcgatcaaataaccttcgttgtcagatatgtcttaggttcaggaaacattaaagaacgctttctaggntttatnccgactcacaagcatgatncgtcncatctggagcaagaggtcntanaannnttagacaacttaggnctnaatgttgcaaaactgtcggggccaatcntncgacaatgcntcaaatatggccggcaggtatacgggcttacaagcncgnatnaaacaacacngctcnagtgcngtnttcgtaccgtgtgcgaaccattctttgaatctggtcgntaatttcgctgccgaaaattgtagcgcngcagtnnactattttanattcgtncaaaaattgtatacatttttttcntcttcgacacatcgatggaaagtnctgncanaaaattnaaacaaggatcnacatcaatcagctatattnttaaaaagattntctgacacnagatggtctgctagggcngatgcagtntncgcnttgaaagccggatataanaacattaaagaagcnttacgaganatttgcgacgatgaagctaaaaaatatgctacagtcgangaagcnacttcactnctnaaaaaaatggtaagatctganaccgctctantgaccgttatatggaatagcactcttacagagaattaatgccacaagcaaatcgctgcaatctnttganngcgaantancgaaaggngcagctctttngcgatcccttcggcaatanatttacaaaactntagggatgactttncgagtattgaagaagaggctaganagntgtccggtttgtcattcantgnanaccgcgganaggttcgaaaacgacggcgaaaaatgttcgccgatgantcgcgtgaaaaggancacgaatttacannaagagaagantttaaggtnaatncgttttntgtnatttgcgataacatnanagagcaantnacgcaaagagctgaaaagtatgaagcgatnttggaaccattcagaattttttatnattggaacatgncaatagaaaatnnatcgaaattaacttaaactattananncgtcaaaatgacatcgatactcgcgtcttagaagaggagctgaatcacttcgtaatatttttaaaagaaaatcgtagcggtgagaaggaaacaaaagatcgacatcaagactcaaatgataatcttgatattaaagtgacattcagcatcgtataaagtanccaaaganatgtcntgcacnttcccnaatatggaaacattnttgaaaattttcttgacgattccaatatctaatgcttcnggagaaagatcnttttcngctttgaaacgagttaaaaattatttgcgtaactcgacgggagaagcnaaattnaacaatttngcaatnttgtacatngagcaaganttgntggacnaaatcgatacggacgcaatnattgangaatttgccagaagaaagnntagaa",
+  "length_bp": 1775,
+  "sequence_length_bp": 1775,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280003",
+  "name": "PetTyp-1.100",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Petromus typicus",
+  "display_classification": "DNA/TcMar-Tigger | Petromus typicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Petromuridae",
+    "Petromus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 365 BP; 95 A; 86 C; 92 G; 91 T; 1 other;"
+  },
+  "sequence": "cagtggaccctcgagttacgaccggcctgacatacgaacaacttgggttacgaccggaattttagttttaacttacgaccaaagtcttgagttacgacccgaatgccggccgcttgtgcttccagatggtctcagatacagatttaacccttaaagagttctggaaggaacattacaacatcctttcctgtgtggggttaactgagaaatcctgggccagtgtctctctaaggacactgagatctgcctgtgtacaggagagagactttgaaggctgtgtagaggagcctgagccttcagctgaccaacttgagttacaaccagccctcgngaacgaattgagttcgtaagtcaagggtccactg",
+  "length_bp": 365,
+  "sequence_length_bp": 365,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

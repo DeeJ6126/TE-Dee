@@ -1,0 +1,53 @@
+{
+  "accession": "DF000004271",
+  "name": "TguERVL2a2_LTR-La_fAlb",
+  "description": "Long Terminal Repeat for an ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "TguERVL2a2_LTR-La_fAlb"
+  ],
+  "species": "Ficedula albicollis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ficedula albicollis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Archosauria",
+    "Dinosauria",
+    "Saurischia",
+    "Theropoda",
+    "Coelurosauria",
+    "Aves",
+    "Neognathae",
+    "Passeriformes",
+    "Muscicapidae",
+    "Ficedula"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 665 BP; 144 A; 182 C; 171 G; 168 T; 0 other;"
+  },
+  "sequence": "tcttgggggttgagtgttttttctattactgtgtcaatttaaagaatttttcccattatcatgccaatggagctggctgggttacacccaggacctatgatggctgtagacaaaaggggtaggtgggagcggctcccggaagggggctccggtttccggggagctcggaggaggattacccgtctccagcccacgcggccgaaggcaggagagccagaccctctgtgatcacctgccctgcatctccccgttccagcctcctgcctctgtggacactgctgaccaccagaacccaaacggtgagcgaggagctgccctctccagcccgctcccacctccgctcccgcctcttctcggcagccgccgggctttgttccagccgcaccaccgaggccgagagcagagagaacgtgtgcctgcagctaaagaaaggactgggaccgagttatctgttctgttttgttggtaattttaacaactgcagttgtttctgcttgtacggttagatatattagtaaaagagctgttattcctacccccttatctctgcctcagagtccttgattcaaacaattataatacttggggggagtggaattaaggtctctatttcaaaggaaaacttctgcctttatcggcagatacctgtcctccaaaccaggaca",
+  "length_bp": 665,
+  "sequence_length_bp": 665,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

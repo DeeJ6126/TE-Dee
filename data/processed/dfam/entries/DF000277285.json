@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277285",
+  "name": "HemHyl-1.149",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Hemitragus hylocrius",
+  "display_classification": "SINE/tRNA | Hemitragus hylocrius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Caprinae",
+    "Hemitragus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 354 BP; 102 A; 115 C; 89 G; 48 T; 0 other;"
+  },
+  "sequence": "agggcttccctggtggctcagtggtaaagaatccgcctgccaatgcaggagacacgggttcgatccctggtccgggaagatcccacatgccgcggagcaactaagcccgtgcgccacaactactgagcctgtgctctagagcccgggagccgcaactactgagcccacgtgccgcaactactgaagcccgcgcgccctagagcccgtgctccgcaacaagagaagccaccgcaatgagaagcccgcgcaccgcaactagagagtagcccccgctcgccgcaactagagaaaagcccgcgcagcaacgaagacccagcacagccaaaaattaaattaaataaatttttaaaaaaa",
+  "length_bp": 354,
+  "sequence_length_bp": 354,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

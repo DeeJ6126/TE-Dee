@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277043",
+  "name": "FukDam-1.25",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Fukomys damarensis",
+  "display_classification": "SINE/Alu | Fukomys damarensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Bathyergidae",
+    "Fukomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 196 BP; 58 A; 49 C; 58 G; 31 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcacgcctgtaatcccagcactctgggaggctgaggcaggaggatcgcaagttcgagcccagcctgggcaacttagcgacttagcgagaccctgtctcaaaataaaaaataaaaagggctggggatgtagctcagtgcgaaggccctgggttcaatccccagtaccgcaaaaaaaaaaaa",
+  "length_bp": 196,
+  "sequence_length_bp": 196,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

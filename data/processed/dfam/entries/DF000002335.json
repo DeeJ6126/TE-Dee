@@ -1,0 +1,66 @@
+{
+  "accession": "DF000002335",
+  "name": "Rex1-19_DRe",
+  "description": "Rex-like non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/Rex-Babar"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/Rex-Babar | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1666 BP; 550 A; 285 C; 299 G; 527 T; 5 other;"
+  },
+  "sequence": "gctagaaagttagtatccgcaactgatgataaacaaaaagcaggaccaaggtttgacactcacagtataaattcagacaatggaaaagaaataaactcantttatattaatgaatcaanagaaagcaatttgctgattgactgtgatcaagttcagctattatttaagcagatatgtccnaaaaatcagctggtcctgatggtctctcgggcttcttactaaaagtatgcgcagaagaactgtcaccagtgtggtgttctttatttcaaaaatctattaatttgaaggtagtcccagcaatctggaaaagatctcttataatccccgtgcctaaaattgcccgtcctgtggataacaatgattttagaccaattgctctcacgtcagttgtaatgaaatgcttcgaaaagtatatggtgtcagtgctaagagagaatattagtactaaacttgatccacttcagtttgcatatagcaaaggagtaggtacatgtgatgccatcaatagtctgttgcactttgttttaaatcatttagaaggccctgatgcatatgcacgtgtacttttctttgattttagctcagcgtttaacacggttcaaccacatgttttaattaggaaactaaaaaagttaggagtaaactctacaattattgaatggtatcactcctttttaacaaaccgaactcaggcagtcaaagtaaataatagtttgtcccaagtcaaatatagtagttctggtgtccctcagggttgtgtgagctcatcacttctgtttactctatatactaatgagtgctcaagcaggcactcacagaatcttatttttaaatactcagacgatacggtaattttaagtttgctgaacaaacaagatcctgtttctgtttatttttctgaaattgattcatttgttgagtggtgtgatgaaaactttttaaaagtaaatacaaaaaaaaaaaaaaaaaggaaataatctttgatcccaagtgtgttgtcgagcatttaccagtgtttgtacataatcaagaaatcactcaggtacagtcatacaagtatttgggaatttacatagacaggtctctaacatgggacactcacgtaaactggatctgtgaaaagcttcaccaaagactgtattttctacgaaggttatggttctatggtgttgataagaanaatcatgtacttattttatcaagctgtatttgagagtgttatcaggtatggtctatctacatggtatggcaatctttctgtaaatctgaaatcaaaaatttttaatattatcagaactgctacgagactaataggatctgaaacttttactagtatncaaacactctacgagcaatgcactctgaatgaagcgaaaagaattttaataacccatctcatgtactcttcccattttacgatcttttaccttctggtagaagatacagaactttccgctggaagcggaacagacttaagaactcttttattccagtgtcaatcagactgttgaacactgatcgatagtgtgtgtaattcttttgcatgttggcttatttttttaaattgttattgtgtcagaacctgctgaagtgctgtgtgagtccacagaaaatttccccttgagggacaataaagtatacaaacaaacaaacaaacaaacaaaca",
+  "length_bp": 1666,
+  "sequence_length_bp": 1666,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "0..1522",
+      "start": -1,
+      "end": 1522,
+      "qualifiers": {
+        "product": "Rex1-19_DRe",
+        "number": "1",
+        "note": "; was CR1-19_DR_pol; via tfasty with CR1-28_DR_pol [Danio rerio]",
+        "translation": "ARKLVSTTDDKQKAGPRFDTHSINSDNGKEINSIYINESTESNLLIDCDQVQLLFKQI"
+      },
+      "label": "Rex1-19_DRe"
+    }
+  ],
+  "repbase_aliases": [
+    "Rex1-19_DRe"
+  ]
+}

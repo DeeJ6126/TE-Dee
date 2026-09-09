@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002294",
+  "name": "SAT-7_DR",
+  "description": "Satellite sequence from zebrafish genome",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Satellite/ | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 168 BP; 34 A; 33 C; 40 G; 56 T; 5 other;"
+  },
+  "sequence": "gagtgcatgtgaatggtttctctccagtgtggatcttcatgtgttnattaaggtntgatgatcggctgaaactcttcccacactgagtgcatgtgaatggtttctctccagtgtggatcctcatgtgttnattaaggtntgatgancggctgaaactcttcccacact",
+  "length_bp": 168,
+  "sequence_length_bp": 168,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SAT-7_DR"
+  ]
+}

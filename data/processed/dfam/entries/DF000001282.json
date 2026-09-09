@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001282",
+  "name": "X30_DNA",
+  "description": "Conserved repeat present in placental mammals and marsupials.",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/ | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 398 BP; 130 A; 85 C; 73 G; 106 T; 4 other;"
+  },
+  "sequence": "gtatanatgtcacggctaaagtccatcaaccggctaatgtccatcaacgatcagcaaattagtagattgtgcctgtgttgacacttctgttctcaacctaatggtttgtttatttaactgtcttcattaggggctcttagcacatcaaaagagtgtttaaaaanncaacaattagccttgggaacaaaagagtaaacacaagcacaatttatcactttgccaggctcaacaaacaccattttgatgtgctaacagcccctaatgaagacagcagccatcagttaaataaacaaaccattaggttgagaacagaagtgtcaacacaggcacaatctactaatttgctgatcgctgatggacattagccggttgatggacnttagccgtgacatctatac",
+  "length_bp": 398,
+  "sequence_length_bp": 398,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X30_DNA"
+  ]
+}

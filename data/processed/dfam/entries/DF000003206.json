@@ -1,0 +1,66 @@
+{
+  "accession": "DF000003206",
+  "name": "L2-35_DRe",
+  "description": "L2-like non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/L2"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/L2 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2600 BP; 640 A; 617 C; 427 G; 903 T; 13 other;"
+  },
+  "sequence": "aatattgcaatgaaatatgatcgttttttattagtgggtgattttaacattcatgtttgctgtcaggcaaaccctttatctaaggagtttcttaaccttattgactcttttagtctggttcaatggataacagatccgaccatgttttaggccataccctagacctcgttctttctcacgggcttgctgtctctgatatagttttctgactntacgctttctgatcataagccgattttattttccatgtctcttcctactctccctttatccactaatgttaatgtaacactgtctcgttactactctcctacatttggggccaattttaatcagtgttttttggaaacatgctctcatcattctttggatctaccactgtttgacctggatgctgacaaacatctcagtctcctaaactcggcctggctgagcgttttagatgttactgccccnttcaagcctcatataaaaaacgcaaatccgctttatggcacaactcaaacactcgtctgctccgccaagcctgtagaaaggccgagcggaaatggaaaaaggataaattgcaaatttcttatgagatgctaaaagacagtctctcagcttatcagtcagctgcaaaatctgccaaggcttcttactttactgatctcattgtgaaaaatcactctacacctaaagctctgttctcagttatacactctgttgtaaatccagctgttcaatcaatgcctgttgcttcaaatgctctatgtgaaagctttttgagacacttcactgacaaaatatccattttaaggacaaaactctgctctgctcccgttgatcctcctcctcccactttgcatctggtctattgggatgcttttgatcccatttctctacaatcactgaaaaatgtaattgctaatactaaactttccttctgtcccaatgatatcatccaccctaaatttctaaaacaaatcattgacactgtcggcccaggcttggcttcctttttcaataagtgcctctctactggctcttttcccaatgaacttaaaatggccactgtcactccgcttctcaaaaagccttcactggatccctctattctgaataattttcgccctatctctgtcttaccattctgctctaagattttagaaaaaattgtactcgatcaactgcaatcttttttaaaaaaagcaactgtatcactgaaatttttcagtctgggttcaaaatggctcatagcactgaaacagccctcctcagagtacttaatgatatcctgctagccactgactctggcgattctgtggtcctggttcttctagatctgtcagcagcatttgatactgttgaccactctattctgctgtccagattagagtcagntgtgggcttgaaaggcacagtccttaagtggtttaagtcttttctntctganagaaagttttcagttaaattaggtaacttctcatcctcatttgctgatctcacttgtggcctccctcaaggctcagtcttagctccctcacttttttcattatatatgcttccgctaggggccattctaagaagtcatggggtgtctttccatttctatgctgatgacacccagatttacttacctattaagaggaatgaccctctcgcncttagtaccttactaaggtgcttagatgagatcaaaatctggctgtcccacaattttttatcattaaatgaggataaaacagaggtgattgtcttcagccctactgataacgttcaggcctcttgcctagatctgggctgcttatctgccttcagatcnccccgtgtccgcaatctgggtgtcatccttgatgagtcattgaaactagacaaacagatcagttcggttattggctccagtttttatcaactacgtttgctgtctaaagtcaaacacttcttaaatcccaccacnctagagatggctgtccacgcttttattacgtcacggttagactactgcaatgcactttactgtggcatntcaaaatcccaggtttctcgccttcagttggtccaaaatgctgctgctagatttatttgtaatagcagaaaatatgaccacattacccctcttctaagaggcctccattggctgcccgtccaattcagaattgattttaaagtgcttttactggtntataaatccctccataatctagccccancctatctctcagagctgcttcatttttacactcccgtgagatctcttaggtcaagtgatcagaatcttctttcagttcctcagtccaggctgaaacgtagaggggacagagctttctctgtggcgggtcctcggttgtggaacaccttgccccttgagattagaatggctccatcactatctatttttaaatcacttcttaaaacgtacctttttagcttggctttttaanattattttaatagtcctttctactgcttttttacatttttacagncgtttctcttgccttatttctatgtttttatattctgtctttttatttttttaccttgtcttatgtacagcactttggtcagtcttgtgactgtttttaaatgtgctttataaataaatgaacttgaactta",
+  "length_bp": 2600,
+  "sequence_length_bp": 2600,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "0..2419",
+      "start": -1,
+      "end": 2419,
+      "qualifiers": {
+        "product": "CR1-35_DR_pol",
+        "number": "1",
+        "note": "Fragment via tfasty with CR1-1_DR_pol [Danio rerio]",
+        "translation": "NIAMKYDRFLLVGDFNIHVCCQANPLSKEFLNLIDSFSLVQWITDPTHVLGHTLDLVL"
+      },
+      "label": "CR1-35_DR_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "L2-35_DRe"
+  ]
+}

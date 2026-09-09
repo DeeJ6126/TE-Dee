@@ -1,0 +1,39 @@
+{
+  "accession": "DF003576420",
+  "name": "SINE_C.gigas_cons_6",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/MIR"
+  ],
+  "species": "Crassostrea gigas",
+  "display_classification": "SINE/MIR | Crassostrea gigas",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Ostreida",
+    "Ostreoidea",
+    "Ostreidae",
+    "Crassostrea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 353 BP; 75 A; 79 C; 98 G; 99 T; 2 other;"
+  },
+  "sequence": "taggaggtgttggcgcatttgatagcgtcgaccgatttggacgcggtagccccgggttcgagtctggtctgtcgctatcgcggtaacattgtaaccttgggcaagttactttactctactngtgcactctctccacccaggggttaaaatgggtacctggcacatgagacgagctggctatgtgaatgnaaagcattagcgccgtaatttggcagctctgcttgtatgctccccagggagttgaggatgctatggattgtacgggtctcgccagggggtaatatgtagaagtcgtgcgaggcaatttactttgcgagcaagactataaacccctacctttaccttttaccttt",
+  "length_bp": 353,
+  "sequence_length_bp": 353,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

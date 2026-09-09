@@ -1,0 +1,39 @@
+{
+  "accession": "DF000001093",
+  "name": "UCON18",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON18 subfamily",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Tetrapoda",
+  "display_classification": "Unknown/ | Tetrapoda",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 548 BP; 177 A; 70 C; 114 G; 182 T; 5 other;"
+  },
+  "sequence": "ttngagctattttgtggtattccccagtatagtcatgtttggtatcatttgaaagagctcactgagctgagaagaatgacataaaaatcgctatgacgggacaaagtatggcaaagttatgagtgtttaaagtttccaggaagtgcttttattttgattcatatttaaattaggttcctagcagatggaaggaatgcaagtcagtttgtggcaggagacagacattctagccaatgagaaatcaaaggggaacgctgcaagcagctgacttcgntgaggagggntgtnttatcttattatttatatttccccacagtagcaacaaaagtatttcaataatctatatagagtttaagtataatacagttaattgatataagtaatttcagtgctctttaatataacaaatctctagtgtgaaatattcttagttaatgatcagcataaaatagacagaggtctttttaatgtaactataagttccgagttcattttatagctgagttggagtgaggatatcattaaactttgcattgtatanagtgtgt",
+  "length_bp": 548,
+  "sequence_length_bp": 548,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON18"
+  ]
+}

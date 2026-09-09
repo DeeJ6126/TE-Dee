@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000789",
+  "name": "MER46C",
+  "description": "TcMar-Tigger DNA transposon, MER46C subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tigger | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 338 BP; 94 A; 76 C; 70 G; 98 T; 0 other;"
+  },
+  "sequence": "caggtccacaatcccttatccgcaattccgaaatccaaaaagctctgaaaaccgaaagttttttcataagtttggcacgaactcatttggcggcaaaacctgacctgaactgacgtgaggctatttatagtctttatttatcccacttagtgtgaatattcatacgtttcgctgcagaaatattaatgtgtttgattacggggtgctgccccagaccccgctgggggtgttacgtaatatacggtatatgcaccgtattacctttctaaaatccgaaaaattctgaattccgaaacacatctggccccaagggtttcggataagggattgtggacctg",
+  "length_bp": 338,
+  "sequence_length_bp": 338,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER46C"
+  ]
+}

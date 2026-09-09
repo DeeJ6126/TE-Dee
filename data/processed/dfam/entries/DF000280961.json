@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280961",
+  "name": "ThrSwi-1.107",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Thryonomys swinderianus",
+  "display_classification": "DNA/TcMar-Tigger | Thryonomys swinderianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Thryonomyidae",
+    "Thryonomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 365 BP; 97 A; 86 C; 91 G; 90 T; 1 other;"
+  },
+  "sequence": "cagtggaccctcgagttacgaccggcctgacatacgaacaacttgggttacgaccggaattttagttttaacttacgaccaaagtcttgagttacgacccgaatgccggccgcttgtgcttccagatggtctcagatacagatttaacccttaaagagttctggaaggaacatgacaacatcctttcctgtgtggggttaactgagaaatcctgggccagtgtctctctaaggacactgagatctgcctgtatacaggagagagactttgaaggctgtgtagaggagcctgagccttcaactgaccaacttgagttacaaccagccctcgngaacgaattgagttcgtaagtcaagggtccactg",
+  "length_bp": 365,
+  "sequence_length_bp": 365,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

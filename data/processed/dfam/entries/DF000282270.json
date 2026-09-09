@@ -1,0 +1,48 @@
+{
+  "accession": "DF000282270",
+  "name": "MyrTri-1.10_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MyrTri-1.10_LTR"
+  ],
+  "species": "Myrmecophaga tridactyla",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Myrmecophaga tridactyla",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Pilosa",
+    "Vermilingua",
+    "Myrmecophagidae",
+    "Myrmecophaga"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 665 BP; 189 A; 140 C; 153 G; 182 T; 1 other;"
+  },
+  "sequence": "tgtgctggtttgaaaggaagtatgccccctaagaaaagccatgttttaatataaatcccatttcataaaggtagaataatctctattcaatactgtatgtttgaaactgtaatgagatcatctccctggntgatgtgatttagtcaagagtggttgttaaactggattaggggacgacatgtctccacccatttgagtgggtcttgattagtttctgaagtcctataaaagaggaaacattttggagaatgagagattcagagagagcagaatgtgcagcaccacgaagcagagagtccaccagccagcgacctttggagatgaagaaggaaaacgcctcccggggagcttcatgaaaccggaagccaggagagaaagctagcagatgacgccgtgttcgccatgtgcccttccagccgagagagaagccctgactgtgttcgccatgtgccttctcacttgagagagaaaccctgaacttcatcggccttcttgaaccaaggtatctttccctggatgcctttgattggacatttctatagacttgttttaattgggacattttctcggccttagaactgtaaactagcaactcattaaattcccctttttaaaagccattccgtttctggtatattgcattccggcagctagcaaactagaac",
+  "length_bp": 665,
+  "sequence_length_bp": 665,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

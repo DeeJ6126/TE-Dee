@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278385",
+  "name": "MicMur-5.187",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tc2"
+  ],
+  "species": "Microcebus murinus",
+  "display_classification": "DNA/TcMar-Tc2 | Microcebus murinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Cheirogaleidae",
+    "Microcebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 829 BP; 231 A; 202 C; 208 G; 188 T; 0 other;"
+  },
+  "sequence": "ccgtgtttccccgaaaataagacctacccataaaataagccctagcaggatttctaagcatttgcgcaatataagccctaccccgaaaataagacctagtgatgggcgtggctacgcagcgtatctgcacaacccatgcatttcgtcgcggagcggtaaagaagacgagcagcccttctcatctgccccatcgtgacagctactatcccagaggtgaccggaaaggtgcgggcagccccaccaacaaggtcggctccccctgtcaggtcccggccatcctgtgcgtgctgcaagctgaggctttgaggggaaagtctcctcagtgaagtgaggagcgggacgctccgctttaggtattgtgtgtccccagggggaagaaggaaagctgtggctgccattttactcagcactgtgggcctctctcaccccccacaaacaccaggggataggggaaaagcttcagcaagcagtctcctactgagcccagagagatcatttctgctccactgtgcagattggacccagtgctcactggatctctgataaataagccagccctgctcatttaatgagagctctattgctcgacatgagagattggggccaatggttctaaaggaaatagagtcgcaagaaattcaggatggaattcggggtttggagagttatgatgatgttccagaagaagacgacttaactatatttgaataaatgtagattgttgtaccgtacttaaaaaaaaataacacatcccctgaaaataagccctagggtgtcttcttgaggaaaaataaatataagaccctgtcttattttcggggaaacacgg",
+  "length_bp": 829,
+  "sequence_length_bp": 829,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

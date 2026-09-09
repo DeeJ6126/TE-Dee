@@ -1,0 +1,47 @@
+{
+  "accession": "DF000289756",
+  "name": "TE3315_SO2_FAM695",
+  "description": "Repetitive element found in rice weevil",
+  "keywords": [
+    "LINE/R1"
+  ],
+  "species": "Sitophilus oryzae",
+  "display_classification": "LINE/R1 | Sitophilus oryzae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Coleoptera",
+    "Polyphaga",
+    "Cucujiformia",
+    "Curculionoidea",
+    "Curculionidae",
+    "Dryophthorinae",
+    "Sitophilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1831 BP; 529 A; 382 C; 462 G; 453 T; 5 other;"
+  },
+  "sequence": "tagagatgagcaaaactgcgattctccaatcgcaattgaaactgcgattgcgatttttaaatcgctgcgactgtaacctgcgattgcgattttaatatttaaatattgtactaggtatataattgtctgtgtatgtacagttaaaaaaagttaataaaaatcagttgtttagtttttaacatctgcaacacatagtataggtataaaaactttataatatgctgcaactgctgcaactacacataccaatacctaccttgtcggccaggacaacacacgaaaaacaagaatgcctttaattccgctaattaggactgcattatgcgggcccttgnagagaaaaacgtaccaggacacttgcgtaggatgattgcaagctacttttncgatgatgcgatgatattgaaatgcgacacgaagagcngcccaaannattgtagaataactggaggagtgcctcagggttcggtcttgggaccgcttttgtggaatattatgtacgatggactactaaacctggtacttccggggaatgtcaaactggtggcgtatgcagatgacgtggccgtggtgatcgttgcgaagcatctagaagatgttaatctggacttcgacatcaccttccggaggattaaccaatggatgagtgcgatgaagctgcagctggccaaacataagaccgaggcagtgctcatcactagtagaaagaaggttgaaaccatcagactggaagtcggagagcaggagatcacatcacagccgttcattcgatatttgggagtgatgcttgatgccaggctaaattttaagcagcaagtggaacatgtatgtaccaaagcgtcagcagttagagttagcctatcacggctgatgccgaatgttggaggcccgaaacaaattaggaggtcactgctgtcgtcagtagtcacattcggtactgacttatggaatttctgtttgggctgacgccctcagaatacaaggaacacggagaagagtcgcatcagtatataggctgagtgccctgagagtagctagtgccttccgcacggtgtctgaggatgcggtgtgcgttatcgctggaatgcttcctattggaattctagccgaagaaaggcaagtcctttatcgacgaagaggatcgtcagcactgagccctgatgcactcagaagagaagagcggcagcatagcatacgccgatggcaggtacagtgggaggccgcaacaaagggtaggtggacgtaccgtcttctacctcagttgaatgtttggctgaatcgaaaacatggtgaggtcaactactacctgacacagatgatctcaggacatggttgcttccgagcatatcttcatcgttttaagctcgatgattccccggagtgcccgtcctgtccaggagttcctgaagacgcggagcacgtgttctttgtgtgcccacgtttcaacttaatgcgtagtcatctggagattgtcctcgaacaggcaattcaaccagagacactaatcgatgcgatgctttcttcggaggcatcctggaacgcgaccaatactttcacaacgaaagtgcttcaacacctgcgttctatagagagaaaacgagccagcaacaagaacggttagaggaagagaagattgacttcaattaatggaaggaagagcaattgctagatcctctccctgcgaagtaatgcctaacggcggtttccgcggggactgcagaggccggagaaagaggaggtttttagtcggtattgaaacctgagtccgacataccaggccaatcatctggctctgagatacgcaaatgtattttcctacctctataaaaaa",
+  "length_bp": 1831,
+  "sequence_length_bp": 1831,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

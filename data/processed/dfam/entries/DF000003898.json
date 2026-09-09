@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003898",
+  "name": "SINE2-3_DR",
+  "description": "SINE retroelement from zebrafish",
+  "keywords": [
+    "SINE/tRNA-V-RTE"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "SINE/tRNA-V-RTE | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 368 BP; 73 A; 77 C; 121 G; 93 T; 4 other;"
+  },
+  "sequence": "ggcgangcagtggcgcagtaggtagtgctgtcgcctcacagcaagaaggtcgctggttcgagcctcggctcgnncagttggcgtttctgtgtggagtttgcatgttctccctgcgttcgcgtgggtttcctccgggtgctccggtttcccccacagtccaaagacatgcggtacaggtgaattgggtaggctaaattgtccgtagtgtatggtggtgaatgtgtgtgtggatgtttcccagagatgggttgcggctggaagggcatccgctgcgtaaaaacntgctggataagttggcggttcattccgctgtggcgaccccggattaataaagggactaagccgacaagaaaatgaatgaatgaatg",
+  "length_bp": 368,
+  "sequence_length_bp": 368,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SINE2-3_DR"
+  ]
+}

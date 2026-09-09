@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000745",
+  "name": "MER30B",
+  "description": "hAT-Charlie DNA transposon, MER30B subfamily",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "DNA/hAT-Charlie | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 190 BP; 42 A; 42 C; 45 G; 61 T; 0 other;"
+  },
+  "sequence": "cagccgtgtccaaccctttgaatgcgaggactttttcgcttatctgtggtggcggatatcacgaaaattatgcacggaccttttttttttagctcatcagctatcgttagtgttagtgtattttatgtgtggcccaagacaattcttcttccaatgtggcccagggaagccaaaaggttggacacccgtg",
+  "length_bp": 190,
+  "sequence_length_bp": 190,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER30B"
+  ]
+}

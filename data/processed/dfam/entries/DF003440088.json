@@ -1,0 +1,49 @@
+{
+  "accession": "DF003440088",
+  "name": "DNA1_rAeg",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "DNA/MULE-MuDR"
+  ],
+  "species": "Rousettus aegyptiacus",
+  "display_classification": "DNA/MULE-MuDR | Rousettus aegyptiacus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Megachiroptera",
+    "Pteropodidae",
+    "Pteropodinae",
+    "Rousettus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 392 BP; 103 A; 81 C; 90 G; 116 T; 2 other;"
+  },
+  "sequence": "ttgcaggacatttggtcctgtccaaaacgtccacggagacatttggtccacgccaaaaggtccttgatatttggtcctgtcnaaaacgtccacgcttagaaaacgtccctgggttcaaatagcccataacgtttatttatacttttggtttacaggattaatacataaaaaatactatcatgttttattggtccaataattgtgttgtggctgtattgccaataataacccttcttgcctcggtagcctagctggtaatggcacatggggttaggtagatgggtcggcgtggaccaaatgtctccatggacgttttggacaggaccaaatatcaaggaccttttggatggaccaaatgtctccgtggacgttttggacaggacncaaatgtc",
+  "length_bp": 392,
+  "sequence_length_bp": 392,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

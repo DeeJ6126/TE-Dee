@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277308",
+  "name": "HemHyl-5.4121",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Hemitragus hylocrius",
+  "display_classification": "DNA/PiggyBac | Hemitragus hylocrius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Caprinae",
+    "Hemitragus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 137 BP; 39 A; 33 C; 25 G; 40 T; 0 other;"
+  },
+  "sequence": "cttattgaccagagacgtattaatacgtcttttgttacccgaacgttattgaccggagacgtttcaatattcacttacataacaaatcgccggccacaggcgttagtttctgcaaaaatcccccggtcaataatgtg",
+  "length_bp": 137,
+  "sequence_length_bp": 137,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000281692",
+  "name": "CerCot-5.657_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CerCot-5.657_LTR"
+  ],
+  "species": "Ceratotherium simum cottoni",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ceratotherium simum cottoni",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Perissodactyla",
+    "Rhinocerotidae",
+    "Ceratotherium",
+    "Ceratotherium simum"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 501 BP; 131 A; 130 C; 95 G; 145 T; 0 other;"
+  },
+  "sequence": "tgtgggagatcaagatttggccaccctgaaatatatctctttaccttgattgttttctctgagggacatttgacctcccccactaactgcctaaagaatttgacatggtggctccttcctggaacagatcttctatcatgatggctgtaaagataatgtaggatagaggttacaataggaaaggcaccaagccccttttatcaaaaactctgtctctccctgaccacattatctatagatgaccctgaaaagaattgtcctcctgccctctgaagtcccaggccactacccacccccaacacgctcctcgcctttagctgcaatacttaagcaagcagcttagacagagggacgagttgctcatttctgagtttctcccatgtatacatgttattaaacttggtattattttctcctgctaacctgtcttgttgattatttggccagccataagaaccttaagggaaagggcagagggagattctccctcttcccccgaca",
+  "length_bp": 501,
+  "sequence_length_bp": 501,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

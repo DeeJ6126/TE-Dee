@@ -1,0 +1,57 @@
+{
+  "accession": "DF000001125",
+  "name": "Zaphod3",
+  "description": "hAT-Tip100 DNA transposon, Zaphod3 subfamily",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2624 BP; 835 A; 427 C; 506 G; 829 T; 27 other;"
+  },
+  "sequence": "cagtggcgtaccaagggcggggcggtgggagcggtccgccccgggtgcaggcaataagggggtgcattgtctgtagagaatttaaaaacaataataaaaccgactaaaagtcggtctgctttttattatcaccatgcgccggcaattctaaacaatgtcagtgataaaatactcctccccgaaaaatcttttgttggtctaagttctaaacaattgctgcggttactgttgagttttaataatatatatgtaagcttcaaattagcacatttttattacttatcctttaataaacattgtattctacatggaagttaattcggagaactcccagttatacagtcggcccccgacacacgcggactcagctacacgcgttcgtttcgagagtaagttcgtaacggttcggaatcgttcgagctcgcttcgggcgcagttcgtgtctccaacccctgtggtactacatattcctgcgtttaaacagtagattcgaaataaacaatgatagcacagtgattgtaaagacgaagaaacagaacttgagttacttcaattctgtcattctatgtgaccacttggagtttttatttgtgtttaaaatttaaaacagtgaaacagagtgcgaactgcgaggtgtaatatttttgtttggtaagtgcaaattttagttcatacatgaaatattttactgaatttgaataatatctttaaaattgaaatttattctttttaaattgttaattgttttaaaactaaagaatgaatcaagaaaataaaacattacatcagtggtacgatttagtagtggcagatactgaaagcanaatgcctnggaattctttctgntagcactctngatgcttcgaacactgatcaaatgtgcgaagtggtcagatatgncnatattgaagatggtaaagttgaaataaaggaatcattcttgggcttctttcctatttccgggaagactgntgctgaacttncagaagaganntcgaaacaactggacggtgatgggcgggacataancntctnctgtggncaaggatataacgatgctgcanntgcggccggtattcacggtggngttcangcaaaaatcgaaganattaatcccaaatcnttatttntatcttgtgcaaatcattctctgaacctttgcggagttcactcttttggaagtatttcttcatgcgtgacgttttttngaactttggaaaaaaattattcattcttttcagtctcacctcatcgatggaaaacgctgcagaatgtaggtataacagtgaaaagactttcccagacaagatggaatgctcantatgaagctgtgcgcgcagtanagacaaattttgaaaagttaatctcaacctttgaagtactgtgtaatccaaaagaaaatgtggacncaagaggatcngctcagattttnctctctgctgtatgcgatttttcttttctgagttatctttttttctggtgtgaagttttagatgaggttaatcagacacaaaaatatttgcaaacagccagaatcagccttgaacaatgtacagtgaaacaccaagctttaaaattgttccttgaagatcggcgcacagaaattgtggagaaggccattaactatgcaacaacaaaatgtaaggaaatggacatttacatagaaaaaagaatcaaatttcgaagaagaatgccaggagaaacgacaaaagatgctggtcttacattgccagaagaaatcaaaagggcaatgtttgaacgcctcgatcgttttcaccaagaactggacactcgttctaaagcaatggatcaaataatgtcaatgttcgctatcattcagccattttctctgatttttgcagaagaagaaaaacttcggaagtttttaccaaatataatagaaatttatgatgaattttctggtgaagatattttagtggaaatttttcgactgcggagacatttgaaagccgctagaatcgatcccgaagaaacaaagacatggacagtattgcaatttctggaatttattgtgaaatgggatttttatgaatctctgccaaacttatccttatgtttaagacttttcctaactatttgtatatctgttgcttcatgtgaaagaaacttttcgaaattaaaattaataaaaagtgttcttcgatcaactatgagcgaagatagattgacaaatctggctatactgtctattgaacatgaatatgcgaagaagatcaattttgacgaagtcattgacaaatttgcagaagttaaggctcgaaaacagaaactgtaatgttattattcattactgcgacagaccaatatgtaggtataagttttttccttttttcaaaaaatacattaatgtaattaaaaagtattaatccattactttttttccttttttgtactgtaatatttattttttattttttatactggcatgattatatatacaaagttcaataaaagaaaattttcactgtctgcgtttcttttctggccattattattattcgtttcatttcatgattattactgaaaataattttgtcgtatagaggaggggggtgttaaaaaatgatccgctccgggtgtcaaatacgctaggtacgccactg",
+  "length_bp": 2624,
+  "sequence_length_bp": 2624,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "805..2293",
+      "start": 804,
+      "end": 2293,
+      "qualifiers": {
+        "product": "Zaphod3_tp",
+        "number": "1",
+        "note": "(fragment) [Eutheria]",
+        "translation": "WQILKAKYFGILFDSTPDVSHXDQMCEVIRYVHIEDGKVEIKESFLGFFPISGKTAAE"
+      },
+      "label": "Zaphod3_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "Zaphod3"
+  ]
+}

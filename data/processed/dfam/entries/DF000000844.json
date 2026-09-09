@@ -1,0 +1,60 @@
+{
+  "accession": "DF000000844",
+  "name": "Tigger4",
+  "description": "TcMar-Tigger DNA transposon, Tigger4 subfamily (autonomous)",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Primates",
+  "display_classification": "DNA/TcMar-Tigger | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2731 BP; 866 A; 541 C; 599 G; 725 T; 0 other;"
+  },
+  "sequence": "caggttgagcatccctaatccgaaaatccgaaatccgaaatgctccaaaatccgaaactttttgagcgccgacatgacgccacaagtggaaaattccacacctgacctcatgtgacgggtcgcagtcaaaacgcaggcgcacaacacacagtttattcagcgtccccaagggaaaaaagaccctcccagcccccttcagctgcgatatatcttttccgcgcacgcccagattcccccacgcaagcacgcccacaaagggtaataaaatggcacgtgtgcaggccggacgcgccaacggcaggttccccacgatgccccacatggggccaagacctacgtgcattactcactgtgttttttttgttttttgcttattctctgctctgtggtgtaaagatattgttgaaaatgtcaaaaaggcctgcagatacccctatgggtaacagtgataagaaaaagaggaagcatttatgtttatctatagcacagaaagtcaagctgttggagaaactggacagcggtgtaagtgtgaaacgtcttacagaagagtatggtgttggaatgaccaccatatatgacctgaagaaacagaaggataaactgttgaagttctatgctgaaagtgatgaacagaagttaatgaaaaatagaaaaacactgcataaagctaaaaatgaagatctcgatcgtgtattgaaagagtggatccgtcagcgtcgcagtgaacacatgccacttaatggtatgctgatcatgaaacaagcaaagatctatcacgatgaactgaaaattgaagggaactgtgaatattcaacaggctggttgcagaaatttaagaaaagacacggcattaaatttttaaagatttgtggtgataaagcatctgctgatcacgaagcagcggagaaattcattgacgagtttgccaaggtcatcgctgatgaaaatctgacgccagaacaagtctataatgctgatgaaacatcactgttttggcgttattgccccagaaagacactgactacagctgatgagacagcccctacaggaattaaggatgccaaggacagaataactgtgctgggatgtgctaatgcagcaggcacgcataagtgtaaacttgctgtgataggcaaaagcttgcgtcctcgctgttttcaaggagtgaatttcttaccagtccattattatgctaacaaaaaggcatggatcaccagggacatcttttctgattggtttcacaaacattttgtaccagcggctcgtgctcactgcagggaagctggactggatgacgactgcaagattttgttattccttgacaactgttctgctcatcctccagctgaaattctcatcaaaaataatgtttatgccatgtactttcccccaaatgtgacttcattaattcagccatgtgaccagggtatccttagatcaatgaagagtaaatataaaaacactttcttgaacagcatgctagcagcagtgaacagaggcgtgggtgtggaaggttttcaaaaggagtttagcatgaaggatgccgtatatgctgttgccaacgcttggaacacagtgactaaagacacagttgtgcatgcctggcacaacctctggcctgcgactatgttcagtgatgatgatgaacaaggtggtgactttgaaggattccgtatgtcaagtgagaaaaaaatgatgtctgacctccttacatatgcaaaaaatataccttcagagtccgtcagtaagctggaagaagtggatatcgaagaagtttttaacatcgataatgaggctccagttgttcattcattgaccgatggtgaaatagccgaaatggttctgaatcaaggtgatcgtgataatagtgacgatgaagatgacgttgttaacactgcagaaaaagtgcctatagacgacatggtgaaaatgtgtgatgggcttattgaaggactagagcagcgtgcattcataacagaacaagaaatcatgtcagtttataaaatcaaagagagacttctaagacaaaaaccgttgttaatgaggcagatgactctggaggaaacattttaaaaagccatccagcagaatgcctcctcatccctagaggacccacttcctggtccctcaactgcttctgatgtttcttctcacctaaaaaataaaatacagtgtacagtaaccttttaatcaaaacacagcatcgtaggtggagactgaaagcctgccgttgtttgttgttgctgttgtttaacagctgatacaggtattctggtgatgctactgtgctgcttagttaccctgaacacattattttttcactgtattaatggtatgtcatattttttactgttaagtacttatgtgtgaataagtgtaagaaaatgattgcttatcggtagcatataaattcagagtcaggaatgatggtgatgccaaacaaccacagattgtccacatgggtggctgagatagtgacacctttgctttctgatggttcaatgtacacaaactttgtttcatgcacaaaattatttaaaatattgtataaaattaccttcaggctatgtgtataaggtgtatatgaaacataaatgaatttcgtgtttagacttgggtcccatccccaagatatctcattatgtatatgcaaatattccaaaatccgaaaaaatccgaaatccgaaacacttctggtcccaagcatttcggataagggatactcaacctg",
+  "length_bp": 2731,
+  "sequence_length_bp": 2731,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "408..2070",
+      "start": 407,
+      "end": 2070,
+      "qualifiers": {
+        "product": "Tigger4_tp",
+        "number": "1",
+        "note": "[Primates]",
+        "translation": "MSKRPADTPMGNSDKKKRKHLCLSIAQKVKLLEKLDSGVSVKRLTEEYGVGMTTIYDL"
+      },
+      "label": "Tigger4_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "ZOMBI"
+  ]
+}

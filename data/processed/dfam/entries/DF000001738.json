@@ -1,0 +1,49 @@
+{
+  "accession": "DF000001738",
+  "name": "B3",
+  "description": "SINE element, B2 subfamily.",
+  "keywords": [
+    "SINE/B2"
+  ],
+  "species": "Muroidea",
+  "display_classification": "SINE/B2 | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 216 BP; 57 A; 67 C; 56 G; 36 T; 0 other;"
+  },
+  "sequence": "ggggctggagagatggctcagcggttaagagcactggctgctcttccagaggacccgggttcgattcccagcacccacatggcggctcacaaccgtctgtaactccagttccaggggatccgacgccctcttctggcctccgcgggcaccaggcacgcacgtggtgcacagacatacatgcaggcaaaacacccatacacataaaataaaaataaa",
+  "length_bp": 216,
+  "sequence_length_bp": 216,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "B3"
+  ]
+}

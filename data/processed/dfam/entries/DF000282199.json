@@ -1,0 +1,50 @@
+{
+  "accession": "DF000282199",
+  "name": "MinSch-6.740_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MinSch-6.740_int"
+  ],
+  "species": "Miniopterus schreibersii",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Miniopterus schreibersii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Miniopterinae",
+    "Miniopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1068 BP; 223 A; 325 C; 328 G; 192 T; 0 other;"
+  },
+  "sequence": "ttttggttccctgaccgggaagcccaaccgcgctggcccctcgcagccaccggtttgggtgggagcgcggggcggcggacgacaaggaggagtcgcagaggagaaggcgcgccctgccctgatttggcagtctccgatccggctgcctccactcggccccgcaccgcggtccccaccggactcgaggaggcgaggcgggacaggaccaggaccagggcatcggacacggtaaggccccggggccccgaccgagttaggcctgcccgaatgggcggaaggggagcctgatcacctcccaaggacctctagtggtccccaggtagggttaaccagggagggaatgtaataacctctgaatgactgtgagagtgaatgtgtctgtgatcccacggcgctagccacgggatcttgagtgggccctaatccgtatccgtagtcggccgtaacgacataacggtgactcagcttcggctgaccaggcccggggattatacgggtgcaccttagtcaaggccggcccaagtcgccgcgaggcagcggacggacgggcatctgaaaggtccctccggggactcccccaccctttgtctgtatccgacaccgtacacgggaacatgggaggacgtcagggaaagcccaccgtcctagactgtatgctgaaaaactttgagaagggcttttccggggactatggcatcaaaatgactcccggcactcttcgcactttgtgcgaacttgaatggaccaccttcggggtcggttggccctcggggggaaccttggatgtccccacaatccgccgggtctggcaagttgtcaccggaaaccccggccacccagaccagtttccttatatagattcctggttagaaatagcgcagactctccccccttgggtacggttctgcaccaataggcagggagaggctaaggtcttcgttgctcagcctgaaggaaaacagacccctcgagtttttgcgggagaccaagaagatgagcctcccatcgggccacccccctatcccagaggagaacctacggcccctccggtgccagatgttaatactc",
+  "length_bp": 1068,
+  "sequence_length_bp": 1068,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003686",
+  "name": "DNAX-25_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/Zisupton"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/Zisupton | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3427 BP; 1195 A; 550 C; 503 G; 1150 T; 29 other;"
+  },
+  "sequence": "ctatatatatatatatatatatatatatgggtcagtgacaaaacaggtttggcaagatgggaaatttaaaaatcttttacaaagttgatttaaaagcatccgtcagatattttaaaatgtacagattgtattcatgttgattttatgtaattaaaaataacatttacaccattttttacagacattaagactgaatgcaactgaaaatgtcaaatggtgtaactgccaaaaattgtgaaatattaaataatttactcctcctagatgatatgcaagtgtacacactgaaataaatacttcattttaaaataccacaataacatttattttattcgcattatctctaaatgtacattttaatgagtttttgcaatattcggccggacacatgctaaaaacacttctggtttctaaataatctttgacaaattatgtaaaaaatgttaaaaactattttattacactaaactaggtgttttaattttaatttcacattatttccatgtacataattatatttttatgtaaaatactggttacaccaattgacaaaaaccagttacaccacctgacagtgttgcttctacagccaaagattttgaaattgacaattaaaatcaattcaaattaagaatgatagtcaacaatttcagtgggattgtcattgacaaatgtgtttagaacaatgaaaccaggttgctgaactttaatacaccaagtaataacatcctttacattaaatgtgtggccctcatcaatagaatattaacaaactaaagaaacatgtttaacatttaacaccttttccatcactgtttcttttcagttggcttaantaaaataaaaataagtagatgatattagaaaaaaatccactattttacttttaagctatttagaaacaatttgccaaacactgtacgtaaatcactagtacgtaagaactgctgcttactcgttgttgccttggtgctgggattaaaggccaatttttgtaagcatacacgactgactgacaacaaataatttcatgagtgtatccacaacttatccacaaactatttattttatacagttaanntcagaattatgcagaattattattagcccccctgaattattagcccccctgttattttttccccaatttctgtttaacggagagaagattttttcaacacatttctaanacataatagttttaataactcatttctaataactgatttattttatctttgccatgatgacagtaaataatatttgactagatatttttcaagacacttctatacagcttaaagtgacatttaaaggcttaactaggttaactaggcaggttagggtaattaggcaagttattgtataacgatggtttgttctgtagactatcgnggaaaaaaagcttaaaggggctaataattttgaccttaaaatggtttttaaaaactgcttttattctagccgaaataaaacaaataagactttctccagaagaaaaaatnttatcagacatactgtgaaaaaacccaaacaaaactgatttcaactgcaattcatttgtttagcaacttctgacttgttcttcacaacttttcatcattaaagttcctccgagtcacctccagttgttaataataatagtacaacagcaagcgcatcaagtatgaaaacctccaaaacttaaggctgtgtgcactcagtctatagaggcttgtcaaccttgtttcatttcccatgttaattttttcttttatttaaaaaagaaattcccaagtgctgtttaacggagagaanattnttttcaacacatttctaaacataatagttttaataactnatttctaataactgatttntttcgtnatctttgccatgatgacagtacataatatttnactagatattttncaagacactagtattcagcttaaagtgacatttaaaggcttaactaggttaattaggcaagtnaggttnattaggcaagtcattgnataacggtggtttgttctgtatttaagggggctaataatattgaccttaaaaantgtttaaanattttaaaaactgcttttattctagccgaantaaaanaaataagactttctcaagaagaaaaaaaatacttacaacatttcaaaggagggcgacgcggtggcncacgtggntagcgctgtcgcctcacagcaagaaggtcgctggttcgagccccggctgggtcagtntggctttctgtgtggagtttgcatgggtttcctccgggtgctccggtttcccccacagtccaaagacatgcggtacaggtgaattgggtaagctaaattgtccgtagtgtatgagtgtgtgtgtgaatgagngngtgtgtacattatattgtgtgaatataaacatggattaacataaacaaaaaaaaaacattcatgttgtgcagtaaaataattttatcctangtttacagagctttaatagtaaggttgtggattaagcacctatttctcaaacaaaaataaataaataatctacactatgaacacaaatagtagtttaatttatgtcgcatttttgatcagcatcatgaactaatgatatttgactaaattgacccccgacagaaagactcctgctatatgagtcaaatggtgtaaccagttacaccccttgacatttcaacttaaaatgaaatttgacaggcattatcaataacatctatgtaagcacatgggcttggtgggaatatttcaaatttaacttttaaatataatacttatttttataatnntgaacaattatcagtgcatttctggggtcttaccatttgacatgcatatctaagaatagctgaccataccttaaaaaggtcaaagtatctcacattttaaaaagagttactaacctttgcatgcagcaattagtcttatcaagagttcttctctgtgatccaatttcctgtctaactgtcttgtgcacaatattaacaaaatggctcaataaatggtggttacaccatcttgacatttcagaaatttgaggtgacagacaaaattccccaaatgaattataatatttaaaacaattgtgctatatttacctttatttactattaaatatgtctaatgtaaaattatgccagactagccgatacaatgtttcattgaggctttcacattttttaaacaaggtaaactatttggtaccaattttttttggttacaccacattgacattcttgcaataatcccctaaaaattntcttaaaatggattaaaaccaaaaaattaaacttggtcctcaaaatagagaatgtatgcaagtaatttgcttatttattttgaaactgtaacctacttgaatttatttaaaagacatggacacaaaaaaatgagcgtcacgtcattgacccatatatatatatatatatatatat",
+  "length_bp": 3427,
+  "sequence_length_bp": 3427,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNAX-25_DR"
+  ]
+}

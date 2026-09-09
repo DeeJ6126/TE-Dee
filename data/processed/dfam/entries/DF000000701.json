@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000701",
+  "name": "MER104",
+  "description": "TcMar-Tc2 DNA transposon, MER104 subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/TcMar-Tc2"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tc2 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 181 BP; 48 A; 33 C; 34 G; 66 T; 0 other;"
+  },
+  "sequence": "ccgtatttcatcgattctaagacgcacatttttttcacattttaacatctctgaaatcgggatgcgtcttacaatcgatggcgtgtcatagtttaattggcagcgttttttctttcttagtggtacataaaataatggtgcatcttacaatcgatggcatcttagattcgatgaaatacgg",
+  "length_bp": 181,
+  "sequence_length_bp": 181,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER104"
+  ]
+}

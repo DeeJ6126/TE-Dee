@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001354",
+  "name": "CELE46A",
+  "description": "CELE46A is a putative nonautonomous DNA transposon.",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 438 BP; 142 A; 66 C; 67 G; 159 T; 4 other;"
+  },
+  "sequence": "ttaaaggtggagtagcgccagtggggaaattgttaaaaaccactcctatggtnccaaaatgaccgaatatcataataaaacttttcaaaaaantttgaaaatntttttatttactgtcaaaaagtggcaattactcagtttttgccactcataattttggaagtcgaccaaaaaaaaaatttttttcctacattttttatactttaattttgtttnaattatttgtattaaaacattgtaggggtcggaacatgcgacattgctttggatttcctcaaaagctcgtatttttcaaaattttggcaatttgccaaaactttgaccggaaattatgaaaaatctaaaattttttggagtgttttattatgatattcggtcgttttggatcattataagtgtatttagacaaaatccccactggcgctactccacctttaa",
+  "length_bp": 438,
+  "sequence_length_bp": 438,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CELE46A"
+  ]
+}

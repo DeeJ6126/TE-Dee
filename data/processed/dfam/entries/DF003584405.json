@@ -1,0 +1,43 @@
+{
+  "accession": "DF003584405",
+  "name": "L1-4_rCom",
+  "description": "Repetitive sequence family identified in Ricinus communis",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Ricinus communis",
+  "display_classification": "LINE/L1 | Ricinus communis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Viridiplantae",
+    "Streptophyta",
+    "Streptophytina",
+    "Embryophyta",
+    "Tracheophyta",
+    "Euphyllophyta",
+    "Spermatophyta",
+    "Magnoliopsida",
+    "Mesangiospermae",
+    "eudicotyledons",
+    "Gunneridae",
+    "Pentapetalae",
+    "rosids",
+    "fabids",
+    "Malpighiales",
+    "Euphorbiaceae",
+    "Acalyphoideae",
+    "Acalypheae",
+    "Ricinus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1154 BP; 344 A; 156 C; 219 G; 347 T; 88 other;"
+  },
+  "sequence": "gccaacaattatcagttgtattgattatcgacgnngaatctacatcagncantngattatgcagtaccaaagggtttacatngcgatantcgatcagntntcggttgtgnttnaaaanccagtantttatgnangtnnaaagcatgtggaggtgcantatcgttntattagagaaaaaatattggttagagaatcnaagtgttacangtnaanacanaagntcaatcggccgncantttnactnaangactcaataactattgattatgaagttnnaaaagtttaganaactncttgncgtgatntcgaggaagnatatcgangnggnaatnaataatgagggggaatgttaagaatcattattaattaataggatttaatgtattgttgttgtttttttactcaaatcccacattggaaaattggagatttgagattttttttgttatttttttaccacattggaaatgtagtagaatgcaaggctcctccatgtatatataatggaggcttcaccttgttaataattcattccaaaaacaagtcttatgtatttgactaagtttgtttttcttctttctttcttatagtattattttttatgggctcaattctcttcaatcggtattagagncaaaaanttctnagtacgctntgtggttgtataataatcagcttttccanatcggaaaagnattntggnactgnaantannccgtcaagagtcctgtttattaangtacaaagnagtngtacgggggagtgctcgtgcacagtttannactntnagttcaccggntcggancctnacttntttggcgagatgagacgcggggctgctganaccaagtcacgntagaagattcaagtaatttggtttatnagagaattgaanaataataattatagcnttagaagacctncatnaagttntacctgcacgntnaagacctctagnnggtngttaccgggaccgagactacgtcaccactagaagatgaagctcgtaatatcagaaagtgnnaaattaannttagataataccatcaaagctatgnttgccnttaaaaccactaaaaaagtagnctnaanaagagatgntggancatattagagaagcttttacgccaaaggaagcttgggattgttttgct",
+  "length_bp": 1154,
+  "sequence_length_bp": 1154,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

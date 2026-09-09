@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004245",
+  "name": "fAlbSat4",
+  "description": "Satellite",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Ficedula albicollis",
+  "display_classification": "Satellite/ | Ficedula albicollis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Archosauria",
+    "Dinosauria",
+    "Saurischia",
+    "Theropoda",
+    "Coelurosauria",
+    "Aves",
+    "Neognathae",
+    "Passeriformes",
+    "Muscicapidae",
+    "Ficedula"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 872 BP; 196 A; 241 C; 183 G; 236 T; 16 other;"
+  },
+  "sequence": "accatgcactctttcaactctgcatagcgaagagcactgcagtgtanctaaagctaaggagaaagcgtgcacaccacacagtagttctcacttgncactgcacataccaatgtcttctctgcatctcagntatgtacgncagaaggctgcatgtcgaataggtatgttgtaacaaagctagctgacgatgatcntccttcttaccactagncactganaaccggtacgntgcgcagagcactctggtgctctgcggcttccttgttcgcgctttgtatcatgcggcgatttctctctaacggaggtgaagtgtcgtctactgctctcacagaacactctgctggtaggttttgctactgccaaaacacgcctggcacgtgcacttttcttctaaaccctctctaccataccagnntgccctgcttcttgtaagcgtaccatgcactctttcaactctgcatagcgaagagcactgcagtgtacctaaagctaaggagaaagcgtgcacaccacacagtagttctcacttgccactgcacatancaatgtcttctctgcatctcggntatgtacgncagaaggctgcatgtcgaataggtatgttgtaacaaagctagctgacgatgatcntccttcttaccactngtcactgacaaccggtatgctgcgcagagcactctggtgctctgcggcttccttgttcgcgctttgtatcatgcggcgatttctctctaacggaggtgaagtgtcgtctaccgctctcacagaacactctgctggtaggttttgctactgccaaaacacgcctggcacgtgcacttttcttctaaaccctctctaccataccagtntgccctgcttcttgtaagcgt",
+  "length_bp": 872,
+  "sequence_length_bp": 872,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

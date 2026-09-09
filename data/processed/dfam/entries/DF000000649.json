@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000649",
+  "name": "tRNA-Gly-GGY",
+  "description": "tRNA-Gly (decoding GGY) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 74 BP; 12 A; 21 C; 25 G; 16 T; 0 other;"
+  },
+  "sequence": "gcattggtggttcagtggtagaattctcgcctgccacgcgggaggcccgggttcgattcccggccaatgcagca",
+  "length_bp": 74,
+  "sequence_length_bp": 74,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TRNA_GLY"
+  ]
+}

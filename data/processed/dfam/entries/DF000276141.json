@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276141",
+  "name": "CunPac-1.121",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Cuniculus paca",
+  "display_classification": "LINE/L1 | Cuniculus paca",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Cuniculidae",
+    "Cuniculus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 629 BP; 151 A; 120 C; 142 G; 216 T; 0 other;"
+  },
+  "sequence": "agccatgcgggggaggagaaacaagaagccaattcgcccttcccgtgagccagcggcagccatgcggggcccgggaggagaaacaagaagccaattcgcccttcccgtgagccagccggcgcgcgggctgggagacaagaacaccccccccccccccgtaagcaaccggctgattcggaggaacacaggctgagttgatagcaactgaggtacaaaaacaacttaatgcttgtattgtttgattgactttgcaggcctaaagccggtagtctgagcatctatttagaggataacaatatgcaatatagcaactatgggggatttccttctgtcttgtttttgaaatccaatattgttctcactgttttgttttgttccgttttattgttttgttttattcaatgttctgttttgattggttttattctgttctgttttgtttgattttattatgtctgatggtatgggcagcaattttgaagataacaagaggcattatggtagccattgttgatttcctattatcctgttttgaagtcctgtatcactttcactgttttgttttgattggctttattctgttttattttgtttggttttattctctttaaaataaaatttaaaaaaaa",
+  "length_bp": 629,
+  "sequence_length_bp": 629,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

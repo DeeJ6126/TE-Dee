@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277553",
+  "name": "HysCri-1.48",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "HysCri-1.48"
+  ],
+  "species": "Hystrix cristata",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Hystrix cristata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Hystricidae",
+    "Hystrix"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 401 BP; 86 A; 91 C; 109 G; 115 T; 0 other;"
+  },
+  "sequence": "tgttatggcttgtgtctagatgtccccccaaagcctcatgcggtcataggtggggcttttcagaggtggctggatctagagtgtgtgatgctgggattaagggtgtgtgattactaaattagtccactgattggtgtgagtgctacctaagggcgggtagcctggatagaatataagggacagaaagagggctgctgtggtcgcttgccttgctgctttgctgccttctgcctgccatgaactgtttctcctctgcgatgcccctctgccatgccaccctgccttggagccagccgactatggactgaaacctctacaaactgtgagctaaataaacctttcctcctttaactttgggtgtcgggtattttgtctcagcaacgagaaaagtaactaagaca",
+  "length_bp": 401,
+  "sequence_length_bp": 401,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

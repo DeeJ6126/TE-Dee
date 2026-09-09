@@ -1,0 +1,52 @@
+{
+  "accession": "DF000006671",
+  "name": "LTR-16_Hm_LTR",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR-16_Hm_LTR"
+  ],
+  "species": "Heliconius",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Heliconius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae",
+    "Heliconiini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 251 BP; 89 A; 39 C; 46 G; 77 T; 0 other;"
+  },
+  "sequence": "atatattgttagaaactattggaaatattaaataaagtgggaaaggtaatgaattaaaacaaggcttcaaataattattaaacaaccaaagggaattatctagcagtctaataacaatatctggttctaaagaatccatcgggcagagtgacgttagcgatccttttctttcggtcgtcgttgacagcccataaaagtgccagccagtaattagagtcgttcttatataacctctatggtcattatttgat",
+  "length_bp": 251,
+  "sequence_length_bp": 251,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

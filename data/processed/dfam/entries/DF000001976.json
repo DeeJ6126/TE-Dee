@@ -1,0 +1,49 @@
+{
+  "accession": "DF000001976",
+  "name": "ORR1E",
+  "description": "ERV3 Endogenous Retrovirus from rodents.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ORR1E"
+  ],
+  "species": "Myomorpha",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Myomorpha",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 359 BP; 66 A; 92 C; 100 G; 98 T; 3 other;"
+  },
+  "sequence": "tgttgtggtttgaatgtgaaatgtcccccataggctcatgtgtttgaacacttggtccccagctggtggcgctgtttngggaggttgtggaacctttaggaggtggagccttgctggaggaagtgggtcactgggggcgggctttgaggttttatagcctggccccacttcctgttcgctctctgcttcctgactgcggatgcgatgtgancagccagcctcntgctcctgccgccacgctccctgccatgatggcacggactgtatccctctggaaccgtgagccaaaataaacccttcctcccttaagttgcttctggtcagggtattttgtcacagcaacagaaaagtaactaaca",
+  "length_bp": 359,
+  "sequence_length_bp": 359,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ORR1E"
+  ]
+}

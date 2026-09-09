@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004096",
+  "name": "DNAX-20_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/CMC-EnSpm"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/CMC-EnSpm | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 694 BP; 207 A; 130 C; 160 G; 189 T; 8 other;"
+  },
+  "sequence": "cacatgggtgacgttgaccaataggagcacanaatctcttccgtacacagcttttaaaatggcaaaacgaaagagagaggactgtgctgcaggtggacatgaaatggaagaaactttgtggagttatggcaacagtacgcttgcctgtatgatgtgcatcaagggacatgacagaataaaaagataaatgttggcagttgagtactggaattagcatgtaaactaacaaatcactcattatgttctcattcacaatgcggtgcgggtattttaatgtatctttgaaggtaaccggctgtctactgaaagtttcgttgtcattttaatttnaagtaacgttagcgtttgtgaggcagggctgctttgtttacagccgttgctgggaaaccgcttctgcagctccaaagcgcctcttgctggcacagaatgaatctacttatctactgttttattcagaaaacacacacatatatgtgggaaacactcgatagacaattacaagacatttgtaatgtatgcggcttcttgatgacagaatgcgcgtcgtagacgtcacgcgatgattgatcgcgaagcaacgtgtagtctggcatatttgntacccacaacacatcaagatttnatcnagncaaaatcncataatctgacacagtgactgtcgtaacacaatggnattgtgtagtctgaacggggc",
+  "length_bp": 694,
+  "sequence_length_bp": 694,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNAX-20_DR"
+  ]
+}

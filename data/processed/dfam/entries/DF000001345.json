@@ -1,0 +1,52 @@
+{
+  "accession": "DF000001345",
+  "name": "hAT-N61_DR",
+  "description": "Putative nonautonomous hAT DNA transposon",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Tip100 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 525 BP; 158 A; 110 C; 88 G; 152 T; 17 other;"
+  },
+  "sequence": "caagggcgtagaattggcatggacggaggggacgtgtccccaccaatatccaccaattactgaaatgtccctaccaataatttaatcgacttcaaaataaaataatgctccgtcaacccttaacctacacgtgcacaaagtcaagttcgctacgagttcaccgtaatactnattaaccaaggctgtgcaattaatcgaaattcggtttcgattttggcctccatgattatgaaaaacaataatcgggataaaacagttaaattgcgtcacacacctctctaaatnnnnnnannnttctctacattcatacctcctcaaagcccgactgcagtaaaatcatgtaaattgacttttgcagcatgggacgtgattgttatnnnnnnnttgtattattaagtgtttattttatattattaagtactttattcatgtttttaaaagcgcgaaacagaatttgtgctgttcaatgcatgcgctctagggatgtatgtccccaccaatgtcaagagcgaatctacgcccttg",
+  "length_bp": 525,
+  "sequence_length_bp": 525,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "hAT-N61_DR"
+  ]
+}

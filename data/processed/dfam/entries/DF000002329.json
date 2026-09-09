@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002329",
+  "name": "DNA-TA-6_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/ | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 972 BP; 342 A; 102 C; 155 G; 362 T; 11 other;"
+  },
+  "sequence": "cactgaaagaaatgactttttggtgtagtaaaatctaataaatttactctcataatttttaaattgtaatattaagtgtcaaggataactagaattttctaagtaaatatttaatatttacacatttacttcatgtaataaatgnaaatgagtggaaagagttaaatattaatattcatttacttgtaatatttaaatattttctaatcgttgcaaacctagtaatattaagtaaattttaataatggatatgtcgtaatggatgtgtagttcccagcatgctttgcangggattgaattaagaggagaatattttgaaaataaaagcaatcttaggtgtttaaatttgagagaaagacttgttagagtttaatcntcattagtttgaagattaagaagagttttgagtangtntttttagttttgaggttaccaccttgcagaagagtagcactcatgctttgggtcttggcatttttattatcagcattaatgtttgacgcttcactcagagagccatagctgtgctaacactagctctgagatcagtaagcatttttaaagtaaatttgctcttgncggttcaatttgcttaaaataaagtgaaataacacatttcaagtcagtggaaatgtgtgtcttaattaaaccaagttacgccaaatgtactaatttgtaactaataagatttatttaaattgataaaagcaatgttccttctgctaaaacaagaacttgacattacttgattnatttaaataaatatagactcaaaantaaagataatcaattaacttttacttaantgtttaatttaggagtgttaggttaaacattaagtaaattttacatgatattgacaangttaattgtacctgatataagattgtaaaatttacttgaaatttgtttgtgcaaattgttacgaggatttttttnaaagtaaatcttaagagttattttttttcagtg",
+  "length_bp": 972,
+  "sequence_length_bp": 972,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA-TA-6_DR"
+  ]
+}

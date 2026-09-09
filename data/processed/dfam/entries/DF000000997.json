@@ -1,0 +1,41 @@
+{
+  "accession": "DF000000997",
+  "name": "MamTip1",
+  "description": "Putative hAT-Tip100 DNA transposon, MamTip1 subfamily",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 267 BP; 78 A; 49 C; 59 G; 81 T; 0 other;"
+  },
+  "sequence": "cagtgctggattacccaacaggcagactaagcacgtgcttagggcaccagcaaagcaggggcaccaaaagcatttttgaaagaatttgatatttgatatttcaaaaaaagcatcgaagtagtcatcatgggaaaaatcagaactttgttggacttccttacacttattttacggtttagtattgtttttattttgaattacatatgggggtggggcaccataatcttttcagtgcttagggcctctaaaggtcttaatccggccctg",
+  "length_bp": 267,
+  "sequence_length_bp": 267,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

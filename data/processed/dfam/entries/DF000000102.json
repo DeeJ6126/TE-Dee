@@ -1,0 +1,57 @@
+{
+  "accession": "DF000000102",
+  "name": "Charlie25",
+  "description": "hAT-Charlie DNA transposon, Charlie25 subfamily (autonomous)",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2524 BP; 766 A; 485 C; 555 G; 715 T; 3 other;"
+  },
+  "sequence": "cagtgtttctcaaagtgtggtccgcggaccactggcggtccccngcggttctatcaagtggtccgcaggcggtttggcggtttcagaggaaaaagcgatgaaacaattttgttcacatacatttcacaaatttgaaatgtaagattaattatgattttcacagaaatcccgttacgttcttaataatcgttacgttcttaaaggttgcgcatgcgctacaaggactgcgttggtcagttcgtctcggctaacattcagttaacagggtgcagttcgtctcggctaacgtattttcacgtcatttgcatgttattgtttacgtttgttaaatttgcatttttcgttgttactattgtgttgtattatatccccaattcacaaaaatggatcaatggctcaaaagtggttcattgaagcgtaaaagtagtgatgaaaatagtaacgtaaatactacaactcagaataacgtcataaacgtaaatagtgaacaggactccagtgcgaatatagaatgtgaatctgtatgtgctgggacaagtgaatctgcgagtgtgatgatttcgcacaagcagccgaaaaagaaaagtgcgaataggaagtacgacgatgaatatctgaaaattggattttattggaccggcgatccatttgcccctagtccccagtgcgttgtctgttatgaaactttgtcaaatagtggcatgaagccatcgaagctttcgcgtcattttcaaacaaagcacagtgacctctctggtaaaccaatcgagtttttccagaacaagcgcaaaataatgctttccagtacgaaattgatgaattttgtcgctaaaggcagagaagagaccaaaactacagaggcatcattcaaagttgcactccttatagcaaaaacaggtacaagtcacactattgccgagaagcttgtaaaaccagccgcaaagttaatgacaaatattatgctcggagagaaagcagaacgagctattggcaaaattcctttatcaaatgacactgttggacgtcgcataatatcaatggcatacaatgtggaagagcaattactatcacgtgtgcgtgctagcagatatttcgctttacagttggacgaaaccactgatgtgcagagtatgaatcagctcttggcatatgtgcggtacatatatgagggagaagtgctcgacgactttttgttctgtttatcactgaaaacccatgctacaggagaagattttttttatttagttaacgattattttgtgagccgtgatgtagactggaaaaggtgcgttgggatcagtactgacggagcaccagctatgtgtgcagcaaggaagggcgttgctacgcgaataaaagaggttgcacctgaatgccaatccacacactgctttattcacagagaacagttggcggtcaacaatatgcctcctgatcttgattcagtgttgaaggaaatagtgaaaattgtgaatacgatcaaatcgcggccactgagtgtacgtcttttcagcgtgctgtgcgaagaaatgggcagcgagtacaagactctgcttttccacactgaagtacgctggctgtcgaggggaaaggtgctcacacgagtttttgaaatgagggatgagataaaaacatttcttcatgacactgataatgccagtaaagaccatttctatgatttcaagtggcttgctcaagtggcgtatctcagcgatatattcagtatcttgaatagcctgaacctatcacttcagggccgaaatatcacgatttttaatgttgaggataagatatcaggatttcttaagaagaccgaactgtggtgcaaacggctcgatcgccgagagtttgactctttcccaacacttgatgattttcttcactcgtcggagaaagaaatcgatgacgtattattgggcatatttaaaaaccacatccaaatgctgcaacagaacatgaagaaatactttccagagccgaatgcaaccaaagagtggattaggaatccattcgccgctatctcccaagttgaaacattcaaccttccagcttttgagtgtgatatgctcgtcgacttagcgtctgacggagcgctgaaagtagtcttcagtgagaaatctctccataatttctgggtccatgttcgatccgaatatccagaactatctgacagagccaccaaacacttgctgccattcccgacgacctataattgtgagttaggattttctaatttagtagaaataaagagtaagaaaagaaaccgactggatgtggaacctgacctacggctcaagctatccgtcatcgagccggatatagataccttggtgaaagattgcaaacaatatcatccctctcactgatatgaaacaattattattattattattatttttataatttanattttatttttaaaattgtgatgaatntttttaaaatttacctaaaattggtggtctgcgtgtgcgccgaacgcccattaagtggtccgcggatgccgaaagtttgagaaacactg",
+  "length_bp": 2524,
+  "sequence_length_bp": 2524,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "383..2363",
+      "start": 382,
+      "end": 2363,
+      "qualifiers": {
+        "product": "Charlie25_tp",
+        "number": "1",
+        "note": "[Eutheria]",
+        "translation": "MDQWLKSGSLKRKSSDENSNVNTTTQNNVINVNSEQDSSANIECESVCAGTSESASVM"
+      },
+      "label": "Charlie25_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "Charlie25"
+  ]
+}

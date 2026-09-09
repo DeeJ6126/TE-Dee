@@ -1,0 +1,50 @@
+{
+  "accession": "DF000002103",
+  "name": "RLTR42",
+  "description": "ERV2 Endogenous Retrovirus from Muridae.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR42"
+  ],
+  "species": "Muroidea",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 239 BP; 51 A; 78 C; 45 G; 65 T; 0 other;"
+  },
+  "sequence": "tgatagtttcctgctgaaagactacacttcccagcttcccttgcggactacggaagtcatttccgcccctataaggggccgcatcccatcttcctctgtaggcattttggccatccgcacacgtgggtgacaaagatgccccctcgccgtgaataaacatggtcccgcctaaggtcagaccaagcctctctttctttccgccttctgtctctctacagctgctcttaaataatctaaca",
+  "length_bp": 239,
+  "sequence_length_bp": 239,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR42"
+  ]
+}

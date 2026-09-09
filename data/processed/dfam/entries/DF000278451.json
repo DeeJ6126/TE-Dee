@@ -1,0 +1,46 @@
+{
+  "accession": "DF000278451",
+  "name": "MicTal-1.212",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Blackjack"
+  ],
+  "species": "Nesogale talazaci",
+  "display_classification": "DNA/hAT-Blackjack | Nesogale talazaci",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Oryzorictinae",
+    "Nesogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 199 BP; 59 A; 54 C; 24 G; 62 T; 0 other;"
+  },
+  "sequence": "taaagtgaccagacgtcccgctttttaacaatttaacaacgtcccgcggcattttaaaattaaaataaatatattacaatactatttttgcgttctatgaaaatttttgttgctccatatagaccaaatttttaatcaagaacccccccccccccccccccccggtcaatggtgtcccgcttaaaatctggtcacttta",
+  "length_bp": 199,
+  "sequence_length_bp": 199,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

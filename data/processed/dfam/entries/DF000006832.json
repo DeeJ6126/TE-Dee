@@ -1,0 +1,50 @@
+{
+  "accession": "DF000006832",
+  "name": "Penelope-3_Diul",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "PLE/"
+  ],
+  "species": "Heliconiini",
+  "display_classification": "PLE/ | Heliconiini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 217 BP; 70 A; 34 C; 36 G; 75 T; 2 other;"
+  },
+  "sequence": "aatatgatcttttgttttcgcgattactacacattttgaaatgaaactatttttaaccggattaatcgcgtatattattggtattcganacaggtaggtctacctgtgaccacggactactgtaaagtgttcgaaacgtcgggtttctaaaaatgtattttcgaataccaanaatatacgcgattaatccggttaaaaatagtttcatttcaaaata",
+  "length_bp": 217,
+  "sequence_length_bp": 217,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

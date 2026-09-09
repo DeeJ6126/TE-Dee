@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277779",
+  "name": "LasBor-4.295",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Lasiurus borealis",
+  "display_classification": "RC/Helitron | Lasiurus borealis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Lasiurus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1050 BP; 258 A; 286 C; 356 G; 150 T; 0 other;"
+  },
+  "sequence": "cctatctaataaaagagtaatatgcaaattgaccgtacctccgctacacccacaagccacgcccaccagccaatcagagcgagtatgcaaattaacccaaccaagatggctacggccacagagagagcaggagggaggcttgggttgcccctggcgatggaggaagccaagctttccgcacaccctggccggcccaggcctccgcttaaggcaacaaagtttcaatggctgtgcgagcagaaggcttggctccgctccaggctacaaagtttcaattgtagaagataaataaatcccagataccagggcctccgcttgggtcgccggggggcgtggccggcctgcaaaccaccacaggcccctcgcccaggccaccccacgccccaagggaacacccaccctgatccaggacacccttcagggcaaaccagctggcccccacccgtgcaccaggcctctatcctatctaataaaagagtaatatgcagattgaccatcactccaacacacaagatgactgcccccatgtggacacaagatggccaccacaagatggccagcaggggagggcagttggcagggaccaggcctgcaagggagggcagttgggggtgatcaggcctgcaggggagggcagttgggggtgaccaggccggcagaggagggaagttgggggtgaccgggcctgcagggaagggcagttgggggacccaggcctgcaggggagggcagttaggggtgaccaggcctgcaggggagggcagttaggggtgaccaggcccacaggggagggcagttaggggcaaacaggctggcaggggagcagttaggcatcaatcaggctggcaggggagtggttagggggtgatcaggctggcaggcagaagcggttaggggcaatcaggaaggcaggcaggtgagcagttgggagccagcagtcctggattgtgagagggatgtccgactgcctttaggccaggcagtcggacatccctcaaggggtcccagattggagagggagcaggctgggctgaaggacacccccccccc",
+  "length_bp": 1050,
+  "sequence_length_bp": 1050,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

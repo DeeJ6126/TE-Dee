@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000663",
+  "name": "tRNA-Thr-ACG",
+  "description": "tRNA-Thr (decoding ACG) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 72 BP; 12 A; 21 C; 26 G; 13 T; 0 other;"
+  },
+  "sequence": "ggcgcggtggccaagtggtaaggcgtcggtctcgtaaaccgaagatcgcgggttcgaaccccgtccgtgcct",
+  "length_bp": 72,
+  "sequence_length_bp": 72,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "tRNA-Thr-ACG_"
+  ]
+}

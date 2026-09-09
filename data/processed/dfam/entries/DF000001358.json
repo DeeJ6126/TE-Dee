@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001358",
+  "name": "CELETC2",
+  "description": "CELETC2 nonautonomous Tc2-related DNA transposon.",
+  "keywords": [
+    "DNA/TcMar-Pogo"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Pogo | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 446 BP; 135 A; 88 C; 62 G; 157 T; 4 other;"
+  },
+  "sequence": "taccgtatntcttctattaatatggcctccctattagacttgcactccctattagtattgcccctcggagaccttccgaaaattagtattgcactccctattagtcttgcactccctaatagtcttgcgtttactttttttattgcaaacccgtctcgctaatttcaggatttcaacaacattttttgcctattttgcaacagtttttnacaanatttctacgagattgaatttttgaacttntatgttgcaattaaaatcaaattttctgaatttttacataagattcgagctttttcagaaaaaaatagtaagctcaaagtcagaaaaatgttctgaaaattagtattgcactccctaatagtcttgcactccctattagtattgcaagcgggaagaccatcgaaaaatagtattgcagccatattaatagaagaaatacggta",
+  "length_bp": 446,
+  "sequence_length_bp": 446,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CELETC2"
+  ]
+}

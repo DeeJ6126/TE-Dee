@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002428",
+  "name": "TC1DR3B",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/TcMar-Tc1 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 889 BP; 251 A; 196 C; 237 G; 204 T; 1 other;"
+  },
+  "sequence": "cactcaccggccactttattaggtacacctgtccaactgctcaacgcaaatttctaatcagccaatcacatggcagcaactcaatgcatttaggcatgtagacatggtcaagacgatctgctgcagttcaaaccgagcatcagaatggggaagaaaggggatttaagtgactttgaacgtggcatggttgttggtgccagacgggctggtctgagtatttcagaaactgctgatctactgggattttcacgcacaaccatctctagggtttacagagaatggtccgaaaaagaggaaatatccagtgagcggcagttctgtgggcgcaaatgccttgttgatgccagaggtcagaggagaatggccagactggttccagctgatagaaaggcaacagtaactcaaataagcactcgttacaaccgaggtctgcagaagagcatctctgaacacacaacacgtccaaccttgaggcggatgggctacagcagcagaagaccacaccgggtgccgctcctgtcagctaagaacaggaaactgaggctacaattcacacaggctcaccaaaactggacaatagaagattggagaaacgttgcctgctctgatgagtctccatttctgctgncacattcggatggtcgggtcagaatttggcgtcaacaacatgaaagcatggatccatcctgccttgtatcaacggttcaggctggtggtggtggtgtaatggtgtgggggatattttcttggcacactttgggcccattagtaccaattgagcatcagtacttgttgaatctatgccacgaaggattaaggcagttctgaaggcaaaagggggtccaacccggtactagtaaggtgtacctaataaagtggccggtgagtg",
+  "length_bp": 889,
+  "sequence_length_bp": 889,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TC1DR3B"
+  ]
+}

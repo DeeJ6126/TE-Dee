@@ -1,0 +1,27 @@
+{
+  "accession": "DF000001423",
+  "name": "LmeSINE1c",
+  "description": "Coelacanth DeuSINE element",
+  "keywords": [
+    "SINE/tRNA-Deu-L2"
+  ],
+  "species": "Metazoa",
+  "display_classification": "SINE/tRNA-Deu-L2 | Metazoa",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 121 BP; 25 A; 27 C; 34 G; 26 T; 9 other;"
+  },
+  "sequence": "gggtgtcggtggcncagtggntagcactgtcgcctcacagcaagaaggtcgctggttcgagtcccgcttgaggaacctgganaaatccccagcangttttnnnattannatgctactgaag",
+  "length_bp": 121,
+  "sequence_length_bp": 121,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LmeSINE1c"
+  ]
+}

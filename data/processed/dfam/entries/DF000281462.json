@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281462",
+  "name": "ZipCav-1.6",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Ziphius cavirostris",
+  "display_classification": "SINE/tRNA | Ziphius cavirostris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Ziphiidae",
+    "Ziphius"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 190 BP; 56 A; 55 C; 47 G; 32 T; 0 other;"
+  },
+  "sequence": "gggacttccctggtggtccagtggttaagactccgcgctcccaatgcagggggcccgggttcgatccctggtcagggaactagatcccgcatgccgcaactaagagcccgcatgccgcaactaaagatcccgcgtgccgcaactaagacccggcgcagccaaataaataaataatatttaaaaaaaaaaa",
+  "length_bp": 190,
+  "sequence_length_bp": 190,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276080",
+  "name": "CryFer-1.73",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Cryptoprocta ferox",
+  "display_classification": "LINE/L1 | Cryptoprocta ferox",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Eupleridae",
+    "Euplerinae",
+    "Cryptoprocta"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1315 BP; 558 A; 225 C; 246 G; 279 T; 7 other;"
+  },
+  "sequence": "aatgggaaaaagacagtctcttcaacaaatggtgttgggaaaactggacagctacacgcaaaagaatgaaactggaccactttcttacaccatacacaaaaataaactcaaaacggattaaagacctaaatgtgagacctgaaaccataaaaatcctagaagagagcacaggcagtaatttctctgacatcggccatagcaacatttttctagatatgtctcctgaggcaagggaaacaaaagcaaaaataaactattgggactacatcaaaataaaaagcttctgcacagcgaaggaaacaatcaacaaaactaaaagacaacctactgaatgggagaagatatttgcaaatgacatatccgataaagggttagtatccaaaatatataaagaacttatacaactcaacacccaaaaaacaaataatccaattaaaaaatgggcagaagacatgaacagacatttctccaaagaagacatacagatggccaacagacacatgaaaagatgctcaacatcactcatcatcagggaaatgcaaatcaaaaccacaatgagatatcacctcacacctgtcagaatggctaaaatcaaaaacacaagaaacaacaagtgttggcgaggatgtggagaaaaaggaaccctcntgcactgttggtgggaatgcaaactggtgcagccactgtggaaaacagtatggaggttcctcaaaaagttaaaaatagaactaccatacgatccagtaattncactactgggtatttacccaaagaatacgaaaacactaattcgaaaggatatatgcacccctatgtttattgcagcattatttacaatagccaaattatggaagcagcccaagtgtccatcgatagatgaatggataaagaagatgtggtatatatatacaatggaatattactcagccataaaaaagaatgaaatcttgccatttgcaacaacatggatggatctagagagtataatgctaagtgaaataagtcagtcagagaaagacaaataccatatgatttcactcatatgtggaatttaagaaacaaaacaaatgaacaaaggaaaaaaagagacaaaccaagaaacagactcttaactatagagaacaaactgatggttaccagaggggaggtgggtggggggatgggtgaaataggtgaaggggattaagagtacacttatcatgatgagcactgagtaatgtatagaattgttgaatcactatattgtacacctgaaactaatataacactgtatgttaactatactggaattaaaatnaaaaaaaannnanaaaat",
+  "length_bp": 1315,
+  "sequence_length_bp": 1315,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

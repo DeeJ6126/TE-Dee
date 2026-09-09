@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000653",
+  "name": "tRNA-Leu-CTY",
+  "description": "tRNA-Leu (decoding CTY) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 82 BP; 12 A; 23 C; 30 G; 17 T; 0 other;"
+  },
+  "sequence": "ggtagcgtggccgagcggtctaaggcgctggattaaggctccagtctcttcgggggcgtgggttcgaatcccaccgctgcca",
+  "length_bp": 82,
+  "sequence_length_bp": 82,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "tRNA-Leu-CTY"
+  ]
+}

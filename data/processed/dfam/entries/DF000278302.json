@@ -1,0 +1,50 @@
+{
+  "accession": "DF000278302",
+  "name": "MesBid-1.183",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Mesoplodon bidens",
+  "display_classification": "DNA/TcMar-Tigger | Mesoplodon bidens",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Ziphiidae",
+    "Mesoplodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1018 BP; 278 A; 220 C; 236 G; 284 T; 0 other;"
+  },
+  "sequence": "cagtaagtcccctacatacgaaccttcaagttgcgaactttcaaagatgcgaacgtgcgttcgcatgtccaatcacgtaagttagttcacgtgtctggcgtacattgtcacgtgcgtgcatcctctacaagtggttgtgcttttgtgtactttactgtacagtactgtatagagtacagtagtacagtatctttatttcaagcccaggatgtccggaagcaagcgtaaaagcaggctgagctagatctgcaagaggacgacttcattgaactccttgctgtgcaacacgaggagcttactaatgaagacctgatggaattggaggcccagagaaaggacgaagagagacaagaggaagaagaagtaactgaagaaccgaagagattcacgacgcaggaaatggcaaggggattttctttatttgaggaggcactgttagtttttgaggcacaggacccgaacgtagaacggtacacgaaggttgcagcagccgttcagaatgcaatccagtgctaccgtgtcatctatgacgagaaaaaaagagctactacccagacatcactggatcgttttttcaagagggtagatagaattgaatccagcaaggaaccagaacctgtgccatcaacgtcaggcgtgagtgaaattgcagcttgccctccgtctcctattgctgacgatccttcagctctaccatctcccacctcctctccctcctccagtcagtaactcttcttgcctgttcactcgatgccagcccctgtatgccagctgttgtactgtactactgtacttttcaaggtactgtactgtaagattaaaaatgttttctttattttttgtgtttgttttttatgtattatttgtgtgaaaagtattataaacctattacagtacagtactatatagccgattgtgttagttgggtacctaggctaactttgttggacttacgaacaaattggacttacgaacgcgctctcggaacggaactcgttcgtatgtaggggacttactg",
+  "length_bp": 1018,
+  "sequence_length_bp": 1018,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

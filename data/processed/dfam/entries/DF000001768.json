@@ -1,0 +1,53 @@
+{
+  "accession": "DF000001768",
+  "name": "ERVB7_3-LTR_MM",
+  "description": "Long terminal repeat of endogenous retrovirus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ERVB7_3-LTR_MM"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 408 BP; 79 A; 127 C; 87 G; 109 T; 6 other;"
+  },
+  "sequence": "tgttacctccttccagcctagcnaggctggctnagaccatccgccactgaggcggagccacctgctgtgctgcttctcatccctctcctttgatgtgccactacctgctacctgcctgaggccgaaccggttctccaagatcttccggagttagcaccgaactgtgattttcgcgagttcctactaaaaggctgatctgacaacttcaaaggaactttgcgtgactgggaatgggcctcccctcttctttataaagcgtgtttgccgacattaaagttgagtcttgatcagaatncngtcttggctccatttctctctctacccgcctagattccctcttttctttcagnttccaagatgcntcccaggctcgaacccggacatgagagccgcaggccggccccaaca",
+  "length_bp": 408,
+  "sequence_length_bp": 408,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ERVB7_3-LTR_MM"
+  ]
+}

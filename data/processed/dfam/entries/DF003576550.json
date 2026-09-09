@@ -1,0 +1,49 @@
+{
+  "accession": "DF003576550",
+  "name": "LTR2_mMyo_ltr",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR2_mMyo_ltr"
+  ],
+  "species": "Myotis myotis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Myotis myotis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Myotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 895 BP; 278 A; 210 C; 220 G; 187 T; 0 other;"
+  },
+  "sequence": "tgccgggagccggtccatgcttgctgtttcaagggacctggcatatatggcatactgttcttaatatgtttgctcaccttcttggcactatgtgttttaaccaaggtctctgagaaaggttgtttccccaggtagggattttcccctgaagttagggagggaataaaacctcttaactaagtgccaggcgggtaattaatcactttaactacgaacaatcatgcttaagctacataatctttactccctggaatggagataagaaacgccctaacctttgtaatagagattgataggattgaatcaactggtataaatacagatgtaacaagacagcaagacacagaacttagaacacagaacttagaacacagaacttagaaacagaaccaagagagacagaacctaggcacagaacctacacagaacgttctctagagacagaagaacttcgctggagagaacatggcaaaagatcctggacagaaactggcctcagaacctagagacagaacctagcgagagaacatggcaaaagatcctggactgaacctgactacagaaattggcaagagaacctgactagaacctggtgactgaacctggctggagaacctggacagaacctggctggagaacctagcgagggaacatggctacagaacctggctggagaacctggagaacctagcaagagaacatggacacagaacctggctggagatcctaagcagaacctcgctggagatccagaccagaacttggctggagatcctggctagagatcctggctaggctgctgatcaactgaacgctgtctccgtgtcattccttcttcgccgactccgtccacacctttggggacccctggacctgctggggttggaccccggca",
+  "length_bp": 895,
+  "sequence_length_bp": 895,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

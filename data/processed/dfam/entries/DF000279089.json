@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279089",
+  "name": "MyoBra-1.266",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Myotis brandtii",
+  "display_classification": "RC/Helitron | Myotis brandtii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Myotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 418 BP; 81 A; 134 C; 154 G; 49 T; 0 other;"
+  },
+  "sequence": "tctatataataaaagcctaagcgaccgttacggcggaacgaccagaacgaccggtcgctatgatgcgcactgaccaccagggggcagacgctcaacgcaggagctgccccctggtggtcagtgcgctcccacagggggagcgccgctcagccagaagccgggctcacggctggcgagcgcagcggcggtggcgggagcctctcccgcctccgcggcagcgctaaggagcagcgagccgagcggtaaggagcagcgagcaggcgggcggtaaggagcgaggggtcccggactgcgagagggatgtccgactgggcttaggccgacatcccccgaggggtcccggactgcgagagggcgcaggccgggctgagggaccccccccccccagtgcacgaatttcgtgcaccgggcctctagt",
+  "length_bp": 418,
+  "sequence_length_bp": 418,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

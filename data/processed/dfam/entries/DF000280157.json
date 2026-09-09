@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280157",
+  "name": "ProCoq-3.14",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Propithecus coquereli",
+  "display_classification": "SINE/Alu | Propithecus coquereli",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Indriidae",
+    "Propithecus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 335 BP; 96 A; 80 C; 99 G; 60 T; 0 other;"
+  },
+  "sequence": "caaaacttaggccgggcgcggtggctcacgcctgtaatcctagcactctgggaggccgaggcgggcggatcgtttgagctcaggagttcgagaccagcctgagcaagagcgagaccccgtctctactaaaaatagaaagaaattaatcggacaactaaaaatatatagaaaaaattagccgggcatggtggcgcatgcctgtagtcccagctactcgggaggctgaggcaggaggatcgcttgagcccaggagtttgaggttgctgtgagctaggctgacgccacggcactctagcccgggcaacacagtgagactctgtctcaaaaaaaaaaaa",
+  "length_bp": 335,
+  "sequence_length_bp": 335,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

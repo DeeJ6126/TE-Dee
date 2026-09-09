@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278660",
+  "name": "MosMos-1.118",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Moschus moschiferus",
+  "display_classification": "SINE/tRNA | Moschus moschiferus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Moschidae",
+    "Moschus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 183 BP; 51 A; 54 C; 46 G; 32 T; 0 other;"
+  },
+  "sequence": "gggacttccctggtggtccagtggctaagactccgcgctcccaatgcagggggcccgggttcgatccctggtcagggaactagatcccacatgccgcaactaagagttcgcatgccgcaactaaagatcccgcgtgccgcaactaagacccggcgcagccaaataaataaataatttaaaaaa",
+  "length_bp": 183,
+  "sequence_length_bp": 183,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

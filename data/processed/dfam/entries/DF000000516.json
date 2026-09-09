@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000516",
+  "name": "LTR40c",
+  "description": "LTR40b (Long Terminal Repeat) for HERVL40 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR40c"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 465 BP; 96 A; 130 C; 124 G; 111 T; 4 other;"
+  },
+  "sequence": "tgttgggagacaatcctccatgggcccctngcgctcctgcacgtcttgctgggtatgccaagaatgcaaggccctgaccgctctttacctcgggccatttctcagggttgtgtttgcagcgagcaaccttgagggatgaggtaatgtctccctccgggacaaagagcaggcttgcttactgcttgctataaaagcggtggattccccaagctcagtgttcctcngctgtaacgcaaacccactgcgtgcgcagcatccatctgggccctccgcgtcgcccccgtgggacttggggggncanggggaaccgacgcaaacatgctgatgctcatgctgcttgctgtgccgtgagtaataaagtcctttgtctctgacccaggagtctcgtgtcttctgccagcatccatgaaacagtaacaggctaacttattagcttgtaagtagggtaaaatcccagacctgaca",
+  "length_bp": 465,
+  "sequence_length_bp": 465,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR40C"
+  ]
+}

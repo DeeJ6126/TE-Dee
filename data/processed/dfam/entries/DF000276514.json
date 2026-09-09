@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276514",
+  "name": "DolPat-1.68",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Dolichotis patagonum",
+  "display_classification": "LINE/L1 | Dolichotis patagonum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Caviidae",
+    "Dolichotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 601 BP; 151 A; 143 C; 131 G; 174 T; 2 other;"
+  },
+  "sequence": "aaccagctcgcctccctggtaagcggccgtggctcgggcaagcggcggccgccccagggngagaaccagccagcgtctcccgagatccgcgccatgttggaacttagggcgctgggaaaccaagcaacccgctcgcctccctggtaagcagccgtgagcctaccggcgcgcgggctgagaatcaaacatcccatccccccccccccgttagcaaatgggagccagaggtctgagcatctcttgggaggttgaccatatgcaatatagcaaatangggggatttccttctaccatctctttgaaggcaaatattgttatcactgttttgctttgttctgattaattgtattgctctattcaatattctgttttgataagttctataatgttctgtatttggtttgattttgctatacctgattgaaaggacaactattgtgaagataacgagatatactatggtacctattactgttatcccggtaacctgctgtgaagttctgtaccaatttcactgcactgtctcaattggctttgttctgtcttgttctgttgtattttactaccttcaaaataataaaaaaaatttaaaaaaaaaaaa",
+  "length_bp": 601,
+  "sequence_length_bp": 601,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

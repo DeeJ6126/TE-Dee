@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002302",
+  "name": "piggyBac-N13_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/PiggyBac | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 885 BP; 294 A; 158 C; 163 G; 264 T; 6 other;"
+  },
+  "sequence": "ttaaccctcctgtcgtgttcacatcccgccccttactttagtgttcccggtcaaaattgaccggtctgttttaactgctcttanattagcacaaaaaacatttttcnccaccaaatttttattcaacattctttagctgtgaacaatgtctcaaagtagtgtttaacatgaatttatagaattagacataaaataactgcagtgaaaatacaaataggcgctgaaaatgtattacaaaatgaacaatagatgacagaaatcaaaatactttgtttcattactaatagacagctcgctaaaataactatcacagggtctgaccaaagaaattgaaattttaatccatctgaatgatttatcaaccagcaaagcacaaacaaactgtatcctttcctgtgtactgagtgctcgaattttcattcagtccttcaantggactatattagtgtactaatgtagggaatagtgantgagggtatagacggtgagcatggacacagaactagcactagttatactttggtcatttttgagcgagatgctaatggtctaatccgataaaaatttatgctaagctaagctaaaagtgctcctgctagacccagagattggcatgaatttgtncngtctgatggatgaatatagtctggatacccattcatttcctatggcggtcacttttgaccgggaacaccacaggtgtaacaaggttgattaaaacactcaaaattcaatgaaagaggtgatcatcacttttatatgttcaagtgcatagtgtggaggatatcataaggccttgaggcaatcagatgtaaaacacaatatttatgagtgttttaagttgtaaatcggtcagatttgacccgaacacgacaggaaggttaa",
+  "length_bp": 885,
+  "sequence_length_bp": 885,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "piggyBac-N13_DR"
+  ]
+}

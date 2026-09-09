@@ -1,0 +1,50 @@
+{
+  "accession": "DF000002154",
+  "name": "RMER15",
+  "description": "RMER15 interspersed repeat",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RMER15"
+  ],
+  "species": "Muroidea",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 575 BP; 144 A; 148 C; 141 G; 140 T; 2 other;"
+  },
+  "sequence": "tgttgtgtaacagtttcctccgagattgaaacattccatcctgcagggaagctccttaagcaggaaggtaaacaactcaaaatagcttcaggaagtccctgaaactgaccagattcactaggcccctccctnccagagtaagcaataaaagctgctgagagtcactctcagacaagccgagctgcaaagaagactctgagaccagaccagctgcctggaagaagcagaaaccagccgagctgcctggaagaggtttagaccaactgagncacctggaaaggacactctccaacctgttgagctgcctgcaggctgtgcagtgtgctccaggttcccagcttttgtgagctgtcacccatgctggggtgggctttggtgatgcagctgtctttgagtcatttctgctcctgtaagtaacccctcacccatattcctgtaagtaaccccaataaaactcattggttcaccaagttggactttggtggtatccgtactttggtctgtcgtgggttccctatctggggtgagtagacgtgtgtgtcgcgtctccccaggaaaagttttgtcacacaaca",
+  "length_bp": 575,
+  "sequence_length_bp": 575,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RMER15"
+  ]
+}

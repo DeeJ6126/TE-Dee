@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001355",
+  "name": "CELE46B",
+  "description": "CELE46B nonautonomous DNA transposon.",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 705 BP; 244 A; 101 C; 105 G; 233 T; 22 other;"
+  },
+  "sequence": "ttaaaggtggagtagcgccagtggggaaattgctttaaaacacgcctatggtaccacaatgaccgaatatcatggtaaaaaaattcnaaaaanttttctaaattttatatgattttttgaaaattgaaaaaatctcagttttcgcctaattcctatttgaattnccgccaatagttcgatgttcgatggagcgcgcttgcattattttaatatttatttatcgatttttcatgtttttttgngtatttttgctggaaatttaaagaaaaantcaagataaatgcaaattnttnattaaaaagaactgaaaacggagaaanaacgtttttcgacgacgtcgagcctgaaataatnnatttcacagntttaggctttagcgcttgctttttaatnaaaaatttgcatttatcttgantttttctttnaatttccagcaaaaatacaccgaaaaacatgaaaaatcggtcgaaaataanaaaaattaataaataaaanttaaaataatgcaagcgcgctccatcgaacatcnaactattggcggnaattcaaataggaattaggngnaaancgagattttttcaattttcaaaaaatcatataaaatttagaaaattttttngaatttttttaccatgatattcggtcattgtggtaccataggcgtgttttaaagcaatttccccactggcgctactccacctttaa",
+  "length_bp": 705,
+  "sequence_length_bp": 705,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CELE46B"
+  ]
+}

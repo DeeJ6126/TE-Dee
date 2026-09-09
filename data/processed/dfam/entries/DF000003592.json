@@ -1,0 +1,50 @@
+{
+  "accession": "DF000003592",
+  "name": "MurSAT1",
+  "description": "Satellite from Muridae.",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Muridae",
+  "display_classification": "Satellite/ | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 120 BP; 26 A; 29 C; 40 G; 21 T; 4 other;"
+  },
+  "sequence": "gaaagttccagagcccctngggcagatggcgaatgtcctagagccccttgtgcagatggggaagntcccagagncccttgggcagatggcaaatgtcctagagncccttgggcagatggg",
+  "length_bp": 120,
+  "sequence_length_bp": 120,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MurSAT1"
+  ]
+}

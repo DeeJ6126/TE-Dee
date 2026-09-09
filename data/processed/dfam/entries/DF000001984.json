@@ -1,0 +1,51 @@
+{
+  "accession": "DF000001984",
+  "name": "RLTR10-int",
+  "description": "RLTR10-int subfamily",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR10-int"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1987 BP; 522 A; 423 C; 593 G; 448 T; 1 other;"
+  },
+  "sequence": "agtggtgccgaaacccgggacgagaagacccgggacgagaaaacccgggaaaagaaacatcttcaggcacgagcgaagaccccctgctacagggaggattcagaactgcatcacggggaaggagcggttaataaagcgttcccgtaaaacagactgttgagaaggatccggcgtggattcagaactcttcagctggggaacggtactgatgaagagaaagaagaaagatgaagactgaataaactgctgttagaaggactggtggtcgcgtcgttcttgctggtcgagagcgggcgcgacaattggtggcccgtacggggaaccgactcccccaccgagttcagaactttcagcagtcagtggttgccggcagggtaagttcacggtgagtgaaacttgcgaccccaggagtttgggaaggacctcggataaaatagaggtgagcataaagttgccaggaagtaggcacaaagtaacccaggagtttgggaaggacctcggataaaatagaggcgagcataaagttgccaggaagcaggcacaaggtaacgaaaggttcccggctttgggacaagttaaggttcccggtttggggacaagttaaggaactatgataacctcagtgtagtgatcaatagatcctcgctgtgtagttatgcttttttctcccattgaccctttgtgggtaggtctgatagttttggtcttgtttgttctgatatatggactctgttactgtttgaaactgtgtgtagaggcagtcaagacaggtcagaaaatccttacagagcaacaagaaagtatgtcggaagaggagaagggcttaaaaagaaaaaggaaaaagaaaggagacacagtgttatcaggtggacagaaaggacaaaataaaagagccgaggcggaggaggaaggcgaattagcttctgcgccccctccctatgcctcctcggcagccacctgtaggcggaccttctgtccggaggtttggagaggatcgaccagatcaggtgttgacgtgggcgagagggtctgtttgtgtgtttccacaggaccagacggaacctctttgggtgccggagagattggtgagacgctgcaagaatgaggctcctgatccagttgcccctgtggatgtggtggatgatcccacaagcacaaaggatggagccgagatgggagatcctttcggtattccagaagccgataccagctcgacatgacattcaaatttttccacgctttttgatccctgaattccccttaaagagatagcccctctggccatctatcccttgcttcagggaagatgagcggggatgagagccctgggatgtatgcttgttatagtgtgtgtgtgttttgtgtttggcacatgtgttaggtgcagagtgtgcggcccgcactttcgccatggtagcgtaggcttttgctgcagtggaggcgggacaatctcctcagattcggtttgccgctctaaaagaaattatgctgcgttatgccgtggggtgcgaggctaagcactgcacagaggatagcttgctgttggcatcctgtggaaggcacgtctgattgcatgaaggttcagtgtcctagttcccttcccccaggaaaaacgacacgggagctggccaagacctctctgggtgatgagcctaagggatggttttgtgtagggcccctatgcttgcacactggggatcagacctctaccttcacccatgaggcttgcttgcagcaattaagatctggccataggttaattaacatcctggccttttgatgcacctgccgcaagcaaaacacaatctccccaggngtggcttggcatgatagagaggtagtcagtgataagactccctgggcatgtcaccaacctaagacagggatcaaaccaatgctgtttgtcacccaaggacgggtaaggggcatggctgcggggggctatctacagacattctctctgccaaaaaagaaaaaagggggagat",
+  "length_bp": 1987,
+  "sequence_length_bp": 1987,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

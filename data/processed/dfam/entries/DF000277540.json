@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277540",
+  "name": "HysCri-1.127",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Hystrix cristata",
+  "display_classification": "DNA/TcMar-Tigger | Hystrix cristata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Hystricidae",
+    "Hystrix"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 175 BP; 43 A; 50 C; 43 G; 39 T; 0 other;"
+  },
+  "sequence": "cagtaatacctcggttcacgaacgcttctgttcgcgaacaattcggttcgcgaacagaagcgttcggcaaaattttgcttccgttcgcgaactccgcatcgggtgacgaacacgaccgcggccatcttccccagaatcgtggaacgaattaagttcgtgaaccgaggtaccactg",
+  "length_bp": 175,
+  "sequence_length_bp": 175,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

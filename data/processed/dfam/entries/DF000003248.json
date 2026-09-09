@@ -1,0 +1,53 @@
+{
+  "accession": "DF000003248",
+  "name": "Gypsy35-LTR_DR",
+  "description": "Long terminal repeat of a Gypsy LTR retrotransposon from zebrafish",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "Gypsy35-LTR_DR"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 900 BP; 245 A; 166 C; 135 G; 346 T; 8 other;"
+  },
+  "sequence": "tgtcacagtgtaaaactaaaagacactgtgactaacaaacacacatcacattgcactcatacataaaatacacacttttaaacatggacctttgtgttatttgtattgtgcatgtgtgtgtttgtgtaatgtgtatatgttgttttttttnnctgtcaagattagcattgtgtttatgtaaaaatttcacttttatgtcaaacaatagcccatatcaacactgaaataaccacagacacattttcttttaaacntcatttattaaccaaacatagagagtttacatatacttaccagtttccatttctcagcaccaaacctgtttaactttcaaancaaagccatttatacagatttttcccgccttcactttggagcagccattttccatgacatcatcagggtcacaaccccctggtcagtaaataaaaatcacagttttgttgtttaaatttgtattggttatttgttgtgttgtattttgagttttgtatgcatattcatttacttgcattaatttatacttctgttgaatgtctttttatgtattttttttcgtctacatgttaacccactaccagtaaaatggtttaacccatgggcggggccaatacnataaaatggccccaaacattcactcggngtgggtagttgtaggagaaggttgtttgtgtcagtattgttaacagattttgttcaggtcatttacttgatttagctgaacaagcctgtatatacattgtaaatattgnatagtttatttttctttattgttattttgtcactttcacctnttttgctggatttttgttttcactttgtgtaaataaatcactcttcactttcaccagcggcttctgtgacacttttttgcctccatccgcccggtcaatcgtaaca",
+  "length_bp": 900,
+  "sequence_length_bp": 900,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Gypsy35-LTR_DR"
+  ]
+}

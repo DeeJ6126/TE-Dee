@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000724",
+  "name": "MER127",
+  "description": "Putative TcMar-Tigger DNA transposon, MER127 subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/TcMar-Tigger | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 364 BP; 114 A; 81 C; 55 G; 110 T; 4 other;"
+  },
+  "sequence": "cagcagaacctcgctaattctcacttcgctaatccgcaaacccgataattctcaccaaaacccggcggtctcaccccacttctcagcaaagatttaatagcagagagctgtagcgaggtctcatattactaagacttcattacttttacaaaatatactacagnacatttactagtgtactatgaagtattatcataaataattaaaactaaactacacttgtcaaaataaatgaacaaagtacattttgtgatgcagtanccttgatttttatcgtgtttgtttncttactcgctaattcgcaaaattcggtaatccgcaatgggtctcccngtcattagtgcgaattagcgaggttctactg",
+  "length_bp": 364,
+  "sequence_length_bp": 364,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER127"
+  ]
+}

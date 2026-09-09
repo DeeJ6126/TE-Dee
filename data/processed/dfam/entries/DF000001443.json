@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001443",
+  "name": "NDNAX3_CE",
+  "description": "NDNAX3_CE is a family of non-autonomous Helitron DNA transposons",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1591 BP; 463 A; 318 C; 287 G; 511 T; 12 other;"
+  },
+  "sequence": "tctgccaagcagcctctaataaatgccgagtgtacagactccgcccctttttcgcgttttttcgcgttttttttggcttgcgaaaaaatgtcncacttcgttttcattaataactccagagccgtgtgacttcatgctctaatatttgaaatcctactagaaatattttgccccacggtggagcagaaaacggcactaagttcggagcaaaattgagcccagggcggctttccccagtttgaaaaaantttttgttgctctttttacccccaaaaaagcatgttttaattgaattaaaattcgggttttgctcggttttgttccaaattcatgtgcaagatactactcagagagactgattttttgaaaaaaagtttgagttcataagtgcaaanggaaaaaagttgtgataaaacaaaaggccaaaaaatgacattttgccaaaaaaaantttttttccgaaaaagtagtttttcgtctttatctcaagttctacttcatcttttttgatattttttttgtttaccccacgtaaaaaagtacgctgaacacgatttttaactcagaattgagaaaagttctatgagtcggccgagcaagacgaataagtgccaaattttgcacactttcccattttcgcgaatctactttttcaatcataactcggtcagttttcaagttttcttagttttccaaaaattgacgtgtaggtctcatcaagacgcatcgagacatataaaatttgtaaaaagttcagtgggaaaatttttcaagaaaaaaataattcaaaaatttagtactggggggagtggtttcctgggtctcctgaacattttttccactaaagttttgcggaatgtatttttgattcatagtttttgattttatttaatggaagatgaagtttcgtcgcgttagnaatgctctgccaagagatattatttttattaattttcaggccaaaacttgttttttttctatacatctgtctgtgtacaagatatagccctcaactgtacgtctccttttcgggaantcaataatgagtacaatcctgtaataaaattttcaaaaattcgttttcccgctgacntatcagtgataaacggttttcgaacgtctttccccaaatngtaatnattgaagaaagcggaatcgaaagacgactccctccagaaanttnccttccctacatcccagtttgaggtgtctcccgcatggccgagtggttagtgcgtatgnctgcggaaattttggtagttggttcaattctaccaagtgacaaatttttttgttttttcgtgagtaatcgggattcgaatagaaatactcgattttatacaaaatatgggtacgtctcccctaatataaagcctcctcaaacttcaatcaatcaaaactcagctttaactgattcatcgggtgcatctgtttttggtcaaaccgaactcaaaaatcaagaagactcccattgacctactgaaattttcacgaaccctctaacaggttcgaggcgaagccgagaacctacgcccggcaaggggactcgccttacaccccctacaactggcgggcccgcagggcccgctag",
+  "length_bp": 1591,
+  "sequence_length_bp": 1591,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "NDNAX3_CE"
+  ]
+}

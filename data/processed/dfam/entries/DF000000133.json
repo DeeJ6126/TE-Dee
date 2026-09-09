@@ -1,0 +1,39 @@
+{
+  "accession": "DF000000133",
+  "name": "Eulor6B",
+  "description": "Eulor6B (Euteleostomi-conserved low frequency repeat 6B)",
+  "keywords": [
+    "DNA/Crypton"
+  ],
+  "species": "Tetrapoda",
+  "display_classification": "DNA/Crypton | Tetrapoda",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 338 BP; 97 A; 68 C; 77 G; 94 T; 2 other;"
+  },
+  "sequence": "taattaagcaataaggcacgacagggagtgtggttatcatgagataatcacacccctggggcgttacgaggcacgaggcgcagccgagtgcctctaatcccccaggggtgtgattatctcatgataaccacaccccctggagttgccttattgctattataaaaagtctttattgtggagaaaaaatgtatttttgtgctggaagaagatgaagttggcagtttagaatgttgaacagcagtttcagctgagctntgtggttcacatagattaatctacccctttagaatattcgtcagccaatcagaatgctccctcaatccaagcagtttnataat",
+  "length_bp": 338,
+  "sequence_length_bp": 338,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Eulor6B"
+  ]
+}

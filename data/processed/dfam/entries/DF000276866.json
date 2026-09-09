@@ -1,0 +1,48 @@
+{
+  "accession": "DF000276866",
+  "name": "EriEur-1.5",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Erinaceus europaeus",
+  "display_classification": "SINE/tRNA | Erinaceus europaeus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Erinaceidae",
+    "Erinaceinae",
+    "Erinaceus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 232 BP; 65 A; 64 C; 47 G; 55 T; 1 other;"
+  },
+  "sequence": "ggggccaggcggtggcgcacctggttaagcgcncacattacagtgcgcaaggacccaggttcaagcccctggtccccacctgcagggggaaagcttcacgagtggtgaagcagggctgcaggtgtctctctgtctctctccctctctatctcccccttccctctcaatttctctctgtctctatccaataataaataaataaataaaaaaaaaaataaaaaaaaaattttaa",
+  "length_bp": 232,
+  "sequence_length_bp": 232,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

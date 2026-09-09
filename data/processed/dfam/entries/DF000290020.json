@@ -1,0 +1,52 @@
+{
+  "accession": "DF000290020",
+  "name": "teucerv3_internal",
+  "description": "Repetitive element found in the T2T assembly of the CHM13 human genome",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Homo sapiens",
+  "display_classification": "Unknown/ | Homo sapiens",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Hominoidea",
+    "Hominidae",
+    "Homininae",
+    "Homo"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1056 BP; 171 A; 330 C; 393 G; 162 T; 0 other;"
+  },
+  "sequence": "cctctctcggcgtgggaggggccggtgtgaggcaaggggctcacgcctctgcgcagggtgccagcggcatgagttgggcatcaacaggccaccgtgagggaggaactgggccgcacgcgggctgccgggaggccgccgtgggggcgagagctgggcctggagaggcccctgggaggcaagagcgggacctgcagaggctgttctaccgccagagctgggcctgtacaggccaccgagaggcagtaggcgggcgcgaagagcttggctcgagaaagttcggggcctacaaaggcggttttgagctgggcaggagttgagcccaaagagcttgcttacttgctgggaggcagggccgggagacgctgacttcaggacgacttgggcctgcagaggtcgccaggaggcccaagctgggcgcggaggagcccaccgaccggagaccgtttggggcctggagacgccatcggagggcaggagctgatcctggagaggccaccgtgaggcctgacctgggcctggggagcttggcttgaggaagctgtgggccgaccaaggccgccaggagatgggcaggcgctgagtccaaagaggttgttgggaggcagcagtcgggcctggagacgcagccgggaggaagagctgggcccggagaggacgccgggaggccgcatgtgggtctggagaggccgacttgaggaggcccggcctctgcctccctcagggcggcctctgcaggcccagctgttcctcctggctgcatctctcggcccagctcctgcctcccagcaggcaagctcttttggctcagctccctccagcgtttgtagaccccgaagtttctgcagccaagctcttcaggcccacatcctgcctcccggtggcctgtacagtcccagctctggcagcagaagagcgtcagcaggccccgctgttgcctcccaggggcgtctccaggcccagctctcgccccaccacggcctcccgcggccaagtccctgcctgctcccggcagcctgcgtacggccctgctcctccctcacggtggcctgttgaggc",
+  "length_bp": 1056,
+  "sequence_length_bp": 1056,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

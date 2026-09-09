@@ -1,0 +1,93 @@
+{
+  "accession": "DF000003883",
+  "name": "ERV4_DR-I",
+  "description": "Internal sequence of an endogenous retrovirus from zebrafish",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ERV4_DR-I"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 6893 BP; 1971 A; 1535 C; 1543 G; 1831 T; 13 other;"
+  },
+  "sequence": "acttggtgacccccgacgtgatgaagctgatcaggtaagacatgaatttggttttgactacctgattagtttcatcactgaactgagtgttcaggaagctggcaagacatgaatttggtttgactgcctgataagcttcattactgaactgagtaatccttggctgggattttccctgaaaagccaagaagagcgcgctatacaaaagtagaacgatcattctgtgtgttttctagtaagtatttactaacatgggtggttcataccccaagcctgagataggggaaggccctaaagattggatgtatcgatgtgggtggggatattacactaatccatggttagataatctagcagggtggactgaggcacaagcgatgcgtccctaccctagagatgggtcatttgacccccatgtgctaaaacgggctcacaaattaatttatgaaagtgaaggagatcccgaatgggaccatgattatatgagaaagggttatgaaatctggatgaagatgatgagtgtgtggaatgataaacaaaatattaacctaccaaaagaggtaaagaaattaattccgaagcctcttaaaggctcagcatcaaagattgaggtaaaaagaaaggagacacccaaagtgcctccagcccccgttgttactgttccctcagttacagttactgttcctactcctaccctctcctcccccattcctgatgaggggcaaggaaaggcacatcagaggatgcctctgtatcctgtacaagaattagaggggcttcgcacagagaaaccagaccaaggggataatcaggctttcctatgggtctcaaagaaagggggacatgctgaagtaacccctccctccgcaacacagctcaaggatgtcatttcactgcttcctgatatgagcaggccagtagaatttgtagaaactatgatacgtgtctctagaaatgcacagcttacaggagctgattataaatttatattgatgaacaaaatggggtctcaatatgatgagacagccctcattgatgctgttccttgcttgtgctctaaaaatgatgaggttaaactacaaccccagcaaatgatgcgtagagtaaaaattaaagaaggggattatgaggaacaagaatacacaaaagatgtaccgtacttttactggcgggatgaacagggtgctatagatatcctgaagcgacagcttactgcttaccttgtggacactcgttgtgctcatagagacttgtcacacgtgaccagctgtaagcaggaaaagaaagagacagtttctgccttcctccagcgtttttccaatgcttggatacatctgggaggatttgatctccctgaaaggcagccacaaccactgtttatttccacttttattagtaactgtactccagatgttcagaagatacttnaatttcaattatctgatcgatctcaaatgactccagaacagctcaagcaaaggcttcgaacgatgactggcgatggtctgttcgatcaaactttgaatgtcgccctccaacaaatggggggtgcgcagcagggtgggttccaaggctctaggccggcacctaatgggggggcacgaccccgaagggagggaaagtgtcattactgtggaaaacagggtcattgggcccgagaatgtagaaagaagcaatctgataagcagaaaggagcctcccctcaccaacagngtaatttttccccaacccaggtgcccaatcaagggacacagggtccacaataggggtccccacagagtcctgaacccccaaacgcaacantgctctctacttctattatctctgtgaagggccaagaaccagccacccttccggttgaggtgcagggcaaaatgtatacatttcttttggactctggggcaactcgtncgccgtttgggggacagtatgagggtcctatttgtgcttcaactatagattctgtgggaatagatggggtcccttttaaaacttcgctgacccctcccctgcctgtaaaggttggaaacacaaggactatggtacagtttgcatttacgccttcgtgttcatataacttaatgggacgtgaccttatgtccgcattaggtgtcactatgacctttaaacatgaccagctggtggtacacacaacagatagtgctgagccctgtctgggcccactcaatggcctgcccttctttctgcatgacaacttaactgttgcagaccaagaagcactttctagtttacctcctcatctatgggcaacccataaggatgacactggtctggtggtatgtcctccatacgaagccactttgaaacataatgtccccgtcagcataaaacagtatccactaggtgaggaaaaggcttcggccattgattcaataatcgcctcctttttgaaacaaggggtcctcagaccctgtcaaagcccttacaatacccctgttaaccccgttccgaaaccaaatggttcttggcggttcacacaagatttacgaaaaatcaatgaggccgtaataccaataacgcctgttgtgcccgatgtaccaaccatcatgtctagtatcaattgtacacatgatactttttctgttgttgacctctgttctgcctttttcagcattcctgtagaagagcagacccaacctctttttgctttcacccacagaggaatccaatacacctggaccaggttaccccaggggtatgtcgacagtccagcctacttttctgcagtagtacatgattgtttacaatcattanatatgcctgaaggggctgctgtccaccaatatgctgatgacctcttagtcacngcacaaaactacgatacgtgcaagcatgcaaccatgcttctgctaaatcatctggcacactgtgggtttcgagtttccaaagagaagctacaattttgccaagacaaggtaatatatttaggtcatcatttgtcaaaaggncagagatcattgacaacagaccgcattacanctattgccacacaccctgtccccaaaacaagacagcaactactgtcgtttctgggtttggtcaattattgtaggcaatggatccctgattgttcgcattatgatcacattctccgctcatgtgtagagcacaaagagccactaacctcgcccgtcatttggacggatgaggctcgggcagcttttcatgctctaaagaaggctatttgttctgtcccagctttaggcttaccaaattatgaccttcctttccatttgtatgtccataatgacgacagnaccattgcaggagtgttggcccagcaacacgggggtggcatgagacctgtcgcctacctgtcaaagactttagatatagtggctcggggcctccccagatgcttacaagctattgctgcctgtgcagtcatggtacaggatgcagagaaaattgttctctcgcatcccctgattttgcattcaccacatcaggtnacncatgtattgaataacctcaatacacagcatttatcggcccagagaagggctggttatgaacacgttttgacttctactgccaatctgactgtgaaaagcctgactggccatagtcatattgccgctgccctccatcacatgttatcaccatttgatgatgaactgttggttgaacaacatgactgtttggaggaaatcaatgctgtctgctccatgagatctgatttggctgaaagaccactacaacatggagaagtcatttttgtagatggctcttgttcaaagccacaagatggcgtctacctctgtggttatgctgtgtgtgcactgcctgatcaagttatagaagcccgccctctaccttttaagtcngcacaagcggctgaactgtatgccctcactcgagcctgcatattatatgctgacaaaccagttacaatctacacagactctagatatgcctttggtgtggcacatgattttggcgccatctggcaatctaggggatttattgccgctgacggtagaccagtgtcccatcataccctcataactgatttaataacggcctgccatcttccctcgcaactggccattgttaaaactcagggccattcgaaggaacacactgatgaagccaaaggaaacgctctggctgaccgacatgctaaattagcagcacaacagcctttgcctgaggactctatgcacgtttccttgttgtctacaacctcggcttcggggatgctccctgacattgatttggctatgttacaagcatcagccactgacgaggataagtccttctgggacgccttttcttccacgtttgatgaaaagatgggtctatggcacgacaacactggtcgcctatgtctcccacatgtggcactgtcattcctcgtccacgaatttcatggtgtcactcatcgtggacgaagaggggtacatgaaacgatgcgatctttgttttgtgtcccaaaactagaaaccaccattaataacatacttgacaaatgccttatatgcgctcaatataatgtatcaaagcctgtggcacagcaccaacatttaccaagaccaatcacacctttttctgaatggcaagtagatttcacgcatatgcccaagaggggaccgtttaagtatctactggtttgcgtggataaattttcaaaatgggtagaagcttttccctgctcaagggaaaatgcaaaggtggtaacacagaaattgatctctgaaattatacctagatatgggatcccacaaagtatcgattcagataaaggaacaccttttacatcaaaggtaacgcaacaattggcaactgaattaaatataaattggcgtttccacataccctatcatccacaatcatctggatttgtggagcgaactaacagaaccttgaaaggaaagataaagaaggccttaagacaacacggtcataaagattgggtaaaaattttaccaatagtactagcagatttgagaatgacaccacaagcaaatttggattctttatcaccatatgaggtggtcatgggaagacctttccctatcccatggcaagggggaattatgggagtgggtattgagctttctaaccacatgtcagaattctcagcggccctaattcagaaacttaatcagtattgggaaagggtaacaaagaaacaccctgaaattccacttgaggcagcacaccctttccagataggggacaaggtgctaataaaagatataaaaccccagaaagatttaactgaccccaaatacgaagggccagctgaggttctggctgttacacgcactgctgtattaactgatctttttccacagtggatccatggcaccagagtgaaaccattgaagtaaatgtctatgatatgatattaatagtttttgttttgcagactacttctactgataaccctactgggactgacacaggcccacactgaagtacacaacttattctggcagtatgctaactggactgcacgacagacaaccaatgagtcatgtgttgtctgccaagaagtgttctcctctgctgtgactatatccttgaaacctttgccttttacatgtactaaacttgctttttgtacaaatgctttgggagatatttatgagtggcgccccacatgtgtttctaacaagaaaacatgggagcctctttgcagatcaactagcagaaagaatcattctgttgtaatacctacacctagaactatgggtttgaatattttgttgacgaaaccccaggggttcactttttctttttgctttaatgggacaaatggaggtaatgtatccaccttaagagctaaagattgtaatatagtaattggcgaaagggatcgattttcgggggtatatttaccgtggcgaaagaataaaaaatatagttctctactaagtgtttgtccacgttacatcccaggcacctgtgaactgaacaaacttaaatgtgctaatatcacaaatgagacagctgtcacggcatgttacaacctgaacaacacatactgtcaacgcagcaatgtaacttgtgtccccacttggccgagacaggatgcggtcctggccgatgactggtactggtattgtgggggagaaaccatcttcaacacttaccccaccaattggactggtctttgtactgtgatccaattacaacacatggtcactgtcatgcatcttgccagacaatccggaagggaacggaggtcagttccccaggacgacgtacccgacgaacaccgtatgagatcacactggactagattctgggaggctatgattcccagttttggcgtggcagatgccttaaaacagcaagagatcatgcattatagactggcctcttttattaacagtaccacggatgccatttctggactaagagaggagatgagagctctgagactaatgactatgcaaaacagactggctctggacatgctcttagcggaaaggggcggggtctgctccctggtcggagagagccaatgctgcacttacgttcccgcggatgatgaggatcttggacgagtaggacaagctgtaaaggcgatgaaaaggatatcatcacaggtgtatgaggatgagatgaaggaaagaaattataattggggatggggatttttagaaagcctgtttggatcattggctccatatgtctcaatggtagtaccggtacttattattttcttatgtgtatgtatttttggtccatgtcttctgagatgttttatggaacgaatgtataggatggttaatgccttaggtaaagggtatgaacatttagctatgaatggaactgagggtaaccatttaacaaatagagtttatgagaatatggtatgatccaggctcttgtaanaaacagagcctggaagaggggat",
+  "length_bp": 6893,
+  "sequence_length_bp": 6893,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "5381..6851",
+      "start": 5380,
+      "end": 6851,
+      "qualifiers": {
+        "product": "ERV4_DR_env",
+        "number": "1",
+        "note": "[Danio rerio]",
+        "translation": "FLFCRLLLLITLLGLTQAHTEVHNLFWQYANWTARQTTNESCVVCQEVFSSAVTISLK"
+      },
+      "label": "ERV4_DR_env"
+    },
+    {
+      "type": "CDS",
+      "location": "251..1763",
+      "start": 250,
+      "end": 1763,
+      "qualifiers": {
+        "product": "ERV4_DR_gag",
+        "number": "1",
+        "note": "[Danio rerio]",
+        "translation": "MGGSYPKPEIGEGPKDWMYRCGWGYYTNPWLDNLAGWTEAQAMRPYPRDGSFDPHVLK"
+      },
+      "label": "ERV4_DR_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "1766..5354",
+      "start": 1765,
+      "end": 5354,
+      "qualifiers": {
+        "product": "ERV4_DR_pol",
+        "number": "1",
+        "note": "[Danio rerio]",
+        "translation": "GSPQSPEPPNATMLSTSIISVKGQEPATLPVEVQGKMYTFLLDSGATRSSFGGQYEGP"
+      },
+      "label": "ERV4_DR_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "ERV4_DR-I"
+  ]
+}

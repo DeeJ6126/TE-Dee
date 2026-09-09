@@ -1,0 +1,47 @@
+{
+  "accession": "DF000000577",
+  "name": "LTR73",
+  "description": "LTR73 (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR73"
+  ],
+  "species": "Primates",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 572 BP; 157 A; 166 C; 111 G; 137 T; 1 other;"
+  },
+  "sequence": "ttgttacccggtgtaatgcctaccgcgtgacatagctgaatttctaccccgccctaactctgcttatctttaagaaacaggacgcctgcgataaaaagttccctttgtaaccagaccagctgagactggttagaaccaagatagccgaccaaatgacttcaaaaagacctcaggcttcattataatctcatttccatgctaaatgacactcccaccagcgccatgacagttgacaatcgccatgacaatgaccggaagaagccataaaaggacaaaaaggaaggcggcactccggttccgagaagttcnccgcccatttccggaaaagacatgaatattcctcccctcgcttttaatgcccaaccccttcattagagaaaccctatattttaaccccctcacccctcactagtcgagaagttgatttgtgagccacgctcccgcttctcaattccatggccatcgaataaagcctgcactgcttgacgctcactttcggtttcgtgtattggcttcgcgacaccgaacagggaaagaccccatcttttgggggaccggctttgtcggtaaca",
+  "length_bp": 572,
+  "sequence_length_bp": 572,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR73"
+  ]
+}

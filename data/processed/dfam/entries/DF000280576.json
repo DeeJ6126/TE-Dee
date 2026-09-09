@@ -1,0 +1,47 @@
+{
+  "accession": "DF000280576",
+  "name": "ScaAqu-1.157",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Scalopus aquaticus",
+  "display_classification": "DNA/PiggyBac | Scalopus aquaticus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Talpidae",
+    "Scalopus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 212 BP; 65 A; 36 C; 44 G; 67 T; 0 other;"
+  },
+  "sequence": "cacattgtatgcgggaaacgtatttatacgttttacgttgactggtagtagagcgcgggacacgtattaatacgttttttatagactagcggtagaatgcgggtaacgtataaatatgtttatttttatacttttttttatacttaaaaaattagcaaaaatggcccgcgccacctgttagcgcgcgataaaaactacccgcaaacaatgtg",
+  "length_bp": 212,
+  "sequence_length_bp": 212,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279186",
+  "name": "MyoCoy-1.1",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B4"
+  ],
+  "species": "Myocastor coypus",
+  "display_classification": "SINE/B4 | Myocastor coypus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Myocastoridae",
+    "Myocastor"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 239 BP; 52 A; 73 C; 81 G; 33 T; 0 other;"
+  },
+  "sequence": "gggctggggagatagctcggcggtctaagcgcctgcctggcaagcgcaaggacccgggttcgatccccggtaccgcatgccgtgccggccccggaaccccgggcgcgccgtgccggccaccgaaaccgggcgtggtggcgcacgcctgtaatcccagcgctggggaggctgagacaggaggatcactatgagtccgagctgcgtagcgagaccctgtaccaaataaataaataaataaa",
+  "length_bp": 239,
+  "sequence_length_bp": 239,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

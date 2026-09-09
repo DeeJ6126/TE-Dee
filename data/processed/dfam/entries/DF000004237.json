@@ -1,0 +1,46 @@
+{
+  "accession": "DF000004237",
+  "name": "AFROSINE-1_ChrAsi",
+  "description": "tRNA-RTE SINE element",
+  "keywords": [
+    "SINE/tRNA-RTE"
+  ],
+  "species": "Chrysochloris asiatica",
+  "display_classification": "SINE/tRNA-RTE | Chrysochloris asiatica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Chrysochloridae",
+    "Chrysochlorinae",
+    "Chrysochloris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 184 BP; 50 A; 49 C; 50 G; 35 T; 0 other;"
+  },
+  "sequence": "tctggtagcgtagtggttacgaatcgggctgcgaaccgcaaggtcagcagttcgaaactaccagctgctccgcgggagaaagatgaggctttctgctcccgtaaagatttacagcctcggaaaccctgtacagggtcgctatgggtcggaaccgactcgacggcacttaacaacaacaacaaca",
+  "length_bp": 184,
+  "sequence_length_bp": 184,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

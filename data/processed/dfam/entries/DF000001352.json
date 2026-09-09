@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001352",
+  "name": "CELE2",
+  "description": "CELE2 nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 325 BP; 103 A; 62 C; 59 G; 101 T; 0 other;"
+  },
+  "sequence": "tattacccagacgcgaaattttgcgatttttgcccaaaaatacggtacccggtctcgacacgacaaatttttgttaaatgcaaaaaggtgtgcgcctttaaagagtactgtaatttcaaactttcgttgctgcggaattttcatcgatttttcaaatcaagtttttaataaataaaatcgatgaaaattccgcagcaacgaaagtttgaaattacagtactctttaaaggcgcacaccttttcgcatttaacaaaaatttgtcgtgtcgagaccgggtaccgtatttttggcgcaaaaatcgcaaaatttcgcgtctgggtaata",
+  "length_bp": 325,
+  "sequence_length_bp": 325,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CELE2"
+  ]
+}

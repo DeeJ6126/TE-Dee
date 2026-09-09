@@ -1,0 +1,47 @@
+{
+  "accession": "DF000281197",
+  "name": "TupTan-1.25",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Tupaia tana",
+  "display_classification": "SINE/tRNA | Tupaia tana",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Scandentia",
+    "Tupaiidae",
+    "Tupaia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 138 BP; 22 A; 42 C; 36 G; 38 T; 0 other;"
+  },
+  "sequence": "ggggccggcaagtggcgtggtggttaaaggcgctggactcccacatggccgaccacggttcaagtctcggacctggtggcttgctttctcacttcctctctctctctctctctgtctctctctgatcaaactggaaaa",
+  "length_bp": 138,
+  "sequence_length_bp": 138,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

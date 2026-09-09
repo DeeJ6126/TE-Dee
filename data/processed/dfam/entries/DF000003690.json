@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003690",
+  "name": "LTR1_DR",
+  "description": "Long terminal repeat of an endogenous retrovirus from zebrafish",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR1_DR"
+  ],
+  "species": "Danio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 848 BP; 96 A; 205 C; 211 G; 328 T; 8 other;"
+  },
+  "sequence": "tgtcagggttctgccactctggtcttgtaaattcttgttttggtggcagagtccggacactagctctgtctngtcctgtttctgtctctgtgtgcgcgcgcgccgtcgtgggtgtacgcagagcgtgcgcgctcccgcttgatgcggccgcgcgngctctgcgtgcctcggacgcgcgctcttgtactcgtgtttgtgttttgttctgtcngcagcgcgctgtttcattctcagcgtctcngtctagttggtttcggttttggtcggcgctgggatgaagcatgcgcgttgcgtatgtgtgagcgcacggtaaggtgttcatctatcgtgtgctcgtgtcttgcgtctnttgtcaaagcacgtggctcggtgtttacattgtggtcacgtgcttttgtcgtgtgcttcagtgttgtgcttgtgttgtcatgaacacgcggttaatgagttctctcattggctgcgtgttcttgtcctgttttatgtgagcgcatggcttgtgttgtctctctgtgtcatgcgctctcccgtctattgtctagtcccaccctccttgttaacccattattagttnattatgttcacctgtttgttaatttactttctgctttatantcccctcatgtctgctgtcctgtgccagttcgtcgtcgatgttgccctgtcctgttgtttccagtcctgntttgtcctgccagcccagtcaagtttgtttgtgttttgttttgttaatgttttccccctcggggtagtttgttttgccttttatttttatttttattattaataaatacccatatttttctgcacttgagtcctcgctcctttttccctcaccgaccgtgaca",
+  "length_bp": 848,
+  "sequence_length_bp": 848,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR1_DR"
+  ]
+}

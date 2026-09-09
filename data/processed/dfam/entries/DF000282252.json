@@ -1,0 +1,53 @@
+{
+  "accession": "DF000282252",
+  "name": "MusPah-4.100_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MusPah-4.100_LTR"
+  ],
+  "species": "Mus pahari",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus pahari",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae",
+    "Mus",
+    "Coelomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 468 BP; 119 A; 101 C; 118 G; 129 T; 1 other;"
+  },
+  "sequence": "ggggtggattgtagtggctattcctggttgtcaacttgactatatctggaatgaactacaatccagaattggaaggctcaccngtgatcctaatctggaggctgggagatacaagtttctgacctggatcttggcatggagatcttgaggcatagtggctatgaatcccagagattaagacagggagatctctgagttcaaggtcatccgggatcagaggtggtggcacacacctttaatctgggccacaccttctgctggagacctacataaggacattggaagaaggaagattctctctcttcttcctgcttgccttgtgggactgagcaactgctagatccttggacttccattcacagctgctgctgaccattgttgggagttggactacagactgtaagtcatcaacaaattcccttactatatagagactatccataagttctgtgactctagagaaccctg",
+  "length_bp": 468,
+  "sequence_length_bp": 468,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

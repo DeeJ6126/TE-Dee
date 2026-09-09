@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281986",
+  "name": "FukDam-5.19_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "FukDam-5.19_LTR"
+  ],
+  "species": "Fukomys damarensis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Fukomys damarensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Bathyergidae",
+    "Fukomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 403 BP; 90 A; 92 C; 105 G; 111 T; 5 other;"
+  },
+  "sequence": "tgttatggcttgtgtctagatgtccccccaaagcctcatgcggtcataggtggggctttttcagaggtggctggatctagagtgtgtgatgctgggattgattcatggtgcaatgctaggatcaagggcactaggattaagggtgtgagtgctacccgccctaagtagcctggataagatanaaggggcagaaagangctgtnanngtcccttgttgctttgctaccttctgcccgccatgaactgtttctcctctgcgatgcccgtctgccatgccaccctgccttggagccagccgattatggactgaaacctctacaaactgtgagctaaataaacctttcctcctttaactttgggtgtcgggtattttgtctcagcaacgagaaaagtaactaagaca",
+  "length_bp": 403,
+  "sequence_length_bp": 403,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

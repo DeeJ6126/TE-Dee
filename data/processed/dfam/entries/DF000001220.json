@@ -1,0 +1,44 @@
+{
+  "accession": "DF000001220",
+  "name": "EUTREP7",
+  "description": "Conserved repetitive element present in placental mammals.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EUTREP7"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 392 BP; 117 A; 83 C; 63 G; 125 T; 4 other;"
+  },
+  "sequence": "tgtaaaagaaaaattgtcccaaacctggtctgggacagaacctttttgcgtgatgtaattcacaacctccttctgggaagaaattagcattcctgataaaatgcttaagcaattttctgataaactttaatgggattaagacttgttctgggaaaccagtcacccacccagccgactgtcagtcaagagtctagtgacctttaaccagacattcttttctttttgtatctagtctaacaatgattatctaaccattctcttttcctataaaatgtccctaccaagagngaatctttgaattggcctnctagaggccttttcccttgcagcaagnttgnaataaaactttgacacgtgctcataactaaattgtctgaaaagtttctttaaca",
+  "length_bp": 392,
+  "sequence_length_bp": 392,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "EUTREP7"
+  ]
+}

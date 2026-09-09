@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001449",
+  "name": "PAL3A_CE",
+  "description": "PAL3A_CE is a nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 150 BP; 59 A; 21 C; 22 G; 48 T; 0 other;"
+  },
+  "sequence": "tggggttattcaagtagtgtcggaaaattaaaaagtgtagaaaaattacgtcacaactgtattcaagtacataaaaacatgtatttaaatacatttgtgacgtcacaaatgtatttaaatacattttgctacattacttgaataacccca",
+  "length_bp": 150,
+  "sequence_length_bp": 150,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PAL3A_CE"
+  ]
+}

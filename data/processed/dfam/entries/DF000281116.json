@@ -1,0 +1,47 @@
+{
+  "accession": "DF000281116",
+  "name": "TriMan-1.275",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "TriMan-1.275"
+  ],
+  "species": "Trichechus manatus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Trichechus manatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Sirenia",
+    "Trichechidae",
+    "Trichechus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 415 BP; 82 A; 117 C; 94 G; 116 T; 6 other;"
+  },
+  "sequence": "tgtggggatatatgccatttaaacatggctgcactattgacaactgcagcccccacaggcctctatgctgcacacgacatgttggagacttgtcnccgacgngnnagagactngncacgacttgttttcccaaacctattgtcctgttactgattggcttgtttacctgaattccttctcccttgcccgaaacttattgttactcacccaaagcccattgttctgttatttgcttcactgcttgctgtattgactataaaataaactcctgggactgaagccggggttcgactcctcagagtgaccctcctggccccacttctctgtaagagttgtggcattggttattgtctccgccgccccgacaaccgtcgccgctgcgacagatggtgccccgtgtgaggggctgcgacag",
+  "length_bp": 415,
+  "sequence_length_bp": 415,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

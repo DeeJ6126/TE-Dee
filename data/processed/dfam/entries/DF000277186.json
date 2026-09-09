@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277186",
+  "name": "GliGli-1.41",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Glis glis",
+  "display_classification": "SINE/Alu | Glis glis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Gliridae",
+    "Glirinae",
+    "Glis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 183 BP; 25 A; 64 C; 50 G; 44 T; 0 other;"
+  },
+  "sequence": "gccgggcgtggtggcgcacgcttgtaatcccagtactttgggaggcggagaccggaggatccgggttcgcggccaacctcagcgcgcatgcgcgcgcgcgatctctctctctctctctctctctctctctctctctctctacctagtgaggccctccgcaacttcgtgagacccggtttcaaa",
+  "length_bp": 183,
+  "sequence_length_bp": 183,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

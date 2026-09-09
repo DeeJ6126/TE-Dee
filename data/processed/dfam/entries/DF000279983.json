@@ -1,0 +1,51 @@
+{
+  "accession": "DF000279983",
+  "name": "PerLon-1.3",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Perognathus longimembris pacificus",
+  "display_classification": "SINE/ID | Perognathus longimembris pacificus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Castorimorpha",
+    "Heteromyidae",
+    "Perognathinae",
+    "Perognathus",
+    "Perognathus longimembris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 202 BP; 60 A; 44 C; 62 G; 36 T; 0 other;"
+  },
+  "sequence": "ggggctgggaatgtggcttagtggtagagtgcttgcctagcatgcatgaagccctgggttcgattcctcagcaccacataaacagaaaaagccggaagtggcgctgtggctcaagtggtagagtgctagccttgagcaaaaagaagccagggacagtgctcaggccctgagttcaagccccaggactggcaaaaaaaaaaaa",
+  "length_bp": 202,
+  "sequence_length_bp": 202,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

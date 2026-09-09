@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000251",
+  "name": "L1M6_5end",
+  "description": "5' end of L1 retrotransposon, L1M6_5end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Eutheria",
+  "display_classification": "LINE/L1 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2515 BP; 963 A; 476 C; 548 G; 493 T; 35 other;"
+  },
+  "sequence": "aacttccggtttaaaatggcatctggctagcagcccctgatgcagcctctcccaacttcccactaaaatacctatgaagacacagaaaaagacgaaaactcacaacaacactgaaaactaagactgacagncaacctattgccagaatctgggaggaatttccactaactacaaggccgatggaactggattgagaaaaancaatcaggtcagcccatggccaccttgcttcatgaaacagaacgaaccctgcgcctgaaagaagataggaagacgcttcgtccctcccccactgtctgtcccctggctcagagacncagggtctgtaccaaccagaaaactgggcagccgtccctctactgcacgggtgctgctttttgaggcagccagagtgctgtccccatccctcccacatctttctacatccattcagagactgcaactcccagaaaacaacngggcaggaaganggggggggactggcgtggtggcacattgcatcctgggaggtgtagtccccacaagtaaagcgctgtaggtgggggcaagagacaggaagagccctggtagcagtgcatgctggggattgtagtttttcatgtactccatcggttcagagtgtcagagaaccaggcagtgggggtaggagaagatcccacctcagtccagcagagccgcactagatgaangcctgctagacactgggaattgggctaggagctgtgcacatcaacctgccctccagctgtagatctgagaaggggattcgaccagcacccaagtggacagtgagtagggccaagggcaatccacacaccctgtctgttggcaaacaccgggtctggatagatctctcctcgttcgaggatgagtaaacagaaaaaaaancaacatggggcctatgaaaaatactgcagaacaagggaaagggaacatcatcctgaagactcagaggaagagcatacctctgaaaatgatttactacaggaaccagaagaaaattttagaaaactgtttggcatcctcaataggatgcaagaagacatggcctctatgaaacaggaacagagaaagcgaataaaataaaaagcaatgaggatgaaaaaanacaaatgagatgaaaagagaagatgaaannaggaaagantgcaaggaaactaaaaatgcaatagcagaattaaaatccgcattggaggcagtaaagagcagaattgacactgcagaaaatcgaatcagtgatgtggaggacaaacttgagaagctctcccagaatgcagaggaaaaggacaaagagatgaaaatgagagagaaaatgatagatatggaggacagagaacggagatccaacctangaatnataggtgttcctgaggaagaaaccagaacaantggaacagaagcaataatcaaagacataattgaagaaaactttcctgagctgaaaaaagacctgagtntgcagattgaaagggctcaccgtattccaggcaaaatnaatgaaaagagacccacatctagacatatcctggcaaaatttttgaattncaaggataaagaaaaaatcctacaagcatccaggcagaaaaaacaggttacctacaaaggaataaaaatcaggctggcctcagacttctctgcaacactaaatgccagaagacaatggagcaacgtctacagagttttgaggggaaaaggttgtgacccaagaattttatacccagccaagttgtcnttcatgtgtgaaggcaacagaaagacattctcagatatgcaagggctcagaaaatataccacccatgtacccttcttgaaaaaattacttgaagatatactccagccgactgagagatgaatcaaaattaagaactcaagaatggggaagtcatggtataaaaggctggcagtgagcactgaaaccagttaaacatagagttaagtctaaataattgttgtaaatatggttacaaaactgaatgcaaatgtcaaaaataattcttgaangagaagatatataatataaaanataatntaataactggatctaaaatcccagattatattaacaaagaccaggaagtgagtgggaggaaatnagggagaaaataaagtatgctaaattcctcatcttanataggggggantcaaaagatactatttcattcttgactttgataattagagaaatataggttaaagaatgtttttgaaaaacttaaaggtaaccactagtagaatttaaaaaacagaatgtataccttccaaancactggagaagataaaanaaaacaaaatataanccatatagcaaanaagagaaaacaaangaaannacaagaagcatntaaaaataaaagcanaaagnaagatgacaaanataagaccaaacatatcagttatgacaataaatgtaaatgggttaaactcccctattaaaagacaaagactctcagattgggttaaaaaacaaaatccaactatatgctgtttacaagagacacacctaaataaaagatac",
+  "length_bp": 2515,
+  "sequence_length_bp": 2515,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1M6_5end"
+  ]
+}

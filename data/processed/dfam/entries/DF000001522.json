@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001522",
+  "name": "SINE1_CE",
+  "description": "SINE1_CE is a putative SINE-like retroposon",
+  "keywords": [
+    "SINE/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "SINE/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 261 BP; 71 A; 55 C; 46 G; 89 T; 0 other;"
+  },
+  "sequence": "attccgtgattattttcattccgtgattattttcattccgtgattattttcattccgtgattattttcactcgggaatcgctcgcccactatgggggagtctacgcaaggacaacgcaaggacaaggacaacattctaatggaatggaaacgattgcccgactgcaccaattctagttcaagcgaacaatgataacttttgtattctgtattccttcacgtctcccagcgagcgtaataaattattattattattattatt",
+  "length_bp": 261,
+  "sequence_length_bp": 261,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SINE1_CE"
+  ]
+}

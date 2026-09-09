@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001432",
+  "name": "LTRCER1",
+  "description": "LTR of retrotransposon CER1, gypsy/Ty3 group.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTRCER1"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 492 BP; 77 A; 101 C; 96 G; 198 T; 20 other;"
+  },
+  "sequence": "atgtcgggttttacccgtttttctcttaattctctccgattagctcaaanggtaattccagacctcaaatctttattcaaaaatatcttttgcgcaagcaaagatgactgacgcactctcgcgctggcgcacttctcgacgctggcgcgaaatcagntttcgtcatcgtttttngaggatttttcctcattcttggnttttnctcggangtggcgtgttgacgcgctgctagagccccagtttcagtngttttggcctgttnttggcttntttttatngnntttcatcgnttttcttggntttccggcgctctgcctgttttcttgaaggtttcngntttngtgttgattcttttccggttccttgatttttgtatacttttcctctttctcncaataaattcatttgngagttnttaaaaatcgtgtttttctctttcttttggtctcgtttactggattggattcaagttctgtggccaggaacttgact",
+  "length_bp": 492,
+  "sequence_length_bp": 492,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTRCER1"
+  ]
+}

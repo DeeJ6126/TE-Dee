@@ -1,0 +1,52 @@
+{
+  "accession": "DF000280294",
+  "name": "PygNem-1.30",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Pygathrix nemaeus",
+  "display_classification": "LINE/L1 | Pygathrix nemaeus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Colobinae",
+    "Pygathrix"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1450 BP; 589 A; 294 C; 279 G; 286 T; 2 other;"
+  },
+  "sequence": "gctggaggcatcacgctacccgacttcaaactatactacagggctacagtaaccaaaacagcatggtactggtacaaaaacagacacatagaccaatggaacagaatagagaacccagaaataaggccgcacacctacaaccatctgatcttcgacaaacctgacaaaaacaagcaatggggaaaggattccctattcaataaatggtgctgggataactggctagccatatgcagaagattgaaactggaccccttccttacaccatatacaaaaattaactcaagatggattaaagacttaaatgtaaaacccaaaactataaaaaccctggaagacaacctaggcaataccattcnggacataggnacgggcaaagatttcatgacgaagacgccaaaagcaattgcaacaaaagcaaaaattgacaaatgggatctaattaaactaaagagcttctgcacagcaaaagaaactatcaacagagtaaacagacaacctacagaatgggagaaaatttttgcaaactatgcatctgacaaaggtctaatatccagcatctataaggaacttaaacaaatttacaagaaaaaaacaaccccattaaaaagtgggcaaaggacatgaacagacacttttcaaaagaagacatacatgcggccaacaatcatatgaaaaaaagctcaacatcactgatcattagagaaatgcaaatcaaaaccacaatgagataccatctcacaccagtcagaatggctattattaaaaagtcaaaaaataacagatgctggcgaggttgtggagaaaaaggaacgcttatacactgttggtgggagtgtaaattagttcaaccattgtggaagacagtgtggcgattcctcaaagacctaaagacagaaataccattcgacccagcaatcccattactgggtatatacccaaaggaatataaatcattctattataaagacacatgcacgcgtatgttcattgcagcactattcacaatagcaaagacatggaatcaacctaaatgcccatcaatgatagactggataaagaaaatgtggtacatatacaccatggaatactatgcagccataaaaaagaacgagatcatgtcctttgcagggacatggatggagctggaggccattatccttagcaaactaacgcaggaacagaaaaccaaataccgcatgttctcacttataagtgggagctaaatgatgagaacacatggacacatagaggggaacaacacacactggggcctatcggagggtggagggtgggaggagggagaggatcaggaaaaataactaatgggtactaggcttaatacctgggtgatgaaataatctgtacaacaaacccccatgacacaagtttacctatgtaacaaacctgcacatgtacccctgaacttaaaataaaagttaaaaaaaaa",
+  "length_bp": 1450,
+  "sequence_length_bp": 1450,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

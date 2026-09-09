@@ -1,0 +1,53 @@
+{
+  "accession": "DF000002010",
+  "name": "RLTR13D",
+  "description": "Long terminal repeat of retroviral-like element.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR13D"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1004 BP; 233 A; 232 C; 233 G; 277 T; 29 other;"
+  },
+  "sequence": "tgccacacccactccagtgaagtctgcgtgacaagcccaaaagcttggncgcagtcctgaggcaaaaagtttcacggaaacttagtctcctggagccttggcatcccgtagcacggatgctccagatttgtccttgcgntagtcggtgaatggntctgtgtgctttctttcagtattgttttattataggtgcctccaaggaatgatttgacaaatagctaagttagattgaactttgcttcctggccttcaccaatgtcctaggcagtccttgagccgaccctgggcttggaatttcgtaagaatgttactcattcagacgaaatgcctccagtgttgatagagagatagtgaaagaaatcaggcattacagtttactggataggagctagaaatctcagggctagttcaacaaagtaaacttagaattctcattacagncatgnatggcagcctacattacataatagtagaaagngnntgtnacttagaataanagccgagtcactcccatacgcaggaatttacaatggcctagggagnagatcgggctgtggttttagagtattgcattattcatgagaaggttagctagagcagaactccctaattagaaccatggcntgggcgtgaaagcccttgccctgggngtgtaaagccctcgcacctggcttctaagantagctgaccttaggtggggctgnttttgtcccagttgtnaacactgcccggttcctgccancttttatgtntgcattcctctgttttgtgtaaganncattnngnatccggtaacctcattgtaccttgccggtgtgtcacctaacttccctgttttcttctgtatnaaaagtctgatgctcgatttgacaaattacattcagatncacactctctctgtgtccgtgtctgtttgtcactcnccgccgactccntgcccacctgnntaccggaaccctgattcccacgggttgaggggggccgactgggcccggtccgcggca",
+  "length_bp": 1004,
+  "sequence_length_bp": 1004,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR13D"
+  ]
+}

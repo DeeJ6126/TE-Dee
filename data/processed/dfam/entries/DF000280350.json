@@ -1,0 +1,52 @@
+{
+  "accession": "DF000280350",
+  "name": "RhiBie-1.23",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Rhinopithecus bieti",
+  "display_classification": "SINE/Alu | Rhinopithecus bieti",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Colobinae",
+    "Rhinopithecus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 305 BP; 84 A; 80 C; 97 G; 44 T; 0 other;"
+  },
+  "sequence": "ggccgggcgcggtggctcaagcctgtaatcccagcactttgggaggccgagacgggcggatcacgaggtcaggagatcgagaccatcctggctaacacggtgaaaccccgtctctactaaaaaatacaaaaaactagccgggcgaggtggcgggcgcctgtagtcccagctactcgggaggctgaggcaggagaatggcgtgaacccgggaggcggagcttgcagtgagccgagatccggccactgcactccagcctgggcgacagagcgagactccgtctcaaaaaaataaataaataaataaa",
+  "length_bp": 305,
+  "sequence_length_bp": 305,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

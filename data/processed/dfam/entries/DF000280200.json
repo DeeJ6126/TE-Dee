@@ -1,0 +1,52 @@
+{
+  "accession": "DF000280200",
+  "name": "PsaObe-6.58",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PsaObe-6.58"
+  ],
+  "species": "Psammomys obesus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Psammomys obesus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Gerbillinae",
+    "Psammomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 527 BP; 129 A; 116 C; 152 G; 130 T; 0 other;"
+  },
+  "sequence": "tgtcgggagccgtgactccaagcggccggctttgatatttaaatctcggtggagagatggcttttagcaggcctttactaatggcagagaacttgcaagtccatctccttttgtttgtgacagcaggtgggatagcttgtgagggtcacacctcttcctctagctccttgtgcaaattaacctattgttctgagatgtttctactctggctcagaaactctacaataaaaagacaggccgacagttacggcaagagaaggctggagacaaggaaagaaggctggagacacaagggaggaggaggacagaaagaaggctggagacagagaagaaggctggaggcagaggaggcaggcagagacttgaggcttgctgctggcgctgcttgctgcagcagcctgccttttgccgtggctgtcgagtctggacctttaaaaagtttcctgtgtgctgtgtgtttattttattaattttaatcctcacgcccaactcaagaaccgttcgactctgcccggctggccccggca",
+  "length_bp": 527,
+  "sequence_length_bp": 527,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000281036",
+  "name": "TonSau-1.3",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Tonatia saurophila",
+  "display_classification": "SINE/tRNA | Tonatia saurophila",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Phyllostominae",
+    "Tonatia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 231 BP; 39 A; 67 C; 64 G; 60 T; 1 other;"
+  },
+  "sequence": "gccctggccggtgtggctcagttggttggagcgtcgtcccgtanaccgaaaggtcgcgggttcgattcccggtcagggcacatgcctaggttgcgggttcggtccccggtcggggcgcgtacgggaggcaaccgatcgatgtttctctctcacatcgatgtttctctctctctccctcccttcctctctctctaaaatcaataaacatgtcctcgggtgaggattaaaaaa",
+  "length_bp": 231,
+  "sequence_length_bp": 231,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

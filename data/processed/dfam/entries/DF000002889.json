@@ -1,0 +1,51 @@
+{
+  "accession": "DF000002889",
+  "name": "DNA13TA1_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/TcMar-Tc1 | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 318 BP; 81 A; 66 C; 58 G; 112 T; 1 other;"
+  },
+  "sequence": "ttgaccttattcttcgcgtacgagcgggcgcagccattggaatctttttggctcgagacttccggtctcattcacttccattgatttttagacgttaaaaacagctcgttatgctgcttgatgttgcaaactgatattttcttattatattattctactttttatgtatagtcatgaacacacttgtttgtagagcaagtagtttgaccgttttctgccgtttattattcctagtcatttctcccataggcaactgaatcggaagttctaaaacaatcgcaaaaacgagcgcacttccgcattgnagaataaggtcaa",
+  "length_bp": 318,
+  "sequence_length_bp": 318,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA13TA1_DR"
+  ]
+}

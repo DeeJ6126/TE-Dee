@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277601",
+  "name": "IniGeo-1.0",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Inia geoffrensis",
+  "display_classification": "SINE/tRNA | Inia geoffrensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Iniidae",
+    "Inia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 365 BP; 111 A; 117 C; 92 G; 45 T; 0 other;"
+  },
+  "sequence": "ggggcttccctggtggcgcagtggttaagaatccgcctgccaatgcaggggacacgggttcgagccctggtccgggaagatcccacatgccgcggagcaactaagcccgtgcgccacaactactgagcctgcgctctagagcccgcgagccacaactactgagcccgcgtgccacaactactgaagcccgcgcgcctagagcccgtgctccgcaacaagagaagccaccgcaatgagaagcccgcgcaccgcaacgaagagtagcccccgctcgccgcaactagagaaagcccgcgcgcagcaacgaagacccaacgcagccaaaaataaataaataaataaataaatttattaaaaaaaaaaaa",
+  "length_bp": 365,
+  "sequence_length_bp": 365,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

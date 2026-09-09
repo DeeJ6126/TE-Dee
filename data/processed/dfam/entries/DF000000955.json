@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000955",
+  "name": "MER92B",
+  "description": "MER92B Long Terminal Repeat for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER92B"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 636 BP; 150 A; 198 C; 101 G; 176 T; 11 other;"
+  },
+  "sequence": "tgacaatgttgaactttacctgagccctgtgntcctggaaaacagcganggttaagaaatccccccacccttttgtgttccgggaaacggcttactgcaaagaaccacccttccccatatgacttagataagactcacggatgncccccttgtttacctatgacaaggccagacacagaccctccaaattcccattctttgcctcataaatgattagctgaactgtttgtccccactgatcaatcggaacaaaatgcttgttaacncgncttgaccaaactttggttaagcttctctccttcccccaggcccctgaactttggcccaccctcagcctgagccagcatcanaatntnnaacagcccctcctgagaataggctggcctcagggtaaaacattctctgatctactctgatcncgccaccctttcatcccacttccccacacccggttctttctagccttgtttactcctccctataaaagaaaagccctttctgcctaacctttgagacgcttgcagatcttatggtcggagcgttctccctattgcaatagtccccctccccccnttgcaataatcctttcgaataaagtctctccttacctaagtccggatttgtttttatttgaca",
+  "length_bp": 636,
+  "sequence_length_bp": 636,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER92B"
+  ]
+}

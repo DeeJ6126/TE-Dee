@@ -1,0 +1,65 @@
+{
+  "accession": "DF000002826",
+  "name": "TDR1",
+  "description": "Danio rerio (zebrafish) Tc1-like element Tdr1 (a consensus).",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/TcMar-Tc1 | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1236 BP; 435 A; 201 C; 242 G; 351 T; 7 other;"
+  },
+  "sequence": "cagttgaaaccagaagtttacatacactgtataaaaaggcacataaccatttaaaaaaagtcagatgttaatgtgactaaactttttctcttttaggtaagttaggattatcaaatttgtttctgttntgcttaatagcagaataatgagagagatattttttgagaaattgttataacttttcttgaaagtcaagtttacatacaataagattattntgcctctgaaaaagctcagatgatggtgtcaaggttttggaagtttctgattgacaacatttgagttaattggaggcacaactgtagaatagtatttaaggaaaacctcaaacacactgcttccttgtgtgacaacatgggaaaatcaacaagccagaatcaacaaaaaagccagattacaatttgctaaattacactgggaaaagantaatttttggagacatgtcctgtggtctgatggaactaagattgaactgtttggccataatgaccagtgttacatttggaggacaaaggggaaagcttacaagcctaggaacaccatcccaactgtgaagtatgggggcggcagcatcatgttgtggggctgttttgctgcaggagggactggtccacttcacagcatagatggcatcatgaagaaagaacattatgtagaaatactgaagcaacatctcaagacatcagccaggaaattaaaacttggccacaaatgggtcttccaaacagaccatgaccctaagcatactgccaaattagttaaaatgtgctttaaggacaacagagtgaatgttttggagtggccatcacaaagccctgatctcaatcctatagaaaatttgtgggcagagttgaaaaagcttgtgcgagcaagacagccnacaaatctgactcagttacaccaattctgtcaggaggaatgggccaaaattccttcaaactattgtgagaagcttgtggaaggatacccaaaacatttgaccaaagttatacagtttaaaagcaaagctaaaaaaataccaaggaaatgtgtgtaaacttttgactgtctagaaattaataaaaaantctcnaaaaaaanttctctcattattctggcatttagcaaatgtaaatcatttaggtaatcctaacggacctaaaatagtaaacgtttagtatgatttaccatcagacattttttaaaaatggttatgttcctttttttagagtgtatgtaaacttctggtttcaactg",
+  "length_bp": 1236,
+  "sequence_length_bp": 1236,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "316..1033",
+      "start": 315,
+      "end": 1033,
+      "qualifiers": {
+        "product": "TDR1_tp",
+        "number": "1",
+        "note": "[Danio]",
+        "translation": "RKSSNTLLPCVTTWENQQARINXKARLQLAXLHWEKTNVWRHVLXSDGXKIELFGHND"
+      },
+      "label": "TDR1_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "TDR1"
+  ]
+}

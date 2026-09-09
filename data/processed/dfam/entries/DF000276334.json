@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276334",
+  "name": "DelLeu-1.211",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Delphinapterus leucas",
+  "display_classification": "DNA/hAT-Charlie | Delphinapterus leucas",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Monodontidae",
+    "Delphinapterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 633 BP; 162 A; 167 C; 165 G; 139 T; 0 other;"
+  },
+  "sequence": "caggggtccccaacccccgggccacggaccggtaccggtccgtggcctgttaggaaccgggccgcacagcaggaggtgagcggcgggcgagcgagcgaagcttcatctgtatttacagccgctccccatcgctcgcattaccgcctgagctccgcctcctgtcagatcagcggcggcattagattctcataggagcgcgaaccctactgtgaactgcgcatgcgagggatctaggttgcgcgctccttatgagaatctaatgcctgatgatctgaggtggagctgaggcggtgatgctagcgctggggagcggctgcaaatacagattatcattagcagagaggtttgactgcacagagaccataataaatcaattgcttgcagactcatatcaaaaccctatcagtgagtggcaagtgaaaacaagctcagggctcccactgattctgcattatggtgagttgtataattatttcattatatattacaatgtaataataatagaaataaagtgcacaataaatgtaatgcgcttgaatcatcccgaaaccatccccccccccccccccggtccgtggaaaaattgtcttccacgaaaccggtccctggtgccaaaaaggttggggaccgctg",
+  "length_bp": 633,
+  "sequence_length_bp": 633,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

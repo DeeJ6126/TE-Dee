@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001296",
+  "name": "LTR91A",
+  "description": "LTR91A (Long Terminal Repeat)",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR91A"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 983 BP; 223 A; 244 C; 215 G; 297 T; 4 other;"
+  },
+  "sequence": "tgtaacgtgtagcacacccagacagaaataagccttgttaaggcagcattctgtaaggggcgctgcttacctggttttgcccactctgggcaccagaatcttgactgcaatngtcaggtagggtccacccagtccagatatctatctataacaatacctggaggggttctttaactcgggactttatgaagacaacaaaaggattngttgagaatgactgaacccacactatggaatgagaactatatacagtttactatacagttaacttaagcataattatatacaacaaactataaatgatatacagtggggttctgatattaacttccaattcctcctcactaaggaattggtgaaaacccttagccaggtgtggctaagagaatngtctctgttctggtccggtccggatttctcttcttcttgcattgtccaagttctgctgatcctcttctgtgtgccccacgctgttcttgtcccacgccggtctgcgctgggatggtcgcttccttgtatcagggcccttattactatttgcagaaaattctcagtctctgcttatgcaattgctcaaagttcactttaagtaccgagtctttatcaattgtatttctaaggaggtttgcttccctccaatacgctctgcaaaatgcctgccgctagttacttattatcccgggaatggcttctctctctgtttgcgcggccctgcagctctctgtcctctaatctgagtgctctttgtctgctgcctctgtgttctgccacgcgctgcggcgatggggagggttntattccgctccttttggcgggaagagtaacttcctgattggggtccgagctgaaaacggatctcccattgggcagaaacatggacgccatgacacttcctgtgtaacaccattaaacatcccccctggctgcagcagctcggggttttactgtttaaccatttcatgcccactatcgtgtgggctaca",
+  "length_bp": 983,
+  "sequence_length_bp": 983,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

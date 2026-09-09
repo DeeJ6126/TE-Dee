@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276267",
+  "name": "DasPun-1.37",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Dasyprocta punctata",
+  "display_classification": "LINE/L1 | Dasyprocta punctata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Dasyproctidae",
+    "Dasyprocta"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3089 BP; 1070 A; 581 C; 687 G; 749 T; 2 other;"
+  },
+  "sequence": "gaggcgggacaagatggcggaacggtaaacagcagggtaagcggcctccctgaaagataccgtccagatgctggaatatagcaacatggggaagacaagaaggagggaggcgggtcctctggacccaggaagaatctaaagcgagaattgaagcccacagaaagagtaaaaagaagcactcaaacaaggaaggcggtggctggcggcgcctctgcccggagccggacccactctgtgaaaggagttgctggaacctggggacgcacgatcaaagtgctgcggccgcggcggcggcggcgaccctggaggcctctgcccagagaggcagcgtcggaggagagtggcggtggacagggggagcagacctggaggactaaactggctgacggtgagtgcagcaaaccccaanctcccgcgagggagagcgagggactggcagccattttggggccggagccactcctagttgggcacagtcccgtggaaattgctccgaccgagccccggagggtcccggcgggtgaccggctcggtctggagaccacggctccacgcgcgccctaggggtgatagtggaagattcgcggataaccggcccaggttcccaggcggcggccccgcccccgcgcactgtgccagacatcggggagccgaggcgggctggggaaaggcagcggacagcgctgtaacagcgcacccagtggtaaccatcagatatccacaatcagcactggctagaagaaccagtctaaccttagagaaattacagacaacgcgaggaataccaagatccccggtacacacttgtccagaacaacccaggaatatgtcaagacaaagaagcaaaaggcagtctctggcctccaatccaagcagaacaaatccaggagaagcaaacgcagaagaggtcgggagtcccacaactaaagtctctgaggtgatgacaactgaagtaaagaaacaacttcatgaggctataaaagaaattagaacagaaatactaactcaactaaaagaagaaatgaaaaacataataaaagaattgctaggcatctctaaaggagacatagatgaaaaaatggagcataggaaaacgagggaaacctggaatgaacaatacaaaaaagatttagaatacatgaaacagattcaaagagattaccaggaaatcaaaaactccaatgaaagttggcaaaaccacctgaaggaaactaaagatagactttcaaaccttgaagacaggtttgcagcttgtgatcgtgaaaggaaagatctcttaaaaataacaagaaacctggaagtaacaatacaacggctgcaagacaacccaaagaaacataacttaagaataaaaggtgtgagtgaaaaagcaggggtcaatacaaatcaaattaaaagcctatttacagaaataatttcagaaaactttccaagcatgggaacaggaagtgactttcagataagtgaagcatatagaactccagctaaacataaccaaaatatacctacacccagacatataataatcaagatcccagaaattcaacacaaaaacagaatattaaaagctattagagaaaaaaaaacagatcacctacaaaggaaaacccatcagaatcacgacagacttctcaacacaaaccatcaggtcaagaagagcttggagtgaagtatttcaagccctgaaagaaaacaacttccaacccagattgatgtaccctgcaaaactatctttcaaaatcaacggagaaacaagatacttccacgacaaagaacaactaaaggaatttatgacaaccaagccaaccctacaaagaatactgaaggacattttagagagagataaaaaagtccacagctccagaaacagcggcagagggatatcaccgagcggggcagacaattgaataatccatcatcgggatttgagtccagtattgttttcaatgagctgtttagtttgatcttattctatctcgacctgcctaattttattatatatgatgacatagacagctatttcaaagataacaaaatatattagggtagcctttattgatatttgatcaccttgttttgaaaccctgtattgctttcattgttctgttttgagtgattttaacctattttggtttgtttgattgtattataacagatgatataggcaactgcttagaagataatatgaggcattatagaaatcaacgttgtattactatgtattgcttccattgttttattttttattggttttattctgtactattttgtttgattatattaggcccgatggtatgggcagttattttgaagataacaagaggtattacaaggggaaaggaggaaagaaggaagggaaaaggaaaaagacatagatttatatgtgggtatacataagatggttaaaatgactatactactaaatgcattaactattgagagagaacagttgatactcatatgattagatcaattttacatgtctatatctgtcaatctgagcaacccctttgaaggtaacgatatacaatgttacaaccactgtcaaattccaatcatctcattttgtaaacctataatgttacagtatcggatttgttgttgttgtttgttggtccctttngctttttgtttctcttttctgtgaccattgttttattttttattggttttattctgaactattttgtttgattatattaggcctgatgatatgggcagttattttaaagacaacaagaggtattctaaggggaaaggaggaaagaaggaagggaaaaggaaaaagacataaatttataaataggtatacataggatagttaaaatgactatattactaaatgcattagctattgaaaaagaacagttaatactcatatgattagatcaattttacatgtctatatctgttaatctgaacaacccctttgaaggtaacgatatgcaatattacaactactgtcaaattccaatcatctcattttgtaaacctataatgttatcgtatcggatttgttgttgttgtttgtttgtctcttttgctttttgtttctcttttctgtgtccattttctcttaaataaaaaaa",
+  "length_bp": 3089,
+  "sequence_length_bp": 3089,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000274699",
+  "name": "AllBul-1.14",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Orientallactaga bullata",
+  "display_classification": "SINE/tRNA | Orientallactaga bullata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Dipodoidea",
+    "Dipodidae",
+    "Allactaginae",
+    "Orientallactaga"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 233 BP; 53 A; 69 C; 61 G; 50 T; 0 other;"
+  },
+  "sequence": "gggctggagagatggcttagcggttaaggcgcttgcctgcgaagcctaaggacccatgttcgactctccagatcccacgtaagccagacgcacaaaggtgaggcaagcgcaaggtcgcacatgcccactaggtggcgcaagcgtctggagttcgattgcagtggctgaggccctggcgcgccaattctctctctctctctctctctctctctctctctctcaaaaaaaaaaaa",
+  "length_bp": 233,
+  "sequence_length_bp": 233,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

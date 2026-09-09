@@ -1,0 +1,50 @@
+{
+  "accession": "DF000001950",
+  "name": "MT2A",
+  "description": "Long terminal repeat of retrovirus-like element; MT2A.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MT2A"
+  ],
+  "species": "Muroidea",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 533 BP; 124 A; 144 C; 119 G; 138 T; 8 other;"
+  },
+  "sequence": "tgtgatggctaatcttggttgtcaacttgactacatctggaatcaactaaaacccaagcngctgggcacgcctgtgagggattttcttgatcggatcatttgaggtgggaagacccaccctaaatctgggccgcaccttctggtggcagcccanataaaaggacatggaagaaggaagcttttgctttttgcctgcttgccctcactctcgctggcaagttcatctatcctgctgctgaggcattccttcgctggtattagaaccnacttcttcgggattccaacgtagactgaagaccagcagctctccaggaatcctccgggnctccagcgccagattgggactgctgagacatccagcctcgtggactgaacaactaccggattctcggcctttccgtcgggagacagccattgttggactacccggaccacancctgtaagccantctaataaatcccnttntatacgcgcgcgtatatatatattcattctatcagttctgttcctctagagaaccctgactaataca",
+  "length_bp": 533,
+  "sequence_length_bp": 533,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MT2A"
+  ]
+}

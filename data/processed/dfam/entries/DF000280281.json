@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280281",
+  "name": "PumCon-1.25",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Puma concolor",
+  "display_classification": "SINE/tRNA | Puma concolor",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Felidae",
+    "Felinae",
+    "Puma"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 217 BP; 28 A; 73 C; 49 G; 67 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttgagcgtccgactcttgatttcggctcaggtcatgatcccagggtcgtgggatcgagccccgcgtcgggctccgcgctgagcgtggagcctgcttgggattctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctcctctctctctctcaaataaaaaaataaaaa",
+  "length_bp": 217,
+  "sequence_length_bp": 217,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

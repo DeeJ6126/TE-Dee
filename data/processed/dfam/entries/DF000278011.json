@@ -1,0 +1,52 @@
+{
+  "accession": "DF000278011",
+  "name": "ManLeu-1.64",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Mandrillus leucophaeus",
+  "display_classification": "LINE/L1 | Mandrillus leucophaeus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Cercopithecinae",
+    "Mandrillus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 643 BP; 230 A; 132 C; 144 G; 137 T; 0 other;"
+  },
+  "sequence": "ttttacactgttggtgggagtgtaaattagttcaaccattgtggaagacagtgtggcgattcctcaaggatctagaaccagaaataccatttgacccagcaatcccattactgggtatatacccaaaggattataaatcattctactataaagacacatgcacacgtatgtttattgcagcactatttacaatagcaaagacttggaaccaacccaaatgcccatcaatgatagactggataaagaaaatgtggcacatatacaccatggaatactatgcagccataaaaaagaatgagttcatgtcctttgcagggacatggatgaagctggaaaccatcattctcagcaaactaacacaggaacagaaaaccaaacaccgcatgttctcactcataagtgggagttgaacaatgagaacacatggacacagggaggggaacatcacacaccggggcctgtcggggggtggggggcaaggggagggagagcattaggacaaatacctaatgcatgcggggcttaaaacctagatgacgggttgatgggtgcagcaaaccaccatggcacatgtatacctatgtaacaaacctgcacgttctgcacatgtatcccagaacttaaagtaaaataaaaaaaaaaa",
+  "length_bp": 643,
+  "sequence_length_bp": 643,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

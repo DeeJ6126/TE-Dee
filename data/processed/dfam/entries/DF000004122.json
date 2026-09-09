@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004122",
+  "name": "SYNREP_MM",
+  "description": "Mouse centromeric satellite repeat.",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Mus",
+  "display_classification": "Satellite/ | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 266 BP; 117 A; 25 C; 56 G; 58 T; 10 other;"
+  },
+  "sequence": "gaacatgttatatgagtgagttacantgaaaaacatanaaatnggaaacgngaattgtagaacatcgtatatnaangagttacaatgaaaaacatggaaaatgagaaaaaccacactgtagaacattgtgtatgagtgagttacaatgaaaaacatananatnggaaacgaganttgtagaacatcgtatataaaggagttacaatgaaaaacatggaaaatgagaaaaaccacactgtagaacattgtgtatgagtgagttaggg",
+  "length_bp": 266,
+  "sequence_length_bp": 266,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SATMIN"
+  ]
+}

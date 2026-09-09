@@ -1,0 +1,50 @@
+{
+  "accession": "DF000282200",
+  "name": "MinSch-6.740_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MinSch-6.740_LTR"
+  ],
+  "species": "Miniopterus schreibersii",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Miniopterus schreibersii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Miniopterinae",
+    "Miniopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 150 BP; 27 A; 47 C; 39 G; 37 T; 0 other;"
+  },
+  "sequence": "gtatataactccttgcccgattgtgctcggggctcagactttggagttggactcctctgggcccgccggcgtaaaataaacctcctgaaccccgagcctccgagtgccgcttggtctttccgtaaggtgaacgtctccggttccgcaaca",
+  "length_bp": 150,
+  "sequence_length_bp": 150,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

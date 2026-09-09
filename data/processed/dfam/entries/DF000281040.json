@@ -1,0 +1,49 @@
+{
+  "accession": "DF000281040",
+  "name": "TonSau-1.77",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Tonatia saurophila",
+  "display_classification": "DNA/TcMar-Mariner | Tonatia saurophila",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Phyllostominae",
+    "Tonatia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 553 BP; 179 A; 85 C; 119 G; 170 T; 0 other;"
+  },
+  "sequence": "ttgggttggccaaaaagttcgtttgtttttttccgtaagatggctctagtagcgcttagttgtctttaacttcattcgaaacaattttgttagattgtattgtgacagctgtcatatcagcgtgcatttaaaaaaacttatcaaaattggtgaatttttgtgtagccattttaatattgaagatggaagaaaatacgcaacattttcggcatattatgctttattatttcaagaaaggtaaaaacgcaactgaaacgcaaaaaaagatttgtgcagtgtatggagaaggtgctgtgactgatcgaacgtgtcaaaagtggtttgcgaagtttcgtgctggagatttctcgctggacgatgctccacggtcgggtagaccagttgaagttgatagcgatcaaatcgagacattaattgagaacaatcaacgttataccacgcgggagatagccgacatactcaaaatatccaaatcaataaagttattggtgaaaatgaaaaatgtgtcttttattttacggaaaaaactaaacggactttttggccaacccaa",
+  "length_bp": 553,
+  "sequence_length_bp": 553,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

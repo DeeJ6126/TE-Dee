@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001237",
+  "name": "UCON105",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/hAT | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 340 BP; 93 A; 103 C; 59 G; 85 T; 0 other;"
+  },
+  "sequence": "cagccttgcaaatagttttcaaaaatcattaggcctgcaaaatttgcattggccccgcccacatttaccaatgccatcccctccccctcctagccatccccacctccttctactgctccccgtatcactaggctaagagaacacaagcatctgcctgcagcaaatacactcagagttcccccacaaacacagattcccatgaaaaccaaacaaaaaggaaatagaaaggagaggcagagtatattaaatttcttttaggcccgctgcctgattttcattaggcccgctctgatttcttttaggccctgggcacgtgggccagtgcttattttcatggctg",
+  "length_bp": 340,
+  "sequence_length_bp": 340,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON105"
+  ]
+}

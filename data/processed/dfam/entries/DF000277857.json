@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277857",
+  "name": "LepAme-1.34",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-Core"
+  ],
+  "species": "Lepus americanus",
+  "display_classification": "SINE/tRNA-Core | Lepus americanus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Lagomorpha",
+    "Leporidae",
+    "Lepus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 343 BP; 57 A; 118 C; 106 G; 62 T; 0 other;"
+  },
+  "sequence": "ggccggcgccgcggctcactaggctaatcctccgccttgcggcgccggcacaccgggttctagtcccggtcggggcgccggattctgtcccggttgcccctcttccaggccagctctctgctgtggccagggagtgcagtggaggatggcccaagtgcttgggccctgcaccccatgggagaccaggagaagcacctggctcctgccatcggatcagcgcggtgcgccggccgcagcgcgccggccgcggcggccattggagggtgaaccaacggcaaaaggaagacctttctctctgtctctctctctctcactgtccactctgcctgtcaaaaaaaaaaaa",
+  "length_bp": 343,
+  "sequence_length_bp": 343,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

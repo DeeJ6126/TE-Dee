@@ -1,0 +1,51 @@
+{
+  "accession": "DF000005060",
+  "name": "Halyomorpha_halys-1_family-734",
+  "description": "DNA Transposon",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/ | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 60 BP; 23 A; 9 C; 8 G; 20 T; 0 other;"
+  },
+  "sequence": "atatctcaatttaagtataaatggacttaggccactttcaaaataaacggctgaattatt",
+  "length_bp": 60,
+  "sequence_length_bp": 60,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

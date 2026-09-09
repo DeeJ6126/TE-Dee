@@ -1,0 +1,107 @@
+.te-autocomplete {
+  position: relative;
+  width: 100%;
+}
+
+.te-autocomplete > input[data-te-autocomplete] {
+  padding-right: 44px;
+}
+
+.te-autocomplete-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 42px;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  color: #64748b;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.te-autocomplete-toggle::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 7px;
+  height: 7px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translate(-50%, -65%) rotate(45deg);
+}
+
+.te-autocomplete-toggle:hover,
+.te-autocomplete-toggle:focus {
+  color: #214b8d;
+  outline: none;
+}
+
+.te-autocomplete.is-open .te-autocomplete-toggle::before {
+  transform: translate(-50%, -35%) rotate(225deg);
+}
+
+.te-autocomplete-menu {
+  position: absolute;
+  z-index: 50;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  max-height: 260px;
+  overflow: auto;
+  border: 1px solid #d8e4f4;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 18px 34px rgba(23, 63, 120, 0.14);
+  padding: 6px;
+}
+
+.te-autocomplete-option {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  line-height: 1.35;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.te-autocomplete-option:hover,
+.te-autocomplete-option:focus {
+  background: #f3f7ff;
+  outline: none;
+}
+
+.te-autocomplete-option .te-autocomplete-match {
+  color: #2563eb;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.te-autocomplete-option .te-autocomplete-rest {
+  color: #64748b;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.te-autocomplete-meta {
+  display: block;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-top: 2px;
+}
+
+.te-autocomplete-empty {
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.45;
+  padding: 9px 10px;
+}

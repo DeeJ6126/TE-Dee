@@ -1,0 +1,50 @@
+{
+  "accession": "DF000278310",
+  "name": "MesBid-1.9",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Mesoplodon bidens",
+  "display_classification": "SINE/tRNA | Mesoplodon bidens",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Ziphiidae",
+    "Mesoplodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 121 BP; 27 A; 36 C; 39 G; 19 T; 0 other;"
+  },
+  "sequence": "gggacttccctggcggtccagtggttaagactccgcgcttccactgcagggggcacgggttcgatccctggtcggggaactaagatcccgcatgccgcgcggcgcggccaaaaaaaaaaaa",
+  "length_bp": 121,
+  "sequence_length_bp": 121,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

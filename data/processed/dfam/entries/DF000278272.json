@@ -1,0 +1,51 @@
+{
+  "accession": "DF000278272",
+  "name": "MesAur-3.1277",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Mesocricetus auratus",
+  "display_classification": "DNA/hAT-Charlie | Mesocricetus auratus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Cricetinae",
+    "Mesocricetus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 225 BP; 68 A; 47 C; 54 G; 56 T; 0 other;"
+  },
+  "sequence": "cagtggttctcaacctgtgggtcgcgacccctttgggggtcgaacgaccctttcacaggggtcacctaagaccatcctgcatatcagatatttacattacgattcataacagtagcaaaattacagttatgaagtagcaacgaaaataattttatggttgggggtcaccacaacatgaggaactgtattaaagggtcgcagcattaggaaggttgagaaccactg",
+  "length_bp": 225,
+  "sequence_length_bp": 225,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

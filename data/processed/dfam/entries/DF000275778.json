@@ -1,0 +1,47 @@
+{
+  "accession": "DF000275778",
+  "name": "ConCri-1.8",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-L1"
+  ],
+  "species": "Condylura cristata",
+  "display_classification": "SINE/tRNA-L1 | Condylura cristata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Talpidae",
+    "Condylura"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 269 BP; 58 A; 90 C; 57 G; 64 T; 0 other;"
+  },
+  "sequence": "ggccctccctggtggcgcagcgggttaaagcacagcactgagaatctaaagccgcttccgcatgagttcgattcccgcctgccccggaggtgaccacatggcgtggcagacctctcctgacccgcccgctgctcccctcagcagtgtacttcgtcgatctgcctgttctgctccccactctgtctctggtgaatcctctcaccctccgcatctctggcctgtaccccagttctgtatgaataaataaataaatctttaaaaaaaaaaaa",
+  "length_bp": 269,
+  "sequence_length_bp": 269,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

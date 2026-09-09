@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003531",
+  "name": "Tc1-8_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/TcMar-Tc1 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1142 BP; 350 A; 193 C; 189 G; 269 T; 141 other;"
+  },
+  "sequence": "cagcggggaaaataagtattgaacacgtcannatttttctcagaaancgnatttctaaaggagctgttgacatanaattncnaccagatntcgctaaaaaaccaaatatnnnatncatacaaagaaaacaaancatttaagtntacaanttaagttatannaaataaaatgaaatgacgcagggaaaaagtattgaacacatgaagaaagggaggtgtagaaaggcagngaaagncagnagatctntcagcgctcancgnaancctctgcccttcgtcagtgtnaatgaatattagctgcttcagtccnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnngtctgatgaaactacaatttaactctttggaatgatgccaggcgttacgtttggagaanaaccagcactgcttatcaccnnnnnagccttatatcaacagtgaatcatggtggtggcagcatcatgaatnnnggctnnnnnncagccagagccnnnnncagactacatactattgaaggaagaacgaatggtaaaatgtacacggacattgtaaatnaatatctgctgccatctaccaggatgatgaagatgaaaccagggtggacatttcagcaagacaatgatccnaaacacanngccaaggaaactctcaaatgntttcagagaaagaaaataaagctgctagaatggcccagccaatcacctgacctgaatccaatagaaaatncgcgnnnagaactaaagatcaganttgatagacgagacccacagaaccgtcaagattttnanaccgtttntgtngaagnntgngnnaaaatcacacctgagcaatgcatgcgacttcattctccatacgagaggcgtctttaagctgccatcaccaaaaaagncttttatataaagtattaaatacancgtgttcagtactttctccttgtgtcatttcattttatttattatnacncaatttgtatacttnaatgttttgntttntttgtatgnnttnantgtttggnttnttaccaaaatctggtnnnaattccatgtcaacagctcctttagaaatatnnttnccgagaaaaacgntgacgtgttcaatacttattttccccgctg",
+  "length_bp": 1142,
+  "sequence_length_bp": 1142,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Tc1-8_DR"
+  ]
+}

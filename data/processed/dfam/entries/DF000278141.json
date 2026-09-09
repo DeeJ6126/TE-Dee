@@ -1,0 +1,48 @@
+{
+  "accession": "DF000278141",
+  "name": "MegLyr-3.527",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Megaderma lyra",
+  "display_classification": "DNA/TcMar-Tigger | Megaderma lyra",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Megadermatidae",
+    "Megaderma"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 327 BP; 86 A; 62 C; 65 G; 114 T; 0 other;"
+  },
+  "sequence": "cagttgacccttgaacaacacgggtttgaactgcgcgggtccacttatacgcggatttttttcaataaatactgtaaatgtattttctcttccttatgattttcttaataacattttcttttctctagcttactttattgtaagaatacagtatataatacatataacatacaaaatatgtgttaatcgactgtttatgttatcggtaaggcttccggtcaacagtaggctattagtagttaagttttgggggagtcaaaagttatacgcggattttcgactgcggggtcggcgcccctaacccccgcgttgttcaagggtcaactg",
+  "length_bp": 327,
+  "sequence_length_bp": 327,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

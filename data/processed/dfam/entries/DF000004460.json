@@ -1,0 +1,51 @@
+{
+  "accession": "DF000004460",
+  "name": "Halyomorpha_halys-1_family-63",
+  "description": "Penelope LINE element",
+  "keywords": [
+    "PLE/"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "PLE/ | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 255 BP; 89 A; 23 C; 51 G; 91 T; 1 other;"
+  },
+  "sequence": "ataaagttttaacgaatagtgactgtgataaatgattttaattttggttttaatgtgaatattgactaattagaaattgttgttttgacctgggcagaatagcctgcatgaagttgagtttttaaatcatntagttccaaaattgtattaagtagattgtccctgaggatggccggattggccgaaacgtcggacttataagaaaaataaaatgttttgagactaaaatggatagaaattaaattatttatttaa",
+  "length_bp": 255,
+  "sequence_length_bp": 255,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

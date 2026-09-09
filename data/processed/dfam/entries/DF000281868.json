@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281868",
+  "name": "DauMad-5.480_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "DauMad-5.480_LTR"
+  ],
+  "species": "Daubentonia madagascariensis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Daubentonia madagascariensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Chiromyiformes",
+    "Daubentoniidae",
+    "Daubentonia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 596 BP; 161 A; 167 C; 102 G; 161 T; 5 other;"
+  },
+  "sequence": "gaactaaaatnaaatcnnaagcttcccccccaccggctgactgaatggaccccctcctggccaaggggataccctaaaactgagttgccngccacgaggagggaggtcagacatgcctcaccatgcccccctcccttcttggagatatcctttgtaactcattaacaggcctaaggctatgcaagacaaacctgcaggtcctcaatttacacaacaaatatatgtccggtggcttgtctctgattaacagactccttatcttaacttaaaacattccaagcctttagacaaagcttcatttctttaaccaattacaagtcaaggagtctttaaacccacctataacctgtaagcccccgcttcgagatgncccaccttttcgggccaaaccaatgtatgccttccatgtattgatttatgactttacctgtaatccctgtctccctgaaatgtataaaaccaaactgtaacccaaccacagcgagtccacttgctcaaggcttcttgggcgtggctccgggtcatggtcctcaaatttggctcagaataaacctctttaaattattttacagagtttggcttcttttccgttgaca",
+  "length_bp": 596,
+  "sequence_length_bp": 596,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

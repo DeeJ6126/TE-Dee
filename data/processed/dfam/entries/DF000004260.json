@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004260",
+  "name": "CR1L_fAlb",
+  "description": "CR1 LINE element",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Ficedula albicollis",
+  "display_classification": "LINE/CR1 | Ficedula albicollis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Archosauria",
+    "Dinosauria",
+    "Saurischia",
+    "Theropoda",
+    "Coelurosauria",
+    "Aves",
+    "Neognathae",
+    "Passeriformes",
+    "Muscicapidae",
+    "Ficedula"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 99 BP; 18 A; 22 C; 25 G; 28 T; 6 other;"
+  },
+  "sequence": "tggntaagtttnggtcnganctcntagctgaccctgctttgagcaggaggttggactagagacctcctgaggtcccttccaacctgaattattctntgg",
+  "length_bp": 99,
+  "sequence_length_bp": 99,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

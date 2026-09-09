@@ -1,0 +1,53 @@
+{
+  "accession": "DF000002738",
+  "name": "DIRS-1E-LTR_DR",
+  "description": "Solo-LTR derived from a DIRS retrotransposon from zebrafish",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "DIRS-1E-LTR_DR"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 690 BP; 159 A; 186 C; 166 G; 177 T; 2 other;"
+  },
+  "sequence": "aagtttatttataaactaatttcgagaggatcacgtgcttatgattgaccacggctggtcccgcattagctatcacatgatttaccaatcagacgaatccaaacgcacataaataaccagattttcttaccttagtcatcttcgtcttgaagaatccccccatccacccctactcctccccctctttcctagattaatccaggacagggcggcacggtggctcagtggttagcactgtcgcctcacagcaagaaggtcgctggttcgagtcccggctgggccagttggcgtttctgtgtggagtttgcatgttctccccgtgttcgcgtgggtttcctccgggtgctccggtttccncccacagtccaaagacatgcggtataggtgaattgaataaactaaattggcgcagtgtatgagtgttttagtactgggcattcgccgcgtaaacatatgctggnatagttggcggttcattccgccgtggcgacccctaataatcaaggaataggccgaacgaacgaattcgggggagctctcgagacctacctgagctcagactcccctctctcccgatgaaacgggagggagccccgggctcgaggatcttctgagctcagggctctctcccgggacagcatgccaaacacgctttattatcaatcatcagctaagtgtgaactcttgaaa",
+  "length_bp": 690,
+  "sequence_length_bp": 690,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DIRS-1E-LTR_DR"
+  ]
+}

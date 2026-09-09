@@ -1,0 +1,51 @@
+{
+  "accession": "DF000004779",
+  "name": "Halyomorpha_halys-1_family-451",
+  "description": "CMC-Transib DNA Transposon",
+  "keywords": [
+    "DNA/CMC-Transib"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/CMC-Transib | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 104 BP; 31 A; 18 C; 30 G; 23 T; 2 other;"
+  },
+  "sequence": "agtagngagaatatgggggagctggnacaccgatttgggcagccaatcagaagccagcattttgatgacgtcacacatggcgggagatttgaattcaaatattc",
+  "length_bp": 104,
+  "sequence_length_bp": 104,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

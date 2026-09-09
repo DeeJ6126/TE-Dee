@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-26",
+  "analysis_version": "v1_abs0.4_fdr0.05_res1.8",
+  "runtime_source": "MySQL via api/coexpression.php",
+  "representative_cases": [
+    {"te": "L1HS", "context": "cancer_cell_line", "nodes": 26, "edges": 100},
+    {"te": "L1HS", "context": "normal_cell_line", "nodes": 26, "edges": 100},
+    {"te": "L1HS", "context": "normal_tissue", "nodes": 26, "edges": 100},
+    {"te": "LTR5", "context": "cancer_cell_line", "nodes": 13, "edges": 36},
+    {"te": "MER11B", "context": "cancer_cell_line", "nodes": 15, "edges": 100},
+    {"te": "HERVH-int", "context": "cancer_cell_line", "nodes": 19, "edges": 100},
+    {"te": "CR1", "context": "normal_tissue", "nodes": 13, "edges": 77},
+    {
+      "te": "CR1",
+      "context": "cancer_cell_line",
+      "available": false,
+      "alternatives": ["normal_cell_line", "normal_tissue"]
+    }
+  ],
+  "http_ms": {
+    "catalog_median": 33.8,
+    "l1hs_network_median": 31.0
+  },
+  "force_measurements": [
+    {
+      "te": "L1HS",
+      "context": "cancer_cell_line",
+      "renderer_first_nonblank_ms": 2707.1,
+      "target_drag_px": 165.4,
+      "distinct_target_frames": 10,
+      "moved_non_target_nodes": 25,
+      "settle_ms": 1800,
+      "idle_delta_px": 0.885
+    },
+    {
+      "te": "HERVH-int",
+      "context": "cancer_cell_line",
+      "renderer_first_nonblank_ms": 2691.5,
+      "target_drag_px": 165.27,
+      "distinct_target_frames": 10,
+      "moved_non_target_nodes": 18,
+      "settle_ms": 2800,
+      "idle_delta_px": 0.798
+    },
+    {
+      "te": "MER11B",
+      "context": "cancer_cell_line",
+      "renderer_first_nonblank_ms": 2693.0,
+      "target_drag_px": 167.1,
+      "distinct_target_frames": 10,
+      "moved_non_target_nodes": 14,
+      "settle_ms": 1200,
+      "idle_delta_px": 0.881
+    }
+  ],
+  "desktop_viewports": ["1440x960", "1280x900", "1024x768"],
+  "new_contracts": "pass",
+  "preview_parity_stabilization": {
+    "canonical_route_and_history": "pass",
+    "exact_te_handoff_and_line1_negative": "pass",
+    "knowledge_iframe_identity_preserved": "pass",
+    "shared_loader_renderer": "pass",
+    "legend_focus_and_scientific_help": "pass",
+    "visibility_filter_under_1000_ms": "pass",
+    "filter_rejection_and_repeat_recovery": "pass",
+    "visible_workspace_assistant_bounds": "pass"
+  },
+  "knowledge_graph_live_browser": "pass",
+  "taxonomy_tree_only": "pass",
+  "legacy_unrelated_failures": [
+    "check_g6_relation_legend_expand_mode.py",
+    "check_g6_legend_expand_tree_fixes.py",
+    "check_taxonomy_runtime_truth.py"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "accession": "DF000001334",
+  "name": "L2-1_AMi",
+  "description": "L2-1 retrotransposon, L2 (LINE2) subfamily",
+  "keywords": [
+    "LINE/L2"
+  ],
+  "species": "Amniota",
+  "display_classification": "LINE/L2 | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1235 BP; 242 A; 440 C; 174 G; 373 T; 6 other;"
+  },
+  "sequence": "tccataccacgtcatccnagcntgctgcttccncctctncaactctctcctttctttccttctgtccactgaactgctgcagcgtctctaatgacctcttcctagccaaatctcagaaccagtactccatcctcatcctccttgacctgtcagccgcctttgacacagtcgaccatgctcttcttgaaatcttgtcctcccttggcttccgtgactctgtcctccgtctcctcctacctctctaatcgctccttggcaattcttccttcctcccactttctgtgggggttccacagggctctgtccttggtccccttctcttctctctacaccttatctctgggtaatctcatccgcaaacacaaattcaactaccatctgttgactcacagatctacctctctactccagacctgtctccttctgtccaaactaaaatctcggcctgtctctctgacatctcctcgtggatgtctagccgtcagctcaagctcaacatggcctaaaacagagctcttaatcttccccccaagcctnctccccattcccttttctcgatcactgtggacaacaccaccatcctgcctgtcactcaggcccgtaacctgggcgtcatcttcgactcggacctctctctaggtcctcacatccaggctatgtctaaatcttgcagattctttctgcataacatctctaagatacggcctttcctatccatccacacagctaaaactctcgtccagtctcacatctcgattactgcaacatccttttctctggccttgacaaatgcaatcttgccccgctcatatccattcagaatgctgctgcaaagatcattttcctagcccgtcgctttgaccacgtcacccctctctttgcatccctactggctcccccttctctatcgatcaaacataagctacttgtcttcactttcaaggcccttcacggcctatcctacctgtctatcatctctcattcactatcgagagttgactcccgcctccgatcggcccatgatgccagcctccatcgcccacttgttaaattttcaaacagcacttcctttttcctatgctgctcccctcatgcttgggaggagctccccgtaaacatccgcaaatcacattattctccttcaaatccctccttaaactctcctttgccgtgatgcctacaaaaactgacaacggttaggctgctggtgtgctgagaccactgcctattntgct",
+  "length_bp": 1235,
+  "sequence_length_bp": 1235,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "2..1171",
+      "start": 1,
+      "end": 1171,
+      "qualifiers": {
+        "product": "L2-1_AMi",
+        "number": "1",
+        "note": "(fragment) via tfasty with L2_Plat1i_pol [Amniota]",
+        "translation": "HAXPSEHAASXSTTLSFLSFCPLNCCSISNDLFLAKSQNQYSILILLDLSAAFDTVDH"
+      },
+      "label": "L2-1_AMi"
+    }
+  ],
+  "repbase_aliases": [
+    "L2-1_AMi"
+  ]
+}

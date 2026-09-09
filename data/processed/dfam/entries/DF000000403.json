@@ -1,0 +1,50 @@
+{
+  "accession": "DF000000403",
+  "name": "LTR12D",
+  "description": "LTR12D (Long Terminal Repeat) for HERV9-like endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR12D"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1254 BP; 270 A; 376 C; 373 G; 234 T; 1 other;"
+  },
+  "sequence": "tgagaggtgacaacgtgctagcagccctcgctcgctctcggcgcctcctcggcctcggcgtccgctctggccgcgctcgaggagcccttcagcccgccgctgcgctgtgggggcccctctctggggctggccgaggccggagccggctccctctgctcgcggggaggtgtggagggagaggcgcgggcgggagccggggctgcgcgcggcgctcgcgggccggcgcgggttccgggtgggcgcgggctcggcgggccccgcactcggcgcggccggccggcgcctgctgggcttgatcgggggacgagctccctctgggctgccggagtgcccgggctaggtgccgcaaagtcccgcggcgagtgccagtgagaggtgaagccggctgggcttctgggtcgggtggggacttggagaacttttctgtctagctaaaggattgtaaacgcaccaatcagcactctgtgtctagctaaaggtttgtaaacgcaccaatcagcactctgtgtctagctaaaggtttgtaaacgcaccaatcagcgctctgtgtctagctaatcnggtggggacttggagaacttttgtgtctagctaaaggattgtaaacgcaccaatcagcactctgtgtctagctaaaggtttgtaaacgcaccaatcagcactctgtcaaaacggaccaatcagctctctgtaaaacggaccaatcagctctctgtaaaatggaccaatcagctctctgtaaaatggaccaatcagcaggatgtgggtggggccagataagggaataaaagcaggccacccgagccagcagcggcaacccgctcgggtccccttccacgctgtggaagctttgttctttcgctcttcgcaataaatcttgctgctgctcactctttgggtccgcgccgcctttatgagctgtaacactcaccgcgaaggtctgcagcttcactcctgaagccagcgagaccacgaacccaccgggaggaacgaacaactccggacggaaggaacgaacaactccggacgcgccgcctttaagagctgtaacactcaccgcgaaggtctgcagcttcactcctgaagtcagcgagaccacgaacccaccagaaggaagaaactccggacacatctgaacatctgaaggaacaaactccggacacaccatctttaagaactgtaacactcaccgcgagggtccgcggcttcattcttgaagtcagcgagaccaagaacccaccaattccggacaca",
+  "length_bp": 1254,
+  "sequence_length_bp": 1254,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR12D"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001247",
+  "name": "UCON76",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Mammalia",
+  "display_classification": "Unknown/ | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 758 BP; 208 A; 167 C; 180 G; 195 T; 8 other;"
+  },
+  "sequence": "caatttnagggccaggtttacaggagaggccaattacgctttaaagcacttgtaaagtactttaagttttcccaaacacctagaaattnacacgtgaaccggtttaaagtcattagcatatcacagacacgccccttttcaagcgcttcaaaccgtgataacattccggttgaagaagtgggaatttgacccgntgcttatcacttgcttcattagcatactcgtgcgaacaatctgatnaaacaaagtattttgtcatctcgctttgccgtcccagaattcctctcactccctgctctctccctggcaggaagtcactactctgttgattttgctaatagggtaaacaaacctcctttgacatgcagaagtggcagaagctgtgctttcctctccacctcccntgcagggaaggtagttgaagctggaggaagcagagcattgggtttaatacagtgattgaacatgaaagccacgtacaaatctcgggagaagtgtgctttctagagaggcagagaattgtggaggcacattgcatgatgggatatgtaagtggagccccggaggtccatgtgtggacgcaaaccgattaagttaagcacttactgaaattgctttctatcgtctggacgagaagcgatcacaagcgagacgcgcaggtttaaagtgaaaaagcttacgtgtaaacctggcctaagtgactattaaactaaggccaagntctgccntttacctcccnctggggggctggaggggtg",
+  "length_bp": 758,
+  "sequence_length_bp": 758,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON76"
+  ]
+}

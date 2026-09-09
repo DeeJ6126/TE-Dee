@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000994",
+  "name": "MamRep564",
+  "description": "MamRep564 -- unclassified interspersed repeat",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Unknown/ | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 354 BP; 105 A; 93 C; 84 G; 71 T; 1 other;"
+  },
+  "sequence": "tcatctctgacataagcacagcatcgggggcgggcggggcgtggggggggggacacgcgcgcccccccaacttcccagagggaaaaaaaattgtaactgtcggaaacgtgatagaactgtcaaaagtacatgaaatcagctacgtaaattgtgaaacataagtcacggttctatttgttctgcgacagtgtaaaaatcgcaaatttttcatcaagatagaaaataaaaacaaagaaaaactatgagcgccatctcgtggagagacctaccactaccacgtccaagttacctgtgcccccgcccncccagccttttagccatgccgtgcctctgcccatggggaccaacctgctg",
+  "length_bp": 354,
+  "sequence_length_bp": 354,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MamRep564"
+  ]
+}

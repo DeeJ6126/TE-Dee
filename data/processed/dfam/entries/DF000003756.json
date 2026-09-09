@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003756",
+  "name": "CR1-10_DR",
+  "description": "CR1-like non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/L2"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/L2 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2284 BP; 794 A; 428 C; 341 G; 708 T; 13 other;"
+  },
+  "sequence": "ggattaactctgacatactaaaactaatgaaagagagagattttgcgttaaaaaagtaattaagagtaaatcggctagtgatagaaacatgtttacaacattaagaaatagagtagtaaaaaacatacgaaaagccaaagctgattatttcctaacattaatagaaaaagcaaaaggggattctaaaacaatctggaaccaactaaaaaaagttgttagacatgatacaaaaaacaaaaagatgttggaagttatgatagatgggcatatcacaaataacgcctgcaaaattgcagaggcctttaataatttttattaactcagtttcaaatatggtcccattgtgtccatcaaaaatttctaacatgtgctctttaaatagttcacagccaattttcagcataagtaatatctcagaatctgangccttacaggcaataaaatcnctcaaaccctccagaactaaagatacntttggtatagattctcttatgttgaaagaacttagttctacactattaactccaataaccaaactcctcaatcgttccatttctgaggcaatatttccatgtgtatggaagtcatctgctgtcattccaatttntaaaaacggggatcattantcactttccaactacaggccaatcagtattattcccactgtgtctaaagttgcagagaaactcattgccaatcaattaattaaacatctaaacaccactacattttctcttcatccaatgcaattcggtttcagatctcaacactccactgagactgcaaattgttttctcatagaaaatattaaacatctactggataaaggtggtgtagttggtgctgtgnttcttgacctgaaaaaagcttttgacactgtaaatcataaaatattattgtccaaattaactaaatttaatatgtcaccagagtcattgaantggnttgaatcatatttatcaaatcgatcacaatcagtcagaattaaagattatcactctccccgctctctctgtccacgggtgtacctcaaggttccattttgggacctttgttattttctctctacataaacgaccttccttcagtctgtccaaatgtcctgattcagatgtatgcagatgatacagttatttatacacatggtaaaaacacgactcaagtagcagataaacttacacaagctatggctcatgtctcagaatggttaaaccagtcctgtttaaaactgaatgtaaacaaaacagttgcaatgtacttttctaaaacaaacatagcaaataatctaacagacgtctacgtggatggggacaaantacaaattgtatctgattttaaatatcttggggtccaaattgactcnaaattaacttttaaatcacaaattaaaaaggtatgtaaccgtgttaaatttaatatatctaatttccggttcataaggtcacatttatcactgcaggcagctaaaatattcatgcattcaatgattttttcacatataacctactgtctaacaacctggtcacaggcaaacaaaacaacactaaaacccatagagtcactttacaaacagacaattaaaatactggataaaaagcctctaagacatcatcattgtagcattttacaaaaacataaactgttaagctgggaaaatgtcattaagtactcaaacatttgtctgatgtataaaatcattcatggtctgtcatccccacctctcagtcagtttgtaaacatcaggaacaccacacacagagcaacacgaggggcagcccgaggagactgtattgtcccactccggaaaagtacctttggtcagggtgccttttcagttacagctgcacaggagtggaattctgtccctggcagcatcagagatataacctcctttaatatgttcaaaaaacatttaaaaatctggtttatagagaatcagacgtgtcatcattcctattagantgaacctagcatgtttccatttgtgcctaccatcttaatgatctgttgtttaaatgtgtttcaactatttttatctctattacaaaatgttggtgttttagtttaatttgtanatattcttttttaacatctacataaccatgtctattttagtacttcttaactatgtttgattgattgtataattcttgtattgttttttttaggttgttcagggacaacagatgaaaaatagccttctggctaattctggcgcatttgcagnaatgctaattaatgtacactgtccctgccaaataaacaaataaataaataaataaat",
+  "length_bp": 2284,
+  "sequence_length_bp": 2284,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CR1-10_DR"
+  ]
+}

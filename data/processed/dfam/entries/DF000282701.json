@@ -1,0 +1,49 @@
+{
+  "accession": "DF000282701",
+  "name": "SorAra-6.1361_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "SorAra-6.1361_LTR"
+  ],
+  "species": "Sorex araneus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Sorex araneus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Soricidae",
+    "Soricinae",
+    "Sorex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 970 BP; 234 A; 216 C; 254 G; 261 T; 5 other;"
+  },
+  "sequence": "tgtaggataacatagcctcaggtagtttaggtttattgggttactcccgtcacagtgctcccattcctctgtgtttatttgtaacttctttcttagtgttctgttgacttgtaaatattgtttttctcttctccttgagtcctttgcatagtttattcagagcnatgtcctttttgtatggacacaggaagacttaaatgctatgcttttgtaacctgggagtcatttgactctacatgatattttcctcctgggcatctgttctctcgacctaagcctcagctgcccttacttcctagcacccccaaaagcagggtcccgacgagggacgggacggacccagggcaagcggtgagttgtgtgctaccctggcatcgagatgggcctggccaaagtgcctaatgcttaactataagttaagagcttggtcatggacaaatgctgtcatgatccaaanagtaataactagactnggaccctgctagggttaggaatgattaatctggcctgagcgctgtagtctgagtctgtggcaagatgtcgccaggagagctgccctgcaagcctcaatgtatctcttgctgtgtccatacaaaaataactagtattaagatgttaataagtttttggactgaggaaaggagaaaaacaccttaagaggtagtcaggaagggctttggaatgcctcaggaagggctttcttatgttgattttgctacctggctgtgtgtagcctagggagagacaagtaggnggagagagatccagagagaggcgagctggagtgcgggagatgagaaagatggaagattgaaataaacggtaactaatcagcaaccagcttggtcctcnttcttccttcctgcccttgaccgacagccacacacagcggttccggagcaccgaacgcgggcggtgagacagagccgcccggagagcccgcgagtgcacgcgcccctcggcgtgcctt",
+  "length_bp": 970,
+  "sequence_length_bp": 970,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

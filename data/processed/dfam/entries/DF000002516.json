@@ -1,0 +1,66 @@
+{
+  "accession": "DF000002516",
+  "name": "Zisupton-2_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/Zisupton"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/Zisupton | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 5054 BP; 1438 A; 985 C; 993 G; 1500 T; 138 other;"
+  },
+  "sequence": "gttccagctgacaacccagtgtgttgatgaaacaaacgggatatatgctgttatcaaagtcgtgaaaggtaacagcttcccggttcatgtaaaataccagacatggggagaaaaccgaaccgtttgcgaatcaaatgagtgccaggtcaacataaatattgcacagaagagcggcatcccattgtaccagtgcatgcatatcagtgccgcgagcatgtgcaagtctttggcggatcaagtctcgctcaaggaagacgttttaacagaaatggtgagaggaaaatggttcagcaacaaaaagaaaaggcaatgccttgctttgcaacagcttgccgatagtaaacacgcaccactttctgttcaaacctcgactgacatctcatcggtacaaaagttcatttctgtattcgagccaagtgtgtcgtcttatagtactttagggcgcgtcatggttgtttacaatgcaccattgaacacatggacttgtccctgtaccagatttcagcattcatgcatgcacaaatacattgccaaatggcatctgtttcaaacgcttcctgagctgtttagttcgccacacagcatcccactttcagaagaggacagcgtctcggaaaacaatcatgtgtatccaccgagaggtctgggattggagtatatggtgaattacattcttcagcataagaagattcctgctgttcttcccgaagaaatgcgcttgccgtcttcacacaaggattacccacaaagcctttgtccacatgaaaccgtgtgtcaggaatgtccaggcgatgtcccactcagcgatccgattttaattacacagaaagccaaaatactgaccaattggtgcattgttgaaggtaggatatattgcctgtttgcttgtgcagtactcagctgcattgtcttctcatattacacttgttctaantgtcagatgtcagcacctnctgcaagcngtgccntcagtgtgggatactttatcggtaccaggagtggaaaganngcntgcacaacttcaatgatcangtnntcctngacctccctttatgcataacnntaaggnatntnctacaggttagttattgtaatataatatttattacgatactgatttggggattttggggtatgcacttttgagtcttgtttgacatgatcagttcgcttaacatttgccgagnagcatgttgtgtggacagagaactggtccaaagttcactntagtgatgaaagcaggttacattnatttgggtctgatgggaaacgtcagactgcagaaagacagaacacaaattgcaaatttactttccggatgctctgtatacaacaacacaaagaaaactaacnncttcagtgaaataactcaattgttttaataaataaangaaaaatacataacaatncgtgtttctcttaggtctacacttcggtaagccgagcagtggagtatttacagttagtgaccggtgtggagtttccacctccagacacagtcctgcaggcatatttacagtttgaagccctcacagatcatgagtacaagtattcatgccccagctgtggtgatcatcctccagtggtgatcatgggttttcacaaacacagcgattctctgttatcaggtatggcagctgtaaagcagttcatttgctagtttgcttcacagaaaatccttctttgtcacagtgtaaatttcgtcttatttttacagaaaatgacattgaagaacctccagagaattttaaaggagaggttaatctggagacgttctgggaggcnctgtccaaagaggtnatntgtcgnggacttgtcacaggtatgtgcaaacgatatagatgacaaattnnnnnnnnnnttcaancgaactagcggacgcgtcgagtataaanccnggctttctagactttnactttgaccggcctttcgatttagcacacacatgatgtttcatatttgaggtaccggtcttnnccgtggctttcantatacatacagcgcttcacagccgttgcatattacatacccagcacttgattcatcctcgttaaccacttcgctaaaacgctcccacacggcacttttctttccttccttttgttttgttttaattctccctttttaagtttctctcggatctgtttcgcctccatttctgctttaacaccacgcgcanatttatttattttttncaaattagggcccgtttgcctgatgaaaaatgcattaaaaacacattcgttatatgtcattattgcagatttnntttnaanaaatacaaagcaaaaatcattttgaaaaaaatccatatttancntttttttttctnctctgctgttttngangacagnnanaatccnttcacngtaccaccnagttatcacctttgggcnccttggatnggnagananacncgacgtccagncacggtgttnaacacagagttcgagaaagtttgtccctcgaagtctgcaatggagatttcagaagtggcagttacagaggagagacttgcagaagaacttttcagacagaaggttttacacaacatcactttctttgttcttttatataaacgtatttattaaagtcaacatttagcattttttaaaatcaatttttttttccctaaaaggctgatgtgattagaagtttatgcaatgactgcggtgtggattcgactggatcacgcactgatctgcttctaagattggccaatgatgtgaaatccagggagaactttggcaaaatctgtgcaaaattctggagtgcctctggtgagcttcattttttctctgctctttaactgcattgttgtaattgtgtggtgttcgattcnattcaattcaagtttatttgtntancgnatagcgcttttcacaataattatcgttccaaagcagctttacaaaaggtgcacgttattgcattacaatcaaaatcanatggtgtatagggtggacagtatatatgcggatacactggttaactgcagttatacaatanagtgtacttttcaaaaaggtgatgtataaggtctacgtattgtaaagttattgcaggtatgaatattactnccttgtttctgaaaaaaaattctcctaatagattctttgtcttggtcaacaagacccccttttttaacaagaatatttttaattaaaataatatgacattttcatggcaaggcaaggtcagttgaatttctttatgggcaatcaaatgttatgaattaataattcaggatatttgtaataaaaatgttgttaccttgaaaaatgtgcanttcttccaaaagtttgggcttgtgaggtatttgatgtttntaaaagnattcncttgagcaaaaatatgtgaaaacaaagtatattaattaaactaatactctactaatactnatgatngtgtacagaaaatgtaaatagaaagctattacatttntaaaanctgttattgnnccactttgcattantactaaggttttttccctctcctgtgtttttctttatcaggtggctggggattcatcatgtgcccctgtggaatcgtttacagtctcaaatgcaatcttcgagctgaaagccctcgagacttcgccgatttgctcttatcatggcagcacanncctaacgtcatcgtttatgattttgnacagggtctcgccactcacacgagtccgagggcatcagaaaagatgctgatntctccatttgaaggacgcttaatggagcccactcaggataacatagagctggngaagcgnggacagctnaaagtatcacttcctcggctggaggaaaaaatgncaatngcagancctcanggtcacccagtgactngttcagctgaccattatatactttatcaggatagcatcagaaaagacggtgaagaagatnctctgagaaaactcacgctcgtnccccngctggatggcanagttagtggtgaaactgcagaacaactgttggctaaactcaagaaaaactgctatttcttgaacatgtctctgccatcgattcatctgttncaaatgaggaacttcnttcaccgctacaatgaaaacaaggcccagaaagtgagcaccagattggcgcagggctgtgaatccagcttgntgnagactgatgngtncgancaggcngtgncaggtaaatttgcattcaaatgataatagacattagaggtggaaaaaataatacaattaaagcgttggttaattactcaccctcatgtcgttccaancccctgagaccttcgttcgtcttcggaacacaaattaagatattttagatgaaatctgagagctccctcatcctccatagacgactttgtccagaaaaataccaaaacatcctcaaaacagaccatatgccttcagtggttcaatcngaatattatcaagctacgagaatacttttgtgcgcactaaaaaaaaaaaacantttcaacgnttcttctcctcagtgtcagtcgnatagggcgcacgttcacgagnacactgtttgtgttgcgctcggtcgcacccntgacgnattacctcggatgcttcgncgncgncgcctgtgctttgtttcagaagtcatggaggagatttactctcgtgaacgtgcgccctatactgacactgaggagaagaaacattatttttatttttaaaaagttatttttnntttatgttttaagtgaactaanctattccatatgagaaattaactacaggcttgnaaaaaatgtactnagcttaaattttgtttgtcatagaaaatccaggagaaaccaagaatanagatgtgattgangactcgatcctgacgtntttgnaggaactgagcagcngtaagtgcttttagcaagttatcacaaatcctgatgcaggttanaaggnctgttcaatcactgggtgcatagcctttactagtgatgaaagcactgcttcttttgtttnnaatcagtggttcggagcgcgtatcaaattgtcacgtgatttcagtaaacggctttgttacgtcattactgtttcgaaacgtttngaaaattcaatggttctc",
+  "length_bp": 5054,
+  "sequence_length_bp": 5054,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "1..4171",
+      "start": 0,
+      "end": 4171,
+      "qualifiers": {
+        "product": "Zisupton-2_DR_tp",
+        "number": "7",
+        "note": "via genewise with Zisupton-4_DR_tp [Danio rerio]",
+        "translation": "FQLTTQCVDETNGIYAVIKVVKGNSFPVHVKYQTWGENRTVCESNECQVNINIAQKSG"
+      },
+      "label": "Zisupton-2_DR_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "Zisupton-2_DR"
+  ]
+}

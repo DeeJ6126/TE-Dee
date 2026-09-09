@@ -1,0 +1,53 @@
+{
+  "accession": "DF000282493",
+  "name": "PapAnu-5.1005_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PapAnu-5.1005_LTR"
+  ],
+  "species": "Papio anubis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Papio anubis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Cercopithecinae",
+    "Papio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 452 BP; 114 A; 149 C; 82 G; 106 T; 1 other;"
+  },
+  "sequence": "tgtcaggcctctgagcccaagccaagccatcgcatcccctgtgacttgcacgtatacgcccagatggcctgaagtaactgaagaatcacaaaagaagtgaaaatgccctgccccgccttaactgatgacattccaccacaaaagaagtgaaaatggccggtccttgccttaagcgatgacattaccttgtgaaattccttttcctggctcatcctggctcaaaaagctcccccactgagcaccttgtgacccccactcctgcccgccagagaacaaccccctttgactgtaattttcctttacctacccaaatcctataaaacggccccacccttatctcccttcgctgactctcttttcggactcagcccgcctgcacccaggtganataaaaagctttattgctcacacaaagcctgtttggtggtctcttcacacggacgcgcgtgaca",
+  "length_bp": 452,
+  "sequence_length_bp": 452,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

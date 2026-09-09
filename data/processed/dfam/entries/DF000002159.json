@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002159",
+  "name": "RMER16B",
+  "description": "Long terminal repeat of ERV2 Endogenous Retrovirus from rat.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RMER16B"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 458 BP; 103 A; 100 C; 101 G; 149 T; 5 other;"
+  },
+  "sequence": "tgtggagagcttttggtgccgcttatagaaatttcggcaagtacttgtcactcgggctcaaggaagtaggctcagataagaatattcacatttgggctaatgcaaggctcaaggtaaacncagccgaggaatgtgtggctttccttttgtcttggtaatcctgataagcccccagacccagtgactccggggactttattgctttgtttgattactacctggtgtgatctctttgttcattgccttgtttgatcactttgtctttgatctaagaactgaccctattctctgcaagtacctagaatggtataaaagctgactgggaaaaaantnntaaagccgcttcagcctcagcactggctggagtcatgttataatgttgtctaattgtctttttncttttcaatcctcactccctcccttcgagaccctgttgactgactgagctggcttggtca",
+  "length_bp": 458,
+  "sequence_length_bp": 458,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RMER16B"
+  ]
+}

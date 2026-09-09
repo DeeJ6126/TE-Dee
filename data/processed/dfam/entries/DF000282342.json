@@ -1,0 +1,51 @@
+{
+  "accession": "DF000282342",
+  "name": "OdoVir-5.69",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OdoVir-5.69"
+  ],
+  "species": "Odocoileus virginianus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Odocoileus virginianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Cervidae",
+    "Odocoileinae",
+    "Odocoileus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1311 BP; 369 A; 293 C; 287 G; 359 T; 3 other;"
+  },
+  "sequence": "tgccgggagccagcacacgagaccctacccatgacaaggccatgagggagaaaacctgacgggcaaggcggatcaggttttcaggggtttcgaaaaggccggcncacgagatcccacccatgacaaggtcacgaggagaaagcctgacgggcaaggcggatcaggttttcagggattccgaaaagctgcccccggcgctcaccttaaagatgatatctgtctttctgatgcctgcctcaatagactactccctaatttctgtgacacaggcagaaggccttccccgatctcttcccaaataagaatcaatttagaactttaatcaataagtttcccaggtggtggtattttatgagattatccagggtgaaaggagtgttttaatttaaactcctttgctggtagtttgttagccaaatgcatttatgcccttggtactaatatgcatgattgcttataatatcctaatcataaaatagcataaagaacctgattatataaaagccctaatagacatagagcctttttgaggggtgaaggagtcctattagaaaacataagaaaaattattctaaaggtggttattgggttgacgtttgcttgctgtgttttgcttgctgtgtttttgcttttaatgtgctaaggttgtgttatagaaaccattgttaatatagttaaagatctagagaaataagaacttagccctagtgtggtaacaatgagatggttgttaattgtcagccaggagtgctaggcagaagctgcctcaccgaagtcgcagagtcngtgtggggtaaacttcttagataaacgcaactgacaacttctgcagaaggattaatttttgtgttaacaaggttatacttctactctgtactgttgccctatgagactgctacctttcagttaaggtcaccatagaaacagaaaataggtttacattcacctgacctgcataaaatgttaataggccccaaggccagaagataatgtacaagaccctcataaacaaagaagtatgcagaaaacaccctggtttcgtgaaggacaagctgacgtaatgttaaactatcttccccttagaaatgtactaacttagggtataaaagctacggtaaaaaataaagcattgccagactctgccagactctgcngcacccccgtctggtcactctctctctctctctctctctctctctccctcgcagacttggccctatcaaggctggtctcacgtgtcttctctctctctcgccgacgccgttcatcctgagggtaccccctggatcctgccgaggctggaccccggca",
+  "length_bp": 1311,
+  "sequence_length_bp": 1311,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

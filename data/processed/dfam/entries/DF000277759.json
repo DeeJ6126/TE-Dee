@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277759",
+  "name": "LasBor-1.4",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Lasiurus borealis",
+  "display_classification": "SINE/tRNA | Lasiurus borealis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Lasiurus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 258 BP; 55 A; 75 C; 67 G; 61 T; 0 other;"
+  },
+  "sequence": "agccctagccggtttggctcagtggatagagcgtcggcctgcggaccgaagggtcccgggttcgattccggtcaagggcacgtacctcggttgcaggctcctccccggcccgggccctggtcggggctcgtgcaggaggcaaccaatcgatgtgtttctctcacatcgatgtttctctctgtctttccctctctcttccactctccctaaaaatcaatggaaaaatatcctcgggtgaggattaacaaaaaaaaaaaa",
+  "length_bp": 258,
+  "sequence_length_bp": 258,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

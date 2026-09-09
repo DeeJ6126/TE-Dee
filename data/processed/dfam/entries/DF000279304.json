@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279304",
+  "name": "NeoAsi-1.173",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Neophocaena asiaeorientalis",
+  "display_classification": "DNA/TcMar-Tigger | Neophocaena asiaeorientalis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Phocoenidae",
+    "Neophocaena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 988 BP; 272 A; 209 C; 229 G; 278 T; 0 other;"
+  },
+  "sequence": "cagtaagtcccctacatacgaaccttcaagttgcgaactttcaaagatgcgaacgtgcgttcgcatgtccaatcacgtaagttagttcacgtgtctggcgtacattgtcacgtgcgtgcatcctctacaagtggttgtgcttttgtgtactttactgtacagtactgtatagagtacagtagtacagtatctttatttcaagcccaggatgtccggaagcaagcgtaaaagcagcggtgatgtagctggtactgctaagaagcgccaagcgataacgatggaaacaaaagtgaaaataattgagagagtggagcgacaagaggaagaagaagtaactgaagaaccgaagagattcacgacgcaggaaatggcaaggggattttctttatttgaggaggcactgttagtttttgaggcacaggacccgaacgtagaacggtacacgaaggttgcagcagccgttcagaatgcaatccagtgctaccgtgtcatctatgacgagaaaaaaagagctactacccagacatcactggatcgttttttcaagagggtagatagaattgaatccagcaaggaaccagaacctgtgccatcaacgtcaggcgtgagtgaaattgcagcttgccctccgtctcctattgctgacgatccttcagctctaccatctcccacctcctctccctcctccagtcagtaactcttcttgcctgttcactcgatgccagcccctgtatgccagctgttgtactgtactactgtacttttcaaggtactgtactgtaagattaaaaatgttttctttatttttgttgtgtttgttttttatgtattatttgtgtgaaaagtattataaacctattacagtacagtactatatagccgattgtgttagttgggtacctaggctaactttgttggacttacgaacaaattggacttacgaacgcgctctcggaacggaactcgttcgtatgtaggggacttactg",
+  "length_bp": 988,
+  "sequence_length_bp": 988,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000279985",
+  "name": "PerLon-1.53",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Perognathus longimembris pacificus",
+  "display_classification": "LINE/L1 | Perognathus longimembris pacificus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Castorimorpha",
+    "Heteromyidae",
+    "Perognathinae",
+    "Perognathus",
+    "Perognathus longimembris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1035 BP; 354 A; 193 C; 221 G; 265 T; 2 other;"
+  },
+  "sequence": "cataaaagaaacgcaaatcgaaacaacgttgagattccacctcaccccggtaagaatggccattatcaagaaaactaataacaacagatgctggtggggatgtggccaaaagggaacactactacactgttggtgggagtgtaaacttgttcaaccactctggaaagcagtatggaggttcctcaaaagactaaacatagagctcccctatgacccagcaaccccacttctgggcatttacccaaatgatcacaaacaaggccacactaaagctaccagcacaaccatgttcattgcagcgttatttaccatagctaagatatggaaccaacccagatgcccctcagtagatgaatggatcaagaaaatgtggtatatatacacaatggaattctatgcttccatcagaaagaatgacattgccccattcgtaaggaaatggaaagacttgggaaaaaatcatactaagtgaagtgagccagacccaaagaaacatagactctatggtttccctcattggtaataattagtatatgtctaggatagtcctagcagaggatcacaatagctcaatagctatgtacatatgatcatataagatgatgctaagcgaaatgaactccaagatatggaaacaagnggtttttcattgttgttgttatttttaatgtactatgtgaaattatttcttttttctttcgtttttcttccctatggtttancccctgttgtcactgtatttgattttggtaccctgggtattgtatatacgtttatctgaattagggaagggaaggggaacatcaaaatggtgagacaaaggacaaagggcgaaccaatgcaacagcgatactcacaagacaatatgttggaaattaactgtacaactcgggggggggggattggggaggagggaaggtgggagaaaaatgagggagggggtaacaagtttgacaagaaatgtactcactaccttacgtatgtaactgtaacccctctgtacatcaccttgacaataaaattaaatttaaaaaa",
+  "length_bp": 1035,
+  "sequence_length_bp": 1035,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

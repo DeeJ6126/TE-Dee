@@ -1,0 +1,48 @@
+{
+  "accession": "DF000003798",
+  "name": "B1F1",
+  "description": "SINE1 from Muridae.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Myomorpha",
+  "display_classification": "SINE/Alu | Myomorpha",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 149 BP; 38 A; 42 C; 48 G; 21 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcacacgcctgtaatcccagcactcgggaggctgaggcaggaggatcgccgcgagttcgaggccagcctgggctacatagtgagttccaggccagccagggctacatagcgagaccctgtctcaaaaaaacaaaa",
+  "length_bp": 149,
+  "sequence_length_bp": 149,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "B1F1"
+  ]
+}

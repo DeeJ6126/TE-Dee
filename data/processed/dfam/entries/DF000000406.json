@@ -1,0 +1,51 @@
+{
+  "accession": "DF000000406",
+  "name": "LTR13",
+  "description": "LTR13 (Long Terminal Repeat) for HERVK13 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR13"
+  ],
+  "species": "Hominoidea",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Hominoidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1007 BP; 234 A; 277 C; 244 G; 248 T; 4 other;"
+  },
+  "sequence": "tgtgggcggcaagccacccaggcgccgaggcaagagaccgagggcacgagctgttccagtataataaaatatataaaacaagaatagttataccagatatagatcttagatatgattatatatgaatatcattaatcattagtttgtagcaattactctttattccaatattataataatcctcgctctataatcataacctaggaaaaaccaggccatacagagataggagctgaggggacatagtgaggagtgaccagaagacaagagtgcgagccttctgttatgcccggacagggccaccagagggctccttggtctagcggtaacgccagcgtctgggaagacgcccgttgccaggcggaccgtggtctagcggtagcgtnagtgtcaaggaaaaacacccgctacttagcagaccgggaaagggagtctccctttccccgggggagtttagagaagactctgctcctccacctcttgtggagggcctgacatcagtcaggcccgcccgcagttatccggaggcctaaccgtctccctgtgatgctgtgcttcagtggtcacgctcctagtccgccttcatgttccatcctgtacacctggctctgccttctagatagcagtagcaaattagtgaaagtactaaaagtctctgatatgcagaaataatggcgtaagctgtctctctctctctcctctctctctctgcctcggctgccaggcagggaagggccccctgtccagtggacacgtgacccacgtgaccttacctatcattggagatggctcacactccttaccctgcccctttgccttgtatccaataaatancagcgcagccnggcattcggggccactaccggtctccgcgccttggtggtagtggtcccccgggcccagctgtcttttcttttatctctttgtcttgtgtctttatttctacactctctcgtctccgcacacggggagaaaancccaccgaccctgtggggctggtccctaca",
+  "length_bp": 1007,
+  "sequence_length_bp": 1007,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR13"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000274624",
+  "name": "AcoCah-1.18",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B2"
+  ],
+  "species": "Acomys cahirinus",
+  "display_classification": "SINE/B2 | Acomys cahirinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Deomyinae",
+    "Acomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 180 BP; 61 A; 40 C; 36 G; 43 T; 0 other;"
+  },
+  "sequence": "ggggctggagagatggctcagtggttaagagcgccgcctgctcttccagaggtcctgagttcaattcccagcaaccacatggtggctcacaaccatctataatgtgatctgatgccctcttctgcagataaagcactcatatgcaataaataaaataaataaatctttaaaaaaaaaaaa",
+  "length_bp": 180,
+  "sequence_length_bp": 180,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000913",
+  "name": "MER68C",
+  "description": "MER68C Long Terminal Repeat for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER68C"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 419 BP; 81 A; 108 C; 112 G; 116 T; 2 other;"
+  },
+  "sequence": "tgatttgcacctggtctcggtgagacccccgagagggctctgccgttggggctggttacgtagcaagaatatgcctacgtgaccagcaggatataagaagcgnnaccccagccgagactccattttgggctccctggttccgaggtgttccgtgcacacgtcggtggttcctgatccgagagagaaagtgcgtcctgccacggcccttacagagggaggacaattggagctcgcgcctggcctctccggaccccttgctgtgaggcagcctttggctgtgatgcatatccttactttaatgctgttgctatattgtatccttttcctgcaataaactgtagatttgtaagcattgtcattttgggtcctgtgagtcttctttagcaatcgaaccctgtttaactgccaccgttagtgca",
+  "length_bp": 419,
+  "sequence_length_bp": 419,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER68C"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001097",
+  "name": "UCON21",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON21 subfamily",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 327 BP; 115 A; 55 C; 55 G; 98 T; 4 other;"
+  },
+  "sequence": "gtaatttttaataaaaagtttgctgtgctgtantgttctataacctaaagataaattaaaaagatacctgatttacatggaaatatactgtaaaacgcgaaattaacgcgtcaagttaatttcgcgctcccctcgcctcgggctgattagcgcaaattaaatttcacgctaatcagcccgagcagttagcgcgcaatacggaaatccgggatttctgctgattgcggtaaaaatatattcacgctatttgtgnagggnacaaatatagcgaaaatatttttacancaataattaatactattacagcttataattaaaatataaagt",
+  "length_bp": 327,
+  "sequence_length_bp": 327,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON21"
+  ]
+}

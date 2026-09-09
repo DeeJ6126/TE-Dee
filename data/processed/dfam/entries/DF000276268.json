@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276268",
+  "name": "DasPun-1.38",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "DasPun-1.38"
+  ],
+  "species": "Dasyprocta punctata",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Dasyprocta punctata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Dasyproctidae",
+    "Dasyprocta"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 480 BP; 120 A; 104 C; 122 G; 132 T; 2 other;"
+  },
+  "sequence": "tgttatggtttatacattgtgtcaacttgagaagtctagaagcttaattaagtaactcagcagctctacatcctggggtgtagagcacaagcagttacctggtcattgtgtcaatttgagaaggtcagaagtttaactgagagactcagcagggagccagggntcttactttgtaaacatcctcatcctgtgcaaaggaaggcaaggangtttgtgaatgctacacccaccctgggggggggggtgtcctgtgtacaatataagggaggagaagaggcttgctcttgcccccttttactctggctgcttttgctcggctgctgccttgaagtgttgcccctgtgccatgccaccctgccttggagccagctgattatggactgaaacctccaaaaactgtaagctaaataaacctttccttccctaattttgggtgtcaggtgttttgtctcagcaacgagtgaaaagtaaccaagacag",
+  "length_bp": 480,
+  "sequence_length_bp": 480,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

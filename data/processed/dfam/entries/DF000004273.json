@@ -1,0 +1,53 @@
+{
+  "accession": "DF000004273",
+  "name": "TguERVL2a2_LTR-Lc_fAlb",
+  "description": "Long Terminal Repeat for an ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "TguERVL2a2_LTR-Lc_fAlb"
+  ],
+  "species": "Ficedula albicollis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ficedula albicollis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Archosauria",
+    "Dinosauria",
+    "Saurischia",
+    "Theropoda",
+    "Coelurosauria",
+    "Aves",
+    "Neognathae",
+    "Passeriformes",
+    "Muscicapidae",
+    "Ficedula"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 806 BP; 135 A; 241 C; 225 G; 193 T; 12 other;"
+  },
+  "sequence": "tgttagggggttggtttttcctttcctcttcgcctgtgganttttttcccattgacatgctaanaagcactgatggctgggtncttgagacatggcnggggggagggggaacctccctgnttcttttnggagtttctctcggagggngggggaaggggggaacgccgcgagatcagaggcaggtaaaggggggtggggggcagttgctntcgcttgcgctcgcntttggctctcggaggaggagggtcgctgcaaaaccccgcctgccaccccgacgccgggagctgcctcttctgctgctggaccccgcacccctgccctgctgggacgccctcccacttcagcttgccgtctccaagcgtcctgttggagcgccgggaccgacactgccccagggatccgtgagcagagcctctcctccncgcccttcccatccgggacacagccgccatcacccccagcgcccctgcagccgcgcggggaccgccgcatctgcccctgcccgccgggagctgccggcgctccctgccggctgtgacggtaactgcaccacaggggaaagtgcccgcggccaaaagaactgnnactgggttcctgttctgtttgttgttaatttcatactgttgttgttttgtttgccttgttatatatactagtaaagaactgttattcctatccccatatctttgcctgagagccccttaatttcaaaattatactaattcagagggaggggatttactttctccatttcaagggagtgcccctgccttccctagcaaacacctgtctttcaaaccaggaca",
+  "length_bp": 806,
+  "sequence_length_bp": 806,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

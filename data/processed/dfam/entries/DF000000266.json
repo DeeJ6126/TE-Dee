@@ -1,0 +1,45 @@
+{
+  "accession": "DF000000266",
+  "name": "L1MA9_3end",
+  "description": "3' end of L1 retrotransposon, L1MA9_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Euarchontoglires",
+  "display_classification": "LINE/L1 | Euarchontoglires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1059 BP; 407 A; 169 C; 215 G; 266 T; 2 other;"
+  },
+  "sequence": "ttaatatccaaaatatataaggaactcanacaactcaatagcaaaaaaacaaataacccgattnaaaaatgggcaaaggacctgaatagacatttctccaaagaagacatacaaatggccaacaggtatatgaaaaggtgctcaacatcactaatcatcagggaaatgcaaatcaaaaccacaatgagatatcacctcacacctgttaggatggctattatcaaaaagacaaaagataacaagtgttggcgaggatgtggagaaaagggaacccttgtacactgttggtgggaatgtaaattggtacagccattatggaaaacagtatggaggttcctcaaaaaattaaaaatagaactaccatatgatccagcaatcccacttctgggtatatatccaaaggaaatgaaatcagtatctcgaagagatatctgcactcccatgttcattgcagcattattcacaatagccaagatatggaaacaacctaagtgtccatcgacggatgaatggataaagaaaatgtggtatatatacacaatggaatattattcagccttaaaaaagaaggaaatcctgccatttgcgacaacatggatgaacctggaggacattatgctaagtgaaataagccagacacagaaagacaaatactgcatgatctcacttatatgtggaatctaaaaaagtcgaactcatagaagcagagagtagaatggtggttgccaggggctggggggtgggggaaatggggagatgttggtcaaagggtacaaagtttcagttatgcaggatgaataagttctggagatctaatgtacagcatggtgactatagttaataatactgtattgtatacttgaaatttgctaagagagtagatcttaagtgttctcaccacacacaaaaaaatggtaactatgtgaggtgatggatatgttaattagcttgattgtggtaatcatttcacaatgtatacgtatatcaaaacatcacgttgtacaccttaaatatatacaatttttatttgtcaattatacctcaataaagctggaaaaa",
+  "length_bp": 1059,
+  "sequence_length_bp": 1059,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1MA9"
+  ]
+}

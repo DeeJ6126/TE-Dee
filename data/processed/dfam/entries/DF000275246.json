@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275246",
+  "name": "CapAeg-1.174",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Capra aegagrus",
+  "display_classification": "LINE/L1 | Capra aegagrus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Caprinae",
+    "Capra"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1114 BP; 463 A; 224 C; 204 G; 220 T; 3 other;"
+  },
+  "sequence": "aagcccagagataaatccacacacctatggacaccttatctttgacaaaggaggcaagaatatacaatggagtaaagacaatctctttaacaagtggtgctgggaaaactggtcaaccacttgtaaaagaatgaaactagancactttctaacaccatacacaaaaataaactcaaaatggattaaagatctaaacgtaagaccagaaactataaaactcctagaggagaacataggcaaaacactctccgacataaatcacagcaggatcctctatgatccacctcccagaatactggaaataaaagcaaaaataaacaaatgggatctaattaaaattaaaagcttctgcacaacaaaggaaactataagcaaggtgaaaagacagccttctgaatgggagaaaataatagcaaatgaagcaactgacaaacaactaatctcaaaaatatacaagcaacttntgcagctcaattccagaaaaataaacgacccaatcaaaaaatgggccaaagaactaaatagacatttctccaaagaagacatacggatggctaacaaacacatgaaaagatgctcaacatcactcattatcagagaaatgcaaatcaaaaccacaatgaggtaccacttcacaccagtcagaatggctgcgatccaaaagtctgcaagcaataaatgctggagagggtgtggagaaaagggaaccctcctacactgttggtgggaatgcaaactagtacagccactatggagaacagtgtggagattccttaaaaaattgcaaatagaactgccttatgacccagcaatcccactgctgggcatacacaccgaggaaaccagaattgaaagagacacgtgtaccccaatgttcatcgcagcactgtttataatagccaggacatggaaacaacctagatgtccatcagcagatgaatggataagaaagctgtggtacatatacacaatggagtattactcagccgttaaaaagaatacatttgaatcagttctaatgaggtggatgaaactggagccnattatacagagtgaagtaagccagaaagaaaaacaccaatacagtatactaacgcatatatatggaatttag",
+  "length_bp": 1114,
+  "sequence_length_bp": 1114,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

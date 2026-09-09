@@ -1,0 +1,52 @@
+{
+  "accession": "DF000290018",
+  "name": "teucerv1_5edge",
+  "description": "Repetitive element found in the T2T assembly of the CHM13 human genome",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Homo sapiens",
+  "display_classification": "Unknown/ | Homo sapiens",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Hominoidea",
+    "Hominidae",
+    "Homininae",
+    "Homo"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1214 BP; 198 A; 367 C; 488 G; 151 T; 10 other;"
+  },
+  "sequence": "agaggccgccggaagggaaaaactgggcctggaaaggccgttgtgaggaatgagccccatgggcctgaagaggccactggcaggcgggagctgggcctgccgaagcggccgagaggcaggagctttggactcgggaggccgcagtgaggcgagagctagctgggcgtggagagtccgctgtgaggcagaggccgaggcgggcccgtgcaggccttcgggaggcaggaggccgggcctgcagaggccgactggaggtcaagttcngggcctgcagaggccgccgaaagtcaaaagcggggcctgggaaggccgccgggaggcatgagctgggctgggccgaaagaggccactgggaggcaggaggagctgggcctggagaggctgactcgaggaagttttgcacctggagaggccgccgagaggccggagctgggcccggggaggccgacggggcccactcaggccgacttgaggacgacttgggcctgcagaggccgccgggaggcaggagctggncctgganaggccgacttgaggacggtctgggcctgcagaggccgccgggaggcangagctgggcctggaggagcccaccgaccggaggncgtncggggcctggagaggccatgcggaggggcaggngccgggcctggagaggccgccgtgaggcatgagcttggcctgcggagcttggccgtgaggcaggngctgggcctgccggggccgccgggagccgggcgggagccgggtccgaagaggtcgttgggaccggaggggccagagtcgggcctggagangccgccgggaggaagagctgggcccggagaggccgccgggaggcaggagctgggcctggagaggccgacttgaggaggcctggcctcngcctcccgcatggggccccggcccagctgttcctcctggctgcatctcccgcctcccagcaaacaagctcttttggctcagctcccgccggcgtttgtagaccccgaagtttctgcaaccaagctcttcaggcccacatcccttctcccagtgactgaacagtcccagctccggctggagaagggcgtctgcaggccccgctgttgcctcccaggggagtctccaggcccagctctcgccccaccgcgacctcccaggcccaagtccctgcctgcctcccagcagcccgcgtgcgaccctgctcctccctcacggtggcctgttgaggc",
+  "length_bp": 1214,
+  "sequence_length_bp": 1214,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

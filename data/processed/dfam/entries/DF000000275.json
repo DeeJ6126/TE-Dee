@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000275",
+  "name": "L1MC1_3end",
+  "description": "3' end of L1 retrotransposon, L1MC1_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Boreoeutheria",
+  "display_classification": "LINE/L1 | Boreoeutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1080 BP; 393 A; 197 C; 232 G; 256 T; 2 other;"
+  },
+  "sequence": "ctgttatccaaaatatacaaagaactcttaaaactcaacaataagaaaacgaacaacccgattnaaaaatgggccaaagacctnaacagacacctcaccaaagaagatatacagatggcaaataagcatatgaaaagatgctccacatcatatgtcatcagggaaatgcaaattaaaacaacaatgagataccactacacacctattagaatggccaaaatccagaacactgacaacaccaaatgctggcgaggatgtggagcaacaggaactctcattcattgctggtgggaatgcaaaatggtacagccactttggaagacagtttggcagtttcttacaaaactaaacatactcttaccatacgatccagcaatcgcgctccttggtatttacccaaaggagttgaaaacttatgtccacacaaaaacctgcacacggatgtttatagcagctttattcataattgccaaaacttggaagcaaccaagatgtccttcagtaggtgaatggataaataaactgtggtacatccagacaatggaatattattcagcgctaaaaagaaatgagctatcaagccatgaaaagacatggaggaaacttaaatgcatattactaagtgaaagaagccaatctgaaaaggctacatactgtatgattccaactatatgacattctggaaaaggcaaaactatggagacagtaaaaagatcagtggttgccaggggttgggggggagggagggatgaataggcggagcacagaggatttttagggcagtgaaactactctgtatgatactataatggtggatacatgtcattatacatttgtccaaacccatagaatgtacaacaccaagagtgaaccctaatgtaaactatggactttgggtgataatgatgtgtcaatgtaggttcatcgattgtaacaaatgtaccactctggtgggggatgttgatagtgggggaggctgtgcatgtgtgggggcagggggtatatgggaaatctctgtaccttccgctcaattttgctgtgaacctaaaactgctctaaaaaataaagtctatttaaaaa",
+  "length_bp": 1080,
+  "sequence_length_bp": 1080,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1MC1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "accession": "DF000278336",
+  "name": "MicHir-1.227",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Nesogale talazaci",
+  "display_classification": "DNA/PiggyBac | Nesogale talazaci",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Oryzorictinae",
+    "Nesogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 150 BP; 30 A; 36 C; 36 G; 46 T; 2 other;"
+  },
+  "sequence": "cacttttcgtaccgctcacgagttttctcgtgtttcgcgcgccatctgttaaggaccgcatcacgagatgatttaattaacgtgcagtttgcccaanancgtgcggtccctggcgtatgtcttagagatttctatgcggtacgaaatgtg",
+  "length_bp": 150,
+  "sequence_length_bp": 150,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

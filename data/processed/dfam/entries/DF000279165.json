@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279165",
+  "name": "MyoBra-5.4180",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Myotis brandtii",
+  "display_classification": "DNA/PiggyBac | Myotis brandtii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Myotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 346 BP; 100 A; 63 C; 69 G; 114 T; 0 other;"
+  },
+  "sequence": "cacatttcgtaccgctcaggagttttctcgtgtttcgcgcgccatctgttaaggaccgctcacgagtgttctcgtttttcacgcccatggaaaaaggagcgaatctagatacttatgtaaattttgtttggtccctcttcatagaggaaaatgttttacgcagtaccatacgttaaaaaagtactaggaactttaattgtttaattgtttttgtaaataaaaatgttataattattgaaaaacaacacctaaagtgcattatgatgatttaaataacgtgcagtttgcccaaaaacgtgcggtccctggcgtatgtcttagagatttctatgcggtacgcaatgtg",
+  "length_bp": 346,
+  "sequence_length_bp": 346,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

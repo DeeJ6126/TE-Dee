@@ -1,0 +1,57 @@
+{
+  "accession": "DF000004211",
+  "name": "RTE-1_Testu",
+  "description": "RTE-BovB LINE element",
+  "keywords": [
+    "LINE/RTE-BovB"
+  ],
+  "species": "Testudines",
+  "display_classification": "LINE/RTE-BovB | Testudines",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Testudinata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3234 BP; 1192 A; 582 C; 758 G; 701 T; 1 other;"
+  },
+  "sequence": "cttggggcatccgaagctaccaagcgcatcccccgggtggcggatgggggaagtgtccacatgtggacagctccgaataatgaataaggagccgtggacctaaggttgtgcatggggctggtaaccccgccacgtaaaaacaaacttactacagaaacgaacaccaggagccatattggtatgcagcaggctcgaacaagagatcaacttcatgtgaagaatatgacgggcattggtcaaacccgtaaggaagcccatgtcctgaaaagtcccttgctcaaggccagatcagtaatgaaaatcggattttggaatgtgagaacaatgtacgaagctactaaaactgctcaagtaattaaagaaatggatagataccatcttgatgtccttggaatcagtgagtgtagatggacaggttcgaacaaactacactttagagaaacaaataagaccatcatctactccgggaatgtggatggtagacatgaagctggcgtagcaatcctaatgtcgaatgaagcagagcaggcactgactgagtgggaatcagtcaatgaaagaattattagagctcgctttcagactagattcttcaaactaacagtcatacaatgctatgcaccaaccaacgaaaagccagatgaggaaaaagatgctttttatgatttgttacaggatgtgttaaccaaggtcccaaaacatgatatcatagtgactatgggtgattttaacgcaaaggttggaagtaacaatgatgggttggataaagttatgggcaagtgcggcaggggtttggacatgaaccaaaatggtgaacgattagtagaaatttgcagtgtgaacaacctagtgataggtggaacaatatttcctcataaagaaatccataaagtgacatggaactccccagatggtactacaaagaaccagatagatcacttctgcatttcaagaaagtttcgcagctcgttggcagatgtacgtgcgtacaggggagcagacgtgggcagtgaccataacctttgtatcgctaaattgaagatcaagttaaagaggatgaagaaggttaaaagaagaccgcgcatcaacagcgcacaattaaaagacccaaacacaaaaagtgcttttcagcttgaactgaagaacaggttcagtgttctaatggagttaactgaagaaaaccaagacattgatactctgtgggaaaacatcagagagtgctatctagaaagtgcaaagacagttctaataacaacgaaatctaaaagggaagaatggattagcgatgctacttgggcagcagtggaaaagagaagaagtgtaaagcaaaaactcatgaatgctaagacatgtgaagagacaagcaagtggcaagaagaatacagagctctagacagagaggtaaaaaggagtgctagaagagataaaagggcatatattgatagaaaatgtcaagaggctgaagatgctagccaaagaggtgaccttacaaccttgtataagacaatcaaacagctaacaggaaactttagcagtactggaggccctattaaagatgcaaatggaaagactcttagtacagaagaagaacaaaggaaaagatgggcagaacattttcaggctgttttaaatagaccaagcccaagcgaactactagaaatacgtgatgaagacctaccactagagcttgatattgatttaggagatattacaatggaagaagttagaaaagccatcagtaaactcaaaaatgggaaagcagctggagaggataacattactggagagatgcttaaagcaagtgacgaaacagccctccagactttccttgtgtttttggatagaatatggaatgaagaaaagaacccaacccagtggaagagaggccttatagtaaaattgccaaagaagggtgaccttaccaactgcaataactggagaggaatcacattactctcagtgcctgggaaaatcatgtgcaacatcatcctggaacgtatcaagaaacaaatagatctccaacttagagaggaacaagcaggttttagaccactgagatcatgtgcagaccatattgttgttctcagacatattatagaacaaagtgtggagtggcaagcacctcttgtgataaattttatagatttccagaaggcttttgacagcgtacacagagacagtctttggaaaattatggcatactatggaataccagcaaaaataattagaataatcaaggatctatatgataatgccgaatgtgcagtcagagatggtgacaacatcagccaatggtttgcagtgacaactggagtaaggcaagggtgtattatgtccccactattgtttgcactggtcattgactatgtcatgaggaaagtaaccgcagaaggcaaccgaggaattttatggacaaatgataaagcacaattggatgacctcgtttttgctgatgacattgtcctgcttagttcaacacatcgcttaatggaagaaaagacccagcttttggcagacacagcaaaacaagttggtttgttcatcaacaaggggaagacaaaatatatggctatcaatgtcccaaaagcaaccatcagagtggacggagaaacactagaagaagtaagtcattttacctatctagggagtgagatgtgcaatgatggtgacaccatgctagatgtcaagcaacgaatatcaaaagcagcaaacaactttcataaacttgaaaagatttggaaaagtagcatgattggcactgacacaaaaatacgaatttttaacaccggcatcatgtctgtcctcctttatggagcagagtcatggaaatctacaacagaaattgataagaagatcaactcattccaaagtaaatgcctgcggaagatcttcagagtccattggaaagagtttcttgcaacatcagaaattctaagtagagcaaaccaacctaaagcatcaaatatggtaagaagacgacgatggacatatttaggacacgctttaaggatgccaccaacacgacttccacgncaagtgataatatggacaccacctggaaagagaaaaagagggcgacctagagaaacattacgcagaacaatagagaaagaagccaaatccatcaacatgacactcagaagcctgaacagaccagcacaagaccgaaataaatggcggaaactggtggacgccctatgcacctgagggtgcgggaggataaagaaagaaaaa",
+  "length_bp": 3234,
+  "sequence_length_bp": 3234,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "111..3204",
+      "start": 110,
+      "end": 3204,
+      "qualifiers": {
+        "product": "RTE-1_Testu",
+        "number": "1",
+        "note": "[Testudines]",
+        "translation": "MGLVTPPRKNKLTTETNTRSHIGMQQARTRDQLHVKNMTGIGQTRKEAHVLKSPLLKA"
+      },
+      "label": "RTE-1_Testu"
+    }
+  ],
+  "repbase_aliases": []
+}

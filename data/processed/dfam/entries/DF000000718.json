@@ -1,0 +1,50 @@
+{
+  "accession": "DF000000718",
+  "name": "MER11D",
+  "description": "MER11D Long Terminal Repeat for HERVK11 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER11D"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 897 BP; 234 A; 217 C; 193 G; 253 T; 0 other;"
+  },
+  "sequence": "tgtagggagaccccctgaaactattgctacggaataaaagatgaaatgctcctgattattgtaaatacaaaattgcatgcaggattgtgtaaagacaatgccaggttggactgccagaacgagccaacagcgcgtgatgtgcttccccctgcagagagcctatgaatggacgtgcagtcagggaggtttcacatcaccaagattcctatcccagaaaagcagatgttcatagctctgggaatggaatgcgacccttgtggagagcctataaacggacgcatggggggcgcctgtccatatggataagatagggctataaacgccctcatcttgccacggctcttctaggcctctttagggttaaggcatactcccttctgagaatttctggtctaaccggttgtctagcttcacgtcctgtttctatggattgtttgtaaccagcttttgctgcaactgttactgctgattaatatcttgctaatcataggttatggaaagactgtgtttctgttttaaggctctgttagaaattactgatgcacacactatattgtaaattcttatctctgtatactgtacttctgcatacagatgtactgtacttctacatacaaatgttatgttaaagaattacttcatccccatgtgaccatctcacctcataatcaaatgaccctaaatccctcactaacctacccccgccctcactaaacttaataataaatgctggtatatccagtgcattgttggcaccgcgggaccagaaggcggtgacccccctggacccagctttcactatcttgtgtgtgtctattatttctcgacctgccgatccgcctgggaacaaagagagagccccgttgcattgcgggctgctggccagatcccgcaata",
+  "length_bp": 897,
+  "sequence_length_bp": 897,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER11D"
+  ]
+}

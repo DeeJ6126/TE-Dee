@@ -1,0 +1,51 @@
+{
+  "accession": "DF000274762",
+  "name": "AmmLer-4.605",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "AmmLer-4.605"
+  ],
+  "species": "Ammotragus lervia",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ammotragus lervia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Caprinae",
+    "Ammotragus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 614 BP; 164 A; 148 C; 137 G; 165 T; 0 other;"
+  },
+  "sequence": "aagcagatagggtagaggggtccccggagaaagagaaccaggcatggctttcttgacataagagaagccatttttggcctaagccattttgtgatctaagcctggccacaatgcttgcccttgaacaggtctcagtaattaatgatcttaagggaagcgagggaatgcaggaacaaaggaaaagcagtcaagaaacaatagttcagcgataaaacagagtcctagttcctcctcaagggatatacataacaatctgatacatatctttgagttctgcaggaactaaggccccccacccaggtggaggatggaatgatgatgttgaccttttctgaccctcgtgacttcaatcaactaaagcttggactctgtcgacctttgccccaattctatgctgaattctcctctgctcaagccccttcatgaatatgcatgtacccttagcttaaaacttccccagttttgctgttcggggagacactgctttgggaaagatccccggtgttctccttacttgctgcaagtaataaatccttccttctcccgatctttggcttggttgtgtcttttggctcgacacccaccaagaggcgaacccagtttttcgggtaaca",
+  "length_bp": 614,
+  "sequence_length_bp": 614,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

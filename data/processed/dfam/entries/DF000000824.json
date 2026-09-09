@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000824",
+  "name": "Tigger12A",
+  "description": "TcMar-Tigger DNA transposon, Tigger12A subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tigger | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 819 BP; 233 A; 146 C; 210 G; 227 T; 3 other;"
+  },
+  "sequence": "cagtagacccttggcattcgcggatttaacattcgtggtttcgactattcgcgagcgaccccgaaggtccatgacatgtagtaatttgtaattttgctgaggcgcgaatttgaatcgcatgcgctgcgaggctggcgtgtgggagcgagtcacttagctagtgagtgagcctagccgaccgcccagcatccgcatctcaacgcggctttgttgttctctactcgtcgtcgcgtacgcagtaactctcgtgaagtgataaaagctttgtttctttgtgaaaaatggccccgaaaagaaagccaactgctagtgctggtgacggaagtgaagagaaagtgaagaggtctaagaaagtgatggttcttagccagaaaatagaagttttggataaattaaagagtgaaatgtcgaatttggcggtggctcggatctatgacatgaacgagtccaccatacgctctatacggaaacaagaaaaagcgattcgtgaaactgtttcagcgagtgctccagncagtgcaaaaattgctcatcaagtgaaagataaaactttagtgaaagctgaaaaggcgattaacttgtaatgtgaggatatgcgcaggaaataggtgnttcagncagaatttattttaatagctttataaatgactttagtcctgtatttatagaatcattaagggtctgaaggggtcacttaaatttttcagttatactttactgcattttatgggggaaattatatgctatagtggtattcgcgaatttggggattcgcgaaggtctcgggacatatccctcacgaatgtcaagggtctactg",
+  "length_bp": 819,
+  "sequence_length_bp": 819,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Tigger12A"
+  ]
+}

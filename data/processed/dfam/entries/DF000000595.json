@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000595",
+  "name": "LTR81AB",
+  "description": "LTR81AB (Long Terminal Repeat) for Gypsy retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR81AB"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 278 BP; 78 A; 62 C; 52 G; 83 T; 3 other;"
+  },
+  "sequence": "tgtaacggggataatattttgcaaatattaaaccgatgcattttcatttccctcttaaatcatgttcccttgcagccttctacctccaaggctgagccatgaggcttattgccccagggaagtactgcctagaacaaagaggccattgntcagctttgagtctcaaagctgactttcttganctctttagcaagacaatagtcttgaaagccaggctttgtngagagagaaaaggattttctaaattcctttagctccctttaacatatcaagagcca",
+  "length_bp": 278,
+  "sequence_length_bp": 278,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR81AB"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000959",
+  "name": "MER94",
+  "description": "hAT-Blackjack DNA transposon, MER94 subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Blackjack"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Blackjack | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 134 BP; 27 A; 38 C; 31 G; 38 T; 0 other;"
+  },
+  "sequence": "tagggtgaccatacgtcccggtttgcccgggacagtcccggtttacgcctgttgtcccggcgtaattattaatagcgccccctttcactctcaaaagtgtcccggtttggacgataaattatatggtcacccta",
+  "length_bp": 134,
+  "sequence_length_bp": 134,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER94"
+  ]
+}

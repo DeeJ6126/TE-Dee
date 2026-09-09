@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001273",
+  "name": "UCON75",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Amniota",
+  "display_classification": "Unknown/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 371 BP; 151 A; 44 C; 39 G; 134 T; 3 other;"
+  },
+  "sequence": "cactcgaagaaaaaaataacttaataatttttaattactgatacaaagtaaaacaattgcttgttatttacttgtgtttaccgaggattacttaaaattaataaatatttttggaaattactcggtaaattttaattacttaacgaaagtaataaaaatatttataagcgaagagaacacccataaataccataagtaaatacattactcagcgaatgaattaattagtatttaattactagaaattactatcaattactaaanattactacaaattacttgcagaatagacanattcttttactactattaataatttcaattactaattttangtaattgtaagtaatttttttcctttgggtgcagag",
+  "length_bp": 371,
+  "sequence_length_bp": 371,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON75"
+  ]
+}

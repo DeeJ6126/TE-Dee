@@ -1,0 +1,40 @@
+{
+  "accession": "DF000002200",
+  "name": "UCON87B",
+  "description": "UCON87B subfamily",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Theria",
+  "display_classification": "Unknown/ | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 312 BP; 68 A; 65 C; 42 G; 127 T; 10 other;"
+  },
+  "sequence": "cctttctccccctcacgtcctccgtccggccggcattttaaatatacttgatattgtccggctttttacttaggaataaaaanaatgaagtttcatattaaattattttaaattttatggtactcagtttcacaatcaaataattctattttgtttacaagtggaatttttatttttgacggtttctagcttttttcgatgatcagtttantgacttttttctttgnnnnancaatttaaatttgtcctctcgcgncccccgtttctgccttcgctgncctccttttaatnccctggtgtctggtaaccata",
+  "length_bp": 312,
+  "sequence_length_bp": 312,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

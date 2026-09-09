@@ -1,0 +1,46 @@
+{
+  "accession": "DF000276689",
+  "name": "EleEdw-5.398",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Elephantulus edwardii",
+  "display_classification": "LINE/L1 | Elephantulus edwardii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Macroscelidea",
+    "Macroscelididae",
+    "Elephantulus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 367 BP; 111 A; 31 C; 126 G; 99 T; 0 other;"
+  },
+  "sequence": "tgaggctggcattggggtgggggtaagactgagaaaaactggatgaaatatgtttacggcattgaagtctatgggggagagaatagtctaaaagtattatattttagggcattatttttatcgtaggagtatgcaatgagggttgcagagtggattatatttgggggtagggggtggggtttggggaggtgcgggggggggattgtgtaccaatgagggagtttttcttttgcttttcaaggagaggagcaaatgggggggaggggtttgtgcggggagaagggtgcaacaatgaatgaatggaatcccaaaatctctgtagatgttcattgaaatgaaaaataaacaacctaaattaaaaaaaaaa",
+  "length_bp": 367,
+  "sequence_length_bp": 367,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

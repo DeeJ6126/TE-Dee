@@ -1,0 +1,43 @@
+{
+  "accession": "DF000001305",
+  "name": "X1_DNA",
+  "description": "Conserved repetitive element present in placental mammals.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tigger | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 746 BP; 235 A; 142 C; 151 G; 218 T; 0 other;"
+  },
+  "sequence": "cagtgcggtcgcattttatgcgaatttgaattatgcgaatttgaaatagtgcgatataaaaatattaataaagtctcactttatgcgcaaaatttgaaataatgcgaatcccccaaattaaaaaaattcgtcaagaatcgcataatttcaaagctggcgggccgagtgaattgtaaactgtgtttacgctattgccacatggcggcgccactttagctggtaaacagaaatacccgccatcctttgtcagtattatgtgaaccacgctgttgtttacgtgcatcggaacttctgcgagtgattttggtgactattgtgctgttattttaacattcactgttattataatttaaaatcttttttatatcctataacaatgtcatccaagcgttcattaagtggtggtgctagtgctagtgctgaaaaacgcgcccgaaaatcaataactttggaacggaagttagatgtgataaaacgctatgaagaaggccaaacaaccgccatgatacgccgtgctgttaatttaggagagagcactctgcgaaatattagagataatgctgagaaaataaaaagcagcattaaagcaaaaatacgctacaatggttgtagatttatgcgctccgagaacgcatcccccccactttacatttattcctatgggaaaattagtcttgaattatgcgagttttgaattatgcgaggtcttcaggaacgcatccctcgcataaaatgcgaccgccctg",
+  "length_bp": 746,
+  "sequence_length_bp": 746,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X1_DNA"
+  ]
+}

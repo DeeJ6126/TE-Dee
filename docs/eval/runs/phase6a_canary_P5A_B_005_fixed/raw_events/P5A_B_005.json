@@ -1,0 +1,1956 @@
+{
+  "case": {
+    "case_id": "P5A_B_005",
+    "question": "我想看 L1HS 的 Genome Annotation Distribution，应该点哪里？",
+    "category": "site_navigation",
+    "expected_best_mode": "deep_think",
+    "dt_expectation": {
+      "should_answer": true,
+      "max_expected_depth": "site_navigation",
+      "required_plugins": [
+        "Site Navigator Plugin"
+      ],
+      "required_routes": [
+        "search-karyotype-panel"
+      ],
+      "should_have_evidence_walk": false
+    },
+    "agent_expectation": {
+      "should_answer": true,
+      "should_suggest_dt": true,
+      "max_plugins": 1,
+      "forbidden_plugins": [
+        "Literature Plugin",
+        "Graph Analytics Plugin"
+      ],
+      "required_artifacts": []
+    },
+    "comparison_metrics": [
+      "navigation_route_accuracy",
+      "tool_call_accuracy",
+      "no_irrelevant_plugins",
+      "latency"
+    ]
+  },
+  "dt": {
+    "ok": true,
+    "http_status": 200,
+    "headers": {
+      "Date": "Wed, 27 May 2026 15:04:58 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Cache-Control": "no-cache, no-transform",
+      "X-Accel-Buffering": "no",
+      "Connection": "keep-alive, close",
+      "Content-Encoding": "none",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "text/event-stream; charset=utf-8"
+    },
+    "events": [
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-P5A_B_005",
+        "message": "Recognized entities: L1HS (TE).",
+        "payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "display_text": "Recognized entities: L1HS (TE).",
+        "sequence": 1
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-P5A_B_005",
+        "message": "本次分析聚焦于意图层面，执行了图分析任务，过程中综合了多项证据。",
+        "payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "display_text": "本次分析聚焦于意图层面，执行了图分析任务，过程中综合了多项证据。",
+        "sequence": 2
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-P5A_B_005",
+        "plugin_name": "Entity Resolver",
+        "message": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "sequence": 3
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-P5A_B_005",
+        "plugin_name": "Entity Resolver",
+        "display_label": "Resolved 1 entities",
+        "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+        "message": "These aliases will be reused by the graph, literature, genome, and sequence layers.",
+        "detail_payload_id": "tool-1",
+        "payload": {
+          "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Entity Resolver",
+              "entity_scope": "L1HS",
+              "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "matched_alias": "L1HS",
+                "used_broad_alias": false,
+                "confidence": 0.93
+              },
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "coverage": {
+              "question_type": "graph_analytics",
+              "status": "ok",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "required_evidence": [
+                "graph structure"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": [
+                  {
+                    "type": "TE",
+                    "canonical_label": "L1HS",
+                    "display_label": "L1HS",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  }
+                ]
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "raw_preview": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 1,
+            "alias_variants": 2
+          },
+          "display_details": {
+            "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Entity Resolver",
+                "entity_scope": "L1HS",
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "matched_alias": "L1HS",
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                },
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": [
+                {
+                  "type": "TE",
+                  "canonical_label": "L1HS",
+                  "display_label": "L1HS",
+                  "matched_alias": "L1HS",
+                  "aliases": [
+                    "L1HS",
+                    "L1HS-Ta"
+                  ],
+                  "broad_aliases": [],
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                }
+              ]
+            },
+            "result_message": "These aliases will be reused by the graph, literature, genome, and sequence layers."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Entity Resolver",
+              "entity_scope": "L1HS",
+              "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "matched_alias": "L1HS",
+                "used_broad_alias": false,
+                "confidence": 0.93
+              },
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "coverage": {
+              "question_type": "graph_analytics",
+              "status": "ok",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "required_evidence": [
+                "graph structure"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": [
+                  {
+                    "type": "TE",
+                    "canonical_label": "L1HS",
+                    "display_label": "L1HS",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  }
+                ]
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "raw_preview": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 1,
+            "alias_variants": 2
+          },
+          "display_details": {
+            "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Entity Resolver",
+                "entity_scope": "L1HS",
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "matched_alias": "L1HS",
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                },
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": [
+                {
+                  "type": "TE",
+                  "canonical_label": "L1HS",
+                  "display_label": "L1HS",
+                  "matched_alias": "L1HS",
+                  "aliases": [
+                    "L1HS",
+                    "L1HS-Ta"
+                  ],
+                  "broad_aliases": [],
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                }
+              ]
+            },
+            "result_message": "These aliases will be reused by the graph, literature, genome, and sequence layers."
+          }
+        },
+        "display_text": "These aliases will be reused by the graph, literature, genome, and sequence layers.",
+        "sequence": 4
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-P5A_B_005",
+        "plugin_name": "Site Navigator Plugin",
+        "message": "This question asks for a TE-KG page or panel route, so I will use the site navigator first.",
+        "node": "Deep Think",
+        "source": "Site Navigator Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "This question asks for a TE-KG page or panel route, so I will use the site navigator first.",
+        "sequence": 5
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-P5A_B_005",
+        "plugin_name": "Site Navigator Plugin",
+        "display_label": "Site Navigator Plugin",
+        "summary": "Matched the question to the Genome Annotation Distribution site route.",
+        "message": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.",
+        "detail_payload_id": "tool-2",
+        "payload": {
+          "summary": "Matched the question to the Genome Annotation Distribution site route.",
+          "preview_items": [
+            {
+              "title": "Genome Annotation Distribution",
+              "body": "Genome annotation distribution panel.",
+              "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+              "meta": "genome_distribution"
+            },
+            {
+              "title": "Genome Browser",
+              "body": "Embedded Genome Browser entry from the search detail page.",
+              "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+              "meta": "genome_browser"
+            },
+            {
+              "title": "JBrowse direct entry",
+              "body": "Direct genome browser page.",
+              "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+              "meta": "genome_browser"
+            },
+            {
+              "title": "Search summary",
+              "body": "Overview card for the selected TE.",
+              "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+              "meta": "search_summary"
+            },
+            {
+              "title": "TE-KG graph",
+              "body": "Interactive TE-KG graph preview.",
+              "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+              "meta": "graph"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Site Navigator Plugin",
+              "entity_scope": "L1HS",
+              "claim": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "title": "Genome Annotation Distribution",
+                "capability": "genome_distribution",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                "path": "search.php",
+                "fragment": "search-karyotype-panel",
+                "description": "Genome annotation distribution panel."
+              },
+              "title": "Genome Annotation Distribution",
+              "meta": "genome_distribution",
+              "body": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+            ],
+            "coverage": {
+              "question_type": "graph_analytics",
+              "status": "ok",
+              "result_counts": {
+                "routes": 5,
+                "primary_confidence_percent": 86
+              },
+              "required_evidence": [
+                "graph structure"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Site Navigator Plugin",
+              "status": "ok",
+              "query_summary": "",
+              "display_summary": "Matched the question to the Genome Annotation Distribution site route.",
+              "result_counts": {
+                "routes": 5,
+                "primary_confidence_percent": 86
+              },
+              "preview_items": [
+                {
+                  "title": "Genome Annotation Distribution",
+                  "body": "Genome annotation distribution panel.",
+                  "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                  "meta": "genome_distribution"
+                },
+                {
+                  "title": "Genome Browser",
+                  "body": "Embedded Genome Browser entry from the search detail page.",
+                  "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                  "meta": "genome_browser"
+                },
+                {
+                  "title": "JBrowse direct entry",
+                  "body": "Direct genome browser page.",
+                  "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                  "meta": "genome_browser"
+                },
+                {
+                  "title": "Search summary",
+                  "body": "Overview card for the selected TE.",
+                  "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                  "meta": "search_summary"
+                },
+                {
+                  "title": "TE-KG graph",
+                  "body": "Interactive TE-KG graph preview.",
+                  "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                  "meta": "graph"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+                  "title": "Genome Annotation Distribution",
+                  "meta": "genome_distribution",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "primary_route": {
+                  "title": "Genome Annotation Distribution",
+                  "capability": "genome_distribution",
+                  "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                  "path": "search.php",
+                  "fragment": "search-karyotype-panel",
+                  "description": "Genome annotation distribution panel."
+                },
+                "candidate_routes": [
+                  {
+                    "title": "Genome Annotation Distribution",
+                    "capability": "genome_distribution",
+                    "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                    "path": "search.php",
+                    "fragment": "search-karyotype-panel",
+                    "description": "Genome annotation distribution panel."
+                  },
+                  {
+                    "title": "Genome Browser",
+                    "capability": "genome_browser",
+                    "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                    "path": "search.php",
+                    "fragment": "search-jbrowse-panel",
+                    "description": "Embedded Genome Browser entry from the search detail page."
+                  },
+                  {
+                    "title": "JBrowse direct entry",
+                    "capability": "genome_browser",
+                    "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                    "path": "jbrowse.php",
+                    "fragment": "",
+                    "description": "Direct genome browser page."
+                  },
+                  {
+                    "title": "Search summary",
+                    "capability": "search_summary",
+                    "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                    "path": "search.php",
+                    "fragment": "search-summary-panel",
+                    "description": "Overview card for the selected TE."
+                  },
+                  {
+                    "title": "TE-KG graph",
+                    "capability": "graph",
+                    "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                    "path": "preview.php",
+                    "fragment": "",
+                    "description": "Interactive TE-KG graph preview."
+                  }
+                ],
+                "answer_markdown": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.",
+                "confidence": 0.86,
+                "matched_entity": "L1HS",
+                "matched_capability": "genome_distribution"
+              }
+            }
+          },
+          "raw_result": {
+            "primary_route": {
+              "title": "Genome Annotation Distribution",
+              "capability": "genome_distribution",
+              "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+              "path": "search.php",
+              "fragment": "search-karyotype-panel",
+              "description": "Genome annotation distribution panel."
+            },
+            "candidate_routes": [
+              {
+                "title": "Genome Annotation Distribution",
+                "capability": "genome_distribution",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                "path": "search.php",
+                "fragment": "search-karyotype-panel",
+                "description": "Genome annotation distribution panel."
+              },
+              {
+                "title": "Genome Browser",
+                "capability": "genome_browser",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                "path": "search.php",
+                "fragment": "search-jbrowse-panel",
+                "description": "Embedded Genome Browser entry from the search detail page."
+              },
+              {
+                "title": "JBrowse direct entry",
+                "capability": "genome_browser",
+                "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                "path": "jbrowse.php",
+                "fragment": "",
+                "description": "Direct genome browser page."
+              },
+              {
+                "title": "Search summary",
+                "capability": "search_summary",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                "path": "search.php",
+                "fragment": "search-summary-panel",
+                "description": "Overview card for the selected TE."
+              },
+              {
+                "title": "TE-KG graph",
+                "capability": "graph",
+                "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                "path": "preview.php",
+                "fragment": "",
+                "description": "Interactive TE-KG graph preview."
+              }
+            ],
+            "answer_markdown": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.",
+            "confidence": 0.86,
+            "matched_entity": "L1HS",
+            "matched_capability": "genome_distribution"
+          },
+          "raw_preview": null,
+          "errors": [],
+          "result_counts": {
+            "routes": 5,
+            "primary_confidence_percent": 86
+          },
+          "display_details": {
+            "result_message": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.",
+            "preview_items": [
+              {
+                "title": "Genome Annotation Distribution",
+                "body": "Genome annotation distribution panel.",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                "meta": "genome_distribution"
+              },
+              {
+                "title": "Genome Browser",
+                "body": "Embedded Genome Browser entry from the search detail page.",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                "meta": "genome_browser"
+              },
+              {
+                "title": "JBrowse direct entry",
+                "body": "Direct genome browser page.",
+                "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                "meta": "genome_browser"
+              },
+              {
+                "title": "Search summary",
+                "body": "Overview card for the selected TE.",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                "meta": "search_summary"
+              },
+              {
+                "title": "TE-KG graph",
+                "body": "Interactive TE-KG graph preview.",
+                "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                "meta": "graph"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Site Navigator Plugin",
+                "entity_scope": "L1HS",
+                "claim": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "title": "Genome Annotation Distribution",
+                  "capability": "genome_distribution",
+                  "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                  "path": "search.php",
+                  "fragment": "search-karyotype-panel",
+                  "description": "Genome annotation distribution panel."
+                },
+                "title": "Genome Annotation Distribution",
+                "meta": "genome_distribution",
+                "body": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+              }
+            ]
+          }
+        },
+        "node": "Deep Think",
+        "source": "Site Navigator Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "Matched the question to the Genome Annotation Distribution site route.",
+          "preview_items": [
+            {
+              "title": "Genome Annotation Distribution",
+              "body": "Genome annotation distribution panel.",
+              "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+              "meta": "genome_distribution"
+            },
+            {
+              "title": "Genome Browser",
+              "body": "Embedded Genome Browser entry from the search detail page.",
+              "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+              "meta": "genome_browser"
+            },
+            {
+              "title": "JBrowse direct entry",
+              "body": "Direct genome browser page.",
+              "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+              "meta": "genome_browser"
+            },
+            {
+              "title": "Search summary",
+              "body": "Overview card for the selected TE.",
+              "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+              "meta": "search_summary"
+            },
+            {
+              "title": "TE-KG graph",
+              "body": "Interactive TE-KG graph preview.",
+              "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+              "meta": "graph"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Site Navigator Plugin",
+              "entity_scope": "L1HS",
+              "claim": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "title": "Genome Annotation Distribution",
+                "capability": "genome_distribution",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                "path": "search.php",
+                "fragment": "search-karyotype-panel",
+                "description": "Genome annotation distribution panel."
+              },
+              "title": "Genome Annotation Distribution",
+              "meta": "genome_distribution",
+              "body": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+            ],
+            "coverage": {
+              "question_type": "graph_analytics",
+              "status": "ok",
+              "result_counts": {
+                "routes": 5,
+                "primary_confidence_percent": 86
+              },
+              "required_evidence": [
+                "graph structure"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Site Navigator Plugin",
+              "status": "ok",
+              "query_summary": "",
+              "display_summary": "Matched the question to the Genome Annotation Distribution site route.",
+              "result_counts": {
+                "routes": 5,
+                "primary_confidence_percent": 86
+              },
+              "preview_items": [
+                {
+                  "title": "Genome Annotation Distribution",
+                  "body": "Genome annotation distribution panel.",
+                  "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                  "meta": "genome_distribution"
+                },
+                {
+                  "title": "Genome Browser",
+                  "body": "Embedded Genome Browser entry from the search detail page.",
+                  "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                  "meta": "genome_browser"
+                },
+                {
+                  "title": "JBrowse direct entry",
+                  "body": "Direct genome browser page.",
+                  "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                  "meta": "genome_browser"
+                },
+                {
+                  "title": "Search summary",
+                  "body": "Overview card for the selected TE.",
+                  "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                  "meta": "search_summary"
+                },
+                {
+                  "title": "TE-KG graph",
+                  "body": "Interactive TE-KG graph preview.",
+                  "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                  "meta": "graph"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+                  "title": "Genome Annotation Distribution",
+                  "meta": "genome_distribution",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "primary_route": {
+                  "title": "Genome Annotation Distribution",
+                  "capability": "genome_distribution",
+                  "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                  "path": "search.php",
+                  "fragment": "search-karyotype-panel",
+                  "description": "Genome annotation distribution panel."
+                },
+                "candidate_routes": [
+                  {
+                    "title": "Genome Annotation Distribution",
+                    "capability": "genome_distribution",
+                    "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                    "path": "search.php",
+                    "fragment": "search-karyotype-panel",
+                    "description": "Genome annotation distribution panel."
+                  },
+                  {
+                    "title": "Genome Browser",
+                    "capability": "genome_browser",
+                    "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                    "path": "search.php",
+                    "fragment": "search-jbrowse-panel",
+                    "description": "Embedded Genome Browser entry from the search detail page."
+                  },
+                  {
+                    "title": "JBrowse direct entry",
+                    "capability": "genome_browser",
+                    "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                    "path": "jbrowse.php",
+                    "fragment": "",
+                    "description": "Direct genome browser page."
+                  },
+                  {
+                    "title": "Search summary",
+                    "capability": "search_summary",
+                    "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                    "path": "search.php",
+                    "fragment": "search-summary-panel",
+                    "description": "Overview card for the selected TE."
+                  },
+                  {
+                    "title": "TE-KG graph",
+                    "capability": "graph",
+                    "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                    "path": "preview.php",
+                    "fragment": "",
+                    "description": "Interactive TE-KG graph preview."
+                  }
+                ],
+                "answer_markdown": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.",
+                "confidence": 0.86,
+                "matched_entity": "L1HS",
+                "matched_capability": "genome_distribution"
+              }
+            }
+          },
+          "raw_result": {
+            "primary_route": {
+              "title": "Genome Annotation Distribution",
+              "capability": "genome_distribution",
+              "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+              "path": "search.php",
+              "fragment": "search-karyotype-panel",
+              "description": "Genome annotation distribution panel."
+            },
+            "candidate_routes": [
+              {
+                "title": "Genome Annotation Distribution",
+                "capability": "genome_distribution",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                "path": "search.php",
+                "fragment": "search-karyotype-panel",
+                "description": "Genome annotation distribution panel."
+              },
+              {
+                "title": "Genome Browser",
+                "capability": "genome_browser",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                "path": "search.php",
+                "fragment": "search-jbrowse-panel",
+                "description": "Embedded Genome Browser entry from the search detail page."
+              },
+              {
+                "title": "JBrowse direct entry",
+                "capability": "genome_browser",
+                "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                "path": "jbrowse.php",
+                "fragment": "",
+                "description": "Direct genome browser page."
+              },
+              {
+                "title": "Search summary",
+                "capability": "search_summary",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                "path": "search.php",
+                "fragment": "search-summary-panel",
+                "description": "Overview card for the selected TE."
+              },
+              {
+                "title": "TE-KG graph",
+                "capability": "graph",
+                "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                "path": "preview.php",
+                "fragment": "",
+                "description": "Interactive TE-KG graph preview."
+              }
+            ],
+            "answer_markdown": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.",
+            "confidence": 0.86,
+            "matched_entity": "L1HS",
+            "matched_capability": "genome_distribution"
+          },
+          "raw_preview": null,
+          "errors": [],
+          "result_counts": {
+            "routes": 5,
+            "primary_confidence_percent": 86
+          },
+          "display_details": {
+            "result_message": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.",
+            "preview_items": [
+              {
+                "title": "Genome Annotation Distribution",
+                "body": "Genome annotation distribution panel.",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                "meta": "genome_distribution"
+              },
+              {
+                "title": "Genome Browser",
+                "body": "Embedded Genome Browser entry from the search detail page.",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                "meta": "genome_browser"
+              },
+              {
+                "title": "JBrowse direct entry",
+                "body": "Direct genome browser page.",
+                "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                "meta": "genome_browser"
+              },
+              {
+                "title": "Search summary",
+                "body": "Overview card for the selected TE.",
+                "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                "meta": "search_summary"
+              },
+              {
+                "title": "TE-KG graph",
+                "body": "Interactive TE-KG graph preview.",
+                "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                "meta": "graph"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Site Navigator Plugin",
+                "entity_scope": "L1HS",
+                "claim": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "title": "Genome Annotation Distribution",
+                  "capability": "genome_distribution",
+                  "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                  "path": "search.php",
+                  "fragment": "search-karyotype-panel",
+                  "description": "Genome annotation distribution panel."
+                },
+                "title": "Genome Annotation Distribution",
+                "meta": "genome_distribution",
+                "body": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+              }
+            ]
+          }
+        },
+        "display_text": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.",
+        "sequence": 6
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-dt-P5A_B_005",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results"
+        ],
+        "outputs_changed": [
+          "plugin_queue"
+        ],
+        "message": "I collected another evidence layer and will decide whether another plugin is still needed.",
+        "payload": {
+          "type": "reflection",
+          "plugin_name": "Site Navigator Plugin",
+          "result": {
+            "status": "ok",
+            "display_summary": "Matched the question to the Genome Annotation Distribution site route.",
+            "result_counts": {
+              "routes": 5,
+              "primary_confidence_percent": 86
+            }
+          },
+          "remaining_candidates": [
+            "Graph Analytics Plugin",
+            "Cypher Explorer Plugin",
+            "Sequence Plugin",
+            "Genome Plugin"
+          ]
+        },
+        "message_payload": {
+          "type": "reflection",
+          "plugin_name": "Site Navigator Plugin",
+          "result": {
+            "status": "ok",
+            "display_summary": "Matched the question to the Genome Annotation Distribution site route.",
+            "result_counts": {
+              "routes": 5,
+              "primary_confidence_percent": 86
+            }
+          },
+          "remaining_candidates": [
+            "Graph Analytics Plugin",
+            "Cypher Explorer Plugin",
+            "Sequence Plugin",
+            "Genome Plugin"
+          ]
+        },
+        "display_text": "I collected another evidence layer and will decide whether another plugin is still needed.",
+        "sequence": 7
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-dt-P5A_B_005",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results"
+        ],
+        "outputs_changed": [
+          "plugin_queue"
+        ],
+        "message": "The currently collected evidence is enough to move into synthesis.",
+        "payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The site navigation layer already returned a direct TE-KG page route."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "coverage": {
+                  "question_type": "graph_analytics",
+                  "status": "ok",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "required_evidence": [
+                    "graph structure"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "ok",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "body": "Strict aliases: L1HS, L1HS-Ta"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": [
+                      {
+                        "type": "TE",
+                        "canonical_label": "L1HS",
+                        "display_label": "L1HS",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "used_broad_alias": false,
+                        "confidence": 0.93
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "Site Navigator Plugin": {
+              "plugin_name": "Site Navigator Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+                ],
+                "coverage": {
+                  "question_type": "graph_analytics",
+                  "status": "ok",
+                  "result_counts": {
+                    "routes": 5,
+                    "primary_confidence_percent": 86
+                  },
+                  "required_evidence": [
+                    "graph structure"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Site Navigator Plugin",
+                  "status": "ok",
+                  "query_summary": "",
+                  "display_summary": "Matched the question to the Genome Annotation Distribution site route.",
+                  "result_counts": {
+                    "routes": 5,
+                    "primary_confidence_percent": 86
+                  },
+                  "preview_items": [
+                    {
+                      "title": "Genome Annotation Distribution",
+                      "body": "Genome annotation distribution panel.",
+                      "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                      "meta": "genome_distribution"
+                    },
+                    {
+                      "title": "Genome Browser",
+                      "body": "Embedded Genome Browser entry from the search detail page.",
+                      "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                      "meta": "genome_browser"
+                    },
+                    {
+                      "title": "JBrowse direct entry",
+                      "body": "Direct genome browser page.",
+                      "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                      "meta": "genome_browser"
+                    },
+                    {
+                      "title": "Search summary",
+                      "body": "Overview card for the selected TE.",
+                      "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                      "meta": "search_summary"
+                    },
+                    {
+                      "title": "TE-KG graph",
+                      "body": "Interactive TE-KG graph preview.",
+                      "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                      "meta": "graph"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+                      "title": "Genome Annotation Distribution",
+                      "meta": "genome_distribution",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "primary_route": {
+                      "title": "Genome Annotation Distribution",
+                      "capability": "genome_distribution",
+                      "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                      "path": "search.php",
+                      "fragment": "search-karyotype-panel",
+                      "description": "Genome annotation distribution panel."
+                    },
+                    "candidate_routes": [
+                      {
+                        "title": "Genome Annotation Distribution",
+                        "capability": "genome_distribution",
+                        "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                        "path": "search.php",
+                        "fragment": "search-karyotype-panel",
+                        "description": "Genome annotation distribution panel."
+                      },
+                      {
+                        "title": "Genome Browser",
+                        "capability": "genome_browser",
+                        "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                        "path": "search.php",
+                        "fragment": "search-jbrowse-panel",
+                        "description": "Embedded Genome Browser entry from the search detail page."
+                      },
+                      {
+                        "title": "JBrowse direct entry",
+                        "capability": "genome_browser",
+                        "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                        "path": "jbrowse.php",
+                        "fragment": "",
+                        "description": "Direct genome browser page."
+                      },
+                      {
+                        "title": "Search summary",
+                        "capability": "search_summary",
+                        "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                        "path": "search.php",
+                        "fragment": "search-summary-panel",
+                        "description": "Overview card for the selected TE."
+                      },
+                      {
+                        "title": "TE-KG graph",
+                        "capability": "graph",
+                        "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                        "path": "preview.php",
+                        "fragment": "",
+                        "description": "Interactive TE-KG graph preview."
+                      }
+                    ],
+                    "answer_markdown": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.",
+                    "confidence": 0.86,
+                    "matched_entity": "L1HS",
+                    "matched_capability": "genome_distribution"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "message_payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The site navigation layer already returned a direct TE-KG page route."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "coverage": {
+                  "question_type": "graph_analytics",
+                  "status": "ok",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "required_evidence": [
+                    "graph structure"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "ok",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "body": "Strict aliases: L1HS, L1HS-Ta"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": [
+                      {
+                        "type": "TE",
+                        "canonical_label": "L1HS",
+                        "display_label": "L1HS",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "used_broad_alias": false,
+                        "confidence": 0.93
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "Site Navigator Plugin": {
+              "plugin_name": "Site Navigator Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+                ],
+                "coverage": {
+                  "question_type": "graph_analytics",
+                  "status": "ok",
+                  "result_counts": {
+                    "routes": 5,
+                    "primary_confidence_percent": 86
+                  },
+                  "required_evidence": [
+                    "graph structure"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Site Navigator Plugin",
+                  "status": "ok",
+                  "query_summary": "",
+                  "display_summary": "Matched the question to the Genome Annotation Distribution site route.",
+                  "result_counts": {
+                    "routes": 5,
+                    "primary_confidence_percent": 86
+                  },
+                  "preview_items": [
+                    {
+                      "title": "Genome Annotation Distribution",
+                      "body": "Genome annotation distribution panel.",
+                      "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                      "meta": "genome_distribution"
+                    },
+                    {
+                      "title": "Genome Browser",
+                      "body": "Embedded Genome Browser entry from the search detail page.",
+                      "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                      "meta": "genome_browser"
+                    },
+                    {
+                      "title": "JBrowse direct entry",
+                      "body": "Direct genome browser page.",
+                      "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                      "meta": "genome_browser"
+                    },
+                    {
+                      "title": "Search summary",
+                      "body": "Overview card for the selected TE.",
+                      "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                      "meta": "search_summary"
+                    },
+                    {
+                      "title": "TE-KG graph",
+                      "body": "Interactive TE-KG graph preview.",
+                      "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                      "meta": "graph"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+                      "title": "Genome Annotation Distribution",
+                      "meta": "genome_distribution",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "primary_route": {
+                      "title": "Genome Annotation Distribution",
+                      "capability": "genome_distribution",
+                      "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                      "path": "search.php",
+                      "fragment": "search-karyotype-panel",
+                      "description": "Genome annotation distribution panel."
+                    },
+                    "candidate_routes": [
+                      {
+                        "title": "Genome Annotation Distribution",
+                        "capability": "genome_distribution",
+                        "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel",
+                        "path": "search.php",
+                        "fragment": "search-karyotype-panel",
+                        "description": "Genome annotation distribution panel."
+                      },
+                      {
+                        "title": "Genome Browser",
+                        "capability": "genome_browser",
+                        "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel",
+                        "path": "search.php",
+                        "fragment": "search-jbrowse-panel",
+                        "description": "Embedded Genome Browser entry from the search detail page."
+                      },
+                      {
+                        "title": "JBrowse direct entry",
+                        "capability": "genome_browser",
+                        "url": "http://127.0.0.1/TE-/jbrowse.php?te=L1HS",
+                        "path": "jbrowse.php",
+                        "fragment": "",
+                        "description": "Direct genome browser page."
+                      },
+                      {
+                        "title": "Search summary",
+                        "capability": "search_summary",
+                        "url": "http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel",
+                        "path": "search.php",
+                        "fragment": "search-summary-panel",
+                        "description": "Overview card for the selected TE."
+                      },
+                      {
+                        "title": "TE-KG graph",
+                        "capability": "graph",
+                        "url": "http://127.0.0.1/TE-/preview.php?q=L1HS",
+                        "path": "preview.php",
+                        "fragment": "",
+                        "description": "Interactive TE-KG graph preview."
+                      }
+                    ],
+                    "answer_markdown": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.",
+                    "confidence": 0.86,
+                    "matched_entity": "L1HS",
+                    "matched_capability": "genome_distribution"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "display_text": "The currently collected evidence is enough to move into synthesis.",
+        "sequence": 8
+      },
+      {
+        "type": "synthesizing",
+        "session_id": "eval-dt-P5A_B_005",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results",
+          "evidence_bundle",
+          "citation_bundle"
+        ],
+        "outputs_changed": [
+          "supported_claims",
+          "answer"
+        ],
+        "message": "I am now synthesizing the plugin results into a final answer.",
+        "payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "summary": "Strict aliases: L1HS, L1HS-Ta",
+                "citations": []
+              },
+              {
+                "claim": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+                "summary": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "message_payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)."
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "summary": "Strict aliases: L1HS, L1HS-Ta",
+                "citations": []
+              },
+              {
+                "claim": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+                "summary": "TE-KG site navigation route for L1HS: [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "display_text": "I am now synthesizing the plugin results into a final answer.",
+        "sequence": 9
+      },
+      {
+        "type": "answer",
+        "request_id": "req_c4308bced9126f9c",
+        "session_id": "eval-dt-P5A_B_005",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "message": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.\n\n简要总结：\nL1HS的Genome Annotation Distribution可以直接通过TE-KG提供的导航链接访问（http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel）。该条目下L1HS被解析为2个严格别名变体（L1HS与L1HS-Ta）。",
+        "language": "chinese",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.\n\n简要总结：\nL1HS的Genome Annotation Distribution可以直接通过TE-KG提供的导航链接访问（http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel）。该条目下L1HS被解析为2个严格别名变体（L1HS与L1HS-Ta）。",
+        "sequence": 10
+      },
+      {
+        "type": "done",
+        "request_id": "req_c4308bced9126f9c",
+        "session_id": "eval-dt-P5A_B_005",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "payload": {
+          "answer": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.\n\n简要总结：\nL1HS的Genome Annotation Distribution可以直接通过TE-KG提供的导航链接访问（http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel）。该条目下L1HS被解析为2个严格别名变体（L1HS与L1HS-Ta）。",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "answer": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.\n\n简要总结：\nL1HS的Genome Annotation Distribution可以直接通过TE-KG提供的导航链接访问（http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel）。该条目下L1HS被解析为2个严格别名变体（L1HS与L1HS-Ta）。",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "display_text": "",
+        "sequence": 11
+      }
+    ],
+    "answer": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.\n\n简要总结：\nL1HS的Genome Annotation Distribution可以直接通过TE-KG提供的导航链接访问（http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel）。该条目下L1HS被解析为2个严格别名变体（L1HS与L1HS-Ta）。",
+    "done_payload": {
+      "answer": "L1HS 对应的站内入口是 [Genome Annotation Distribution](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel).\n\n如果你想看的不是这个面板，也可以选择：\n- [Genome Browser](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-jbrowse-panel) - Embedded Genome Browser entry from the search detail page.\n- [JBrowse direct entry](http://127.0.0.1/TE-/jbrowse.php?te=L1HS) - Direct genome browser page.\n- [Search summary](http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-summary-panel) - Overview card for the selected TE.\n- [TE-KG graph](http://127.0.0.1/TE-/preview.php?q=L1HS) - Interactive TE-KG graph preview.\n\n简要总结：\nL1HS的Genome Annotation Distribution可以直接通过TE-KG提供的导航链接访问（http://127.0.0.1/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel）。该条目下L1HS被解析为2个严格别名变体（L1HS与L1HS-Ta）。",
+      "language": "chinese",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": ""
+    },
+    "used_plugins": [
+      "Entity Resolver",
+      "Site Navigator Plugin"
+    ],
+    "citations": [],
+    "timings": {
+      "total_ms": 8766
+    },
+    "errors": []
+  },
+  "agent": {
+    "ok": true,
+    "http_status": 202,
+    "headers": {
+      "Date": "Wed, 27 May 2026 15:05:07 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Content-Length": "165",
+      "Connection": "close",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "create": {
+      "ok": true,
+      "run_id": "run_d96e365c7a4629c0",
+      "request_id": "req_bd8b406243a0882a",
+      "session_id": "eval-agent-P5A_B_005",
+      "status": "pending"
+    },
+    "run_id": "run_d96e365c7a4629c0",
+    "run": {
+      "run_id": "run_d96e365c7a4629c0",
+      "request_id": "req_bd8b406243a0882a",
+      "session_id": "eval-agent-P5A_B_005",
+      "question": "我想看 L1HS 的 Genome Annotation Distribution，应该点哪里？",
+      "mode": "academic",
+      "status": "completed",
+      "created_at": "2026-05-27T15:05:07+00:00",
+      "updated_at": "2026-05-27T15:05:07+00:00",
+      "started_at": "2026-05-27T15:05:07+00:00",
+      "finished_at": "2026-05-27T15:05:07+00:00",
+      "current_stage": "Compact Preflight",
+      "workflow_state": {
+        "current_stage": "Compact Preflight",
+        "stage_statuses": {
+          "Understanding": "pending",
+          "Planning": "pending",
+          "Collecting": "pending",
+          "Executing": "pending",
+          "Integrating": "pending",
+          "Writing": "skipped"
+        },
+        "traversed_edges": [],
+        "complete": true
+      },
+      "events_count": 2,
+      "last_sequence": 2,
+      "answer": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n路由原因：Direct site navigation covered by Deep Think.",
+      "language": "chinese",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": "",
+      "error": "",
+      "used_plugins": []
+    },
+    "events": [
+      {
+        "type": "answer",
+        "request_id": "req_bd8b406243a0882a",
+        "session_id": "eval-agent-P5A_B_005",
+        "language": "chinese",
+        "message": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n路由原因：Direct site navigation covered by Deep Think.",
+        "node": "Answer Writer Node",
+        "source": "Answer Writer Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n路由原因：Direct site navigation covered by Deep Think.",
+        "sequence": 1
+      },
+      {
+        "type": "done",
+        "request_id": "req_bd8b406243a0882a",
+        "session_id": "eval-agent-P5A_B_005",
+        "payload": {
+          "confidence": "low",
+          "used_plugins": [],
+          "answer": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n路由原因：Direct site navigation covered by Deep Think.",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": "",
+          "workflow_state": {
+            "current_stage": "Compact Preflight",
+            "stage_statuses": {
+              "Understanding": "pending",
+              "Planning": "pending",
+              "Collecting": "pending",
+              "Executing": "pending",
+              "Integrating": "pending",
+              "Writing": "skipped"
+            },
+            "traversed_edges": [],
+            "complete": true
+          }
+        },
+        "node": "Process Narrator Node",
+        "source": "Process Narrator Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "confidence": "low",
+          "used_plugins": [],
+          "answer": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n路由原因：Direct site navigation covered by Deep Think.",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": "",
+          "workflow_state": {
+            "current_stage": "Compact Preflight",
+            "stage_statuses": {
+              "Understanding": "pending",
+              "Planning": "pending",
+              "Collecting": "pending",
+              "Executing": "pending",
+              "Integrating": "pending",
+              "Writing": "skipped"
+            },
+            "traversed_edges": [],
+            "complete": true
+          }
+        },
+        "display_text": "",
+        "sequence": 2
+      }
+    ],
+    "answer": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n路由原因：Direct site navigation covered by Deep Think.",
+    "done_payload": {
+      "confidence": "low",
+      "used_plugins": [],
+      "answer": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n路由原因：Direct site navigation covered by Deep Think.",
+      "language": "chinese",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": "",
+      "workflow_state": {
+        "current_stage": "Compact Preflight",
+        "stage_statuses": {
+          "Understanding": "pending",
+          "Planning": "pending",
+          "Collecting": "pending",
+          "Executing": "pending",
+          "Integrating": "pending",
+          "Writing": "skipped"
+        },
+        "traversed_edges": [],
+        "complete": true
+      }
+    },
+    "used_plugins": [],
+    "citations": [],
+    "evidence_package": {},
+    "evidence_walk": {},
+    "report_plan": {},
+    "integrity_report": {},
+    "evaluation_report": {},
+    "models": {},
+    "writing_failed": false,
+    "failure_stage": "",
+    "failure_reason": "",
+    "timings": {
+      "total_ms": 2151
+    },
+    "errors": []
+  },
+  "evaluation": {
+    "schema_version": "mode_comparison_live_proxy.v1",
+    "case_id": "P5A_B_005",
+    "expected_best_mode": "deep_think",
+    "recommended_mode": "deep_think",
+    "dt_ok": true,
+    "agent_ok": true,
+    "dt_answer_length": 772,
+    "agent_answer_length": 121,
+    "dt_plugins": [
+      "Entity Resolver",
+      "Site Navigator Plugin"
+    ],
+    "agent_plugins": [],
+    "dt_latency_ms": 8766,
+    "agent_latency_ms": 2151,
+    "agent_artifact_score": 0.1,
+    "dt_artifact_score": 0.45,
+    "depth_delta": -0.35,
+    "agent_value_added": "none",
+    "agent_overkill": false,
+    "dt_errors": [],
+    "agent_errors": []
+  }
+}

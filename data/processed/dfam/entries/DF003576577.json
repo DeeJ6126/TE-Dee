@@ -1,0 +1,43 @@
+{
+  "accession": "DF003576577",
+  "name": "MLT1B_s-int",
+  "description": "element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT1B_s-int"
+  ],
+  "species": "Boreoeutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Boreoeutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1329 BP; 353 A; 240 C; 403 G; 328 T; 5 other;"
+  },
+  "sequence": "gattttggtaccgagaagtggggtgctgctgtaacaaatacctaaaaatgtggaagtggctttggaactgggtaatgggtagaggctggaagagttttgaggtgcatgttagaaaaagcctagattgccttgaagagactgttggtagaaatatggacgttaaaggcgattctggtgaggtctcagacggaaatgaggaacatgttattggaaactggaggaaaggcgatccttgttataaagtggcaaagaacttggctgaactgtgttctagtgttttgtggaaggtagaacttgtgagcgatgaanttggatatttagctgaggagatttctaagcaaagtgttgaaggcgcggcctggtttctccttactgcttatagtaaaatgcgagaggagagagataaattgaagaaggaattgttaagcaaaaaggaaccagaacttgaagatttggaaaattctcagcctatccatattgcaaaaaatgagaaagcntgttctggagagaacaccaagggtgtggctggacaatcattcgataaagagattacgggtgtgactcatggatctaatcagccatctcagcagaagccaggaatagagatgggattataccagcagaaacactgccagcttggactgaaggggacagagacgggacgaaatgaaggaaggctgtcggacttctgggattctacaggacgggacgatagagctatttggctgcgaacatgcgttatccttcaagaaaagggaagaatgaccccgaaggcgattcagagatcggcagggctgccactnccaccacgggcccagggggcgaggctgtctcctcctcggtttcagagggcggggccgccncctcggtttcagcgggccgggctgccgcccagggccgagggggcggggctgccgccccggtgggcccggaggacagagcatcgagccaaagaggattattctcgagccttaaaatctaatggaatttgccctgctaggtttcggacttgcttgggacccgtgacccctttcttctttccgatttctcccttttggaatgggaatgtctatcctatgcctgtcccaccattgtattttggaagcagataacttgtctggtttcacaggttcacagctggagaggaattttgcctcaggatgaatcatacctcgagtctcacccatacctgatttagatgatatttagatgagattttggacttagagttgatgctggaatgggttaagacttttggggctgttgggatggggtgaatgtattttgcatgtgagaaggacatgaattttgggggnccagagggcggag",
+  "length_bp": 1329,
+  "sequence_length_bp": 1329,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

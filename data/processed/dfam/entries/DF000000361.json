@@ -1,0 +1,39 @@
+{
+  "accession": "DF000000361",
+  "name": "L2c_3end",
+  "description": "3' end of L2 (LINE2) retrotransposon, L2c_3end subfamily",
+  "keywords": [
+    "LINE/L2"
+  ],
+  "species": "Mammalia",
+  "display_classification": "LINE/L2 | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 478 BP; 84 A; 173 C; 77 G; 138 T; 6 other;"
+  },
+  "sequence": "ctncacgatctggcccctgcctacctctccagcctcatctcctccactcccctcctcgcccactatgctccagccacactgaactncttgcattccccaaacacgccgcagttctttcctgcctccgngcctttgcacatgctgttccctctgcctggaatgctcttcccccctccttccacctggctaactcctactcatccttcaagnctcagctcagatgtcacctcctccgggaagccttccctgaccccccaagnctagtctaggtgccctcctctgtgctcccatagcaccctgtctatactcccattatagcacttatcattaacttgtattgtaattgtctgtttacntgtctgtctcctccactagactgtgagctccttgagggcagggaccgtgtcttattcatctttgtatccccagcgcctggcacatagtaggcgctcaataaatgtttgttgaatgaatgaat",
+  "length_bp": 478,
+  "sequence_length_bp": 478,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

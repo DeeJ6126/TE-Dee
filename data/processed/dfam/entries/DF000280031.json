@@ -1,0 +1,50 @@
+{
+  "accession": "DF000280031",
+  "name": "PhoPho-5.685",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Phocoena phocoena",
+  "display_classification": "SINE/tRNA | Phocoena phocoena",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Phocoenidae",
+    "Phocoena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 231 BP; 48 A; 74 C; 80 G; 29 T; 0 other;"
+  },
+  "sequence": "agggcttccctggtggcgcagtggttgagagtccgcctgccgatgcaggggacgcgggttcgtgccccggtccgggaagatcccacatgccgcggagcggctgggcccgtgagccatggccgctgagcctgcgcgtccggagcctgtgctccgcaacgggagaggccacaacagtgagaggcccgcgtaccgcaaaaaaaaaaaaacccccgctcgccgcaactagagaaa",
+  "length_bp": 231,
+  "sequence_length_bp": 231,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

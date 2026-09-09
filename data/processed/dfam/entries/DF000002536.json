@@ -1,0 +1,51 @@
+{
+  "accession": "DF000002536",
+  "name": "DNA8-3_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/hAT-Tip100 | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1387 BP; 205 A; 383 C; 494 G; 231 T; 74 other;"
+  },
+  "sequence": "cagggccggagcaagctgaactgccgctctaggcagaggacgatcacgccgccctcaaccccaatgtgaaaacgaaagtgaccggttatgaaaatgaagtgaggtgtcgcggacctctattccgccgccctatgcgcggatataactgaggacgcgcgggtgctgagggagggagggaggtgtcgcggacgccgccctctctattctgccgccctatgcgcggatataactgaggacgcgcgggtgctganggaggnngnnnngtgtcgcggacgccgccctctctattctgccgccctatgcgcggatataactgaggacgcgcgggtgctganggagggagggnggtgtcgcggacgccgccctctctattctgccgccctatgcgcggatataactgaggacgcgcgggtgncgnngnngngagggaggtgtcgcggacgccgccctctctattctgccgccctangcgcggatataactgaggacgcgcgggtggtgagggaggnnnnncgntgtcgcggacgccgccctctctattctgccgccctaggcgcggatataactgaggacgcgcgggtgncgncgnngtgagggnggtgtcgcggacgccgccctctctattctgccgccctaggcgcggatataactgaggacgcgcgggtgncgncgnngngagggnggtgtcgcggacgccgccctctctattctgccgccctaggcgcggatataactgaggacgcgcgggtggtgagggnnnnnnntancgcggtgtcgcggacgccgccctctctattctgccgccctaggcgcggatataactgaggacgcgcgggtgncgncgnngngagggnagtgtcgcggacgccgccctctctattctgccgccctaggcgcggatataactgaggacgcgcgggtgncgnngnngngagggnagtgtcgcggacgccgccctctctattctgccgccctaggcgcggatataactgaggacgcgcgggtggtgagggaggnnnnncgntgtcgcggacgccgccctctctattctgccgccctaggcgcggatataactgaggacgcgcgggtggtgagggaggnnncgnngtgtcgcggacgccgccctctctattctgccgccctangcgcggatataactgaggacgcgcgggtgncganggngngagggnggtgtcgcggacgccgccctctctattctgccgccctangcgcggatataactgaggacgcgcgggtgntgagggaggtgtcgcggacgccgccctctctattctgccgcctatgcgcggatataactgaggacgcgggtggtgagggaggtgtcgcggacataactgaggncgcctctatggacgcgccggccctg",
+  "length_bp": 1387,
+  "sequence_length_bp": 1387,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA8-3_DR"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000003484",
+  "name": "Looper-N7_DR",
+  "description": "Non-autonomous Kolobok DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/Kolobok-T2"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/Kolobok-T2 | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1015 BP; 242 A; 216 C; 240 G; 308 T; 9 other;"
+  },
+  "sequence": "aggttcaggacaccctggagnacttttttttttatattaacagatttgtgtgtgttgagcatcagttaagacaatgttagcacctgtcagctttaattgtggggaaaactggataattttgagcttttgtcagctaatttcagcttccgggtttaaaatgatttttggggcgggatcaaaatcggcgacgtagcgcagaactgcaagtgcaatgatgacgcgtcggtttctcattattattcatagcggagttttcttatcctatgagaagagccggctncttaattattcatgagacctgccagacctgccagtgtcaagcccgagctgtgagacacgtcacggacccacggcacgnncgnacagtatttagccgttcatgaaggctcgtatgtgtttgtttccatgatccacggggtttgttgcatgtttttccccgcgatcctgtcagggccgatcatacagcaaagctgtgtgtgtgcngcaagcatttttgtcgggagagcagtacgagaattggagaatggcggacgttgtcttttatcaggagttcgttcacattcagacacatcgccgtgctgctgtgttcgcctaaatcctccagattaccagcagggctaatggttaaaatagacaggncaggagacctgctgcactgagtctgccggacccggggattgagggagaagtcctcatttatagtgtttacatgaacacgnttatctttataatgatataaattgtggttatgtgtatatgaaattacgaataacaaatgtagcagggcattaaattactgtttatttctttgcattttaactttgtaaactataaactcatgcgtctcctcacggtttgtctcattttgtgagctaactttgttcgctccccttctcccctgctggccacgcccactcctgcccnatgctcgcggagctccacgcccattaatcatgcatcttttgaaaaaattctgaagtagactttaaccgaaagtggggggtgtcatggccct",
+  "length_bp": 1015,
+  "sequence_length_bp": 1015,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Looper-N7_DR"
+  ]
+}

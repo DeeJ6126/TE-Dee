@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002052",
+  "name": "RLTR20A3_MM",
+  "description": "Long terminal repeat of endogenous retrovirus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR20A3_MM"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 548 BP; 134 A; 116 C; 181 G; 117 T; 0 other;"
+  },
+  "sequence": "tgttgggaattggttctaatgctttgtcttaattcggctcccaaaagccgcgcttccagacgctgagggtccctgcccccagctggcttcgattggtaataaagaattgccgtacagccaatggctgggcagggagacggaggcgggacttttagattgcgcgggcaagggaccgagagagaggggaagaagagagagaatcgccatgacggggaagcagaaagatcagacttaaaggcccgccggcatgtaagaatccgggaaagtggccctaggggccacttccccgattgggtctggggtagcagagatgaaatatagattttaaaagatgttaactcaggaataccggaggggagtgtgtgctagccgcggggaggtttagaagtgcccagccattgagctagtcaaggcatatcaaaattagctggcgtgtgtgtgtgtgtgtgtgtgtgtgtctttcattcgcgaatccagagagctcttgggcgggtgcagcgcgcgcgacccgccgggagccaaagcggtttaactaattcaccgctaca",
+  "length_bp": 548,
+  "sequence_length_bp": 548,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR20A3_MM"
+  ]
+}

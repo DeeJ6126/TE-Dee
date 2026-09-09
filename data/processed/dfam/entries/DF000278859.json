@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278859",
+  "name": "MurFea-5.2345",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Murina aurata feae",
+  "display_classification": "DNA/TcMar-Tigger | Murina aurata feae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Murina",
+    "Murina aurata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 743 BP; 226 A; 151 C; 123 G; 242 T; 1 other;"
+  },
+  "sequence": "cagtaaaccctcgattttgcggacctcgatttaacggacttcggatttaacggacaaaatttccggtccgtatgtcatatgtgaaaattaacaccctgttaattttaaaatgcttttaaccaagatttgcttataattaaattaacaggttatttttttgttattaattcactgttatttttaacaaattttagcgaataggccatatgttggaaaaaacactgtagtaatttcgccgacataaataaatattacatatctacaactatagtctacatatttaaatccaagagtcaccgctcgtaaacaatgttcggcgaatgattagcacgtgatcacaccgcatcncgcgcggtaattggttctgttgtcgcgtggcgtgactttctgcagcagttttaacgcgtgccggccgatgttcccacgtgcgctaagccacgccccagccgtgtgcatttgtttactcgcggtgactggtgaatgcacgcatttactagacctattcagtataaatttaaaattacagtaatacatatagaaaacttttctgtgaaattaaacttttcatacatacttaattttaattacacaaacgtgtctacataagtaaaaacaggtaaactaactaatttgtcaattttttaacatacgcattcggaaaacctactttattatataacggactttcggctttaacggacaccccctcgcccgaattagtccgttatatcgaggttttactg",
+  "length_bp": 743,
+  "sequence_length_bp": 743,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

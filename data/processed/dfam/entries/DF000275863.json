@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275863",
+  "name": "CraTho-1.77",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Craseonycteris thonglongyai",
+  "display_classification": "LINE/L1 | Craseonycteris thonglongyai",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Craseonycteridae",
+    "Craseonycteris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 408 BP; 131 A; 53 C; 141 G; 83 T; 0 other;"
+  },
+  "sequence": "gaaaaatatgacctcacttataggtggaatataaaactgaaagttacaaagacacagagacctatggacacacccaataacttggtgattgcctgagggaaggggaggaggggggagggagagagggaggggaggtgggagagggcaccagcattatggacacactcaatggtttggtgtttacctggagaggagggaggaggggggagggagagttgtggggggaggggggagtgggcaccagatatatggggttggagggggacctgattctgggagctgggcacataatgcgatgcatgggtgatgtgatgtggagttgtacatcgggaaactgtctgattgttaccaaccaatgtcaccccattaaatttaacaataaaatataataatattaaaaaaaaaaaa",
+  "length_bp": 408,
+  "sequence_length_bp": 408,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

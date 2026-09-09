@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002736",
+  "name": "Mariner-8_DR",
+  "description": "Tc1/Mariner-type DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/TcMar-Tc1 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1594 BP; 472 A; 330 C; 351 G; 381 T; 60 other;"
+  },
+  "sequence": "cagtgaggtcaanaagtatttgatcaccctgtgatttttcgatatctcctacttagaaatcatggaggggtctgnaattttcaccgtaggtgcatttcnacttngagagacagaatctaaaaanaaaaatccagaaatcacnttgnatgattttttaacaatttatttgtaaattactgtgtnaaataagtatttgatcacctactnttcagcnagatttctggccctcanagacctgttattttgcttttaaatagttcagctacactctgctcatgactttaatttaatagcacctgtttgaactcgttancngtcataaagacacctgtncactccacaatcagtcaaacgtctaantnncaacatgggcaagaccaaagagctgtcaaaggacacnagagacaaaattgtagacctncacaaagctggaaagggctacgggacaattgncaagcagcttggtgnaaaaagaacaaccgttggagcaattgtcagaaaatggaagaggctaatgatgaccgtcaatgtccctcggnctggggccccacggaagatctcncctcgtggggtancaatgatnntaagaacggtcaagaatcggcccggaaccacacaggaggagctggtnaatgacctgaagagagctgggaccacagttnccaaggctaccatcggtaacacattgngccgccatggnttaaaatcctgcancgccaggaaggtncccctgcttaagncagcccatgtctgaagtttgccagngancatctggatgatccagaggagtcatgggagaaagtcctgtggtcagagagaccaaaatagaactttttggtctnaactccactcgtcgtgtttggaggaagaagaatgntgagtatcatcccaataacaccatacctacagtgaagcatgggggtggaagcatcatgctctggggntgtttttctgcanaggggacaggacgactgcaccgtataaaggagaggatgaacggggccatgtactgtgagatnttgggcgaaaacctccttccctcagccagggcgttgaagatgggncgtggctgggtcttccaacatgacaatgacccaaagcacacagccangaaaaccaaggagtggctccgtaagaagcatatcaaggtcctggagtggcccagccagtctccagacctnaatccaatagaaaatctttggagggagctgaaantccgtgttgcccagcgacagccccaaaacctgacagatctagagaagatctgcanagaggagtgggccaaaatcccncctgcagtgtgtgcaaacctngtgaagaactacaggaaacgtttgacctctgtnattgcnaacaaaggcttctgtaccaaatattaagcgtttttgactcgagtgatcaaatacttatttnncncantaatttacaaataaattgtttaaaaatcntacaatgtgatttctggatttttntttttanattctgtctctcacattgagaannacctatgatgaaaattncagacccctccatgatttctaagtgggagatattgaaaaatcacagggtgatcaaatacttnttgacctcactg",
+  "length_bp": 1594,
+  "sequence_length_bp": 1594,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Mariner-8_DR"
+  ]
+}

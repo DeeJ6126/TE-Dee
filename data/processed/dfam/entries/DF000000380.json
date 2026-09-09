@@ -1,0 +1,42 @@
+{
+  "accession": "DF000000380",
+  "name": "LTR104_Mam",
+  "description": "LTR104_Mam (Long Terminal Repeat) for a Gypsy-type retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR104_Mam"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1509 BP; 310 A; 332 C; 500 G; 348 T; 19 other;"
+  },
+  "sequence": "tgtaacggggtgccctggctgagactggaccttaagatttttgaagctgaaaaactgccattttaaaagttgcaagcagtttctgtcttctagggtggagacttgaatttacctttggggcagaccgttcctttgttctgggaaaaccactcgaatgggccctttagttacgcaaatgtaaagcaagtacccacccattgttcttggagaagacctaaacgcagatgcttcagactgagatgttaagtgttctgtttagtaatgtaaattgggtgtatnttttagcagaactgtgtctctgcagattgtatttcttttagagaaatgtttcttttctaaatntggatttagactgcnctgtgcctgaaaattattgcttgttcttgggagatgtgtgcgatgtnttcttgtccgagcanttgctcgcaggagatcggagactggacggcggagcacgcaggagggacgcgcaggcctgatcttctcttcacctcacgctggaggaaagaccgtgaaaaggaactggactgggcttggcgcagcncaacctggactggactgttggtgtcccacacgtggtgttatttaagactgaataacccagactttgggaaatgtactgtcgactattgtgattgtcttgtctgggccatgagggccagaccacacccctgtgggtgggggtggggatttcccctgaagggaatggacgttcccactgtcaatcatcctgggaagaggtnaatcctggggcaggaaatgaggactcgggaggcgggccttagactggggggaggggaaaactccttcctcctctctgggcctagggggcagttgggcctggactccgaggcgcggagatgcccggagcattcccggtggtgggggtgagctggcccctgccacgtggaggcgggccgggagcnaggcagggaggcggcccngnaagggaccctgaggncgggtctgggcctgtgggctctgagagcagccacntctagtagcagttgtaagttactctctgtgttgtanttcccttccgttatccccgagccttcagtaaagtcttgttaaaagttacagcctggtctcagctgtgctgtggggaattaagggaagggcctgtgtccacgcttggggcggagcggcgaaggggagagcagcgtcccctcccctgaggccagagtggtggtagcagcggcggccaccggcggaggacggctgtgcccagcggagcggcggcctcgcgggggccgtcggcagcagaggcggcggcgtggcggcangacgaggaggccggagcggaagaacatgagggacccgttcctgagcacacgtgaggcagcaccctggggaactctcagaaatagctgggggacactttgaggggggctaatttccggcaatnaggccggtgggggctcgngccatnataatttgggtattaaaaggaagtgtgacctcattttgtagtcacaggctggtgaggccngggacatntgggttaca",
+  "length_bp": 1509,
+  "sequence_length_bp": 1509,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

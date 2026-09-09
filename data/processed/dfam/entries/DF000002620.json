@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002620",
+  "name": "hAT-N105_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Ac | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1281 BP; 376 A; 189 C; 238 G; 476 T; 2 other;"
+  },
+  "sequence": "cagtgttgggcaataacgcgttactagtaactantactgtaacggcgttacttttgacagtaactaatactgtaacgcgttactttttaaatatataactccgttaccgttacaatatgatgcgtttgtccgttacttggtaaattaattaattttggctgcagtctagcccacatcttcctgtttacagcggcgaccattgtgggattggtggatgccaaccaaccaccgtaaagaagacgcgtcgtgtacgaggcgccagactggacaaaagtcaagcgaaagcgagagacgaatgcgcgcgaggtagaccgagtgtgcgcgcgagagagacgagagactattaacgttactattattaattactattactaatactactatgtttgttgtttcaaataaataagcacacatttgttatctgtataacaaaaagtttagtagacacagtgacacatttctgttatatttcagcactttaaatgttagtgttgtaaaaatgctttttattgttttacatattttttagctgtatacaacagcagattttgcactttgaatatacacagcttactttccataagttgctgacataccacgtttaatttgtggttagtttgaaaattgctcatgatttcatttttgagcagctgttatgtttttgttttgtttaaaatgcataaaatttatggttgtctataatagcagttttttggtgctgagtttcaccaaattgattctgaatgataattcagattactttcatttatttatttcataaaggttttgtgtttgttgtatattgtcgctagttttcatactcaagctgtgaaggaacatgtttaagggttaaatacaacacttttatgacgctgaagcaactttagtttttgcttttttgtttctgaatatattattcagctggtttatcaccttgtgatatttttttatttttgtgctgctggtctgacttaaataaattagtgtttaaaaatnactttttgtttaagtctgtcttgtgttttagttgtgagaatgcaaattaattaaaactgtgaagctgatcaacagtgtattctccatgcagcactgaagtgacgttataagggcattaatgggagcattaaaaatgttctttggaaaagtaactcaaaaattacttttaacagtaatgcattactttttggtgtaagtaatcgataaagtaattgagttactttttgaatgaagtaactagtaactgtaactagttactatttttcagtaactagcacaacactg",
+  "length_bp": 1281,
+  "sequence_length_bp": 1281,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "hAT-N105_DR"
+  ]
+}

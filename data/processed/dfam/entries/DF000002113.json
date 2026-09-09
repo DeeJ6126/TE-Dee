@@ -1,0 +1,53 @@
+{
+  "accession": "DF000002113",
+  "name": "RLTR46B",
+  "description": "Long terminal repeat of endogenous retrovirus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR46B"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 384 BP; 101 A; 104 C; 88 G; 89 T; 2 other;"
+  },
+  "sequence": "tgtggagagccgcaataacatttaccatcttaagatggcgctggctccgcagtgccttatgccacctaaacaaagaacaagctatatgcgcatgtgctaaaagcaaaaacccgccaaaagtcaccagcccatttccggggcaccggtccatcccccagggcactagcccaacccctggggcgtttagcctatccctagggtgcatgagaatcgtgggtgtngctaccagtcctagtttagacacgtcaccaaaaagtatttaagccacacactttctgagccttctttgtctacctcaatatgttattgaagtaaangttaaccacggaagaatctggcgtgtcctgtgtctgtttcctgcgggacggggacaagctcaggata",
+  "length_bp": 384,
+  "sequence_length_bp": 384,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR46B"
+  ]
+}

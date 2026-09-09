@@ -1,0 +1,48 @@
+{
+  "accession": "DF000281295",
+  "name": "VicPac-1.93",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Vicugna pacos",
+  "display_classification": "DNA/TcMar-Tigger | Vicugna pacos",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Tylopoda",
+    "Camelidae",
+    "Vicugna"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 217 BP; 51 A; 55 C; 60 G; 51 T; 0 other;"
+  },
+  "sequence": "cagttgacccttgaacaacacgggtttgaactgcgcgggtccacttatacgcggattttttcaataaatatatactacagtactacacagatccgggttggttgaatccgcggatgcggaaccgcggatacggagggccgactataagttatacgcggattttcgactgcgcggagggtcggcgcccctaacccccgcgttgttcaagggtcaactg",
+  "length_bp": 217,
+  "sequence_length_bp": 217,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

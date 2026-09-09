@@ -1,0 +1,47 @@
+{
+  "accession": "DF000281736",
+  "name": "ChrAsi-1.322_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ChrAsi-1.322_LTR"
+  ],
+  "species": "Chrysochloris asiatica",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Chrysochloris asiatica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Chrysochloridae",
+    "Chrysochlorinae",
+    "Chrysochloris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 337 BP; 85 A; 70 C; 77 G; 104 T; 1 other;"
+  },
+  "sequence": "tgtaatggttagggttctgtgtcaactcgactaggccaggatttccagaggtttagcagttgagatgtgcttattcccatggtgatgaaacctaatacaggcatagttaactctatgatgantggctatgagcagccaatcaattgaagggatgcttccttgggggtgtggcctgctcccaatataatggacacgcgggagggactctctctctcttccgctggggacctgggactctacaattgtaagccatttccttgataataaacttctctttatatatatacatatatatgtttcactggttttgcttctctagaaaacccagcctaagaca",
+  "length_bp": 337,
+  "sequence_length_bp": 337,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

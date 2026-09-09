@@ -1,0 +1,47 @@
+{
+  "accession": "DF000288872",
+  "name": "TE2418_SO2_FAM0481",
+  "description": "Repetitive element found in rice weevil",
+  "keywords": [
+    "LINE/I-Jockey"
+  ],
+  "species": "Sitophilus oryzae",
+  "display_classification": "LINE/I-Jockey | Sitophilus oryzae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Coleoptera",
+    "Polyphaga",
+    "Cucujiformia",
+    "Curculionoidea",
+    "Curculionidae",
+    "Dryophthorinae",
+    "Sitophilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3264 BP; 1053 A; 567 C; 551 G; 1072 T; 21 other;"
+  },
+  "sequence": "atgattaaaatgtacaaatcaagcatgaaatcaataatatatattcaaatatttcaaacacgctagtgttgattgtccccctttatcccatttacttattacatacttttttgtatttaacctaattgtaatgaaagtgcacttgtaatatgtacattataatcagaatttatacaataattctttcagttctttacaaattacctacgcccacacctaagttacctactctaggtccattaaaaataaatatcactattcctcttgcttggtgttgaagaaaaaacgtttgaaggatattcacctgtttcggatgtacaataccccgtatcagttaaatcactacgaaacgttttacttcgacacagaggggcgctttctttgattaagtcttctgtttttagttcctcagtcttgaagctttcactaagtcttttcctttgtcctgcaatttttttaaattataattagagacttagcatagttaagaatctgtaaaaaatacatatatttttcttttaacatataaataagaaatatatgcatatacgcaattgagggttttcaggcttggggagcacaggcattggagattgatggagggggattgggtattggagaaaatttaagattaaataaactaatcacattttatcatgctatgatgtagatacttcatttttagttcacgttatattccgttttcctataaatattgatggaggaaaacgccaaacgnaatagtaaaatgatgtanaattaattttttctaacttatttacatacacactgtatagcagggttggcatgatttaaatcaagtgatttttttaattttaatcatgtgatttaaataaaaaaaaacaactttnttaaaactttataataaatcgaaaaataactgtaaaagttataaaaatgtgtcctagaaaactataaaaaatatttctataacagatataacagataataaatcgaaaaataattgtaaatgttataaaactatataaaaatatctattcatcaatttaaatgttggaccgatttttgaagtaatttcgtgtgaatccattagaccgctaaacgcagggatttattttaaaatttatgtataagtgacaaaaattcgctgttcgaatacatatcattcgcagtctagtgcagaactaggttcttctgatatagagactatatcttcattcccgagaatctataatcgttgtcaggaaatatgttgttttatattttttttgaaacggttgtatttttccaaattcttaccgacattttgatctgcagtaagtattttacactttgacattagataatactaatttcattctcgacttaagactatttccgaanaatagtatattgttttattaggagtaaaaattacactttttgtggcgaggctgtacgtttgaggaccacgtaaagccattccgacgttacaggcgaggcacaaaaagtacatttttactccgaatagaacatgctatttttttcaaacgccaacaaataattttttaancaatttcaaacgttgcaaataatataaacagtaatcgagcaacaatgggtacactcgttgaatttgacacttaatgtcagtttaataatatattttcgtacttttgtgcttaggaaatcaaanaaatctgaaaaaaatcatgattttttccaaccctgctgaatagtctgtgagatgtnattttaaaatgtnaaaagagtttttcaaacccgaattggttgtcgttgttaactgagtttacaattcttctccattgcgttctattgtgcgctgcttcctcccactgattctgcatgcttatcccctttaagttttcatggaaaatatccttgtatcttttgagttgtccacccggtttcctcttaccgtctacaagctcaccgtaaagatttcggtaggcggttttcttgcatcctgcatacgtgaccagcccatcttaagcgggatttagtaatcatgacttcagcgctctcgcagctagctttttcaaggaccgatacgtttgagacatggtggtaccatttgattcttaacagttgtctaagggtgngtattcaccgaatcaaaacgntccgaacgaaccgnncgcgccgcgcgacgtcancaggtttgtacgtgagagtacnttgcgcctaacagaggagaacaacattgaaattttaaccatagagctgagtagttgcgcagtaacatcnacntacaagcctcctaatgaaaaatttaattttactcccccagaaaatttccaaaatcagaatacccattttatcgtagaggattttaacagccattatatagtgntntattgggnatatgaggatgatggcgcgaacgaagaattatcttcaaaagttcatgaatactttagactgttcgatgaaagcccgtttagtagggatacagtagaatcaggattggcattatctcaggaattagcgaaagcaaaacaaaatcgctggattgaaatgttagagagtattgacatgtccaagagcagcagaaaggcttggcaaccgctcaagcgactcagtaacgatcctactgcacccgtagtaagaccaagtattacagcaaatgaagtcgcccatcaggtgctgctgaatgggaaaactgatagaagaaaggataaaataaggatagtccgacaacacccagaaacgaatgttctgtccgctaagtttactagcactgtttaaatacaaaacaaaaagtatctgcccgcgataatattattaggaagctcgcgagtaacggatggggtgctcaaccaacagtactcagaacatcggcacttgcattatggtattctgctgcagaatatgcctgccctgtttggtacagatctgcatgccaatcatgtggatattgccttgaacgagacatgtcgaataacatcaggatgcctgaaggccacgcctacctacaaactctacagtttggcagggatagccccaccagatataagaagggaagctgccgcgaacacagagggacataaaagtatatgctgctcatccgttgcatggacatcaangctaatgtttatatcttttattttttttacaattttatgtttgtaactgtcttgaattttatctttacatttttcttctgtttgtctttatacattttgtctttttttatttttttaatatatttttatacgcaacgcttttgacacgaataaataaaataaaanctacgttgatatatcaattcacttagttcat",
+  "length_bp": 3264,
+  "sequence_length_bp": 3264,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

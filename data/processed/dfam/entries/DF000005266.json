@@ -1,0 +1,51 @@
+{
+  "accession": "DF000005266",
+  "name": "Halyomorpha_halys-4_family-130",
+  "description": "hAT-Ac DNA Transposon",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/hAT-Ac | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1453 BP; 521 A; 138 C; 92 G; 520 T; 182 other;"
+  },
+  "sequence": "tccatttttaagttttttataaaattttctagtctttttaaaacaaaatatcgatatttcgattaaataatatcgaaatatcgcatattcatatcgatatttcaacaatgttaaatatcgaaataaatatgaaattatnaaaataaaatatcgatattccnattttaaaatntcatataatatcaaaataaatatgtaattatcaaaataaaatatcgatatttcatttttaaatttttataaatnttctagtctttttaaacaaaatatcgatatttcgataaaataatatcggaatatttttnctaatatnccgnatcgatattaaaacantataaaatatcgatattcctattntnaaanttcaatacgattttctagtctttttaaacaaaatatcgatatttcgataaaataatatcggaatattgttgctaaataatatgatattgttcnaatattccatatcgatattacaacaatgtaaaatatcgaaataaatatgtaattatcaaaataaaatatcgatatattcctattttaanttttctataaaattttctagtctttttaaacaaaatatcgatatttcgataaaataatatcggaatattgttgctaatnttcgatatcgatattaannnnnatnntnnnnnnnnnaatannnnttaaattattaaaataaaatatcgatattccattttnaaattttctataaaattttctagtctttttaaacaaaatatcgatatttcgataaaataatatcggaatattgttgctnatattccatatcgatattcttgcaagtannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnntattcctattttaaaatctctacatgntattttagtcattttaaacaatatatcgatatttcgataaaatnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnataaatataacattatgaaaacaaaatatnggtattccatttttaattnttctatacaattatgttctagtttgatattttaaataaattatcgatattttatattctagtntttttaaacaaaatatcgatatttcgataaaattngtaatancggaatattnttnctnatattccatatcgatattacaacaatgtaaaatatcgaaataaatntgtaatatcaaaataaatcgatattcctattttaaaatctctatataatattttagtcnttttaaacaaaatatcgatatttcgataaaataataatatcggaatattgttgcttatatnccatatcgatattacaataatgnaaaatatcgaaataaatntgtantatcaaaataaaatatcgatattcctattttnaaatctctatacgattttctagtcnttt",
+  "length_bp": 1453,
+  "sequence_length_bp": 1453,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

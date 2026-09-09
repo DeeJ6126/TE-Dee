@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275618",
+  "name": "ChoDid-1.17",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ChoDid-1.17"
+  ],
+  "species": "Choloepus didactylus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Choloepus didactylus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Pilosa",
+    "Folivora",
+    "Megalonychidae",
+    "Choloepus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 536 BP; 159 A; 118 C; 134 G; 123 T; 2 other;"
+  },
+  "sequence": "tgtgctggtttgaagctgttatgtaccccagaaaaggccatgttcttttaatccattcctgtgggtgcagacctattgtgggtgggaccttttgattaggttgtttcaattgagatgtgacccacccaattcaaggtgggtcttaatcctttactggagtcctttatgagaggataaaagacagaaaaagcccagagagctcagagagaaacacccagagagcttagagagaaaagccccggagaagctaagagaggacccacagaagctnagagaggaggccactggaaccagaagctgaaagcaacgaaacccgggagngaaggaccagcagacgccggccatgtgccttcccatgtgacagaggaaccccggatgccagcagcctttcttcagagaaggtatcatcctgttgatgccttaattgggacattttcatggccttagaactgtaaatttgtaagctaataaatccccattgtaaaagccaacccatttctggtatattgcattccggcagctttagcaaaccgaaa",
+  "length_bp": 536,
+  "sequence_length_bp": 536,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000100",
+  "name": "Charlie23a",
+  "description": "hAT-Charlie DNA transposon, Charlie23a subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/hAT-Charlie | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 339 BP; 99 A; 63 C; 73 G; 103 T; 1 other;"
+  },
+  "sequence": "cagtggttcccaacctgtgggccgcggaccctggggggctncggagttattgcaaggggtccgcgaatccatatgcgcaccaagcattgtctgtagactgaataaataatatgtctcgcacatatatgtactactatttttcaaatgtatgtagatgctgttgtgattaataaaatacaaattcatttaaaagcgttactgaattcatagtagctttttgtcattatgtattttctcaatcaacggatactaaaagtacaactactatcatgtggggatccgcgaaattttttgacgttaaaaaggggtcctcatactcgaaaaggttgggaaccactg",
+  "length_bp": 339,
+  "sequence_length_bp": 339,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279367",
+  "name": "NocLep-6.3719",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tc2"
+  ],
+  "species": "Noctilio leporinus",
+  "display_classification": "DNA/TcMar-Tc2 | Noctilio leporinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Noctilionidae",
+    "Noctilio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1025 BP; 285 A; 213 C; 239 G; 288 T; 0 other;"
+  },
+  "sequence": "ccatatttttcgctccataagacgcacttttttcccccaaaagtgggggggaaatgtctgtgcgtcttatggagcaaatattgcgtcacagaccgtgatgtgtattacctgacctgtcagcggtggcgacagctgttagaagaggaagcggtgggcccacgcgaaacccctggggacgcttaaatgtcccactttactgctgaatctcagggcgtctggtcagttgccgtccgcctctgcccatcacccgggacctgggagagtgcagagagccgcctgacactcccagctacaaccgctgacctgtcgaatcagctgaggataataacgggtatgaggcttattagtgcttgaccagtttagagcacatattagcgaaactacaaaaaagagctttaaagaagtgaagactcatctagctgtaattcctgggggtcttaccagccagttgcaacctctcgacgtttccatcaacaaaccatttaaagtctttatgcgagaagagtggaacaaatggatggctgctggtaatcatgatctgacacctactggacgaatgaagaggcccactatcactcaagtttgtgaatgggtgaaaacatcatggcactcagtgaaggatgaaaccgttgtacggtcattcaaaaaatgtggcattagcaatgccttagatggaactgaagatagtatcatatatgaagatagcgaagaaagtgatatcagtgattgtgaacaactgagcttcataaattctgacactagcgatgatgagttcttggggttcccagaaaactagaagagtacttgaaccttaaagtctctcctcatttgttaatgacagtgatgatggttcttaataccgctgttgactgctgttcactttacatggttgaaatattattctgttatattttattaaatattttagtacaccatttggttcagaatattttttttcttgttttcctcctctaaacctaggtgcgtcttatggtcaggtgcgtcttatagtgcgaaaaatacgg",
+  "length_bp": 1025,
+  "sequence_length_bp": 1025,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

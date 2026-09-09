@@ -1,0 +1,47 @@
+{
+  "accession": "DF000000466",
+  "name": "LTR24C",
+  "description": "LTR24C (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR24C"
+  ],
+  "species": "Primates",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 635 BP; 197 A; 123 C; 106 G; 206 T; 3 other;"
+  },
+  "sequence": "tgtgaaaataagtaattcaaaatctaagctgttggaactttaaattattttgagccttaaaggaatgtgattatggggcctgagtcacgtgacaggcagctgtaacctaggcagctgtaacctttgtttctctgattatagattangccttcttccttacctacattgttttgtaaaatgttgtaaatgactaaagggcgccagggaagaccccttccctcttcactgttgatcttcattatagattaacttccctcttacctctctcacacaaagacttcatgactatcacattgtcttaagatggaatgttaaatacactcttttaaattggaaaggaaatgaaaacaagctgtaaggaaaagaaaacaagctgtacggaaaagaaaanaaancaaactgtaactaactaattaaattgttgtaactcataaaccagccttgtatagaaaatgttataatcctgctaaatttctttgttttctgcctatataagcaagaccttaacttttaacttcggagcactgaccccatttctctggagtctgtgtttcccggatggccattcccagcttttcgcttgaataaactctttaaaactggattctgatcctttcgattatttcaggttgaca",
+  "length_bp": 635,
+  "sequence_length_bp": 635,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR24C"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003752",
+  "name": "Kolobok-N11_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/Kolobok-T2"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/Kolobok-T2 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 471 BP; 143 A; 95 C; 101 G; 132 T; 0 other;"
+  },
+  "sequence": "aggggacatattatgccccttttcataagatgtaaataaatctctggtgtccccagaatgtgtctgtgaagtttcagctcaaaataccccacagatcatttattatagcttgtcaaatttgccccttttgggtgtgagcaaaaacacgctgtttttgtgtgtgtccctttaaatgcaaatgagctgctgctttccagaagagggcggagcctttacacgctattctgacactccagaaacaacaaaacaagcgaatcacgcagccaaaatgtcagaaatgaccagtagcggattaaacttacatgttcaaaccgagtcagacaatgatggagaggaagaggttctagactgaaccaggacgtttctgaacggttagtggatacatttatgttgttgtggagtaaagttgattaaactcatgactagcatgttactgctctgttctgactggcctgcaaataaacattacac",
+  "length_bp": 471,
+  "sequence_length_bp": 471,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Kolobok-N11_DR"
+  ]
+}

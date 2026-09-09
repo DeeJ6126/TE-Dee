@@ -1,0 +1,47 @@
+{
+  "accession": "DF000282771",
+  "name": "TolMat-1.383_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "TolMat-1.383_LTR"
+  ],
+  "species": "Tolypeutes matacus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Tolypeutes matacus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Chlamyphoridae",
+    "Tolypeutes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 451 BP; 117 A; 101 C; 101 G; 128 T; 4 other;"
+  },
+  "sequence": "tgatggagttcaattaaaggccatgacaactgacagaaagcaggccgccttggtatgtaggagacaggcgtctctagtctcaagacactgagataagatctggtaggagcctggtggagaaacattctgtgcttcaaagagngtatctggtatatgtcagataatgattnacaaggtctgctacgtgcaggaatgtaaagagaactgagccattaaccctnaaaacttgctgactttagtaaagtgtaaactgtcacgtatctattgcccttgcacatgcgcacacgtattttctttgttctaaagctaaataaaagccacggtgttttatgcagcggcactctcctccctttggatggagggtcccctgaccccggttatttcttntctctgtctcattttttctcatctgcggcaccgttttcacggacccagttcctgaacgtcaaca",
+  "length_bp": 451,
+  "sequence_length_bp": 451,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

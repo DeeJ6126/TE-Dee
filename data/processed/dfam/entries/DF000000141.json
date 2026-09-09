@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000141",
+  "name": "Eulor9C",
+  "description": "Eulor9C (Euteleostomi-conserved low frequency repeat 9C)",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 270 BP; 76 A; 51 C; 49 G; 87 T; 7 other;"
+  },
+  "sequence": "tatgaatattaaatacaaaaaaccgcgttnaaataacgttaagggtctgacttaaacccacaaaagcnaggaaattcagagttaaggctgacactccgtccttaactcaccccgtcgtgcctgggtatctnttnattttctttnnnataggcacaacggcgtgagttaaggacggagtgtcagccttaactttgaatttcctggcttttgtcggtttgtgtcacaaccttaacgttatttaaacgtagttttttgtatttaatattcata",
+  "length_bp": 270,
+  "sequence_length_bp": 270,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Eulor9C"
+  ]
+}

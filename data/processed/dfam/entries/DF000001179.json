@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001179",
+  "name": "UCON34",
+  "description": "Conserved repeat present in placental mammals and marsupials.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/hAT-Charlie | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 231 BP; 82 A; 44 C; 45 G; 59 T; 1 other;"
+  },
+  "sequence": "cagtgattcccagccctggttttgcgacaccccagggtgtctccaattatctcaaggggtgtcatgaaattctcaaaaaattctcaaaacaaaattaattttaattcactttaatttaaaaaataaatatatgccatacagcactttgaggaagggagggtggacaaaatgtcacaaaatcaaacaagcaatgatagggtgtcgcaactccnaaaaggttgggaatcgctg",
+  "length_bp": 231,
+  "sequence_length_bp": 231,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON34"
+  ]
+}

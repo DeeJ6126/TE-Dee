@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279339",
+  "name": "NocLep-1.113",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Noctilio leporinus",
+  "display_classification": "DNA/PiggyBac | Noctilio leporinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Noctilionidae",
+    "Noctilio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 123 BP; 34 A; 27 C; 25 G; 37 T; 0 other;"
+  },
+  "sequence": "cacattgttgaccggtcacgaaaaaactcgtgttttcaagcccaaacgttgttgaccgataacgagttaactcgtgcttgcacttgcattagcttttgtataaaattgccggtcaacaatgtg",
+  "length_bp": 123,
+  "sequence_length_bp": 123,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

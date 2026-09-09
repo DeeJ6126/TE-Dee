@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277393",
+  "name": "HipArm-1.118",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Hipposideros armiger",
+  "display_classification": "DNA/TcMar-Tigger | Hipposideros armiger",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Hipposideridae",
+    "Hipposideros"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 156 BP; 46 A; 29 C; 36 G; 45 T; 0 other;"
+  },
+  "sequence": "cagtaaaaccttggattgcgagtaacttggtttgcgagtgttccgcaagacgagcaaacatttctaatacattttaacgtggtaaacgagcgatgtcttgcaatacgagtagtttgtttccggaacgaattatgctcgcaaaccaaggtattactg",
+  "length_bp": 156,
+  "sequence_length_bp": 156,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF003440264",
+  "name": "LTR8_pKuh",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR8_pKuh"
+  ],
+  "species": "Pipistrellus kuhlii",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Pipistrellus kuhlii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Pipistrellus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 210 BP; 45 A; 55 C; 45 G; 57 T; 8 other;"
+  },
+  "sequence": "cagagactgctagntgcctcccaatatccattttccctttttcnnnaagactacatttcccagcctcccttgcagctaggtgtggccatgtgactaagttctggccaatgggatgtgagcagaagtgatgtgtgnnnttctcttaaaaccctctaccttttcctcttccccatgacgaagaggacaanatggaaggagcctgggtccctg",
+  "length_bp": 210,
+  "sequence_length_bp": 210,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

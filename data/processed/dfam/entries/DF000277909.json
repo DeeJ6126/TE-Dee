@@ -1,0 +1,44 @@
+{
+  "accession": "DF000277909",
+  "name": "LipVex-5.3249",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Artiodactyla",
+  "display_classification": "DNA/TcMar-Tigger | Artiodactyla",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 845 BP; 242 A; 169 C; 186 G; 248 T; 0 other;"
+  },
+  "sequence": "cagtagtccccccttatccgcggtttcgctttccgcggtttcagttacccgcggtcaaccgcggtccgaaaatattaaatggaaaattccagaaataaacaattcataagttttaaattgcgcgccgttctgagtagcgtgatgaaatctcgcgccgtcccgctccgtcccgcccgggacgtgaatcatccctttgtccagcgtatcccgcccgttagtcacttagtagccgtctcggttatcagatcgactgtcgcggtatcgcagtgcttgtgttcaagtaacccttattttacttaataatggccccaaagcgcaagagtagtgatgctggcaattcggatatgccaaagagaagccgtaaagtgcttcctttaagtgaaaaggtgaaagttctcgacttaataaggaaagaaaaaaaatcgtatgctgaggttgctaagatctacggtaagaacgaatcttctatccgtgaaattgtgaagaaggaaaaagaaattcgtgctagttttgctgtcgcacctcaaactgcaaaagttacggccacagtgcgtgataagtgcttagttaagatggaaaaggcattaaatttgtacaataagatattttgagagagagaccacattcacataacttttattacagtatattgttataattgttctattttattattagttattgttgttaatctcttactgtgcctaatttataaattaaactttatcataggtatgtatgtataggaaaaaacatagtatatatagggttcggtactatccgcggtttcaggcatccactgggggtcttggaacgtatcccccgcggataaggggggactactg",
+  "length_bp": 845,
+  "sequence_length_bp": 845,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000281305",
+  "name": "VulLag-1.185",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Vulpes lagopus",
+  "display_classification": "DNA/TcMar-Tigger | Vulpes lagopus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Canidae",
+    "Vulpes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 475 BP; 130 A; 101 C; 95 G; 149 T; 0 other;"
+  },
+  "sequence": "tagtccccccttatctgcggtttcgctttccgcggtttcagttacccgcggtcaaccgcggtccggaagcagatgatcctccttctgacgtatcgtcagaaggtcaatagtagcctaacgctacgtcacaatgcctacgtcattcacctcacttcatctcatcacgtaggcattttatcatctcacatcatcacaagaagaagggtgagtacagtacaataagatattttgagagagagagaagaccacattcacataacttttattacagtatattgttataattgttctattttattattagttattgttgttaatctcttactgtgcctaatttataaattaaactttatcataggtatgtatgtataggaaaaaaacatagttatatatagggttcggtactatccgcggtttcaggcatccactgggggtcttggaacgtatcccccgcggataaggggggagactactg",
+  "length_bp": 475,
+  "sequence_length_bp": 475,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

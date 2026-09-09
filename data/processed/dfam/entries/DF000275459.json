@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275459",
+  "name": "CerSim-1.223",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CerSim-1.223"
+  ],
+  "species": "Ceratotherium simum",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ceratotherium simum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Perissodactyla",
+    "Rhinocerotidae",
+    "Ceratotherium"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 533 BP; 143 A; 122 C; 109 G; 158 T; 1 other;"
+  },
+  "sequence": "tgataaataaatgaaaagcaataggatatattggagtatatgaggaagccatttggtttaaaactaattcggcctgaccttgtttttccaaaagggcctgacgtggcctgttgagcatgcattgtacatctgctttaaacatttactatgtcccaaagacaagaatgatgcccttaaagatagggatgtagcttcccccatatcggcatttctttaaggataagcatctcttcctggaaactaaggattaattaccgacctgctgtgctcaccttgtgaccactgacctgctgaccaccgacctgctgtgccagctaagcatctcgtgacagtngtaaaagggacattcctgtcatatgtgatgtatgctctttgttccaagacggtatataaccactctgtacaccccacttctttggtgcccttccttccttggggaaggaaggccccgggctatagtcctcagacctggctcataataaactcaccccaattttgatttatagattgattatggattatttgcgtcgaca",
+  "length_bp": 533,
+  "sequence_length_bp": 533,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

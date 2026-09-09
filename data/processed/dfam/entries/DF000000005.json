@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000005",
+  "name": "THE1A",
+  "description": "Long terminal repeat (THE1A subfamily)",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "THE1A"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 355 BP; 71 A; 92 C; 83 G; 109 T; 0 other;"
+  },
+  "sequence": "tgatatggtttggctgtgtccccacccaaatctcaacttgaattgtatctcccagaattcccacgtgttgtgggagggacccagggggaggtaattgaatcatgggggccggtctttcccgtgctattctcgtgatagtgaataagtctcacgagatctgatgggtttatcaggggtttccgcttttgcttcttcctcattttcctcttgccgccgccatgtaagaagtgcctttcgcctcccgccatgattctgaggcctccccagccatgtggaactgtaagtccaattaaacctctttttcttcccagtctcgggtatgtctttatcagcagcgtgaaaacggactaataca",
+  "length_bp": 355,
+  "sequence_length_bp": 355,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "THE1A"
+  ]
+}

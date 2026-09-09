@@ -1,0 +1,57 @@
+{
+  "accession": "DF000000155",
+  "name": "HAL1b",
+  "description": "L1 retrotransposon, HAL1b subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Eutheria",
+  "display_classification": "LINE/L1 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2421 BP; 889 A; 464 C; 531 G; 519 T; 18 other;"
+  },
+  "sequence": "aaaaattcaccagcagcaaccaaacaaggaaaggggtacaacctcatgccataaacttcgaaaagtggcggccaaggaaagaaacagaagattctggcgcggtntagcatggctcctaaccccgcccccaccccccagaagcggtactgaggaaagaaggtgagtcgacaaaatcctgagaattctcactaataccctccaatttggagagaagcggactgagggggtgagtaggcagcccngggaaaagtcaaggaaaaaccctcgagagtagaagcccctacgtaccaccgcgggacctcggcagaggcaggaagggccgccagggcttgccatcttccagggcnccgcgctgaattgggggaatganccgaagcccacgggagtgggatacgcccccggctaggtggagtgagccctggtacaggacatttaacgaaatctcagaagagagagcagagcccaggtcctccaacaaaggctgcacncagccccagccgagctctccccccttcccccatccccgcgccctcaggctacagaaaagtggatagaaagcaatacccagccctcaaactgtagctcagaggggaagacaaacaggtctcagataaggtgggaagggngtcaaggagaattcacccacactatatcagagcaaatagaaggtctggacagagctgcccacgttaagcatgagcaagatgaaaagaaatggcatggcaactatgcaaacatactacagcaaagaagagagagngaaaggaagaaaggagacanagcatgcaaaagacagacgaagaacccagtctggaagaaaacataacccaaggaacagaagaaaattccccgcgagtgcttcgcgctatagaanaacttaataagaacatgaattcaataaaacaagagctcaaagacgagatgataaaacaacagaatgagatgaaaagggagattgcagagctaaggaaacaaattgaggaccaaaacaacaccattacagaactaataaataaattagaaacagcaaggaacagaatagacacggctgaaaatcgaattactgacatagaggaaaggcttgagataatcacagtgaatgcagaaggaaaagacaaagagattaaagcaattagagagaagataatagatatggaggacagacaaagacgatccaacataaggataattggtgtccctgaagtagagaacccaacaaatggaacagaaaaagtattcaaagatataatacaagaaaatttccctgaaatgaaggaagaactgaatctgcagatcgaaagggcacaccgtgttccaggaaaaattgatacagaacgatcgacaccgagacatatcctggttaagttattgaacttcaaggataaagaaagaattcttcaggcatccaggcagaaaaagcaagtcacctacaagggggaaaaaatcaggctggcctcagacttctccacagcaacattcaatgccagaagacaatggagcaatgtctacaaagttctgagggaaagaaagtgtgacccaagaatnttatacccagccaagttgtcgttcaagtataaaggcaacaggcagacattctcaaacatgaaagaactcagggaatatagcacccatgagcccttcttgaaaaaactacttgacgatgaaatccagccaaccaagagatgaatcaaaataaagaactcaggaatggagaagccgtggtaaaaggactggtggtgagcactgaatccatttaaatatagaactaagactaaacaactgtgggaattatggttacagaacagaatgtaaatgttataaaccttgacaangtaaaaataatataantaacaaaaatcgggaggtgggagaggagaggtgggaggaagtgtaagagtgctaatttcctcatctttcatagcagggagtcaatcgatactgtctaaaattgaaacatgtagtttaaaaanataatgactccaacctcttaatgtttttcataatcttttttcttaaccttagagggatcttttaggaantaatatctcttgtggtgaagaaacatttatctgaagttcagcaattccttcagtttcacttcagtttctttttcttctgttaaattcaagtaaaattaaatttaatacttttnatttaaaatagcatgtatagtatgatcccatttttataaaattatttctatctatccatccatccatccatctatccttctatctgtatatatgcatagaaagatgtctggaatgatgttcaccaaatgttaacgatggttatttctgggtggtgggatttngggtgatttnttgctttcttctttgtacttttctgtattgcttgaattttttataatgagcatgtatcatttttataaaaacaataaagtnattatttttttaaaaa",
+  "length_bp": 2421,
+  "sequence_length_bp": 2421,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "714..1683",
+      "start": 713,
+      "end": 1683,
+      "qualifiers": {
+        "product": "HAL1b",
+        "number": "1",
+        "note": "[Eutheria]",
+        "translation": "MAWQLCKHTTAKKREXKEERRHSMQKTDEEPSLEENITQGTEENSPRVLRAIEXLNKN"
+      },
+      "label": "HAL1b"
+    }
+  ],
+  "repbase_aliases": [
+    "HAL1B"
+  ]
+}

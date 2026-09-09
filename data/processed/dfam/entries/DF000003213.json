@@ -1,0 +1,66 @@
+{
+  "accession": "DF000003213",
+  "name": "Rex1-29_DRe",
+  "description": "Rex-like non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/Rex-Babar"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/Rex-Babar | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2528 BP; 644 A; 609 C; 543 G; 723 T; 9 other;"
+  },
+  "sequence": "tgttgtatacattccaccacaggcagatgctggctgggctttgtctagacttcacgatgtgctcagcggctatattaacaaacaccctgacgctgcccttatcatcgcgggagactttaacaaagctaatctcaggcaggtcatgccgaatttccatcaacatgtatcctgtccaactagaggacttaacacactggatcactgctacactcagttcaagaatgcctataaagcccgttcattaccggcttttggcagatcggatcatgccgctattttcctagcaccggaatataaacaaaggctcgtccaggattctccagtgcagagagtagtgacgcgctggtcctcccattcagagactatgttgcaggcggcgcttgatgacgtcgactgggacatgttccgggtgagttctcttgatgtcagtgagtttacggatgtagctctgagttttataaacacgctaattgagcaagttacagaaacaataacgataaggtcattccccaatcaaaaaccgtgggtggacaaaacaatccgcgctgcggttaacacacgcactgccgcttacaatgaggctctttcgtcggggaatatgagcgagtacaaagcatcgtgctatgctcttcgacgcgcagtaagagccgctaaacataaatataaagagagaattgagtctcattttcagctcaatgactcccgacggatgtggcagggactgaggactatctgtaccttcgggaacaaatcctctgcagaggtgagggcagacccgctgctggccgatgagttaaacattttctatggtcgttttgattgcggcggcgtgattntgccgaccagtgcgtcaggaaacgttaggcagggttgcgatgatcctgtaatcaccgtgtcggaagatgaggttcggagggcactgaaaagagtgaatgtcaggaaggcagctggacctgatgggatacctggccgtgtcctgaggtcctgcgccggtcagcttgctggtttgtttacttccatctttaacgagtcccttgctacctccgtggtccccacctcattcaaaaaatcaataattatccctgtgcctaagantaataaaccctcttgcctgaacgactatcgcccagttgctctcacatctttagttatgaaggtttttgagagacttgtgaagagctacgtctgctcctccctacctgntactctggacccctttcagtttgcttttcgtctaaatagatccacggacgatgccatttctcatgttcttcactcttctctcacacacttggacagcaaaaatgggaattatgtaaggctgctttttattgattatagctctgcttttaacactattgttcccattaagctggcatccaaacttattgacctcggtctaaactcctcactttgtaactggattcaagactttctcaccggtagatctcaagtggtgagagttggccagttcacatcaaattccatcactctgaacataggagccccacagggctgtgtcctgagtcccctactctactctctctacacgcatgactgcgtttcctcccatagctccacatccatcatcaaatttgccgatgatactgtggttttgggcctcatctccaataacgatgagaccgcgtacttggatgaggttcagaggctcacatcatggtgccaggacaatttcctttttctgaatgtgaacaaaactaaggagttgattatggactttaggaggagacaacagcagccctacactcctcttatgatcagtgggacccccgtggagagggtgagtagtttcaagtatctcggtgtaattatctccgagaacctgacttggactacacacattgaaaggcaagtaaatagagccaggcaaagactgtaccatctgcgacagctgaggaaattcagggtctctccagcaatcctgaaaactttctattcagggaccgtagaaagcgtattgactcaangtatctcagtgtggtatggaaacagctcaaaccaggaccgcaaagcacttcaaagagttgtgcgtttagctgagcgcatctcagggtctgctctcccctccttgcaggacatctatcttaaacgctgtaaaaatagagctgttaaaatctgtaaggacttaaaccaccctgacaattacctattcactttgcttccatctggnaaacgtttccgtagcttgatggcaaaaactgagagacttaggaggagcttctttccccaggccatcaggctnctaaattctaacccggtgttacacatcacttgattttttcgtatntatcactgtagtagtcatatccataagtacctcatattgctgctattcttattaccttgtataattttttgcacacttttttttttcttctttttccttantatttaattttttgtttatctatacttgcactgtctctggagcggacctgacctacatttcactgctggtcatactttgtatnactatgtatgtgacaaataaaacttgacttgacttg",
+  "length_bp": 2528,
+  "sequence_length_bp": 2528,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "1..2293",
+      "start": 0,
+      "end": 2293,
+      "qualifiers": {
+        "product": "CR1-29_DR_pol",
+        "number": "1",
+        "note": "Fragment [Danio rerio]",
+        "translation": "VVYIPPQADAGWALSRLHDVLSGYINKHPDAALIIAGDFNKANLRQVMPNFHQHVSCP"
+      },
+      "label": "CR1-29_DR_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "Rex1-29_DRe"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001205",
+  "name": "UCON65",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Amniota",
+  "display_classification": "Unknown/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 442 BP; 97 A; 110 C; 97 G; 120 T; 18 other;"
+  },
+  "sequence": "tctcgcgatggtgtcgtcattnctattgctacacgtatcgtattgccgagcancgcttagcaacgcgaancccgcgttctgccacntccgtttcgtncttcacanttttantttcgctctcaccttcgaagtacagcgaagttgttcgttacatttcggatgccgcngcagttcgatcncatcganagaaggatgtgcaatcgaactgacagtnagacagtgattggcatcggccataactcgttattctgtcaaggatttggcatgccaatcgatgggaaacgatgtgcgntcgcttgaaattgatcgtaattcgtttcccatcgattgncatgccaaatccttgacagaataatgagttacgnccgatgccaatcattcttgggcacatgcctcccngtacttccattttacggaccccgggggcgnctancaaaantgg",
+  "length_bp": 442,
+  "sequence_length_bp": 442,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON65"
+  ]
+}

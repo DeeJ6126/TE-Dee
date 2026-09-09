@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TE-KG Graph Preview</title>
+  <link rel="stylesheet" href="../css/tekg_runtime.css">
+  <link rel="stylesheet" href="../css/pages/preview.css">
+  <script src="../js/tekg_paths.php"></script>
+  <script src="../vendor/g6/g6.min.js"></script>
+</head>
+<body class="preview-graph-embed-page">
+  <header class="preview-graph-embed-header">
+    <h1 id="page-title">TE-KG Graph Workspace</h1>
+    <span class="badge" id="page-badge">Graph preview</span>
+  </header>
+  <div class="main preview-graph-workspace preview-graph-embed-workspace">
+    <section class="panel preview-graph-panel" aria-label="TE-KG graph workspace">
+      <div class="head preview-graph-head">
+        <h2 id="graph-title">TE-KG Graph Workspace</h2>
+      </div>
+      <div class="toolbar preview-graph-toolbar">
+        <div class="search">
+          <span class="preview-search-icon" aria-hidden="true">Search</span>
+          <input id="node-search" type="text" placeholder="Search LINE1, L1HS, disease, or function">
+        </div>
+        <button id="toggle-focus-view" class="focus-legacy" type="button" style="display:none">
+          <span id="focus-view-text">Focus mode: Global</span>
+        </button>
+        <div class="stepper-control" id="key-node-level-control">
+          <button id="decrease-key-node-level" type="button" aria-label="Decrease key-node level">-</button>
+          <span id="key-node-level-text">Key-node level: 1</span>
+          <button id="increase-key-node-level" type="button" aria-label="Increase key-node level">+</button>
+        </div>
+        <button id="toggle-non-key-nodes" class="non-key-legacy" type="button" style="display:none">
+          <span id="non-key-nodes-text">Hide non-key nodes: Off</span>
+        </button>
+        <button id="toggle-show-labels" type="button"><span id="show-labels-text">Show names: Off</span></button>
+        <button id="toggle-fixed-view" type="button"><span id="fixed-view-text">Fixed view: Off</span></button>
+        <button id="back-graph" type="button" disabled><span id="back-text">Back</span></button>
+        <button id="reset-graph" type="button"><span id="reset-text">Reset</span></button>
+      </div>
+      <div class="g6-surface-stack preview-g6-surface-stack">
+        <div id="cy" style="display:none"></div>
+        <div id="g6-default-tree-surface"></div>
+        <div id="g6-dynamic-surface"></div>
+        <div id="graph-preloader" class="graph-preloader" aria-hidden="true">
+          <div class="graph-preloader-inner">
+            <div class="graph-preloader-icon" aria-hidden="true">
+              <span></span>
+              <span></span>
+            </div>
+            <div id="graph-preloader-label" class="graph-preloader-label">Loading graph...</div>
+          </div>
+        </div>
+        <div id="graph-type-legend" class="graph-legend-panel" aria-label="Entity legend" aria-hidden="true" hidden>
+          <div id="graph-legend-title" class="graph-legend-title">Entity Legend</div>
+          <div id="graph-legend-list" class="graph-legend-list"></div>
+        </div>
+      </div>
+      <div class="nav" id="search-results-nav" style="display:none">
+        <button id="prev-result" type="button">Prev</button>
+        <span id="result-counter">0/0</span>
+        <span id="result-name"></span>
+        <button id="next-result" type="button">Next</button>
+      </div>
+      <div class="detail" id="node-details">Preparing graph workspace...</div>
+    </section>
+  </div>
+  <script>
+    const __tekgG6Url = new URL(window.location.href);
+    const __tekgEmbedMode = __tekgG6Url.searchParams.get('embed') || '';
+    const __tekgInitialQuery = __tekgG6Url.searchParams.get('q') || '';
+    const __tekgTreeVariant = __tekgG6Url.searchParams.get('tree') || 'rmsk_repbase';
+    const __tekgCompactEmbed = __tekgEmbedMode === 'home-preview' || __tekgEmbedMode === 'search-result';
+    if (__tekgCompactEmbed) {
+      document.body.classList.add('tekg-g6-compact-embed');
+    }
+    if (__tekgEmbedMode) {
+      document.body.classList.add('tekg-g6-embed-' + __tekgEmbedMode.replace(/[^a-z0-9_-]/gi, '-'));
+    }
+    window.__TEKG_RENDERER_MODE = 'g6';
+    window.__TEKG_EMBED_MODE = __tekgEmbedMode;
+    window.__TEKG_INITIAL_QUERY = __tekgInitialQuery;
+    window.__TEKG_COMPACT_EMBED = __tekgCompactEmbed;
+    window.__TEKG_G6_BOOTSTRAP_OWN_TREE = true;
+    window.__TEKG_TREE_VARIANT = __tekgTreeVariant;
+  </script>
+  <script src="../js/tekg_runtime_data.js"></script>
+  <script src="../js/renderers/g6/index-g6-type-meta.js"></script>
+  <script src="../js/renderers/g6/large-force-graph/large-force-graph-contract.js"></script>
+  <script src="../js/renderers/g6/large-force-graph/large-force-graph-layout.js"></script>
+  <script src="../js/renderers/g6/large-force-graph/large-force-graph-styles.js"></script>
+  <script src="../js/renderers/g6/large-force-graph/large-force-graph-core.js"></script>
+  <script src="../js/renderers/g6/large-force-graph/adapters/taxonomy-large-force-adapter.js"></script>
+  <script src="../js/renderers/g6/taxonomy-dynamic-prototype.js"></script>
+  <script src="../js/renderers/g6/default-tree-mindmap.js"></script>
+  <script src="../js/renderers/g6/index-g6-runtime.js"></script>
+  <script src="../js/renderers/g6/index-g6.bootstrap.js"></script>
+</body>
+</html>

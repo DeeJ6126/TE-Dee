@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001241",
+  "name": "X6a_DNA",
+  "description": "Conserved repeat present in placental mammals and marsupials.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/TcMar-Tigger | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 376 BP; 138 A; 69 C; 72 G; 96 T; 1 other;"
+  },
+  "sequence": "caggtgcgccccgctttaagaaaacccgatatacgaaaatccaaacttacaaaacagataaattagggggtgattattcgcattacaaaaggattcttcgctttacaaaaggattcctttaaatagcgagctcccctagtgcatttaagtgtttgtttacagatcattaactacttgacagagaggctggagggcagagaaacttaaagctaaagtgttaggagccactgccaattgaagatcaatcagaaatgaagataaagcatctctgaaattataatgtaagtcaatgggaaaatangattcgatttacaaaaattcgatttacacacaacttttcaggaacacatctattgcgtaaagcaaggcacacctg",
+  "length_bp": 376,
+  "sequence_length_bp": 376,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X6a_DNA"
+  ]
+}

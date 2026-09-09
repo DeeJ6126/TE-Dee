@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001210",
+  "name": "UCON93",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Mammalia",
+  "display_classification": "Unknown/ | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 156 BP; 47 A; 37 C; 26 G; 44 T; 2 other;"
+  },
+  "sequence": "atttttaaaatgtgcccatcactgagcccctgggcatatgtacagaaacaaacacatatttnaatatttattatctagggactaaattcgtggtcttacacttgccgatcctcccacatcnatcaggcaaatgcctgactaaacagatgggcttgc",
+  "length_bp": 156,
+  "sequence_length_bp": 156,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON93"
+  ]
+}

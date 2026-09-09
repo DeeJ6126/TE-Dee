@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279424",
+  "name": "NycCou-5.804",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Nycticebus coucang",
+  "display_classification": "DNA/TcMar-Tc1 | Nycticebus coucang",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lorisiformes",
+    "Lorisidae",
+    "Nycticebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 968 BP; 280 A; 194 C; 238 G; 256 T; 0 other;"
+  },
+  "sequence": "gggggtgccaaaaaaatgtatacacattttaagagatgttatctatgtattacttttcgaagttgaattgaattacggtagcaatgtgtagtatgacgttcgctcaaaagatggcgttaatcaaatgaatgctagcgtcaccatgcgacaggcaggacagtcaaagaaaatggcggaagcacggttgtcgttcgaggagcgcaagaccattttgaagtggtatttgaaattcgagaacgttgtggaagtacaacgacaatggaggcgtgagtatgcaacagaacctccaacacgcctaacaactgcacgcattcgtggtaagtttgagacgcatggtactgtgtgtgatgtgcacaagggaagatccgggaggcctcgcacagcaacaagtcctgcttcttctgctgtggtgttggaacagtttacacgctcgccacagaagtctaccaaacaatgtgcacgtgagacaggagttagcagaacaagcatacgacgcattcttaaaacagcaaaatggaaagttttcatcccaagattattacatgcaccgagacgtgagagcttacctcgatgagaatttgccaggacaatggataggacgaagaggtgcggttgagtttcccccacgttctcctgacttaacaccccttgacttctacctatgggggaccttaaaggatgtggtgtaccgtagaaaaccggctacactggcggtacttcgggaagaaattgaaacggcatgcgcagcgatacaagtggacactttggtcaacgttgctcaagcagtagttcgccgtaatcagaagtgtctggacgctgatggtaaccactttgagcacctcttgtaattgcagaagtcaaacgtgacttgtattcatcttttgttatcggtatatattgagtattacaattttaatacagtttttttcctttcttaaaatgtgtatacatttttttggcaccctctg",
+  "length_bp": 968,
+  "sequence_length_bp": 968,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000651",
+  "name": "tRNA-Ile-ATC",
+  "description": "tRNA-Ile (decoding ATC) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 75 BP; 11 A; 24 C; 27 G; 12 T; 1 other;"
+  },
+  "sequence": "ggccggttagctcagttggtgagagcgtggtgctgataacgccanggtcgcgggctcgacccccgcaccggccac",
+  "length_bp": 75,
+  "sequence_length_bp": 75,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "tRNA-Ile-ATC"
+  ]
+}

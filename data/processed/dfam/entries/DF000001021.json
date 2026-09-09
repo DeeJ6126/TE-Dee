@@ -1,0 +1,43 @@
+{
+  "accession": "DF000001021",
+  "name": "MLT1J-int",
+  "description": "Internal region of ERVL-MaLR retrotransposon, MLT1J-int subfamily",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT1J-int"
+  ],
+  "species": "Theria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1387 BP; 376 A; 294 C; 407 G; 290 T; 20 other;"
+  },
+  "sequence": "gaaattggtacctagaagtggggtgctgccataacaaaaacctaaaatatgtggcattggcttagcggtcgggcggcgggcggcgaggaaacngatatcgnaggctggaaagntggngacccntgttatgcagtggcaaaacatttggtaaaactgtcgcctgcgataacttggaaggcagaccacgtgcctactgagcctgtagctctaggggaagnggttggaaaaantcagaatgttagtgtgtgttggctgctnctngctgcntttagcaaggtattacaagaaagagatgagctcaggaaagaattggccggtttgcaagcagaaatgaaagggaatagagagagtccagaaatttggggccttgcagggttggaaaagccaactgcttctgnaccccaaacagtaagagataagactgaaaaaggctttgagcaacaaaggcccattaagacttctcgccagacaaagggactcagccctgcggcaaagatcagattaagggtgttgccttcccacccaagcctattgtttcagatggcctcaaggtagccgccattaagttgagagagaggggatgggcagagcacagaggccagnaaataaaagantaaagcaggcttgagaactatgtctaggaaagaactttggntgtggttactggcacatggaactgactggaagcaaatagatcagaagcctactaagtttttgagggaattgtattgccaaagaaaccacaagcctggcctgnaaaagcctgtgactgttcganccctaaaacaacccttgggcccccaaacttgcaccagcaggaagcgggctgcgaaagctgtgcagcccccaaggagggcatactccccaacgcccacttcagatgtggccanggaggataatggacaaggaagaacctcccagagggcggagccaggggccacggagaacaatggacaagggagttcctcccagagagcagaatcagggtctaatcaaggaacttcccccactgccagggcagggggtcttcacaatncctgcccagcaggatttcanaattgctatggaccagtgactgctgtgtgtctcccattcttcccttttccgaatgggagtttttattgcggttatcctgtccctgctccaccattgtatattgggtgtgtggggggcagataacttgtcttttagttcataggtcgccggaccacgaggagccacatccggacctgatggagaggactgcgcatcacccagagatcctggactttgagctggatgcagtaactggatgggactttgggttgtctcccttggggagggggtgagtgtgttctatgtgtgggaagaagggtgnaacggatatttggtggccagaggggcagac",
+  "length_bp": 1387,
+  "sequence_length_bp": 1387,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLT1J-int"
+  ]
+}

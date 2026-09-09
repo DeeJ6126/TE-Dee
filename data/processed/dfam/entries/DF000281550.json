@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281550",
+  "name": "AnoCau-1.211_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "AnoCau-1.211_LTR"
+  ],
+  "species": "Anoura caudifer",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Anoura caudifer",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Glossophaginae",
+    "Anoura"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 378 BP; 96 A; 93 C; 93 G; 96 T; 0 other;"
+  },
+  "sequence": "tgtagaagaaaagtcaactaggacaaagtgacccagaagagggaccgggaactgggaaagagttttgtttaggttacttagaaaccgcaaaaccgtcgggtttcggttaggtagtcataatttctgctttggcttctgtacacccagcttccgataaggacacctcaaggctagagttattttcgcatcagcttctgtacctcctgcttttgccacgtaggatagggcgtccggagagcaataaaagccctgcccagccaaggttcggggcccagaatttggagactgcctcctctgggtccgcgcgtgtaataaagcctcactccgttaccccgaatcgcgccagagtcattattttccgaattattttccgtaaca",
+  "length_bp": 378,
+  "sequence_length_bp": 378,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

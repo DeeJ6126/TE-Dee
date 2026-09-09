@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277710",
+  "name": "LasBor-1.161",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Lasiurus borealis",
+  "display_classification": "RC/Helitron | Lasiurus borealis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Lasiurus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1196 BP; 273 A; 302 C; 401 G; 219 T; 1 other;"
+  },
+  "sequence": "atcctaatatataaaaacccagggtccgtaacgtccaaaacgaccgaaggctcgaccgcaccggaagtcagtcctgcagctgggttgccgtggcgacccagcactgactgccgctgctgcgggcgtggcgacccagcactgactgccgagggggctgcggatcaggcccggagagaggcctggagagagaagcagggtctgatccgcagcctccgtggcagctgttgatcagcccttgcctctctctttctctccgggcctcgccagcagccatgggggctgctgatcagccccgcctctctgatcaggcccggagataggcccggagacgctgactggcatagaaaccgaccaatcagaaccaaatctgggtgaactgcgaggagccaatggctgcctaggaggcggagcttttgacgctgactggcatagaaaccgaccaatcagaacctaatctgggtgaactgcgaaggcagaacctaaggtgggggctgaggaggggttttaagggcaacagctgtttggtgtaaggtgtaagaaagcggttcaattttttaatgaccggtttggcagtatagtgcatatggctggctatcagtccagatatagggattatgtatttttgtctgccaagagcatctcctcctgctgaaaaaggctcccccccccatttaagcaatcctatcctatataatctatctatactaataaaagggtaatatgctaattagaccgggtcgaccggccatcttccggacgtccgacttccttccggacaaagccatggtggtgggggccgaggcagaggcagttaggggcgatcaggccggcaggggagggcagttgggggcgagatcaggccggcaggggagggcagttgggggcgagatcaggccggcaggggagggcagttgggggcgatcaggccggcaggggagggcagttaggggcgatcaggcaggcaggcagaggcagttaggggcgatcaggcaggcaggcaggtgagcggttaggagccagcggtcccagattgcgagagggatgtccgactgccggtttagggatcgggcctaaaccggcagtcggacatcccccaaggggtccccgattggagagggtgcaggctgggctgagggaacccccccccccgtgcacgaatttcgtgcaccgggccactagtatantaaaatataaaa",
+  "length_bp": 1196,
+  "sequence_length_bp": 1196,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

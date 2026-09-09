@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275080",
+  "name": "BosInd-1.54",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-Core-RTE"
+  ],
+  "species": "Bos indicus",
+  "display_classification": "SINE/tRNA-Core-RTE | Bos indicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bos"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 311 BP; 68 A; 80 C; 91 G; 71 T; 1 other;"
+  },
+  "sequence": "gcttccctgatagctcagttggtaaagaatccgcctgcaatgcaggagaccccggttcgattcctgggtcgggaagatccnctggagaagggataggctacccactccagtattcttgggcttcccttgtggctcagctggtaaagaatccgcctgcaatgcgggagacctgggttcgatccctgggttgggaagatcccctggagaagggaaaggctacccactccagtattctggcctggagaattccatggactgtatagtccatggggtcgcaaagagtcggacacgactgagcgactttcactttc",
+  "length_bp": 311,
+  "sequence_length_bp": 311,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

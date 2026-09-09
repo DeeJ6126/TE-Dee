@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000160",
+  "name": "Helitron3Na_Mam",
+  "description": "Helitron DNA transposon, Helitron3Na_Mam subfamily",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Eutheria",
+  "display_classification": "RC/Helitron | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 486 BP; 134 A; 100 C; 134 G; 118 T; 0 other;"
+  },
+  "sequence": "tctatataaataaaattaagtttctgtctgtttgtctgttaccgcatcacgcgaaaatggctggatggattttcaccaaatttggagggtatgtttgggatggtctgacttaaaatataggctatgtggcatacacgaaattcactttggggggccctggggggcacctcaaagagataggcagtcatcctccagagcagctgaaactgaggtacaacgagaggcccgtgtgactgccgatcgggagagacatgccatacgtattaagacgccgtggacagagaaaacaaacagtggtttcaaatatgagccccaaatcgaaagtcacaagggcagacgctccgaattgcaggcgttgatttgcgatcgagctgcttctcacatgggcaactctatgtagcgtgctccagggtgagtagcagcagggatttatttatttaacgatggttaatgattctcccgagcaacgccggggaggccagctag",
+  "length_bp": 486,
+  "sequence_length_bp": 486,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Helitron3Na_Mam"
+  ]
+}

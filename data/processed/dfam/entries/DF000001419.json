@@ -1,0 +1,55 @@
+{
+  "accession": "DF000001419",
+  "name": "LINE2D_CE",
+  "description": "LINE2D_CE is a non-LTR retrotransposon",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "LINE/CR1 | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2651 BP; 701 A; 707 C; 350 G; 867 T; 26 other;"
+  },
+  "sequence": "gacctccctgctgctctgtctctgaaaacgcagctcttatagctcatcttgagagttatattcctcttagtcgcacgatacttgctggggatctcaatttcccacaaattaattggtcctccgccaattcatccttacatccatttgcttcatttctcagctccagcaacctttcccaaaaagttcactttcctaccagaatatctgcctcctccagcaacattcttgacttagtggcctgctcagctgatatctctatcctccatctctccccccagccagctcttctgaattccgatcacctttcggtggaattcaagattcctatcctctcccctatagactctccgtgtcttacttcccaagactccaatagttctcccttgtttgactataaaaaatgcaacttccccctcctcaacagagatcttgcgcgtgttaactgggacttcgaattctgctctcaaaaatccgtttcggataaatttgatcgcctactttcgattcttaacaacctccttactcaacactgtcccactaagtcaattagtgtctctaagtctccttcaccttatcacaacattcatcgaaaactgaagcgcctaaggaatagaatcagcaagcttattctttcncgtaaatgtacatttgaaattattaaaaccgcgcaatctaaataccgaaaactttatcggaactatagaaaatacgtgcgccgttttgaaaacgatataattgccaactcnaattttaccaaaataaggcgtcttattaatagtcgcctcaaatctcagaaccncgttccagccatcgtccttgacaataaatccattgtcaatgattcagagaaaagcgaaatttttgctaaaatcttcgcctctcactactctgacgattccagccagtctcaaaattctctacatagtccttcacccacatcccattcctctcttcagaatcaaacatccacatctcttcatgtagactcatttcagccttatatgattgaaagcgtattgtcgaagcttccccctaaatgtggtttttccccacactgcgccaattatctagtgctcaagaaatgtgctactcctcttgctttccctctatccattatatacaaacaatcatttgccgattctaaaatccctgactgctggaaaaaggcaataatcataccaatacccaaaaaaggtaatccttcttcccccagcaactaccgcccgataagcctcactgacccctttgttcgtgttatggagcgtattatatgctctcgaattcgcgctgattttggccatcttctgtccccccatcaacatgggttcctccactacagaagttgtccttcatcattagctcgatctgtttctctctaccattcccttctaaagaaggaaaaatctctcgatatcatctttttcgactttgctaaggcatttgataaagtttcacatagcattctcttaggaaaacttgctaagtttggtctcgactctttaacttgttcctggtncaaggaatttcttgaaaacagaactttctccgtcaaaatcaacaaatttgtttcgaaaaactcctatcccatctcttcaggtgtcccacaaggctctgtttcaggncctttacttttcattctttttattaacgatttattgatcgacctagctcccaccataaatatttcctgttttgctgatgacgttaaaatttttcacactgatcctactataatacaaaactccattgatattatagttagttggtccaagnnaaatgaacttcctttagctccaactaaatctgcgttgctagctcttggcactcgtaacaaaaaccaatcntattctgttgacggtgtccccattnccccntcntccactgttcgngacttaggtctnattactgattgcaagctnaagtttgancnccacatngctaaagttagctgcctagccatgctcaggncnaaacaaattctcaaggcattctcctccaatnccccnaagttctacgcccacctctntaagacttacgttgctcccattatgaattactgctccgaagtctatgcccctccacccaaactcattgctttcagcaaaacttgaacaacctctaaggcactttaccaagcgcgttcttcaaagatgcaatacaaaattctcntgttatgaaaatcgactcagtataatggagctccactccaccagacacgatagaattaaggctcaattgaaactactgtatagactgttaacaggtacctctcatttttctaaccttagacaatttgttactttctctagttcnaataggcacccaatgattttagttaggaaggacaaatgctccacgcatttctttgctcntatcatcccagtctggaacaatttattcaaaaatgttacggtttttatgtccccatatcagttctgtgaatttattgatctcaacatcccccggttataactacacttttacctccattctcgtctttctccccgtttcacctgttccctattatcttttttttttttttttntgtaacttttactcgagttgaactcttttagggttcgtctcgttttatttgtttatttctcttcttttagttaaataaactcaaattcaattcaattcaattctga",
+  "length_bp": 2651,
+  "sequence_length_bp": 2651,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "2..2469",
+      "start": 1,
+      "end": 2469,
+      "qualifiers": {
+        "product": "LINE2D_CE_pol",
+        "number": "1",
+        "note": "(fragment;) [Caenorhabditis elegans]",
+        "translation": "PPCCSVSENAALIAHLESYIPLSRTILAGDLNFPQINWSSANSSLHPFASFLSSSNLS"
+      },
+      "label": "LINE2D_CE_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "LINE2D_CE"
+  ]
+}

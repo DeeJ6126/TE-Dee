@@ -1,0 +1,47 @@
+{
+  "accession": "DF000000051",
+  "name": "AluSz",
+  "description": "AluSz subfamily",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "SINE/Alu | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 312 BP; 90 A; 81 C; 96 G; 45 T; 0 other;"
+  },
+  "sequence": "ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggccgaggcgggcggatcacttgaggtcaggagttcgagaccagcctggccaacatggtgaaaccccgtctctactaaaaatacaaaaattagccgggcgtggtggcgcgcgcctgtaatcccagctactcgggaggctgaggcaggagaatcgcttgaacccgggaggcggaggttgcagtgagccgagatcgcgccactgcactccagcctgggcgacagagcgagactccgtctcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "length_bp": 312,
+  "sequence_length_bp": 312,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "AluSz"
+  ]
+}

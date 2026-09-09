@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277626",
+  "name": "IniGeo-5.996",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Inia geoffrensis",
+  "display_classification": "DNA/TcMar-Tigger | Inia geoffrensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Iniidae",
+    "Inia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 822 BP; 240 A; 159 C; 174 G; 249 T; 0 other;"
+  },
+  "sequence": "cagtagtccccccttatccgtttcctttccggtttcagttacccgcggtcaaccgcggtccgaaaatattaaatggaaaattccagaaataaacaattcataagttttaaattgcgcgccgttctgagtagcgtgatgaaatctctcctgctctccccggacgtgaatcatccctttgtccagcgtatcccgcccgttagtcacttagtagccgtctcggttatcagatcgactgtcgggtatcgcagtgcttgtgttcaagtaacccttattttacttaataatggccccaaagcgcaagagtagtgatgctggcaattcggatatgccaaagagaagccgtaaagtgcttcctttaagtgaaaaggtgaaagttctcgacttaataaggaaagaaaaaaatcgtatgctgaggttgctaagatctacggtaagaacgaatcttctatccgtgaaattgtgaagaaggaaaaagaaattcgtgctagttttgctgtcgcacctcaaactgcaaaagttacggccacagtgcgtgataagtgcttagttaagatggaaaaggcattaaatttgtacaataagatattttgagagagaccacattcacataacttttattacagtatattgttataattgttctattttattattagttattgttgttaatctcttactgtgcctaatttataaattaaactttatcataggtatgtatgtataggaaaaaacatagtatatatagggttcggtactatccgcggtttcaggcatccactgggggtcttggaacgtatcccccgcgataaggggggactactg",
+  "length_bp": 822,
+  "sequence_length_bp": 822,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275835",
+  "name": "CraTho-1.266b",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Craseonycteris thonglongyai",
+  "display_classification": "DNA/TcMar-Tigger | Craseonycteris thonglongyai",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Craseonycteridae",
+    "Craseonycteris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 152 BP; 33 A; 41 C; 34 G; 44 T; 0 other;"
+  },
+  "sequence": "cagtcataccttggtactcgactgctttgaaactcgtcgaatttggtactcgacgcattttgacgcgaaaattttgtcccggtactcgtcgtttgtttggtactcgtcgcgcctcccggaaccaattaacgacgagtaccaaggtaccactg",
+  "length_bp": 152,
+  "sequence_length_bp": 152,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

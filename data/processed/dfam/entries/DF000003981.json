@@ -1,0 +1,53 @@
+{
+  "accession": "DF000003981",
+  "name": "ERV4_DR-LTR",
+  "description": "Long terminal repeat of an endogenous retrovirus from zebrafish",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ERV4_DR-LTR"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 331 BP; 88 A; 73 C; 64 G; 105 T; 1 other;"
+  },
+  "sequence": "tgaaagaaatatccatgtagtcactctccaaatattctgttttgtaactgtgtcttatcttattgtaagttgtccctgtactaggcgccttgacgttgcgccttgacattcttgagcactggataaaattgttctgcctaactgagctgaatatttgcacgtattcatagcccatgtaaccctgagtatgatgtataaaagctgggaataccccagncttctttagaagagagcaataaactgttggattcacatctctcagttgttgttgccttcctggagctccagcttactgaggaaacacacagacggtctgcaatttatcccaaca",
+  "length_bp": 331,
+  "sequence_length_bp": 331,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ERV4_DR-LTR"
+  ]
+}

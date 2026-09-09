@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277361",
+  "name": "HipAmp-1.401",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Hippopotamus amphibius",
+  "display_classification": "SINE/tRNA | Hippopotamus amphibius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Ancodonta",
+    "Hippopotamidae",
+    "Hippopotamus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 363 BP; 120 A; 109 C; 82 G; 52 T; 0 other;"
+  },
+  "sequence": "gggcttcctaggtggcgcagtggttaagaatccgcctgccaatgcaggggacacgggttcgatccctgctccaggaagatcccacatgccgcggagcaactaagcccgtgcgccacaactattgagcctgcgctttagagcccgtgagccacaactattgagcccatgtgctgcaactactgaagcccacgcgcctagagcccgtgctccgcaacaagagaagccacggcaatgaggagcccgcgcaccacaacgaagagtagcccccactcaccgcaactaaaagaaagcccgcgcacagcaaaaaagacccaacacagccaataaaataaataaataaataaatttattaaaaaaaaaaaa",
+  "length_bp": 363,
+  "sequence_length_bp": 363,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

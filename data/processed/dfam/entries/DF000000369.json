@@ -1,0 +1,57 @@
+{
+  "accession": "DF000000369",
+  "name": "Looper",
+  "description": "PiggyBac DNA transposon, Looper subfamily",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/PiggyBac | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1557 BP; 529 A; 241 C; 281 G; 506 T; 0 other;"
+  },
+  "sequence": "ccctcggtataccatcagggtccattggacccaattttagtttttgagtttcttttttgagcagttctaactatttgtaaggattgatatttcatgacttttattctttcttagaggtcttccaaagaacaaagagaaaatttacttattttaaatagaataaaactcattctatcttgcaattaccatatgggtccattggacccttttataaatctaagatacattatgggatcttagtgatcttatttttcctatatcttgaaacattttgctatttcatcatcctaggaattatttcatcattactcatcaattattcccaactatgctaaaaaagactaaaataataagaaaacggaagaatgatggaatcgcctagaaggatgatgcaatagtgaaataaatcatcactattgcatcatccttcagttttcttattgcgttgcccaaagtattgcatcatctttcaagaaggtataaaagaagtctggagacaccatctttgtagtctttttttagctttcattgaacacagttgagaattcagaatttttcattttccgcccataatggcaaagagaagaaaattgacagaggaagacgtttcacaattattagacgaatcagaagatgaatgcaaagagacagatagcagcactctagactctaatgatgatggtgaaattgatcgtataagcgaaatctcagactatgagtcttcagatgacgatatcctagatgaattttctcaaactcaagaatcgatgagtgaacaatatatttctaaggacaaaaaggaaatatggtattctcatccagttagtcattcaacaggaaggacttcatcacgcaatattttgcgacaagaacctggaccatcccgttttgctaaaaggacgtgtgacagtattctttcatcttttatgatgtttgtgcaccaaaatttacttgatacggttcgtaagtggacaaatgctgaaggcaggtgtgtatacaaaggtgactggaaggaaatagatgatgtagaaatgaaaaaattcattggattgatcattctaattggtgtttataaatctaaaaatgaaaatgttttgcaattatggagcaaagaagatggccgtcctctcttcaacaaaattatgagccgtcaaagttttcaaaagtattgcgttttgacgatgcaagtgcaagaagaaccagaagtaatgataagctagaacctattagagatgtatttgaaatctggaatcagtatttacaagatggatatgttccaggttcatgcatgacagttgatgagcagttagttgcattcaaaggacgttgcccatttcgggtatatataccttcaaaaccaggaaaatatggaataaaaatttgggtttgctatgtttaaattcttattaaaatttctaataaagttgtttttcactatccctttattcttacttctgtaaattattcgtaaaatgacttaaaaatataaaaaataaaaagggtccattggacccagatggtaaatggtgatgactatttttcctggtatactgaggg",
+  "length_bp": 1557,
+  "sequence_length_bp": 1557,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "572..1396",
+      "start": 571,
+      "end": 1396,
+      "qualifiers": {
+        "product": "Looper_tp",
+        "number": "1",
+        "note": "via tfasty with IFP2_tp [Eutheria]",
+        "translation": "MAKRRKLTEEDVSQLLDESEDECKETDSSTLDSNDDGEIDHISEISDYESSDDDILDE"
+      },
+      "label": "Looper_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "LOOPER"
+  ]
+}

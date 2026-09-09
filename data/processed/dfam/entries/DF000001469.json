@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001469",
+  "name": "RC35S",
+  "description": "C.elegans satellite-like repetitive DNA (a consensus).",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "Satellite/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 210 BP; 75 A; 19 C; 43 G; 70 T; 3 other;"
+  },
+  "sequence": "aaaattttggcgggaaattcaaattttctgtgaaaaanattttggcgggaaattcaaattttctgagaaaaaaattttggcgggaaattcaaattttctgtgaaaaatattttggcgggaaattcgaattttctgagaaaaanattttggcgggaaattcaaattttctgcgaaaaatattttggcgggaaattcaaattttctgngaaa",
+  "length_bp": 210,
+  "sequence_length_bp": 210,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RC35S"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000588",
+  "name": "LTR7C",
+  "description": "Long terminal repeat of an HERVH endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR7C"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 470 BP; 115 A; 156 C; 81 G; 116 T; 2 other;"
+  },
+  "sequence": "tgtcaggcctctgagccgaagctcagccattgtaacccctgtgacctgcacatatacgtccagatggcctgcaggagccaagaagtctggagcagccgaaaaaccacaaaagaagtgaaacagccagttcctgccttaactgattaaccaaccttacgacattccaccattgtgacttgtccctgccctaccccaactgatcaatcgaccttgtgacattcttcttctggacaatgagtcttatgatctccccaccatgcaccttgtgaccccctcctctgctgacaatagataaccacctttnactgtaactttccactgcctacccaagtcctataaagcngcccctcccctatctcccttcgctgactctcttttcggactcagcccacttgcacccaagtgaataaacagccttgttgctcacacaaagcctgtttggtggtctcttcacacggacgcgcttgaca",
+  "length_bp": 470,
+  "sequence_length_bp": 470,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000282537",
+  "name": "PipPip-6.1561_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PipPip-6.1561_LTR"
+  ],
+  "species": "Pipistrellus pipistrellus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Pipistrellus pipistrellus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Pipistrellus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 299 BP; 61 A; 85 C; 92 G; 61 T; 0 other;"
+  },
+  "sequence": "tgagagggcagggcggggcgaggatgagctcccgactccactgcggggcagggcggagttatcctccattttgtaactggaccctagccctcacccaaccaatcagggttagccgaggcagtgacatcaccaccgaccggagtaaaacccctggactgggcgaaattcgctctctcttccgccatgctgccggcgtgagtgggacagagcccatgctagcatggaaaaggctcttttgtttattgcatcggactcggctccctggtggtccttggggatcacgaagtctgggcgtaaca",
+  "length_bp": 299,
+  "sequence_length_bp": 299,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

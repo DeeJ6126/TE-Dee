@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275104",
+  "name": "BosMut-1.134",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Bos mutus",
+  "display_classification": "LINE/L1 | Bos mutus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bos"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 284 BP; 95 A; 39 C; 88 G; 62 T; 0 other;"
+  },
+  "sequence": "ggggaaggagagggtgggacgaattgagagagtagcatctgaaacatatacattaccatgtgtaaaatagatagctagtgggaagttgctgtataacacagggagctcagcccggtgctctgtgacgacctagaggggtgggatggggtggggggtgggagggaggctcaagagggaggggatatatgtatacttatggctgattcacgttgttgtacggcagaaaccaacacaacattgtaaagcaattatcctccaattaaaaataaatttaaaaaaaaaaa",
+  "length_bp": 284,
+  "sequence_length_bp": 284,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

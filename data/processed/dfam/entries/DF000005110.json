@@ -1,0 +1,51 @@
+{
+  "accession": "DF000005110",
+  "name": "Halyomorpha_halys-1_family-780",
+  "description": "TcMar-Tc1 DNA Transposon",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/TcMar-Tc1 | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 411 BP; 130 A; 79 C; 81 G; 121 T; 0 other;"
+  },
+  "sequence": "tgtgtacggtttttgcaatggtaatgctaatgctgcccgtcgtgaatatgccaggcgatttccgaatagaagattaccaaacaagtctatctttagctccacgtttcaacgtcttagagaaactggtacatttgctataataccacgtgctgatggtatttttgcccctttacgaaatgaagaaaggagtgcgaccatattacaatattttgatgataatccatctggcagtgtacgaagagctggagcagaattaaatattacgccaactacaggtatggagaactctcattgcagatggacttcacccatatcattatcaacgggtacaaaatttattaccgcaagattttcggcaaagaagacatttttcagattggtacttaaatcaagttgagcataatccacaat",
+  "length_bp": 411,
+  "sequence_length_bp": 411,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

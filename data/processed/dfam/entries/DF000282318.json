@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282318",
+  "name": "NomLeu-1.327a_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "NomLeu-1.327a_LTR"
+  ],
+  "species": "Nomascus leucogenys",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Nomascus leucogenys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Hominoidea",
+    "Hylobatidae",
+    "Nomascus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 299 BP; 60 A; 105 C; 66 G; 68 T; 0 other;"
+  },
+  "sequence": "tgttaggtaacatggggtaccttaaaatggcgccgtaccttaagatggggccggttccgggttcttctcccctccttgaccgggcactgtctgaacccgccaaaggagggccaatcagaaagaagcatctcccgccttcccttgggcccgcccctagcccaatccacgtaggcccaagggatataaaacccagcacaccagcagccctctctctcttctcttccttctccgctcgatacctccaataaagatctcttgaccgcgaccggtgtagtttggtctccgcccggcccctttca",
+  "length_bp": 299,
+  "sequence_length_bp": 299,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

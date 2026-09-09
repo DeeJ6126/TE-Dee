@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001219",
+  "name": "X24_DNA",
+  "description": "Conserved repeat present in placental mammals and marsupials.",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/ | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 173 BP; 55 A; 34 C; 32 G; 52 T; 0 other;"
+  },
+  "sequence": "agactgtgtctacataacgccaaaacatccggatgaaaagtgaaaaattcagtcaatcatctagatgtttccaaatatccagatgtttggcatcgtgtagacaaaacatccggatgattgactgaatttttcacttttcatccggatgttttggcatcatgtagacacagtct",
+  "length_bp": 173,
+  "sequence_length_bp": 173,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X24_DNA"
+  ]
+}

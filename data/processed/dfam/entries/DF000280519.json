@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280519",
+  "name": "RhiSin-5.775",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Rhinolophus sinicus",
+  "display_classification": "DNA/PiggyBac | Rhinolophus sinicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Rhinolophidae",
+    "Rhinolophinae",
+    "Rhinolophus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 298 BP; 98 A; 49 C; 43 G; 108 T; 0 other;"
+  },
+  "sequence": "ctctttcgctgcgttaattgatttcaagtttttttttcaaaatgtgtcagaaatccacaaaaaacaaaaagttgatattttgactattttatgcatttaataacaatttgagctgctttgtatataaatgacattatttttatgtataaaaatttcctattgttattcattcttgaaaaacacaaaaatatagaaaaatgtacatctgctttcctaaacttcctttctggaagtttccatccgcagtcagcggatggaaatattcattcggatatatccgaccgtcgcggcaaaaggg",
+  "length_bp": 298,
+  "sequence_length_bp": 298,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

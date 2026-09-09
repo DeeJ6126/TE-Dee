@@ -1,0 +1,51 @@
+{
+  "accession": "DF003445845",
+  "name": "Pman_SNRNA_5.818",
+  "description": "TE identified in the deer mouse genome",
+  "keywords": [
+    "snRNA/"
+  ],
+  "species": "Peromyscus maniculatus",
+  "display_classification": "snRNA/ | Peromyscus maniculatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Neotominae",
+    "Peromyscus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 179 BP; 41 A; 47 C; 48 G; 43 T; 0 other;"
+  },
+  "sequence": "gaacaactcatacttacctggcaggggagataccatgatcacgaaggtggttttcccagggcgaggcttatccattgcactccggatgtgctgacccctgcgatttccccaaatgcgggaaactcgactgcataatttgtggtagtgggggactgcgttcgcgctctcccctgataaaa",
+  "length_bp": 179,
+  "sequence_length_bp": 179,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000939",
+  "name": "MER83B",
+  "description": "MER83B Long Terminal Repeat for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER83B"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 378 BP; 88 A; 126 C; 81 G; 79 T; 4 other;"
+  },
+  "sequence": "tgtggagtcctgataagtaagcaacaacgaggaaggggccccaggtnggggagggccccaggtggggaagaacaatgaacaattgttctgagagacggctaatcacaaacaacccgcgggcacaacgacctcgttccgcacgtagccccagcannacgacctcgttccgcacgtagccccctccagcacgaccctataaaacttccctccagcccctgcctctttgcagacagccccttctctgctgtgctgcccgttgcaaccttgcaacgtattttcatactttctctaataaatctgcctttctttacctacaactgtcttggtaaattcctttaccgcccgcgacaccggccccagntagtcgcacccgcgaca",
+  "length_bp": 378,
+  "sequence_length_bp": 378,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER83B"
+  ]
+}

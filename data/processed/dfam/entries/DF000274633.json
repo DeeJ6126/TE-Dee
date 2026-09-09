@@ -1,0 +1,51 @@
+{
+  "accession": "DF000274633",
+  "name": "AcoCah-1.4",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Acomys cahirinus",
+  "display_classification": "SINE/Alu | Acomys cahirinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Deomyinae",
+    "Acomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 156 BP; 48 A; 41 C; 46 G; 21 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcacgcctttaatcccagcactcgggaggcagaggcaggcggatcgctgtgagttcgaggccagcctggtctacaaagtgagtccaggacagccaaggctacacagagaaaccctgtctcgaaaaaccaaaaaaaaaaaa",
+  "length_bp": 156,
+  "sequence_length_bp": 156,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

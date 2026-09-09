@@ -1,0 +1,49 @@
+{
+  "accession": "DF003576521",
+  "name": "ERV1-1_mMyo_ltr",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ERV1-1_mMyo_ltr"
+  ],
+  "species": "Myotis myotis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Myotis myotis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Myotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 416 BP; 83 A; 134 C; 101 G; 96 T; 2 other;"
+  },
+  "sequence": "tgaaagggcgaggactacgccctccaccttgccccagggtaagggctacgccctccaccttgccccagggtaagggctatgccctccatcttaacttggccatgtgctcagcaagcttcttcccggaagatagtcaagggaagtgcacgccatcgctatgaccacatcctgtgtaaccgactcgcgcctggccaatcggcagggcccacagtcctttctcctccccttaccccaancccctataaaacctctctccacacagagttctctctctctcggccactggagcttaccgttgcgtcggtgagtgtggcgggggagccaaacctaggtttgaaatgaatgactctttgcttttgcatcggactcgctggctccctgtgggttcttgggaatcntgaaatctgggcacaaca",
+  "length_bp": 416,
+  "sequence_length_bp": 416,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

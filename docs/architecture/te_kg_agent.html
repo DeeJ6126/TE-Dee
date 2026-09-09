@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TE-KG Agent 开发指南</title>
+    
+    <!-- 引入 Tailwind CSS 及 Typography 插件用于自动化排版 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    
+    <!-- 配置自定义颜色 -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#517CA8', // 用户指定的蓝色
+                        accent: '#E7A25F',  // 用户指定的橙色
+                    },
+                    typography: (theme) => ({
+                        DEFAULT: {
+                            css: {
+                                'h1, h2, h3, h4': {
+                                    color: theme('colors.primary'),
+                                    fontWeight: '700',
+                                },
+                                a: {
+                                    color: theme('colors.primary'),
+                                    '&:hover': {
+                                        color: theme('colors.accent'),
+                                    },
+                                },
+                                blockquote: {
+                                    borderLeftColor: theme('colors.accent'),
+                                    backgroundColor: '#f8fafc',
+                                    padding: '1rem',
+                                    fontStyle: 'normal',
+                                    color: '#475569'
+                                },
+                                code: {
+                                    color: theme('colors.primary'),
+                                    backgroundColor: '#f1f5f9',
+                                    padding: '0.2rem 0.4rem',
+                                    borderRadius: '0.25rem',
+                                    fontWeight: '400',
+                                },
+                                'code::before': { content: '""' },
+                                'code::after': { content: '""' },
+                            },
+                        },
+                    }),
+                }
+            }
+        }
+    </script>
+
+    <!-- 引入 Highlight.js 用于代码高亮 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <style>
+        /* 自定义滚动条和细节样式 */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #517CA8; }
+        
+        .toc-link { transition: all 0.2s; border-left: 2px solid transparent; }
+        .toc-link:hover { color: #517CA8; border-left-color: #E7A25F; }
+        .toc-link.active { color: #517CA8; font-weight: 600; border-left-color: #517CA8; background-color: #f8fafc; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased selection:bg-primary selection:text-white">
+
+    <div class="max-w-8xl mx-auto flex flex-col md:flex-row relative">
+        
+        <!-- 侧边栏目录 (Table of Contents) -->
+        <aside class="hidden md:block w-64 shrink-0 h-screen sticky top-0 overflow-y-auto border-r border-gray-200 bg-white p-6 shadow-sm">
+            <div class="text-lg font-bold text-primary mb-4 pb-2 border-b border-gray-100">目录导航</div>
+            <nav id="toc" class="text-sm flex flex-col space-y-1 text-gray-600"></nav>
+        </aside>
+
+        <!-- 主内容区 -->
+        <main class="flex-1 px-4 py-8 md:px-12 md:py-12 lg:px-24 bg-white min-h-screen shadow-sm">
+            <article class="prose prose-slate prose-lg max-w-4xl prose-img:rounded-xl">
+                
+                <h1>TE-KG Agent 开发指南：让 Agent 真正区别于 Deep Think</h1>
+
+                <blockquote>
+                    <p>本文档基于 2026-05-18 的一次结构化阅读整理。阅读方式不是逐字翻译论文，而是按五轮主题读取本地引入资料的摘要、方法、实验、结论、局限，并补充 KG-Agent 相关高质量论文。目标是把理论变成 TE-KG 可执行的产品与工程路线。</p>
+                </blockquote>
+
+                <h2 id="0-conclusion">0. 一句话结论</h2>
+                <p>Deep Think 应该成为 TE-KG 的即时问答层：快速、轻量、站内导航友好、单轮可完成。</p>
+                <p>Agent 不应该继续与 Deep Think 竞争普通问答。Agent 应该成为 TE-KG 的异步研究工作流：可计划、可恢复、可审计、可导出，能够把知识图谱拓扑、站内结构化数据、文献证据和用户目标组织成研究级产物。</p>
+                <p>本文提出一个适合论文表达的核心方向：</p>
+                <p><strong>Graph-grounded Research Agent for TE-KG</strong>：以知识图谱为任务骨架，以插件为可审计行动，以 evidence package 为中间产物，以可恢复工作流和评估体系为工程保证，最终输出可复查的 TE 研究报告、证据表、排名结果和机制假说。</p>
+
+                <hr>
+
+                <h2 id="1-reading-notes">1. 阅读路线与读后札记</h2>
+
+                <h3 id="1-1-agent-paradigm">1.1 第一轮：Agent 范式</h3>
+                <p><strong>阅读资料：</strong></p>
+                <ul>
+                    <li>ReAct: Synergizing Reasoning and Acting in Language Models</li>
+                    <li>Plan-and-Solve Prompting</li>
+                    <li>Reflexion</li>
+                    <li>Toolformer</li>
+                    <li>Anthropic Building Effective Agents</li>
+                    <li>LangGraph 文档索引</li>
+                    <li>OpenAI deep research system card 索引</li>
+                </ul>
+                <p><strong>我的理解：</strong></p>
+                <ul>
+                    <li>ReAct 的价值不在于暴露一堆“思考过程”，而在于把内部推理和外部行动拆开，让人能检查“为什么调用工具、工具返回了什么、下一步如何受影响”。</li>
+                    <li>Plan-and-Solve 说明复杂任务不能直接进入插件执行。Agent 必须先形成可检查计划，尤其是在多实体、多证据、多页面、多文献任务中。</li>
+                    <li>Reflexion 的重点不是让模型自言自语，而是把失败变成下一次执行可用的经验：哪个实体没解析、哪个插件超时、哪个证据不足、Writing 为什么失败。</li>
+                    <li>Toolformer 说明工具调用要有“何时不用工具”的判断。TE-KG 现在已经有 Deep Think 覆盖大量短问答，Agent 更不能无差别拉长插件链。</li>
+                    <li>Anthropic 的工程视角更接近产品落地：prompt chaining、routing、parallelization、orchestrator-workers、evaluator-optimizer 都可以映射到 TE-KG 的 Agent 六阶段。</li>
+                </ul>
+                <p><strong>迁移到 TE-KG：</strong></p>
+                <ul>
+                    <li>Agent 的六阶段不应只是 UI 动画。它们应该对应可持久化状态、可恢复 checkpoint、可审计事件。</li>
+                    <li>Agent 不应把所有中间工具结果一次性塞给 Writing。它需要先把证据整理成结构化 evidence package，再让 Writing 写报告。</li>
+                    <li>Agent 的“反思”不应默认调用 LLM 生成旁白，而应变成失败归因和重试策略。</li>
+                </ul>
+
+                <h3 id="1-2-rag-kgqa">1.2 第二轮：RAG、KG-QA 与 Text2Cypher</h3>
+                <p><strong>阅读资料：</strong></p>
+                <ul>
+                    <li>Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks</li>
+                    <li>From Local to Global: A Graph RAG Approach</li>
+                    <li>Auto-Cypher</li>
+                    <li>Neo4j Text2Cypher 资料索引</li>
+                    <li>Microsoft GraphRAG 资料索引</li>
+                </ul>
+                <p><strong>我的理解：</strong></p>
+                <ul>
+                    <li>RAG 的本质是把参数记忆和非参数记忆分开。对 TE-KG 来说，非参数记忆不只是文本，还有 Neo4j 图谱、CSV/统计数据、序列、表达矩阵、站内页面锚点。</li>
+                    <li>GraphRAG 的重要启发是 local/global 两类问题要分开。用户问“L1HS 与哪些疾病有关”是局部检索；问“知识图谱里哪个疾病与 TE 关联度最大”或“LINE-1 如何参与癌症机制”就带有全局 sensemaking。</li>
+                    <li>Text2Cypher 的关键不是让 LLM 直接写 Cypher，而是 schema grounding、query taxonomy、执行验证和错误回退。生成 Cypher 没有执行验证，会把幻觉伪装成图谱分析。</li>
+                    <li>Auto-Cypher 的启发是可以构造 TE-KG 自己的 Text2Cypher benchmark：自然语言问题、schema 片段、期望 Cypher、执行结果、难度标签。</li>
+                </ul>
+                <p><strong>迁移到 TE-KG：</strong></p>
+                <ul>
+                    <li>GraphPlugin 应承担稳定的已知关系检索。</li>
+                    <li>GraphAnalyticsPlugin 应承担拓扑排名、中心性、最短路径、社区、疾病-TE 关联强度等图分析任务。</li>
+                    <li>CypherExplorerPlugin 应只在用户问题无法由固定插件覆盖，且有明确 schema 约束时使用。</li>
+                    <li>Agent 的研究能力应围绕“图谱证据路径 + 文献证据 + 结构化数据”融合，而不是只让 LLM 总结插件文本。</li>
+                </ul>
+
+                <h3 id="1-3-workflow-engineering">1.3 第三轮：工作流工程</h3>
+                <p><strong>阅读资料：</strong></p>
+                <ul>
+                    <li>Temporal durable workflow 思路</li>
+                    <li>AWS idempotency best practices 索引</li>
+                    <li>Azure Durable Functions fan-out/fan-in 索引</li>
+                    <li>Harel Statecharts 索引</li>
+                    <li>MDN Server-Sent Events 索引</li>
+                </ul>
+                <p><strong>我的理解：</strong></p>
+                <ul>
+                    <li>长任务 Agent 最怕的是“看起来在运行，实际上某一步已不可恢复”。因此 Agent run 应该是 durable state machine，而不是长请求或松散脚本。</li>
+                    <li>workflow 和 activity 的边界非常适合 TE-KG：workflow 管计划、状态、重试、checkpoint；activity 管具体插件、LLM 调用、文件写入。</li>
+                    <li>幂等不是锦上添花。只要有 worker、watchdog、重试，就必须保证插件重复执行不会污染状态。</li>
+                    <li>SSE/轮询只是事件展示层，不应决定业务状态。业务状态必须由服务端 run state 持久化。</li>
+                </ul>
+                <p><strong>迁移到 TE-KG：</strong></p>
+                <ul>
+                    <li><code>Understanding -> Planning -> Collecting -> Executing -> Integrating -> Writing</code> 应有明确状态转移表。</li>
+                    <li>每次插件调用都应有 <code>run_id</code>、<code>step_id</code>、<code>plugin_call_id</code>、<code>input_hash</code>、<code>status</code>、<code>duration_ms</code>、<code>error_type</code>。</li>
+                    <li>Writing 失败不应导致整轮研究证据丢失。应支持从 Integrating 之后重新写作。</li>
+                    <li>批量 TE/疾病分析应采用 fan-out/fan-in：每个实体对单独执行，最终聚合成表和报告。</li>
+                </ul>
+
+                <h3 id="1-4-plugin-contracts">1.4 第四轮：插件契约与可观测性</h3>
+                <p><strong>阅读资料：</strong></p>
+                <ul>
+                    <li>Model Context Protocol specification</li>
+                    <li>MCP tool result schema</li>
+                    <li>JSON Schema</li>
+                    <li>OpenAPI</li>
+                    <li>OpenTelemetry</li>
+                </ul>
+                <p><strong>我的理解：</strong></p>
+                <ul>
+                    <li>插件不是 PHP 函数列表，而是 Agent 的行动空间。行动空间如果没有契约，Agent 就无法稳定计划、评估和恢复。</li>
+                    <li>MCP 的启发是工具需要清楚描述 input schema、output schema、metadata 和错误。TE-KG 不一定要直接引入 MCP，但应该吸收契约思想。</li>
+                    <li>JSON Schema 可以让插件输入输出从“约定俗成数组”变成可验证结构。</li>
+                    <li>OpenTelemetry 的核心价值是把一次用户问题、一次 Agent run、一次插件调用、一次 LLM 调用串成 trace。现在很多问题靠猜，未来应该靠 trace 定位。</li>
+                </ul>
+                <p><strong>迁移到 TE-KG：</strong></p>
+                <p>每个插件统一返回 envelope：</p>
+<pre><code class="language-json">{
+  "plugin": "Graph Plugin",
+  "status": "ok|partial|empty|failed",
+  "intent": "relationship|mechanism|navigation|sequence|expression|genome|analytics",
+  "input": {},
+  "summary": "",
+  "evidence_items": [],
+  "citations": [],
+  "routes": [],
+  "metrics": {
+    "duration_ms": 0,
+    "result_count": 0,
+    "confidence": 0.0
+  },
+  "errors": []
+}</code></pre>
+                <ul>
+                    <li>插件错误统一分层：<code>empty_result</code>、<code>invalid_entity</code>、<code>invalid_query</code>、<code>infra_unavailable</code>、<code>timeout</code>、<code>llm_failure</code>、<code>schema_violation</code>。</li>
+                    <li>Agent 不直接消费插件原始输出，而消费统一 envelope 与 evidence package。</li>
+                </ul>
+
+                <h3 id="1-5-evaluation">1.5 第五轮：评估体系</h3>
+                <p><strong>阅读资料：</strong></p>
+                <ul>
+                    <li>RAGAS</li>
+                    <li>AgentBench</li>
+                    <li>GAIA</li>
+                    <li>Berkeley Function Calling Leaderboard 索引</li>
+                </ul>
+                <p><strong>我的理解：</strong></p>
+                <ul>
+                    <li>RAGAS 的价值是把“答案看起来不错”拆成 faithfulness、answer relevance、context precision、context recall。TE-KG 的回答也应如此拆分。</li>
+                    <li>AgentBench 的失败类型很适合 TE-KG：context limit exceeded、invalid format、invalid action、task limit exceeded。当前 TE-KG 的 Writing timeout 和插件链过重，实际就属于任务边界和上下文管理问题。</li>
+                    <li>GAIA 的启发是测试题要真实、需要多步工具、答案唯一、自动可评估。TE-KG 需要自己的 GAIA-style golden set，而不是只靠人工问几句“L1HS在哪”。</li>
+                    <li>BFCL 的思想可用于评估插件选择和参数正确性：是否选对插件、是否解析对实体、是否构造对 URL 或 Cypher。</li>
+                </ul>
+                <p><strong>迁移到 TE-KG：</strong></p>
+                <ul>
+                    <li>评估不应只看最终答案，应覆盖插件调用准确率、实体链接准确率、证据 grounding、引用 correctness、Writing 失败归因和延迟。</li>
+                    <li>需要将“DT 能做的短任务”和“Agent 才应该做的长任务”分开建 benchmark，否则会把 Agent 训练成慢版 DT。</li>
+                </ul>
+
+                <h3 id="1-6-kg-agent">1.6 额外补读：KG-Agent 与 KG/Text 紧耦合</h3>
+                <p><strong>补充资料：</strong></p>
+                <ul>
+                    <li>Think-on-Graph 2.0</li>
+                    <li>KGARevion</li>
+                </ul>
+                <p><strong>我的理解：</strong></p>
+                <ul>
+                    <li>Think-on-Graph 2.0 的关键是 KG 和文本不是松散拼接，而是互相驱动：KG 引导文本检索，文本上下文反过来修剪下一轮图探索。</li>
+                    <li>KGARevion 的关键是 LLM 先生成候选 triplets，再用 KG 审核、修订、最后回答。它把 KG 作为 verifier，而不是只作为 retriever。</li>
+                    <li>这两点非常适合 TE-KG。TE-KG 有结构化图谱、站内页面、统计数据和文献，这意味着 Agent 可以做“KG-guided evidence walk”，而不是普通 RAG。</li>
+                </ul>
+                <p><strong>迁移到 TE-KG 的论文亮点：</strong></p>
+                <ul>
+                    <li><strong>TE-KG Evidence Walk</strong>：从用户问题抽取 TE、疾病、组织、基因组位置等 topic entities，在 KG 上探索候选关系路径，再用站内数据和文献验证路径。</li>
+                    <li><strong>Graph-as-Verifier</strong>：LLM 或文献提出的机制性 claim 必须被映射到图谱关系、文献引用或站内数据证据；无法映射的 claim 标成 hypothesis，而不是 factual conclusion。</li>
+                    <li><strong>Dual-source Sufficiency Gate</strong>：sufficiency 不只问 LLM“够不够”，而是同时检查图谱覆盖率、文献覆盖率、实体消歧置信度和引用质量。</li>
+                </ul>
+
+                <hr>
+
+                <h2 id="2-product-boundaries">2. Deep Think 与 Agent 的产品边界</h2>
+
+                <h3 id="2-1-deep-think">2.1 Deep Think 应该做什么</h3>
+                <p>Deep Think 是默认问答入口，适合：</p>
+                <ul>
+                    <li>单实体事实查询：序列、位置、表达、分类、页面入口、下载入口。</li>
+                    <li>局部关系查询：某个 TE 相关疾病、某个疾病相关 TE、某个节点附近关系。</li>
+                    <li>站内导航：某个属性应该去哪个页面或面板看。</li>
+                    <li>简短解释：无需多轮证据审计的概念解释。</li>
+                    <li>页面侧边问答：无需创建长任务，不打断用户浏览。</li>
+                </ul>
+                <p><strong>Deep Think 的设计原则：</strong></p>
+                <ul>
+                    <li>快，宁可给候选入口，也不要创建复杂任务。</li>
+                    <li>尽量 deterministic，避免为简单问题调大模型长链路。</li>
+                    <li>输出可以驱动当前页面，例如 preview 图谱高亮，但不持久化研究状态。</li>
+                </ul>
+
+                <h3 id="2-2-agent">2.2 Agent 应该做什么</h3>
+                <p>Agent 是研究任务入口，适合：</p>
+                <ul>
+                    <li>机制研究：如 “LINE-1 如何导致癌症？”</li>
+                    <li>证据比较：如 “哪些论文支持 LINE-1 与 Alzheimer 的关系？证据强度如何？”</li>
+                    <li>图分析：如 “知识图谱里与 TE 关联度最高的疾病是什么？为什么？”</li>
+                    <li>批量分析：如 “比较 20 个 TE family 与癌症、神经疾病、免疫疾病的关系。”</li>
+                    <li>报告生成：如 “为 L1HS 写一份包含序列、位置、表达、疾病、文献证据的研究报告。”</li>
+                    <li>审计任务：如 “列出这个结论依赖哪些图谱边、哪些文献句子、哪些站内数据。”</li>
+                </ul>
+                <p><strong>Agent 的设计原则：</strong></p>
+                <ul>
+                    <li>不追求秒回，而追求可恢复、可审计、可导出。</li>
+                    <li>每一步都产生可检查 artifact。</li>
+                    <li>最终答案不是聊天回复，而是研究产物。</li>
+                </ul>
+
+                <h3 id="2-3-hard-rule">2.3 一条硬规则</h3>
+                <p>如果一个问题可以在 1-2 个插件内完成，并且不需要证据比较、批量任务或报告导出，默认交给 <strong>Deep Think</strong>。</p>
+                <p>如果一个问题需要 3 个以上证据源、多个实体、长文献阅读、图拓扑分析、失败恢复或可导出结果，才进入 <strong>Agent</strong>。</p>
+
+                <hr>
+
+                <h2 id="3-architecture">3. 推荐 Agent 总体架构</h2>
+
+                <h3 id="3-1-layered-arch">3.1 分层架构</h3>
+<pre><code class="language-text">User Task
+  -> Task Classifier
+  -> Plan Builder
+  -> Human-visible Plan
+  -> Durable Workflow
+  -> Plugin Activities
+  -> Evidence Package Builder
+  -> Sufficiency and Verification Gates
+  -> Report Writer
+  -> Evaluator
+  -> Exportable Artifacts</code></pre>
+
+                <h3 id="3-2-six-stages">3.2 六阶段重新定义</h3>
+                <p>当前六阶段可以保留，但每阶段要有工程含义。</p>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-300">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">Stage</th>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">当前风险</th>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">推荐定义</th>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">产物</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 bg-white">
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Understanding</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">只做 UI 状态</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">解析任务类型、实体、输出要求、可用数据源</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500"><code>task_profile.json</code></td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Planning</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">计划可能太虚</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">生成插件链、证据需求、停止条件、失败策略</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500"><code>execution_plan.json</code></td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Collecting</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">容易变成插件堆叠</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">按证据需求选择插件，不盲目扩链</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500"><code>plugin_queue.json</code></td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Executing</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">工具输出不统一</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">每个插件作为 activity，统一 envelope</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500"><code>plugin_call_*.json</code></td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Integrating</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">容易塞大 payload</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">抽取 claims、evidence、citations、graph paths</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500"><code>evidence_package.json</code></td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Writing</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">超时和幻觉高发</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">从 evidence package 写报告，并做引用约束</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500"><code>report.md</code></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 id="3-3-state-machine">3.3 Agent run 的状态机</h3>
+                <div class="my-6 p-4 bg-white border border-gray-200 rounded-xl shadow-sm overflow-x-auto">
+                    <div class="mermaid">
+stateDiagram-v2
+  [*] --> pending
+  pending --> running: worker_started
+  pending --> failed: startup_timeout
+  running --> understanding
+  understanding --> planning
+  planning --> waiting_for_user: plan_requires_approval
+  waiting_for_user --> collecting: user_approved
+  waiting_for_user --> cancelled: user_cancelled
+  planning --> collecting: auto_plan_ok
+  collecting --> executing
+  executing --> integrating: evidence_sufficient
+  executing --> collecting: need_more_evidence
+  executing --> failed: unrecoverable_plugin_error
+  executing --> retrying: recoverable_error
+  retrying --> executing: retry_allowed
+  retrying --> integrating: degraded_result_allowed
+  integrating --> writing
+  writing --> evaluating
+  writing --> failed: writing_timeout_without_checkpoint
+  writing --> writing: retry_from_evidence_package
+  evaluating --> completed: quality_passed
+  evaluating --> revision: quality_failed
+  revision --> writing
+  completed --> [*]
+  failed --> [*]
+  cancelled --> [*]
+                    </div>
+                </div>
+
+                <hr>
+
+                <h2 id="4-innovations">4. TE-KG Agent 的创新点设计</h2>
+
+                <h3 id="4-1-evidence-walk">4.1 创新点一：TE-KG Evidence Walk</h3>
+                <p><strong>核心思想：</strong><br>把用户问题转化为 KG 上的有约束探索。Agent 不只是检索边，而是沿着 TE、disease、gene、tissue、genomic region、publication 等节点进行 evidence walk。</p>
+                <p><strong>执行方式：</strong></p>
+                <ol>
+                    <li>抽取 topic entities，例如 <code>L1HS</code>、<code>LINE-1</code>、<code>cancer</code>、<code>Alzheimer's disease</code>。</li>
+                    <li>在 KG 中获取一跳关系，识别关系类型和节点类型。</li>
+                    <li>对机制类问题扩展到多跳路径，例如 <code>TE -> gene regulation -> pathway -> disease</code>。</li>
+                    <li>用站内结构化数据验证路径节点是否存在，例如序列、表达、基因组位置。</li>
+                    <li>用 LiteraturePlugin 和 LiteratureReadingPlugin 查找文献支持。</li>
+                    <li>生成 path-level evidence：每条结论对应图路径、文献、站内数据、置信度。</li>
+                </ol>
+                <p><strong>适合论文表达的贡献：</strong></p>
+                <ul>
+                    <li>将 TE 研究问题转化为 graph-guided evidence walk。</li>
+                    <li>用 KG 拓扑限制检索范围，减少 RAG 盲检索。</li>
+                    <li>用 path-level evidence 支持可解释机制推断。</li>
+                </ul>
+
+                <h3 id="4-2-graph-verifier">4.2 创新点二：Graph-as-Verifier</h3>
+                <p><strong>核心思想：</strong><br>KG 不只回答问题，也审核答案。LLM 或文献抽取出的 claim 必须接受图谱验证、站内数据验证或 citation 验证。</p>
+                <p><strong>Claim 示例：</strong></p>
+<pre><code class="language-json">{
+  "claim": "LINE-1 activity is associated with cancer through genome instability and gene regulation.",
+  "entities": ["LINE-1", "cancer"],
+  "claim_type": "mechanism",
+  "required_support": ["graph_path", "literature_evidence"],
+  "verification_status": "supported|partially_supported|unsupported|hypothesis"
+}</code></pre>
+                <p><strong>验证规则：</strong></p>
+                <ul>
+                    <li>图谱有直接边和文献支持：<code>supported</code></li>
+                    <li>图谱有路径但文献不足：<code>partially_supported</code></li>
+                    <li>文献有说法但图谱无对应关系：<code>literature_supported_graph_missing</code></li>
+                    <li>LLM 推断但无证据：<code>hypothesis</code></li>
+                    <li>与图谱或数据冲突：<code>conflicting</code></li>
+                </ul>
+                <p><strong>论文价值：</strong></p>
+                <ul>
+                    <li>把 KG 从 retrieval source 提升为 verification layer。</li>
+                    <li>可以量化 claim faithfulness，而不是只评价整段答案。</li>
+                </ul>
+
+                <h3 id="4-3-sufficiency-gate">4.3 创新点三：Dual-source Sufficiency Gate</h3>
+                <p>当前 sufficiency 如果只靠 LLM 判断，会出现超时或过早停止。建议改成规则 + LLM 双层门。</p>
+                <p><strong>规则层指标：</strong></p>
+                <ul>
+                    <li><code>entity_confidence</code>: 实体解析置信度。</li>
+                    <li><code>graph_coverage</code>: 是否找到足够图谱边或路径。</li>
+                    <li><code>literature_coverage</code>: 是否有足够文献或摘要。</li>
+                    <li><code>citation_coverage</code>: 关键 claim 是否有 citation。</li>
+                    <li><code>data_coverage</code>: 序列、位置、表达、下载等站内数据是否查到。</li>
+                    <li><code>uncertainty_count</code>: 未支持 claim 数量。</li>
+                </ul>
+                <p><strong>LLM 层只负责判断：</strong></p>
+                <ul>
+                    <li>现有证据是否足够回答用户原问题。</li>
+                    <li>哪些部分只能作为 hypothesis。</li>
+                    <li>是否需要继续查某类证据。</li>
+                </ul>
+                <p><strong>推荐输出：</strong></p>
+<pre><code class="language-json">{
+  "is_sufficient": false,
+  "missing_evidence": ["literature_fulltext", "graph_path"],
+  "next_plugins": ["Literature Reading Plugin", "Graph Analytics Plugin"],
+  "stop_reason": null
+}</code></pre>
+
+                <h3 id="4-4-research-artifacts">4.4 创新点四：TE-specific Research Artifacts</h3>
+                <p>Agent 的最终产物不应只有段落答案，而应生成适合 TE 研究的 artifact。</p>
+                <p><strong>推荐 artifact：</strong></p>
+                <ul>
+                    <li><code>TE dossier</code>: 某个 TE 的序列、分类、表达、位置、疾病、文献摘要。</li>
+                    <li><code>Disease association matrix</code>: TE x disease 关系矩阵，含边数、文献数、置信度。</li>
+                    <li><code>Mechanism map</code>: 机制路径图，含 graph path 与文献句子。</li>
+                    <li><code>Evidence audit table</code>: claim、supporting edge、supporting citation、confidence、limitations。</li>
+                    <li><code>Cypher appendix</code>: 用过的 Cypher、结果摘要、执行状态。</li>
+                    <li><code>Reproducibility bundle</code>: run config、插件版本、输入、输出 hash。</li>
+                </ul>
+
+                <h3 id="4-5-research-compiler">4.5 创新点五：Agent as a Research Compiler</h3>
+                <p>可以把 Agent 定义为研究编译器：</p>
+                <ul>
+                    <li>用户自然语言是 source program。</li>
+                    <li>Planning 是编译期分析。</li>
+                    <li>Plugins 是可执行指令。</li>
+                    <li>Evidence package 是 intermediate representation。</li>
+                    <li>Writing 是 code generation/report generation。</li>
+                    <li>Evaluator 是 type checker/verifier。</li>
+                </ul>
+                <p>这套思路适合论文表达，因为它强调可验证中间表示，而不是把 Agent 描述成黑盒聊天机器人。</p>
+
+                <hr>
+
+                <h2 id="5-plugin-design">5. 插件系统设计指南</h2>
+
+                <h3 id="5-1-plugin-levels">5.1 插件分级</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-300">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">级别</th>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">插件类型</th>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">示例</th>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">是否适合 DT</th>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">是否适合 Agent</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 bg-white">
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-900">L0</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">deterministic lookup</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">SiteNavigator, Sequence, Genome</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是，但不应扩大链路</td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-900">L1</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">local evidence</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">Graph, Expression, Tree</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是</td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-900">L2</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">graph analytics</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">GraphAnalytics, CypherExplorer</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">少量</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是</td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-900">L3</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">external evidence</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">Literature, LiteratureReading</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">视问题</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是</td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-900">L4</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">meta/evaluator</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">CitationResolver, EvidenceVerifier</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">少量</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 id="5-2-plugin-contract">5.2 插件统一契约</h3>
+                <p>每个插件至少声明：</p>
+                <ul>
+                    <li><code>name</code></li>
+                    <li><code>version</code></li>
+                    <li><code>capabilities</code></li>
+                    <li><code>input_schema</code></li>
+                    <li><code>output_schema</code></li>
+                    <li><code>estimated_cost</code></li>
+                    <li><code>timeout_policy</code></li>
+                    <li><code>idempotency_key_fields</code></li>
+                    <li><code>failure_modes</code></li>
+                </ul>
+
+                <h3 id="5-3-plugin-envelope">5.3 插件输出 envelope</h3>
+<pre><code class="language-json">{
+  "plugin": "Site Navigator Plugin",
+  "version": "1.0.0",
+  "status": "ok",
+  "intent": "navigation",
+  "matched_entity": "L1HS",
+  "matched_capability": "genome_annotation_distribution",
+  "answer_markdown": "[Genome Annotation Distribution](http://localhost/TE-/search.php?q=L1HS&type=TE#search-karyotype-panel)",
+  "candidate_routes": [],
+  "evidence_items": [],
+  "citations": [],
+  "metrics": {
+    "duration_ms": 12,
+    "confidence": 0.95,
+    "result_count": 1
+  },
+  "errors": []
+}</code></pre>
+
+                <h3 id="5-4-routing-strategy">5.4 插件路由策略</h3>
+                <p><strong>Deep Think 路由：</strong></p>
+                <ul>
+                    <li>先判断是否站内导航。</li>
+                    <li>再判断是否 deterministic lookup。</li>
+                    <li>再判断是否局部图谱关系。</li>
+                    <li>最后才进入轻量文献或机制路径。</li>
+                </ul>
+                <p><strong>Agent 路由：</strong></p>
+                <ul>
+                    <li>先生成任务计划。</li>
+                    <li>按 evidence requirement 选择插件。</li>
+                    <li>每执行一个插件后重新评估 sufficiency。</li>
+                    <li>不因单个插件失败立即失败，除非该插件是任务必要前提。</li>
+                </ul>
+
+                <h3 id="5-5-anti-patterns">5.5 插件不要做的事</h3>
+                <ul>
+                    <li>不要在插件里写最终长答案。</li>
+                    <li>不要返回不可解析的大段自然语言作为唯一输出。</li>
+                    <li>不要吞掉错误，只返回空数组。</li>
+                    <li>不要把 LLM 推断伪装成数据库事实。</li>
+                    <li>不要让插件之间隐式依赖全局变量。</li>
+                </ul>
+
+                <hr>
+
+                <h2 id="6-evidence-package">6. Evidence Package 设计</h2>
+
+                <h3 id="6-1-why-evidence">6.1 为什么需要 evidence package</h3>
+                <p>当前 Agent 的 Writing 容易成为瓶颈，本质原因通常不是模型单点问题，而是最终写作输入过大、结构不清、证据未压缩。</p>
+                <p>Evidence package 是 Agent 的中间表示。它应该比原始插件输出更小，但比最终答案更可审计。</p>
+
+                <h3 id="6-2-package-structure">6.2 推荐结构</h3>
+<pre><code class="language-json">{
+  "question": "LINE-1是如何导致癌症的？",
+  "task_type": "mechanism_review",
+  "entities": [
+    {"name": "LINE-1", "type": "TE", "confidence": 0.98},
+    {"name": "cancer", "type": "Disease", "confidence": 0.92}
+  ],
+  "claims": [
+    {
+      "id": "claim_001",
+      "text": "LINE-1 may contribute to cancer through insertional mutagenesis and genome instability.",
+      "claim_type": "mechanism",
+      "support_level": "supported",
+      "graph_paths": ["path_001"],
+      "citations": ["pmid_001"],
+      "site_data": [],
+      "limitations": []
+    }
+  ],
+  "graph_paths": [
+    {
+      "id": "path_001",
+      "nodes": ["LINE-1", "genome instability", "cancer"],
+      "edges": ["associated_with", "contributes_to"],
+      "source_plugin": "Graph Plugin"
+    }
+  ],
+  "citations": [
+    {
+      "id": "pmid_001",
+      "title": "",
+      "url": "",
+      "supporting_sentence": "",
+      "source_plugin": "Literature Reading Plugin"
+    }
+  ],
+  "negative_or_missing_evidence": [],
+  "quality": {
+    "graph_coverage": 0.75,
+    "literature_coverage": 0.80,
+    "citation_coverage": 0.70,
+    "overall_confidence": 0.76
+  }
+}</code></pre>
+
+                <h3 id="6-3-writing-rules">6.3 Writing 输入规则</h3>
+                <p><strong>Writing 只能接收：</strong></p>
+                <ul>
+                    <li>用户问题。</li>
+                    <li>输出格式要求。</li>
+                    <li>evidence package。</li>
+                    <li>关键引用和必要站内链接。</li>
+                </ul>
+                <p><strong>Writing 不应接收：</strong></p>
+                <ul>
+                    <li>所有插件原始 payload。</li>
+                    <li>所有候选文献全文。</li>
+                    <li>全量图谱邻域。</li>
+                    <li>未压缩的日志事件。</li>
+                </ul>
+
+                <hr>
+
+                <h2 id="7-workflow-reliability">7. 工作流与可靠性设计</h2>
+
+                <h3 id="7-1-checkpoints">7.1 持久化 checkpoint</h3>
+                <p>每个 Agent run 应保存：</p>
+                <ul>
+                    <li><code>payload.json</code>: 用户输入和页面上下文。</li>
+                    <li><code>task_profile.json</code>: intent、entities、task type。</li>
+                    <li><code>execution_plan.json</code>: 插件链、证据需求、停止条件。</li>
+                    <li><code>plugin_calls/*.json</code>: 每次插件输入输出 envelope。</li>
+                    <li><code>evidence_package.json</code>: 压缩后的证据包。</li>
+                    <li><code>report.md</code>: 最终报告。</li>
+                    <li><code>evaluation.json</code>: 自动评估结果。</li>
+                </ul>
+
+                <h3 id="7-2-retry-policy">7.2 重试策略</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-300">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">失败类型</th>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">是否重试</th>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">策略</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 bg-white">
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-mono text-gray-600">empty_result</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">否或换插件</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">尝试实体 alias 或候选页面</td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-mono text-gray-600">invalid_entity</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">否</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">回到 Understanding</td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-mono text-gray-600">infra_unavailable</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">短重试，失败后降级</td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-mono text-gray-600">timeout</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">缩小输入或换 summarization</td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-mono text-gray-600">llm_failure</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">使用 deterministic fallback</td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-mono text-gray-600">schema_violation</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">修复格式，最多一次</td>
+                            </tr>
+                            <tr>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm font-mono text-gray-600">writing_timeout</td>
+                                <td class="whitespace-nowrap py-4 px-4 text-sm text-gray-500">是</td>
+                                <td class="py-4 px-4 text-sm text-gray-500">从 evidence package 重新写</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 id="7-3-idempotency">7.3 幂等设计</h3>
+                <p>插件调用的 idempotency key：</p>
+<pre><code class="language-text">run_id + plugin_name + plugin_version + normalized_input_hash</code></pre>
+                <p>如果 worker 重启，同一个 key 的已完成结果直接复用，不重复调用外部服务。</p>
+
+                <h3 id="7-4-watchdog">7.4 Watchdog</h3>
+                <p>Agent run 必须有 watchdog：</p>
+                <ul>
+                    <li><code>pending</code> 超时：标记 startup failed。</li>
+                    <li><code>running</code> 超时：标记 failed，但保留已完成 artifacts。</li>
+                    <li><code>writing</code> 超时：保留 evidence package，允许只重试 Writing。</li>
+                    <li><code>plugin</code> 超时：记录插件失败类型，并判断是否可降级。</li>
+                </ul>
+
+                <hr>
+
+                <h2 id="8-evaluation">8. 评估体系</h2>
+
+                <h3 id="8-1-golden-sets">8.1 Golden set 分层</h3>
+                <p><strong>DT golden set：</strong></p>
+                <ul>
+                    <li>单实体序列查询。</li>
+                    <li>单实体位置查询。</li>
+                    <li>单实体表达查询。</li>
+                    <li>站内页面入口查询。</li>
+                    <li>局部关系查询。</li>
+                </ul>
+                <p><strong>Agent golden set：</strong></p>
+                <ul>
+                    <li>多跳机制问题。</li>
+                    <li>文献证据比较。</li>
+                    <li>图谱排名/中心性问题。</li>
+                    <li>批量 TE/疾病关系矩阵。</li>
+                    <li>报告生成。</li>
+                    <li>失败恢复和引用审计。</li>
+                </ul>
+
+                <h3 id="8-2-metrics">8.2 指标</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-300">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">指标</th>
+                                <th scope="col" class="py-3 px-4 text-left text-sm font-semibold text-gray-900">问题</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 bg-white">
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Intent accuracy</td><td class="py-4 px-4 text-sm text-gray-500">是否识别对任务类型</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Entity linking accuracy</td><td class="py-4 px-4 text-sm text-gray-500">TE/disease/tissue 是否解析正确</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Tool-call accuracy</td><td class="py-4 px-4 text-sm text-gray-500">是否调用正确插件</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Tool argument accuracy</td><td class="py-4 px-4 text-sm text-gray-500">插件参数是否正确</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Graph path correctness</td><td class="py-4 px-4 text-sm text-gray-500">图谱路径是否真实存在</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Cypher execution accuracy</td><td class="py-4 px-4 text-sm text-gray-500">生成 Cypher 是否可执行且结果正确</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Faithfulness</td><td class="py-4 px-4 text-sm text-gray-500">结论是否由证据支持</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Citation correctness</td><td class="py-4 px-4 text-sm text-gray-500">引用是否支持对应 claim</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Context precision</td><td class="py-4 px-4 text-sm text-gray-500">检索内容是否聚焦</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Context recall</td><td class="py-4 px-4 text-sm text-gray-500">是否漏掉关键证据</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Latency by stage</td><td class="py-4 px-4 text-sm text-gray-500">哪个阶段耗时</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">Failure attribution</td><td class="py-4 px-4 text-sm text-gray-500">失败原因是否可定位</td></tr>
+                            <tr><td class="whitespace-nowrap py-4 px-4 text-sm font-medium text-gray-900">User artifact success</td><td class="py-4 px-4 text-sm text-gray-500">是否产出用户需要的表/报告/链接</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 id="8-3-gaia-tests">8.3 TE-KG GAIA-style 测试题</h3>
+                <p>好的 Agent 测试题应满足：</p>
+                <ul>
+                    <li>真实用户可能会问。</li>
+                    <li>需要多个步骤或多个插件。</li>
+                    <li>最终答案可验证。</li>
+                    <li>允许记录中间轨迹。</li>
+                    <li>不依赖模糊主观评分。</li>
+                </ul>
+                <p><strong>示例：</strong></p>
+                <ol>
+                    <li>“在 TE-KG 中找出与疾病关联边最多的疾病，并列出前 5 个支持关系最多的 TE。”</li>
+                    <li>“比较 L1HS、AluY、HERVK 在 normal tissue 表达和 cancer cell line 表达中的差异，并输出表格。”</li>
+                    <li>“为 LINE-1 与癌症关系生成 evidence audit table，要求每条机制 claim 至少有图谱路径或文献支持。”</li>
+                    <li>“找出 L1HS 的 Genome Annotation Distribution 页面入口、序列入口和 Genome Browser 入口，并解释它们分别看什么。”</li>
+                    <li>“如果 Literature Plugin 返回空结果，Agent 是否能降级为图谱证据报告并明确说明缺失文献？”</li>
+                </ol>
+
+                <hr>
+
+                <h2 id="9-roadmap">9. 近期工程路线</h2>
+
+                <h3 id="9-1-phase-1">9.1 第一阶段：巩固边界</h3>
+                <p><strong>目标：</strong></p>
+                <ul>
+                    <li>DT 保持全站默认即时问答。</li>
+                    <li>Agent 只处理研究任务。</li>
+                </ul>
+                <p><strong>任务：</strong></p>
+                <ul>
+                    <li>给问题路由增加 <code>task_complexity</code>。</li>
+                    <li>简单问题自动建议使用 DT。</li>
+                    <li>Agent 页面增加研究任务模板：机制综述、证据审计、批量比较、图谱排名、报告生成。</li>
+                </ul>
+
+                <h3 id="9-2-phase-2">9.2 第二阶段：统一插件契约</h3>
+                <p><strong>目标：</strong></p>
+                <ul>
+                    <li>所有插件输出统一 envelope。</li>
+                    <li>Agent 不再解析各插件的任意数组结构。</li>
+                </ul>
+                <p><strong>任务：</strong></p>
+                <ul>
+                    <li>定义 <code>PluginResultEnvelope</code>。</li>
+                    <li>为每个插件补 <code>status</code>、<code>metrics</code>、<code>evidence_items</code>、<code>errors</code>。</li>
+                    <li>用 JSON Schema 做测试。</li>
+                </ul>
+
+                <h3 id="9-3-phase-3">9.3 第三阶段：Evidence Package</h3>
+                <p><strong>目标：</strong></p>
+                <ul>
+                    <li>解决 Writing payload 过重。</li>
+                    <li>提高引用和 claim 可审计性。</li>
+                </ul>
+                <p><strong>任务：</strong></p>
+                <ul>
+                    <li>在 Integrating 阶段生成 <code>evidence_package.json</code>。</li>
+                    <li>Writing 只读 evidence package。</li>
+                    <li>增加 claim-level citation mapping。</li>
+                </ul>
+
+                <h3 id="9-4-phase-4">9.4 第四阶段：TE-KG Evidence Walk</h3>
+                <p><strong>目标：</strong></p>
+                <ul>
+                    <li>实现 TE-KG 的论文级特色。</li>
+                </ul>
+                <p><strong>任务：</strong></p>
+                <ul>
+                    <li>从问题抽取 topic entities。</li>
+                    <li>GraphPlugin 返回候选路径。</li>
+                    <li>文献插件验证路径相关 claim。</li>
+                    <li>站内插件验证序列、表达、位置等数据入口。</li>
+                    <li>生成 evidence walk table。</li>
+                </ul>
+
+                <h3 id="9-5-phase-5">9.5 第五阶段：评估与报告</h3>
+                <p><strong>目标：</strong></p>
+                <ul>
+                    <li>Agent 有可发表、可复现实验体系。</li>
+                </ul>
+                <p><strong>任务：</strong></p>
+                <ul>
+                    <li>建立 DT golden set 和 Agent golden set。</li>
+                    <li>记录每题 plugin trace。</li>
+                    <li>自动计算 tool-call accuracy、faithfulness、citation correctness、latency。</li>
+                    <li>支持导出 Markdown/LaTeX/CSV 报告。</li>
+                </ul>
+
+                <hr>
+
+                <h2 id="10-anti-patterns">10. 不建议做的方向</h2>
+                <h3 id="10-1-chat-ui">10.1 不建议把 Agent 做成更多按钮的聊天 UI</h3>
+                <p>现在已经精简到 DT 全站侧边问答，继续增加 “brief/shallow/deep/research” 按钮会重新制造选择成本。</p>
+                
+                <h3 id="10-2-cot">10.2 不建议让 Agent 自动暴露完整 chain-of-thought</h3>
+                <p>可以展示 plan、tool trace、evidence table、decision reason，但不需要展示模型完整隐式思考。真正有价值的是可审计证据，不是长篇思考旁白。</p>
+                
+                <h3 id="10-3-cypher">10.3 不建议依赖 LLM 直接生成 Cypher 并相信结果</h3>
+                <p>必须有 schema、执行验证、结果校验、失败回退。</p>
+                
+                <h3 id="10-4-payload">10.4 不建议把所有资料塞给 Writing</h3>
+                <p>Writing 应该是从 evidence package 写报告，而不是从 raw plugin dumps 里找答案。</p>
+                
+                <h3 id="10-5-short-qa">10.5 不建议让 Agent 处理所有短问答</h3>
+                <p>这会让 Agent 慢、贵、难维护，并稀释它与 DT 的差异。</p>
+
+                <hr>
+
+                <h2 id="11-paper-contributions">11. 可作为论文贡献点的表述</h2>
+
+                <h3 id="11-1-method">11.1 方法贡献</h3>
+                <p>We propose a graph-grounded research agent for TE knowledge graph exploration. The agent performs TE-KG Evidence Walks that iteratively combine graph topology, site-structured data, and literature evidence to construct auditable evidence packages before answer generation.</p>
+
+                <h3 id="11-2-system">11.2 系统贡献</h3>
+                <p>The system separates immediate Deep Think QA from durable Agent workflows. Deep Think handles low-latency lookup and navigation, while Agent manages long-running, recoverable, evidence-audited research tasks.</p>
+
+                <h3 id="11-3-engineering">11.3 工程贡献</h3>
+                <p>The Agent uses plugin result envelopes, durable workflow checkpoints, idempotent plugin activities, and stage-level observability to make failures attributable and runs reproducible.</p>
+
+                <h3 id="11-4-eval">11.4 评估贡献</h3>
+                <p>We introduce a TE-KG-specific evaluation suite covering tool-call accuracy, entity linking, graph path correctness, citation faithfulness, answer grounding, and workflow recovery.</p>
+
+                <hr>
+
+                <h2 id="12-final-positioning">12. 推荐最终定位</h2>
+
+                <p><strong>Deep Think：</strong></p>
+                <ul>
+                    <li>全站即时问答层。</li>
+                    <li>用于页面导航、快速查数据、局部关系、轻量解释。</li>
+                    <li>交互形式是侧边助手或 agent.php 的轻量模式。</li>
+                </ul>
+
+                <p><strong>Agent：</strong></p>
+                <ul>
+                    <li>研究工作流层。</li>
+                    <li>用于机制研究、证据审计、图谱分析、批量比较、报告生成。</li>
+                    <li>交互形式应更接近任务面板、研究计划、证据表和导出中心。</li>
+                </ul>
+
+                <p><strong>一句话：</strong></p>
+                <p class="text-xl font-bold text-primary bg-blue-50 p-4 rounded-lg border-l-4 border-accent">Deep Think answers questions. Agent produces inspectable research artifacts.</p>
+
+                <hr>
+
+                <h2 id="13-references">13. 参考资料</h2>
+                <p>本轮阅读和迁移判断主要参考：</p>
+                <ul class="break-all">
+                    <li>ReAct: <a href="https://arxiv.org/abs/2210.03629" target="_blank">https://arxiv.org/abs/2210.03629</a></li>
+                    <li>Plan-and-Solve Prompting: <a href="https://arxiv.org/abs/2305.04091" target="_blank">https://arxiv.org/abs/2305.04091</a></li>
+                    <li>Reflexion: <a href="https://arxiv.org/abs/2303.11366" target="_blank">https://arxiv.org/abs/2303.11366</a></li>
+                    <li>Toolformer: <a href="https://arxiv.org/abs/2302.04761" target="_blank">https://arxiv.org/abs/2302.04761</a></li>
+                    <li>RAG: <a href="https://arxiv.org/abs/2005.11401" target="_blank">https://arxiv.org/abs/2005.11401</a></li>
+                    <li>GraphRAG: <a href="https://arxiv.org/abs/2404.16130" target="_blank">https://arxiv.org/abs/2404.16130</a></li>
+                    <li>Auto-Cypher: <a href="https://arxiv.org/abs/2412.12612" target="_blank">https://arxiv.org/abs/2412.12612</a></li>
+                    <li>RAGAS: <a href="https://arxiv.org/abs/2309.15217" target="_blank">https://arxiv.org/abs/2309.15217</a></li>
+                    <li>AgentBench: <a href="https://arxiv.org/abs/2308.03688" target="_blank">https://arxiv.org/abs/2308.03688</a></li>
+                    <li>GAIA: <a href="https://arxiv.org/abs/2311.12983" target="_blank">https://arxiv.org/abs/2311.12983</a></li>
+                    <li>Think-on-Graph 2.0: <a href="https://arxiv.org/abs/2407.10805" target="_blank">https://arxiv.org/abs/2407.10805</a></li>
+                    <li>KGARevion: <a href="https://arxiv.org/abs/2410.04660" target="_blank">https://arxiv.org/abs/2410.04660</a></li>
+                    <li>Anthropic Building Effective Agents: <a href="https://www.anthropic.com/engineering/building-effective-agents" target="_blank">https://www.anthropic.com/engineering/building-effective-agents</a></li>
+                    <li>LangGraph documentation: <a href="https://docs.langchain.com/oss/python/langgraph/overview" target="_blank">https://docs.langchain.com/oss/python/langgraph/overview</a></li>
+                    <li>Temporal documentation: <a href="https://docs.temporal.io/" target="_blank">https://docs.temporal.io/</a></li>
+                    <li>Model Context Protocol specification: <a href="https://modelcontextprotocol.io/specification/2025-11-25" target="_blank">https://modelcontextprotocol.io/specification/2025-11-25</a></li>
+                    <li>JSON Schema: <a href="https://json-schema.org/specification" target="_blank">https://json-schema.org/specification</a></li>
+                    <li>OpenTelemetry: <a href="https://opentelemetry.io/docs/" target="_blank">https://opentelemetry.io/docs/</a></li>
+                    <li>RAGAS documentation: <a href="https://docs.ragas.io/" target="_blank">https://docs.ragas.io/</a></li>
+                    <li>Berkeley Function Calling Leaderboard: <a href="https://sky.cs.berkeley.edu/project/berkeley-function-calling-leaderboard/" target="_blank">https://sky.cs.berkeley.edu/project/berkeley-function-calling-leaderboard/</a></li>
+                </ul>
+
+                <div class="h-24"></div> <!-- 底部留白 -->
+            </article>
+        </main>
+    </div>
+
+    <!-- 引入 Mermaid 渲染图表 -->
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+    </script>
+
+    <!-- 动态生成目录与滚动监听脚本 -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 初始化代码高亮
+            hljs.highlightAll();
+
+            const tocContainer = document.getElementById('toc');
+            const headers = document.querySelectorAll('article h2, article h3');
+            
+            if(headers.length === 0) return;
+
+            // 动态生成目录项
+            headers.forEach(header => {
+                if (!header.id) return; // 跳过没有ID的标题
+                
+                const link = document.createElement('a');
+                link.href = `#${header.id}`;
+                link.textContent = header.textContent;
+                link.className = 'toc-link block py-1.5 px-3 rounded-r-md no-underline';
+                
+                if (header.tagName.toLowerCase() === 'h3') {
+                    link.classList.add('ml-4', 'text-sm');
+                } else {
+                    link.classList.add('text-base', 'mt-2', 'font-medium', 'text-gray-800');
+                }
+                
+                tocContainer.appendChild(link);
+            });
+
+            // 滚动监听以高亮当前目录项
+            const tocLinks = document.querySelectorAll('.toc-link');
+            
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px 0px -60% 0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // 移除所有激活状态
+                        tocLinks.forEach(link => link.classList.remove('active'));
+                        // 添加当前激活状态
+                        const activeLink = document.querySelector(`.toc-link[href="#${entry.target.id}"]`);
+                        if (activeLink) {
+                            activeLink.classList.add('active');
+                            // 自动滚动侧边栏以保持可见
+                            activeLink.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                        }
+                    }
+                });
+            }, observerOptions);
+
+            headers.forEach(header => observer.observe(header));
+        });
+    </script>
+</body>
+</html>

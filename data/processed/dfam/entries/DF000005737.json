@@ -1,0 +1,51 @@
+{
+  "accession": "DF000005737",
+  "name": "Halyomorpha_halys-5_family-2805",
+  "description": "hAT-Charlie DNA Transposon",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/hAT-Charlie | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 395 BP; 77 A; 47 C; 59 G; 77 T; 135 other;"
+  },
+  "sequence": "ttaattcaaagtagctacagataaagacagatttagaatttactttgttgccttaacattaatgggaagactgagtttgcatgtctctaaccaaggaatcataattaggtntatatcctgacaaagataataataatgagtccacgcgttgcgtccggtgacaagtgtaacacgtaagtcaaaatatattgtgctgtgtgggcagtgtcaggctgtcagaattctaggnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnggcctcgcgatcgacttgttggccacccctgntt",
+  "length_bp": 395,
+  "sequence_length_bp": 395,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276793",
+  "name": "EnhLut-5.1348",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EnhLut-5.1348"
+  ],
+  "species": "Enhydra lutris",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Enhydra lutris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Mustelidae",
+    "Lutrinae",
+    "Enhydra"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 650 BP; 172 A; 187 C; 128 G; 163 T; 0 other;"
+  },
+  "sequence": "tgtggaggccgagaaaattaaggccatcccacctcaagtttagctgatgtgggaaacagaggcagaagaaaatcattaaaattcctcacctactgacaagcccttgaaacagacagagtggctctcccctggggacttaactgccctcaccttgaggttttgctaaggacaatcctagcctgaccgaccccctaccccgacaggtccgaccaggatcctgtaagtctactttaacaattcctttaggaaactttatctctaaacctccaagatagtgtcgagaatcattcccaagcatatggcccactgatatacatctaaagggtctcacgagaagatttttattattggtaatgaataacctttcccccagacaacagctagcccctcaaggtcctggagacctcgcttccaaaattccttagagacttacatcatccataaccccctttgtcctcacccaccgccgagtccacccctactctgcctttaaaaactctgactgtaatctggttcggggtccaagtccctactccgctgtgtcgggtatacttgggcccaagcttaagcttgtcaaataaaccctcgtgtgattgcatcggtgcttggctccttggtggtctctcggacgcgaaaactcgggcataaca",
+  "length_bp": 650,
+  "sequence_length_bp": 650,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

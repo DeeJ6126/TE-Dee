@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001121",
+  "name": "X8_LINE",
+  "description": "CR1 (Chicken Repeat 1) retrotransposon, X8_LINE subfamily",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Amniota",
+  "display_classification": "LINE/CR1 | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 296 BP; 140 A; 27 C; 60 G; 69 T; 0 other;"
+  },
+  "sequence": "gcaaaaaggaataatgagttaatgctagccaaagggattaaagggaataagaagggcttttacaaatatcagggaaaagaaatactagagagaaaatagggccactaataaatgaggaaagaaatgaaattaatgatgactctaaaatggctgagatactgaactcattttttaaatctgtctttaacaagaaaaataaagaaaagaaatttggacaattaggaagtaatgaagaccttgtaaaaatagctattgataaaaagcaggtaaagaatacttggaaaatttgaacaaat",
+  "length_bp": 296,
+  "sequence_length_bp": 296,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X8_LINE"
+  ]
+}

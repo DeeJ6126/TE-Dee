@@ -1,0 +1,36 @@
+{
+  "accession": "DF003449000",
+  "name": "",
+  "description": "Repetitive sequence family identified in Heligmosomoides polygyrus",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Heligmosomoides polygyrus",
+  "display_classification": "LINE/CR1 | Heligmosomoides polygyrus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Strongylida",
+    "Trichostrongyloidea",
+    "Heligmosomatidae",
+    "Heligmosomoides"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 486 BP; 152 A; 107 C; 94 G; 128 T; 5 other;"
+  },
+  "sequence": "aagaccaaagtgctccatttagggtccacaaatcctatgtataactataaaatcgatggcattacgctcgaggatgtgaataaagttaaagacctaggctttcttttcgatcgtaggctttcctttgacgagcactgttgtcaggtggctgcaacggctgaacgcaggctctatctcctttttaaaactttacgatcaaaagatccgcatattcttcaagagcctataaaacctacgtnagacccattctcgaatgcggcaccnctgtttttagccctcacgagaagnctatgattgaaagacttgaaagggtncaaaacagtttcactaggaagctgttcattagaacgcatggtctcgactacaatgacatcccttcgagctcagaaaggaacaaaatacttaacatcgacacccttgaaatccagaaggaaaggaaacgacctgttattgctctataanatcttatatggaagaatcggactt",
+  "length_bp": 486,
+  "sequence_length_bp": 486,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

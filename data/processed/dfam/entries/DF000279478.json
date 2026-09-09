@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279478",
+  "name": "OctDeg-1.86",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Octodon degus",
+  "display_classification": "LINE/L1 | Octodon degus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Octodontidae",
+    "Octodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1092 BP; 399 A; 180 C; 200 G; 309 T; 4 other;"
+  },
+  "sequence": "gacaaaggacttctatcctagaacatataaagaatttnaaaaaatcaggcccccaaaattcaaagacccaatccaaaaatgggcatctgagatgaatatacacttcncagatgaagaaatacaaatggcaaataaatatatgaaaaaaatgttcaacatcattggtcattcgagagatgcaaattaaaacaacgctgagattccatctcaccccagaaagaatggctatcatcaagaagtcaaccaataacaaatgctggagaggctgtggggaaaaaggaacccttctccactgttggtgggagtgcagactggtacaaccactatggaaatcagtgtggagattcctcaaaaagctaggattggaggtcccattcaagccagctattcccctcctgggtatttttccagaagaactgaaaacatcataccacagcgatatatgtgcacccatgtttatagcagcacaatttgtcatagctaaatcttggaaacaacccaaatgcccatcaactgaggaatggataaaaaagatgtggtatttttacacaatggagtattactcagctataaaaaaagataaactcgaggcttttataggtaaatggatgcaactagagaccgtactcgtaagtgaaataaatcagacccgcatgtgcaaacatcgtattgtctcgctagtgtgagaacctgaaagagtaaataaaatctgaaaggtacaatagatactgtgaaagggaaagaatctgttcaangggaaggaaaaactgggatgaggaaaaggacaaaagaaagaagggaaaaagatatatttatgtatatatgcaggatagcttggataattgtactgctgatttctgctggtctattgaaaggagcagttaatgcttaaatttttttttttttttctttttaatttcttataactttttttttaaccaattttgcatgcttatatctggtaatctaaacaactaatttgaagataacattatgcaatacaacaaccattgtcgaattcctattactttgtttagtgaaattctgtatcgtttctaatnttttttactattttgtattcttttaaaaaaa",
+  "length_bp": 1092,
+  "sequence_length_bp": 1092,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,41 @@
+{
+  "accession": "DF000000996",
+  "name": "MamSINE1",
+  "description": "MamSINE1 (Mammalian Short INterspersed Element 1), tRNA-derived",
+  "keywords": [
+    "SINE/tRNA-RTE"
+  ],
+  "species": "Mammalia",
+  "display_classification": "SINE/tRNA-RTE | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 290 BP; 67 A; 78 C; 81 G; 62 T; 2 other;"
+  },
+  "sequence": "gtctgtggctggttagctcagttggttagagcacggtgctaatgaggccaaggtcacgggttcgatccccgtgtgggccagttagctttgctctgttccatggccacagactgcacccctaaccccagccagccgtctcgcaaatgcgtgccgttggtcacaagggggaccggcagagagtgtggatggntcagcgcaaatccatcnccactactggaaaaacaactcaaagcacatgtcctactgatagtgggtcagtagcgtcatcttcgtatacgaaggacagcaca",
+  "length_bp": 290,
+  "sequence_length_bp": 290,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MamSINE1"
+  ]
+}

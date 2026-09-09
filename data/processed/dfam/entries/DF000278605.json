@@ -1,0 +1,50 @@
+{
+  "accession": "DF000278605",
+  "name": "MonMon-1.183",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Monodon monoceros",
+  "display_classification": "DNA/TcMar-Tigger | Monodon monoceros",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Monodontidae",
+    "Monodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 980 BP; 265 A; 213 C; 224 G; 278 T; 0 other;"
+  },
+  "sequence": "cagtaagtcccctacatacgaaccttcaagttgcgaactttcaaagatgcgaacgtgcgttcgcatgtccaatcacgtaagttagttcacgtgtctggcgtacattgtcacgtgcgtgcatcctctacaagtggttgtgcttttgtgtactttactgtacagtactgtatagagtacagtagtacagtatctttatttcaagcccaggctgcaagaggacgacttcattgaactccttgctgtgcaacacgaggagcttactaatgaagacctgatggaattggaggcccagagaaaggacgaagagagacaagaggaagaagaagtaactgaagaaccgaagagattcacgacgcaggaaatggcaaggggattttctttatttgaggaggcactgttagtttttgaggcacaggacccgaacgtagaacggtacacgaaggttgcagcagccgttcagaatgcaatccagtgctaccgtgtcatctatgacgagaaaaaaagagctactacccagacatcactggatcgttttttcaagagggtagatagaattgaatccagcaaggaaccagaacctgtgccatcaacgtcaggcgtgagtgaaattgcagcttgccctccgtctcctattgctgacgatccttcagctctaccatctcccacctcctctccctcctccagtcagtaactcttcttgcctgttcactcgatgccagcccctgtatgccagctgttgtactgtactactgtacttttcaaggtactgtactgtaagattaaaaatgttttctttattttttgtgtttgttttttatgtattatttgtgtgaaaagtattataaacctattacagtacagtactatatagccgattgtgttagttgggtacctaggctaactttgttggacttacgaacaaattggacttacgaacgcgctctcggaacggaactcgttcgtatgtaggggacttactg",
+  "length_bp": 980,
+  "sequence_length_bp": 980,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

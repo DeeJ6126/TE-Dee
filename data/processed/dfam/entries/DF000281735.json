@@ -1,0 +1,47 @@
+{
+  "accession": "DF000281735",
+  "name": "ChrAsi-1.322_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ChrAsi-1.322_int"
+  ],
+  "species": "Chrysochloris asiatica",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Chrysochloris asiatica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Chrysochloridae",
+    "Chrysochlorinae",
+    "Chrysochloris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1106 BP; 305 A; 195 C; 321 G; 282 T; 3 other;"
+  },
+  "sequence": "tgtggtaccgagagagtggggttctagagaaacaaaatcacaaggatgagttttctaaattggttctcaagtctgactaattttaaaggcactgatatagggtggaggcatgtctgacctccacttcataggaatcggccttgggctgattttgagtttggtcctctttccctcttgtggagtcagaggaagtcagacatggtccccacttggtttaagcagttggcgccgtgagcaggattcattgcaatggctccagacctatgaaattatgaggttttgtaagagaaagaacgaaggggcatgggataaaatatttcagcggaggggagagcngcagcttctggagttgcctggagccgatgacacgctggttaaaaaggatggctgatacggggcctgggcctactggaatccaccctgccagaggcccaaggccatatgcatatgaatggggttagtccaagggagaagaaaagattgaacttgagtgttttaaaaggtttatgtgtttgactgccttatggatattggtttctcctgcctattattgtaaaatagacatacatgtgtgatagaaatgaatattgggaattatgattacagagagcttgtaagcccgccttcagcctatacttgattggatttgctaaaaggggagttagaatttgcccggaaaaaataggcttcttgntttaagcctttgtagagtatggggccttaggtggaatcctgagccccacccagaaccttcagagttggnacatttgcatttgaaaagacatgcagaccaacccagaactgctgggagaacaggagattcatgagcagagaaaaaaagcggacagtttggcgttttgagtttcggaggcatcaaggcaaggaaagtcggcccatcagagaaaacccccttctaggactgaaagttaaagggaaccggtgagccgtatgctcgctggtgaccacctgggtctacgtgtgagtggaattgggggaaatgcagcaatgaagacacgggctgagtttggacatgttctattggcacccattgaccttgagatgagagaagagggaaggctggctggtctgaagtttagggagttgtg",
+  "length_bp": 1106,
+  "sequence_length_bp": 1106,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000885",
+  "name": "MER61C",
+  "description": "MER61C Long Terminal Repeat for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER61C"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 428 BP; 82 A; 115 C; 125 G; 105 T; 1 other;"
+  },
+  "sequence": "tgatagatgcaggaggcagataagggagggtccccggagaatctccgacccgccccacaagtgtttacatcagatgcttttgtgcagatgagggaacctgcccagggccttgtctgggcatgcccgcaacggactgggggcccgcctgcgcactgggggaatggggtggagccaccgggaattcgcgccttatgcagggggaggagcctggcctcttcagctcntgtgtggtggcctggtattcaatctgtgaggtgggagcctgttggcaggaccccctctctctttgctgagagctttttcttttccttttcgcccaataaattccgctctcctcacccttcaatgtgtccgcgtgcctaatttttcctggtcgtgagacaagaacccggattttagctgaactaaggagcaaaaatcctgcatca",
+  "length_bp": 428,
+  "sequence_length_bp": 428,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER61C"
+  ]
+}

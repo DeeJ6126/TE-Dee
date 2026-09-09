@@ -1,0 +1,36 @@
+{
+  "accession": "DF003447300",
+  "name": "",
+  "description": "Repetitive sequence family identified in Heligmosomoides bakeri",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Heligmosomoides bakeri",
+  "display_classification": "DNA/TcMar-Mariner | Heligmosomoides bakeri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Strongylida",
+    "Trichostrongyloidea",
+    "Heligmosomatidae",
+    "Heligmosomoides"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 823 BP; 224 A; 185 C; 188 G; 226 T; 0 other;"
+  },
+  "sequence": "agcaaaagtatttattaacaaataactaatgacaatctttaattaaaataagatccctcggaacgcagaagtgcttcccatatatcaggtagctggtctatcccacggccatagaattattgtgcttttaaggccaagaatctttggaggtgcattttgacccggtccacattattaaatcgtcttccaaccaagaagtactgcaccgaactaaaaatgtggtagtcactcggcgcaaggtctgggctgtaaggtggatgagtttgacgctcccagtcaaggtcttctattttttgaggcgtccggttcgctacgttccctccgtttggtggtgtcaagaaggtattaacttctgggagctcgtcaagaacggttccagcattaatgctgtaatctactcttctcaacctggccgcgcgcaggctgaactccgctggaatcggttcagacagattttcaggagcggaattatctatcagcaagataacgccagatcacacgtcacgaatcgggagcttcaaaaaatcgaagaccttagctgggagcgtctaactcacccaccttacagcacaggctgtgcgccaaatgactagcacctttatagcacgctgcagcacttcttggttggaggacgatttattaatgtggaccatgtcaaaatgcacctccaaggattcttggcttcaaaagcacaagaattctacagctgtgggatgggccaggtagctgataaatgggaagcagtcccgcgttccaacagatcttactttggttgaaaactgttatttgttatttgtttatgaacacttttgttgaaggcgct",
+  "length_bp": 823,
+  "sequence_length_bp": 823,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

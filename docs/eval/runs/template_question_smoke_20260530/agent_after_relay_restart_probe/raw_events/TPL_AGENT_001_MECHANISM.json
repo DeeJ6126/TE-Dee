@@ -1,0 +1,125 @@
+{
+  "case": {
+    "case_id": "TPL_AGENT_001_MECHANISM",
+    "question": "How does LINE-1 contribute to cancer?",
+    "expected_best_mode": "agent",
+    "template_label": "Mechanism review"
+  },
+  "dt": {
+    "ok": false,
+    "skipped": true,
+    "answer": "",
+    "errors": []
+  },
+  "agent": {
+    "ok": false,
+    "http_status": 202,
+    "headers": {
+      "Date": "Sat, 30 May 2026 13:08:30 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Content-Length": "179",
+      "Connection": "close",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "create": {
+      "ok": true,
+      "run_id": "run_3deb6836ab720b70",
+      "request_id": "req_1ae3e717d2563c23",
+      "session_id": "eval-agent-TPL_AGENT_001_MECHANISM",
+      "status": "pending"
+    },
+    "run_id": "run_3deb6836ab720b70",
+    "run": {},
+    "events": [
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-TPL_AGENT_001_MECHANISM",
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "message": "Understanding",
+        "payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "display_text": "Understanding",
+        "sequence": 1
+      }
+    ],
+    "answer": "",
+    "done_payload": {},
+    "used_plugins": [],
+    "citations": [],
+    "evidence_package": {},
+    "evidence_walk": {},
+    "report_plan": {},
+    "integrity_report": {},
+    "evaluation_report": {},
+    "models": {},
+    "writing_failed": false,
+    "failure_stage": "",
+    "failure_reason": "",
+    "timings": {
+      "total_ms": 1801178
+    },
+    "errors": [
+      {
+        "type": "run_not_completed",
+        "run": {}
+      }
+    ]
+  },
+  "evaluation": {
+    "schema_version": "mode_comparison_live_proxy.v1",
+    "case_id": "TPL_AGENT_001_MECHANISM",
+    "expected_best_mode": "agent",
+    "recommended_mode": "agent",
+    "dt_ok": false,
+    "agent_ok": false,
+    "dt_answer_length": 0,
+    "agent_answer_length": 0,
+    "dt_plugins": [],
+    "agent_plugins": [],
+    "dt_latency_ms": 0,
+    "agent_latency_ms": 1801178,
+    "agent_artifact_score": 0.0,
+    "dt_artifact_score": 0.0,
+    "depth_delta": 0.0,
+    "agent_value_added": "none",
+    "agent_overkill": false,
+    "dt_errors": [],
+    "agent_errors": [
+      {
+        "type": "run_not_completed",
+        "run": {}
+      }
+    ]
+  }
+}

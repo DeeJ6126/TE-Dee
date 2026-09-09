@@ -1,0 +1,50 @@
+{
+  "accession": "DF000003702",
+  "name": "B1_Mus2",
+  "description": "SINE1 from mouse.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Muridae",
+  "display_classification": "SINE/Alu | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 147 BP; 39 A; 39 C; 46 G; 23 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcacgcctttaatcccagcactcgggaggcagaggcaggcggatttctgagttcgaggccagcctggtctacagagtgagttccaggacagccagggctacacagagaaaccctgtctcgaaaaaacaaaa",
+  "length_bp": 147,
+  "sequence_length_bp": 147,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "B1_Mus2"
+  ]
+}

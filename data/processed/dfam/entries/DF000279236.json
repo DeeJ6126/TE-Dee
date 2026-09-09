@@ -1,0 +1,47 @@
+{
+  "accession": "DF000279236",
+  "name": "MyrTri-1.70",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Myrmecophaga tridactyla",
+  "display_classification": "SINE/tRNA | Myrmecophaga tridactyla",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Pilosa",
+    "Vermilingua",
+    "Myrmecophagidae",
+    "Myrmecophaga"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 105 BP; 25 A; 29 C; 31 G; 20 T; 0 other;"
+  },
+  "sequence": "gggcggctgccgtggctcagcaggcagagctccgacctgccgtgctggaggtctggagttcgatccctggtgcctcctgcccatatgcaaattaaaaaaaaaaaa",
+  "length_bp": 105,
+  "sequence_length_bp": 105,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

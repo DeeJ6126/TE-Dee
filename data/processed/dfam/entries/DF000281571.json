@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281571",
+  "name": "AplRuf-1.201_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "AplRuf-1.201_LTR"
+  ],
+  "species": "Aplodontia rufa",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Aplodontia rufa",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Aplodontiidae",
+    "Aplodontia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 334 BP; 71 A; 117 C; 57 G; 84 T; 5 other;"
+  },
+  "sequence": "gatggatatggaaaattaccagaagccactcatgtgagccagacagcaaaccccctactcactgtttcgaaatctacngactcgggcccttatcggaatctattgnctcgggcccttatcagaaaatccncaccctaccgaaanncccgttttaaccagaaaactcgcaccttggccccctcccccctcattccctctatatctaccccaggctgtaagcggcaggtgggtcccagactccactgggcccccctccgcaggtttctcccgaataaacctgtgttactgttgagccgccgctctcctctctatttccttcatttcctctttcctt",
+  "length_bp": 334,
+  "sequence_length_bp": 334,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004139",
+  "name": "RLTR31D_MM",
+  "description": "Long terminal repeat of a class 2 LTR retroelement in mouse.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR31D_MM"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 427 BP; 142 A; 65 C; 142 G; 72 T; 6 other;"
+  },
+  "sequence": "tgtagagagaatctcttgtgtactgtgtggaagcatcacctgtcaataaaaagctgatggccaatnagctgaggcagganatagaaggtgggacatccggcagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagacnaattctggganagagtcaggcgcgggaagattttccacccggactctgaggaagncggacgcatgaaactgaggagaggtaaccagccaccgtgtggcagacatagaatagaataaacgggttaatataagttacgagctagtcggggaacgagccnaagcttatggcctaggcatttattcataaataattaagtctcagagtcgttattcgggaactggggcgcgggtggaaaagcccgcggttaca",
+  "length_bp": 427,
+  "sequence_length_bp": 427,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR31B_MM"
+  ]
+}

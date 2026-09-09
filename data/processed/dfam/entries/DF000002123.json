@@ -1,0 +1,53 @@
+{
+  "accession": "DF000002123",
+  "name": "RLTR51A_Mm",
+  "description": "consensus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR51A_Mm"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 351 BP; 61 A; 133 C; 53 G; 102 T; 2 other;"
+  },
+  "sequence": "tgttggcatcaggacctccgaaacctgtgacatcacanntaggcgacagcgcgacccgcagacctgttgccaaggcaacagccaccatattcccagaatccacttggctcacctcccacctttacctgtggttacgtcattatccatatataaaaggaagacccctctgatctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctcctcccccttctctctccgccgccaccttgcccttctctctctcaataaacctcacgtggaactgtttggcctggtgtggtctttctggagccgcgcgacgatcacaaca",
+  "length_bp": 351,
+  "sequence_length_bp": 351,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR51A_Mm"
+  ]
+}

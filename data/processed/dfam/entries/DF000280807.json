@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280807",
+  "name": "SpiGra-1.132",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Spilogale gracilis",
+  "display_classification": "DNA/TcMar-Tigger | Spilogale gracilis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Mephitidae",
+    "Spilogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 465 BP; 124 A; 102 C; 93 G; 146 T; 0 other;"
+  },
+  "sequence": "tccccccttatccgcggtttcgctttccgcggtttcagttacccgcggtcaaccgcggtccggaagcagatgatcctccttctgacgtatcgtcagaaggtcagtagtagcctaacgctacgtcacaatgcctacgtcattcacctcacttcatctcatcacgtaggcattttatcatctcacatcatcacaagaagaagggtgagtacagtacaataagatattttgagagagagagaccacattcacataacttttattacagtatattgttataattgttctattttattattagttattgttgttaatctcttactgtgcctaatttataaattaaactttatcataggtatgtatgtataggaaaaaacatagtatatatagggttcggtactatccgcggtttcaggcatccactgggggtcttggaacgtatcccccgcggataaggggggactactg",
+  "length_bp": 465,
+  "sequence_length_bp": 465,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

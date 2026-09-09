@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277874",
+  "name": "LepWed-1.43",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Leptonychotes weddellii",
+  "display_classification": "LINE/L1 | Leptonychotes weddellii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Phocidae",
+    "Leptonychotes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 522 BP; 211 A; 69 C; 126 G; 116 T; 0 other;"
+  },
+  "sequence": "gtccacaatagccaaactatggaaagagcccagatgtccatcgacagatgaatggataaagaagatgtggtatatatatacaatggaatattactcagccatcaaaaaaaatgaaatcttgccatttgcaacgacgtggatggaactagagggtattatgctaagcgaaataagtcaatcagagaaagacaattatcatatgatctcactcatatgtggaatttaagaaacaaaacagaggatcataggggaagggagggaaaaataaaataagacgaaatcagagagggagacaaaccataagagactcttaaccataggaaacaaactgagggttgctggaggggaggggggtggggggatggggtaactgggtgatgggcattaaggagggcacgtgatgtaatgagcactgggtgttatatgcaactgatgaatcactgaactctacctctgaaactaataatacactatatgttaattaattgaatttaaattaaaaaaataaaattaaaaaataaa",
+  "length_bp": 522,
+  "sequence_length_bp": 522,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

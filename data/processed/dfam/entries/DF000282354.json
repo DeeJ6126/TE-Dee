@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282354",
+  "name": "OndZib-1.100_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OndZib-1.100_LTR"
+  ],
+  "species": "Ondatra zibethicus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ondatra zibethicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Arvicolinae",
+    "Ondatra"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 370 BP; 92 A; 69 C; 111 G; 90 T; 8 other;"
+  },
+  "sequence": "tggtgtaggaggtccttctgtatttgtgttgctttcattggttgaataaagaaactgccttggccttttgatagggcagaacttaggtaggcggggnagacagaacggaatgctgggaaagaaggcaggtggcagacgccatggatctcctgccngagncggacgctggttagaatctttcccggtaagccacgacctcgtggtgacacacagattantagaaatgggttaaatcaagatgtgagagttagccaagaagaggctaganataatgggccaggcagtgntttaatgaatacagtttctgtgtgattatttcgggngttaagctagccgggcaccgggaacgcggcccgctcctcnttactac",
+  "length_bp": 370,
+  "sequence_length_bp": 370,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

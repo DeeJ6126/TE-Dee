@@ -1,0 +1,50 @@
+{
+  "accession": "DF000004143",
+  "name": "URR1A",
+  "description": "Non-autonomous Charlie-type DNA transposon of murids.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Muridae",
+  "display_classification": "DNA/hAT-Charlie | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 226 BP; 68 A; 46 C; 55 G; 57 T; 0 other;"
+  },
+  "sequence": "cagcggttctcaacctgtgggtcgcgacccctttgggggtcgaacgaccctttcacaggggtcgcatatcagatatcctgcatatcagatatttacattacgattcataacagtagcaaaattacagttatgaagtagcaacgaaaataattttatggttgggggtcaccacaacatgaggaactgtattaaagggtcgcagcattaggaaggttgagaaccactg",
+  "length_bp": 226,
+  "sequence_length_bp": 226,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "URR1"
+  ]
+}

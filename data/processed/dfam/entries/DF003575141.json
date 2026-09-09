@@ -1,0 +1,39 @@
+{
+  "accession": "DF003575141",
+  "name": "TcMar_S.glomerata_12",
+  "description": "Repetitive sequence family identified in Saccostrea glomerata",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Saccostrea glomerata",
+  "display_classification": "DNA/TcMar-Tc1 | Saccostrea glomerata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Ostreida",
+    "Ostreoidea",
+    "Ostreidae",
+    "Saccostrea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1350 BP; 472 A; 235 C; 300 G; 342 T; 1 other;"
+  },
+  "sequence": "cagtcaatggacaaaagtattcgtcattttaattggcgttgcgttaatcgcgatgcntctctcggctatttttcactcgcgctatttatagaacaaacgaaatagaatgaaactttcaataaagagactggagaaattacgtcacgattttgtgacgtcattttgtcacttgtgtgtctgtaaacactggaaaacatcactcgaaaacatggggcgaaaatcagttgagttgagcactgaggtaaaagaaatgatcgtaaaatctgcaaaccacactccaaataaagcagaactggcgagaatgtttggtataccaaggtcaacaatcgtgagtattttgaataaatttgacagactgggtactgtagaaaacttgccgagatctggccgtcgacttttgtttacaactcgggacaagacgaagttgagtcgcctcgctaaagcaaacagaagggacactttgacagatttaacaaacaaactgaacgaaggaagaggaagacaatttagtgagaaaacagtatttagaaaattacgtgaagaagggtacaaaaggaaacgtgcaaggaagactatggtggttcgatgtgtgaacagaaaaaaacgggtaaaatggtgtcgagaacgaaaaaactggaaaagtgataatgaatggaaaaaatatatattttccgatgaaagtcagattgttatcgggacagataaccgtgtgtatgtgtggagaaaggacgccgaagcgaacagtccccatttgatttgtccgccatcgaaaaggagggtaacacttatgatctggggatgcatgtgtttcgacggtatgggaactattgtacctgtcgaaggtaatataaatgcactcaaatacttggaaatagttgacaataatttatggcctgtaattgccagacatttcccgaacaaagcctatgttttccaagacgataatgcccccgtacatagggctcgcgtagtgaaaaactacatgaccgaaaataatattaactgcacagattggccagctcagtctccggatttaaatgtgattgaaaacatttggttaaagatcaaaagagagcttaaaggcatgtccgcaactattgaaagtcgcgatcagctgtttcatgcaatcagacaagtgtgggaaaacatccccttggaatacgtccacagcctctacgcatccattccagatcggattaaagaagtaatacgtatgaaaggaaatctgaccaaatattaggtaagtgactttaattttaagtatacaaatctacgtttaaaactcccgttgtgaacgtaaacaacgcgacgccattttgaaaaatgacgaatacttttgtccattgactg",
+  "length_bp": 1350,
+  "sequence_length_bp": 1350,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

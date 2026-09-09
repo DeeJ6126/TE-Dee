@@ -1,0 +1,50 @@
+{
+  "accession": "DF003440258",
+  "name": "LTR7_pDis",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR7_pDis"
+  ],
+  "species": "Phyllostomus discolor",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Phyllostomus discolor",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Phyllostominae",
+    "Phyllostomus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 965 BP; 251 A; 259 C; 212 G; 237 T; 6 other;"
+  },
+  "sequence": "tgaggcaggagacagcataggaagaactctgagactgcaatactgtcactggccagcgtctagcaccctggttgccaggaaacgccttttaccaattaggtagaataaatagtaaaccgaggcagggaggaggagggagacangtctcacncgctaactcagcagtcctgagcctggtccgataatattgccaggtgttccaacatcacaagaaacactatgttagcaaggaagaagggaagtccttgaaattctatgtancgtttccactatctgggaaagaaagccttgaaactgtgctttcatcccaaggcctgaatgtgggagagggtccncggtgcccaaagaaagagcccataaaacaactttggttaattgcctacctctggtcactatctgttttacgagggagtccctgatgcttacagaaagagcccataaataactttggaaantgccccaactttaattaactgcctcctgtcacgtatctgttttacaacaagatgaacaaatggggtctggagcaagataaggattcgggctaacagacccccacacatacctaagtttgggtagtcacgttcccccaggaaagctggcaccacatttacccgttaatcaatatgtaacttttttccctcctatcccaccaactatataagtcctcagaacaaaggactcgctctctctctcgggggctcggggtgctcttggctctcgggccacagggcctctggccacccggcctcaggctgcccaggggcttgccaccctggtcttcagccgctcttgcttttctcgccctgctttgccctgaaactttgcctttcaccccctactctacccagtcctgttctcttccatgggaacgggccactaataaactgattacatactactagatttgctgatntgtaattctttacatgcgtcagcaagaagaaccaggtctctcccgtcaa",
+  "length_bp": 965,
+  "sequence_length_bp": 965,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

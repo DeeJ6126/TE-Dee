@@ -1,0 +1,81 @@
+{
+  "accession": "DF000001587",
+  "name": "DOC",
+  "description": "DOC LINE-like retrotransposon.",
+  "keywords": [
+    "LINE/I-Jockey"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "LINE/I-Jockey | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 4726 BP; 1648 A; 1191 C; 823 G; 1064 T; 0 other;"
+  },
+  "sequence": "gacattcggcattccacagtcttcgggtggagacgtgtttctttcaagctacgaatagcaagttctaaaaactacaacagtatagtgaaagttaaacacaaagtgtaaagtgcagtttgcacaactaacaattattgactatagtaattatttactaaaataaataattattccatattgttctggtaattgttatatgtggacttagaacaatgaatcaaaacgacatacgttctcagcgacaatgtgaacaagacgagcgccggctctctttacaacgcaacaatgcatacttttctttcgtctcaccgcaaatcggtgatcgagcaccctcaccttcaactaactcgaaacttttgccctcagcgaacgacagaccgcgttcttgctctccctctctgcctgcttcggctcacaagtcgtggagcgaagagaccgcctctcctaccccgctcctctcgcagcgccaaacgaccgtcccgggtaactgtaacactgcaataacgagtgcagtgacctcactggcaactgccacaacatcaacttcgtcagcggcccaactaattatcgctgtgccagctgtaaataattcagcagcactgaccgtttgcaacaacaataatgcacgtaaagaagaatcaaaacaaaagcagaagtcgatttcgactgtgcagactggcatggatcgctacatccaaatcaagagaaagctcagccctcaaaacaataaggcaggtaatcaacccaaaatcaatcgaaccaacaacggcaatgaaaactctgcagtaaataattcaaaccgatatgctatcttggctgattctgcgaccgaacaacccaacgaaaaaacggtaggggaaccaaaaaagaccaggcctccaccaattttcatacgagaacaaagtacaaatgcacttgtaaataaactcgttgctttgattggtgacagcaagttccacattatcccacttaaaaaaggaaatattcatgaaataaaactacagatccaaacagaagcagaccaccgtatagtgactaaatacctaaatgatgctggtaaaaactactacacataccaattaaaaagttgcaaagggctacaggtagtacttaagggcattgaagcaacagtgacaccagctgagataattgaggctctgaaggccaaaaacttttctgcaaagacagctattaatattttaaacaaagacaaagttccgcagccactattcaaaatagaactcgaaccagagctccaggcactaaagaaaaacgaagtgcacccaatatacaatttacagtacttgctacatcggaggatcaccgtggaggagccgcacaaacgtatcaatccagttcaatgtactaattgccaagaatacggccacaccaaggcatactgcacccttaagtccgtatgtgttgtctgtagcgaacctcatactaccgcaaactgccccaaaaacaaggacgataagtctgtgaagaaatgcagtaactgcggggaaaaacatactgcaaactacagaggctgtgtggtgtacaaagaattgaagagccgcctaaacaaacgtattgccacagcacatacatacaacaaagtcaatttctactctccgcaaccgatttttcaaccacccctaactgtcccaagcactactccaacaatttctttcgctagcgccctaaaatccggactagaagtgcccgccccaccgacaagaactgctcattccgaacatacaccgacaaacatccaacaaacacaacaaagtggcatcgaagctatgatgctatccctacagcaaagcatgaaagacttcatgacgttcatgcaaaatactttgcaagagctcatgaaaaaccaaaatatcctgattcaacttcttgtatcttcaaaatccccataatggcttccctacggatatctctgtggaacgcaaatggcgtttcacggcatacacaagagctcacacagttcatttacgaaaaaaacatcgacgtaatgctactatcagaaacgcacctcacaaataaaaacaattttcatataccaggatacttgttctatggtacaaatcatccagatggtaaagctcatggaggcactggaatactcatcagaaatcgcataaaacaccaccacttaaacaattttgacaaaaactacttacaatctacgtccatagccttacaactcaacaatggttcaacgactctagccgcagtctactgcccaccgcgctttccaatctctgaggatcaattcatggaattctttaacacactaggtgacaggttcatcgcagcgggtgactataacgccaagcacacccattggggatctcgacttgtgtcgccaaagggtaagcaattgtacaatgcgcttacgaagccagaaaacaagctagactatgtatccccgggtaagcctacatactggccagcagacccaagaaaaatcccagacctgatcgattttgcaattactaaacatgtcccccgcaacatggtcaccgccgaagcactagcagatttatcatcagatcactcacctgtttttctaaatatgctaactcgcccccacatcgtcgacccaccgtatagactcacaaattttagaacaaactggccaaggtatcaaaagtatgtctgttcacacatagaactaacgacggcattatctacaaaggaggatatagacaagtcaacggaaactcttgaaaacattttagtttcggctgcaaaggcttcaaccccgccagtgacgtatgcaaaaccaaactacatcaaaactaatcgcgaaatcgagcggctggtattagataaacgacgcctacgaagggattggcagtctaatagatcaccaattactaagcacatgcttaagatagccacacgcaggcttaccaatgctctcaaacaagaggaaaaaaacagccaacgttcatatatcgagcaactctctcccaccagcactaagtaccctctttggagagctcacagaaacctaaagactccaatagcgccaattatgccactacgaagtccctctggcacctggtttcgaagtgatgaagaaagagccagtgctttcgctgaccatttacaaaatgtattccgaccaaatccctctaccaacacatttattctccctcctttaatagcagccaatctagatcctcaagaaccctttgaattccgaccatgtgaactagcaaaggttatcaaagagcaactgaacccaagaaaatcgcctggctacgacctaataactccaagaatgctcattgaactcccaaagtgtgctattcttcacatctgcctgttgttcaacgcaatcgccaagcttggatacttccctcaaaaatggaaaaagtcgaccatagtaatgattccaaagccaggaaaagataaaacgcagccatcatcatatagaccgataagcttactaacatgtctttcaaagctgtttgaaaaaatgctactccttcggattagccctcatcttagaataaacaacacacttccaacacatcaatttggctttagagaaaaacatggaaccatcgaacaggtcaaccgaatcacgtcagaaattcgtactgcttttgaacatcgagaatactgcacagccatttttctagacgtcgcgcaggcatttgacagagtgtggctcgatggacttttgtttaaaataatcaagctgttgccccaaaacacacataagctactgaagtcatacctatataacagagtgtttgcaataagatgcgatacaagcacttcacgcgattgcgcaatcgaagctggagtgccgcaaggcagtgtactgggtccaatcttatacaccctgtatacggcggatttccccatagactacaatctaacaacctccacgttcgctgatgataccgcgatactcagtcgctcgaaatgcccaataaaagccacggcactcctatcccgacacttaacatctgtagaacgatggcttgccgactggagaatttcaataaatgttcaaaaatgcaagcaggttacctttaccttaaacaaacaaacatgcccaccactggtcttgaataacatatgcattccacaagccgacgaggtaacatatctgggagttcatctggacaggcggctcacttggcgcaaacatatagaagccaaatcgaaacatcttaaacttaaagcaaggaacctccactggctcataaatgctcgctctccacttagtctggagttcaaagctcttctatacaactccgtcttaaaacctatctggacttatggctccgagctgtggggcaacgcatccagaagtaacatagacattattcagcgagcacagtcaagaattctgagaattatcactggagcgccgtggtaccttcggaacgaaaacatacacagagacctaaaaatcaaattagtaatcgaagtaatagctgagaaaaaaacgaagtataacgaaaagctgaccacccatacaaatcccctcgcaagaaaactaatccgagtatgcagtcaaagccggctgcaccgcaacgacctcccagcccagcaataaacttattagggcattaatgaaaaaaaaaaaactatcactaagtgaaagttaattaagttagattaagatttgaacacttattgttagtctcttaacacaaagggaagattcaataaataataaaaattaaaaaaaaaaaaaaaaaaaaaa",
+  "length_bp": 4726,
+  "sequence_length_bp": 4726,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "167..1907",
+      "start": 166,
+      "end": 1907,
+      "qualifiers": {
+        "product": "DOC_gag",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "LFHIVLVIVICGLRTMNQNDIRSQRQCEQDERRLSLQRNNAYFSFVSPQIGDRAPSPS"
+      },
+      "label": "DOC_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "1681..4573",
+      "start": 1680,
+      "end": 4573,
+      "qualifiers": {
+        "product": "DOC_pol",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "RPKIRTRSARPTDKNCSFRTYTDKHPTNTTKWHRSYDAIPTAKHERLHDVHAKYFARA"
+      },
+      "label": "DOC_pol"
+    }
+  ],
+  "repbase_aliases": []
+}

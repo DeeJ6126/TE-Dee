@@ -1,0 +1,52 @@
+{
+  "accession": "DF000289984",
+  "name": "ananke",
+  "description": "Repetitive element found in the T2T assembly of the CHM13 human genome",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Homo sapiens",
+  "display_classification": "Unknown/ | Homo sapiens",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Hominoidea",
+    "Hominidae",
+    "Homininae",
+    "Homo"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 51 BP; 13 A; 23 C; 5 G; 10 T; 0 other;"
+  },
+  "sequence": "gaccacctcacacagtactcccagcttcacttcttcgatcaccaccaccga",
+  "length_bp": 51,
+  "sequence_length_bp": 51,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

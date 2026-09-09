@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277596",
+  "name": "IndInd-5.2435",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Indri indri",
+  "display_classification": "DNA/hAT-Charlie | Indri indri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Indriidae",
+    "Indri"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 189 BP; 33 A; 83 C; 48 G; 25 T; 0 other;"
+  },
+  "sequence": "ctgcggtccccaacccccgggccggcccggtaccggtccgtggcctgttaggaaacgggccgcgcatcaccgcctgagctccgcaccaccccccccccacccacgacaccccacccccccaccccggtccgtggaaaaattgtcttccatgaaaccggtccctggtgccaaaaaggttggggaccgctg",
+  "length_bp": 189,
+  "sequence_length_bp": 189,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

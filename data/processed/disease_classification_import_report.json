@@ -1,0 +1,17 @@
+{
+  "source_files": {
+    "paths_csv": "tmp_icd11_csv\\disease_classification_paths.csv"
+  },
+  "generated_files": {
+    "category_nodes_cypher": "imports\\import_disease_category_nodes.cypher",
+    "category_edges_cypher": "imports\\import_disease_category_edges.cypher",
+    "disease_edges_cypher": "imports\\import_disease_to_category_edges.cypher"
+  },
+  "counts": {
+    "paths_csv": 491,
+    "category_nodes_payload": 727,
+    "category_edges_payload": 704,
+    "disease_edges_payload": 491
+  },
+  "coverage_ok": true
+}

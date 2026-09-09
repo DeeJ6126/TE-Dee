@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277666",
+  "name": "KogBre-1.14",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Kogia breviceps",
+  "display_classification": "SINE/tRNA | Kogia breviceps",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Physeteridae",
+    "Kogia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 120 BP; 27 A; 35 C; 38 G; 20 T; 0 other;"
+  },
+  "sequence": "gggaattccctggcggtccagtggttaggactctgcgctttcactgccggggcccgggttcaatccctggtcggggaactaagatcccgcaagccgcgcggcgcggccaaaaaaaaaaaa",
+  "length_bp": 120,
+  "sequence_length_bp": 120,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

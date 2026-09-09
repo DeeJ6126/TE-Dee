@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003186",
+  "name": "DNA-3-1_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/PIF-Harbinger"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/PIF-Harbinger | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2005 BP; 649 A; 358 C; 370 G; 623 T; 5 other;"
+  },
+  "sequence": "agccgcttttccactatcgtgctgaatcgttctttaaacagaactgttccattccgtgccaaaccgggccagacagcacggatacggtttcattttccactgtcgtgctgcgacaaagctctttaaaacattacacaaaacgcatcagtagttgccttggtaacgcaatgtaaacggctccctttgttcaattaaagttaaataagagccgaaactanttttttttttttttttcataaaagcgaaagcaaccatgtgactaaacactgttatgccgctctatcaaataggggtgctaaatataggtacatgtgcacccttatttatttatatgttgcgcggctctggctaaattttatttggagggaaaattaccaaaatgtaacgtgatgattgaaaataattggaggggaaataaataatatttaaaatctctgaacataacagaaaaataaacaatgataagacaacaataatagtgcatttgcattatagtggcagaaatataattttggacaggccttgtcaaaggtgagcgggcactttcactaataaaaacacagcacntaaattatttcatttttaacaatcaattaaattacactgcgtttttatatcaaaagttgataatgatataaaatatactacattttgatggtaaaatgaaaccanttaagcgatggctgttatttgttttagtattcaaacattaaataacgaatgcagcaagtgaaataaaaaacgaatatgaaacaacacatatatngcaggatttaaagcatataaagcactattatatttagcaaaatgctgctctnttatctttttattttgatcattttatttttattattataattattttttgtgttcataattaactaacaagctgtaggcgaattattgcttgacgttttagaaaatatttgcgtagctatattaaagatcaccgagaacaaaaaaacaaaaacacagaaacatgttacatgccccataaatgtcatataacttatgtataactgaatcatataattgcctatagctgaaatgatgaaaattgctcattttatttttataaaacatttgtcaaaacgtattgatattttttgagtaaaagcaataccgacatttaagaatccatatttatttaattcattcattcttttgacttgtttattagtgcatatgctataatataaatcatacaacagtaccttggacagttacagtgccgctccgtaaagctttcaagcaaagtcttttggacggccgacattacaacacgaacacgccgtccttcaggtggtctcgccggtattaacaagccgtcctggctttgaattaaaaagtgcaattatttcctcgttgttaaaagagtctgcaagttcgtgttccatggatatagtgatgttgttgtggaatttggacatcgacgatgctaagcgtgactttattcgctttattcgatgcgcagcaggaaaaaaaagtcagcagcgcaagtcgctggcatgtctctcccggatcagagcgagttttgtgctgcgaaatacagcgctgcgtgcaataaactcacattcaggcaggcgaagtaggtctgtattcaagtcaataaaataataactttaatgaataaaatatcttcgtaagaatgtgatgagttattcacttctctgccagagactgctctatggttttaaaacccttttcaaactgtatcgtttagacctggatcattattttatattaaatgtactgtagtttattgaggatgtctgatgactagcgcgcttctgctgagccagctgtggtagcttggcaaccgagccgcgacgtcaacacacagaatctgtcggcacagttcagcacggttgtctaaccgtgccgagaattccgggccgagaacggtttgtaatcgtgccgcgccgttccaggctcagtggagaaacaaccgtaaccgtaccgaagtgttcttagaacggtttggcacgatagtggaaaagcagct",
+  "length_bp": 2005,
+  "sequence_length_bp": 2005,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA-3-1_DR"
+  ]
+}

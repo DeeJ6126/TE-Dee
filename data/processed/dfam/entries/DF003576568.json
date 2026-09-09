@@ -1,0 +1,48 @@
+{
+  "accession": "DF003576568",
+  "name": "LTR12G",
+  "description": "Long terminal repeat of the type I endogenous retrovirus HERVP-12G",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR12G"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 584 BP; 163 A; 152 C; 134 G; 135 T; 0 other;"
+  },
+  "sequence": "tgagggactaagtggctaagttggctggacttcctgggtcaatagggacttccctaaggggactttcccctaagccaaaatgagtcatagctgcaagctaagggattgaaacttcaaccaatcaaaggggactttcccctaagccaaaatgagtcacagctgcaagctaagggattgaaacttcaaccaatcatatagggagtttaagctctagctgcagcctgatgtttttaaccaatcaggcccgccaacccacaagcggatagaaaataagctaattctataggacagaaaaaggaaaaggggaggggtcataaggggatataagcataagacacccaagccagaaacggcaacccttccgggtccccttccaccgcgtggaagctttactttcgctttcgctttactttcgctttcgctttaataaatcttgccgccgcacactctttgggtccgcgcgtttctctaatcgagctgtaacactcgccgctgcggtccacggcttcattccttgaagcccgtgagaccacgaacccttcgatcgagaaaaaccttcgatcgggagaagacttctcgtctca",
+  "length_bp": 584,
+  "sequence_length_bp": 584,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

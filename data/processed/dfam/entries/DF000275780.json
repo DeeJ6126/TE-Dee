@@ -1,0 +1,47 @@
+{
+  "accession": "DF000275780",
+  "name": "ConCri-3.18",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Condylura cristata",
+  "display_classification": "LINE/L1 | Condylura cristata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Talpidae",
+    "Condylura"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1352 BP; 574 A; 239 C; 276 G; 246 T; 17 other;"
+  },
+  "sequence": "ggagcaaagaatatgcaatggaacaaagaaagtttgttcaacaaatggtgctgggaaaactgggctgctacatgcaaaaaaatgaagctagattactacctcgcaccatacacaaaaaccaactcgaaatggattaaaganctagacataagacctgaaaccataaaatatntagaagaaaanatnggcgaaacactacatgacatacacctcagtaacatctttaaagatacatcacccaaagcaangatagtgaaggaaaggataaacagctgggactacatcaaattaaagagcttctgtacagcaaaagagacattacacaaaacaaagagacaccccactgattgggagaaaattttctgcacacaatactaatgataaaggactgatcacaaagatatacaaagagctgacgaaactcaacaaaaataaagtgaacaaccccatcaaaaaatgggcagaagagctaaaaagacacttctccaaagaggaaatgcagacggccaacaggcatatgaaaaaatgttcaacatcacttgtaataagggaaatgcaaatcaaaaccacaatgagataccacctcacaccagtgagaatggcacatattaaaanaactagcaacaacaaatgttggcgaggatgtggagaaaaaggaactctcctacactgctggtgggaatgcaaactggtacaaccactatggaaagctgtgtggaggttcctcaaactgctaaaaatggagcttccatatgacccagcaattccactcctaggtatctacccaaaggacacaaaaacactaattcaaaaggacacctgcacccctatgtttattgctgcnctatttacaatagggaagacgtggaancaacccaaatgcccaaaaatagatgactggatcaagaagatgtggtacatatacacaatggaatattactcagcaatcaaaaaagataaactcatgccatttgcagcaacatggatggagctggaagggatcatgcttagtgaaataagccagaaagaaaaagaaaaataccggatggtttcactcatagcaggagtataagggatcaggnnagaggaagaaaaaaagtaattgtaataaagtaaaaaanaanaacaacaatgaacaactataaaccagagacattctacgggggtggagnggggaacgggatcaaaactggggtgggaagagcgcacgggactatggtgatggcacacgggtgaantggtggtgggaagtccacggggattacaaccgagatggaaaaaaaaaatgtacaaaatgaagaatgatgtaaaatatatatatatatatanataaaaaanctaaaanaaaaaaa",
+  "length_bp": 1352,
+  "sequence_length_bp": 1352,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000319",
+  "name": "L1P3b_5end",
+  "description": "5' end of L1 retrotransposon, L1P3b_5end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "LINE/L1 | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1141 BP; 233 A; 373 C; 349 G; 181 T; 5 other;"
+  },
+  "sequence": "ggggggcggggccaagatggccgactagaagcagcggcgntcggaggctcccatcgaaaagaaccataataagcgtgtgaatccttcaccggcaaccaaggtatccaggttctctcatcagaactgactaggaggctggcgtgacccacggagagaaggaagagcagtgtggtgcggcggcccacctgagagccacacggggcaggggagcccccnccccccagccaagggaggcggtgagtgagcgtgctacccagccggggaaaccgtgctttttccacggaactgtgcaacccacggatcggaagatcccactcgcgaacccacgccaccggggcctagcgtcccaaccccggagccgcgcagattctcaacagcctctcagctggaatctgcttaagcctgccgagctcccggggggaggggcgaccagcaccacggctgcggctgcctgctgtctaagccgtttgagctccttgggggaggggcagcagccagcactgggactcgcaactgcctaacacgctaagctccctgggcgggggaagggcggcacccatctctatagctccaggccgcgcttttcccctgctggagccagggaggctggacggcttggtcccaaganntgtccccacagcccaacacaccggctgtggcagnctgcggccagagtgcctcttcaggcctgaccctgacccatccttcctcactgggcggggcttccctgcaggaactccaataactccagccagaggctcagggacagaactcggatctccctgggcctgagcccctagggggaggggtggccgcagtctctgcggaccagcagacttagcctttcctcctggtagttctgaggaatccgggcagcccagacgagtgggtttccccccagcgaagcacaccccctccaccaagggacaaagtgcttcgttaaacgggtcctgctccccgtgccacccaactgggtgagaccctccaacaggggttgtcagacaccctatacaggagcgatcctactggcatcaggttggtgcccctcgaggtcagaggtcccagaagaaggagcaggcacccatctttgctgttctccagcctccttgagtgacatctccaggcgcgggagcgaaccaga",
+  "length_bp": 1141,
+  "sequence_length_bp": 1141,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

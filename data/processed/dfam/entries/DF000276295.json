@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276295",
+  "name": "DauMad-1.0",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Daubentonia madagascariensis",
+  "display_classification": "SINE/Alu | Daubentonia madagascariensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Chiromyiformes",
+    "Daubentoniidae",
+    "Daubentonia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 292 BP; 71 A; 74 C; 98 G; 47 T; 2 other;"
+  },
+  "sequence": "ggccgggcgcggtggctcacgcctgtaatcctagcactctgggaggccgaggcgggaggatcgcttgaggtcaggagttcgagaccagcctgagcaagagcgagaccccgtctctacnaaaaatagaaaaattagccgggcgtggtggcgcgcgcctgtagtcccagctactcgggaggctgaggcaggaggatcgcttgagcccaggagtttgaggttgcagtgagctatgatgacgccactgcactctagccngggcgacagagcgagaccctgtctcaaaaaaaaaaaa",
+  "length_bp": 292,
+  "sequence_length_bp": 292,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

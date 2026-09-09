@@ -1,0 +1,48 @@
+{
+  "accession": "DF000276829",
+  "name": "EriEur-1.10",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Erinaceus europaeus",
+  "display_classification": "SINE/tRNA | Erinaceus europaeus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Erinaceidae",
+    "Erinaceinae",
+    "Erinaceus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 353 BP; 91 A; 102 C; 99 G; 61 T; 0 other;"
+  },
+  "sequence": "gggggtcgggcggtggcgcagtgggttaagcgcacgtggcgcaaagcgcagggaccggcgtaaggatcccggttcgagcccccggctccccacctgcaggggagtcgcttcacaggcggtgaagcaggtctgcaggtgtctgtctttctctccccctctctgtcttcccctcctctctccatttctctctgtcctatccaacaacgaacaacgtcaacaatggcaataataataaccacaacgaggctacaacaacaagggcaacaaaaggggggaaaaatggcctccaggagcggtggattcatggtgcaggcaccgagcccagcaataaccctggagggaaaaaaaaaaaa",
+  "length_bp": 353,
+  "sequence_length_bp": 353,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

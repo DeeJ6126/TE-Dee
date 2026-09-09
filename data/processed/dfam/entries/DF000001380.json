@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001380",
+  "name": "CER7-LTR_CE",
+  "description": "retrotransposon.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CER7-LTR_CE"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 327 BP; 76 A; 104 C; 46 G; 96 T; 5 other;"
+  },
+  "sequence": "agtgtacgcaacgtaccttcncctttttgccaatatnatattgcacacattccttcctcccccggccactttacaatctcaccctcgaactccgcccccctggggcaggagtataaaagaagcccgtccgcaaggacgggcacagttatcgtcaaccccaactctccncncacacacactttcaattcatccgtttcttatattatacttttccactgtttcttatattcttccactgtttctgttgtctactatttctgagactcaataaagtaactggcgagcaatatccgtcaggctgttaaancccactgccctcaccgttta",
+  "length_bp": 327,
+  "sequence_length_bp": 327,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CER7-LTR_CE"
+  ]
+}

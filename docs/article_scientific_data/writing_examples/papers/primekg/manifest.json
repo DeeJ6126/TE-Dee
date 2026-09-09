@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "generated_at": "2026-09-03T15:37:35.744Z",
+  "request": {
+    "topic": "",
+    "title": "Building a knowledge graph to enable precision medicine",
+    "dois": [],
+    "pdf_url": "https://www.nature.com/articles/s41597-023-01960-3.pdf",
+    "si_requested": false,
+    "language_override": "",
+    "route_override": "open_access",
+    "source_url": "",
+    "api_fallback_web": null,
+    "api_fallback_web_for": [],
+    "no_api_fallback_web_for": []
+  },
+  "summary": {
+    "total": 1,
+    "downloaded": 1,
+    "seconds": 3.1
+  },
+  "results": [
+    {
+      "title": "Building a knowledge graph to enable precision medicine",
+      "status": "open_access_downloaded",
+      "provider": "direct_url",
+      "accessMode": "open_access",
+      "ok": true,
+      "file": "docs\\article_scientific_data\\writing_examples\\papers\\primekg\\PDFs\\Building_a_knowledge_graph_to_enable_precision_medicine.pdf",
+      "bytes": 4550676,
+      "sha256": "af0a8d2f1a6a7d4430abc2993beb74872c7e8bced39bb1c2d44bd88d1d302060",
+      "contentType": "application/pdf",
+      "format": "pdf",
+      "source": "https://www.nature.com/articles/s41597-023-01960-3.pdf",
+      "si_requested": false
+    }
+  ]
+}

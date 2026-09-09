@@ -1,0 +1,36 @@
+{
+  "accession": "DF003448621",
+  "name": "",
+  "description": "Repetitive sequence family identified in Heligmosomoides bakeri",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Heligmosomoides bakeri",
+  "display_classification": "DNA/PiggyBac | Heligmosomoides bakeri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Strongylida",
+    "Trichostrongyloidea",
+    "Heligmosomatidae",
+    "Heligmosomoides"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 965 BP; 266 A; 230 C; 213 G; 252 T; 4 other;"
+  },
+  "sequence": "ttaacacgttgacgaccggagcgattttcgcgcgtctgtcgtgtgggaccaagtccctcacgacacgacatcccgtaacccaaacgtcgccctaagggttatttgggatgctgaacacgaatccgacgtccgtttcgccggatncggccggagaccacccanatcgacaactaaggtggtagnccaaatcctgatggacttaagcggaagaagcgtccacagccaagccagaaagcggaagctggtcaccgaccaggagttcagcggcaataatcgacgtcgctgcaaaacctgctacaatatgctgtacaacaaagaaggtcgaacgtctgctaacaacaaagccaaaaaggtcaggacgtactgcaatctctgtcacgaatttatctgccttgattgctttcaaacaaggcacaattcatgttctacttctgttctttgaaattcgagctgtgtctccattgttgtaactgtttactcacaagttttcgaatgtatttgcatgtttatttgtaatttttgattgcattattttcgtattgttgaacaggtattaccacccataaaaatttgtgctgaacaccattataaaaatcagaaatttgatgtgagtgtactttaattattacctgttatttcgagaatgagacgactgatcaccctcatttacctgtacctaccgcagcgcgccgaattgtgaaaaacggatgtcngattcgtgatcagcaccccaaatgaccccctagacgaagtttcagcgaaatcggtgactttgcctggaccacccttgttaaaggtatgggtggtctccgaccgaatcgtgaacccccctaggcgaagcttcagcgaaatcggtgactttgaaataattttattagaggtgcgtcccaaattgggacgcattgtccgacgcgaccgaaaaagtgcgtcccaatttgggacgcattgtcgtcaacgtgttaaaa",
+  "length_bp": 965,
+  "sequence_length_bp": 965,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

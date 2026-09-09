@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275137",
+  "name": "BraVar-1.17",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "BraVar-1.17"
+  ],
+  "species": "Bradypus variegatus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Bradypus variegatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Pilosa",
+    "Folivora",
+    "Bradypodidae",
+    "Bradypus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 549 BP; 147 A; 121 C; 129 G; 149 T; 3 other;"
+  },
+  "sequence": "tgtgccggtttggatgtattatgtcccccaaaacgccatgttctttgatgcaatcttgtgggggcagacgtattagtgttgattaggttggaacctnttgattgtttccatggagatgtgactcaatcaactgtgggcaagacctttgattggataatttccatggaggtgttaccccacccattcagggtgggtcttaattaaatcactggagccatataaaagagctgacaaacagaaggaactcagtgctgcagctnagagagacattttgaagacggccgttgaaagctgacgctgacattttggagaacgccattttgaaacgcaacctgggagcaagcagacgccagccacgtgccttcccagctaacagaggttttccggatgccaatggcctttctccagtgaaggtaccctattgttgatgccttaccttggacactttatggccttaagactgtaactttgtaaccaaataaaccccctttataaaagccaatccatttctggtgttttgcanaacggcagcattagcaaaccggaaca",
+  "length_bp": 549,
+  "sequence_length_bp": 549,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

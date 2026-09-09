@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002270",
+  "name": "CATCH1LTR_DR",
+  "description": "Long terminal repeat of an endogenous retrovirus from zebrafish",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CATCH1LTR_DR"
+  ],
+  "species": "Danio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 752 BP; 203 A; 152 C; 132 G; 264 T; 1 other;"
+  },
+  "sequence": "tgtgagaaagccctttaacgacccctagaggaaggtttcgtgataaggagttcagtgacaaaaggcagtcatgacggctggagagacacaggctgccgatcggctggctggactgtgcaaccgatttgtacatgttttacaccagtgtgtaattgattatgggtgagtcccttttgtttgctatcctttgatccagataaatgttctgattactgttattgtcttgtaaatcacactgtatgtctcgtgattcccacgtgcgccataaccgaaagtgaaaccanatgttatcaaacccaacgatctcatttcggactttgaactggaaattcactttgattcatagtttgatataacctattttatgtatctgtttaatatatatcacctgattcagtcaataattcgtaaaatgttcacctttgggtagatttagcctgtacaataatactaaatggtcattccaattgcttacaacagtatatttaattcatcattgtctttataattcacaattactcgatgtatgtttatttgtatcttaattaataagtttgttgtataatttactgacattagcaattgttcctctttgtatttttctgtcttatagaccacatgtgtgtaatgacattccagcttgattaaacttacaaaactgggaatccttctcctgttctcttaccggaactacccctttcatcttgtgtgcacgacacctgaaccccctgagcgtcccatacgctcgtata",
+  "length_bp": 752,
+  "sequence_length_bp": 752,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CATCH1LTR_DR"
+  ]
+}

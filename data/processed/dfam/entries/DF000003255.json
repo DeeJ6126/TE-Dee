@@ -1,0 +1,51 @@
+{
+  "accession": "DF000003255",
+  "name": "DNA8-4_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/hAT-Charlie | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2395 BP; 752 A; 363 C; 420 G; 849 T; 11 other;"
+  },
+  "sequence": "cagtggttctcaaactgtggtacgcgtaccactagtggtacgcgggcttcctcctagtggtacgcggaggaatcgccgaataatgaaagaaacaattaacacttttaatcctttaatgcgtaatataacatcgatgtgatcagcattggctgttttgtgaagcgtacgatcacaacgctgtgcttagagtgtttattttagtgcattgtgtcataagctgctgaaaatcagtttccgaagtttaagaattgattctgaagcgtgatttgactgacatgaaaagtggccaatcacagtcgaccttgtctagttgcgtgaaacgtaagggcgggacaaaggctttctgtgttgcagagacagaaaaaacaacttaaaaacaaatgttttgttggaataatgcttctcggatgttttcactatagagatgtctagcagagtaattaaaccgcggacatatttcctgcctttttgatgatctacatacacgtttcgctctccgacagccagtcgactcgcctctgacctgtcactcctctaaatacattctgaatggcggcgcgggaatggaggtattgcgcaattactcatttctgcaaatgcggcgagtgctttattttaacacgagagcgcattcatgtacgcaaatcgctaaaacagatatgcgagctcttaaataggcttttttcaaatgaactgcaagtcctctcatgatcgcctgtgtgctcagattgaatacaatcgcgatctctccactattaaagtagacattatttatctttgctccttgactaaatttagtcaaaagtattcaaagttatcaagtatttagaaatagattgatgcatgatcgatgacaatgctaatggtcttcttatttggctgtgttgtgaagtgaaacttacttttagcaaaggtggaacnttttttatttctttacgacaaaanaattatgctggaaatgtttctggatgaggtatttgtgtgatttatacatttagctgtattctgatctgtcttaaagcattacaggtcaaagcaatccgttgttancccgcttattgtttatttatcaaaattaacaataaggctcttaaagcactgctttgataaatgtagtgttgtcatatttcaaatacctcaagtaaaatgaagtcatttgttttatttttttactgacagtgtacttgtatttttttaagtttctattttagattaagatcaagtgtaaaataaaatctacatgtgatgtacagctatttaagaaacaaatttgccatattgtaaagaaaatagtgtaaaatatgtaaataaaaggctaaatttaaatctttttaccatatactttaattnaacctttcaaagcttgaaaatatntntttttaaaaatgggcaaaaagtgtctctatggccttaaagattatttggtagttttaccagtgctattgaaaaagattaattgtcatgaaaggaaaaatcgaccatacttcctttgttagtgcaaattatacatgtagctttgggatttaagcaattaaaccattcaatcaggtttacacttaaaaaaaagtgatttcataatgaaaatcngattttttttcaaaagtaaccaactagtactttttaaaagagtactttgtacttttacctaatattagtattatttactaaaatttgtgttattttagcagtgtaatagtatttttacttgagtacaaaaaagatttcacaagcatttagtgcaggtttattatattattaatatatgattaataaatattattattaatggtttttatttgtatctattcctatgcaatgttttatgggttgctgagaatacatttcaggtcttcaatacatagcatgtcagtcttgaaaaaaaaataggtgctggaattgattttcattaggctgtgcctgtatgaaccctgtcatgtacatttaacatntatttcaagatttgtctgaaagtgtangaatatgacatatagcctatatttataaggtccaagcaacatttccagcttttgatgaataggctactatgaatactttagatttaagtacagcagttttctttttactttttaagaacagcgccattttttnatgaacttttaaaagcacattttaactaaaacttttttttttttnatctgcaagcacagttaatgttcagactatttcaaatgtttaaagtgactgacaataatacatattcttaataataggaattaatctgcatcgtttttaaactgtgcacacctgtagctgcttaattaggcctacgacgctattttttaatactggttaaaaaatagcgtcgtaaggtggtacttggagagacgatttttttctaaggtggtacttggtgaaaaaagtttgagaaccactg",
+  "length_bp": 2395,
+  "sequence_length_bp": 2395,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA8-4_DR"
+  ]
+}

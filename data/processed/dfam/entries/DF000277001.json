@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277001",
+  "name": "EulFul-1.71",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eulemur fulvus",
+  "display_classification": "DNA/hAT-Charlie | Eulemur fulvus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Lemuridae",
+    "Eulemur"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 401 BP; 96 A; 118 C; 101 G; 86 T; 0 other;"
+  },
+  "sequence": "ctgcggtccccaacccccgggccgcggaccggtaccggtccgtggcctgttaggaaccgggccgcacagcaggaggtgagcggcgggcgagcgagcgaagcttcatctgtatttacagccgctccccatcgctcgcatcaccgcctgagctccgcctcctgtcagatcagcggcggcattagttgcaggaaaacaagctcagggctcccactgattctgcattatggtgagttgtataattatttcattatatattacaatgtaataataatagaaataaagtgcacaataaatgtaatgcgcttgaatcatcccgaaaccatccccccccccccccggtccgtggaaaaattgtcttccatgaaaccggtccctggtgccaaaaaggttggggaccgctg",
+  "length_bp": 401,
+  "sequence_length_bp": 401,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

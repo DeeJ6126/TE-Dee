@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275999",
+  "name": "CroInd-1.198",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tc2"
+  ],
+  "species": "Crocidura indochinensis",
+  "display_classification": "DNA/TcMar-Tc2 | Crocidura indochinensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Soricidae",
+    "Crocidurinae",
+    "Crocidura"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 487 BP; 122 A; 105 C; 119 G; 140 T; 1 other;"
+  },
+  "sequence": "ccgtatttgccggcgtataagacgactggtcgtataagacgaccccctaattttgcagttaaaacataggtttaggcctatattcgctgtatnagacagaacgttcctgtgctgcaactgtatgtaccacagtgagccaatcacaacaagcaaaggttcaaagggtatactgtaatagacttcctctctgactctggcccatctgagcaggcttttgacagtgtagattcgggtccagaacattgtctaatttgcatgcatcaaaagcctgcttggattggccgagttagagaggcggtccgagcagccttgcagtgattggtgcaggatcgagttggaaaattcgtttcgtggcaatatccagacgattttcgtttagcggcatatcgagacgtttttcgggatatactcggcgtataagacgactcccgattttcggttgactttttttcgtttcaaaagtcgtcttatacgccggcaaatacgg",
+  "length_bp": 487,
+  "sequence_length_bp": 487,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

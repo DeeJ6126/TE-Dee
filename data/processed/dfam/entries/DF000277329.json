@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277329",
+  "name": "HipAmp-1.103",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Hippopotamus amphibius",
+  "display_classification": "DNA/TcMar-Mariner | Hippopotamus amphibius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Ancodonta",
+    "Hippopotamidae",
+    "Hippopotamus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 966 BP; 264 A; 202 C; 236 G; 264 T; 0 other;"
+  },
+  "sequence": "cgagggtgagtcaaaaattatccgcactccggttatattaaaacttctgttggccgcactgtcttatcagcgctttccgttcaaggctactgtctccccagtcactgctgtgcaggtgtgaacgtgttacatcagttcatttgtaactgcggtgcgagcaaaaatggatgccccacttgtgatttgcacgaaagaagagcagcgtgcagtgattcgttttttgtggtctgagggtgtacctggtgccgttatttatcgaagactttgtgcgcagtatggagaaagtgttttgtcgcgaagaagtgtgtatgaatggatagagaagttcaaggaaggtcgcacaagtgttagccatcaagaaggagccggacgcccgtccacgtccacggctgatgacaacattgagcgtacacgtgaaatgattctgtcgaatagacgagtgacagtggattatgtggcaaatcatttgcaaatcagccatggctctgcctatgaaataatccacgacagacttaggtttcgaaaagtttgtgctgaagcctaaacttcggattaaacgcagaggactgctatccaagggcgttgtgatcttgcatgacaatgcacgtccgcacacttctgcccacactgtcgacactctgcaaaaacttcgttttgaggtgttaaagcatcctccctatagtcctgatcttgctccatcggactttcacctgtttggtcccctgaaagcagccctacgaggacgaagattcacttctgatgaagaagtgaagacagcggtgcattcgtggctcgcagctcagcctaaaacattttttaatgagggaatacgaaagcttgttgacagatggacaaagtgtattgaaaagcaaggagattatgtcgaaaaatgatgtatttgtcttttctaaaagttaattaaaataaattctacagccagagtgcggataatttttgactcaccct",
+  "length_bp": 966,
+  "sequence_length_bp": 966,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

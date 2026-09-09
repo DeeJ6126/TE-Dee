@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279160",
+  "name": "MyoBra-5.1723",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Myotis brandtii",
+  "display_classification": "DNA/TcMar-Tigger | Myotis brandtii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Myotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 738 BP; 224 A; 150 C; 124 G; 240 T; 0 other;"
+  },
+  "sequence": "cagtaaaccctcgattttgcggacctcgatttaacggacttcggatttaacggacaaaatttccggtccgtatgtcatatgtgaaaattaacaccctgttaattttaaaatgcttttaaccaagatttgcttataattaaattaacaggttattttttgttattaattcactgttatttttaacaaattttagcgaataggccatatgttggaaaaaacactgtagtaatttcgccgacataaataaatattacatatctacaactatagtctacatatttaaatccaagagtcaccgctcgtaaacaatgttcggcgaatgattagcacgtgatcacaccgcatcgcgcgcggtaattggttctgttgtcgcgtggcgtgactttctgcagcagttttaacgcgtgccggccgatgttcccacgtgcgctaagccacgccccagccgtgtgcatttgtttactcgcggtgactggtgaatgcacgcatttactagacctattcagtataaatttaaaattacagtaatacatatagaaaacttttctgtgaaattaaacttttcatacatacttaattttaattacacaaacgtgtctacataagtaaaaacaggtaaactaatttgtcaattttttaacatacgcattcggaaaacctactttattatataacggactttcggctttaacggacaccccctcgcccgaattagtccgttatatcgaggttttactg",
+  "length_bp": 738,
+  "sequence_length_bp": 738,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

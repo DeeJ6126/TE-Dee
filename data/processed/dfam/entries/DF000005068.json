@@ -1,0 +1,51 @@
+{
+  "accession": "DF000005068",
+  "name": "Halyomorpha_halys-1_family-724",
+  "description": "TcMar-Mariner DNA Transposon",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/TcMar-Mariner | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 267 BP; 77 A; 51 C; 64 G; 65 T; 10 other;"
+  },
+  "sequence": "tcacctgatctggcaccancngacttccntctgttccccnatctgaaaattgcgctnggnggacggagattttcgncaantgaagaggcaatcaccttcgtgaanaattattttgcagagaaaaacgccgagcactttccggacgggttacagagatgggagcatcgctgggagaagtgcgtagagttacaaggagactatgttgaaaaaataaaagttcaggaaaaacgtcttntatttttgttaggtcggaaacttttcagacca",
+  "length_bp": 267,
+  "sequence_length_bp": 267,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,47 @@
+{
+  "accession": "DF000282430",
+  "name": "OryAfe-1.312_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OryAfe-1.312_int"
+  ],
+  "species": "Orycteropus afer",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Orycteropus afer",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tubulidentata",
+    "Orycteropodidae",
+    "Orycteropus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1356 BP; 382 A; 216 C; 410 G; 347 T; 1 other;"
+  },
+  "sequence": "gttggtgtcagaagcggtgggattcgttgcagtggctccagactcatagaagcacgagactttgtaaaagaaagaaggaaggggcctgggaagtgaaactttggattcttagatggttactttgtttggtgttacctcttaagggagataattgatccagaggctagggcttttggttacacccagccaaaggcccaaggccatatgcatagaatgggacggtaatcaaggtgaagagatgaacctggaatgtctttaaaaggattatgtgttttggattatgtgtttatctgaatgtactatggctattgaatgttctcttacctgcttgtacattagaaatgattatggggtatgtggataacagagagcgtgtaagtccgccttcagccaatacttgattggatatgttaaaaggggaaatagaatttgcccagaagaaacacaggcttttgttttaagccctgtgtgtagagngtactaggagcttaggtagaaaacctgagccccacccagtactactgagggaacggaagatttgcatttgaagagaggacctgaagagaaaaaaaatgactgtttggctttttgaatttcgagcaagcagacaggctttgggtgcatcaaggcaggaaagtcatggtccgtgagagaaaccccttccaggactgaaagttaaaggaagccagtgagtagtagacttgtatgttacttgcttgtgaccacctggatccacctgagtggaaatgggggaagtgcagcaaagaagaaacgggctgagtttggtactctttgacctaggcccggaggctggggatgagaggaagggctggctggtctgaagtgcaatgaattgtgagcctacgggcattgaaatagtccctgaggactgaagatgtgagagaaggtgctggctggtctgaagtgaagggaagagtgtgactcccaaacttggcagctggtacccatgacctagctgggatggctagggctgagctgaccagaacccgaccaaacgaagaggaagatgtttgacactgagctggtgttaagttgctgcaatttgatggcttgcgctgggctggactttgcttgtttatggatccagatgcctgaagtttccaagcagaacagaagattctccagagagaaaggaccatgcttgtctcctcagagtactggtttgatagggatgggcaaattagaaattggctatttaaaatggggggagataaaggcatgaagtggctggcttacacgctttcatgggtgtggttattcttaaactgatggtgaaggggatgtgaatttttgaagtataaaagggataatggctagaaaagccagggggtggcc",
+  "length_bp": 1356,
+  "sequence_length_bp": 1356,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

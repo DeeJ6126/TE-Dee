@@ -1,0 +1,63 @@
+{
+  "accession": "DF000001887",
+  "name": "L1_Mur3_orf2",
+  "description": "L1 Non-LTR Retrotransposon from Muridae.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Muroidea",
+  "display_classification": "LINE/L1 | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 4678 BP; 1961 A; 975 C; 787 G; 893 T; 62 other;"
+  },
+  "sequence": "gtggaaggaaatgaataaaacngttcaagacctgaaagtggaaatagaatcaataaagaaaacccaaactgagggaaatctggaaatgaaaaatttaggaantcgaacaggaaccncagaggcaagcctcaccaacagaatacaagagatggaagagagaatctcaggcgttgaagacacgatagaagaaatggatacntcggtcaaagaaaatgttaaatctaaaaaaaanntcctggcacaaaacatccaggaaatccgggacactatgaaaagaccaaacctaagaataataggaatagaggaaggagaagaaacccagntcaaaggcncagaaaatattttcaacaaaatcatagaagaaaatttccctaacctaaagaaggagatgcctatnaaggtacaagaagcatacagaacaccaaatagactggaccagaaaagaaantcccctcgncacataataatcaaaacactaaacgtacagaacaaagaaagaatattaaaagctgcaagggaaaaagaccaagtaacatataaaggcagacctattagaatnacacctgacttctcaacggagactctaaaagccagaagggcctggacagatgttctacagactctaagagaccacagatgccagcccagactactatacccagcaaaactttcaatcacnatagatggagaaaanaagacattccatgataaaaccaaatttaagcaatatctatctacaaatccagccctacagaaggtactagaaggaaaactccaacctaaagaggttaannnccacacccaagaaaacacaaggaataaataatcccagaccagcaaatcaaaagagggaaacacanncacaccaccaccaacaacaaaataacaggaatcaacaancactgctcattgatatctctcaacatcaatggtctcaattccccaataaaaagacacagactaacagaatggatgcgaaaacaggatccatccttctgctgcatccaagaaacacacctcaacatcaaggatagacatcacctcagggtaaaaggntggaaaaagatattccaagcaaatggacccaagaagcaagctggtgtagccattttaatatctgacaaaatagacttcaaaccaaaactaatcagaagagatagggaaggacactacatactcatcaaaggaaaaatccaccaagaggacattncaattcttaacatctatgcnccaaacacaagggcacccaagttcgtaaaagaaacactactacagcttaaatcacatattgaccctcacacantgatagtgggagacttcaataccccactctcaccaatagacaggtcatccagacaaaaactaaacagagaaatgctggagctaacngacgttataaaccaaatggacctaacagatatttacagaacatttcacccaaacacaaaagaatataccttcttctcagcacctcatggaactttctccaaaattgaccacatactcggacacaaagcaagtctcaacagatacaagaaaattgaaataacnccctgcatcctatcngaccaccacggattaaagctggatatcaacaacaacagaaagcttacaaactcatggaaactgaacaactcnctactgaatgaaaaatgggtcaagacagaaatnaagaaagaaattaaagactttctagaattnaatgaaaatgaanacacaacatacccaaacttatgggacacaatgaaagcggttctaagaggnaagttcatagcactaagtgcctacatnaaaaaantggagagatctcatactagcaacttaacagcacacctgaaagctctagaacaaaaagaagaaatcacacccaaaaggagtagacggcaagaaataatcaaactcagggctgaaatcaataaaatagaaacaaanaaaacaatacaaagaatcaatgaaacaaagagttggttctttgagaaaatcaacaagatngacaaacccttatccaaattaactaaaaggcagagagagaatatccaaattaacaaaatcagaaatgaaaagggggacataacaacagacaccgaggaaatccagagaatcataaggacatactttaaaaacctgtactccaccaaattggaaaatctaaaagaaatggataattttctcgatanataccacttaccaaagttaaatcaagatcagataagcaatttaaacagacctataacccctagtgaaatagaagcagtcattaaaagtctcccaaccaaaaaaagcccagggccagatggttttagcgcagaattctaccagactttcaaagaagagttaatgccaatactcctcaaattattccacaaaatagaaacagaaggaacattgcccaattcattttatgaggccacagttaccctgatacccaaaccacataaagacccaacaaagaaagagaattacagaccaatttcccttatgaacatagatgcaaaaatnctcaataaaatacttgcaaaccgaatccaagaacacatcaaaaagatcatccaccatgatcaagtaggcttcatcccagagatgcagggatggttcaacatacgnaaatcgataaatgtaatccaccatataaacaaactgaaaganaaaaaccacatgatcatctcattagatgcagaaaaggcctttgacaaaatccaacaccccttcatgataaaagtcctggagagattagggatacaagggacatacctnaacataataaaggcaatttacagcaagcccatagccaacatcaanttaaatggagagaaactcaaagcaattccactaaaatcaggaacaagacaaggttgtccactctctccatacctattcaatatagtacttgaagtcttagctagagcaataagacaactgaaggagatcaaggggatacaaattggaaaggaagaagtcaaagtatcnttatttgcagatgatatgatagtatacataagtgaccctaaaaattccaccagggaactcctacagctgataaacactttcagcaaagtagctggatacaaaattaactcacaaaaatcagtagccctcctatatacaaatgacaaacggactgagaaagaaatcagggaaacaacacctttcacaatagcctcaaataatataaaatatcttggggtaactctaaccaagcaagtgaaagacttgtatgataaaaacttcaagncnttgaagaaagaaattgaagaagatatcagaagatggaaagatctcccatgctcatggatcggtaggattaacatagtaaaaatggccatcctaccaaaagcaatctacagattcaatgcaatccccatcaaaattccaacacaattcttcacagancttgaaaggacaattttcagcttcatatggaaacacaaaaaacccaggatagctaaaacaatcctgaacaataaaagaactgctggaggtatcaccatccccgatttcaagttgtactacagagctatagtaataaaaacagcatggtattggcataaaaacagacacgttgatcaatggaatcgaattgaagacccagacataaatccacacacctatggacacctgatttttgataaagaagccagaaatacacactggaaaaaagacagcatcttcaacaaatggtgctggtcaaactggatgnctgcatgtagaagaatgcaaatagatccatacttatcaccctgcacaaaactcaantccaagtggatcaaagacctcaacataaaaccagatacactgaacctgatagaagagaaagtggggaatagccttgaacncattggcacaggagaagactttctgaacagaacaccgntagcacaggcactaagatcaacaattaataaatgggacctcatgaaactgaaaagcttctgtanggcaaaggacaccgtcantcggacaaagcggcagcctacagaatgggaaaagatttttaccaactncacatccgatagagggctaatatccaaaatatataaagaactcaagaaactagatatcaagaaaacaaataacccaattnaaaaatggggtacagatctaaacagagaattctcaanagaggaanctcaaatggctgagaaacacttaaagaaatgttcaacatccttagccatcagggaaatgcaaatcaaaactactttgagattccatcttacacccgtcagaatggctaagatcaataanacaagtgacagctcatgctggcgaggatgtggagcaaggggaacactcntccattgctggtgggagtgcaaacttgtacagccactatggaaatcagtgtggcggttcctcagaaagntgggaatcgatctacctcaagatccagctataccactcttgggcatatacccaaaggacgctccatcctaccacagggacacttgctcaaccatgttcattgcngctctattcataatagccagaaactggaaacaacctagatgtccctcaacagaagaatggataaagaaaatgtggtacatttacacaatggagtattactcagctgttaaaaanaatganatcatgaaattcgcaggcaaatggatggaactagaaaaaatcatcctgagtgaggtaacccagacccagaaagacaaatatggtatgtatt",
+  "length_bp": 4678,
+  "sequence_length_bp": 4678,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "891..4677",
+      "start": 890,
+      "end": 4677,
+      "qualifiers": {
+        "product": "L1_Mur3_pol",
+        "number": "1",
+        "note": "L1_Mur3  via tfasty with L1MA6_pol [Muridae]",
+        "translation": "INKHCSLISLNINGLNSPIKRHRLTEWMXKQDPSFCCIQETHLNIKDRHHLRVKGWKK"
+      },
+      "label": "L1_Mur3_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "L1_Mur3_orf2"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000001884",
+  "name": "L1_Mur2_5end",
+  "description": "L1 Non-LTR Retrotransposon from Muridae.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Muridae",
+  "display_classification": "LINE/L1 | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 970 BP; 304 A; 310 C; 183 G; 161 T; 12 other;"
+  },
+  "sequence": "cccttgggccaagccaagctgccctgagcagcctgctatcccagggggacctccattctcctgccacctctcctcccaccttcatcagacctgcggatcctgaaccatacaggtnagcttcccttcccccacccatcttccctgctcgctgagccctctgggccaagccaagctgccctgagcagcctgctatcccagggggacctccattctcccgccacctctccncccaccttcatcagacctgcggatcctgaaccatacaggtaagcttcccttcccccacccatcttccctgctcgctgagtcctctgggncaagccaagctgccctgagcagcctgctatcccagggggacctccattctcccgccacctctccgcccaccttcatcggacctgnggctcctgaaccatacagacctgcaggtccggaaccatacagcccaaggatacccatcagaggcctgccacaccaggaccatcgaggttaacccccctcccaatacctactacaacaggaacatccagggaccaaaaccatccagatggctaaaggccnncgnaagaacacaatcaacaaaagccagggcaatatggcaccnccagagcncagctatcctactacagcaagccctggatatcctaacacaaccgaagcacaagaaaatgaccttaaatccaatcttataaagatgatagaggcctttaaagaggaaatgaataaatcccttaaagaaatacaggaaaatacaatcaaacaggtagaggcctttaaagaggaaacaaataaatcccttaaaganatacaggaaaatacaatcaaacaggtgaaggaaatgaataaaactgtncaagacctgaaaatggaaatagaagcaataaagaaaacacaaactgagggaatcctggagatggaaaacctagggaagagaacaggaacnacagacgcaagcatcaccaacagaata",
+  "length_bp": 970,
+  "sequence_length_bp": 970,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1_Mur2_5end"
+  ]
+}

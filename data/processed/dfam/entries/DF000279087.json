@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279087",
+  "name": "MyoBra-1.255",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Myotis brandtii",
+  "display_classification": "DNA/hAT-Charlie | Myotis brandtii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Myotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 622 BP; 174 A; 123 C; 107 G; 218 T; 0 other;"
+  },
+  "sequence": "caagcatgtcaaactcgcggcccgcgggccgcatgcggcccacaacgaatatttttgcggcccagccaatataacggtatgtaagaaacgttttaataaaaatttcgtaacttaatttttacaatatcctgttatacataattattaataacgaactacaacgttcgctaatgactgattactataatcgtgttgcattcatttcccttacgcgccttacgcgcaggcgcaccatttctctccactaatactagcagcgaatattttagcagccgattgccacgtcattagtcttggactgacttgtttggtgtgcgcaacaggaaatatttcgctttcggagaacaagaaaaataggtttatttgcgttacgcttattaatttgtgcagttattcagtgtctggtaagttaatgttcaagaaaaaatattaatttttattaaaatgttctattattttatgttaacgattactcatttatttcagccctttgtattcagcatgtctctatcgaaataaacctacgtttctatgaaaattgaagcttttgtttttttgcggcccacataaacttaaaccttgtttatttggcccgtgttagcctttgagtttgacatgcttg",
+  "length_bp": 622,
+  "sequence_length_bp": 622,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

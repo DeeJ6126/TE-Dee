@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-09-03T16:20:38.269775+00:00",
+  "checks": [
+    "Abstract: bilingual structural/literal checks passed",
+    "Background & Summary: bilingual structural/literal checks passed",
+    "Methods: bilingual structural/literal checks passed",
+    "Data Records: bilingual structural/literal checks passed",
+    "Data Overview: bilingual structural/literal checks passed",
+    "Technical Validation: bilingual structural/literal checks passed",
+    "Usage Notes: bilingual structural/literal checks passed",
+    "Data Availability: bilingual structural/literal checks passed",
+    "Code Availability: bilingual structural/literal checks passed",
+    "Author Contributions: bilingual structural/literal checks passed",
+    "Competing Interests: bilingual structural/literal checks passed",
+    "Funding: bilingual structural/literal checks passed",
+    "References: bilingual structural/literal checks passed"
+  ],
+  "status": "passed",
+  "english_words_before_references_including_tables_and_placeholders": 4147,
+  "english_abstract_words": 150,
+  "title_characters": 79,
+  "references": 15,
+  "doi_references": 14,
+  "dual_source_doi_records": 12,
+  "tables": 2,
+  "author_placeholders_per_language": 14,
+  "manuscript_sha256": {
+    "manuscript_en.md": "f6a3619b2fa5e333b2845d13028cc027dbe9070d85c9e953421169aab3bd72d2",
+    "manuscript_zh.md": "0059c35c0df5a2aef2250e3cf2d77635a858bc36a1add3cd9785ffae2db6b9cc"
+  },
+  "scope": "Mechanical text and retained-manifest checks; not human scientific review or live database validation."
+}

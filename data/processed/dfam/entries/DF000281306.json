@@ -1,0 +1,48 @@
+{
+  "accession": "DF000281306",
+  "name": "VulLag-1.18",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Vulpes lagopus",
+  "display_classification": "SINE/tRNA | Vulpes lagopus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Canidae",
+    "Vulpes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 192 BP; 30 A; 62 C; 47 G; 51 T; 2 other;"
+  },
+  "sequence": "gggcgcctgggtggctcagtcggttaagcgtccgactcttggtttcggctcaggtcatgatctcagggtcgtgggatcgagccccgcgtcgggctccgcgctcagcgnggagtctgcttgagattctctctctccctctgcccctcccccccnctctctctctctctcaaataaataaatcttttaaaaaaa",
+  "length_bp": 192,
+  "sequence_length_bp": 192,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

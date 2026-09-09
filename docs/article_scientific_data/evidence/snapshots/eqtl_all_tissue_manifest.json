@@ -1,0 +1,843 @@
+{
+  "analysis_version": "gtex_v11_strict_te_overlap_v1",
+  "coordinate_contract": {
+    "genome_build": "GRCh38/b38",
+    "mapping_type": "strict_te_overlap",
+    "overlap_predicate": "variant_start < te_end AND variant_end > te_start",
+    "te_interval": "0-based half-open BED",
+    "variant_interval": "0-based half-open REF span converted from 1-based GTEx variant_id"
+  },
+  "counts": {
+    "approved_non_primary_rows_excluded": 0,
+    "approved_te_interval_count": 596140,
+    "approved_te_names_with_intervals": 202,
+    "approved_te_names_without_intervals": 74,
+    "bed_rows_invalid": 0,
+    "bed_rows_total": 5317286,
+    "overlap_evidence_row_count": 10676462,
+    "source_association_count": 104901807,
+    "te_gene_tissue_summary_count": 3320749,
+    "tissue_count": 50
+  },
+  "input_hashes": {
+    "archive_sha256": "aacb79873e78c3b3ca5834c47f1b2631a211dc9471292aa00cd7822e6f3b44c7",
+    "browse_catalog_sha256": "7dc80d8143dd44bf7aa1211a8b7babf44df94e440fd5d288a9d15c9840425f14",
+    "te_bed_sha256": "a47f60f213ba45041d77afdf5422167b25093489f43f67fa92f6f0d0acedf67e"
+  },
+  "interpretation_limit": "Positional TE-Variant overlap plus tissue eQTL association; not proof of TE-mediated regulation or causality.",
+  "manifest_schema_version": 1,
+  "outputs": {
+    "missing_browse_te": {
+      "path": "missing_browse_te.tsv",
+      "row_count": 276,
+      "sha256": "2c1fb1295a1a46cd9c59d31731a7ef96d4d28fd6645e9d243f0aa334d4129ce5"
+    }
+  },
+  "processing": {
+    "preflight_report_sha256": "0cda26a89ad41b9ee6d42ee9845c31ea368d9cc7d2ccd267b559b2fcc8596ef5",
+    "summed_tissue_elapsed_seconds": 1610.991767
+  },
+  "status": "complete",
+  "tissues": {
+    "Adipose_Subcutaneous": {
+      "counts": {
+        "eqtl_row_count": 3909847,
+        "overlap_evidence_row_count": 407627,
+        "overlapping_unique_gene_count": 14564,
+        "overlapping_unique_te_instance_count": 78070,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 204106,
+        "parquet_row_group_count": 4,
+        "te_gene_pair_count": 119452,
+        "variant_te_overlap_pair_count": 204213
+      },
+      "elapsed_seconds": 54.748494,
+      "manifest_sha256": "03823ec524f0a0764a79ea2ce92282168a949e44e955b5afb4aa64414a6175b1",
+      "process_peak_rss_bytes": 1848758272
+    },
+    "Adipose_Visceral_Omentum": {
+      "counts": {
+        "eqtl_row_count": 2724293,
+        "overlap_evidence_row_count": 281248,
+        "overlapping_unique_gene_count": 11378,
+        "overlapping_unique_te_instance_count": 60519,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 152644,
+        "parquet_row_group_count": 3,
+        "te_gene_pair_count": 84769,
+        "variant_te_overlap_pair_count": 152719
+      },
+      "elapsed_seconds": 37.206531,
+      "manifest_sha256": "85ccaabe808ce4966f6f35c3eefd5e575742704dc27406fb302a6231150d7834",
+      "process_peak_rss_bytes": 2020311040
+    },
+    "Adrenal_Gland": {
+      "counts": {
+        "eqtl_row_count": 1421365,
+        "overlap_evidence_row_count": 147245,
+        "overlapping_unique_gene_count": 7504,
+        "overlapping_unique_te_instance_count": 38160,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 90587,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 47356,
+        "variant_te_overlap_pair_count": 90641
+      },
+      "elapsed_seconds": 24.389982,
+      "manifest_sha256": "cfce783252c8d241b7a51507eb84493fd71a7c443e74f97678a404a5cc8fce6d",
+      "process_peak_rss_bytes": 2020311040
+    },
+    "Artery_Aorta": {
+      "counts": {
+        "eqtl_row_count": 2731586,
+        "overlap_evidence_row_count": 282233,
+        "overlapping_unique_gene_count": 11573,
+        "overlapping_unique_te_instance_count": 61500,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 153151,
+        "parquet_row_group_count": 3,
+        "te_gene_pair_count": 86399,
+        "variant_te_overlap_pair_count": 153243
+      },
+      "elapsed_seconds": 41.292219,
+      "manifest_sha256": "f1c83b8be0fb194313caa6e2f6475dd74083bd1842f55db09db6980a5f36d73c",
+      "process_peak_rss_bytes": 2146680832
+    },
+    "Artery_Coronary": {
+      "counts": {
+        "eqtl_row_count": 1108711,
+        "overlap_evidence_row_count": 112734,
+        "overlapping_unique_gene_count": 6156,
+        "overlapping_unique_te_instance_count": 30969,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 71950,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 37447,
+        "variant_te_overlap_pair_count": 71995
+      },
+      "elapsed_seconds": 20.194715,
+      "manifest_sha256": "98de7529f4a38c2abc02266357ead015e0778e216c72dc1dcee63b8c25be1ce6",
+      "process_peak_rss_bytes": 2146680832
+    },
+    "Artery_Tibial": {
+      "counts": {
+        "eqtl_row_count": 3834263,
+        "overlap_evidence_row_count": 399714,
+        "overlapping_unique_gene_count": 14028,
+        "overlapping_unique_te_instance_count": 78492,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 204124,
+        "parquet_row_group_count": 4,
+        "te_gene_pair_count": 118091,
+        "variant_te_overlap_pair_count": 204232
+      },
+      "elapsed_seconds": 51.329112,
+      "manifest_sha256": "02b1ecc4dcef955f21bd153c9e3f49b5d680c2ee665dfffa7d613805f2190040",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Bladder": {
+      "counts": {
+        "eqtl_row_count": 156209,
+        "overlap_evidence_row_count": 13802,
+        "overlapping_unique_gene_count": 995,
+        "overlapping_unique_te_instance_count": 4573,
+        "overlapping_unique_te_name_count": 188,
+        "overlapping_unique_variant_count": 9939,
+        "parquet_row_group_count": 1,
+        "te_gene_pair_count": 4725,
+        "variant_te_overlap_pair_count": 9945
+      },
+      "elapsed_seconds": 3.548088,
+      "manifest_sha256": "2a1a2ae6b38290c51557d85716fa282053ac3a31cef97ecc02a9781ab2cf057e",
+      "process_peak_rss_bytes": 692629504
+    },
+    "Brain_Amygdala": {
+      "counts": {
+        "eqtl_row_count": 718656,
+        "overlap_evidence_row_count": 70953,
+        "overlapping_unique_gene_count": 4429,
+        "overlapping_unique_te_instance_count": 22638,
+        "overlapping_unique_te_name_count": 201,
+        "overlapping_unique_variant_count": 50678,
+        "parquet_row_group_count": 1,
+        "te_gene_pair_count": 24532,
+        "variant_te_overlap_pair_count": 50707
+      },
+      "elapsed_seconds": 12.189408,
+      "manifest_sha256": "5ab618b88bc494cc4b17ff24b2761ff47c2cd2f7b8c8b6e7497faa6bb3796bf5",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Anterior_cingulate_cortex_BA24": {
+      "counts": {
+        "eqtl_row_count": 1188732,
+        "overlap_evidence_row_count": 117924,
+        "overlapping_unique_gene_count": 6742,
+        "overlapping_unique_te_instance_count": 33894,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 78423,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 39898,
+        "variant_te_overlap_pair_count": 78465
+      },
+      "elapsed_seconds": 17.558409,
+      "manifest_sha256": "ff9c746c548995b189a7fc123432a3ff258c13cdb6e1833448df7d947ea710c6",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Caudate_basal_ganglia": {
+      "counts": {
+        "eqtl_row_count": 1773520,
+        "overlap_evidence_row_count": 177615,
+        "overlapping_unique_gene_count": 9245,
+        "overlapping_unique_te_instance_count": 45766,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 108736,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 58320,
+        "variant_te_overlap_pair_count": 108790
+      },
+      "elapsed_seconds": 28.188523,
+      "manifest_sha256": "54caabf7a7f33c6bff2576b5f11883cbd65ba20bb95c06b16ea744b83927cd23",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Cerebellar_Hemisphere": {
+      "counts": {
+        "eqtl_row_count": 2298505,
+        "overlap_evidence_row_count": 228562,
+        "overlapping_unique_gene_count": 10919,
+        "overlapping_unique_te_instance_count": 51439,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 123260,
+        "parquet_row_group_count": 3,
+        "te_gene_pair_count": 74461,
+        "variant_te_overlap_pair_count": 123333
+      },
+      "elapsed_seconds": 34.25441,
+      "manifest_sha256": "08b4de12dab7d1ee2e3f5622796b8d1ec5eb3870ca7590218eb45b92dd56c082",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Cerebellum": {
+      "counts": {
+        "eqtl_row_count": 2273464,
+        "overlap_evidence_row_count": 225457,
+        "overlapping_unique_gene_count": 10855,
+        "overlapping_unique_te_instance_count": 50780,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 121950,
+        "parquet_row_group_count": 3,
+        "te_gene_pair_count": 73431,
+        "variant_te_overlap_pair_count": 122016
+      },
+      "elapsed_seconds": 24.904539,
+      "manifest_sha256": "69c8c75280b1158c4d370a6a6b6ae5187491974c646fc927bdb3b489ca49e6d1",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Cortex": {
+      "counts": {
+        "eqtl_row_count": 1734645,
+        "overlap_evidence_row_count": 173901,
+        "overlapping_unique_gene_count": 9190,
+        "overlapping_unique_te_instance_count": 45310,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 108448,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 57591,
+        "variant_te_overlap_pair_count": 108509
+      },
+      "elapsed_seconds": 19.101847,
+      "manifest_sha256": "2870fdd1d9eea81747d3ba19fe14c8cb26c84da54ca08eca6c29b69a9a8f4aac",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Frontal_Cortex_BA9": {
+      "counts": {
+        "eqtl_row_count": 1689173,
+        "overlap_evidence_row_count": 173073,
+        "overlapping_unique_gene_count": 9027,
+        "overlapping_unique_te_instance_count": 45281,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 108769,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 56560,
+        "variant_te_overlap_pair_count": 108834
+      },
+      "elapsed_seconds": 24.800369,
+      "manifest_sha256": "3f9b13b50204915df765de008f453958d1f2a60f5b23fcb4992fdc696713b73a",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Hippocampus": {
+      "counts": {
+        "eqtl_row_count": 1140856,
+        "overlap_evidence_row_count": 113522,
+        "overlapping_unique_gene_count": 6456,
+        "overlapping_unique_te_instance_count": 32294,
+        "overlapping_unique_te_name_count": 201,
+        "overlapping_unique_variant_count": 75085,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 38163,
+        "variant_te_overlap_pair_count": 75134
+      },
+      "elapsed_seconds": 20.545938,
+      "manifest_sha256": "9f3ac45248ec23b97621ccdfaddcecfb51798a20563febcf8b5dc27172e76fdd",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Hypothalamus": {
+      "counts": {
+        "eqtl_row_count": 1214183,
+        "overlap_evidence_row_count": 121520,
+        "overlapping_unique_gene_count": 6616,
+        "overlapping_unique_te_instance_count": 33674,
+        "overlapping_unique_te_name_count": 200,
+        "overlapping_unique_variant_count": 78693,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 40581,
+        "variant_te_overlap_pair_count": 78743
+      },
+      "elapsed_seconds": 21.192147,
+      "manifest_sha256": "c3e4c8445316c5b9e2d1189274cdd2c16472f76e07b314906c8217abfc5b516d",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Nucleus_accumbens_basal_ganglia": {
+      "counts": {
+        "eqtl_row_count": 1742334,
+        "overlap_evidence_row_count": 176563,
+        "overlapping_unique_gene_count": 8918,
+        "overlapping_unique_te_instance_count": 45232,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 108050,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 57400,
+        "variant_te_overlap_pair_count": 108109
+      },
+      "elapsed_seconds": 23.60319,
+      "manifest_sha256": "9312a8029d495341828cfb297eb0a94ab619ebd3c8305737b6a11e208bbba401",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Putamen_basal_ganglia": {
+      "counts": {
+        "eqtl_row_count": 1328562,
+        "overlap_evidence_row_count": 131610,
+        "overlapping_unique_gene_count": 7536,
+        "overlapping_unique_te_instance_count": 37179,
+        "overlapping_unique_te_name_count": 201,
+        "overlapping_unique_variant_count": 86292,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 44614,
+        "variant_te_overlap_pair_count": 86333
+      },
+      "elapsed_seconds": 19.207196,
+      "manifest_sha256": "5cd30a8ae7dd946768beda0fd06b4012a5914d3cafa8f1a325225ef5a7fa9643",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Spinal_cord_cervical_c-1": {
+      "counts": {
+        "eqtl_row_count": 1029828,
+        "overlap_evidence_row_count": 104394,
+        "overlapping_unique_gene_count": 5989,
+        "overlapping_unique_te_instance_count": 30468,
+        "overlapping_unique_te_name_count": 201,
+        "overlapping_unique_variant_count": 70638,
+        "parquet_row_group_count": 1,
+        "te_gene_pair_count": 34993,
+        "variant_te_overlap_pair_count": 70681
+      },
+      "elapsed_seconds": 14.921555,
+      "manifest_sha256": "f428a58b31f5466569e58d8ff2b5c45e2e549a67b3ca0b5ee78eff3769fe2129",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Brain_Substantia_nigra": {
+      "counts": {
+        "eqtl_row_count": 694393,
+        "overlap_evidence_row_count": 70371,
+        "overlapping_unique_gene_count": 4366,
+        "overlapping_unique_te_instance_count": 22039,
+        "overlapping_unique_te_name_count": 201,
+        "overlapping_unique_variant_count": 49816,
+        "parquet_row_group_count": 1,
+        "te_gene_pair_count": 23990,
+        "variant_te_overlap_pair_count": 49853
+      },
+      "elapsed_seconds": 10.857646,
+      "manifest_sha256": "c7189b434374c216c7a867364e2a258d5982bd283dc25a8cc8d4338e0e3b7652",
+      "process_peak_rss_bytes": 2256908288
+    },
+    "Breast_Mammary_Tissue": {
+      "counts": {
+        "eqtl_row_count": 2354792,
+        "overlap_evidence_row_count": 241874,
+        "overlapping_unique_gene_count": 10469,
+        "overlapping_unique_te_instance_count": 53518,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 133169,
+        "parquet_row_group_count": 3,
+        "te_gene_pair_count": 74302,
+        "variant_te_overlap_pair_count": 133244
+      },
+      "elapsed_seconds": 31.161371,
+      "manifest_sha256": "853225f93538b83e8ec866d18a171769b4c85ff8b2fbe06386f5d8c0852507a9",
+      "process_peak_rss_bytes": 2265620480
+    },
+    "Cells_Cultured_fibroblasts": {
+      "counts": {
+        "eqtl_row_count": 4017302,
+        "overlap_evidence_row_count": 409429,
+        "overlapping_unique_gene_count": 14414,
+        "overlapping_unique_te_instance_count": 82803,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 214942,
+        "parquet_row_group_count": 4,
+        "te_gene_pair_count": 124656,
+        "variant_te_overlap_pair_count": 215056
+      },
+      "elapsed_seconds": 52.989758,
+      "manifest_sha256": "265743db220be77aad2900945f4e0adcdf64a8c7a8dfd83ff5b5ed78c3e9e625",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Cells_EBV-transformed_lymphocytes": {
+      "counts": {
+        "eqtl_row_count": 1892622,
+        "overlap_evidence_row_count": 188148,
+        "overlapping_unique_gene_count": 9199,
+        "overlapping_unique_te_instance_count": 43738,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 105296,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 60506,
+        "variant_te_overlap_pair_count": 105352
+      },
+      "elapsed_seconds": 25.207692,
+      "manifest_sha256": "e2bd449c8294f5e84d64f9e9af197e68057e157e7b44ddd29de2758871d90e63",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Colon_Sigmoid": {
+      "counts": {
+        "eqtl_row_count": 2215312,
+        "overlap_evidence_row_count": 221834,
+        "overlapping_unique_gene_count": 10056,
+        "overlapping_unique_te_instance_count": 51635,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 125839,
+        "parquet_row_group_count": 3,
+        "te_gene_pair_count": 70379,
+        "variant_te_overlap_pair_count": 125914
+      },
+      "elapsed_seconds": 32.559591,
+      "manifest_sha256": "326b5bd84e9dbadea2629c44316f81ef99fbd46758826e4b15684fd4d92c81b8",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Colon_Transverse": {
+      "counts": {
+        "eqtl_row_count": 2383407,
+        "overlap_evidence_row_count": 241848,
+        "overlapping_unique_gene_count": 10735,
+        "overlapping_unique_te_instance_count": 53668,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 133477,
+        "parquet_row_group_count": 3,
+        "te_gene_pair_count": 74915,
+        "variant_te_overlap_pair_count": 133559
+      },
+      "elapsed_seconds": 34.66297,
+      "manifest_sha256": "3b0a1986a7eb6397430e7d3e05f7684dca400eeed5bb787a5472cee1573632b8",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Esophagus_Gastroesophageal_Junction": {
+      "counts": {
+        "eqtl_row_count": 2161974,
+        "overlap_evidence_row_count": 217592,
+        "overlapping_unique_gene_count": 9808,
+        "overlapping_unique_te_instance_count": 50026,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 121874,
+        "parquet_row_group_count": 3,
+        "te_gene_pair_count": 68581,
+        "variant_te_overlap_pair_count": 121942
+      },
+      "elapsed_seconds": 33.834068,
+      "manifest_sha256": "005fdbbc1b0940e9c4d739e76a4e223bc9e8d6ac1a368b92bf4cfe562038bbed",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Esophagus_Mucosa": {
+      "counts": {
+        "eqtl_row_count": 3345320,
+        "overlap_evidence_row_count": 341512,
+        "overlapping_unique_gene_count": 13148,
+        "overlapping_unique_te_instance_count": 69360,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 176958,
+        "parquet_row_group_count": 4,
+        "te_gene_pair_count": 102257,
+        "variant_te_overlap_pair_count": 177059
+      },
+      "elapsed_seconds": 43.619748,
+      "manifest_sha256": "90684e33062836cf7b8777484a8baefb2a347341843e09c11f7fcdeda68400c2",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Esophagus_Muscularis": {
+      "counts": {
+        "eqtl_row_count": 3214191,
+        "overlap_evidence_row_count": 326366,
+        "overlapping_unique_gene_count": 12609,
+        "overlapping_unique_te_instance_count": 67598,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 171064,
+        "parquet_row_group_count": 4,
+        "te_gene_pair_count": 99126,
+        "variant_te_overlap_pair_count": 171162
+      },
+      "elapsed_seconds": 53.016446,
+      "manifest_sha256": "7b0663d07c439ca780bc9db039dcdb7445c172200e613ebcf9b3f5680106a613",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Heart_Atrial_Appendage": {
+      "counts": {
+        "eqtl_row_count": 2256771,
+        "overlap_evidence_row_count": 231456,
+        "overlapping_unique_gene_count": 10067,
+        "overlapping_unique_te_instance_count": 54293,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 133128,
+        "parquet_row_group_count": 3,
+        "te_gene_pair_count": 71706,
+        "variant_te_overlap_pair_count": 133211
+      },
+      "elapsed_seconds": 44.284227,
+      "manifest_sha256": "0a9fb685bafcafb473cd012db460dca172a796c37682665b2a2367e361ac763c",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Heart_Left_Ventricle": {
+      "counts": {
+        "eqtl_row_count": 1751339,
+        "overlap_evidence_row_count": 173594,
+        "overlapping_unique_gene_count": 8218,
+        "overlapping_unique_te_instance_count": 44312,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 106105,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 54867,
+        "variant_te_overlap_pair_count": 106169
+      },
+      "elapsed_seconds": 35.465481,
+      "manifest_sha256": "06ac30680152f037aeea685e181c1abc0b5c19c99f2585dd8e9670397ccfeffc",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Kidney_Cortex": {
+      "counts": {
+        "eqtl_row_count": 237485,
+        "overlap_evidence_row_count": 22712,
+        "overlapping_unique_gene_count": 1724,
+        "overlapping_unique_te_instance_count": 8112,
+        "overlapping_unique_te_name_count": 197,
+        "overlapping_unique_variant_count": 17404,
+        "parquet_row_group_count": 1,
+        "te_gene_pair_count": 8174,
+        "variant_te_overlap_pair_count": 17413
+      },
+      "elapsed_seconds": 5.0384,
+      "manifest_sha256": "d212200a93ad8ad8daff38a642d05e9157dfdd411b5b3ed7aaf69c91902b42fb",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Liver": {
+      "counts": {
+        "eqtl_row_count": 974956,
+        "overlap_evidence_row_count": 96924,
+        "overlapping_unique_gene_count": 5407,
+        "overlapping_unique_te_instance_count": 27204,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 62746,
+        "parquet_row_group_count": 1,
+        "te_gene_pair_count": 31849,
+        "variant_te_overlap_pair_count": 62776
+      },
+      "elapsed_seconds": 15.057958,
+      "manifest_sha256": "14bd634f54cb80f41dc7856d090afe35fa86cabe4089dcd36e04f9e8b20b3507",
+      "process_peak_rss_bytes": 1321213952
+    },
+    "Lung": {
+      "counts": {
+        "eqtl_row_count": 3128405,
+        "overlap_evidence_row_count": 322007,
+        "overlapping_unique_gene_count": 12916,
+        "overlapping_unique_te_instance_count": 65320,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 166972,
+        "parquet_row_group_count": 3,
+        "te_gene_pair_count": 95906,
+        "variant_te_overlap_pair_count": 167059
+      },
+      "elapsed_seconds": 55.009187,
+      "manifest_sha256": "cf7b5ca7de55ae6f03733f3f73d7c9128ff7caeaef20e3d217682fd39a8e8f1f",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Minor_Salivary_Gland": {
+      "counts": {
+        "eqtl_row_count": 741449,
+        "overlap_evidence_row_count": 73960,
+        "overlapping_unique_gene_count": 4838,
+        "overlapping_unique_te_instance_count": 22273,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 50063,
+        "parquet_row_group_count": 1,
+        "te_gene_pair_count": 25195,
+        "variant_te_overlap_pair_count": 50091
+      },
+      "elapsed_seconds": 17.823465,
+      "manifest_sha256": "da6945355d382c62f0a462889cf313155066e099cdd7558a50e951346b9be7c2",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Muscle_Skeletal": {
+      "counts": {
+        "eqtl_row_count": 3211441,
+        "overlap_evidence_row_count": 320491,
+        "overlapping_unique_gene_count": 12059,
+        "overlapping_unique_te_instance_count": 68004,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 171266,
+        "parquet_row_group_count": 4,
+        "te_gene_pair_count": 97885,
+        "variant_te_overlap_pair_count": 171365
+      },
+      "elapsed_seconds": 53.683512,
+      "manifest_sha256": "be1e379b5433ab8691c8cad6eda468d9590c66248a7f1db13f7dfa19b9dd3485",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Nerve_Tibial": {
+      "counts": {
+        "eqtl_row_count": 4823433,
+        "overlap_evidence_row_count": 504017,
+        "overlapping_unique_gene_count": 17018,
+        "overlapping_unique_te_instance_count": 91098,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 242672,
+        "parquet_row_group_count": 5,
+        "te_gene_pair_count": 147778,
+        "variant_te_overlap_pair_count": 242791
+      },
+      "elapsed_seconds": 61.646647,
+      "manifest_sha256": "3b43554e808b9ac4fc0a07bf160d4190beaff21ea4e632a4aec7323b2f6c4605",
+      "process_peak_rss_bytes": 1932718080
+    },
+    "Ovary": {
+      "counts": {
+        "eqtl_row_count": 786481,
+        "overlap_evidence_row_count": 76385,
+        "overlapping_unique_gene_count": 4670,
+        "overlapping_unique_te_instance_count": 21880,
+        "overlapping_unique_te_name_count": 201,
+        "overlapping_unique_variant_count": 49475,
+        "parquet_row_group_count": 1,
+        "te_gene_pair_count": 26308,
+        "variant_te_overlap_pair_count": 49507
+      },
+      "elapsed_seconds": 15.345728,
+      "manifest_sha256": "4b38e739648312355636823df95ae7e8c97652d79d7b471c5ede506493835766",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Pancreas": {
+      "counts": {
+        "eqtl_row_count": 1770006,
+        "overlap_evidence_row_count": 177112,
+        "overlapping_unique_gene_count": 8596,
+        "overlapping_unique_te_instance_count": 44963,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 108612,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 56595,
+        "variant_te_overlap_pair_count": 108681
+      },
+      "elapsed_seconds": 31.326086,
+      "manifest_sha256": "2a0b551037db02d94319595d7d6d1e5837c1f05855c5aa0a2e57f0ffc99e6352",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Pituitary": {
+      "counts": {
+        "eqtl_row_count": 1961412,
+        "overlap_evidence_row_count": 202129,
+        "overlapping_unique_gene_count": 9349,
+        "overlapping_unique_te_instance_count": 46317,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 113193,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 63394,
+        "variant_te_overlap_pair_count": 113256
+      },
+      "elapsed_seconds": 32.645947,
+      "manifest_sha256": "0191bfc605349e238dd6fcf24c3b286c60018ffe93a99009bd137f320a6f3ed7",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Prostate": {
+      "counts": {
+        "eqtl_row_count": 1330644,
+        "overlap_evidence_row_count": 135205,
+        "overlapping_unique_gene_count": 7213,
+        "overlapping_unique_te_instance_count": 34871,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 83186,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 43728,
+        "variant_te_overlap_pair_count": 83244
+      },
+      "elapsed_seconds": 23.320034,
+      "manifest_sha256": "d7ab4e13d734d09b4ff652bf8b43d0875e39fd03be1fa25a79226229d266ba3e",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Skin_Not_Sun_Exposed_Suprapubic": {
+      "counts": {
+        "eqtl_row_count": 3657540,
+        "overlap_evidence_row_count": 373400,
+        "overlapping_unique_gene_count": 14223,
+        "overlapping_unique_te_instance_count": 73651,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 189448,
+        "parquet_row_group_count": 4,
+        "te_gene_pair_count": 111258,
+        "variant_te_overlap_pair_count": 189546
+      },
+      "elapsed_seconds": 52.41036,
+      "manifest_sha256": "b0ad6c34eab131900c8bda044f412c1169b993680ad6280c8411845ecb72e860",
+      "process_peak_rss_bytes": 2438701056
+    },
+    "Skin_Sun_Exposed_Lower_leg": {
+      "counts": {
+        "eqtl_row_count": 4419217,
+        "overlap_evidence_row_count": 449854,
+        "overlapping_unique_gene_count": 16017,
+        "overlapping_unique_te_instance_count": 83962,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 220244,
+        "parquet_row_group_count": 5,
+        "te_gene_pair_count": 132677,
+        "variant_te_overlap_pair_count": 220361
+      },
+      "elapsed_seconds": 65.301706,
+      "manifest_sha256": "396d1070acc097840eaafb48e4d92493e7f6174413d2edd478788b93cefaf958",
+      "process_peak_rss_bytes": 2524901376
+    },
+    "Small_Intestine_Terminal_Ileum": {
+      "counts": {
+        "eqtl_row_count": 878192,
+        "overlap_evidence_row_count": 89525,
+        "overlapping_unique_gene_count": 5466,
+        "overlapping_unique_te_instance_count": 24834,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 57179,
+        "parquet_row_group_count": 1,
+        "te_gene_pair_count": 29770,
+        "variant_te_overlap_pair_count": 57220
+      },
+      "elapsed_seconds": 17.908081,
+      "manifest_sha256": "6702468c56006a3887436c438b1d6dc4d0d51453f46bf10373712228c9173fb9",
+      "process_peak_rss_bytes": 2524901376
+    },
+    "Spleen": {
+      "counts": {
+        "eqtl_row_count": 1839993,
+        "overlap_evidence_row_count": 185104,
+        "overlapping_unique_gene_count": 9770,
+        "overlapping_unique_te_instance_count": 45417,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 108574,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 60135,
+        "variant_te_overlap_pair_count": 108636
+      },
+      "elapsed_seconds": 32.687629,
+      "manifest_sha256": "2e9a91383c730b0bbec87eb68c59285d0bd1dd5016b4b346dedf027986e3ba87",
+      "process_peak_rss_bytes": 2524901376
+    },
+    "Stomach": {
+      "counts": {
+        "eqtl_row_count": 1656382,
+        "overlap_evidence_row_count": 166409,
+        "overlapping_unique_gene_count": 8081,
+        "overlapping_unique_te_instance_count": 41460,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 99721,
+        "parquet_row_group_count": 2,
+        "te_gene_pair_count": 52904,
+        "variant_te_overlap_pair_count": 99784
+      },
+      "elapsed_seconds": 31.37531,
+      "manifest_sha256": "85fde29e298db344ef35c2e4988ccf96465eca64178d5f5fdd966ac0767a9c1f",
+      "process_peak_rss_bytes": 2524901376
+    },
+    "Testis": {
+      "counts": {
+        "eqtl_row_count": 4352993,
+        "overlap_evidence_row_count": 472813,
+        "overlapping_unique_gene_count": 20148,
+        "overlapping_unique_te_instance_count": 98569,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 255782,
+        "parquet_row_group_count": 5,
+        "te_gene_pair_count": 147394,
+        "variant_te_overlap_pair_count": 255908
+      },
+      "elapsed_seconds": 71.721307,
+      "manifest_sha256": "8b6890d8190dbba4ac5cbedc2abea444f1292521a69bbeb479a8c1c9dfe33ae0",
+      "process_peak_rss_bytes": 2644430848
+    },
+    "Thyroid": {
+      "counts": {
+        "eqtl_row_count": 4730105,
+        "overlap_evidence_row_count": 487868,
+        "overlapping_unique_gene_count": 16529,
+        "overlapping_unique_te_instance_count": 87312,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 230535,
+        "parquet_row_group_count": 5,
+        "te_gene_pair_count": 142270,
+        "variant_te_overlap_pair_count": 230648
+      },
+      "elapsed_seconds": 72.252868,
+      "manifest_sha256": "5f1cc1bf7956b70f1f69403498c947d075c09fb132f7acd0f7cff18f332d81d4",
+      "process_peak_rss_bytes": 2644430848
+    },
+    "Uterus": {
+      "counts": {
+        "eqtl_row_count": 498962,
+        "overlap_evidence_row_count": 46488,
+        "overlapping_unique_gene_count": 3231,
+        "overlapping_unique_te_instance_count": 14406,
+        "overlapping_unique_te_name_count": 201,
+        "overlapping_unique_variant_count": 32005,
+        "parquet_row_group_count": 1,
+        "te_gene_pair_count": 16534,
+        "variant_te_overlap_pair_count": 32032
+      },
+      "elapsed_seconds": 9.144996,
+      "manifest_sha256": "26960c76efa1826d5988c9473c50357583863882b8029995300cd9a3bc84c813",
+      "process_peak_rss_bytes": 2644430848
+    },
+    "Vagina": {
+      "counts": {
+        "eqtl_row_count": 511803,
+        "overlap_evidence_row_count": 49928,
+        "overlapping_unique_gene_count": 3236,
+        "overlapping_unique_te_instance_count": 15325,
+        "overlapping_unique_te_name_count": 201,
+        "overlapping_unique_variant_count": 34285,
+        "parquet_row_group_count": 1,
+        "te_gene_pair_count": 17190,
+        "variant_te_overlap_pair_count": 34307
+      },
+      "elapsed_seconds": 9.396029,
+      "manifest_sha256": "862f2df64fdbdc0c76f9737137705dfb15d3818fe1f0b0ba0cfdcfc0b1a79483",
+      "process_peak_rss_bytes": 2644430848
+    },
+    "Whole_Blood": {
+      "counts": {
+        "eqtl_row_count": 3084753,
+        "overlap_evidence_row_count": 300410,
+        "overlapping_unique_gene_count": 11455,
+        "overlapping_unique_te_instance_count": 61873,
+        "overlapping_unique_te_name_count": 202,
+        "overlapping_unique_variant_count": 156591,
+        "parquet_row_group_count": 3,
+        "te_gene_pair_count": 89737,
+        "variant_te_overlap_pair_count": 156668
+      },
+      "elapsed_seconds": 47.060847,
+      "manifest_sha256": "e7c87d9bca3d47558157acbc50587dcc9f69036e26761ef314dd7fe81d54e2d0",
+      "process_peak_rss_bytes": 2644430848
+    }
+  }
+}

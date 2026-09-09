@@ -1,0 +1,47 @@
+{
+  "accession": "DF000001741",
+  "name": "BC1_Mm",
+  "description": "Mouse neural specific BC1 RNA and ID repetitive sequence.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Rodentia",
+  "display_classification": "SINE/ID | Rodentia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 152 BP; 62 A; 30 C; 35 G; 22 T; 3 other;"
+  },
+  "sequence": "ggggttggggatntagctcagtggtagagcgcttgcctagcangcgcaaggccctgggttcggtcctcagcnctggaaaaaaaaaaaaaaaaaaaaagacaaaataacaaaaagaccaaaaaaaaacaaggtaactggcacacacaaccttt",
+  "length_bp": 152,
+  "sequence_length_bp": 152,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "BC1_Mm"
+  ]
+}

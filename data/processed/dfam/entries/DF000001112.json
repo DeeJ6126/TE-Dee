@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001112",
+  "name": "UCON9",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON9 subfamily",
+  "keywords": [
+    "DNA/PIF-Harbinger"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/PIF-Harbinger | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1358 BP; 402 A; 260 C; 236 G; 446 T; 14 other;"
+  },
+  "sequence": "tagggctagattttcaaagagtgcattntaagcgcacagttaggggcaatgacgcacgaaattgcgtgcgcagagaaacggaattattttcagaagngcaaccgaagcgcctagtgcaactggaaataagggatttntgctgcccaattgcgcgcgcaanctatcatcagattttcaaaaaattcagggagaagtttttgtgctcgcaattgcacactgatcagtgcccccttgctcattaacatacgcgtcccctcctatttgtgccctcatttgcactatgtaaacagcttctaacagctcctttcccctcttcattcaaacaaacaatggcctctgtaaccaaaaagaaaattagtagcaggcgaaagcctatttttactgatgctgagaccaaaatgttaattaccttaaaatattaacaatttctttccctcaaatcccttttaactcctcacagatattaattatagtttgtcaaacctatacctctgaaatacttgctcctctgaaagagttnaaaaactaaccctttgcctgtatgccctattagcagggtaaaaacgccttctctctttcactnttttcaatacatatgatgaaaacatatgagatcgttgggatttatataggcagatttggcagccttttcatatttacttggactgtgagatataatttgaatttggggctctctctctaagaataagttatttgttatctgaataagtatttgttagtggatcagacatggataaggtgtgtttattataactgtgtttgttaggcatgatttacattgttctatattgttttatactgtttttcattttcgattanttaatttttttctgttttgttttatgtattttgtcacagttgggtttttggttgtcgtcttttnaactttgtaaaaatttaatacaaaggaaatttaaaaaancaaaggaaacattttcaaaatgatttcaaaatcaaatctatccctcagtaatttgatttgtaggaaatggagaacaaagcattacaaacagagtgcttttaaataaatcataattanttacacgtgcaaatgcatcgactaaatttgggcgcgcaattagacgnctaattatgttgaaaatgcaattgcacgcttaaatagatgaccacgcccccaggcccgcccagttgtttctgcgctctcatttaggcgcgcaatagtttctttgctcttaagcgccacctgttgaaaatgttaaagcgcgtgcaagtgcaattgcgtgcccaattaggcacgcaattgccggttttacacatgcaacacaggcgcatctttttgaaaatttagcccnnaaagtttaaccattanattttca",
+  "length_bp": 1358,
+  "sequence_length_bp": 1358,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON9"
+  ]
+}

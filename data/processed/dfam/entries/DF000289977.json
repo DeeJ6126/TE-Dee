@@ -1,0 +1,52 @@
+{
+  "accession": "DF000289977",
+  "name": "PzSE1",
+  "description": "Lineage-specific SINE element found in an lepidopteran insect",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Papilio zelicaon",
+  "display_classification": "SINE/tRNA | Papilio zelicaon",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Papilionidae",
+    "Papilioninae",
+    "Papilionini",
+    "Papilio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 296 BP; 70 A; 66 C; 79 G; 81 T; 0 other;"
+  },
+  "sequence": "gagcgtcggtggctcaggggttaagcacttgacttgcaatctgcaggtcctgggttcgaatcccgccatgtaccaatgtgtttttcgatttcgatttacatatgtacatttatccgacgttcttacggtgaaggaaaacatcgtgatgcaacctgcacatatctgagaagaaattcaatgatatgtgtgaagtcaacccgcacttgggccagcgtggttgactatggcctagtcacccctaacttggggtaggctccgagcccctcagtggggacgtatagtgagctgatgatgat",
+  "length_bp": 296,
+  "sequence_length_bp": 296,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

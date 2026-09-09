@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279435",
+  "name": "OchPri-1.185",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OchPri-1.185"
+  ],
+  "species": "Ochotona princeps",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ochotona princeps",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Lagomorpha",
+    "Ochotonidae",
+    "Ochotona"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 265 BP; 65 A; 61 C; 77 G; 62 T; 0 other;"
+  },
+  "sequence": "tgttgtgggctaaggagttgattagcgctcgttaggctgggcaggaacaggaactgggcttgtggctaaaaacacctagactaattggactcatctgtatccaatatcctggctaaataggacgtggggggaagagtatataaggagaggtgaaggagcaataaagggagacttcgcagagacttccaccatcactggtctcctgtcggtgcttcatccccagaccctctccctgtccacgttactggctctgctggccggagca",
+  "length_bp": 265,
+  "sequence_length_bp": 265,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

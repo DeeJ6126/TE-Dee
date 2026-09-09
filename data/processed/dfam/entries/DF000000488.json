@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000488",
+  "name": "LTR32",
+  "description": "LTR32 (Long Terminal Repeat) for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR32"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 457 BP; 95 A; 119 C; 129 G; 114 T; 0 other;"
+  },
+  "sequence": "tgtatggtagacgcacctgacagcaataacttaagcataccctgagaatgaccctgtatggcagacgcacctgaatgtgtgttcggagttccgagctagggaatccgggagtggccaacccggagattcattccttatctatgaggaacatctgagcccccggcccgtcccgtggaacgcgggccgtacaggggatcgaggccctttgttttgggttaaatgaaggttgccaggtggaggttgttagggggagggtgctaagtgaaaatgctatataaactgcatgctttttgcaagcggttgcggttctcctgtccagcccgccgccactggactgtctcccctgtatgtaagcccccaataaaccccatgtctcgtttgctggctctgggtctcttcttcggcctcttgaacctggtgccatccctactgaagttaataggggtccggcacgaca",
+  "length_bp": 457,
+  "sequence_length_bp": 457,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR32"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000281218",
+  "name": "TurTru-1.223",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "TurTru-1.223"
+  ],
+  "species": "Tursiops truncatus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Tursiops truncatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Delphinidae",
+    "Tursiops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 609 BP; 165 A; 168 C; 146 G; 129 T; 1 other;"
+  },
+  "sequence": "tgaaaccgagcaggaccctgtggggctcctgggcacggaagcctttctgtgtcccccgtttcttgtttgtagggaatagactccagcctccatgaccttccctgagttccaaagggcaggttcaaacagttgctaatcagggaagggaggggatgcagagacaagggaggagcagccaagaaacaatagtgcagccttggggcagggtcctggttccgcctcaagggatacacataacaatatctttgagctcttctacagaactaaaacccccaacaaatggaagatgttaagcattcttcattccagagaagaccacntgataaaggaaccagagaagctcatcaaggagaccacctgaggccagattaaaggagtgcaggccctgcacacaccctgatccttatcagcaaccccgcccttgaaccattgctataaaactcctcaccaaatcctcccgggttgggacacacagttttgagggcacgagcccgctgtgtccccctttgcctggcaaagcaataaagctattcttttctacttcacccaaaactctgtctccgagattcgattcggcaccggtgcacagaggccgagttttcggcatca",
+  "length_bp": 609,
+  "sequence_length_bp": 609,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

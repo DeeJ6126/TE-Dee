@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280257",
+  "name": "PtePar-1.69",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Pteronotus parnellii",
+  "display_classification": "DNA/TcMar-Mariner | Pteronotus parnellii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Mormoopidae",
+    "Pteronotus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 554 BP; 180 A; 85 C; 120 G; 169 T; 0 other;"
+  },
+  "sequence": "ttgggttggccaaaaagttcgtttggttttttccgtaagatggctctagtagcgcttagttgtctttaacttcattcgaaacaattttgttagattgtattgtgacagctgtcatatcagcgtgcatttaaaaaaacttatcaaaattggtgaatttttgtgtagccattttaatattgaagatggaagaaaatacgcaacattttcggcatattatgctttattatttcaagaaaggtaaaaacgcaactgaaacgcaaaaaaaagatttgtgcagtgtatggagaaggtgctgtgactgatcgaacgtgtcaaaagtggtttgcgaagtttcgtgctggagatttctcgctggacgatgctccacggtcgggtagaccagttgaagttgatagcgatcaaatcgagacattaattgagaacaatcaacgttataccacgcgggagatagccgacatactcaaaatatccaaatcaataaagttattggtgaaaatgaaaaatgtgtcttttattttacggaaaaaactaaacggactttttggccaacccaa",
+  "length_bp": 554,
+  "sequence_length_bp": 554,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

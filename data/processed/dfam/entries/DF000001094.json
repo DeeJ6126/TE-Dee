@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001094",
+  "name": "UCON19",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON19 subfamily",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Amniota",
+  "display_classification": "Unknown/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 378 BP; 138 A; 77 C; 60 G; 91 T; 12 other;"
+  },
+  "sequence": "cactgtatntatctcgcattaattactgggccatagcaacaccaacattcaagccgncaatgttnggacactgctcagggaaaaaaatagccacaaatcattccgctcaaaataaaaaggtcgaatggtattaattaattcatctgcacaactcattggaagtaaaagcgtnttcttaantagcttcttgantgagaataaatgcctcattaatcttaaacatatcaacctgagaacactantaaagtcagatagaataatgantgacattacagggaacacaacgtaccacacgcaggaatgcattcacccattagtcactctgcataaatacgcacacctttacttgcattagnagaagaggnattnagngaagaa",
+  "length_bp": 378,
+  "sequence_length_bp": 378,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON19"
+  ]
+}

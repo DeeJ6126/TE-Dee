@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278662",
+  "name": "MosMos-1.137",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Moschus moschiferus",
+  "display_classification": "LINE/L1 | Moschus moschiferus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Moschidae",
+    "Moschus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 946 BP; 346 A; 174 C; 215 G; 208 T; 3 other;"
+  },
+  "sequence": "tgggcagaagacctaaatagacatttctccaaagaagacatacagttggccaacaggtacatgaaaagatgttcaacattgctaattattagagaactgcaaatcaaaactacagtgagatatcacctcacaccggtcagaatggccatcatcaaaaaatccacaaacaanaaatgctggagagggtgtggagagaagggaaccctcctgnaccgttggtgggaatgtaaattggtacagccactacggagaacagtatggaggttccttacaaaactaaaaatagagctaccgtatgaccctgcaatcccactcccgggcatatatccggagaaaancatgatccgaaaggatacatgcaccccaatgttcattgcagcactgtttacaatagccaagacatggaagcaacctaaatgtccatcgacagaggaatggataaagaagatgtggtacatatatacaatggaatattactcagccattaaaaagaatgaaataatgccatttgcagcaacatggatggacctagagattgtcatactgagtgaagtaagtcagacagagaaggagaaatatcatatgacatcccttatatgcggaatctaaaaagaaatgatacaaatgaacttacttacaaaacagaaagagactcacagacttagagaacgaacttatggttgccgggggaaggatgggggaagggatagttagggagtttgggatggacatgtacacactgctatatttaaaatggataaccaacaaggacctactgtatagcacagggaactctgctcaatgttatgtggcagcctggatgggaggggagtttgggggagaatggatacatgtatatgtatggctgagtcccttcgctgttcacctgaaactatcacaacattgttaatcggctataccccaatacaaaataaaaagtttaaaa",
+  "length_bp": 946,
+  "sequence_length_bp": 946,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000020",
+  "name": "Charlie2b",
+  "description": "hAT-Charlie DNA transposon, Charlie2b",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2782 BP; 864 A; 496 C; 512 G; 876 T; 34 other;"
+  },
+  "sequence": "cagtggtcttcaaactggggtatacatacccctgggggtacgtgaagactttccaaggggtacgcgggcacggatagttttaagggaatcaatttccagatcctcaacttccatatgtactctttcctaaaactgatctgcctgagaacgtgcctgtggcgaagtctgccctttcccacttcccctttcacaattgcccttctcccactttacaaaagaaaggcatatctctcacccatcccgaatcttactatggtgcattgccccggggtgtaaaaacctccagggcgccaaacaaagggacaattcgaaatattggtgttggggaagcctcctttaatgattaatcaaggcaccataaacccatggtagggcttcctgtctttccctgtcttatacatatttctgttaagggcgaagcgtggcgttagaaacggggtattttggcccgtgttgggatgttctgaattcagatatattgtagagtggggcggcggaagtgatgacaattttcgtttaatgacctcgcctcttccattccccgactattgtcaaagaatgcatcgctcctgagggagagtcccgtgagagcaaagcaaagagagcgtcggtaagaaatactgaaggtggcagtgccttatttcatccaggcgacaaactcatggcaaggtctntttgcctcagaattagaatattcgagatttgcganaagcatnctgggaaataccaatnngctacgaagcncancttctctgcattttcnccattctcagtaatgagaaagagcttggngagtactctcattcacctgcgtcttgatctgtgtctcagntgcatattttgcatgatttcaaggaggnggaggtgaaaagttccacatttacttccgacagatcaacgttacatcttcaagtaaaaggaacacatattggaggtaagttagcgttttatattttcttaaacatttattcagactcgtaggagaaacattttcattaacttttgccaaagattattggatactgtaaatccatattcattttttacttgggcacaagtctcctgctcgctgtcactcgtcaaccacttctctgctcatttattcattcctaccatgtacttattagatttagattaacttaacgggaatatgttgtggattctactgtaaataatgcacttaaaacaatcattaatncaccttttgtaagccctacacttactagtggcccaataccttctctctccttttgctgttaatttccacaaagtagattaaantgnactcttaaaagcagaacatctacttatgtacgggtgtaggacaaaatgttcccaaaatgcaatctaggacgtaatgccctgaactttagaaaaccagcttcatttaattaggattaatttctccctctcagatgttgatatgctgttctaattctgtcaaatgcataattataaacaatcgttttcaacnatgaaatgaaattactaatctatntatacataaaaattctcaagnatgtntctctgtccatccgtcacgtcttttnaaggcgctttgagacgacctagaaaantgaaatttggcatgaatatntaggtctttgttcacagtcaatgggaaaagtcctaaaatgcacaatttnatttttttangctgntntnatctaattnnagnttcanaaacaaggtgcctctaagcgaaagagtaanaggtataattaatagtcatttgataagtcttggtaaagcctttttggtatacttcccagaaattgagaaagtgaatgactctaatgactgggtaacaaatccttttgcaagtcaggtggtttccaattctttgctttcaacaaaattgaaggaggacctaatcgagttgtcagctgatagatcattaaaaataatttttgatgatagatcactatgtgatttttggcatataactcggaaggagttcaaagaattgagtgacattgctataacaaaactccttccattcccatctacttatttatgtgaacaaggtttctcagcgcttacatctataaaaatgaaaaataggaatagaattgatgctgaaccctgtctcattctagcaataagtaatattcatccacggatacatgaactaattgggaaaanaaagccccatccatctcattaagagatgcatttccaataaaattttactttttatgtttaatatttatcaaaatttgtaatatatttatgttgttttgatcaattgtgtactaataataattgtaatgataactcaatccagaagaaaatttttaacacttagagccttatggtcacaggaaatntaaaaaattaaatttcaatttatatacatatttttgttgcagagaagtatgatagggtgatcaataaaagactttcaagcataaaaatatattacattaggataaaattctgtgggggaagtggaatggaaatacgagttcaaggagaaaaagagaacgatgtaaaatttccgactgttaaagaagagcttgttcatgtattttttaaatggatgatggtgggtatcaaatcgctatggtatttagattccattggatacatttaaaagagtgatgtaacagttttattttaaaatgtcaatatttacaatatgccggaaattacatcctttgcaactatttaaacttatgatgaaaaattttagatgtcaacttaaaaatgtgcgagggggtacatagtttttcaaaattcttttagggggtacgcgagcaaaaangtttgaagaccactg",
+  "length_bp": 2782,
+  "sequence_length_bp": 2782,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CHARLIE2B"
+  ]
+}

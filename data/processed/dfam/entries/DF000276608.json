@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276608",
+  "name": "EidHel-6.3589",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/5S"
+  ],
+  "species": "Eidolon helvum",
+  "display_classification": "SINE/5S | Eidolon helvum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Megachiroptera",
+    "Pteropodidae",
+    "Pteropodinae",
+    "Eidolon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 215 BP; 71 A; 47 C; 56 G; 41 T; 0 other;"
+  },
+  "sequence": "gtctacggccatgccaccctgaacaagcccgatcccgtctgatctcggaagctaagcagggtcgggcctggttagtacttggatgggagaccacctaggaagaccaggtgctgtaggcgtaaaaaataaaaaaataaaaaataagggattgtaagctgacaaggtccttgcaatctgtgaggtcaaccaagggttgcctcgcctaaaaaaaaaaa",
+  "length_bp": 215,
+  "sequence_length_bp": 215,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

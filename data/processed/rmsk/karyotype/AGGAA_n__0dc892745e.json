@@ -1,0 +1,393 @@
+{
+  "te_name": "(AGGAA)n",
+  "assembly": "hg38",
+  "assembly_label": "Homo sapiens [hg38]",
+  "bin_size_bp": 1000000,
+  "total_hits": 41,
+  "chromosomes_present": [
+    "chr1",
+    "chr2",
+    "chr3",
+    "chr4",
+    "chr5",
+    "chr6",
+    "chr7",
+    "chr8",
+    "chr9",
+    "chr10",
+    "chr11",
+    "chr12",
+    "chr13",
+    "chr15",
+    "chr16",
+    "chr17",
+    "chr19",
+    "chr20",
+    "chr22",
+    "chrX"
+  ],
+  "max_bin_count": 2,
+  "legend_max": 2,
+  "singleton_contigs": [
+    {
+      "name": "chr1",
+      "size": 248956422,
+      "hit_clusters": [
+        [
+          160000001,
+          161000000,
+          1
+        ],
+        [
+          245000001,
+          246000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr2",
+      "size": 242193529,
+      "hit_clusters": [
+        [
+          60000001,
+          61000000,
+          1
+        ],
+        [
+          121000001,
+          122000000,
+          1
+        ],
+        [
+          136000001,
+          137000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr3",
+      "size": 198295559,
+      "hit_clusters": [
+        [
+          96000001,
+          97000000,
+          1
+        ],
+        [
+          152000001,
+          153000000,
+          1
+        ],
+        [
+          169000001,
+          170000000,
+          1
+        ],
+        [
+          174000001,
+          175000000,
+          1
+        ],
+        [
+          193000001,
+          194000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr4",
+      "size": 190214555,
+      "hit_clusters": [
+        [
+          15000001,
+          16000000,
+          1
+        ],
+        [
+          149000001,
+          150000000,
+          1
+        ],
+        [
+          153000001,
+          154000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr5",
+      "size": 181538259,
+      "hit_clusters": [
+        [
+          109000001,
+          110000000,
+          1
+        ],
+        [
+          163000001,
+          164000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr6",
+      "size": 170805979,
+      "hit_clusters": [
+        [
+          84000001,
+          85000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr7",
+      "size": 159345973,
+      "hit_clusters": [
+        [
+          142000001,
+          143000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr8",
+      "size": 145138636,
+      "hit_clusters": [
+        [
+          22000001,
+          23000000,
+          1
+        ],
+        [
+          66000001,
+          67000000,
+          1
+        ],
+        [
+          141000001,
+          142000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr9",
+      "size": 138394717,
+      "hit_clusters": [
+        [
+          16000001,
+          17000000,
+          1
+        ],
+        [
+          94000001,
+          95000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr10",
+      "size": 133797422,
+      "hit_clusters": [
+        [
+          65000001,
+          66000000,
+          1
+        ],
+        [
+          67000001,
+          68000000,
+          2
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr11",
+      "size": 135086622,
+      "hit_clusters": [
+        [
+          32000001,
+          33000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr12",
+      "size": 133275309,
+      "hit_clusters": [
+        [
+          42000001,
+          43000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr13",
+      "size": 114364328,
+      "hit_clusters": [
+        [
+          108000001,
+          109000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr14",
+      "size": 107043718,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr15",
+      "size": 101991189,
+      "hit_clusters": [
+        [
+          84000001,
+          85000000,
+          2
+        ],
+        [
+          85000001,
+          86000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr16",
+      "size": 90338345,
+      "hit_clusters": [
+        [
+          73000001,
+          74000000,
+          1
+        ],
+        [
+          80000001,
+          81000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr17",
+      "size": 83257441,
+      "hit_clusters": [
+        [
+          27000001,
+          28000000,
+          1
+        ],
+        [
+          59000001,
+          60000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr18",
+      "size": 80373285,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr19",
+      "size": 58617616,
+      "hit_clusters": [
+        [
+          40000001,
+          41000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr20",
+      "size": 64444167,
+      "hit_clusters": [
+        [
+          11000001,
+          12000000,
+          1
+        ],
+        [
+          53000001,
+          54000000,
+          1
+        ],
+        [
+          63000001,
+          64000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr21",
+      "size": 46709983,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr22",
+      "size": 50818468,
+      "hit_clusters": [
+        [
+          27000001,
+          28000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chrX",
+      "size": 156040895,
+      "hit_clusters": [
+        [
+          26000001,
+          27000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chrY",
+      "size": 57227415,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    }
+  ],
+  "remaining_genome_contig": null
+}

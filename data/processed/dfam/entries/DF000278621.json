@@ -1,0 +1,48 @@
+{
+  "accession": "DF000278621",
+  "name": "MorBla-1.159",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Mormoops blainvillei",
+  "display_classification": "DNA/hAT-Tip100 | Mormoops blainvillei",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Mormoopidae",
+    "Mormoops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 301 BP; 76 A; 71 C; 52 G; 102 T; 0 other;"
+  },
+  "sequence": "cagaggcggatttaacggcgggcgcaccgggcgcgcgccctgggccccgacttctgaagggccccgcaaaaccccaactttacacttttttctaatgacaccaagtttggtttcatatgtgcaatacatatattatattcaaattttattggaaataaaacattaatagtacataatattttttatttatttaaaaatatggttaacatgtatttttattttccctgtctctctcttttttttaaggggcccaatattttcttctgcgcccggggcctcaaccgaccttaatccgcctctg",
+  "length_bp": 301,
+  "sequence_length_bp": 301,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000000342",
+  "name": "L1PA5_3end",
+  "description": "3' end of L1 retrotransposon, L1PA5_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "LINE/L1 | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 901 BP; 346 A; 181 C; 188 G; 186 T; 0 other;"
+  },
+  "sequence": "ctaatatccagaatctacaaagaactcaaacaaatttacaagaaaaaaacaaacaaccccatcaaaaagtgggcgaaggatatgaacagacacttctcaaaagaagacatttatgcagccaacagacacatgaaaaaatgctcatcatcactggccatcagagaaatgcaaatcaaaaccacaatgagataccatctcacaccagttagaatggcgatcattaaaaagtcaggaaacaacaggtgctggagaggatgtggagaaataggaacacttttacactgttggtgggactgtaaactagttcaaccattgtggaagacagtgtggcgattcctcaaggatctagaactagaaataccatttgacccagccatcccattactgggtatatacccaaaggattataaatcatgctgctataaagacacatgcacacgtatgtttattgcggcactattcacaatagcaaagacttggaaccaacccaaatgtccatcaatgatagactggattaagaaaatgtggcacatatacaccatggaatactatgcagccataaaaaaggatgagttcatgtcctttgtagggacatggatgaagctggaaaccatcattctcagcaaactatcgcaaggacaaaaaaccaaacaccgcatgttctcactcataggtgggaattgaacaatgagaacacttggacacaggaaggggaacatcacacaccggggcctgtcgtggggtggggggaggggggagggatagcattaggagatatacctaatgtaaatgacgagttaatgggtgcagcacaccaacatggcacatgtatacatatgtaacaaacctgcacgttgtgcacatgtaccctagaacttaaagtataataaaaaaaaaaaaa",
+  "length_bp": 901,
+  "sequence_length_bp": 901,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1PA5"
+  ]
+}

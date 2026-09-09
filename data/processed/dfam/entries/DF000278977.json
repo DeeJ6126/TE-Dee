@@ -1,0 +1,52 @@
+{
+  "accession": "DF000278977",
+  "name": "MusPah-2.26",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Mus pahari",
+  "display_classification": "SINE/Alu | Mus pahari",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae",
+    "Mus",
+    "Coelomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 205 BP; 61 A; 51 C; 61 G; 32 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcacgcctttaatcccagcactcgggaggcagaggcaggcggatttctgagttcgaggccagcctggtctacagagtgagttccaggacagccagggctatacagagaacagcctggtctacagagtgagttccaggacagccagggctatacagagaaaccctgtctcgaaaaaccaaaaaaaaaaaa",
+  "length_bp": 205,
+  "sequence_length_bp": 205,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

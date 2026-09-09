@@ -1,0 +1,45 @@
+{
+  "schema_version": "agent_deepthink_36_question_summary.v1",
+  "case_count": 36,
+  "fixed_count": 30,
+  "adaptive_count": 6,
+  "english_count": 34,
+  "mode_counts": {
+    "agent": 20,
+    "deepthink": 16
+  },
+  "quality_counts": {
+    "partial": 10,
+    "pass": 16,
+    "fail": 10
+  },
+  "runtime_error_cases": [
+    "F09",
+    "F13",
+    "F21"
+  ],
+  "internal_language_leak_cases": [
+    "F01",
+    "F17"
+  ],
+  "pmid_answer_cases": [
+    "F03",
+    "F06",
+    "F10",
+    "F23",
+    "F27",
+    "A33",
+    "A34"
+  ],
+  "clickable_link_answer_cases": [
+    "F06",
+    "A33",
+    "A34",
+    "A36"
+  ],
+  "context_regression": {
+    "single_turn_quality_reduction_observed": false,
+    "plugin_capability_reduction_observed": false,
+    "notes": "Observed single-turn failures were writing, navigation, retrieval, or long-running path issues. The context layer preserved explicit entities and plugin routing; one standalone-pronoun false positive was found and fixed before final adaptive verification."
+  }
+}

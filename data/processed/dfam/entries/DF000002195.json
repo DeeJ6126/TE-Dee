@@ -1,0 +1,53 @@
+{
+  "accession": "DF000002195",
+  "name": "RNLTR23",
+  "description": "ERV2 Endogenous Retrovirus from Muridae.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RNLTR23"
+  ],
+  "species": "Rattus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rattus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 642 BP; 154 A; 186 C; 146 G; 154 T; 2 other;"
+  },
+  "sequence": "tgtggggagccgacttgcctgagaccccaacattgagctaattaggacagaaaaagaacatatgaaagttcacctaaaggacaagctcagtggaaaaaacctaatgttctagctaagcncgcgnaagtgccgataccaatctggtggtcagcgttgctcagtaacaaggcttgccagaagcgctgatacaaatctggtggtccaacaggtttgccaagtggaggctcctgaccttttgttgggagctagcttcatacagacctagggctcgtgacctttgcaaaagagccagcttcctacagacccctacagacccagggcttgtgaccttttgctgagagccaatttcctacagacccacggattgtgaccttctgctaggggccaacttcctacaagacctaggccaacatcccgcaggagtgagccaactaccctattggctagtacatcaaggtctcccggccccctgaagacttcctcctccccctgccttgctactgtatataaccagagcctgcaagcattaaacttgtcgccttgatcagactcttgtcttggcgtccttcttcgtgtctcttgtcccccattctcttccaggtaccctctggaccctcgttgactgtcctgcaggacgggaca",
+  "length_bp": 642,
+  "sequence_length_bp": 642,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RNLTR23"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276512",
+  "name": "DolPat-1.61",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Dolichotis patagonum",
+  "display_classification": "LINE/L1 | Dolichotis patagonum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Caviidae",
+    "Dolichotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1255 BP; 380 A; 255 C; 262 G; 358 T; 0 other;"
+  },
+  "sequence": "ccatgttggaacttagggcgctgagccaaccagtaaccagcctgccgccctggtaagtgactgtggtctggcaagccgcggccaccccagggcggggaaacaagaagcaacagcgtttcctgagatccgcgccatgttggaacttagggcgctgagccaaccagtaaccagcctgccgccctggtaagtgactgtggtctggcaagccgcggccaccccagggcggggaaacaagaagcaacagcgtttcctgagatccgcgccatgttggaacttagggcgctgagccaaccagtaaccagcctgctgcctaccggggcgcgggcttagaatcaaacataccatatcccccccccccgctaacaatcgggatccagggatctgggtatctcttgggaggtgaccatatgtggtacagcaagtggggggagtttccttctactatctctgaaggcagatatttttatcgccgttttgctttgtcctgattaacggtgttgctctattcaatattctgttttgatgtgttctataatgttgtgtatttcttttgattttgctgtacctaatagaagaacaactattgtgaagataacgagatatacaatggtgcctattattgttgtcctggtgacctgctgtgatgttctgtgccaatttcactatactgtctcaattggctttattccatcctgttttgttgtatattactacctccaagttaatgaaaattaaataaaaataaaacaatagaacatgagaaaacaaggtaacaaaatacctccaaaaactcccaactccatcaaagctgatccatgtgacatggatgacgagaaactcaaaaacaaaacaacagaattatataaggtgattaaaaaggaaataacaacaacaaaacagatcaataaggtactgagcaagctgaaacatgatataactaaacagataatgtacttaaaaagcaaaaggaggaaaagaaaatgcgctaaaggatataactgcatgtatgtttaagtgtgtgggattgataaccgtattaccaagtttttgttggatcgttgaacagaactgtttgcagcctcactgtttgttcactttgtatgccttaattttgtaacatgaacaactatttctaagaagacaatatgtaatttatcaagtagtgatttcttaatgtttttttgaaattctgtattatttctacccttttttctgttttgctttttttctctttaaataaaatttaaaaaaaaaa",
+  "length_bp": 1255,
+  "sequence_length_bp": 1255,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

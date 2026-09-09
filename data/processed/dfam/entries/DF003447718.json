@@ -1,0 +1,36 @@
+{
+  "accession": "DF003447718",
+  "name": "",
+  "description": "Repetitive sequence family identified in Heligmosomoides bakeri",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Heligmosomoides bakeri",
+  "display_classification": "Unknown/ | Heligmosomoides bakeri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Strongylida",
+    "Trichostrongyloidea",
+    "Heligmosomatidae",
+    "Heligmosomoides"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 206 BP; 58 A; 31 C; 43 G; 73 T; 1 other;"
+  },
+  "sequence": "attttattacgtgcttaatttttctagtttctaagagattgagattgattcgcttccactgaatcgcttgaagtggagtttttttagtggttcactcactgttcactgaaaaatagatctctgactgagaccagagaagattttccagtataagcagggcttctaacttgtaatnggacattttcggaaaacggtgaataattgga",
+  "length_bp": 206,
+  "sequence_length_bp": 206,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

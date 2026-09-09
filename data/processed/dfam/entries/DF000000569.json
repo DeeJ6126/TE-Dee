@@ -1,0 +1,50 @@
+{
+  "accession": "DF000000569",
+  "name": "LTR6A",
+  "description": "LTR6A (Long Terminal Repeat) for HERVS71 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR6A"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 564 BP; 127 A; 162 C; 112 G; 159 T; 4 other;"
+  },
+  "sequence": "tgtgataccctaccttgttttaacctgaatngactctcccttagctgagagagccggacggactccatttggctccttcacttgcaagacatcaagggctccttacccacccccttcctcaaggacttaacttgtgcaagctgactcccagcacatcaaagagtgcaattaactgataaggtactgnggcaagctatgtccgcagttcccaggaattcgcccggntgatagtaccctaaagcccccgcgtttgtgtccggtngatagcacccaaagcccccgcacctatcaccttgtgatggatttaaagcccctgcacctggaactgtttgttttcctgtaaccatttgtctttttaacttttttgcctgttttgcttctgtaagattgcttcagctaggctccccctcccctttctaaaccaaagtataaaagaaaatctagccccttcttcggggccgagagaattttgagcgctagccgtctctcggtcgccggctaataaaggactcctgaattcgtctcaaagtgtggcgtttctctataactcgctcggttacaaca",
+  "length_bp": 564,
+  "sequence_length_bp": 564,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR6A"
+  ]
+}

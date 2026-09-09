@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000252",
+  "name": "L1M6B_5end",
+  "description": "5' end of L1 retrotransposon, L1M6B_5end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Eutheria",
+  "display_classification": "LINE/L1 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 362 BP; 114 A; 84 C; 104 G; 51 T; 9 other;"
+  },
+  "sequence": "ttgaaaagaagcgggtggacttccggttcaagatggcganctgagcacacgcgtttaactcccctccctcccaaaatcccactgaaatgaccaaaggaatataaaaataggggaaaatctgcatcagcgctggaaactagggaagggtgccatccacatgccagaaactttgaggaatttctgcaagatatagngcagatgggaccagattgaaggaaggaccgancagcagacgaatcaccgcatgtgaaggaaaagcccgccggaggaacgaggaaaagactccagccgnccccgnagaaccccggaaaaactcnaggctcagaggccgcagangctgggagtgggagtgngncgtggga",
+  "length_bp": 362,
+  "sequence_length_bp": 362,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1M6B_5end"
+  ]
+}

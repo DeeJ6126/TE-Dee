@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002318",
+  "name": "Tx1-50_DR",
+  "description": "Non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/L1-Tx1"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/L1-Tx1 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2813 BP; 1156 A; 252 C; 639 G; 761 T; 5 other;"
+  },
+  "sequence": "gaagtaaagccaaaacatttaatgaagtaaaaagagatgatggggtagttgtagaaacaaatgatggaatattggaagaaattaaaaattactatgacaagttatttagtgcagaaggtgtgatagaggaggacaaagcagaattactaaaacaaataaaaacaacagcaggagagatagaaaaaaaggaatgtgatgaacaaataaacgaggaagaaataaaaagagcaattaacgagttaaataaaaataaaagtccaggaatagatgggttggggaatgagttttatatagtttttaaagatattttaactggaattttaaaagaggtatatgaggagatttttaaggaaggagaattaaatgtaagaatgggaatgggattaatggaattgatatataaaaggaaaggaggaaaaaatgatttaaagaattacagaccaataacaatgctaaatacagatttaaaaattttatctaaagttttagccaacagactnaaagaaataatgccnagtataataaaaacaaaccaggtatacggagtaaagggaagagacatagcggacacaacaattagcattaaagacacaataagatacatgaacgaaaagaaaaaaagaggctttttaattagcttggattttgaaaaggcattcgatagagttgagcacagttttttatttgatattttacagagttttggatttggggagaattttaaaaaatggattggtattttatacaaaggggcaacaacaaggattaaatgtaatggttttttaacaaaaaatgtaaacatcacacgatcgatcagacaagggtgtccgctatcagctcttttatattcattagtggcagaacccttgggattaatgataaaacaagatgaggagataaagggaataggacttgatggacaagaaacaaaaatattccaatacgcagatgatacnactcttttaatgaaagatatcgaaagtgtaaagaaagcgatgcaaatagtgcagaaatactgtcgaggatcaggagcaaaaataaatgaaagtaaaacggaatacatgagattaggagaggtagggaatttagcagagctgttcacttttaaagaaactaaagaaatcaagattttaggagttttaatggggaaggatgaaaagaaagcagatgatacaatgtgggaggaagtgcttggagggattgagaaaagactaanattctggaaaaacaggacattaacattaaaagggaaggttttagtgttaaatgttttaatggtgtcaaagctgtggtatattttatatgtgtctgcaatgccgatgtgggcggaaaaaaggctgaaaaaatgttttttagattttttatgggaggggaaaccagcaaaaatagcacatgccactttaataggggaagtggataagggaggactggggttgatggacgtagaacaaagaaaaaatagtttgagggtcaaaataataaaaaagtactttgacaaagaaactgaagcaacgtggaaaggaactgtgggatattttttaaataaatgtggtaattttaatttgggggacagtattttatggatgaaaacaaaaaactggatggcggagagggtgccggatttttataaagaattgttaagagcttggggcaaatttttaaacaatgtgcattttaaacctctagggagagagaacattttaaatcagcctcttttcttaaacaactgcattttaaatcaagggagggagatttttttaaagaaatggtgggtggcaggaatagttaaagtaagggatattttatatgagtttaaagaaggttttttaccagtacaatgcattattgatgccatggaagaagcaaaggaagaatatagcagacaagaaataaaaaataagtacgaaataattaaaactgcaatccctcaagaatggattcaaaaaattgaaaataaagaagatgacgttgatggaatggaagtgtatgtgagaataggggagaaattgaatgattttaaggaatgtactgtgaaaagtttttattgtgtttttagggatgcagtttttaagaaacctgtggcaaatgaatactggatgcaaaaatacgagataacaaatgagaacaacatatgggaaaacatgagaggtatttttatacaaacaaaactggcaaacttagaatattttattagacacagagtgatttttactgatgccattttaaataaaattgggatggaacaagatgcaacatgtaaagtgtgtaacgaagatgatgaggggcttttacatttatttttacattgcaaacagttggatgattttaatgaaagatgtaaagaaatgatctcgatattaaaaggggaggaagaaacggaatggaataaggttttaatgttgggattggaaaatgaatgtgcatgtaaaaacaaaaagctaattaacttgctgataatgttgatgaaaaacgcaatatgggaaagaagagttgtaatgaggaaggaaaaagtgcgactaaatgtatggaacatttttaaaagaaaattcgtaaagtatgtacaatgtttgttttattatttttatcatgaagaaaaagttgatgttttttacaatgtttttacggttgaagtatgtcagattttaaaggactgtgaattggacatttctcttttaaaggactgaaaggaccctggaaataagaccatcgaccaccaatgaactgcttttgaaatgagatgtcttgtgcaaatatgtgtaaaatgtaaaattgcaattgtatgaanatttcttaataaaaaaaaaaaaaaaaaa",
+  "length_bp": 2813,
+  "sequence_length_bp": 2813,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Tx1-50_DR"
+  ]
+}

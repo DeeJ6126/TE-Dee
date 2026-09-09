@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000111",
+  "name": "D20S16",
+  "description": "Human centromeric satellite D20S16",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Primates",
+  "display_classification": "Satellite/ | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 98 BP; 22 A; 41 C; 14 G; 18 T; 3 other;"
+  },
+  "sequence": "cagctccacgaccctcaaactagaacaagacctctcctccccgggtcnccagctnccngaccctcgaactacaacaacattgctcctccctgggtctt",
+  "length_bp": 98,
+  "sequence_length_bp": 98,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "D20S16"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000281298",
+  "name": "VicPac-5.1082",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "VicPac-5.1082"
+  ],
+  "species": "Vicugna pacos",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Vicugna pacos",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Tylopoda",
+    "Camelidae",
+    "Vicugna"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 625 BP; 166 A; 165 C; 140 G; 154 T; 0 other;"
+  },
+  "sequence": "tgtgggagcccatgattgggttaacaaattgtaacagatcccagccgcttatctccttaaagaagatgtgcttagtaactgccttgaggttttagcaatgacccaggcccccggctataaacgctgggcgtgcctgctgttagtcttctatccccaaaacagccttgggctggaatggtaaacaacttataaaaagctgcagactcagaggtgagaaggctggttagccaatgacgggtaagatcccctgaggggggcaacctaagacaggcacagccgcctgagtccaagaaaattgttaagcagctgattctcatacgttccgccctgataagctgaaaggctcaacacgaacatgattcaccaaaaagggtcttctgaccttgagccaaacaccaacaataaacaaagcctttgtactcattgtgatcccaccctgtccttccctaaattcctgcattcctcctttgactgtactcaataaatatgggagatttgagaggctcgtggagttggctcccgactccctctcgctctcttgacttttccacagagtcttgagtaattcattccgtctcggtgggacttctgctggccagaacccacaactggtgacgaacccaca",
+  "length_bp": 625,
+  "sequence_length_bp": 625,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

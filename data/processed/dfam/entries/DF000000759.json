@@ -1,0 +1,47 @@
+{
+  "accession": "DF000000759",
+  "name": "MER39B",
+  "description": "MER39B Long Terminal Repeat for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER39B"
+  ],
+  "species": "Primates",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 653 BP; 176 A; 179 C; 115 G; 180 T; 3 other;"
+  },
+  "sequence": "tgttggggctcagaaaacaataccccaaaatgaaggcctcagaagcagcctcagaagcaaaagtttttctctgaccttctcctgccctcctgtctctcagtcccattctcccccgaggctagccatagaaactagaatccctcttccccaaggcgggtcatagaaaccagaaccccttttccccaaagccagccataaaacctaaaaatattactctaactttccctccgcctttctgtgtaaaaactggccataaagaaattatctgacctaccttgtttgactgtaggtcataagacccccattccagagagggtcctgccccacacccagaaggaaggaatgcatgctcagagaggccaagaagaatctagacagacaggccttgctgggtttccccactcagtctattagcattagatcataccctttttgtccaatcatatttctacacggctgtccatactttgttgaacctaagcataaaaatggacaatttcccctgtatctttgggtcttcattctgaaggctcccgtgtatatacatgttaaataaatttgtatgccttttctccnattaatctgccttttgtnagttgatttttcagcgaaccttcagagggcnaaggggaagttttcccttggcccctaca",
+  "length_bp": 653,
+  "sequence_length_bp": 653,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER39B"
+  ]
+}

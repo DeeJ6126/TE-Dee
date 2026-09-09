@@ -1,0 +1,42 @@
+{
+  "accession": "DF003586479",
+  "name": "Mqua_SINE-1_CORE",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/MIR"
+  ],
+  "species": "Mactra quadrangularis",
+  "display_classification": "SINE/MIR | Mactra quadrangularis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Heteroconchia",
+    "Euheterodonta",
+    "Imparidentia",
+    "Neoheterodontei",
+    "Venerida",
+    "Mactroidea",
+    "Mactridae",
+    "Mactra"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 295 BP; 74 A; 59 C; 79 G; 83 T; 0 other;"
+  },
+  "sequence": "taggagcagtagtccagtggtaggacgcgcgcttagggatcgagaggtcctgggttcgaatcccactaggggcactgctaatttccttgagcaagaaatttacctgcgattgcttcactccacccaggtgtaaatgggtacctgttagggtcatgcactgtatgctgtggctgcaatctgcgccgtatgttaacagttggtgtgtgactcgatgatcggggaagttaatgtcaagagtcgactgaatagtgatactaaaagtagacttcaaaaaccttgctttaactttaacttt",
+  "length_bp": 295,
+  "sequence_length_bp": 295,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

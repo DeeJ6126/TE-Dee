@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275843",
+  "name": "CraTho-1.287",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Craseonycteris thonglongyai",
+  "display_classification": "DNA/PiggyBac | Craseonycteris thonglongyai",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Craseonycteridae",
+    "Craseonycteris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1107 BP; 397 A; 174 C; 218 G; 318 T; 0 other;"
+  },
+  "sequence": "ccccttgacatacaaagacgtctcggatatgtcatgtgtttcttaagccattgtaaacattgacgtctctgagacgcgcgcagatttaatttgctttgagtgcagttataatgcaaatattatcaagaaataattatatatattcagtgttaaagtgtgaactgtagaaataatccctttaagatgtctgttttgaatttgtacgaaagtgacactgaaagccaaatggggtattcgagtgaaaacagcgagactgatattcaacaaattcgtacggctgactattcaacagaagattcaaattcaagtgaaggtagccctatccaacgtaatgttcgtaaacgtgcaagacctatatctatatcaagcagtgatgattgtgattcaggagatgaagaatggaattgggaagaaaaagaaaatattccaaatataaaaccatttacccaaattgctggtataaacgctttagttttgcgaagactaggagcaaatcctacgcctctttgtgttttgaaacaagtgctaagtgatgattttttttgaaatgataaccgtagaaacaaatagatacgcaagtcaaaagataaaggaccagaactcgaaaaaggacgaggagtggtttccagtaacaagtgatgaaatgaaagcatacctttcgttatgtatcataatgtcgcaagtacaaaaatctaaaatagatatgtactggtcaaaaagagcaatattagagacaccgatattttcaaaaactatgcctcgcaaacgtttcttggctatatcacattttcttcactttgtggataatgaaactgtatgtaaagaagacagaatacgaaaagtgcgaagtatagtcgactatttgaataataagtttgaacaattatacactccggatgaagatgtctccctagacgagtcactgatgaaattcaaaggacggctggggtacgtgcaatttatagctaccaaacgtgccagatttggaatcaaagtttacaagttatgtgaatccaatactggatattgcacccgcaaatgttaagttgaaaaataaatagtattttttgctcacatagaatttcatttaattcgtatgtcaagggg",
+  "length_bp": 1107,
+  "sequence_length_bp": 1107,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

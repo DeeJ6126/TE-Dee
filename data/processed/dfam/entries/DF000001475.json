@@ -1,0 +1,30 @@
+{
+  "accession": "DF000001475",
+  "name": "SSU-rRNA_Dme",
+  "description": "from Metazoa.",
+  "keywords": [
+    "rRNA/"
+  ],
+  "species": "Protostomia",
+  "display_classification": "rRNA/ | Protostomia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 428 BP; 93 A; 88 C; 115 G; 110 T; 22 other;"
+  },
+  "sequence": "taacttcttagagggataagcggtgtttagccgcancgagattgagcgataacaggtctgtgatgcccttagatgtccggggctgcacgcgcgctacantggnggngtcagcgnntntttcntangccgagaggtnnnggtaaaccgttgaaattcttccatgtccgggatagggtattgtaattattgcccttaaacgaggaatgcctagtaagtgtgagtcatcagctcacgttgattacgtccctgccctttgtacacaccgcccgtcgctatnnccgactgaactgattcgagaagagtggggacntgntcgcttcgaggtttaacgacttnncgttgttgcggaaacctttatcgcattggnnnntttgaaccgggtaaaagtcgtaacaaggtagctgtaggtgaacctgcagctggatcat",
+  "length_bp": 428,
+  "sequence_length_bp": 428,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SSU-rRNA_Dme"
+  ]
+}

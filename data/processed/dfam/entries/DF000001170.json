@@ -1,0 +1,43 @@
+{
+  "accession": "DF000001170",
+  "name": "EutTc1-N1",
+  "description": "Ancient Mariner/Tc1 DNA transposon from eutherian mammals.",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tc1 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 588 BP; 173 A; 94 C; 98 G; 205 T; 18 other;"
+  },
+  "sequence": "cagggtgtcccaaaagtcttagtgcaattttaagctttaataacttcagaagtataaatgctacaaacttacaaaaacatcatttgaaagtttanttatttaaatttcttttacacttatttagttttgcgaattttgaatagtaagttttaattttaattttttncgtgtgcaacagtttctgggcgacactttctcagaccggtggattggtagagnagntcctnntncttggccacctcggtcacctgatctatctcnattagactnnttcttgtgaggtcacatcaaaancgttgtgtatgtatcaaaacctcgttctttggatgatcttaaagctaggattacaaatgcaatcctttcagtcactgagcagcagccgatgaaagtttttgcaaagttcgaaaatcgactagagcnatatatagcacnagacggtggttatgttgaattttaataagaaacatntcantattttaaaaatttaaataattnnnctttcaaatgtcgttttttgtaagtttgtagcatttatacttctgaggttattaaagcttaaaactgcaccaagacttttgggacaccctg",
+  "length_bp": 588,
+  "sequence_length_bp": 588,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "EutTc1-N1"
+  ]
+}

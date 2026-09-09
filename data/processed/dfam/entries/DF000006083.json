@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006083",
+  "name": "Halyomorpha_halys-6_family-1785",
+  "description": "CMC-Transib DNA Transposon",
+  "keywords": [
+    "DNA/CMC-Transib"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/CMC-Transib | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 612 BP; 235 A; 69 C; 100 G; 200 T; 8 other;"
+  },
+  "sequence": "tatttccttgaaaatgactattaagaaatggcagataatgacgagcgaggtaaaatcggatatgggagaaggaaataaaatattcagggtagantttaaaaaggatttataatagttgatgtcccaaaaggaggctatgggaataccaacgacgaaaatacaagtaggaaattttttgaagacgntgatcgntcagcagaaatnanaggggtcgataagagaattaatttaaagtaattctaaacgtttcaaggacgaaaatgacatttatattcgtgagagaaagaattgatattgtatttttgttaaaacataatatatctaattctgatcatatcggattagttcttattacattatatctaatatttntgaaatctaagtaaacgtttcctnacataaatttagatattcaatgcttgacataatgtaccatagattgagtacatatacttttaagttacaaattttcagtcttctattattttaagcatttaagttcttaaaactacgttaaataagatttatttatcataaatacnattaaaattaatttaagacatataaaggacgataaatagttttggccagcttttcgggtcaaatacccca",
+  "length_bp": 612,
+  "sequence_length_bp": 612,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

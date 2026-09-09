@@ -1,0 +1,50 @@
+{
+  "accession": "DF000001067",
+  "name": "SVA_A",
+  "description": "Composite retroelement: (SINE-R + VNTR + Alu), SVA_A subfamily",
+  "keywords": [
+    "Retroposon/SVA"
+  ],
+  "species": "Hominoidea",
+  "display_classification": "Retroposon/SVA | Hominoidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1387 BP; 242 A; 467 C; 393 G; 277 T; 8 other;"
+  },
+  "sequence": "ctctccctctccctctccctctccctctccctctccctctccctctcccctctttccacggtctccctctgttgccgaggctggactgcactgccgtgatctcggctcgctgcaacctccctgcctcgggctccagcgatcctcctgcctcggcctcccgagtgcctgggattgcaggcgcgcgccgccacgcctgactggtttttgtatttttggtggagacggggtctcgccgtgttgnccgggctggtctcnagctcctggcctcgagcgatccgcccgcctcggcctcccgaggtgctgggattgcagacggagtctcgctcactcaatgctcaatgtcgcccaggctggagtgcagtggcgtgatctcggctcgctacaacctccacctcccagccgcctgccttggcctcccaaagtgctaggattgcagcctctgcccggccgccaccccgtctgggaagtgaggagcgtctctgcccggccgcccatcgtctgggangtgaggagcgcctctgcccggccgccccgtctgggaagtgaggagcgcctctgcccggccgccgccccgtctgggaagtgaggagcgcctctgcccggccgcccntcgtctgggangtgaggagcgcctccgcccggccgccccgtctgggangtgaggagcgcctccgcccggccagccgccccgtccgggaggtgggggggtcagccccccgcccggccagccgccccgtccgggaggaggtgggggggtcagccccccgcccggccagccgccccgtccgggaggtgaggggcgcctctgcccggccgccccnnctgggaagtgaggagcccctctgcccggccgccgccccgtccgggaggtgtacccagcgaccatcgagaacgggccatgatgacgatggcggttttgtcgaaaagaaaagggggaaatgtggggaaaagaaagagagatcagattgttactgtgtctgtgtagaaagaagtagacataggagactccattttgttctgtactaagaaaaattcttctgccttgggatgctgttaatctataaccttacccccaaccccgtgctctctgaaacatgtgctgtgtcaactcagggttaaatggattaagggcggtgcaagatgtgctttgttaaacagatgcttgaaggcagcatgctcgttaagagtcatcaccactccctaatctcaagtacccagggacacaaacactgcggaaggccgcagggacctctgcctaggaaaaccagagacctttgttcacgtgtttatctgctgaccttctctccactattatcctatgaccctgccacatccccctctccgagaaacacccaagaatgatcaataaatactaaaaaaaaaaaaa",
+  "length_bp": 1387,
+  "sequence_length_bp": 1387,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SVA_A"
+  ]
+}

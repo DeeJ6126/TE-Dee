@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000731",
+  "name": "MER134",
+  "description": "Unclassified, palindromic DNA transposon, MER134 subfamily",
+  "keywords": [
+    "DNA/Crypton"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/Crypton | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 513 BP; 154 A; 95 C; 109 G; 141 T; 14 other;"
+  },
+  "sequence": "gcaaataataagcagatattgacttctgttgaggtgaacatcaagatttattgacccgagaggtaaatattgaccgaggcgaagccgaggtcaatatttacctcgagggacaataaatcttgatgttcaccgaaacacgaagtcaatatgtgtattgttacatacattctgaatgtcttcatcagaaatatctggaaatctctccgttatggccatgaatttcgaaagtgtaacggnttttcctttgaaactaacattctaaagggnagntgaanttaggggtccagaaaaagctnttgcgcggctctgaggaggcgaataatagttttcgctgaactcagctgcagccaatcaggatgcantcatttgcatatgcgacctgattggtnaacattgctcnagacctcggtatcgttnacctctgaggaggnaaacaatagaaacttactgacgcgtcacatgactgtttncagccaatcatgagccagnattttcnttttgtatgnaacaata",
+  "length_bp": 513,
+  "sequence_length_bp": 513,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER134"
+  ]
+}

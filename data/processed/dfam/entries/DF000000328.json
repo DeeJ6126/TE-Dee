@@ -1,0 +1,60 @@
+{
+  "accession": "DF000000328",
+  "name": "L1PA10_5end",
+  "description": "5' end of L1 retrotransposon, L1PA10_5end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "LINE/L1 | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2444 BP; 733 A; 646 C; 643 G; 366 T; 56 other;"
+  },
+  "sequence": "tggggggaggggccaagatggccgaataggaacagctccggtctgcggctcccagcgagancaacgcagaaggcgggtganttctgcatttccaactgaggtacccaggttctctcattgggactggctaggcagtgggcgcggcccacggagggcgagcagaagcagggtggggcgncgcctcacccgggaggcgcanggggcnaggggaactcccncccccagccaagggaagccgtgagngactgtgctacccngcccggganactacgcttttcccacggatcttcgcaacccgcggaccaggagatccccctcgtgngcccacgccaccagggccctgggtcccaagcacagagctgtgcagattctcagcggccactcggctggagnctgcctaagacnaccgagttcccggggggaggggcggccgccatcactgnggctccagtcggcggttttcccctgncggtgccagggaggccgggcggttcggacccgggaggagttccccacagcgcagcanagcggctgtggcagatcgtggccagactgcctctctaggccggaccccgacccattcctcctcactgggcggggcntccctgnaggaannncagcagccccagccaggggcttatagacagaactccgatctccctgggacagagcncctggggggaggggcggccgcggncncngcngntcagcagacttagncnttcctcctgccggctctgaagaatccgggcagtccggacgagngggattccccccagcgcagcgcaccngctccgccaagggacagncagantgcctcctcaagtgggtccctgaccccgtgcctcctgactgggngagacctcccaacaggggtcgncagacacctcatacaggagngctccggctggcatcaggtcggtgcccctctgggacggagcttccagaggaaggagcaggcagcnatctttgctgttctgcagcctccgctggtgatacctccaggcgcgggagnganccaggcgaacagggtctggagtggacccccagcaaaccgcagcagncctgcagaagaggggcctgactgttagaagaaaaacnaacaaacagaaagcaacaacancaacatcaacaaaaaggnccccacaaaaaccccatccaaaggtcancagcctcaaagatcgaaggtagataaacccacgaagatgaggaagaaccagcgcaaaaacgctgaaaactcnaaaagccagagtgcctcttctcctccaaatgatcgcaacncctctccagcaagggcacagaactggacggaggatgagatggacgaattgacagaagtaggcttcagaaggtgggtaataacaaactccnctgagctaaaggagcatgttctaacccaatgcaaggaagctaagaaccttgataaaaggttacaggagctgctaactagaataaccagtttagagaggaacataaatgacctgatggagctgaaaaacacagcacgagaacttcgcgaagcatacacaagtatcaatagccgaatcgaccaagcggaagaaaggatatcagagnttgaagaccancttactgaaataaggcatgcagacaagattagagaaaaaagaatgaaaaggaacgaacaaagcctccgagaaatatgggactatgtgaaaagaccgaacctacgattgattggngtacctgaaagngacggggagaatggaaccaagttggaaaacacacttcaggatattatccaggagaacttccccaacctagcaagacaggccaacattcaaattcaggaaatacagagaacaccactaagatactccncgagaagancaaccccaagacacataatcgtcagattctccaaggtcgaaatgaaggaaaaaatgttaagggcagccagagagaaaggccaggtcacctacaaagggaagcccatcagactaacagcggacctctcngcagaaaccctacaagccagaagagagtgggggccaatattcaacattcttaaagaaaagaattttcaacccagaatttcatatccagccaaactaagcttcataagcgaaggagaaataaaatcctttncagacaagcaaatgctgagggatttcgtcaccaccaggcctgccttgcaagagctcctgaaggaagcactaaatatggaaaggaaaaaccggtaccagccactgcaaaaacacaccgaantataaagaccantgacactatgaagaaactgcatcaactagtgtgcaaaataaccagctagcatcatgatgacaggatcaaattcacacataacaatattaaccttaaatgtaaatgggctaaatgccccaattaaaagacacagactggcaaattggataaagagtcaagacccatcggtgtgctgtattcaggagacccatctcacgtgcaaagac",
+  "length_bp": 2444,
+  "sequence_length_bp": 2444,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "1205..2246",
+      "start": 1204,
+      "end": 2246,
+      "qualifiers": {
+        "product": "L1PA10_gag",
+        "number": "1",
+        "note": "[Primates]",
+        "translation": "MRKNQRKNAENSKSQSASSPPNDRNTSPARAQNWAEAEMDELTEVGFRRWVITNFAEL"
+      },
+      "label": "L1PA10_gag"
+    }
+  ],
+  "repbase_aliases": []
+}

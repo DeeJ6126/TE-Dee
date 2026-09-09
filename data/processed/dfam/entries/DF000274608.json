@@ -1,0 +1,49 @@
+{
+  "accession": "DF000274608",
+  "name": "AciJub-1.56",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Acinonyx jubatus",
+  "display_classification": "LINE/L1 | Acinonyx jubatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Felidae",
+    "Acinonychinae",
+    "Acinonyx"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 428 BP; 170 A; 52 C; 108 G; 98 T; 0 other;"
+  },
+  "sequence": "atggaatattactcggcatcaaaaagaatgaaatcttgccatttgcaacgacgtggatggaactagagtgtattatgctaagcgaaataagtcagtcagagaaagacaaatatcatatgatttcactcatatgtggaatttaagaaacaaaacagatgaacataggggaagggaaggaaaaataagataaaaacagagagggaggcaaaccataagagactcttaaatacagagaacaaactgagggttgctggaggggaggtgggtggggggatgggctaaatgggtgatgggcattaaggagggcacttgttgggatgagcactgggtgttatatgtaagtgatgaatcactaaattctactcctgaaaccaatactacactgtatgttaactaacttgaatttaaataaaattaaaaaaaaaaaa",
+  "length_bp": 428,
+  "sequence_length_bp": 428,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

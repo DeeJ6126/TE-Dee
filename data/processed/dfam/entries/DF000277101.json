@@ -1,0 +1,47 @@
+{
+  "accession": "DF000277101",
+  "name": "GalVar-1.8",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Galeopterus variegatus",
+  "display_classification": "SINE/tRNA | Galeopterus variegatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Dermoptera",
+    "Cynocephalidae",
+    "Galeopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 163 BP; 31 A; 46 C; 60 G; 26 T; 0 other;"
+  },
+  "sequence": "gagggccggccccgtggctcactcgggagagtgcggcgctggtagcgccgaggccgcgggttcggatcctatatagggatggccggtgcgctcactggctgagcgtggtgcggaccacaccgtgccgagggttgcgatccccttaccggtcaaaaaaaaaaaa",
+  "length_bp": 163,
+  "sequence_length_bp": 163,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

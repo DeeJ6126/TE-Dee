@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277594",
+  "name": "IndInd-5.1727",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Indri indri",
+  "display_classification": "DNA/PiggyBac | Indri indri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Indriidae",
+    "Indri"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 413 BP; 142 A; 59 C; 50 G; 162 T; 0 other;"
+  },
+  "sequence": "cctgggcaaaaccctgcagttggttcgtgaaaatcttacttgttgatgttcttattgttacaattaatattgacaatttaattctaaaaacgtggattaaatgaatagaagtcaataaatttcatttttctatttatgtttacctttaaattacacttaagcctgacaagtcaagaaaaacactttacccttatgaactatttttcaagttttcacattactttttacattactaattttcaagtttttatattacttttttattgaaaaaaacacagaaaacaataaaaaataacaaatttttcattaaattagaaaggatcgttttgttttcgaagtttttattctattttcgtaataaaacaccgtggccccaaggaaaaatttttttttctagtgtggcagtcaatgtg",
+  "length_bp": 413,
+  "sequence_length_bp": 413,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

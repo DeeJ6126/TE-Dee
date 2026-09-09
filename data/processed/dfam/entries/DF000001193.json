@@ -1,0 +1,39 @@
+{
+  "accession": "DF000001193",
+  "name": "Charlie30a",
+  "description": "hAT-Charlie DNA transposon, Charlie30a subfamily",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/hAT-Charlie | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 791 BP; 156 A; 213 C; 148 G; 262 T; 12 other;"
+  },
+  "sequence": "caggggtggggaacctccggcccgcgggccggacccggccctcggcttgatttcatccggcccctggggtgatattgctctggtcactgccgctgcagcccagagaataatttctcccctggtgggctgctgtggctatcccattcagagcagagcctctgaaggtttaaggataaagagcagttgaagagctgtgaacagtggttaatcagctaatcagcatttcaaagggcagtgataanaggtgataatactctgaagcccacggcccaagtgaacagcagggtgtgacaaaatcagtttactaacacttcagaacctaccgagcctctctttccgcgcctngtntttcctncccctttgcctnttctcgtctccctcccggtttctctctgtctgtnnctctctgcctcctttctccgcccccgagtcttnttccctctcncngtccctcttggtctctgtctctctgtctctgcctctntntctctctttctcttcttctctcatttccccactctctttctatctctttccccctactttttctcccttaactggccataatatagaactgaagtatattttttattatttgttgtatttattgaatagagttttatgttccctgttcttaattttaaaagcagatgagttgaacattttatatttctctttctaaaaaaaaaaaataaaccaaattaagttgctttttacttgtatgtggccctcgattgattttttttctgtgggtcagtggccctcgatagaaaaaaggttccccacccctg",
+  "length_bp": 791,
+  "sequence_length_bp": 791,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,46 @@
+{
+  "accession": "DF000276237",
+  "name": "DasNov-5.981",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Dasypus novemcinctus",
+  "display_classification": "DNA/TcMar-Tigger | Dasypus novemcinctus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Dasypodidae",
+    "Dasypus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 972 BP; 287 A; 189 C; 244 G; 252 T; 0 other;"
+  },
+  "sequence": "cagtcataccttggtactcgactgctttgaaactcgtcgaatttggtactcgacgcattttgacgcgaaaattttgtcccggtactcgtcgtttgtttggtactcgacgcgcaagctagaacttgtcggtgtcggttgcctcgtgactcgctaccctttccagccgaaacaaagggtcacgcgttagtcacgcggtagctcttgccctgtgcacatcccattgcggtcttatcttagcttctgtggtcattttgtgtatttttgcgttttttttctcatcatgggtcctaagaaaatgagcagtgatagcgctgagcagaaaagaaaattacttcgcaccaccattgagcaaaaaaaagaaataataggtaaatatgagagcggtattcgcattactgatcttgctagggaatacggtatgcctagaacaacggtctccaccatcattaagaataaagaagcgataaaaaaggctgatgttgcgaaaggagttaaagcagtaacaaagcagcgttcccaaacactcgaggaagttgaaaagctgttattaatttgggtaaacgagaagcagttagcgggcgacagtgtatcggaagccatgatatgtgaaaaagcgaaagtgttgcatgccgatcttttgaaaaacaaaccggaaccgagtgatgagagtgttgaagtttttaaggccagccacggctggtttgataattttaaaaagaggaccggcatccatagtgtcgtgaggcatggcgaggcagcgagtgctaataaaaaggctgctgatgaattcgtcagtgaatttcaagactacgtagaggctgagggttttattccccaccaagtttttaactgtgatgagaccggagttttttgggaaaaaatgccgagtagaacctacatcacaaaagaggagaaggcattaccaggccacaaaccaatgaaggacaggctcactctattgttgtgtgggaa",
+  "length_bp": 972,
+  "sequence_length_bp": 972,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

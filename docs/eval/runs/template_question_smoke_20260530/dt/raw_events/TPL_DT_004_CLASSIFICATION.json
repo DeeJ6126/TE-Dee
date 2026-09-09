@@ -1,0 +1,1483 @@
+{
+  "case": {
+    "case_id": "TPL_DT_004_CLASSIFICATION",
+    "question": "Which subfamily does L1HS belong to?",
+    "expected_best_mode": "deep_think",
+    "template_label": "Classification lookup"
+  },
+  "dt": {
+    "ok": true,
+    "http_status": 200,
+    "headers": {
+      "Date": "Sat, 30 May 2026 10:38:09 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Cache-Control": "no-cache, no-transform",
+      "X-Accel-Buffering": "no",
+      "Connection": "keep-alive, close",
+      "Content-Encoding": "none",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "text/event-stream; charset=utf-8"
+    },
+    "events": [
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-TPL_DT_004_CLASSIFICATION",
+        "message": "Recognized entities: L1HS (TE).",
+        "payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "display_text": "Recognized entities: L1HS (TE).",
+        "sequence": 1
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-TPL_DT_004_CLASSIFICATION",
+        "message": "Question type: classification. Complexity: single_hop_reasoning.",
+        "payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": [
+            {
+              "type": "TE",
+              "label": "L1HS",
+              "canonical_label": "L1HS",
+              "display_label": "L1HS",
+              "aliases": [
+                "L1HS",
+                "L1HS-Ta"
+              ],
+              "broad_aliases": [],
+              "matched_alias": "L1HS",
+              "used_broad_alias": false,
+              "confidence": 0.93
+            }
+          ]
+        },
+        "display_text": "Question type: classification. Complexity: single_hop_reasoning.",
+        "sequence": 2
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-TPL_DT_004_CLASSIFICATION",
+        "plugin_name": "Entity Resolver",
+        "message": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "sequence": 3
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-TPL_DT_004_CLASSIFICATION",
+        "plugin_name": "Entity Resolver",
+        "display_label": "Resolved 1 entities",
+        "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+        "message": "These aliases will be reused by the graph, literature, genome, and sequence layers.",
+        "detail_payload_id": "tool-1",
+        "payload": {
+          "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Entity Resolver",
+              "entity_scope": "L1HS",
+              "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "matched_alias": "L1HS",
+                "used_broad_alias": false,
+                "confidence": 0.93
+              },
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta",
+              "evidence_type": "claim",
+              "coverage_dimension": "unknown",
+              "subject": null,
+              "object": null,
+              "provenance": [],
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "ok",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "required_evidence": [
+                "classification"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": [
+                  {
+                    "type": "TE",
+                    "canonical_label": "L1HS",
+                    "display_label": "L1HS",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  }
+                ],
+                "resolved_entities": [
+                  {
+                    "label": "L1HS",
+                    "canonical_label": "L1HS",
+                    "type": "TE",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "confidence": 0.93,
+                    "used_broad_alias": false
+                  }
+                ]
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ],
+            "resolved_entities": [
+              {
+                "label": "L1HS",
+                "canonical_label": "L1HS",
+                "type": "TE",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "confidence": 0.93,
+                "used_broad_alias": false
+              }
+            ]
+          },
+          "raw_preview": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 1,
+            "alias_variants": 2
+          },
+          "display_details": {
+            "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Entity Resolver",
+                "entity_scope": "L1HS",
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "matched_alias": "L1HS",
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                },
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta",
+                "evidence_type": "claim",
+                "coverage_dimension": "unknown",
+                "subject": null,
+                "object": null,
+                "provenance": [],
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": [
+                {
+                  "type": "TE",
+                  "canonical_label": "L1HS",
+                  "display_label": "L1HS",
+                  "matched_alias": "L1HS",
+                  "aliases": [
+                    "L1HS",
+                    "L1HS-Ta"
+                  ],
+                  "broad_aliases": [],
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                }
+              ]
+            },
+            "result_message": "These aliases will be reused by the graph, literature, genome, and sequence layers."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Entity Resolver",
+              "entity_scope": "L1HS",
+              "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "matched_alias": "L1HS",
+                "used_broad_alias": false,
+                "confidence": 0.93
+              },
+              "title": "L1HS",
+              "meta": "TE | matched via L1HS | confidence 0.93",
+              "body": "Strict aliases: L1HS, L1HS-Ta",
+              "evidence_type": "claim",
+              "coverage_dimension": "unknown",
+              "subject": null,
+              "object": null,
+              "provenance": [],
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "ok",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "required_evidence": [
+                "classification"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+              "result_counts": {
+                "resolved_entities": 1,
+                "alias_variants": 2
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "body": "Strict aliases: L1HS, L1HS-Ta"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                  "title": "L1HS",
+                  "meta": "TE | matched via L1HS | confidence 0.93",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": [
+                  {
+                    "type": "TE",
+                    "canonical_label": "L1HS",
+                    "display_label": "L1HS",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "used_broad_alias": false,
+                    "confidence": 0.93
+                  }
+                ],
+                "resolved_entities": [
+                  {
+                    "label": "L1HS",
+                    "canonical_label": "L1HS",
+                    "type": "TE",
+                    "matched_alias": "L1HS",
+                    "aliases": [
+                      "L1HS",
+                      "L1HS-Ta"
+                    ],
+                    "broad_aliases": [],
+                    "confidence": 0.93,
+                    "used_broad_alias": false
+                  }
+                ]
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ],
+            "resolved_entities": [
+              {
+                "label": "L1HS",
+                "canonical_label": "L1HS",
+                "type": "TE",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "confidence": 0.93,
+                "used_broad_alias": false
+              }
+            ]
+          },
+          "raw_preview": {
+            "alias_chains": [
+              {
+                "type": "TE",
+                "canonical_label": "L1HS",
+                "display_label": "L1HS",
+                "matched_alias": "L1HS",
+                "aliases": [
+                  "L1HS",
+                  "L1HS-Ta"
+                ],
+                "broad_aliases": [],
+                "used_broad_alias": false,
+                "confidence": 0.93
+              }
+            ]
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 1,
+            "alias_variants": 2
+          },
+          "display_details": {
+            "summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Entity Resolver",
+                "entity_scope": "L1HS",
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "matched_alias": "L1HS",
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                },
+                "title": "L1HS",
+                "meta": "TE | matched via L1HS | confidence 0.93",
+                "body": "Strict aliases: L1HS, L1HS-Ta",
+                "evidence_type": "claim",
+                "coverage_dimension": "unknown",
+                "subject": null,
+                "object": null,
+                "provenance": [],
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": [
+                {
+                  "type": "TE",
+                  "canonical_label": "L1HS",
+                  "display_label": "L1HS",
+                  "matched_alias": "L1HS",
+                  "aliases": [
+                    "L1HS",
+                    "L1HS-Ta"
+                  ],
+                  "broad_aliases": [],
+                  "used_broad_alias": false,
+                  "confidence": 0.93
+                }
+              ]
+            },
+            "result_message": "These aliases will be reused by the graph, literature, genome, and sequence layers."
+          }
+        },
+        "display_text": "These aliases will be reused by the graph, literature, genome, and sequence layers.",
+        "sequence": 4
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-TPL_DT_004_CLASSIFICATION",
+        "plugin_name": "Tree Plugin",
+        "message": "I will continue with the next highest-priority plugin for this simple question type.",
+        "node": "Deep Think",
+        "source": "Tree Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will continue with the next highest-priority plugin for this simple question type.",
+        "sequence": 5
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-TPL_DT_004_CLASSIFICATION",
+        "plugin_name": "Tree Plugin",
+        "display_label": "Resolved 1 classification paths",
+        "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+        "message": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence.",
+        "detail_payload_id": "tool-2",
+        "payload": {
+          "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Tree Plugin",
+              "entity_scope": "L1HS",
+              "claim": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "kind": "te_path",
+                "label": "L1HS",
+                "path": [
+                  "TE",
+                  "Retrotransposons",
+                  "Non-LTR Retrotransposons (LINEs)",
+                  "L1 (LINE-1)",
+                  "L1PA",
+                  "L1HS"
+                ]
+              },
+              "title": "L1HS",
+              "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS",
+              "body": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+              "evidence_type": "classification_context",
+              "coverage_dimension": "classification_context",
+              "subject": "L1HS",
+              "object": "L1HS",
+              "provenance": {
+                "source": "taxonomy_runtime"
+              },
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS."
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "ok",
+              "result_counts": {
+                "paths": 1
+              },
+              "required_evidence": [
+                "classification"
+              ],
+              "latency_ms": 35
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Tree Plugin",
+              "status": "ok",
+              "query_summary": "Resolved TE and disease classification tree context.",
+              "display_summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+              "result_counts": {
+                "paths": 1
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                  "title": "L1HS",
+                  "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "kind": "te_path",
+                  "label": "L1HS",
+                  "path": [
+                    "TE",
+                    "Retrotransposons",
+                    "Non-LTR Retrotransposons (LINEs)",
+                    "L1 (LINE-1)",
+                    "L1PA",
+                    "L1HS"
+                  ]
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "kind": "te_path",
+              "label": "L1HS",
+              "path": [
+                "TE",
+                "Retrotransposons",
+                "Non-LTR Retrotransposons (LINEs)",
+                "L1 (LINE-1)",
+                "L1PA",
+                "L1HS"
+              ]
+            }
+          ],
+          "raw_preview": [
+            {
+              "kind": "te_path",
+              "label": "L1HS",
+              "path": [
+                "TE",
+                "Retrotransposons",
+                "Non-LTR Retrotransposons (LINEs)",
+                "L1 (LINE-1)",
+                "L1PA",
+                "L1HS"
+              ]
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "paths": 1
+          },
+          "display_details": {
+            "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Tree Plugin",
+                "entity_scope": "L1HS",
+                "claim": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "kind": "te_path",
+                  "label": "L1HS",
+                  "path": [
+                    "TE",
+                    "Retrotransposons",
+                    "Non-LTR Retrotransposons (LINEs)",
+                    "L1 (LINE-1)",
+                    "L1PA",
+                    "L1HS"
+                  ]
+                },
+                "title": "L1HS",
+                "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS",
+                "body": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                "evidence_type": "classification_context",
+                "coverage_dimension": "classification_context",
+                "subject": "L1HS",
+                "object": "L1HS",
+                "provenance": {
+                  "source": "taxonomy_runtime"
+                },
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              }
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "kind": "te_path",
+                "label": "L1HS",
+                "path": [
+                  "TE",
+                  "Retrotransposons",
+                  "Non-LTR Retrotransposons (LINEs)",
+                  "L1 (LINE-1)",
+                  "L1PA",
+                  "L1HS"
+                ]
+              }
+            ],
+            "result_message": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Tree Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+          "preview_items": [
+            {
+              "title": "L1HS",
+              "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Tree Plugin",
+              "entity_scope": "L1HS",
+              "claim": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "kind": "te_path",
+                "label": "L1HS",
+                "path": [
+                  "TE",
+                  "Retrotransposons",
+                  "Non-LTR Retrotransposons (LINEs)",
+                  "L1 (LINE-1)",
+                  "L1PA",
+                  "L1HS"
+                ]
+              },
+              "title": "L1HS",
+              "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS",
+              "body": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+              "evidence_type": "classification_context",
+              "coverage_dimension": "classification_context",
+              "subject": "L1HS",
+              "object": "L1HS",
+              "provenance": {
+                "source": "taxonomy_runtime"
+              },
+              "diagnostic": [],
+              "citations": [],
+              "quality_flags": []
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS."
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "ok",
+              "result_counts": {
+                "paths": 1
+              },
+              "required_evidence": [
+                "classification"
+              ],
+              "latency_ms": 35
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Tree Plugin",
+              "status": "ok",
+              "query_summary": "Resolved TE and disease classification tree context.",
+              "display_summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+              "result_counts": {
+                "paths": 1
+              },
+              "preview_items": [
+                {
+                  "title": "L1HS",
+                  "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                  "title": "L1HS",
+                  "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "kind": "te_path",
+                  "label": "L1HS",
+                  "path": [
+                    "TE",
+                    "Retrotransposons",
+                    "Non-LTR Retrotransposons (LINEs)",
+                    "L1 (LINE-1)",
+                    "L1PA",
+                    "L1HS"
+                  ]
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "kind": "te_path",
+              "label": "L1HS",
+              "path": [
+                "TE",
+                "Retrotransposons",
+                "Non-LTR Retrotransposons (LINEs)",
+                "L1 (LINE-1)",
+                "L1PA",
+                "L1HS"
+              ]
+            }
+          ],
+          "raw_preview": [
+            {
+              "kind": "te_path",
+              "label": "L1HS",
+              "path": [
+                "TE",
+                "Retrotransposons",
+                "Non-LTR Retrotransposons (LINEs)",
+                "L1 (LINE-1)",
+                "L1PA",
+                "L1HS"
+              ]
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "paths": 1
+          },
+          "display_details": {
+            "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+            "preview_items": [
+              {
+                "title": "L1HS",
+                "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Tree Plugin",
+                "entity_scope": "L1HS",
+                "claim": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "kind": "te_path",
+                  "label": "L1HS",
+                  "path": [
+                    "TE",
+                    "Retrotransposons",
+                    "Non-LTR Retrotransposons (LINEs)",
+                    "L1 (LINE-1)",
+                    "L1PA",
+                    "L1HS"
+                  ]
+                },
+                "title": "L1HS",
+                "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS",
+                "body": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                "evidence_type": "classification_context",
+                "coverage_dimension": "classification_context",
+                "subject": "L1HS",
+                "object": "L1HS",
+                "provenance": {
+                  "source": "taxonomy_runtime"
+                },
+                "diagnostic": [],
+                "citations": [],
+                "quality_flags": []
+              }
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "kind": "te_path",
+                "label": "L1HS",
+                "path": [
+                  "TE",
+                  "Retrotransposons",
+                  "Non-LTR Retrotransposons (LINEs)",
+                  "L1 (LINE-1)",
+                  "L1PA",
+                  "L1HS"
+                ]
+              }
+            ],
+            "result_message": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence."
+          }
+        },
+        "display_text": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence.",
+        "sequence": 6
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-dt-TPL_DT_004_CLASSIFICATION",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results"
+        ],
+        "outputs_changed": [
+          "plugin_queue"
+        ],
+        "message": "The currently collected evidence is enough to move into synthesis.",
+        "payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The classification layer already returned a direct usable hit, so no extra evidence layer is needed for this lineage question."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "coverage": {
+                  "question_type": "classification",
+                  "status": "ok",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "required_evidence": [
+                    "classification"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "ok",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "body": "Strict aliases: L1HS, L1HS-Ta"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": [
+                      {
+                        "type": "TE",
+                        "canonical_label": "L1HS",
+                        "display_label": "L1HS",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "used_broad_alias": false,
+                        "confidence": 0.93
+                      }
+                    ],
+                    "resolved_entities": [
+                      {
+                        "label": "L1HS",
+                        "canonical_label": "L1HS",
+                        "type": "TE",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "confidence": 0.93,
+                        "used_broad_alias": false
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "Tree Plugin": {
+              "plugin_name": "Tree Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS."
+                ],
+                "coverage": {
+                  "question_type": "classification",
+                  "status": "ok",
+                  "result_counts": {
+                    "paths": 1
+                  },
+                  "required_evidence": [
+                    "classification"
+                  ],
+                  "latency_ms": 35
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Tree Plugin",
+                  "status": "ok",
+                  "query_summary": "Resolved TE and disease classification tree context.",
+                  "display_summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+                  "result_counts": {
+                    "paths": 1
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                      "title": "L1HS",
+                      "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS",
+                      "support_strength": "medium"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": [
+                    {
+                      "kind": "te_path",
+                      "label": "L1HS",
+                      "path": [
+                        "TE",
+                        "Retrotransposons",
+                        "Non-LTR Retrotransposons (LINEs)",
+                        "L1 (LINE-1)",
+                        "L1PA",
+                        "L1HS"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "message_payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The classification layer already returned a direct usable hit, so no extra evidence layer is needed for this lineage question."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "coverage": {
+                  "question_type": "classification",
+                  "status": "ok",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "required_evidence": [
+                    "classification"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Resolved the TE entity L1HS with 2 strict alias variants."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "ok",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "I resolved 1 entities and prepared 2 strict alias variants so the downstream plugins can retry stable names before considering broad aliases.",
+                  "result_counts": {
+                    "resolved_entities": 1,
+                    "alias_variants": 2
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "body": "Strict aliases: L1HS, L1HS-Ta"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                      "title": "L1HS",
+                      "meta": "TE | matched via L1HS | confidence 0.93",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": [
+                      {
+                        "type": "TE",
+                        "canonical_label": "L1HS",
+                        "display_label": "L1HS",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "used_broad_alias": false,
+                        "confidence": 0.93
+                      }
+                    ],
+                    "resolved_entities": [
+                      {
+                        "label": "L1HS",
+                        "canonical_label": "L1HS",
+                        "type": "TE",
+                        "matched_alias": "L1HS",
+                        "aliases": [
+                          "L1HS",
+                          "L1HS-Ta"
+                        ],
+                        "broad_aliases": [],
+                        "confidence": 0.93,
+                        "used_broad_alias": false
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "Tree Plugin": {
+              "plugin_name": "Tree Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS."
+                ],
+                "coverage": {
+                  "question_type": "classification",
+                  "status": "ok",
+                  "result_counts": {
+                    "paths": 1
+                  },
+                  "required_evidence": [
+                    "classification"
+                  ],
+                  "latency_ms": 35
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Tree Plugin",
+                  "status": "ok",
+                  "query_summary": "Resolved TE and disease classification tree context.",
+                  "display_summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+                  "result_counts": {
+                    "paths": 1
+                  },
+                  "preview_items": [
+                    {
+                      "title": "L1HS",
+                      "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                      "title": "L1HS",
+                      "meta": "TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS",
+                      "support_strength": "medium"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": [
+                    {
+                      "kind": "te_path",
+                      "label": "L1HS",
+                      "path": [
+                        "TE",
+                        "Retrotransposons",
+                        "Non-LTR Retrotransposons (LINEs)",
+                        "L1 (LINE-1)",
+                        "L1PA",
+                        "L1HS"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "display_text": "The currently collected evidence is enough to move into synthesis.",
+        "sequence": 7
+      },
+      {
+        "type": "synthesizing",
+        "session_id": "eval-dt-TPL_DT_004_CLASSIFICATION",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results",
+          "evidence_bundle",
+          "citation_bundle"
+        ],
+        "outputs_changed": [
+          "supported_claims",
+          "answer"
+        ],
+        "message": "I am now synthesizing the plugin results into a final answer.",
+        "payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS."
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "summary": "Strict aliases: L1HS, L1HS-Ta",
+                "citations": []
+              },
+              {
+                "claim": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                "summary": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "message_payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Resolved the TE entity L1HS with 2 strict alias variants.",
+              "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS."
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Resolved the TE entity L1HS with 2 strict alias variants.",
+                "summary": "Strict aliases: L1HS, L1HS-Ta",
+                "citations": []
+              },
+              {
+                "claim": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                "summary": "L1HS classification path: TE -> Retrotransposons -> Non-LTR Retrotransposons (LINEs) -> L1 (LINE-1) -> L1PA -> L1HS.",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "display_text": "I am now synthesizing the plugin results into a final answer.",
+        "sequence": 8
+      },
+      {
+        "type": "answer",
+        "request_id": "req_a4703a7c422b6322",
+        "session_id": "eval-dt-TPL_DT_004_CLASSIFICATION",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "message": "L1HS belongs to the **L1PA** subfamily within the LINE-1 (L1) clade of non-LTR retrotransposons. The classification path is: TE → Retrotransposons → Non-LTR Retrotransposons (LINEs) → L1 (LINE-1) → L1PA → L1HS.",
+        "language": "english",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "L1HS belongs to the **L1PA** subfamily within the LINE-1 (L1) clade of non-LTR retrotransposons. The classification path is: TE → Retrotransposons → Non-LTR Retrotransposons (LINEs) → L1 (LINE-1) → L1PA → L1HS.",
+        "sequence": 9
+      },
+      {
+        "type": "done",
+        "request_id": "req_a4703a7c422b6322",
+        "session_id": "eval-dt-TPL_DT_004_CLASSIFICATION",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "payload": {
+          "answer": "L1HS belongs to the **L1PA** subfamily within the LINE-1 (L1) clade of non-LTR retrotransposons. The classification path is: TE → Retrotransposons → Non-LTR Retrotransposons (LINEs) → L1 (LINE-1) → L1PA → L1HS.",
+          "language": "english",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "answer": "L1HS belongs to the **L1PA** subfamily within the LINE-1 (L1) clade of non-LTR retrotransposons. The classification path is: TE → Retrotransposons → Non-LTR Retrotransposons (LINEs) → L1 (LINE-1) → L1PA → L1HS.",
+          "language": "english",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "display_text": "",
+        "sequence": 10
+      }
+    ],
+    "answer": "L1HS belongs to the **L1PA** subfamily within the LINE-1 (L1) clade of non-LTR retrotransposons. The classification path is: TE → Retrotransposons → Non-LTR Retrotransposons (LINEs) → L1 (LINE-1) → L1PA → L1HS.",
+    "done_payload": {
+      "answer": "L1HS belongs to the **L1PA** subfamily within the LINE-1 (L1) clade of non-LTR retrotransposons. The classification path is: TE → Retrotransposons → Non-LTR Retrotransposons (LINEs) → L1 (LINE-1) → L1PA → L1HS.",
+      "language": "english",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": ""
+    },
+    "used_plugins": [
+      "Entity Resolver",
+      "Tree Plugin"
+    ],
+    "citations": [],
+    "timings": {
+      "total_ms": 2441
+    },
+    "errors": []
+  },
+  "agent": {
+    "ok": false,
+    "skipped": true,
+    "answer": "",
+    "errors": []
+  },
+  "evaluation": {
+    "schema_version": "mode_comparison_live_proxy.v1",
+    "case_id": "TPL_DT_004_CLASSIFICATION",
+    "expected_best_mode": "deep_think",
+    "recommended_mode": "deep_think",
+    "dt_ok": true,
+    "agent_ok": false,
+    "dt_answer_length": 210,
+    "agent_answer_length": 0,
+    "dt_plugins": [
+      "Entity Resolver",
+      "Tree Plugin"
+    ],
+    "agent_plugins": [],
+    "dt_latency_ms": 2441,
+    "agent_latency_ms": 0,
+    "agent_artifact_score": 0.0,
+    "dt_artifact_score": 0.45,
+    "depth_delta": -0.45,
+    "agent_value_added": "none",
+    "agent_overkill": false,
+    "dt_errors": [],
+    "agent_errors": []
+  }
+}

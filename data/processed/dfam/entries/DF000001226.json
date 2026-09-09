@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001226",
+  "name": "UCON68",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Amniota",
+  "display_classification": "Unknown/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 111 BP; 26 A; 18 C; 26 G; 36 T; 5 other;"
+  },
+  "sequence": "tattttcaagaaagtgtgcttggtgaaaanncgcatttcctgngaacacctgtgaactgttgantttaattgggctacagctggcgntgatcgtgttcttttgaaagcact",
+  "length_bp": 111,
+  "sequence_length_bp": 111,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON68"
+  ]
+}

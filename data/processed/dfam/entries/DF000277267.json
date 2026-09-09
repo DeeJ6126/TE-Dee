@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277267",
+  "name": "HelPar-1.7",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Helogale parvula",
+  "display_classification": "SINE/tRNA | Helogale parvula",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Herpestidae",
+    "Helogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 228 BP; 38 A; 72 C; 47 G; 70 T; 1 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccgactcttgatttcggctcaggtcatgatctcacggttcgtgggntcgagccccgcgtcgggctctgcgctgacagcgcggagcctgcttgggattctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctcaaaataaataaataaaaaaataaaaaaa",
+  "length_bp": 228,
+  "sequence_length_bp": 228,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

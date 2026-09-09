@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275101",
+  "name": "BosMut-1.127",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Bos mutus",
+  "display_classification": "LINE/L1 | Bos mutus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bos"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1209 BP; 465 A; 225 C; 271 G; 244 T; 4 other;"
+  },
+  "sequence": "tcctctatgacccacctcccagaatattggaaataaaagcaaaaataaacaaatgggacctaattaaacttaaaagcttctgcacaacgaaggaaactatnagcaaggtgaaaagacagccttcagaatgggagaaaataatagcaaatgaagcaactgacaaacaactaatctcaaaaatatacaagcaactcctgcagctcaattccagaaaaataaacgacccaatcaaaaaatgggccaaagaactaaacagacatttctccaaagaagacatacagatggctaacaaacacatgaaaagatgctcaacatcactcattatcagagaaatgcaaatcaaaaccacaatgaggtaccatctcacgccagtcagaatggctgcgatccaaaagtctacaaacaataaatgctggagagggtgtggagaaaagggaaccctcttacactgttggtgggaatgcaaactagtacagccactatggagaacagtgtggagattccttaaaaaactggaaatagaactgccntatgacccagcaatcccactgctgggcatacacaccgaggaaaccagaattgaaagagacacgtgtaccccaatgttcatcgcagcactgtttataatagccaggacatggaagcaacctagatgtccatcagcagatgaatggataagaaagctgtggtacatatacacaatggagtattactcagccattaaaaagaatacatttgaatcagttctaatgaggtggatgaaactggagcctattatacagagtgaagtaagccagaaagaaaaacaccaatacagtatactaacgcatatatatggaatttagaaagatggtaacgatgaccctgtatgcgagacagcaaaagagacacagatgtatagaacagtcttttggactctgtgggagagggcgagggtgggatgatttgagagaatagcattgaaacatgtatattatcatatgtgaaacggatcgccagtccaggttcgatgcatgagacagggtgctcggggctggtgcactgggatgacccngagggatgggatggggagggaggtgggaggggggttcaggatggggaacacatgtacacccgtggcngattcatgtcgatgtatggcaaaaccactacaatattgtaaagtaattagcctccaattaaaataaataaatttataaaaaaaaaaaa",
+  "length_bp": 1209,
+  "sequence_length_bp": 1209,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

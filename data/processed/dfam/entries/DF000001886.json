@@ -1,0 +1,49 @@
+{
+  "accession": "DF000001886",
+  "name": "L1_Mur3_5end",
+  "description": "L1 Non-LTR Retrotransposon from Muridae.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Muroidea",
+  "display_classification": "LINE/L1 | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1328 BP; 379 A; 489 C; 216 G; 234 T; 10 other;"
+  },
+  "sequence": "ccccaactccagcaggcattccctgggaacccacaggccactccggccagggaagcaggtaggctaactgcagatcttcacctctccctccgctcctccaaatccaatcccccagtctcatccccagctctgcagcagancacctgctgcagcctcccctccctccctgcccccatctccagtggatcacacagatcttcccctccaaacttccctccccccactcattgctttatcccagcccccaactccagcaggcattccctgggaacccgcaggccactccggccagggaagcaggtaggctaactgcagatcttcacctctccctcctctcctccaaatccaatcccccagtctcatccccagctctgtagcagaccacctgctgcggcctccccttcctccctgcccccatctccagcggatcacacagatcttcccctccaancttccttccccccactcatcgctttatcccagcccccaactccagcaggcattccctgggaacccgcaggccactccggccagggaagcaggtaggctaactgcagatcttcacctctccctccnctcctccaaatccaatcccccagtctcatccccagctctgtagcagaccacctgctgtggcctctcctcactctctgcccccattcccaggggactaagcagatcctggtggaacaccctgctttcctccctcctgtggaccccctcagctcacccccctcctagcccatccccattcctaagtgtcagctcccaatacctagaaacacattttacccggaacccccagtggccacacctancaggatcccagaagaatttcctaccaggcaacacacagccaccacactctcctaagaaccagagagggcaacagaaaccaaggaacaaaacacccacccaacaaagacaagaccagatatcagcacctagaattacaatcntcccaaacccagatgcctagacgccagcgtaaaaacacaatcaataacagccaggacaatatgtctccactagagcccagcaaccctaccacagcaggccctgagnattncaacatagctgaagcacaaganaaagaccttaaaatagcctttatgaatatgatagaggtccttaaagaggaaatgaataaatcccttaaagaaatctatgaaaacacaaacaaacagtggaaggaaatgaataaaacngttcaagacctgaaagtggaaatagaatcaataaagaaaacccaaactgagggaaatctggaaatgaaaaatttaggaactcgaacaggaaccncagaggcaagcctcaccaacagaata",
+  "length_bp": 1328,
+  "sequence_length_bp": 1328,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1_Mur3_5end"
+  ]
+}

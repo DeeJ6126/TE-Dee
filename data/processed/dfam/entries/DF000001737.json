@@ -1,0 +1,51 @@
+{
+  "accession": "DF000001737",
+  "name": "B2_Mm2",
+  "description": "Mus musculus B2 SINE element.",
+  "keywords": [
+    "SINE/B2"
+  ],
+  "species": "Murinae",
+  "display_classification": "SINE/B2 | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 195 BP; 64 A; 42 C; 42 G; 47 T; 0 other;"
+  },
+  "sequence": "ggggctggagagatggctcagcggttaagagcactgactgctcttccagaggtcctgagttcaattcccagcaaccacatggtggctcacaaccatctgtaatgggatctgatgccctcttctggtgtgtctgaagacagctacagtgtactcacatacataaataaataaataaatctttaaaaaaaaaaaaaa",
+  "length_bp": 195,
+  "sequence_length_bp": 195,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "B2_Mm2"
+  ]
+}

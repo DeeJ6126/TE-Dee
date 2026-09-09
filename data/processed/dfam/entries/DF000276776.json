@@ -1,0 +1,51 @@
+{
+  "accession": "DF000276776",
+  "name": "EllTal-5.825",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Ellobius talpinus",
+  "display_classification": "SINE/Alu | Ellobius talpinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Arvicolinae",
+    "Ellobius"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 159 BP; 47 A; 42 C; 46 G; 24 T; 0 other;"
+  },
+  "sequence": "gccgggcggtggtggcgcacgcctttaatcccagcactcgggaggcagaggcaggcggatctctgtgagttcgaggccagcctggtctacaagagctagttccaggacaggctccaaagctacagagaaaccctgtctcgaaaaaccaaaaaaaaaaaa",
+  "length_bp": 159,
+  "sequence_length_bp": 159,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

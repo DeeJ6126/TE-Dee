@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279439",
+  "name": "OchPri-1.20",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-Core"
+  ],
+  "species": "Ochotona princeps",
+  "display_classification": "SINE/tRNA-Core | Ochotona princeps",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Lagomorpha",
+    "Ochotonidae",
+    "Ochotona"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 332 BP; 67 A; 101 C; 91 G; 72 T; 1 other;"
+  },
+  "sequence": "gggcccggcgcggtagcctagtggctaaagtcctcgccttgcacgcgccgggatcccatatgggcgccggttcgtgtcccggctgctccacttcccatccagctccctgcttgtggcctgggaaagcagtngaggacggcccaaagccttgggaccctgcacccgcgtgggagacccggaagaagctcctggctcctggcttcggatcggctcagctccggccgttgcggccacttggggagtgaaccagcggatggaagatctttctgtctctccttctctctgtaaatctgcctttccaataaaaataaataaatctttaaaaaaaaaaa",
+  "length_bp": 332,
+  "sequence_length_bp": 332,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

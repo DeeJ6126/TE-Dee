@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279825",
+  "name": "OviAri-1.57",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-Core-RTE"
+  ],
+  "species": "Ovis aries",
+  "display_classification": "SINE/tRNA-Core-RTE | Ovis aries",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Caprinae",
+    "Ovis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 226 BP; 56 A; 62 C; 74 G; 34 T; 0 other;"
+  },
+  "sequence": "gggcttcccaggtggcgcagtggtaaagaatccgcctgccaatgcaggagacgcaagagacgcgggttcgatccctgggtcgggaagatcccctggaggaggaaatggcaacccactccagtattcttgcctggagaatcccatggacagaggagcctggcgggctacagtccatggggtcgcaaagagtcggacacgactgagcgacttagcacgcacgcacaca",
+  "length_bp": 226,
+  "sequence_length_bp": 226,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

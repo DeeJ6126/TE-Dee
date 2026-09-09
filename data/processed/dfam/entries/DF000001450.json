@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001450",
+  "name": "PAL5A_CE",
+  "description": "PAL5A_CE non-autonomous DNA transposon",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 792 BP; 248 A; 147 C; 149 G; 245 T; 3 other;"
+  },
+  "sequence": "cactgcaactttttcctcacgagggacgaggaaaagtggtttctaggccatggccgaggggccgacaagtttcagcggccatttatcttgctttgttttccgcctgttttctttcgtttttcaccgatttttcccgttttttcttantaaaactgataaataaatattttttgcagatgctaaaacaatttccaagtaaaaaaattatgtattcagtgggcaagcagcggtgaaagtgggcaatgtaatatgatggattacgggaatacaaaacctaaactttttctgaaacatgatacatatgctgcttagatgctgagactacctgattttcataacgagaccgctgaaaaagttttgaggtttccaaaattcaacttttttggtgaaaaagtcgagattttcgcacaaaaagttgaattttgaaaacctcaaaactttttcagcggtctcgttatgaaaatcaggtaatttcagcatctaagcancatatgtatcatgtttcagaaaaagtttaggttttgtattcccgtaatccatcatattacattgnccactttcaccgctgcttgcccactgaatacataatttttttacttggaaattgttttagcatctgcaaaaaatatttatttatcagttttaataagaaaaaacgggaaaaagctgtgaaaaacgaaagaaaacaggcggaaaacaaagcaagataaatggccgctgaaacttgtcggcccctcggccatggcctagaaaccacttttcctcgtccctcgtgaggaaaaagttgcagtg",
+  "length_bp": 792,
+  "sequence_length_bp": 792,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PAL5A_CE"
+  ]
+}

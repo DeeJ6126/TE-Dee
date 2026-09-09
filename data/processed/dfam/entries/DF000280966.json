@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280966",
+  "name": "ThrSwi-1.2",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Thryonomys swinderianus",
+  "display_classification": "SINE/Alu | Thryonomys swinderianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Thryonomyidae",
+    "Thryonomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 149 BP; 40 A; 37 C; 47 G; 25 T; 0 other;"
+  },
+  "sequence": "agtgccgggcgtggtggctcacgcctgtaatcccagcactcgggaggcagaggcaggaggattgctgagttcgaggcttgcctgggctacatagtgagctcagggccagcctgaactacaaagcgagaccctgtctcaaaaaaaaaaaa",
+  "length_bp": 149,
+  "sequence_length_bp": 149,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

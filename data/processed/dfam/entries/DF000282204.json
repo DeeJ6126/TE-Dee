@@ -1,0 +1,49 @@
+{
+  "accession": "DF000282204",
+  "name": "MorBla-1.200_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MorBla-1.200_LTR"
+  ],
+  "species": "Mormoops blainvillei",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mormoops blainvillei",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Mormoopidae",
+    "Mormoops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 271 BP; 66 A; 75 C; 53 G; 77 T; 0 other;"
+  },
+  "sequence": "tgtagaggaaatcaaggctgataccaaagatgaaatgctaattgccctgacttatgatgtaaatgcttctctcccacctctgtaagcccttttcgcgccaaatctatactacgcctcccaataccctcccccacttagcccagcataaaaggaatgcggggctattgttctgggctcagaatttggagtttgtctcctctgggcccgtgcacgtaaataaagatcgtgctcctaacccctcagtgtctggtcgtttcatttttccgtaaca",
+  "length_bp": 271,
+  "sequence_length_bp": 271,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

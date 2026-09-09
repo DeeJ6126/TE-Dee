@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000619",
+  "name": "LTR90A",
+  "description": "LTR90A (Long Terminal Repeat) with unclear association",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR90A"
+  ],
+  "species": "Theria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 976 BP; 307 A; 205 C; 197 G; 218 T; 49 other;"
+  },
+  "sequence": "tgttagaaatttgatcggggatttcctgtgcagtctggagctgagaanaaggagatcatgacttgggctttgcagcccaaatatctttccttccccatcccccaaaatacacccaatcaaataaggttaggatgatggttaccaggcagcttgcaaaagcaagggcattccaccctccgaatttctggtcagaganagtanatatgtaaaacagaatatgctccattgttaagcaaacaccctntttattgatagtgggtcaacaagagcataggcaggtttagctatacagacaactaacagaatttgagatgcagaatattaaagctaagaatccaagatcaatcattcaaaatacaagtagatacgcagagaaaatatcacagcataagtagcagtnctaaaacgcaaagggctagagtcctgcnaaggcctttcctacgcagaagngccaaagcggagattcaggatcaacgctgttaaaatgcaaaatataatcaggagcaagcnctancgaatcctgcaaaggcctttcttaattaagcanttctganatacatncaactcctggttatagaaggnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnccaagggaaaagcggngagaaagcagagagaaagagnagccggaaaatnccagctccttaaaagctctaaacaaggggcggagactcgctcctccctggccaatccttgatggctccggagagggcgccctgattaatactttgttacgtcattaaaaggggtcagcttaaggtaaggtaatggagntcccatgacctattgaccttgttacgtcattagagaggccanctttggcccagaaaatggcggattccttccctgtgattcacacattacccagaagcctctggcttcctggaattcttaataaaaattccaaatctctcggcaataactttcaaacaccacaattttcgctaaca",
+  "length_bp": 976,
+  "sequence_length_bp": 976,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR90A"
+  ]
+}

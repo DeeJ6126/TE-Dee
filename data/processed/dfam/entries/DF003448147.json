@@ -1,0 +1,36 @@
+{
+  "accession": "DF003448147",
+  "name": "",
+  "description": "Repetitive sequence family identified in Heligmosomoides bakeri",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Heligmosomoides bakeri",
+  "display_classification": "LINE/CR1 | Heligmosomoides bakeri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Strongylida",
+    "Trichostrongyloidea",
+    "Heligmosomatidae",
+    "Heligmosomoides"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1535 BP; 417 A; 331 C; 378 G; 406 T; 3 other;"
+  },
+  "sequence": "ccgatggcacgtaaaaacacccccccccccccgtgcaatcgattgggtcaggcgttcgcgatggggcgcgcgcgcaccgcgcagtggagccgacgacgcggcgtcgtccgctggcttgacagcttggagggggctgaaagggattacaccacttttccgtgcagtacttatgagcacacgactcagtggtatcaagtaacgacgtgaagggcaacggataaggcatcgtatagcatgtagcatgtgatgtaatttactttgataatgtacatgtacatgtcactgatgataatgtacatgtacatgtacactgatacatgtgatgtaatttactttcatttttctaaagcattcgatagggtagaccattctagacttatgcacaaacctgaacatctgaagttccatcccttagttagtgtgtaaatgaatacaaaattgttcagaacgtagttttcaggtcaggataggaggtaatgcaaaaacctgaacatctgaagttccatcccctagtgtgtaaatgaatacgaaatcgttcagagcgtagttttcaggccaggataggaggtactttttgagtctgtaggttggtgaagagcgaagttccccagagaggggtcctttccgcagttctgttcgctatatacgtagctgagctgccgttgattcttgaggaaagcggtgttgtttgcggacgatatcaagatcnatgggaaaattgaatcaggtaccgatgtggagagagtagagcgtggagagagattggaaaggatttatgagtggtcaactatctggaagttacctcttgcccctgagaaaagtgtacatatgagattagaagggtcggagtgctctgcttggtactcgttgtgaggacaaatgttgaatgcagtggttaagatgaaggatttgggatttcattacaacaatgagcaactcaaactgccatgtctcatccctagaagcctttcatttcataatcgtgaaactcttaccttagacattatcaccaaaagcatgtagattcttttagctttcattaagattaactctgagcggaggtaaatcttaaatccgacgttttggaccaaactcatagaatagcaacgtcgaaatggatgcgatccctttaaaaaatgtgcatcctaagagggctgtatgagcaaaacagactgtgtgacatatacactcagtaancaactgaatttcacaaccacgaatcgtaagagcacttccaaagtgcatatgtttagaatttaccgtgctccagtttcgtaacagctgttgcaangtgcttctccttagcgtttaccgtgaaatacgccgtgtcgtgactgcaaaatagccccacgcccaacttcgaattacgccaagtcggcactgttttccgtaatctaagttcctgttcccctcgaagctactaagccggcggatgacgcgtcgtcggctccactgcacggtgcgcgcgcgccccatcgcgaaagcctgacccaatcgattgcacgggggggggggtgtttttacgtgccatcctc",
+  "length_bp": 1535,
+  "sequence_length_bp": 1535,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

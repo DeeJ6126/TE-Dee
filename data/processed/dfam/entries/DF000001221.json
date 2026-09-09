@@ -1,0 +1,44 @@
+{
+  "accession": "DF000001221",
+  "name": "MLT1C2",
+  "description": "Mammalian long terminal repeat (MLT1C subfamily)",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT1C2"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 461 BP; 131 A; 95 C; 127 G; 105 T; 3 other;"
+  },
+  "sequence": "tgttgtgggttgaattgtgtcccccaaaaagatatgttcaagtcctaacccccggnacctgtgaatgtgaccttatttggaaatagggtctttgcagatgtaatcaagttaagatgaggtcatactggattagggtgggccctaatccaatgactggtgtccttataagaagagggaaatntggacacagagacacacagggagaaggccatgtgaagacggaggcagagattggagtgatgcggctacaagccaaggaacgccaaggattgccggcaaccaccagaagctaggaagaggcaaggaaggattctcccctagagccttcagagggagcacggccctgccgacaccttgatttcggacttctggcctccagaactgtgagagaataaatttctgttgttttaagccacccagtttgtggtantttgttacggcagccctaggaaactaataca",
+  "length_bp": 461,
+  "sequence_length_bp": 461,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLT1C2"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275362",
+  "name": "CavTsc-1.200",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Cavia tschudii",
+  "display_classification": "LINE/L1 | Cavia tschudii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Caviidae",
+    "Cavia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 720 BP; 166 A; 180 C; 168 G; 206 T; 0 other;"
+  },
+  "sequence": "agaactcccgagatccggccatggtgggactcaggcagcttattcacccgccctcttggtaagcgcctgcggcgtgggccaggaggagaaccagaactcccgagatccggccatggtgggactcaggcagcttattcacccgccctcttggtaagcgcctgcggcgagggccaggaggagaaccagaactcccgagatccggccatggtgggactcaggcagcttattcacccgccctcttggtaagcgcccgcggcgtgggccaggaggagaaccattacctgtgagcctactgccacgcgggctgaaaatcaagcacccttcccccgcccgccccccccatagctactggggatagatgtctcagcatctcttgggaggatgaccatatgcagtatagcaaatatgggggatttccttctatcttctgtttgaaggcaaaggttgttttcactgttttgttttgttatgtttcttttgctctattcagtattctcaattggttttataatgttctatttttggtttgattttgctatacctaattgactggacaactattgtgaagttaaagagatataccatagtacctattactactatcccagtatcctactgtgaaatcctgtaccaatttcactgcattgtctcgattggctttgttctgtcttgtgctgttgcatttttactactttcaaaataaaatttaaaaaaaaaaaa",
+  "length_bp": 720,
+  "sequence_length_bp": 720,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000881",
+  "name": "MER6",
+  "description": "TcMar-Tigger DNA transposon, MER6 subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Primates",
+  "display_classification": "DNA/TcMar-Tigger | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 865 BP; 213 A; 179 C; 198 G; 272 T; 3 other;"
+  },
+  "sequence": "cagcaggtcctcgaataacgtcgtttcgttcaacgtcgtttcgttataacgttgatgagaaaaaaaatcgattcccggccggggccactgtctgtgtggagtttgcacgttctccccatgtctgcgtgggttttctccgggtactccggtttcctcccacatcccaaagatgtgcacgttaggtnaattggcgtgtctanatggtcccagtctgagtgagtgtgggtgtgtgtgtgagtgcgccctgcgatgggatggcgtcctgtccagggctggttcccgccttgcgccctgagctgccgggataggctccggccacccgcgaccctgaactggaataagcgggttggaaaatgaatgaatgaatgaatacaaattattgtaaaataaaaattcgtaaagtatacgataatcatacaaatgcacgacaataaacgatgcggtacgaaagcgctcagcgagcccgccatatttgtnattgtttgtttttgaactgcgtggtggtaggaggtgctccttacaattttcgctttgcaaacatttattccttgatttaacccaccaccactacgaccgccgtcactcactgattcaccaaaaattgggtaaataattatcttacttgtttttattaatctttcttaaatgtatgtatagctcacatttatttcaatgtttaatattagaagtgttttggtctttatttagaagtttggtgatgtttttgtgaccagaaatatgccgtaggaacttaactcttgtttatatcaattagcctatggtaaaattggtttcgttatacgtcgtttcgcttaaagtcgcagtttccaagaacctatcgacgacgttaagtgaggacttactg",
+  "length_bp": 865,
+  "sequence_length_bp": 865,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER6"
+  ]
+}

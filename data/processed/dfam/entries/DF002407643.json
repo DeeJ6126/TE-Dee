@@ -1,0 +1,51 @@
+{
+  "accession": "DF002407643",
+  "name": "Acol_hAT_Ele16",
+  "description": "Curated TE family",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Anopheles coluzzii",
+  "display_classification": "DNA/hAT | Anopheles coluzzii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Nematocera",
+    "Culicomorpha",
+    "Culicoidea",
+    "Culicidae",
+    "Anophelinae",
+    "Anopheles",
+    "Cellia",
+    "Pyretophorus",
+    "gambiae species",
+    "complex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 257 BP; 63 A; 68 C; 63 G; 63 T; 0 other;"
+  },
+  "sequence": "cactctgggcgctggcattttgcattagctttctgcggagaacacagtacaagataagagagcgatgagagcgtttcattggcttacgatcgttcactctctttccgatcctcacgtacgatgccgcttctgcaatatgcgctctctctttcttcccgctgcaatacgctctgctgagagttgctgagagaccaatcacagagaaggagagtgaacaaagctgtgattccaaagcgagccacacagcgcccagagtg",
+  "length_bp": 257,
+  "sequence_length_bp": 257,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

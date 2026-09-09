@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000870",
+  "name": "MER57E2",
+  "description": "MER57E2 Long Terminal Repeat for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER57E2"
+  ],
+  "species": "Euarchontoglires",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Euarchontoglires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 402 BP; 117 A; 101 C; 67 G; 103 T; 14 other;"
+  },
+  "sequence": "tgttaaaataattaaatgggaggccattagactgaggtggctctaacgccctgggttcctacataagcaaaccgaaacctaactcaganncgnnncccgcgancgnnnaatttaaaagaaaacgaaacttaagctcagccaatcacaggcggccaactgggcattagttgtattgtcntgaacttcccaccgggatagtccaaataaggcaactgcccaaactttaaccaatcaaataatttctttgctctgcttctacattcaccctataaaagccttcccttcanacncctccggcggagccccnaaccacttccggtttggagctgcctgattcatgaatcgctgtttgctcaaataaactctttaaaattttaatgtgccnaagtttatcttttaaca",
+  "length_bp": 402,
+  "sequence_length_bp": 402,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER57E2"
+  ]
+}

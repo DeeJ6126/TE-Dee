@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001248",
+  "name": "X22_DNA",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "DNA/TcMar"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/TcMar | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 154 BP; 49 A; 25 C; 24 G; 56 T; 0 other;"
+  },
+  "sequence": "cagtggttttcattaaaaagttaacatttatcttatcgtaatatttactttattgcggtaagtcgcgatattttcctattccttcaatgagatatcgtggtaagataaactcaccgcggtaagataaatgtcaactttttaatgaaaaccactg",
+  "length_bp": 154,
+  "sequence_length_bp": 154,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X22_DNA"
+  ]
+}

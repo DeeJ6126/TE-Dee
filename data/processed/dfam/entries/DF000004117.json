@@ -1,0 +1,50 @@
+{
+  "accession": "DF000004117",
+  "name": "RCHARR1",
+  "description": "hAT DNA transposon from Muridae.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Muridae",
+  "display_classification": "DNA/hAT-Charlie | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 974 BP; 301 A; 186 C; 184 G; 303 T; 0 other;"
+  },
+  "sequence": "cacagcttcttaaactgtgggtcgcgaccccatatggggtcgcgtaactgaatgtgggggtcgcgaaaaatttggcaacagtaaaaggtttctgaacgcgcaacgaccaaaaattaattcaaaatcaaacgcgtaatgaatccgaggtgtttctggcagcgctcgcccgtgttgcatcgtagcgacttcactgcagccttggttctgaacacacaacacgcgcactttgcactgcgcatgccgtcacgccacgcaacgccaacgaacgctgcctgaaacacctcggctcagattcgagactactgtatgttatgaactgcagtgtttttactgtacatacaaagttttctgctcttatagaaacataatggtttaattacggaaaacaaagacttttaatattttcctaccgtcattcctcagcatgtaagtatcaaattagtatatctttggattgtattgtgttagaatgtttgattttaaaaattgctgtttgagttgctgacttgagtttcataaaaaaaaatcgttaaatgaattttggcttgggattaggacagaatttccaacaatttctgaaatggccctaaacatacttctgccattttgtactacgtatttatgcgaagcggcgttctcagcattgacgattataaaatcaaaatatcgatcaactctgaaaaacgttgaagatgctctacgtcctgcagtatcaaatattcagccaagatttaattctttatgtaaaaataaacaagcacatccatctcattagtatgcaaatttgctttcgtctttaataaatggtaaaattatatgtataccaaagaattgttttaaaataaatttctttatgatttattatcagtaaatgtttgatttgtatacctattttatatacctatatacccggggtcgcgtaaaaatttctcgggcgaaaaggggtcgcgagtggaaaagtttaagaagccctg",
+  "length_bp": 974,
+  "sequence_length_bp": 974,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RCHARR1"
+  ]
+}

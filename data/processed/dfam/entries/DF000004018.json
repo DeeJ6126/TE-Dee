@@ -1,0 +1,53 @@
+{
+  "accession": "DF000004018",
+  "name": "Gypsy-172_DR-LTR",
+  "description": "LTR retrotransposon from zebrafish: long terminal repeat",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "Gypsy-172_DR-LTR"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1286 BP; 405 A; 177 C; 250 G; 449 T; 5 other;"
+  },
+  "sequence": "tgtagccctaagtaaaagaaactgtaatagaaactgtcaccccccatcttttttttgtttaactatttaatttcatctaatccaggaataatgtagtcttctataacaatgcatgtgtattacagaagtatagtgtgatatttatccctgtaaaactcgggttcaccaggagagggcgcccacgttccttcctatgtgtcggtagctgaatcacgaggaagcagtagtcagtgtatggttagctgcattgcagacacatctagcgtgctccttaatcaaacgatgttttcctctgtgttttaacaggtaagataatattatttactgtaatggtacactgaaacatatattgttcatatggagatgcatttatgtcctgagatattagattagttgagtttgaccgtgatttaatggtgccaaaatggcggaagtgttaaaaactaatagatttcaatgtgagcagtgagaaactaatgtaaacatgcgnttaactgatactatgagacaccatgtttaaacttttcgtgatctttattaanagggttgtgtatagtgatgtgcagtaagtttaaacatgtgtgtgattacaaaatagcatgattagaccttgtttagcattaactgttagccattacattgaaagagacattcagaaaatacggttaagaacaatttcagttagatttagcagtaaagngttttcatttatattgattttgtgagattttacattaagacattaaaattcagttaaaatatagttcattaagtaaaattacatttcatagaggttaaaaagtgcattgatacagcattaaacagttacgtatgagagttatggagaaatgtgacaaatagttattttgtggttgtttataggtattgttttattcatttgtatacaagttaaaggaggttgtgacgcacaaatgtgtttaatttgttnatgtcttattttatgctgtaagaaagtgatcacaatacacatntaggtctattttgtgatgttaattgtgattcgatttggaacctttttgagtgtgatttaaataataataatatgtcagtgtcatgtatttactaaacaactgcactataggacaggttattgtttataactcttaggtgcccacagcataaaaagcagtagtcagtgtatggttagctgcattgcagacacatctagcgtgctccttaatcaaacggtgttttcctctgtgttttaacagaaataaatgtgttgctacaagaacggacttcgtctccttcttgaaagtgtaaca",
+  "length_bp": 1286,
+  "sequence_length_bp": 1286,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Gypsy-172_DR-LTR"
+  ]
+}

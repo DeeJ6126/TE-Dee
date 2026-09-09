@@ -1,0 +1,51 @@
+{
+  "accession": "DF000001905",
+  "name": "Lx2B2_3end",
+  "description": "L1 Non-LTR Retrotransposon from Muridae.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Murinae",
+  "display_classification": "LINE/L1 | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1401 BP; 432 A; 301 C; 433 G; 233 T; 2 other;"
+  },
+  "sequence": "tgaagacccagctataccactcctgggcatatacccaaaagatgctccaccataccacaaggacacgtgctccactatgttcatagcagccttattcgtaatagccagaagctggaaacaacccagatgtccctcaaccgaagaatggatacagaaaatgtggttcatttacacaatggaatactattcagctattaaaaacgaggacatcatgaattttgcaggcaaatggatggaactagaaaatatcatcctgagtgaggtaacccagacccaaaaggacatgcatggtatgtactcactgataagtggatattagccaaaaagtacagaatacccatgatacaacccacagaccgtaagaagtttaacaagaaggaaggcccaagtgaggatgcttcaatcccacttagaagggggaacaaaataatcacgggaggcagagggagggagggacctgggtgggagaggggagggggaggggaaaggggggcaggatcaggtatggggggagacaggagagaagcccagagggccaggagaatgaatggaaatatgcagctgccgggggtggggggcggggggaacctctagaaagtcccagagacctgggatgtgagaggctcccaggactcaatgggggtgaccttagccgaaatgcccaacagtggggagatggaacctgaagagaccacctccagtagatagacagggcccccagtggagggatggggncaccaacccaccttcaaaatttttgacccagaattgttcctgtctaaaagaaatgcagggacaaaaatggagcagagactgaaggaaaggccgtccagtgaccggcccaacttgggatccatcccatgggcgggcaccaaaccctgacactattactgatgctatgttgtgcttgcagacaggagcctagcatggctgtcctctgagaggctctaccagcagctgactgagacagatgcagatacttacagccaaccattggactgaggtcggggacccctatggaagagttaggggaaggattgaaggagctgaaggggatggcaaccccataggaagaccaacagtgtcaactaacccggacccctgggagctcccagagactaagccaccaaccaaagagcatacacgggctggtccgnggcccccggcacatatgtagcagaggactgccttgtctggcctcagtgggagaggatgcgcctaatcctgtagagacttgatgccccagggaagggggatgccgggtgggtgggagtggggtgggggagcaccctctcagaggcgaaggggagggggaatggggtgaagaactctgggaggggggaccgggagggggggcaacatttggaatgtaaataaataaaataattaataaaaaaaaaa",
+  "length_bp": 1401,
+  "sequence_length_bp": 1401,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Lx2B2_3end"
+  ]
+}

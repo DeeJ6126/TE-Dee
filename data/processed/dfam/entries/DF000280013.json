@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280013",
+  "name": "PetTyp-6.647",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Petromus typicus",
+  "display_classification": "LINE/L1 | Petromus typicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Petromuridae",
+    "Petromus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 509 BP; 188 A; 62 C; 111 G; 148 T; 0 other;"
+  },
+  "sequence": "tgtttatagcagcccagtttgtgattgctacatcttggaaacaacccaagtgtccgtcaactggagactggataaaaaagctgtggttcttctacagaatggagtactactctgccataaaaaatgataagtttgaatcatttctacttaaatggacataccttgaggatatcctcataagtgaaataaataggtcacagataggtacatatcgcatcttttctctggtatgagaaaatgaagatgtaaatgagtcctagcattgtatgttatatattgtgaaatagaaaatgctcaatgtaaaataaggtgaaaggggacaatgttgagattgtaacaaaaaagtaaggaaacaaattttatatatatgggggggtggtagggtgggtggggctatgggaaaaaaatgagaattaagttgtgtcttatactggtacaaatccccattatggagtgcaatcatgatgtgtatatttaatgtaccaataaagataattaaaaaaaaaaaa",
+  "length_bp": 509,
+  "sequence_length_bp": 509,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

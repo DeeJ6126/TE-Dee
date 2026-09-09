@@ -1,0 +1,47 @@
+{
+  "accession": "DF000003101",
+  "name": "PB1",
+  "description": "SINE1 SINE from rodents.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Rodentia",
+  "display_classification": "SINE/Alu | Rodentia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 127 BP; 31 A; 36 C; 42 G; 18 T; 0 other;"
+  },
+  "sequence": "agccgggcgcggtggcgcacgcctgtagtcccagctactcgggaggctgaggcaggaggatcacttgagtccaggagttcgaggccagcctgggcaacatagcgagaccctgtctcaaaacaaaaca",
+  "length_bp": 127,
+  "sequence_length_bp": 127,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PB1"
+  ]
+}

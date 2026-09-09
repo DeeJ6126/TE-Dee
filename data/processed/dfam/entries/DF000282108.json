@@ -1,0 +1,53 @@
+{
+  "accession": "DF000282108",
+  "name": "ManLeu-5.370_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ManLeu-5.370_LTR"
+  ],
+  "species": "Mandrillus leucophaeus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mandrillus leucophaeus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Cercopithecinae",
+    "Mandrillus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 430 BP; 101 A; 113 C; 122 G; 91 T; 3 other;"
+  },
+  "sequence": "ggaatgatagaggcaggaggcagncaaatgcctaggcagataggggcgggtccccggtgaaaccccacctccaagccgaagacagtttgaagcctggggcttgcctaaacatgcccacggtgaaaaattccgtcccttaacacatgcgcagtaagggaaataaatcaatgcggagtggctcagactaagggcccgcatgcgcactgggagaatggggtggagccaccaggaattcgcgccttatgcagagggaggagcccggcctcttcagctcgtgtgtggtagncctggtattcaactgtgngaggcggaaacctgcttgcaggacccctctctttgctgagagctttcctttcgcttaataaattctaccctcctcacccttcgatgtgtccgcgtgcctaatttttcctggtcgtgagacaagaac",
+  "length_bp": 430,
+  "sequence_length_bp": 430,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

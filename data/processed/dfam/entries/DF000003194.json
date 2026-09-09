@@ -1,0 +1,51 @@
+{
+  "accession": "DF000003194",
+  "name": "SINE3-1",
+  "description": "SINE retroelement from zebrafish",
+  "keywords": [
+    "SINE/5S-Deu-L2"
+  ],
+  "species": "Danio",
+  "display_classification": "SINE/5S-Deu-L2 | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 590 BP; 132 A; 159 C; 157 G; 140 T; 2 other;"
+  },
+  "sequence": "tgccacagccatatcaccctgcagcccaagaccggttactcactgaagctaagcagggctgagcctggtcagtacctggatgggagaccacntgggaaaactaggttgctgttggaagtggtgttagtgaggccagcagggggcgctcaacctgtggtctgtgtgagtcctaatgccccagtaaagtgaaggggacactatactgtcagtgggcgccgtctttcggatgagacgttaaaccgaggtcctgactctctgtggtcattaaaaatcccatggcacttctcgtaaagagcaggggtgtaaccccggtgtcctggccaaagtccctccatcggcccttacgnatcatggcctcccaatcatccccatccaccgaattggctctatcactgtctctccactccaccaatagctggtgtgtggtgagcgcactggcgccgttgtcctgtggctgccgtcgcatcatccaagtggatgctgcacactggtggtggtgtggagagaccccccctcatgattgtgaagcgctttgggtgtatggccatacacaataaatgcgctatataaatacacattacattacatta",
+  "length_bp": 590,
+  "sequence_length_bp": 590,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SINE3-1"
+  ]
+}

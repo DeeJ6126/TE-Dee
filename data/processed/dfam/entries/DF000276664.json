@@ -1,0 +1,46 @@
+{
+  "accession": "DF000276664",
+  "name": "EleEdw-1.32",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/RTE-BovB"
+  ],
+  "species": "Elephantulus edwardii",
+  "display_classification": "LINE/RTE-BovB | Elephantulus edwardii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Macroscelidea",
+    "Macroscelididae",
+    "Elephantulus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 912 BP; 246 A; 176 C; 256 G; 232 T; 2 other;"
+  },
+  "sequence": "ctgaaaagcaacgatgtcagtctagagacaaaggtgcgcctaatccaggccacggtcttctcaattacttgttacgcttcagagagctggacaatgactaaggatgacagaagaagaatagatgccttcgagttgtggtgctggagaagagtcttgaacataccatggactgccaagaaaacaaatnggtctgtcttggagagggtgaaaccaagtctctccttggaggctaggattttgaagctccgtctcacatactttgggcacgtggccaggagagaccggtccttggagaaggacatcatgctcggaagggtggagggacagcgcaggagaggaagaccccggatgagatggattgatacagtatctggggcaatgggggttggtgtgtcggaattagtgagactggctcaggacagggaagggttcagagctgctgtacatagggtcgctatacgtcgcaggcgactcaacggcacataacaacaanaacatactatattggttgttttttatttaagcctcttgtttagagtcaacaagacctcggggagggcctttgtatttaaaagtcggttgttattatattttggaggaacattcttctaagtggtacagcactcttctgtcaatatgctgtactgaggtaacctggggttgctgtgatgctgaaccttgtgccattggggtgtcaaatgccataacggttacccatggtggacagtgtttggtggagctcccagtttaagacaggtttggaagcaggagtggcatccacttcctaaacaacatgcctctggaaactctatgaactttgataaatgacgatagttatagaaaggcttcaggccttttgttcatagggtcgctatgagtcgtgctcgactcgacggcaatcaacaacaacaa",
+  "length_bp": 912,
+  "sequence_length_bp": 912,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

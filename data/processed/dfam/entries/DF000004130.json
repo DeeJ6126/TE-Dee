@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004130",
+  "name": "MT2B2",
+  "description": "Long terminal repeat of a class 3 endogenous retrovirus from murids.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MT2B2"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 584 BP; 162 A; 138 C; 137 G; 147 T; 0 other;"
+  },
+  "sequence": "tgtaatggctattcctggttgtcaacttgactatatctggaatgaactacaatccagaattggagggctcacctgtgatccagatcttgaggctggaagacacaagtttctgacctggatcttggcatggagatcttgaggcatagtggccatgaaaagcttaggcccaggcaaggtagtacacgcctttaatcccaggagactgaggcaaggagatctctgagttcaaggtcagcctgggacaaagcgagtcccagatccaggcgtggtggtacacacctttaatctgggccacaccttctgctggagacctacataaggacattggaagaaggaagattcgctcttcttcgcctgcttgcacttacttgccagcacatctgttggaacctacttctacagaagaccagctgaaacaactagcctcgtgggactgagcaactactagattcttggacttcccattcacagctgaccattgttgggttagttggactacagactgtaagtcatcacaataaattccctcaatatagagagacattccataagttctgtgactctagagaaccctgactaataca",
+  "length_bp": 584,
+  "sequence_length_bp": 584,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MT2B2_LTR"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000005669",
+  "name": "Halyomorpha_halys-5_family-2891",
+  "description": "CMC-EnSpm DNA Transposon",
+  "keywords": [
+    "DNA/CMC-EnSpm"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/CMC-EnSpm | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 411 BP; 95 A; 95 C; 79 G; 141 T; 1 other;"
+  },
+  "sequence": "tgatcaccctcattattctccggggtttctttcctacatttggtcttttccgggttaattttcatgtttatcgaggccatttcctcttgcagaacatttatgttgtattggaggtctcggtcgttggaagccagcaaaaccaggtcatccgcgaaagccaacacagaaaattttatgggttgtaagttcctgtgtcctaactgaaactgtctcattctaagtttagctttctttattgctttatcgaggactactatgaagagcagcgggctcaagcaacaaccttgacgaatacctgattttgtctcgaattcctgtganatgtggttccttgttctaaccacattcctggttttattataaagactcatcactgccaaggtcgtccctcgatcaatgcctctatctgac",
+  "length_bp": 411,
+  "sequence_length_bp": 411,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

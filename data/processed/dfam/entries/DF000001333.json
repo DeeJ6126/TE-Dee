@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001333",
+  "name": "UCON86",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON86 subfamily",
+  "keywords": [
+    "LINE/L2"
+  ],
+  "species": "Amniota",
+  "display_classification": "LINE/L2 | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 682 BP; 137 A; 233 C; 93 G; 216 T; 3 other;"
+  },
+  "sequence": "ctgctgaaatcctcatccangccttcatctcctctcgccttgactattgcanctcccttctctatggcctccccaagtcccagctctccagactccagcacgtgcagaatgctgctgcccgccttctcacacgcacaaagaagtgcgaccacatcacccccatcctcaaacaactccactggctccccattcatttcaggatccagttcaaaattgccctccttgtttttaaaaccctccatggacttgctccagcctacctcacggaccttgtctctctctgctcccctccccgctccctccgctcgtctagcaccggcctcctctctgtcccttcacacaatctcgccgctgttggcgcgagagccttctcctctgcagctcctgccatctggaacagccttcctgtatctctccgcctcatcgactctccatctcttttcaaatctcatctnaaaatacatcttttctcccttgcctatgcctcttaatttctctctccctctgttattggccttatgactgaatgctttaatttattcaccatacaatgtctttacaccactgttttctgtaatttataccatatactgtccgctgtcttgtattatttaactctgtaaagcgttttgggatacagtttgtatgaaagacgctatacaaaataaagttgtattgtatt",
+  "length_bp": 682,
+  "sequence_length_bp": 682,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON86"
+  ]
+}

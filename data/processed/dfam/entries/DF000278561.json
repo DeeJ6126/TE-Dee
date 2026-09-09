@@ -1,0 +1,48 @@
+{
+  "accession": "DF000278561",
+  "name": "MirAng-6.1356",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Mirounga angustirostris",
+  "display_classification": "SINE/tRNA | Mirounga angustirostris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Phocidae",
+    "Mirounga"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 228 BP; 56 A; 65 C; 46 G; 61 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcgttaagcgtctgccttcggctcaggtcatgatcccagggtcctgggatcgagccccgcatcgggctccctgctccgcgggaagcctgcttctccctctcccactccccctgcttgtgttccctctctcgctgtgtctctctctgtcaaataaataaataaaatctttaaaaataaataaataaataaataaataaataaataaata",
+  "length_bp": 228,
+  "sequence_length_bp": 228,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

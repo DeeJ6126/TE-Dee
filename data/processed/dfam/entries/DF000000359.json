@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000359",
+  "name": "L2a_3end",
+  "description": "3' end of L2 (LINE2) retrotransposon, L2a_3end subfamily",
+  "keywords": [
+    "LINE/L2"
+  ],
+  "species": "Theria",
+  "display_classification": "LINE/L2 | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 517 BP; 96 A; 184 C; 79 G; 154 T; 4 other;"
+  },
+  "sequence": "ctacatgatctggccccccgttacctctctgacctcatctcctaccactctccccctcgctcactccgctccagccacactggcctccttgctgttcctcgaacacgccaggcacgctcccgcctcagggcctttgcacttgctgttccctctgcctggaacgctcttcccccagatatccgcatggctcgctccctcacctccttcaggtctttgctcaaatgtcaccttctcagngaggccttccctgaccaccctatttaaaatngcacaccctcncccccancactccctatcccccttaccctgctttatttttctccatagcacttatcaccatctgacatactatatattttacttatttatttgtttattgtctgtctccccccactagaatgtaagctccatgagggcagggacttttgtctgttttgttcactgctgtatccccagcgcctagaacagtgcctggcacatagtaggcgctcaataaatatttgttgaatgaatgaat",
+  "length_bp": 517,
+  "sequence_length_bp": 517,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

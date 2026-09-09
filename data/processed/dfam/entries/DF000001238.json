@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001238",
+  "name": "X32_DNA",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/TcMar-Tc1 | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 352 BP; 125 A; 58 C; 59 G; 110 T; 0 other;"
+  },
+  "sequence": "cagggtcttcataaagtccttgtgcacttttaaactttaataacttaggttgtaggtatgatagaaacaatctgtaaatggcatttaaaagcaaatttattaaagtttaggacaactacattacacaattgtacacaatgtattcttatttcagatcctgtgacaaatgaaaaatggctaccgtagacgagaaggtaaactgtgtcctatggctagcagaattgaagtccatatcagctgtgagaagaaaattcaatttgcctttaaatgccatttacagattgtttctatcatacctacaacctaagttattaaagtttaaaaactgcacaaggactttatgaagaccctg",
+  "length_bp": 352,
+  "sequence_length_bp": 352,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X32_DNA"
+  ]
+}

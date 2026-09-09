@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003604",
+  "name": "piggyBac-N2_DR",
+  "description": "Non-autonomous piggyBac DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/PiggyBac | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 536 BP; 187 A; 83 C; 67 G; 189 T; 10 other;"
+  },
+  "sequence": "ccctttaactgccccaccaagaaaaaaatnnncgnntttggattgcatttcttaanctcctaatgtcgctagttaacacactcaatgcatttttttttncaacacatcccataatttctaaaatatcaacctctaccaaatggttgatatgtcggtttatggtaaaagtaccgnnncggaattaatacatatactatgaaaaatctgaaaatatgaagtgtaagaccaatttatttaaaaacataatcaaaataaaacatttttgaatactaaatcatctttattttttgaagtatgccataaaatatttcagattctcatttaacatgttttcttgtttttttttttttacaataaaaccaaaatcaagtgtagtagtgcaacaggattatgtttgtttgattttttttgtaaaccaacaatgctgtgtgtgtaaaccattatttaaaacagtcattctttaaatgactttaacagtcattatttaaaacagtcaaaatatggtcaaccatttggtagagcaggcagttaaaggg",
+  "length_bp": 536,
+  "sequence_length_bp": 536,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "piggyBac-N2_DR"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006394",
+  "name": "DNA21_Hera",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Heliconius",
+  "display_classification": "DNA/ | Heliconius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae",
+    "Heliconiini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 185 BP; 38 A; 38 C; 47 G; 62 T; 0 other;"
+  },
+  "sequence": "cattagcgtatctagagatattttctggggggcctggactttagctttgaacagatatgttcgtgtaaatgtttttttttaatttttcggggcaaattttgttgtaagtaaaatttctggggtgggcaccagactattctggggtgggcacggaccacccgccccgccctattcctacgcccatg",
+  "length_bp": 185,
+  "sequence_length_bp": 185,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

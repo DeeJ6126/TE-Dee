@@ -1,0 +1,44 @@
+{
+  "accession": "DF000001012",
+  "name": "MLT1G1",
+  "description": "MLT1G1 Long Terminal Repeat for ERVL-MaLR retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT1G1"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 579 BP; 126 A; 167 C; 154 G; 128 T; 4 other;"
+  },
+  "sequence": "tgtggcagattgtattttccaaagatggccgcaacaatatctcccatcccacatgctcttcttacaatgtgacnttgacactcctcccatcgagaggtggggtctatgttccctccccttgaatctgggcgggcctttgtgactgcctcgaccaatagaatgcggcggaagtgacgctgtgtgacttccgaggctaggtcataaaagtgccatgcagcttccgccttgctctcttgggacgctcgctcttggaacccagccgccatgctgtgaggaagcccaagcagcccatggagaggcccacgtggagaggaactgaggcttccggccgacagccccagctgagntcccagccgacagccagcatcaacttgccagncatgtgagtgagccatcttgnaggtgattccagcccccagcctttgagccgccccagctgacgccgcgtggagcagagacgagccgtccccgccgagccctgcccaaattgcagattcgtgagcaaaataaatgattgttgttgttttaagccactaagttttggggtggtttgttacgcagcaatagataaccggaaca",
+  "length_bp": 579,
+  "sequence_length_bp": 579,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLT1G1"
+  ]
+}

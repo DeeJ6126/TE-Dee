@@ -1,0 +1,51 @@
+{
+  "accession": "DF000003833",
+  "name": "TDR12",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/ | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 242 BP; 84 A; 36 C; 41 G; 81 T; 0 other;"
+  },
+  "sequence": "tatagaccattttgagggatgtaaacaaaaacaatggtcccaacgtatttcctgttttacatttttaatttctatagcttccgagaatccaaaaagagccacatattgataaataatgttatgatagctgttttaacattaagttatgattgaattgcctcttgttacagttatgaaatagtttgataacaagcaggaaatgttcatgggccaatgacatgaccacattgaaatggtctata",
+  "length_bp": 242,
+  "sequence_length_bp": 242,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TDR12"
+  ]
+}

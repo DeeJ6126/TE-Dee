@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001191",
+  "name": "Tigger23a",
+  "description": "TcMar-Tigger DNA transposon, Tigger23a subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/TcMar-Tigger | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 773 BP; 207 A; 148 C; 141 G; 274 T; 3 other;"
+  },
+  "sequence": "caggtatacctcgttatacagaaactcgatatacagaaattcgcnattacagaatttataaatcagggaactgattcgatatacattacctgaagactcactttacagaattttcaggtccccttggccgtgtgtttcagtaaatgtgctcccccattatttcatttactgttgtgtgtgttccagtaaatgtgtctctctatttgttcatttactgctgcattttgaatcgttgcctctgctgtgtttctgtgtctcctcctcccttcagcccagatcaacctgttcatttctaaaagccagcagcttccacaaagtgctaggaaacagggtctgagcaaccaaagagagctgcgtgttatcctgctgtagaatatcggggagggggtttgatagaagctgagtgacttttcagtccagtgtgttctgttcagttaagctgtcattgttgtttttcctttagacctttaagctattgtgccaaacataaaaataaccctagctactttgcattcatattttgtgacttattttgagtattattaatattttatcagaaaattatcatttttcctttaaatatgtgattttaaaaggtttgctgcattcttaagtgtgattttattacgtcttagggccaaattttttcccagagaaacgcatctccaattttataatgaaagtcaatgggaaaataggattcgatntacagaaattcgctttacagncaacttttcaggaacgcatctattccgtaaagtgaggtatacctg",
+  "length_bp": 773,
+  "sequence_length_bp": 773,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

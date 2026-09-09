@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004169",
+  "name": "RMER19A",
+  "description": "Long terminal repeat of a class 2 LTR retroelement in murids.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RMER19A"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 737 BP; 170 A; 169 C; 201 G; 196 T; 1 other;"
+  },
+  "sequence": "tgaagtggaaacttctagtttctttggaaagtcagttatgtcaaatgatgttttgctggggcacacaggtgaaaggatgtcttgctaaagcagacacgtgaaagaatgttttcctgaagcagacacaggtgaaaggatgttttgatatagcagacacgtgaaaggacgcgtgatgaaggagtataaatatgaccccacagacagtgggagacgagcactgagcattggtttggtttgctccgcctcgctattcttcgctaacgacacgcatgtattggttcgccttacatagcgttgttgagctcaacttgtggtaacgccgccattgagagaaactcgcccaagaactgctcgtgaggttcctgcggcagcttgccgcttccgcggcctcgcctcaggccggttggcgagcctngcggtttcttcaggattgaactacagctgccggtttgcctggtgtctgcctgctgaaaggactggactgtagctgctggttcgtgcctggtgtctgcctgcctagaggactggtctgcagctgctgagtcgtatttggtgtttgctacgggactgaactgctgccaaagaagatcgagctcgcccccaaagaactattgctgaacaggtccacttcccccatatcctaataacttttctcttccactacctctgctgggtggtgggctagaggagaggttgaacccttattaaaagtaggttgcaaaaaatttatgcctaca",
+  "length_bp": 737,
+  "sequence_length_bp": 737,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RMER19A_LTR"
+  ]
+}

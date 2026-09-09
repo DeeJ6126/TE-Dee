@@ -1,0 +1,42 @@
+{
+  "accession": "DF003586475",
+  "name": "Csin_SINE-2_V",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Cyclina sinensis",
+  "display_classification": "SINE/tRNA | Cyclina sinensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Heteroconchia",
+    "Euheterodonta",
+    "Imparidentia",
+    "Neoheterodontei",
+    "Venerida",
+    "Veneroidea",
+    "Veneridae",
+    "Cyclina"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 292 BP; 82 A; 71 C; 70 G; 69 T; 0 other;"
+  },
+  "sequence": "gccggcccggctagctcaatcggtagagcatcggattgtcaatcttgacgatcccggttcaatccccatcagggccggcaaaatttctccgtgataattgatctcagacaatgcgtctataggtcatttgtccctcacctctgaagcaagtgaggaagtagtcagtcacttgcggagaaattggttagtaaactggttggatacccaggaacactggttaggtggactgaccgccgggatatgaccttagctgttaaaactggcgttaaaccccaataaaaccaaaaccaaa",
+  "length_bp": 292,
+  "sequence_length_bp": 292,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

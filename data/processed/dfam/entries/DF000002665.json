@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002665",
+  "name": "hAT-32_DR",
+  "description": "Autonomous hAT DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Charlie | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2412 BP; 730 A; 478 C; 520 G; 677 T; 7 other;"
+  },
+  "sequence": "cagtgtttctcaactggtgggtcgcgacaaaagtgggtcgcgggaacattttcagtgggtcgcggagtgtgtggnaaaaaaacaacaaaagtttantttttaacttattttgcttatatcggacttttattttgaaatgcgcgcgcgagccgtaccnttattctaacgtttgaaattttatagcaacaaatatgtcgaagcgcaagtacgaccccgaatatgtaaagtgtggatttacatatattgacgacaaaaaaggcttaaagcctcagtgtgtcatatgtagtgaggtgctctcacaagagagcatgaaaccttctaaattaaaacgacatttagaaaccaaacatcccagttgcaaggacaaacctgtggactattttcaaagacgactccaanagctgagggcatcacaaaagtgcctaacatcttcatgttcaaaacaagtacaggcactcgcgcatcttactgtgtnnctcaccgtgtagcaaaggccaagaaagcccacacaatagcagaagagtttctcttacctgcggccatggacatggtcagagaggtgttggatcagtctgcagcagataagctgaagaccataccactgtcaaatgataccatttgtcggcgcattgaagacatgtctgatgacgtaaaacagcaaactacagcccgtatacagaaaagtgcttattacgctttgcagatggatgaatccacggacattgcaaatcacgcaactttacttgtttatgtgaggtatgtatgggaaggggacttggaggagcaatttctctgcagcagagatctccccaccactacaacggcagaagatattttcagtacagtggatttgtatttgggatcattgggcctgagctgggaaaactgtgtaggatcacaactgacggcgctgcttctatgacaggaaaacactcaggggtggtgaagagaattcttgagagggcgtcaaatgcgacgtggaatcactgctttttgcatcgagaggcattagcagcaaagaatatggtgccagtgcttgatgagacattaaaagaagtcgtcaaagtagtgaactacataaaaagaagtgctaaaacctcccggtgttttaaaaatctntgcaaagacctgggctctgaacacatacagctgttgtatcactccgaagttcgttggctttcgagggggaaagttttgtcaaggttttacgaacttaaaacagaaatcgctgccttcctttcagcaaataactctcctcatgccgatctattcaatgacgaaatctggctcgcccgagttgcttatcttgctgatgtgttcgagcacctcaacacattgaacgtgtcaatgcaagggagagggcacaatgtttttgaacagagtgacaaagttgctgcattcaaaaagaagattgaactgtggacaaaacacgtttacaaagacagactagacatgtttcccaacacctgcaatgaaacacaacagttggataccgcgggaaaatttgtactgaagaaaactatcacggaacatctccgcaaactgcaagtccggtttaatgactactttcccgagaaacacgatgatgatccgtggataagcgatccctttggaatcgacgtggaaagcgtcacgttgccgagcaacgaagagaatcagctggtggagctgtcatgtgataagacgctgaaaaagaaattcagtgaagtaagcctctcccagttttggtgccgcgaagtgctttctgagtatccgtcccttgccactcgtgcgatcaaatccatcctaccattcagcactacgtatttgtgtgaaagtggcttctcttccttggtgcagcttaagtcaaagcaaaggaacaggttggacatagagcacgatcttcgggtagcactgtctaccatcaccccagactttgaaactcttatcaggagtaaagcacatcctcagttatctcattagcttcccaaattactgttaagtgaaacagatgtttataattgctgtcatattagatgtaaaaatggttatgattattttaatcattttactgtaatttgctggtttgttctgttcaacaggatcagtgttaatgttttattaacagttcagtttagttcatggtaactgaacctttccttaccctaaccactgtttacagtatttgtcgtttttactttgtaatatttctataatttgatacattttgttaaatgacagcaataaaatattgtttatttgtgtcttggtgattttcttatgatttatctgtcactacttgtgtatgttaacaaataaatacaaattaattataattcctaaaattatattatagttcctaaaaatttgggtcgcggcttgatgaccatgtaaaaatgtgggtcccatggccaaaccagttgagaacccctg",
+  "length_bp": 2412,
+  "sequence_length_bp": 2412,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "hAT-32_DR"
+  ]
+}

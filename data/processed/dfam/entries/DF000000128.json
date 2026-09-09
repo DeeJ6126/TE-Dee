@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000128",
+  "name": "Eulor3",
+  "description": "Eulor3 (Euteleostomi-conserved low frequency repeat 3)",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 304 BP; 83 A; 73 C; 66 G; 75 T; 7 other;"
+  },
+  "sequence": "gaacatcttggcactactataccttctgtcctgtaattaaaccgaatctgctcctggacccgttcttccctggacggcgccatcttttgagtaatacatcatcagagcgcctcgctctgatgatgtattacnctaatacatcatcagagcgccgtcgctctgatgatgtattagtgtaatacatcatcagagcgaggcncactgatgatgtattactcaaaagatggcgccgtccgaggaagaaagggtccaggagcagattcantntaattacagnataaaagncaacctagngccaggaggc",
+  "length_bp": 304,
+  "sequence_length_bp": 304,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Eulor3"
+  ]
+}

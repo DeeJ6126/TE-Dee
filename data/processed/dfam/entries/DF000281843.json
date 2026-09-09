@@ -1,0 +1,47 @@
+{
+  "accession": "DF000281843",
+  "name": "DasNov-1.317_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "DasNov-1.317_int"
+  ],
+  "species": "Dasypus novemcinctus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Dasypus novemcinctus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Dasypodidae",
+    "Dasypus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1825 BP; 513 A; 433 C; 343 G; 536 T; 0 other;"
+  },
+  "sequence": "gttggcgcccaacgtggggcaaggcaaccccaccacagcctcactccataacctggcggcccccccctcctctcttctcaccttgggacttctctcgtgcaacattgctgctacctgagccttggctacctcatacgatccacggcggtctgggagaatcgctggatggctttctccttccatgtcgggggcttataccgacccgctatgattaagaggagccttggatttctcgggagcgcgcgcttgcacgtctgaagtaaccctaccatagccctacgctctcctctcttctcacccctatcttttcgctctgcattgctgctcctgaaccttggtgacctcatatgatccacggcggtctgggagaatcgctggatggctttctccttccatgtcgggggcttataccgacccgctatgattaagaggcgccaataaaactctcaggagcgcgtgcctgagcacctccacccctgccttcacctctgcctcctcccctccgcgcttgctcccctttgccttgctccactgctcgtcgtcccgccctcccctcgtcggggccttctcttggcccgcgaccaccgtcggagccccaccggctccgacccctcgtctcaccgcgcacctcggctcccatcgccgcgctctcaaggtaagggccccttttcttatcggctccaaaaggccattagcaatgggtaacatcctatctgctaagcaagccccacaagttcgggccctcgccggtctcctagacactcaccggtgtaagatctctttcaaacagcttcaagtatattgggaccttcttctcccctttaatccgtggcttaccacgtgtcagctttgggacccggacacctatactcgccttatagatagggtcacttttgctgtggagcaggaaggtaaaagattccctcctggcttattacaggcaacatgaagtccagaagaaatcttgaagggtataatctatgatatgctatataaaaaaggatttaaaagcagctataccaagaaagtaagaattatgagtcaactgtaaataaattatatatttctgttaatgtgttgtaattgttctgtgtttgtctgtctgttcgttcaatgtcaacgtatattgtgatacctccggatggtaaatataaattactagaaatctttaaaagagctctattcaaatggccaaaaattaaataagcgcttatattaatacttaagtttattatattaatacataagtttaaatgttaataagatatctacaattaaaaaaaattgtaagtcttaattaacaaaattaactgtacgtcttcataaaaagttgttcttgcctagattaaaatgaataacttatttttcttcacaggataatataaagaatgtaaaacttatatgaatattaaaaaggttaaaagtttgtaaaaatgctaacggaaatgtaataagttttgcaaaaagacgtattttgtcctaaagtaagatggctaatttttcataaactcttgaaatttaatttgcatgcggcaagtgtaaaaggtattgtgataactttacgtaagggaatgtgttctgtaaagataaaatttatcttcaatagtttacattaaggtattaaatggctaattccaaaaggtcattcttaaatatatatatataaaactgaattgatgataataataataaaaggtaattttataacaggaaagattaacagcaaccaagctcccctgccaacttgcttttaggaaacggtttctaatattgcatgctactaagtatttaaagaaaagttattcttaaggaaacagaagatgat",
+  "length_bp": 1825,
+  "sequence_length_bp": 1825,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

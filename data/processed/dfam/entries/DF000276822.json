@@ -1,0 +1,47 @@
+{
+  "accession": "DF000276822",
+  "name": "EquPrz-1.8",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Equus przewalskii",
+  "display_classification": "SINE/tRNA | Equus przewalskii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Perissodactyla",
+    "Equidae",
+    "Equus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 192 BP; 44 A; 52 C; 59 G; 37 T; 0 other;"
+  },
+  "sequence": "agggccagccccggtggcctagtggttaagttcggcgtgctccgctttggcggcccgggttcggttcccgggcgcggacctacaccactcgtctgtcagtggccatgctgtggcggcggctcacatacaaaaagaggaagattggcaacagatgttagctcagggcgaatcttcctcagcaaaaaaaaaaaa",
+  "length_bp": 192,
+  "sequence_length_bp": 192,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

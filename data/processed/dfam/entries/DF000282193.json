@@ -1,0 +1,47 @@
+{
+  "accession": "DF000282193",
+  "name": "MicTal-1.106_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MicTal-1.106_int"
+  ],
+  "species": "Nesogale talazaci",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Nesogale talazaci",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Oryzorictinae",
+    "Nesogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1633 BP; 472 A; 244 C; 412 G; 502 T; 3 other;"
+  },
+  "sequence": "ttatggtacctcaggagtggggtactagaggaacaaatcataaagatggaaagtagangcttgtttgacttgtgcctcgtggtattgttacttctttggctagncagaagtcagatatgtccttgcagtttactgagttattttctggaaacaatatgggaagttaaagttttgattattttgtttggatgctgtctttggttattcctntataaaatgaatactgttaatgtatatcttgagctagggattctgctcaaggacaatggttaagaaggtcagaatgcctgaccgaaagcagggatctgttttgatgccttcagagacctaattcaatgtttttgtgtaaacagtagtttagataaggatatagataagcttaataagtattgaccttgactgttttaagaattaagtttgatttctgactatgctgtttatactgatttcttatgcctgttattgtaaatataaggatgcatagaaatgtttattgggaagtatgaaaagagtttgcaaatccagttacctcaagccaagcattgacctctagagggtttaggacttagcgtcaaagacatctctgaagagattaaccccaccttgtgcttagatggggttaggccacacctggaaagacttctctgaagaaagtagccccacccagtctttcggagtactcaggatacttgtagtctgagagaaggtcagactgaccgataaagaaggatagagtctatttccttggaaaatcctgactagtgattgtcttcagaagcgaaggaatctggaaccatgaagataactcctctctgggtctgaatgttaaaggaaacttgtggcaggctgaaatgcttgttaggtgaccacccagatttactgcttgtcggtgaaagcaggagaaatgcggcaataaagagccgggttgactttggccactgacacccggggacttggttcacaggaaatagaggagacgagagcgggttgactggtctgaagttcatgacctagcatgagagagctaggcatgttgagaatttgttgggaccttggtctaaagggaaggcgaccaatggctaccgtggtgaggctaagtggaaaagcccacattgagttgaccagaacccgaccagaggaagagaagcgatttaagtctgtgaactggtgcatatcgttgctgactttatggatggcctgtcctgatttgactttgctaatggacgcacacttcacgagtttccaactggaatgaagattcttcacgttgaaagatatgattgtttcctcagagcactgggttggtgtaagtgggcaatatagaaattagatacccaaaatgggggaatgaaggcacgaggtggttggcttgcaaactcttataggtggtggaatatatattcataggattataggatcaaggtgtagatattttgtaactacaattgtaaggcacaggatatcttttgttttgttcacttatagaatgttatttttaaatgatggtgacacatgttgaattgtatgcattttagttttatcctgttaggtatagatatgattttattgtttatttgaaggttacatatggttacagagttatgtgaaagtataaaattaacaaggggtggtc",
+  "length_bp": 1633,
+  "sequence_length_bp": 1633,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

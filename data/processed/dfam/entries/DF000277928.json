@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277928",
+  "name": "LycPic-1.32",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Lycaon pictus",
+  "display_classification": "SINE/tRNA | Lycaon pictus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Canidae",
+    "Lycaon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 106 BP; 28 A; 20 C; 33 G; 25 T; 0 other;"
+  },
+  "sequence": "ggggcgcctggctggctcagtcggtagagcatgcgactcttgatctcggggttgtgagttcgagccccacgttgggtgtagagattacttaaaaaataaaaaaaaa",
+  "length_bp": 106,
+  "sequence_length_bp": 106,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

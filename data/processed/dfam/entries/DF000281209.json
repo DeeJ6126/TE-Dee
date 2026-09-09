@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281209",
+  "name": "TurTru-1.145",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Tursiops truncatus",
+  "display_classification": "DNA/TcMar-Tigger | Tursiops truncatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Delphinidae",
+    "Tursiops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 340 BP; 103 A; 70 C; 76 G; 91 T; 0 other;"
+  },
+  "sequence": "cagtcggccctcgtatccgcgggttccgcatccgcggattcaaccaaccgcggatgaaaatattggaaaaaaaattccagaaagttccaaaaagcaaaacttgaatttgccgcgcgccggcaactatttacatagcatttacattgtatttacaactatttacatagcatttacattgtattaggtattataagtaatctagagatgatttaaagtatacgggaggatgtgcgtaggttatatgcaaatactaccattttatataagggacttgagcatccggattttggtatccgcggggggtcctggaaccaatcccccggataccgagggacgactg",
+  "length_bp": 340,
+  "sequence_length_bp": 340,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000281768",
+  "name": "CriGam-1.162_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CriGam-1.162_LTR"
+  ],
+  "species": "Cricetomys gambianus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Cricetomys gambianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Nesomyidae",
+    "Cricetomyinae",
+    "Cricetomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 316 BP; 57 A; 61 C; 92 G; 103 T; 3 other;"
+  },
+  "sequence": "tgttgtggaagtttatttttagttgtgtttaaaataattgttttgtgcactgttgggngaggggctgcctaggccttggcgttttgtattgtctgcaggtgttggatttctgtgggggatgtttgattgctnatgatctgcacctgaggagttctgaatcaataaaaacacctgagctcagacgctcggggttccactgtcgagtatggcgctggccatgacggtggttccctctgctgaggtctggcagggtttgcacntatgaaaatgcctccttgtcttccttggtgagccgccacagcagcgtactactaca",
+  "length_bp": 316,
+  "sequence_length_bp": 316,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000001917",
+  "name": "MERV1_LTR",
+  "description": "Mouse long terminal repeat",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MERV1_LTR"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 503 BP; 116 A; 135 C; 114 G; 122 T; 16 other;"
+  },
+  "sequence": "tgagggaccctaagggctttttcccagtcccacaccctccttacagcttccccctcccgcctggggtcaaggctaggccaagttccattctccacccacaggaacattcttgagtaaaaaattctcagaannnncgccgnntgtactgactgatagtcacctgaccctctggaaagtcccaggtagagttcaaatgcgtgtcatgnnncgnncgcgcttgctagccaatagatttaaaggtcaatatgcttagccaataagtttgaactgtaaccttgctgatgtaacctgtgcccctaaaaagtataaaaactgcttgtaatagccattcatggnnggtcgccttctagtcactcgccttgagggactaattgaaggtcgaccccgatgcgncgnncgcgccggaaaataaacctcttgcttttgcatcgatctgcgtctcggtgtctcactcgggggcgtctcgaagtaagtaccactgaccgagggtcgggggtcttaca",
+  "length_bp": 503,
+  "sequence_length_bp": 503,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MERV1_LTR"
+  ]
+}

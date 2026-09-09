@@ -1,0 +1,41 @@
+{
+  "accession": "DF003576009",
+  "name": "SINE_S.grandis_cons_12",
+  "description": "Repetitive sequence family identified in Solen grandis",
+  "keywords": [
+    "SINE/tRNA-Meta"
+  ],
+  "species": "Solen grandis",
+  "display_classification": "SINE/tRNA-Meta | Solen grandis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Heteroconchia",
+    "Euheterodonta",
+    "Imparidentia",
+    "Adapedonta",
+    "Solenoidea",
+    "Solenidae",
+    "Solen"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 136 BP; 24 A; 32 C; 47 G; 32 T; 1 other;"
+  },
+  "sequence": "accgatcccgtggcctagtggttaaggcatccgcttcgggagcgggaggtcgaaggttcgatccccggcaggggancgttctgatatggccggttggtgagccgccagctagttaaataatggttaccggttgtct",
+  "length_bp": 136,
+  "sequence_length_bp": 136,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277368",
+  "name": "HipAmp-2.34",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Hippopotamus amphibius",
+  "display_classification": "LINE/L1 | Hippopotamus amphibius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Ancodonta",
+    "Hippopotamidae",
+    "Hippopotamus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1189 BP; 509 A; 217 C; 204 G; 257 T; 2 other;"
+  },
+  "sequence": "tctttgacataaatcgcagcaatatctttttngatccacctcctagagtaatgaaaataaaaacaaaaataaacaaatgggacctaattaaacttaaaagcttttgcacagcaaaggaaaccataaacaaaacgaaaagacaacccacagaatgggagaaaatatttgcaaacgaagcgaccgacaagggattaatctccaaaatatacaaacagctcatgcagctcaatatcaaaaaacaaacaacccaatcaaaaaatgggcagaagatctaaatagacatttctccaaagaagacatacagatggccaaaaagcacatgaaaagatgctcaacatcgctaattattagagaaatgcaaatcaaaactacaatgaggtatcacctcacaccggtcagaatggccatcatcaaaaagtctacaaacaataaatgctggagagggtgtggagaaaagggaaccctcctacactgttggtgggaatgtaaattggtacagccactatggagaacagtatggaggttccttaaaaaactaaaaatagagctaccatatgatccagcaatcccactcctgggcatatatccggagaaaaccataattcgaaaagatacatgcaccccaatgttcattgcagcactatttacaatagccaagacatggaagcaacctaaatgtccatcgacagaggaatggataaagaagatgtggtacatatatacaatggaatattactcagccataaaaaagaatgaaataatgccatttgcagcaacatggatggacctagagattatcatactaagtgaagtaagtcagacagagaaagacaaatatcatatgatatcacttatatgtggaatctaaaaaaatgatacaaatgaacttatttacaaaacagaaacagactcacagacttagaaaacaaacttatggttaccaaaggggaaaggtgggggagggataaattaggagnttgggattaacatatacacactactatatataaaatagataaccaacaaggacctactgtatagcacagggaactctactcaatactctgtaataacctatatgggaaaagaatctgaaaaagaatggatatatgtatatgtataactgaatcactttgctgtacacctgaaactaacacaacattgtaaatcaactatactccaatataaa",
+  "length_bp": 1189,
+  "sequence_length_bp": 1189,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

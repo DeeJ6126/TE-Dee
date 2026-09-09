@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275195",
+  "name": "CamBac-1.168",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CamBac-1.168"
+  ],
+  "species": "Camelus bactrianus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Camelus bactrianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Tylopoda",
+    "Camelidae",
+    "Camelus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 584 BP; 128 A; 161 C; 120 G; 175 T; 0 other;"
+  },
+  "sequence": "tgaggtgggaagccccataaaaaagaccggcaggacccccaggcagggccactactctcctgccagcaccatccggttccctggcccagaggctctatctcactttttgcctctgaaacggcttacttctaggaaagtggaacttacccctaaaattctattggttccctgagctcactcctgattggttatttccttcactcctgattggtccatttccctaactcctgattggtccatttgtagtacttcatttgcatggagctcactcctgattggttatttctctccctcctgattggtccatttctacaaagcttgttcctaattagtcaacttttgttataccttatttgcatatgatgttgcaaagtgtaaactggcagcctataaaagcctgtgtaaacctacagacggggtccagagcttggagtgttaactcctctgggcccgctggcgtaataaacctgagttctccaactctccgagtgctgcttggtctctcgcccggatccaggttgctgtcacaactgagctgtaacaccgagctgtaacactgagctgtaacacgtttttctgcaaca",
+  "length_bp": 584,
+  "sequence_length_bp": 584,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

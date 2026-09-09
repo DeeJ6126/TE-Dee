@@ -1,0 +1,41 @@
+{
+  "accession": "DF000000976",
+  "name": "MIRc",
+  "description": "MIRc (Mammalian-wide Interspersed Repeat - variant c)",
+  "keywords": [
+    "SINE/MIR"
+  ],
+  "species": "Mammalia",
+  "display_classification": "SINE/MIR | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 268 BP; 69 A; 53 C; 70 G; 75 T; 1 other;"
+  },
+  "sequence": "cgaggcagtgtggtgcagtggaaagagcactggacttggagtcaggaagacctgggttcgagtcccggctctgccacttactagctgtgtgaccttgggcaagtcacttaacctctctgagcctcagtttcctcatctgtaaaatggggataataatacctgccctgcctacctcacagggttgttgtgaggatcaaatgagataatgtatgtgaaagcgctttgtaaactgtaaagtgctatacaaatgtaaggngttattattatt",
+  "length_bp": 268,
+  "sequence_length_bp": 268,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MIRc"
+  ]
+}

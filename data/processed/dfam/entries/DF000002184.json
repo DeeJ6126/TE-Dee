@@ -1,0 +1,50 @@
+{
+  "accession": "DF000002184",
+  "name": "RMER21B",
+  "description": "Mouse long terminal repeat",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RMER21B"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 842 BP; 192 A; 275 C; 192 G; 172 T; 11 other;"
+  },
+  "sequence": "tgttggctattcacgccactcaagcggcagggaaggctttccctgccgtggactccctttgtaaactttgtatactttgtaaactttgtaaaccctcaaggcaggaaagtggccaggcccccgcctgaggagctccagcagccaggcccctcccccagacctccctaactgtcataacggcgtttccagcctctgtaactgtcacaaaggtcatctccagcccctcaacaggaccctccccagattatgctaattttaggtgaaaagtctgaacaaaagccaccaatccctgagcangaaaacccaccaatccctgaacangaaaacccaccaatccctgagctcccccaagctcaggacttgaaatcccaccaatccccaccctggaaatctccaccctggaaagctccgccccccaagaaaccctatataagccctgtcctctgctcagttccctgctgtctnctccctcccgggagcagaggcagccactcctgggttcgtccctccgcgnnncgnnnnctccaataaatctcttgtgtgaggtttgttgcgcggtgtgactttctcatcggaagaagncaagaagcaatgaagaagaaggaagaagcgaagagaaggagcggggctgaggctcctgagctcctcagctcagctggggataccctcccctgggagctgcaacgcctctgctgaggaggcttcctctcagagctgtgtggttcctgggctcccgtgtctcaggatgcccttccattgggacactgtcccacctcagagctgtgtggttcctgggcttccgagtcccaggacaccttcccatccgagcagaaaggccaaca",
+  "length_bp": 842,
+  "sequence_length_bp": 842,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277069",
+  "name": "GalVar-1.171",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "GalVar-1.171"
+  ],
+  "species": "Galeopterus variegatus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Galeopterus variegatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Dermoptera",
+    "Cynocephalidae",
+    "Galeopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 591 BP; 169 A; 112 C; 137 G; 172 T; 1 other;"
+  },
+  "sequence": "tgtggagtatactataaagcaaatatatttcacagggcctagtttcttgtagtttcaggtttagtctaacttcttaaaagtacatataaaatgttgaccttgcaaaagacaggaaattttccccaggctatagtctctgttgtaagataaagaattgtaacacagcaaggttgctggctcaaagacagacaagttactgattgatatgtaaagatactgggaagctgctgtagggagaaggaatgtttgctaagatcaagcttttgttggtggatcacttaactcttgcaaattgccttatggaatgtcacctngcttgttttactgaatgttaccagcctatattgttaaactataaccccacctatgttctcttcctgtaacttcctggtctggagaataaatgcgggaagagaaccccaattcgtggttaatttcccaaatggaaggaatgcctctctcttgagggttccgggagattaaccacttcggggcttctcactgctcagaagagatgggctttgagtaatcctttgcggctccgtcacccaggggaagaggggtgacaaatccgtgggaggcaaagcaaca",
+  "length_bp": 591,
+  "sequence_length_bp": 591,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

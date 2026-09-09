@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000716",
+  "name": "MER119",
+  "description": "hAT-Charlie DNA transposon, MER119 subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 583 BP; 159 A; 120 C; 145 G; 159 T; 0 other;"
+  },
+  "sequence": "ccgcggttcccaaactgtgcgccgaggcgccccggggcgccgcagcgaactcacaggggcgccgcgggatattttaaattttcgagggaaacacagcgatactcgacatctgtcggacaccgcgcgaactactagctcgaggtagttcacagtttcaacattagatcgcgctacattcctttcgatgacgtcatatctttgcgaagctgggttttcggcggttgctgtgataaaaagcaagtaccgcgcgaaaatcaatgtggaacaggaaatgagggtggcggtgtccaatctgattccaaggtttgagaagttgtgcagtgcccaacaggcgcacacatcccattagtaagtaattgtggttatttaagaatgaaataaaatattattttttctttcaatttatgtgtattattttttcaaacggctactaagttgttaggacataaatacttattaagttgtttggacctaactacttaataaacggaactgttaggtatttcttttggcctaggggcgccgtgaaaaaattactgagacactaagggcgccgtgaaccgagaaagtttgggaacctctg",
+  "length_bp": 583,
+  "sequence_length_bp": 583,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER119"
+  ]
+}

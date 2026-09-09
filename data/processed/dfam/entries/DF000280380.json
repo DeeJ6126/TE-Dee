@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280380",
+  "name": "RhiPru-1.23",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B2"
+  ],
+  "species": "Rhizomys pruinosus",
+  "display_classification": "SINE/B2 | Rhizomys pruinosus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Spalacidae",
+    "Rhizomyinae",
+    "Rhizomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 255 BP; 83 A; 71 C; 59 G; 42 T; 0 other;"
+  },
+  "sequence": "gggctggagagatggcctagcggttaagagcgccgaccgctcttgcagaggacccgggttcgatccccagcacccacatggcggccgagaaccgtctgaaactccaattccaggagaactccagttccaggggaatccgacaccctcttctgacctccgcggcattgcacgacacgggtgcacagacctgcatgcagacagtacattcatacacatacagaaataaataaaattaaaaaaaaattaaaaaaaaaa",
+  "length_bp": 255,
+  "sequence_length_bp": 255,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

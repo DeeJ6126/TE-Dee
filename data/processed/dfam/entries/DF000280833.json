@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280833",
+  "name": "SurSur-1.0",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Suricata suricatta",
+  "display_classification": "SINE/tRNA | Suricata suricatta",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Herpestidae",
+    "Suricata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 224 BP; 46 A; 65 C; 54 G; 59 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccggcttcggctcaggtcatgatctcacggttcgtgggttcgagccccgcgtcgggctctgtgctgacagctcagagcctggagcctgcttcagattctgtgtctccctctctctctgaccctcccctgctcgcgctgtctctctctgtctctcaaaaataaataaaaaacattaaaaaaaatttaaaaaaa",
+  "length_bp": 224,
+  "sequence_length_bp": 224,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

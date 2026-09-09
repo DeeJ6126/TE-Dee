@@ -1,0 +1,58 @@
+{
+  "accession": "DF000001016",
+  "name": "MLT1H-int",
+  "description": "Internal region of ERVL-MaLR retrotransposon, MLT1H-int subfamily",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT1H-int"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1409 BP; 389 A; 285 C; 412 G; 304 T; 19 other;"
+  },
+  "sequence": "gaaattggtacctagaagtggggtgctgccgtaacaaaaacctaaaacatgtggcattggctttgggaccgggcggcgggcagaggctggaaaagcgncgaggagactgttagtggaggctggaagagcagtgaggaaactgctattggaggctggaaaaanggcgacccgtgttatgtagtggcggaacanttggcaaaactgtcgcctgcggtaacntggaagatagaaaatgtacctaatgaacttgtggatctggctaaggagatttccaggcagaatgttgaaagtgccaactggcttcttttagctgcgtatgataaggtacggnaagagagagatgagctaaagaaggaactgttcagtttncaagcagaatttagaggaaatatagagganccaggacttgctgggttggaaaataaaactgtttctcatctccagtctctccagccggcaaaagattctcaaagtaagaaatggcctcagggcaaagatcaaatcaagggtgtggctgtaagaccctttgttaagacctcagaaagatttaaggcggtgcctngtagaccctctcagctagacaaaagggcttctaagaatcttaagggcgttgtcccacagcagcctgacacgcagcccaaagtagagagaggcctgtctcgaaaagaattgtgggtgtggcttttgtcnaatggagtggactnnaatnngatncataggaaacccacaaagtttttaagagaattgtattggcaaaagcaccgccagcttggactaaaagggacagagacagttcaaaatgaaaagaggcctctgggcccccaactttctacgggcaggaagcaggctgagaaagctactcagctgcaaacacgggccatttcttatggaaaaggaaggacgnctcagagggcagagccaagagcccagagggcggagccaagagccanggagaacaatggactagggaaccactcccagggagcagaaccgggccctaatcaaggaacattccctgcccccggagtaggggaacctggcaacatgtgcccggctggatttcagaattgctatggaccagtgactgctatgtgcctcccattcttcccctttttgaatgggagtgtctattgcggttatcctgtccctgtctcaccattgtatgttgggtgtgtggggggcagataacttgtctttttagttcacaggtctccggatcaagaggagccacaccctgaggagctgcacccgaggagcctcatccgcatccggacctgatntagatnacgagatcctggacttcgagcctgatgccgtaattggatgagacttttgggggtcttgggangggggtgagcgtattttgcatgtgggaggaatgtgaataatttgtggccagagggcagact",
+  "length_bp": 1409,
+  "sequence_length_bp": 1409,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "48..1185",
+      "start": 47,
+      "end": 1185,
+      "qualifiers": {
+        "product": "MLT1H_gag",
+        "number": "1",
+        "note": "[Eutheria]",
+        "translation": "MWHWLWDRAAGRGWKSSEETVSGGWKSSEETAXGGWKNGDPCYVVAKQLAKLSPAVTW"
+      },
+      "label": "MLT1H_gag"
+    }
+  ],
+  "repbase_aliases": [
+    "MLT1H_I"
+  ]
+}

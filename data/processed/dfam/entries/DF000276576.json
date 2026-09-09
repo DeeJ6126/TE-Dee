@@ -1,0 +1,46 @@
+{
+  "accession": "DF000276576",
+  "name": "EchTel-5.1400",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Echinops telfairi",
+  "display_classification": "LINE/L1 | Echinops telfairi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Tenrecinae",
+    "Echinops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 926 BP; 299 A; 171 C; 279 G; 172 T; 5 other;"
+  },
+  "sequence": "gcccacatggaacaacatatcagcctgtgtgatcacgaggtgtcgaacggatcactgaagacaaatgggtgcataagcaaatgtggcgaagaaagctgatggtgcccggctatcaaaaagtatagcgtctggggtcttaaaggcttgaaggtaatcaagcggccatcaagctcagaagcaacaaagcccacatggaagaagcacaccagcctatgcaaccacgaggtgtcgaagggatcaggtataaggcatcatcagaacaaaaaatcttaccatagtgaatgatggggggagtgcggagtggagacccaaagcccattagtaggccactggagatccccttgcagaggggtctcggggaggagacgagccagtcagggtgcgatgtagcaacgatgaaaaatacaactttcctctagttcctaaatgtttcctccccgctcccactaccatgacncgaattcnaccttgcaagtctggctagaccagaggatgtacactggtacagataggaactggaaatacagggaatccagggcggatgagccctacaggaccagtggtgtgagtggcganacngggagggtagagggagagtgggtaggaaagagggaaccgattacaaggaactatatgtgacctcctccctgggggacggacaacngaaaagtgggtgaagggagacgtcggacagggcaagatatgacaaaataacaatttataaactatcaagggctcatgagggaggggggagcggggagggaggggaaaaatgaggacctaatgccgggggcttaagtggagaggaaatgttttgagaatgatgagggcaatgaatgtacaaatgcgctttacacaattgatgtgtgtatggattgtgataagagttgtatgagcccctaataaaatgatttaaaaaaaaaaaa",
+  "length_bp": 926,
+  "sequence_length_bp": 926,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

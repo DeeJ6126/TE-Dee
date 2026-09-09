@@ -1,0 +1,62 @@
+{
+  "accession": "DF000000023",
+  "name": "Charlie3",
+  "description": "hAT-Charlie DNA transposon, Charlie3 subfamily",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "DNA/hAT-Charlie | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2706 BP; 776 A; 626 C; 635 G; 669 T; 0 other;"
+  },
+  "sequence": "caggggtccccaacccccgggccacggaccggtaccggtccgtggcctgttaggaaccgggccgcacagcaggaggtgagcggcgggcgagcgagcgaagcttcatctgtatttacagccgctccccatcgctcgcattaccgcctgagctccgcctcctgtcagatcagcggcggcattagattctcataggagcgcgaaccctattgtgaactgcgcatgcgagggatctaggttgcgcgctccttatgagaatctaatgcctgatgatctgaggtggagctgaggcggtgatgctagcgctggggagcggctgcaaatacagattaacattagcagagaggtttgactgcacagagaccataataaatcaattgcttgcagactcatatcaaaaccctatcagtgagtggcaagtgacaattaagctgcatctggtggcaggctttatagtggcaagtgagttgatgtacttcaattgtacagctgcatctggtggcaggctttaagtcagaatccgacacttattttagtccgcgcgtggcccgcccattattttatttaccacttccgtccgcgcctctttcccgcactgcgcacttgtctcagtcacagttttggtaagcccacaagctaaccctagccaaaatgagtaaaaaacaaacgtcactggagagcttctttgaaaagggggaaagacccaatgatgagacagcagaagactctaagactgccaacaaaaagaaagctgcatttaaaagaaaataccaagagtcctacttaaattacgggttcattgcaacaggtgattcacattctccaagcccgctttgtataatatgtggcgaccggctatccaacgaagccatgaaaccttcaaaactgcttcgccacatggagaccaagcaccctgcattaaaagacaagcctttggagtttttcaaaagaaaaaaacgtgaacacgaagaacagaagcaattattgaaggccaccacttcatcaaatgtgtctgcactgagagcatcattcttagtggctaaccgcattgctaaagctaagaagccctttactattggtgaagagttgatcctgcctgctgctaaggacatttgtcgtgaacttttaggagaggctgcagttcaaaaggtggcacgtgttcctctttcggctagcaccataactagacgaattgatgaaatagcagaggatattgaggcacaattgttagagaggattaatgagtcaccgtggtacgcaatccaggttgacgagtctaccgatgttgacaacaaggcaacaatgcttgtttttgtgcgatatatttttcaggaggatgtgcatgaggatatgttatgtgcacttttgttgccaaccaacaccacagctgcagaactattcaagtctttgaatgattacatatcaggaaaactgaattggtcattttgtgtcggtatatgcacggacggagcggctgccatgactggacggctttctggtttcactactcgggtcaaagaggtcgcttctgaatgtgagtctacgcactgtgtcatccatagagaaatgctggctagccgaaaaatgtcacctgaacttaacaacgttttgcaggatgtgattaaaattatcaaccacattaaagtacatgcccttaactcacgtctgttcgcgcagctctgtgaggagatggacgcagagcacacacgtcttctcttatacacagaagtgagatggctttctaaaggtagatcactggccagagtttttgagttacgagagccgctccagagatttcttttagaaaaacagtcaccactggcagcacatttcagtgacacagaatgggtcgcaaaacttgcttacttgtgtgacatattcaacctgctcaacgaactcaatctgtcacttcaggggagaacgacaactgtgttcaagtcggcagataaagtggctgcattcaaagccaaactggaattatgggggcgacgagtgaacattgggatttctgacatgtttcaaacattagcagagattttgaaagagactgagccagggccttctttctcccagctggtgcatgatcacctatctcagctttcaaaagagtttgagcattacttcccaaccacaaaagacccccgaactgggaaggaatggatccgcgacccatttgtgaataagccaggtgaatcgactttgtccgtgctagaagaggatcaactgcttgagatcgcaaatgacggtggccttaaaagtatgtttgagacaacttcaaatctccatacgttctggattaaagtcaaggcggaatatcctgagattgccacaaaagcactgaaaagcctgcttccatttccaacatcctatctttgtgaagcagggttttctgcagtgacagcaaccaaaacgagattacggagtagactggacataagcaacacacttcgggtgtcactgtctcccatcacccccagatgggaccgtctagttgcaggaaaacaagctcagggctcccactgattctacattatggtgagttgtataattatttcattatatattacaatgtaataataatagaaataaagtgcacaataaatgtaatgcgcttgaatcatcccgaaaccatcccccccacccccggtccgtggaaaaattgtcttccacgaaaccggtccctggtgccaaaaaggttggggaccgctg",
+  "length_bp": 2706,
+  "sequence_length_bp": 2706,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "624..2517",
+      "start": 623,
+      "end": 2517,
+      "qualifiers": {
+        "product": "Charlie3_tp",
+        "number": "1",
+        "note": "[Simiiformes]",
+        "translation": "AHKLTLAKMSKKQTSLESFFEKGERPNDETAEDSKTANKKKAAFKRKYQESYLNYGFI"
+      },
+      "label": "Charlie3_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "CHARLIE3"
+  ]
+}

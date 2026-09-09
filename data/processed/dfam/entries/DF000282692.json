@@ -1,0 +1,48 @@
+{
+  "accession": "DF000282692",
+  "name": "SolPar-5.517_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "SolPar-5.517_LTR"
+  ],
+  "species": "Solenodon paradoxus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Solenodon paradoxus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Solenodontidae",
+    "Solenodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 304 BP; 71 A; 90 C; 77 G; 64 T; 2 other;"
+  },
+  "sequence": "tgttaggctggcccagaaggacaaaacggcggccatacccgggaaaaaggnggctgacgtcagactgagggattgaagnccacacctggaatcacaggaccaatccccaatcgcgacgtatgaagcccgcgaaattcttttgcttaaagagcgcgcttccctttgttcgggcgcgacttccccggccctcgttctgcggaccggagaacctcgcccgggtgcgcaaaccccgataaagccctggctattcgactttttgtttaattgactttctttcctcgcggagcccagaaaaaacctttca",
+  "length_bp": 304,
+  "sequence_length_bp": 304,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

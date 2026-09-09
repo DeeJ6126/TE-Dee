@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000751",
+  "name": "MER34B",
+  "description": "MER34B Long Terminal Repeat for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER34B"
+  ],
+  "species": "Euarchontoglires",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Euarchontoglires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 565 BP; 162 A; 132 C; 101 G; 170 T; 0 other;"
+  },
+  "sequence": "tgtgggagaccagaatatgccaccccaaaatatgaaggattgttgagctgaaggcaattaagaagaagcagatgcaggaaagctctctgccctccctctatttgcctaaaagcaggacatagatttacaaagacaaaaggtatcccgccccccctctctaccagggagaacaaaggttaaccactgaagacaactttagacccttatcggcctggagatggcaccagaggaatctacattaacaagctttactaactagcctttatctgccatttatttgccttcccacaagttgccgcccctagagactcaaagtccttttcctttgtcttgtcacttctctaaaaatttactgttctttgttgaagatgctatataagctggaattcaaagccacctctttgagaactactcattccctgggtgtctcccatgtatatatgaaatatacatgttaataaacttctgtttgtttttctcttgttaatctgtcttttgttacaggggtccgttccaactaagaacctatgagggttgaggaaaaaattatttttcttcccctaca",
+  "length_bp": 565,
+  "sequence_length_bp": 565,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER34B"
+  ]
+}

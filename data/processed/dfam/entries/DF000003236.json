@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003236",
+  "name": "MSAT-1_DR",
+  "description": "Minisatellite-like DNA",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Satellite/ | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 150 BP; 12 A; 48 C; 30 G; 60 T; 0 other;"
+  },
+  "sequence": "ttctgcctctggactgctttgctcattctgcctctggactgctttgctcattctgcctctggactgctttgctcattctgcctctggactgctttgctcattctgcctctggactgctttgctcattctgcctctggactgctttgctca",
+  "length_bp": 150,
+  "sequence_length_bp": 150,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MSAT-1_DR"
+  ]
+}

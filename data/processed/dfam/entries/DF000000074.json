@@ -1,0 +1,57 @@
+{
+  "accession": "DF000000074",
+  "name": "BLACKJACK",
+  "description": "hAT DNA transposon, BLACKJACK superfamily",
+  "keywords": [
+    "DNA/hAT-Blackjack"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Blackjack | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2969 BP; 950 A; 514 C; 587 G; 918 T; 0 other;"
+  },
+  "sequence": "tagggtgaccatacgtcccggtttgcccgggacagtcccggtttacgcctgttgtcccggcgtcccgtccggtttagcatttgtcccggatttttcattttttaacgaagtattattattaatagttgcattaaaataagccgggatgggtttggtagacctccactttgtacttccagcttctgccatggtctcgtctagtagtgtgtgagacgcatgtgcagtgaacagagttctcactttaacacgtggttaaatctgaaagacgaccagcgataacccgtctctcttttcccgaccctttccagacgcaacgtaactaacacctccctttcaaggacagcatgcagggcgctcgctgataaaacgaagtgcgctcggacacgagcggctagggacagctaactccttccggtctcgggtggtggtgggagaagtattcgacgctgctgcccctgccggccacttggtgtaccagccagttgtgccgtggcccgtgccgcggcctgcgagatgcacgaagccgccaggccgccagtcggcggggtcagtgggaaacgtgggaaattataggttaggtgtacgtgaaatatgtgcgggaaatagaggctgagcagtcctgccgtagagcgtatagagagtagtctgaacgctcttgctacagtggttttgtcatttattgtatggtgtaaatctacaactatttattttattgtttggtaatgcttttttattttgcaataaaccctttcggcagcaatgagctcaaaaaaacgaaagtgcatgtttaatgaaaaattaagtactgaatttccgtttctcaagaaagttgatgatgaacgtgtaacttgcacaaaatgtttgtcgacatttaccatccaccatgggggccgtagtgatatcactgaccacatgaaaaccagaagacacaaatctgctgaagaagcatcagcatctacttcaaaagttagtagttattttaagaagactgtgcccgaagacgacgatttaacacgtgcagctgcagaaggtgcgtttacatatcactctgtgaagcatgacttttcatttagatcaaatgactgttcttctaaattaatttcgctcattttcgattccaagttttcttgtgcacgtacgaaaagtgaagcgatagctgttaatgtgttggctccattagcagaagaacttcgcaaacagttaaatgatgccagttttatatcagtgtcatcagatgcttcaaatagaaaatcagttaagttaattccaataatggttcgattttttcatccaattcatggaatcaaagtaaagcttttggaagttcattctgtcgaaggtgaaacatctgacattattgtgaatgctattgtaaattcagttaaaaagttcaacattgaagataaaattatttgtttttgcggtgataatacgaatacaaattttggtggagcacagcgtcgtggtaaaaacaatgttcttactaaattaagaaacctatggagcagaaatgtacttggaattggttgtggtgcacacataattcataattgcgtccaaacaagctgcgatattctaccaatcgaaatagaagctgtagttgtcaaaatttacaaatatttttatatatacacagttagagtaactgaactacaaaatttttgtgacgaagctgatgttgaatacaaaaaaatacttcagcatggcagtacgcgctttctctctttgctgcccgtcatcaatcggattttagaaatgtttgagcctttgaagaactactttgtaaatcaacctaagtgtcctacaatggtattgaacttttttgtaaacgagtcctctaaattttggttgcattttgttcaaaatcagttggaaatctttaatcaaagtattcaacgaatggagcgccaaaaaacttcagcttttgaagcttttagcgaattgcaattattgaaaacaaagcttgcaaacaggaagacattgaaatttatccctacaaaagcaagggaggaactgaacaaattaaacgatgagagctcaaacggtgtacaagatttaattttgaaattctataattgcgctttggaatatctcgacttgtgggaagaatcttttgatggagctcctatttttaattggataaatttatattctgtaccggaatggaatgaaattgagaaggcctacgattttgcagcatctaaatttggcgaaacattcaaaagaatcataaatagagacaacttatttgacgagttttgtcttgtaaaaatatttgtcgaagaaaggtactctgaatggaggcaaaaagacagtacctgtgaaaatatttgggctgaaatatttacacatttcaatataaaaaaaattagaattgagaatatcctccatttagcagaatttgctctgagcttaccaggtacctcagcacctgtagagagagtattttctcaattaaaaatattatggtctacagagaagagtcaattgaaggtgtcaacaatttcaaatttattaaccataaaatgcaactttgaagaagattgcaggcaattttatgaaaaaattaaaaataataagaccatattgaaaaaatacattcttcagaaaaataccagtgacacggtattagagacagatacggctaagaaactgattaaagtacgtgaatatgtaccaagaataattattctgcttatgttatttttaatgttcagataatcaatataaaattttttaaaattttgctttaatgtacacggatatatatttttattttttagaaagaattttatttttgaaaatagtttttgaatagaactattttataggtccaccaatataataaaaccaatttgtcggtcaataaataaatatttcaaaaaattatataattttaattatttttagcgccccctttcactctcaaaagtgtcccggtttggacgataaattatatggtcacccta",
+  "length_bp": 2969,
+  "sequence_length_bp": 2969,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "759..2718",
+      "start": 758,
+      "end": 2718,
+      "qualifiers": {
+        "product": "Blackjack_tp",
+        "number": "1",
+        "note": "[Eutheria]",
+        "translation": "MSSKKRKCMFNEKLSTEFPFLKKVDDERVTCTKCLSTFTIHHGGRSDITDHMKTRRHK"
+      },
+      "label": "Blackjack_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "BLACKJACK"
+  ]
+}

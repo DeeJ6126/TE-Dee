@@ -1,0 +1,46 @@
+{
+  "accession": "DF000001137",
+  "name": "TAR1",
+  "description": "TAR1 - Telomere Associated Repeat 1",
+  "keywords": [
+    "Satellite/subtelomeric"
+  ],
+  "species": "Primates",
+  "display_classification": "Satellite/subtelomeric | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2110 BP; 319 A; 774 C; 654 G; 346 T; 17 other;"
+  },
+  "sequence": "accaacagtgagggggtcccacaagcctaggcggggcaagtcagggatctaaggaaggagcaggaaaaccaaagaaaagaggtggagacttgagnccgnnnccggaatgtgaagaagtccaacataaaactccctgcncaggaccctngggctgtnttcctgcacgatcagcccactcctccctatttttctacaataagctctttacactgtatttcttttcaatgaagttatctgccatctttgtactgcctcttggtgaaaatctttcttccaagttaagaactgggacatcaggtctccccagtaatagctccttttcagttttaatttacagaactgatggggattaataactggcgctccgactttaagtggtgcaggaggcggccagtaggggacgccagccgtcacaccgggagcaagagggccctgcgtagtccccatctgcctgcaggtggcgtgcngccacnacantggnagcaagagggcccggcagtgtccccagctgccagcaggcgggcgtgctgccactacactgtgagcaagagggccctgcaatgtccctagctgccagcaggcggcgtgccgccactatactgcgagcaagagggccctgcagtgccccggcgccagcagggggcgctggacaccactgtaagcaagagggccctgcagttgccctagtcgccagcagggggcgcactggcacagcaccgtgggcaagcgggtcctgtagtgcccggctgcaagcagggggcgcccgaaccgggcttttcggattactgaggttccacccgtctctgcgccgccggggacgtgcgtctctgcgcgtgcaccgcgccacccccgcgctccccgcccggcggcgcgcgactgtgcgcctgcaacacgccccgccaccctcagcccggcgacgtgcgtctctgcgcctgcgccgcgcctcactcccgcccgcccagcgacccctcccctccggggacgcgccggcgtgcgtctacgccctgcgccgcgtctccccaacagcggcgcgcctctctgcgcctgcgccggcgcgccgcgcctctctgcgcctgcgccggcgcgccgcgcctctctgcgcctgcgccggcgccccgcgcctctctgcgcctgcgccggcgccgcgcgcctctctgcgcctgcgccggcgccncgcgcctctctgcgcctgcgccggcgcnncgcgcctctctgcgcctgcgccggcgccgcgcgcctctctgcgcctgcgccggcgccgcgcgcctctccgcgcctgcgccggcgccgcgcgcctctctgcgcctgcgccggcgccgcgcgcctctctgcgcctgcgccgncgccgcgcgcctctctgcgcctgcgccggcgccgcgcgcctctctgcgcctgcgccggcgccgcgcgcctctctgcgcctgcgccggcgccgcgcgcctctctgcgcctgcgccggcgccgcgcgcctctctgcgcctgcgccggcgccgcgcgcctctctgcgcctgcgccggcgccgcgcgcctctctgcgcctgcgccggcgcgccgcctttgcgagggcggagctgcgttctcctcagcacagacccggagagcatcgcgagggcggagctgngttctcctctgcacagacttcggagatacagcgaaggcggagcagngttctcctcagcacagacccgggcgggcgggccgggggcaccgcgagggcggagctgcgttctgctcagcacagacccgggggacaccgcgaaggcggagcagcgttctcctcagcacagaccttgggggcactgcctcgctttgggacaactcggggccgcatcgacggtgaataaaatccttcccgtttgcagccctgaataatcagggtcagagaccagttagaagggttcagtgtggaaaacgggaaaccaaaagcccctctgaatcctgcccaccgaggttctccccagccaaggcgaggggccgcagtgcgagatccaaccgcagcctcggaagacaaatgcagcattcctaatgcagacatgacacccaaaatatgacacccccattgctcatggaggcttagggttcaggttcgagtttggattcgggttcgggtt",
+  "length_bp": 2110,
+  "sequence_length_bp": 2110,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TAR1"
+  ]
+}

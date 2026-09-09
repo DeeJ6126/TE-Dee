@@ -1,0 +1,43 @@
+{
+  "accession": "DF000001202",
+  "name": "EUTREP14",
+  "description": "Conserved repetitive element present in placental mammals.",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Unknown/ | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 709 BP; 204 A; 143 C; 203 G; 136 T; 23 other;"
+  },
+  "sequence": "gcgttgtgggaggcgccatagggaaaggagtctgcggattggctggagagaaaaggcctccnnaggaggctggaagtagactctgcctggactggaanggananagagcatgagacatnnnnnaagaaagaaaagnctcaagaaagagagagaaaaagatggtgaccgctaagnaaaggaaatgngttctcccttcccctggcgaaatcagngagggttcagcaacgtgtgagccgcaggtttcagagtgagcgaggcaggcccaacatcgctgaggcagccagcgactgctgntgnggcccccggatcccagaagagcgggaagtcgaacaactccaggagattncgacatgagcatcaggaaggcgtgccgcggcgtcgaggaagcccgaacggaaagactccccncatnttcagccatcgtaagcnaggtggcggacactcacaagatcaggaatttggcggcatgggggaaggggggtttgccagcttcatataccaaccactgaattaatgttgttttatgttaattaaacttcttaatataactctgtggtaagagtgcttgtcctgtatttcagatattcccaggagtgctgggaaaggggaaatatgccaacccggcaatattccatgaaactaattacctggggaaattcatgnaagaatgcactgacgcaggtgttacactnataaancaaatatcttt",
+  "length_bp": 709,
+  "sequence_length_bp": 709,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "EUTREP14"
+  ]
+}

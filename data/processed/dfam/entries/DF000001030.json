@@ -1,0 +1,46 @@
+{
+  "accession": "DF000001030",
+  "name": "MLT2B2",
+  "description": "MLT2B2 Long Terminal Repeat for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT2B2"
+  ],
+  "species": "Euarchontoglires",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Euarchontoglires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 515 BP; 114 A; 133 C; 125 G; 141 T; 2 other;"
+  },
+  "sequence": "tgtgatggttaattttatgtgtcaacttgactgggctaagggatgcccagatagctggtaaaacattatttctgggtgtgtctgtgagggtgtttccggaagagattagcatttgaatcagtagactgagtaaagaagatccgccctcaccaatgtgggcgggcatcatccaatccgttgagggcccgaatagaacaaaaaggcggaggaagggcgaattcnctctctcttcttgagctgggacatccatcttctcctgccctcggacatcggagctcctggttctcgggccttcggactccgggacttacaccagcggcccccctggttctcaggccttcggactcggactgaattacaccaccggctttcctggttctccagcttgcagacggcanatcgtgggacttctcggcctccataatcgcgtgagccaattcccataataaatctcctcttatatatctctatatatcctattggttctgtttctctggagaaccctgactaataca",
+  "length_bp": 515,
+  "sequence_length_bp": 515,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLT2B2"
+  ]
+}

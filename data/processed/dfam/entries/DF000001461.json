@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001461",
+  "name": "PALTA2_CE",
+  "description": "PALTA2_CE is a putative nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Tc1 | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1534 BP; 522 A; 229 C; 233 G; 532 T; 18 other;"
+  },
+  "sequence": "ttagggtgntcgataagttttttcgttttttctcaattttgattttttctcaaatattnttttgtgattacatagtagtcagtgagtagtgaaaaatttataaataccaaccagttccggcaacttccagactgcaccatctgccttcgagtggtcgagaagaaaaaataattttttcgatttttttggttttaggtttgaatggaaatgttagtgtttcatgcagttggaaaacttttgtataacgcagattaaaaatatcaggcaacgaaaagcactccttgatatcttaaaatttgaaaaagtaccgaaaattagtngcaaaaattacaattttctcttcagagtggtatatcttagactgcgtgacagatttctatttatgaacaactacaaaaatgttaagcatttcnaaatgaacaaattatatgttgacaactttttggtatctttcaccgtttaaaagttacacatcggagaagcctgccaactcgaacttttagagttctgaaaattggacgtttgtctgaatatctcgatttctagcaaatctatcaaaaagtttataactacaaaaataataaccaattatttctacacatttttgtagttggtcattttaagatatcttcgataacaacagagntatcgcccctncnagagaaaaacctaaaattttgataatttgatggaagaatganaaaaattcgttgaagaatggatanacttgtgaggaaattgtgtttttttgtttgatttctatgatatttccataatanaagcattaatntcnatnnacgttccatagaaaatatttttttcggttttcaattgaattttttcgattaaattatcaaanttttcggtttttttcttataggagcgataactctgttgctataaaagatatcttaaaatgaccaactacaaaaatgtgtagaaataattggtcattntttttgtagttataaactttttgatagatttgctagaaatcgagatattcagacaaacgtccaattttcaaaactttaaaaaattcgagttggcaggcttctccgatgtgtaacttttaaacggtgaaagataccaaaaagttgtcaacacataatttgttcattttgaaatgcttaacatttttgtagttgttcataaatagaaatctgtcacgcagtccaagatagacccctctgaagnaaaaaaggttattttcgcgactatttttcgctacttttncgaattttaaggtatcaaggagtgcttttcgttgcctaatatttttaatctgcgttatacaaaagttttccaactgcatgaaacactaacatttccattcaaacctaaaaccaaaaaaatcgaaaaattattttttcttctcgaccactcgaaggcagatggtgcagtctggaagttgccggaactggttggtatttataaatttttcactactcactgactactatgtaatcacaaaaaaatatttgagaaaaaatcaaaactgagaaaaaacgaaaaaacttatcgaacaccctaa",
+  "length_bp": 1534,
+  "sequence_length_bp": 1534,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PALTA2_CE"
+  ]
+}

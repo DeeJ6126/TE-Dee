@@ -1,0 +1,46 @@
+{
+  "accession": "DF000276559",
+  "name": "EchTel-1.340",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Echinops telfairi",
+  "display_classification": "DNA/TcMar-Tigger | Echinops telfairi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Tenrecinae",
+    "Echinops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 871 BP; 248 A; 167 C; 180 G; 276 T; 0 other;"
+  },
+  "sequence": "cagtagaaccccggtactcgaccgcatcagtactcgacataatcggatttcgacgcgaaatgtcgagaaaattttgcatcggagctcgaacaaaacatcggaatccgacccgacgcacgtgatttttgtaaacaaaagcagttcgtgtttcggtcactcggcgttagttggcgttgttagtacgcgttgtttaaaccttttgcggctgtgttccaagcgttttgctataattttcttagtttttgtggctttttgtactgtttttagataaaaaacatgggtcctaagaaagagttttttgaaaagaatcatcatgataaggaactggttaaccgtgttatcgatattgttgatgataatttagtaaacccttttagaaaacagttaaggaaacgccaacagcagaccacattagacagattttttttttttagagaaagccagccaggtcctagtgaaaaaaggcaaagaagggaaaaaactcctgaaaagcagctaccagttgattttatggaaggggattccccttccaaacaatgactctctctccatccctcctctccacatccgtgtccacagatccagatcctcatccgtctcaaggtatgggccatactgtagttgttaaaaacttttttaatgttgtgtttcttatttaaattatattatttaactctgaacttatttactttgaaatttctgtgtaatgttttgtataaaaaggcaaggttagggtaaaaacttggtggtcgagaacggattaatccgttttcagttatttcttatgggaaaaattgattcggaactcgactgcatcgcatctcgacgctccttctagaacggattagcgtcgaggtccggggttctactg",
+  "length_bp": 871,
+  "sequence_length_bp": 871,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

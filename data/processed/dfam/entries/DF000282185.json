@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282185",
+  "name": "MicOch-4.673_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MicOch-4.673_int"
+  ],
+  "species": "Microtus ochrogaster",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Microtus ochrogaster",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Arvicolinae",
+    "Microtus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2728 BP; 569 A; 891 C; 576 G; 674 T; 18 other;"
+  },
+  "sequence": "tcttggaggtcccaccgagctagggcaggccctttccacgcggcaggccncgtgttgaaagccccctagtctacaatccgagctctccacgccacgcttaaaaccggcttctgggctacagcggctgcgtcttggtgagtcccttttcttgtctatgctatagggttttggggggacccattcgtacttatttttgtcgttttcggattcccgttgaagtcgtgagctcacgccgggaattcgantcccagntngcggtcaanccngcgggaccgggcttggctgaggcggagatctgtttgtttcgggacgccgggcattcaatctccgcggccccttttggacctaagagccattttggcggacgcgctgaaatggacttaggccacgtggttgggcatagactctaaaatgggcacttacagttcaaagccaggtccgctgttgcccctgtaatgcctcttacaaaaatctttttaaattgagcctgtctgatacaaatgaacagagcttacatatatatgtccatggtttttggnctctgcgctctcgccccccctcccttagtagccagtgtctcgcagcaccacgctgccagaggcactggcccctcccccactccctcaagcccacactncccaaccccctcctgtggagcaacattctttcccctccctttcccaattcggaggttcaaggtcaacttccaccttcccctccccctcctacctcaccgctccacccctggaccccctctgcgcactgggctagcccctcccatgctcccttttctcttccaaatctctctcaggtagaaaagcggctaggttccttttctactaatcnttctgcttcctcagtcagtaccagatattaggaaagagttaagaaaggttgagganggtccccaaactcctatacgggaattggtgaaaatggcctttaaagtttttaatgcccgagagaaatcagctgagtcttcccgacagacaaagctacaacaatctacaggcccaggccttagcagctgccctaaggtcacaggaagggggacaagggaagccaaccacagggctctatcaagtgtggcctaaatggtcacgtggcacgatattgcactacgcctgctccgaggttgtgccctatctgccagcaacctggacactggaaatcacaatgcccccgtgcgggcttgtcctctatgccangccacggaggtccggcctcatcaccatcggcaagtgaaactgtgccagccttcaaacntctcagccttgcagaggattgacgctgcccagacttggtntatcccgtaaccctntccgagcctagggtnaagctgcaggtggcgggtaagtccattacttttattctcactcgggccttaagtttccctcaccaatttcagctatgggggtagacgggacccgttcctccccacttaaaactttgccactgccctgcattcttgcaggacaattttttctctcattctttcttagcgataccngcttgcccagcacctttactgggtggagatatccttagccgcttccccaaagctttgttccgcttcttggagccccttttgaccccacccatctccgagattctattttacaggttcactcctcctgccagacgtgtgcccaggccaacccacaaggggctctccacatacaccagcttcgtggacaccaaccgggcgaagattggcaggttaatttcacccatatgcctactcataaaaaactccgttatctcttaacacttgtggacacttttacaggatggatagaagcgtttccggtctccagggaaacagcagatgtggtggctcagggtcatggagctcgtgtcagaagctctcaacatctcctggacaatgggactcatcaaacaacaactaaccaagctctccattgaactcaggttatcttggccctcccttctccccattgccctactcgcctcagggccaccccacgttcccctacgggcctgagcccttttgagctgctttatggcaggccctttctccttaaccatcacctcccagttcaaactcctccactggcggggtacctaccctacctctcccttttaaggtcccttctccgttcacacgctgacagttgtctccctgccaccacaccagtggaccctaatgcccctaaacctgccccgctctccccaggggacagagtactcctcaaacagttaactcctaggtctctcgaacctcgatggacaggacctcacacggtaatcctcaccaccccctcggctgccaagctcttgggacacccatgctggtaccatctctccaggctcaagcgggcacctactcaggacacttggtctgtccagcagacaggaccttccaccctccggttttccaggatgccacaatgaagggcctacctgctcctcatcctggcacactcatctttggcgataacaattttttttcctagacacctgccttctcacctcccccaaggaacagatgcctgccntctccgggatgacagtncatgggatgcctttccagccacacctctcgctgaacgtggacccacctggctctccccttccccacgccgccccgtgcccgcaggaagtagccagatttgagtctacgcccttttttcccaaagagagcctaaatgtttgtcataattaccactccaattttctgtcacccctatatccaaagagtctggaa",
+  "length_bp": 2728,
+  "sequence_length_bp": 2728,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

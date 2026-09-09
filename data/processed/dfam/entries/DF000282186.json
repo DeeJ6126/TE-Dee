@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282186",
+  "name": "MicOch-4.673_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MicOch-4.673_LTR"
+  ],
+  "species": "Microtus ochrogaster",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Microtus ochrogaster",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Arvicolinae",
+    "Microtus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 320 BP; 58 A; 99 C; 82 G; 80 T; 1 other;"
+  },
+  "sequence": "tgttaagttgggagcgtaggccccagcccctcgcatctatcccagcccccaggcctggtctggactccaaatcccagcaggccaggtcctgacccctccgccagggtatttaagtgancccccaaaagaggaacacgtggtctccctttcttcctcccgggggtcgcgttcgcgcggcttcccggtttccccctcggggccacccgagagcgcagaactcccattaaacctggatatttcttaatttggcttgttttgatttggcttgattgggaatttttgcgtcggcagggagctcgcgttaggaaatattcctaaca",
+  "length_bp": 320,
+  "sequence_length_bp": 320,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

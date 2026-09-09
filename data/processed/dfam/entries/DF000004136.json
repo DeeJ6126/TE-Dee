@@ -1,0 +1,41 @@
+{
+  "accession": "DF000004136",
+  "name": "Tc3",
+  "description": "An active DNA transposon - a consensus.",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Tc1 | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2337 BP; 687 A; 452 C; 497 G; 688 T; 13 other;"
+  },
+  "sequence": "cagtgcgtccaacttctatagcaccccccctaatttggcggtttgangagcttccgaaaattttttcgaaaaagtgctagtgcagttcgatngcaaattgaaaaaancctatgcncatttttntcnagaantttatctcaaaaactgaggtcgcgctggaaaaaacgtcaaaatccggcgtccaacttctatagcaccccccgtgntttttgacgattttcgctaaaatcaacagattttggaatttttgacaaagctcaaatcaagtttgagttagaaatgagttcagataagcagttttgactttaaaaaattaatacgaaatgttctcgtgggatctccagactggttctgattcttccgatctttgatgttcaagtctgtttcaagcttcctggtgctctcggtaatgccaaaacttgataaactctctttaacaagttcctactaaaattcctagcacgcactttagatgtttcgactgtgtagtcaagctgatttggcaaaatatgcagcaggaaacaatggaaggcttatcaggaatcaaatcgtttttctttgattacaaggttccatgggaccaatatttcaagttaaattgtccctcacagatgttatttactattttttgcgtgaattattaaatgtggaattgtggcatgtgttgtggcacacatatagaggctggaaagcttacttcgaaagcagtctaacttgcaatgcctcgaggatctgccctttcggacactgaacgcgctcagctggatgttatgaaattgctcaatgtgtccctgcatgaaatgagtaggaaaatttcccgttctcgacactgtattcgcgngtatctgaaggatccggtgagctacggtacatctaaaagagctcctcgtcgcaaagctctctccgtgcgtgacgaacgaaatgtgattcgtgctgcctccaactcctgtaagacggcaagagatattcgcaatgagcttcaattgtctgcttcaaaaaggaccatcctcaatgtcatcaaacgatctggtgtaatcgttcgtcagaaacttcgccctgctccgttactctctgcagaccataaactcaagcgattggaatttgctaagaacaatatgggaacgaattggagtaaagtgagaatttaaaaaagcaagagtgaataattaggatcattgttttaggttgtcttctccgatgaaaagaaattcaatctcgatgggcctgacggttgccgctactattggcgcgatttgcgcaaggaaccaatggttttttcgagacgtaattttggaggaggaacggtgatggtttggggagcgttcacggagaagaagaagcttgagatacagttcgtcagtagcaagatgaacagcactgactatcagaacgtcttggaactggagctctccaaatatcttcgtcactactccagaaaagactttagatttcagcaggataatgcgacaatccatgtgagcaactcaacccgcgactatttcaagctcaagaagatcaaccttcttgattggccagctcgaagtcctgatctcaatccaatcgaaaatttgtgggggattcttgtccgtatcgtgtatgctcagaacaagacttacccaacagttgcatcgttgaagcaaggaattctcgacgcttggaagtctattccggacaaccagctgaaaagtttggtcagatcaatggaggacagactgtttgagatcatccgcacacaaggaaacccgattaactattgatcctttcttgattttagtatatgaatgttctgttgttgatcaaaaataactgcaacttgttaatacgctgtttctgactggtttcttggggatggcgtaaaaatgtttatggtgtgtgtgctaggaattttagtaggaacttgttaaagagagtttatcaagttttggcattaccgagagcaccaggaagcttgaaacagacttgaacatcaaagatcggaagaatcagaaccagtctggagatcccacgagaacatttcgtattaattttttaaagtcaaaactgcttatctgaactcatttctaactcaaacttgatttgagctttgtcaaaaattccaaaatctgttgattttagtaaaaatcgtgaaaaaaaacggggggtcctatagaagttgcacgctggattttgacgttttttccagcgcgacctcagtttttgagataaacttctggaaaaaaatgtatataggttttttnnaatttgaaatcgaatggcattagcagtttttcaaaaaaattttcggaagttcctcaaaccntcaaattagggggggtcctatagaacttgcncgcactg",
+  "length_bp": 2337,
+  "sequence_length_bp": 2337,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Tc3"
+  ]
+}

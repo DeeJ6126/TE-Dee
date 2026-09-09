@@ -1,0 +1,44 @@
+{
+  "accession": "DF000278545",
+  "name": "MirAng-1.101",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Carnivora",
+  "display_classification": "DNA/TcMar-Tigger | Carnivora",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 341 BP; 89 A; 65 C; 71 G; 116 T; 0 other;"
+  },
+  "sequence": "cagttgacccttgaacaacacgggtttgaactgcgcgggtccacttatacgcggatttttttcgataaatacagtacagtactgtaaatgtattttctcttccttatgattttcttaataacattttcttttctctagcttactttattgtaagaatacagtatataatacatataacatacaaaatatgtgttaatcgactgtttatgttatcggtaaggcttccggtcaacagtaggctattagtagttaagttttgggggagtcaaaagttatacgcggattttcgactgcgcggggggtcggcgcccctaacccccgcgttgttcaagggtcaactg",
+  "length_bp": 341,
+  "sequence_length_bp": 341,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

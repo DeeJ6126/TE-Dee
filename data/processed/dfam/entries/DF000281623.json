@@ -1,0 +1,51 @@
+{
+  "accession": "DF000281623",
+  "name": "BosMut-1.207_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "BosMut-1.207_LTR"
+  ],
+  "species": "Bos mutus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Bos mutus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bos"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1203 BP; 290 A; 291 C; 250 G; 370 T; 2 other;"
+  },
+  "sequence": "tgccgggagccggcatattgcatattgagtgcatattgcatattgcatattgagtgcagcactttccacagcatcatctttcaggatctggaatagctcaactggaattctatcactgccgggagccagcgtgaggagctccgcccgtggcaaaggtcatgaggaaggaggctcggcatacgcaaaggcgggatcgagcctcaggagtccccctggaaattctcgagcatctacccccaaaaccagagtctgcctactttctgctttgtgctttcacctacacctctgactttacggggggctgtcccccactacctctctctgaaaaaagagttagcttacagctccagttaataattcctgggtgtgacagtgtttcaacctacaaactcctttggaaatcctctagcctgcctgaataggtttttccggccacatgtgactgttcagagcctcccaactgtgagaggcaggagatgttctaaactgtctaaacacagattcttttgagtagttaaaagattgattagaaattgtattggtgaatggtttttcacttgttgggccattgtttgctgctnagtttccatatcccttacctgctgtgtccctggcagtgtattgattaatataattggtgtaagtagtagctttaatgtttgtaacctgggacccttgagttaattctttttcttgttatagcccaccacacctttgctctgtaggaatgcaactttatctaatgcttttttggagggtggctcctgaccaaccacctttagagaaaaataagttttctgaagaaaaggtcttaaaatgttaacaggcctccgggccagaagatgatgcaaatcaccgaagcgtntgcatatgataagtttgcaggaagaaagcctggtttgctgcaagactctaccccttcccccattatcctctatgcataacttaaggtataaaaactactttgaaaaataaagtgcgggccttgttcaccgaaacttggtctcaccatgtcgttctttctcttaccttctggctgaattcttcagcctcttttctccactgaatttcctcactgagctatcctcattctattactctttatatccttaattaacgtttaattaagcagttgtttcctgatcttcgcctacgccgtctctccttcgaataccctggatcagccggggctggtccccggca",
+  "length_bp": 1203,
+  "sequence_length_bp": 1203,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

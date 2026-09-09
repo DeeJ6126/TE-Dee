@@ -1,0 +1,52 @@
+{
+  "accession": "DF000279026",
+  "name": "MusSpr-1.7",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B2"
+  ],
+  "species": "Mus spretus",
+  "display_classification": "SINE/B2 | Mus spretus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae",
+    "Mus",
+    "Mus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 186 BP; 60 A; 42 C; 40 G; 44 T; 0 other;"
+  },
+  "sequence": "gggctggagagatggctcagcggttaagagcactgactgctcttccgaaggtcctgagttcaaatcccagcaaccacatggtggctcacaaccatccgtaatgagatctgacgccctcttctggtgtgtctgaagacagctacagtgtacttacatataataaataaataaatcttaaaaaaaaaa",
+  "length_bp": 186,
+  "sequence_length_bp": 186,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

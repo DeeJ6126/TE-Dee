@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276023",
+  "name": "CroInd-1.326",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CroInd-1.326"
+  ],
+  "species": "Crocidura indochinensis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Crocidura indochinensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Soricidae",
+    "Crocidurinae",
+    "Crocidura"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 264 BP; 72 A; 67 C; 51 G; 73 T; 1 other;"
+  },
+  "sequence": "tgttgtcatacacctgtaaaatcactttactttttcctttcaccttttctgagttaattagcacaagtacccttaattacgtcaaccctgaccctcaggtgatttatgttaaactctggctaataaaagtggcagggaaagcagcagagaaagaagcttggctggctcagtaagatccaagaagctgctcgacancccctggccgaaatgcactttctcccgtgactctgatttcttgtgcgaaactgcaagctgagaccccac",
+  "length_bp": 264,
+  "sequence_length_bp": 264,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

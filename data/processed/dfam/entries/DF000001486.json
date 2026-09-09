@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001486",
+  "name": "TIR9TA1A_CE",
+  "description": "TIR8TA1A_CE is a putative nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 337 BP; 61 A; 130 C; 94 G; 51 T; 1 other;"
+  },
+  "sequence": "tagggctcccatgaggtcgccgcaaaggcgcctccgccggcctcagcggtcgccgcgccggcctcacggcgtcacccacgccgcatgtatagtgaggcgcggaaccccgaacgtgtcggccgcttccaaacaaccacctcttcgcactacgttgcgcacacaccaagctactcatttcacgccaagctgcggaaccccgaacgtgtcggccgcttcaaataactacctctcgcacttcattncacacacacagcggcgcgcggcgtcggcgcgaggccggccggcgtgaggccggcgtgaggcccgcatttcgcgcctcactcagctgggagcccta",
+  "length_bp": 337,
+  "sequence_length_bp": 337,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TIR9TA1A_CE"
+  ]
+}

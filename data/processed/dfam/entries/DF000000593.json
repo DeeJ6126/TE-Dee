@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000593",
+  "name": "LTR81",
+  "description": "LTR81 (Long Terminal Repeat) for Gypsy retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR81"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1189 BP; 284 A; 317 C; 378 G; 196 T; 14 other;"
+  },
+  "sequence": "tgtaacatggataatatttttgaaaatacttcccaattatgttcccttattggtaagccggtttctctctccctgcaccatccgccattatggccccagggaaggggcaaggcngatgccaccctaggaagaaggaggatatgacgtaggggaagtccntgccaganaggaagaggaagtggaaagcccgccccttccagccccggnggattgtgggaagaagagagaggcggaagtagagcaaggaggtcagatgccagggtcctcgcttcctcccctccctgggcccgaacccaggatgggggggggngctttagaaacatccagataggtatgggggagcccgagaacatcggggctagtggcccgcttccccgggcatagccgggggaggctgcaggcctctaggagaagccccgcgtttggctcggcgccacgtccaacgtggcgcgggagcgacggcgcagcgntggcggagggaggtgnctagatagatgagcctgaggcagcgctcctggctccccacggcctgcgtgtggcatgcaggggatccagaagttcccgcgtgccccggtgaggggacgcggaggtgctgagagggccggtggaccagcagaggcctggggtcaggacaaagaggccgcngtgngcggggacttcgngaccggaggcaaatggccgggaccacggactccagcggtgggtgccagcacatcaccccaaaaggccagatgggaccagtcgcacctcagcggtcaccagtccagggagcagaccagaccagccactccgcagcagagaccagcgaggatccagaggacnccgcatggatccgaggnccccctctcccctnccgccacgaggtcacatgagcccacactcccccatacacccagatgccatcttggagaggagcagggggaggaggaggaaatctgaaagactgagcatttacccgaaagagactgagtcatccaaaagagactaatttacctaaaagagactgtttaaattattggaccggactaagtttaccagactggactaaaatttagtcgttctcncgcccctcgctacccagcggggtgggggctcgtgaggaagatcagatcagttatagagaaataaagaagctacattttctttgcacatctgagtgtagtgtgagtaaatttgcgaccccgctaca",
+  "length_bp": 1189,
+  "sequence_length_bp": 1189,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MamGypLTR2"
+  ]
+}

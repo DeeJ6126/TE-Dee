@@ -1,0 +1,51 @@
+[
+  {
+    "name": "graph_analytics_top_disease",
+    "question": "现在知识图谱里面，哪一个疾病与转座子关联度最大？",
+    "expected_route_contains": ["Graph Analytics Plugin"],
+    "expected_question_type": "graph_analytics",
+    "expected_response_mode": "ranking_summary"
+  },
+  {
+    "name": "sequence_l1hs",
+    "question": "L1HS的序列是什么",
+    "expected_route_contains": ["Sequence Plugin"],
+    "expected_question_type": "sequence",
+    "expected_response_mode": "evidence_summary"
+  },
+  {
+    "name": "literature_support",
+    "question": "What papers support LINE-1 and Alzheimer's disease?",
+    "expected_route_contains": ["Literature Plugin"],
+    "expected_question_type": "literature",
+    "expected_response_mode": "literature_support"
+  },
+  {
+    "name": "mechanism_line1_cancer",
+    "question": "LINE-1是如何导致癌症的",
+    "expected_route_contains": ["Graph Plugin", "Literature Plugin"],
+    "expected_question_type": "mechanism",
+    "expected_response_mode": "mechanism_chain"
+  },
+  {
+    "name": "tree_classification",
+    "question": "What is the classification of L1HS?",
+    "expected_route_contains": ["Tree Plugin"],
+    "expected_question_type": "classification",
+    "expected_response_mode": "lineage_explanation"
+  },
+  {
+    "name": "genome_lookup",
+    "question": "Where is L1HS located in the genome?",
+    "expected_route_contains": ["Genome Plugin"],
+    "expected_question_type": "genome",
+    "expected_response_mode": "evidence_summary"
+  },
+  {
+    "name": "expression_lookup",
+    "question": "What is the expression context of LINE-1?",
+    "expected_route_contains": ["Expression Plugin"],
+    "expected_question_type": "expression",
+    "expected_response_mode": "evidence_summary"
+  }
+]

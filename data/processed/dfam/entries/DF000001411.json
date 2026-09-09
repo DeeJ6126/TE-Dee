@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001411",
+  "name": "HelitronY3_CE",
+  "description": "HELITRONY3_CE is a family of non-autonomous Helitron DNA transposons",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "RC/Helitron | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 193 BP; 48 A; 45 C; 48 G; 52 T; 0 other;"
+  },
+  "sequence": "tcatttactatatataaagcgcgtgtccttccgtccctatgtagtttgatctctgatcagagcaacgaaattttgggaaaccttatgctaaatgcgcagcagacatcgatcgaggtccgcgatagacaccgtatatctaatgtgttttctcaaaaaagtcgggggccgcgccgtaggtgcggtccacggctgg",
+  "length_bp": 193,
+  "sequence_length_bp": 193,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "HELITRONY3_CE"
+  ]
+}

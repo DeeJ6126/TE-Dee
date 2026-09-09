@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001087",
+  "name": "UCON12A",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON12A subfamily",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Amniota",
+  "display_classification": "Unknown/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 371 BP; 118 A; 79 C; 67 G; 96 T; 11 other;"
+  },
+  "sequence": "tccttctnatttattaacttaaagataatggctttgctgtcagtgcagtgcaataaaaatgaaatcagtggcggcatctacgtgccnagctgcccngtgtacctagccntagacactgcagaactttcaaaaataacaaaaacaaatgtttttctttctcattaactttttaaagcctgctgactttgtggaatcactgcagcaagttgtaaatgatgtatgaaatgaaaaatccctgcccacccagtgcgcgnagagagaatacagacaatgctttgcaatcactgctgtgctntgctgcttgctgtagtatttagctcagangcanccagaaaancccaccaaanncagaagagtcaaccataaaaaga",
+  "length_bp": 371,
+  "sequence_length_bp": 371,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON12A"
+  ]
+}

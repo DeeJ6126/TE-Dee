@@ -1,0 +1,44 @@
+{
+  "accession": "DF000001217",
+  "name": "EUTREP15",
+  "description": "Conserved repetitive element present in placental mammals.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EUTREP15"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 866 BP; 211 A; 187 C; 230 G; 234 T; 4 other;"
+  },
+  "sequence": "tgtcctggggcaatactggaaaatcccttttaaagggccagtttgcccctggcaagaaactttgtaatgcttccccaggtgattagtttcgggaggtcattttagtaggcctgataatcgtaaacaaattattttgaagtgatgatttaaattgtgtattggcaggaattgaatattcaagtgtaatgagtttaattgattataagagagtgtttcttttgagatgatgcaataactgccggtgttgagtttgctgtttgaaatgcgcgccggcgggaangatttaaatgtttaaagtatttgaattgtattggttgtaagagagtgcatttaaaatatgtaaaagtgattggctccctctgtagccccgggtgcagcatctgtccctaagtgataaggcgtcggttaacgccctaaagcccccataaaagnggccgctttgccccgatcaaaacggggcagtcacttcgacagagccttgagttccggtcacggtggtctgtctctgaagaactccagctggtggggccgctcctctcccaagccggaagcagacgacccagcgtctggagagcccaagactgccaggacncgcgttccccatccttctccacctgctgcgccgacatcgggagggtaaaagtgtgttgtgttgtgtgtggtgctaaaaccctccacacctcccttgagggtctgggacttaggggtggtgggtgccggcaataaagagtgtatgtgcttgaatgtccattttcctntgtgaatcattaccttacggtgccacggcatgcaggagcagaaccgcagggtttaatacagaggagaatcgcgcctcaatccttccctttggaaggaaccctaaaaca",
+  "length_bp": 866,
+  "sequence_length_bp": 866,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "EUTREP15"
+  ]
+}

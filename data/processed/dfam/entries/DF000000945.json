@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000945",
+  "name": "MER87B",
+  "description": "MER87B Long Terminal Repeat for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER87B"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 509 BP; 135 A; 130 C; 100 G; 137 T; 7 other;"
+  },
+  "sequence": "tgtaacagtgaaacagcaaaagaactaacataactaactccatttttgtttaaggggcctttacccattcctgcacgtaggctaggataattttagagcactgagataatatgcaaaaacagcaatcatgtagtttttaaaactaactctgggattaaaggggaagtatgtaaacaactaactgttttgttaaagatttataggagcattgtgacctgaccaaggacaaagaagnncgttcccaacctcctcggaccctcgctggcgcccagatgtctgcggtcgtcggtcacctcttgatcccaaccccctcctcttcccctgcccttaacataaaaagagcctgaaatttgtactgacttaagatggtactttaggacancgntnctagtccaccatcttctcggtttgctggctctccgaataaacctgcttttcctcccnaccaactcctcgtctctcgngtttggctttcgagcggcgagcagccgaacctgggttcggttaca",
+  "length_bp": 509,
+  "sequence_length_bp": 509,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER87B"
+  ]
+}

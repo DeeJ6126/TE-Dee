@@ -1,0 +1,39 @@
+{
+  "accession": "DF000001111",
+  "name": "UCON8",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON8 subfamily",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Tetrapoda",
+  "display_classification": "DNA/ | Tetrapoda",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1113 BP; 275 A; 267 C; 277 G; 279 T; 15 other;"
+  },
+  "sequence": "ttaagggctctattcatcaatnttttacttacgcgcacgtatctttttttttacgcgattcttctacgcggcaggacgggtgcgttggctgcacggtattcagcaaaaagaacatccgaaatacgcggccgcgcaccggcatctgggcggggtttggccgaccgcgtacttgagcgcggatttcaaatatgggcanagggattcccctttttttgaccatataagggaactgcgcaagtcttaacgcggactgaacactttacacggtattcagcaacaaagaggcagcctccatcagcgcgtagtgcacaggaacnggttggtttcatggcgtagngcgggagaactgcctcaacacagtctgctcatgctgatgctcctgatgctgccacttctgatgccctaaaagctgctgcctccgcatcctctgctgctggtgccactgcacactctcgggcgatggggcaaggggcacactctggatcttcacatgccaagatgaggaaaatcaatttcagtncccaaaagacggaactactggtgcagaaggtcactaaacactaccagttgctctatggcactggagtcttgaaggggaatcctgaaaaaaggacatgggtgtggaacaagatcctgtactgcatcactgccctgggatactgcgagagggacataggggaactcaaacataaacggagagcgggattttccttgcantggccacaataaatatgtttgttgaagagaaaataagtgggaagagaagacatgcatgcctgatgttgaagaaaagcctgtttgtgcctaatacattggagaaattgttcaagaacagttcatccntgtgaaaatatgacccctgtaatgctgccaaggtcagtgagacctngggtgatctgctgngtaagtgccggtcgcgcaagttaaagctgcctgggggcagctttaacttacgcacccgatttttccaagatttcaaaaaattttagagaagagaatgcgtgtaacttgctcgtttgggccggttcttcccctttttctactttctccggcccctttcggacattccntncnncctctctctncctctctctctttccaaggtntgcacac",
+  "length_bp": 1113,
+  "sequence_length_bp": 1113,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON8"
+  ]
+}

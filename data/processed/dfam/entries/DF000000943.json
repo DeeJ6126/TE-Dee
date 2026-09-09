@@ -1,0 +1,88 @@
+{
+  "accession": "DF000000943",
+  "name": "MER84-int",
+  "description": "Internal region of ERV1 endogenous retrovirus, MER84-int subfamily",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER84-int"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 4954 BP; 1329 A; 1318 C; 978 G; 1321 T; 8 other;"
+  },
+  "sequence": "tcttggtggcccgtacggggactttactgggatttctcccttcttttttctcctgcttccctcgacggtctggttctttactcttgggaactganggtccctggccgaggccactcttcggtgggatcctgaagccctagagaagggatacctgtctgtcgttgcccttaggggtgagggactggccagggttcttttctgttttcggactgccagtgaaccagcttgagtactctttggcaattgagggtttctggccgagggccactccccggtgttacccgaaggccaagacaaaagagcgaattcgctattgcccgtcagggtggcaagtccactttcactttaacactctgtaaaccgtgccttggaaacgagcagcagcgatctcaactctgcgcagacacactctactggttgcggacccaattttggattcaacttcgtcacaggcaccgcatcccaagttacgggtgagttctccttcacattaggtttgagctgaccactcaaacaagggcacgcctggactggtcatccaggcaagggcaggccctctatccgtggtgggacgcccccgaatagagtgagccaaagggaaaagggaggtccaaatccctcagggacgcctcagggatcttgtagtcccttatcnaaacccaacatgggttcaattcattcttcaattcnntccgactcgcccttgggttgcattcttaaaaattggtcccattttgacccacaaactctcaaaaagaagcgtataattttcttttgtaatacagcttgggttcaatataagctccccaataanttaaattggcctcttaatgggaccctggattggaatattattttacaactagactcattttgccggaacctcggaaaggattcagaggtcccatatgttcaggtctttttggctttatcccaaaacccaaaattacataaaaattgtcgcgtatgcttccaaggaacttcctccctccccgattctgatgtcttagatgatccttccttttgcctatcacactctcctcagcctgctcccgcttcacctacaccctctccatctgctccatcccccaatcaaccccccccatatccagatactttatccccctcacatactcgcacgggagtcacatatgccactagtacagagtcctcagaaaatcccaaaaatgttttgcctctccgcgaggtggcaaatggagatttgggaacaattcgagttcatgtcccttttccaatgtctgatctttcgcaaattcaatccaagttgggttcatttagccaggatccctctaagttcattcaagaatttcgggctttaactattgcctttgatttaacctggcaagacatattcgtggtattaactacttgctgttcccacgaagaaaaatcacgcatatggtctttagctcgagcttgggcagatgaagctcatgctcgtaatcctaatgataatagagccggggcagaagctgtccccgacacagaacccaattggcaataccaggccgccgatgccggcccaaacagaggcaggggcagacgagattatatgataacttgcttgttggaaggaatgaaaaaggctgtaataaaacctgttaatttttctaaattacgagaaatcactcaggagccatctgagaaccccgcccttttccaagctagactggtggaggccatgcataaatatacaaatttagaccccgaaagccctgagggccaatccattctggccgtacattttataagtcaggcttccccagacatcagacaaaaactccaaaaattagagcaaggcccacaaactccctttcctactttattaaatacagcctttaaggttttcagtaaccgggaggaaacatcaaaaataaaaaaggctcaattggaggaggaaaaatgccgtcgccaagctaattacatggcgacagcattggcacattctttttcgttagctaataaccccaaggctcgtccctataatactaacagaacgggggcctgtcatcgctgcagaaatccaggacactggagtagagaatgtcccaaacctccgggttacaagccgcccccgggaccctgtcctcattgcaaacaagagggtcattggaagagcgagtgtccctctctccctcatgaggggggggcacctcttccttctgggctgtcacagccacaacctcgccaacctacccgacaagggggtcctgcagaacgaggacgagggcaagggcaaggacaagcacctctaactctattcctggattatgatcaagcctctgaaagtcatcctctagatgactgatggggccttgaggccatccaggcccctgtcttttccatctctatggatgagcctcgggtaaatctgattgcggctgaacaagagataatgttcctcatagatacagggttcagctttaaacgtttattacggcccaatgtgccagtcctccattttcctcacgggtattgatggaaaaccccaacgaggctgtttcacaccgccactcccttgtaaaatggaaggctattcctttacccactccttttagtcctgccaagctgccctgttccattattaggtcatgacttactcacaaaattacaagctaatttacagctaaggcctcaccttctagctgtattaactcacacttcaccaaaagagccgctgcagtctatagaacctcacattctaaaacaagtgccatttgaggtttggaatacttctattcctggccgttcaatnatcagctgctcccgtcatcattcagcttaaaaatcccaataagttccccagaaccccccaataccccttgaaaccagaagcacgaaaagggttaaagcccctaataacaaaatttttaacccatggattattgcgcccatgcaactcgccttgcaacactcccattttagctgtaaagaaaccagatggctcctaccgactagtacaggaccttagaattattaatgaagctgttattcctattcatcctattgtcccaaacccttacgccctttttggacaaattccctccaccacagcttggtttactgtacttgatcttaaggatgcctttttctgcattcctgtacacccagatagccaatttttgtttgcttttgaatggcaagacccagatactcaaataactcaacagttaacttggacagttctgccccagggattcagagatagcccccacctttttggacaggccctagctaaagacctgtccaccctgcagcttctcccagatagcaatctactccagtatgtggatgacctactaatctgtagtcctaacaaggctgtttcagaccaaaatacagtattagtactaaacaaacttgctgattgtgggtacaaagtatctccttctaaggtacaaatatccacacaaagngttcaattttggggtcttattttaacccccggtacaaagagcctctctagcgctcgtaaagatcttatcttaaacgtgacaaccccagtaactaaacaacagcttcggtcctttttgggtatggccgggttttgcagaatatggattccttccttcggattaatagcaaaacctttatatgaagccctcaagggaactgaggaacaacctctatcctggactaatgatatgaagcatgctctaaacactttaaaacaggctttaatctcagccccggccttagccctancagatctgactaagcctttctttttgtatgtacacgaatgaaggggaatagctttgggagtcttagcccaagatctggggccctctaagcgccctatagcatatttttcaaaaactttagacctagtatcccagggatggccccccgcttaagagccttagcagcggtggccctcttagtccaagaaagcctcaaactatattacccgcccctcctgggctcttatggctttgcggcactgctaataattatttaaacccttttcaagctttggccctatcccaccttgataattctcttcattatggtgattgtactctgggaacaatagctcccacccaaatcactgtcttgaacataacttccaatccagaattccattctagaagaaaaagggccctaggacttattgtggccggagttgtgggaactatcgcaactctcgccccttggggaggttttacttaccatgaaatcacactacgagaacttaccgcctcccttgaaatagccttagcaaaaactggcgcaagtctatcggcgctagaaaagtctttagactcactagcaggaatggtttttgataatagacgagctctggattacctcctagctgaacaaggaggagtctgtgctgtcatcaacaaaacctgttgcacctacattaatgtgtctggagaagtggaaactaatgtccaagaaattttcaaacaagccaaatggctacacacactttcccaaagtaaccaagactgggccaaaacctttactgattggtttccaaaaatcacttggcttctcccattccttggacctttattcctcgtcattcttcttttaatatttggtccctgcctttttaatgctctcattaagtttatatcttccagattacaacgattccacctacagatgactatgcaatcccaataccggcctgcaacagcaacttccatttacatggggcctcttgatggaatccggtcttcccccatgaacgagtttttcatgacccttcattcccttcatgacagagagcaagaaagggaaaaacgcaacttatccccttcaacgccccctttcagcaggaagtagccagacagactcgacgcccctcttcactgtgccgttttccctttcttgagaccccaataggcagcaggtagacatgagcatgggggaatataaagggtcaaagatttgaccaagatatttgtcagggggaaaa",
+  "length_bp": 4954,
+  "sequence_length_bp": 4954,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "3915..4818",
+      "start": 3914,
+      "end": 4818,
+      "qualifiers": {
+        "product": "MER84_env",
+        "number": "1",
+        "note": "fragment [Primates]",
+        "translation": "PQTILPAPPGLLRLCGTANNYLNPFQALALSHLDNSLHYGDCTLGTVAPTQITVLNIT"
+      },
+      "label": "MER84_env"
+    },
+    {
+      "type": "CDS",
+      "location": "625..2326",
+      "start": 624,
+      "end": 2326,
+      "qualifiers": {
+        "product": "MER84_gag",
+        "number": "1",
+        "note": "via tfasty with CarERV2_gag [Primates]",
+        "translation": "MPQGSCSPLSKPNMGSIHSSIXSXSPLGCILKNWSHFDPQTLKKKRIIFFCNTAWVQY"
+      },
+      "label": "MER84_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "2359..3925",
+      "start": 2358,
+      "end": 3925,
+      "qualifiers": {
+        "product": "MER84_pol",
+        "number": "1",
+        "note": "via tfasty with CarERV2_pol, fragment [Primates]",
+        "translation": "FSISMDEPWVNLIVAEQEIMFLIDTGFSFKRLLXPNCQSSIFLTGIDGKPQXGCFTPP"
+      },
+      "label": "MER84_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "MER84I"
+  ]
+}

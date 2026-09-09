@@ -1,0 +1,46 @@
+{
+  "accession": "DF000004216",
+  "name": "TurRetro1b1",
+  "description": "Retroposon",
+  "keywords": [
+    "Retroposon/"
+  ],
+  "species": "Testudinoidea",
+  "display_classification": "Retroposon/ | Testudinoidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Testudinata",
+    "Testudines",
+    "Cryptodira",
+    "Durocryptodira"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 283 BP; 72 A; 86 C; 72 G; 53 T; 0 other;"
+  },
+  "sequence": "gcttggtctacactaaacccccaaatcgaactaaggtacgcaacttcagctacgtgaataacgtagctgaagtcgacgtaccttagttcgaacttaccgcggtccagacccggcaggcaggctcccccgtcgactccgcgtactcctcgcggcgagcaggattaccggagtcgacggggagcacttctgagttcgatttatcgcgtccagacaagacgcgataaatcgaacccagaagttcgattgcctgccgccgaaccagcgcggtaagtatagacaagcc",
+  "length_bp": 283,
+  "sequence_length_bp": 283,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

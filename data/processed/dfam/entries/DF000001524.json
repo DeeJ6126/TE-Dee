@@ -1,0 +1,55 @@
+{
+  "accession": "DF000001524",
+  "name": "Vingi-1_CE",
+  "description": "A family of Vingi non-LTR retrotransposons",
+  "keywords": [
+    "LINE/I-Jockey"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "LINE/I-Jockey | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2860 BP; 837 A; 772 C; 663 G; 437 T; 151 other;"
+  },
+  "sequence": "atggagatctccaacgtgtacgtgcctccaagatcctcctcctcaaaccacgcccgactgatgacagatttctccaacatcttccaaacgaaatccaaatctatcatgtccggngacntnaacgcncaccantctgcctggcncngtgcggcgnnngaggacaccagaggngncgaantngcngagctcgtcgancnnnncccgnacctgatnatnnngaacgaacangttcacactcgngccgacacncactccatctcntcnccngacatcaccatnnncaccncngacntcgccncnnnntgcnattggtcnacnctctacaagctnggctccgaccacgtcccnatgaactcggagatcaaccaagcagcgaccccccgaagaccgaagcgactggtggcnaatttcaggaaagccgactggcgacctncnngggatcatatcgaanccaggntcgacggctncnntggcccaanngacgcgattccaatggaaaggtttntcgacaaagccatcctngaagccgacagganngcngtcccgaagggtncaatcganccagaacnnagagttgaccnggagnnactcgngctctcggcggaanngatcgccgaccgcgnnacaaggaacccnntggaccccgnnattcnnacgcttnccagggaaccggcnacaaggagagcagaagggaaaaattcagaatggagagagaaggctnacgaccaggangccaagcggaaaagcgacgtcggctccttctggaggntgatncgaggcgttacgaaanggngacngcacaaaggcccggtngncttcggagacggnntcccnannacnggngnagcngctgccgacaggatggcncgacgcctngtcgangccggnagagncagnatancgcatnatgaggaanncgagtggaggaaaaacgtacnacgaagcgaaagnatctccaaagtggccgntcnncaagatcggatcacgagcgttgaactcttcaacntngccagtaagacgagcncctcgncagcaatcggaccagacaggatcgcacagatccacatcaagaagctnccgatctgcgnntactcgtttctcgcatnnntgtacaatgnctcgctatccacaaacgtcatcccagacaaatggaaaaaggcgaacgtgatcatgataccgaagcccaaaaaggaccccgcaattgccagctcatacagnccgatctcnttgctctcnccgattgcnaagcttctngaaaaagccatcctgaagnggatcaagaacagcatcgaatcgccngctcaccaacatggattcaaaactgagcactcgacaaccacagcggtnatccaagtnacgaacgacataatcggaggcctaaacatgaagaatccgccggaacgngcgatnatggcctgtctcgatcngcgcgccgcatttgacaaagtcccgacgaagaaactntgcaatgacctgatggaagcccaaggcatcgaaccgaagatcaaactctggctcggaaattaccttcacaagagantgatcagaacaagtcacnacaaccattggtcaaaatggcatacactcctgggaggagtcccgcaaggttcagtcatcagcccaaacttgttcaccttttatttgaaagacacgccgactcaacgagacacgatgctgatctcatacgcggacgatacgtcgatcattgccagagacaagaagattgaaaaagcagccggaaaggttcagctacacatcgacgaaattgccaaatacctcaaagaacgtggaatgtccatctccgccgaaaagtcnacagtcacagttttctcatgtgatccaaaggagcacaaaaccaagccagacatctactggatggacgatccaatcccagtgactaacgccccaaaactcctgggtatcacaccgaacactatgaccggaacaaaagatcacgttggaaacgtcatcaaaagcatgcagaacaaaacaagagtgataaaatcgatggccggaacgaactggggaaacgatcgcgaaacgatgctatacacgacgcaagccctaatcaaaccaacagctttntacggagcaccagcttggacttcactgctctcggatacgaatctcgaaaaactcgaaatcgcgtacaggagcgcactcggagcctgtgttggactaacgaaggacacgccgacggaccacatctaccaagagtgcagagttctccctttgaaagaagaatataagctggcgacgcaacagatgtacttggcagcgatcaagtcgaacacgcacccgtgcagagacctgaaagcaaagggccaactggaacgaacctcaaaaccgccgaggatcccgccgctgaagctatcggactctgaaaagctcagactcgacaacatcccaggcgacaagacggaggcccaaaagaagaatcacacgaagctggtagcggacttcatcaggaatgcgccaaacaacaaaatcctcaacaaacctccaccaagagtgaactacagggacgaaaggacgctgccaaaggagactcgatgcgaattggcacggctaagatgcggtcactcgctnctcgtcgagaagtacgaagcccggntggaaggaaggcaaataaagaaatgtttgaantgtggagatgaagaaggagatgtgcaacacctnntaagttgcctccgaactccggtccccctagaggaactctggacntctccacncacggtggcggcggccttagggctccccacaaaaactccattcgaccctggaggaggtcattagccatgcgagacatagctggctgctgcgcagccattgttgttgcgcaacaacaacaacaacaaca",
+  "length_bp": 2860,
+  "sequence_length_bp": 2860,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "72..2871",
+      "start": 71,
+      "end": 2871,
+      "qualifiers": {
+        "product": "Vingi-1_CE_pol",
+        "number": "1",
+        "note": "Fragment [Caenorhabditis elegans]",
+        "translation": "QIMEISNVYVPPRSSSSNHARLMTDFSNIFQTKSKSIISGDVNAHHSAWHSEGSEDTR"
+      },
+      "label": "Vingi-1_CE_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "Vingi-1_CE"
+  ]
+}

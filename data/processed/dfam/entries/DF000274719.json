@@ -1,0 +1,51 @@
+{
+  "accession": "DF000274719",
+  "name": "AllBul-1.44",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Orientallactaga bullata",
+  "display_classification": "SINE/Alu | Orientallactaga bullata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Dipodoidea",
+    "Dipodidae",
+    "Allactaginae",
+    "Orientallactaga"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 156 BP; 47 A; 40 C; 45 G; 24 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcacgcctttaatcccagcactcgggaggcagaggtaggaggatcgccgtgagttcgaggccaccctgagactacatagtgaattccaggtcagcctgagctagagtgagaccctacctcgaaaaaccaaaaaaaaaaaa",
+  "length_bp": 156,
+  "sequence_length_bp": 156,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

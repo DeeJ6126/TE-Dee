@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280906",
+  "name": "TamTet-1.284",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "TamTet-1.284"
+  ],
+  "species": "Tamandua tetradactyla",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Tamandua tetradactyla",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Pilosa",
+    "Vermilingua",
+    "Myrmecophagidae",
+    "Tamandua"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 278 BP; 51 A; 101 C; 63 G; 63 T; 0 other;"
+  },
+  "sequence": "tgttaggtcgggggaacggggaagggcactgcaactggagctgcggaggctgtgtcgcccctcccaacctgacttccggaactaatgaaccgccccttccggacgtcacctgacctccatccttaaaagctgcccgcgccgaagcccgcgcgcgcactcacctccctccatcttgggttcggtgagctctgcccgggagcgcagaaataaacccccccactttaaatttcctggtctacctttcttctttctcaccctttcgcctcctaaacctttca",
+  "length_bp": 278,
+  "sequence_length_bp": 278,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

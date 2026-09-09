@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001194",
+  "name": "EuthAT-N1a",
+  "description": "hAT-Tip100 DNA transposon, EuthAT-N1a subfamily",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 258 BP; 73 A; 55 C; 66 G; 63 T; 1 other;"
+  },
+  "sequence": "cagagctgtaactagggcggggcgaccggggctttgccccagggcaccgaaatttagagggcgcaaanattttaaataatgattttaaaagcttagcacctagttagcaagaataattagttaaaataggaagctaccagatggcgcgcattgttaataacacccatctgtgagccacatcatgaattacaaagttgatttgagggcgcgtttcgtgctgcttgccccgggcgccaaaattgctagttacggctctgc",
+  "length_bp": 258,
+  "sequence_length_bp": 258,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

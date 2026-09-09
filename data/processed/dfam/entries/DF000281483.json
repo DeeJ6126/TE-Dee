@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281483",
+  "name": "AciJub-1.223_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "AciJub-1.223_LTR"
+  ],
+  "species": "Acinonyx jubatus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Acinonyx jubatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Felidae",
+    "Acinonychinae",
+    "Acinonyx"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 302 BP; 68 A; 90 C; 71 G; 73 T; 0 other;"
+  },
+  "sequence": "tgttggagaaatgaataaagtctacgccaaagatggccgacgggactaaaacaagctctggtctctagcttagagacccctcctccgggttcttcttgccctgtttgccgcgcgcgcgaaaacccgccacagatatggaagctgacgactataaattaccctccccgcttgcattcggggctcagatctttggagaaacggtctcctctgagcccgccggtgttaaataaatctccgatccaccaagatctccgagtgccgcttggtttttccgccagcgttccagcctggttccgtaacat",
+  "length_bp": 302,
+  "sequence_length_bp": 302,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

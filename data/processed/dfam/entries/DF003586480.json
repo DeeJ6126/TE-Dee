@@ -1,0 +1,40 @@
+{
+  "accession": "DF003586480",
+  "name": "Bpla_SINE-1_Meta",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/tRNA-Meta"
+  ],
+  "species": "Gigantidas platifrons",
+  "display_classification": "SINE/tRNA-Meta | Gigantidas platifrons",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Mytilida",
+    "Mytiloidea",
+    "Mytilidae",
+    "Bathymodiolinae",
+    "Gigantidas"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 367 BP; 100 A; 80 C; 92 G; 95 T; 0 other;"
+  },
+  "sequence": "aaccgcatcggtggtgtaatggttagcgtgctcgcctcgagtgcggtagatcgtgggttcgagccccggtcgggtcaaaccaaagactataaaattggtatttgttgcttctccgctaagcacgcagcattaaggagaaagagcaaagactggttggctcggaatcaggataatgtgtccgagtggggcgacatgtctatccgcggactgttgtttcagtgagctagcactataaaaatccaactaagcgtgttggtctagtacaaagcggacctcatcatcatctcattgaaaattaacttgttctcgccatgatatagctgaaaaattgctgagttggcgttaaacaacaatcactcactcactc",
+  "length_bp": 367,
+  "sequence_length_bp": 367,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

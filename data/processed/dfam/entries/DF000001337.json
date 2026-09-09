@@ -1,0 +1,51 @@
+{
+  "accession": "DF000001337",
+  "name": "HERV-Fc1_LTR2",
+  "description": "LTR (Long Terminal Repeat) of endogenous retrovirus, HERV-Fc1 subfamily",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "HERV-Fc1_LTR2"
+  ],
+  "species": "Homininae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Homininae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Hominoidea",
+    "Hominidae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 425 BP; 74 A; 155 C; 86 G; 105 T; 5 other;"
+  },
+  "sequence": "tgattggatcccggtgaagaccccaagatcgcagccatcttggctgccctgactcagcattcccggattcgccagttcccgccatcccagcggccatcttggctaccctgacttggcattttcgcctgttcccgccatttattcccgccatccgggcagccacctcggataccctgactcagcatttccgggtccacctttcttgttcccgccgcctcagtgaacacgcatgcccactaaagcacgtcactaaggcacgtcactcatctatataagcgcgctgcacntttggcacagcgcgacttccctggccctccccctgcggaccantgaacctcgccngagagctcaatnaagaagatttttgccctctttgtctcgcctctnggccttattgatccacggtgcccttccattgcctttca",
+  "length_bp": 425,
+  "sequence_length_bp": 425,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

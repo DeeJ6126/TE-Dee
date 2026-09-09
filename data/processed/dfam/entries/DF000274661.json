@@ -1,0 +1,48 @@
+{
+  "accession": "DF000274661",
+  "name": "AilFul-1.3",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Ailurus fulgens",
+  "display_classification": "SINE/tRNA | Ailurus fulgens",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Ailuridae",
+    "Ailurus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 216 BP; 42 A; 68 C; 49 G; 55 T; 2 other;"
+  },
+  "sequence": "caggggcgcctgggtggctcagtcggttaagcgtccgactcttgatttcggctcaggtcatgatctcagggtcgtgagatcgagccccgcgtcgggctccgcgctcagcgtggagtctgcttgagattctctctctccctctccctctgcccctccccccgctcgcgctctctctctctcaaataaataaatcttttaaaaaanaaanaaataaaa",
+  "length_bp": 216,
+  "sequence_length_bp": 216,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

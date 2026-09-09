@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279771",
+  "name": "OtoGar-1.228",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Blackjack"
+  ],
+  "species": "Otolemur garnettii",
+  "display_classification": "DNA/hAT-Blackjack | Otolemur garnettii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lorisiformes",
+    "Galagidae",
+    "Otolemur"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1163 BP; 393 A; 196 C; 203 G; 371 T; 0 other;"
+  },
+  "sequence": "taaggtgaccagacgtcccgcttttggcgggacagtcccgatttttaacaatttgtcccgcgtcccgcggcgttttaaaaaagtcccgatttttggaaagaatgcacgacaagctagggaacggcgggagaacgggaagggaatatacggttttcggctgccatgtggctatttcgccaggatatgagttttatattatttttgttaattttataatgttaaactttaataataacaaataattgttgagaactgattatcgagaactgcttatcaaagttcgcattgttgatcagttgttagaattcgaccaccattgtttggacttaatgaacaatggcattttttggcattggcaaccacgaaaacattttgtaactgtctctcagacgatacacatcgtactgcgtgctagtgctagttaaacaagtgatgtcaacaaatcagctattcagataatttaggtaagtaatttatttatttatttcatgaatttagcagacagtactcgtattatttatattttatagtggcggcaaaaagtctagcgccggccttgaaagtgacacttacgacttacgaggtatcattattaaaaaaatatattgataaggaaaaggttaaatcttgggcatcagcaaaaatcacaatagagaacaaatggttagaaatatttcatcattttgaaacaaaccatgttccatacaataatgcactaaaaattgtgggatacgcgctgtccttaccaggaactaatgctgcgactgaacgcgttttttctacggtaaataaagtgtggacatcagaaaaatcacaattaagtgttgagactttgaaagccattttatgtgtgaaatataatttaacaaattcttgtgaaaaatttcatgaccttttaaacaacgacagcaatctactaaaaaaaattcactcaaatgagaaatatgccaaagaataaaataatactatacataattttttaatgtattatatttgtaaattgtacttatgttgaaattaaaaaaatatatattacaatactatttttgcgttctatgaaaatttttgttgctccatatagaccaaatttttaattaagaaccccccccccccccccggtcaatggtgtcccgctttaccaatgttaaaatctggtcacctta",
+  "length_bp": 1163,
+  "sequence_length_bp": 1163,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

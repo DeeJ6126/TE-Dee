@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276125",
+  "name": "CteSoc-1.87",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B2"
+  ],
+  "species": "Ctenomys sociabilis",
+  "display_classification": "SINE/B2 | Ctenomys sociabilis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Ctenomyidae",
+    "Ctenomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 185 BP; 55 A; 56 C; 46 G; 26 T; 2 other;"
+  },
+  "sequence": "gggctggcaagatagctcagcggtctagagcgcctctcagggaccgcggttcgagccccagcaccacatgccatgccagcccctccccgcagggcgggctgagctnaccccccacccccgcgaaaaaagaatccgtgatgtgtagcgagacactgtaataaataaangaatttaaaaaaaaaaaa",
+  "length_bp": 185,
+  "sequence_length_bp": 185,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

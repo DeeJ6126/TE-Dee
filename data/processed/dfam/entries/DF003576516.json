@@ -1,0 +1,47 @@
+{
+  "accession": "DF003576516",
+  "name": "DasNov-5.2009_ltr",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "DasNov-5.2009_ltr"
+  ],
+  "species": "Dasypus novemcinctus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Dasypus novemcinctus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Dasypodidae",
+    "Dasypus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 181 BP; 45 A; 28 C; 42 G; 64 T; 2 other;"
+  },
+  "sequence": "tgtggggaaaanagtttgaacgtatgacctgttccttattgtaaatgttacacctgttccttattgtagatgttgcagttgttccctattattgtagatgatgttgcagttctgatagcaaacagctgctcggtagtttccaataaatacgangtggaaactagggtcgaggctcttattt",
+  "length_bp": 181,
+  "sequence_length_bp": 181,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

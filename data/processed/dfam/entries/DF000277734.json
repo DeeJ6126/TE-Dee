@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277734",
+  "name": "LasBor-1.272",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Lasiurus borealis",
+  "display_classification": "DNA/TcMar-Tigger | Lasiurus borealis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Lasiurus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 157 BP; 37 A; 41 C; 33 G; 46 T; 0 other;"
+  },
+  "sequence": "caggcatacctcgttttattgcgcttcgctttattgcgcttcacagatgttgcgttttttacaaattgaaggcaagaccctccaccagcaaaaagattacgactcgctttattgcgtggtctggaaccgaacccgcaatatctccgaggtatgcctg",
+  "length_bp": 157,
+  "sequence_length_bp": 157,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

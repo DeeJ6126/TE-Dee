@@ -1,0 +1,33 @@
+{
+  "accession": "DF000289842",
+  "name": "Chlamys-10c_cRei",
+  "description": "Penelope element",
+  "keywords": [
+    "PLE/Chlamys"
+  ],
+  "species": "Chlamydomonas reinhardtii",
+  "display_classification": "PLE/Chlamys | Chlamydomonas reinhardtii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Viridiplantae",
+    "Chlorophyta",
+    "core",
+    "chlorophytes",
+    "Chlorophyceae",
+    "CS clade",
+    "Chlamydomonadales",
+    "Chlamydomonadaceae",
+    "Chlamydomonas"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 938 BP; 102 A; 337 C; 262 G; 222 T; 15 other;"
+  },
+  "sequence": "tgtgtgtgtgtgtgtgtgcgtgtgtgtgcgtgtgcgcgtgcgtgtgcgtgcgtgtgtgcgcgtgcgtgcgtgcgcgcgtgcctgtgtgggcgcttctgggcctgcctggctgtgtggctgctgngccgtttttaacgcgcgtgcctttgtgcccccggggagctcttcgtgagcccggactctcgncgccgtgcgcancacccancgaccaggcagctgctacngaccgtgccagttncgctcgccagttgcgcccgccgtccccgcctctcctgccagctnacttcctcctncgccccccacttnatatctgcctacgatgtncacactccagcgccggctccagcgccagctccagcgcgcgacgccagcaaaccttccgctaaccgcactcggtccttagggcgcgcgacgcagctccgccccgaacttcagccgcggcattcccnattccaacccgcggcgcttcctcacactccggttgtgtttgtctcgcantcgcattcgactcgcccgccactcatccgtacattcgggcnccctcttctgccttgcctcgccctgtttncgcccctgcttgccacactgtcgcccggccattgctttgctgcattccgtttgcattttctctgcggttgcctctggtgctcatccgtggacgctggtcaccttcctgcaggtgcgntgcggctctgcctcgcgagtgtggcgttgcggtgtgtctgtgtggtgctatcgcctggccgggcgcccggagcgtgaggaatgcgcgtcagcaaacttccagccagccagcaactcgtcggtacagtaactccggcgttcgaccagccgcgcactcctgccctgccgttgcaaattgtttgccatctgctggggtctgggaatcagctgcaccctacgggacttcaccaacctgccttaccactgtcccatcg",
+  "length_bp": 938,
+  "sequence_length_bp": 938,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

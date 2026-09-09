@@ -1,0 +1,41 @@
+{
+  "accession": "DF000000719",
+  "name": "MER121",
+  "description": "Possible hAT DNA transposon, MER121 subfamily",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/hAT | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 401 BP; 104 A; 89 C; 80 G; 126 T; 2 other;"
+  },
+  "sequence": "tagggatgggcgaacccggccgcgttttgggttcgtcgaacgtctcgaactatttttcaaacgttttgggttcggcaaaacccaaaacgcgttttgccaagcacttttccccttaatttttaaacccatgtgtatttcaagggaaatttaatccatatgtttctgattcatttacacttaactcatcaaaatgttgttttgtaagagctatttgatgtccaagaagccttntgagcctttttnataagcttttctaagcctttttccttagaaacaggaagtcgcgttttgccaagagtaaacgaactcgaaccccaaaaggttcgagttcggttcgaaactcagaacccgcgaagttcgagtgggttctgaacttggcaaaacgcgttctctcatcccta",
+  "length_bp": 401,
+  "sequence_length_bp": 401,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER121"
+  ]
+}

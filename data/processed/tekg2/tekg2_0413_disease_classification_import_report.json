@@ -1,0 +1,17 @@
+{
+  "source_files": {
+    "mapping_json": "data\\processed\\tekg2\\disease_class_mapping_0413.json"
+  },
+  "generated_files": {
+    "category_nodes_cypher": "imports\\tekg2_0413_import_disease_category_nodes.cypher",
+    "category_edges_cypher": "imports\\tekg2_0413_import_disease_category_edges.cypher",
+    "disease_edges_cypher": "imports\\tekg2_0413_import_disease_to_category_edges.cypher"
+  },
+  "counts": {
+    "found_direct_mappings": 406,
+    "green_multiclass_mappings": 13,
+    "category_nodes_payload": 767,
+    "category_edges_payload": 744,
+    "disease_edges_payload": 437
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003025",
+  "name": "CR1-55_DR",
+  "description": "CR1-like non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/L2"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/L2 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1136 BP; 370 A; 178 C; 204 G; 382 T; 2 other;"
+  },
+  "sequence": "ctgacaggtcagtgtgtctcggtagaaaatgttacctctgtagaattaaaaacnaataaaggattaacccacagggatctattttagctccaattttatttcactatataaatgacttaggtcaagagataaacacagctaaaatccatttatatgccgacgacactgttatttatacagttgcacaatctatgaatcaagccatagagatgttacaagactcctttcggttactgcaactttcactgctgaaattgaagttggttttaaatgcaaaaaaaaaataataaatatatggtttttaatcgcagtcgtacaaaaatgaaggtttcaccaatcttaaccctggagggggactgtattgaaagagtaaacagttataaatatttgggcatatggcttgatgaacggttgggttttaatattcatattgaaaatctcgtaaagaagctcaggcctaaattgggttttctttttcgtattaagaagtgccttcctttcgaagcaagaaaaagaattatccaaagctgtttcctttcagatgtagtttatatgcatgcaaacctgtcgttattaaaaaagctggacagtatatatcatgctgcaatacgatttgtgacgaatgcatcttcacgtacccatcattgtactttgtacaaaatggttggatggttttccctgcgccaaaggagaaaaatgcatatgcttctattcaccgctagggcattattgggtaaattgccatcttatatttgtaaccttttatcatattatacttgtagttatagtacacaaaattcttataaattacatttaactgttcctagagtgtgtacggagtttggtaaaacagcgttttcctcctttggccctacattatggaatgaaatgcagagtgttatcatgttagaaacaattccatctctaaatatttttaaaaatcttttgaagtcttacctggaagaatcatgtgaatgttttgtgtaaattttaatttgtgatattttatgtgtgtctaattttgtatctgaaactttttgtgctgccattttggccaggaccccctggtagaagagatgcgtatctcaatgggaaattcctggtaaaantaaaggataaataaataaaataaaaaa",
+  "length_bp": 1136,
+  "sequence_length_bp": 1136,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CR1-55_DR"
+  ]
+}

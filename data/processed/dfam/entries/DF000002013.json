@@ -1,0 +1,51 @@
+{
+  "accession": "DF000002013",
+  "name": "RLTR13D3",
+  "description": "Mouse subfamily of LTR retrotransposons",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR13D3"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1114 BP; 281 A; 242 C; 269 G; 316 T; 6 other;"
+  },
+  "sequence": "tgccacacccactccagtggagtctgcgtgacaagtccaaaagcttggccgcagtcctgaggcaaaaagtttcacggaaactggtctcctggaggtccttggcgtcccgtaacacggatgtggtccagatttgtccttgcgatagtcggtgaagggttttgcgtgctttctttcagtattgttttattataggtgcccccaaggaatgatttgacaaatagctaagttagattgaacattgcttcctggcctccaccagtgtcccaatatcctaggcagtcnttgagccgaccctgggcttggaatttcgtaagaatgttacttattcagacgaaatgcctccagtgttgaaagagagatagtgaaagaaatcaggcattgcagtttactggataagagttagaaatctcagggcaagttcaacaaagtaaacttagaattctcattacagtcatgtatggcagactacattacataatagaagaaagttggtgggctcctctggtaaatggaggttccccacagatacttagaataacagctgagtcactcccatatgcaggaatttacaatggtctaggaagaaggtgggttgtggtttaaggaggaactagagtattgcattattcatgaaaaggttagcaagagcggaacccccctggtgcatgctttcacnaggcccagaggaatagcataattaggtatttactaagggacccctggtggtgggttanacaatagactagaattgtggctagggcgtgaagccctcgcacctggctcctaagaatagctgaccttagatagggctgnttttatctcagttgtaancactgcctggttcctgccagtctttatgtatgcatttctctgttttgtgtaaagagtcattatgcatcggatgacctcaatgtaccttggctgatgtatcacctaacttccttgttttcttctgtaatataagtctgatgctcgctttgagaaattacattcagatccagcactctcttgtgttcgtgtctgtttgtcactcgccgactccttgcccacctgagtaccgggaccctgattctcccncgggttgagggactccgactgagtccagcccgcggca",
+  "length_bp": 1114,
+  "sequence_length_bp": 1114,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

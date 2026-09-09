@@ -1,0 +1,50 @@
+{
+  "accession": "DF000000413",
+  "name": "LTR15",
+  "description": "LTR15 (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR15"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 493 BP; 137 A; 117 C; 92 G; 141 T; 6 other;"
+  },
+  "sequence": "tggaacaggaattaaaagaaattaaagaatgtgtaagcagaaactcagttgtatgtaagaaaacccaattccccctgaggaagagaaagagctggagtcctttaaaaattaactgcctgtttttccgnntgtggctagtgagccttatctctccctttcccaggcattgtgaagaccctgtttctctagctgtgcagctgcaaggtcactagacagataaactcaagtcgtaaaacatgtttttccttgaaaagtaagaaatgatgtaatgcatgtctcaattgaataactgtctttgtttctcgcttctgtaatatgcttccccctgcacagatctccccccncgccccacgaaatgcttaaaaggtaacttgactctttgttcggggctcagtcctttggatgttaatccgactgggccggtgcacctaaataataaatanntcctcctcaaccccatcggtctctctgattcctnaattatcccgcaaca",
+  "length_bp": 493,
+  "sequence_length_bp": 493,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR15"
+  ]
+}

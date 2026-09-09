@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275431",
+  "name": "CerCot-1.4",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Ceratotherium simum cottoni",
+  "display_classification": "SINE/tRNA | Ceratotherium simum cottoni",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Perissodactyla",
+    "Rhinocerotidae",
+    "Ceratotherium",
+    "Ceratotherium simum"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 235 BP; 50 A; 64 C; 80 G; 41 T; 0 other;"
+  },
+  "sequence": "ggggccggccccgtggcgtagcggttaagtgcgcgcgctccgctgctggcggcccgggttcggatcccgggcgcgcaccgacgcaccgcttgtcaggccatgctgtggcggcgtcccatataaagtggaggaagatgggcacggatgttagcccagggccagtcttcctcagcaaaaagaggaggattggcatggatgttagctcagggctgatcttcctcacaaaaaaaaaaaa",
+  "length_bp": 235,
+  "sequence_length_bp": 235,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

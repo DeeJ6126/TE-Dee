@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001285",
+  "name": "X6b_DNA",
+  "description": "Conserved repeat present in placental mammals and marsupials.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/TcMar-Tigger | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 239 BP; 83 A; 50 C; 41 G; 65 T; 0 other;"
+  },
+  "sequence": "caggtgtgccccgctttaagaaaacccgatatacgaaaatccgaacttacaaaacagataaattagggggatgattatttcattacaaaaggattcttcgctttacaaaaggattcaccgcaggttcctttaaatagcgagctcccctagtgcatttaaaatatgattcgatttacaaaaattcgatttacacacaacttttcaggaacacatctattgcgtaaagcgaggtacacctg",
+  "length_bp": 239,
+  "sequence_length_bp": 239,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X6b_DNA"
+  ]
+}

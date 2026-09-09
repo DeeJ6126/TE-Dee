@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275797",
+  "name": "CraTho-1.149",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Craseonycteris thonglongyai",
+  "display_classification": "DNA/TcMar-Mariner | Craseonycteris thonglongyai",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Craseonycteridae",
+    "Craseonycteris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 579 BP; 165 A; 130 C; 118 G; 165 T; 1 other;"
+  },
+  "sequence": "cgaggtgtgatcaaaaaatacggtgaatgtttaaattaaaaaaaanttattacagtaaaagacacattgccattaatccccctcaaaatactccccctcgcttcagaacacacttatcccatcgttcttgccactttctgaagcagttctggaagtcctctttcgtgagtgtctttagttgcgctgtcgtggctgcctcgatgtcctgaatcgattcaggtcacacatcgcttctggtacggcaatttctgtcaaataaaaacattacggtgtgtcctcatccaccttattcaccggatctggcaccgtgcgacttctggctcttccccaaagtcaaaatgaccatgaaaggtaaacgttttgaatcgattcaggacatcgaggcagccacgacagcgcaactaaagacactcacgaaagaggacttccagaactgcttcagaaagtggcaagaacgatgggataagtgtgttcgaagcgagggggagtattttgagggggattaatggcaatgtgtcttttactgtaataaattttttttaatttaaacattcaccgtatttttttgatcacacctcg",
+  "length_bp": 579,
+  "sequence_length_bp": 579,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

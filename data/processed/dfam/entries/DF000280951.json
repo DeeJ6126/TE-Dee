@@ -1,0 +1,47 @@
+{
+  "accession": "DF000280951",
+  "name": "TapTer-1.3",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Tapirus terrestris",
+  "display_classification": "SINE/tRNA | Tapirus terrestris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Perissodactyla",
+    "Tapiridae",
+    "Tapirus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 247 BP; 52 A; 69 C; 83 G; 43 T; 0 other;"
+  },
+  "sequence": "ggggccggcccggtggcgtagcggttaagttcgcgcgctccgcttcggcggcccggggttcgcaggttcggatcccgggcgcggacagacgcaccgcttgtcaagccatgctgtggcggcgtcccatataaagtagaggaagatgggcacggatgttagcccagggccagtcttcctcagcaaaaagaggaggattggcaacggatgttagctcagggctggtcttcctcacacacacacacaaaaa",
+  "length_bp": 247,
+  "sequence_length_bp": 247,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

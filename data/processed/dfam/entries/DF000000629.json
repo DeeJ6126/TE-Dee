@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000629",
+  "name": "MADE1",
+  "description": "MADE1 (MAriner Derived Element 1), a TcMar-Mariner DNA transposon",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "DNA/TcMar-Mariner | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 80 BP; 24 A; 15 C; 14 G; 27 T; 0 other;"
+  },
+  "sequence": "ttaggttggtgcaaaagtaattgcggtttttgccattacttttaatggcaaaaaccgcaattacttttgcaccaacctaa",
+  "length_bp": 80,
+  "sequence_length_bp": 80,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MADE1"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "accession": "DF000001036",
+  "name": "MLT2D",
+  "description": "MLT2D Long Terminal Repeat for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT2D"
+  ],
+  "species": "Boreoeutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Boreoeutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 414 BP; 106 A; 99 C; 86 G; 118 T; 5 other;"
+  },
+  "sequence": "tgtgatggttaattttatgtgtcaacttggctaggccacggtgcccagatatttggtcaaacattantctggatgtttctgtgaaggtattttttagatgagattaacatttaaatcagtagactttgagtaaagcagattaccctccataatgtgggtgggcctcatccaatcagttgaaggccttaagagaaaaagactganntcccccgaggaagagggaattctgccnncagactgccttcggactcgagctgcaacatcaactcttccctgggtctccagcctgccggcctaccctgcagattttggacttgccagcctccacaatcgcgtgagccaattccttaaaataaatctctctctacacacatcctattggttctgtttctctggagaaccctgactaataca",
+  "length_bp": 414,
+  "sequence_length_bp": 414,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLT2D"
+  ]
+}

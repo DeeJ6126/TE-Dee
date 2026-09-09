@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276916",
+  "name": "EscRob-1.66",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Eschrichtius robustus",
+  "display_classification": "LINE/L1 | Eschrichtius robustus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Mysticeti",
+    "Eschrichtiidae",
+    "Eschrichtius"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1342 BP; 515 A; 194 C; 290 G; 342 T; 1 other;"
+  },
+  "sequence": "gggcagaggatctgaatagacatttttccaaagaagacatacagatggccaacaggcacatgaaaagatgctcaacatcactaatcatcagggaaatgcaaatcaaaaccacaatgagatatcacctcacacctgtcagaatggctatcatcaaaaagacaacaaataacaagtgttggcgaggatgtggagaaaagggaaccctcgtgcactgttggtgggaatgtaaattggtgcagccactatggaaaacagtatggaggttcctcaaaaaattaaaaatagaactaccatatgatccagcaattccactcctgggtatttatccgaagaaaacgaaaacactaattcgaaaagatatatgcacccctatgttcattgcagcattatttacaatagccaagatatggaagcaacctaagtgcccatcaatagatgaatggataaagaagatgtggtatatatatacaatggaatattactcagccataaaaaagaatgaaatcttgccatttgcgacaacatggatggacctagagggtattatgctaagtgaaataagtcagacagagaaagacaaatactgtatgatttcacttatatgtggaatctaaaaaacaaaacaaatgaacaaacataacaaaacagaaacagagtcatagatacagagaacaaacaggtggttgccagaggggaggggggtggggggaggagagaaataggtgagggagattaagaggtacaaacttccagttgcaaaataaatgagtcacgggtatgaaatgtacagtgtggggaatatagtcaataactatgtaatatctttgtatggtgacagatggtaactagacttatcgtggtgatcattttgaaatgtatagaaatatcgaatcactatgttgtgtancaggaactaacatagtgttgtaggtcaattatacttcaaaaacaaacaaactcatagaaaaagagatcagatttgtggttaccagaggcggggggtggggggagggggaattggatgaaggcggtcaaaaggtacaaacttccagttataagataaataagtactagggatgtaatgtacaacatgataaatataattaacactgctgtatgttatatatgaaagttgttaagagagtaaatcctaagagttctcatcacaaggaaaaaatttttttctatttctttaattttgtatctatatgagatgatggatgttcactaaacttattgtggtaatcatttcatgatgtatgtaagtcaaatcattatgctgtacaccttaaacttatacagtgctgtatgtcaattatatctcaataaaactggaagaaaa",
+  "length_bp": 1342,
+  "sequence_length_bp": 1342,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

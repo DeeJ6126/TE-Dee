@@ -1,0 +1,53 @@
+{
+  "accession": "DF000282261",
+  "name": "MusSpr-1.61_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MusSpr-1.61_LTR"
+  ],
+  "species": "Mus spretus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus spretus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae",
+    "Mus",
+    "Mus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 399 BP; 94 A; 90 C; 109 G; 106 T; 0 other;"
+  },
+  "sequence": "tgtactggctggttttgtgtgtcaacttgacacaggctggagttatcacagagaaaggagcttcagttggggaaatgcctccatgagatccagctgtaaggcattttctcaattagtgatcaaggggggagggccccttgtgggtggtaccatctctgggctggtagtcttgggttctataagagagcaggctgagcaagccaggggaagcaagccagtaaagaacatccctccatggcctctgcatcagctcctgcttcctgacctgcttgagttccagtcctgacttcctttggtgatgaacagcagtgtggaagtgtaagctgaataaaccctttcctccccaacttgcttcttggtcatgatgtttgtgcaggaatagaaaccctgactaagaca",
+  "length_bp": 399,
+  "sequence_length_bp": 399,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

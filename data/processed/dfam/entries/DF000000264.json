@@ -1,0 +1,45 @@
+{
+  "accession": "DF000000264",
+  "name": "L1MA7_3end",
+  "description": "3' end of L1 retrotransposon, L1MA7_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Euarchontoglires",
+  "display_classification": "LINE/L1 | Euarchontoglires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1038 BP; 412 A; 160 C; 202 G; 261 T; 3 other;"
+  },
+  "sequence": "ttaatatccaaaatatataaggaactcaaacaactcaatagcaagaaaacaaataacccgattaaaaaatgggcaaaggacctgaatagacatttctcaaaagaagacatacaaatggccaacagatatatgaaaaaatgctcaacatcactaatcatcagggaaatgcaaattaaaaccacaatgagatatcacctcacacctgttagaatggctattatcaaaaagacgaaagataacaagtgttggcgaggatgtggagaaaagggaacccttgtacactgttggtgggaatgtaaattagtacagccattatggaaaacagtatggaggttcctcaaaaaactaaaaatagaactaccatatgatccagcaatcccacttctgggtatatatccaaaggaattgaaatcagtatgtcgaagagatatctgcactcccatgttcattgcagcattattcacaatagccaagatatggaatcaacctaagtgtccatcaacggatgaatggataaagaaaatgtggtatatatacacaatggaatactattcagccttaaaaaagaaggaaattctgtcatttgcgacaacatggatgaacctggaggacattatgctaagtgaaataagccaggcacagaaagacaaataccgcatgatctcacttatatgtggaatctaaaaaagtcgaactcatagaagcagagagtagaatggtggttaccagaggctggggggtggggggaatggggagatgttggtcaaagggtacaaagtttcagttagacaggaggaataagttttngngatctattgcacagcatggtgactatagttaataataatgtattgtatatttcaaaattgctaagagagtagattttaaatgttctcaccacaaaaaaatgataagtatgtgaggtgatggatatgttaattagcttgatttaatcattccacantgtatacatatatcaaaacatcacattgtaccccataaatatatacaattattatttgtcaattaaaaataaaa",
+  "length_bp": 1038,
+  "sequence_length_bp": 1038,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1MA7"
+  ]
+}

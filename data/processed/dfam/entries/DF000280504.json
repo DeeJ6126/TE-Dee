@@ -1,0 +1,50 @@
+{
+  "accession": "DF000280504",
+  "name": "RhiSin-1.69",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RhiSin-1.69"
+  ],
+  "species": "Rhinolophus sinicus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rhinolophus sinicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Rhinolophidae",
+    "Rhinolophinae",
+    "Rhinolophus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 350 BP; 60 A; 95 C; 118 G; 76 T; 1 other;"
+  },
+  "sequence": "tgtggggacagagccccagagagcagtttccaggctctcggcctcacgtggaaaggtgctggctcgggtagtagatggccgtcagctgtggctagttggccgtcagctgtaaccggttagccaattggccactgatataactgccgcggctgcgctggttggngagtcgggtcggttggcagagaagcggacggcaggtcgcacgtcgtgtgaatccagcctccagtgagactatagtggtatgactcccctacctatggctccgtgggtgttcctttttggcctcgccatatcctgcgttcttatgtggggagcgggagcagagaccccgcaggccgccccgcacgaca",
+  "length_bp": 350,
+  "sequence_length_bp": 350,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

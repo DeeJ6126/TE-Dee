@@ -1,0 +1,52 @@
+{
+  "accession": "DF000281485",
+  "name": "AcoCah-1.197_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "AcoCah-1.197_LTR"
+  ],
+  "species": "Acomys cahirinus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Acomys cahirinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Deomyinae",
+    "Acomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 427 BP; 103 A; 99 C; 126 G; 94 T; 5 other;"
+  },
+  "sequence": "tgtgggaaagattaagctttgtcacaggtggaagcagtcttggcgggctttacccttggggcaccccatgaataccttgtgatagactgagtggagccatcctgggcctggaattcaggaagcagacctgggaaccccacctgggctattgttttcctaattgaccctcaacgggagaaggagaccgccctttncatgtgactgaggcaggtggggaggagagaacaacaggttcagnccgggcnngagcgcgcggggagcagcgaacaggccggaccagcacgcgggccagagagacacctaaggacccgtcccgtggaacggataccggaaggttcactcttttgtccctttaaccttttttccttcttgtgtangctagttgggttgtataataaagtttaattgttaagaaacagagccaaca",
+  "length_bp": 427,
+  "sequence_length_bp": 427,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

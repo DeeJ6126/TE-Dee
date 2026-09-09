@@ -1,0 +1,66 @@
+{
+  "accession": "DF000000226",
+  "name": "L1HS_5end",
+  "description": "5' end of L1 retrotransposon, L1HS_5end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Homininae",
+  "display_classification": "LINE/L1 | Homininae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Hominoidea",
+    "Hominidae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2136 BP; 729 A; 503 C; 539 G; 362 T; 3 other;"
+  },
+  "sequence": "gggggaggagccaagatggccgaataggaacagctccggtctacagctcccagcgtgagcgacgcagaagacgggtgatttctgcatttccatctgaggtaccgggttcatctcactagggagtgccagacagtgggcgcaggtcagtgggtgcgcgcaccgtgcgcgagccgaagcagggcgaggcattgcctcacttgggaagcgcaaggggtcagggagttccctttccgagtcaaagaaaggggtgacggacgcacctggaaaatcgggtcactcccacccgaatactgcgcttttcngaccggcttaaaaaacggcgcaccacgagattatatcccgcacctggctcggagggtcctacgcccacggagtctcgctgattgctagcacagcagtctgagatcaaactgcaaggcggcagcgaggctgggggaggggcgcccgccattgcccaggcttgcttaggtaaacaaagcagccgggaagctcgaactgggtggagcccaccacagctcaaggaggcctgcctgcctctgtaggctccacctctgggggcagggcacagacaaacaaaaagacagcagtaacctctgcagacttaaatgtccctgtctgacagctttgaagagagcagtggttctcccagcacgcagctggagatctgagaacgggcagactgcctcctcaagtgggtccctgacccctgacccccgagcagcctaactgggaggcaccccccagcaggggcacactgacacctcacacggcagggtattccaacagacctgcagctgagggtcctgtctgttagaaggaaaactaacaaacagaaaggacatccacaccgaaaacccatctgtacatcaccatcatcaaagaccaaaagtagataaaaccacaaagatggggaaaaaacagaacagaaaaactggaaactctaaaangcagagcgcctctcctcctccaaaggaacgcagttcctcaccagcaacggaacaaagctggatggagaatgactttgacgagctgagagaagaaggcttcagacgatcaaattactctgagctacgggaggacattcaaaccaaaggcaaagaagttgaaaactttgaaaaaaatttagaagaatgtataactagaataaccaatacagagaagtgcttaaaggagctgatggagctgaaaaccaaggctcgagaactacgtgaagaatgcagaagcctcaggagccgatgcgatcaactggaagaaagggtatcagcgatggaagatgaaatgaatgaaatgaagcgagaagggaagtttagagaaaaaagaataaaaagaaatgagcaaagcctccaagaaatatgggactatgtgaaaagaccaaatctacgtctgattggtgtacctgaaagtgatggggagaatggaaccaagttggaaaacactctgcaggatattatccaggagaacttccccaatctagcaaggcaggccaacgttcagattcaggaaatacagagaacgccacaaagatactcctcgagaagagcaactccaagacacataattgtcagattcaccaaagttgaaatgaaggaaaaaatgttaagggcagccagagagaaaggtcgggttaccctcaaagggaagcccatcagactaacagcggatctctcggcagaaaccctacaagccagaagagagtgggggccaatattcaacattcttaaagaaaagaattttcaacccagaatttcatatccagccaaactaagcttcataagtgaaggagaaataaaatactttacagacaagcaaatgctgagagattttgtcaccaccaggcctgccctaaaagagctcctgaaggaagcgctaaacatggaaaggaacaaccggtaccagccgctgcaaaatcatgccaaaatgtaaagaccatcgagactaggaagaaactgcatcaactaacgagcaaaatnaccagctaacatcataatgacaggatcaaattcacacataacaatattaactttaaatgtaaatggactaaatgctccaattaaaagacacagactggcaaattggataaagagtcaagacccatcagtgtgctgtattcaggaaacccatctcacgtgcagagac",
+  "length_bp": 2136,
+  "sequence_length_bp": 2136,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "906..1920",
+      "start": 905,
+      "end": 1920,
+      "qualifiers": {
+        "product": "L1PA2_gag",
+        "number": "1",
+        "note": "[Hominidae]",
+        "translation": "MGKKQNRKTGNSKKQSASPPPKERSSSPATEQSWMENDFDELREEGFRRSNYSELRED"
+      },
+      "label": "L1PA2_gag"
+    }
+  ],
+  "repbase_aliases": [
+    "L1HS"
+  ]
+}

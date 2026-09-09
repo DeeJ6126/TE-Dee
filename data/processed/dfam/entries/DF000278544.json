@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278544",
+  "name": "MinSch-6.2496",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Miniopterus schreibersii",
+  "display_classification": "DNA/hAT-Charlie | Miniopterus schreibersii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Miniopterinae",
+    "Miniopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 236 BP; 64 A; 56 C; 60 G; 56 T; 0 other;"
+  },
+  "sequence": "caggggtggggaacgtccggcccgcgggccgtatacggcccgcgaaatcatttggtctggccctgccaaggcctcaccaaagagaagcagttccagccatcacattaggggtgagttaattaaatgtttgaccaaatatagcaggctaatttttaagttgataattttgtatggcccgcgaatgatgttataaatatccaaatggcccttggcagaaaaaaggttccccacccctg",
+  "length_bp": 236,
+  "sequence_length_bp": 236,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

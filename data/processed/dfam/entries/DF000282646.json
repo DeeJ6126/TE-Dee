@@ -1,0 +1,53 @@
+{
+  "accession": "DF000282646",
+  "name": "RhiRox-5.1803_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RhiRox-5.1803_LTR"
+  ],
+  "species": "Rhinopithecus roxellana",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rhinopithecus roxellana",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Colobinae",
+    "Rhinopithecus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 332 BP; 102 A; 83 C; 77 G; 69 T; 1 other;"
+  },
+  "sequence": "tgagagacaggactagctggatttcctaggccgactaagaatccctaagcctagctgggaaggtgaccgcatccacctttaaacacggggcttgcaacttagctcacacccgaccaatcaggtagtaaagagagctcactaaaatgctaattaggcaaaaacaggaggtaaagaaatagccaatcatctatcgcctgagagcacagcgggagggacaatgatcgggatataaacccaggcattcgagccggcaacggcnaccctctttgggtcccctccctttgtatgggagctctgttttcactctattaaatcttgcaactgcaaaaaaa",
+  "length_bp": 332,
+  "sequence_length_bp": 332,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

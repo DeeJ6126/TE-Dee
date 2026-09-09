@@ -1,0 +1,17 @@
+{
+  "name": "TE-KG Architecture Builder",
+  "id": "153600102420260802",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "relaunchButtons": [
+    {
+      "command": "rebuild",
+      "name": "Rebuild TE-KG architecture"
+    }
+  ],
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}

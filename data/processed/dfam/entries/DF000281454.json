@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281454",
+  "name": "ZipCav-1.223",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Ziphius cavirostris",
+  "display_classification": "DNA/TcMar-Tigger | Ziphius cavirostris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Ziphiidae",
+    "Ziphius"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 510 BP; 135 A; 108 C; 112 G; 155 T; 0 other;"
+  },
+  "sequence": "cagacggtccccgacttaacgatggtttcgacttacgatttttcgactttacgatggtgcgaaagcgatacgcattcagtagaaaccgtacttcgaattttgaattttgatcttttcccgggctagcgatatgcggtacgatactctctcgtgatgctgggcagcggcagcgagccgcagctcccagtcagccacgcgatcacgagggtaaacaaccgatacacttacaaccattctgtacccatacaaccattctgtttttcactttcagtacagtattcaataaattacatgagatattcaacactttattataaaataggctttgtgttagatgattttgcccaactgtaggctaatgtaagtgttctgagcacgtttaaggtaggctaggctaagctatgatgttcggtaggttaggtgtattaaatgcattttcgacttacgatattttcaacttacgatgggtttatcgggacgtaaccccatcgtaagttcgaggaagatctg",
+  "length_bp": 510,
+  "sequence_length_bp": 510,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

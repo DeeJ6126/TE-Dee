@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000953",
+  "name": "MER91C",
+  "description": "hAT-Tip100 DNA transposon, MER91C subfamily",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 140 BP; 27 A; 44 C; 43 G; 26 T; 0 other;"
+  },
+  "sequence": "cagggctgccgcgtacggctgtgcaggttgtgcactgcacaactccagggggcgccattcacatcgtagatctacgatgtgaatggcgccccctggagttgtgcagtgcacaacctgcacaaccgtacgcggcagccctg",
+  "length_bp": 140,
+  "sequence_length_bp": 140,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER91C"
+  ]
+}

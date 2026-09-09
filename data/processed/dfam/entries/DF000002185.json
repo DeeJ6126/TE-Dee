@@ -1,0 +1,50 @@
+{
+  "accession": "DF000002185",
+  "name": "RMER30",
+  "description": "hAT DNA transposon from Muridae.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Muridae",
+  "display_classification": "DNA/hAT-Charlie | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 202 BP; 52 A; 51 C; 48 G; 50 T; 1 other;"
+  },
+  "sequence": "ccaggcgtgtccaaccttttgacattgcgacacgacgttgtcatctacaaagttcacgctcgagaaccgcgcaatcgagttacaaaagaaatntcaaaaaaactcataatgttttaagtaagtttacgattttgtgttgggccgcattcatagctatcctcggccgcatgtggcccacgggccgcgggttggacacgcctgg",
+  "length_bp": 202,
+  "sequence_length_bp": 202,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RMER30"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276928",
+  "name": "EubJap-1.10",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Eubalaena japonica",
+  "display_classification": "SINE/tRNA | Eubalaena japonica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Mysticeti",
+    "Balaenidae",
+    "Eubalaena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 301 BP; 91 A; 84 C; 84 G; 42 T; 0 other;"
+  },
+  "sequence": "gggcttccctggtggcgcagtggttgagaatctgcctgccaatgcaggggacacgggttcgagccctggtctgggaagatcccacatgccgcggagcaactgggcccgtgagccacaactactgagcctgcgcgtctggagcctgtgctccgcaacaagagaggccgcgatagtgagaggcccgcgcaccgcgatgaagagtggcccccgctcgccgcaactagagaaagccctcgcacagaaacgaagacccaacacagccaaaaataaataaataaataaataaattaaaaaaaaaaaa",
+  "length_bp": 301,
+  "sequence_length_bp": 301,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

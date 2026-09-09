@@ -1,0 +1,165 @@
+{
+  "te_name": "(TCCAATT)n",
+  "assembly": "hg38",
+  "assembly_label": "Homo sapiens [hg38]",
+  "bin_size_bp": 1000000,
+  "total_hits": 1,
+  "chromosomes_present": [
+    "chr7"
+  ],
+  "max_bin_count": 1,
+  "legend_max": 1,
+  "singleton_contigs": [
+    {
+      "name": "chr1",
+      "size": 248956422,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr2",
+      "size": 242193529,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr3",
+      "size": 198295559,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr4",
+      "size": 190214555,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr5",
+      "size": 181538259,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr6",
+      "size": 170805979,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr7",
+      "size": 159345973,
+      "hit_clusters": [
+        [
+          116000001,
+          117000000,
+          1
+        ]
+      ],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr8",
+      "size": 145138636,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr9",
+      "size": 138394717,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr10",
+      "size": 133797422,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr11",
+      "size": 135086622,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr12",
+      "size": 133275309,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr13",
+      "size": 114364328,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr14",
+      "size": 107043718,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr15",
+      "size": 101991189,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr16",
+      "size": 90338345,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr17",
+      "size": 83257441,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr18",
+      "size": 80373285,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr19",
+      "size": 58617616,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr20",
+      "size": 64444167,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr21",
+      "size": 46709983,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chr22",
+      "size": 50818468,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chrX",
+      "size": 156040895,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    },
+    {
+      "name": "chrY",
+      "size": 57227415,
+      "hit_clusters": [],
+      "nrph_hit_clusters": []
+    }
+  ],
+  "remaining_genome_contig": null
+}

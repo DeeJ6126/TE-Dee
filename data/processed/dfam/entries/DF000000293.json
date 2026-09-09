@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000293",
+  "name": "L1ME1_3end",
+  "description": "3' end of L1 retrotransposon, L1ME1_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Eutheria",
+  "display_classification": "LINE/L1 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 926 BP; 357 A; 159 C; 180 G; 221 T; 9 other;"
+  },
+  "sequence": "cttgtatccagaatatataaagaactctcaaaactcaataataagaaaacaaacaacccaattaaaaaatgggcaaaagatttgaacagacacttcaccaaagaagatatacggatggcaaataagcacatgaaaagatgctcaacatcattagtcattagggaaatgcaaattaaaaccacaatgagataccactacacacctattagaatggctaaaattaaaaagactgacaataccaagtgttggcgaggatgtggagcaactggaactctcatacattgctggtgggaatgcaaaatggtacagccactttggaaaacagtttggcagtttcttanaaagttaaacatacacttaccatatgacccagcaattccactcctaggtatttacccaagagaaatgaaaacatatgtccacacaaagacttgtacacgaatgttcatagcagctttattcgtaatagccaaaaactggaaacaacccaaatgtccatcaacnggtgaatggataaacaaattgtggtatatccatacaatggaatactactcagcaataaaaaggaacgaactactgatacacgcaacaacatggatgaatctcaaaancattatgctgagtgaaagaagccagacacaaaagantacatactgtatgattccatttatatgaaattctagaaaaggcaaaactatagtgacagaaagcagatcagtggttgccnggggctgggggtggggggaggggattgactacaaaggggcacgagggaacttttgggggtgatggaaatgttctntatcttgattgtggtggtggttacacgantgtatacatttgtcaaaactcatcgaactgtacacttaaaataggtgnattttattgtatgtnaattatacctcaataaagctgattttaaaaaa",
+  "length_bp": 926,
+  "sequence_length_bp": 926,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1ME1"
+  ]
+}

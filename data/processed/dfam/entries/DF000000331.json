@@ -1,0 +1,47 @@
+{
+  "accession": "DF000000331",
+  "name": "L1PA13_3end",
+  "description": "3' end of L1 retrotransposon, L1PA13_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "LINE/L1 | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 910 BP; 366 A; 177 C; 181 G; 186 T; 0 other;"
+  },
+  "sequence": "ctaatatccagcatctataaggaacttaaacaaatttacaagaaaaaaacaaacaaccccattaaaaagtgggcaaaggacatgaacagacacttttcaaaagaagacatacatgcggccaacaatcatatgaaaaaaagctcaacatcactgatcattagagaaatgcaaatcaaaaccacaatgagataccatctcacaccagtcagaatggctattattaaaaagtcaaaaaataacagatgctggcgaggttgcggagaaaaaggaacgcttatacactgttggtgggagtgtaaattagttcaaccattgtggaagacagtgtggcgattcctcaaagacctaaagacagaaataccattcgacccagcaatcccattactgggtatatacccaaaggaatataaatcgttctattataaagacacatgcacgcgtatgttcattgcagcactattcacaatagcaaagacatggaatcaacctaaatgcccatcaatgatagactggataaagaaaatgtggtacatatacaccatggaatactatgcagccataaaaaagaacgagatcatgtcctttgcagggacatggatggagctggaggccattatccttagcaaactaacgcaggaacagaaaaccaaataccgcatgttctcacttataagtgggagctaaatgatgagaacacatggacacatagaggggaacaacacacactggggcctatcggagggtggagggtgggaggagggagaggatcaggaaaaataactaatgggtactaggcttaatacctgggtgatgaaataatctgtacaacaaacccccatgacacaagtttacctatgtaacaaacctgcacatgtacccctgaacttaaaataaaagttaaaaaaaaaaa",
+  "length_bp": 910,
+  "sequence_length_bp": 910,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1PA13"
+  ]
+}

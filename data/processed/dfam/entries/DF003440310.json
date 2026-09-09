@@ -1,0 +1,49 @@
+{
+  "accession": "DF003440310",
+  "name": "Rhin-1h_rFer",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Rhinolophus ferrumequinum",
+  "display_classification": "SINE/tRNA | Rhinolophus ferrumequinum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Rhinolophidae",
+    "Rhinolophinae",
+    "Rhinolophus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 498 BP; 132 A; 149 C; 125 G; 92 T; 0 other;"
+  },
+  "sequence": "gggccggcccggtggctcaggcggttagagctccatgctcctaactccgaaggctgccggttcgattcccacatgggccagtgggctctcaaccacaaggttgccagttcaattcctcgagtcccgcaagggatggtgggctccgccccctgcaactaagattgaacacggcaccttgagctgagctgccgctgagctcccggatggctcagttggttggagcgcgtcctctcaaccacaaggttgccggttcgactcccgcaagggatggtgggctgcgccccctgcaactagcaacggcaactggacctggagctgagctgcgccctccacaactaagactgaaaggacaacaacttgaagctgaacggcaccctccacaactaagattgaaaggacaacaacttgacttggaaaaaaggcctggaagtacacactgttccccaataaagtcctgttccccttccccaataaaatcttaaaaaaaaaaaaaaaaaa",
+  "length_bp": 498,
+  "sequence_length_bp": 498,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

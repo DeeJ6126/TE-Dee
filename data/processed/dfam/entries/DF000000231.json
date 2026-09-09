@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000231",
+  "name": "PABL_A",
+  "description": "Long Terminal Repeat for PABL_A endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PABL_A"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 660 BP; 201 A; 147 C; 142 G; 170 T; 0 other;"
+  },
+  "sequence": "tgtggcaggccaggtctcactaacgcaggcctccataacaactgtttcagtactgactgagtggttaagttaaatattaaaagctgaaagagccagtgcccttatacaaaggctggaatgtaacaaaagcccaccaagagttttgcctaggcctttcctgggccttaaagcatgacaaaataacgaaggaattcttaacaggacccgtttaggattaaacaagttttattgggggtctgaagaaactccccaggcctccacaaacaagtttattgggggtctgaaggaactccccaaacctccgtgatttagcaggagacaagataagggtaatcaccccagcacctggacccatttagattaagtaaatttactgaggctccagaggaaggtcttcaggactcagaccttagttatagattaaaagaagttaatcacttatgtctttagatgaatgcacacttacacgtagacatatagcttagaaggtatataagctctggaaaactttgtaattttgagttggtctggcgataatttccaggccttctccctgtaaccggttacagaaataaaaactctcttcctccccagttcatctgcatctcgttattgggccgcgagaaatagcagcccgaccctcagtttggtccgggaaca",
+  "length_bp": 660,
+  "sequence_length_bp": 660,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PABL_A"
+  ]
+}

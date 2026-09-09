@@ -1,0 +1,49 @@
+{
+  "accession": "DF000002187",
+  "name": "RMER5",
+  "description": "Medium reiteration frequency repeat",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RMER5"
+  ],
+  "species": "Myomorpha",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Myomorpha",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 534 BP; 136 A; 118 C; 106 G; 157 T; 17 other;"
+  },
+  "sequence": "tgtgaacgaaanattcctggaaagaagctgtgtctgcagaggctgattgactgattagaacttcagtgctgtggagaggttggaatgttgcaggtccagagnctaattaccttatcttgggctanctttagccccctnnaatagccattccttgcccacctctgtgtcnganctaacacctgtgactaatagataaaaccttttggaatntattaacttagcagaccactagcttccaccaacccaaaagctaagaatgtcatcagatagcatctgaggcctatagnagagnttcccccgtcttgctgtaaccgcctntctgatgtncccaccaatgtatttnaaaantgccttgatttatgactttctttgttctgtnanactataaaaacttcatgaaactgcttccacgttggaacatggaatttggggtaacctaaatctgtgttcccgggccatggtcactcanattggctccagaataaactatctcttattccctttgaggtgagagctgtggtttttgcgtcgaca",
+  "length_bp": 534,
+  "sequence_length_bp": 534,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RMER5"
+  ]
+}

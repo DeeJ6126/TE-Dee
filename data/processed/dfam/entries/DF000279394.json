@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279394",
+  "name": "NycCou-1.169",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Nycticebus coucang",
+  "display_classification": "DNA/TcMar-Mariner | Nycticebus coucang",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lorisiformes",
+    "Lorisidae",
+    "Nycticebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 214 BP; 45 A; 49 C; 46 G; 74 T; 0 other;"
+  },
+  "sequence": "atgggtcactacgaaagttttgagacagactgtgttatggtccattatttcacttccaagaaacacagtcgacagcgtcctttctgattcacccgtgcaagtttcaacttgctcggcttatcggtgttgctgggagggcttcatttgtttccgtccgcgcggattttacgtttcttgatttttgtgtatctcaaaactttcgtaatgacccaca",
+  "length_bp": 214,
+  "sequence_length_bp": 214,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

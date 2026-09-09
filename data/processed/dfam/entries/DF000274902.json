@@ -1,0 +1,49 @@
+{
+  "accession": "DF000274902",
+  "name": "ArtJam-1.63",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Artibeus jamaicensis",
+  "display_classification": "LINE/L1 | Artibeus jamaicensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Stenodermatinae",
+    "Artibeus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3239 BP; 1349 A; 567 C; 597 G; 645 T; 81 other;"
+  },
+  "sequence": "aaaaagannaacaaacaaancccagagngagtnggaggaatggaaatggtaaaaatcagagaaggaataaacaaaatagagncttaaaaaaatacaaaangtcnatgaaacnaanagctgtttctttnnaaannnnaacaanattgatgaaccttcaaccagactcaccaaaagacaggggggggagggagagagggaaataacccaaatggataaantcngaaatgaaangaaaganaagtaacagctgacaccaggnaaatncaaaggattgtaagaaantgctatgaacnactacatgcnaanaaanaaaaaaaattggaaaaccaggcatctgaacaaagtggatnagttcctgggaananncaatcctncaaaactgaatcaggagnaatcagaaaaacctgaanaggccgatnactaaactaatgaaactnaagcagtantcaaanttggntnccncaaaaccaaantcccggaccnnatggctncacaggcgaattttnccaaacatttaaagaagaactaacacgcatnntcttcaaactgcccgcccaaaaaaantcnagagnagggaagactncnganctnnttttacgaggctgctaagnatcntcctaattccaaaaaccngattaagganactacaaaggaagaaaactgtagaccaatatccccgatgaacatagacgctaaaatcctcgacaaaatattagcaaaccgnatccagcaatacattaaaaagatcatacactatgatcgagtgagatttattccgnggatgcaaggttggtacaatatccacgaatcaataaacgtaatacaccacanaaacaaaatgaaggataaaagtcacatgatcgtancaatagatgcaggaaaancatttgataaaatccagcaccnatttttgataaaaactctcagcaaagtgggaaagagggaacatacctcaacgtagtaaaggtcgtatatgacaagccacggncaacatcatactcaatgggcaaaaactaaaagcgtttctattaagattgggaacaanacagggatgttcactttcaccgctcttattcaacatagtactagaagtcctagtcacaacaatcagacaaaaanaagaaataaaaggcatccatattggaaaggaagaagtaaaactgtcattatttgcagatgacatgatancgtatatagaaaacccnaaagattccacnaaaaaactactagaactaatnantgaattcngtaaagtagcangatacaaaataaatatccagaaatcagttgcatttctatacgccaataatgaactatcagaaagggaaactaagaaaacaatcccatttacaattgcatcaaaaaaaataaaatacctaggaataaatttaaccaaggatgtaaaanacctgtacttagaaaattataagacactgaagaaagaaatcgaagaagatacaaataagtggaagcatataccatgttcatggataggaagaattaacatcattaaaatgtccatactacccaaagcaatctatagattcaacgcaattcctatcaagataccaatggcgtatttcacagaactagaacaaatattccaaaaatttatgtggaaccacaaaagaccccgaatagccacagcaatcttgagaaagaagaacaaagttggaggaatcacgctacctgatatcaaactatactacaaggccatagtaatcaaaacagcgtggtactggcataaaaacagacatatagatcagtggaacagaatagagagcccagaaataaacccacgcctttatggtcaattaatatttgacaaaggaggcaagaacatacaatggggtaaagatagtctattcaataaatggtgttgggaaaattggacagatacgtgcaaaaaaangaaactagaccaccttcttacaccatacacaagaataaactcaaaatggattaaagacttaaatgttagactcgaaaccataaaaatcctagaagaaaacataggcagtaaaatctcggacatttctcgtagcaatattttttctgatatatctcctcgggcaagggaaacgaaagaaaaaataaacgaatgggactacatcaaactaaaaagtttttgcacagcaaaggaaaccatcaacaaaatgaaaagacaacccactgaatgggagaatatattcgccaatgatacatctgataangggttaatatccaaaatttataaagaacttacacaactcaacaccaaaaaaacaaacaatccaattaaaaaatgggcaaaggacctgaatagacacttctccaaagaggacatacagatggccaatagacatatgaaaagatgctcaacgtcactaatcatcagagaaatgcaaattaaaaccacaatgagatatcacctcacacctgtcagaatggctatcatcaataaatcaacaaacaacaagtgttggcgaggatgtggagaaaagggaaccctcgtgcactgttggtgggaatgcagactggtgcagccactgtggaaagcagtatggagttacctcaaaaaattaaaaatggaactgccttatgacccagcgattccacttctgggaatatatccgaagaaacccgaaacactaattcgaaagaatatatgcacccctatgttcattgcagcgttatttacaatagccaagatttggaagcagcccaagtgcccatcagtagatgagtggataaaaaagctgtggtacatttacacaatggaatactactcggccataaaaaagaaggaaatcttaccctttgcgacagcatggatggacctggagagcattatgctaagtgaaataagccagtcagagaaagacaagtaccatatgatttcacttatatgtggaatctaatgaacaaaataaactaacaaacaaaatagaaacagactcatagatacagagaacagactgacagctgtcagaggggaggggggttggggggctgggtgaaaaaggtgaagggattaagcaaaaanaaaaaaaaactcatagacacagacaacagtatggtgattaccagagggaaagggggtgggggtagaagagggtaaaggggggataaatggtgatggaaggagacttgacttggggtggtgaacacacaatacaatatacagatgatgtattatagaattgtacacctgaaacctatataattttattaaccaatgtcaccccaataaattcaaa",
+  "length_bp": 3239,
+  "sequence_length_bp": 3239,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

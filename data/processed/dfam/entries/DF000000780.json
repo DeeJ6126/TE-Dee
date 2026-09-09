@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000780",
+  "name": "MER115",
+  "description": "hAT-Charlie DNA transposon, MER115 subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 693 BP; 102 A; 228 C; 241 G; 122 T; 0 other;"
+  },
+  "sequence": "cagtaccgcccttagacccgggcaagaggggcccctgccctgggccccgcgctttagagggccccgctctggccctcctccggccgcgcccctccccacggggcgaggagtccgcggggccaaggggacgtgcccacccggagcccgcgcccccccttctagaccacgctccgggtacccgggaccccggaattccctgcccaaacggccccgagcccgcttccagggcctgcgcgggcctcttccccgggtccgtcctcccgagggcggaccgcgccgccggtgtgcgcacccctaggcccgaggggtggccaaggggcggctgtttgcggggggtgtggacggagcttggacgtgcgggctggggtgtccacacgcgtgcgcgcgaggcccctcgcggtgcgggacggagccgggggtgggaagagaaggggggcgggccgcgggccgggggccggctctccccgcgccgccacgttccggcgcggaactccgaggagtccgagaattctaaattcgaacctggccttccaggtcgttatgaaggtatatttgtcaaggtaggaggatagaacatattttatttaacagtttgttagcttgatttataacttttaaatatttagacatatggtatgtgggcctccatttgtactcttgccccgggccccgcaaatgttaggggcgggcctg",
+  "length_bp": 693,
+  "sequence_length_bp": 693,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER115"
+  ]
+}

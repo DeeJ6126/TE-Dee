@@ -1,0 +1,51 @@
+{
+  "accession": "DF000003847",
+  "name": "TC1DR3",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/TcMar-Tc1 | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1225 BP; 341 A; 279 C; 309 G; 292 T; 4 other;"
+  },
+  "sequence": "cactcaccggccactttattaggtacacctgtccaactgctcgttaacgcaaatttctaatcagccaatcacatggcagcaactcaatgcatttaggcatgtagacatggtcaagacgatctgctgcagttcaaaccgagcatcagaatggggaagaaaggtgatttaagtgactttgaacgtggcatggttgttggtgccagacgggctggtctgagtatttcagaaactgctgatctactgggattttcacgcacaaccatctctagggtttacagagaatggtccgaaaaagagaaaatatccagtgagcggcagttctgtgggcgcaaatgccttgttgatgccagaggtcagaggagaatggccagactggttccagctgatagaaaggcaacagtaactcaaataaccactcgttacaaccgaggtntgcagaagagcatctctgaacgcacaacacgtccaaccttgaggcggatgggctacagcagcagaagaccacaccgggtgccactcctgtcagctaagaacaggaaactgaggctacaattcgcacaggctcaccaaaattggacaatagaagattggaaaaacgttgcctggtctgatgagtctcgatttctgctgcgacattcggatggtagggtcagaatttggcgtcaacaacatgaaagcatggatccatcctgccttgtatcaacggttcaggctggtggtggtggtgtaatggtgtgggggnnatattttcttggcacactttgggcccattagtaccaattgagcatcgtgtcaacgcgccacagcctacctgagtattgttgctgaccatgtccatccctttatgaccacagtgtacccatcttctgatggctacttccagcaggataacgcgccatgtcataaagcgcgaatcatctcagactggtttcttgaacatgacaatgagttcactgtactcaaatggcctccacagtcaccagatctcaatccaatagagcacctttgggatgtggtggaacgggagattcgcatcatggatgtgcagccgacaaatctgcagcaactgcgtgnatgctatcatgtcaatatggaccaaaatctctgaggaatatttccagtaccttgttgaatctatgccacgaaggattaaggcagttctgaaggcaaaagggggtccaacccggtactagtaaggtgtacctaataaagtggccggtgagtg",
+  "length_bp": 1225,
+  "sequence_length_bp": 1225,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TC1DR3"
+  ]
+}

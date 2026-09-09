@@ -1,0 +1,46 @@
+{
+  "accession": "DF000001057",
+  "name": "REP522",
+  "description": "REP522 -- largely palindromic, unclassified interspersed repeat",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Primates",
+  "display_classification": "Unknown/ | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1817 BP; 247 A; 629 C; 538 G; 381 T; 22 other;"
+  },
+  "sequence": "atctacccaaaanctttttcccccaccgttntttccccgccttcttttcccgaccgccttcggccccctcccnctcgccaccctctttcctcctccatctacccnaaaactttttccccaccgtttttcccccaccgtcttttcgcaaagccttctctgctcctcaaaaccttttccccaccgctttccccctccctggccaccctctttccccctcccgctctcgtcaccctcttttcctcctccatctacccaaaaacnttttccccaccgtcttttccaaagccttctccccactcctgctgctcgccaccctcttttccccctccatctacccaaaaactttttccccccaccgtctttccgcaaaaccttctcccgctctccctcctttctccctgctcgccaccctctttccccctccatctacccaaaaacttttttccccatcttttccccgccgtcttttcgcaacgccttctccgctcgccactnccctctttccccttgccgctnaccaccctctttactcccctccatctaccccaaaactattttccccctcctaccgctccggccgcgctgcagtctccgtcgccgccaccaaccgcagcgaggcgagccgcggtgccgcaggctccagcctccagcgtgcggcaggtgnctcctcctccggtctcctctaagccgggcacggagcagctgggcgggcaganacagaagagcctggaacggcctgactccccttcagcatcatttatatactgaggttatgcanatgaggttcctggactacatgttctgattggatgagagaaaancctccaggcctactctgattggactttattatcatgttctgattggatgagagcaagtcttaagacaaccaatcagagcatgaaaataaagtccaatcagagtaggcctagaggttttctctcatccaatcagaacatgtagtccaggaacccatttgcgtaacctcgtatataaagcatgctgaggnggcgtcgcgccattccaggctcttctgngtctgcccgcccagctgctccgtgcccggcttagaggacnaggagagggganccgccgcctgctggaggctggaggctggagcctgcggcaccgcggctcgcctcgctgcggttggtggcggcgacggagacngcagcgcggccagagcggtaggagggcggccggcggcgggagcttgncccgcggcnggaggaggaggggagggccgcaccgcccacggctggaggctggagcctgcgccaccgcggctgcgctcgctgcggttggtggcggcgncggagactgcagcccggccagagtggtagaagggcgcggggtaggtgcgctatccggggctgcactgcccgcggcggggggcgggttgggggcgctatccggggcgncactgcccgcgtcgggtggcactggttgggggcgctatccggggctgcactgcccgcggggcggtggggggcgggttgggggcgctatccggggctgcactgcccgcggcggggggcnggttgggggcgctatcccgggctgtactgccggcggcagtggggcgggttgggggcgctatccggggctgcactgcccgcggcggggggcgggttgggtgcgctatccggggctgcactgccggcggcggggggcggtttgggggcgctatcgggtgctgcactgcccgtggtgcggggaggcggggcggcttgggtgtgttgggtgcgctatcgcgggggggcgacactgccggtggcagcgggcggggcgggttgggggcgctatcnggggctgca",
+  "length_bp": 1817,
+  "sequence_length_bp": 1817,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "REP522"
+  ]
+}

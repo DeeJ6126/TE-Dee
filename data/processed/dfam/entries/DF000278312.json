@@ -1,0 +1,50 @@
+{
+  "accession": "DF000278312",
+  "name": "MesBid-5.1318",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Mesoplodon bidens",
+  "display_classification": "DNA/TcMar-Tigger | Mesoplodon bidens",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Ziphiidae",
+    "Mesoplodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 487 BP; 120 A; 92 C; 92 G; 182 T; 1 other;"
+  },
+  "sequence": "caggcatacctcgttttattgcgcttcgctttattgcgcttcgcagatactgcgttttttacaaattgaaggtttgtggcaaccctgcgtcgagcaagtctatcggcgccatttttccaacagcatttgctcacttcgtgtctctgtgtcacattttggtaattctcgcaatatttcaaactttttcattattattatatttgttatggtgatctgtgatcagtgatctttgatgttactactataactcgctgaaggctcagatgatggttagcattttttagcaataaagtattttttaattaaggtatgtacattgtttttttagacataatgctattgcacacttaatagactacagtatagtgtaaacataacttttatatgcactgggaaaccaaaaaattcgtgtgactcgctttattgcgatattcgctttattgcggtggtctggaaccgaacccgcaatatctccgaggtntgcctg",
+  "length_bp": 487,
+  "sequence_length_bp": 487,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,53 @@
+{
+  "accession": "DF000001775",
+  "name": "IAPA_MM",
+  "description": "Repeat associated with intracisternal A particle.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "IAPA_MM"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 334 BP; 107 A; 70 C; 88 G; 68 T; 1 other;"
+  },
+  "sequence": "attggtgccgaaacccgggacgagaaaacccgggacgagaaaaaactccggaccggcgcaaggaagatccctcattccggaaccagaactgcgggtcacggtnataaggttcccgtaaaacagactgttgagaaggattcaactgctgaattcagaactcttcagctggggaacggcggtaataaaggttcccgtaaagcagactgttgagaaggattcaactgcgtgaattcagaactcttcagctggggaacaaggtaagtctggccttgaactttctaacgaaattcaagacagtctatcagaagtaaagtgggaaatagctttacaagtt",
+  "length_bp": 334,
+  "sequence_length_bp": 334,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "IAPA_MM"
+  ]
+}

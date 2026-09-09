@@ -1,0 +1,51 @@
+{
+  "accession": "DF000000178",
+  "name": "HERV-Fc1_LTR3",
+  "description": "LTR3 (Long Terminal Repeat) for endgenous retrovirus HERV-Fc1",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "HERV-Fc1_LTR3"
+  ],
+  "species": "Homininae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Homininae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Hominoidea",
+    "Hominidae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 476 BP; 81 A; 188 C; 99 G; 106 T; 2 other;"
+  },
+  "sequence": "tgattggactccggtgaagactccaagatggcgatcggtaaccatcttggctaccctgactcggcattcccggattcgccggttcccgccatcccggcggccatcttggccaccctgacttggcattttcgcttattcccgccgtttattcccgccntcccgacagccacctcgggtaccctgactcagcatttccgggttcacctttncctgttcccgccacccggaccaacgcgcatgcccactagggcgcgtcacactcagaagcgcgaaactcaaccgaccccgcccctaccccgcccactcctcacccagcatccatataagcgcgccgcacctttggcacagcgcgacttccctggccctccccctgcggaccagtgaacctcgcccgagagctcaataaagaagatttttgccctctttgtctcgcctctcggccttattgatccacggtgcccttccattgcctttca",
+  "length_bp": 476,
+  "sequence_length_bp": 476,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

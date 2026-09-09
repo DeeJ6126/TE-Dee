@@ -1,0 +1,51 @@
+{
+  "accession": "DF000276733",
+  "name": "EllLut-5.2843",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Ellobius lutescens",
+  "display_classification": "SINE/Alu | Ellobius lutescens",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Arvicolinae",
+    "Ellobius"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 159 BP; 45 A; 44 C; 46 G; 24 T; 0 other;"
+  },
+  "sequence": "gccgggcggtggtggcgcacgcctttaatcccagcactcgggaggcagaggcaggcggatctctgtgagttcgaggccagcctggtctacaagagctagttccaggacaggctccaaagctacagagaaaccctgtctcgaaaaaacaaaaccaaacaa",
+  "length_bp": 159,
+  "sequence_length_bp": 159,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

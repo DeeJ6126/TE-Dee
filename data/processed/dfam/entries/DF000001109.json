@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001109",
+  "name": "UCON5",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON5 subfamily",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Amniota",
+  "display_classification": "Unknown/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 435 BP; 102 A; 109 C; 85 G; 136 T; 3 other;"
+  },
+  "sequence": "agagggaaagagagagagacttgctgacctttcaanaaggctcccggtccatttatatacctcctacaatgctcancacttttactcgtggtgaacgggcctcancgcccttgccgtgccgcctcacagccccttgttaacttttctccttttatggtcttttaggtgtagatgctcacctgcttaaatatctctaaagctactagtaaaaaatacctaaatatataacagatgcacaagtgcaccttgggatgaatgcattatggacgcagaactgtcatcacacccctcacaatcacattttcacctgctcatgtggtgtacacctgtggcttgttggcaatgcacttggttgcagtgtgggagactcccaggttcaaagctagccttgtatctttgttccccttacgtgagtttttttttctagtcttttct",
+  "length_bp": 435,
+  "sequence_length_bp": 435,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON5"
+  ]
+}

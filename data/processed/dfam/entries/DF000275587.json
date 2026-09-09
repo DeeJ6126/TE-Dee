@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275587",
+  "name": "ChiLan-1.135",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Chinchilla lanigera",
+  "display_classification": "DNA/TcMar-Tigger | Chinchilla lanigera",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Chinchillidae",
+    "Chinchilla"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 193 BP; 51 A; 41 C; 47 G; 54 T; 0 other;"
+  },
+  "sequence": "cagtggtgcctcggttcacgaacttaattctttccacgattctggtcgcaaaccgaattggacgagaaccgaatcaaattcaatggttaggttcaacgttgaccttatggggaaatttgattcggttctcgtccaattcggtttgcgaccagaatcgtggaaagaattaagttcgtgaaccgaggtaccactg",
+  "length_bp": 193,
+  "sequence_length_bp": 193,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

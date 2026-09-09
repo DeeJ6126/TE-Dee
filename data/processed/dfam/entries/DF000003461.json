@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003461",
+  "name": "hAT-24N1_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Ac | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1527 BP; 535 A; 263 C; 256 G; 471 T; 2 other;"
+  },
+  "sequence": "cagtgttaatttcgttgacgaaaaatttcgtcataattttcgtgatacacgaaaactagacgaaaactaaataaaaaagtgatgatgacgacaactataataaatatactgacattttcgttgactaataaaaacgagacgagaatgtgttggggacgttttttggaaatatccaatcagaattaatcttggtgtgtgatgcacacacacacatttgaaaagtaactgcacagtagacgggatggattacatcatctccataggggcgtctgtctgattaaactataatgaaatggcaacagctgagagaaaaagaagattcacgtttgatgtcaagacaaaaagcgtaaaccgtatggggaggaaanagctgataaaacaacaatctaaagcgacatcagcatgggaatcatcccgaattcagtaaactcgatcttttttatttaccgagtgtgtgcttgcttaactgaagcctctcgctgacctagaattagattgtacataaaattattaaatcggtatatgatcatggcattcattttcgtgagagttgtttcattttagctgcggctacagtttagctaacccgctaactcgcgctaggttcacgcgctgtctgcgtctgccgcgatcgtcatgacaacagccatttacagtgtacctctaccacaaaacaaaaactgctttattcaggacgtcattctatttcttactgtaaggatgtaatgatactgtagtgctataatctccgcttatcagggagtcgcatactaacgaaactgccttgaagtgaagcgcacttttatttttacgtacatcttcgctttagaattcctctatgtgagttaacagagccatgggactgagtgcacattttacaagataacacattatcatttgccagtcatatgtcattacttatttactcagtgctatacagctgagcaccatgtactgtaacaccaactacaacagtaaagcttgctatagactgacattgcaaagtggacttaaactattttaagccctttcaaagatttaatggcttgaaactgttcaacagactggttaaaaagactagtagtttaccacgttaaaataaagggtttgctaaataattgcacaatcctgcattttcagatggnctactgttcttgccgacacataattttacatattacttatgatataaataaacaatgcatatctaatttttggtcttcaatggaaaagctatattccatattttaatgagactgttttatttaattttaagttagaatattttgtataaataaatgtatacaatatttaattaaattacacttaaattaaaccaaatatattttagtcaactaaatctagagtagatttagtcgactaaaatcttatgaaatttagtcgactaaaactagactaaaactaaaatgattcagaagactaaaatatgactaaaactaaaatggaattttagtcaaaagactaagactaaaactaaatcaaaatttgctgtcaaaattaacactg",
+  "length_bp": 1527,
+  "sequence_length_bp": 1527,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "hAT-24N1_DR"
+  ]
+}

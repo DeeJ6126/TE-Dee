@@ -1,0 +1,51 @@
+{
+  "accession": "DF000278069",
+  "name": "MarMar-1.43",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Marmota marmota",
+  "display_classification": "SINE/ID | Marmota marmota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Sciuridae",
+    "Xerinae",
+    "Marmotini",
+    "Marmota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 180 BP; 49 A; 51 C; 35 G; 45 T; 0 other;"
+  },
+  "sequence": "gggctggggatgtggctcaagcggtagcgcgctcgcctggcatgcgtgcggcccgggttcgatcctcagcaccacatacaaacaaagatgttgtgtccgccgaaaactaaaaaataaatattaaaaaattctctctctctctctctctctctctctctctctctctctcaaaaaaaaaaa",
+  "length_bp": 180,
+  "sequence_length_bp": 180,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

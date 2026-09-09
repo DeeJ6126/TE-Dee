@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000144",
+  "name": "FLAM_C",
+  "description": "FLAM_C (Free left Alu monomer C)",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Primates",
+  "display_classification": "SINE/Alu | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 143 BP; 47 A; 36 C; 42 G; 18 T; 0 other;"
+  },
+  "sequence": "ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggccgaggcgggaggatcgcttgagcccaggagttcgagaccagcctgggcaacatagcgagaccccgtctctaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "length_bp": 143,
+  "sequence_length_bp": 143,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

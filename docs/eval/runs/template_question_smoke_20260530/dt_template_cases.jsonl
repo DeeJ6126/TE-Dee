@@ -1,0 +1,5 @@
+{"case_id":"TPL_DT_001_SEQUENCE","question":"What is the sequence of L1HS?","expected_best_mode":"deep_think","template_label":"Sequence lookup"}
+{"case_id":"TPL_DT_002_GENOME","question":"Where is L1HS located in the genome?","expected_best_mode":"deep_think","template_label":"Genome location"}
+{"case_id":"TPL_DT_003_EXPRESSION","question":"In which tissues is L1HS expressed?","expected_best_mode":"deep_think","template_label":"Expression lookup"}
+{"case_id":"TPL_DT_004_CLASSIFICATION","question":"Which subfamily does L1HS belong to?","expected_best_mode":"deep_think","template_label":"Classification lookup"}
+{"case_id":"TPL_DT_005_SITE_NAV","question":"Where can I view the Genome Annotation Distribution for L1HS?","expected_best_mode":"deep_think","template_label":"Site navigation"}

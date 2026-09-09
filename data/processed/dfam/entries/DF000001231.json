@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001231",
+  "name": "EutTc1-N2",
+  "description": "TcMar-Tc2 DNA transposon, EutTc1-N2 subfamily",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tc1 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 378 BP; 143 A; 45 C; 46 G; 144 T; 0 other;"
+  },
+  "sequence": "cagggtgtcccaaaagtcttagtgcagttttaagctttaataacttcagaagtataaatgctacaaacttacaaaaaacatcatttgaaagtttaattatttaaatttcttttacacttatttagttttgtgaattttgaataataaatttttaattttaatttttttgtttcagtccctctgattgaagatggcaaacgttgactgaaacaaaaaattaaaattaaaaatttattattcaaaattcacaaaactaaataagtgtaaaagaaatttaaataattaaactttcaaatgatgttttttgtaagtttgtagcatttatacttctgaagttattaaagcttaaaactgcactaagacttttgggacaccctg",
+  "length_bp": 378,
+  "sequence_length_bp": 378,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

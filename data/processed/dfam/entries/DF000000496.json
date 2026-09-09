@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000496",
+  "name": "LTR35A",
+  "description": "LTR35A (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR35A"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 547 BP; 133 A; 169 C; 112 G; 133 T; 0 other;"
+  },
+  "sequence": "tgagacagagtagggacggggcttggcttcagctcacccccactagagcattctttcatgcattcccactgatcacaaaacccacaccactacctcactgacgccataatgtttaaccatgccttttacttaaagaattccaggaactggccttaggagataaccaaggttgcggagtgtcccacctcgggaaggaatgctgaacaattgatttacagccttgttgccgccggccagaccaccaggtggcccattactcaagataaccatcgcaaccagataatgctgacctgcataccctacccctcacgtgctttgcccagcccagcctgcataccctacccctgatgtcaattcccgcgctttgcctaataaaaaagccctaccggctcttttcggggagtcagtcagggaattctctctctctctcgtgctgcctcccttatgcccgggcataagctccaatgaagccttgtctgggaaaactcttttggcctcatgtcaatttctattgcattgagagcccaagaacccgtggtcggtaaca",
+  "length_bp": 547,
+  "sequence_length_bp": 547,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR35A"
+  ]
+}

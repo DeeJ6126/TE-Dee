@@ -1,0 +1,49 @@
+{
+  "accession": "DF000274593",
+  "name": "AciJub-1.10",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Acinonyx jubatus",
+  "display_classification": "SINE/tRNA | Acinonyx jubatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Felidae",
+    "Acinonychinae",
+    "Acinonyx"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 223 BP; 35 A; 74 C; 47 G; 67 T; 0 other;"
+  },
+  "sequence": "gggcgcctgggtggctcagtcggttaagcgtccgactcttgatttcggctcaggtcatgatctcacggttcgtgagttcgagccccgcgtcgggctctgcgctgacagcgcggagcctgcttgggattctctctctccctctctctctgcccctcccctgtctctctctctctctctctctctctctctctctctcaaaataaataaataaactttaaaaaaa",
+  "length_bp": 223,
+  "sequence_length_bp": 223,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

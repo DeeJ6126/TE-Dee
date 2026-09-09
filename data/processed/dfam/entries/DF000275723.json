@@ -1,0 +1,46 @@
+{
+  "accession": "DF000275723",
+  "name": "ChrAsi-1.309",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Chrysochloris asiatica",
+  "display_classification": "DNA/TcMar-Mariner | Chrysochloris asiatica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Chrysochloridae",
+    "Chrysochlorinae",
+    "Chrysochloris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 984 BP; 310 A; 207 C; 224 G; 243 T; 0 other;"
+  },
+  "sequence": "cgagggtgagtcaaaaattatccgcactccggttatattaaaacgcccgtccacgtccacggctgatgacaacattgagcgtgcacgtgaaatgattctgtcgaatagacgagtgacagtggattatgtggcaaatcatttgcaaatcagccatggctctgcctatgaaataatccacgacagacttgggtttcgaaaagtttgtgcgagatgggtaccgaaacaactcacggaagagcataaacagaagcgtttggacatctgcaaacaaaatttggaccgatactcgaaggaaggtaaaagtttctttaaaaaaatcgttactggtgacgagacatggattcatcactacgagcctgagagtaaacggcagagtatggaatggaaacatcctcaatcgccgaccaagaaaaagttcaaaagtcaaccatcagctggaaaattgatgcttacagttttctgggattctcaagggccagtattggaacactatcaggaaaaaggttcaacaatcaacagtgctcgttacagtgagatgctcactgaagagctgaagcctaaacttcggattaaacgcagaggactgctatccaagggcgttgtgatcttgcatgacaatgcacgtccgcacacctctgcccacactgttgacactctgcaaaaacttcgttttgaggtgttaaagcatcctccctatagtcctgatcttgctccatcggactttcacctgtttggtcccctgaaagcagcccttcgaggacgaagattcacctctgatgaagaagtgaagacagcggtgcattcgtggctcgcagctcagcctaaaacatttttaataagggaatacgaaagcttgttgacagatggacaaagtgtattgaaaagcaaggagattatgtcgaaaaatgatgtatttgtcttttctaaaagttgattaaaataaattctacagccagagtgcggataatttttgactcaccctcg",
+  "length_bp": 984,
+  "sequence_length_bp": 984,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

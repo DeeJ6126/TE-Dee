@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275359",
+  "name": "CavTsc-1.139",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Cavia tschudii",
+  "display_classification": "DNA/hAT-Charlie | Cavia tschudii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Caviidae",
+    "Cavia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 193 BP; 46 A; 30 C; 47 G; 70 T; 0 other;"
+  },
+  "sequence": "cagtggtggcgaacctatggcacgcgtgttattgtgtttttcttttaagacaaaagatgttaatgtatgagttgttttttctaaactaaaacctcagtattcaggtttaattgcagtgttggcactttgcgataaataagtgggttttgggttgcagtttgggcactcgtctctaaaaggttcgccatcactg",
+  "length_bp": 193,
+  "sequence_length_bp": 193,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

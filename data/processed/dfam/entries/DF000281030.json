@@ -1,0 +1,49 @@
+{
+  "accession": "DF000281030",
+  "name": "TonSau-1.160",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Tonatia saurophila",
+  "display_classification": "DNA/TcMar-Tigger | Tonatia saurophila",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Phyllostominae",
+    "Tonatia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 178 BP; 45 A; 34 C; 39 G; 60 T; 0 other;"
+  },
+  "sequence": "cagcaggtcctcgaataacgtcgtttcgttcaatgtcgtttcgttataacgttgatgagatgccgtaggaacttaactcttgtttatatcaattagcctatggtaaaattggtttcgttatacgtcgtttcgcttaaagtcgcagaacctatcgacgacgttaagtgaggacttactg",
+  "length_bp": 178,
+  "sequence_length_bp": 178,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

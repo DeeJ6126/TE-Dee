@@ -1,0 +1,51 @@
+{
+  "accession": "DF000281411",
+  "name": "ZapHud-1.7",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Zapus hudsonius",
+  "display_classification": "SINE/tRNA | Zapus hudsonius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Dipodoidea",
+    "Dipodidae",
+    "Zapodinae",
+    "Zapus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 236 BP; 43 A; 76 C; 51 G; 66 T; 0 other;"
+  },
+  "sequence": "gggctggagagatggctcagcggttaaggcgcttgcctgcaaagcctaacgacccgggttcgattccccagtacccacgtaaagccagatgcacaaagtggcgcatgcatctggagttcgtttgcagtggctggaggccctggcgcgcccattctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctgcttgcaaataaataaataaa",
+  "length_bp": 236,
+  "sequence_length_bp": 236,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

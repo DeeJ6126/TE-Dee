@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000838",
+  "name": "Tigger2a",
+  "description": "TcMar-Tigger DNA transposon, Tigger2a subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Primates",
+  "display_classification": "DNA/TcMar-Tigger | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 434 BP; 113 A; 102 C; 86 G; 133 T; 0 other;"
+  },
+  "sequence": "cagttgacccttgaacaacacgggtttgaactgcgcgggtccacttatacgcggattttcttccgcctctgccaccctgagacagcaagaccaacccctcctcctcctcagcctactcaacgtgaagacgacgaggatgaagacctttatgatgatccacttccacttaatgaatagtaaatatattttctcttccttatgattttcttaataacattttcttttctctagcttactttattgtaagaatacagtatataatacatataacatacaaaatatgtgttaatcgactgtttatgttatcggtaaggcttccggtcaacagtaggctattagtagttaagttttgggggagtcaaaagttatacgcggattttcgactgcgcggggggtcggcgcccctaacccccgcgttgttcaagggtcaactg",
+  "length_bp": 434,
+  "sequence_length_bp": 434,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER28"
+  ]
+}

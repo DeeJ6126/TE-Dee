@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276457",
+  "name": "DinBra-1.32",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Dinomys branickii",
+  "display_classification": "SINE/ID | Dinomys branickii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Dinomyidae",
+    "Dinomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 89 BP; 28 A; 20 C; 26 G; 15 T; 0 other;"
+  },
+  "sequence": "ggggctggggatatagctcagtggaataagcgcttgcctagcaagcgcagggtcctgagttcgatccccagtaccgcaaaaaaaaaaaa",
+  "length_bp": 89,
+  "sequence_length_bp": 89,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,23 @@
+{
+    "ok":  true,
+    "service":  "biology-llm-relay",
+    "default_provider":  "qwen",
+    "providers":  {
+                      "qwen":  {
+                                   "url":  "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+                                   "model":  "qwen3.5-plus",
+                                   "key_present":  true
+                               },
+                      "deepseek":  {
+                                       "url":  "https://api.deepseek.com/v1/chat/completions",
+                                       "model":  "deepseek-chat",
+                                       "key_present":  true
+                                   }
+                  },
+    "ssl_verify":  false,
+    "proxy_bypassed":  true,
+    "proxy":  {
+                  "mode":  "bypass",
+                  "bypassed":  true
+              }
+}

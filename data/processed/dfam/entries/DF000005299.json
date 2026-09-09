@@ -1,0 +1,51 @@
+{
+  "accession": "DF000005299",
+  "name": "Halyomorpha_halys-4_family-638",
+  "description": "Helitron RC",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "RC/Helitron | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 185 BP; 61 A; 31 C; 38 G; 52 T; 3 other;"
+  },
+  "sequence": "ataagttaagtcganaaagtaactatnctaatatataaagctgaagagtttgtttgaacgcgctaatttcagaaactaccggtccgattcgaaaaattctttttgcgttagatagaccgtttattgaggaaggctttaggctttatagcatcacgntacgacccataggaacggagcagtaacca",
+  "length_bp": 185,
+  "sequence_length_bp": 185,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

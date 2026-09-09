@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277573",
+  "name": "IndInd-1.118",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Indri indri",
+  "display_classification": "DNA/TcMar-Mariner | Indri indri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Indriidae",
+    "Indri"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1282 BP; 375 A; 264 C; 272 G; 371 T; 0 other;"
+  },
+  "sequence": "ttaggttattaagtatgaaatgtccgatttccttaagtactaagtttgacagttgatatctctgacatttcactttgacacttcttgttttatttttattgtgaaggtacatcctcagtctttcaaacgcacgttttggcttgtgattatctttcaaatttttttagagcaatttttgtgaaaccatggataagtcaaaaattcgtgttattttcgaatatgagttccgtcgtggaaccaatgcagcgcagacagctcgaaatatcaacgaagtgtttgggaaggatgtggctaatgaacgcacagtacgtcgatggtttgagaagttccgttctggtgattttaatcttgaaaatgagccacgtgggcgacctgagaccaaggtggataatgatgagctgaaagctgtagtggaagcgaatccatctcaacctacgcgtgaattagcagcaaggtttgacgttactattccaacaatattggaccatttgaaacaaatcggcaaggtaaagaagctggatagatgggttccgcatgaattaaacgagcgtcagaagagaaatcgtctcgaagcttgcctttctttgctgtcacgacataaaggcgaaccatttctacaccgtattgttacgtgtgatgaaaaatggattctttttgacaatcgcaagcgttcggcacaatggttggataaagatgaagtgccgaaacacagtccaaaaccgaatattcatcaaaaaaagctaatggtgtctgtttggtggtccagcgctggtattatccactacagcttcatgaaacctggtcaatcgattacagcggatgtctactgcaaccaattggacgaaatgatgaggatgcttgcgattaagcagccgagattggtcaatagagacaggccaatcctcttgcaagacaacgctcgaccacatgtcgcacaaacaacgctgctcaaactacagaggctggacttggaaactctctgtcatccaccgtattcaccagaccttgcaccaactgactaccacttcttccaggctttggaccacttcttgcaaggaaaaatattcaattctcaacaagctgtggaaaacgcctttcgcgatttcatcgccactcgctctccaggcttcttcgctgctggcataaacaagctaccgttaagatggcaaaactgtgtcgatagtttaggcgcatactttgattaattgtactgcttcttgtttgagatataataaactacacttttgattcgaaatcggacatttcatatttaatgacctaa",
+  "length_bp": 1282,
+  "sequence_length_bp": 1282,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

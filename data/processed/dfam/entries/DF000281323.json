@@ -1,0 +1,49 @@
+{
+  "accession": "DF000281323",
+  "name": "VulLag-5.1061",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "VulLag-5.1061"
+  ],
+  "species": "Vulpes lagopus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Vulpes lagopus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Canidae",
+    "Vulpes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 413 BP; 92 A; 116 C; 94 G; 111 T; 0 other;"
+  },
+  "sequence": "tgaagaaacccccccccctgtaagtaggaccagccctaatccagaggcagcccatccaggtgccttcctgaagttttagcaacaaaaagcattctgtttgtgataagaaaaccatttccccccacaccctgattggaatgtccctgaataggttcatgttgaccttctgagaaatcgataacctggatgctatgcgactcccgcggttcttttgtctttaagcgggtttttttcttttgcctttaaaagatacctgtaattgctaatcggggctctcttcctcctcggaggcggagagcccgtttgcgcaaacgtccaataaaccctcttgctaattgcatctgcctgtctggggtctgagtctctggggcgtccaccgggacacgttggcacccgtgagccagggtccaaca",
+  "length_bp": 413,
+  "sequence_length_bp": 413,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280699",
+  "name": "SorAra-1.80",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Retroposon/RTE-derived"
+  ],
+  "species": "Sorex araneus",
+  "display_classification": "Retroposon/RTE-derived | Sorex araneus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Soricidae",
+    "Soricinae",
+    "Sorex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1028 BP; 233 A; 357 C; 278 G; 156 T; 4 other;"
+  },
+  "sequence": "tctcctgcccccgcgcctggctgtcttcaccggggcccctcggaggggggcgggttgagtttccctccccgccccgagcagagccccggcagccgaagacctccggaacccagccacagccatgctcaaggccactctccacacgctcggacgagcctcacgcatgaaggaaccggcagaggaacccaggtgtgcgggacccggggctgagatctccaagcctgctcggatcgggactgggcctcctccacccagatcccccattttccagtagctnggcagtcacacccacaaactgcccccggcgccgtgtaatcccatcaacggccaagatccagagactataaaacaaagctcccggaagagagcgacgcagagtctcctgcccccgcgcctggctgtcttcaccggggcccctcggagggggcgggttgagtttccctccccgccccgagcagagccccggcagccgaagacctccggaacccagccacagccatgctcaaggccactctccacacgctcggacgagcctcacgcatgaaggaaccggcagaggaacccaggtgtgcgggacccggggctgagatctccaagcctgctcggatcgggactgggcctcctccacccagatcccccattttccagtagctnggcagtcacacccacaaactgcccccggcgccgtgtaatcccatcaacggccaagatccagagactataaaacaaagctcccggaagacatcttatagcctagttctccctctcggagaacctggcaagctaccgagagtntcctgcccgcacggcagagcctggcaagctccccgtggcgtattcgatatgccaaaaacagtaacaatgatgggtctcattcccctgaccctgaaagagcctccaatgcggcaccgttgggaaggacgagtaaagagaggctgctaaaatctcagggctaggacgaatggagacgttactggcgcccgctcgagcaaatcgatgancaacgggatgacagtgatacagtgata",
+  "length_bp": 1028,
+  "sequence_length_bp": 1028,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

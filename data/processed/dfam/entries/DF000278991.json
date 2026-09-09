@@ -1,0 +1,50 @@
+{
+  "accession": "DF000278991",
+  "name": "MusPut-1.110",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MusPut-1.110"
+  ],
+  "species": "Mustela putorius",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mustela putorius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Mustelidae",
+    "Mustelinae",
+    "Mustela"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 588 BP; 155 A; 191 C; 114 G; 128 T; 0 other;"
+  },
+  "sequence": "tgatgagggagcaggaggctggctgaggacaaagcaaaagctggcgccttgcaccccctctccaccctttcccctccataagtgtagcatccctcaggcagccctgactgccatgaacaataagcaaatagttaacttgcagagctcacaatcctgctagacaggagtctcccttggcttacaaatgtcctaaatctcactaacaaagacgattgatagcaggattgtgacaccccaccaaaaagtctcccaactatcttaatgttaatggccggtctaaagacaacattgatccagcagcaagggcaaggcctccggcaggcctgggacatcctggcaccttgtaggccctctttagcatatgaaaactccactgaaacctcccttcccctcaccttcccccaacagcagggtacataacctgccatccctcacaacccggggcagcagctcttcctgcccacgggtcctgtccccgtgctttaataaaccaccattttgcaccaaagatgtctcaagaattctttcttggtcatcggctccggacctcagcccaccgaacctcacctaggttctagaacttcatca",
+  "length_bp": 588,
+  "sequence_length_bp": 588,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,53 @@
+{
+  "accession": "DF000001941",
+  "name": "MMERGLN_LTR",
+  "description": "ERV1 Endogenous Retrovirus from mouse: long terminal repeat (consensus).",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MMERGLN_LTR"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 430 BP; 103 A; 114 C; 95 G; 114 T; 4 other;"
+  },
+  "sequence": "tgaaaggaaataaaactgtgattcatgtaatgtatgtcaaatagcccaaagagttgtttgtgagctttgaaacctggggctgagaacatagcagaacagaccaggacatgcccgggcaggcccatcgcctccctanctcccacccctctgacctaagttaaatgttacaggctgctgatgtttaaatggaccaatcatgtgaaaccgcgccaattcctcccccagccccactccttttctataaaaacccctagcttccaagcctcgtggtcgaatccactgtctcctgttntgtgagatacgtttcgacccggagctccgccattaaaanacctcntgttgttacatcaaggtgttgtgttctattcgtgattcttgggtgcacgccgaatcgggagctgagtgggggtttccccactgggttctttca",
+  "length_bp": 430,
+  "sequence_length_bp": 430,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MMERGLN_LTR"
+  ]
+}

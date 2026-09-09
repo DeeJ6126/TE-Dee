@@ -1,0 +1,47 @@
+{
+  "accession": "DF000280919",
+  "name": "TamTet-5.1758",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/U"
+  ],
+  "species": "Tamandua tetradactyla",
+  "display_classification": "SINE/U | Tamandua tetradactyla",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Pilosa",
+    "Vermilingua",
+    "Myrmecophagidae",
+    "Tamandua"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 227 BP; 65 A; 47 C; 50 G; 64 T; 1 other;"
+  },
+  "sequence": "cgcttctcggccttttggctaagatcaagtgtagtatctgttcttatcagtttaatatctgatacgtcctctatccgaggacaatatattaaatggatttttggagcngggagatggaataggagcttgctccgtccactccacgcatcgacctggtattgcagtacttccaggaacggtgcacccccttcgggggaacaataaatgtataaaaagttaaaaaaaaa",
+  "length_bp": 227,
+  "sequence_length_bp": 227,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

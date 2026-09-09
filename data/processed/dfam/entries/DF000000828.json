@@ -1,0 +1,42 @@
+{
+  "accession": "DF000000828",
+  "name": "Tigger15a",
+  "description": "Putative TcMar-Tigger DNA transposon, Tigger15a subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/TcMar-Tigger | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 715 BP; 242 A; 159 C; 154 G; 155 T; 5 other;"
+  },
+  "sequence": "cagtaacacctcacttatccggagntcacttatccggcaacctcanctatccggaacacagccgagaaccaggaagtaagcaaaaaaggcctctgagcagccaaaatagatgtcacaaagtccatgcactaaagctcatgcactttactcataggagagcccctcaggccctcactcagagcctatttactcttattttanacacaattctaacaagcttggttatctggtttcccagcccacagcagattagaagcagcaaattagaagggggggaagggctgctagaggcaggcacactgacagcagcaagaagtgacagctgacagcctgacagcaagggaggagacagaaaaactataaaaagcagacacaagaactcaaaaagcacagcagtctggggccatttagtgtaggggcaaacagccctacacacctcaatagcccctgagggcatcactgtattacagcacagtacaataactgatgttcataatgatgaccctgagtcatcaagaaaaggttaaattatgttcagtatactctgtttaagaaggcagggaagtgtgtaatacattttagaaagatttccatccaaaatggttaaaattanaaaagttttggtgcttaaagggataagcttcagttatctggaaaattcacttatgtggaacanctcattccccgacgatgccggataaatgaggcgttactg",
+  "length_bp": 715,
+  "sequence_length_bp": 715,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Tigger15a"
+  ]
+}

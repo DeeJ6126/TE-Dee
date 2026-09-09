@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000152",
+  "name": "GSATX",
+  "description": "GSATX (gamma satellite DNA X)",
+  "keywords": [
+    "Satellite/centromeric"
+  ],
+  "species": "Primates",
+  "display_classification": "Satellite/centromeric | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 218 BP; 35 A; 70 C; 88 G; 22 T; 3 other;"
+  },
+  "sequence": "gccggggtcctcccccggaggncagtgccttcccggcagcccctgcgccgggcccgggggggtcgtggagtccctggcttncacccagggtgcgtgtctcncccacggggggcaccccaaagcggcaagaagtcccccgggggacggggacaggacgccaggctttcagggggacgttgaggcagcccggggaaaaaagcggcgaggccgaagaggag",
+  "length_bp": 218,
+  "sequence_length_bp": 218,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "GSATX"
+  ]
+}

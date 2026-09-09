@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000207",
+  "name": "HSAT5",
+  "description": "HSAT5 Human centromeric satellite 5",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Primates",
+  "display_classification": "Satellite/ | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 86 BP; 18 A; 37 C; 18 G; 9 T; 4 other;"
+  },
+  "sequence": "cactgaccaggnccccactgacnaggccccactgacnaggccccactgaccaggtccccactgacnaggcctcactgaccaggcct",
+  "length_bp": 86,
+  "sequence_length_bp": 86,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "HSAT5"
+  ]
+}

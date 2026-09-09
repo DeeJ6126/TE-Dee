@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275234",
+  "name": "CamFer-2.72",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Camelus ferus",
+  "display_classification": "SINE/tRNA | Camelus ferus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Tylopoda",
+    "Camelidae",
+    "Camelus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 133 BP; 49 A; 31 C; 26 G; 26 T; 1 other;"
+  },
+  "sequence": "gggggagggtatagctcagtggtagagcgcgtgcttagcatgcacgaggtcctgggttcaatccccagtacctccattaaaaaaataaataaataaataaacctaattacctccccccccnaaaaaaaaaaaa",
+  "length_bp": 133,
+  "sequence_length_bp": 133,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

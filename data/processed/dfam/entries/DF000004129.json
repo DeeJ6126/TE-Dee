@@ -1,0 +1,53 @@
+{
+  "accession": "DF000004129",
+  "name": "RLTR44D",
+  "description": "Long terminal repeat of a non-autonomous class 2 LTR element from mouse.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR44D"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 486 BP; 105 A; 98 C; 173 G; 109 T; 1 other;"
+  },
+  "sequence": "tgcgggaagcgggtgcggccgcaggccccgtgaaacccacttgtttactgccttgcccgagcatgcgcagtgaggctgcatgcgtgggctgcctgccaggctggactgttcctcgtgatccggacctgtcagcctatctgtgaacgacctgagctcgtgcctggagcgtgtgtgaattctgattggatgaggtggggtggagctagaaggaggtgagtcggcgcgagtagtaggagagtttttttagcccttgccgtgagtagaagtagtagtaagagaagctgttgtaataggagttgttttagcccttgccctaagtagaagcgagtagtagtagaagaagctgttntaggagaaggagtagaagaagaggctgctggggaagagagctgtaagggaaaaagcccgaagtaaagaagttgctgcgtgaacccgacttggtgtccgtgtcgttcgtgtcgccgccggctcggaggacctgcggca",
+  "length_bp": 486,
+  "sequence_length_bp": 486,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR44D_LTR"
+  ]
+}

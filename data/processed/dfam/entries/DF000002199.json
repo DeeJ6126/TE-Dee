@@ -1,0 +1,44 @@
+{
+  "accession": "DF000002199",
+  "name": "Tigger5b_Glire",
+  "description": "Tigger5b_Glire subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Glires",
+  "display_classification": "DNA/TcMar-Tigger | Glires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 353 BP; 83 A; 83 C; 89 G; 97 T; 1 other;"
+  },
+  "sequence": "cagacggtccccgacttacgatggttcgacttacgatttttcgactttacgatggtgcgaaagcgatacgcattcagtagaaaccgtacttcgaattttgaattttgatcttttcccgggctagcgatatgcggtacgatactctctcgcgatgctgggcagcggcagcgagccgcagctcccagtcagccacgcgatcacgagggnaaacaaccgatactctacagtgcgctgtgttgctaagctatgatgttcggtaggttaggtgtattaaatgcattttcgacttacgatattttcaacttacgatgggtttatcgggacgtaaccccatcgtaagtcgaggagcatct",
+  "length_bp": 353,
+  "sequence_length_bp": 353,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

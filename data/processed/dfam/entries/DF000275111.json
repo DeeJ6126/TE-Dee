@@ -1,0 +1,51 @@
+{
+  "accession": "DF000275111",
+  "name": "BosMut-1.221",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "BosMut-1.221"
+  ],
+  "species": "Bos mutus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Bos mutus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bos"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 496 BP; 136 A; 109 C; 99 G; 152 T; 0 other;"
+  },
+  "sequence": "tgagagagtcaattcctaggcaggttgataagaagtccgggggtccccaaggagagaggggtctggaattctcaaggaggaggaaaggacaaacttttttttcccctctacattccttaggattatataacaataatgtatcctgcttgaggacagtctctggaaaaaaccttctggctaatcctgttatcttaaaatgtaaattatgggagtgggtctagtaaggtctttacaacctccagacattcttttgattcactgtaataactaattaaaaagtatataactccattgctaacactagcgagggggtactctttctgcccccttctgatgtctatgtcagaagctttctctatctcttttatactttaataaaactttattacacaaaagctctgagcgatcaagcctcgtctctggccccggattgaattcttctcctccggaggccaagaatcccggcgtcttttcgtggttcagcaacaacctttca",
+  "length_bp": 496,
+  "sequence_length_bp": 496,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

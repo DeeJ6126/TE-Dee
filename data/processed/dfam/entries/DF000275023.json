@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275023",
+  "name": "BeaHun-1.94",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Beatragus hunteri",
+  "display_classification": "SINE/tRNA | Beatragus hunteri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Alcelaphinae",
+    "Beatragus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 214 BP; 55 A; 68 C; 62 G; 29 T; 0 other;"
+  },
+  "sequence": "gggacttccctggtggtccagtggttaagaatccgccttccaatgcaggggacgcgggttcgatccctggtcggggaactaagatcccacatgccgcggggcaactaagcccgcgcgccgcaactactgaagcccgcgcgccgcaactagaggagcctgtgcgctaaaagagcccgcgtgccgcaactaagacccaacgcagccaaaaaaaaaa",
+  "length_bp": 214,
+  "sequence_length_bp": 214,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

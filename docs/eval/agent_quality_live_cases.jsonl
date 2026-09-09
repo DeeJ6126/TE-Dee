@@ -1,0 +1,2 @@
+{"case_id":"AGENT_QUALITY_DT_L1HS_SYNTHESIS_ZH","question":"你整合一下L1HS的信息","expected_best_mode":"deep_think","notes":"Regression target: Deep Think should synthesize L1HS information in Chinese instead of dumping the full raw relationship list."}
+{"case_id":"AGENT_QUALITY_AGENT_L1HS_REPORT_ZH","question":"请为 L1HS 写一份研究报告，整合序列、基因组位置、表达、疾病关联和文献证据。","expected_best_mode":"agent","notes":"Regression target: Agent final answer should remain Chinese and should not drift to Russian or other languages."}

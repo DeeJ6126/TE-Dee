@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000211",
+  "name": "HSATII",
+  "description": "HSATII Human satellite II",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Primates",
+  "display_classification": "Satellite/ | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 170 BP; 38 A; 42 C; 24 G; 66 T; 0 other;"
+  },
+  "sequence": "ccattcgattccattcgatgattccattcgattccattcgatgatgattccattcgattccattcgatgattccattcgattccattcgatgatgattccattcgattccattcgatgattccattcgattccattcgatgatgattccattcgattccattcgatgatt",
+  "length_bp": 170,
+  "sequence_length_bp": 170,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "HSATII"
+  ]
+}

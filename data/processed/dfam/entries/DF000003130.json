@@ -1,0 +1,51 @@
+{
+  "accession": "DF000003130",
+  "name": "Harbinger3N_DR",
+  "description": "Non-autonomous Harbinger DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/PIF-Harbinger"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/PIF-Harbinger | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1144 BP; 294 A; 253 C; 242 G; 352 T; 3 other;"
+  },
+  "sequence": "gggcctcatgtatcaacgctgcgtacgcacaaaaactttgcgtacgccaggtttcacgctcagaatcgctcacgtttggatttactaacaatgaactgaacgtgggaatgtgcgcagcttcacggcagctttctggcnggcgtacgcacattttttgtgcgtgtctgttttatttccattggcgactcctagaggcagttgtgttaaattcctctctacaaagtgtctgagccttgcaatggcagctgtatgagacgggttcatctagcaggtatataaggtttccataccatacagttgaccagctaaacattaaagcacaatttgcagcggtcgcctgttttcccaatgtaatctgagcgatctaccgcacgcacattgctataaagacactatctgaagatgaatttgcatgcgtgaatcagaaacatttccattcaataaatgtgcaaataaaatatgatgcacaaacttattgatgattcctacttgtctttctcgtgataaatagtnggcaaaatctgatatgtagcgggggaaaaaagaagaaagagttcatcagacgctggattcgagccgagttcatgctcgaacgtgtcaanacatgatcacatgcgtcttacgagctgcgccactgagactgttaagggtactgcaacattttacagatataaaccacactatttcttttttaatgcactcagtgcgatgttcagacccaactgtgttaaccgcatcagctaaactctcccactctatttttttcttttgttgttaattccggagaacaaacttgcaaataacaccgcttttctccggtctacctccgaaagcagcacctccaattcacattctgttcaaagtttctctttttgcttgcttttgccgttgctttttcgttgggttttgccattagcatagtcattagcatattcatacgggggaggaggcagggaggggttttgtgctcgtgcatgttgcgctcagtttcacgttcattcggatgtacaaaagaatatgcgtgagattcggcgtacgcagtgtttcatacatctgaatttttttctgcgtacgcacatttacagctttgtgcgtacgcaatgttttagtaagatttccacgcaagtcttcgtacatgaggccc",
+  "length_bp": 1144,
+  "sequence_length_bp": 1144,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "HARBINGER3N_DR"
+  ]
+}

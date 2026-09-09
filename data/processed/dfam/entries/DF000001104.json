@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001104",
+  "name": "UCON28b",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON28b subfamily",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Amniota",
+  "display_classification": "Unknown/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 572 BP; 161 A; 121 C; 120 G; 155 T; 15 other;"
+  },
+  "sequence": "tanagcccagcaatacgatatacttgancaatatttattgcaatntgcattctnagccgttttctnttncacatggtgttctgaaacagttaagtaanatgaagaatataggcacaagattatatctgtcacagatgaaaaaactacatttatggatcagtgtaatccattcattggtttatggacccaaagtcctccagggagtgtcacaaatccacatgatgtccctgagtgctagattttgcatttggatctctgatttagctgaaagatgtgtaaaancncatgtagccagacagctccctattggctacacatctgaggaggctcaagagcgcaagttattccancnaaggtcggcagtaanttacgctcantaaattggctccagatccgcctgtttcagacggtagcatangaataacttatgcgttttgctaaatccgcccacttttggtcaaaccacgcccctctttggggatctgccatcgcaaatgcggaagacatgcagatctggagatccgcgctttttggaggacggcagaataccggcggatcaanagtttgacatg",
+  "length_bp": 572,
+  "sequence_length_bp": 572,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON28b"
+  ]
+}

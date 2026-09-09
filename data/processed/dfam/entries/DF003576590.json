@@ -1,0 +1,41 @@
+{
+  "accession": "DF003576590",
+  "name": "MLT1O-int",
+  "description": "Internal sequence of ancient non-autonomous LTR element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT1O-int"
+  ],
+  "species": "Theria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1705 BP; 414 A; 395 C; 502 G; 380 T; 14 other;"
+  },
+  "sequence": "gaaattggtaccaggagtggggtgttgcaagtaacagaccctaaaatgtggaactggctgagtcgaggtggggtggagggcagtgaggatcccccnatcccgggctgggaagctggcagtccttgttatgcggtagcgaagcagttggttaaactatcgcctgttgtctcttgggactcagaccatgtgcccaccgaggctgaagctttaggggactcggtagcaaaatgtcaggatatcggaatgtgttggttacttcttgcggccttcagtaaggtctcagagagagataagctccagttcaagctggcccgcctgaaagcagatagggaacaacagaataagtatgtaactttgntaagggaagccctttctgcctgtagccagngatctgagaccgctgagggtcagataatcatgcgccttgctgaattgcagcagccgaattctctgccgcactctaaagttagtgcgctgattaggaaantgcgggatcctggcaattggaatggggatatctgggaggagccagaggagttgggaagcctgatcctcacgtctctccaaanacctcctactgtacancccctgccggacaaaggtgatgatgcctcccattgtaaagcgcattcgactggaatgcaggcgggaggcaggggcaacattccagggcagattagagaagaaaggctccccgcaccctcaccccagnctattatttcccatccgtgccctgaggctgaggccttaagcggagagccagggggatgagcggagccctcaggtacggtgctaagaaacagaagctcgcaacacgggccctggatcttttgcaggcctggagattcaaagagcatgactcgacaagatttctggcattggttattagcaaacggagtcccccgaaatgaaatcgacaggcagccgactaaggttttaagggagttgtatcgccagaaaaancncaagcctggcaaanaggggcccgtgattgctcagcccctaaggcaatccccaggcccaagtaccagcaccagcaggaagtggactgctaaggccgtacagcgccccacagggaaatcctccccaatgcccctctcaggggtggccctgaaggacactggacaagggaaatcctcccagcgggcagaacctgaggcagccagattggctgaccaaggaactcactccactgccaaggaagtgagtcaacaaattgatgcccgtgagattcgctggtcctgtcatttaccttactatncctgtccagcaggatacggcgtatgctctggaccagtgaccactgtatggtgcttccctttttcctattttctaaatgggaattttaattgtagttatcctgtttttcctccaccattgtatatcgggtgtgttgggggtggttaaatttatcatttagtccataggttgcaggatnatgaggagccacacctagaccgatcgagacngaactagaggaggaatggacatcacccagagatcctggactcggagaacagtggccccatgacatcgcctctggatgcagtagctggacgtgactttgggttgtctcccattggggagggggtgagtgcatttgcggttgtacgtgggatggttggatcatgttaggtgggggcatctttggaattgtatgtatgggaagaagggtgtgtgtgtgctgggcagccaaggggtggan",
+  "length_bp": 1705,
+  "sequence_length_bp": 1705,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

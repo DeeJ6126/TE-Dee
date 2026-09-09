@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275019",
+  "name": "BeaHun-1.43",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Retroposon/"
+  ],
+  "species": "Beatragus hunteri",
+  "display_classification": "Retroposon/ | Beatragus hunteri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Alcelaphinae",
+    "Beatragus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1008 BP; 181 A; 306 C; 250 G; 271 T; 0 other;"
+  },
+  "sequence": "agcagttctcctgggttcccttaccctactgctctccacccgggtgccctttcccaataaaatctcttgctttgtcagcacatgtgtctcctcggacaattcatttccgagtgttagacaagagcccagtttcgggccctggaaggggtccgccttcctgcaacaaatggcgactctggcggggactcttcttcgctgagactgacatcctgaccactcggggtactcaggggccagcttgcctgccaatggaccagacccagcggccgcaactgggacccttttgtccctggtctcctcctgacgcggacaactggccagagtgccccgaccggtaaggaacaagagactttattgacctctctccccttccctctctctttcctctccttaacccttcctatccttccctgtttttctagtcccccggtcctggacgcaggaatctggtcgaagggccctcagcctgagctgaggattggagactgatcacctcctcttggcagagaactcgaattctggttctggtctggtctgatttctggtagggccgagttccagtcctcccttctctggaggcccagggaaaagtcccataacgcctgggtatctgtaggtggcaggagacgtctgtaaggccacccctttcgccccccctctcccgcctcctcccccttcttctttcaacctggcttcctttcctcccttgaaatctttgatgttagtacttggatctgaagttctgtgtctctataggaggttttctgagagactgtattcttgtatttaagggcttccctggtggtgcagaggttaaagcgtctgcctgcaatgtgggagacctgggttcgatccctgggtcgggaagatcccctggagaaggaaatggcaacccactccagtattcttgcctggagaatcccatggacggaggagcttggtgggctacagtccacgggtcgcaaagagtcggacacgactgagcgacttcactttcactttcacttt",
+  "length_bp": 1008,
+  "sequence_length_bp": 1008,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

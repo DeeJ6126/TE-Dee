@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003335",
+  "name": "ISL2EU-1_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/PIF-ISL2EU"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/PIF-ISL2EU | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1950 BP; 504 A; 427 C; 398 G; 499 T; 122 other;"
+  },
+  "sequence": "ttgcaggaacaatttgagtatagacaaagttacacgngagtcggcttttcaacgngctagtgctcggcttggtgtcgatgttcgtgttgaccncactgctccagccgtancngtgccgatactccctcaagcagaccacgactatgcatgccaaccatcacctggtatntacngcaggnaacatttctatttaaaannacaagttattatatttaaattatgaacgtntatactgtatttatagatagtttacgtacgtatgtgttgtaacatatgaaatatatgtgtgtgtgtgtgtatatattcncattccatgtgttttgtacctttcaggacatttggacgctgctgctcaaagaatcagagagctagaggccgaggtcggacagctaaagtccaactccgtgatctatccgcctcaaaattacanattnacagattctgcgcnacngatgaggacntncgnttttacacnaggttcccatctgagaaagtcttccgagcattctggaaatcngttgagccatcngcatccatattngcgtactggnccaaagcnnagaagacatggtgcngctgctgagaaaccaggttcaaaccgcaaacttgcgctcgttgatgagtttttcctgtnctgccgncgtgttgctgttggcctnagagagaaagttttggcngacatntttaaagtnagcacctctacagtagccgcgtcgtnataacatgggcnaactatttataccttgtnttgggatcantncgaatctggatgaccngggagcaggtcgacgncgggctnacaccgatgccngcgaaatttgcggaatactgcccagacgtgagggtcatcatcgactgcacagagntnagatgcgaancnccatcntcacttacnctncagtctgaaacgttttcagcttacaaanntcacaccacnttcaagggtctnattggnatngcnccncgtggtgcagtcacattcgtctccaagctctttacngggtcnatntcngacnaggagatnacnaagcagtctggaatnctnnaattgctggagccaggagacgcangcatggccgataaaggcttcgtnattgatnagatgctgtcggatgtcggtgcaagnctcatcatcccnccnttcaaaacagnngcacgcttcagcaaagaggacgcngaaaaaacacaagccatngcacgccttcgaattcttgttgagagagccatcagaagagtgaaggagtntcacatctgggacacccccgtncctctnacnctgtcnggnncngtcaatcagctgtggacaatctgctgcctgatgnccaatttccagtgtccgctagatacaaaagaccacatctgtgtgtaaanaatcaantggacaaaggtgaactccattaagaaatgtttattggatngtgtttcacaatataaatnagttgtgtagaagaatagattgtttaatanttgcataaaaatttacacatatgcaatatcgtatatatacactcacacacgacacgtgtctacaatccacatatacacacacactacaataatatacagctntgtcccattttcaacgaataaatccaactcataaagaancaataaatgcatgcgcgtggtggcattttacgtgcgtatgttactggctttncaggtaagttcccatgtatgtaccgaaatanaaaaggtcaanttttntcttnanntcntggatcagggactcgtccttccanactctctccacngtgaggtcacccctggtanntgtnacnagatcacaccaagncaagccggtnatcgccagctgtccctggacctgccagnggtacntgtgatttcttttcaatttngcctnacctcttaaatttgangtgtgtagcttctncnacgtnattnacatctgggcatttnacctcgccagnccaaagggnggnttttcag",
+  "length_bp": 1950,
+  "sequence_length_bp": 1950,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ISL2EU-1_DR"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278998",
+  "name": "MusPut-1.32",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Mustela putorius",
+  "display_classification": "SINE/tRNA | Mustela putorius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Mustelidae",
+    "Mustelinae",
+    "Mustela"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 108 BP; 25 A; 21 C; 33 G; 29 T; 0 other;"
+  },
+  "sequence": "ggggcgcctggctggctcagtcggtagagcatgcgactcttgatctcggggttgtgagttcgagccccacgttgggtgtagagattacttaaaaataaaatctttaaa",
+  "length_bp": 108,
+  "sequence_length_bp": 108,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

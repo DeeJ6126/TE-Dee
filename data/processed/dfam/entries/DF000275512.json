@@ -1,0 +1,46 @@
+{
+  "accession": "DF000275512",
+  "name": "ChaVel-1.35",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Retroposon/L1-dep"
+  ],
+  "species": "Chaetophractus vellerosus",
+  "display_classification": "Retroposon/L1-dep | Chaetophractus vellerosus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Chlamyphoridae",
+    "Chaetophractus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 939 BP; 292 A; 175 C; 254 G; 217 T; 1 other;"
+  },
+  "sequence": "atgcgaatattctcgctgtcctgattttgtgataatcagggtaggctaaacattcgctatattagaaaccatgcatgtgtccccagacctagtttttctccctaggtctggtttttagaatgctggtgataaactaagcctgatttattatatgaccatcctgtatgggaaatgactgtaactctaggtatctttggtcaaccttaagagatatagcagggggacggatgtggctcaaatggttgggcgtccgtctcccatatggagggacctgggttcgatccccgggacctcccggtaaaaattaaaaaaagaaaaatatagaaggcgcgcgggccgccaggccccgcgcgcgggtgcgccgccaggccccgcgagcgggtgcgccgtcaggccccgcgagccacgcagcaagatgatgacgtaacaggagagtgacacaagggagagccaagacgagacgcgccgaaaaaccaggaactaaggtggcgcaggcggtaggacgcctctctcccacatcggaggttccgaggatcgaatcccggtgaagacaggaggagaaggatgagaagagagggcaggaaacggacacagagagttgcccagcgaatggacacaaaaacagcaaaaacggggggggggggtaaaaatggataaaagtaaataaataaataaatccttaaaaaaaagtataggggagtaagatacggactatagttagtagtaatactttgacgatgctctttcataatttgttaacaaatgtttcacaacaatgcaaagtatttgtggtggggtgatgtgtgggagccctgtatgatgttatgcatgtttgttttgtaagttcacaatgtttactgaacacttattgtttatgtatgttcatgtatgaatgatatacttcaataaattgtttnaaaaaaaaaaaagaaaaagaaa",
+  "length_bp": 939,
+  "sequence_length_bp": 939,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

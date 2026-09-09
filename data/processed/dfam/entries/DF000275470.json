@@ -1,0 +1,47 @@
+{
+  "accession": "DF000275470",
+  "name": "CerSim-1.9",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Ceratotherium simum",
+  "display_classification": "SINE/tRNA | Ceratotherium simum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Perissodactyla",
+    "Rhinocerotidae",
+    "Ceratotherium"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 187 BP; 41 A; 55 C; 59 G; 32 T; 0 other;"
+  },
+  "sequence": "ggggccggccccgtggcctagtggttaagttcggcgcgctccgcttcggcggcccgggttcggttcccgggcgcggacctacaccactcgtcggcggccatgctgtggcggcgacccacatacaaaatagaggaagattggcacagatgttagctcagggcgaatcttcctcagcaaaaaaaaaaaa",
+  "length_bp": 187,
+  "sequence_length_bp": 187,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

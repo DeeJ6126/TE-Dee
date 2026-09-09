@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000655",
+  "name": "tRNA-Leu-TTG",
+  "description": "tRNA-Leu (decoding TTG) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 84 BP; 16 A; 22 C; 27 G; 19 T; 0 other;"
+  },
+  "sequence": "gtcaggatggccgagtggtctaaggcgccagactcaagttctggtctccgatggaggcgtgggttcgaatcccacttctgacac",
+  "length_bp": 84,
+  "sequence_length_bp": 84,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "tRNA-Leu-TTG"
+  ]
+}

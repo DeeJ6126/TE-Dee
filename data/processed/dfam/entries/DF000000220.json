@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000220",
+  "name": "Kanga1a",
+  "description": "TcMar-Tc2 DNA transposon, Kanga1a subfamily",
+  "keywords": [
+    "DNA/TcMar-Tc2"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tc2 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 754 BP; 226 A; 142 C; 163 G; 223 T; 0 other;"
+  },
+  "sequence": "ccgtatttcatcgattctaagacgcacatttttttttcacattttaacatctctgaaatcgggatgcgtcttacaatcgatggcatcttacaatcgctgtcggccaggcggcagtcgtgacgtagttgtcattgcctgcgcatgcgcgaacttggttgttattcctggtggcatgactggacaactgcaacccctcgacgtttcagtcaacaaaccatttaaggaccatttgaggaaggaatatgagtcctggttgttgtctgaaaaccttccgttgacaccttctggtaagatcaagaaagcgccagcatcaaaacttgcagaatgggtgtcagcggcttggaagaaaatcccggagacaatagtggagcactcttttaagaaatgctgcatcaccaacgctcttgatggcacagaggacgatattgtgtggaaaaacacggacatcgacgactctgagtcgaaaagtgattcagaagagtcggactctgaatgtgaagaagttttaggaataccttaaccaatttatttcgcttatattttcctttttatgtatgcacaagagtgatatatgataaaaatctatgtctaaataagtctaaaagagctctttcaataagtataaaataaaaattctaagtgataagaaagcattgtgtcatagtttaattggcagcgttttttctttcttagtggtacataaaataatggtgcatcttacaatcgatggcgtcttagattcgatgaaatacgg",
+  "length_bp": 754,
+  "sequence_length_bp": 754,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER104A"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000067",
+  "name": "AmnSINE1",
+  "description": "Amniota SINE1",
+  "keywords": [
+    "SINE/5S-Deu-L2"
+  ],
+  "species": "Amniota",
+  "display_classification": "SINE/5S-Deu-L2 | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 575 BP; 121 A; 136 C; 159 G; 159 T; 0 other;"
+  },
+  "sequence": "gcctgcagccataccacctcgggctgtgatctcgtcagatctcacaagctaagcagggtcgggcctggtcagtacttggatgggagacctccaaggaaacccaggtgctgcaggaagtggtgctggtgattcagtaggtggcactcttccctctgagtcagtactgaaccagtgccccagcgtggtgttagggggcactgtgctgctggaggtgccgtctttcggatgagacgtaaaaccgaggtcctgaccacttgtggtcattaaagatcccatggcacttttcgcaagagtaggggtgttaaccccggtgtcctggccaaattccaatttgggtaattacattctgcctacctaaattccccctgcagtttcaattggatacggtattcttcacttcctgtcctaaactgttgtgtagtgttgctgtgcgctgttaaacagctgccgcgttccaccccagaggtggctgcatttcagtggtgggtgaagtgatccctgtatgtagcttgtaaagcgctttgggatccttcgggatgaaaggcgctatataaatgcaaggtattattattatt",
+  "length_bp": 575,
+  "sequence_length_bp": 575,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "AmnSINE1_GG"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276499",
+  "name": "DolPat-1.109",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "DolPat-1.109"
+  ],
+  "species": "Dolichotis patagonum",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Dolichotis patagonum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Caviidae",
+    "Dolichotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 786 BP; 153 A; 188 C; 217 G; 228 T; 0 other;"
+  },
+  "sequence": "tgttatggattaaaaactggtggtcaacttaacgccagctggattacatcaccatggtgctgagcgtagatgtttcacctgaggaaagttgccagcataaatggagacgtggagaaggagaaggaagcgttaggcgttgaggcgttgaggcgttgtgggttctcctacgtgttgctgtttgagccgttggttctcctggagaagctctggtcctcacatcgagcattgcttcctggctccggaggggaagacgtgtgccgcttggtctccaggatgaactcgtcacgctggcttcctggcatgtactcgactgtgcttgtcgtcggaggagctcggggcctccgtgtcgctgaggatggctgtggtgcttttcaggacagccctggtctttgttgtgagtgtgacttctcggctccagcgtagaaccctcaacctatcagcacagctccttcaccccgctggcatagacttcctagtttccaccgctgacctttgggccttcccagcacggatccgtaaaagagactggcgtgagtccttcttgtgggctctagacctccagttggactcgtgggaggcattgtcatgagctctgggtcttcatctggactcatgtgggacattgctgtgggattcaggcccttggctaaatattctatgtctttggtgttgtggatagatttcctgcattttcttgtgttaactctgggtgaccatcataaaaataatattataaactccatgtcctgattctaattgttctctgcacaacccctgactacaaca",
+  "length_bp": 786,
+  "sequence_length_bp": 786,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277367",
+  "name": "HipAmp-1.94",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Hippopotamus amphibius",
+  "display_classification": "DNA/TcMar-Mariner | Hippopotamus amphibius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Ancodonta",
+    "Hippopotamidae",
+    "Hippopotamus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 623 BP; 172 A; 117 C; 160 G; 174 T; 0 other;"
+  },
+  "sequence": "cgagggtgagtcaaaaattatccgcactccggttatattaaaacttctgttggccgcactgtcttatcagcgctttccgttcaaggctactgtctccccagtcactgctgtgcaggtgtgaacgtgttacatcagttcatttgtaactgcggtgcgagcaaaaatggatgccccacttgtgatttgcacgaaagaagagcagcgtgcagtgattcgttttttgtggtctgagggtgtacctggtgccgttatttatcgaagactttgtgcgcagtatggagaaagtgttttgtcgcgaagaagtgtgtatgaatggatagagaagttcaaggaaggtcgcacaagtgttagccatcaagaaggagccggacccgtccacgtccacggctgatgacaacattgagttcacttctgatgaagaagtgaagacagcggtgcattcgtggctcgcagctcagcctaaaacattttttaatgagggaatacgaaagcttgttgacagatggacaaagtgtattgaaaagcaaggagattatgtcgaaaaatgatgtatttgtcttttctaaaagttaattaaaataaattctacagccagagtgcggataatttttgactcaccctcg",
+  "length_bp": 623,
+  "sequence_length_bp": 623,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

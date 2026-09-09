@@ -1,0 +1,43 @@
+{
+  "accession": "DF000001022",
+  "name": "MLT1K",
+  "description": "MLT1K Long Terminal Repeat for ERVL-MaLR retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT1K"
+  ],
+  "species": "Theria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 595 BP; 124 A; 167 C; 162 G; 137 T; 5 other;"
+  },
+  "sequence": "tgtagtggacatctgttgtttttgcctgcccagcatccattcccccttcttctggtaacagcaccccgattttcctttggggaaccacccctcccccactctcagtccatgtggttcgggtggggctgaccccacccctcggctccaggggtgggcacgtgacccaggcctggccaatcagagcattccatccccctggccacagtgattggttcagggatgggcacgtgacccaagccgggccaatgagagtcagccctgggacttttgctggaactattgggaaagagangctctctttccgctggggttgctaagctggnaggatgtaagcctggagctgctggcggccatcttgccaccacgtggggagagcctgcctgagaatgaagccaacacagaggaaagcagagccgagagatggagagagacagantcctgatgacatcgtttgagcncctggatccagccgtgcctgaagccaganctacccctggacttttcagttacgtgagccaataaattcccttttttgcttaagccagtttgagttgggtttctgtcacttgcaaccgaaagagtcctgactaataca",
+  "length_bp": 595,
+  "sequence_length_bp": 595,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLT1K"
+  ]
+}

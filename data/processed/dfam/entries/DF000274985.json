@@ -1,0 +1,50 @@
+{
+  "accession": "DF000274985",
+  "name": "BalAcu-5.644",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Balaenoptera acutorostrata",
+  "display_classification": "DNA/TcMar-Tigger | Balaenoptera acutorostrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Mysticeti",
+    "Balaenopteridae",
+    "Balaenoptera"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1017 BP; 321 A; 165 C; 179 G; 352 T; 0 other;"
+  },
+  "sequence": "cagttgacccttgaacaacacgggtttgaactgcgcgggtccacttatacgcggatttttttcaataaatatattggaaaaatttttggagatttgcgacaatttgaaaaaactcgcagacgaaccgcgtagcctagaaatatcgaaaaaattaagaaaaagttaggtatgtcatgaatgcataaaatatatgtagatactagtctatccttacataggcataaggtgagtgatatttaatataaaattaataatgtgttagttttcttactgttttataactttgctttcaaagaattacattaccgtacagtatgcctctctctctcgtaattggagaaactgcgtatcagcctatcatcacaggtaagtggtttttttaaaaaatgtaacaatgtttccaatactgtattatgaatatgactgtaatactgtatgccataaaaattttataacgattcattcattagtgtataggctaggctaccgtgaagcaatcgtatcgattacactaggctaccataaagcaatcatattgctgcttcttcgttatcaatgcatgaatcgttatacctgtaaataaatatgaatttctttttcacattatcttttcatttttgatgtctagtgttagtaatacgtataacatctacagtgttttgtatcatataagacaatattgatgtaggtactgacagacgattcatcttgtaaacagatgacgtaaacttacggtatcgataaatacagtacagtactgtaaatgtattttctcttccttatgattttcttaataacattttcttttctctagcttactttattgtaagaatacagtatataatacatataacatacaaaatatgtgttaatcgactgtttatgttatcggtaaggcttccggtcaacagtaggctattagtagttaagttttgggggagtcaaaagttatacgcggattttcgactgcgcggggggtcggcgcccctaacccccgcgttgttcaagggtcaactg",
+  "length_bp": 1017,
+  "sequence_length_bp": 1017,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

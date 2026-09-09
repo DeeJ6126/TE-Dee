@@ -1,0 +1,11 @@
+[1/5] TPL_AGENT_001_MECHANISM: How does LINE-1 contribute to cancer?
+  dt_ok=False agent_ok=False value=none overkill=False
+[2/5] TPL_AGENT_002_EVIDENCE_AUDIT: What papers support the relationship between LINE-1 and Alzheimer's disease?
+  dt_ok=False agent_ok=False value=none overkill=False
+[3/5] TPL_AGENT_003_BATCH_COMPARISON: Compare the evidence strength linking L1HS, AluY, and HERVK to cancer.
+  dt_ok=False agent_ok=False value=none overkill=False
+[4/5] TPL_AGENT_004_GRAPH_RANKING: Which disease has the strongest association with transposable elements in the knowledge graph?
+  dt_ok=False agent_ok=False value=none overkill=False
+[5/5] TPL_AGENT_005_RESEARCH_REPORT: Generate a research report for L1HS including sequence, genomic location, expression, disease links, and literature evidence.
+  dt_ok=False agent_ok=False value=none overkill=False
+Wrote live eval results to docs\eval\runs\template_question_smoke_20260530\agent_retry1

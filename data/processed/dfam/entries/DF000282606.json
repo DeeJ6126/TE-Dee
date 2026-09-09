@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282606",
+  "name": "RhiPru-1.43_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RhiPru-1.43_int"
+  ],
+  "species": "Rhizomys pruinosus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rhizomys pruinosus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Spalacidae",
+    "Rhizomyinae",
+    "Rhizomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1436 BP; 417 A; 250 C; 407 G; 360 T; 2 other;"
+  },
+  "sequence": "gttatttggtaccagagagtgggctgttggctgtgaagaacctgaccatgtggatgtttggagaaatgtggaagactttggaactttgggctagaaaagctgttgactactgtaagcagagcttaacgggccattctagtagaagcctggaagaaagcattgctgcaaaaaatgtagttccagaggaaaataaagacttaggcagcaactgggatattttgataaagagtctggcagcagtttgcccacagcccaaatgcttgcctgatgctaagttgaaaagcaatggactaatgtctttggcggaggatatttcaagacagcctaatgtagaaatggtggcgtggctattaatggtgaatattgtacagatctacagtgaagaagagcagatggggcagaaagaaatgcagaatgtacagtttggatctgaaaaccgcactaggaagattaaaggtggggccaaggcatgtgaaggagaggttccttttgataaggagactaaagtgattaaggagaggcctagctatttacaagtaaacaatggaaaaagtgagattaaagtgattaaggaggggcctcgagatttacaagtaaacaacagaaacagtaccttcagggcaagaccacacccagctaatcctccaacttttgaaaggaaaatactgaaagggttttctgctccaacaagtccagggcagagaaaagttgcaaatgtggttgaagtaggncagggtccatcccgaacttgcagccaaactcggcagtttcattcacgtggtgctggctttagaggcatgaagtttgcaagagtgaaggggtcatcagttcttcctccacggtttcagagagccgcagaggccaggcagagtgcagcaggggcgtccctgnataaagaaggccctgataggccattgcgtgaagctgtgaatgtgaagcctggttggcagcggagaccccaagaagacattcgagatgccagacctgtgagatatttgccaaggagagctgcatacagggagtggtaccagcctaagaaagagatgtatgttgcaagcaaagctggaagagctgagccatctaagccctttggaagtcaagtcccagaagtcgcacatggagctactggacttggtgtttgccctgctggttttcggtcttgttttggtccagtatttcctcactatgcctctattcctcccttttggaatgggaatgtgtattcggttccactgtacgttgggagtatgtaatttgtcttttgattttacaggagcttacagtttaggagattggcctgagtctcagaagagactttggactgtagacttttgaatggcattgaaactggtaaagactatggggacttttaaggttggactaaatgcattttgcattttatatggtcaggagcctatgggggccagggagtggaa",
+  "length_bp": 1436,
+  "sequence_length_bp": 1436,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

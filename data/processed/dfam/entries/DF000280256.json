@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280256",
+  "name": "PtePar-1.5",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Pteronotus parnellii",
+  "display_classification": "SINE/tRNA | Pteronotus parnellii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Mormoopidae",
+    "Pteronotus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 190 BP; 61 A; 46 C; 35 G; 48 T; 0 other;"
+  },
+  "sequence": "gccctggccgggtagctcagttggttagagcatcgtcccgatacgccaaggttgcgggttcgatccccggtcagggcacatacaagaatcaaccaatgaatgcataaataagtggaacaacaaatcgatgtttctctctctctctctctctctctctctaaaatcaataaataaaaataaaaaaaattta",
+  "length_bp": 190,
+  "sequence_length_bp": 190,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

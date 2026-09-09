@@ -1,0 +1,46 @@
+{
+  "accession": "DF000278458",
+  "name": "MicTal-1.258",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tc2"
+  ],
+  "species": "Nesogale talazaci",
+  "display_classification": "DNA/TcMar-Tc2 | Nesogale talazaci",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Oryzorictinae",
+    "Nesogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1324 BP; 389 A; 267 C; 310 G; 358 T; 0 other;"
+  },
+  "sequence": "ccgtatttgtcggaccataagacgcacttcttccccccccaaagtggggggaaaacgagggtgcgtcttatggtccgaaggtgtggtaccccagaacatttgtttatgatcccatgcgcccgcttactgtccgctgctgtttgcatgctgtggattgctgtgtgttcgggggaagtcccgcctcctggagtctcaatgtcagtcaggtcacatgatcggcacagcgcacgcctcccctgcgtgtgtatgacactgacagactgacaggatgagaacattgagacaggaggcagctaggtacggtaccaggtaacgtcccggccgggactatgtgatgcagtacagtgtcctgacaggcaggcaaagagcccgtcatggtaggagagagacatagagtctctcctgccatgcaaagccctgcctgtcaggttggttggtgccctttaatagtaataccaagcggtttgagttaccgtaaattacaatactgatgtatgtggtaatatgtctctcataacaactgacagttctttcactactctattttcctcagaaaaacaccatttctctaacggtacaaaatgtcaaagatgaaaagattagcatataaaattccgtttaaactggaggtagtaaaatatgcaaaagaacatggaaacagagcagcggagagacattttgggccacctccaactgaaaaaatgatgagagagtggagaaaacaggaggatcagctgcaaaaacttgataaaattaagcacacttttcgtgggcacgctgaaaaatggccacagttagaagtggacatgaaagaatggatcacacgtcaccggaatatgggcttctcagtttctacaaaaatgatcatctatgaagccaaacgcattgctgtagaaaaaggcattaaggattttactggctcaccatcatggtgctacagatttatgaggagaagcggccttgctatgcgcaccaaaactagaattgcacaaaaaatgccaccagaatatgaatcgaataagtgattgtgagcaacagagcttcataaattctgacactagtgatgatgagtttttagggtttccagaaaactagaaaagtgcttgagcctctaagtctttcctcatttgttaatgaaagtgatgatggttcttaacaccactgttgagtttacgctgttaaatattaccgtattttgctttattttaataaatattttagtatactggtactatttggttcagaatatttttttcttgttttcctgctctaaaaactgggtgcgtcttatggtcaggtgcgtcttatggtccgaaaaatacgg",
+  "length_bp": 1324,
+  "sequence_length_bp": 1324,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

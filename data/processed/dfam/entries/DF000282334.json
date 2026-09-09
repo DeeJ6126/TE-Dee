@@ -1,0 +1,50 @@
+{
+  "accession": "DF000282334",
+  "name": "OctDeg-4.629_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OctDeg-4.629_LTR"
+  ],
+  "species": "Octodon degus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Octodon degus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Octodontidae",
+    "Octodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 380 BP; 72 A; 93 C; 105 G; 107 T; 3 other;"
+  },
+  "sequence": "tgttatggtttgtgtctagntgtccccccaaagcctcatgcagtcatggggcggcttctggagtttgtgattgattcatgatccaatgctgggattatgggtgtgggtgctgcacccgccctggggcaggtaatctgcattacaatgtaaggagggaagagaggctngctagctgcttgagctgctgctacccctcccttgtgctctttgctctttgccgccgccatgaanggctgccctctgccatgtgccgctctgccttggagccagctgagtatggactgaaacctccagtaactgtgagctaaataaacctttccttccttcattttgggtgtcgggtattttgtcccagcaacgagagaagagtaactgagaca",
+  "length_bp": 380,
+  "sequence_length_bp": 380,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

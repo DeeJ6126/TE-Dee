@@ -1,0 +1,48 @@
+{
+  "accession": "DF000001907",
+  "name": "LX3",
+  "description": "Myomorph LINE1 repeat, 3' end",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Sciuromorpha",
+  "display_classification": "LINE/L1 | Sciuromorpha",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1010 BP; 254 A; 219 C; 336 G; 174 T; 27 other;"
+  },
+  "sequence": "ggaaaggggagttcaggatcaggtgtggggagagacaggagaganggccaganggccaggagaatgaacggaaatctgcggntggncggggtgtgggggtgaggggcatctctgggacgagccagagacctgggacgggggaggctcccaggagtctatgggggtgaccctagctgagactcctagcagtgggggatatggaanctgaagtggccacctcctgtagccaggcaggacttccagtggagggatngggacaccaacccacccacaaaactttnacccaaaatttgtcctgcctacaagatgtgcagggacaaagatggagcagagactgagggaatggccaaccaatgactggcccaacttgagacccatcccatgggagagnaccaanccctgacactattaatgatactctgttatgctcgcagacaggagcctagcatagccgtcatcagagaggcttcatccagcaactgatggaaacagatgcagagacccacagccaaacattaggcggagctccgggagtcctgtngaagagngggaggaaggattgnaggagccagaggggtcaaggacaccgacaggaaaacccacagaatcaactaacctgggctcatgggggctcacagagactgaaccancaaccagggagcctgcatgggtctgacctaggccctctgcatatatgtngcggntgtgtagcttggtcttttcgtgggacccctaacagtgggagcggngnctgtctctnttgcccgnncggnctttggganccttttccccntactgggctactcgtccagcctcgatacgaggggangggcctagttcctgccccgnttgatatgccagggttggntgatatcccatgggaggcctncccttttctgaggagcggagggggaatgggatgggggagagaggaggtggagaggaaggactgggaggagaggagggaggggaaactgtggtcgggatgtaatataaaataaaaaattaat",
+  "length_bp": 1010,
+  "sequence_length_bp": 1010,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LX3"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000274646",
+  "name": "AcoCah-5.5877",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tc2"
+  ],
+  "species": "Acomys cahirinus",
+  "display_classification": "DNA/TcMar-Tc2 | Acomys cahirinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Deomyinae",
+    "Acomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 532 BP; 130 A; 160 C; 133 G; 108 T; 1 other;"
+  },
+  "sequence": "ccgtattttccggcgtataagacgactgggcatataagacgacccccaacttttccagttaaaatatagagtttggaatatactcgccgtataagactacccctcttccaacgcacaccctgtgcagcagactcgggcatgtgtctatttgcaggcagggcacagacagccaggcgctttattaaatgccggcagacagccagtgccagcctacactgcccctttaaggcgcgctccacactcaacccgaagancgcagccctccgagtcgaatgggcgggttctggtggagagccaatccacgctcacgttctcctcctcgaggtacaggaagatgtgtgcagcttgctcctccctgcttcatactccccgcacagagcggggaatcggccgcggcaccccccactatatgcgccggacatatgaagcaaggggaagcaagctgcaggtaagtacccggcgtataagacgacccccgactttggcacggatttttcggggttaaaaagtcgtcttatacgccggaaaatac",
+  "length_bp": 532,
+  "sequence_length_bp": 532,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

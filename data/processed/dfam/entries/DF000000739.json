@@ -1,0 +1,47 @@
+{
+  "accession": "DF000000739",
+  "name": "MER21A",
+  "description": "MER21A (Long Terminal Repeat) for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER21A"
+  ],
+  "species": "Primates",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 931 BP; 203 A; 240 C; 246 G; 234 T; 8 other;"
+  },
+  "sequence": "tgtggtgttatgatatatatatnggttttcgtccacggttcctggctcataactcccatagcccttgttacagtcttttgttataatgttggggcgcgttaggcctcaggggcagcctcagaaacagaatctctgaccttctcctgccctcctttcacctgccccaaggcaggactctaatcttcccccgcctttctgattgtgggtcntaagaccctcattccagagagggtcccgccccataccctgggggaaggaatgctgcacagagaggccaagaagaatctgaacagacaggccttgctgggtttagatcataccctttttgtccaatcacatttctacagttgtccatgcttcaatcatgcctatccaatgaagcctccataaaaacccaagaggacngggttcggggagcttccggatagctgaacacgtggaggttcccgganggtgnncccggagggtggcgccccaggggcatggaagctcctgcgccccttcccccatacctcgccctacgcatctcttcatctgtatcctttgtaatatcctttataataaaccggtaaacgtaagtgtttccctgagttctgtgagccgctccagcaaattaatcgaacccaaagagggggtcgtgggaaccccaacttgaagccggtcggtcagaagttccggaggcccggacttgcgactggtgtctgggggtgggggcagtcttggggactgagccctcaacctgtgggatctgacgctatctccaggtagatagtgtcggaattgaattggaggacacccagctggtgtccgctgcttggtgtgtggggaaaaacccccacacatttggtcacagaagtcttctgtgttgatgattgttgtngtggtgtgagagcagaggaaaaacacggtttgagagagttttcccnaaaca",
+  "length_bp": 931,
+  "sequence_length_bp": 931,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER21A"
+  ]
+}

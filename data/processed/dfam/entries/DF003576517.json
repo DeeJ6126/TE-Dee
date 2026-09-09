@@ -1,0 +1,50 @@
+{
+  "accession": "DF003576517",
+  "name": "EidHel-1.190_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EidHel-1.190_int"
+  ],
+  "species": "Eidolon helvum",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eidolon helvum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Megachiroptera",
+    "Pteropodidae",
+    "Pteropodinae",
+    "Eidolon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 660 BP; 202 A; 154 C; 151 G; 152 T; 1 other;"
+  },
+  "sequence": "ctattgataagggtcatcggcccattgttagcagaaatggcgttaggccagacagggcccttagagtctgagaggggaggggactttaggccaaaggttttttttactctttaagaaatatattaaccaagcctgtttccctttactcgcttaataggcaaatcaataatagaaattaatagatatatgatttaaataacaagtttgtatcttcttttccttgtctagggactgaggcggcacttcagcaggaaacccaagaccccgccctgactgaggcagaaagggaaagagctccatgaaaccccagtaggcagggactacggcccttctcagcaggaagcagatacggaagaagagacctcccgtccctcaacatccatactaataataagggggttcatggctcttagaaaagagttaggcaggaaagttagttagggggtttcgggtctgcctgcaaagacactgaggtcatcctatcctagaaggggtccgccctaatccgcccacaattaagcaagccagaaggcatttttnggtaactcacacaaagaaacaagtaagcagagaattaggtaccagtttaagccagtcactcgcacctgcgcaatgaagaccccaacgaccttcaactcacctgagcctcattataccatc",
+  "length_bp": 660,
+  "sequence_length_bp": 660,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278735",
+  "name": "MurFea-1.19",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Murina aurata feae",
+  "display_classification": "SINE/tRNA | Murina aurata feae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Murina",
+    "Murina aurata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 220 BP; 45 A; 60 C; 58 G; 57 T; 0 other;"
+  },
+  "sequence": "gccctagccggtttggctcagtggatagagcgtcggcctgcggactgaagggtcccgggttcgattccggtcaagggcacatgcccgggttgcgggctcgatccccagtggggggcgtgcaggaggcagccgatcaatgattctctctcatcattgatgtttctatctctctctccctctcccttcctctctgaaatcaataaaaatatatttaaaaaaa",
+  "length_bp": 220,
+  "sequence_length_bp": 220,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

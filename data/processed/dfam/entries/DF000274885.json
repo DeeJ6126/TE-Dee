@@ -1,0 +1,49 @@
+{
+  "accession": "DF000274885",
+  "name": "ArtJam-1.150",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Artibeus jamaicensis",
+  "display_classification": "LINE/L1 | Artibeus jamaicensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Stenodermatinae",
+    "Artibeus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1700 BP; 389 A; 462 C; 414 G; 424 T; 11 other;"
+  },
+  "sequence": "gagtgggaagatggcgacggagtaggacggagcggattccacttccccgtacacatgggagaaaancctggccgatctacggaggaacagcgcaaacagccaacagttccccagcatatatgaaaataagagaccagaaattgtagcggacactgaaaaaccagacggtaaggagacggctgcaggacagtagggtctcagggaccggagcggagacaggagcggcagcagcctcggccggcgcccagcgcccgcgcccggcgcccggcgcccagcgctgggtctaccacggactctttgggagccccgggcctgccgcagggtccttgggagagagccgggtcatcagctccctccctccccggccaagcaaggtttgggcaacaccgggagagacctgnttgcttgaggttgcagagaggggaataaggacaaagaggcaaacacacagggccgtgatcanccgcggagtctgtggtcgccggctcgggagaattgagaggcgcagtgtcgggctctgaccccgatagtcaccggtctggctggggaattgggctgtgctgagcggcaggcttgagtaggaggaatttctcgaaaagtaaaactgtctgggggattctcctgcgacagccgcttggcctgctccccacccagcctggcagcgatccngaggttgggcggaagnccttgcgttcccccacagnactgggaagggtccgcgcccgancccgcgggacccaggcagcctggccggcgcgcgtgcgcacccgcaccccagcccacagcgatgacccccggggaaagagtgctctgaagaggacctggatcccctncgtggggcgctggggagaggcgccaggctagctcttgggagagcgctcgcaagactggctgagtacacagaaaggccacaccaatcgcccctcagcctgctgcagccagcgagaccagaaaaaccggtttggccagtttgaaaccaacaagaggtgttttttaagtaatcttttatttttttaattttattattgttttatctttcaatacctttttcctctctttccttctttcttgttttattccttcttcctttctttccaaacttatcgcttcttcctcccttctcctgccttttttttacccacaagtgacacaaaaaacttggaactgtgaaaagaccagagttggacccaaagagggggcatcccaacagtagagacagagagacaaatttcactttgctatagcagagaagccacaagttgctgcatatttgtattattattttttcattattctcacatcttttatatttaatagtatctttgtattcctcctctttctgtatagncttctttgccttggctggttatattgtatcatttgacaggtttcccctgttctctcctccacagtgtattgctaatttnctatncttcacgtcacttgtgttcctttagcacactactcaaagttctataccccctattcatgttatccagatcacatagattctgtcatatgattgttgctctaatattattgtaaataatagctgttctatacaactgtaaatacttcacaacacccctcccggatcttagcccacttcacagtttcctgaactctattactgtagtggttaactctattcgctcacacactacacctatttactatcctttactctcaccttacctcag",
+  "length_bp": 1700,
+  "sequence_length_bp": 1700,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000274952",
+  "name": "BalAcu-1.16",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Balaenoptera acutorostrata",
+  "display_classification": "SINE/tRNA | Balaenoptera acutorostrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Mysticeti",
+    "Balaenopteridae",
+    "Balaenoptera"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 331 BP; 91 A; 97 C; 92 G; 51 T; 0 other;"
+  },
+  "sequence": "gggcttccctggtggcgcagtggttgagaatctgcctgctaatgcaggggacacgggttcgagccctggcctgggaagatcccacatgccgcggagcggctgggcccgtgagccacaactgctgagcctgcgcgtctggagcctgtgctccgcaacgagagaggccgcgacggtgagaggcccgcgcatcgcgatgaagagtggcccccgcttgccacaactggagaaagccctcgcacagaaacgaagacccaacacagccaaaatcaatcaatcaatcaatcaatcaaacatacgcatctgattcaagatcctcattaaaaaaaaaaaa",
+  "length_bp": 331,
+  "sequence_length_bp": 331,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

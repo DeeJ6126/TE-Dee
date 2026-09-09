@@ -1,0 +1,44 @@
+{
+  "accession": "DF000280059",
+  "name": "PipPip-5.1985",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Chiroptera",
+  "display_classification": "DNA/PiggyBac | Chiroptera",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 280 BP; 82 A; 56 C; 55 G; 87 T; 0 other;"
+  },
+  "sequence": "cccattgtacgccataagcgtctgtagacgcaagcggcggaccttccccacacgccacgcgcgtctataaaaaaaaaatgttttccctaagtggcagccctgaccaactttaaaatcatttttcgtgagaattttcagctgaaaatattcaagaacacccgaattgtgagtaatatatttatttttataatattcattgcaaattgattttttaaattaaattcaaaatatcgtggcgtgtggggatggtttccgttttggacgcgtggcagttaactgg",
+  "length_bp": 280,
+  "sequence_length_bp": 280,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

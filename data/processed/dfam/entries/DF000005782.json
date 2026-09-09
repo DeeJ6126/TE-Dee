@@ -1,0 +1,51 @@
+{
+  "accession": "DF000005782",
+  "name": "Halyomorpha_halys-5_family-1473",
+  "description": "TcMar-Tigger DNA Transposon",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/TcMar-Tigger | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 400 BP; 139 A; 61 C; 54 G; 140 T; 6 other;"
+  },
+  "sequence": "gtagaaccccgcttaaccggctctccggattaacnggcggtaaaaanaaaataaataaataaagtgctgagaaaacactaattcggtaaaacaaaacaaaataactttgtgactactattaaaaacttaaagatcgtttgtacacttaaattaaatcatgtatctaaataattttattttaaatattatattttggtctaataaatttaacttcattaaatattaatagcatatcacntatatattaagttttgtattacattttaatttttacctaatatattgagttaaattaatattggagttttattttttatacacctcggattaaccggctctnccncttaaccggcgntgtctcggtcccgactaggacggataagcggggttctactgtttt",
+  "length_bp": 400,
+  "sequence_length_bp": 400,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

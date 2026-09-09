@@ -1,0 +1,57 @@
+{
+  "accession": "DF000001172",
+  "name": "EuthAT-2",
+  "description": "Ancient hAT DNA transposon from eutherian mammals.",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Ac | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2747 BP; 941 A; 466 C; 511 G; 826 T; 3 other;"
+  },
+  "sequence": "tagggatgcaccgaagttcggcttcggcctcggtattcggccaaaatctgctattcggcttcggcttcggcctcggccttggaaggccgaatagccgaatgcctacttcaacgtcatttctggcatccctgaacttgtgcgtgatcaatgatcgtgtgatcgcgtaggttaccatcatatctaatcagcgtaacaacgtcagtaatacgaacaaggcatgtcattcggatttattgttaatatctgaatattcactttcaaatataggtaagcattctagatgtaacttggagtgaaaaatctccttatgtgctttatatgttgaaattctatcagtcagttgaagtataaatgtatatttattattgcaagagtaaaatgctgcaataattaatgatgattgtgaaagctgttaattttatgtacaaaaacaattattaagaactttcaaatagttaaataaatagggaaatagattgacagttaatacgaatattaagagagagtgcgttagctagataactttaggaagaacattatatcctttttgagccaacaaatgtttataaaaatttaaataataatacaaggcagaataatagagattagattatatcataattctaatctttgtagaattgtttggtgtactagcattcataacattaaacaaaataacctttaagaactgtatttaatttttagttatttaattccatttaggccatgagtctttcaagaaaaagtcctatttgggaattcttcacatcttgtgaggatgaattaaaagcagaatgtcaactttgccacctcaaaatttcacgaggaggaaaaactccaaaatcatgtacaacaacatccatgataaatcatcttcgatccagacataataaagaatataaagagtatgaagaaaagaagaaagtgttagagaaaaatgaggtacccaaaacacattttgttctcactaatcaaacttcaaaacaacagactttacaagaatgctttaagaagacaattccttatagttttgagtctatggaggctaaaaatttaaacaaaaagcttgtcgaaatgattgctatagactgccaaccattttcagtagttgaagacgaaggatttttgagatttgcccaagctatgaatcctaggtacaaagttccttctagaaaacatgttactgaaaaactttttcctgaattatattctgctgtgcacaaaaaggttagtgatattattaaatgtgctacttctgtatcttgtacatcagacatttggacatgcagaaacaaccagaagtcttttttaagtttgacagcacggtggattaatgatgaattcaactatgcttctgctttacttgcttgccgagagatttctgggtctcacacagctaacaacacagtgaatctgactgaagaaatatttatagaatggaaaatcagtaaagaaaagtgtcatgcaattgtcattgacaatggaacaaacatggtgaaggctatgagtgatttaggaatcacaagcatacgatgttttgttcacacccttcagttgtgtgttcagaaagtaattatagcacagcgtaatgtaacagaattactggccgtaagcagaaagatagtgggccactttcatcattcttcttcagccaaagacaaactacatgacatacaagagattttggaactgccttgtcatgtacttatacaagatgttcaaacaagatggaatagcagctattacatgttaaaaaggctgcttgaacaaaagaaagccttaatactgtactttgcagataacaataccaacatagcaggacttactaacaaccaatggttgcttgcagagaaagtagttcgtttgctggaacctgctgaagaagtaaccaaactgatgtgccttgagagtgcaagtatttcttacatgatacctgctgtaaagatcctcctatcattctactccagggaagatgctgaaattggtgtgcatgcaatgaaagctgagatgcagatggaaattcagagacgattttgttatcttgaaagccaattacattgctccattgccacatttctagatccaaggtttaaggacaaatttttctcaagtgattgtgtgaagcagcaagtgcatgcaaaaatattagaaataaaanatataagtgagggcaacaatcttaagtctgcttctgaaaatattcagaaagcatcttcttcaagcagtgcgcaaagcttcagtttgtgggattgcttcaatgaaattgcatcatcaccatcgaccaaatcttcaagtccaggagttgaagaggagataagtctttaccttagtcggttactattagagaggaaggaaagcttaataacttggtggcaacatcaccatcagcagtaccctatactggcagagctagccaaaaaatatcttgctcctccaccgacctcagttgaaagtgagcgtctatttagtatcgcaaatgtgcagtatagtgaccgcaggagcaatctagcagctgacagtgctgagaaattattgttcctgcactataatgtcaaactttaaaatttgactactaaaatttttaataataaaattgtaataataattaanttttganataaatttcagatttattcttgtatcccagaagttcattctatgatggtgatattcggcttcggccgaatattgattttaacactcggccattcggcattcggccaaaatgtgtattcggtgcacctcta",
+  "length_bp": 2747,
+  "sequence_length_bp": 2747,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "726..2559",
+      "start": 725,
+      "end": 2559,
+      "qualifiers": {
+        "product": "EuthAT-2_tp",
+        "number": "1",
+        "note": "[Eutheria]",
+        "translation": "MSLSRKSPIWEFFTSCEDELKAECQLCHLKISRGGKTPKSCTTTSMINHLRSRHNKEY"
+      },
+      "label": "EuthAT-2_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "EuthAT-2"
+  ]
+}

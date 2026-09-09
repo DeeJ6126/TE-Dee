@@ -1,0 +1,33 @@
+{
+  "accession": "DF000289892",
+  "name": "Chlamys-N6_cRei",
+  "description": "Penelope element",
+  "keywords": [
+    "PLE/Chlamys"
+  ],
+  "species": "Chlamydomonas reinhardtii",
+  "display_classification": "PLE/Chlamys | Chlamydomonas reinhardtii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Viridiplantae",
+    "Chlorophyta",
+    "core",
+    "chlorophytes",
+    "Chlorophyceae",
+    "CS clade",
+    "Chlamydomonadales",
+    "Chlamydomonadaceae",
+    "Chlamydomonas"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 222 BP; 53 A; 66 C; 55 G; 47 T; 1 other;"
+  },
+  "sequence": "tatatagcatngcatagctttacactactaccagacctctcggacaacccatctcaacttagggtaggcagcaaattgggagagcagcagcctcggagcgcctggacgtaccggagctgggcgccggacgctggactccgcggacatcggtaacgacgactactgtgtacctttgtacctggctacgacttcacttcgtaaacttaatgcgtgtaacccccc",
+  "length_bp": 222,
+  "sequence_length_bp": 222,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

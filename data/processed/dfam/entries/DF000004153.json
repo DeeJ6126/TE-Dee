@@ -1,0 +1,51 @@
+{
+  "accession": "DF000004153",
+  "name": "MTB_Mm",
+  "description": "mouse.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MTB_Mm"
+  ],
+  "species": "Muridae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 407 BP; 92 A; 99 C; 111 G; 104 T; 1 other;"
+  },
+  "sequence": "tgtactggctggttttgtgtgtcaacttgacacaagctggagttatcacagagaaaggagcctccnttgaggaaatgcctccatgagatccagctgtaaggcattttctcaattagtgatcaaggggggagggcccattgtgggtggtgccatccctgggctggtggtcctgggttctataagaaagcaggctgagcaagccaggggaagcaagccagtaagcagcacccctccatggcctctgcatcagctcctgcctccaggttcctgccctgtgtgagttcctgtcctgacttccttcggtgatgaacagcaatgtggaagtgtaagctgaataaaccctttcctccccaacttgcttcttggtcatggtgttttgtgcaggaatagaaaccctgactaagaca",
+  "length_bp": 407,
+  "sequence_length_bp": 407,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MTB"
+  ]
+}

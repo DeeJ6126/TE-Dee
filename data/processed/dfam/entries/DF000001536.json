@@ -1,0 +1,81 @@
+{
+  "accession": "DF000001536",
+  "name": "Baggins1",
+  "description": "BAGGINS1 is a non_LTR retrotransposon",
+  "keywords": [
+    "LINE/R1-LOA"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "LINE/R1-LOA | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 5453 BP; 1575 A; 1329 C; 1419 G; 1129 T; 1 other;"
+  },
+  "sequence": "ggccgccacgccagtaggtatcacaaggggatcaacgcgccaccaacggtggtacgcgccgtaattgtgacacactactggaagtgcaactacactctccacgcgagggcggctggaaacaggctcttagttaggtcatgtctctgctaagagtgctggctaatcgtagttgggctggagctggtaactctcaaaaatttccacatctccgggccggactaaggtgtcattcgacccgtgccgagagtctgccaggctgggggcccgggaaacaactagcccagtcgctaacggagagtccgggcaagtggcgtccgcccggtctggttagccttacccgggtactgcggatctctgcccgggtggaccgtttatttctctgcaactcgtgggaaccatgaaccatagacccaaaaatattaaaataccgcaggccttgactgcgggaaatgtcgcaagacagtttgaggaccgtctccttgacggagagcggcctacttcggtggtaacaccaaaaaatgctcctaatcggagtgtgccaacggcacaagcacgcccagttgcgggagggaagaatcgggcagccacaccgagtcactcgactgtggtccaagccggccaagcgggacgggctaaaaacccattaccgcaacttggtcagcctggggcccgggatgaccctaaccgtaaggggctgagcggggccagaacgaagtggtatcttcgttaccttcagcagggcaagtcacccgcagaagctttgtctctggccaagacaccgcagccgctagagcaaaggcccaactctgcttcgaagcgggcaaactccaccctgacgcctccgacggaaacgcctaagaggcagaaggtggagaagagcaggccactgactgctcctttcgatggcccaagtacctcaagggctgcaaaggcaactgaggtacgcaagccatcatatgcggccgtaactggggccattaaagttgcggtcgtaccagaggggtaccccaaagtcgtcctcagcagtgagaacctctcacagctcgaggacgcactactggaagagatagtcctctccggttgggattctccaattaagtttggaggaatccacttcagggtgggtcacctgatagtggattgccgcaacgcaaccactgctgagtggctgcaattagcagtccccagcctcagtaagtggagcggtgtctccctggaggtaaagatgggcgacgacttgccatcgtcacacaacatcaccatcttctgccccaggacaggagacaagacaacaaagtggatcatggaattgatcaaaaaacaaaatgacttggacactgagaactggcgtctcatatcaaggaagaatgagggtggtggctcgctcctcagccttggcattgatgacaactcatgtgccaagattatttctagcgaccacaagctgagcttcaggtttggagacatctcagtttgtggtctaaagaaggccaaggcgatcaaagccggcacaagacgggtcgagactcctcgaaatcnaccagtctccgcggagaaggagaagcccaataagctctccgaatccagcgaggatctggcggatgatgaggatctcgatgcgaccgtcatcgagatgggggatcagaccccgatatcctctcaggagctaggcatggaactagacctgctgagtgaggaagaagcggtaccggcggatggtgatctgggcatctccagatcagtaacgccgacgatggagccgatcatctaatggtcgggagtacagggatagctcaggtgaacatccatcgcgccaaggcggcctcggccgtgctggcaaggatgttcaccaagcaacatcttgggctagccctggtacaggaaccctggtataaccagggaataaaaggactgtacgtgaagaacgccaaggtaatttgggatcaacgggcttctagccctagagcctgtatcctggcatgtagaagtattaattattatatacttacagaatttctcacgcgggactgtgtaccgatcgtggtagaagatgtgggagcagccaagaagactgtggtggcatcggcatactttgccggtgacgaggcgtgcccaccgcccgaaatcactgcactggctgaacactgtaagaggacgcactcacccatcatcattggatgtgatgcaaatgcacatcacgtgatatggggcagcagcgacgtgaaccaaagaggtgagtcactcttagaatttatcttaaataacaatctagaaatcctaaatgtcggcaatgttccgacatttgttactagggtaagatctgaggttctggacattacactttccagcagatcagtggcttcgcatataagcgactggcacgtatctcctgaggagtcaatgtcagatcacagaattattcgttttaacatagggctaaatctagaatgtagcgagcgtaagcgcaatcccaggaatacgaactgggaagggttcaatgcctccttactgcgagatccagttactagggtaaccgggaaactccgtaccactctagaactggaggccgccgtagaagacattaactcgtgtcttactaacgcgttcagagaaaactgctcccttggccgagccaagagggataaagatgctccatggtggaacgaccaattggagaagttgcggaaagcgaccaggcgtctctttaacaaagcaaaaagagaagggaactgggatgcctaccggaataaactgaccatgtataaccatgagatcaggaaagccaaacgaaggaattatagaaccttctgtgaggcaatagtaaacacatgtgaaggcgctagacttcacagagcaatctccaaaggagtgccagaatcaaatcaggcactacgaaaggaggataactcctatactataggaagtaaggagaaacttgagctactactggcaactcactttccgggaagcacgcttcaaacggatgggaataccccggtaacggcacaaagtagaccgcgtgctactgattgggccaaagcaaaatcaatagtaacaacggagagattaagatgggcaattggtacattccagccctacaaatctcctggtccagatggcattcagccaatcctgcttcaacgagcgctaagtcagctcgcagcaccgatcaggaaaatactgatcagcagcctagctttaggacacatacctactgcctggagtatagcaaaagtggtcttcattccgaaagctggaaagaaagacatcactgatccgaagtcgttcagacccatcagcttgacatcgtttttgctaaaaacgttggaaaagctagtggatgtcagcattagaagcactctgcttgtggagcatccgctccaacggacgcagcatgcctacagggcgggcagatcaactgatactgccctatatcacctgaaaagccttattgaggattcactgactcataaggaagtggcgttatgtgccttcttagacatacagggtgctttcgacaatacctcccatgaggctgtcaacgcatccctggcaagaagaggactagatgcgacaaccagcagatggatcaaatcactactggcatctaggcgagccatggccactataggaggacagtcgtccacagtatctaccacaaggggttgcccccaagggggtgtcctctcgcctctcctgtggagcttgctggtagacgagttgctggacagactgacccgcaggggtatactttgccaaggctatgctgacgatattgtcattatagctagaggtaaatatgaggaaacactctgcgatatcattcaactgggcctcaatatgaccagcgaatggtgcaaggaagtaggcctgagcctaaatcctagcaaaactgttattgttcctttcacaaataggtacaagctacagagaatgaaggcaataaccctgtcagaatgtcgcatagaggccagcaaagaagttaagtatcttgggataacccttgactccaaacttagcttcaaaactcatgtcgataacacaattgataagtgcaccagagcacttttcacgtgtagaaacattgctggtaagtcgtggggaacctcaccacgcataataagatggctgtacctcatggtagtcagacccatactaacctatggggcaatagcctggggtgatagagcacgccttagcaccactaaggtgaaactccataagctgcaaagaatggcctgcgtatgcatgacaggagcaatgcgtacctgtcccactgcagccctagaagtactaatggaggtgacgccgcttcatatcgtcattgaaatgaaacggaaagccaccctaataagaattgagggagcaggaaatgactgcaacctcacaagtaaggatgctgaaagcctaaaaagggatatccctttgctaatgcaaccaagggatgagatgccagctgagcataggttcgctcagaacttcagcactcatctcagtaataaaaacagttggacatccctggggaaagtacaccctatgaaaccacaaacaataaagtggtatacagacggatccctcaccgacgagggaagtgggctgggggttgtaggccccaggttgaaataccacgaatcaatgggcagatacaccagcatttttcaagctgaagtctgtgctattggacgctgtgcggagtttaatctgcaaaggaactatcgtggcaaggacattgctatactgtctgatagtcaagcagccataaaggcgctcagcaaagctaagataacatctaagctagtaaatgaagtgaggacagccctagacaaactaggagctgtcaacaaactcacaataaggtgggtcccgggacacaacaacatcccgggaaatgagctagcggacaacctagccaggaaaggggcagagaaccctctaattgggcccgaacccttctgtggtgttggtcaccacagagtacggggcttactaaagtcactagaggaagaaaaacgtctgtccttctgggaacacctaccaggacttaggcagtctaagattctcctccgtgaatataaccataaaaggttcaagaccttaatgacacacgggaaaaacaccgtgcgcattttgactggccttcttacggggcattgccgacttcacagccatttgcacaagattggcattgcagacagtgaactctgtcgcttctgctgcatggaggaggagagctctgcacatattatatgtgactgcatggcgctttccatcaggaggaacagactcctgggcatgtatgtagtcccacgggaaacaattgcagccctgaaccccaataaaattctggcatttatacagtgcattggacttcagggggatctttgagtcatgaaggggtagtacaatagatccgactgggtcgcagtacacatacaaacccacttaataataat",
+  "length_bp": 5453,
+  "sequence_length_bp": 5453,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "331..1768",
+      "start": 330,
+      "end": 1768,
+      "qualifiers": {
+        "product": "Baggins1_gag",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "PYPGTADLCPGGPFISLQLVGTMNNRPKNIKIPQALTAGNVARQFEDRLLDGERPTSV"
+      },
+      "label": "Baggins1_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "1722..5382",
+      "start": 1721,
+      "end": 5382,
+      "qualifiers": {
+        "product": "Baggins1_pol",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "SGHLQISNADDGADHLMVGSTGIAQVNIHRAKAASAVLARMFTKQHLGLALVQEPWYN"
+      },
+      "label": "Baggins1_pol"
+    }
+  ],
+  "repbase_aliases": []
+}

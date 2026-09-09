@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001139",
+  "name": "UCON23",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON23 subfamily",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/hAT-Tip100 | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 154 BP; 51 A; 31 C; 25 G; 47 T; 0 other;"
+  },
+  "sequence": "catggcttgatttaccttgattagcgtagcaatttgctgcacatttttcaaaaagtgctaatcaatttcagctcaaaatagattgaaacgccgcacaaattgctgccacggtccaaaaatgctaatcaattttgaaaatctaaatcatggcttg",
+  "length_bp": 154,
+  "sequence_length_bp": 154,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON23"
+  ]
+}

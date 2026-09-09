@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280702",
+  "name": "SorAra-1.91",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Sorex araneus",
+  "display_classification": "LINE/L1 | Sorex araneus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Soricidae",
+    "Soricinae",
+    "Sorex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 347 BP; 113 A; 43 C; 92 G; 99 T; 0 other;"
+  },
+  "sequence": "ctcatatctcttcattctcagcaatggaaaacaaattatcaaatgctttcttttcagcaggtcgactttaggggggagaaactccaaatcaataatagtgagttttttgttgaaatattgaatgtaatcaaagtaaagtgaaagtaaagtgaaatttaccagttacacatgcggggtggggggctggggaggtggggggaggggggaggtatactgtgattcttggtggtggaatatgtgcactggtgaagggatgggtgttcgagcattgtataactgagacttaaacctgaaagctttgtaactttccacatggtgattcaataaaagaataaattaaaaaaaaa",
+  "length_bp": 347,
+  "sequence_length_bp": 347,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279305",
+  "name": "NeoAsi-1.183",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Neophocaena asiaeorientalis",
+  "display_classification": "DNA/TcMar-Tigger | Neophocaena asiaeorientalis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Phocoenidae",
+    "Neophocaena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 961 BP; 258 A; 206 C; 224 G; 273 T; 0 other;"
+  },
+  "sequence": "cagtaagtcccctacatacgaaccttcaagttgcgaactttcaaagatgcgaacgtgcgttcgcatgtccaatcacgtaagttagttcacgtgtctggcgtacattgtcacgtgcgtgcatcctctacaagtggttgtgcttttgtgtactttactgtacagtactgtatagagtacagtagtacagtatctttatttcaagcccaggatgtccggaagcaagcgggtgtagctggtactgctaatgaagacctgatggaattggaggcccagagaaaggacgaagagagacaagaggaagaagaagtaactgaagaaccgaagagattcacgacgcaggaaatggcaaggggattttctttatttgaggaggcactgttagtttttgaggcacaggacccgaacgtagaacggtacacgaaggttgcagcagccgttcagaatgcaatccagtgctaccgtgtcatctatgacgagaaaaaaagagctactacccagacatcactggatcgttttttcaagagggtagatagaattgaatccagcaaggaaccagaacctgtgccatcaacgtcaggcgtgagtgaaattgcagcttgccctccgtctcctattgctgacgatccttcagctctaccatctcccacctcctctccctcctccagtcagtaactcttcttgcctgttcactcgatgccagcccctgtatgccagctgttgtactgtactactgtacttttcaaggtactgtactgtaagattaaaaatgttttctttattttttgtgtttgttttttatgtattatttgtgtgaaaagtattataaacctattacagtacagtactatatagccgattgtgttagttgggtacctaggctaactttgttggacttacgaacaaattggacttacgaacgcgctctcggaacggaactcgttcgtatgtaggggacttactg",
+  "length_bp": 961,
+  "sequence_length_bp": 961,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

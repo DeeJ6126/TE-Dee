@@ -1,0 +1,41 @@
+{
+  "accession": "DF000000978",
+  "name": "hAT-N1_Mam",
+  "description": "Putative hAT-Tip10 DNA transposon, hAT-N1_Mam subfamily",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 340 BP; 87 A; 80 C; 64 G; 107 T; 2 other;"
+  },
+  "sequence": "ctggggatcnggggntcttcagaggagcctcagagcagcttcctgctctgcccggttcctcccccccttccccccagctgaccccagaaatgcttggtttggctgtgtaaaagtaatactaattacagtcatttacgtgaactgcttaccatttatgcctaattaccatgcagcacaataacgattatgcatatcattaaatatgtgtcagattaactttgttgtaagttttatttgattacaacactaaactctgttcacgtatgctcagtcttcatagtttgttgctcacgtagcatggtcgtctgctcacaactttaaaaaattagagggaacattg",
+  "length_bp": 340,
+  "sequence_length_bp": 340,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

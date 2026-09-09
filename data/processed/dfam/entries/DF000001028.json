@@ -1,0 +1,48 @@
+{
+  "accession": "DF000001028",
+  "name": "MLT2A2",
+  "description": "MLT2A2 Long Terminal Repeat for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT2A2"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 453 BP; 105 A; 110 C; 110 G; 125 T; 3 other;"
+  },
+  "sequence": "tgtgatggttaatactgagtgtcaacttgattggattgaaggatgcaaagtattgttcctgggtgtgtctgtgagggtgttgccaaaggagattaacatttgagtcagtggactgggagaggcagacccaccctcaatctgggtgggcaccatctaatcagctgccagcgcggccagaatanaaagcaggcagaagaacgtggaaagactagactggctnagtcttccggcctncatctttctcccgtgctggatgcttcctgccctcgaacatcggactccaagttcttcagctttgggactcggactggcttccttgctcctcagcttgcagacggcctattgtgggacctcaccttgtgatcgtgtgagtcaatactccttaataaactcccctttatatatacatctatcctattagttctgtccctctagagaaccctgactaataca",
+  "length_bp": 453,
+  "sequence_length_bp": 453,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLT2A2"
+  ]
+}

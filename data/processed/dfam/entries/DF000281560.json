@@ -1,0 +1,51 @@
+{
+  "accession": "DF000281560",
+  "name": "AntAme-5.793_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "AntAme-5.793_LTR"
+  ],
+  "species": "Antilocapra americana peninsularis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Antilocapra americana peninsularis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Antilocapridae",
+    "Antilocapra",
+    "Antilocapra americana"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 499 BP; 134 A; 111 C; 101 G; 153 T; 0 other;"
+  },
+  "sequence": "tgagagagtcatctcctaggcaggttgataagaagtctaggggtccccaaggagagaggagtctggaattctcaaggaggaagaaaggacaaacttatttttctctctactacattccttaggattatataacaataatgtatcctgcttgaggacagtctggaaaaaaaccttctggctaatcctgttatcttaaaatgtaaatcatgggaatgggtctggtgaggtctttacaacctccagacattcttttgattcactgtaataactaatttgagagtatataactccagtgctaacgctagcaagggggtactctttctgcccccttctgatgcctatgtcagaagctttctctatctcctttatactttaataaaactttattacacaaaagctctgagcgatcaagcctcgtccctggccccggattgaattcttctcttccggaggccaagattcccggcgtctttgtcgtggtttcgtccacaacctttca",
+  "length_bp": 499,
+  "sequence_length_bp": 499,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

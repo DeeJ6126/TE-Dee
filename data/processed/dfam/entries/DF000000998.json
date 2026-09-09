@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000998",
+  "name": "MamTip2",
+  "description": "Probable hAT-Tip100 DNA transposon, MamTip2 subfamily",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/hAT-Tip100 | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 305 BP; 68 A; 80 C; 88 G; 68 T; 1 other;"
+  },
+  "sequence": "cagggccggccttacgcgtaggcagagtaggcggccgcctacgtggtgtgatttgaggggcgccgggaaggctcccctgccccaaaatatctctcccatccgcctgtcacggtgcctgaaattccaccattagagattcattcctttgggtcttgaaggctttttggtctccaggagtcccctattaaaatgcaaatacccctgggaggggtaacaccttaagccattatcagctaacaccttagcggggattagttgacagctagctgagagcaaggccctgngggaatgggacacaggatggg",
+  "length_bp": 305,
+  "sequence_length_bp": 305,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,39 @@
+{
+  "accession": "DF000004197",
+  "name": "Blackjack-1N_Saurop",
+  "description": "hAT-Blackjack DNA Transposon",
+  "keywords": [
+    "DNA/hAT-Blackjack"
+  ],
+  "species": "Sauropsida",
+  "display_classification": "DNA/hAT-Blackjack | Sauropsida",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 554 BP; 155 A; 110 C; 117 G; 171 T; 1 other;"
+  },
+  "sequence": "taaagtgaccgtacgtcccggttttaccgggacagtcccggtttttcatatgatgtcccggtgtcccaggaacttctttcgggacacctgaaatgtcccggtttttcatttcatcaatcaaaacgtttggtttttttataactacaaaatgtttgttcaagacgtattgctataccgagtagaatttgctctgtgtttaccaggaacaaacagtccagtggaacgagcgttcagtgtgatgaacagtgtttggagtgaagagaaaagtcgaatgagcgtagacgctatcaaagctgttcttttgctcaaagtgaatgttaacgacacttgttcagtgtttcatgataaactcattcagaacactaagttactggaaaaaatcctccactccgagaaatatgcacgtgtcgctgttgagtcagaagctggcagtagcgacaccagcacacatttttaaaaagtgtacttttgtcttttgtatgantatttcgcgaccctaaaaatgtcgccacaaaagtgtcccggtttttgattttgaaaatatggtcacctta",
+  "length_bp": 554,
+  "sequence_length_bp": 554,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

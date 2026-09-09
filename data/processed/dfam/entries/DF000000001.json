@@ -1,0 +1,41 @@
+{
+  "accession": "DF000000001",
+  "name": "MIR",
+  "description": "MIR (Mammalian-wide Interspersed Repeat)",
+  "keywords": [
+    "SINE/MIR"
+  ],
+  "species": "Mammalia",
+  "display_classification": "SINE/MIR | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 262 BP; 70 A; 54 C; 62 G; 76 T; 0 other;"
+  },
+  "sequence": "acagtatagcatagtggttaagagcacgggctctggagccagactgcctgggttcgaatcccggctctgccacttactagctgtgtgaccttgggcaagttacttaacctctctgtgcctcagtttcctcatctgtaaaatggggataataatagtacctacctcatagggttgttgtgaggattaaatgagttaatacatgtaaagcgcttagaacagtgcctggcacatagtaagcgctcaataaatgttagctattatt",
+  "length_bp": 262,
+  "sequence_length_bp": 262,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MIR"
+  ]
+}

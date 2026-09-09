@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000680",
+  "name": "tRNA-Lys-AAG",
+  "description": "tRNA-Lys (decoding AAG) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 76 BP; 13 A; 22 C; 25 G; 16 T; 0 other;"
+  },
+  "sequence": "gcccggctagctcagtcggtagagcatgagactcttaatctcagggtcgtgggttcgagccccacgttgggcgcca",
+  "length_bp": 76,
+  "sequence_length_bp": 76,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "tRNA-Lys-AAG"
+  ]
+}

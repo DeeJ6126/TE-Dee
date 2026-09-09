@@ -1,0 +1,43 @@
+{
+  "accession": "DF000001164",
+  "name": "Eutr11",
+  "description": "Ancient interspersed repetitive sequence from eutherian mammals.",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/ | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 857 BP; 215 A; 161 C; 139 G; 340 T; 2 other;"
+  },
+  "sequence": "caggacgttttgaccccgccgttttgaccccgaggacgttttgactccgtgtttatgaatacaaacattttaatcagaattataccaacattgatgaattttcgtcgagaaagtattttccggagcgaactccattaagccaatttaattccttgatcaattttctatacagcgcagttaaaccatttccantttttcccatttttattttattttactgaaattattttcatttgattcattgatctcattttttgtccatatcaaattttaccgattatagcttctgccattgtgagttttcttttgtggccattatttctaccaagtccaattttcccgggtcaaattttgcagatctaaattttgtcaagaagatttgattcttccgtcaatttttagtcaataacaaattttaccgtgtgcagttttagccgttgtcagttttattttgtgttgattatttctaccaagtctaatttttcccgggtcaatttttgcagttttcaatnttaccaacaagatgtgattcttcagtcagtttttcgtctataacaaattttaccgtgtgcagttttagccattgtcagttttattttgtgttgattatttctaccagtaatattcattatgaattggataaaagactgatagtttgtatttatttcttagctaatccatgagaaaattgtgagcaattcccctcagatattccaggattgctctattgtccaggattggtctattgtattgctaatccaattcttccgtatacttctgatcactttgcgtactgcgtactaactgtccgcgccgttggcggagcaaagagcaaacggcggggtcaaaatgttctg",
+  "length_bp": 857,
+  "sequence_length_bp": 857,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Eutr11"
+  ]
+}

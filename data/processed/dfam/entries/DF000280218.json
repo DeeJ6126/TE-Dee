@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280218",
+  "name": "PteAle-1.45",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/5S"
+  ],
+  "species": "Pteropus alecto",
+  "display_classification": "SINE/5S | Pteropus alecto",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Megachiroptera",
+    "Pteropodidae",
+    "Pteropodinae",
+    "Pteropus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 213 BP; 69 A; 47 C; 56 G; 41 T; 0 other;"
+  },
+  "sequence": "gtctacggccatgccaccctgaacaagcccgatcccgtctgatctcggaagctaagcagggtcgggcctggttagtacttggatgggagaccacctaggaagaccaggtgctgtaggcgtaaaaaataaaaaaataaataagggattgtaagctgacaaggtccttgcaatctgtgaggtcaaccaagggttgcctcgcctaaaaaaaaaaaa",
+  "length_bp": 213,
+  "sequence_length_bp": 213,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

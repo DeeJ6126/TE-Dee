@@ -1,0 +1,45 @@
+{
+  "accession": "DF000000237",
+  "name": "L1M3a_5end",
+  "description": "5' end of L1 retrotransposon, L1M3a_5end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Euarchontoglires",
+  "display_classification": "LINE/L1 | Euarchontoglires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1175 BP; 328 A; 374 C; 301 G; 161 T; 11 other;"
+  },
+  "sequence": "ggagtgacatcagcaagatggcggaataggaggtcccccgctcatatccccccacagcaacaataatttggcagccatccacggacaaaagtgcctttgtgggagctttgggatccaggtaggaggttgcgaaaccccggtggagcccaagaccgaggagggccgtttgagaaggcaggcccgcgcccaggtggcaggctcgccgaccgtggtcccggctacagacccggaaacggccccgtccccctgtggactcggctacagccccatttggccttggtcctgccaccagnaccatccgccaagggacccgggaggagncacgcccacccgtgcctcnggtgacaggcccgccgacctcggtcccggctgtggaccctgaagcggcccgtgactcggctccagcccctctcagccgcggtccggagccagtcctgcccgcccagggacccgcccagtgacccggnaagagcnctcccagggacccagcgggagccacacccatccacgcacctggtaacaggcccgccatntgcagacccgactgcggatcctgaagcggccctgtaacccggctccagccctactcgaccaaggtcctggaggcagtcctgcccgcccagggacccggcgggagncacgcccatccgtgcccctggngacaggcccgccaacctcagtcccactgcggaccctgaagcagcagccatgtgacccggctccaaccccnctcgactgcgatcccagaggcaatcccatcagcccggggacccgacaggagaaggtcttcctnccgaaaccagtctgtaaagactggaagaggtgtttgctccttcaaatgcacagacaccaacgcaaggctacacggatnacgaagaatcaggcaaacatgacaccaccaaaggaaactaataaagctccagtaaccgaccccaaagaaatggagatctacgaattgcctgacaaagaattcaaaataatcatcttaaagaagctcaatgagatgcaagagaacacagatagacaactaaataaaatcaggaaaacaatgcatgaacaaaatgagaagtttaataaagaaatagaaaccataaaaaagaaccaaacagaaatcctggagctgaagaatacaatgacagaactgaaaaattcaatagagagcttcaacagcagac",
+  "length_bp": 1175,
+  "sequence_length_bp": 1175,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1M3B_5"
+  ]
+}

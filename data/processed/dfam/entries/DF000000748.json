@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000748",
+  "name": "MER33",
+  "description": "hAT-Charlie DNA transposon, MER33 subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 324 BP; 107 A; 44 C; 56 G; 117 T; 0 other;"
+  },
+  "sequence": "ctgcgctgtccaatacggtagccactagccacatgtggctattgagcacttgaaatgtggctagtccgaattgagatgtgctgtaagtgtaaaatacacaccggatttcgaagacttagtacgaaaaaaagaatgtaaaatatctcattaataatttttatattgattacatgttgaaatgataatattttggatatattgggttaaataaaatatattattaaaattaatttcacctgtttctttttactttttttaatgtggctactagaaaatttaaaattacatatgtggctcgcattatatttctattggacagcgctg",
+  "length_bp": 324,
+  "sequence_length_bp": 324,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER33"
+  ]
+}

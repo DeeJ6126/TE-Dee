@@ -1,0 +1,421 @@
+\documentclass[UTF8]{ctexart}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\emergencystretch=3em
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue
+}
+
+\title{TE-KG 数据库现状说明}
+\author{TE-KG Project}
+\date{2026-05-17}
+
+\begin{document}
+\maketitle
+
+\section{范围}
+
+本文记录当前 TE-KG 项目的数据库与数据资产状态，覆盖 Neo4j、MySQL、主要运行时数据文件、非智能问答 API 和构建脚本。本文不覆盖智能问答、agent 编排、LLM 调用链路和 agent 插件内部实现。
+
+\section{总体结构}
+
+当前项目是本地 PHP、JavaScript、Neo4j、MySQL 混合应用。运行时页面仍位于项目根目录，数据资产主要位于 \verb|data| 目录，构建和检查脚本位于 \verb|scripts| 目录。
+
+\begin{itemize}
+  \item Neo4j 当前运行目标为 \texttt{tekg3}。
+  \item MySQL expression 数据库为 \texttt{tekg\_expression}。
+  \item PHP 路径入口为 \verb|path_config.php|。
+  \item PHP 运行时 Neo4j 配置入口为 \verb|api/runtime_config.php|。
+  \item 浏览器端路径入口为 \verb|assets/js/tekg_paths.php|。
+  \item Python 路径入口为 \verb|scripts/path_helpers.py|。
+\end{itemize}
+
+\section{Neo4j 数据库}
+
+\subsection{连接目标}
+
+当前本地配置位于 \verb|api/config.local.php|，Neo4j HTTP endpoint 指向：
+
+\begin{verbatim}
+http://127.0.0.1:7474/db/tekg3/tx/commit
+\end{verbatim}
+
+运行时代码不再在各 API 文件中各自维护 \texttt{tekg2} 或 \texttt{tekg21} 默认值。缺少本地配置或环境变量时，应由 \verb|api/runtime_config.php| 抛出明确配置错误。
+
+\subsection{节点标签计数}
+
+\begin{longtable}{lr}
+\toprule
+Label & Count \\
+\midrule
+\endhead
+Function & 3683 \\
+Paper & 2308 \\
+Gene & 1280 \\
+Protein & 1089 \\
+DiseaseCategory & 767 \\
+Disease & 676 \\
+RNA & 588 \\
+Mutation & 377 \\
+Pharmaceutical & 293 \\
+TE & 225 \\
+Toxin & 67 \\
+Lipid & 26 \\
+Peptide & 23 \\
+Carbohydrate & 12 \\
+NonHumanTE & 1 \\
+\bottomrule
+\end{longtable}
+
+\subsection{关系类型计数}
+
+\begin{longtable}{lr}
+\toprule
+Relationship type & Count \\
+\midrule
+\endhead
+BIO\_RELATION & 12444 \\
+HAS\_SUBCATEGORY & 744 \\
+CLASSIFIED\_AS & 436 \\
+SUBFAMILY\_OF & 72 \\
+\bottomrule
+\end{longtable}
+
+\subsection{主要关系形态}
+
+当前 \texttt{BIO\_RELATION} 是主要生物关系类型，具体语义放在关系属性 \texttt{predicate} 中。计数较高的关系形态包括：
+
+\begin{longtable}{lllr}
+\toprule
+Type & Source label & Target label & Count \\
+\midrule
+\endhead
+BIO\_RELATION & TE & Function & 2841 \\
+BIO\_RELATION & Protein & Function & 1377 \\
+BIO\_RELATION & Function & Function & 1194 \\
+BIO\_RELATION & Function & Disease & 785 \\
+HAS\_SUBCATEGORY & DiseaseCategory & DiseaseCategory & 744 \\
+BIO\_RELATION & TE & Disease & 526 \\
+CLASSIFIED\_AS & Disease & DiseaseCategory & 436 \\
+BIO\_RELATION & TE & Gene & 414 \\
+BIO\_RELATION & Protein & TE & 407 \\
+BIO\_RELATION & Protein & Protein & 406 \\
+SUBFAMILY\_OF & TE & TE & 72 \\
+\bottomrule
+\end{longtable}
+
+\subsection{核心节点属性}
+
+\begin{longtable}{L{3.4cm}L{10.8cm}}
+\toprule
+Label & Observed property keys \\
+\midrule
+\endhead
+TE & \texttt{name}, \texttt{description}, \texttt{source\_group}, \texttt{taxonomy\_group}, \texttt{taxonomy\_status}, \texttt{taxonomy\_source}, \texttt{taxonomy\_canonical\_name}, \texttt{taxonomy\_class}, \texttt{taxonomy\_subclass}, \texttt{taxonomy\_order}, \texttt{taxonomy\_superfamily}, \texttt{taxonomy\_family}, \texttt{taxonomy\_subclade}, \texttt{is\_leaf\_standard}, \texttt{homepage\_chart\_included} \\
+Paper & \texttt{name}, \texttt{description}, \texttt{source\_group}, \texttt{pmid} \\
+Disease & \texttt{name}, \texttt{description}, \texttt{source\_group}, \texttt{disease\_class} \\
+DiseaseCategory & \texttt{name}, \texttt{source\_group}, \texttt{category\_level}, \texttt{category\_node\_id}, \texttt{category\_label}, \texttt{top\_category}, \texttt{is\_leaf}, \texttt{path\_key} \\
+Gene & \texttt{name}, \texttt{description}, \texttt{source\_group}, \texttt{reclassified\_reason} \\
+Other biochemical labels & \texttt{name}, \texttt{description}, \texttt{source\_group}. This includes Protein, RNA, Function, Mutation, Pharmaceutical, Toxin, Lipid, Peptide, and Carbohydrate. \\
+\bottomrule
+\end{longtable}
+
+\subsection{关系属性}
+
+\begin{itemize}
+  \item \texttt{BIO\_RELATION}: commonly has \texttt{predicate}, \texttt{pmids}, \texttt{description}, and \texttt{source\_group}.
+  \item \texttt{SUBFAMILY\_OF}: may have \texttt{child\_tree\_label}, \texttt{parent\_tree\_label}, \texttt{tree\_reference}, and \texttt{source}.
+  \item \texttt{CLASSIFIED\_AS}: has disease classification metadata such as \texttt{source\_disease\_name}, \texttt{mapping\_type}, \texttt{top\_category}, \texttt{leaf\_category\_label}, and \texttt{path\_depth}.
+  \item \texttt{HAS\_SUBCATEGORY}: currently has \texttt{source\_group}.
+\end{itemize}
+
+\subsection{约束与索引}
+
+当前数据库有节点唯一性约束，主要覆盖核心实体的名称字段：
+
+\begin{longtable}{lll}
+\toprule
+Constraint & Label & Property \\
+\midrule
+\endhead
+te\_name\_unique & TE & name \\
+function\_name\_unique & Function & name \\
+gene\_name\_unique & Gene & name \\
+protein\_name\_unique & Protein & name \\
+rna\_name\_unique & RNA & name \\
+disease\_name\_unique & Disease & name \\
+mutation\_name\_unique & Mutation & name \\
+pharmaceutical\_name\_unique & Pharmaceutical & name \\
+toxin\_name\_unique & Toxin & name \\
+lipid\_name\_unique & Lipid & name \\
+peptide\_name\_unique & Peptide & name \\
+carbohydrate\_name\_unique & Carbohydrate & name \\
+paper\_pmid\_unique & Paper & pmid \\
+disease\_category\_id\_unique & DiseaseCategory & category\_node\_id \\
+\bottomrule
+\end{longtable}
+
+\section{TE Taxonomy 状态}
+
+\subsection{权威来源}
+
+当前运行时 TE taxonomy 权威来源是 Neo4j \texttt{tekg3} 中 \texttt{TE} 节点的 \texttt{taxonomy\_*} 属性。旧的 lineage JSON/CSV 和旧 G6 demo data 不再作为运行时真相源。
+
+\subsection{分类计数}
+
+\begin{longtable}{lr}
+\toprule
+Metric & Count \\
+\midrule
+\endhead
+TE nodes & 225 \\
+TE nodes with taxonomy\_group & 225 \\
+TE nodes with taxonomy\_class & 192 \\
+Homepage chart nodes & 154 \\
+Leaf standard nodes & 188 \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}{lr}
+\toprule
+taxonomy\_group & Count \\
+\midrule
+\endhead
+standard & 138 \\
+A & 36 \\
+B & 35 \\
+C & 16 \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}{lr}
+\toprule
+taxonomy\_class & Count \\
+\midrule
+\endhead
+Retrotransposons & 156 \\
+DNA Transposons & 36 \\
+missing & 33 \\
+\bottomrule
+\end{longtable}
+
+\subsection{主要 order 与 superfamily}
+
+\begin{longtable}{lr}
+\toprule
+taxonomy\_order & Count \\
+\midrule
+\endhead
+missing & 111 \\
+LTR Retrotransposons & 90 \\
+Non-LTR Retrotransposons (LINEs) & 24 \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}{lr}
+\toprule
+taxonomy\_superfamily & Count \\
+\midrule
+\endhead
+ERV1 & 41 \\
+missing & 41 \\
+ERV3 (HERV-R) & 26 \\
+SINE1/7SL (Alu) & 23 \\
+ERV2 (HERVK) & 21 \\
+L1 (LINE-1) & 21 \\
+Tc1/Mariner & 13 \\
+hAT & 13 \\
+SINE-R & 10 \\
+SINE2/tRNA & 5 \\
+\bottomrule
+\end{longtable}
+
+\subsection{标准化报告}
+
+当前标准化报告位于：
+
+\begin{verbatim}
+data/processed/tekg3_taxonomy_standardization_report.json
+\end{verbatim}
+
+报告现在区分输入记录与合并后节点：
+
+\begin{itemize}
+  \item \texttt{input\_records}: 228
+  \item \texttt{post\_merge\_te\_nodes}: 225
+  \item \texttt{homepage\_chart\_nodes}: 154
+  \item \texttt{operation\_counts}: rename 27, merge 3
+\end{itemize}
+
+顶层 \texttt{counts} 已改为合并后的计数，即 \texttt{standard=138}, \texttt{A=36}, \texttt{B=35}, \texttt{C=16}。
+
+\section{MySQL Expression 数据库}
+
+\subsection{连接目标}
+
+Expression MySQL 数据库由 \verb|api/expression_data.php| 读取配置。当前本地配置为：
+
+\begin{itemize}
+  \item host: \texttt{127.0.0.1}
+  \item port: \texttt{3306}
+  \item database: \texttt{tekg\_expression}
+  \item charset: \texttt{utf8mb4}
+\end{itemize}
+
+\subsection{表计数}
+
+\begin{longtable}{lr}
+\toprule
+Table & Rows \\
+\midrule
+\endhead
+expression\_context\_catalog & 143 \\
+expression\_dataset\_summary & 113604 \\
+expression\_context\_stats & 5415124 \\
+expression\_browse\_summary & 37868 \\
+\bottomrule
+\end{longtable}
+
+\subsection{数据集}
+
+\begin{longtable}{lllr}
+\toprule
+dataset\_key & dataset\_label & dataset\_order & Contexts \\
+\midrule
+\endhead
+normal\_tissue & Normal Tissue & 1 & 32 \\
+normal\_cell\_line & Normal Cell Line & 2 & 54 \\
+cancer\_cell\_line & Cancer Cell Line & 3 & 57 \\
+\bottomrule
+\end{longtable}
+
+Expression summary 当前覆盖 37868 个 TE 名称和 3 个 dataset。
+
+\subsection{主要表用途}
+
+\begin{longtable}{L{5.4cm}L{9.2cm}}
+\toprule
+Table & Purpose \\
+\midrule
+\endhead
+expression\_context\_catalog & dataset/context catalog, context display order, and run count metadata. \\
+expression\_dataset\_summary & per-TE per-dataset summary, including top contexts and aggregate max/mean/median metrics. \\
+expression\_context\_stats & per-TE per-context statistics, including min, q1, median, q3, mean, max, std, and cv. \\
+expression\_browse\_summary & one-row-per-TE browse table used by the Expression page. \\
+\bottomrule
+\end{longtable}
+
+\subsection{文件来源}
+
+Canonical expression asset root:
+
+\begin{verbatim}
+data/bulk_expression_web
+\end{verbatim}
+
+Important files:
+
+\begin{itemize}
+  \item \verb|data/bulk_expression_web/processed/te_expression_context_stats.tsv|
+  \item \verb|data/bulk_expression_web/processed/te_expression_dataset_summary.tsv|
+  \item \verb|data/bulk_expression_web/processed/te_expression_browse_summary.tsv|
+  \item \verb|data/bulk_expression_web/processed/te_expression_context_catalog.tsv|
+  \item \verb|data/bulk_expression_web/processed/expression_mysql_schema.sql|
+\end{itemize}
+
+Expression 构建脚本：
+
+\begin{verbatim}
+scripts/build/prepare_expression_assets.py
+\end{verbatim}
+
+\section{主要运行时 API}
+
+不含智能问答时，核心数据库相关 API/入口为：
+
+\begin{longtable}{lp{10cm}}
+\toprule
+File & Purpose \\
+\midrule
+\endhead
+\path{api/runtime_config.php} & shared Neo4j runtime config loader. \\
+\path{api/health.php} & health check, includes resolved Neo4j database name. \\
+\path{api/taxonomy.php} & Neo4j-backed TE taxonomy API. \\
+\path{api/taxonomy_lib.php} & shared PHP taxonomy query/helper library. \\
+\path{api/graph.php} & graph search/query API, now includes taxonomy payload for TE nodes. \\
+\path{api/te_metrics.php} & degree-style TE metric API. \\
+\path{api/expression_data.php} & MySQL expression data access helper. \\
+\bottomrule
+\end{longtable}
+
+\section{主要页面与数据库关系}
+
+\begin{longtable}{L{4.8cm}L{9.8cm}}
+\toprule
+Page & Database/data dependency \\
+\midrule
+\endhead
+\path{index.php} & Uses Neo4j taxonomy for homepage ring chart; falls back to \path{data/processed/tekg3_homepage_taxonomy.json} only if live query fails. \\
+\path{preview.php} & Uses graph API/runtime graph data. \\
+\path{search.php} & Uses Repbase, Dfam, JBrowse assets, and Neo4j-backed taxonomy helper. \\
+\path{browse.php} & Uses Neo4j-backed taxonomy helper and local browse assets. \\
+\path{genomic.php} and \path{jbrowse.php} & Use JBrowse assets under \path{data/JBrowse}. \\
+\path{expression.php} and \path{expression_detail.php} & Use MySQL \texttt{tekg\_expression} and fallback TSV under \path{data/bulk_expression_web}. \\
+\path{epigenetics.php} & Static/placeholder-oriented runtime page at present; future database dependency should be documented before adding data. \\
+\bottomrule
+\end{longtable}
+
+\section{运行时数据资产}
+
+\begin{longtable}{L{6.2cm}L{8.4cm}}
+\toprule
+Path & Role \\
+\midrule
+\endhead
+\path{data/taxonomy/transposon_tree/tree_rmsk_repbase.txt} & TE taxonomy source input used by the standardization workflow. \\
+\path{data/taxonomy/transposon_tree/tree_all.txt} & broader TE taxonomy source input. \\
+\path{data/taxonomy/te_234/*} & TE taxonomy/reference material. \\
+\path{data/processed/tekg3_taxonomy_standardization_report.json} & generated taxonomy standardization report. \\
+\path{data/processed/tekg3_homepage_taxonomy.json} & homepage taxonomy fallback cache, not primary runtime source. \\
+\path{data/processed/dfam/dfam_curated_catalog.json} & Dfam curated catalog used by search/detail flows. \\
+\path{data/bulk_expression_web/*} & expression raw and processed assets. \\
+\path{data/JBrowse/*} & genome browser and repeat locus assets. \\
+\path{data/terminology/*} & terminology assets. \\
+\bottomrule
+\end{longtable}
+
+\section{构建与检查脚本}
+
+\begin{longtable}{L{6.2cm}L{8.4cm}}
+\toprule
+Script & Purpose \\
+\midrule
+\endhead
+\path{scripts/normalize/build_tekg3_from_tekg21.py} & builds/normalizes \texttt{tekg3} from \texttt{tekg21} and writes taxonomy outputs. \\
+\path{scripts/build/prepare_expression_assets.py} & builds expression TSV summaries and MySQL schema from \path{data/bulk_expression_web}. \\
+\path{scripts/checks/check_taxonomy_runtime_consistency.py} & validates Neo4j-backed taxonomy runtime consistency. \\
+\path{scripts/checks/check_runtime_db_config.py} & validates runtime DB config does not fall back to old DB names. \\
+\path{scripts/checks/check_expression_paths.py} & validates expression path strategy uses \path{data/bulk_expression_web}. \\
+\bottomrule
+\end{longtable}
+
+\section{Current Caveats}
+
+\begin{itemize}
+  \item \texttt{BIO\_RELATION} predicate vocabulary is not yet strongly normalized.
+  \item Expression data is large and should stay summarized in Neo4j rather than fully duplicated into the graph.
+  \item Some historical scripts still reference old \texttt{tekg2}, \texttt{tekg21}, or old taxonomy filenames; these should remain clearly legacy.
+  \item Some Python bytecode files are currently tracked and should be removed from Git history/index in a cleanup pass.
+  \item Large runtime data should receive an explicit manifest with path, role, source, size, and generating script.
+\end{itemize}
+
+\end{document}

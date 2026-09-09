@@ -1,0 +1,51 @@
+{
+  "accession": "DF000001998",
+  "name": "RLTR12H",
+  "description": "Long terminal repeat of endogenous retrovirus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR12H"
+  ],
+  "species": "Muridae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 609 BP; 173 A; 107 C; 194 G; 131 T; 4 other;"
+  },
+  "sequence": "tgttggaggagggtcttgtgcnctgtgtattcagatgctgatttctgtgccccgagatctagttacagtccggacacgggcattgtcatgaatattgaagaatctcctgtatcaatgtggtgtaaagaatgctccccaattatctctgattggttaataaaaggctgaacagccaatgactgggcagaggagatagaaaggctggacttccgatcccagccaggggtctnncgagggagaagagccaggagaaggagttcgccacgaggcaggtgagggtccaggagaagaagagggccacgaggcaggtggaggaaggaagaagaggagagggaagaggaggtcgccatgaggtcgggcatgaggaggagtcgccaagggagttctccatgaggacagacagctgcagcagagcgagccaaggagagactaaatgcaagtaactcggggcgtgtggctgggnaagtagctagatagcatagagggttaggaatatctgctcagttattgtgcttaaagcttgttgaataaatcaataggtctccgtctcaattatttgggagctagccgggttagaaaaaaactgccacttttaaatttcatcctata",
+  "length_bp": 609,
+  "sequence_length_bp": 609,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR12H"
+  ]
+}

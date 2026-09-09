@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279407",
+  "name": "NycCou-1.35",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B4"
+  ],
+  "species": "Nycticebus coucang",
+  "display_classification": "SINE/B4 | Nycticebus coucang",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lorisiformes",
+    "Lorisidae",
+    "Nycticebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 267 BP; 72 A; 69 C; 86 G; 40 T; 0 other;"
+  },
+  "sequence": "gggcggcgcctgtggctcagtgagtagggcgccggccccatatgccgagggtggcgggttcaaacccagccccggccaaactgcaacaaaaaaaaaaaaaaaaaatagccgggcgttgtggcgggcgcctgtagtcccagctgctcgggaggctgaggcaagagaatcgcgtaagcccaagagttagaggttgctgtgagccgtgtgacgccacggcactctacccgagggcggtacagtgagactctgtctctacaaaaaaaaaaa",
+  "length_bp": 267,
+  "sequence_length_bp": 267,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

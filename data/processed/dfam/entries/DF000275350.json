@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275350",
+  "name": "CavApe-4.26",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Cavia aperea",
+  "display_classification": "SINE/ID | Cavia aperea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Caviidae",
+    "Cavia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 90 BP; 24 A; 21 C; 29 G; 16 T; 0 other;"
+  },
+  "sequence": "ggggctggggatttagctcagcggcataagcgcctgccttgcaagcaggcggtcgtgagttcgatccccggtaccgataaaaaagaaaaa",
+  "length_bp": 90,
+  "sequence_length_bp": 90,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,47 @@
+{
+  "accession": "DF000276438",
+  "name": "DicSum-1.7",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Dicerorhinus sumatrensis",
+  "display_classification": "SINE/tRNA | Dicerorhinus sumatrensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Perissodactyla",
+    "Rhinocerotidae",
+    "Dicerorhinus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 195 BP; 44 A; 57 C; 60 G; 34 T; 0 other;"
+  },
+  "sequence": "ggggccggcccggtggcgtagtggttaagttcgcgcgctccgcttcggcggcccggggttcgcgggttcggatcccgggcgcggacctacacaccgctcatcaagccatgctgtggcggcgtcccacatacaaaatagaggaagattggcacagatgttagctcagggccaatcttcctcaccaaaaaaaaaaaa",
+  "length_bp": 195,
+  "sequence_length_bp": 195,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,53 @@
+{
+  "accession": "DF000004145",
+  "name": "IAPLTR4",
+  "description": "Mouse family of LTR retrotransposons - a consensus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "IAPLTR4"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 345 BP; 65 A; 91 C; 90 G; 97 T; 2 other;"
+  },
+  "sequence": "tgtgaggagccgcccttgcaatcgccattacaagatggcgctgatatccggtgttctaactggtaaacaagtagtctgcgcatgtgctggggtatttttccattccttgtgccctgcctgtcccgtggcgtcatctgggctgatagtgagcagccagtcagggtgaaatacgtctccaaccnctcttgtggtctatttaaggaccgagtttcctgtgttctgggcctcctcccccagaagctgatcatctttctctcgagatgcattaaagctatgctgcagaaggatccgagtgtgtcctgtgtgtgtgtcctcgccggcgagactccttatcacacaggnaca",
+  "length_bp": 345,
+  "sequence_length_bp": 345,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "IAPLTR4_LTR"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276894",
+  "name": "EscRob-1.151",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eschrichtius robustus",
+  "display_classification": "DNA/hAT-Charlie | Eschrichtius robustus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Mysticeti",
+    "Eschrichtiidae",
+    "Eschrichtius"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 234 BP; 40 A; 93 C; 68 G; 33 T; 0 other;"
+  },
+  "sequence": "caggggtccccaacccccgggccgcggaccggtaccggtccgcggcctgttaggaaccgggccgcacagcaggaggtgagcggcgggcgagcgagcgaagcttcatctgccgctccccatcgctccccatcgctcgcattaccgcctgaaccatcccccccccccccccccgtccgtggaaaaattgtcttccacgaaaccggtccctggtgccaaaaaggttggggaccgctg",
+  "length_bp": 234,
+  "sequence_length_bp": 234,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

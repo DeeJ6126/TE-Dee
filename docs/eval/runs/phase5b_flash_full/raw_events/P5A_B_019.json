@@ -1,0 +1,2937 @@
+{
+  "case": {
+    "case_id": "P5A_B_019",
+    "question": "TE-KG 中哪些 TE family 的疾病连接度最高？请给 top 20 CSV 风格表格。",
+    "category": "graph_ranking_export",
+    "expected_best_mode": "agent",
+    "dt_expectation": {
+      "should_answer": true,
+      "max_expected_depth": "explain_agent_needed",
+      "should_suggest_agent": true
+    },
+    "agent_expectation": {
+      "should_answer": true,
+      "min_expected_depth": "global_aggregation_table",
+      "required_plugins": [
+        "Graph Analytics Plugin"
+      ],
+      "optional_plugins": [
+        "Cypher Explorer Plugin"
+      ],
+      "required_artifacts": [
+        "evidence_package",
+        "report_plan"
+      ]
+    },
+    "comparison_metrics": [
+      "tool_call_accuracy",
+      "cypher_execution_accuracy",
+      "ranking_correctness",
+      "export_format_success",
+      "metric_transparency"
+    ]
+  },
+  "dt": {
+    "ok": true,
+    "http_status": 200,
+    "headers": {
+      "Date": "Tue, 26 May 2026 13:36:29 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Cache-Control": "no-cache, no-transform",
+      "X-Accel-Buffering": "no",
+      "Connection": "keep-alive, close",
+      "Content-Encoding": "none",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "text/event-stream; charset=utf-8"
+    },
+    "events": [
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-P5A_B_019",
+        "message": "Recognized entities: none yet.",
+        "payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": []
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": []
+        },
+        "display_text": "Recognized entities: none yet.",
+        "sequence": 1
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-P5A_B_019",
+        "message": "Question type: classification. Complexity: single_hop_reasoning.",
+        "payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": []
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": []
+        },
+        "display_text": "Question type: classification. Complexity: single_hop_reasoning.",
+        "sequence": 2
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-P5A_B_019",
+        "plugin_name": "Entity Resolver",
+        "message": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "sequence": 3
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-P5A_B_019",
+        "plugin_name": "Entity Resolver",
+        "display_label": "Resolved 0 entities",
+        "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+        "message": "No stable entity aliases were available for reuse in this round.",
+        "detail_payload_id": "tool-1",
+        "payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "classification"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "classification"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "display_text": "No stable entity aliases were available for reuse in this round.",
+        "sequence": 4
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-P5A_B_019",
+        "plugin_name": "Tree Plugin",
+        "message": "I will continue with the next highest-priority plugin for this simple question type.",
+        "node": "Deep Think",
+        "source": "Tree Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will continue with the next highest-priority plugin for this simple question type.",
+        "sequence": 5
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-P5A_B_019",
+        "plugin_name": "Tree Plugin",
+        "display_label": "Resolved 2 classification paths",
+        "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+        "message": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence.",
+        "detail_payload_id": "tool-2",
+        "payload": {
+          "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+          "preview_items": [],
+          "evidence_items": [
+            {
+              "source_plugin": "Tree Plugin",
+              "entity_scope": "",
+              "claim": "Top-level TE class: Retrotransposons",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Tree Plugin",
+              "meta": "",
+              "body": "Top-level TE class: Retrotransposons"
+            },
+            {
+              "source_plugin": "Tree Plugin",
+              "entity_scope": "",
+              "claim": "Top-level TE class: DNA Transposons",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Tree Plugin",
+              "meta": "",
+              "body": "Top-level TE class: DNA Transposons"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "ok",
+              "result_counts": {
+                "paths": 2
+              },
+              "required_evidence": [
+                "classification"
+              ],
+              "latency_ms": 29
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Tree Plugin",
+              "status": "ok",
+              "query_summary": "Resolved TE and disease classification tree context.",
+              "display_summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+              "result_counts": {
+                "paths": 2
+              },
+              "preview_items": [],
+              "evidence_preview": [
+                {
+                  "claim": "Top-level TE class: Retrotransposons",
+                  "title": "Tree Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Top-level TE class: DNA Transposons",
+                  "title": "Tree Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "kind": "te_top_class",
+                  "label": "Retrotransposons"
+                },
+                {
+                  "kind": "te_top_class",
+                  "label": "DNA Transposons"
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "kind": "te_top_class",
+              "label": "Retrotransposons"
+            },
+            {
+              "kind": "te_top_class",
+              "label": "DNA Transposons"
+            }
+          ],
+          "raw_preview": [
+            {
+              "kind": "te_top_class",
+              "label": "Retrotransposons"
+            },
+            {
+              "kind": "te_top_class",
+              "label": "DNA Transposons"
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "paths": 2
+          },
+          "display_details": {
+            "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+            "preview_items": [],
+            "evidence_items": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "kind": "te_top_class",
+                "label": "Retrotransposons"
+              },
+              {
+                "kind": "te_top_class",
+                "label": "DNA Transposons"
+              }
+            ],
+            "result_message": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Tree Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+          "preview_items": [],
+          "evidence_items": [
+            {
+              "source_plugin": "Tree Plugin",
+              "entity_scope": "",
+              "claim": "Top-level TE class: Retrotransposons",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Tree Plugin",
+              "meta": "",
+              "body": "Top-level TE class: Retrotransposons"
+            },
+            {
+              "source_plugin": "Tree Plugin",
+              "entity_scope": "",
+              "claim": "Top-level TE class: DNA Transposons",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Tree Plugin",
+              "meta": "",
+              "body": "Top-level TE class: DNA Transposons"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "ok",
+              "result_counts": {
+                "paths": 2
+              },
+              "required_evidence": [
+                "classification"
+              ],
+              "latency_ms": 29
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Tree Plugin",
+              "status": "ok",
+              "query_summary": "Resolved TE and disease classification tree context.",
+              "display_summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+              "result_counts": {
+                "paths": 2
+              },
+              "preview_items": [],
+              "evidence_preview": [
+                {
+                  "claim": "Top-level TE class: Retrotransposons",
+                  "title": "Tree Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Top-level TE class: DNA Transposons",
+                  "title": "Tree Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "kind": "te_top_class",
+                  "label": "Retrotransposons"
+                },
+                {
+                  "kind": "te_top_class",
+                  "label": "DNA Transposons"
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "kind": "te_top_class",
+              "label": "Retrotransposons"
+            },
+            {
+              "kind": "te_top_class",
+              "label": "DNA Transposons"
+            }
+          ],
+          "raw_preview": [
+            {
+              "kind": "te_top_class",
+              "label": "Retrotransposons"
+            },
+            {
+              "kind": "te_top_class",
+              "label": "DNA Transposons"
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "paths": 2
+          },
+          "display_details": {
+            "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+            "preview_items": [],
+            "evidence_items": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "kind": "te_top_class",
+                "label": "Retrotransposons"
+              },
+              {
+                "kind": "te_top_class",
+                "label": "DNA Transposons"
+              }
+            ],
+            "result_message": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence."
+          }
+        },
+        "display_text": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence.",
+        "sequence": 6
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-dt-P5A_B_019",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results"
+        ],
+        "outputs_changed": [
+          "plugin_queue"
+        ],
+        "message": "The currently collected evidence is enough to move into synthesis.",
+        "payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The classification layer already returned a direct usable hit, so no extra evidence layer is needed for this lineage question."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "compressed_result": {
+                "key_findings": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "coverage": {
+                  "question_type": "classification",
+                  "status": "empty",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "required_evidence": [
+                    "classification"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "candidate_claims": [],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "empty",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "preview_items": [],
+                  "evidence_preview": [],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": []
+                  }
+                }
+              }
+            },
+            "Tree Plugin": {
+              "plugin_name": "Tree Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Top-level TE class: Retrotransposons",
+                  "Top-level TE class: DNA Transposons"
+                ],
+                "coverage": {
+                  "question_type": "classification",
+                  "status": "ok",
+                  "result_counts": {
+                    "paths": 2
+                  },
+                  "required_evidence": [
+                    "classification"
+                  ],
+                  "latency_ms": 29
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Top-level TE class: Retrotransposons",
+                  "Top-level TE class: DNA Transposons"
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Tree Plugin",
+                  "status": "ok",
+                  "query_summary": "Resolved TE and disease classification tree context.",
+                  "display_summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+                  "result_counts": {
+                    "paths": 2
+                  },
+                  "preview_items": [],
+                  "evidence_preview": [
+                    {
+                      "claim": "Top-level TE class: Retrotransposons",
+                      "title": "Tree Plugin",
+                      "meta": "",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "Top-level TE class: DNA Transposons",
+                      "title": "Tree Plugin",
+                      "meta": "",
+                      "support_strength": "medium"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": [
+                    {
+                      "kind": "te_top_class",
+                      "label": "Retrotransposons"
+                    },
+                    {
+                      "kind": "te_top_class",
+                      "label": "DNA Transposons"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "message_payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The classification layer already returned a direct usable hit, so no extra evidence layer is needed for this lineage question."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "compressed_result": {
+                "key_findings": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "coverage": {
+                  "question_type": "classification",
+                  "status": "empty",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "required_evidence": [
+                    "classification"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "candidate_claims": [],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "empty",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "preview_items": [],
+                  "evidence_preview": [],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": []
+                  }
+                }
+              }
+            },
+            "Tree Plugin": {
+              "plugin_name": "Tree Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Top-level TE class: Retrotransposons",
+                  "Top-level TE class: DNA Transposons"
+                ],
+                "coverage": {
+                  "question_type": "classification",
+                  "status": "ok",
+                  "result_counts": {
+                    "paths": 2
+                  },
+                  "required_evidence": [
+                    "classification"
+                  ],
+                  "latency_ms": 29
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Top-level TE class: Retrotransposons",
+                  "Top-level TE class: DNA Transposons"
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Tree Plugin",
+                  "status": "ok",
+                  "query_summary": "Resolved TE and disease classification tree context.",
+                  "display_summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+                  "result_counts": {
+                    "paths": 2
+                  },
+                  "preview_items": [],
+                  "evidence_preview": [
+                    {
+                      "claim": "Top-level TE class: Retrotransposons",
+                      "title": "Tree Plugin",
+                      "meta": "",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "Top-level TE class: DNA Transposons",
+                      "title": "Tree Plugin",
+                      "meta": "",
+                      "support_strength": "medium"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": [
+                    {
+                      "kind": "te_top_class",
+                      "label": "Retrotransposons"
+                    },
+                    {
+                      "kind": "te_top_class",
+                      "label": "DNA Transposons"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "display_text": "The currently collected evidence is enough to move into synthesis.",
+        "sequence": 7
+      },
+      {
+        "type": "synthesizing",
+        "session_id": "eval-dt-P5A_B_019",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results",
+          "evidence_bundle",
+          "citation_bundle"
+        ],
+        "outputs_changed": [
+          "supported_claims",
+          "answer"
+        ],
+        "message": "I am now synthesizing the plugin results into a final answer.",
+        "payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Top-level TE class: Retrotransposons",
+                "summary": "Top-level TE class: Retrotransposons",
+                "citations": []
+              },
+              {
+                "claim": "Top-level TE class: DNA Transposons",
+                "summary": "Top-level TE class: DNA Transposons",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "message_payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Top-level TE class: Retrotransposons",
+                "summary": "Top-level TE class: Retrotransposons",
+                "citations": []
+              },
+              {
+                "claim": "Top-level TE class: DNA Transposons",
+                "summary": "Top-level TE class: DNA Transposons",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "display_text": "I am now synthesizing the plugin results into a final answer.",
+        "sequence": 8
+      },
+      {
+        "type": "answer",
+        "request_id": "req_7dbc47e9989f3018",
+        "session_id": "eval-dt-P5A_B_019",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "message": "无法提供所请求的 TE family 疾病连接度 top 20 CSV 表格。现有证据仅包含顶层 TE 类别（Retrotransposons 和 DNA Transposons），未提供任何 TE family 级别的疾病连接度排名数据或量化指标。缺失证据标注为“missing_evidence: []”，且置信度为 low，因此无法生成具体的 top 20 列表。如需该信息，需要补充 TE-KG 中 family 与疾病之间的关联计数或连接度数据。",
+        "language": "chinese",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "无法提供所请求的 TE family 疾病连接度 top 20 CSV 表格。现有证据仅包含顶层 TE 类别（Retrotransposons 和 DNA Transposons），未提供任何 TE family 级别的疾病连接度排名数据或量化指标。缺失证据标注为“missing_evidence: []”，且置信度为 low，因此无法生成具体的 top 20 列表。如需该信息，需要补充 TE-KG 中 family 与疾病之间的关联计数或连接度数据。",
+        "sequence": 9
+      },
+      {
+        "type": "done",
+        "request_id": "req_7dbc47e9989f3018",
+        "session_id": "eval-dt-P5A_B_019",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "payload": {
+          "answer": "无法提供所请求的 TE family 疾病连接度 top 20 CSV 表格。现有证据仅包含顶层 TE 类别（Retrotransposons 和 DNA Transposons），未提供任何 TE family 级别的疾病连接度排名数据或量化指标。缺失证据标注为“missing_evidence: []”，且置信度为 low，因此无法生成具体的 top 20 列表。如需该信息，需要补充 TE-KG 中 family 与疾病之间的关联计数或连接度数据。",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "answer": "无法提供所请求的 TE family 疾病连接度 top 20 CSV 表格。现有证据仅包含顶层 TE 类别（Retrotransposons 和 DNA Transposons），未提供任何 TE family 级别的疾病连接度排名数据或量化指标。缺失证据标注为“missing_evidence: []”，且置信度为 low，因此无法生成具体的 top 20 列表。如需该信息，需要补充 TE-KG 中 family 与疾病之间的关联计数或连接度数据。",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "display_text": "",
+        "sequence": 10
+      }
+    ],
+    "answer": "无法提供所请求的 TE family 疾病连接度 top 20 CSV 表格。现有证据仅包含顶层 TE 类别（Retrotransposons 和 DNA Transposons），未提供任何 TE family 级别的疾病连接度排名数据或量化指标。缺失证据标注为“missing_evidence: []”，且置信度为 low，因此无法生成具体的 top 20 列表。如需该信息，需要补充 TE-KG 中 family 与疾病之间的关联计数或连接度数据。",
+    "done_payload": {
+      "answer": "无法提供所请求的 TE family 疾病连接度 top 20 CSV 表格。现有证据仅包含顶层 TE 类别（Retrotransposons 和 DNA Transposons），未提供任何 TE family 级别的疾病连接度排名数据或量化指标。缺失证据标注为“missing_evidence: []”，且置信度为 low，因此无法生成具体的 top 20 列表。如需该信息，需要补充 TE-KG 中 family 与疾病之间的关联计数或连接度数据。",
+      "language": "chinese",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": ""
+    },
+    "used_plugins": [
+      "Entity Resolver",
+      "Tree Plugin"
+    ],
+    "citations": [],
+    "timings": {
+      "total_ms": 3285
+    },
+    "errors": []
+  },
+  "agent": {
+    "ok": true,
+    "http_status": 202,
+    "headers": {
+      "Date": "Tue, 26 May 2026 13:36:32 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Content-Length": "165",
+      "Connection": "close",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "create": {
+      "ok": true,
+      "run_id": "run_552a9b0853b5e583",
+      "request_id": "req_cfaf0658c136a190",
+      "session_id": "eval-agent-P5A_B_019",
+      "status": "pending"
+    },
+    "run_id": "run_552a9b0853b5e583",
+    "run": {
+      "run_id": "run_552a9b0853b5e583",
+      "request_id": "req_cfaf0658c136a190",
+      "session_id": "eval-agent-P5A_B_019",
+      "question": "TE-KG 中哪些 TE family 的疾病连接度最高？请给 top 20 CSV 风格表格。",
+      "mode": "academic",
+      "status": "completed",
+      "created_at": "2026-05-26T13:36:32+00:00",
+      "updated_at": "2026-05-26T13:37:11+00:00",
+      "started_at": "2026-05-26T13:36:32+00:00",
+      "finished_at": "2026-05-26T13:37:11+00:00",
+      "current_stage": "Writing",
+      "workflow_state": {
+        "current_stage": "Writing",
+        "stage_statuses": {
+          "Understanding": "done",
+          "Planning": "done",
+          "Collecting": "done",
+          "Executing": "done",
+          "Integrating": "done",
+          "Writing": "done"
+        },
+        "traversed_edges": [
+          "Understanding->Planning",
+          "Planning->Collecting",
+          "Collecting->Executing",
+          "Executing->Collecting",
+          "Executing->Integrating",
+          "Integrating->Writing"
+        ],
+        "complete": true
+      },
+      "events_count": 26,
+      "last_sequence": 26,
+      "answer": "# TE-KG 中 TE Family 疾病连接度排名报告\n\n## 1. Question Scope\n\n本报告旨在回答：在 TE-KG 知识图谱中，哪些 TE 家族与疾病之间的连接度最高，并以 top 20 CSV 风格表格呈现。分析预期为单跳推理（`single_hop_reasoning`），目标实体类型为 Disease 与 TE。\n\n**当前可用信息**：仅有两个插件被调用——Entity Resolver 返回空结果，Tree Plugin 状态正常但未生成可用输出。证据包中不包含任何声明、证据项、引用或路由（详见下文 gaps）。\n\n## 2. Key Findings\n\n**核心判断**：基于当前证据包，**无法给出任何 TE family 的疾病连接度排名或 top 20 表格**。证据包中不存在可追溯的疾病‑TE 连接数据，所有可能生成排名的证据链均缺失。\n\n**证据‑声明映射**：\n\n| 声明 | 支持证据 | 引用 | 状态 |\n|------|----------|------|------|\n| 无 | 无 | 无 | **强空缺**：evidence_package 中 claim_count=0，evidence_count=0，gap 类型为 blocking 的 “no_claims”。 |\n\n## 3. Evidence Review\n\n证据包（`schema_version evidence_package.v1`）生成于 2026-05-26T13:36:32，元数据如下：\n\n- 插件执行情况：Entity Resolver → **empty**；Tree Plugin → **ok**（未产生任何 claim 或 evidence）。\n- 指标：claim_count=0，evidence_count=0，citation_count=0，route_count=0。\n- 错误列表：空；截断：无（truncation_count=0）。\n\n**证据项**：无。`evidence_items` 数组为空，引用映射与路由映射均为空。\n\n**证据链（evidence_walk）**：`walk_steps`、`claim_nodes`、`support_edges` 均为空数组。唯一标识的 gap 为 `gap_1`：**“Evidence package contains no claim nodes.”**，严重程度 blocking，未指定所需补充证据类型。\n\n**结论**：当前轮次不存在任何可追溯的源证据，无结构化数据可直接回答该问题。\n\n## 4. Limitations\n\n- **证据空缺（blocking gap）**：核心 gap 为 **no_claims**。问题所需的疾病连接度排名依赖于至少一组从 TE family 到疾病的连接计数（或等效指标），但证据包中完全缺失此类声明。无法通过现有信息推导或扩写。\n- **插件空结果**：Entity Resolver 返回空，提示实体解析阶段可能未能将问题中隐含的 TE family 名称映射到知识图谱节点；Tree Plugin 虽状态为 ok，但未输出内容，表明在给定上下文中未能检索到相关疾病‑TE 关联。\n- **不确定性级别**：**高**——证据体为空，所有基于此回答的结论均无支撑。不能将“无证据”视为否定结论，但必须如实报告数据不可用。\n- **缺失输入**：问题未提供具体的 TE family 名称列表或知识图谱版本信息，但即使进行宏观查询，当前插件也未返回可用数据。\n- **边界声明**：本报告完全基于已提供的证据包（`LIMITS: summary_max_chars=640, truncation_count=0`）。未使用任何外部知识，未编造任何关系、机制或 PMID，所有陈述均在证据包覆盖范围内。\n\n## 5. Answer\n\n**简短回答**：当前证据包中 **不存在任何数据** 可用于回答“TE-KG 中哪些 TE family 的疾病连接度最高”，因此 **无法生成 top 20 CSV 风格表格**。\n\n**建议**：请确认 TE-KG 数据源是否已加载并可通过本系统访问，或尝试提供具体的 TE family 名称列表以进行定向查询。如需重新执行，请告知以便再次触发证据获取流程。",
+      "language": "chinese",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": "",
+      "error": "",
+      "used_plugins": [
+        "Entity Resolver",
+        "Tree Plugin"
+      ]
+    },
+    "events": [
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_019",
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "message": "Understanding",
+        "payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "display_text": "Understanding",
+        "sequence": 1
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-agent-P5A_B_019",
+        "message": "Recognized entities: none yet.",
+        "payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "display_text": "Recognized entities: none yet.",
+        "sequence": 2
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-agent-P5A_B_019",
+        "message": "Question type: classification. Complexity: single_hop_reasoning.",
+        "payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "display_text": "Question type: classification. Complexity: single_hop_reasoning.",
+        "sequence": 3
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-agent-P5A_B_019",
+        "message": "This is a quick lookup; Deep Think is usually faster. If you continue with Agent, I will collect evidence through the research workflow.",
+        "payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "classification",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "display_text": "This is a quick lookup; Deep Think is usually faster. If you continue with Agent, I will collect evidence through the research workflow.",
+        "sequence": 4
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_019",
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "message": "Planning",
+        "payload": {
+          "current_stage": "Planning",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "active",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Planning",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "active",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning"
+          ],
+          "complete": false
+        },
+        "display_text": "Planning",
+        "sequence": 5
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_019",
+        "message": "Current knowledge gap: entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted..",
+        "payload": {
+          "gap_type": "entity normalization",
+          "why_needed": "The system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+          "priority": 100,
+          "candidate_tools": [
+            "Entity Resolver"
+          ]
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "gap_type": "entity normalization",
+          "why_needed": "The system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+          "priority": 100,
+          "candidate_tools": [
+            "Entity Resolver"
+          ]
+        },
+        "display_text": "Current knowledge gap: entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted..",
+        "sequence": 6
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_019",
+        "message": "Current knowledge gap: literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps..",
+        "payload": {
+          "gap_type": "literature synthesis",
+          "why_needed": "Retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps.",
+          "priority": 72,
+          "candidate_tools": [
+            "Literature Reading Plugin"
+          ]
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "gap_type": "literature synthesis",
+          "why_needed": "Retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps.",
+          "priority": 72,
+          "candidate_tools": [
+            "Literature Reading Plugin"
+          ]
+        },
+        "display_text": "Current knowledge gap: literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps..",
+        "sequence": 7
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_019",
+        "message": "Resolve the canonical identity and alias boundaries for the recognized entities.",
+        "payload": {
+          "subtask": "Resolve the canonical identity and alias boundaries for the recognized entities."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Resolve the canonical identity and alias boundaries for the recognized entities."
+        },
+        "display_text": "Resolve the canonical identity and alias boundaries for the recognized entities.",
+        "sequence": 8
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_019",
+        "message": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+        "payload": {
+          "subtask": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted."
+        },
+        "display_text": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+        "sequence": 9
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_019",
+        "message": "Collect evidence for literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps.",
+        "payload": {
+          "subtask": "Collect evidence for literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Collect evidence for literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps."
+        },
+        "display_text": "Collect evidence for literature synthesis because retrieved citations still need to be grouped into supported claims, conflicts, and evidence gaps.",
+        "sequence": 10
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_019",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "message": "Collecting",
+        "payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Collecting",
+        "sequence": 11
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_019",
+        "node": "Expert Execution Layer",
+        "source": "Expert Execution Layer",
+        "message": "Executing",
+        "payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing"
+          ],
+          "complete": false
+        },
+        "display_text": "Executing",
+        "sequence": 12
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-agent-P5A_B_019",
+        "plugin_name": "Entity Resolver",
+        "message": "I will stabilize entity names first so later evidence lookup does not drift across aliases.",
+        "node": "Evidence Collection Node",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will stabilize entity names first so later evidence lookup does not drift across aliases.",
+        "sequence": 13
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-agent-P5A_B_019",
+        "plugin_name": "Entity Resolver",
+        "display_label": "Resolved 0 entities",
+        "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+        "message": "No stable entity aliases were available for reuse in this round.",
+        "detail_payload_id": "tool-1",
+        "payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "entity normalization",
+                "literature synthesis",
+                "classification context"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "node": "Evidence Collection Node",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "entity normalization",
+                "literature synthesis",
+                "classification context"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "display_text": "No stable entity aliases were available for reuse in this round.",
+        "sequence": 14
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-agent-P5A_B_019",
+        "plugin_name": "Entity Resolver",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "inputs_used": [
+          "collection_state",
+          "compressed_result",
+          "routing_policy"
+        ],
+        "outputs_changed": [
+          "sufficiency_decision",
+          "remaining_candidates",
+          "closed_gaps"
+        ],
+        "message": "This tool did not produce a strong result. Next queued tools: Tree Plugin. Sufficiency: The minimum evidence gate is still missing required dimensions.",
+        "payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver"
+            ],
+            "remaining_candidates": [
+              "Tree Plugin"
+            ],
+            "closed_gaps": [],
+            "active_gaps": [
+              "entity normalization",
+              "literature synthesis",
+              "classification context"
+            ],
+            "evidence_count": 0,
+            "citation_count": 0,
+            "question_type": "classification",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Tree Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Tree Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Tree Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "classification",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Tree Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": false,
+              "reason": "The minimum evidence gate is still missing required dimensions.",
+              "missing_dimensions": [
+                "none of the preferred experts produced a usable result"
+              ],
+              "recommended_next_experts": [
+                "Tree Plugin"
+              ]
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": false,
+            "reason": "The minimum evidence gate is still missing required dimensions.",
+            "missing_dimensions": [
+              "none of the preferred experts produced a usable result"
+            ],
+            "recommended_next_experts": [
+              "Tree Plugin"
+            ]
+          }
+        },
+        "message_payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver"
+            ],
+            "remaining_candidates": [
+              "Tree Plugin"
+            ],
+            "closed_gaps": [],
+            "active_gaps": [
+              "entity normalization",
+              "literature synthesis",
+              "classification context"
+            ],
+            "evidence_count": 0,
+            "citation_count": 0,
+            "question_type": "classification",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Tree Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Tree Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Tree Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "classification",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Tree Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": false,
+              "reason": "The minimum evidence gate is still missing required dimensions.",
+              "missing_dimensions": [
+                "none of the preferred experts produced a usable result"
+              ],
+              "recommended_next_experts": [
+                "Tree Plugin"
+              ]
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": false,
+            "reason": "The minimum evidence gate is still missing required dimensions.",
+            "missing_dimensions": [
+              "none of the preferred experts produced a usable result"
+            ],
+            "recommended_next_experts": [
+              "Tree Plugin"
+            ]
+          }
+        },
+        "display_text": "This tool did not produce a strong result. Next queued tools: Tree Plugin. Sufficiency: The minimum evidence gate is still missing required dimensions.",
+        "sequence": 15
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_019",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "message": "Collecting",
+        "payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Collecting",
+        "sequence": 16
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_019",
+        "node": "Expert Execution Layer",
+        "source": "Expert Execution Layer",
+        "message": "Executing",
+        "payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Executing",
+        "sequence": 17
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-agent-P5A_B_019",
+        "plugin_name": "Tree Plugin",
+        "message": "I will use the lineage tree now because classification context is still missing.",
+        "node": "Evidence Collection Node",
+        "source": "Tree Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will use the lineage tree now because classification context is still missing.",
+        "sequence": 18
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-agent-P5A_B_019",
+        "plugin_name": "Tree Plugin",
+        "display_label": "Resolved 2 classification paths",
+        "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+        "message": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence.",
+        "detail_payload_id": "tool-2",
+        "payload": {
+          "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+          "preview_items": [],
+          "evidence_items": [
+            {
+              "source_plugin": "Tree Plugin",
+              "entity_scope": "",
+              "claim": "Top-level TE class: Retrotransposons",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Tree Plugin",
+              "meta": "",
+              "body": "Top-level TE class: Retrotransposons"
+            },
+            {
+              "source_plugin": "Tree Plugin",
+              "entity_scope": "",
+              "claim": "Top-level TE class: DNA Transposons",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Tree Plugin",
+              "meta": "",
+              "body": "Top-level TE class: DNA Transposons"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "ok",
+              "result_counts": {
+                "paths": 2
+              },
+              "required_evidence": [
+                "entity normalization",
+                "literature synthesis",
+                "classification context"
+              ],
+              "latency_ms": 49
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Tree Plugin",
+              "status": "ok",
+              "query_summary": "Resolved TE and disease classification tree context.",
+              "display_summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+              "result_counts": {
+                "paths": 2
+              },
+              "preview_items": [],
+              "evidence_preview": [
+                {
+                  "claim": "Top-level TE class: Retrotransposons",
+                  "title": "Tree Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Top-level TE class: DNA Transposons",
+                  "title": "Tree Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "kind": "te_top_class",
+                  "label": "Retrotransposons"
+                },
+                {
+                  "kind": "te_top_class",
+                  "label": "DNA Transposons"
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "kind": "te_top_class",
+              "label": "Retrotransposons"
+            },
+            {
+              "kind": "te_top_class",
+              "label": "DNA Transposons"
+            }
+          ],
+          "raw_preview": [
+            {
+              "kind": "te_top_class",
+              "label": "Retrotransposons"
+            },
+            {
+              "kind": "te_top_class",
+              "label": "DNA Transposons"
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "paths": 2
+          },
+          "display_details": {
+            "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+            "preview_items": [],
+            "evidence_items": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "kind": "te_top_class",
+                "label": "Retrotransposons"
+              },
+              {
+                "kind": "te_top_class",
+                "label": "DNA Transposons"
+              }
+            ],
+            "result_message": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence."
+          }
+        },
+        "node": "Evidence Collection Node",
+        "source": "Tree Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+          "preview_items": [],
+          "evidence_items": [
+            {
+              "source_plugin": "Tree Plugin",
+              "entity_scope": "",
+              "claim": "Top-level TE class: Retrotransposons",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Tree Plugin",
+              "meta": "",
+              "body": "Top-level TE class: Retrotransposons"
+            },
+            {
+              "source_plugin": "Tree Plugin",
+              "entity_scope": "",
+              "claim": "Top-level TE class: DNA Transposons",
+              "support_strength": "medium",
+              "raw_source_ref": [],
+              "title": "Tree Plugin",
+              "meta": "",
+              "body": "Top-level TE class: DNA Transposons"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "coverage": {
+              "question_type": "classification",
+              "status": "ok",
+              "result_counts": {
+                "paths": 2
+              },
+              "required_evidence": [
+                "entity normalization",
+                "literature synthesis",
+                "classification context"
+              ],
+              "latency_ms": 49
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Tree Plugin",
+              "status": "ok",
+              "query_summary": "Resolved TE and disease classification tree context.",
+              "display_summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+              "result_counts": {
+                "paths": 2
+              },
+              "preview_items": [],
+              "evidence_preview": [
+                {
+                  "claim": "Top-level TE class: Retrotransposons",
+                  "title": "Tree Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Top-level TE class: DNA Transposons",
+                  "title": "Tree Plugin",
+                  "meta": "",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": [
+                {
+                  "kind": "te_top_class",
+                  "label": "Retrotransposons"
+                },
+                {
+                  "kind": "te_top_class",
+                  "label": "DNA Transposons"
+                }
+              ]
+            }
+          },
+          "raw_result": [
+            {
+              "kind": "te_top_class",
+              "label": "Retrotransposons"
+            },
+            {
+              "kind": "te_top_class",
+              "label": "DNA Transposons"
+            }
+          ],
+          "raw_preview": [
+            {
+              "kind": "te_top_class",
+              "label": "Retrotransposons"
+            },
+            {
+              "kind": "te_top_class",
+              "label": "DNA Transposons"
+            }
+          ],
+          "errors": [],
+          "result_counts": {
+            "paths": 2
+          },
+          "display_details": {
+            "summary": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer.",
+            "preview_items": [],
+            "evidence_items": [
+              "Top-level TE class: Retrotransposons",
+              "Top-level TE class: DNA Transposons"
+            ],
+            "citations": [],
+            "raw_preview": [
+              {
+                "kind": "te_top_class",
+                "label": "Retrotransposons"
+              },
+              {
+                "kind": "te_top_class",
+                "label": "DNA Transposons"
+              }
+            ],
+            "result_message": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence."
+          }
+        },
+        "display_text": "These tree paths help locate the entity in its lineage, but mechanism questions still rely more on relation and literature evidence.",
+        "sequence": 19
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-agent-P5A_B_019",
+        "plugin_name": "Tree Plugin",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "inputs_used": [
+          "collection_state",
+          "compressed_result",
+          "routing_policy"
+        ],
+        "outputs_changed": [
+          "sufficiency_decision",
+          "remaining_candidates",
+          "closed_gaps"
+        ],
+        "message": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer. No additional tools are currently queued. Sufficiency: The primary path has already produced enough evidence for this question type.",
+        "payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver",
+              "Tree Plugin"
+            ],
+            "remaining_candidates": [],
+            "closed_gaps": [
+              "Tree Plugin"
+            ],
+            "active_gaps": [
+              "entity normalization",
+              "literature synthesis",
+              "classification context"
+            ],
+            "evidence_count": 2,
+            "citation_count": 0,
+            "question_type": "classification",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Tree Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Tree Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Tree Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "classification",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Tree Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": true,
+              "reason": "The primary path has already produced enough evidence for this question type.",
+              "missing_dimensions": [],
+              "recommended_next_experts": []
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": true,
+            "reason": "The primary path has already produced enough evidence for this question type.",
+            "missing_dimensions": [],
+            "recommended_next_experts": []
+          }
+        },
+        "message_payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver",
+              "Tree Plugin"
+            ],
+            "remaining_candidates": [],
+            "closed_gaps": [
+              "Tree Plugin"
+            ],
+            "active_gaps": [
+              "entity normalization",
+              "literature synthesis",
+              "classification context"
+            ],
+            "evidence_count": 2,
+            "citation_count": 0,
+            "question_type": "classification",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Tree Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Tree Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Tree Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "classification",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Tree Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": true,
+              "reason": "The primary path has already produced enough evidence for this question type.",
+              "missing_dimensions": [],
+              "recommended_next_experts": []
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": true,
+            "reason": "The primary path has already produced enough evidence for this question type.",
+            "missing_dimensions": [],
+            "recommended_next_experts": []
+          }
+        },
+        "display_text": "I resolved the classification context of the current entities. This helps with lineage background, although it is not the core evidence for the answer. No additional tools are currently queued. Sufficiency: The primary path has already produced enough evidence for this question type.",
+        "sequence": 20
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_019",
+        "node": "Evidence Synthesis Node",
+        "source": "Evidence Synthesis Node",
+        "message": "Integrating",
+        "payload": {
+          "current_stage": "Integrating",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "active",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Integrating",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "active",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating"
+          ],
+          "complete": false
+        },
+        "display_text": "Integrating",
+        "sequence": 21
+      },
+      {
+        "type": "synthesizing",
+        "session_id": "eval-agent-P5A_B_019",
+        "node": "Evidence Synthesis Node",
+        "source": "Evidence Synthesis Node",
+        "inputs_used": [
+          "result_envelopes",
+          "evidence_package"
+        ],
+        "outputs_changed": [
+          "evidence_package",
+          "evidence_walk",
+          "report_plan",
+          "supported_claims",
+          "conflicting_claims",
+          "missing_evidence",
+          "claim_clusters",
+          "answer_structure"
+        ],
+        "message": "I am now synthesizing the resolved entities, 3 identified knowledge gaps, and 2 evidence items into a coherent answer. Tools used: Entity Resolver, Tree Plugin.",
+        "payload": {
+          "evidence_package": {
+            "schema_version": "evidence_package.v1",
+            "question": "TE-KG 中哪些 TE family 的疾病连接度最高？请给 top 20 CSV 风格表格。",
+            "generated_at": "2026-05-26T13:36:32+00:00",
+            "claims": [],
+            "evidence_items": [],
+            "citation_map": [],
+            "route_map": [],
+            "metrics": {
+              "plugin_count": 2,
+              "claim_count": 0,
+              "evidence_count": 0,
+              "citation_count": 0,
+              "route_count": 0,
+              "empty_plugin_count": 1,
+              "failed_plugin_count": 0,
+              "statuses": {
+                "Entity Resolver": "empty",
+                "Tree Plugin": "ok"
+              }
+            },
+            "limits": {
+              "summary_max_chars": 640,
+              "truncation_count": 0,
+              "truncated_summaries": []
+            },
+            "errors": []
+          },
+          "evidence_walk": {
+            "schema_version": "evidence_walk.v1",
+            "generated_at": "2026-05-26T13:36:33+00:00",
+            "walk_steps": [],
+            "claim_nodes": [],
+            "support_edges": [],
+            "citation_refs": [],
+            "route_refs": [],
+            "gaps": [
+              {
+                "id": "gap_1",
+                "type": "no_claims",
+                "severity": "blocking",
+                "message": "Evidence package contains no claim nodes.",
+                "required_evidence": []
+              }
+            ],
+            "coverage_metrics": {
+              "claim_node_count": 0,
+              "walk_step_count": 0,
+              "support_edge_count": 0,
+              "citation_ref_count": 0,
+              "route_ref_count": 0,
+              "gap_count": 1,
+              "has_minimum_evidence": false,
+              "source_claim_count": 0,
+              "source_evidence_count": 0,
+              "selected_plugin_count": 0,
+              "sufficiency_status": "unknown"
+            }
+          },
+          "report_plan": {
+            "schema_version": "report_plan.v1",
+            "question": "TE-KG 中哪些 TE family 的疾病连接度最高？请给 top 20 CSV 风格表格。",
+            "report_type": "research_report",
+            "generated_at": "2026-05-26T13:36:43+00:00",
+            "sections": [
+              {
+                "id": "section_1",
+                "key": "question_scope",
+                "title": "Question Scope",
+                "purpose": "Organize evidence for this report section."
+              },
+              {
+                "id": "section_2",
+                "key": "key_findings",
+                "title": "Key Findings",
+                "purpose": "Organize evidence for this report section."
+              },
+              {
+                "id": "section_3",
+                "key": "evidence_review",
+                "title": "Evidence Review",
+                "purpose": "Summarize supporting evidence and provenance."
+              },
+              {
+                "id": "section_4",
+                "key": "limitations",
+                "title": "Limitations",
+                "purpose": "Surface evidence gaps and uncertainty."
+              },
+              {
+                "id": "section_5",
+                "key": "answer",
+                "title": "Answer",
+                "purpose": "Provide the final concise answer."
+              }
+            ],
+            "claim_sequence": [],
+            "citation_policy": {
+              "mode": "inline_required",
+              "minimum_citations_per_claim": 1,
+              "allow_uncited_claims": false
+            },
+            "gap_policy": {
+              "mode": "surface_gaps",
+              "gap_count": 1,
+              "include_limitations_section": true
+            },
+            "coverage_metrics": {
+              "claim_node_count": 0,
+              "walk_step_count": 0,
+              "support_edge_count": 0,
+              "citation_ref_count": 0,
+              "route_ref_count": 0,
+              "gap_count": 1,
+              "has_minimum_evidence": false,
+              "source_claim_count": 0,
+              "source_evidence_count": 0,
+              "selected_plugin_count": 0,
+              "sufficiency_status": "unknown"
+            }
+          },
+          "synthesized_evidence": {
+            "supported_claims": [],
+            "conflicting_claims": [],
+            "missing_evidence": [
+              "The evidence package contains no supported claims for final writing."
+            ],
+            "claim_clusters": []
+          },
+          "answer_structure": {
+            "response_mode": "lineage_explanation",
+            "opening_claim": "State the strongest supported claim first.",
+            "section_plan": [
+              "Main judgment",
+              "Supporting evidence",
+              "Evidence gaps and limits"
+            ],
+            "claim_order": [],
+            "citation_policy": "Use PMID-style in-text citations when available.",
+            "uncertainty_notes": [
+              "The evidence package contains no supported claims for final writing."
+            ]
+          }
+        },
+        "message_payload": {
+          "evidence_package": {
+            "schema_version": "evidence_package.v1",
+            "question": "TE-KG 中哪些 TE family 的疾病连接度最高？请给 top 20 CSV 风格表格。",
+            "generated_at": "2026-05-26T13:36:32+00:00",
+            "claims": [],
+            "evidence_items": [],
+            "citation_map": [],
+            "route_map": [],
+            "metrics": {
+              "plugin_count": 2,
+              "claim_count": 0,
+              "evidence_count": 0,
+              "citation_count": 0,
+              "route_count": 0,
+              "empty_plugin_count": 1,
+              "failed_plugin_count": 0,
+              "statuses": {
+                "Entity Resolver": "empty",
+                "Tree Plugin": "ok"
+              }
+            },
+            "limits": {
+              "summary_max_chars": 640,
+              "truncation_count": 0,
+              "truncated_summaries": []
+            },
+            "errors": []
+          },
+          "evidence_walk": {
+            "schema_version": "evidence_walk.v1",
+            "generated_at": "2026-05-26T13:36:33+00:00",
+            "walk_steps": [],
+            "claim_nodes": [],
+            "support_edges": [],
+            "citation_refs": [],
+            "route_refs": [],
+            "gaps": [
+              {
+                "id": "gap_1",
+                "type": "no_claims",
+                "severity": "blocking",
+                "message": "Evidence package contains no claim nodes.",
+                "required_evidence": []
+              }
+            ],
+            "coverage_metrics": {
+              "claim_node_count": 0,
+              "walk_step_count": 0,
+              "support_edge_count": 0,
+              "citation_ref_count": 0,
+              "route_ref_count": 0,
+              "gap_count": 1,
+              "has_minimum_evidence": false,
+              "source_claim_count": 0,
+              "source_evidence_count": 0,
+              "selected_plugin_count": 0,
+              "sufficiency_status": "unknown"
+            }
+          },
+          "report_plan": {
+            "schema_version": "report_plan.v1",
+            "question": "TE-KG 中哪些 TE family 的疾病连接度最高？请给 top 20 CSV 风格表格。",
+            "report_type": "research_report",
+            "generated_at": "2026-05-26T13:36:43+00:00",
+            "sections": [
+              {
+                "id": "section_1",
+                "key": "question_scope",
+                "title": "Question Scope",
+                "purpose": "Organize evidence for this report section."
+              },
+              {
+                "id": "section_2",
+                "key": "key_findings",
+                "title": "Key Findings",
+                "purpose": "Organize evidence for this report section."
+              },
+              {
+                "id": "section_3",
+                "key": "evidence_review",
+                "title": "Evidence Review",
+                "purpose": "Summarize supporting evidence and provenance."
+              },
+              {
+                "id": "section_4",
+                "key": "limitations",
+                "title": "Limitations",
+                "purpose": "Surface evidence gaps and uncertainty."
+              },
+              {
+                "id": "section_5",
+                "key": "answer",
+                "title": "Answer",
+                "purpose": "Provide the final concise answer."
+              }
+            ],
+            "claim_sequence": [],
+            "citation_policy": {
+              "mode": "inline_required",
+              "minimum_citations_per_claim": 1,
+              "allow_uncited_claims": false
+            },
+            "gap_policy": {
+              "mode": "surface_gaps",
+              "gap_count": 1,
+              "include_limitations_section": true
+            },
+            "coverage_metrics": {
+              "claim_node_count": 0,
+              "walk_step_count": 0,
+              "support_edge_count": 0,
+              "citation_ref_count": 0,
+              "route_ref_count": 0,
+              "gap_count": 1,
+              "has_minimum_evidence": false,
+              "source_claim_count": 0,
+              "source_evidence_count": 0,
+              "selected_plugin_count": 0,
+              "sufficiency_status": "unknown"
+            }
+          },
+          "synthesized_evidence": {
+            "supported_claims": [],
+            "conflicting_claims": [],
+            "missing_evidence": [
+              "The evidence package contains no supported claims for final writing."
+            ],
+            "claim_clusters": []
+          },
+          "answer_structure": {
+            "response_mode": "lineage_explanation",
+            "opening_claim": "State the strongest supported claim first.",
+            "section_plan": [
+              "Main judgment",
+              "Supporting evidence",
+              "Evidence gaps and limits"
+            ],
+            "claim_order": [],
+            "citation_policy": "Use PMID-style in-text citations when available.",
+            "uncertainty_notes": [
+              "The evidence package contains no supported claims for final writing."
+            ]
+          }
+        },
+        "display_text": "I am now synthesizing the resolved entities, 3 identified knowledge gaps, and 2 evidence items into a coherent answer. Tools used: Entity Resolver, Tree Plugin.",
+        "sequence": 22
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_019",
+        "node": "Answer Writer Node",
+        "source": "Answer Writer Node",
+        "message": "Writing",
+        "payload": {
+          "current_stage": "Writing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "done",
+            "Writing": "active"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating",
+            "Integrating->Writing"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Writing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "done",
+            "Writing": "active"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating",
+            "Integrating->Writing"
+          ],
+          "complete": false
+        },
+        "display_text": "Writing",
+        "sequence": 23
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_019",
+        "node": "Answer Writer Node",
+        "source": "Answer Writer Node",
+        "message": "Writing",
+        "payload": {
+          "current_stage": "Writing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "done",
+            "Writing": "done"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating",
+            "Integrating->Writing"
+          ],
+          "complete": true
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Writing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "done",
+            "Integrating": "done",
+            "Writing": "done"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting",
+            "Executing->Integrating",
+            "Integrating->Writing"
+          ],
+          "complete": true
+        },
+        "display_text": "Writing",
+        "sequence": 24
+      },
+      {
+        "type": "answer",
+        "request_id": "req_cfaf0658c136a190",
+        "session_id": "eval-agent-P5A_B_019",
+        "language": "chinese",
+        "message": "# TE-KG 中 TE Family 疾病连接度排名报告\n\n## 1. Question Scope\n\n本报告旨在回答：在 TE-KG 知识图谱中，哪些 TE 家族与疾病之间的连接度最高，并以 top 20 CSV 风格表格呈现。分析预期为单跳推理（`single_hop_reasoning`），目标实体类型为 Disease 与 TE。\n\n**当前可用信息**：仅有两个插件被调用——Entity Resolver 返回空结果，Tree Plugin 状态正常但未生成可用输出。证据包中不包含任何声明、证据项、引用或路由（详见下文 gaps）。\n\n## 2. Key Findings\n\n**核心判断**：基于当前证据包，**无法给出任何 TE family 的疾病连接度排名或 top 20 表格**。证据包中不存在可追溯的疾病‑TE 连接数据，所有可能生成排名的证据链均缺失。\n\n**证据‑声明映射**：\n\n| 声明 | 支持证据 | 引用 | 状态 |\n|------|----------|------|------|\n| 无 | 无 | 无 | **强空缺**：evidence_package 中 claim_count=0，evidence_count=0，gap 类型为 blocking 的 “no_claims”。 |\n\n## 3. Evidence Review\n\n证据包（`schema_version evidence_package.v1`）生成于 2026-05-26T13:36:32，元数据如下：\n\n- 插件执行情况：Entity Resolver → **empty**；Tree Plugin → **ok**（未产生任何 claim 或 evidence）。\n- 指标：claim_count=0，evidence_count=0，citation_count=0，route_count=0。\n- 错误列表：空；截断：无（truncation_count=0）。\n\n**证据项**：无。`evidence_items` 数组为空，引用映射与路由映射均为空。\n\n**证据链（evidence_walk）**：`walk_steps`、`claim_nodes`、`support_edges` 均为空数组。唯一标识的 gap 为 `gap_1`：**“Evidence package contains no claim nodes.”**，严重程度 blocking，未指定所需补充证据类型。\n\n**结论**：当前轮次不存在任何可追溯的源证据，无结构化数据可直接回答该问题。\n\n## 4. Limitations\n\n- **证据空缺（blocking gap）**：核心 gap 为 **no_claims**。问题所需的疾病连接度排名依赖于至少一组从 TE family 到疾病的连接计数（或等效指标），但证据包中完全缺失此类声明。无法通过现有信息推导或扩写。\n- **插件空结果**：Entity Resolver 返回空，提示实体解析阶段可能未能将问题中隐含的 TE family 名称映射到知识图谱节点；Tree Plugin 虽状态为 ok，但未输出内容，表明在给定上下文中未能检索到相关疾病‑TE 关联。\n- **不确定性级别**：**高**——证据体为空，所有基于此回答的结论均无支撑。不能将“无证据”视为否定结论，但必须如实报告数据不可用。\n- **缺失输入**：问题未提供具体的 TE family 名称列表或知识图谱版本信息，但即使进行宏观查询，当前插件也未返回可用数据。\n- **边界声明**：本报告完全基于已提供的证据包（`LIMITS: summary_max_chars=640, truncation_count=0`）。未使用任何外部知识，未编造任何关系、机制或 PMID，所有陈述均在证据包覆盖范围内。\n\n## 5. Answer\n\n**简短回答**：当前证据包中 **不存在任何数据** 可用于回答“TE-KG 中哪些 TE family 的疾病连接度最高”，因此 **无法生成 top 20 CSV 风格表格**。\n\n**建议**：请确认 TE-KG 数据源是否已加载并可通过本系统访问，或尝试提供具体的 TE family 名称列表以进行定向查询。如需重新执行，请告知以便再次触发证据获取流程。",
+        "node": "Answer Writer Node",
+        "source": "Answer Writer Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "# TE-KG 中 TE Family 疾病连接度排名报告\n\n## 1. Question Scope\n\n本报告旨在回答：在 TE-KG 知识图谱中，哪些 TE 家族与疾病之间的连接度最高，并以 top 20 CSV 风格表格呈现。分析预期为单跳推理（`single_hop_reasoning`），目标实体类型为 Disease 与 TE。\n\n**当前可用信息**：仅有两个插件被调用——Entity Resolver 返回空结果，Tree Plugin 状态正常但未生成可用输出。证据包中不包含任何声明、证据项、引用或路由（详见下文 gaps）。\n\n## 2. Key Findings\n\n**核心判断**：基于当前证据包，**无法给出任何 TE family 的疾病连接度排名或 top 20 表格**。证据包中不存在可追溯的疾病‑TE 连接数据，所有可能生成排名的证据链均缺失。\n\n**证据‑声明映射**：\n\n| 声明 | 支持证据 | 引用 | 状态 |\n|------|----------|------|------|\n| 无 | 无 | 无 | **强空缺**：evidence_package 中 claim_count=0，evidence_count=0，gap 类型为 blocking 的 “no_claims”。 |\n\n## 3. Evidence Review\n\n证据包（`schema_version evidence_package.v1`）生成于 2026-05-26T13:36:32，元数据如下：\n\n- 插件执行情况：Entity Resolver → **empty**；Tree Plugin → **ok**（未产生任何 claim 或 evidence）。\n- 指标：claim_count=0，evidence_count=0，citation_count=0，route_count=0。\n- 错误列表：空；截断：无（truncation_count=0）。\n\n**证据项**：无。`evidence_items` 数组为空，引用映射与路由映射均为空。\n\n**证据链（evidence_walk）**：`walk_steps`、`claim_nodes`、`support_edges` 均为空数组。唯一标识的 gap 为 `gap_1`：**“Evidence package contains no claim nodes.”**，严重程度 blocking，未指定所需补充证据类型。\n\n**结论**：当前轮次不存在任何可追溯的源证据，无结构化数据可直接回答该问题。\n\n## 4. Limitations\n\n- **证据空缺（blocking gap）**：核心 gap 为 **no_claims**。问题所需的疾病连接度排名依赖于至少一组从 TE family 到疾病的连接计数（或等效指标），但证据包中完全缺失此类声明。无法通过现有信息推导或扩写。\n- **插件空结果**：Entity Resolver 返回空，提示实体解析阶段可能未能将问题中隐含的 TE family 名称映射到知识图谱节点；Tree Plugin 虽状态为 ok，但未输出内容，表明在给定上下文中未能检索到相关疾病‑TE 关联。\n- **不确定性级别**：**高**——证据体为空，所有基于此回答的结论均无支撑。不能将“无证据”视为否定结论，但必须如实报告数据不可用。\n- **缺失输入**：问题未提供具体的 TE family 名称列表或知识图谱版本信息，但即使进行宏观查询，当前插件也未返回可用数据。\n- **边界声明**：本报告完全基于已提供的证据包（`LIMITS: summary_max_chars=640, truncation_count=0`）。未使用任何外部知识，未编造任何关系、机制或 PMID，所有陈述均在证据包覆盖范围内。\n\n## 5. Answer\n\n**简短回答**：当前证据包中 **不存在任何数据** 可用于回答“TE-KG 中哪些 TE family 的疾病连接度最高”，因此 **无法生成 top 20 CSV 风格表格**。\n\n**建议**：请确认 TE-KG 数据源是否已加载并可通过本系统访问，或尝试提供具体的 TE family 名称列表以进行定向查询。如需重新执行，请告知以便再次触发证据获取流程。",
+        "sequence": 25
+      },
+      {
+        "type": "done",
+        "request_id": "req_cfaf0658c136a190",
+        "session_id": "eval-agent-P5A_B_019",
+        "payload": {
+          "confidence": "low",
+          "used_plugins": [
+            "Entity Resolver",
+            "Tree Plugin"
+          ],
+          "answer": "# TE-KG 中 TE Family 疾病连接度排名报告\n\n## 1. Question Scope\n\n本报告旨在回答：在 TE-KG 知识图谱中，哪些 TE 家族与疾病之间的连接度最高，并以 top 20 CSV 风格表格呈现。分析预期为单跳推理（`single_hop_reasoning`），目标实体类型为 Disease 与 TE。\n\n**当前可用信息**：仅有两个插件被调用——Entity Resolver 返回空结果，Tree Plugin 状态正常但未生成可用输出。证据包中不包含任何声明、证据项、引用或路由（详见下文 gaps）。\n\n## 2. Key Findings\n\n**核心判断**：基于当前证据包，**无法给出任何 TE family 的疾病连接度排名或 top 20 表格**。证据包中不存在可追溯的疾病‑TE 连接数据，所有可能生成排名的证据链均缺失。\n\n**证据‑声明映射**：\n\n| 声明 | 支持证据 | 引用 | 状态 |\n|------|----------|------|------|\n| 无 | 无 | 无 | **强空缺**：evidence_package 中 claim_count=0，evidence_count=0，gap 类型为 blocking 的 “no_claims”。 |\n\n## 3. Evidence Review\n\n证据包（`schema_version evidence_package.v1`）生成于 2026-05-26T13:36:32，元数据如下：\n\n- 插件执行情况：Entity Resolver → **empty**；Tree Plugin → **ok**（未产生任何 claim 或 evidence）。\n- 指标：claim_count=0，evidence_count=0，citation_count=0，route_count=0。\n- 错误列表：空；截断：无（truncation_count=0）。\n\n**证据项**：无。`evidence_items` 数组为空，引用映射与路由映射均为空。\n\n**证据链（evidence_walk）**：`walk_steps`、`claim_nodes`、`support_edges` 均为空数组。唯一标识的 gap 为 `gap_1`：**“Evidence package contains no claim nodes.”**，严重程度 blocking，未指定所需补充证据类型。\n\n**结论**：当前轮次不存在任何可追溯的源证据，无结构化数据可直接回答该问题。\n\n## 4. Limitations\n\n- **证据空缺（blocking gap）**：核心 gap 为 **no_claims**。问题所需的疾病连接度排名依赖于至少一组从 TE family 到疾病的连接计数（或等效指标），但证据包中完全缺失此类声明。无法通过现有信息推导或扩写。\n- **插件空结果**：Entity Resolver 返回空，提示实体解析阶段可能未能将问题中隐含的 TE family 名称映射到知识图谱节点；Tree Plugin 虽状态为 ok，但未输出内容，表明在给定上下文中未能检索到相关疾病‑TE 关联。\n- **不确定性级别**：**高**——证据体为空，所有基于此回答的结论均无支撑。不能将“无证据”视为否定结论，但必须如实报告数据不可用。\n- **缺失输入**：问题未提供具体的 TE family 名称列表或知识图谱版本信息，但即使进行宏观查询，当前插件也未返回可用数据。\n- **边界声明**：本报告完全基于已提供的证据包（`LIMITS: summary_max_chars=640, truncation_count=0`）。未使用任何外部知识，未编造任何关系、机制或 PMID，所有陈述均在证据包覆盖范围内。\n\n## 5. Answer\n\n**简短回答**：当前证据包中 **不存在任何数据** 可用于回答“TE-KG 中哪些 TE family 的疾病连接度最高”，因此 **无法生成 top 20 CSV 风格表格**。\n\n**建议**：请确认 TE-KG 数据源是否已加载并可通过本系统访问，或尝试提供具体的 TE family 名称列表以进行定向查询。如需重新执行，请告知以便再次触发证据获取流程。",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": "",
+          "workflow_state": {
+            "current_stage": "Writing",
+            "stage_statuses": {
+              "Understanding": "done",
+              "Planning": "done",
+              "Collecting": "done",
+              "Executing": "done",
+              "Integrating": "done",
+              "Writing": "done"
+            },
+            "traversed_edges": [
+              "Understanding->Planning",
+              "Planning->Collecting",
+              "Collecting->Executing",
+              "Executing->Collecting",
+              "Executing->Integrating",
+              "Integrating->Writing"
+            ],
+            "complete": true
+          }
+        },
+        "node": "Process Narrator Node",
+        "source": "Process Narrator Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "confidence": "low",
+          "used_plugins": [
+            "Entity Resolver",
+            "Tree Plugin"
+          ],
+          "answer": "# TE-KG 中 TE Family 疾病连接度排名报告\n\n## 1. Question Scope\n\n本报告旨在回答：在 TE-KG 知识图谱中，哪些 TE 家族与疾病之间的连接度最高，并以 top 20 CSV 风格表格呈现。分析预期为单跳推理（`single_hop_reasoning`），目标实体类型为 Disease 与 TE。\n\n**当前可用信息**：仅有两个插件被调用——Entity Resolver 返回空结果，Tree Plugin 状态正常但未生成可用输出。证据包中不包含任何声明、证据项、引用或路由（详见下文 gaps）。\n\n## 2. Key Findings\n\n**核心判断**：基于当前证据包，**无法给出任何 TE family 的疾病连接度排名或 top 20 表格**。证据包中不存在可追溯的疾病‑TE 连接数据，所有可能生成排名的证据链均缺失。\n\n**证据‑声明映射**：\n\n| 声明 | 支持证据 | 引用 | 状态 |\n|------|----------|------|------|\n| 无 | 无 | 无 | **强空缺**：evidence_package 中 claim_count=0，evidence_count=0，gap 类型为 blocking 的 “no_claims”。 |\n\n## 3. Evidence Review\n\n证据包（`schema_version evidence_package.v1`）生成于 2026-05-26T13:36:32，元数据如下：\n\n- 插件执行情况：Entity Resolver → **empty**；Tree Plugin → **ok**（未产生任何 claim 或 evidence）。\n- 指标：claim_count=0，evidence_count=0，citation_count=0，route_count=0。\n- 错误列表：空；截断：无（truncation_count=0）。\n\n**证据项**：无。`evidence_items` 数组为空，引用映射与路由映射均为空。\n\n**证据链（evidence_walk）**：`walk_steps`、`claim_nodes`、`support_edges` 均为空数组。唯一标识的 gap 为 `gap_1`：**“Evidence package contains no claim nodes.”**，严重程度 blocking，未指定所需补充证据类型。\n\n**结论**：当前轮次不存在任何可追溯的源证据，无结构化数据可直接回答该问题。\n\n## 4. Limitations\n\n- **证据空缺（blocking gap）**：核心 gap 为 **no_claims**。问题所需的疾病连接度排名依赖于至少一组从 TE family 到疾病的连接计数（或等效指标），但证据包中完全缺失此类声明。无法通过现有信息推导或扩写。\n- **插件空结果**：Entity Resolver 返回空，提示实体解析阶段可能未能将问题中隐含的 TE family 名称映射到知识图谱节点；Tree Plugin 虽状态为 ok，但未输出内容，表明在给定上下文中未能检索到相关疾病‑TE 关联。\n- **不确定性级别**：**高**——证据体为空，所有基于此回答的结论均无支撑。不能将“无证据”视为否定结论，但必须如实报告数据不可用。\n- **缺失输入**：问题未提供具体的 TE family 名称列表或知识图谱版本信息，但即使进行宏观查询，当前插件也未返回可用数据。\n- **边界声明**：本报告完全基于已提供的证据包（`LIMITS: summary_max_chars=640, truncation_count=0`）。未使用任何外部知识，未编造任何关系、机制或 PMID，所有陈述均在证据包覆盖范围内。\n\n## 5. Answer\n\n**简短回答**：当前证据包中 **不存在任何数据** 可用于回答“TE-KG 中哪些 TE family 的疾病连接度最高”，因此 **无法生成 top 20 CSV 风格表格**。\n\n**建议**：请确认 TE-KG 数据源是否已加载并可通过本系统访问，或尝试提供具体的 TE family 名称列表以进行定向查询。如需重新执行，请告知以便再次触发证据获取流程。",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": "",
+          "workflow_state": {
+            "current_stage": "Writing",
+            "stage_statuses": {
+              "Understanding": "done",
+              "Planning": "done",
+              "Collecting": "done",
+              "Executing": "done",
+              "Integrating": "done",
+              "Writing": "done"
+            },
+            "traversed_edges": [
+              "Understanding->Planning",
+              "Planning->Collecting",
+              "Collecting->Executing",
+              "Executing->Collecting",
+              "Executing->Integrating",
+              "Integrating->Writing"
+            ],
+            "complete": true
+          }
+        },
+        "display_text": "",
+        "sequence": 26
+      }
+    ],
+    "answer": "# TE-KG 中 TE Family 疾病连接度排名报告\n\n## 1. Question Scope\n\n本报告旨在回答：在 TE-KG 知识图谱中，哪些 TE 家族与疾病之间的连接度最高，并以 top 20 CSV 风格表格呈现。分析预期为单跳推理（`single_hop_reasoning`），目标实体类型为 Disease 与 TE。\n\n**当前可用信息**：仅有两个插件被调用——Entity Resolver 返回空结果，Tree Plugin 状态正常但未生成可用输出。证据包中不包含任何声明、证据项、引用或路由（详见下文 gaps）。\n\n## 2. Key Findings\n\n**核心判断**：基于当前证据包，**无法给出任何 TE family 的疾病连接度排名或 top 20 表格**。证据包中不存在可追溯的疾病‑TE 连接数据，所有可能生成排名的证据链均缺失。\n\n**证据‑声明映射**：\n\n| 声明 | 支持证据 | 引用 | 状态 |\n|------|----------|------|------|\n| 无 | 无 | 无 | **强空缺**：evidence_package 中 claim_count=0，evidence_count=0，gap 类型为 blocking 的 “no_claims”。 |\n\n## 3. Evidence Review\n\n证据包（`schema_version evidence_package.v1`）生成于 2026-05-26T13:36:32，元数据如下：\n\n- 插件执行情况：Entity Resolver → **empty**；Tree Plugin → **ok**（未产生任何 claim 或 evidence）。\n- 指标：claim_count=0，evidence_count=0，citation_count=0，route_count=0。\n- 错误列表：空；截断：无（truncation_count=0）。\n\n**证据项**：无。`evidence_items` 数组为空，引用映射与路由映射均为空。\n\n**证据链（evidence_walk）**：`walk_steps`、`claim_nodes`、`support_edges` 均为空数组。唯一标识的 gap 为 `gap_1`：**“Evidence package contains no claim nodes.”**，严重程度 blocking，未指定所需补充证据类型。\n\n**结论**：当前轮次不存在任何可追溯的源证据，无结构化数据可直接回答该问题。\n\n## 4. Limitations\n\n- **证据空缺（blocking gap）**：核心 gap 为 **no_claims**。问题所需的疾病连接度排名依赖于至少一组从 TE family 到疾病的连接计数（或等效指标），但证据包中完全缺失此类声明。无法通过现有信息推导或扩写。\n- **插件空结果**：Entity Resolver 返回空，提示实体解析阶段可能未能将问题中隐含的 TE family 名称映射到知识图谱节点；Tree Plugin 虽状态为 ok，但未输出内容，表明在给定上下文中未能检索到相关疾病‑TE 关联。\n- **不确定性级别**：**高**——证据体为空，所有基于此回答的结论均无支撑。不能将“无证据”视为否定结论，但必须如实报告数据不可用。\n- **缺失输入**：问题未提供具体的 TE family 名称列表或知识图谱版本信息，但即使进行宏观查询，当前插件也未返回可用数据。\n- **边界声明**：本报告完全基于已提供的证据包（`LIMITS: summary_max_chars=640, truncation_count=0`）。未使用任何外部知识，未编造任何关系、机制或 PMID，所有陈述均在证据包覆盖范围内。\n\n## 5. Answer\n\n**简短回答**：当前证据包中 **不存在任何数据** 可用于回答“TE-KG 中哪些 TE family 的疾病连接度最高”，因此 **无法生成 top 20 CSV 风格表格**。\n\n**建议**：请确认 TE-KG 数据源是否已加载并可通过本系统访问，或尝试提供具体的 TE family 名称列表以进行定向查询。如需重新执行，请告知以便再次触发证据获取流程。",
+    "done_payload": {
+      "confidence": "low",
+      "used_plugins": [
+        "Entity Resolver",
+        "Tree Plugin"
+      ],
+      "answer": "# TE-KG 中 TE Family 疾病连接度排名报告\n\n## 1. Question Scope\n\n本报告旨在回答：在 TE-KG 知识图谱中，哪些 TE 家族与疾病之间的连接度最高，并以 top 20 CSV 风格表格呈现。分析预期为单跳推理（`single_hop_reasoning`），目标实体类型为 Disease 与 TE。\n\n**当前可用信息**：仅有两个插件被调用——Entity Resolver 返回空结果，Tree Plugin 状态正常但未生成可用输出。证据包中不包含任何声明、证据项、引用或路由（详见下文 gaps）。\n\n## 2. Key Findings\n\n**核心判断**：基于当前证据包，**无法给出任何 TE family 的疾病连接度排名或 top 20 表格**。证据包中不存在可追溯的疾病‑TE 连接数据，所有可能生成排名的证据链均缺失。\n\n**证据‑声明映射**：\n\n| 声明 | 支持证据 | 引用 | 状态 |\n|------|----------|------|------|\n| 无 | 无 | 无 | **强空缺**：evidence_package 中 claim_count=0，evidence_count=0，gap 类型为 blocking 的 “no_claims”。 |\n\n## 3. Evidence Review\n\n证据包（`schema_version evidence_package.v1`）生成于 2026-05-26T13:36:32，元数据如下：\n\n- 插件执行情况：Entity Resolver → **empty**；Tree Plugin → **ok**（未产生任何 claim 或 evidence）。\n- 指标：claim_count=0，evidence_count=0，citation_count=0，route_count=0。\n- 错误列表：空；截断：无（truncation_count=0）。\n\n**证据项**：无。`evidence_items` 数组为空，引用映射与路由映射均为空。\n\n**证据链（evidence_walk）**：`walk_steps`、`claim_nodes`、`support_edges` 均为空数组。唯一标识的 gap 为 `gap_1`：**“Evidence package contains no claim nodes.”**，严重程度 blocking，未指定所需补充证据类型。\n\n**结论**：当前轮次不存在任何可追溯的源证据，无结构化数据可直接回答该问题。\n\n## 4. Limitations\n\n- **证据空缺（blocking gap）**：核心 gap 为 **no_claims**。问题所需的疾病连接度排名依赖于至少一组从 TE family 到疾病的连接计数（或等效指标），但证据包中完全缺失此类声明。无法通过现有信息推导或扩写。\n- **插件空结果**：Entity Resolver 返回空，提示实体解析阶段可能未能将问题中隐含的 TE family 名称映射到知识图谱节点；Tree Plugin 虽状态为 ok，但未输出内容，表明在给定上下文中未能检索到相关疾病‑TE 关联。\n- **不确定性级别**：**高**——证据体为空，所有基于此回答的结论均无支撑。不能将“无证据”视为否定结论，但必须如实报告数据不可用。\n- **缺失输入**：问题未提供具体的 TE family 名称列表或知识图谱版本信息，但即使进行宏观查询，当前插件也未返回可用数据。\n- **边界声明**：本报告完全基于已提供的证据包（`LIMITS: summary_max_chars=640, truncation_count=0`）。未使用任何外部知识，未编造任何关系、机制或 PMID，所有陈述均在证据包覆盖范围内。\n\n## 5. Answer\n\n**简短回答**：当前证据包中 **不存在任何数据** 可用于回答“TE-KG 中哪些 TE family 的疾病连接度最高”，因此 **无法生成 top 20 CSV 风格表格**。\n\n**建议**：请确认 TE-KG 数据源是否已加载并可通过本系统访问，或尝试提供具体的 TE family 名称列表以进行定向查询。如需重新执行，请告知以便再次触发证据获取流程。",
+      "language": "chinese",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": "",
+      "workflow_state": {
+        "current_stage": "Writing",
+        "stage_statuses": {
+          "Understanding": "done",
+          "Planning": "done",
+          "Collecting": "done",
+          "Executing": "done",
+          "Integrating": "done",
+          "Writing": "done"
+        },
+        "traversed_edges": [
+          "Understanding->Planning",
+          "Planning->Collecting",
+          "Collecting->Executing",
+          "Executing->Collecting",
+          "Executing->Integrating",
+          "Integrating->Writing"
+        ],
+        "complete": true
+      }
+    },
+    "used_plugins": [
+      "Entity Resolver",
+      "Tree Plugin"
+    ],
+    "citations": [],
+    "evidence_package": {
+      "schema_version": "evidence_package.v1",
+      "question": "TE-KG 中哪些 TE family 的疾病连接度最高？请给 top 20 CSV 风格表格。",
+      "generated_at": "2026-05-26T13:36:32+00:00",
+      "claims": [],
+      "evidence_items": [],
+      "citation_map": [],
+      "route_map": [],
+      "metrics": {
+        "plugin_count": 2,
+        "claim_count": 0,
+        "evidence_count": 0,
+        "citation_count": 0,
+        "route_count": 0,
+        "empty_plugin_count": 1,
+        "failed_plugin_count": 0,
+        "statuses": {
+          "Entity Resolver": "empty",
+          "Tree Plugin": "ok"
+        }
+      },
+      "limits": {
+        "summary_max_chars": 640,
+        "truncation_count": 0,
+        "truncated_summaries": []
+      },
+      "errors": []
+    },
+    "evidence_walk": {
+      "schema_version": "evidence_walk.v1",
+      "generated_at": "2026-05-26T13:36:33+00:00",
+      "walk_steps": [],
+      "claim_nodes": [],
+      "support_edges": [],
+      "citation_refs": [],
+      "route_refs": [],
+      "gaps": [
+        {
+          "id": "gap_1",
+          "type": "no_claims",
+          "severity": "blocking",
+          "message": "Evidence package contains no claim nodes.",
+          "required_evidence": []
+        }
+      ],
+      "coverage_metrics": {
+        "claim_node_count": 0,
+        "walk_step_count": 0,
+        "support_edge_count": 0,
+        "citation_ref_count": 0,
+        "route_ref_count": 0,
+        "gap_count": 1,
+        "has_minimum_evidence": false,
+        "source_claim_count": 0,
+        "source_evidence_count": 0,
+        "selected_plugin_count": 0,
+        "sufficiency_status": "unknown"
+      }
+    },
+    "report_plan": {
+      "schema_version": "report_plan.v1",
+      "question": "TE-KG 中哪些 TE family 的疾病连接度最高？请给 top 20 CSV 风格表格。",
+      "report_type": "research_report",
+      "generated_at": "2026-05-26T13:36:43+00:00",
+      "sections": [
+        {
+          "id": "section_1",
+          "key": "question_scope",
+          "title": "Question Scope",
+          "purpose": "Organize evidence for this report section."
+        },
+        {
+          "id": "section_2",
+          "key": "key_findings",
+          "title": "Key Findings",
+          "purpose": "Organize evidence for this report section."
+        },
+        {
+          "id": "section_3",
+          "key": "evidence_review",
+          "title": "Evidence Review",
+          "purpose": "Summarize supporting evidence and provenance."
+        },
+        {
+          "id": "section_4",
+          "key": "limitations",
+          "title": "Limitations",
+          "purpose": "Surface evidence gaps and uncertainty."
+        },
+        {
+          "id": "section_5",
+          "key": "answer",
+          "title": "Answer",
+          "purpose": "Provide the final concise answer."
+        }
+      ],
+      "claim_sequence": [],
+      "citation_policy": {
+        "mode": "inline_required",
+        "minimum_citations_per_claim": 1,
+        "allow_uncited_claims": false
+      },
+      "gap_policy": {
+        "mode": "surface_gaps",
+        "gap_count": 1,
+        "include_limitations_section": true
+      },
+      "coverage_metrics": {
+        "claim_node_count": 0,
+        "walk_step_count": 0,
+        "support_edge_count": 0,
+        "citation_ref_count": 0,
+        "route_ref_count": 0,
+        "gap_count": 1,
+        "has_minimum_evidence": false,
+        "source_claim_count": 0,
+        "source_evidence_count": 0,
+        "selected_plugin_count": 0,
+        "sufficiency_status": "unknown"
+      }
+    },
+    "integrity_report": {},
+    "evaluation_report": {},
+    "models": {},
+    "writing_failed": false,
+    "failure_stage": "",
+    "failure_reason": "",
+    "timings": {
+      "total_ms": 40530
+    },
+    "errors": []
+  },
+  "evaluation": {
+    "schema_version": "mode_comparison_live_proxy.v1",
+    "case_id": "P5A_B_019",
+    "expected_best_mode": "agent",
+    "recommended_mode": "agent",
+    "dt_ok": true,
+    "agent_ok": true,
+    "dt_answer_length": 228,
+    "agent_answer_length": 1841,
+    "dt_plugins": [
+      "Entity Resolver",
+      "Tree Plugin"
+    ],
+    "agent_plugins": [
+      "Entity Resolver",
+      "Tree Plugin"
+    ],
+    "dt_latency_ms": 3285,
+    "agent_latency_ms": 40530,
+    "agent_artifact_score": 0.65,
+    "dt_artifact_score": 0.45,
+    "depth_delta": 0.2,
+    "agent_value_added": "low",
+    "agent_overkill": false,
+    "dt_errors": [],
+    "agent_errors": []
+  },
+  "semantic_evaluation": {
+    "schema_version": "dt_agent_semantic_proxy.v1",
+    "case_id": "P5A_B_019",
+    "claim_support_score": 0.722,
+    "citation_relevance_score": 0.0,
+    "missing_evidence_score": 1.0,
+    "research_usefulness_score": 0.732,
+    "semantic_winner": "tie",
+    "semantic_notes": [
+      "v1 deterministic proxy only: uses saved answer text and artifact presence; it does not call an external LLM or verify biomedical truth.",
+      "Agent citation artifacts are missing or empty."
+    ]
+  }
+}

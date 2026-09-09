@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275369",
+  "name": "CavTsc-1.52",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Cavia tschudii",
+  "display_classification": "LINE/L1 | Cavia tschudii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Caviidae",
+    "Cavia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1115 BP; 260 A; 294 C; 278 G; 269 T; 14 other;"
+  },
+  "sequence": "tattggaacttaggacactgggaaaccaagcaagcagctcgcctccctggtaagtggttggtntggcagactgtggcancttncagggggagaaccaccagcgnctcctgagatncgngccatgttgnaacttnggacgctgggaaaccgagcaagcanctcccctccctggtaagcggcngcggtgtggcngactgcggcccttccagggggagaaccaccagcggctcctgagatccgcgccatgttggaacttaggacgctgggaaaccaagcaagcagctcccctccctggtaagtggctgcggtgtggcagactgcggcccttccagggggagaaccaccagcgtctcctgagatccgcgccatgttggaacttaggacgctgggaaaccaagcaagcagctcccctccctggtaagcggcngcggtgtggcagactgcggcccttccagggggagaaccaccagcgtctcctgagatccgcgccatgttggaacttaggacgctgggaaaccaagcaagcagctcccctccctggtaagcggctgcggtgtggcagactgcggcccctccagggggagaaccaccagtgtctcctgagatccgcgccatgttggaacttaggangctgggaaaccaagcaaccagcctgcctccctgctaagcaatagtgaacctactggtgcacggcctagagtcaaacatcccacttcccctaccccccttctcctgtccccccgttagcaaatgggaaccagaaatctgagcatctcctgggaggttgaccatagcaaataagggggatttccttctaccatctctttgaaggcaaatatttttattactgttttgctctattctgattaatggtactgctctattcaatattctgttttgataagttctataatgttctgtatttcattttattttgatatacgtgattgaaagaacaactattgtaaagataacgaaatatactgtgatacctattactgttatcccggtaacctgctgtgaagttctgtaccaatttcactgcacggtctcagttggctttattctgtcttgttctgttgtattttactactttcaaaataaaattnaaaaaa",
+  "length_bp": 1115,
+  "sequence_length_bp": 1115,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

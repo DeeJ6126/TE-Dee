@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001442",
+  "name": "NDNAX2_CE",
+  "description": "NDNAX2_CE is a family of non-autonomous Helitron DNA transposons",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2844 BP; 785 A; 661 C; 531 G; 842 T; 25 other;"
+  },
+  "sequence": "tctgcctccttcctaaaacccccatcttgccacacacacgcgttttcggtgttcaaaaaatgttcaaaaaatgtccgaaaaaattgtaacacaactttgaacgtttatatctcggctctcactgaaccgatttttgaaattcttttttctccacattcacaaaatatagcgacgtgtgttcatctaaaagggggttgattttggagcatcctgtcggctccacaagcggaaaaccacaccccgcttgtttttgcgcacaccgaagtactggccgaaaaccactttaaattgaaggaaaattcgagtttatgttcaaaacgtttgagactcgaaacttaagttctccttttcaatacctatccactgtatctaagttcattgtgatatctctattcgttattttaaaaacgataattaaagttttgccaaaatttctgcacctccccccttttctcacacacacacacccacctccccctttcatatttggtgtgttttcggccacattttcaccattgtttcggtcaaatctccgttagtcttgctctttttccaaatttttttttggaaaaatgttcatcacatcgagaggaagcggaaaatataattttttgtttcaaaaaaggtaaataatagtctcaaaaatngaaaaaatgaacacttctttcaaacaatttacatttttccataaaattcacaaactttccactatcgttccggtttttatgttaaatttagaattaatagaatgatttaaaatggaatctcaaatcacagctcgatccgatcatttttcgcggagataggntatttaatttttgcacatggaaatccagttttcctctgttcctggacaagttttcaactatcctttcgattttatgttttaattttgataattttcactaaagcaaggtagacaaactaaatttggtcggtcttgacaaccttcagcacatttacggaagttttgagcttccaggccttcccagaaggtgatatgtttcaatttttgttatttttnaaaataataaccgccgtattattntactttttacgccaatttcaaaaattatttnatttttctcaaactcctactatgagcaaagttatgacggattgaagttttagtgcataactcctcacaggccgcctctcctcacaagaggctgcatgcgtgcgggtggctggaaaatgttttctttccaaaaaaaaacatagaaaggcactttaactctaagaagattcagttcactttgaacatatacttcaggcattgcaggccggaggcctgctgtgcgattacaactgtttcaagcccagattgtctggattgagtgccgcaggcactcttactcttagaagacgcagtcaaccttaaatcattataccaaggcaggccggaggcctgatatgcgattactcttagataagtttgatttagaaagcttttattattttcagttttctaaaacaatccccattcccgaagggctgggggcccacaggcgttcacgattttccaaaaaggtgaaatgtttattttttcgttatttttcaaatttgaaaacaccatacgattttggcttaaatactaaattgaaatagaaatttcgctctcttacgatctacgcctcacccactgcnaagcctggcaagtcgcagatccgctatcaacactcttggaaactgtgggccggctttaatcctattccaagcagatntgttattcactcaagcctaanaaccaggtttgagggccgcaggcccgaatactcttggaaactntgggccgnctttaaccctactccnagcagagcaggccggaggcctgcgacgcggttgttattcactcaaacctaanaaccaggnttgagggccgcaggcccgaatactcttggaaactntgggccgnctttaancctattccgagcagatntgttattcactcaagcccaataaccaggnttgagggccgcaggcccgaatacncttggaaactgtgggccggctttaatcctattccaagcagatctgttattcgctcaagcctaataaccaggttcgagggccgcaggcccgaatacncttggaaactntgggccggctttaatcctattccaagcagatntgttattcgctcaagcctaataaccaggtttgagggccgcaggcccgaatactcttggaaactgtgggccggctttaatcctattccaagcagagcaggccgtaggcctgcgacgcggttgttattcactcaagcctaacaaccaggtttgagggccgcaggcccgaatactcttggaaactgtgggccggctttaatcctattccaagcagagcgcgtntgttattcgctcaagcctaataaccaggtttgagggccgcaggcccgaatactcttggaaactgtgggccggctttaatcctattccaagcagagcaggccgtattcatgagttttccttttccttcaccgttttttgtagttcacagtgatgattgaagacacgcttattttattgatnatacattcaaattattcttgaacaaaatctcagcctaagttattcgtacagtgtcggtcctggagcaatgaatcaaagtttaaagagatttcactttacacagtaagagcttcgaggcgaagcctcgaacctgaatagtcaagttttctaaacatataccccactcccgaaataatttcaaggagatctcgaataaccccatnacaggttcgaggcgaagccgagaacctgcgccagctaccttgctaataacttagagcgaattaaccctatccccattcccgaagggctggcgggcccataggcccgctag",
+  "length_bp": 2844,
+  "sequence_length_bp": 2844,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "NDNAX2_CE"
+  ]
+}

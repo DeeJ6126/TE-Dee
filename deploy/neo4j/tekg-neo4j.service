@@ -1,0 +1,21 @@
+[Unit]
+Description=TE-KG Neo4j database
+After=network.target
+
+[Service]
+Type=simple
+User=tekg_ro
+Group=tekg_ro
+WorkingDirectory=/app/tekg/services/neo4j-current
+Environment=NEO4J_HOME=/app/tekg/services/neo4j-current
+Environment=NEO4J_CONF=/app/tekg/shared/config/neo4j
+ExecStart=/app/tekg/services/neo4j-current/bin/neo4j console
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=120
+LimitNOFILE=60000
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target
+

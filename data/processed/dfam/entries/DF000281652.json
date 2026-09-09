@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281652",
+  "name": "CasCan-1.35_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CasCan-1.35_LTR"
+  ],
+  "species": "Castor canadensis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Castor canadensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Castorimorpha",
+    "Castoridae",
+    "Castor"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 305 BP; 59 A; 105 C; 53 G; 87 T; 1 other;"
+  },
+  "sequence": "tgttggcaataatggcgccgataggtttcggttcttactgcacccttaagcttctgttttccagggtcacggtcctgcctcaagtctagcttgaatcctccttctgccccaacctccaatcagcatgaaccataagatcctaaccaatcagatcatgccgagtctcactgaggggtatttaagcccctgccctccctctctctctctctctctcggctctctccctctcccacccggcaataaagaatctcttggccagatcactcctctccacgtggtcacttttggggcctacatttccnaca",
+  "length_bp": 305,
+  "sequence_length_bp": 305,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

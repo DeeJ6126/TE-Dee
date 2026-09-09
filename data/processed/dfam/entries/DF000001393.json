@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001393",
+  "name": "CeRep58",
+  "description": "C. elegans repeat 58.",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "Satellite/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 96 BP; 44 A; 18 C; 8 G; 26 T; 0 other;"
+  },
+  "sequence": "cctcatcttcagaaaaatataaattacgggcaaatcaacaattaaattcctcatcttcagaaaaatataaattacgggcaaatcaacaattaaatt",
+  "length_bp": 96,
+  "sequence_length_bp": 96,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CeRep58"
+  ]
+}

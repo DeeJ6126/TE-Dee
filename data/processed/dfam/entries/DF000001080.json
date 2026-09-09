@@ -1,0 +1,33 @@
+{
+  "accession": "DF000001080",
+  "name": "U6",
+  "description": "U6 snRNA (spliceosomal RNA) gene / pseudogene",
+  "keywords": [
+    "snRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "snRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 107 BP; 32 A; 24 C; 25 G; 26 T; 0 other;"
+  },
+  "sequence": "gtgctcgcttcggcagcacatatactaaaattggaacgatacagagaagattagcatggcccctgcgcaaggatgacacgcaaattcgtgaagcgttccatattttt",
+  "length_bp": 107,
+  "sequence_length_bp": 107,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "U6"
+  ]
+}

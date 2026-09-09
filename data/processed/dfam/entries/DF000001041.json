@@ -1,0 +1,48 @@
+{
+  "accession": "DF000001041",
+  "name": "MSTA",
+  "description": "MSTA Long Terminal Repeat for ERVL-MaLR retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MSTA"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 428 BP; 79 A; 114 C; 105 G; 124 T; 6 other;"
+  },
+  "sequence": "tgatatggtttggatctgtgtccccgcccaaatctcatgtcgaattgtaatccccagtgttggaggnggggcctggtgggaggtgattggatcatgggggcggatttctcatgancggtttagcaccatccccttggtgctgttctcgtgatagtgagtgagttctcacgagatctggttgtttaaaagtgtgtggcacctcccccctcgctctctcttnctcctgctccggccatgtgacgtgcctgcttccccttcgccttccgccatgattgtaagtttcctgaggcctccccagaagccgannagatgccancgccatgcttcctgtacagcctgcggaaccgtgagccaattaaacctcttttctttataaattacccagtctcaggtatttctttatagcagtgcgagaacggactaataca",
+  "length_bp": 428,
+  "sequence_length_bp": 428,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MSTA"
+  ]
+}

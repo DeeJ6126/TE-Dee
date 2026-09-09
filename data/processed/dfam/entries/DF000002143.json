@@ -1,0 +1,51 @@
+{
+  "accession": "DF000002143",
+  "name": "RLTR9F",
+  "description": "Mouse long terminal repeat",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR9F"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 415 BP; 76 A; 124 C; 112 G; 99 T; 4 other;"
+  },
+  "sequence": "tgtagcctcccccagcctgaagcgggctggtacagaccttgtcgccactgaggtggggccacctgcggtgcagctttccgacttggctggcttcttttgaagtgacaactgccctgctcttctgctacctgccgagaggctgaacctgtcttcctgagacattcctgaataagcaaccagcctggcgaccaagtgctgacagaatggctccaggcaccaaggatggactggcggggggtggggatgggccttccccctttataagcacggtctcttagtaaactcgcgggccttgancagaaaaatttgtcttggnctccattantttctctcgccgtctagtgtctctttcagccccagcctgccttccaggagtacccggttcatgtaggccgcgggccggcntacaactaca",
+  "length_bp": 415,
+  "sequence_length_bp": 415,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

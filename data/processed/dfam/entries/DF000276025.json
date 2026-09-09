@@ -1,0 +1,48 @@
+{
+  "accession": "DF000276025",
+  "name": "CroInd-1.340",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Crocidura indochinensis",
+  "display_classification": "DNA/hAT-Charlie | Crocidura indochinensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Soricidae",
+    "Crocidurinae",
+    "Crocidura"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 246 BP; 46 A; 60 C; 89 G; 51 T; 0 other;"
+  },
+  "sequence": "agcgatggcgaacctatggcacgcgtgccagctgtggcacgcgaaggccttgcagctggcacgcgggaaggtccgcaattaagatatgcggcgcggcgggaggcgagtgtgccggtgtctgctttgcagctcacctggcaacagggccggactggccattgggaggacgtgctggcactttgaggaaattctttggttttgtgcggcagtttgggcactcgggctcaaaaaggttagccatcactg",
+  "length_bp": 246,
+  "sequence_length_bp": 246,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000277649",
+  "name": "JacJac-1.30",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Jaculus jaculus",
+  "display_classification": "SINE/Alu | Jaculus jaculus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Dipodoidea",
+    "Dipodidae",
+    "Dipodinae",
+    "Jaculus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 156 BP; 46 A; 40 C; 46 G; 24 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcacgcctttaatcccagcactcgggaggcagaggtaggaggatcgccgtgagttcgaggccaccctgagactacatagtgaattccaggtcagcctgggctagagtgagaccctacctcgaaaaaccaaaaaaaaaaaa",
+  "length_bp": 156,
+  "sequence_length_bp": 156,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

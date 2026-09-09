@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000310",
+  "name": "L1MEg2_5end",
+  "description": "5' end of L1 retrotransposon, L1MEg2_5end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Theria",
+  "display_classification": "LINE/L1 | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1000 BP; 268 A; 245 C; 294 G; 186 T; 7 other;"
+  },
+  "sequence": "ggacttccgcttccgggtaggatgtagtaggtcgcggcaggccaacgctcccgctgcaacaactagaaaaagccggataaattacaaaaatcatatttttaaaggcatcggagagctgtggaagcaacgaggactagatgaactaaaattccagagaggggagaaccnttccgaggtgagctgacgatctgcagctgttttttccctgggggcatttgccgattctgggcgcgggctgaggatctgggcttggcccaggcagagggnctctgctgggggaaagagaaaccagcaaagcttttggcggtcgcgcggggctggngtgacaaaattggaaacttgaggggcctcaaacgcatggccggttttccccacgggacatttgctgagttctggggctgcatgcaggaggctgaggagctaggccgaaagcttctgaaaggcagagtgaaatctcccgcagtctcgcggtgcttaggaaacaaagncccgctagagggaggggcctgaaacaaaaccctagggagaatgncctgccanttcgcgttgctgaaacagctgggcaaactgcctcaaacacacggccggtctccccctcaagacatttgccagattttgaagctgcgtggggcgggaggctaaagagctaagctnaaaacctctgaagggcagaactgaatctcccgcagtctttcagggctgaggagacagagacccgccaggctctcaatcaaaagcccgggagggccacgcccgaggaacaggggcgaaccagaggtagactgagtcttactaaaactgcaacccagccccgacccagctcaatccctgattggattgaggtgatcagcccctcaccctatctgcctaacagaggaaagggggaaccctctctggtggaagataacatctggagcctctacggttcttttatacacaatgtccggcatacaataaaaaattactagacatgcgaagaggcaggaaaatgtgaccgata",
+  "length_bp": 1000,
+  "sequence_length_bp": 1000,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

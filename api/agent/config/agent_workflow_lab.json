@@ -1,0 +1,783 @@
+{
+    "version": 2,
+    "title": "TE-KG Agent Workflow Lab",
+    "description": "Developer-facing workflow specification for the proposed MoE-style academic agent.",
+    "nodes": [
+        {
+            "id": 1,
+            "name": "Question Understanding Node",
+            "kind": "core",
+            "model": "deepseek-reasoner",
+            "description": "Parse the user question, detect intent and complexity, and run entity normalization inside the node when needed. There is no separate entity expert.",
+            "inputs": [
+                "question"
+            ],
+            "outputs": [
+                "analysis",
+                "entity_resolution"
+            ],
+            "position": {
+                "x": 80,
+                "y": 120
+            }
+        },
+        {
+            "id": 2,
+            "name": "Planning Node",
+            "kind": "core",
+            "model": "deepseek-reasoner",
+            "description": "Build knowledge gaps, subtasks, and the first-pass expert activation plan.",
+            "inputs": [
+                "question",
+                "analysis",
+                "entity_resolution",
+                "session_context"
+            ],
+            "outputs": [
+                "planning"
+            ],
+            "position": {
+                "x": 320,
+                "y": 120
+            }
+        },
+        {
+            "id": 3,
+            "name": "Evidence Collection Node",
+            "kind": "controller",
+            "model": "deepseek-reasoner",
+            "description": "MoE-style controller that activates one expert at a time, merges JSON outputs, and explicitly decides whether the current evidence is sufficient or whether more experts must be activated.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning",
+                "graph_result",
+                "analytics_result",
+                "cypher_result",
+                "literature_result",
+                "literature_synthesis",
+                "tree_result",
+                "expression_result",
+                "genome_result",
+                "sequence_result",
+                "citation_result",
+                "collected_results",
+                "evidence_bundle",
+                "citation_bundle"
+            ],
+            "outputs": [
+                "collection_state",
+                "active_expert",
+                "sufficiency_decision",
+                "graph_result",
+                "analytics_result",
+                "cypher_result",
+                "literature_result",
+                "literature_synthesis",
+                "tree_result",
+                "expression_result",
+                "genome_result",
+                "sequence_result",
+                "citation_result",
+                "collected_results",
+                "evidence_bundle",
+                "citation_bundle"
+            ],
+            "position": {
+                "x": 600,
+                "y": 120
+            }
+        },
+        {
+            "id": 4,
+            "name": "Local Graph Expert",
+            "kind": "expert",
+            "model": "deepseek-chat",
+            "description": "Runs Graph Plugin for local TE-centered neighborhoods and entity-pair relations.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning",
+                "collected_results"
+            ],
+            "outputs": [
+                "graph_result"
+            ],
+            "position": {
+                "x": 940,
+                "y": 40
+            }
+        },
+        {
+            "id": 5,
+            "name": "Graph Analytics Expert",
+            "kind": "expert",
+            "model": "deepseek-chat",
+            "description": "Runs Graph Analytics Plugin for topology, ranking, counts, and graph-wide structure questions.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning"
+            ],
+            "outputs": [
+                "analytics_result"
+            ],
+            "position": {
+                "x": 940,
+                "y": 120
+            }
+        },
+        {
+            "id": 6,
+            "name": "Cypher Explorer Expert",
+            "kind": "expert",
+            "model": "deepseek-chat",
+            "description": "Runs Cypher Explorer Plugin with validated read-only aggregation queries when fixed graph tools are not enough.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning",
+                "collected_results"
+            ],
+            "outputs": [
+                "cypher_result"
+            ],
+            "position": {
+                "x": 940,
+                "y": 200
+            }
+        },
+        {
+            "id": 7,
+            "name": "Literature Retrieval Expert",
+            "kind": "expert",
+            "model": "deepseek-chat",
+            "description": "Runs Literature Plugin to retrieve local graph citations and PubMed metadata.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning",
+                "collected_results"
+            ],
+            "outputs": [
+                "literature_result"
+            ],
+            "position": {
+                "x": 940,
+                "y": 280
+            }
+        },
+        {
+            "id": 8,
+            "name": "Literature Reading Expert",
+            "kind": "expert",
+            "model": "deepseek-chat",
+            "description": "Runs Literature Reading Plugin to cluster claims, conflicts, and missing evidence from the reviewed citation set.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning",
+                "literature_result",
+                "citation_bundle"
+            ],
+            "outputs": [
+                "literature_synthesis"
+            ],
+            "position": {
+                "x": 940,
+                "y": 360
+            }
+        },
+        {
+            "id": 9,
+            "name": "Tree Expert",
+            "kind": "expert",
+            "model": "deepseek-chat",
+            "description": "Runs Tree Plugin for family, subfamily, and lineage context.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning"
+            ],
+            "outputs": [
+                "tree_result"
+            ],
+            "position": {
+                "x": 940,
+                "y": 440
+            }
+        },
+        {
+            "id": 10,
+            "name": "Expression Expert",
+            "kind": "expert",
+            "model": "deepseek-chat",
+            "description": "Runs Expression Plugin for tissue and cell-context evidence.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning"
+            ],
+            "outputs": [
+                "expression_result"
+            ],
+            "position": {
+                "x": 940,
+                "y": 520
+            }
+        },
+        {
+            "id": 11,
+            "name": "Genome Expert",
+            "kind": "expert",
+            "model": "deepseek-chat",
+            "description": "Runs Genome Plugin for locus-level and browser context.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning"
+            ],
+            "outputs": [
+                "genome_result"
+            ],
+            "position": {
+                "x": 940,
+                "y": 600
+            }
+        },
+        {
+            "id": 12,
+            "name": "Sequence Expert",
+            "kind": "expert",
+            "model": "deepseek-chat",
+            "description": "Runs Sequence Plugin for Repbase-backed sequence facts, length, and structure hints.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning"
+            ],
+            "outputs": [
+                "sequence_result"
+            ],
+            "position": {
+                "x": 940,
+                "y": 680
+            }
+        },
+        {
+            "id": 13,
+            "name": "Citation Resolver Expert",
+            "kind": "expert",
+            "model": "deepseek-chat",
+            "description": "Runs Citation Resolver to normalize and deduplicate citation records.",
+            "inputs": [
+                "collected_results",
+                "citation_bundle"
+            ],
+            "outputs": [
+                "citation_result"
+            ],
+            "position": {
+                "x": 940,
+                "y": 760
+            }
+        },
+        {
+            "id": 14,
+            "name": "Evidence Synthesis Node",
+            "kind": "core",
+            "model": "deepseek-reasoner",
+            "description": "Organize the collected evidence into supported claims, conflicts, missing-evidence notes, and claim clusters. This node does not decide whether evidence is sufficient; that stays in Evidence Collection Node.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning",
+                "graph_result",
+                "analytics_result",
+                "cypher_result",
+                "literature_result",
+                "literature_synthesis",
+                "tree_result",
+                "expression_result",
+                "genome_result",
+                "sequence_result",
+                "citation_result",
+                "collected_results",
+                "evidence_bundle",
+                "citation_bundle"
+            ],
+            "outputs": [
+                "supported_claims",
+                "conflicting_claims",
+                "missing_evidence",
+                "claim_clusters"
+            ],
+            "position": {
+                "x": 1320,
+                "y": 180
+            }
+        },
+        {
+            "id": 15,
+            "name": "Answer Structuring Node",
+            "kind": "core",
+            "model": "deepseek-reasoner",
+            "description": "A larger reasoning node that receives all expert outputs and the synthesis output, then organizes the answer outline as answer_structure.",
+            "inputs": [
+                "question",
+                "analysis",
+                "planning",
+                "collected_results",
+                "graph_result",
+                "analytics_result",
+                "cypher_result",
+                "literature_result",
+                "literature_synthesis",
+                "tree_result",
+                "expression_result",
+                "genome_result",
+                "sequence_result",
+                "citation_result",
+                "supported_claims",
+                "conflicting_claims",
+                "missing_evidence",
+                "claim_clusters"
+            ],
+            "outputs": [
+                "answer_structure"
+            ],
+            "position": {
+                "x": 1320,
+                "y": 360
+            }
+        },
+        {
+            "id": 16,
+            "name": "Answer Writer Node",
+            "kind": "core",
+            "model": "deepseek-reasoner",
+            "description": "Generate the final academic answer from answer_structure and the validated evidence/citation bundle.",
+            "inputs": [
+                "question",
+                "analysis",
+                "answer_structure",
+                "supported_claims",
+                "conflicting_claims",
+                "missing_evidence",
+                "citation_bundle"
+            ],
+            "outputs": [
+                "answer"
+            ],
+            "position": {
+                "x": 1600,
+                "y": 280
+            }
+        },
+        {
+            "id": 17,
+            "name": "Process Narrator Node",
+            "kind": "core",
+            "model": "deepseek-chat",
+            "description": "Generate front-end thinking trace lines from real execution events only.",
+            "inputs": [
+                "event_stream",
+                "analysis",
+                "entity_resolution",
+                "planning",
+                "collection_state",
+                "active_expert",
+                "sufficiency_decision",
+                "graph_result",
+                "analytics_result",
+                "cypher_result",
+                "literature_result",
+                "literature_synthesis",
+                "tree_result",
+                "expression_result",
+                "genome_result",
+                "sequence_result",
+                "citation_result",
+                "supported_claims",
+                "conflicting_claims",
+                "missing_evidence",
+                "claim_clusters",
+                "answer_structure",
+                "answer"
+            ],
+            "outputs": [
+                "trace_event"
+            ],
+            "position": {
+                "x": 1320,
+                "y": 560
+            }
+        }
+    ],
+    "edges": [
+        {
+            "from": 1,
+            "to": 2,
+            "label": "analysis, entity_resolution"
+        },
+        {
+            "from": 1,
+            "to": 17,
+            "label": "analysis_events"
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "label": "planning"
+        },
+        {
+            "from": 2,
+            "to": 17,
+            "label": "planning_events"
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "label": "activate -> graph_result"
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "label": "activate -> analytics_result"
+        },
+        {
+            "from": 3,
+            "to": 6,
+            "label": "activate -> cypher_result"
+        },
+        {
+            "from": 3,
+            "to": 7,
+            "label": "activate -> literature_result"
+        },
+        {
+            "from": 3,
+            "to": 8,
+            "label": "activate -> literature_synthesis"
+        },
+        {
+            "from": 3,
+            "to": 9,
+            "label": "activate -> tree_result"
+        },
+        {
+            "from": 3,
+            "to": 10,
+            "label": "activate -> expression_result"
+        },
+        {
+            "from": 3,
+            "to": 11,
+            "label": "activate -> genome_result"
+        },
+        {
+            "from": 3,
+            "to": 12,
+            "label": "activate -> sequence_result"
+        },
+        {
+            "from": 3,
+            "to": 13,
+            "label": "activate -> citation_result"
+        },
+        {
+            "from": 4,
+            "to": 3,
+            "label": "graph_result -> collected_results"
+        },
+        {
+            "from": 5,
+            "to": 3,
+            "label": "analytics_result -> collected_results"
+        },
+        {
+            "from": 6,
+            "to": 3,
+            "label": "cypher_result -> collected_results"
+        },
+        {
+            "from": 7,
+            "to": 3,
+            "label": "literature_result -> collected_results"
+        },
+        {
+            "from": 8,
+            "to": 3,
+            "label": "literature_synthesis -> collected_results"
+        },
+        {
+            "from": 9,
+            "to": 3,
+            "label": "tree_result -> collected_results"
+        },
+        {
+            "from": 10,
+            "to": 3,
+            "label": "expression_result -> collected_results"
+        },
+        {
+            "from": 11,
+            "to": 3,
+            "label": "genome_result -> collected_results"
+        },
+        {
+            "from": 12,
+            "to": 3,
+            "label": "sequence_result -> collected_results"
+        },
+        {
+            "from": 13,
+            "to": 3,
+            "label": "citation_result -> citation_bundle"
+        },
+        {
+            "from": 4,
+            "to": 17,
+            "label": "graph_events"
+        },
+        {
+            "from": 5,
+            "to": 17,
+            "label": "analytics_events"
+        },
+        {
+            "from": 6,
+            "to": 17,
+            "label": "cypher_events"
+        },
+        {
+            "from": 7,
+            "to": 17,
+            "label": "literature_events"
+        },
+        {
+            "from": 8,
+            "to": 17,
+            "label": "reading_events"
+        },
+        {
+            "from": 9,
+            "to": 17,
+            "label": "tree_events"
+        },
+        {
+            "from": 10,
+            "to": 17,
+            "label": "expression_events"
+        },
+        {
+            "from": 11,
+            "to": 17,
+            "label": "genome_events"
+        },
+        {
+            "from": 12,
+            "to": 17,
+            "label": "sequence_events"
+        },
+        {
+            "from": 13,
+            "to": 17,
+            "label": "citation_events"
+        },
+        {
+            "from": 4,
+            "to": 14,
+            "label": "graph_result"
+        },
+        {
+            "from": 5,
+            "to": 14,
+            "label": "analytics_result"
+        },
+        {
+            "from": 6,
+            "to": 14,
+            "label": "cypher_result"
+        },
+        {
+            "from": 7,
+            "to": 14,
+            "label": "literature_result"
+        },
+        {
+            "from": 8,
+            "to": 14,
+            "label": "literature_synthesis"
+        },
+        {
+            "from": 9,
+            "to": 14,
+            "label": "tree_result"
+        },
+        {
+            "from": 10,
+            "to": 14,
+            "label": "expression_result"
+        },
+        {
+            "from": 11,
+            "to": 14,
+            "label": "genome_result"
+        },
+        {
+            "from": 12,
+            "to": 14,
+            "label": "sequence_result"
+        },
+        {
+            "from": 13,
+            "to": 14,
+            "label": "citation_result"
+        },
+        {
+            "from": 4,
+            "to": 15,
+            "label": "graph_result"
+        },
+        {
+            "from": 5,
+            "to": 15,
+            "label": "analytics_result"
+        },
+        {
+            "from": 6,
+            "to": 15,
+            "label": "cypher_result"
+        },
+        {
+            "from": 7,
+            "to": 15,
+            "label": "literature_result"
+        },
+        {
+            "from": 8,
+            "to": 15,
+            "label": "literature_synthesis"
+        },
+        {
+            "from": 9,
+            "to": 15,
+            "label": "tree_result"
+        },
+        {
+            "from": 10,
+            "to": 15,
+            "label": "expression_result"
+        },
+        {
+            "from": 11,
+            "to": 15,
+            "label": "genome_result"
+        },
+        {
+            "from": 12,
+            "to": 15,
+            "label": "sequence_result"
+        },
+        {
+            "from": 13,
+            "to": 15,
+            "label": "citation_result"
+        },
+        {
+            "from": 14,
+            "to": 15,
+            "label": "supported_claims, conflicting_claims, missing_evidence, claim_clusters"
+        },
+        {
+            "from": 15,
+            "to": 16,
+            "label": "answer_structure"
+        },
+        {
+            "from": 3,
+            "to": 17,
+                "label": "collection_events, sufficiency_decision"
+            },
+        {
+            "from": 14,
+            "to": 17,
+            "label": "synthesis_events"
+        },
+        {
+            "from": 15,
+            "to": 17,
+            "label": "structure_events"
+        },
+        {
+            "from": 16,
+            "to": 17,
+            "label": "answer_events"
+        }
+    ],
+    "routing_examples": [
+        {
+            "question_type": "relationship",
+            "route": [
+                1,
+                2,
+                3,
+                4,
+                7,
+                13,
+                14,
+                15,
+                16,
+                17
+            ]
+        },
+        {
+            "question_type": "graph_analytics",
+            "route": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                13,
+                14,
+                15,
+                16,
+                17
+            ]
+        },
+        {
+            "question_type": "literature",
+            "route": [
+                1,
+                2,
+                3,
+                7,
+                8,
+                13,
+                14,
+                15,
+                16,
+                17
+            ]
+        },
+        {
+            "question_type": "mechanism",
+            "route": [
+                1,
+                2,
+                3,
+                4,
+                7,
+                8,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ]
+        }
+    ]
+}

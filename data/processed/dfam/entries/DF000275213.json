@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275213",
+  "name": "CamDro-1.204",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CamDro-1.204"
+  ],
+  "species": "Camelus dromedarius",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Camelus dromedarius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Tylopoda",
+    "Camelidae",
+    "Camelus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 841 BP; 185 A; 231 C; 189 G; 236 T; 0 other;"
+  },
+  "sequence": "tgtaaccgagcaggaccctattgtcatcatcggtgaccatctgatatctgtaatggtgtttgtaactgcttaactgtataatggtttaaagggtttttctcatgctcttgctgaccagggttgggctggagaggagggaggcttgggtggtccgcccaaccccctcgtggtgctgcgtgcagggatcatgctcagtgccctgctcttgcccccagtgccctcctcttgaccccagtgccctacacctcagaaacgcagttgggtgttttgtgcatcttgttgttcataactccccaactgccatgtctgcagttgtttttgaccccttgtggtttccttgtatcctgttgttcgagctgcaggcctcagcctgcagcaggaggtcccaggcctcagcctgcttaaaaggctaaaagcatttatcaacctgactttaaactgcacaagtttttctctagagctcttttccacggagccccttcctatgcatcctttgttctaggtacaagaatattaagagagtcccaaagccggaggtgaacttcatacccagcagagggaaggggaccactgcatctgcaaaaacaagaacaactttgcaacaatttgttaccctgtatgcgatctctatggaaactagctccgccccttgaactcttgaacttttactataaaaccccctgccttctctccccagcaggctcacagtcttagaggcattagcccactgtgacctcctttgcctggcaaagaaataaagctgccttttctacttcatccaaaactctgtcctcgagtctcaattcggtaagcggggtacggaggccgtgtttcggcaaca",
+  "length_bp": 841,
+  "sequence_length_bp": 841,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

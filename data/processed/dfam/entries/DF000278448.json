@@ -1,0 +1,47 @@
+{
+  "accession": "DF000278448",
+  "name": "MicTal-1.168",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MicTal-1.168"
+  ],
+  "species": "Nesogale talazaci",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Nesogale talazaci",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Oryzorictinae",
+    "Nesogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 654 BP; 120 A; 167 C; 173 G; 193 T; 1 other;"
+  },
+  "sequence": "gtgataggtaggtttattgtgccaacctggccaataggaacatgtgggattaatnaggtcgcagtttgattggagggcaaagagataaatggctcggcaaggcccgcccctctctctcttgctctctggtgatcggaccagcgtgcggctgctttagctagttctctgcctcaacttgtgagctacactacctgtgggacagccaacccgtggatcgtgtcgctagagcttgaggttccttcgagacctgcttcgccacgctgctggtgtgtacatcgcttgagcttgaggctggtggatcctgtcgtcttgcattgcttgagttcgatatcccatccgggcctgcttcgctaagctcctgagctgctgactgttggtgacccgccctgctgtttgctgcctgtgggcggactgcctgcattgcccgagggaagactcagctgtctgcttccttgaccttggacccggcagccctcgtgagttgaaggacttccagtatattaactgttccacggaagtgagttgaactgagccctctgtactgctgtgtggactaattagctgttatattccttcgtgctgtataaatctatctatctatctataatcataagtgtcctggttttgtttctctagagaaccctgcctaacaca",
+  "length_bp": 654,
+  "sequence_length_bp": 654,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

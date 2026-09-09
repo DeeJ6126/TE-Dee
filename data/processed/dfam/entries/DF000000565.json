@@ -1,0 +1,49 @@
+{
+  "accession": "DF000000565",
+  "name": "LTR66",
+  "description": "LTR66 (Long Terminal Repeat) for HERVL66 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR66"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 610 BP; 153 A; 140 C; 123 G; 191 T; 3 other;"
+  },
+  "sequence": "tgtggaggaaaagttaaatattaaatttgaactcaattgaacgtggacacaaacaatggtcaccaagtcccggaacaggttgtgtgagccccttgaggcgttcatccagcgctgtttcggagaaatctctatttcaatctattcctatacgttagttattgaaaaacaatagacaatcgcaaaaacaagttgacctttttgtgttccttgagcccagtcgcgaagggccctcgtgactgggcctcatgccaaacaactcgttacaaaaagagctagggtcccagaccgcgccgaagcttcatgagacctctcctcgtctgtgcacggacgagtggccgactctggagcccaggctgttgcttcccggtctggtggtgaatcctccatagtctggtgagtgtaaatatatatatatatatatatntnnatatatatatatcttttcccttctccccttcccattgcaatttgcttattatatcaatttgcttattatatcatttgcttattatatctgcattgccatttacgtgggataaaggttgtttacccttaaaggtattgtgtgtgtgtcttttcttctcccctcgcgcgtttcccgcacagaaca",
+  "length_bp": 610,
+  "sequence_length_bp": 610,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR66"
+  ]
+}

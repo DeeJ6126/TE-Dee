@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276259",
+  "name": "DasPun-1.20",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B4"
+  ],
+  "species": "Dasyprocta punctata",
+  "display_classification": "SINE/B4 | Dasyprocta punctata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Dasyproctidae",
+    "Dasyprocta"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 235 BP; 51 A; 64 C; 81 G; 39 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcacgcctttaatcccagcactcgggaggctgaggtaggcggagcgttgtgagttcgaggccggcttgggctacaacgcgagcgcaaggccggcctgagctacatagtgcgaccctgcctcaaaaaaccagggccgggagtttggctcagtggcttaagcgcctgccctggcaggcgcgaggttgtgagttcaatccccggtgccgcaaaaaaaaaaaa",
+  "length_bp": 235,
+  "sequence_length_bp": 235,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

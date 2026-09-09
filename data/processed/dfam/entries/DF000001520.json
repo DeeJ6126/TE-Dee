@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001520",
+  "name": "RC14",
+  "description": "Caenorhabditis Rc14 repetitive element.",
+  "keywords": [
+    "DNA/MULE-MuDR"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/MULE-MuDR | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 169 BP; 35 A; 61 C; 17 G; 52 T; 4 other;"
+  },
+  "sequence": "ctcccatgctcacatttcccatgcncacanttcccatgctgacactttctcccgtgcatacaaanattcccatgcttacgcccagtagttcgagtactcccatgcctacaactcctttttttccgttcccatgctacattncccatacatacattttctcccgtgcata",
+  "length_bp": 169,
+  "sequence_length_bp": 169,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RC14"
+  ]
+}

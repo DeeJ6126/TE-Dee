@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002600",
+  "name": "DNA-3-3_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/ | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1350 BP; 469 A; 213 C; 268 G; 386 T; 14 other;"
+  },
+  "sequence": "aggtgcgttcgacatgaagcncggctgcagccggtgatcaacgagattagccgagcgcaggcgggggcggagttgaaaacggagccgtcaagacggacagccggacacttcggggctcaaagttgctgcagtcatgatgaccgatcacatggcgtcatcatattttttttgttatttttatttataacaacaaaacatttacaaataaaacagaatacagtctctacaaactatagttcntttttaaacaataagggagaattatgaataaaatatataacaaacgcatgagagaaataaggggaaacgagaggttaatataaacataaaaacgaacaggtctattaaatacaaagcaataagcacaaattctaggagttaaacatcaatctttaggctaatacttcttgtttgaatatgctaaaaaagggtttacatntatgtacatttatagatataaaantttccaatgtaaaaagcaaaacaaggtgttttgattaggtcttaataaatganattattttggataatgaangcattttcaaaaaagcactttaatccaaaaagattgtgttgaaaagaacaaaaggtaaaataagtgagctacgtagaagtttcccagaaagagcaggtagcctttaaactgctagacaggaaataaaatatatatttatattataataataaaaccattttataattatttaataaaatagttctttancttaatttgttaagagagctttagggtggcaggatcaatgatgatgattattttatttcaagtctgtaagacttatttgagttnatatttaggttattcactaaaatatacactaaaatatatcatttaaatcgttcatggagctgaatgcagtaaatagtctgtataaaaaagttaaaaataaacctgtgcaaacaagctagcctttataaccagattatttaacaaaagatgattactgcagtaaaatatttgtagtcttttaataagcangatgtgtacaggatagagagggtgtgaaaagtgaattgtttgttttgaaacttttgaatcggaatttgtccaatnataaacccgaaacacacgtgnttgttgtcatgcggtgaactcggccaatcgtgtaatatcggtgtcgtcatcgnagctcctgcagtcgctcttcagangctgcacggtctgagtcngccgtctgatctcggagcgctgtcgcggtactttgatgccacatgtgacagtcacgtggcgtcggcgcagcatcaatccggacaagatttctaaccagcatgcaccgctttaagacagatttcgatcgatctgcgcagcgctgcatgaagtcgaacgcacct",
+  "length_bp": 1350,
+  "sequence_length_bp": 1350,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "DNA-3-3_DR"
+  ]
+}

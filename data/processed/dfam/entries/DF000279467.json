@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279467",
+  "name": "OctDeg-1.234",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Octodon degus",
+  "display_classification": "DNA/TcMar-Tigger | Octodon degus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Octodontidae",
+    "Octodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 357 BP; 104 A; 56 C; 80 G; 117 T; 0 other;"
+  },
+  "sequence": "cagtagtccctcgctatttcgcggttcgactttcgcggactcactgtttcgcgggttttcaaaaaatattaatctaaattatttatcgcggatttttcgctatatcgcgggattttgcagtaccgtacagtatacgtatgttgttaaaattacgtaggtttacgagtttagaaaatggttaagaacattagaagtgtttttaaaagtgtgggaaaggtttataagagtgtgggaagggtttataaagccttaaaatatatataaatactaaaataaatataacgtcgctacttcgctgattttcacttatcgcgggggtgtctggaacgtaacctccgcgataagtgagggaccact",
+  "length_bp": 357,
+  "sequence_length_bp": 357,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

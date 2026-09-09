@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278911",
+  "name": "MusAve-1.44",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B4"
+  ],
+  "species": "Muscardinus avellanarius",
+  "display_classification": "SINE/B4 | Muscardinus avellanarius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Gliridae",
+    "Muscardinus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 195 BP; 54 A; 48 C; 63 G; 30 T; 0 other;"
+  },
+  "sequence": "gccgggcgtggtggcgcacgcttgtaatccccgcgcttgggaggcggagacaggaggatcgcgcaggttcgaagccagccgcgcgcgctggcttaggagaccctgtttccaaataaaaatgtaaaaataggtctgggagtgtagcccggaggtagaagggcttccaggaaccccagtaccaccaaaaaaaaaaaa",
+  "length_bp": 195,
+  "sequence_length_bp": 195,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

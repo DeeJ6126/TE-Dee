@@ -1,0 +1,48 @@
+{
+  "accession": "DF003440315",
+  "name": "Ves1_mMol",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Molossus molossus",
+  "display_classification": "SINE/tRNA | Molossus molossus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Molossidae",
+    "Molossus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 103 BP; 27 A; 27 C; 33 G; 16 T; 0 other;"
+  },
+  "sequence": "gccctggccggtttggctcagcggttggagcgtcggcctgcggaccagagagtcccgggttcggttcccgctaggggcacgtaccaaaaaaaaaaaaaaaaaa",
+  "length_bp": 103,
+  "sequence_length_bp": 103,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

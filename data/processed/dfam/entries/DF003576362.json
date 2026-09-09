@@ -1,0 +1,39 @@
+{
+  "accession": "DF003576362",
+  "name": "TcMar_P.maximus_30",
+  "description": "Repetitive sequence family identified in Pecten maximus",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Pecten maximus",
+  "display_classification": "DNA/TcMar-Mariner | Pecten maximus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Pectinida",
+    "Pectinoidea",
+    "Pectinidae",
+    "Pecten"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1338 BP; 426 A; 272 C; 298 G; 342 T; 0 other;"
+  },
+  "sequence": "cgaggggtgttccataaataatgtcatctgtgctttatttcgcggaaatcgtgcaatttatgcacaaaaccacctcgtgtcgattgagtgatcactggctcgtgacacaggtaaatatctcgtccacacgttcactggcctcggtacagtgtacatcgtttcatagcctattcgttagactagacacaaaatgacaggaaaacgagctgaaaatgttcttgaaattagggcctatataaaaggtaggtcattactcggcataaaggctgtagatattcaccgcgaggtgtgtgacatttatggggagggccaaatgtctcacaggactgtttgtaggtgggtaggtaaatttagtgctgggcagcagcaactgaaagatgctgctcacccaggtcgtcctgcaacaactacgaccaaaggtaacatagaaaaaatccgaaatatcctcaaaactgatgctcgattcaccgtaagacaattggctcgaatgacaaacttgtcgttagcaagagttcatgcaattttgaagaaacacctaaaagttagaaagataaatgcaagatggataccccatttgttaacggatgagcaaaagaagacgcgtgtaacaatggcaaaaaaacttctcaaaatgtacccaaaatatagtaaaaaggcttttgataatatagtcactggtgatgagacctgggtgtattattttgaaccaaagcggaaggttgccaaccgaatatgggccactaaaaatgccagacgcccaagtattgccaaacgaatacgaacggtaaagaaggttttgtatgctatttttttcactaataagggtccagctattcaaatcccggtgccaaaaggcagaacggtcacaggcaagttctataaaaacgttgttctgagaaagttgaagaactactacaaaagtcgccgccccaaaacaggacttaagtatgtccgacttttgcatgataatgcacccgctcacaaggcacgtattgtgactgactttttggagtcagagaaggttaccgtccttccgcaccctccgtattcgccagacttggccccctgcgactattttctctttccaaaacttaaatatcatttatctggaaggagatacaattcgagaaatgcccttggatctgctgtttatcagtgtctgatgggtgtacccattgaagagtatgaaaaatgcttccaaaaatggattgaccggctaaaaaggtgtgttctggctggcggagagtattttgaagggcagagcaaattaaaatgaacaaaagcacttccgctatatgagcaccgatgcaagtgacattatttttggaacacccctcg",
+  "length_bp": 1338,
+  "sequence_length_bp": 1338,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

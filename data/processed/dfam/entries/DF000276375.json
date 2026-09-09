@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276375",
+  "name": "DesRot-1.56",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Desmodus rotundus",
+  "display_classification": "DNA/TcMar-Mariner | Desmodus rotundus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Desmodontinae",
+    "Desmodus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 556 BP; 172 A; 91 C; 118 G; 175 T; 0 other;"
+  },
+  "sequence": "ttgggttggccaaaaagttcgtttggttttttccgtacgatggctctagtagcgcttagttgtctttaacttcattcgaaacaattttgttagattgtattgtgacagctgtcatatcagcgtgcatttaaaaaaaacttatcaaaattggtgaatttttgtgcagccattttaatattgaagatggaagaaaatacgcaacattttcggcgtattatgctttattatttcaagaaaggtaaaaacgcaactgaaacgcaaaaaaagatttgtgcagtgtatggagaaggtgctgtgactgatcgaacgtgtcaaaagtggtttgcgaagtttcttggtactattgacatttctggccgaataattcttcgctgtggggctgtcttatgcattggaagatgtttagcagcacccctggcctctacccactaagaagccaatagcgggagatagccgacatactcaaaatatccaaatcaataaagttattggtgaaaatgaaaaatgtgtcttttattttacggaaaaaactaaacggactttttggccaacccaa",
+  "length_bp": 556,
+  "sequence_length_bp": 556,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

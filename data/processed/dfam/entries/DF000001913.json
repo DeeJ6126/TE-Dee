@@ -1,0 +1,49 @@
+{
+  "accession": "DF000001913",
+  "name": "Lx4B_3end",
+  "description": "Lx4B_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Murinae",
+  "display_classification": "LINE/L1 | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1472 BP; 433 A; 334 C; 447 G; 253 T; 5 other;"
+  },
+  "sequence": "tcaagacccagctataccactcctgggcatatacccaaaagatgccccaccataccacaaggacacttgctcaactatgttcatagcagctttattcgtaatagccagaaactggaaacaacccagatgtccctcaaccgaagaatggatanagaaaatgtggtncatctacacaatggaatactattcagctattaaaaacaaggacatcatgaattttgcaggcaaatggatggaactngagaatatcatcctgagtgaggtaacccagacccaaaaggacatgcatggtatgtactcacttataagtggatattagccataaagtacaggatacccacgctacactccacagacccaaagaagctaaacaagaaggaaggcccaagcgaggatgcttgaatctcacttagaagggggaataaaatagtcataggaggcagatggagggagggaactgggtgggagaggggatggggaggggaatggggggttcaggatcaggtgtggggagagacaggagagagggccagagggccaggagaatgaatggaaatctgcagctggcgggggtggggaggtggggggcatctctaggacgtgccagagacctgggatgggggaggctcccaggagtcaatgggggtgaccttagctgagactcatagcagtggggatatggaacctgaagaggccacctcctgtagccaggcagganccccagtggagggataaggacaccaacccacccacaaaactttcgacccaaaatttgtcctgtctacaagaaatgcagggacaaaggatggagcagagactgagggaatggccaaccaataaccggcccaacttgagacccatcccatgggcaagcaccaatccctgacactattaatgatactctgttatgcttgcagacaggagcctagcataactgtcctctgagaggctccacccagcagctgactgaaacagatgcagagacccacagccaaacattggacggagctcggggactcttatggaagagttgggggaaggattgagggccccgaaggggataggaactccacaggaagaccaacagagtcaactaacctggacccttggggctctcagagactgaaccaccaaccaaagagcatacacgggctggacctaggcctccccgcacatatgtagcagatgtgcagctcggtcttcatgtgggtccccaacaactggagcgggggctgtccctaaagctgttgcctgtctgtggaatccgttcccctaactgggctgccttgtctggcctcagtgggagaggatgcgcctagccctgcagagacttgatgtgccagggtggggggatacccaggggggcctccaccctctcagaggagaaggggagggggaatgggggagggactgtgngaggggggaccgggaggggggcagcgatcgggatgtaaagtgaataaataaaaaaa",
+  "length_bp": 1472,
+  "sequence_length_bp": 1472,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

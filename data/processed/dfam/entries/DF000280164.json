@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280164",
+  "name": "ProCoq-5.20",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Propithecus coquereli",
+  "display_classification": "DNA/hAT-Charlie | Propithecus coquereli",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Indriidae",
+    "Propithecus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 299 BP; 53 A; 112 C; 84 G; 49 T; 1 other;"
+  },
+  "sequence": "ctgcggtccccaacccccgggccgcggaccggtaccggtccgtggcctgttagggaccgggccgcagagctccgccnccccccccccccgtccgtggaaaaattgtcttccatgaaacttaggaaccgggccgcacagcaggaggtgagcggcgggcgagcgagcgaagcttcatctgtatttacagccgctccccatcgctcgcatcaccgcctgagctccgcctccccccccccatccgtggaaaaattgtcttccatgaaaccggtccctggtgccaaaaaggttggggaccgctg",
+  "length_bp": 299,
+  "sequence_length_bp": 299,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

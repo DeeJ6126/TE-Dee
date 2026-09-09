@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280307",
+  "name": "RanTar-1.230",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RanTar-1.230"
+  ],
+  "species": "Rangifer tarandus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rangifer tarandus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Cervidae",
+    "Odocoileinae",
+    "Rangifer"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 465 BP; 132 A; 106 C; 124 G; 103 T; 0 other;"
+  },
+  "sequence": "tgttaggtagttagaataggaaaaaggagtccagaatggcggtggctaaaagacaaggaagggaaaagcccgcgaaaatagaacaaaggaaggtccgaggaccggagtgaggacctcaggtagaacaaacagcactcctggctagcccaatttacatagggcaggcccagggggaggaaaaaacatataaaaagaggagccaaagggccgggggtctctctctctctctctctctctctcttctcttcgcgtcttttgggtcggcatgccctcacgcctcgaggatgtattttcctgttattttctaaataaaactgagctgtaacacggagctgtaacactgatctgtctaagagctataacacggtctgtccgagagctgtgacgcgccgagggctttaacgtccgtcgcttcaaatttttgttgtgacgagacagaaccgaggagattacactcccctgaca",
+  "length_bp": 465,
+  "sequence_length_bp": 465,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

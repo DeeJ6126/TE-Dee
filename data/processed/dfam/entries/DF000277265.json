@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277265",
+  "name": "HelPar-1.48",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Helogale parvula",
+  "display_classification": "LINE/L1 | Helogale parvula",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Herpestidae",
+    "Helogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 407 BP; 154 A; 50 C; 107 G; 96 T; 0 other;"
+  },
+  "sequence": "aatggaatattactcggcgatcaaaaagaatgaaatcttgccatttgcaacaacgtggatggaactagagtgtattatgctaagcgaaataagtcagagaaagacaaatatcatatgatttcactcatatgtggaatttaagaaacaaaacagatgaacataggggaagggaaggaaaaataagataaaaacagagagggaggcaaaccataagagactcttaaatacagagaacaaactgagggttgctggaggggaggtgggtggggggatgggctaaatgggtgatgggcattaaggagggcacttgttgggatgagcactgggtgttatatgtaagtgatgaatcactaaattctactcctgaaaccattattacactatatgttaactaacttggatttaaa",
+  "length_bp": 407,
+  "sequence_length_bp": 407,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

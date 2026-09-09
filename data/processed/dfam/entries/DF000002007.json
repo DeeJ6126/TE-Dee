@@ -1,0 +1,51 @@
+{
+  "accession": "DF000002007",
+  "name": "RLTR13C1",
+  "description": "Mouse subfamily of LTR retrotransposons",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR13C1"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 983 BP; 262 A; 223 C; 221 G; 274 T; 3 other;"
+  },
+  "sequence": "tgccacacccactccagtggagactgcgtgacaggcccaaaagcttggacgcagtcctgaggcaaaaagtttcacggaaacttagtctcctggagccttggcatcccgtagcacgaatgctccaaacttgtccttgcgttagtcggtgaacggatctgtgtgctttccttcaatattgttttattataagtgcctccaaggaatgattttgacatatagctaagttagattagcctccaccagtgttccaatatcctaggaaatcgttgagccaaccttgggctttganttttgtaagaatgctactcattcagacgaaangcctccagtgttgacagagagacagtgaaagaaatcaggcattacaatttactggaanagagctagaaatctcagggctagtctacaaagtaaacttagaataacagccgagtcactcccatacgcaggaatttacaatggcctaggaagaaggaaggttgtggtctaagaaggaactagagtaaatacttagaacaacagctgagtcactcccatacacaggaatttacaatggcctagggggaaggtggattatacaatagactagaattggaactatggcaagggcatgaagcccttgcccctggcttctaagaataagctgaccttaggtggggctgcttttgatcccagttgtaaacactgatttttatcccagttggttcctgttagcttttatgtatgcattcctctgttttgtgtaaagagtcattttgcatcgggtaacctcaatgtaccttggatgaccttaatgtatcacctaacttccttgttttcttctgtaatataagtctgatgctcgctttgagaaattacattcagatcaacactcccttgtgttcgcgtctgtttgtcacccttcgccgactccttgcccacctgagtaccgggaccctgattctcccgcgggttgagggaccgactgagtccagtccgcggca",
+  "length_bp": 983,
+  "sequence_length_bp": 983,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

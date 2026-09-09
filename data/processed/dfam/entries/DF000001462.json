@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001462",
+  "name": "PALTA3_CE",
+  "description": "PALTA3_CE is a putative nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Tc1 | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 360 BP; 81 A; 94 C; 94 G; 88 T; 3 other;"
+  },
+  "sequence": "tacactcaaaataanaaaactgcgtggcgtgtactgcagaaaacctaatatttaggccccgcctttttctcgtccactcacggagaaaaggcaaaaattcgggncccaaccaatatcaggccgccgacatctcacgggttccgcgcgccgctgcgtttaactcgctgtgggcgtggcgagctgtctccgcccgctgcgagttaaacatagcggcgcgcggaacccgtgagatgtcggcggcctgatattggttggtccccgaatttttgccttttctccgtgagtggacgagaaaaaggcggggcctaaatattaggttttctgcagtacacgccacgcagttttnttattttgagtgta",
+  "length_bp": 360,
+  "sequence_length_bp": 360,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PALTA3_CE"
+  ]
+}

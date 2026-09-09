@@ -1,0 +1,51 @@
+{
+  "accession": "DF000281392",
+  "name": "ZapHud-1.19",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Zapus hudsonius",
+  "display_classification": "SINE/Alu | Zapus hudsonius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Dipodoidea",
+    "Dipodidae",
+    "Zapodinae",
+    "Zapus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 161 BP; 49 A; 43 C; 47 G; 22 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcacgcctttaatcccagcactcgggaggcagaggtaggaggatcgccgtgagttcgaggccaccctgagactacagagtgaattccaggtcagcctgggctagagcgagaccctacctcgaaaaaccaaaaaaaaccaaaaaaa",
+  "length_bp": 161,
+  "sequence_length_bp": 161,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

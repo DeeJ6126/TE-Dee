@@ -1,0 +1,47 @@
+{
+  "accession": "DF000001979",
+  "name": "PB1D11",
+  "description": "Ancient SINE element element (consensus).",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Rodentia",
+  "display_classification": "SINE/Alu | Rodentia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 118 BP; 34 A; 29 C; 36 G; 18 T; 1 other;"
+  },
+  "sequence": "agctgggcatggtggcacatgcctgtaatcccagctactcgggaggctgaggcaggaggatcgcaagttcgaggccagcctgggcaacatagcgagaccctgtctcnaaaaaaaaaaa",
+  "length_bp": 118,
+  "sequence_length_bp": 118,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PB1D11"
+  ]
+}

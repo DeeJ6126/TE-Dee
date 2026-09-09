@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277600",
+  "name": "IndInd-6.5181",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Indri indri",
+  "display_classification": "DNA/TcMar-Tc1 | Indri indri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Indriidae",
+    "Indri"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 214 BP; 73 A; 35 C; 32 G; 74 T; 0 other;"
+  },
+  "sequence": "cagggtgtcccaaaagtcgccatacatagggaaaatgggaaattgtagctaaatgtacctttatttacaaaatattcattacaaaattttacaaaatttttcctttgtatctccatacaaaggaaaaattttgtaatgaatattttgtaaataaaggtacatttagctacaatttcccattttccctatgtatggtgacttttgggacaccctg",
+  "length_bp": 214,
+  "sequence_length_bp": 214,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

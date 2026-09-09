@@ -1,0 +1,51 @@
+{
+  "accession": "DF000002136",
+  "name": "RLTR9A4",
+  "description": "Long terminal repeat of endogenous retrovirus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR9A4"
+  ],
+  "species": "Muridae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 363 BP; 67 A; 89 C; 92 G; 113 T; 2 other;"
+  },
+  "sequence": "tgtggaggttctgccctgacctgcatagcaggagttgccgcatcagctatttttgctatcacagcacttggtggaatttccccgcccgagttgggagttctgcttttggcctgataagagagacctgtgctgagaaatggaaacctatgccattggctgccggcatgaggtgatttacgtcatcagtcacgtctaggggttgggcttatggtttttgcctttataagcctgctgctttgcaataaagttgagccttgatcaganactttgtcttggctccattcttctcttcgtccctgtcctttaattcccagacccccnttcgaggtacctacgttgactggtagtcgcgggtcgactaca",
+  "length_bp": 363,
+  "sequence_length_bp": 363,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR9A4"
+  ]
+}

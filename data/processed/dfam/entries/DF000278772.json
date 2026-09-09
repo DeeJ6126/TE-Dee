@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278772",
+  "name": "MurFea-1.295",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Murina aurata feae",
+  "display_classification": "DNA/PiggyBac | Murina aurata feae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Murina",
+    "Murina aurata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 268 BP; 84 A; 55 C; 67 G; 62 T; 0 other;"
+  },
+  "sequence": "cacattttttgcgggaaacgagtaaaatcggatccaccagggagactgtcaatggacatgaggaaacatacattggaacctctagttggaaccggcaaaaataaaaatgttttacgtcgttgtcgtgtgtgtgccgctcataaactacgcagtgaaacgcggtacatgtgcaagttttgtaatgtacccctgcacaaaggaaagtgtttcgaacgctaccacacagtgaagcacgcgatttggcgggaaaatgcccgattacaaagtg",
+  "length_bp": 268,
+  "sequence_length_bp": 268,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

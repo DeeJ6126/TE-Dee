@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000209",
+  "name": "HSAT6",
+  "description": "HSAT6 Human centromeric satellite 6",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Primates",
+  "display_classification": "Satellite/ | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 126 BP; 48 A; 17 C; 12 G; 49 T; 0 other;"
+  },
+  "sequence": "gtattatgacatcacaatatattatgacatcataattcgtatgtattatgacatcacaatatattatgacatcataattcgtatgtattatgacatcacaatatattatgacatcataatttgtat",
+  "length_bp": 126,
+  "sequence_length_bp": 126,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "HSAT6"
+  ]
+}

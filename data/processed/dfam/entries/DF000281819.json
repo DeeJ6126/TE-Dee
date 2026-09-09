@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281819",
+  "name": "CunPac-1.158_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CunPac-1.158_int"
+  ],
+  "species": "Cuniculus paca",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Cuniculus paca",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Cuniculidae",
+    "Cuniculus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 761 BP; 205 A; 139 C; 148 G; 268 T; 1 other;"
+  },
+  "sequence": "ttggaggtcttccaccgagatcgttggacggaggtaagagttgactttttgtttcatagactctggactgggactcgtttaggtaacaaataatttttatgcttcaaattttggtttgtctctgccagttgcttataattacttgtgatanttgcttgtgatctgtttttgcccattgtttttaattgccttgtctcttaatatagttttgttaaaataatgataaatctaagttaaaacatgggaaggttatgatatttcttttatgggatattttattattttgttcttgtatatgatgcatttaaattagtgactaaatttactggtactctttgcttgatgatatttgtatagtagcgctagagggaactgttagtagaatagttcttaaaagaaatctagcccagactcaaaaaatatacatgcctgcaataaaaccgggactccttccaccatttaaatggcattaggctggtggccggtctctaagacttggaggcgaggtttcactgagacagactggttctgatcctcctctacactctagaggaaatgtcaagcctgttctgcttcagtttccattctttgactctacttctaagcatctccctcactttgtactttccttatagaggcatgtaaaatcagaaaggactctagactgttcctaccttttctcctaagtcaagcccatagaaaatgagcgtttgctaacgccgaagacagggaagtcatcttagataaaggacacatacccc",
+  "length_bp": 761,
+  "sequence_length_bp": 761,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

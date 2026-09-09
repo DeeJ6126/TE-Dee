@@ -1,0 +1,51 @@
+{
+  "accession": "DF002407652",
+  "name": "Acol_hAT_Ele9",
+  "description": "Curated TE family",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Anopheles coluzzii",
+  "display_classification": "DNA/hAT | Anopheles coluzzii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Nematocera",
+    "Culicomorpha",
+    "Culicoidea",
+    "Culicidae",
+    "Anophelinae",
+    "Anopheles",
+    "Cellia",
+    "Pyretophorus",
+    "gambiae species",
+    "complex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1249 BP; 365 A; 300 C; 266 G; 315 T; 3 other;"
+  },
+  "sequence": "actaggcatgggacaattgtgcgagacctatgccgcacactcagttcattatagtgtgcggttgatcgccgcacgcgaaaaagtgaacgggtaggtcttccgcacgcatacagaactaactgaaatgtgctctgaacgagatgcaagataactgtcggtgtcatagactgaacgaaaaaaaaaacattcgttttgggtcggcagaatttgtcacacacaacgacacaagaagatcgatcgcactttgcgcgagaaagaatgcacatattgctagcgtggtcagnttgatcaatcgcacacagccgcacaaaaagaactcctgccgcacactgaccccgtactgagtgagaaagaacactcatagccgntgggtcagtcgcacacagccgcacgcgtgttcagttgggtcagtcgcacactaccgcacaaaaagaactcttgtcgcacactgccgcacgcgcgttctgttagttcggtcgctcactgccgcacgcgtattcagtggggtcagtcgcacactaccgcacaaaaagaactcttgtcgcacactgccgcacgcgcgttcagttagttcagtcgcacactgccgcactcgtattcagtggggtcagtcgcacactaccgcacaaaaagaactcttgtcgcacactgccgcacgcgcgttcagttagttcagtcgcacactgccgcacgcgcgttcagtngggtcagtcgcacactaccgcacaaaaagaactcgttaagcgcacagcaacataaaagagaaagcttgtagattttactcgtttagatcagctttcgttacaaatcaacttaagtatatacagtctgttctcgagctacgttttctaagttcttgtgtgcaattagtataattggctcaaaggattctcaaatgcaagataaattactgttttaccaaaaatttgagagcctcttaaaaaccagaaattttcaaattttctgcatgaattgtgatacataaatggtttaatgtaaaaacctagttacctagttatgcatgaaccgcgtatctcggactgactgtatttataattaaaaatgcagccttaaaagcaataactttctgttcttgcattaaaatctcgataaaattaaacatgatatttaaaaaaatggtacttagctccaattgagcgactgacctaccgcacgcgttcggttctttttggtgagcgaactagttcgttcgcgttcggtgaaaagaatcgttttgcccatgcctagt",
+  "length_bp": 1249,
+  "sequence_length_bp": 1249,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

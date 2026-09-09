@@ -1,0 +1,49 @@
+{
+  "accession": "DF000000454",
+  "name": "LTR22A",
+  "description": "LTR22A (Long Terminal Repeat) for HERVK22 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR22A"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 458 BP; 107 A; 105 C; 140 G; 105 T; 1 other;"
+  },
+  "sequence": "tgtgggggatcggtcagagtggtgggagaaactatagggaaaggacgcagaccttctgaaaggtcggaaggctctgcagagccccgggggagaatagctgaaggcagctgttctataaccctgaggcagagggcaaggagtaggtacaagggagtgtgggggaatttatcttaaacaggcttgtttacttatgttgaccaggaactgacctttgatcatccgcgcgcgtgacgttccctgaaaggggaacaataaatgttaattacctacaggttgtgttggctccaggctttcggcattgtgcctgcactgaataaaagcaagcagctccagcttctcggggctgctctctggccactagagccaggcagtcncctagctgctcttacactgcatacctgtgtctgagtactcatttcatccgtcggtcggccagggtctgcgggacagacccggca",
+  "length_bp": 458,
+  "sequence_length_bp": 458,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR22A"
+  ]
+}

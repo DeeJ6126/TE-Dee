@@ -1,0 +1,53 @@
+{
+  "accession": "DF000282245",
+  "name": "MusCar-5.2103_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MusCar-5.2103_LTR"
+  ],
+  "species": "Mus caroli",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus caroli",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae",
+    "Mus",
+    "Mus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 780 BP; 112 A; 307 C; 156 G; 200 T; 5 other;"
+  },
+  "sequence": "cattgggctatgcacagacagcctggtctccggtcgagctgaggtctgaaccccgggacccggtggtgataattcacctacatgggacggaaggcgttccctcatgtctcctggaaccctggctcctgccgaagttaccgcccccacagcccccacaagagaagcgtggctagnagtcacgtaggcaatgtcccaagcttctgaccttcaggctagactcctccccagttacctagcaacagtaacagcccaccataaaaggggctgcttggcccctcctcgctctcttactcctctctctcctccttctcttactctcctctctcctctctcctctctctctctctctcttcttctctcttctctcctctctctctctctctctctctctctctctctctctctctctctctctctctcctccttctctctttccccctgcctttctacaataaagctctaaaaccatagactgtctctgctcatcaaggcccactgcgcttactctcgcctgtgtgggaacctctcttccctcagccctctctcccataaccccggggctacagcggtgtngccccggggctcccnggtcgggggctgccccttgtccaccccctgtcgagtggggtcagnggcttagatgcccacccggggccgagtggaaagcgtccggcagccctcccgcgtccgcctgcccagagcataggaggaactctggccggacgtgggctntcctccctcccccctcttcccccgggcccccctttttagttcccaaca",
+  "length_bp": 780,
+  "sequence_length_bp": 780,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275295",
+  "name": "CasCan-1.1",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B4"
+  ],
+  "species": "Castor canadensis",
+  "display_classification": "SINE/B4 | Castor canadensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Castorimorpha",
+    "Castoridae",
+    "Castor"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 218 BP; 59 A; 61 C; 64 G; 34 T; 0 other;"
+  },
+  "sequence": "gccgggcgccggtggctcacgcctgtaatcctagctacttgggaggctgagatcgggaggatcgcggttcgaggccagcccgggcaaatagttcgcgagaccccatctccaaaataaccagagcaaaatggactggaggtgtggctcaagcggtagagcgcctgctttgcaagcgcgaagccctgagttcaaaccccagtcccaccaaaaaaaaaaaa",
+  "length_bp": 218,
+  "sequence_length_bp": 218,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

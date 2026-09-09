@@ -1,0 +1,36 @@
+{
+  "accession": "DF003450244",
+  "name": "",
+  "description": "Repetitive sequence family identified in Heligmosomoides polygyrus",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Heligmosomoides polygyrus",
+  "display_classification": "DNA/PiggyBac | Heligmosomoides polygyrus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Strongylida",
+    "Trichostrongyloidea",
+    "Heligmosomatidae",
+    "Heligmosomoides"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 978 BP; 265 A; 237 C; 213 G; 261 T; 2 other;"
+  },
+  "sequence": "ttaacacgttgacgaccagagcgattttcgcgcgtctgtcgtgtgggaccaagcccctcacgacacgacatcccgtaacccaaacgtcaccctaagggttatttgggatgctgaacacgaatccgatgttcgtttcaccgaatacagccgaaggccacccatatcgacaactaaggtggtcggccgaatcccgatccacagccaagccagaaagcggaagctggtcaccgaccaggagttcagcggcaataatcgacgtcgctgcaaaacctgctacaatatgctgtacaacaaagaaggtcgaacgtctgctaacaacaaagccaaaaaggtcaggacgtactgcaatctctgtcacgaatttatctgccttgattgctttcaaacaaggcacaattcatgttctacttctgttctttgaaattcgagctgtgtctccattgttgtaactgtttactcacaagttttcgaatgtatttgcatgtttatttgtaatttttgattgcattatttttgtattgttgaacaggtattaccacccataaaaatttgtgctgaacaccattataaaaatcagaaatttgatgtgagtgtactttaattattacctgttatttcgagaatgagacgactgatcaccctcatttacctgtacctaccgcagcgcgccgtatttggtgaaacggacatccgaatcgtgttcagcatcccaaataaccccctaggcgaagtttgagccaaatcggtgattctgacccgaccaccctagttgtcgatatgggnggtctccggccgtattcggtgaaacgggcgtcggattcgtgttcagcatcccaaaaanccccctaggcgaagtttgagccaaatcggtggtttcgaaataattttattagaggtgcgtcccaaattgggacgcattgtccgacgcgaccgaaaaagtgcgtcccaatttgggacgcattgtcgtcaacgtgttaa",
+  "length_bp": 978,
+  "sequence_length_bp": 978,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

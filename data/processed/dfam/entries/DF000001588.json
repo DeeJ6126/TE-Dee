@@ -1,0 +1,81 @@
+{
+  "accession": "DF000001588",
+  "name": "DOC2_DM",
+  "description": "DOC2_DM is a non-LTR retrotransposon.",
+  "keywords": [
+    "LINE/I-Jockey"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "LINE/I-Jockey | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 4786 BP; 1666 A; 1229 C; 875 G; 1015 T; 1 other;"
+  },
+  "sequence": "aacgctcggtcgctgacgtgtgaagacgtgttttcatcgagctccgtataaaatcggttgtttttagtgaagtgaatggttattaatataatacaaacaaataaatcgaaagcgaaagagacgctctgtgcgatgcaccatcgctcgaatacatattctgtgtttgaaatagtataagcaagtagttttacaccttcaaaagaaaaagaaaaaaaaaaaaaagaaaaagaaaaaaaaaaagaaaaaaaaaaaaaacactatgagccagaacgacactcgcgttcagcgacaacgcgagcaagacgatcgccggctctcattgcaacgaaacaacgcgtacttctcttacgtctccgcgacttctgcagacagcgagcggtcaatcacccataacccgacaagtttaccattgccaacaactcaagaaagagcgcgttcttgctctccctcactactgtcacaaaacccccaatctccaaacacttgcgaaatttctttacgcttacctacggtgactagtactgtgacaacaacaaccactgcaactgcaatcacaacaacaactggaacggtatcgtcagctcgctcaatttcgtcgacgcaagcatttgctcctactgagccagcgatcaaaacaaaaacacaatttaacggttctgctgcgctatcagcaagccaaaacgtaaacaagaacgccgggtccaccatacagactggaatggatcgctacataacaataaaaagaaaacttagccctcaaaattacaaaagtcaacaaacagaaaacaaatcaaaaattacacgcgacaatgctaacatgctcactaacaaaacgccagaaaacaccaacagatttgagctgctggcaaattctactgatgaaagtatacaaccggcaaagtcacctaagaaggtcaagcctcctccaatatacattcgcgaaaaaagctcaagtgcattagtgaacaaaatagccacacttataggagaaaactcattttacgtaatacccttaagaaaagggaacataaatgaaacaaaggttcaaactgaaaccgaggatagccatcgtctactaaccaaattcttggatgaagcaggaaaaaacttttatacataccaactaaaaagcgcaaggggcctacaggttgttctcaaagggattgaggcaactgtttcgaccactgaaatcgtagaagcgctcaaggaaaagaactttagtgcaaaaatggtcatgaacatactaaacaaaaataaggaaccacaaccaatgttcaaaatcgagttggagccagagcgccagacactgaaaaaaaatgaagttcatccaatctacaagttacagctcctactgcatcggcgtatcacagtggaagagccacacaagcgcaatcgcccagtgcagtgcactaactgccaagaatatggccacactaaggcgtactgtacgctgaaatctatttgcgtagtctgtagtgaagctcatagcacagcgaactgccataagaacaaggaagacatctctgtcaaaatgtgcagcaactgcggtgaaagtcacacagcgaactggcgtggctgtgtagtatacaaggaactaaagaaccgccttaacaaacgcggagaatcaatacgcgctcagaccacccacatcgctcacactccgccacaatcgggcccgtcctacactgcacccccccccccccctacacatcgtaccagtcctagcgtttccttcgctagtgccttaaaatcgggaattaaatctgtgaatccgctaacacaaaagtcgacttctactcgggaagaacagaaaataactaccttgaacgaacaaacgcagcatatatcaactggcattgaaacgatgatgatctcactccagcaaaccctaaaagagtttatgacattcatgcaaaccacaatgcaagagcttatgcgaaaccaaaatatgctgatacagcttcttctgtcatccaaatcaatataatgtctccacttcaaatatctatgtggaacgcgaatggcgtttcacggcataaaaacgaacttgcccagttcttattcgaaaaaaatattgacgtcatgctcctctccgagacacatctaacagacaagcacaacttccatatcccaggatacttattctacgccacaaaccatccggacggcaaagcccatgggggcactggtatacttatcagaagtcgcatcaaacaccacctttataacagaactgaaatggactacctgcaatccacttccataagcatgcaatccagcagcggccccgtcactctggccgcagtctactgcccacctcgttttgtagtttctgaggaccaattctcggaatttttcaactcactcggtgagcgattcatagcggccggtgactacaatgccaagcatacgcactggggatcacgtcttttgaccccaaagggcaaacaactttacaacgcgctcattaagccgcgaaacaagctcgatcatgtgactccgggtaggcctacatactggccagcagatccaaataagctaccggatctcattgacttcgcaataacaagaaagattccaagaaataatattacggccgagtcacttgcagaactatcatctgatcactctccagttctacttactctctggcaccgaccacatataactgagcggccctacaggctgacaggcaacaggaccaactgggcaaggtacgcgaaatatgtttgtactcacatggaaccaacccaaacagtattcaccgacgaggatgttgatcgcctggtcaaatcgatagaggaaacacttgttgctgcagccaaggcctctacacctccagacacacacaaaatgacaaatcatagcaagacaaatcgtgaaatcgaacagctagtacttgaaaaacgaagactaagaagagaatggcagaatcatagatccccaacggctaaagaacatctaaaaatagcaacacgtaaactaaccagggcacttaagcttgaggaagccaacgcccagcntctatatatcaaacaactatcgcccaccagcaaaaggaaccctttgtggaaagcacacaaaagcatacagccaccggcagaaacagtcgttccactgcgaggtccctctggaagctggatacgcagcgacgaagatagagctaatgcgttcgccgatcaccttcagaaagtattccaaccaaatcctgctagcaactcatttgtcctccctgtagtaactaaaagcttgccccctataaatccagtaacattcagccaaagtgagatagcatctatcataaaagatcttaagcccaaaaaatcacctggacatgacttggtgacaccaaaaatgatcatagaactcccaccgtgtgcggttctgaccttatgccatctcttcaacgctattacgaaacttggatactatccccaaaggtggaaaaaggcggttatagtaatgattcccaagccaggcaaagacaaaacgcaaccctcatcctacagaccaatcagtctcctaacgtgtctctcgaaactgtttgaaaaggcatttttaaaacaactaactccctacttaaaaaggcgaaatacaataccatcgcatcagtttggctttcgcaaaaatcacggaacgatcgaacaggtcaatcgcatcacaaacgaaattcgtaccgcttttgagcaccgggaatactgttcagctatattcttagatgttgcacaagcatttgaccgagtctggctggaaggactaatgtacaagataacaaaactgcttccccagaacacgcacaaagtgttcgaatcttatctcttcaaaagagtgttctcaaccaggtgtaacagttcgacttcacacgaccgcgttatcaatgctggagtcccccaaggtagtgtactgggccccgttctttacaccctattcacagcagacatgcctacaaactatcagctcacaacctctacgtttgctgacgataccgcaatacttagccgatctagatgcccagcaaaggcaacagagcaacttgcctgccatcttaaaatagtggaaagatggtttgcggactggcgcattaagataaacgagaccaaaagcagacatgtaaccttcacactgaacagacaaacctgcccaccctgtaccctgaacaatacatttatcccacaagcagacgtagtaacatatctcggcgttcacctagatagacgcctcacctggcggcgacatatagaatctaagaggactcatatgaagcttaaagcagccaatcttcactggcttattaattacaactctccccttagtctggaatacaaagtactcctctacaataccgtgctgaaacccatctggacatacggctgtgaactatggggaaacgcttcaaaaaccaacattgaaatcatacagcgagctcagtccacgattctgcgaactatcactggggcaccatggtacctacgcagcgaaagcatccatagagacctccacataaatcttgtcaatgaggaaattcagatgaaaaaaagtaaacatcaagcaaagctcgccgcacacgaaaatcctctcgcgaagtcgcttacgcgagtctacagtcagagccgactgaagcgcaaagattctccagcccagcaaagaaatcctagggccgtctctaactaatacaattacttcatattgtaattaatataagttatataataagatttgaataattattgttagtctcacaaaaagagaagatccaataaataacgcaataagtttaaaaaaaaaa",
+  "length_bp": 4786,
+  "sequence_length_bp": 4786,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "283..1989",
+      "start": 282,
+      "end": 1989,
+      "qualifiers": {
+        "product": "DOC2_DM_gag",
+        "number": "1",
+        "note": "via tfasty with DOC3_DM_gag [Drosophila fruit fly genus]",
+        "translation": "MIRNDTRVQRQREQDDRRLSLQRNNAYFSYVSATSADSERSITHNPTSLPLPTTQERA"
+      },
+      "label": "DOC2_DM_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "1991..4675",
+      "start": 1990,
+      "end": 4675,
+      "qualifiers": {
+        "product": "DOC2_DM_pol",
+        "number": "1",
+        "note": "via tfasty with DOC_pol [Drosophila fruit fly genus]",
+        "translation": "MSPLQISMWNANGVSRHKNELAQFLFEKNIDVMLLSETHLTDKHNFHIPGYLFYATNH"
+      },
+      "label": "DOC2_DM_pol"
+    }
+  ],
+  "repbase_aliases": []
+}

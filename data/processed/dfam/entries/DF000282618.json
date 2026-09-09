@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282618",
+  "name": "RhiPru-5.380_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RhiPru-5.380_int"
+  ],
+  "species": "Rhizomys pruinosus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rhizomys pruinosus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Spalacidae",
+    "Rhizomyinae",
+    "Rhizomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1074 BP; 303 A; 209 C; 276 G; 285 T; 1 other;"
+  },
+  "sequence": "atggaatggcctcttgaagacacagttacagcgccaattaggtagcaataccctggagggctggggcaaggttctccagcaggcagtatatgctttgaatcagcgcccactatatggtactgtttctcctatagccagaattcatgggtccaggaaccaaggggtggaagtgggagtgattccactcactatcacccctagtgacccagtaggaaaatttttgcttcctgtacccacgaccttgcgttctgctggtctagangttttggctccaaaggggggagtgcttttgccaggagatacagcaaacgttccattgaactggaagctaagacttccccctggccactttgggcttctactgcccttaagccaacaggctaaggaaggaataacagtagtaggaggagtgattgatccagactaccagggggaaattggactttttctccacaatgggggcaaggaagattatgtctggaaggcaggagatgctgtagggcgccttctggtgctaccatgtcctatgattaaggtcaatgggaaactccaacaacccaaaccagacaggacaataaatggcccagacccttcagggatgaaggtatgggtcactcctccagggaaagagccaagacctgcagaggtgcttgctgatggtggaggaaatacagaatgggtagtagaagaaggtagtcataaatatcagctgaggccacgggaccagttgcagaaacgtggattataatagatattaacttttgtcctatttggttaagaatgtgcttgttcatatatatacgtatattaagcagatacttgtgttgttcccttttgaatgtgcaactgagataagtgttaagtgttgtcatatttaggttattagatactgaaggactaagtgttcctcaaggacattaccacctactctaagatataatgctttgctattgcacatgagacacttataacatgttaggtggaattatgaccttgccattgttcgcaattgacatttaagcataacataaggagaggctatttattgggtgtcaagttgacaaggggtggact",
+  "length_bp": 1074,
+  "sequence_length_bp": 1074,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

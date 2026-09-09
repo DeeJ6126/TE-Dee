@@ -1,0 +1,110 @@
+{
+  "input_file": "te_kg2_final_standardized_new_standardized_fix_4.13.jsonl",
+  "output_file": "data\\processed\\tekg2\\tekg2_0413_clean.jsonl",
+  "records_in_input": 2308,
+  "records_written": 2308,
+  "parse_error_count": 0,
+  "parse_errors": [],
+  "entity_group_counts": {
+    "transposons": 3224,
+    "functions": 7066,
+    "proteins": 1953,
+    "rnas": 1055,
+    "papers": 2307,
+    "genes": 2058,
+    "mutations": 439,
+    "diseases": 1810,
+    "peptides": 23,
+    "toxins": 79,
+    "lipids": 28,
+    "pharmaceuticals": 386,
+    "carbohydrates": 12
+  },
+  "relation_type_counts_top20": [
+    [
+      "report",
+      7122
+    ],
+    [
+      "associate with",
+      2667
+    ],
+    [
+      "participate in",
+      2101
+    ],
+    [
+      "express",
+      982
+    ],
+    [
+      "involve in",
+      844
+    ],
+    [
+      "regulate",
+      739
+    ],
+    [
+      "lead to",
+      718
+    ],
+    [
+      "inhibit",
+      642
+    ],
+    [
+      "mediate",
+      596
+    ],
+    [
+      "affect",
+      557
+    ],
+    [
+      "utilize",
+      446
+    ],
+    [
+      "cause",
+      418
+    ],
+    [
+      "encode",
+      388
+    ],
+    [
+      "bind",
+      367
+    ],
+    [
+      "interact with",
+      350
+    ],
+    [
+      "promote",
+      336
+    ],
+    [
+      "insert into",
+      335
+    ],
+    [
+      "perform",
+      300
+    ],
+    [
+      "drive",
+      221
+    ],
+    [
+      "induce",
+      220
+    ]
+  ],
+  "dropped_entity_items_missing_name": 0,
+  "merged_entity_duplicates": 44,
+  "dropped_relations_missing_endpoint": 1,
+  "merged_relation_duplicates": 32,
+  "unknown_entity_groups": {}
+}

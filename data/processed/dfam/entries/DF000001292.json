@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001292",
+  "name": "X23_DNA",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/ | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 571 BP; 189 A; 100 C; 87 G; 181 T; 14 other;"
+  },
+  "sequence": "caaaccatcgatgacaagctgagggttggtgtcatgtggaagagggaggaaggacaggcaccggctttgtnttngcccanacccaactcagtgctgcacaagggtgttagtgagaatccagccagatcagactttcccccaaattcattatctgnccctatttaaaatgaacttatagacccataaaaccaattctaattagggccttttattcctctccaataaaacttgaaactttcatttggtccggtaaaattcttaataacctctttttanntccctctttaaaaagtcattttncgtgttctaagtaaaataattacttacaggagtgacaaatttattactaattacacaattactttattacgtagcactagtnaaaaattacttgaagtctaaaanatgtctagtaaagaattacttaatttagtaaataattttgactcgagtaattatttncttaaaactagaatttgctgaaaanccttcaagtaatattttaccggcgccgcataataaagtaattgtgtaattagtaattaattacttacaggagngacaatntntt",
+  "length_bp": 571,
+  "sequence_length_bp": 571,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X23_DNA"
+  ]
+}

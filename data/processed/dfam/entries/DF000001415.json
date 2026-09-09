@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001415",
+  "name": "IR4",
+  "description": "Caenorhabditis elegans IR-4 repetitive element, consensus sequence.",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 227 BP; 58 A; 56 C; 57 G; 51 T; 5 other;"
+  },
+  "sequence": "tattaccggtancagagagtgtagatagttagagagtgacagacatccgggacccaatggggcggggcgcgcggaagagacgatttcgtgtcgatttacgaaatgatgacaacgaggaaaatttcnnncgtaaatcgacacaaantcgtctcttccgcgcgccccgccccattgggtcccggatgtctgtcactctctaactatctacactctctgtaccggtaata",
+  "length_bp": 227,
+  "sequence_length_bp": 227,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "IR4"
+  ]
+}

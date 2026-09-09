@@ -1,0 +1,57 @@
+{
+  "accession": "DF000000109",
+  "name": "Cheshire",
+  "description": "hAT-Charlie DNA transposon, Chesire subfamily (autonomous)",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2420 BP; 783 A; 457 C; 475 G; 705 T; 0 other;"
+  },
+  "sequence": "caggggtcggcaaactacggcccgcgggccaaatccggcccgccgcctgtttttgtacggcccgcgagctaagaatggtttttacatttttaaatggttgaaaaaaaaatcaaaagaagaataatatttcgtgacacgtgaaaattatatgaaattcaaatttcagtgtccataaataaagttttattggaacacagccacgctcattcgtttacgtattgtctatggctgctttcgcgctacaacggcagagttgagtagttgcgacagagaccgtatgtggcgctctcatcgcttcgcactgctgctcggcgcactacaaatcgcagtgacgcagttataactcgacagcgtttcgagtgccacgcgtatcgccgtaccgcgacatttttttttattaccagtgcatacccatcatgtcaaaacaagaaaagaagagaaaagtggacttcgaatgtcgcgcttttaaggcacagtggagtgtggattattttgttatcgaattagatggcaaagcattgtgtttattatgcaatgacactatagctgtgctaaaagaatacaatatacgtcgacattaccagactaagcactcatcacaatattcccaactcacaggaaagcaacggtcagaaaaattagaaaatttaaaacggaatatctcatcacagcagaatttcttcacaaaaataaaaaatgaaaatgaggctgcaaccaaagtaagtttccgagtggctcatttgttagccaagcaaggaaagccgtttaccgatggtgagttaattaaatcgtgtttgattgcagcagccgaagaaatgtgtccagagaaaataaacttgtttaagactattagcctttcggcgagaacagttgctcgaagagttgaggacattgggagcaacatcaatagtcaattaaaaaacaaggcaaatgatttcgagtggttttccttggctcttgatgagtcgacagatgttaccgatactgctcagttgtttattcgaggagtcaatgccgagtttgaagtgactgaagaattagcctctatgaatagtctgcgtggaacaactacaggcgagaatattttcaaagaagttgagaaaacactaattcagtacaacctgaagtggaatctgctaagatgtgttacaactgatggtggtaaaaatatgtgtggagcagaaaaaggcttagttggacaaatttacaaagcttgtgaaaatgtaaggtgtttaaagcctatggttattcattgtattattcatcagcaggtactttgcggaaaatatttgaatctatcatgtgttattgaaccagtagtgtcaacggtgaacttcattcgctctcgtggacttaaccatcgtcagttccgtgaatttttgtcagaaatagaagctgaatatcctgacttgccctaccacacagcagttcgatggcttagcagtggtaaagttttattgcgattttttgagctcagggccgagattgaaatttttctgaatgagaagaaccgccctcaaccactattatcgaacactgaatggctttggaaattagcttttgctgcagacttgataatgtttcttaatgaattcaacctaaaattacaaggcaaaacagcgcttatatgcgaaacttatactgcggtaaagtcatttcgatgacaacaactattgtttgaatcacaagtaatgtcaagctgctttatacacttcccgtgctgtcaaaagttaaaacaagaagcgagatctccattcccacacaaatttgcagcggatatattttccgagctcaaactacagttccagcagcgtttttcggacctcgatgcaagtgcaaaggaaatttccatatttcaaaatccatttaactgtgcaattgaggagcttccacctaaccttcaattggaagtgattaatctgcaatgtaatgacatgctaaaaggcaaatatcaagagaagaatctaatagaattctataaatgccttccaagcgatgaatatgctcaattaaaatcatatgctcgtggattgatatcagtatttggcagtacctatctgtgtgaaaagacattttcaaagatgaaatacgtaaaatctcattacagatcagcattaacagatgaacatttgcaatcgattttgatgatagggaacactaactttgaaccccaattaagcgaaatgttatccccccaaaaagaattccattcttctcattagtagacctgtattacaaaaaattgtactcaattattattattattatattttgaatttcgtcaataaaaattttgtggaaatttgttttctctcttgttatataagtacctacataatatcctcgattttgcctcttggcccgcaaagcctaaaatatttactatctggccctttacagaaaaagtttgccgacccctg",
+  "length_bp": 2420,
+  "sequence_length_bp": 2420,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "416..2219",
+      "start": 415,
+      "end": 2219,
+      "qualifiers": {
+        "product": "Cheshire_tp",
+        "number": "1",
+        "note": "[Eutheria]",
+        "translation": "MSKQEKKRKVDFECRTFKAQWSMDYFVIELDGKALCLLCNDTIAVLXEYNIHRHYQTK"
+      },
+      "label": "Cheshire_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "CHESHIRE"
+  ]
+}

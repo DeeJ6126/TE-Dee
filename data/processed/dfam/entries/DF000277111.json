@@ -1,0 +1,47 @@
+{
+  "accession": "DF000277111",
+  "name": "GalVar-5.1901",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Galeopterus variegatus",
+  "display_classification": "DNA/TcMar-Tigger | Galeopterus variegatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Dermoptera",
+    "Cynocephalidae",
+    "Galeopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 259 BP; 73 A; 52 C; 61 G; 73 T; 0 other;"
+  },
+  "sequence": "cagcaaacccttgaacaacacgggtttgaactgcgcgggtccacttatacgcggatttttttcaataaatatattggaaaatttttggttaggtatgtcatgaatgcatgacatacctaaccaaacagttaagtagcctacctaacagtaggctattagtagttaagtagttaaagtttgggggagtcaaaagttatacgcggattttcgactgctggggtcggcgcccctaacccccgcgttgttcaagggtcaactg",
+  "length_bp": 259,
+  "sequence_length_bp": 259,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

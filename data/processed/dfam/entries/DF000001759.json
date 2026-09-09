@@ -1,0 +1,53 @@
+{
+  "accession": "DF000001759",
+  "name": "ERVB4_2-LTR_MM",
+  "description": "Mouse endogenous betaretrovirus ERVB4_2 LTR sequence.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ERVB4_2-LTR_MM"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 553 BP; 109 A; 180 C; 104 G; 155 T; 5 other;"
+  },
+  "sequence": "tgttgggagccattaaggcaacgctattgtcctgatctctgaattgggcctctccccccgagaagagggtcaaaagcgggccaccgacacatggattccgagaaccacgggatgttccagccctgggtcatcaccgctctcctgaccacaccctgacaccaccaagttcctgcttccccgtgtagctgccaaaagaaagaatttctattgcccccctcccataagtacttctccttttgcttgtattgccccacccctcccgctgataattacttccccttttgcttgtattgccctacccctcccactgataancacttcnccntttncttgtactgccccatccttcccgctgaaagntatctgcacttccccttttgcttgtgcatttaaaccttgggcctttctcaatacattggggtcttgatacaacttcagaacggtttccgtgtcgttattcgtacaagaccctcgtctctctctaccccccatttggttattaggaggaggtcccctcgagatcctcgaataactggacctgctggacgggtca",
+  "length_bp": 553,
+  "sequence_length_bp": 553,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ERVB4_2-LTR_MM"
+  ]
+}

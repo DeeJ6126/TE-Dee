@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002174",
+  "name": "RMER19B2",
+  "description": "Long terminal repeat of ERV2 Endogenous Retrovirus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RMER19B2"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 761 BP; 159 A; 159 C; 211 G; 224 T; 8 other;"
+  },
+  "sequence": "tgaagtggaaatttctggtttctttggagactcagttgtgtcatgtgatgtttttctggaaactgtcttatgagaggatgtttttgctgaagcagacacgtgggaggatgttttgctgagaacagacacgcggtggtgtttttctggaagctgcctggaaaaagggcatgtgatgttttgctagagcggacgcttgagagaacacgtgatgtttggaaagggtataaatataacccaacagacagtggacgacgctgtgtggcattggttcgccttgccactctttgctggtcttcgttgggctttgctgacgctggtcttcgctgacgacgnnnncgccgntgtggcattggttcgccttgccgttcttcgctgatcatcgtttgtcgtgacttcgtagagagaaacgcaccaaagaacttctggtggtgttccggcggcttcttgccgcttccgcggactcgggccgattggcagagcctcgcggtttcttctggatcgaactgccgttgctgattcgtgaatggtgtttgcgagtggatcgagctaccgctgctgattcgtgtgaactgaactgctgatatcctgacaacgnagattggantcgccccaaagaactatttctaaacaggtccacatcctcctttgccctattaacctttcctttccactacctctggtgggtggtgggctagaagggaggttaaagcatttaagaacccttattaaagtaggttttgaaaaatntaagcctacaaaca",
+  "length_bp": 761,
+  "sequence_length_bp": 761,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RMER19B2"
+  ]
+}

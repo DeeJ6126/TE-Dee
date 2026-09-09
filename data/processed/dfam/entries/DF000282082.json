@@ -1,0 +1,50 @@
+{
+  "accession": "DF000282082",
+  "name": "HysCri-1.95_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "HysCri-1.95_int"
+  ],
+  "species": "Hystrix cristata",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Hystrix cristata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Hystricidae",
+    "Hystrix"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 958 BP; 254 A; 131 C; 288 G; 285 T; 0 other;"
+  },
+  "sequence": "gaaattggtaccggagaagtggggtccttgctgtgacgttgcctggccatgtggcttaagagcctttggaattaatttggaaaggttttgagagaccagccaaagaggcagccctggaatgctctaaacttattatatgggagactctggtcagagcgtggaaaaccagagtaactgatggaaatgctgccggttaggatgaggctcgggaggcctctgttgagaaagactgcgttggctgctggatcccaggcggtatatgtgtgctttggcagaggttggtctgcattttgcttgtgtttggagatattgcctgggtggcagaaaaatttcagtgcagtctggtgttgggacggcagcatagttactgttgagggcttttggccggatctatgttggaaatcgagagcggagagccagcagggtgacttgaagcgtttggccagaggggagctgtggattgcaaggatgaacagaggagaacgtggttgtggagaagaaacaggacaatggaaaaatgacctgaggccttttaccagaagggaagagtgtatttggggtgcaggagatcctttggggcgtctcttagtgttgccgtgctctgttgttaaagttaatggaaaccaaagagttttaaaatttgaagccatattttttaatgtggatgcactgtattggtatattgtactttgtaaacaaattattgttttagaacaagcaagagagacagaatggagttgtatatttgtatgtatagttgtaatttttggacacctgtttgtaatcagtgttgagaatcctttgaatatttgtttctggtgtgggaatgagtgcaataagaattgtattgttaatgtaaatctgaatagaccaagatatgttaactctttacaaatctgccactggagactatggtttaaagaaatgtgtctggttatcaagttgaccaggggtggat",
+  "length_bp": 958,
+  "sequence_length_bp": 958,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

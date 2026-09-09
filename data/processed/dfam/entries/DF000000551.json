@@ -1,0 +1,47 @@
+{
+  "accession": "DF000000551",
+  "name": "LTR56",
+  "description": "LTR56 (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR56"
+  ],
+  "species": "Primates",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 445 BP; 129 A; 116 C; 71 G; 122 T; 7 other;"
+  },
+  "sequence": "tgagaannaagaaaagaacttttatctgaggaatgcgagtcctttaaattatcaggcccagagaggcattaaaatgagacagcagtcacgtcctactccccgctttgagctatgtattncatctcttgaaactgcttgctattgccacaagtagctataaattaacctaataatgccacaccggacactataacccacaccctatagcttaacaatgtatacggccaatcactaatcaatgttatttctgtaaaccaatgagaattcctgacaaacaactttgtatcagcccactccctgtccccctcttttttgcctttaaaaacccgcttgtaacngctgctaancggagcgcatatccagggcaacttggatctgtgctcccgggcngcngtcctcaagctttggcccaaataaactctctacttatattaattttgcctca",
+  "length_bp": 445,
+  "sequence_length_bp": 445,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR56"
+  ]
+}

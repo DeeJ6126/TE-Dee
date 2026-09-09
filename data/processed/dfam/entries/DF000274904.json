@@ -1,0 +1,49 @@
+{
+  "accession": "DF000274904",
+  "name": "ArtJam-1.7",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Artibeus jamaicensis",
+  "display_classification": "SINE/tRNA | Artibeus jamaicensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Stenodermatinae",
+    "Artibeus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 221 BP; 59 A; 62 C; 52 G; 48 T; 0 other;"
+  },
+  "sequence": "gccctggctggtgtagctcagtggattgagcgcgggcctgcgaaccagacaatcgcggttcgattcccagtcagggcacatgccagggttgcaggcaggttccctgcaggccagttcccagcaggggacgcacgaaaggcaaccatacattgatgtttctctccctctctccttcccttcccctctaaagataaataaataaaatctttaaaaaaaaaaaa",
+  "length_bp": 221,
+  "sequence_length_bp": 221,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

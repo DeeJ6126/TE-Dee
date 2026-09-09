@@ -1,0 +1,45 @@
+{
+  "accession": "DF000000927",
+  "name": "MER74C",
+  "description": "MER74C (Long Terminal Repeat) for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER74C"
+  ],
+  "species": "Boreoeutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Boreoeutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 460 BP; 101 A; 153 C; 93 G; 110 T; 3 other;"
+  },
+  "sequence": "tgttttttaaaatgctgtcttgacccagttttgaggccctggctagaggccggtcagttccccttcttgagcagctgattaagtccacaccccaaccacttcccttatcgggctctcacactccgggnccactatgcacccgccctaatcgccccagggccaggtaccagacaactagggacagcccctatgccccggagcccgcgaaattattcaaattagccaatccacagggagcccgngaaacctagctaaccccaccccgcttgccatacataagctgccccctacagctccagcttgctgttaccctgtccccgggtgcaaccccctgtgtggccctgcctggcagccttctctcgtttggagctgtaagtaacaaagagttctgcctttcatctatccgagtgtcantgtgttgtgtcccgccatcaaaagaatctttaaatcttataaaaca",
+  "length_bp": 460,
+  "sequence_length_bp": 460,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER74C"
+  ]
+}

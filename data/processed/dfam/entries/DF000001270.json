@@ -1,0 +1,38 @@
+{
+  "accession": "DF000001270",
+  "name": "MER121B",
+  "description": "Putative hAT DNA transposon, MER121B subfamily",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/hAT | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 407 BP; 116 A; 73 C; 77 G; 131 T; 10 other;"
+  },
+  "sequence": "ggggtaggggagcctggtagtgntttgnntttcncnaaacctctanaacttttttttttnaaagctttgggtttcgcgaaactttttcaagtttcgcgaaacgttttttcccttaatttaaaccattgtttttcaagggaaatttaatttnaaaaacatgtttttctaactaaatggaagcctgtgctatgcaaacaataaagattcttgtttgaaagtaattcttgccctgcttctaggactaccaggggaataaaattaaaaaaaacatgcagcagcccaganctcgtgttttgccagagccaaacggaactcgaagctcaaaagtttcgagttcggttctaaatttagaacccgcgattttcgagtgggttctaaatttggcaaaacgagttctcccatntcta",
+  "length_bp": 407,
+  "sequence_length_bp": 407,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

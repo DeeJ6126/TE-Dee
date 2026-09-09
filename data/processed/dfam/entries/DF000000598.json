@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000598",
+  "name": "LTR82A",
+  "description": "LTR82A (Long Terminal Repeat) for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR82A"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 872 BP; 225 A; 173 C; 212 G; 255 T; 7 other;"
+  },
+  "sequence": "tgttatgatgtctgtaatttactttaaaatacttcagcatagacagtgtgatattatgtatgtgttagttagtttaagctncactctaggggcagtcagttgccctaatcaggaatncacactccaggggtggtcagctagcattntatcagaaaggccacactccagaggcggctactacaagcgcttcngctatctntatctctgatcaacaccagaggctttgctaattagcatantgaatgtcagaaatgggttttcattggtgaaattagtggcttgttaattagcatgatggatgttagaaatgggctctcattggtgaaattaanggtattcaagatatgtggattggctaaaatattttagagacactccccacccttgcatgaacagggtataagaatctagcgaggcctgtagcctgtacccttagggatggcgcccgaggcttgatccctaaacggtcctgtgtccagccattggttcggaggatttctggttgcctgatgccgactataagggtaacagaatcctgcctctggaatattgtcgcgtctgcctcgagtgaacctttcatgcaaggtgtggtcggagcacctaaaaggacagagagctgggacttcatcgagcttacagaacaggttgtatgaactgttttgtgcctgcttgctaataaatgtttgtttaataaatgtctgtatgtgtggcagaatttggtctgagacttgctttcattataacctggtagcgaggttgtgggggagtagctaaccctcacccacctcaaacttcttcggcggctaccgttatctaccaaaaagaacctaagagttgtgcatgaccaaattggcttaggtcagttcgcaaca",
+  "length_bp": 872,
+  "sequence_length_bp": 872,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR82A"
+  ]
+}

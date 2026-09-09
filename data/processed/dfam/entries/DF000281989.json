@@ -1,0 +1,48 @@
+{
+  "accession": "DF000281989",
+  "name": "GalVar-1.22_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "GalVar-1.22_int"
+  ],
+  "species": "Galeopterus variegatus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Galeopterus variegatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Dermoptera",
+    "Cynocephalidae",
+    "Galeopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1582 BP; 435 A; 320 C; 484 G; 341 T; 2 other;"
+  },
+  "sequence": "gaaaattggtaccagagaagtggggtgttgcttataacaaatacttgaaaatgtggaagcggctttggaactgggtgttgaggagaggctggaggaatttggaggaacaggctagaaaaagcctagatgctggtgaaagtttagaagacaagaaaaccagggaaagtttggaatgtttagagactggttaaatggtggtgaccagaatgctgatagaaatatggactgtaaagaccattctaaggaggtctcagatagaaataagaaggagtttattggaaactggggcaaagatcacccttgctgtgaactggcaaggaacttggctgcattgtgtccatgccctaggactttgtggaagttggaacttaggagttgtgaaccagagtatttggcggaagaaatttctaagcagcaaagcattaaggaagctgcatggctacttgtaacagcctacgctgagttatggcggcaaaggcatgacataaagccagaatttaaaagggaagcagagcgtaaagatttggaaaatttgcagcctggccatgtggtagagaagcagagagcattttcagaagaaaaatncaatggtgctaagaagattagtacaaaagaaagggattatcaagagaagggggaaaaggccctgaaggcattgcagaagcctctggggccaacccttccatttcaggcccaaaggcctagggagacagaatggtcttggggaacaggcctgaggcgccctccacgggctcgctgcccagggccacctcgggaagctgcttccagcaccagcaccccagctgctttggctgctccagccgtggctaaattggccccaggtgtggctggacccgcagctttggaaaatacaagccggaagccttggcggcgtccacgtggtgttaggtctgcaggctcgcagaatgccagagctgtggaggcttgggagcctccaccccgatttcaaaggatgtatggaaaagtctgggggcccaggaagagatctgtcacaggggcggagtcaccgcagacagccttcgctagagcaatgccgagcggaaacgtggggtcggagttgcagcagagaaaccccatcagcgccatgcctagtggagccgtgagagcgggaccgccatggagaccccagacctgtggagctaccagagtggaacgccagcctgggagagctgaagcgtggcctgagaccaggaaagccataggagcggagctgcccgaggacttggggacccaacccccacaccagcgtgcagaggacgtcgaacatggagtcaaggtacatgattcgccagctttgagatttaatgcctgccctgctgggtttcggacttgtttgggacctgttacccctttcttttggcctatttctcccttttggaatgggaatatgtaccctatgtttgtcccaccattgtatcttggaagtagataacttgtnttgatttcacagatgggactttgaactttggacttttgagttgaaacaagttaagactttggggatgaaatgaatgtatttgcatgtgaaaaggacatgagttttggggggccaggggcggaa",
+  "length_bp": 1582,
+  "sequence_length_bp": 1582,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

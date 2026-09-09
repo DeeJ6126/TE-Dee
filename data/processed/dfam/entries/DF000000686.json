@@ -1,0 +1,31 @@
+{
+  "accession": "DF000000686",
+  "name": "tRNA-Thr-ACY",
+  "description": "tRNA-Thr (decoding ACY) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 77 BP; 15 A; 20 C; 24 G; 18 T; 0 other;"
+  },
+  "sequence": "ggcgccgtggcttagttggttaaagcgcctgtctagtaaacaggagatcctgggttcgaatcccagcggtgcctcca",
+  "length_bp": 77,
+  "sequence_length_bp": 77,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

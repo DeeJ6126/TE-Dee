@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001274",
+  "name": "UCON58",
+  "description": "Conserved repeat present in placental mammals and marsupials.",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/ | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 485 BP; 161 A; 86 C; 86 G; 151 T; 1 other;"
+  },
+  "sequence": "tacatgttaaggcccatgcgcagaaatcggcccatttgcaaatggaccggcccatctgcaaattggcagataggacctgcccaagtgcagagaaaagcttgattcggggcttaaaatacaatgaaattaattttaaaaaacaacttttattgagttnaaaaacagtgagttcaaaaacaattaagttaattttaaaaaccacttttattgagttaacagatagtgagttaaaaaacaatgaaattaattttaaaaactttcattgagttcaaaaaacagtgagactgttttattaacttaattgtttttgaactcactgtttttcaactcaataaaagtgtttttaaattaacttcattgttttttaagccctgaatcaagcttttctctgcacttgggcaggctccgtctgccaatttgcagatgggccggcccatttgcaaatgggccggtttctgcatgtgggccttaacataaacactgca",
+  "length_bp": 485,
+  "sequence_length_bp": 485,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON58"
+  ]
+}

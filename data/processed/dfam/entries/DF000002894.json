@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002894",
+  "name": "Nimb-7_DR",
+  "description": "Non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/I"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/I | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2294 BP; 819 A; 310 C; 414 G; 734 T; 17 other;"
+  },
+  "sequence": "ttagatggcatttctgcatcttgtcgggttaacaatatctgcaaattaggagaaataccagccttttagaaagaagctattattataccaatacctaaaccaggaaaagatcattcaantaattatcgtccaacagcttaccagttgcctttgcaaaacaatggaacgaatgattaatgatcgattggtgtggatttaaaaaaaaacagaagattaataaacagtggggtttagaagagggaaaagtactcttgcctcttatacgaatcttttgacgagatggttttatnaaaaaagaacacagcagttttttttttttttttttaagtcatgatacacctggagctggaaatttgcctaattttattgcaatttttttatccaatagagtttttcgtgtgcatgaaattattatctgaatgcatatacgagaacaggagtgccccaagaagtatactatagtaacactatttagtattaaaattaataatattgtaaatgttaatgggaataatatatttcgtagtttatatgtagatgatttatgtatttgttataaaggaaaatatgtataatcgagagaaaattatatatagtanataaantatactatacaagttgtgaaaaaggtaaagttcctaggaatgagttttgacaataagtagtgttttattcctcatattaaagtattacgaaatagatgttttaaaacaatatgtnatgaaaatcttagnaaaggtaaaatgggggcagattgggcgatactcttaagacttagtaggacacttattagatcaaaaatggactatgggagcgtagtttacggatctgcaagggtatcatacataaagatgcttgatacagacattatacaggactgagacttgctcttggagcatacaggacttctccaattcaaagtntatntacggcagcagagaaatgtcactttacaacagaagattgaaactggctctcaantatgcagtcaagctgaaagctaataaagacaatccagcatattctacagttttccaccctcaatatcagcacctntacgaagccagacccagatacatcagaccttttggaattcgaatgaaaactcacttggagaagttggatattaatcttatattaatatcatctaatagttggatataataacaacgatgcatgtatgccctataccacctnaaagctatattaaaaagccatctattataatgcacctgtctcagtttaaaaaaagggaaatccacccaaatgtttatcaggaagaatttatgaatatacgatgcaatctaccaacttatgtaccagtgtatacagatggttcaaaatcagatggacgagtatctgctgcagcagtgattggttcagagtgtttcagaaagagtattcccggacaaagctcgatattcacagctgaagcttgtgcactgtttttagctctggaacaaatagaaaaagaacagcaacgccagtttttaatttgcacagattctatgtcctgcttacaagcacttgaatctatgaaaactgatcatcctatgatttttagcataatagaaaaagtggaccttttaaagacaaaagactttgatattattttctgctggatacctggtcatatgggattcattggaaatgaacgtgcagataaagcagctaaggaagccctacagttggagataacagaatgtaaaattcctgtgtctgatgttaaacctgttttaaatctgtatattaatgagaaatggcaaatggaatgggatgaatgtagaaacaacaaattgtatgaagtgaatccatttgtaaatgaaagaaataattaccattttgaaaatagacatgatcaggttgtacatacgagatgtagaatcggncactcaagacttacacacncatatttattgaaaggggaagaaaaacctatttgtgacttgtgtaagaatattttgacgataaaacatattttaatagaatgtgtatttttaaatgatattagagaacgtttttattcaggaaatattttaagggaaatgtttgaaaaggtgtcttctggagnaattttagaatatttatcnttaatcaaactaaaagattgtatatgactcttttcagtgttgttgctatttgtatgttttttgttgtttttttntacaatgnatgtttgttaagaaactgatatgattgtatgattatatattgtatatttattagtatatgtttttgccatgaatatagccaatgctgctgatatggcattaaaacataaataaataaataaa",
+  "length_bp": 2294,
+  "sequence_length_bp": 2294,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Nimb-7_DR"
+  ]
+}

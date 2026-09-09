@@ -1,0 +1,51 @@
+{
+  "accession": "DF000275389",
+  "name": "CebCap-1.185",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Cebus capucinus",
+  "display_classification": "DNA/TcMar-Tigger | Cebus capucinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Platyrrhini",
+    "Cebidae",
+    "Cebinae",
+    "Cebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 258 BP; 59 A; 85 C; 59 G; 55 T; 0 other;"
+  },
+  "sequence": "caggtattgatcgacttacgacctatgcaacttacgaccattcgactttacgaccacaatcgctagccacgactgctccgcgtctggcagcgcaaacgttgcccagctgggcgtacgacagtgcggaccagcttccggcagcactaccatctccgcgtgcaccatttcaactgtacatatagcctactcaacttacgaccaaatcgtgttacgaccggtccgcggtcccgaccgtggtcgtaagtcgagcactagctg",
+  "length_bp": 258,
+  "sequence_length_bp": 258,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TE-KG Co-expression Graph Harness</title>
+  <link rel="stylesheet" href="../assets/css/tekg_runtime.css">
+  <link rel="stylesheet" href="../assets/css/pages/preview.css">
+  <script src="../assets/js/tekg_paths.php"></script>
+  <script src="../assets/vendor/g6/g6.min.js"></script>
+  <script src="../assets/js/tekg_runtime_data.js"></script>
+  <script src="../assets/js/renderers/g6/index-g6-type-meta.js"></script>
+</head>
+<body class="preview-graph-embed-page">
+  <header class="preview-graph-embed-header">
+    <h1>TE-KG Co-expression Graph</h1>
+    <span class="badge">Task 5 harness</span>
+  </header>
+  <div class="main preview-graph-workspace preview-graph-embed-workspace">
+    <section class="panel preview-graph-panel" aria-label="TE-KG co-expression graph test workspace">
+      <div class="head preview-graph-head">
+        <h2 id="graph-title">L1HS co-expression network</h2>
+      </div>
+      <div class="toolbar preview-graph-toolbar" aria-label="Harness context">
+        <div class="search">
+          <span class="preview-search-icon" aria-hidden="true">Search</span>
+          <input id="node-search" type="text" value="L1HS" readonly aria-label="Selected TE">
+        </div>
+        <button type="button" disabled>Cancer cell line</button>
+      </div>
+      <div class="g6-surface-stack preview-g6-surface-stack">
+        <div id="cy" style="display:none"></div>
+        <div id="g6-default-tree-surface"></div>
+        <div id="g6-dynamic-surface"></div>
+        <div id="graph-preloader" class="graph-preloader" aria-hidden="false">
+          <div class="graph-preloader-inner">
+            <div class="graph-preloader-icon" aria-hidden="true">
+              <span></span>
+              <span></span>
+            </div>
+            <div id="graph-preloader-label" class="graph-preloader-label">Loading graph...</div>
+          </div>
+        </div>
+        <div id="graph-type-legend" class="graph-legend-panel" aria-label="Entity legend">
+          <div class="graph-legend-title">Entity Legend</div>
+          <div class="graph-legend-list">
+            <div><span style="color:#4e79ff">●</span> TE</div>
+            <div><span style="color:#8a7cf8">●</span> Gene</div>
+          </div>
+        </div>
+      </div>
+      <div class="detail" id="node-details">Preparing co-expression graph...</div>
+    </section>
+  </div>
+  <script>
+    window.__TEKG_RENDERER_MODE = 'g6';
+    window.__TEKG_EMBED_MODE = 'coexpression-task5';
+  </script>
+  <script src="../assets/js/renderers/g6/coexpression/coexpression-contract.js"></script>
+  <script src="../assets/js/renderers/g6/coexpression/coexpression-dynamic-adapter.js"></script>
+  <script src="../assets/js/renderers/g6/coexpression/coexpression-renderer.js"></script>
+  <script>
+    (async function () {
+      const query = new URLSearchParams(window.location.search);
+      const te = query.get('te') || 'L1HS';
+      const contextName = query.get('context') || 'cancer_cell_line';
+      const response = await fetch(`../api/coexpression.php?action=network&te=${encodeURIComponent(te)}&context=${encodeURIComponent(contextName)}`, {
+        headers: { Accept: 'application/json' },
+      });
+      const payload = await response.json();
+      if (!response.ok || !payload.ok) throw new Error(payload.message || 'Unable to load co-expression test data.');
+
+      const data = window.__TEKG_COEXPRESSION_CONTRACT.normalizeNetwork(payload);
+      const elements = window.__TEKG_COEXPRESSION_DYNAMIC_ADAPTER.toGraphElements(data);
+      const detail = document.getElementById('node-details');
+      const preloader = document.getElementById('graph-preloader');
+      const preloaderLabel = document.getElementById('graph-preloader-label');
+      const runner = window.__TEKG_COEXPRESSION_RENDERER_CORE.createRunner({
+        container: document.getElementById('g6-default-tree-surface'),
+        initialQuery: te,
+        initialAllowNodeActions: false,
+        setStatus(text) {
+          if (preloaderLabel && !window.__TEKG_COEXPRESSION_HARNESS_READY_AT) {
+            preloaderLabel.textContent = text;
+          }
+        },
+        setDetail(title, description) {
+          detail.textContent = description ? `${title}: ${description}` : title;
+        },
+        setDetailHtml(html) {
+          detail.innerHTML = html;
+        },
+        setMode() {},
+        onSelection() {},
+        onReady() {},
+        setQueryUi() {},
+        syncRouteState() {},
+      });
+      const rendererStartedAt = performance.now();
+      await runner.init();
+      await runner.renderElements(elements, { query: te }, {
+        sourceLabel: 'query',
+        skipInitialStatus: true,
+        graphDataOptions: {
+          restrictToAnchorComponent: true,
+          forceAnchorLabel: true,
+          graphRippleAnchor: true,
+          allowInspectCard: true,
+          allowNodeActions: false,
+          showEdgeLabels: false,
+        },
+      });
+
+      const markReady = () => {
+        const canvases = Array.from(document.querySelectorAll('#g6-default-tree-surface canvas'));
+        if (!canvases.length) return requestAnimationFrame(markReady);
+        const sample = document.createElement('canvas');
+        sample.width = 32;
+        sample.height = 32;
+        const sampleContext = sample.getContext('2d');
+        const nonblank = canvases.some((canvas) => {
+          sampleContext.clearRect(0, 0, 32, 32);
+          sampleContext.drawImage(canvas, 0, 0, 32, 32);
+          const pixels = sampleContext.getImageData(0, 0, 32, 32).data;
+          return Array.from(pixels).some((value, index) => index % 4 === 3 && value > 0);
+        });
+        if (!nonblank) return requestAnimationFrame(markReady);
+        preloader.hidden = true;
+        preloader.setAttribute('aria-hidden', 'true');
+        window.__TEKG_COEXPRESSION_HARNESS_READY_AT = performance.now();
+      };
+      requestAnimationFrame(markReady);
+
+      window.__TEKG_COEXPRESSION_HARNESS = {
+        renderer: runner,
+        data,
+        elements,
+        rendererStartedAt,
+      };
+    }()).catch((error) => {
+      const preloaderLabel = document.getElementById('graph-preloader-label');
+      if (preloaderLabel) preloaderLabel.textContent = 'Unable to load graph';
+      window.__TEKG_COEXPRESSION_HARNESS_ERROR = String(error && error.stack || error);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000001963",
+  "name": "MusHAL1_5end",
+  "description": "L1 Non-LTR Retrotransposon from mouse.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Murinae",
+  "display_classification": "LINE/L1 | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 784 BP; 287 A; 209 C; 173 G; 114 T; 1 other;"
+  },
+  "sequence": "tctgtgcccagagctgatcctgtgccacagcgctccatacccaaataccgccgggagagagctggtctcccaggagtgctgacacgcctgtgagcacaggtaagaccaccacttctgctcaaattcctggcccaagagggacccgcccagagccatcaggacacaggaaccaaggaacagccggggacaggatccttccggtttccgtctgcaccccagagctgaccctgtgccacagctctccatacccaaattcctccnggagagaactggtctcccaggagtactgacacacaggcttgcaggagggacaagccacagtcagagacagcaagaccagctaacaccagagataaccagatggcgagaggcaagggcaagaacataagcaacagaaaccaaggctacttggcatcatcagaacccagttctcccaccacagcgagccctggataccccaacacaccagaaaaagcaagactctgatttaaaatcacatctcatgatgatgatagaggactttaagaaggacataaataactcccttaaagaaatacaggagaacacaggtaaacagctagaagcccttaaagaggaaacacaaaaatcccttaaagaattacaggaaaacacaaccaaacaggtgaaggaattgaacaaaaccatccaggatctaaaaatggaaatagaaacaataaagaaatcacaaagggagacaaccctggagatagaaaacctaggaaagagatcaggagtcatagatgcaagcatcaccaacagaata",
+  "length_bp": 784,
+  "sequence_length_bp": 784,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MusHAL1_5end"
+  ]
+}

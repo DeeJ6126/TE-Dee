@@ -1,0 +1,31 @@
+{
+  "accession": "DF000000675",
+  "name": "tRNA-Gly-GGA",
+  "description": "tRNA-Gly (decoding GGA) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 75 BP; 14 A; 20 C; 24 G; 17 T; 0 other;"
+  },
+  "sequence": "gcgttggtggtatagtggtgagcatagctgccttccaagcagttgacccgggttcgattcccggccaacgcagca",
+  "length_bp": 75,
+  "sequence_length_bp": 75,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

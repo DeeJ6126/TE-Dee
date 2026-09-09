@@ -1,0 +1,51 @@
+{
+  "accession": "DF002407894",
+  "name": "Acol_P_Ele2",
+  "description": "Curated TE family",
+  "keywords": [
+    "DNA/P"
+  ],
+  "species": "Anopheles coluzzii",
+  "display_classification": "DNA/P | Anopheles coluzzii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Nematocera",
+    "Culicomorpha",
+    "Culicoidea",
+    "Culicidae",
+    "Anophelinae",
+    "Anopheles",
+    "Cellia",
+    "Pyretophorus",
+    "gambiae species",
+    "complex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 544 BP; 155 A; 89 C; 105 G; 188 T; 7 other;"
+  },
+  "sequence": "ttttgacagttaaattgaacattgtttatgtttagcgatggacgttgctatggagcgaatgagagttttgttcagcattttgcactcatttccttttagaatattataagaattagaatccaattagaatgttacatggctgatacaatccaaggatctcntttatcattcgtcgccgggttataagcaaaaggacggtgtgcatattgtaccagtgtgtgccgattggatgtttcattttactctcagtgtttaattgaaagtaaataggacttcttttacctagttggaacatgttaaactgtgcgttttaagcaggnccttaaacggtagtggttcgtggtcacggaatggcaaacaatgaaaaaggttatcaatgtttctgagtncgagagtagactgcaattacttctcctttattctccagaagcggttgaccgcaagaaatttaaccaatataatcttcctaatagtaaattcgtctcttttccgcnttaactattanccgtttgtttgtaaacactttttcatnaaactgncaaaa",
+  "length_bp": 544,
+  "sequence_length_bp": 544,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,53 @@
+{
+  "accession": "DF000282490",
+  "name": "PapAnu-1.348_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PapAnu-1.348_int"
+  ],
+  "species": "Papio anubis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Papio anubis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Cercopithecinae",
+    "Papio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1340 BP; 371 A; 376 C; 262 G; 331 T; 0 other;"
+  },
+  "sequence": "tgggggtggagttcaagatcaggcaagagaaaaacacgtaaaggaagtaatctcccaactgacccgggtacatagcacccctagcccctacaaaggactagatctctcaaaactacatgaaaccctccgtacccatactcgcctggtaagcctatttaataccaccctcactgggctccatgaggtctcggcccaaaaccctactaactgttggatgtgcctccccctgcacttcaggccatacatttcaatccctgtacctgaacaatggaacaacttcagcacagaaataaacaccacttccgttttagtaggacctcttgtttccaatctggaaataacccatacctcaaacctcacctgtgtaaaatttagcaatactatagacacaaccaactcccaatgcatcaggtgggtaactcctcccacacgaatagtctgcctaccctcaggaatattttttgtctgtggtacctcagcctatcgttgtttgaatggctcttcagaatctatgtgcttcctctcattcttagtgccccctatgaccatctacactgaacaagatttatacaattatgtcgtacctaagccccgcaacaaaagagtacccattcttccttttgttatcggagcaggagtgctaggcggactaggtactggcattggcggtatcacaacctctactcagttctactacaaactatctcaagaactaaatggtgacatggaacgggtcgccgactccctggtcaccttgcaagatcaacttaactccctagcagcagtagtccttcaaaatcgaagagctttagacttgctaaccgccgaaagagggggaacctgtttatttttaggggaagaatgctgttattatgttaatcaatccggaatcgtcaccgagaaagttaaagaaattcgagatcgaatacaacgtagagcagaggagcttcaaaacaccggaccctggggcctcctcagccaatggatgccctggattctccccttcttaggacctctagcagctataatattgctactcctctttggaccctgtatctttaacctccttgttaagtttgtctcttccagaatcgaagctgtaaaactacaaatggttcttcaaatggagccccagatgcagtccatgactaagatctaccgcggacccctggaccggcctgctagcccatgctccgatgttaatgacatcgaaggcacccctcccgaggaaatctcaactgcacaacccctactacgccccaattcagcaggaagcagttagagcggtcgtcggccaacctccccaacagcacttgggttttcctgttgagaggggggac",
+  "length_bp": 1340,
+  "sequence_length_bp": 1340,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

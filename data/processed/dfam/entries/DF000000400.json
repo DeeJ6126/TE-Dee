@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000400",
+  "name": "LTR12_v",
+  "description": "Variant LTR12 (Long Terminal Repeat) for HERV9 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR12_v"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 688 BP; 189 A; 197 C; 169 G; 133 T; 0 other;"
+  },
+  "sequence": "tgagaggtgaagccggctgggcttctgggtcgggtggggacttggagaacttttctgtctagctaaaggattgtaaacgcaccaatcagcgctctgtgtctagctaaaggtttgtaaacgcaccaatcagcactctgtaaaaacggaccaatcagcactctgtaaaatggaccaatcagcgctctgtaaaatggaccaatcagcaggacgtgggcggggccaaataagggaataaaagctggccacccgagccagcagcggcaacccgctcgggtccccttccacgctgtggaagctttgttctttcgctcttcacaataaatcttgctgctgctcactctttgggtccgcactacctttatgagctgtaacactcaccgcgaaggtctgcggcttcactcctgaagtcagcgagaccacgaacccaccgggaggaacaaacaactccggacgcgccacctttaagagctgtaacactcactgcgaaggtctgcggcttcactcctgaagtcagcgagaccacgaacccaccggaaggaagaaactccggacacatctgaacatctgaaggaacaaactccggacacaccatctttaagaactgtaacactcaccgcgagggtccgcggcttcattcttgaagtcagcgagaccaagaacccaccggaaggaaccaattccggacaca",
+  "length_bp": 688,
+  "sequence_length_bp": 688,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

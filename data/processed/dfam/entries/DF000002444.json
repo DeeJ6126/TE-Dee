@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002444",
+  "name": "LRS-2_DR",
+  "description": "Crypton DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/Crypton-V"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/Crypton-V | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1725 BP; 396 A; 567 C; 605 G; 122 T; 35 other;"
+  },
+  "sequence": "gctcaccgggggcgttggttagacccaggggagagcccaccaagccatgcccggatagagaccaccctccccggcatgncccgcgcctggaggggggggtagcgcgtccctgggtttcgctgacctgccgtcaagttttcggtaacggacacanacgaaggacttagtgcaatttccgatttagcggttgatcgaaccagggcccaaaggcatcnaacgcagccccaggggacgcgcccgagcccgcgcgaggcaggtgcgcgctacggccctggtgcaggcaaagaaccagggcccaaaggcatcnaacgcagccccaggggangcgcccgagcccgcgcgaggcaggtgcgcgcnacggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggatgcgcccgagcccgngcgaggcaggtgcgcgcnacggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggagangcgcccgagcccgggcgaggcaggtgcgcgcaacggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggangcgcccgagcccgcgcgaggcaggtgcgcgctacggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggatgcgcccgagcccgcgcgaggcaggtgcgcgcnacggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggatgcgcccgagcccgcgcgaggcaggtgcgcgcaacggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggatgcgcccgagcccgcgcgaggcaggtgcgcgcaacggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggatgcgcccgagcccgcgcgaggcaggtgcgcgcagcggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggatgcgcccgagcccgcgcgaggcaggtgcgcgcnacggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggatgcgcccgagcccgcgcgaggcaggtgcgcgcaatggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggangcgcccgagcccgcgcaaggcaggtgcgcgcagtggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccagtggaagtgcccnagcccgcgcaaggcaggtgcgcgcnacggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggangtgcccgagcccgcgcaaggcaggtgcgcgcagtggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggatgcgcccnagcccgcgcaaggcaggtgcgcgcngtggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggangcgcccnagcccgcgcaaggcaggtgcgcgcagtggccctggtgcaggcaaagaaccagggcccaaaggcantcaaagcagccccaggggaagtgtcccagcccgcaggtgc",
+  "length_bp": 1725,
+  "sequence_length_bp": 1725,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LRS-2_DR"
+  ]
+}

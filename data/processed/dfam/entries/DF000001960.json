@@ -1,0 +1,50 @@
+{
+  "accession": "DF000001960",
+  "name": "MurSatRep1",
+  "description": "Transposable Element from Muridae.",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Muridae",
+  "display_classification": "Unknown/ | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2137 BP; 656 A; 368 C; 417 G; 650 T; 46 other;"
+  },
+  "sequence": "ttaatgttgcagtttaaactggtgcacttcatgtttctggaagatgaatacagaactgcagtgaatgtataattctttgtaggaacttcagtaaagaactntgagttctttctatcntttttgtttccttggttgatttttgcaggggagtnagggtcttaatatgtaactcttgctgtcctggaactcgtgcatagaccangctggcatccagctcgatgagatacacctgcctntgcctcctnantgctgggattaaaggcatgagcnaatacacccagcttgcccatcattttttagttagtaattgttcatacaatttctctgatgtgtgctcggtactgttgatctgtttgcctgtctctctctatgtctgttaattggcatttctcttgcaaggctatatcctattcaaagggcncagaaacgacagaggtgaacctcattattcagtttccttctaaaatgacttggtgattacattagaacttctgtgtcaggaaataagtgggggaagcaccagaattatatgaatatattgtcaatgaagtatacatttacagtgttgtcngtatcatgctttntnttgtacacatgtatgggatattttaggatgcagtgacctatgatgacgtgcatgtgaacttcactcgggaagagtgggctttgctggatccttcccagaagagtctctacaaagatgtgatgctggagacctacaggaacctcactgctataggtaagactgtgaattttctttcgctttttaaaatgnggggacaactgtttctttgttattgntgctcgtttctgtaatttcaattgagaacgaggaagaatgaggtgaataaatcagncatggttctaaggttcactgaagatagtaacttaaattttgcctaatttccaataatatancatacattttctggtactgtgttttaggctacaattgggaagaccataatattgaagaacattgtcaaagttctagaagacatggaaggtaattttcatgtgcaagctgatacgaatatgcctctgaagaaattttaatgtgtnctggaagttttaaagaaaagcaacagtgtaaaanaagcactgctttaagtgtatngatgattattaaattctcacaaaaccatgtacctcaatgtcaggtatctgatttgtgtttgcaaggcattcctctaagaanaaagacaaggaaacaatgccttaacagatatcactatttgaatcgtagccccattagagctacgctgtagaactgccaatctgtttagtctcataccacttagatattgcaaaaggtacacacattgantaggtgataagtatatgtccaaaaccttctaataagcaaatagtccatagtaaagctggtgttactcatatacttgtagtaacattgctaagtttagtgagatggacagtttatgagagtcaagaatgttgtcgtggagaaaccttaatccctataccacatgtctatgaggaacaaaagtcaaactgtgtgaatgcaatgtggaaacctttcatttgttattcttcttttaatangtatatcatgtgtcacaatggatacaagccatgtgagcatagggatattgaaagaagcaacgtacctctctctctcccagaacaattagaagatatgtagtannccgcactttgagtagacnttctgaatgtggtanaagtttacaantaattagttttccaacntcattgggaacatcnacgaacncatactggagagaaaccctatgaatgtaatcaatgtggaaagncttttgcncgccccggttcactctccaaatgtaanagaacncatactggaggaaaccctatgaatgtaatcaatgtggtaaagctttgagttcttccagtnntctccaaatacataaaagaacncatactggagagaaaccctatgaatgtaatcaatgtggtaaangcctttgccatcacagttatctccaaanncataaaagaacacatactggagagaaaccctatcgaatgtaatcaatgtggtaaagccttaagatcngattnctctttacaatnagaccaaatcataaaagnaacncatagagagaaaccctnatgaatgtaatcaatgtggtaaagc",
+  "length_bp": 2137,
+  "sequence_length_bp": 2137,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MurSatRep1"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006128",
+  "name": "Halyomorpha_halys-6_family-2440",
+  "description": "TcMar-Mariner DNA Transposon",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/TcMar-Mariner | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1069 BP; 345 A; 225 C; 220 G; 277 T; 2 other;"
+  },
+  "sequence": "caaaatggaaaagcggaatttggagcaacgttgtgccattaaattctgtgttaagcttggagaatcggcaagtgcaacgtttgaaaagttaaaacaggcctatgggaaacattctttatcccgagctcaagtttttcgctggcacaaatcatttttggaaggcagagaacacgttgaagatgaacaccgttcagggaggccttcaacttcgaaaacatcgaacgtgtgaacactcttgtgagatcagaccgtcgtttaacattaagaatgttgagtgaactcgtaaatttgaacagatttaccgttcatcaaattttgactgaacatttgcacatgcgaaaggtctgtgccaaaatggtgccgaaaaacctcacaattcagcagaaggacattcgaaaaaacaagtgtcttgatcttcttgacagaatcgctaatgagcaagatttctttagccgtgtgatcacaggtgatggatnatggttttttaatacgatcctgagaccaagaggcaaagtgaggagtggcacactgcaaactctcctcgaccaaagaaagctcgaatgagcaattgaaaatcaaatcaatgtctgttttgtttttttgacagaaggggaattgtccacaaagaatttgttcctccaggacaaactgctaaccaagttttttataaagacgtccttgaaaggctcagaaaaagggtcattcgcgtgagaccagacattgcagacaaatggatgctccatcatgacaacgccccatgtcacactgccctctccataacagaatttttgacctcaaaaggcattcccgtggttccccagccccttattcacctgacctcagtccctgtgactttttcctaaactgaaaaatgtcctcaaaggacgtcatttcgggactttagaaaacatccaaaagagtgtaacggacatgctgaagaccataccggttgaagacttccagcgctgctaccaacngtgggaactacttcgaaggggataacattgatgtttcaaaaaaataaaaactttggtaaataaaaaatcagtctcattacttttctgccaca",
+  "length_bp": 1069,
+  "sequence_length_bp": 1069,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

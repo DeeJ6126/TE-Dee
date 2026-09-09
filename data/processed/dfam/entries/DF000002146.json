@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002146",
+  "name": "RMER10B",
+  "description": "Long terminal repeat of retrovirus-like element.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RMER10B"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 398 BP; 71 A; 152 C; 73 G; 101 T; 1 other;"
+  },
+  "sequence": "tgtttggtttcagaccccggacaagggactgaggtgcatattttacataccaaagcagacctggcctccaggttctcccagcatccctcagtccctacctggcataccctgcccccaaccctgaactttccagcccaggggctgggctgcccttcccccagaggctcttccctatataatccagacattttggtctctccctctctccccctcttcccctgcgcgcgccctttctctctctctccccccccccntctccctccccatggcgacttccctggcctcggtccttggggccagtgaactcgcccgagagcagcttcccaataaacctgcctttaatataatctaatctggcttgaattggctcatttcaccggcggagaaataacctatca",
+  "length_bp": 398,
+  "sequence_length_bp": 398,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RMER10B"
+  ]
+}

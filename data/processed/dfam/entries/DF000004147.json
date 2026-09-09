@@ -1,0 +1,49 @@
+{
+  "accession": "DF000004147",
+  "name": "Lx10_3end",
+  "description": "Non-LTR retrotransposon in rodents - 3' UTR fragment.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Muroidea",
+  "display_classification": "LINE/L1 | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1273 BP; 422 A; 285 C; 282 G; 268 T; 16 other;"
+  },
+  "sequence": "tacaatcttaaaggaagttangccacttgggctgacaatgctccccacaagaaccanagacnnatagactaacaaaaaccccagtaccaggcacgagaaacctcctttcgaatggttggtcagggtagtccaagtgactcccaaaacaatatagactattgntgtngcccttggttgcctctcagaggttgaaggtaagccncctattgctgaagacaccgcacacttaggacacaggactcggatgattcgagctggatctgacctgaaagcctccttcctgcggtctagcttccatggtnccagaaaatactatgcaagctgccaagggagggaagcaattaatagtcctacccagctgcgacacctatgaaccacaacaatgaccagcatggcaagatatccataaaggtgcaataagtggcactcacatgtcggtggtaaccaacagctgnntctaattggacttaaggcccactcaacaggagggaaatcatgcctggtactggaaacctagccaacttcccggggctagtgaggtcatggaccttagaaaagaatctactaccgccactttgctagaccagcataattcctnactacattctanaatcttatccttatacccacagataagtgtagctaccacccctcatcaaagaagcttctctttacagcaaatgagaggaccatcacagaaaaccacaactggacacaatgcagagatcaacggatcgtgggagcccagccccaacggatacatctacancacagctcctgcatctatggctcagggaacatcgcggaagagggggcgaaagattgtaagagccagaataccaggaagtctgctgtgaaacagtctctcctagaaatggctgcataaacaagaccngaacaatggcaatatcaatagacatgctaacgtggaagggggaaaaatttcacggggtcccacccctagacaaagaactacaggcaactgatgagaaggagaattagcctctcccagggatgagccccctnattggttatccaatgcaaagtggtcagccctgaaaccatatacacacaaacaacaaaaacggactcagcaggttgtatttatatatttgtgcgtatatatgtatgtatgtatatatatgtgtgtaacaataataatnaaaaagaggctatcaatttgagagtgggggacatgggaggggttggagggaggaaaaggaaaggggaaagtgatgtaattatattttaattaaaatatataaaaataaaa",
+  "length_bp": 1273,
+  "sequence_length_bp": 1273,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LX10"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000282755",
+  "name": "TamTet-1.7_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "TamTet-1.7_int"
+  ],
+  "species": "Tamandua tetradactyla",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Tamandua tetradactyla",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Pilosa",
+    "Vermilingua",
+    "Myrmecophagidae",
+    "Tamandua"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1502 BP; 411 A; 283 C; 436 G; 371 T; 1 other;"
+  },
+  "sequence": "gattttggtaccggagagtggggtgctgctgctgcagtttgcaaataccaaacatgttggaacggctttttaaatggataaggggaagattctggaagagttgtgagaagcttgatagagaaggcctagaatgctttgaagagactgttggtagaaatgtggactctaaagatacctctgatgaggccttagacagaaatgaggcacgtgttattgcaaactggaaggaaggcgatccttgttttaaaatggcagataatctggcaaaattgactagtggctttggctggaaggcagattttaaaagccatgaacttggatatttagcagaagagatctccaaattaaatgtcgaaagtgcagcctggtttctcctcgcagcttatagtgaaatgcgacaggaaagagataagctgagaactgaactcttgggtacaaagaaaccagaaattgangtcctggaaaattctgggcctccagaaagggagaccccagagaatagtgccccgcgtgaggatttaaccaaatgtggaaccagtcagccatttcagagaaagccaggatcggacatggagttatccaggaaggatttgtggaaactccttatgtctgatgggcatgatccaaggctactgcatagaaagccaacgagagtgctgtgggacctgtataaacagagccgctgccagtctggactggggggttcagagaagggacacattggaggaaaaataacttcagaggcaaaaccatggaggctgaggtctgaagtcaagaagcctcgggccaggagagcggacccacccaagcccgtggagagggtgagtttgccccaaaggcagaggatgggccttccacctcgttgcagtggaagagtcatgccgcctcaggccttggagagggtgaagcacattccttggggtttggggagagcctggctgccaccacatggaggggttgagcgtgtgccccggagatggcagagagcccgggtgcggccccgatgcttggagagggtggagccgagaaaaaggtggtctccccaatgtcccccaaggttgcattcggagagaggcaggcctctgcgtaggcccttggaaagggtgggactgccgctttctaaagccctgaggataaatgactctcagactttgaaatctaatggactttgccctgcaggttttcgaaactgtatgggtccggtgacccctgtgttccttcctccctatggaaatgtgtatatgtatcctatgaatgttcctcctttgtatgttggcagcaaataacttgttatgagttttcaaaggtccagagcaaatggagagaattttgccttaggacagaccatgcctgtaactgacttgatgagattttatactgtctctaattttgtacttcatttgtattgctactgaaaggtttaaggtttctgatattgttatgaaattaatgtattttgtatatgggaaaaacatgtcttttttaggggccagagggtggaa",
+  "length_bp": 1502,
+  "sequence_length_bp": 1502,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

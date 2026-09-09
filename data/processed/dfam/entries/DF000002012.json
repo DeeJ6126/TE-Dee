@@ -1,0 +1,51 @@
+{
+  "accession": "DF000002012",
+  "name": "RLTR13D2",
+  "description": "Mouse long terminal repeat",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR13D2"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1023 BP; 261 A; 236 C; 232 G; 290 T; 4 other;"
+  },
+  "sequence": "tgccacacccactccagtgaagactgcgtggcaggcccaaaagcttggacgcagtcccgaggcaaagagtttcacggaaacttagtctcctggaaccttggcatcccgtagcacgaatgctccaaacctgtccctgcgttagtcggtgaatggatctgtgtgctttctttcagtattgttttattataggtgcctccaagaaatgatttnacaaatacctaaatcaggttgaactttgcttcctggccttcaccaatgtcctaggcagtccttgagctgaccctgggcttggaatttcgtaagaatgttactcattcagacgaaatgccccagtgttgacagttagtaatcaggcatctcacagtttgccggataggagctagnaatctcagggctagttcaaaatagtaaacttagaatcctcattacagtcaggtatggcagactacattacatattagaagaaagttggtgagttcttctgacaaatggagattccctacagacacttaaaagagcagccaagttactcccatatgcaagaatttacaatggcctaggaagaaggagggttgtggtttaaggaggaactacagtattgcattattcatgaaaaggtcagcaagagcagaaccccctggtgcaagctttcacaaggctcagaggaatagcataaattgtgactagggtgtgaaatcctcacctggctcctgtcaatagctgactttagatagggctgntcttatctcagttgtaaacactgcctggttcctgccagtctttatgtatgcatttcttgttttgtgtcagataacttcaatgtaccttggctgatgtgtcacctaacttctttgttttcttctgtaatataagtctgatgctcgctttgagaaattacattcagatacagcactctctctggtgtccgtgtctgtttgtcatcccgccgactccttgcccacctgantaccgggaccctggttccccgcgggttgagggaccgactgagtccagtccgcggca",
+  "length_bp": 1023,
+  "sequence_length_bp": 1023,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

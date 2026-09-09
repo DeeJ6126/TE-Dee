@@ -1,0 +1,49 @@
+{
+  "accession": "DF000274886",
+  "name": "ArtJam-1.157",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tc2"
+  ],
+  "species": "Artibeus jamaicensis",
+  "display_classification": "DNA/TcMar-Tc2 | Artibeus jamaicensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Stenodermatinae",
+    "Artibeus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 212 BP; 54 A; 40 C; 34 G; 84 T; 0 other;"
+  },
+  "sequence": "ccgtatttttcggactataagacgcaccccccccccaaatttgggaggaataatggttgttaatgctgctgttgagttctgtttacatttacattggtgaaatattatgttatttatgttattaaatattttaccacattttttgcttcaaaatttttttcctattttcctcctctaaaacctaggtgcgtcttatggtccgaaaaatacgg",
+  "length_bp": 212,
+  "sequence_length_bp": 212,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

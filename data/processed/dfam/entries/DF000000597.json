@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000597",
+  "name": "LTR81C",
+  "description": "LTR81C (Long Terminal Repeat) for Gypsy retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR81C"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1153 BP; 279 A; 307 C; 371 G; 187 T; 9 other;"
+  },
+  "sequence": "tgtaacggggataatatttttgaatatctcccgatgtatnttcccttatcggtaaaccagtttctctcctgcancccatccgccattatggccccagggaagggggagggcaaatgccacctcgggaaggaggaggatatgacgtaggggaagtccctgccagacaggaagaggaagtgaaagcccaccccttctggccctagnggantgtgggaaggagaaggaggaggaggcagggcagagaggtcagacgcgagtgtccttgcttccccctctcttggggtgaacctcgagaggggggggcgcnatagaaacatccagataggtatgggggaacccgagaacatcggggctagtggcccgcttccccgggcatagcctggggaggctgcaagcctctaggagaagccccgcattcgctggcgccacgtccagcatggcgcgggagcgatagngcagcactggcagagggaggtggctagatagatgagcctgaggcagcgctcctggctccccacggcctgcgcgtggcatgcaggggatccagaagttcccacgtgccccggtgaggggacgcggaggtgctgagaggaccggtggaccggcagaggcctggggtcgggacgaagaggccgcagngtgcagggacttcgcgaccagaggcaaatggccgggaccacggacttcagcggtgggtgccagcacgatgccccaaaaggccagacgggaccagtcgcacctcagcggncaccagtccagggaccagaccagaccagccactccgcagcagagaccagcgaggatccagaggacaccgcgtggatccgaggccccttcccccngccccatgaggtcacgtaagccccccccccatacacccagatgccatcttggagaggagcagggggaggaggaggaaatctgaaagactgagcatttacccgaaagagactgagtcatccaaaagagactatttaaaccggaagagactgagataccattaattggcaagtttaagtttctccctccttttccccgctacccagcggggtgggggctcatgaggaagattagatcagttatagaaaataaagaagctacattttctttgcacatctgagtgcagtgtgagtaaatttgcgaccccgctaca",
+  "length_bp": 1153,
+  "sequence_length_bp": 1153,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR81C"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "accession": "DF000001537",
+  "name": "Bari-1",
+  "description": "Bari-1 (DNA/TcMar-Tc1) element.",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "DNA/TcMar-Tc1 | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1740 BP; 582 A; 314 C; 349 G; 488 T; 7 other;"
+  },
+  "sequence": "cagaggtggtcaaaagtatttacacgacgngcttttttttcaattgtcaactttgatcgcttattgctgctgcttttgtactcagaaacgaacataacggtatttgtcgtgcttctacatctatacagaagcaaacgaaagaagaagtggaaaaaataactgttcatgggctaaaaatagaagcattgaactgatccttgtctgttgtcagaagtatttacacacaatttttacgcgtcaaaattatttacacagtgcaaattgaagattagtctttgatttgcattgagtaagtgaagttctagttgatgttgatcgcttaattggaacttnaactaactgttaacagttaagttaatagataaaactaagcatttaatttgtaaaatggcaaaaacaaaggagctatcagttgggcatcgagccgagattgtcactaaacttaaggctggtacttctgcatccaaattagctgagttgtacaaaatatcacgtaaaactgtgtacaatttagttaaaaaaaaggacacactgggaaatttggaaaataaaaagagaactggccgaaaagttgcattgaacccaagagactgcagacacattataggagttgtactnagtaatcccaccatnagtcccgttaaaattgccgcagcttcgaaaaatttaattggaaaacatattagcgtagtacactgcgtcgcagaatgaaggaagttgacatcaactcctatgttattcgtgcagtagttgatattaccccaagaaacaaggaaaaacgtctcgcatttgccttggagtataaagagaagcctctcgagttctggtttgatgttttatggactgatgaagttgcgtttcagtttcagggatcctttagcaagcaatttatgcatttcccaaaacaactaaagggtaatgccgtccagccaatcaatcggtttggtggtggcacggtgatgttctggggctgtttaagctactatggatttggagacatggtaccgatagagggtacactaaatcaaacaggatacctccatatcttaaatgagcacgcattnacctcaggaaatagactgttctccacgaatgactggatctcgcagcaggacaatgctccatgccaaaggccgagtaccaaccaagttcttgaaagacataaatcaggcggtacttccatggcccgcacaaagccccgatctgaacattatcgaaaatgtctgggcttatgttaagagtcagaggacatttgaaagagatcgccagcgcgatgaaactatagccgaaattacggaaatggtccaaattacctcttgagtttgcgcacaacttggtccggtcaataccagcaaggctccaagcagtcattgatgccaaaggcggagtaactagatattagttggcttaacaatcacatattaaaataatataaaatatttcgtttaaattcaataaaaaacgcaaaaaacaattaaaaaagctgtgtgtaaataattttgacgcgtaaaaattgtgtgtaaatacttttgacaacagacaaggatcagttcaatgcttctatttttagcccatgaacagttattttttccacttcttctttcgtttgcttctgtatagatgtagaagnacgacaaataccgttatgttcgtttctgagtacaaaagcagcagcaataagcgatcaaagttgacaattgaaaaaaaagcncgttgtgtaaatacttttgaccacctctg",
+  "length_bp": 1740,
+  "sequence_length_bp": 1740,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "340..1339",
+      "start": 339,
+      "end": 1339,
+      "qualifiers": {
+        "product": "BARI1_tp",
+        "number": "1",
+        "note": "wised with BARI_DM and Tc1_FR4 [Drosophila fruit fly genus]",
+        "translation": "LVDLICKMAKTKELSVEHRAEIVTKFKAGTSASKLAKLYKISAKTVYNLVKKXDTLAN"
+      },
+      "label": "BARI1_tp"
+    }
+  ],
+  "repbase_aliases": []
+}

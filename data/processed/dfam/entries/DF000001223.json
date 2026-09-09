@@ -1,0 +1,43 @@
+{
+  "accession": "DF000001223",
+  "name": "EUTREP2",
+  "description": "Conserved repetitive element present in placental mammals.",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 459 BP; 120 A; 111 C; 102 G; 124 T; 2 other;"
+  },
+  "sequence": "cagcagtgcttttgtattttgtataaaaaagtgaggtgccggtactcatatcttgataaattgtaaaatgcctctcccacttctcccctcttcctgtccacctttcccccctttctaccnttgcaatctccggcacatgcgcgttacacagaatgccaggtgtaggtcaacggatgtcgccgtgaaaaacaagaaaaagaaaagcttaccgcttctcaatgcttgttagcgcgaaaacacaatgatacactttatatttttcggtggaggggtcatgtgggtcagcccacgcattggcatgtgaacttgttgttcccgccaaatgagtcagtcgagatgggaacgttaatttatttgagcggacgtgtgtcaacgtcgctctgaaaaaaaaggtgccggtacgccgtaccggcacgtaccgtcaccaaaaaaagcactgtgcttaattttaggnccatg",
+  "length_bp": 459,
+  "sequence_length_bp": 459,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "EUTREP2"
+  ]
+}

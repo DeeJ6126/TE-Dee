@@ -1,0 +1,53 @@
+{
+  "accession": "DF000001901",
+  "name": "LTRIS_Mus",
+  "description": "Mouse family of LTR retrotransposons",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTRIS_Mus"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 587 BP; 129 A; 166 C; 131 G; 158 T; 3 other;"
+  },
+  "sequence": "tgaaagatcctgacagaatgtaaaaggtcacagaagccctgaaattggcaagatagatttcattgttagcagaactagcttcactgatttagaaaaatagaggtgcacaatgctctggccactccttgaacccgtgtgtctgccaatgttttgaccgttccttgaacccatgtgtgtgcccactgatgaagcccattgccaggtgtttgtgatattggttgctgggaaagagtcggaaaatctccccagcaaccacagccgggnccaatccngagttgctacacctgcaccagactctttccttgtacccctcccatacccatttcttgagaatagacattgtttagatctggaaatcccctactccccccttctcctttcccccctgagggcctataaaaactgggacctctttcccctcgaggtcgactcctctacccctgcgtgggatatgagtcgtccccagagctctggctttccccgaataaagcctcatgtggtttgcatcaagctcggtctntcgtgagttcttgggtgtccgctattgtcccgaggcctgagcgaggggctcctctcggagtctttca",
+  "length_bp": 587,
+  "sequence_length_bp": 587,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTRIS_Mus"
+  ]
+}

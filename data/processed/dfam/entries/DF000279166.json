@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279166",
+  "name": "MyoBra-5.442",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Myotis brandtii",
+  "display_classification": "RC/Helitron | Myotis brandtii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Myotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1056 BP; 247 A; 352 C; 308 G; 146 T; 3 other;"
+  },
+  "sequence": "ctaatctaataaaagagaaacatgcaaattgaccgtacctccgctacgcctcaagccacgcccaccagccaatcaggagcgactatatgcaaattaacccaaccaagatggcggcggccacggagctggagcgagcaggaggcttgggttgccccggcgatggaggaagccaagcttcccgcctgccctggccggctctgggctccgctcaaggctacaaagtttcaattatagaagataaataaatcccagaaaaaaaaaaagaaaaaaaggagaggctgggagcttgggtcgccggggggcgtggccagcctgaaaacggccntcagcccctcacccaggctggccaggcaccccagtggggacccccaccctgaagggggtgtggccagcctgaaaacagccatcagcccctcacccaggctggccaggcaccccagtggggacccccaccctgaagggggcgtggccagcctgnaaacggccntcagcccctcacccaggctggccaggcaccccagcgggacccccaccctgatccgggacacccttcagggcaaaccagccggcccccacccgtgcaccaggcctctatcctatataataaaagggtaatatgcaaattgaccctaacagcagaacgactgggaatgactggtcactatgacacacactgaccaccagggggcagacgctcaatgcaggagctgccccctggtggtcagtgcgctcccacagggggagctctgctcagccacaagccaggctgacggctgccagcacagcggtggtggcgggagcctctcccgcctcctcagcagcgctaaggatgtccgactgcagcttaggcctgctccccgctggcaagtggacatcccccgagggctcccgggctgccagagggatgtctgactgccagcttaggcccgatcccccggggagcgggcctaagccagcaggtggacatcccccgaggggtcccagactgcgagagggcacaggccgggctgagggacccccccgagtgcacaaatttttgtgcaccgggcctctagt",
+  "length_bp": 1056,
+  "sequence_length_bp": 1056,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

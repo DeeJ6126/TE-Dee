@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282151",
+  "name": "MesAur-1.261_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MesAur-1.261_LTR"
+  ],
+  "species": "Mesocricetus auratus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mesocricetus auratus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Cricetinae",
+    "Mesocricetus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 253 BP; 52 A; 59 C; 71 G; 68 T; 3 other;"
+  },
+  "sequence": "tgtagggagagatcttacgtacccgtagcgctgaccacgcccgtttgggcgtggtcacaggtacgtagaacgtacgggggataaaagagctggggggaaggagacnctctctctttgggttccggtcgggtctcggagagcagcgcgcggaccttnggttctcggctttcttggcttctcatgtaagtgacttctccctcaataaaatatcatangacatccctatcttgtgtagcttaatatttccgcatta",
+  "length_bp": 253,
+  "sequence_length_bp": 253,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

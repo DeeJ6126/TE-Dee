@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006396",
+  "name": "DNA25_Hera",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Heliconius",
+  "display_classification": "DNA/ | Heliconius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae",
+    "Heliconiini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1296 BP; 417 A; 253 C; 307 G; 314 T; 5 other;"
+  },
+  "sequence": "cgaggggaggtccaaaagttcgtggaatggaggggatggagtggggataggggcgctcgcttaatntcatactacttggggactcatcattagtatataaatagagtttcagccctgttgcgtcattcgtttacgaacactcgcctgctaaacaagtcaatccggaagaaaactgaaactatggagaaaattgaacaccgtgccgtgataaaattccttaccaagcaaggaaagaatggccaaaccattttaaatgaaatgcaagccgtttatggggaggattgccctggtaaatccatgatttataagtggcatggtctttttaaacatggtcgagagtcgattgaagacgacccccgctctggacggccagttgaggccaccacatcagacatcatcgaaaaagtggaaaaacttgtactggaggacgcccgtttgaagaaaaaacagttatctgcattagttggagtatcagataccaccattctgcggatcctacatgaccatctgggtatgacaaaagtcagtgcaagatgggtaccaagaatgctcacaccgcttcagaaacggcagcgcgtcgatgcttcaaagcaatttttggagttgtgtggagatgaaccggcacagattttggaacggattgttactggagatgaaacatgggtccatcactttgagcctgagtcaaaacaggagtccatgcaatggcataaaaagggcacaccacccccaaagaaattcaaggtgtcacaatcggctggaaagttgatggctactgttttttgggattgtgaggggataatactgattgattacaaagaaaagggaagaaacataaccggagaatactacgcatcgatactaaacaaattaaaggaggccatcaaagaaaaacgtcgaggaaagttggctaagggtgtgttgctcttgcaagacaacgcaccagttcacaagagcagagttgcaatggctgctctgcacacgcacggcttcgaatcactagtccacccaccttacagtccagacctggcccctagtgattttcatttgttccccaatttaaaaaaagacttaaggggaaggaaattttccgacnacaatgaggtgaaggaggcaattttggcccattttgaggcgaaagaaaaaaaatattatttcgacggtttagaaaaantaattcatagatccaataaatgtattcagcttaagggtgattatattgaaaaggaaaaanngatttattgtttcatttaatttagaaccctttcattccacgaacttttggacctcccctcg",
+  "length_bp": 1296,
+  "sequence_length_bp": 1296,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

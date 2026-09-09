@@ -1,0 +1,51 @@
+{
+  "accession": "DF000289968",
+  "name": "ObSE1",
+  "description": "Lineage-specific SINE element found in an lepidopteran insect",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Operophtera brumata",
+  "display_classification": "SINE/tRNA | Operophtera brumata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Geometroidea",
+    "Geometridae",
+    "Larentiinae",
+    "Operophtera"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 275 BP; 67 A; 47 C; 63 G; 98 T; 0 other;"
+  },
+  "sequence": "ttgacgacctctgtggcgcggcgggcgaagcttggcctgcgacgcaggaggttgcgggttcgattcccgcctcggaacaaatatttgtgcgatcgcagatatttgttcagggtgttctgggtattttctatgtataataaaaaatatctatctatgtaatatattgtattaagtatatcagttatctagtacccataacacaagctctgcttagcttggggctagataatgttgtgtgaactgtccagcattatttatttatttatttatttatt",
+  "length_bp": 275,
+  "sequence_length_bp": 275,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

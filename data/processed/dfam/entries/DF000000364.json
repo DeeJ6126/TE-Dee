@@ -1,0 +1,67 @@
+{
+  "accession": "DF000000364",
+  "name": "L4_A_Mam",
+  "description": "RTE-X retrotransposon, L4_A_Mam subfamily",
+  "keywords": [
+    "LINE/RTE-X"
+  ],
+  "species": "Eutheria",
+  "display_classification": "LINE/RTE-X | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 4990 BP; 1139 A; 1265 C; 1167 G; 1348 T; 71 other;"
+  },
+  "sequence": "agtggtaaaaatgcagacatcctcaccccagacgggagnantnnaggagcccctctcccncagctgcccctgcagctgcctccctggctccctcnaacggatctcctagcccanttaaggatggctctccaaaaancctcaccccgggagactcgggaggcccacgggttnattctccccagggctataattctcnccgtgcagatggcacntttgatttnctggaacggtgttncttcctgacatctcacaccatccagnccttatatgaggagctgcgcgttttaaaatccgtggtctccaanatacataaccattggatttggggcaaaccgtgccaanagcatgccacgagncaggaggggatggtggacgggaggtcacacccggggaagggccctccatgcanngcccctggcctgaccctggtgaggaaccaggtggcgntgaacctcccgatggacnctcatgggaggaggcacggtagaggntccgtagccaggctcctggnaccgcttttacaccagcctgcttctaatncacttatttccaggtcgncccacctcccttcccggcagggtcataggaggancctcttggcgtgcggctctccccagctcccttccctcattatganggtcaaggagaanctggctagagcgnggnttatcccgaatagggtttttaaaacggggtcagctgcgcccctgctgggcggttctcttaatttgtcaggacctntactgggcaacccaggtccgcctagaanaccagaacctaaggagaaggggaggcccgtttcacctccagaccatgggccttggtcccccctgggaaagttctcggggcacagggaggtggctgaggctgggttctctcgatcctttgtccgtctccctaagggagaacaggacgctattctggggaggttagagtccctgaaggatnanttaatcaaccttcagggcctaggccataatganaatacccctgacttcatgnagttttctcccatcgganctcctgttgggtccccttgnaggacnccancgaaggggagctctctccccngagngggccccgccccattactgcacaatctgactgattgcacctcccacccagcctcaggaagtgacatctcccctagccctttcctgactgagagactggaccctcaggccgcccccactcattgcccgactccnctctcccnagtgatagtcctngagaatcctccttgtttggctgactcaccagtaagccccaccccagtgcaggtgacctggcccagaaagcctgcagactcccctatttccaggaactggttagacatgctccaccttggnccggatgagcttggcttgccagatccggggcgagccgctccgccggaagcagcggcctcggcgggtgctaagccacacggtaaggccaacggctgcattcttttagatccggtagactccctggagcgtgcccctcaatgactaagattcctctcctggaacgtggccgnttggggccctaaaggtaaggaccccgatgtgtcggcttttctgatgggttttaatattatatgcctgtaagagacctggattttagaacattcatctccccatattcanggttttagaccttttatctctccggctgtcggggaaaaaaattttggcagaggtaagggtgnattggccacccttatctccgtcaacctcagggggactgctgtcgagctncctggctcatatgacaggaatcttttccttctggttctgattcggttccctggcaagctggatgtgatttgtcttaacacttacattccccctgccaaggcgcacgctgtctgcttggacatatggtctcattttnatgatcttttaacttttatttattctacgtaccccatggcggagttaatcatctctggggacctgaacgccaggattggcggcgggtccgatggggccctacctggagccgctgaggaatgggaggattgcttccccgtgggccattcttttagagacagatgtattaacctaaatggaaaatttctcaccaaacttatttatgaacagaacctggtggtgctgaatggtagcacgtgggataaatctgggggaaattttacccgtatctctactctgggggccagcatcatagattatatcatagttagcccctctctgcttactaccatccttagaatggatattctggaccgggtagaaagtgatcatttccctctcgttttaacccttggcgtagctgccccggagcccgtctgcactcatgattggactggngagattagggggctgagaagagtaagatggaccgaggggctttcaaactctattggtgacctnttgctatccgaggacttcttaaaactctgcctcaggtgcctcgagggagaggtttctcctctcatctcttatcaacggattgctgataacttaaaaccggttttatccgcactgtgtcccggcaaacgtgggacttaccctcctagtgcctggtttgacaaggactgtcaggnagccaaaaaaatcttggccaggttagtgaggcgacatgcgaaacgaaaatcggaagaggccacccgggatcttatcaaatttaaatcttattataaacttctcattgcctcgaaaaaactcaggtataataaatccntgtgggaggacctgagtttggccgttagatccggtaatgagggcagattctgggacatagttacccgaggtatgaatttggtgagtgaggtcgtggaagctcagatcccggttgacacctgggaggcttacttttcccagctttacaaaccaaggtcaactgccccgaactttgtagatcccaggccgctttctgactgggtcccggtaatactccctcatatngtacagttgattaaaaagctcaagctaaataaagcacccggggaagatttcctgcctccagaactgttcaaggaccgctctgaatggtgggctccgatccttgccaatttgtttacctttatcaactctacgggtatggtcccgtctggttggacccagagtgtagtctatcccattttttaaaagggcaatcctttacttcccccaaattatagacctattagcttactagacattccatctaaaatgtatgccagtttccttcttgataaattgcaagtctgggtttctcaggccaatattctacacgaggagcaggcgggctttaggcacggctattccactattgaccactgttatactctttatcaccttgtggagaaatctgtcaggaacaacataagattgtttgcggcttttattgacctttcctcggcctttgactctgtggacaggaatcggttatgggctaagctgcatgagctcaatatagacccccggctattgatgctcatacagaacctgcaccttaataccaccgcgagagtcagggtcagtaggaacggtctcttgacggatcagataacaatttccagtggggtaaaacagggatgtgttctgcctaccctcctttttaacttgtatcttaatgacttgataccacttttggatgagctggatgcatgccctcctgccatagagaacagaaagataagcattctcctatatgcagatgacatggttttattgtcacgaactaggagtggccttaatagacaactggccctgctatctaattactgccagaaagaanggcttnagatcaactattctaaaaccaaagtcatcatttttggtagacgtcctccaacatttaactggcttatagctaataaccctatacagcaagtcaactcattcagttacctaggngtacattttgcaactagtttatcttggagggttcaccaggaagttacattgctcaaagttagacgttctatgggtgctttactgagatttttttatggccgaggtgggcgtttggtnacacctgctttaaaaattttccaggctaaaattattgcggccatgctctatggcgtagaactttggggcctcgatcgcccatttgtccgtgtgttggagcagacccagaactgttttctgaggaaaatcttggccctgcccgcgggtactccctcggcccacctccgtgcggaggtggggtggccttctattcaggcacgcgtcctngttaggctcctcaattttcataagaggatgtcaaccctacccccagctcggctgactgttaaagcatatggntctgcncttaaccggcaacatagaatagctgcactccaggtncttgtcagagagtataacctcgaactcnctgccgcccaatacttatcaaaagctcggttgagagaaataatatttatggaggattgcctgaaggatatgcagtccatccattcctctagatactctaaantctatccttggattaagccagaccancagagagctgcgtacctggaccgcattgttttggctccctgcagaattgcttttactgaattgcgctttggcgttatgccatcggcctacattgagggacgttataagaaacagccctatgaaactcgttactgtatttactgtaaggatgttgttgaggacgttgttcattacatcacacagtgtcctctttatgaggacccacgggagaaatttctctcnggtctcagtaccaggaanagctgtgcttctcctgagcaactggtttgtttttatcttatggacactgtgaatcgtgtaactgatcatgtttccctctttgcnttggctgctaggaagctcagagccaaatttgtggcccacctctagcaantgtacaggaccttatggcatgcattttgtgtactaacctcactcctggcttcatcttatttttctacccttattttcctttttcctgattttttaaatttatattttttaattttattgtatgtatttttgtaagccgccttaaatcctttttggaacaaggcaggatataaataaataaa",
+  "length_bp": 4990,
+  "sequence_length_bp": 4990,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "1490..4796",
+      "start": 1489,
+      "end": 4796,
+      "qualifiers": {
+        "product": "L4_A_Mam",
+        "number": "1",
+        "note": "Closest to L5_pol and then (32% id, 50% sim) RTEX-1_ACar_pol in"
+      },
+      "label": "L4_A_Mam"
+    },
+    {
+      "type": "CDS",
+      "location": "50..1487",
+      "start": 49,
+      "end": 1487,
+      "qualifiers": {
+        "product": "L4_A_Mam_gag",
+        "number": "1",
+        "note": "[Eutheria]",
+        "translation": "PSPPAAPAAXSPAPSNGSPSPFKDGSPKXLTPGDSGDPRVNSPQGYNSLRADGTFDLL"
+      },
+      "label": "L4_A_Mam_gag"
+    }
+  ],
+  "repbase_aliases": []
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000282020",
+  "name": "GirTip-6.519",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "GirTip-6.519"
+  ],
+  "species": "Giraffa tippelskirchi",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Giraffa tippelskirchi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Giraffidae",
+    "Giraffa"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1136 BP; 336 A; 235 C; 247 G; 317 T; 1 other;"
+  },
+  "sequence": "tgttgggagccgttctggaactactgccgggtgacaaagtcacggcaccaatcaagaagaaactgcaaagcggtttctctccaggatcggaaccttcgctccttcctgtttctatgcttctgttgtagctagctgtgtttctttctttctgttgggagccgttctgganctactgccggatgacaaagtcacggcaccactcaagaagaaactgcaaagcggtttctctccaggatcggaaccttccctccttcctgtttctatgcttttgttgtggctaactctgtttcattctttgatggctggagttgtaggggcttccatgatgagatcatgagagtccagtaaaaagaaaaatgatcccttgccccagagaaacattccaaaaatgattaaacctactgaggcccctgactggtgggtccctaacattcagccagggaataaggccatgatcatttggaaaacaagccctaagcctattgtgacctggcctcatgaggaaattgttattgatgactggaaaacttgggtcatgtatcagggaaaattacagaaactaagccaattgccttttcccctcagaatctaagcataaacggaaaagatatatataaattgtattgtaaatagtttctaggtaaactgcaaaagacttccccctgccagaaatagtcttgtggtatgtgggtagatggtaaacaagccaccactgacaatggctgtactatgaaaaactttgcccttagccaccgctatagtttttagtcattgaagcaagacgctgtactcgctgtagtagcaggctgtacaaaataagcagatggaataatatgatttatagattatgttttagtaaaataaaaataggtttcggggtaaacatgtaaccaaaatgtgacaatagactaggaaaaaacttttaacacatcttagaatcaggggatgttgatctgaatggaaaaatattgtaagaatcattacgtagaagatcatgtgctatataaatagagactaaagcaataaagattatggtctttgggccatcaaaaaactctctgtctcctttcttttcctttcgccgacgccgttcatcccttggggacccctggaccagctggagcgggactccggca",
+  "length_bp": 1136,
+  "sequence_length_bp": 1136,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

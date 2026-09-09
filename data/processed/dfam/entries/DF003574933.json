@@ -1,0 +1,39 @@
+{
+  "accession": "DF003574933",
+  "name": "TcMar_C.farreri_11",
+  "description": "Repetitive sequence family identified in Chlamys_farreri",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Azumapecten farreri",
+  "display_classification": "DNA/TcMar-Mariner | Azumapecten farreri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Pectinida",
+    "Pectinoidea",
+    "Pectinidae",
+    "Azumapecten"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1338 BP; 455 A; 251 C; 269 G; 363 T; 0 other;"
+  },
+  "sequence": "cgaggagtgttccaaaaataatgtcatttcaccttcttcgcgtgaaaatcgtgtaaatatcttactgaaaccacattgacaggatagattgatcactgaaccgtagcggtagaaaatttcatgctcacaatttcactgacttagctacagtgtacattgctttatagcgtattcattacactatactcaaaatgactggaaaaagagcaaacaatgcacttgaaattagggcctatataaaaggtaggtccttactgggcattaaacccgtagatattcatcgtgaggtctgtgatatctatgggaatggtcaaatgtgtcataggtctgtttgtaggtgggttgctaaatttaaaacaggttacgaacacctcaaagatgctgctcgaaagggtcgccctgcaacagttacaaccaataataacatcgtaaaaatccaccaaatcttacagaaagacgcaagatataccgtgaggcaattggctcggatgacaaacttgtcgttagcacgtgttcatggtattttgaaaaaaaatctgaagcttagaaagataaacgctaggtggatacctcatttgcttagcgatgaacaaaagagagtccgtgttgaaaatgcaaagaaattattaaaattgtatccaaaatataccaaaaagacttttgataatttagttactggtgatgagacctgggtatactattttgagccaaaacgtaagagttctaacagaatctgggcatcaaagaatgcaaaacgtcctagtattgctaaaagattacgaaccgtgaagaaggttttatatgtaattttctttgacaataaaggccctgtcatgcaaattcctgttccaaagggcaaaacagtcacaggtaacttctataaaaatgttgctattaaaaaactgaagaaatattacgaaaggcgtcgccccaaaacgggtataaagtatctccgacttttgcacgacaatgcgcctgcacacaaagcacgcattgtgaccgagtatttggaggcggaaaaggttactgtcctacctcaccccccgtattctccagatttagccccgtgcgacttctttctgttccccaaacttaaattccacctatctggaaaaagatacaaatcacgaaatgcccttgggtctgcaatttatcagtatatgatgggtgtccctattgaagagtacgtaaaatgtttccagaagtggatttgtcgtttaaaaaaatgtatccaggccaagggtgagtactttgaaggacagggacaaataaaaggatcaaacattaataaatgtgggtgaaaacagccaagtgtcattatttttggaacatccctcg",
+  "length_bp": 1338,
+  "sequence_length_bp": 1338,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

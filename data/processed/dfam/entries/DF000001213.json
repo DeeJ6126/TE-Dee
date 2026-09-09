@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001213",
+  "name": "UCON89",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/hAT | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 242 BP; 55 A; 65 C; 42 G; 79 T; 1 other;"
+  },
+  "sequence": "cagtgatttatttgtaggggggaagccaaggaaattcccccccctaaactatccgttccctggctctaaacgttcaataacttcccagccagggaatgtatttttcccctcctctntatatttttctgtggtttgcattatcgtttgctaaatatattacgacacgctatttacctcggtccgcagcttcgagacctttgtgtggcttccccccctctaggaatttcacaaataaatcactg",
+  "length_bp": 242,
+  "sequence_length_bp": 242,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON89"
+  ]
+}

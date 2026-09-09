@@ -1,0 +1,51 @@
+{
+  "accession": "DF000003709",
+  "name": "ACROBAT1",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/PIF"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/PIF | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1379 BP; 439 A; 229 C; 221 G; 428 T; 62 other;"
+  },
+  "sequence": "gggcccggtttttcaaaaggtttaatccggataaaattgatccggatttagtaatcctgtttttgcgatccgtgatcacgtaatccagcttactttttgagccagtttttcaaagcaacatcggattggatcaatctgatccggataggaacttttcaggatcactaaatctggatnaccagtgctcaaacaggatagganatcacaatgtagaactatagatatgtaaagagcgacaagtagaatagccagcgtggggtcaatataactttatttttatttgaaatgaaaactaagaaaatttaataaatantaaaataataataataataaataataaaaacaagaaaaaccccaccccatcctcttccagcagtccgctcatctgagacctacaacactgtacattgaggatatttataataagtttcaaatatagatgtaaataaaaaaaaanngacttaatgtcaaaaactccacaataatttcagacttcctcatctgatgtggagagagcagcttgtctgagcgtagcctttaggaggcggatctcaagtcgntggccttggtttgctgcagtttggtcagagtcagttgttcctctgccagacgaagctgtgcttctgccctttcagtctctttttgcaattgttgaaagngatttcaaaaatcagtnattgccattctttgcanttttttntttttnttgttattctgtaatcattgcatgcatcactaataaatattctaaaaagaaaaatattttccattgtgatgaatatatatatatatatatatnnnnnnnnnnnnnnncgnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnatatatatatatcaattagtgacagaataaaatntattgtttttggtcagttttgacagctgtttgggggattattttatgaggccaaactctttctactttgctgtaggcctatactgaaaggctgaatacgttaaagccnataatcactatagcctgacggatgaacaaataaaattaaaaccttatgaataaatagtatatctcgtaagatactgcatgatccaaaaatagtattatttaatacattttttaagttttcattacattttgggcatgaaatccacgctaaatccacccttctgatgggatcagtttaatccaggttttttggatcaaagtgatccagatcctacaaaaaaggtctgaaaaacccaaactaaaggtttgatccggatcaaaaccaagattggattacgtgatctaatccgattatgtaatccgttttttncttttgaaaaacccattttcaagatttgatccaatcccttatccaaaatcctagtggattacttttgaaaaaccgggccc",
+  "length_bp": 1379,
+  "sequence_length_bp": 1379,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ACROBAT1"
+  ]
+}

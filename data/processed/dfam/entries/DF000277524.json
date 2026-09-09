@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277524",
+  "name": "HydHyd-1.47",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Hydrochoerus hydrochaeris",
+  "display_classification": "LINE/L1 | Hydrochoerus hydrochaeris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Hydrochaeridae",
+    "Hydrochoerus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1110 BP; 315 A; 222 C; 245 G; 328 T; 0 other;"
+  },
+  "sequence": "atgttggaacttggggcgctgggagaacaggcagccagctcgccgccctggtaagcggctgggggcctcacaagccgccgccgctccagggcgagaactatcggcgtttcctgagctctgcatcatgttggaacttggggcgctgggagaacaggcagccagctcgccgccctggtaagcggctgggggcctgccggtgcgcgggctaagaatcagacatcgatccatccccccccccgttagcaagtgggagccggaggtctgagtatctcttgggaggatgaacgtatgcagtgtggcaagtaagggggatttccttctaccatctctttgaaggcaaatatttttatcactgttttgctcagttctgattaatggtactgctctattcaatattctgtttttataagttcgatatttccttccattttgctctacctgattgaaagaacagctaatgtgaacagaacgggatgtactattgtgcctattgctgttgtcctggtgacctgctgtgaggttctgtgccaatttcactgcactgcctcgcatgggtttgttctgtcttgttctgctgtattttgctaccttcaaaaaaaaaatagataacaaagtaacaaaatacctccaaaaaactcccaactccaccaaagctgatccatggggcatggatgaggagaaactcaaaaacaaagcaacagaataatataaggtgattaaaaagtaaataacaacaacaaaacaggtcagtaaggtactgagcaacctgaaacaggatataactaaacagataatggacttaaaaagcaaaaggaggaaaagaaagtgctctaaaggatataactgcatttatgtttaagtgtgtaggattgataaccatgttgctaagtttttattggatcattgaacagaactgtttgcagcctcactgtttgaatgtccactttgtatgctttaattttgtaacttgaacaactatgtctaagaagacaatatgtaatttatcaactagtgatttcttactgtttatttttttctgaaattctgtattgtttctacccctttttctgttttgctttttttctctttaaataaaattttaaaaaaaaa",
+  "length_bp": 1110,
+  "sequence_length_bp": 1110,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

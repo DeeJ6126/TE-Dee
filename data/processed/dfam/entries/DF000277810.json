@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277810",
+  "name": "LasBor-6.4311",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Lasiurus borealis",
+  "display_classification": "DNA/PiggyBac | Lasiurus borealis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Lasiurus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 278 BP; 80 A; 56 C; 55 G; 87 T; 0 other;"
+  },
+  "sequence": "cccattgtacgccataagcgtctgtagacgcaagcggcggaccttccccacacgccacgcgcgtctataaaaaaaatgttttccctaagtggcagccctgaccaactttaaaatcatttttcgtgagaattttcagctgaaaatattcaagaacacccgaattgtgagtaatatatttatttttataatattcattgcaaattgattttttaaattaaattcaaaatatcgtggcgtgtggggatggtttccgttttggacgcgtggcagttaactgg",
+  "length_bp": 278,
+  "sequence_length_bp": 278,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

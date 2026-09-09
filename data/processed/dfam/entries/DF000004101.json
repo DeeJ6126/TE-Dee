@@ -1,0 +1,53 @@
+{
+  "accession": "DF000004101",
+  "name": "RLTR1",
+  "description": "Long terminal repeat of a class 1 endogenous retrovirus from mouse.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR1"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 624 BP; 154 A; 169 C; 144 G; 153 T; 4 other;"
+  },
+  "sequence": "tgagagaaagatgaaattttaggacctacaantcatgtaaaatataccagaaagttgtttgtgagcctgagaggctgcctgaggctgagaacaaagaggaacaggcccaggcatgtcctagcaggccggtcgttaaggcattcctaagaacagcttgaccataaagataaaaaangagtgcaaggacagaacagggctatctcggctgagtcaacaccatctggcccggcacctccctctgcccgctgacctcctgactcagttcggagtcatatattaaccagatgttccgctgacctagataagcacccggccctcagacttcctgacgccccgatctacacgtacacttttactgatgtataactattctgttgaagtttaaattgtccaatcgtgtgaaaccgcgccaattccttccccagccccagacccttttctataaaaacccctagctttcgagcctcgnggccgacatccgctgtctcctgtgtgagatacgtgtcggcccggagctccgtcattaaactacctcgtgtgtttgcatcaagacggtctctcgtgattctttgggtgcgcgccgactcgggatntgagtgggggtttccccactaggttctttca",
+  "length_bp": 624,
+  "sequence_length_bp": 624,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR1_MM"
+  ]
+}

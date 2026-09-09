@@ -1,0 +1,51 @@
+{
+  "accession": "DF000000484",
+  "name": "LTR2B",
+  "description": "LTR2B (Long Terminal Repeat) for Harlequin endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR2B"
+  ],
+  "species": "Hominoidea",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Hominoidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 483 BP; 130 A; 123 C; 104 G; 126 T; 0 other;"
+  },
+  "sequence": "tgagggaagagagagaccctctcatattgttttatattgttttatactcagtacctgttttaagaaaaaaacaacaaggaagtaaaaccaaagacaggcagcccggcgccaggcccgaaaccaggcctgggcctgcctggcctaaacccagtagttaaaaatcaactcatgacttagaaaccgatgttattcatagattccagacattgtatagaagaacattgtgaaactccctgccctgttctgtttctctctgaccaccggtgcatgcagcccctgtcacgtaccccctgcttgctcaaatcaatcacgaccctttcatgtgaaatctttagtgttgtgagcccttaaaagggacagaaattgtgcactcggggagctcggattttaaggcagtagcttgccgatgctcccagctgaataaagcccttccttctacaactcggtgtctgagaggttttgtctgcggctcgtcctgctaca",
+  "length_bp": 483,
+  "sequence_length_bp": 483,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR2B"
+  ]
+}

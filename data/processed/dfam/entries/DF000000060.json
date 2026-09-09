@@ -1,0 +1,54 @@
+{
+  "accession": "DF000000060",
+  "name": "AluYd8",
+  "description": "AluYd8 subfamily",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Homo sapiens",
+  "display_classification": "SINE/Alu | Homo sapiens",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Hominoidea",
+    "Hominidae",
+    "Homininae",
+    "Homo"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 299 BP; 91 A; 77 C; 94 G; 37 T; 0 other;"
+  },
+  "sequence": "ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggccgaggcgggcggatcacgaggtcaggagatcgagaccacggtgaaaccccgtctctactaaaaatacaaaaaattagccgggcgcagtggcgggcgcctgtagtcccagctactcgggaggctgaggcaggagaatggcgtgaacccggaaggcggagcttgcagtgagcggagatcgcgccacagcactcccgcctgggcgacagaacgagactccgtctcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "length_bp": 299,
+  "sequence_length_bp": 299,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "AluYd8"
+  ]
+}

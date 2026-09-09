@@ -1,0 +1,3044 @@
+{
+  "case": {
+    "case_id": "P5A_B_029",
+    "question": "帮我找 search.php 里看表达数据的入口。",
+    "category": "boundary_site_navigation",
+    "expected_best_mode": "deep_think",
+    "dt_expectation": {
+      "should_answer": true,
+      "max_expected_depth": "site_navigation",
+      "required_plugins": [
+        "Site Navigator Plugin"
+      ],
+      "required_routes": [
+        "expression"
+      ],
+      "should_have_evidence_walk": false
+    },
+    "agent_expectation": {
+      "should_answer": true,
+      "should_suggest_dt": true,
+      "max_plugins": 1,
+      "forbidden_plugins": [
+        "Literature Plugin",
+        "Graph Analytics Plugin"
+      ],
+      "required_artifacts": []
+    },
+    "comparison_metrics": [
+      "navigation_route_accuracy",
+      "mode_boundary_accuracy",
+      "no_irrelevant_plugins",
+      "latency"
+    ]
+  },
+  "dt": {
+    "ok": true,
+    "http_status": 200,
+    "headers": {
+      "Date": "Tue, 26 May 2026 15:20:31 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Cache-Control": "no-cache, no-transform",
+      "X-Accel-Buffering": "no",
+      "Connection": "keep-alive, close",
+      "Content-Encoding": "none",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "text/event-stream; charset=utf-8"
+    },
+    "events": [
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-P5A_B_029",
+        "message": "Recognized entities: none yet.",
+        "payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": []
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": []
+        },
+        "display_text": "Recognized entities: none yet.",
+        "sequence": 1
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-P5A_B_029",
+        "message": "Question type: expression. Complexity: single_hop_reasoning.",
+        "payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": []
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "normalized_entities": []
+        },
+        "display_text": "Question type: expression. Complexity: single_hop_reasoning.",
+        "sequence": 2
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-P5A_B_029",
+        "plugin_name": "Entity Resolver",
+        "message": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "sequence": 3
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-P5A_B_029",
+        "plugin_name": "Entity Resolver",
+        "display_label": "Resolved 0 entities",
+        "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+        "message": "No stable entity aliases were available for reuse in this round.",
+        "detail_payload_id": "tool-1",
+        "payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "expression"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "expression"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "display_text": "No stable entity aliases were available for reuse in this round.",
+        "sequence": 4
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-P5A_B_029",
+        "plugin_name": "Site Navigator Plugin",
+        "message": "This question asks for a TE-KG page or panel route, so I will use the site navigator first.",
+        "node": "Deep Think",
+        "source": "Site Navigator Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "This question asks for a TE-KG page or panel route, so I will use the site navigator first.",
+        "sequence": 5
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-P5A_B_029",
+        "plugin_name": "Site Navigator Plugin",
+        "display_label": "Site Navigator Plugin",
+        "summary": "Matched the question to the Expression detail summary site route.",
+        "message": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+        "detail_payload_id": "tool-2",
+        "payload": {
+          "summary": "Matched the question to the Expression detail summary site route.",
+          "preview_items": [
+            {
+              "title": "Expression detail summary",
+              "body": "Expression detail overview for the selected TE.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+              "meta": "expression"
+            },
+            {
+              "title": "Normal tissue expression",
+              "body": "Normal tissue expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+              "meta": "expression"
+            },
+            {
+              "title": "Normal cell line expression",
+              "body": "Normal cell line expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+              "meta": "expression"
+            },
+            {
+              "title": "Cancer cell line expression",
+              "body": "Cancer cell line expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+              "meta": "expression"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Site Navigator Plugin",
+              "entity_scope": "",
+              "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "title": "Expression detail summary",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-summary",
+                "description": "Expression detail overview for the selected TE."
+              },
+              "title": "Expression detail summary",
+              "meta": "expression_summary",
+              "body": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "ok",
+              "result_counts": {
+                "routes": 4,
+                "primary_confidence_percent": 86
+              },
+              "required_evidence": [
+                "expression"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Site Navigator Plugin",
+              "status": "ok",
+              "query_summary": "",
+              "display_summary": "Matched the question to the Expression detail summary site route.",
+              "result_counts": {
+                "routes": 4,
+                "primary_confidence_percent": 86
+              },
+              "preview_items": [
+                {
+                  "title": "Expression detail summary",
+                  "body": "Expression detail overview for the selected TE.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Normal tissue expression",
+                  "body": "Normal tissue expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Normal cell line expression",
+                  "body": "Normal cell line expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Cancer cell line expression",
+                  "body": "Cancer cell line expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                  "meta": "expression"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                  "title": "Expression detail summary",
+                  "meta": "expression_summary",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "primary_route": {
+                  "title": "Expression detail summary",
+                  "capability": "expression",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "path": "expression_detail.php",
+                  "fragment": "expression-detail-summary",
+                  "description": "Expression detail overview for the selected TE."
+                },
+                "candidate_routes": [
+                  {
+                    "title": "Expression detail summary",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-summary",
+                    "description": "Expression detail overview for the selected TE."
+                  },
+                  {
+                    "title": "Normal tissue expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-normal-tissue",
+                    "description": "Normal tissue expression panel."
+                  },
+                  {
+                    "title": "Normal cell line expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-normal-cell-line",
+                    "description": "Normal cell line expression panel."
+                  },
+                  {
+                    "title": "Cancer cell line expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-cancer-cell-line",
+                    "description": "Cancer cell line expression panel."
+                  }
+                ],
+                "answer_markdown": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+                "confidence": 0.86,
+                "matched_entity": "",
+                "matched_capability": "expression_summary"
+              }
+            }
+          },
+          "raw_result": {
+            "primary_route": {
+              "title": "Expression detail summary",
+              "capability": "expression",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+              "path": "expression_detail.php",
+              "fragment": "expression-detail-summary",
+              "description": "Expression detail overview for the selected TE."
+            },
+            "candidate_routes": [
+              {
+                "title": "Expression detail summary",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-summary",
+                "description": "Expression detail overview for the selected TE."
+              },
+              {
+                "title": "Normal tissue expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-normal-tissue",
+                "description": "Normal tissue expression panel."
+              },
+              {
+                "title": "Normal cell line expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-normal-cell-line",
+                "description": "Normal cell line expression panel."
+              },
+              {
+                "title": "Cancer cell line expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-cancer-cell-line",
+                "description": "Cancer cell line expression panel."
+              }
+            ],
+            "answer_markdown": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+            "confidence": 0.86,
+            "matched_entity": "",
+            "matched_capability": "expression_summary"
+          },
+          "raw_preview": null,
+          "errors": [],
+          "result_counts": {
+            "routes": 4,
+            "primary_confidence_percent": 86
+          },
+          "display_details": {
+            "result_message": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+            "preview_items": [
+              {
+                "title": "Expression detail summary",
+                "body": "Expression detail overview for the selected TE.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "meta": "expression"
+              },
+              {
+                "title": "Normal tissue expression",
+                "body": "Normal tissue expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                "meta": "expression"
+              },
+              {
+                "title": "Normal cell line expression",
+                "body": "Normal cell line expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                "meta": "expression"
+              },
+              {
+                "title": "Cancer cell line expression",
+                "body": "Cancer cell line expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                "meta": "expression"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Site Navigator Plugin",
+                "entity_scope": "",
+                "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "title": "Expression detail summary",
+                  "capability": "expression",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "path": "expression_detail.php",
+                  "fragment": "expression-detail-summary",
+                  "description": "Expression detail overview for the selected TE."
+                },
+                "title": "Expression detail summary",
+                "meta": "expression_summary",
+                "body": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+              }
+            ]
+          }
+        },
+        "node": "Deep Think",
+        "source": "Site Navigator Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "Matched the question to the Expression detail summary site route.",
+          "preview_items": [
+            {
+              "title": "Expression detail summary",
+              "body": "Expression detail overview for the selected TE.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+              "meta": "expression"
+            },
+            {
+              "title": "Normal tissue expression",
+              "body": "Normal tissue expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+              "meta": "expression"
+            },
+            {
+              "title": "Normal cell line expression",
+              "body": "Normal cell line expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+              "meta": "expression"
+            },
+            {
+              "title": "Cancer cell line expression",
+              "body": "Cancer cell line expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+              "meta": "expression"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Site Navigator Plugin",
+              "entity_scope": "",
+              "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "title": "Expression detail summary",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-summary",
+                "description": "Expression detail overview for the selected TE."
+              },
+              "title": "Expression detail summary",
+              "meta": "expression_summary",
+              "body": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "ok",
+              "result_counts": {
+                "routes": 4,
+                "primary_confidence_percent": 86
+              },
+              "required_evidence": [
+                "expression"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Site Navigator Plugin",
+              "status": "ok",
+              "query_summary": "",
+              "display_summary": "Matched the question to the Expression detail summary site route.",
+              "result_counts": {
+                "routes": 4,
+                "primary_confidence_percent": 86
+              },
+              "preview_items": [
+                {
+                  "title": "Expression detail summary",
+                  "body": "Expression detail overview for the selected TE.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Normal tissue expression",
+                  "body": "Normal tissue expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Normal cell line expression",
+                  "body": "Normal cell line expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Cancer cell line expression",
+                  "body": "Cancer cell line expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                  "meta": "expression"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                  "title": "Expression detail summary",
+                  "meta": "expression_summary",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "primary_route": {
+                  "title": "Expression detail summary",
+                  "capability": "expression",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "path": "expression_detail.php",
+                  "fragment": "expression-detail-summary",
+                  "description": "Expression detail overview for the selected TE."
+                },
+                "candidate_routes": [
+                  {
+                    "title": "Expression detail summary",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-summary",
+                    "description": "Expression detail overview for the selected TE."
+                  },
+                  {
+                    "title": "Normal tissue expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-normal-tissue",
+                    "description": "Normal tissue expression panel."
+                  },
+                  {
+                    "title": "Normal cell line expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-normal-cell-line",
+                    "description": "Normal cell line expression panel."
+                  },
+                  {
+                    "title": "Cancer cell line expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-cancer-cell-line",
+                    "description": "Cancer cell line expression panel."
+                  }
+                ],
+                "answer_markdown": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+                "confidence": 0.86,
+                "matched_entity": "",
+                "matched_capability": "expression_summary"
+              }
+            }
+          },
+          "raw_result": {
+            "primary_route": {
+              "title": "Expression detail summary",
+              "capability": "expression",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+              "path": "expression_detail.php",
+              "fragment": "expression-detail-summary",
+              "description": "Expression detail overview for the selected TE."
+            },
+            "candidate_routes": [
+              {
+                "title": "Expression detail summary",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-summary",
+                "description": "Expression detail overview for the selected TE."
+              },
+              {
+                "title": "Normal tissue expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-normal-tissue",
+                "description": "Normal tissue expression panel."
+              },
+              {
+                "title": "Normal cell line expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-normal-cell-line",
+                "description": "Normal cell line expression panel."
+              },
+              {
+                "title": "Cancer cell line expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-cancer-cell-line",
+                "description": "Cancer cell line expression panel."
+              }
+            ],
+            "answer_markdown": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+            "confidence": 0.86,
+            "matched_entity": "",
+            "matched_capability": "expression_summary"
+          },
+          "raw_preview": null,
+          "errors": [],
+          "result_counts": {
+            "routes": 4,
+            "primary_confidence_percent": 86
+          },
+          "display_details": {
+            "result_message": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+            "preview_items": [
+              {
+                "title": "Expression detail summary",
+                "body": "Expression detail overview for the selected TE.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "meta": "expression"
+              },
+              {
+                "title": "Normal tissue expression",
+                "body": "Normal tissue expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                "meta": "expression"
+              },
+              {
+                "title": "Normal cell line expression",
+                "body": "Normal cell line expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                "meta": "expression"
+              },
+              {
+                "title": "Cancer cell line expression",
+                "body": "Cancer cell line expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                "meta": "expression"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Site Navigator Plugin",
+                "entity_scope": "",
+                "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "title": "Expression detail summary",
+                  "capability": "expression",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "path": "expression_detail.php",
+                  "fragment": "expression-detail-summary",
+                  "description": "Expression detail overview for the selected TE."
+                },
+                "title": "Expression detail summary",
+                "meta": "expression_summary",
+                "body": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+              }
+            ]
+          }
+        },
+        "display_text": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+        "sequence": 6
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-dt-P5A_B_029",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results"
+        ],
+        "outputs_changed": [
+          "plugin_queue"
+        ],
+        "message": "I collected another evidence layer and will decide whether another plugin is still needed.",
+        "payload": {
+          "type": "reflection",
+          "plugin_name": "Site Navigator Plugin",
+          "result": {
+            "status": "ok",
+            "display_summary": "Matched the question to the Expression detail summary site route.",
+            "result_counts": {
+              "routes": 4,
+              "primary_confidence_percent": 86
+            }
+          },
+          "remaining_candidates": [
+            "Expression Plugin"
+          ]
+        },
+        "message_payload": {
+          "type": "reflection",
+          "plugin_name": "Site Navigator Plugin",
+          "result": {
+            "status": "ok",
+            "display_summary": "Matched the question to the Expression detail summary site route.",
+            "result_counts": {
+              "routes": 4,
+              "primary_confidence_percent": 86
+            }
+          },
+          "remaining_candidates": [
+            "Expression Plugin"
+          ]
+        },
+        "display_text": "I collected another evidence layer and will decide whether another plugin is still needed.",
+        "sequence": 7
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-dt-P5A_B_029",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results"
+        ],
+        "outputs_changed": [
+          "plugin_queue"
+        ],
+        "message": "The currently collected evidence is enough to move into synthesis.",
+        "payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The site navigation layer already returned a direct TE-KG page route."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "compressed_result": {
+                "key_findings": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "coverage": {
+                  "question_type": "expression",
+                  "status": "empty",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "required_evidence": [
+                    "expression"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "candidate_claims": [],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "empty",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "preview_items": [],
+                  "evidence_preview": [],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": []
+                  }
+                }
+              }
+            },
+            "Site Navigator Plugin": {
+              "plugin_name": "Site Navigator Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+                ],
+                "coverage": {
+                  "question_type": "expression",
+                  "status": "ok",
+                  "result_counts": {
+                    "routes": 4,
+                    "primary_confidence_percent": 86
+                  },
+                  "required_evidence": [
+                    "expression"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Site Navigator Plugin",
+                  "status": "ok",
+                  "query_summary": "",
+                  "display_summary": "Matched the question to the Expression detail summary site route.",
+                  "result_counts": {
+                    "routes": 4,
+                    "primary_confidence_percent": 86
+                  },
+                  "preview_items": [
+                    {
+                      "title": "Expression detail summary",
+                      "body": "Expression detail overview for the selected TE.",
+                      "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                      "meta": "expression"
+                    },
+                    {
+                      "title": "Normal tissue expression",
+                      "body": "Normal tissue expression panel.",
+                      "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                      "meta": "expression"
+                    },
+                    {
+                      "title": "Normal cell line expression",
+                      "body": "Normal cell line expression panel.",
+                      "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                      "meta": "expression"
+                    },
+                    {
+                      "title": "Cancer cell line expression",
+                      "body": "Cancer cell line expression panel.",
+                      "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                      "meta": "expression"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                      "title": "Expression detail summary",
+                      "meta": "expression_summary",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "primary_route": {
+                      "title": "Expression detail summary",
+                      "capability": "expression",
+                      "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                      "path": "expression_detail.php",
+                      "fragment": "expression-detail-summary",
+                      "description": "Expression detail overview for the selected TE."
+                    },
+                    "candidate_routes": [
+                      {
+                        "title": "Expression detail summary",
+                        "capability": "expression",
+                        "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                        "path": "expression_detail.php",
+                        "fragment": "expression-detail-summary",
+                        "description": "Expression detail overview for the selected TE."
+                      },
+                      {
+                        "title": "Normal tissue expression",
+                        "capability": "expression",
+                        "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                        "path": "expression_detail.php",
+                        "fragment": "expression-detail-normal-tissue",
+                        "description": "Normal tissue expression panel."
+                      },
+                      {
+                        "title": "Normal cell line expression",
+                        "capability": "expression",
+                        "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                        "path": "expression_detail.php",
+                        "fragment": "expression-detail-normal-cell-line",
+                        "description": "Normal cell line expression panel."
+                      },
+                      {
+                        "title": "Cancer cell line expression",
+                        "capability": "expression",
+                        "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                        "path": "expression_detail.php",
+                        "fragment": "expression-detail-cancer-cell-line",
+                        "description": "Cancer cell line expression panel."
+                      }
+                    ],
+                    "answer_markdown": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+                    "confidence": 0.86,
+                    "matched_entity": "",
+                    "matched_capability": "expression_summary"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "message_payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "The site navigation layer already returned a direct TE-KG page route."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "compressed_result": {
+                "key_findings": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "coverage": {
+                  "question_type": "expression",
+                  "status": "empty",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "required_evidence": [
+                    "expression"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "candidate_claims": [],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "empty",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "preview_items": [],
+                  "evidence_preview": [],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": []
+                  }
+                }
+              }
+            },
+            "Site Navigator Plugin": {
+              "plugin_name": "Site Navigator Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+                ],
+                "coverage": {
+                  "question_type": "expression",
+                  "status": "ok",
+                  "result_counts": {
+                    "routes": 4,
+                    "primary_confidence_percent": 86
+                  },
+                  "required_evidence": [
+                    "expression"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Site Navigator Plugin",
+                  "status": "ok",
+                  "query_summary": "",
+                  "display_summary": "Matched the question to the Expression detail summary site route.",
+                  "result_counts": {
+                    "routes": 4,
+                    "primary_confidence_percent": 86
+                  },
+                  "preview_items": [
+                    {
+                      "title": "Expression detail summary",
+                      "body": "Expression detail overview for the selected TE.",
+                      "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                      "meta": "expression"
+                    },
+                    {
+                      "title": "Normal tissue expression",
+                      "body": "Normal tissue expression panel.",
+                      "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                      "meta": "expression"
+                    },
+                    {
+                      "title": "Normal cell line expression",
+                      "body": "Normal cell line expression panel.",
+                      "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                      "meta": "expression"
+                    },
+                    {
+                      "title": "Cancer cell line expression",
+                      "body": "Cancer cell line expression panel.",
+                      "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                      "meta": "expression"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                      "title": "Expression detail summary",
+                      "meta": "expression_summary",
+                      "support_strength": "high"
+                    }
+                  ],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "primary_route": {
+                      "title": "Expression detail summary",
+                      "capability": "expression",
+                      "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                      "path": "expression_detail.php",
+                      "fragment": "expression-detail-summary",
+                      "description": "Expression detail overview for the selected TE."
+                    },
+                    "candidate_routes": [
+                      {
+                        "title": "Expression detail summary",
+                        "capability": "expression",
+                        "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                        "path": "expression_detail.php",
+                        "fragment": "expression-detail-summary",
+                        "description": "Expression detail overview for the selected TE."
+                      },
+                      {
+                        "title": "Normal tissue expression",
+                        "capability": "expression",
+                        "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                        "path": "expression_detail.php",
+                        "fragment": "expression-detail-normal-tissue",
+                        "description": "Normal tissue expression panel."
+                      },
+                      {
+                        "title": "Normal cell line expression",
+                        "capability": "expression",
+                        "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                        "path": "expression_detail.php",
+                        "fragment": "expression-detail-normal-cell-line",
+                        "description": "Normal cell line expression panel."
+                      },
+                      {
+                        "title": "Cancer cell line expression",
+                        "capability": "expression",
+                        "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                        "path": "expression_detail.php",
+                        "fragment": "expression-detail-cancer-cell-line",
+                        "description": "Cancer cell line expression panel."
+                      }
+                    ],
+                    "answer_markdown": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+                    "confidence": 0.86,
+                    "matched_entity": "",
+                    "matched_capability": "expression_summary"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "display_text": "The currently collected evidence is enough to move into synthesis.",
+        "sequence": 8
+      },
+      {
+        "type": "synthesizing",
+        "session_id": "eval-dt-P5A_B_029",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results",
+          "evidence_bundle",
+          "citation_bundle"
+        ],
+        "outputs_changed": [
+          "supported_claims",
+          "answer"
+        ],
+        "message": "I am now synthesizing the plugin results into a final answer.",
+        "payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                "summary": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "message_payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                "summary": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "display_text": "I am now synthesizing the plugin results into a final answer.",
+        "sequence": 9
+      },
+      {
+        "type": "answer",
+        "request_id": "req_c7e53fdb40bb2da5",
+        "session_id": "eval-dt-P5A_B_029",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "message": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.\n\n简要总结：\n根据 TE-KG 站点导航，表达数据的查看入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary) 页面。当前证据中未包含 `search.php` 内指向该入口的路径，因此该入口是否存在于 `search.php` 中尚无法确认（证据等级低）。建议直接使用上述链接以访问表达数据摘要。",
+        "language": "chinese",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.\n\n简要总结：\n根据 TE-KG 站点导航，表达数据的查看入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary) 页面。当前证据中未包含 `search.php` 内指向该入口的路径，因此该入口是否存在于 `search.php` 中尚无法确认（证据等级低）。建议直接使用上述链接以访问表达数据摘要。",
+        "sequence": 10
+      },
+      {
+        "type": "done",
+        "request_id": "req_c7e53fdb40bb2da5",
+        "session_id": "eval-dt-P5A_B_029",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "payload": {
+          "answer": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.\n\n简要总结：\n根据 TE-KG 站点导航，表达数据的查看入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary) 页面。当前证据中未包含 `search.php` 内指向该入口的路径，因此该入口是否存在于 `search.php` 中尚无法确认（证据等级低）。建议直接使用上述链接以访问表达数据摘要。",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "answer": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.\n\n简要总结：\n根据 TE-KG 站点导航，表达数据的查看入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary) 页面。当前证据中未包含 `search.php` 内指向该入口的路径，因此该入口是否存在于 `search.php` 中尚无法确认（证据等级低）。建议直接使用上述链接以访问表达数据摘要。",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "display_text": "",
+        "sequence": 11
+      }
+    ],
+    "answer": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.\n\n简要总结：\n根据 TE-KG 站点导航，表达数据的查看入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary) 页面。当前证据中未包含 `search.php` 内指向该入口的路径，因此该入口是否存在于 `search.php` 中尚无法确认（证据等级低）。建议直接使用上述链接以访问表达数据摘要。",
+    "done_payload": {
+      "answer": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.\n\n简要总结：\n根据 TE-KG 站点导航，表达数据的查看入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary) 页面。当前证据中未包含 `search.php` 内指向该入口的路径，因此该入口是否存在于 `search.php` 中尚无法确认（证据等级低）。建议直接使用上述链接以访问表达数据摘要。",
+      "language": "chinese",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": ""
+    },
+    "used_plugins": [
+      "Entity Resolver",
+      "Site Navigator Plugin"
+    ],
+    "citations": [],
+    "timings": {
+      "total_ms": 7041
+    },
+    "errors": []
+  },
+  "agent": {
+    "ok": true,
+    "http_status": 202,
+    "headers": {
+      "Date": "Tue, 26 May 2026 15:20:37 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Content-Length": "165",
+      "Connection": "close",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "create": {
+      "ok": true,
+      "run_id": "run_221086c7e12f56d4",
+      "request_id": "req_9ec0e228bb4af141",
+      "session_id": "eval-agent-P5A_B_029",
+      "status": "pending"
+    },
+    "run_id": "run_221086c7e12f56d4",
+    "run": {
+      "run_id": "run_221086c7e12f56d4",
+      "request_id": "req_9ec0e228bb4af141",
+      "session_id": "eval-agent-P5A_B_029",
+      "question": "帮我找 search.php 里看表达数据的入口。",
+      "mode": "academic",
+      "status": "completed",
+      "created_at": "2026-05-26T15:20:37+00:00",
+      "updated_at": "2026-05-26T15:20:38+00:00",
+      "started_at": "2026-05-26T15:20:38+00:00",
+      "finished_at": "2026-05-26T15:20:38+00:00",
+      "current_stage": "Compact Preflight",
+      "workflow_state": {
+        "current_stage": "Compact Preflight",
+        "stage_statuses": {
+          "Understanding": "done",
+          "Planning": "done",
+          "Collecting": "done",
+          "Executing": "active",
+          "Integrating": "pending",
+          "Writing": "skipped"
+        },
+        "traversed_edges": [
+          "Understanding->Planning",
+          "Planning->Collecting",
+          "Collecting->Executing",
+          "Executing->Collecting"
+        ],
+        "complete": true
+      },
+      "events_count": 22,
+      "last_sequence": 22,
+      "answer": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n已有轻量证据：TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n路由原因：Direct lookup covered by Deep Think.",
+      "language": "chinese",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": "",
+      "error": "",
+      "used_plugins": [
+        "Entity Resolver",
+        "Site Navigator Plugin"
+      ]
+    },
+    "events": [
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_029",
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "message": "Understanding",
+        "payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "display_text": "Understanding",
+        "sequence": 1
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-agent-P5A_B_029",
+        "message": "Recognized entities: none yet.",
+        "payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "display_text": "Recognized entities: none yet.",
+        "sequence": 2
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-agent-P5A_B_029",
+        "message": "Question type: expression. Complexity: single_hop_reasoning.",
+        "payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "display_text": "Question type: expression. Complexity: single_hop_reasoning.",
+        "sequence": 3
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-agent-P5A_B_029",
+        "message": "This is a quick lookup; Deep Think is usually faster. If you continue with Agent, I will collect evidence through the research workflow.",
+        "payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "expression",
+          "complexity": "single_hop_reasoning",
+          "task_complexity": "simple_lookup",
+          "recommended_mode": "deepthink",
+          "task_complexity_reason": "Direct lookup covered by Deep Think.",
+          "normalized_entities": []
+        },
+        "display_text": "This is a quick lookup; Deep Think is usually faster. If you continue with Agent, I will collect evidence through the research workflow.",
+        "sequence": 4
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_029",
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "message": "Planning",
+        "payload": {
+          "current_stage": "Planning",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "active",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Planning",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "active",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning"
+          ],
+          "complete": false
+        },
+        "display_text": "Planning",
+        "sequence": 5
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_029",
+        "message": "Current knowledge gap: entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted..",
+        "payload": {
+          "gap_type": "entity normalization",
+          "why_needed": "The system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+          "priority": 100,
+          "candidate_tools": [
+            "Entity Resolver"
+          ]
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "gap_type": "entity normalization",
+          "why_needed": "The system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+          "priority": 100,
+          "candidate_tools": [
+            "Entity Resolver"
+          ]
+        },
+        "display_text": "Current knowledge gap: entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted..",
+        "sequence": 6
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_029",
+        "message": "Current knowledge gap: site navigation because the user is asking where a te-kg page, panel, route, or dataset entry can be opened..",
+        "payload": {
+          "gap_type": "site navigation",
+          "why_needed": "The user is asking where a TE-KG page, panel, route, or dataset entry can be opened.",
+          "priority": 94,
+          "candidate_tools": [
+            "Site Navigator Plugin"
+          ]
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "gap_type": "site navigation",
+          "why_needed": "The user is asking where a TE-KG page, panel, route, or dataset entry can be opened.",
+          "priority": 94,
+          "candidate_tools": [
+            "Site Navigator Plugin"
+          ]
+        },
+        "display_text": "Current knowledge gap: site navigation because the user is asking where a te-kg page, panel, route, or dataset entry can be opened..",
+        "sequence": 7
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_029",
+        "message": "Resolve the canonical identity and alias boundaries for the recognized entities.",
+        "payload": {
+          "subtask": "Resolve the canonical identity and alias boundaries for the recognized entities."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Resolve the canonical identity and alias boundaries for the recognized entities."
+        },
+        "display_text": "Resolve the canonical identity and alias boundaries for the recognized entities.",
+        "sequence": 8
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_029",
+        "message": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+        "payload": {
+          "subtask": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted."
+        },
+        "display_text": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+        "sequence": 9
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_029",
+        "message": "Collect evidence for site navigation because the user is asking where a te-kg page, panel, route, or dataset entry can be opened.",
+        "payload": {
+          "subtask": "Collect evidence for site navigation because the user is asking where a te-kg page, panel, route, or dataset entry can be opened."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Collect evidence for site navigation because the user is asking where a te-kg page, panel, route, or dataset entry can be opened."
+        },
+        "display_text": "Collect evidence for site navigation because the user is asking where a te-kg page, panel, route, or dataset entry can be opened.",
+        "sequence": 10
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_029",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "message": "Collecting",
+        "payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Collecting",
+        "sequence": 11
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_029",
+        "node": "Expert Execution Layer",
+        "source": "Expert Execution Layer",
+        "message": "Executing",
+        "payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing"
+          ],
+          "complete": false
+        },
+        "display_text": "Executing",
+        "sequence": 12
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-agent-P5A_B_029",
+        "plugin_name": "Entity Resolver",
+        "message": "I will stabilize entity names first so later evidence lookup does not drift across aliases.",
+        "node": "Evidence Collection Node",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will stabilize entity names first so later evidence lookup does not drift across aliases.",
+        "sequence": 13
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-agent-P5A_B_029",
+        "plugin_name": "Entity Resolver",
+        "display_label": "Resolved 0 entities",
+        "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+        "message": "No stable entity aliases were available for reuse in this round.",
+        "detail_payload_id": "tool-1",
+        "payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "entity normalization",
+                "site navigation",
+                "literature synthesis",
+                "expression context"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "node": "Evidence Collection Node",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "entity normalization",
+                "site navigation",
+                "literature synthesis",
+                "expression context"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "display_text": "No stable entity aliases were available for reuse in this round.",
+        "sequence": 14
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-agent-P5A_B_029",
+        "plugin_name": "Entity Resolver",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "inputs_used": [
+          "collection_state",
+          "compressed_result",
+          "routing_policy"
+        ],
+        "outputs_changed": [
+          "sufficiency_decision",
+          "remaining_candidates",
+          "closed_gaps"
+        ],
+        "message": "This tool did not produce a strong result. Next queued tools: Site Navigator Plugin, Expression Plugin. Sufficiency: The minimum evidence gate is still missing required dimensions.",
+        "payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver"
+            ],
+            "remaining_candidates": [
+              "Site Navigator Plugin",
+              "Expression Plugin"
+            ],
+            "closed_gaps": [],
+            "active_gaps": [
+              "entity normalization",
+              "site navigation",
+              "literature synthesis",
+              "expression context"
+            ],
+            "evidence_count": 0,
+            "citation_count": 0,
+            "question_type": "expression",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Expression Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Expression Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Expression Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "expression",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Expression Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": false,
+              "reason": "The minimum evidence gate is still missing required dimensions.",
+              "missing_dimensions": [
+                "none of the preferred experts produced a usable result"
+              ],
+              "recommended_next_experts": [
+                "Expression Plugin"
+              ]
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": false,
+            "reason": "The minimum evidence gate is still missing required dimensions.",
+            "missing_dimensions": [
+              "none of the preferred experts produced a usable result"
+            ],
+            "recommended_next_experts": [
+              "Expression Plugin"
+            ]
+          }
+        },
+        "message_payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver"
+            ],
+            "remaining_candidates": [
+              "Site Navigator Plugin",
+              "Expression Plugin"
+            ],
+            "closed_gaps": [],
+            "active_gaps": [
+              "entity normalization",
+              "site navigation",
+              "literature synthesis",
+              "expression context"
+            ],
+            "evidence_count": 0,
+            "citation_count": 0,
+            "question_type": "expression",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Expression Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Expression Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Expression Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "expression",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Expression Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": false,
+              "reason": "The minimum evidence gate is still missing required dimensions.",
+              "missing_dimensions": [
+                "none of the preferred experts produced a usable result"
+              ],
+              "recommended_next_experts": [
+                "Expression Plugin"
+              ]
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": false,
+            "reason": "The minimum evidence gate is still missing required dimensions.",
+            "missing_dimensions": [
+              "none of the preferred experts produced a usable result"
+            ],
+            "recommended_next_experts": [
+              "Expression Plugin"
+            ]
+          }
+        },
+        "display_text": "This tool did not produce a strong result. Next queued tools: Site Navigator Plugin, Expression Plugin. Sufficiency: The minimum evidence gate is still missing required dimensions.",
+        "sequence": 15
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_029",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "message": "Collecting",
+        "payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Collecting",
+        "sequence": 16
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_029",
+        "node": "Expert Execution Layer",
+        "source": "Expert Execution Layer",
+        "message": "Executing",
+        "payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Executing",
+        "sequence": 17
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-agent-P5A_B_029",
+        "plugin_name": "Site Navigator Plugin",
+        "message": "I will use the site navigator now because the user needs a clickable TE-KG route or panel location.",
+        "node": "Evidence Collection Node",
+        "source": "Site Navigator Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will use the site navigator now because the user needs a clickable TE-KG route or panel location.",
+        "sequence": 18
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-agent-P5A_B_029",
+        "plugin_name": "Site Navigator Plugin",
+        "display_label": "Site Navigator Plugin",
+        "summary": "Matched the question to the Expression detail summary site route.",
+        "message": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+        "detail_payload_id": "tool-2",
+        "payload": {
+          "summary": "Matched the question to the Expression detail summary site route.",
+          "preview_items": [
+            {
+              "title": "Expression detail summary",
+              "body": "Expression detail overview for the selected TE.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+              "meta": "expression"
+            },
+            {
+              "title": "Normal tissue expression",
+              "body": "Normal tissue expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+              "meta": "expression"
+            },
+            {
+              "title": "Normal cell line expression",
+              "body": "Normal cell line expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+              "meta": "expression"
+            },
+            {
+              "title": "Cancer cell line expression",
+              "body": "Cancer cell line expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+              "meta": "expression"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Site Navigator Plugin",
+              "entity_scope": "",
+              "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "title": "Expression detail summary",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-summary",
+                "description": "Expression detail overview for the selected TE."
+              },
+              "title": "Expression detail summary",
+              "meta": "expression_summary",
+              "body": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "ok",
+              "result_counts": {
+                "routes": 4,
+                "primary_confidence_percent": 86
+              },
+              "required_evidence": [
+                "entity normalization",
+                "site navigation",
+                "literature synthesis",
+                "expression context"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Site Navigator Plugin",
+              "status": "ok",
+              "query_summary": "",
+              "display_summary": "Matched the question to the Expression detail summary site route.",
+              "result_counts": {
+                "routes": 4,
+                "primary_confidence_percent": 86
+              },
+              "preview_items": [
+                {
+                  "title": "Expression detail summary",
+                  "body": "Expression detail overview for the selected TE.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Normal tissue expression",
+                  "body": "Normal tissue expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Normal cell line expression",
+                  "body": "Normal cell line expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Cancer cell line expression",
+                  "body": "Cancer cell line expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                  "meta": "expression"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                  "title": "Expression detail summary",
+                  "meta": "expression_summary",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "primary_route": {
+                  "title": "Expression detail summary",
+                  "capability": "expression",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "path": "expression_detail.php",
+                  "fragment": "expression-detail-summary",
+                  "description": "Expression detail overview for the selected TE."
+                },
+                "candidate_routes": [
+                  {
+                    "title": "Expression detail summary",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-summary",
+                    "description": "Expression detail overview for the selected TE."
+                  },
+                  {
+                    "title": "Normal tissue expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-normal-tissue",
+                    "description": "Normal tissue expression panel."
+                  },
+                  {
+                    "title": "Normal cell line expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-normal-cell-line",
+                    "description": "Normal cell line expression panel."
+                  },
+                  {
+                    "title": "Cancer cell line expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-cancer-cell-line",
+                    "description": "Cancer cell line expression panel."
+                  }
+                ],
+                "answer_markdown": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+                "confidence": 0.86,
+                "matched_entity": "",
+                "matched_capability": "expression_summary"
+              }
+            }
+          },
+          "raw_result": {
+            "primary_route": {
+              "title": "Expression detail summary",
+              "capability": "expression",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+              "path": "expression_detail.php",
+              "fragment": "expression-detail-summary",
+              "description": "Expression detail overview for the selected TE."
+            },
+            "candidate_routes": [
+              {
+                "title": "Expression detail summary",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-summary",
+                "description": "Expression detail overview for the selected TE."
+              },
+              {
+                "title": "Normal tissue expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-normal-tissue",
+                "description": "Normal tissue expression panel."
+              },
+              {
+                "title": "Normal cell line expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-normal-cell-line",
+                "description": "Normal cell line expression panel."
+              },
+              {
+                "title": "Cancer cell line expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-cancer-cell-line",
+                "description": "Cancer cell line expression panel."
+              }
+            ],
+            "answer_markdown": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+            "confidence": 0.86,
+            "matched_entity": "",
+            "matched_capability": "expression_summary"
+          },
+          "raw_preview": null,
+          "errors": [],
+          "result_counts": {
+            "routes": 4,
+            "primary_confidence_percent": 86
+          },
+          "display_details": {
+            "result_message": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+            "preview_items": [
+              {
+                "title": "Expression detail summary",
+                "body": "Expression detail overview for the selected TE.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "meta": "expression"
+              },
+              {
+                "title": "Normal tissue expression",
+                "body": "Normal tissue expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                "meta": "expression"
+              },
+              {
+                "title": "Normal cell line expression",
+                "body": "Normal cell line expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                "meta": "expression"
+              },
+              {
+                "title": "Cancer cell line expression",
+                "body": "Cancer cell line expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                "meta": "expression"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Site Navigator Plugin",
+                "entity_scope": "",
+                "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "title": "Expression detail summary",
+                  "capability": "expression",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "path": "expression_detail.php",
+                  "fragment": "expression-detail-summary",
+                  "description": "Expression detail overview for the selected TE."
+                },
+                "title": "Expression detail summary",
+                "meta": "expression_summary",
+                "body": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+              }
+            ]
+          }
+        },
+        "node": "Evidence Collection Node",
+        "source": "Site Navigator Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "Matched the question to the Expression detail summary site route.",
+          "preview_items": [
+            {
+              "title": "Expression detail summary",
+              "body": "Expression detail overview for the selected TE.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+              "meta": "expression"
+            },
+            {
+              "title": "Normal tissue expression",
+              "body": "Normal tissue expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+              "meta": "expression"
+            },
+            {
+              "title": "Normal cell line expression",
+              "body": "Normal cell line expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+              "meta": "expression"
+            },
+            {
+              "title": "Cancer cell line expression",
+              "body": "Cancer cell line expression panel.",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+              "meta": "expression"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Site Navigator Plugin",
+              "entity_scope": "",
+              "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+              "support_strength": "high",
+              "raw_source_ref": {
+                "title": "Expression detail summary",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-summary",
+                "description": "Expression detail overview for the selected TE."
+              },
+              "title": "Expression detail summary",
+              "meta": "expression_summary",
+              "body": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            ],
+            "coverage": {
+              "question_type": "expression",
+              "status": "ok",
+              "result_counts": {
+                "routes": 4,
+                "primary_confidence_percent": 86
+              },
+              "required_evidence": [
+                "entity normalization",
+                "site navigation",
+                "literature synthesis",
+                "expression context"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Site Navigator Plugin",
+              "status": "ok",
+              "query_summary": "",
+              "display_summary": "Matched the question to the Expression detail summary site route.",
+              "result_counts": {
+                "routes": 4,
+                "primary_confidence_percent": 86
+              },
+              "preview_items": [
+                {
+                  "title": "Expression detail summary",
+                  "body": "Expression detail overview for the selected TE.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Normal tissue expression",
+                  "body": "Normal tissue expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Normal cell line expression",
+                  "body": "Normal cell line expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                  "meta": "expression"
+                },
+                {
+                  "title": "Cancer cell line expression",
+                  "body": "Cancer cell line expression panel.",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                  "meta": "expression"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                  "title": "Expression detail summary",
+                  "meta": "expression_summary",
+                  "support_strength": "high"
+                }
+              ],
+              "citations": [],
+              "raw_result_excerpt": {
+                "primary_route": {
+                  "title": "Expression detail summary",
+                  "capability": "expression",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "path": "expression_detail.php",
+                  "fragment": "expression-detail-summary",
+                  "description": "Expression detail overview for the selected TE."
+                },
+                "candidate_routes": [
+                  {
+                    "title": "Expression detail summary",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-summary",
+                    "description": "Expression detail overview for the selected TE."
+                  },
+                  {
+                    "title": "Normal tissue expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-normal-tissue",
+                    "description": "Normal tissue expression panel."
+                  },
+                  {
+                    "title": "Normal cell line expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-normal-cell-line",
+                    "description": "Normal cell line expression panel."
+                  },
+                  {
+                    "title": "Cancer cell line expression",
+                    "capability": "expression",
+                    "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                    "path": "expression_detail.php",
+                    "fragment": "expression-detail-cancer-cell-line",
+                    "description": "Cancer cell line expression panel."
+                  }
+                ],
+                "answer_markdown": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+                "confidence": 0.86,
+                "matched_entity": "",
+                "matched_capability": "expression_summary"
+              }
+            }
+          },
+          "raw_result": {
+            "primary_route": {
+              "title": "Expression detail summary",
+              "capability": "expression",
+              "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+              "path": "expression_detail.php",
+              "fragment": "expression-detail-summary",
+              "description": "Expression detail overview for the selected TE."
+            },
+            "candidate_routes": [
+              {
+                "title": "Expression detail summary",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-summary",
+                "description": "Expression detail overview for the selected TE."
+              },
+              {
+                "title": "Normal tissue expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-normal-tissue",
+                "description": "Normal tissue expression panel."
+              },
+              {
+                "title": "Normal cell line expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-normal-cell-line",
+                "description": "Normal cell line expression panel."
+              },
+              {
+                "title": "Cancer cell line expression",
+                "capability": "expression",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                "path": "expression_detail.php",
+                "fragment": "expression-detail-cancer-cell-line",
+                "description": "Cancer cell line expression panel."
+              }
+            ],
+            "answer_markdown": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+            "confidence": 0.86,
+            "matched_entity": "",
+            "matched_capability": "expression_summary"
+          },
+          "raw_preview": null,
+          "errors": [],
+          "result_counts": {
+            "routes": 4,
+            "primary_confidence_percent": 86
+          },
+          "display_details": {
+            "result_message": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+            "preview_items": [
+              {
+                "title": "Expression detail summary",
+                "body": "Expression detail overview for the selected TE.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                "meta": "expression"
+              },
+              {
+                "title": "Normal tissue expression",
+                "body": "Normal tissue expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue",
+                "meta": "expression"
+              },
+              {
+                "title": "Normal cell line expression",
+                "body": "Normal cell line expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line",
+                "meta": "expression"
+              },
+              {
+                "title": "Cancer cell line expression",
+                "body": "Cancer cell line expression panel.",
+                "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line",
+                "meta": "expression"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Site Navigator Plugin",
+                "entity_scope": "",
+                "claim": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).",
+                "support_strength": "high",
+                "raw_source_ref": {
+                  "title": "Expression detail summary",
+                  "capability": "expression",
+                  "url": "http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary",
+                  "path": "expression_detail.php",
+                  "fragment": "expression-detail-summary",
+                  "description": "Expression detail overview for the selected TE."
+                },
+                "title": "Expression detail summary",
+                "meta": "expression_summary",
+                "body": "TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary)."
+              }
+            ]
+          }
+        },
+        "display_text": "对应的站内入口是 [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n如果你想看的不是这个面板，也可以选择：\n- [Normal tissue expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-tissue) - Normal tissue expression panel.\n- [Normal cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-normal-cell-line) - Normal cell line expression panel.\n- [Cancer cell line expression](http://127.0.0.1/TE-/expression_detail.php#expression-detail-cancer-cell-line) - Cancer cell line expression panel.",
+        "sequence": 19
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-agent-P5A_B_029",
+        "plugin_name": "Site Navigator Plugin",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "inputs_used": [
+          "collection_state",
+          "compressed_result",
+          "routing_policy"
+        ],
+        "outputs_changed": [
+          "sufficiency_decision",
+          "remaining_candidates",
+          "closed_gaps"
+        ],
+        "message": "Matched the question to the Expression detail summary site route. Next queued tools: Expression Plugin. Sufficiency: The site navigator returned clickable TE-KG routes for this page-location question.",
+        "payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver",
+              "Site Navigator Plugin"
+            ],
+            "remaining_candidates": [
+              "Expression Plugin"
+            ],
+            "closed_gaps": [
+              "Site Navigator Plugin"
+            ],
+            "active_gaps": [
+              "entity normalization",
+              "site navigation",
+              "literature synthesis",
+              "expression context"
+            ],
+            "evidence_count": 1,
+            "citation_count": 0,
+            "question_type": "expression",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Expression Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Expression Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Expression Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "expression",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Expression Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": true,
+              "reason": "The site navigator returned clickable TE-KG routes for this page-location question.",
+              "missing_dimensions": [],
+              "recommended_next_experts": []
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": true,
+            "reason": "The site navigator returned clickable TE-KG routes for this page-location question.",
+            "missing_dimensions": [],
+            "recommended_next_experts": []
+          }
+        },
+        "message_payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver",
+              "Site Navigator Plugin"
+            ],
+            "remaining_candidates": [
+              "Expression Plugin"
+            ],
+            "closed_gaps": [
+              "Site Navigator Plugin"
+            ],
+            "active_gaps": [
+              "entity normalization",
+              "site navigation",
+              "literature synthesis",
+              "expression context"
+            ],
+            "evidence_count": 1,
+            "citation_count": 0,
+            "question_type": "expression",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Expression Plugin"
+              ],
+              "fallback_path": [],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Expression Plugin"
+                ]
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Expression Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ]
+              },
+              "stop_conditions": {
+                "max_experts": 2,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": false,
+              "forbidden_shortcuts": [],
+              "question_type": "expression",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Expression Plugin"
+              ]
+            },
+            "sufficiency_decision": {
+              "is_sufficient": true,
+              "reason": "The site navigator returned clickable TE-KG routes for this page-location question.",
+              "missing_dimensions": [],
+              "recommended_next_experts": []
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": true,
+            "reason": "The site navigator returned clickable TE-KG routes for this page-location question.",
+            "missing_dimensions": [],
+            "recommended_next_experts": []
+          }
+        },
+        "display_text": "Matched the question to the Expression detail summary site route. Next queued tools: Expression Plugin. Sufficiency: The site navigator returned clickable TE-KG routes for this page-location question.",
+        "sequence": 20
+      },
+      {
+        "type": "answer",
+        "request_id": "req_9ec0e228bb4af141",
+        "session_id": "eval-agent-P5A_B_029",
+        "language": "chinese",
+        "message": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n已有轻量证据：TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n路由原因：Direct lookup covered by Deep Think.",
+        "node": "Answer Writer Node",
+        "source": "Answer Writer Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n已有轻量证据：TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n路由原因：Direct lookup covered by Deep Think.",
+        "sequence": 21
+      },
+      {
+        "type": "done",
+        "request_id": "req_9ec0e228bb4af141",
+        "session_id": "eval-agent-P5A_B_029",
+        "payload": {
+          "confidence": "low",
+          "used_plugins": [
+            "Entity Resolver",
+            "Site Navigator Plugin"
+          ],
+          "answer": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n已有轻量证据：TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n路由原因：Direct lookup covered by Deep Think.",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": "",
+          "workflow_state": {
+            "current_stage": "Compact Preflight",
+            "stage_statuses": {
+              "Understanding": "done",
+              "Planning": "done",
+              "Collecting": "done",
+              "Executing": "active",
+              "Integrating": "pending",
+              "Writing": "skipped"
+            },
+            "traversed_edges": [
+              "Understanding->Planning",
+              "Planning->Collecting",
+              "Collecting->Executing",
+              "Executing->Collecting"
+            ],
+            "complete": true
+          }
+        },
+        "node": "Process Narrator Node",
+        "source": "Process Narrator Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "confidence": "low",
+          "used_plugins": [
+            "Entity Resolver",
+            "Site Navigator Plugin"
+          ],
+          "answer": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n已有轻量证据：TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n路由原因：Direct lookup covered by Deep Think.",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": "",
+          "workflow_state": {
+            "current_stage": "Compact Preflight",
+            "stage_statuses": {
+              "Understanding": "done",
+              "Planning": "done",
+              "Collecting": "done",
+              "Executing": "active",
+              "Integrating": "pending",
+              "Writing": "skipped"
+            },
+            "traversed_edges": [
+              "Understanding->Planning",
+              "Planning->Collecting",
+              "Collecting->Executing",
+              "Executing->Collecting"
+            ],
+            "complete": true
+          }
+        },
+        "display_text": "",
+        "sequence": 22
+      }
+    ],
+    "answer": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n已有轻量证据：TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n路由原因：Direct lookup covered by Deep Think.",
+    "done_payload": {
+      "confidence": "low",
+      "used_plugins": [
+        "Entity Resolver",
+        "Site Navigator Plugin"
+      ],
+      "answer": "这是一个简单查询，建议使用 Deep Think 获取更快的直接答案。Agent 已跳过完整 Evidence Walk Writing。\n\n已有轻量证据：TE-KG site navigation route for the requested item: [Expression detail summary](http://127.0.0.1/TE-/expression_detail.php#expression-detail-summary).\n\n路由原因：Direct lookup covered by Deep Think.",
+      "language": "chinese",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": "",
+      "workflow_state": {
+        "current_stage": "Compact Preflight",
+        "stage_statuses": {
+          "Understanding": "done",
+          "Planning": "done",
+          "Collecting": "done",
+          "Executing": "active",
+          "Integrating": "pending",
+          "Writing": "skipped"
+        },
+        "traversed_edges": [
+          "Understanding->Planning",
+          "Planning->Collecting",
+          "Collecting->Executing",
+          "Executing->Collecting"
+        ],
+        "complete": true
+      }
+    },
+    "used_plugins": [
+      "Entity Resolver",
+      "Site Navigator Plugin"
+    ],
+    "citations": [],
+    "evidence_package": {},
+    "evidence_walk": {},
+    "report_plan": {},
+    "integrity_report": {},
+    "evaluation_report": {},
+    "models": {},
+    "writing_failed": false,
+    "failure_stage": "",
+    "failure_reason": "",
+    "timings": {
+      "total_ms": 2230
+    },
+    "errors": []
+  },
+  "evaluation": {
+    "schema_version": "mode_comparison_live_proxy.v1",
+    "case_id": "P5A_B_029",
+    "expected_best_mode": "deep_think",
+    "recommended_mode": "deep_think",
+    "dt_ok": true,
+    "agent_ok": true,
+    "dt_answer_length": 787,
+    "agent_answer_length": 271,
+    "dt_plugins": [
+      "Entity Resolver",
+      "Site Navigator Plugin"
+    ],
+    "agent_plugins": [
+      "Entity Resolver",
+      "Site Navigator Plugin"
+    ],
+    "dt_latency_ms": 7041,
+    "agent_latency_ms": 2230,
+    "agent_artifact_score": 0.1,
+    "dt_artifact_score": 0.45,
+    "depth_delta": -0.35,
+    "agent_value_added": "none",
+    "agent_overkill": false,
+    "dt_errors": [],
+    "agent_errors": []
+  }
+}

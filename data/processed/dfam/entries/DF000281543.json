@@ -1,0 +1,52 @@
+{
+  "accession": "DF000281543",
+  "name": "AloPal-5.1366_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "AloPal-5.1366_LTR"
+  ],
+  "species": "Alouatta palliata",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Alouatta palliata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Platyrrhini",
+    "Atelidae",
+    "Alouattinae",
+    "Alouatta"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 400 BP; 103 A; 86 C; 111 G; 100 T; 0 other;"
+  },
+  "sequence": "tgtagggggcgcacggcaacatattcaagcttatgtacatggcatttgaggtcggggcatggaaaaatactgaggcactgtgtatgttatttgtgcatgggaatgaaactccttgaccctgaaaacaggacagggagtggagtgtgtggtgtgataaggaacgctgaaaacagcctcctgagaatgcagtttgagtgtgtacaaggtcacaggtgcctcagcaacccacctcaaatgaccatctagtggatgtttgtagttaatacaagccctttcaataaatacttggtggacggatgctggggcggactctctcggaagagctaccccctagccccgctcagctggaactgtctgagtacttcgttcttggcgttcactgcaagctataagctctgca",
+  "length_bp": 400,
+  "sequence_length_bp": 400,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

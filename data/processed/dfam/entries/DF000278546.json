@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278546",
+  "name": "MirAng-1.135",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MirAng-1.135"
+  ],
+  "species": "Mirounga angustirostris",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mirounga angustirostris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Phocidae",
+    "Mirounga"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 588 BP; 164 A; 174 C; 96 G; 154 T; 0 other;"
+  },
+  "sequence": "tgatgtgggaaacaaaggcagaagaaaaattattaaatttccttactacctacagcccactgacaagtccttgaaacaggcagagtgacattcctctagggactcaactgcctcgatgttaatactttgctaagggcaaaaggcaatcctagcccgaccccccccccccaggatcctgtaagtctactttaacatataaaaattcctttggaaacttcctttatctctaaaccccccaagatacgtgttggcaatcatcccccaagcatatggcccaccgatatacatctgaagggtctcatgactaaggttttattagacggtaataaatgaccttttcccaacaatagctagccccctcaaggtcctggaaaccttgcttccaaaattccttagagacttacgctatccctaaccccctcccaacttgaaagtatataatgggccactcctcatgaccccggtgcagctctttctgcccacgggtcctgtccccgtgctttaataaaaccacctttttgcaccaaagacgtctcaagaattctttcttggccgtcggcttcgaaccctaacgtctttcctacatca",
+  "length_bp": 588,
+  "sequence_length_bp": 588,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000002325",
+  "name": "LOOPERN4_DR",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/Kolobok-T2"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/Kolobok-T2 | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 917 BP; 268 A; 174 C; 190 G; 258 T; 27 other;"
+  },
+  "sequence": "atggcacctatgatgaaaatcaacttttgtaagctgtttggacagaactgtgtgtaggtatacgtgtgtccacngtcatattggagtgatataaacncaacaagtctcttttttaaaatttcctgacgttaaaataggacccaaatcccagtgattttgaggcccaccgcaacgtgacgnntaggagtgcggttttccccgcccaccgaattgattgacaggcgccatgtttctataataacatgtatacacatgtccacagaacattttttgcaaanaaactgggattaaaatatctgttacaactctctgtgatctgcnnnttaataannagttttataagtttnaaaacgtntttttaaaacagagcatgtttgtaataaagacagtaaaatcgctatgtaattcttaaccgctataatcaccacggccgcatggtgtcagtaaacgcgcatangtntgtnnnnncgnncgaatgtgtgtgtgtgtgtgtgtantgcgcgncgnnntgtgtgtactgcaaacggcatttgtgtgngactcatcatttcagaaaggcttgaataaactccaccacaaatacatcaaataaacttacttggtatttttgactaatgagctgtatttcagcttcatccgtgagtctgtctctgtcactgactgctgtttatctgacgtaacgcatgatgagaagcagacacgcacgtgggaacggtgggcggggagaagcagctcatttgcatttaaagccacaggctacaaaaacagctacactgtactcagacaccaaaatgggcagattctggaggctataataaataatctgatgggtattttgagctgaaactttacagacacattctggagacaccaaaggcttatcttacatcttgtaaaaggggtaaaataggtgccct",
+  "length_bp": 917,
+  "sequence_length_bp": 917,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LOOPERN4_DR"
+  ]
+}

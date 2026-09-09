@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000842",
+  "name": "Tigger3c",
+  "description": "TcMar-Tigger DNA transposon, Tigger3c subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Primates",
+  "display_classification": "DNA/TcMar-Tigger | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 602 BP; 165 A; 139 C; 115 G; 183 T; 0 other;"
+  },
+  "sequence": "cagtcatgcgccgcataacgacgtttcggtcaacgacggaccgcatatacgacggtggtcccataagattataatggagctgaaaaattcctatcgcctagtgacgtcgtagccgtcgtaacgtcgtagcgcaattactttatttttaaataaatttagtgtagcctaagtgtacagtgtttataaagtctacagtagtgtacagtaatgtcctaggccttcacattcactcaccactcactcactgactcacccagagcaacttccagtcctgcaagctccattcatggtaagtgccctatacaggtgtaccattttttatcttttataccgtatttttactgtaccttttctatgtttagatatgtttagatacacaaatacttaccattgtgttacaattgcctacagtattcagtacagtaacatgctgtacaggtttgtagcctaggagcaataggctataccatatagcctaggtgtgtagtaggctataccatctaggtttgtgtaagtacactctatgatgttcgcacaacgacgaaatcgcctaacgacgcatttctcagaacgtatccccgtcgttaagcgacgcatgactg",
+  "length_bp": 602,
+  "sequence_length_bp": 602,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Tigger3c"
+  ]
+}

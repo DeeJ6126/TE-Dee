@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000605",
+  "name": "LTR85c",
+  "description": "LTR85c (Long Terminal Repeat) with unclear association (possibly Gypsy)",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR85c"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 823 BP; 223 A; 138 C; 263 G; 170 T; 29 other;"
+  },
+  "sequence": "tgtaacgggaaggaagaaantgttattttaaaagctggctgcagtttgagccggttgctctaggagganggcagaattcctcttagggagagaactgctcttttgtttgggaaaacaccttaatgggccttttggttatgcaaagnnaggccccagggcctagtctggangggagaggttgagacaaagaggaagctaaattgctctgcataataaagtaacaggaattttggagttntccnctggcggcttgagagntaggagtngtggaatttnggaggaanngggagcaggggaaggcntgagaaagnaaaaggntcttagagnagagagcaggccccagannanaagacaaaggaggncngntngagaggaaattccctgnggtggagatggccgangaactttaggaacagtgatgtctgatattcaattttaagttgtttcctgttctgtgctgtaatccccctccgtntccccaaaccttcagtaaagtctgttacacacaacagccttgtgttagtggtgctttggggaatgaaggaaaggggctggtccatgcctggggcgaagcaatgngacagagagagganagcagccgcaggaggcgagatgagagcagggatcgagaattcagcgggagcaggaantcggagcgagaggtgaccaggagaacatgagcacccctgagaatcctcggaaatattggggagggcactggacttcccgcagtacgtgggatgggggctcgagccattttatttggatattaaaggaaagggtgaccccagaaggctggaggacttgggacacccaggttaca",
+  "length_bp": 823,
+  "sequence_length_bp": 823,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR85c"
+  ]
+}

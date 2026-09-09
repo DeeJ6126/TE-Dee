@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000046",
+  "name": "AluSq4",
+  "description": "AluSq4 subfamily",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "SINE/Alu | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 311 BP; 95 A; 79 C; 94 G; 43 T; 0 other;"
+  },
+  "sequence": "ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggccgaggcgggcggatcacgaggtcaggagttcgagaccagcctggccaacatggtgaaaccccgtctctactaaaaatacaaaaattagccgggcgtggtggcgggcgcctgtaatcccagctactcgggaggctgaggcaggagaatcgcttgaaaccggaaggcggaggttgcagtgagccgagatcgcgccactgcactccagcctgggcaacaagagcgaaactccgtctcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "length_bp": 311,
+  "sequence_length_bp": 311,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "AluSq4"
+  ]
+}

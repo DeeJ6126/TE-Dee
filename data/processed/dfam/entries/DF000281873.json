@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281873",
+  "name": "DicBic-5.1073_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "DicBic-5.1073_LTR"
+  ],
+  "species": "Diceros bicornis michaeli",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Diceros bicornis michaeli",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Perissodactyla",
+    "Rhinocerotidae",
+    "Diceros",
+    "Diceros",
+    "bicornis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 554 BP; 142 A; 128 C; 103 G; 174 T; 7 other;"
+  },
+  "sequence": "tgtgggggatcagaatttgccaccccaaaatgtgtctctttggcttgattatttttaagaacaaaagactcngaaagaaactttgaccttccccctaactgcctaaaagaatttaagatagaaggcctgttccaggaaggagctatcaccatagataactatagtataatatgaactaggtgtggtagacagggaggaacctngcaaggcccatttnatcaaagtcctctccatgtcccattgtctntgnanggcncggcaaacatttgtttaccaaacatttgcttttccatctccatgtgaattgccttcctcccctttgaagtcccaaaccactacccccaacatcctcctttgtctttagctgaagatggtatttaaggtggcggcttcggccattttggcgagttactcagttttcctgggtttctcccatgtatacatgttattaaactttgtttgattttctcctgttattctgtctcatgtcaatttaattcttagaccagccagaaggacctagagggtagaggaatatttcttcctcccctaca",
+  "length_bp": 554,
+  "sequence_length_bp": 554,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

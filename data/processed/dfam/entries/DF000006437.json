@@ -1,0 +1,52 @@
+{
+  "accession": "DF000006437",
+  "name": "Gypsy-14_Hmel_LTR",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "Gypsy-14_Hmel_LTR"
+  ],
+  "species": "Heliconius",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Heliconius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae",
+    "Heliconiini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 291 BP; 98 A; 45 C; 40 G; 108 T; 0 other;"
+  },
+  "sequence": "tagttatgcactcacccaaaccctcagtattaggttaagcgagattattccgctggctcagcgagaccaccggagtattcccattattgttataagcacttttattgtttcgtaaaaattcatgttaaatgtcgcaatacattataacttttgtaatacaaatatttttaactttaagaattaatattgttgtgatctccaaatcgatcagacgtattaaatagttttaatttaaattagtattttatttttaaaaaagtaaattctcaattagaaagtttaactggcgca",
+  "length_bp": 291,
+  "sequence_length_bp": 291,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF003440142",
+  "name": "Helitron31_mMyo",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Myotis myotis",
+  "display_classification": "RC/Helitron | Myotis myotis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Myotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 646 BP; 98 A; 229 C; 246 G; 73 T; 0 other;"
+  },
+  "sequence": "aatctatactaataaaagggtaatatgctaattagaccggacgtcttccggacgtccttccggacaaagccgcagcggctgcgagggccgagggccggcggcgcgggagaggcggcggcgcgggagaggcggcggcgcggccggtccagcgccgcggccccttccgcagaggcggcgggagagggggctgcgcggtcccggtcccagtgctgccccttccgcagaggcagccacagaggcagcggcgcgggcccggtcccggcgccacgcctccgcagaggctggacggggtgcgacctgctgtgcctcaacctcccacagcccctcccccagccggcctggccccagatcgccccccacccaccagtgggcggggggcggggccagcgctaagaagcgagggccgagggccggcagccgcggccggcagtggcagcagcagcggggtgatgggggcggcgccttcccctgatcggcccggtcgcctcccgcagagggaggccagactgcggcttaggcccgctcccggagcgggcctaagccgtcagtaggacatcccctgagggctcccggactgtgagagggcgcaggccgggctgagggacccccccccagtgcacgaattttcgtgcaccgggcctctagt",
+  "length_bp": 646,
+  "sequence_length_bp": 646,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275032",
+  "name": "BisBis-1.113",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Bison bison",
+  "display_classification": "LINE/L1 | Bison bison",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bison"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1675 BP; 630 A; 323 C; 380 G; 304 T; 38 other;"
+  },
+  "sequence": "tgtaaaaaactagaacaaanaatttcacaattcgtatggaaacacaaaagaccccgaatagccaaagcagtcttgagaaagaagaatggagctggaggaatcaacctncctgacttcaggctatactacaaagctacagtcatcaagacagtatggtactggcacaaagacagaaatatagaccaatggaacaagatagaaagcccagagataaacccacgcacctatgggcaccttatctttgacaaaggaggcaagaatatacaatggggnaaagacagcctcttcaacaagtggtgctgggaaaactggncagccacntgtaaaagaatgaaactagaacacttcctaacaccatacacaaagataaactcaaaatggattaaagacctaaacgtaagaccagaaactataaaactcctagaggaaaacataggcagaacactcnntgacataaatcanagcaggatcctctatgacccacctcccagagtaatggaaataaaagcaaaaataaacaagtgggacctaattaaacttaaaagcttttgcacagcaaaggaaactataagcaaggtgaaaagacagccctcagaatgggagaaaataatagcaaatgaagcaactgacaaaggattaatctcnaaaatatacaagcagctcntacagctcaatnccagaaaaacaaacgacccaatcaaaaagtgggccaaaganctaaacagacatttctccaaagaagacatacagatggctaacaaacacatgaaaagatgctcaacatcgctcattatcagagaaatgcaaatcaaaaccacaatgaggtaccacctcacgccggtcagaatggccgccatcaaaaagtctacaaacaataaatgctggagagggtgtggagaaaagggaaccctcttgcactgttggtgggaatgcaaactggtacagccactatggaggacggtgtggagattccttaaaaaactgggaatagaaccgccatatgacccagcaatcccactgctgggcatacacnctgaggaaaccagaattgaaagagacacgtgtaccccantgttcatcgcagcactgtttacaatagccaggacatggaagcaacctagatgtccatcggcagatgaatggataaggaagctgtggtacatatacacaatggaatattactcagccatnaaaaggaatacatttgagtcagttctaatgaggtggatgaanctggagcctattatacagagtgaagtaagtcagaaagagaaacacnaatacngtatactaacgcatatatatggaatctagaaagatggtancgangaccctatntgcggggcagcaanggagacacagacgtanagaacagncttntggactctgtgggagaggggaggagagggtgggatgtntggagagagtagcatngaaacttacattaccatatgtgaaatagatngccagtccgggttcgntgcatgacncaggangctcgggcnggtgcnctgggncgacccagaggggtgggatggggagggaggtgggaggggggttcagganggaggggacacatgtatacctatggctgattcatgtcgatgtntggcagaaaccaacacaatnctgtaaagcaattatcctccaattaaaaataaatnaatttaaaaaa",
+  "length_bp": 1675,
+  "sequence_length_bp": 1675,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

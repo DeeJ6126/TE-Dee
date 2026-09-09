@@ -1,0 +1,47 @@
+{
+  "accession": "DF000288640",
+  "name": "TE2183_SO2_FAM3082",
+  "description": "Repetitive element found in rice weevil",
+  "keywords": [
+    "LINE/RTE-RTE"
+  ],
+  "species": "Sitophilus oryzae",
+  "display_classification": "LINE/RTE-RTE | Sitophilus oryzae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Coleoptera",
+    "Polyphaga",
+    "Cucujiformia",
+    "Curculionoidea",
+    "Curculionidae",
+    "Dryophthorinae",
+    "Sitophilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 241 BP; 88 A; 39 C; 49 G; 63 T; 2 other;"
+  },
+  "sequence": "tagatttntctcattctatattatttacacctggcaagaaggacggacaacagatggaccacaaaacaatagacaacaatgggcccaactacaaagagagtatctaaatatgtgagggaggctacaccataattggaaatggttgaataagctgaaaatgatgatgatgatattgtctatatcactagcgtagacaagattcgatctgtcatcttaaaatgtccgncatattggataggat",
+  "length_bp": 241,
+  "sequence_length_bp": 241,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

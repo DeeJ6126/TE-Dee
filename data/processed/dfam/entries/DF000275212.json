@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275212",
+  "name": "CamDro-1.18",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Camelus dromedarius",
+  "display_classification": "SINE/tRNA | Camelus dromedarius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Tylopoda",
+    "Camelidae",
+    "Camelus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 164 BP; 65 A; 34 C; 26 G; 39 T; 0 other;"
+  },
+  "sequence": "gggggagggtatagctcaagtggtagagcgcatgcttagcatgcacgaggtcctgggttcaatccccagtacctcctctaaaaataaataaacctaattacctcccccccgccaaaataaaataattaaataatacaataataaataaaataaaatttttaaaa",
+  "length_bp": 164,
+  "sequence_length_bp": 164,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

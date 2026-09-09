@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000818",
+  "name": "THE1B",
+  "description": "THE1B Long Terminal Repeat for ERVL-MaLR endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "THE1B"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 364 BP; 74 A; 94 C; 88 G; 106 T; 2 other;"
+  },
+  "sequence": "tgatatggtttggctgtgtccccacccaaatctcatcttgaattgtagctcccataattcccacgtgtcgtgggagggacccggtgggaggtaattgaatcatgggggcgggtctttcccgtgctgttctcgtgatagtgaataagtctcacgagatctgatggttttataaaggggagttcccctgcacangctctcttgcctgccgccatgtaagacgtgnctttgctcctccttcgccttccgccatgattgtgaggcctccccagccacgtggaactgtgagtccattaaacctctttcctttataaattacccagtctcgggtatgtctttatcagcagcgtgaaaacggactaataca",
+  "length_bp": 364,
+  "sequence_length_bp": 364,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "THE1B"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000966",
+  "name": "MER97c",
+  "description": "hAT-Tip100 DNA transposon, MER97c subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1129 BP; 335 A; 182 C; 202 G; 400 T; 10 other;"
+  },
+  "sequence": "cagtggcgtaccaagggcggggcggtgggagcggtccgccccgggtgcaggcaataagggggtgcattgtctgtagagaatttaaaaacaataataaaaccgactaaaagtcggtctgctttttattatcaccatgcgccggcaattctaaacaatgtcagtgataaaatactcctccccgaaaaatcttttgttggtctaagttctaaacaattgctgcggttactgttgagttttaataatatatatgtaagcttcaaattagcacatttttattacttatcctttaataaacattgtattctacatggaagttaattcggagaactcccagttatacagtcggcccccgacacacgcggactcagctacacgcgttcgtttcgagagtaagttcntaacggttcggaatcgttcgagctcgcttcgggcgcagttcgtgtctccaacccctgtggtactacatattcctgcgtttaaacagtagattcgaaataaacaatgatagcacagtgattgtaaagacgaagaaacagaacttgagttacttcaattctgtcattctatgtgaccacttggagtttttatttgtgtttaaaatttaaaacagtgaaacagagtgcgaactgcgaggtgtaatatttttgtttggtaagtgcaaattttagttcatacatgaaatattttactgaatttgaataatatctttaaaattgaaattatgtgttctttaaatnananaattgntctagttatctatttattngnattttattttattnaaattattattaaactgtaatgttattattcattactgcgacagaccaatatgtaggtataattttttccttttttcaaaaaatacattaatgtaattaaaaagtattaatccattactttttttccttttttgtactgtaatatttattttttattttttatactggcatgattatatatacgaagttcaataaaanaaaattttcactgtctgcgtttcttttctggccattattattattcgtttcatttcacgattattactgaaaataattttgtcgtatagaggagggggntgttaaaaaatgatccgctccgggtgtcaaatacgctaggtgcgccactg",
+  "length_bp": 1129,
+  "sequence_length_bp": 1129,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER97C"
+  ]
+}

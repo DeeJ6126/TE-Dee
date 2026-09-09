@@ -1,0 +1,39 @@
+{
+  "accession": "DF003576429",
+  "name": "TcMar_C.gigas_30",
+  "description": "Repetitive sequence family identified in Crassostrea gigas",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Crassostrea gigas",
+  "display_classification": "DNA/TcMar-Tc1 | Crassostrea gigas",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Ostreida",
+    "Ostreoidea",
+    "Ostreidae",
+    "Crassostrea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1356 BP; 424 A; 250 C; 287 G; 388 T; 7 other;"
+  },
+  "sequence": "cagcgctatagcaaaagtattcgcgatttttcaaaatggcgtcggcctactttgcgcgtctcgattgggaaaagagcgataactctacgaaaagttagagttatccgttcatttttttactgagttatctttaggtaggaagtgacgttattttatatttactgtcgtctgcaccttgctttgtgatcgtaaacatacggagtttaacaatggatcgaaaatctggtgaacttaccaatgaggttaaaaatctaatcgtatctttgaaaattgaaaatcacaaaacttgtgaaattgttcggctgttgaatattagtgaatctaccgttcgatctgtttggaataagtatatcaaacgaggaagtgtggaaaatttacctcgagttggtagacctcgaaagttgtcacacagagatgaaaactggataatgcgtgcggtcaaaagtaacaggtacaggaccttaaatgacattacactggattttaacgagggaaaacatcgtacagaaactgtccataaatgtacagtccagagatttctcaaagaacagggatataaacgaaaagttgtgcgaaaacgtatggttgttcgtgaagtgaaccgaaaaaagcgattatcttggtgtttagagaaacgacgattaacagtagaccancattggaacaaagtaatattttctgacgaaagccaagttgttattggtgaaaatcacagagtttacgtctggaggaaggcnaacgaagcgtatctaccncagtgcatgtgcccccctcgtaagcgtcgagttgcagttatggtgtggggatgcataacttatgatggtgttgggactttgtgtcttgtngatggcaacataactgctcnaaagtatattgacatactcgacgaacacttgtggccagttatagcgaggcatttttccgataaaccttaccttttccaagatgacaatgcacccgtgcacagagccaggattacttgtgaatataaggttaataacaacattccttccatcacatggccggcacagtccccggacattaatatnattgaaaacatttggttgaaaataaagcgctcactccaaagcatggccagagacatcactacccaggatgaactttttaatgttatacttgacatttggcaaaacatcgcccctgaatacgttaaaaacctgtacctatcaattccccgtcggatccaagctgttataagatccaagggtcatctcacgaaatattgagaaaagtaagtcagttttgcatacctttttaatagttttatattttgaagcgcgtccttgtttacgnccgccattttgaaaaatcgcgaatacttttgctatagcgctg",
+  "length_bp": 1356,
+  "sequence_length_bp": 1356,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000742",
+  "name": "MER2B",
+  "description": "TcMar-Tigger DNA transposon, MER2B subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Primates",
+  "display_classification": "DNA/TcMar-Tigger | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 336 BP; 98 A; 72 C; 85 G; 81 T; 0 other;"
+  },
+  "sequence": "cagtcggccctccgtatccgtgggttccgcatccgtggattcaaccaaccgcggatcgaaaatattcggaaaaaaaaattccacaaagttccaaaaagcaaaacttgaatttgccgcgcgccgagtactacgttgaatccacgcgaatgaagtgatgtgtaggcattgtattaggtattataagtaatctagagatgatttaaagtatacgggaggatgtgcgtaggttatatgcaaatactacgccattttatataagggacttgagcatccgcggattttggtatccgcggggggtcctggaaccaatcccccacggataccgagggacgactg",
+  "length_bp": 336,
+  "sequence_length_bp": 336,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER2B"
+  ]
+}

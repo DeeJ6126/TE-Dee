@@ -1,0 +1,50 @@
+{
+  "accession": "DF000280109",
+  "name": "PonBla-1.175",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Pontoporia blainvillei",
+  "display_classification": "DNA/TcMar-Tigger | Pontoporia blainvillei",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Pontoporiidae",
+    "Pontoporia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 347 BP; 104 A; 75 C; 76 G; 92 T; 0 other;"
+  },
+  "sequence": "cagtcggccctccgtatccgcgggttccgcatccgcggattcaaccaaccgcggatcgaaaatatttaaaaaaaaattccagaaagttccaaaaagcaaaacttgaatttgccgcgcgccggcaactatttacatagcatttacattgtatttacaactatttacatagcatttacattgtattaggtattataagtaatctagagatgatttaaagtatacgggaggatgtgcgtaggttatatgcaaatactacgccattttatataagggacttgagcatccgcggattttggtatccgcgggggtcctggaaccaatcccccgcggataccgagggacgactg",
+  "length_bp": 347,
+  "sequence_length_bp": 347,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

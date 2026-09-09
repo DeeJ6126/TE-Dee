@@ -1,0 +1,51 @@
+{
+  "accession": "DF000279512",
+  "name": "OdoVir-1.218",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OdoVir-1.218"
+  ],
+  "species": "Odocoileus virginianus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Odocoileus virginianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Cervidae",
+    "Odocoileinae",
+    "Odocoileus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 599 BP; 167 A; 128 C; 124 G; 179 T; 1 other;"
+  },
+  "sequence": "gagagtcaattcctaggcaggttgataagaagtccggggtccccgaggaggagagaggggtctggggctctcgaagaggagataggggtctggaattctcaaggaggaggaaaggacaaacgtttttttttctctacattccttagtcttagtcacataaaacgtttttttctttaagcccggaactgatgattacacaacaaacaactcagtttaaactctgtactaaggattatataacaacaatgtatcctgcttgaggacagtttctccttcctgaaaaccttctgactaatcctgttatcttaaaatgtaaattgtgggagtgggtctggtaagatctttacaaccttgagacattcttttgatttattgtaataaccaattnaaaaagtatataactcccttgctaagactagcgaggggggcactctccgtcccccttctgatgtctatgtcagaagctttctctgtcccttttctactttaataaaactctgctacacaaaagctcttgagtgatcaagcctggtccctggtcccgaagctaaatcttcttcggagatcacgaatccgacatcgttcaccgtaagctatca",
+  "length_bp": 599,
+  "sequence_length_bp": 599,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

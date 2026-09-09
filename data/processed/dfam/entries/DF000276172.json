@@ -1,0 +1,46 @@
+{
+  "accession": "DF000276172",
+  "name": "DasNov-1.0",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Dasypus novemcinctus",
+  "display_classification": "SINE/tRNA | Dasypus novemcinctus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Dasypodidae",
+    "Dasypus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 392 BP; 130 A; 92 C; 124 G; 46 T; 0 other;"
+  },
+  "sequence": "agggaagcggatgtggctcaagcgattgagctcccgcctaccacatgggaggtcccgggttcggttcccggtgcctcctggagaagacgagcaagacagcgagctggcgcgacgggcaggcgcggcgagctgacgcaacaagatgacgcaacaaggagacacaaagaggaaagacaatgagagacacaacaaagcagggagctgaggtggctcaagcgattgagcgcctctctcccacatgggaggtcccaggttcggttcccggtgcctcctaaagagaagacgagcagacacagagagcacacagcgaatggacacagagagcagacagcgagcgcaaacaacgagggggggggaataaataaataaaataaatctttaaaaaaaaaaaa",
+  "length_bp": 392,
+  "sequence_length_bp": 392,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

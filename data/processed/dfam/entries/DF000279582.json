@@ -1,0 +1,51 @@
+{
+  "accession": "DF000279582",
+  "name": "OndZib-1.4",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Ondatra zibethicus",
+  "display_classification": "SINE/Alu | Ondatra zibethicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Arvicolinae",
+    "Ondatra"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 160 BP; 48 A; 43 C; 46 G; 23 T; 0 other;"
+  },
+  "sequence": "agccgggcggtggtggcgcacgcctttaatcccagcactcgggaggcagaggcaggcggatctctgtgagttcgaggccagcctggtctacaagagctagttccaggacaggctccaaagccacagagaaaccctgtctcgaaaaaccaaaaaaaaaaaa",
+  "length_bp": 160,
+  "sequence_length_bp": 160,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

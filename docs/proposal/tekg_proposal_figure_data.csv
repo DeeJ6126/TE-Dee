@@ -1,0 +1,11 @@
+metric,value,source
+Neo4j runtime nodes,11415,check_home_stats_api.py
+Neo4j runtime relationships,13696,check_home_stats_api.py
+TE nodes,225,check_neo4j_tekg3.py
+PubMed metadata records,2308,pubmed-metadata-enrichment-v2.md
+Paper nodes with 2025 IF metric,2037,journal-metrics-neo4j-import-plan.md
+Paper nodes with null/unmatched IF metric,271,journal-metrics-neo4j-import-plan.md
+LINE1 graph nodes,95,check_g6_te_tree_load_regression.py
+LINE1 graph edges,103,check_g6_te_tree_load_regression.py
+L1HS graph nodes,54,check_g6_te_tree_load_regression.py
+L1HS graph edges,58,check_g6_te_tree_load_regression.py

@@ -1,0 +1,390 @@
+{
+  "kind": "task8-pre-phase9-structural-star-baseline",
+  "viewport": {
+    "width": 1440,
+    "height": 960
+  },
+  "samples": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodeCount": 932,
+      "anchorCount": 92,
+      "memberCount": 787,
+      "invalidAncestry": [],
+      "metadataMismatches": [],
+      "nearestOwnCount": 158,
+      "proximityDenominator": 787,
+      "ownSuperfamilyNearestRatio": 0.200762,
+      "crossSfOverlapPairs": 203,
+      "crossSfTotalPenetration": 805.41,
+      "declaredSystemDiscCount": 0,
+      "systemDiscOverlapPairs": 0,
+      "systemDiscTotalPenetration": 0,
+      "worstSystems": [
+        {
+          "superfamilyId": "TREE_Superfamily_hAT",
+          "total": 202,
+          "nearestOwn": 6,
+          "offenders": 196,
+          "ratio": 0.029703
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_L1_LINE_1",
+          "total": 201,
+          "nearestOwn": 32,
+          "offenders": 169,
+          "ratio": 0.159204
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_Tc1_Mariner",
+          "total": 133,
+          "nearestOwn": 7,
+          "offenders": 126,
+          "ratio": 0.052632
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_LINE_2_CR1_Chicken_Repeat_1",
+          "total": 49,
+          "nearestOwn": 15,
+          "offenders": 34,
+          "ratio": 0.306122
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_SINE1_7SL_Alu",
+          "total": 75,
+          "nearestOwn": 59,
+          "offenders": 16,
+          "ratio": 0.786667
+        },
+        {
+          "superfamilyId": "TREE_Non_HERV_LTR",
+          "total": 17,
+          "nearestOwn": 4,
+          "offenders": 13,
+          "ratio": 0.235294
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_SINE2_tRNA",
+          "total": 18,
+          "nearestOwn": 5,
+          "offenders": 13,
+          "ratio": 0.277778
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_RTE",
+          "total": 13,
+          "nearestOwn": 1,
+          "offenders": 12,
+          "ratio": 0.076923
+        },
+        {
+          "superfamilyId": "TREE_HERV_Human_Endogenous_Retrovirus",
+          "total": 30,
+          "nearestOwn": 18,
+          "offenders": 12,
+          "ratio": 0.6
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_MuDR",
+          "total": 9,
+          "nearestOwn": 0,
+          "offenders": 9,
+          "ratio": 0
+        }
+      ],
+      "renderer": {
+        "instanceId": "large-force-renderer-1",
+        "graphId": "taxonomy:all",
+        "source": "all",
+        "sourceKind": "taxonomy",
+        "master": {
+          "nodes": 1660,
+          "edges": 1659
+        },
+        "visible": {
+          "nodes": 932,
+          "edges": 931
+        },
+        "counters": {
+          "create": 1,
+          "destroy": 0,
+          "render": 1,
+          "setData": 0,
+          "draw": 0,
+          "layoutStart": 0,
+          "hover": 0,
+          "click": 0,
+          "dragStart": 0,
+          "dragEnd": 0,
+          "motionStart": 0,
+          "motionTick": 0,
+          "motionStop": 0,
+          "forcedStop": 0
+        },
+        "lastTimings": {
+          "renderMs": 299
+        },
+        "activeMotionCount": 0,
+        "lastStopMs": null,
+        "live": true
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodeCount": 932,
+      "anchorCount": 92,
+      "memberCount": 787,
+      "invalidAncestry": [],
+      "metadataMismatches": [],
+      "nearestOwnCount": 158,
+      "proximityDenominator": 787,
+      "ownSuperfamilyNearestRatio": 0.200762,
+      "crossSfOverlapPairs": 203,
+      "crossSfTotalPenetration": 805.41,
+      "declaredSystemDiscCount": 0,
+      "systemDiscOverlapPairs": 0,
+      "systemDiscTotalPenetration": 0,
+      "worstSystems": [
+        {
+          "superfamilyId": "TREE_Superfamily_hAT",
+          "total": 202,
+          "nearestOwn": 6,
+          "offenders": 196,
+          "ratio": 0.029703
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_L1_LINE_1",
+          "total": 201,
+          "nearestOwn": 32,
+          "offenders": 169,
+          "ratio": 0.159204
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_Tc1_Mariner",
+          "total": 133,
+          "nearestOwn": 7,
+          "offenders": 126,
+          "ratio": 0.052632
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_LINE_2_CR1_Chicken_Repeat_1",
+          "total": 49,
+          "nearestOwn": 15,
+          "offenders": 34,
+          "ratio": 0.306122
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_SINE1_7SL_Alu",
+          "total": 75,
+          "nearestOwn": 59,
+          "offenders": 16,
+          "ratio": 0.786667
+        },
+        {
+          "superfamilyId": "TREE_Non_HERV_LTR",
+          "total": 17,
+          "nearestOwn": 4,
+          "offenders": 13,
+          "ratio": 0.235294
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_SINE2_tRNA",
+          "total": 18,
+          "nearestOwn": 5,
+          "offenders": 13,
+          "ratio": 0.277778
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_RTE",
+          "total": 13,
+          "nearestOwn": 1,
+          "offenders": 12,
+          "ratio": 0.076923
+        },
+        {
+          "superfamilyId": "TREE_HERV_Human_Endogenous_Retrovirus",
+          "total": 30,
+          "nearestOwn": 18,
+          "offenders": 12,
+          "ratio": 0.6
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_MuDR",
+          "total": 9,
+          "nearestOwn": 0,
+          "offenders": 9,
+          "ratio": 0
+        }
+      ],
+      "renderer": {
+        "instanceId": "large-force-renderer-1",
+        "graphId": "taxonomy:all",
+        "source": "all",
+        "sourceKind": "taxonomy",
+        "master": {
+          "nodes": 1660,
+          "edges": 1659
+        },
+        "visible": {
+          "nodes": 932,
+          "edges": 931
+        },
+        "counters": {
+          "create": 1,
+          "destroy": 0,
+          "render": 1,
+          "setData": 0,
+          "draw": 0,
+          "layoutStart": 0,
+          "hover": 0,
+          "click": 0,
+          "dragStart": 0,
+          "dragEnd": 0,
+          "motionStart": 0,
+          "motionTick": 0,
+          "motionStop": 0,
+          "forcedStop": 0
+        },
+        "lastTimings": {
+          "renderMs": 290
+        },
+        "activeMotionCount": 0,
+        "lastStopMs": null,
+        "live": true
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "nodeCount": 932,
+      "anchorCount": 92,
+      "memberCount": 787,
+      "invalidAncestry": [],
+      "metadataMismatches": [],
+      "nearestOwnCount": 158,
+      "proximityDenominator": 787,
+      "ownSuperfamilyNearestRatio": 0.200762,
+      "crossSfOverlapPairs": 203,
+      "crossSfTotalPenetration": 805.41,
+      "declaredSystemDiscCount": 0,
+      "systemDiscOverlapPairs": 0,
+      "systemDiscTotalPenetration": 0,
+      "worstSystems": [
+        {
+          "superfamilyId": "TREE_Superfamily_hAT",
+          "total": 202,
+          "nearestOwn": 6,
+          "offenders": 196,
+          "ratio": 0.029703
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_L1_LINE_1",
+          "total": 201,
+          "nearestOwn": 32,
+          "offenders": 169,
+          "ratio": 0.159204
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_Tc1_Mariner",
+          "total": 133,
+          "nearestOwn": 7,
+          "offenders": 126,
+          "ratio": 0.052632
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_LINE_2_CR1_Chicken_Repeat_1",
+          "total": 49,
+          "nearestOwn": 15,
+          "offenders": 34,
+          "ratio": 0.306122
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_SINE1_7SL_Alu",
+          "total": 75,
+          "nearestOwn": 59,
+          "offenders": 16,
+          "ratio": 0.786667
+        },
+        {
+          "superfamilyId": "TREE_Non_HERV_LTR",
+          "total": 17,
+          "nearestOwn": 4,
+          "offenders": 13,
+          "ratio": 0.235294
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_SINE2_tRNA",
+          "total": 18,
+          "nearestOwn": 5,
+          "offenders": 13,
+          "ratio": 0.277778
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_RTE",
+          "total": 13,
+          "nearestOwn": 1,
+          "offenders": 12,
+          "ratio": 0.076923
+        },
+        {
+          "superfamilyId": "TREE_HERV_Human_Endogenous_Retrovirus",
+          "total": 30,
+          "nearestOwn": 18,
+          "offenders": 12,
+          "ratio": 0.6
+        },
+        {
+          "superfamilyId": "TREE_Superfamily_MuDR",
+          "total": 9,
+          "nearestOwn": 0,
+          "offenders": 9,
+          "ratio": 0
+        }
+      ],
+      "renderer": {
+        "instanceId": "large-force-renderer-1",
+        "graphId": "taxonomy:all",
+        "source": "all",
+        "sourceKind": "taxonomy",
+        "master": {
+          "nodes": 1660,
+          "edges": 1659
+        },
+        "visible": {
+          "nodes": 932,
+          "edges": 931
+        },
+        "counters": {
+          "create": 1,
+          "destroy": 0,
+          "render": 1,
+          "setData": 0,
+          "draw": 0,
+          "layoutStart": 0,
+          "hover": 0,
+          "click": 0,
+          "dragStart": 0,
+          "dragEnd": 0,
+          "motionStart": 0,
+          "motionTick": 0,
+          "motionStop": 0,
+          "forcedStop": 0
+        },
+        "lastTimings": {
+          "renderMs": 280
+        },
+        "activeMotionCount": 0,
+        "lastStopMs": null,
+        "live": true
+      }
+    }
+  ]
+}

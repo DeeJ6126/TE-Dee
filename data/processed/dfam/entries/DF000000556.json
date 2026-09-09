@@ -1,0 +1,51 @@
+{
+  "accession": "DF000000556",
+  "name": "LTR5A",
+  "description": "LTR5A (Long Terminal Repeat) for ERVK endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR5A"
+  ],
+  "species": "Hominoidea",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Hominoidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1033 BP; 264 A; 241 C; 241 G; 283 T; 4 other;"
+  },
+  "sequence": "tgtagggaaaagaaagagagatcagactgtcactgtgtctatgtagaaagggaagacataagagactccattttgaaaaagacctgtactttaaacaattgctttgcntgagatgttgttaatttgtagctttgccccagccactttgccccagccactttgacccaacctggagctcacaaaaacatgtgttgtatgaaatcaaggtttaagggatctagggctgtgcaggacgtgccttgttaacaaaatgtttacaagcagtatacttggtaaaagtcatcgccattctctagtctcaataaaccaggggcacaatgcactgcggaaagccgcagggacctctgcccttgaaagcggggtattgtccaaggtttctccccatgtgatagtctgaaatatggcctcgtgggatgagaaagacctgaccgtcccccagcccgacacccgtaaagggtctgtgctgaggtggattagtaaaagaggaaagcctcttgcagttgagatnagaggaaggccactgtctcctgcctgcccctgggaactgaatgtctcggtataaaacccgattgtacatttgttcaattctgagataggagaaaaaccgccctatggcgggaggcgagacatgtttgcagcaatgctgccttgttattctttactccgctgagatgtttgggtggagagaaacataaatctggcctacgtgcacgtccagncatagtaccttcccttgaacttaattatgacatagattcttttgctcacatgttttnttgctgaccttctccttattatcaccctgctctcctactacattcctttttgctgaaataatgaaaataataatcaataaaaactgagggaactcagaggccggtgccggtgcaggtccttggtgtgctgagcgccggtcccctgggcccactgttgtttctctatactttgtctctgtgtcttatttcttttctcagtctctcgtcccacccgactagaaatacccacaggtgtggaggggcaggccaccccttca",
+  "length_bp": 1033,
+  "sequence_length_bp": 1033,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR5A"
+  ]
+}

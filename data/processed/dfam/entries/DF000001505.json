@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001505",
+  "name": "CER16-2-LTR_CE",
+  "description": "A long terminal repeat of the CER16-2_CE retrotransposon.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CER16-2-LTR_CE"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 492 BP; 108 A; 155 C; 82 G; 146 T; 1 other;"
+  },
+  "sequence": "gatataggcgcttggtcaggttcacccacgaacccacaatcaccatccgcatgagtcgctcactctctgttccattcgttcactcagaaacattccattctttaattaattaaatattattatttgaattagcgccatttgcgtatttcctaatgcaagtgcgccccccccgcacactcgcgttattgcggagcgtcgtactcccgtaaatccacacaaatattcagatgcctttttaggccaactctattcagtcttcacacgtttcaccacggatgccacccgtccccacgtcatccgtctgttncccgttgataattccatttatttattcataataaacttggatttatctaaaatgtgtactgttattccctctgcaccgctcatcgtcatccgccgctcgtccaagctccgtgtcctccgcgcgaacacacgtttcgccgttctcacccgttgggtctgactccccagcgactgcgggtgtcaaca",
+  "length_bp": 492,
+  "sequence_length_bp": 492,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CER16-2-LTR_CE"
+  ]
+}

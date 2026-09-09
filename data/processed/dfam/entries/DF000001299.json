@@ -1,0 +1,55 @@
+{
+  "accession": "DF000001299",
+  "name": "Tigger6",
+  "description": "TcMar-Tigger DNA transposon, Tigger6 subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tigger | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2259 BP; 740 A; 406 C; 479 G; 607 T; 27 other;"
+  },
+  "sequence": "caggcagtcctcgctttgcacggttccgatatgcacgaatttcagttaccacggtttagttaaataacaccagtcccccaacaacacggttcaaatttcagttaccacggtatattaactgtgagtaattgcataaagtacaaacttcgctgctagctcttcagtccacaaatcactacgtaaataacagacgcgcatcatgatcagtgaccaatcacgtcacttctttcaaagtctgtcggtgattggtcactgcgcatctgttattcagttcacgcacagacagcaaagcgtgtagttgtgttgcctccttgtctcccagtgataaacccacgtgacattttacaaaaatggataatcgaaagagggaattggccaacaaagatgaaagtgcagcaaagaaacaaaaagtgataacgctggaagtgaaattggatgtgattagaagatttgaaaatggcgacagcaaagcgaagataggacgagacctaggcctgcatgaagctacggtatgaaccatattgaaaaagtccagtgaatataaaaaacaaggtaaagttgcttcaacatcttttagtttaaattgcactaggaacagaaagccgcttatggctgaaatggagnatttacttctactttggattgaagactgtaataaaaaanaaatcccaatcagtttggctagcattcaggccgaagcgttgaagttagttgccacgttgaaagaaaacggtaattacaaggagantgaagaaaaancttttactgccagtaaaggctggtttcatcatttcagaagtcagcatgaattgattaatgttaagctatctggtgaagctgctagcgcagataaggatgctgctgtgaaatttgcacccagattccaaggattanttaaggcgagtggttatgatgatcatcaaacatttaatattgatgagataagtnnnnnntgnaaggcaactccatccggagcttgtgcnacaggaggcgtaggatngngaagtagctttgaaggagttaaagatagancgactttcttattaggaggcagcgcggagggtgactntgaantaaaacctatgcttntctnnnngtctgagaatcctagagcattaaaaaatcatgaaaaggcatctcagccagtcatttggcatgcaaataaacgatcatgggttacagtaccattgctccaagacttgtttcagttgtgcttttntccagcggtagagagatactntaggcaaaataatttaacttttaaagcactactactgttggataatgctccaggtcaccctgattctcttgggnacttgaatgaaaatgtgaaaatttgctttttaccaccaaacacaacttcattaatccagccaatggaccaaggagttatttcaacttttaaagcctattatcttagatggactttcagacaggctattgatgctacaactggagatcatgcaatttctttagctgagttttggaagaaatatgacataaagcatgcanttgaaaacattcaagcatcatggcaggaagtaacagcgagtaatatgcgtgcagtatggcagaaacttttaccgcgctgtgcaaataactttgcaggattcgaatcgaacgtaaatggagttatagaagaaatagctgaccgtgggaatgttgacactgccgccgttcgagagactctagatatgcagccagaggaacttagtgaaggcgaacttatcgacataaatgaggaaagtggttgtgacgaaaaggatgaagatgtcccagaggaagtgacgccggcaaaaaacttcacattaaaggaactctcggagatatttcacgacattgaaagcgcaaaggataaaatgttggaagctgatccaaacttagaaaggagtatgacaattcgccaaggcatagaaaagatgctcgctccgtatcgtaagttatacgacgagaagaaggcaagcactgttcaaactactcttgataagttttttacaaagaaataaaacactttaattctcaatgtttctaatgttttaaattacagtgtactaaataaatattagttttactattttttcatttccctatacatttataaccgacagtaagagagtttttaatgttttgacaaaaatttttaaaggtcacggaacaatcgtaatttttcccattgattattaagatcgctttgcacggtttcagcttgcacggtcatttttacggtcccgcactaccgtgcaaagcgaggactgcctg",
+  "length_bp": 2259,
+  "sequence_length_bp": 2259,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "350..2003",
+      "start": 349,
+      "end": 2003,
+      "qualifiers": {
+        "product": "Tigger6_tp",
+        "number": "1",
+        "note": "[Eutheria]",
+        "translation": "MDNRKRELANKDESAAKKRKVITLEVKLDVIRRFENGDSKAKIGRDLGLHEATVRTIL"
+      },
+      "label": "Tigger6_tp"
+    }
+  ],
+  "repbase_aliases": []
+}

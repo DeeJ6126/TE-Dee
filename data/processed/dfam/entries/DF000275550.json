@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275550",
+  "name": "CheMed-1.122",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Cheirogaleus medius",
+  "display_classification": "DNA/hAT-Charlie | Cheirogaleus medius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Cheirogaleidae",
+    "Cheirogaleus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 224 BP; 66 A; 55 C; 57 G; 46 T; 0 other;"
+  },
+  "sequence": "caggggtcctcaaactttttaaacagggggccagttcactgtccctcagaccgttggagggccggactatagtttaaaaaaaaaactatgaacaaattcctatgcacactgcacatatcttattttgaagtaaaaaaacaaaacgggcaaaaacacccggcgggccggataaatgtcctcggcgggccgcatgtggcccgcgggccgtagtttgaggacgcctg",
+  "length_bp": 224,
+  "sequence_length_bp": 224,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

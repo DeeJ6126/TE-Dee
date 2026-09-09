@@ -1,0 +1,51 @@
+{
+  "accession": "DF000278403",
+  "name": "MicOch-1.12",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B2"
+  ],
+  "species": "Microtus ochrogaster",
+  "display_classification": "SINE/B2 | Microtus ochrogaster",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Arvicolinae",
+    "Microtus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 195 BP; 68 A; 52 C; 39 G; 35 T; 1 other;"
+  },
+  "sequence": "gggctggagagatggctcagcggttaagagcactgactgctcttccagaggacccgggttcaattcccagcacccacatggcagctcacaactgtctgtaactccagttccaggggatccgacaccctcacacagacatacatgcaggcaaaacaccaatgcacataaaataaaaataaattnttaaaaaaaaaa",
+  "length_bp": 195,
+  "sequence_length_bp": 195,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

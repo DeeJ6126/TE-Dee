@@ -1,0 +1,26 @@
+category,item,value,note
+Neo4j runtime,total nodes,11415,check_home_stats_api.py
+Neo4j runtime,total directed relationships,13696,check_home_stats_api.py
+Neo4j runtime,BIO_RELATION directed relationships,12444,journal-metrics-relation-aggregation.md
+Neo4j runtime,TE nodes,225,check_neo4j_tekg3.py
+Neo4j runtime,Paper nodes,2308,check_journal_metrics_neo4j_import.py
+PubMed evidence,unique PMIDs,2308,pubmed-metadata-enrichment-v2.md
+PubMed evidence,metadata records,2308,pubmed-metadata-enrichment-v2.md
+PubMed evidence,metadata failures,0,pubmed-metadata-enrichment-v2.md
+2025 journal metrics,PMIDs with metric,2037,check_journal_metrics_neo4j_import.py
+2025 journal metrics,PMIDs unmatched metric,271,check_journal_metrics_neo4j_import.py
+2025 journal metrics,unique journals,686,check_journal_metrics_full_mapping.py
+2025 journal metrics,matched journals,594,check_journal_metrics_full_mapping.py
+Relation support,aggregated BIO_RELATION,12444,check_relation_journal_metrics_aggregation.py
+Relation support,raw relation PMID references,14770,journal-metrics-relation-aggregation.md
+Relation support,unique relation PMIDs,2270,journal-metrics-relation-aggregation.md
+Expression,TE rows,37868,expression_processing_manifest.json
+Expression,normal tissue contexts,32,expression_processing_manifest.json
+Expression,normal cell line contexts,54,expression_processing_manifest.json
+Expression,cancer cell line contexts,57,expression_processing_manifest.json
+G6 verified graph,LINE1 nodes,95,check_g6_te_tree_load_regression.py
+G6 verified graph,LINE1 edges,103,check_g6_te_tree_load_regression.py
+G6 verified graph,L1HS nodes,54,check_g6_te_tree_load_regression.py
+G6 verified graph,L1HS edges,58,check_g6_te_tree_load_regression.py
+Taxonomy tree,tree nodes,1632,check_g6_te_tree_load_regression.py
+Taxonomy tree,tree edges,1631,check_g6_te_tree_load_regression.py

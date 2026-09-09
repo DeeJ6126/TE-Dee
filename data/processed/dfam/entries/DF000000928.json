@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000928",
+  "name": "MER75",
+  "description": "PiggyBac DNA transposon, MER75 subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "DNA/PiggyBac | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 514 BP; 141 A; 102 C; 96 G; 175 T; 0 other;"
+  },
+  "sequence": "cccttttcccgtttgccccgagaatactcgccggcggcgcttgcggctgcagcgtttaccccgagataactttgccacgaaatatctcgcttttattattattttcgcatcgctctagtatatcgactttggaaacaaaagacatcattctatttatagcattctgtttttagtagtggtatttccatttacaaaatatagtaattctcgatcgctgaaaatgtcaaatcctagaaaacgtagcattcctacgcgtgatgttaacatcgttctcgaacagttgttggccgaagattcatttgatgaatccgatttttccgaaatagacgattctgatgattcagacgattctgatgttagttctgtttagaaataactccaagaacagtttttatattttattttcacattgaaaatcagtcagatttgcttcagcctcaaagagcgtgtttatgtaaaattaaatgagcgctggcagcgagctgcacttttttttttctaaacgggaaaaggg",
+  "length_bp": 514,
+  "sequence_length_bp": 514,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER75"
+  ]
+}

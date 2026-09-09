@@ -1,0 +1,1540 @@
+{
+  "db_te_source": "D:\\wamp64\\www\\TE-\\data\\processed\\_db_te_names_current.json",
+  "db_te_present": true,
+  "db_te_count": 447,
+  "repbase_entry_count": 526,
+  "matched_count": 276,
+  "unmatched_db_te_count": 171,
+  "repbase_only_count": 250,
+  "matched": [
+    {
+      "db_name": "AluYa5",
+      "repbase_id": "AluYa5"
+    },
+    {
+      "db_name": "AluYb10",
+      "repbase_id": "AluYb10"
+    },
+    {
+      "db_name": "AluYb11",
+      "repbase_id": "AluYb11"
+    },
+    {
+      "db_name": "AluYb8",
+      "repbase_id": "AluYb8"
+    },
+    {
+      "db_name": "AluYb8a1",
+      "repbase_id": "AluYb8a1"
+    },
+    {
+      "db_name": "AluYb9",
+      "repbase_id": "AluYb9"
+    },
+    {
+      "db_name": "AluYk13",
+      "repbase_id": "AluYk13"
+    },
+    {
+      "db_name": "AmnSINE1_HS",
+      "repbase_id": "AmnSINE1_HS"
+    },
+    {
+      "db_name": "CHARLIE10",
+      "repbase_id": "CHARLIE10"
+    },
+    {
+      "db_name": "CHARLIE2A",
+      "repbase_id": "CHARLIE2A"
+    },
+    {
+      "db_name": "CHARLIE2B",
+      "repbase_id": "CHARLIE2B"
+    },
+    {
+      "db_name": "CHARLIE3",
+      "repbase_id": "CHARLIE3"
+    },
+    {
+      "db_name": "CHARLIE5",
+      "repbase_id": "CHARLIE5"
+    },
+    {
+      "db_name": "CHARLIE6",
+      "repbase_id": "CHARLIE6"
+    },
+    {
+      "db_name": "CHARLIE7",
+      "repbase_id": "CHARLIE7"
+    },
+    {
+      "db_name": "CHARLIE8",
+      "repbase_id": "CHARLIE8"
+    },
+    {
+      "db_name": "CHARLIE9",
+      "repbase_id": "CHARLIE9"
+    },
+    {
+      "db_name": "CHESHIRE",
+      "repbase_id": "CHESHIRE"
+    },
+    {
+      "db_name": "CHESHIRE_A",
+      "repbase_id": "CHESHIRE_A"
+    },
+    {
+      "db_name": "CHESHIRE_B",
+      "repbase_id": "CHESHIRE_B"
+    },
+    {
+      "db_name": "CR1_HS",
+      "repbase_id": "CR1_HS"
+    },
+    {
+      "db_name": "ERV3-16A3_I",
+      "repbase_id": "ERV3-16A3_I"
+    },
+    {
+      "db_name": "ERVL",
+      "repbase_id": "ERVL"
+    },
+    {
+      "db_name": "FORDPREFECT",
+      "repbase_id": "FORDPREFECT"
+    },
+    {
+      "db_name": "FORDPREFECT_A",
+      "repbase_id": "FORDPREFECT_A"
+    },
+    {
+      "db_name": "GOLEM_A",
+      "repbase_id": "GOLEM_A"
+    },
+    {
+      "db_name": "GOLEM_C",
+      "repbase_id": "GOLEM_C"
+    },
+    {
+      "db_name": "HARLEQUIN",
+      "repbase_id": "HARLEQUIN"
+    },
+    {
+      "db_name": "HERV-K14CI",
+      "repbase_id": "HERV-K14CI"
+    },
+    {
+      "db_name": "HERV-K14I",
+      "repbase_id": "HERV-K14I"
+    },
+    {
+      "db_name": "HERV18",
+      "repbase_id": "HERV18"
+    },
+    {
+      "db_name": "HERV1_LTR",
+      "repbase_id": "HERV1_LTR"
+    },
+    {
+      "db_name": "HERV4_I",
+      "repbase_id": "HERV4_I"
+    },
+    {
+      "db_name": "HERV9",
+      "repbase_id": "HERV9"
+    },
+    {
+      "db_name": "HERVI",
+      "repbase_id": "HERVI"
+    },
+    {
+      "db_name": "HERVL",
+      "repbase_id": "HERVL"
+    },
+    {
+      "db_name": "HSMAR1",
+      "repbase_id": "HSMAR1"
+    },
+    {
+      "db_name": "HSMAR2",
+      "repbase_id": "HSMAR2"
+    },
+    {
+      "db_name": "HSTC2",
+      "repbase_id": "HSTC2"
+    },
+    {
+      "db_name": "IN25",
+      "repbase_id": "IN25"
+    },
+    {
+      "db_name": "KANGA2_A",
+      "repbase_id": "KANGA2_A"
+    },
+    {
+      "db_name": "L1HS",
+      "repbase_id": "L1HS"
+    },
+    {
+      "db_name": "L1MA1",
+      "repbase_id": "L1MA1"
+    },
+    {
+      "db_name": "L1MA2",
+      "repbase_id": "L1MA2"
+    },
+    {
+      "db_name": "L1MA3",
+      "repbase_id": "L1MA3"
+    },
+    {
+      "db_name": "L1MA4",
+      "repbase_id": "L1MA4"
+    },
+    {
+      "db_name": "L1MA5",
+      "repbase_id": "L1MA5"
+    },
+    {
+      "db_name": "L1MC1",
+      "repbase_id": "L1MC1"
+    },
+    {
+      "db_name": "L1MC4",
+      "repbase_id": "L1MC4"
+    },
+    {
+      "db_name": "L1MD1",
+      "repbase_id": "L1MD1"
+    },
+    {
+      "db_name": "L1MD3",
+      "repbase_id": "L1MD3"
+    },
+    {
+      "db_name": "L1MDB_5",
+      "repbase_id": "L1MDB_5"
+    },
+    {
+      "db_name": "L1PA10",
+      "repbase_id": "L1PA10"
+    },
+    {
+      "db_name": "L1PA11",
+      "repbase_id": "L1PA11"
+    },
+    {
+      "db_name": "L1PA12",
+      "repbase_id": "L1PA12"
+    },
+    {
+      "db_name": "L1PA12_5",
+      "repbase_id": "L1PA12_5"
+    },
+    {
+      "db_name": "L1PA13",
+      "repbase_id": "L1PA13"
+    },
+    {
+      "db_name": "L1PA13_5",
+      "repbase_id": "L1PA13_5"
+    },
+    {
+      "db_name": "L1PA14",
+      "repbase_id": "L1PA14"
+    },
+    {
+      "db_name": "L1PA14_5",
+      "repbase_id": "L1PA14_5"
+    },
+    {
+      "db_name": "L1PA15",
+      "repbase_id": "L1PA15"
+    },
+    {
+      "db_name": "L1PA16",
+      "repbase_id": "L1PA16"
+    },
+    {
+      "db_name": "L1PA16_5",
+      "repbase_id": "L1PA16_5"
+    },
+    {
+      "db_name": "L1PA17_5",
+      "repbase_id": "L1PA17_5"
+    },
+    {
+      "db_name": "L1PA2",
+      "repbase_id": "L1PA2"
+    },
+    {
+      "db_name": "L1PA3",
+      "repbase_id": "L1PA3"
+    },
+    {
+      "db_name": "L1PA4",
+      "repbase_id": "L1PA4"
+    },
+    {
+      "db_name": "L1PA5",
+      "repbase_id": "L1PA5"
+    },
+    {
+      "db_name": "L1PA6",
+      "repbase_id": "L1PA6"
+    },
+    {
+      "db_name": "L1PA7",
+      "repbase_id": "L1PA7"
+    },
+    {
+      "db_name": "L1PA7_5",
+      "repbase_id": "L1PA7_5"
+    },
+    {
+      "db_name": "L1PA8",
+      "repbase_id": "L1PA8"
+    },
+    {
+      "db_name": "L1PB1",
+      "repbase_id": "L1PB1"
+    },
+    {
+      "db_name": "L1PB2",
+      "repbase_id": "L1PB2"
+    },
+    {
+      "db_name": "L1PB3",
+      "repbase_id": "L1PB3"
+    },
+    {
+      "db_name": "L1PB4",
+      "repbase_id": "L1PB4"
+    },
+    {
+      "db_name": "L1PREC2",
+      "repbase_id": "L1PREC2"
+    },
+    {
+      "db_name": "L3",
+      "repbase_id": "L3"
+    },
+    {
+      "db_name": "LOOPER",
+      "repbase_id": "LOOPER"
+    },
+    {
+      "db_name": "LOR1",
+      "repbase_id": "LOR1"
+    },
+    {
+      "db_name": "LTR06",
+      "repbase_id": "LTR06"
+    },
+    {
+      "db_name": "LTR1",
+      "repbase_id": "LTR1"
+    },
+    {
+      "db_name": "LTR10B",
+      "repbase_id": "LTR10B"
+    },
+    {
+      "db_name": "LTR10F",
+      "repbase_id": "LTR10F"
+    },
+    {
+      "db_name": "LTR11",
+      "repbase_id": "LTR11"
+    },
+    {
+      "db_name": "LTR12C",
+      "repbase_id": "LTR12C"
+    },
+    {
+      "db_name": "LTR12D",
+      "repbase_id": "LTR12D"
+    },
+    {
+      "db_name": "LTR13",
+      "repbase_id": "LTR13"
+    },
+    {
+      "db_name": "LTR13A",
+      "repbase_id": "LTR13A"
+    },
+    {
+      "db_name": "LTR14",
+      "repbase_id": "LTR14"
+    },
+    {
+      "db_name": "LTR14C",
+      "repbase_id": "LTR14C"
+    },
+    {
+      "db_name": "LTR15",
+      "repbase_id": "LTR15"
+    },
+    {
+      "db_name": "LTR16",
+      "repbase_id": "LTR16"
+    },
+    {
+      "db_name": "LTR17",
+      "repbase_id": "LTR17"
+    },
+    {
+      "db_name": "LTR18A",
+      "repbase_id": "LTR18A"
+    },
+    {
+      "db_name": "LTR19A",
+      "repbase_id": "LTR19A"
+    },
+    {
+      "db_name": "LTR2",
+      "repbase_id": "LTR2"
+    },
+    {
+      "db_name": "LTR23",
+      "repbase_id": "LTR23"
+    },
+    {
+      "db_name": "LTR24",
+      "repbase_id": "LTR24"
+    },
+    {
+      "db_name": "LTR25",
+      "repbase_id": "LTR25"
+    },
+    {
+      "db_name": "LTR26",
+      "repbase_id": "LTR26"
+    },
+    {
+      "db_name": "LTR27",
+      "repbase_id": "LTR27"
+    },
+    {
+      "db_name": "LTR2752",
+      "repbase_id": "LTR2752"
+    },
+    {
+      "db_name": "LTR28",
+      "repbase_id": "LTR28"
+    },
+    {
+      "db_name": "LTR29",
+      "repbase_id": "LTR29"
+    },
+    {
+      "db_name": "LTR3",
+      "repbase_id": "LTR3"
+    },
+    {
+      "db_name": "LTR30",
+      "repbase_id": "LTR30"
+    },
+    {
+      "db_name": "LTR31",
+      "repbase_id": "LTR31"
+    },
+    {
+      "db_name": "LTR32",
+      "repbase_id": "LTR32"
+    },
+    {
+      "db_name": "LTR34",
+      "repbase_id": "LTR34"
+    },
+    {
+      "db_name": "LTR35",
+      "repbase_id": "LTR35"
+    },
+    {
+      "db_name": "LTR36",
+      "repbase_id": "LTR36"
+    },
+    {
+      "db_name": "LTR37A",
+      "repbase_id": "LTR37A"
+    },
+    {
+      "db_name": "LTR37B",
+      "repbase_id": "LTR37B"
+    },
+    {
+      "db_name": "LTR38",
+      "repbase_id": "LTR38"
+    },
+    {
+      "db_name": "LTR39",
+      "repbase_id": "LTR39"
+    },
+    {
+      "db_name": "LTR4",
+      "repbase_id": "LTR4"
+    },
+    {
+      "db_name": "LTR41",
+      "repbase_id": "LTR41"
+    },
+    {
+      "db_name": "LTR42",
+      "repbase_id": "LTR42"
+    },
+    {
+      "db_name": "LTR43",
+      "repbase_id": "LTR43"
+    },
+    {
+      "db_name": "LTR44",
+      "repbase_id": "LTR44"
+    },
+    {
+      "db_name": "LTR45",
+      "repbase_id": "LTR45"
+    },
+    {
+      "db_name": "LTR46",
+      "repbase_id": "LTR46"
+    },
+    {
+      "db_name": "LTR48",
+      "repbase_id": "LTR48"
+    },
+    {
+      "db_name": "LTR49",
+      "repbase_id": "LTR49"
+    },
+    {
+      "db_name": "LTR5",
+      "repbase_id": "LTR5"
+    },
+    {
+      "db_name": "LTR50",
+      "repbase_id": "LTR50"
+    },
+    {
+      "db_name": "LTR51",
+      "repbase_id": "LTR51"
+    },
+    {
+      "db_name": "LTR52",
+      "repbase_id": "LTR52"
+    },
+    {
+      "db_name": "LTR53",
+      "repbase_id": "LTR53"
+    },
+    {
+      "db_name": "LTR55",
+      "repbase_id": "LTR55"
+    },
+    {
+      "db_name": "LTR57",
+      "repbase_id": "LTR57"
+    },
+    {
+      "db_name": "LTR58",
+      "repbase_id": "LTR58"
+    },
+    {
+      "db_name": "LTR59",
+      "repbase_id": "LTR59"
+    },
+    {
+      "db_name": "LTR5B",
+      "repbase_id": "LTR5B"
+    },
+    {
+      "db_name": "LTR60",
+      "repbase_id": "LTR60"
+    },
+    {
+      "db_name": "LTR61",
+      "repbase_id": "LTR61"
+    },
+    {
+      "db_name": "LTR62",
+      "repbase_id": "LTR62"
+    },
+    {
+      "db_name": "LTR64",
+      "repbase_id": "LTR64"
+    },
+    {
+      "db_name": "LTR65",
+      "repbase_id": "LTR65"
+    },
+    {
+      "db_name": "LTR66",
+      "repbase_id": "LTR66"
+    },
+    {
+      "db_name": "LTR69",
+      "repbase_id": "LTR69"
+    },
+    {
+      "db_name": "LTR70",
+      "repbase_id": "LTR70"
+    },
+    {
+      "db_name": "LTR71A",
+      "repbase_id": "LTR71A"
+    },
+    {
+      "db_name": "LTR71B",
+      "repbase_id": "LTR71B"
+    },
+    {
+      "db_name": "LTR72",
+      "repbase_id": "LTR72"
+    },
+    {
+      "db_name": "LTR73",
+      "repbase_id": "LTR73"
+    },
+    {
+      "db_name": "LTR75",
+      "repbase_id": "LTR75"
+    },
+    {
+      "db_name": "LTR76",
+      "repbase_id": "LTR76"
+    },
+    {
+      "db_name": "LTR77",
+      "repbase_id": "LTR77"
+    },
+    {
+      "db_name": "LTR78B",
+      "repbase_id": "LTR78B"
+    },
+    {
+      "db_name": "LTR7A",
+      "repbase_id": "LTR7A"
+    },
+    {
+      "db_name": "LTR7B",
+      "repbase_id": "LTR7B"
+    },
+    {
+      "db_name": "LTR7C",
+      "repbase_id": "LTR7C"
+    },
+    {
+      "db_name": "LTR8",
+      "repbase_id": "LTR8"
+    },
+    {
+      "db_name": "LTR81AB",
+      "repbase_id": "LTR81AB"
+    },
+    {
+      "db_name": "LTR8B",
+      "repbase_id": "LTR8B"
+    },
+    {
+      "db_name": "LTR9",
+      "repbase_id": "LTR9"
+    },
+    {
+      "db_name": "LTR91",
+      "repbase_id": "LTR91"
+    },
+    {
+      "db_name": "LTR9B",
+      "repbase_id": "LTR9B"
+    },
+    {
+      "db_name": "MADE1",
+      "repbase_id": "MADE1"
+    },
+    {
+      "db_name": "MARNA",
+      "repbase_id": "MARNA"
+    },
+    {
+      "db_name": "MER101",
+      "repbase_id": "MER101"
+    },
+    {
+      "db_name": "MER103B",
+      "repbase_id": "MER103B"
+    },
+    {
+      "db_name": "MER103C",
+      "repbase_id": "MER103C"
+    },
+    {
+      "db_name": "MER106",
+      "repbase_id": "MER106"
+    },
+    {
+      "db_name": "MER107",
+      "repbase_id": "MER107"
+    },
+    {
+      "db_name": "MER110",
+      "repbase_id": "MER110"
+    },
+    {
+      "db_name": "MER112",
+      "repbase_id": "MER112"
+    },
+    {
+      "db_name": "MER113",
+      "repbase_id": "MER113"
+    },
+    {
+      "db_name": "MER117",
+      "repbase_id": "MER117"
+    },
+    {
+      "db_name": "MER119",
+      "repbase_id": "MER119"
+    },
+    {
+      "db_name": "MER11A",
+      "repbase_id": "MER11A"
+    },
+    {
+      "db_name": "MER11C",
+      "repbase_id": "MER11C"
+    },
+    {
+      "db_name": "MER11D",
+      "repbase_id": "MER11D"
+    },
+    {
+      "db_name": "MER1A",
+      "repbase_id": "MER1A"
+    },
+    {
+      "db_name": "MER1B",
+      "repbase_id": "MER1B"
+    },
+    {
+      "db_name": "MER20",
+      "repbase_id": "MER20"
+    },
+    {
+      "db_name": "MER21",
+      "repbase_id": "MER21"
+    },
+    {
+      "db_name": "MER28",
+      "repbase_id": "MER28"
+    },
+    {
+      "db_name": "MER30B",
+      "repbase_id": "MER30B"
+    },
+    {
+      "db_name": "MER31",
+      "repbase_id": "MER31"
+    },
+    {
+      "db_name": "MER33",
+      "repbase_id": "MER33"
+    },
+    {
+      "db_name": "MER34",
+      "repbase_id": "MER34"
+    },
+    {
+      "db_name": "MER39",
+      "repbase_id": "MER39"
+    },
+    {
+      "db_name": "MER44A",
+      "repbase_id": "MER44A"
+    },
+    {
+      "db_name": "MER44B",
+      "repbase_id": "MER44B"
+    },
+    {
+      "db_name": "MER44C",
+      "repbase_id": "MER44C"
+    },
+    {
+      "db_name": "MER45",
+      "repbase_id": "MER45"
+    },
+    {
+      "db_name": "MER48",
+      "repbase_id": "MER48"
+    },
+    {
+      "db_name": "MER50",
+      "repbase_id": "MER50"
+    },
+    {
+      "db_name": "MER51A",
+      "repbase_id": "MER51A"
+    },
+    {
+      "db_name": "MER51B",
+      "repbase_id": "MER51B"
+    },
+    {
+      "db_name": "MER52A",
+      "repbase_id": "MER52A"
+    },
+    {
+      "db_name": "MER53",
+      "repbase_id": "MER53"
+    },
+    {
+      "db_name": "MER54",
+      "repbase_id": "MER54"
+    },
+    {
+      "db_name": "MER5B",
+      "repbase_id": "MER5B"
+    },
+    {
+      "db_name": "MER61",
+      "repbase_id": "MER61A"
+    },
+    {
+      "db_name": "MER63A",
+      "repbase_id": "MER63A"
+    },
+    {
+      "db_name": "MER63B",
+      "repbase_id": "MER63B"
+    },
+    {
+      "db_name": "MER63D",
+      "repbase_id": "MER63D"
+    },
+    {
+      "db_name": "MER68B",
+      "repbase_id": "MER68B"
+    },
+    {
+      "db_name": "MER68C",
+      "repbase_id": "MER68C"
+    },
+    {
+      "db_name": "MER69C",
+      "repbase_id": "MER69C"
+    },
+    {
+      "db_name": "MER6B",
+      "repbase_id": "MER6B"
+    },
+    {
+      "db_name": "MER70A",
+      "repbase_id": "MER70A"
+    },
+    {
+      "db_name": "MER70B",
+      "repbase_id": "MER70B"
+    },
+    {
+      "db_name": "MER70C",
+      "repbase_id": "MER70C"
+    },
+    {
+      "db_name": "MER72",
+      "repbase_id": "MER72"
+    },
+    {
+      "db_name": "MER73",
+      "repbase_id": "MER73"
+    },
+    {
+      "db_name": "MER74B",
+      "repbase_id": "MER74B"
+    },
+    {
+      "db_name": "MER74C",
+      "repbase_id": "MER74C"
+    },
+    {
+      "db_name": "MER75",
+      "repbase_id": "MER75"
+    },
+    {
+      "db_name": "MER75B",
+      "repbase_id": "MER75B"
+    },
+    {
+      "db_name": "MER76",
+      "repbase_id": "MER76"
+    },
+    {
+      "db_name": "MER77",
+      "repbase_id": "MER77"
+    },
+    {
+      "db_name": "MER8",
+      "repbase_id": "MER8"
+    },
+    {
+      "db_name": "MER80B",
+      "repbase_id": "MER80B"
+    },
+    {
+      "db_name": "MER81",
+      "repbase_id": "MER81"
+    },
+    {
+      "db_name": "MER83",
+      "repbase_id": "MER83"
+    },
+    {
+      "db_name": "MER84",
+      "repbase_id": "MER84"
+    },
+    {
+      "db_name": "MER85",
+      "repbase_id": "MER85"
+    },
+    {
+      "db_name": "MER87",
+      "repbase_id": "MER87"
+    },
+    {
+      "db_name": "MER88",
+      "repbase_id": "MER88"
+    },
+    {
+      "db_name": "MER89",
+      "repbase_id": "MER89"
+    },
+    {
+      "db_name": "MER9",
+      "repbase_id": "MER9"
+    },
+    {
+      "db_name": "MER90",
+      "repbase_id": "MER90"
+    },
+    {
+      "db_name": "MER91A",
+      "repbase_id": "MER91A"
+    },
+    {
+      "db_name": "MER91C",
+      "repbase_id": "MER91C"
+    },
+    {
+      "db_name": "MER92A",
+      "repbase_id": "MER92A"
+    },
+    {
+      "db_name": "MER92B",
+      "repbase_id": "MER92B"
+    },
+    {
+      "db_name": "MER94",
+      "repbase_id": "MER94"
+    },
+    {
+      "db_name": "MER95",
+      "repbase_id": "MER95"
+    },
+    {
+      "db_name": "MER96",
+      "repbase_id": "MER96"
+    },
+    {
+      "db_name": "MER97A",
+      "repbase_id": "MER97A"
+    },
+    {
+      "db_name": "MER97B",
+      "repbase_id": "MER97B"
+    },
+    {
+      "db_name": "MER97C",
+      "repbase_id": "MER97C"
+    },
+    {
+      "db_name": "MER99",
+      "repbase_id": "MER99"
+    },
+    {
+      "db_name": "MLT1G",
+      "repbase_id": "MLT1G"
+    },
+    {
+      "db_name": "MLT1H",
+      "repbase_id": "MLT1H"
+    },
+    {
+      "db_name": "MLT1I",
+      "repbase_id": "MLT1I"
+    },
+    {
+      "db_name": "MLT1K",
+      "repbase_id": "MLT1K"
+    },
+    {
+      "db_name": "MLT1L",
+      "repbase_id": "MLT1L"
+    },
+    {
+      "db_name": "MLT1N2",
+      "repbase_id": "MLT1N2"
+    },
+    {
+      "db_name": "MLT2A1",
+      "repbase_id": "MLT2A1"
+    },
+    {
+      "db_name": "MLT2A2",
+      "repbase_id": "MLT2A2"
+    },
+    {
+      "db_name": "MLT2C2",
+      "repbase_id": "MLT2C2"
+    },
+    {
+      "db_name": "MLT2D",
+      "repbase_id": "MLT2D"
+    },
+    {
+      "db_name": "MSTB",
+      "repbase_id": "MSTB"
+    },
+    {
+      "db_name": "MSTD",
+      "repbase_id": "MSTD"
+    },
+    {
+      "db_name": "Merlin1_HS",
+      "repbase_id": "Merlin1_HS"
+    },
+    {
+      "db_name": "PABL_A",
+      "repbase_id": "PABL_A"
+    },
+    {
+      "db_name": "PABL_B",
+      "repbase_id": "PABL_B"
+    },
+    {
+      "db_name": "PRIMA41",
+      "repbase_id": "PRIMA41"
+    },
+    {
+      "db_name": "PRIMA4_I",
+      "repbase_id": "PRIMA4_I"
+    },
+    {
+      "db_name": "PRIMAX_I",
+      "repbase_id": "PRIMAX_I"
+    },
+    {
+      "db_name": "PTR5",
+      "repbase_id": "PTR5"
+    },
+    {
+      "db_name": "PrimLTR79",
+      "repbase_id": "PrimLTR79"
+    },
+    {
+      "db_name": "Retroposon-1_HS",
+      "repbase_id": "Retroposon-1_HS"
+    },
+    {
+      "db_name": "SVA_A",
+      "repbase_id": "SVA_A"
+    },
+    {
+      "db_name": "SVA_B",
+      "repbase_id": "SVA_B"
+    },
+    {
+      "db_name": "SVA_C",
+      "repbase_id": "SVA_C"
+    },
+    {
+      "db_name": "SVA_D",
+      "repbase_id": "SVA_D"
+    },
+    {
+      "db_name": "SVA_E",
+      "repbase_id": "SVA_E"
+    },
+    {
+      "db_name": "SVA_F",
+      "repbase_id": "SVA_F"
+    },
+    {
+      "db_name": "THE1A",
+      "repbase_id": "THE1A"
+    },
+    {
+      "db_name": "THE1C",
+      "repbase_id": "THE1C"
+    },
+    {
+      "db_name": "TIGGER1",
+      "repbase_id": "TIGGER1"
+    },
+    {
+      "db_name": "TIGGER2",
+      "repbase_id": "TIGGER2"
+    },
+    {
+      "db_name": "TIGGER5",
+      "repbase_id": "TIGGER5"
+    },
+    {
+      "db_name": "TIGGER6B",
+      "repbase_id": "TIGGER6B"
+    },
+    {
+      "db_name": "TIGGER7",
+      "repbase_id": "TIGGER7"
+    },
+    {
+      "db_name": "TIGGER8",
+      "repbase_id": "TIGGER8"
+    },
+    {
+      "db_name": "TIGGER9",
+      "repbase_id": "TIGGER9"
+    },
+    {
+      "db_name": "ZAPHOD",
+      "repbase_id": "ZAPHOD"
+    },
+    {
+      "db_name": "ZOMBI_A",
+      "repbase_id": "ZOMBI_A"
+    }
+  ],
+  "unmatched_db_te": [
+    "A-type subfamily",
+    "A_I",
+    "A_II",
+    "Alu",
+    "CR1",
+    "CR1 clade",
+    "DNA Transposon",
+    "ERV1",
+    "ERV2",
+    "ERV3",
+    "ERV9",
+    "Endogenous Retrovirus",
+    "FL-L1s",
+    "G(F) subfamily",
+    "GF subfamily",
+    "Gf_I",
+    "HERV",
+    "HERV-W",
+    "HERVK",
+    "HERVK14C",
+    "HERVK9",
+    "HS",
+    "HuRRS-P",
+    "Human Endogenous Retrovirus",
+    "I factor",
+    "I retrotransposon",
+    "IAP",
+    "L1 ORF1",
+    "L1 ORF1p",
+    "L1 retrotransposons",
+    "L1(CHM)",
+    "L1(IGL)",
+    "L1(RP)",
+    "L1-Ta",
+    "L1-preTa",
+    "L1.2",
+    "L1.2A",
+    "L1.2B",
+    "L1.3",
+    "L1.4",
+    "L1A102",
+    "L1HS-Ta",
+    "L1M",
+    "L1M1",
+    "L1M2",
+    "L1M3",
+    "L1M4",
+    "L1ME",
+    "L1Md_T",
+    "L1P",
+    "L1P1",
+    "L1P2",
+    "L1P3",
+    "L1P4",
+    "L1P5",
+    "L1PA lineage",
+    "L1PA1",
+    "L1PA13A",
+    "L1PA17",
+    "L1PA2-L1PA7",
+    "L1PA8A",
+    "L1Pt",
+    "L1Pt-1",
+    "L1Pt-2",
+    "L1RP",
+    "L1beta-thal",
+    "L1spa",
+    "LINE",
+    "LINE-1(RP)",
+    "LINE-1-FGGY",
+    "LINE-1_Cf",
+    "LINE1",
+    "LRE2",
+    "LRE3",
+    "LRs",
+    "LTR",
+    "LTR retrotransposon",
+    "LTR10",
+    "LTR12",
+    "LTR16B",
+    "LTR18",
+    "LTR19",
+    "LTR20",
+    "LTR20B",
+    "LTR20C",
+    "LTR21",
+    "LTR22",
+    "LTR40",
+    "LTR47",
+    "LTR6",
+    "LTR7",
+    "LTR78",
+    "MER1",
+    "MER11",
+    "MER37",
+    "MER4",
+    "MER41",
+    "MER44",
+    "MER46",
+    "MER47",
+    "MER5",
+    "MER51",
+    "MER52",
+    "MER57",
+    "MER65",
+    "MER66",
+    "MER67",
+    "MER74",
+    "MLT1",
+    "MLT2",
+    "Mariner/Tc1",
+    "Merlin",
+    "MstII",
+    "NMR-L1",
+    "ORFeus-Hs",
+    "ORFeus-Mm",
+    "RC-L1",
+    "RTE",
+    "Retroelement",
+    "Retrotransposon",
+    "Retrovirus",
+    "SART1",
+    "SINE",
+    "SINE R/VNTR/Alu",
+    "SINE-R",
+    "SVA",
+    "T(F) subfamily",
+    "T(FC)",
+    "T(Fspa)",
+    "TF subfamily",
+    "TE",
+    "THE1",
+    "THE1B",
+    "THE1BR",
+    "TRAS1",
+    "Tf_I",
+    "Tf_II",
+    "Tf_III",
+    "Tigger3",
+    "Unclassified / Putative",
+    "ZfL2-1",
+    "ZfL2-2",
+    "Zorro3",
+    "aL1",
+    "baboon-specific L1s",
+    "chicken CR1",
+    "cool alleles",
+    "endogenous retroelement",
+    "engineered L1 element",
+    "engineered human L1s",
+    "env",
+    "full-length (FL) LINE-1",
+    "hAT",
+    "highly active RC-L1",
+    "hot L1s",
+    "hot LINE-1s",
+    "human-specific L1s",
+    "intact L1",
+    "mouse L1",
+    "mouse L1s",
+    "non-LTR retrotransposon",
+    "non-reference RC-L1",
+    "nonreference full-length LINE-1",
+    "piggyBac",
+    "primate-specific L1s",
+    "rc-L1s",
+    "reference RC-L1",
+    "retroposon",
+    "retrotransposition-competent L1s",
+    "reverse transcriptase",
+    "zebrafish LINE-2"
+  ],
+  "repbase_only_ids": [
+    "ERV3-16A3_LTR",
+    "HAL1B",
+    "HARLEQUINLTR",
+    "HERV15I",
+    "HERV16",
+    "HERV17",
+    "HERV19I",
+    "HERV23",
+    "HERV3",
+    "HERV30I",
+    "HERV35I",
+    "HERV38I",
+    "HERV39",
+    "HERV46I",
+    "HERV49I",
+    "HERV4_LTR",
+    "HERV52I",
+    "HERV57I",
+    "HERVE",
+    "HERVFH19I",
+    "HERVG25",
+    "HERVH48I",
+    "HERVIP10F",
+    "HERVIP10FH",
+    "HERVK11DI",
+    "HERVK11I",
+    "HERVK13I",
+    "HERVK3I",
+    "HERVK9I",
+    "HERVL74",
+    "HERVL_40",
+    "HERVP71A_I",
+    "HUERS-P2",
+    "HUERS-P3",
+    "HUERS-P3B",
+    "L1",
+    "L1M1B_5",
+    "L1M2A1_5",
+    "L1M2A_5",
+    "L1M2B_5",
+    "L1M2C_5",
+    "L1M2_5",
+    "L1M3B_5",
+    "L1M3C_5",
+    "L1M4B",
+    "L1M6B_5end",
+    "L1MA4A",
+    "L1MA5A",
+    "L1MA6",
+    "L1MA7",
+    "L1MA8",
+    "L1MA9",
+    "L1MB1",
+    "L1MB2",
+    "L1MB3",
+    "L1MB3_5",
+    "L1MB4",
+    "L1MB5",
+    "L1MB8",
+    "L1MC2",
+    "L1MCA_5",
+    "L1MCB_5",
+    "L1MCC_5",
+    "L1MD2",
+    "L1ME1",
+    "L1ME2",
+    "L1ME3",
+    "L1ME3A",
+    "L1ME4A",
+    "L1MEA_5",
+    "L1MEB_5",
+    "L1MED_5",
+    "L1MEE_5",
+    "L1ME_ORF2",
+    "L1PB2c",
+    "L1PBA1_5",
+    "L1PBA_5",
+    "L1PBB_5",
+    "L1PREC1",
+    "LOR1I",
+    "LTR10B2",
+    "LTR10C",
+    "LTR10D",
+    "LTR12B",
+    "LTR12E",
+    "LTR14A",
+    "LTR14B",
+    "LTR16A1",
+    "LTR16A2",
+    "LTR16C",
+    "LTR16D",
+    "LTR16E",
+    "LTR18B",
+    "LTR18C",
+    "LTR19B",
+    "LTR19C",
+    "LTR1B",
+    "LTR1B1",
+    "LTR1C",
+    "LTR1C2",
+    "LTR1D",
+    "LTR1E",
+    "LTR1F",
+    "LTR21A",
+    "LTR21B",
+    "LTR21C",
+    "LTR22A",
+    "LTR22B",
+    "LTR22B1",
+    "LTR22B2",
+    "LTR22C2",
+    "LTR22E",
+    "LTR24B",
+    "LTR24C",
+    "LTR26C",
+    "LTR26D",
+    "LTR26E",
+    "LTR27B",
+    "LTR27C",
+    "LTR27D",
+    "LTR27E",
+    "LTR28B",
+    "LTR28C",
+    "LTR2B",
+    "LTR2C",
+    "LTR35B",
+    "LTR38A1",
+    "LTR38B",
+    "LTR38C",
+    "LTR3B",
+    "LTR40A",
+    "LTR40B",
+    "LTR40C",
+    "LTR41B",
+    "LTR41C",
+    "LTR43B",
+    "LTR45B",
+    "LTR45C",
+    "LTR47A",
+    "LTR47A2",
+    "LTR47B",
+    "LTR47B2",
+    "LTR48B",
+    "LTR53B",
+    "LTR56",
+    "LTR60B",
+    "LTR6A",
+    "LTR6B",
+    "LTR6C",
+    "LTR6D",
+    "LTR72B",
+    "LTR75B",
+    "LTR77B",
+    "LTR8A",
+    "LTR9A1",
+    "LTR9C",
+    "LTR9D",
+    "MER101B",
+    "MER106B",
+    "MER110A",
+    "MER110I",
+    "MER113B",
+    "MER20B",
+    "MER21A",
+    "MER21I",
+    "MER31B",
+    "MER31_I",
+    "MER34B",
+    "MER34B_I",
+    "MER34C",
+    "MER34C2",
+    "MER39B",
+    "MER41A",
+    "MER41B",
+    "MER41C",
+    "MER41D",
+    "MER41F",
+    "MER41G",
+    "MER41I",
+    "MER45B",
+    "MER45C",
+    "MER45R",
+    "MER49",
+    "MER4A",
+    "MER4A1",
+    "MER4B",
+    "MER4BI",
+    "MER4C",
+    "MER4CL34",
+    "MER4D",
+    "MER4D1",
+    "MER4E",
+    "MER4E1",
+    "MER4I",
+    "MER50B",
+    "MER50I",
+    "MER51C",
+    "MER51D",
+    "MER51E",
+    "MER51I",
+    "MER52AI",
+    "MER52B",
+    "MER52C",
+    "MER52D",
+    "MER54A",
+    "MER54B",
+    "MER57A1",
+    "MER57A_I",
+    "MER57B2",
+    "MER57F",
+    "MER57I",
+    "MER61B",
+    "MER61C",
+    "MER61D",
+    "MER61E",
+    "MER61F",
+    "MER61I",
+    "MER65B",
+    "MER65C",
+    "MER65D",
+    "MER66A",
+    "MER66B",
+    "MER66C",
+    "MER66D",
+    "MER66_I",
+    "MER67A",
+    "MER67B",
+    "MER67C",
+    "MER67D",
+    "MER72B",
+    "MER83AI",
+    "MER83B",
+    "MER83BI",
+    "MER83C",
+    "MER84I",
+    "MER87B",
+    "MER89I",
+    "MER94B",
+    "MER96B",
+    "MER9B",
+    "MLT1G1",
+    "MLT1G2",
+    "MLT1G3",
+    "MLT1H1",
+    "MLT1H2",
+    "PABL_AI",
+    "PABL_BI",
+    "PRIMA4_LTR",
+    "THE1D",
+    "THE1_I"
+  ]
+}

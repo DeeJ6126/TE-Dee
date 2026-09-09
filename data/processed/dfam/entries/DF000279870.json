@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279870",
+  "name": "PanOnc-1.11",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Panthera onca",
+  "display_classification": "SINE/tRNA | Panthera onca",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Felidae",
+    "Pantherinae",
+    "Panthera"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 132 BP; 27 A; 34 C; 41 G; 30 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccgactcttgatctcagctcaggtcttgatctcagggtcgtgagttcaagccccgcgttgggctccgcgctgggcgtgaagcctacttaaaaaaaaaaaa",
+  "length_bp": 132,
+  "sequence_length_bp": 132,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

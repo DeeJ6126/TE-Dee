@@ -1,0 +1,51 @@
+{
+  "accession": "DF000282037",
+  "name": "HemHyl-5.1848_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "HemHyl-5.1848_LTR"
+  ],
+  "species": "Hemitragus hylocrius",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Hemitragus hylocrius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Caprinae",
+    "Hemitragus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 484 BP; 124 A; 144 C; 111 G; 104 T; 1 other;"
+  },
+  "sequence": "ttgttaggggaagcacactgattgaaaccgcccaccctggccaggcaccatagtaaccatttgcatgagttgttttatgacaggagatcctggtaaggaatacggaactaataagccaccaccaaccggaagagttcgggaaaggtcaaaaggagacaccgcgtgtccgtccacttcccagaatccctctcgctagcatccatcttggctgagcgatgcgtgcgccaccaggaaagactctgaattagaatgattggccaaagacnacccggaaactaatcccatcaccataaaacccgagactgcgagccacgcggcagagcagttctcctgggttcccttaccctactgctctccacccgggtgccctttcccaataaaatctcttgctttgtcagcacatgtgtctcctcggacaattcatttccgagtgttagacaagagcccagtttcgggccctggaaggggtcccccttcctgcaac",
+  "length_bp": 484,
+  "sequence_length_bp": 484,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000289978",
+  "name": "SeSE1",
+  "description": "Lineage-specific SINE element found in an lepidopteran insect",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Spodoptera exigua",
+  "display_classification": "SINE/tRNA | Spodoptera exigua",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Noctuoidea",
+    "Noctuidae",
+    "Amphipyrinae",
+    "Spodoptera"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 294 BP; 74 A; 60 C; 76 G; 82 T; 2 other;"
+  },
+  "sequence": "gtcgtggtggcccggaggttaaggcgcccgcttctcatgcatgagggtgcgggttcgaaacctggcaagtaccaatgtgactttttccgagttatatgtactttctatgattatttagacaccactgacatacggtgaaggnaaacatcgtgaggaaacctggacttataatttctaattataagtttgaaatcgccaacccgcnttgagcaagcgtggtgattaatgctcaaaccttctccgtgtgagaagaggcctttgctcagcagtgggcacttataggctgatgatgat",
+  "length_bp": 294,
+  "sequence_length_bp": 294,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

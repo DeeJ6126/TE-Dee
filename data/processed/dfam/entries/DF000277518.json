@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277518",
+  "name": "HydHyd-1.16",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Hydrochoerus hydrochaeris",
+  "display_classification": "SINE/Alu | Hydrochoerus hydrochaeris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Hydrochaeridae",
+    "Hydrochoerus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 153 BP; 46 A; 38 C; 46 G; 23 T; 0 other;"
+  },
+  "sequence": "gggcgtggtggctcacgcctgtaatcccagcactcgggaggctgaggcaggaggatcgttgcgagttcgagaccagcctgggctacaaagtgagctcaaggccagcctgaactgcatagcgagaccctgtctcaaaaagacaaaaaaaaaaaa",
+  "length_bp": 153,
+  "sequence_length_bp": 153,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

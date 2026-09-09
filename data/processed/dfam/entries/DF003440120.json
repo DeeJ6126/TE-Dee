@@ -1,0 +1,48 @@
+{
+  "accession": "DF003440120",
+  "name": "Helitron13_mMyo",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Myotis myotis",
+  "display_classification": "RC/Helitron | Myotis myotis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Myotis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1104 BP; 254 A; 364 C; 316 G; 159 T; 11 other;"
+  },
+  "sequence": "tctacactaataanagacaaacatggtaattaaccgtacctccgctacnccgcttcgcccatcggctaatcaggagcgagtatgcaaattaacccaacnaagatggcggcagccanggagctgaagcgagcaggaggcttgcgttgccccnagcgatggaggaagccaaggttcccgcctgccgcggccggctctgagctccgctcaaagcaacaaagtttcaattatagaagctaaacaaaccccagatacctgcttccagccggccntggcctccgctcaaggaggcgctgnaaaaaaaaaaaaaaagaaaaaaaggagaggctgggagcttcggtcgccggggggcttggccagcctgaaaacggccctcagcccctcacccaggctggccaggcaccccagtggggnccccccaccctgaagggggtgtggccagcctgaaaacagccatcagcccctcacccaggctggccacacccccgcgnagtggggacccccactggggggcgtggccagcctgcaaacagccatcagcccctcacccaggctggccaggcacccnagcgggacccccaccctgatccgggacacccttcagggcaaaccagccggcccccacccgtgcaccaggcctctatcctatatagtaaaagggtaatatgcaaactgaccctaacagcagaaagactgggaatgactggtcactatgacacacactgaccaccagggggcagacgctcaatgcaggagctgccccctggtggtcagtgcgctcccacagggggagctctgctcagccacaagccaggctgatggctgccagtacagcggtggtggtgggagcctctcccgcctcctcagcagcgctaaggatgtccgactgcagcttaggtctgctccccgctggcaagtggacatcccccgagggctgccgggctgccagagggatgtctgattgccagcttaggcccgatcccccggggagcgggcctaagccagcaggtggtcatccccngaggggtcccagactgcgagagggcacaggccgggctgagggacccccccccgagtgcacaaatttttgtgcaccgggcctctagt",
+  "length_bp": 1104,
+  "sequence_length_bp": 1104,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

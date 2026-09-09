@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275173",
+  "name": "BubBub-1.54",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-Core-RTE"
+  ],
+  "species": "Bubalus bubalis",
+  "display_classification": "SINE/tRNA-Core-RTE | Bubalus bubalis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bubalus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 213 BP; 56 A; 56 C; 65 G; 36 T; 0 other;"
+  },
+  "sequence": "gggcttccctggtggctcagtggtaaagaatccgcctgccaatgcaggagacgcgggttcgatccctgggtcgggaagatcccctggagaaggaaatggcaacccactccagtattcttgcctgggaaatcccatggacagaggagcctggcgggctacagtccatggggtcgcaaaagagtcggacacgacttagcgactaaacaacaacaa",
+  "length_bp": 213,
+  "sequence_length_bp": 213,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

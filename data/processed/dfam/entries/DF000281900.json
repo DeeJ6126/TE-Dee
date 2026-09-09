@@ -1,0 +1,47 @@
+{
+  "accession": "DF000281900",
+  "name": "EchTel-1.398_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EchTel-1.398_LTR"
+  ],
+  "species": "Echinops telfairi",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Echinops telfairi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Tenrecinae",
+    "Echinops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 563 BP; 117 A; 130 C; 131 G; 182 T; 3 other;"
+  },
+  "sequence": "tgagatagttagtttattgtgccaacctggccgataaacacatgtgggattaattgaagggcggagagataaatggctcggcgagcctcgcctttcttgtctcttgctctttgatcatcggaccagtgtgcggctgccttgcttgttctgtgcctcaatttgcgagctacactacctgtgggacacctaacccgtggactgtgtcgctgtaatttgaggttccttcaagacctgcttcgccacactattggaatntacatctcttgagctggggactgtcggaccctgtcatctggctgactgttggtgacctgccttgctgtttgctgcctgtgcccggatagcctgaattgctctacggaggactacccggcggccctcaagacttgaaggactgccagtgtctcacaactgtctcacgggagtgagttgcactgagccatttgtactgctttataanttaattaactgtttatttcttatgttatatatctatctatatanatatatatataattattagcgttctggttttgtttctctagagaaccctgtctaacaca",
+  "length_bp": 563,
+  "sequence_length_bp": 563,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004040",
+  "name": "IS3EU-6_DR",
+  "description": "Autonomous IS3EU DNA transposon from zebrafish (fragment)",
+  "keywords": [
+    "DNA/IS3EU"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/IS3EU | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 918 BP; 240 A; 190 C; 203 G; 257 T; 28 other;"
+  },
+  "sequence": "tntttctgtctttcaggaactgttgttgaaccatttattgcaacggctttgtaatcgcctgacnctctggctggaacgtatcccacttgacatagactttctagantttacatntgcccaggagctggtcatttttagtgccatcccacatcagactccccttgcgcatgaagtgtatgatgnactttatcgggtncancnaatggctgtaaccagcactaacagtgattcacatgtcatagnttgcgaagagaaangaacaaatggccgtccacggatnttactatctgaaggttctgtatcccaactgctttcttnaggatttcctgtgacatgtnttgcaaggttgctcggggtgtcnaggttcacaattcatagacggatggtggaatggggnttgtctgtgaagtcaacctacagcaacntaacagatgcagancttgattcacttgtggcaaaaatccacacnagcaatcccaatgcaggttacagaatgatnatgggacttctgagagcacaaggccatcgagtncaatgggatagagttcgtanctcaatgcatcgtgttgacactcaggcatcgtttccaggatgtcacagttaggatgtgtggttagaaggacatactctgtccccagtccaaagtccctaatgcacatcgacacagaccacaagttgatanggtaagttaagcatacacattacatttattatgtactgtatnctcagttcaganatgtgacagaaatgtattattcaaggtataacatcatatttttttatacatatttttnttcaatncctcccagggtccggggtgatcacggaggggagaacgtagacgtggcctgcctcgtgttttctgtccgtggaacagggagaagtancttcatcgcgggtaaaagtnttcacaatcag",
+  "length_bp": 918,
+  "sequence_length_bp": 918,
+  "model_type": "unknown_fragment",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "IS3EU-6_DR"
+  ]
+}

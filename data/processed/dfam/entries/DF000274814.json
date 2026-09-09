@@ -1,0 +1,50 @@
+{
+  "accession": "DF000274814",
+  "name": "AntAme-1.50",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Antilocapra americana peninsularis",
+  "display_classification": "SINE/tRNA | Antilocapra americana peninsularis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Antilocapridae",
+    "Antilocapra",
+    "Antilocapra americana"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 349 BP; 108 A; 111 C; 86 G; 44 T; 0 other;"
+  },
+  "sequence": "gggcttccctggtggctcagtggtaaagaatccgcctgccaatgcaggagacacgggttcgatccctggtccgggaagatcccacatgccgcggagcaactaagcccgtgcgccacaactactgagcctgtgctctagagcccgggagccgcaactactgagcccacgtgccaactactgaagccgcacctagagcccgtgctccgcaacaagagaagccaccgcaatgagaagcccgcgcaccgcaactagagagtagcccccgctcgccgcaactagagaaaagcccgcgcagcaacgaagacccagcacagccaaaaataaataaataaataaattaaaaaaaaaa",
+  "length_bp": 349,
+  "sequence_length_bp": 349,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

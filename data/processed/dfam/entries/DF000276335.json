@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276335",
+  "name": "DelLeu-1.219",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Delphinapterus leucas",
+  "display_classification": "DNA/TcMar-Tigger | Delphinapterus leucas",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Monodontidae",
+    "Delphinapterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 507 BP; 134 A; 107 C; 112 G; 154 T; 0 other;"
+  },
+  "sequence": "cagacggtccccgacttacgatggttcgacttacgatttttcgactttacgatggtgcgaaagcgatacgcattcagtagaaaccgtacttcgaattttgaattttgatcttttcccgggctagcgatatgcggtacgatactctctcgtgatgctgggcagtggcagcgagccgcagctcccagtcagccacgcgatcacgagggtaaacaaccgatacacttacaaccattctgtacccatacaaccattctgtttttcactttcagtacagtattcaataaattacatgagatattcaacactttattataaaataggctttgtgttagatgattttgcccaactgtaggctaatgtaagtgttctgagcacgtttaaggtaggctaggctaagctatgatgttcggtaggttaggtgtattaaatgcattttcgacttacgatattttcaacttacgatgggtttatcgggacgtaaccccatcgtaagtcgaggaagatctg",
+  "length_bp": 507,
+  "sequence_length_bp": 507,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

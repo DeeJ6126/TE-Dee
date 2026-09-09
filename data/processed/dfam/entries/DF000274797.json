@@ -1,0 +1,49 @@
+{
+  "accession": "DF000274797",
+  "name": "AnoCau-5.55",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Anoura caudifer",
+  "display_classification": "DNA/TcMar-Tigger | Anoura caudifer",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Glossophaginae",
+    "Anoura"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 418 BP; 102 A; 90 C; 104 G; 122 T; 0 other;"
+  },
+  "sequence": "cagacagtccccgacttacgatggttcgacttacgatttttcgactttacgatggtgcgaaagcgatacgcattcagtagaaaccgtacttcgaattttgaattttgatcttttcccgggctagtgatatgcggtacgatactctctcgtgatgctgggcagcggcagcgagccgcagctcccagtcagccacgcgatcacgagggtaaacaaccatactctacagtgtactcattgtgttagatgattttgcccaactgtaggctaatgtaagtgttctgagcacgtttaaggtaggctaggctaagctatgatgttcggtaggttaggtgtattaaatgcattttcgacttacgatattttcaacttacgatgggtttatcgggacgtaaccccatcgtaagtcgaggagcatctg",
+  "length_bp": 418,
+  "sequence_length_bp": 418,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

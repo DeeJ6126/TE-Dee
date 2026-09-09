@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004121",
+  "name": "RMER4B",
+  "description": "Long terminal repeat of a class 2 LTR retroelement in murids.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RMER4B"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 585 BP; 148 A; 111 C; 159 G; 167 T; 0 other;"
+  },
+  "sequence": "tgtagtgacaattttggaattttggtttctttaaaaaacacagaaatattataagaatatgttttcgttttaatcccaggtgtgggatatggggctgcttcagattgtccacagcagctgactatgatttgcctcgtgctctagcaggggcgtgattttgccagctgcagatagtttctgcgattgtgtgacgtttggaattctggggacttttcagagggtatataaatgctagggccccgagaggcggggtgggttgttggttggttgttgctggttggttgctgttggtcgcggtttgttaagtagtcgtgcgcaaagaagaaacaacaagaagaaattagatatcctgacggcgaagatcaaacttgccccaaggaactcgacgcccctaatcagcaggaagtagtctaacgataacgtcgccccctttccgacccctgactttattcagggatctctttcctttcccctctatccttttttctctcctatctagtgttagggggttgaaagggtggaagaaaaggggtggagaagggtggaagaaagaagaacccacaaagtagccaaagaccagctaca",
+  "length_bp": 585,
+  "sequence_length_bp": 585,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RMER4B_LTR"
+  ]
+}

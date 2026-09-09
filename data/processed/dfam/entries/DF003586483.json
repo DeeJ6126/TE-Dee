@@ -1,0 +1,42 @@
+{
+  "accession": "DF003586483",
+  "name": "Ssol_SINE-2_Meta",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Spisula solida",
+  "display_classification": "SINE/tRNA | Spisula solida",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Heteroconchia",
+    "Euheterodonta",
+    "Imparidentia",
+    "Neoheterodontei",
+    "Venerida",
+    "Mactroidea",
+    "Mactridae",
+    "Spisula"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 269 BP; 79 A; 59 C; 62 G; 69 T; 0 other;"
+  },
+  "sequence": "accgcctcctcgatagcctagtggttgagcgttcgcttcgagtgcgggaggtctcgggttcgatccctggccgcgtcataccaaagacgaaataaaaatggtaccagaaattcccttgctagacgctcagcataaaagggaaactggcttctcttctctcataccctcgtggcgatggataacatcaggaatgaggtgtcgagagtgattaatataagttggaaaaacttgtttcacaatcgaccttaaataaattagtataaacttaa",
+  "length_bp": 269,
+  "sequence_length_bp": 269,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

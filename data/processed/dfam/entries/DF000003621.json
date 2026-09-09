@@ -1,0 +1,66 @@
+{
+  "accession": "DF000003621",
+  "name": "hAT-6_DR",
+  "description": "hAT DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Ac | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3529 BP; 994 A; 650 C; 688 G; 1104 T; 93 other;"
+  },
+  "sequence": "taggcttgggcggtaatacggtaatatggtataccgcggtatctaaaaatagcaacggtatcagtttcaataccgttataccgtcataaaaaaatnnnnncgnaangcacttatataggagacaaggattaaatattacgnnaatataatttatttaatgnctaaaatgcgtatgcgtggtcgtcatcacgggacagcgtggagaaagagagaggtggggaaagatggcgagtcgcgcaccaagtgacctggtctcgaaaaaaaacacaacttctgcagtttggcagtatttcnggtttcgaccgaacgagaagggagangcggtaaatacggacgangcggtctgcaaattgtgcaacaaaaaggtgaccgcgagagatggaaatacctcgaacctaaggtcgcatatacgaaaccaccatccactaactgctgcgaggatggacccgagtctcagtgcaacagtttcaacgcctcccgatgcaggaccaacaacatctaggtccaccgccagtacgcagccgacgataatgggggccttcgggaaaacaacaaagtacaaaagggacagtgtccgttggaaaacctgtactgatgcagtgacaaaatacttggcgaaggaaatggtctctttccacacagtagaaaaaaagtcctttaaggacatggtaaaggtcctagatgcccagtacgagctgcctggacggaaatatttctcacaaacagccgtcccacanttatatagtaaagttagagacgatgttcaagtgctgctatcagcggcagacagttattctttaacaactgacatgtggtcgtcagttaacatgacaccatatatgtctctgactgtccatattattacacctgactggaaacttgaatccaaatgtctccaaactacgtattttccagagagtcatacggcggacaatcttgctgcggcgctcagagctgcacttcaagaatggcaacttgacgagaaaaaactctcagccataaccactgacaacgctgccaacattcatgccgcaatcaggtccctgcattggccgtggcttaactgcttcggtcacaatctaaacttggctgtcacaaatggattgcacgaccagaggcaaaaaaccgagcgcaccctcggactatgccgtaatnttgtcggggccttttcacacagctggcaacgtaagcatgaactccacaagaagcaagtggacttgggactcccaaaacatagtctcgtaacgataagcataaaacgagagttcctcaggggaaagggctcaaatctanaaaataaaataaattattaaataaataaaataaaaaagcangcttttaattgtttttttttctgggacttatttagcctaagaaatgtgcatgcaattttaactaaatagaataatgtacattaatnnacgtatttatttattcatttatttangcttatttattcatttatttattcgttnanttaatnaatanncnttaatnagtnaatttcgtttattttangcttatttattcattcattcatttatntanntttattcattcattcattcatttattnangcttatttattcatttatttatttatttangcttatttattcatttatttangcttattcatttatttatttangcttatttattcatttatttangttcatttattnatttattcatttatttanntttatttattcatttatttangcttatttattcatttatttangcttatttattnatttatttatttatttangtttatttattnatttattcattcatttangtttatttattcattcattcgtttatttangcttatttattcatttatttangcttatttattcatttatttangcttatttattgtttatttangctnattcatttattttgttaaacgnatnantnnnnnnntacgcatttatttatttanatttattcattnattnnttcgtttatttatgccnatttattcattcatttatttangccnattcattnatttnntcgtttattcattcattnattcattcattcatccgtcggcaggactgcgcaactcgctggggctccaaactggcaatggcggagcgcatcctcgagcgggcccaagcgatcagacacgtcctgtctgatgatagnaggagcagcctgtccctgacctggcaggacatggacgtcttgaaagctattcacgaagcactgaaaccagtcggtgacttcactgatattttgtcaggagaaaattatgtgaccagttcctgtatcctccccatactacagctctgcagggacaatgttttggctgcgtcagaaaatgaccttcggctaacaaagtcaatcaaaactggaattctaacaaagctggaggccaagtatgaatccagttcagtgcgcaaaatattgcgaaaatgcactttcctcgaccctcgttaccgcggaggatatgaggcagatgacaacgcattggctgagacaaaggctgaattacangctgagatcgtcagcttagaggcagcaggtccagtggccataagagtggaagagggagaggcgcaaccagagccctcacgaaaaaaaatgactctgggaagtatgctgcaaaaaaaacctgatgcaatggcaggtgccgtcggcagcggcaccgtagaggaccgagtcggagctgaaataacagcctactgtttggagccagttactcaaggaggcgaggacccacttctctagtggaaatatgctgccgggcgttttccccagatgtcacgagtggcacgaaaatacctgtgcgtctgtgccacaagcacaccatcggaacgggttttcagcacancaggtaaagttgtcggtccacaacgtgccctgttaaagccngacagagtaaacatgctggtttttctagcgaaaaatattgactagattgatgccaattgccatttgtttctattcgcattgtttaattttgtttaattaattcaggtatttttatttgctttacgttaaaaattatattagaagactggaaataagtttttgtttaggactattgctctgcaatactttttataataaggatgatgtttatgttagcctaattcacctctggttgactgttgtgttnttttgcatatttnataannnnnnngctgctcttctttgttattaaaagttctggcggtangatttaattgatttgtgtgcgcgtctctgcgcgaaaactgttctggatgtttnatgttaatttaattctgtttgactgttgtatttgcactttgttgctaataaaagntnttnanttcgttgttaatattgttgtgcatgttattttgttattgttttagtgtttggtattcgtttctgaacggtttaggcacaagccaacagtttggtgacgctgtctgagcttacgtcataattttttnattattcacggtaataccgtataccgaggtaaaatagggaggaggtttgacggtatcaaaatttggataccgcccaagccta",
+  "length_bp": 3529,
+  "sequence_length_bp": 3529,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "224..2941",
+      "start": 223,
+      "end": 2941,
+      "qualifiers": {
+        "product": "hAT-6_DR_tp",
+        "number": "2",
+        "note": "via genewise with HAT-1_NV_tp#DNA/hAT-Ac [Danio rerio]",
+        "translation": "MASGAPCDLVSKKNTTAAVWEYFGFRPNEKGEVVNTEDAICKLCYKKVIARDGNTSNL"
+      },
+      "label": "hAT-6_DR_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "hAT-6_DR"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278572",
+  "name": "MirCoq-1.165",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Mirza coquereli",
+  "display_classification": "DNA/PiggyBac | Mirza coquereli",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Cheirogaleidae",
+    "Mirza"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 281 BP; 90 A; 47 C; 55 G; 89 T; 0 other;"
+  },
+  "sequence": "cacattgactgccatgtgagttgtatttaactcaggctagttttgagcccggggcctcgtgaagcaaaaccctgcagttggttcgtgaaaatcttacttgttgatgttcttattgttacaattaatattgacaatttaattctaaaaacgtggattgcgttgcatataactcacgcacagaaaacaataaaaaataacaaattagaaaggatcgttttgttttaataaaacaccgtggccccagggaaaaaaattttttttctagtgtggcagtcaatgtg",
+  "length_bp": 281,
+  "sequence_length_bp": 281,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,39 @@
+{
+  "accession": "DF003576484",
+  "name": "SINE_S.broughtonii_cons_20",
+  "description": "Repetitive sequence family identified in Scapharca broughtonii",
+  "keywords": [
+    "SINE/tRNA-Meta"
+  ],
+  "species": "Anadara broughtonii",
+  "display_classification": "SINE/tRNA-Meta | Anadara broughtonii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Arcoida",
+    "Arcoidea",
+    "Arcidae",
+    "Anadara"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 136 BP; 27 A; 34 C; 43 G; 32 T; 0 other;"
+  },
+  "sequence": "accactgcggtagctcagttggtagagtgctcgctccgtaagtgggaggtcgtgggttcgatccccggccgggtctgacccaagacttgaaagtgggtagtgactgttctttcgccaagcactcggcattacgaaa",
+  "length_bp": 136,
+  "sequence_length_bp": 136,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

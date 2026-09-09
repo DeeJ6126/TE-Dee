@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001426",
+  "name": "LONGPAL3",
+  "description": "LONGPAL3 is a nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/MULE-MuDR"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/MULE-MuDR | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1299 BP; 441 A; 210 C; 213 G; 425 T; 10 other;"
+  },
+  "sequence": "ggcaaatactgttttactacttgatcttttactacgtatctcttttactacaagatctcttttactacggaatctcttttactacgaattccgcatctagatcttttactacaattggctcttttactacgtgatctcttttactacgatttgaccacatagatcttttactacggtacgaaaattttcaatttaagaattaaattttcgacaacattatgccggcaaacactcattgactaccttctcattgactacctttgctcattgactacctttcgctcattgactacctttgctcattgactaccttcagntgctcnttgactacctttatctaataaaattttccaaaattttttttgaaaacttttcaaaatttgatcagaaaaatgcaatgtttgtngtttttctagtttggatgttctgaacacgatttcagacgaaaacctgaggtatagtagaacccctaagttcaaaaaacgcactcacttcggatgctnatatctccgtggaaaaattttttatgacaaagtgatcaactacaaagttgtttatcttaatctaaagtacaactttgtagttgatcgttttttatcaaaaaatttgttggtcgagatatgaacagaaaaagaagaagaaaatacaagcatgaaggtgccgaacttnacacaactttatctcgaccancaaattttttgataaaaaacgatcaactacaaagttgtactttagattaagataaacaactttgtagttgatcactttgccataaaaantttttccacggagatataagcatccgaagtgaatgcgttttttgaacttaggggttctactatacctcaggttttcgtctgaaatcgtgtncagaacatccaaactagaaaaacnacaaacattgcatttttctgatcaaattttgaaaagttttcaaaaaaaatttcggaaaattttattagatagaggtagtcaangagcatttgaaggtagtcaatgagcaaaggtagtcaatgagcaaaaggtagtcaatgagcaaaggtagtcaatgagaaggtagtcaatgagtgtttgccggcataatgttgttgaaaatttaattcttaaattgaaaattttcgtactgtagtaaaagagctatgttggtaaaccgtagtaaaagagattccgtagtaaaagatccaattgtagtaaaagatctagatgtggaattcgtagtaaaagagattccgtagtaaaagagatcctgtagtaaaagagatgcgtagtaaaagatcaagtagtaaaacagtatttgcc",
+  "length_bp": 1299,
+  "sequence_length_bp": 1299,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LONGPAL3"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000281616",
+  "name": "BosInd-1.210",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "BosInd-1.210"
+  ],
+  "species": "Bos indicus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Bos indicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bos"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1087 BP; 265 A; 271 C; 223 G; 327 T; 1 other;"
+  },
+  "sequence": "tgccgggagccagcgtgaggaactccgcccgtggcaaaggtcatgaggaaggaggctcggcatacgcaaaggcgggatcgagcctcaggagtccccctggaaattctcgagcatctacccccaaaaccagagtctgcctactttctgctttgtgctctcacctacacctctgactttacggggggctgtcccccactacctctctctgaaaaaagagttaacttacagctccagttaataaagttcctgggtgtgatagtgtttcaacctacaaactcctttggaagtcctctagcctgcctgaataggtttttccggccacatgtgattgctcagagcctcccaactgtgagaggcatgagatgttctaaactgtctaaatacagattcctttgagcagttaaaagattgattagaaattgtattggtgaagggtttttcacttgttgggccaatgtttgctgctaagtctccatatcccttacctgctgtgtccctggcagtgtattgattaatataattggtgtaagtagtagctttaatgtttgtaaccttggacccttgagttaattctttttcttgttatagcccaccacacctttgccctataggaatgcaactttatctaatgcttttggagggtggcgcctgactaatcacctttagagaaaaataagttttctgaagaaagggtcttaaaatgttaacaggcctccgggccagaagatgatgcaaatcacctaaacttttgcatatgataagtttgcaggaagaaagcctggcttactgcatgactctaccccttcccccattatcctctatgcataacttaaggtataaaaactactttggaaaataaagtgcgggccttgttcaccgaaacttggtctccccatgtcgttctttctctcaccttctggctgaattattcagcctcttttctccactgaatttcctcactgagctatccttatttaaccactctttatatccttaattaacgtttaantaagcagttgtttcctgatcctcgccgacgccgtccccgcttcgaattccctggatccaccggggctggaccccggca",
+  "length_bp": 1087,
+  "sequence_length_bp": 1087,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

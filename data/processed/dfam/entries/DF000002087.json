@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002087",
+  "name": "RLTR31B2",
+  "description": "Long terminal repeat of ERV2 Endogenous Retrovirus: consensus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR31B2"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 391 BP; 112 A; 73 C; 114 G; 85 T; 7 other;"
+  },
+  "sequence": "tgttggagtgatgtttttgtacactgtgtgaagatgtgtctctgtccttccttgcctgcctaaggcaccttctgattggttnaaataaaaagccgatggcctatagcaaaaggcaggatagnaaggtgggacttccgggcagagagaggaactctgggaaagagtcaggcgcgggaagattcgccacccagacncggaggaagtcggacgtatgaaactgaggagaggtaaccagccacgtggcagaacntagantagtataaacgggntaattaagttacgagctagttgggaacaagcctagcttaaggcctaggcattcataaataaanaataagtctccgtgtcattattcggagctggggcgggcatagaaaggcccacggttaca",
+  "length_bp": 391,
+  "sequence_length_bp": 391,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR31B2"
+  ]
+}

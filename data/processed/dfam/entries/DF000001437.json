@@ -1,0 +1,55 @@
+{
+  "accession": "DF000001437",
+  "name": "Mariner5_CE",
+  "description": "Autonomous DNA transposon from C. elegans",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Mariner | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1247 BP; 340 A; 290 C; 265 G; 336 T; 16 other;"
+  },
+  "sequence": "ttaggttggcgggaaagtcctgtcctaattttttgttttgtcattgtgggctgaanatcaatttcggtgtttattcgctcctagtgattgataagcagaaaaaagtctttgcagtaattaaccccccatccctctccctctctctcggttcaagttcacttgcgatgagtgtacctacctcaattcttgttcggcatgttctgttatacatgctcctggcgcacaccacaatgaaggattcaaaaactcttctgatgaaagtttatgatggacctgctccctcgtataaaaccatacagagatggttcgatcgtttcggaaanagcgacttttcttngattgaaaaggaatgctcaaaagaccacatgagttggatttgaatgcactaaaagccagtgttgcatcggatccatttnaaactacccgtgagcttgcaagcacgcttggggtctctcataactccataccagatancntgaaattgctcggcatgaggaaaattcttggtcgattcgtacctcattatttgacccgttccaaccttnnccgccgagttgatgtttcatatantctcctcactctccaggcggcgaccgttggttgggccggcttattactggaaacgagaagtgggtgttgtacgctaaccaccacagacaagcccagtggattggagaaggacaaaccccacaggatgttccgaaactcggccttcacccgaaaaaaagtatgctctctgtttggtcgggagtggatggcccctctactgggagctgttacctgagggtgaaactattaccggagagacccactcaagacaactacggaatttgaagaaaacagtcgatcgttcagccttacaggataagaaagtatattcccaacataataacgctcaaccacatgttgcaaaacaagtgangnaggaactggcaaaatatggatggncgattctccctcaaccaccgnattctcctgacattgctccaagtgattattggcttttctccgatctgactcgtgcccttcgaggtagaaccttcacaacacgagaaaatctcnaaactganatcgagcaatactttgaatccctgcccgctggattctacaggcagggaatccacaagttanctcaacgttggcaggacattgttgatcatgatggagcatataactgatttcttgtttgagtttgcttcgagaaataaatgattgaaaaataggacaggactttcccgccaacctaa",
+  "length_bp": 1247,
+  "sequence_length_bp": 1247,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "164..1175",
+      "start": 163,
+      "end": 1175,
+      "qualifiers": {
+        "product": "Mariner5_CE_tp",
+        "number": "1",
+        "note": "wised with Mariner4_CB [Caenorhabditis elegans]",
+        "translation": "MSVPTSILVRHVLLYMLLAHTTMKDSKTLLMKVYDGPAPSYKTIQKWFDRFEKSDFSX"
+      },
+      "label": "Mariner5_CE_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "MARINER5_CE"
+  ]
+}

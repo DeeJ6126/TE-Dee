@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001203",
+  "name": "X5a_DNA",
+  "description": "Conserved repeat present in placental mammals and marsupials.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/TcMar-Tigger | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 178 BP; 64 A; 43 C; 28 G; 43 T; 0 other;"
+  },
+  "sequence": "caggtcaaatcccgttacaacaaataccattacaacgaaaatctctgtataacaaaaagatttccaagccccagccgatggcccacttatttcaagcaatattcgatacaacaaaattccagtacaacaaaagaatttggacagtcccttggagttcgttgtaacgggatttgacctg",
+  "length_bp": 178,
+  "sequence_length_bp": 178,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X5a_DNA"
+  ]
+}

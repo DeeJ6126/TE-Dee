@@ -1,0 +1,42 @@
+{
+  "accession": "DF000000028",
+  "name": "Tigger16a",
+  "description": "TcMar-Tigger DNA transpopson, Tigger16a subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/TcMar-Tigger | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 957 BP; 233 A; 290 C; 147 G; 278 T; 9 other;"
+  },
+  "sequence": "caggcactttctgagttacgaacancggacttgcaaacatcctgtgcttacgaangccngttgcncntcttctggtccccctcacccacccctnccctgcncctccccgcccactccggacagcaaccaagctgtcctgggccgacggcgccacctggtggccagcgcggggaactgtctgacccaacgtctcttccccaccacctcctttcttccccctcagggggatcgtgcacacgctgtgcccctccnttctcccttctctttcaccattcacagctcagttaattccacctcaggcaatctctttctcacatgtacacacacatcctctttaattcccttcctccctcctctctctcttccaactcttgcccagttacctcaggaaaatctttctccttccttcctccctctccctttcttcgttccatttgtgagccaaaaaatgaccctaatcatggctgataagcataagagtagtgctagtgatacacctgtatcaaggaaaagaaaagccatangttttgaagtgaaattagacataataaagaaccagtgccatcaacctctaaagcccttgaaagtgcccagaagtccccttcagaatctccacaaaagtctccatctacctcctcatcctcctctaattaaacctgcttttcctcaagcaccagcattcaagataaataaaaaactatttcttattcaattttattgtttttctgtttcgtttaattactagtattgcaacagtattgttttctactatttttcattgcaaatgtacagtatttcagctacattatgggttaaataggcttttgtgggctagcctgggaacctaaccaccatttataacattgtttctatgggaaaatgcgttccgagttccaaacaaccgacttacaaacgaacttttggaacacaacccgtttgtaagttggggactgcctg",
+  "length_bp": 957,
+  "sequence_length_bp": 957,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Tigger16a"
+  ]
+}

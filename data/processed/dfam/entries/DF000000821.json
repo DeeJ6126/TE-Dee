@@ -1,0 +1,56 @@
+{
+  "accession": "DF000000821",
+  "name": "Tigger10",
+  "description": "TcMar-Tigger DNA transposon, Tigger10 subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/TcMar-Tigger | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2097 BP; 637 A; 407 C; 467 G; 566 T; 20 other;"
+  },
+  "sequence": "agtgacaagctaagccacaacgcggtagagtactgtagcctgtacaatagcgtatgcacaagcagcagaacagagctaggtgtatcgtagaagccatcctacgatacggattccaancttcctctagtgaaaggcaaagggcagaagcataaaaangttgtgctaaccttaaaagagaaaatggacatctgtacacgacttgaaaagggcgagcacaggaaaatgttgatggatcagtacaatattggttcatctaccttatatgatatcaaggctcagaaagggcagctgntnaaattctttgcagattctgagtcanctaaagctgttgaacagcgccatatcacgcatntgcctaaattagagcacctagaccgtgttctatatgagtggttctcagtgaaaagatcngagggtgcccctatctctggcccaatgctnattgaaaaggcaaaagatttttatgagcaaatgcagttgactgagccgtgtgtattttctgaagggtggctttggcgtttcaaagtgagacacggcattagaaggctagatatagctggtgaaaaacagtcagcaaatcatgaagctgcagaanaattttgtggctttttcagagaactcatttctgagcacagtctatcccctgaacagttttacaatgctgatgaaactggtctattttggcgatgcttgccaanttctaccctggcaggtgccagtgaatcaagtgcccctgggtttaagcagaataaggacaggttgactgttcttgcatgtgctaatgctgcaggctcccataaaataaaacctttggtgactggaaaatntcatcgtcctagagctttcaaaggtgtcacacatttacctgttgcttacagagcgcaagctaatgcatggatggacaaaganattttttctgactggttctatcatctttttgtaccttcagtgaaagatcatttcagaaccataggcttacctgaggatagcaaagctattctattgctagacaattgtagagctcaccctgaggaagcagggttagtgtctggtaatatttttaccatcttcctgcctnccagtgttacctcattgattcaacctatggaccagggtgttattcagaatatgaaatgttattacagaagagatttcatgagaaagttgatccatcatgcaggcactatacaggactttcaatctcattataacattaaagatgcaatttttaatgttgcttgtgcctggaattctgttnaaagtcaaacattaaggagagcttggagaaaattgtggcctggtgtcatgtctgcagaagtgtcatcttctgatgatgaagaatttgtaggctttggagtaagncctctccaaaacaccctagcacaaattcttgaaatggtgagggatactcctccttcacaccccatcaacaaacttagtgcaagtgagatagaagagtgggtnnaagctgacaaggaggtgcctgtggtccattgtgttagtgatgcagaaataacagataatgttttgaatgntgctgacaagtcaaaggacactgatagcaacagtgaagaagatgattttctggagggcgagaaaaccacttgggagaaggctgcttcagcctttgattcactaattaattttgcagaaaggcagccatgttacactgcccaggaggtcatgcagctgcacatncttcactctacctttatgagaaagaggcaaatgaccaaaaagcaagctgacatcagggactttttcaagaaagcaagttccagggccactgctggggtcagtacccattcagccctatgtcccacaccatctacatctgcatctacatctacagcacagcacaataactgatgttcataatgatgaccctgagtcatcaagaaaaggttaaattatgttcagtatactctgtttaagaaggcagggaagtacgtaatacattttagaaagatttccatcgaaaacggttaaaattataaaagttttggtacttaaagggttaancttcagctatctggaaaactcggctatccagaacgactcattccccgaggattccggatagctgaggttttactg",
+  "length_bp": 2097,
+  "sequence_length_bp": 2097,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "106..1852",
+      "start": 105,
+      "end": 1852,
+      "qualifiers": {
+        "product": "Tigger10_tp",
+        "number": "1",
+        "note": "[Theria mammalia]",
+        "translation": "MDSKLPLVKGKGQKHKKVVLTLKEKMDICTRLEKGEHRKMLMDQYNIGSSTLYDIKAQ"
+      },
+      "label": "Tigger10_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "Tigger10"
+  ]
+}

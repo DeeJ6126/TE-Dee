@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001401",
+  "name": "HAT1_CE",
+  "description": "HAT1_CE nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/hAT-Ac | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 495 BP; 140 A; 102 C; 100 G; 153 T; 0 other;"
+  },
+  "sequence": "caggggtgtgcggcaaatctcaaaatttgccgagctcggcaaattcggcaaatctcttttttcaatatttgccgagcacggcaaattcggcaaatttgccgagctcggcaaattcggcaaattcggcaaatttgccgtgcttaacaaactcggaaaaatttgatattttttgatgttttttggagcaccaaaactactgaattcttaacacacatctggtttctgaataagttccgtgtagtgtgtctgcttaagcatcaaaataactcaattttgtgtcattttactaaatttttggcgaaaaaatcaatagttttggtcaaaattgtactgtcaaatttttgacgtgtgcggcaaatttcgaaatttgccgagctcggcaaattcggcaaatctacttttttgaaatttgccgtgctcggcaaattcggcaaatttgccgagctcggcaaacggcaaattcggcaaattcggcaaatttgccgcacacccctg",
+  "length_bp": 495,
+  "sequence_length_bp": 495,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "HAT1_CE"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "accession": "DF000278447",
+  "name": "MicTal-1.116",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Nesogale talazaci",
+  "display_classification": "DNA/hAT-Charlie | Nesogale talazaci",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Oryzorictinae",
+    "Nesogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 485 BP; 148 A; 107 C; 96 G; 133 T; 1 other;"
+  },
+  "sequence": "cagcggttctcaacctgtgggtcgcgacccctttgggggtcgaacgaccctttcacaggggtcgcctaagaccatcggaaaacacatatttccgatggtcttaggaaccgagacaccgctcctctatccgtctccaggcgggtccgcccacatgcagatacgcccacatacgagtacccggcgtgaagactgttacccatgctacaccatgcttcaagacaaaatttcatttatttgtnattagaaataaatatttcacaatatataattacatattgttttgtgattaatcactatgctttaattatgttcaatttgtaacaatgaaaatacatcctgcatatcagatatttacattacgattcataacagtagcaaaattacagttatgaagtagcaacgaaaataattttatggttgggggtcaccacaacatgaggaactgtattaaagggtcgcggcattaggaaggttgagaaccactg",
+  "length_bp": 485,
+  "sequence_length_bp": 485,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

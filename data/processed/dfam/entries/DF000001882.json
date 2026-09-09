@@ -1,0 +1,64 @@
+{
+  "accession": "DF000001882",
+  "name": "L1_Mur1_orf2",
+  "description": "L1 Non-LTR Retrotransposon from Muridae.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Muridae",
+  "display_classification": "LINE/L1 | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 4684 BP; 1965 A; 1003 C; 809 G; 893 T; 14 other;"
+  },
+  "sequence": "ggtgaaggaattgaataaagcggtccaagacctaaaagtggaagtagaaacaataaagaaaacacaaatggaggcaaacctggaaatggaaaacctaggaaagaggtcaggaattacagatgtaagtatcaccaacagaatacaagagatagaagagagaatctcaggtgtagaagataccgtagaagagattgacacaactgtcaaagaaaattcaaaacataaaaaactcctaacccaaagcatccaggaaattcaggacacaatgaaaagaccaaatctaagaataatcggaatagaggagaacgaagattcccagctcaaaggacctgaaaatgtcttcaacaaaatcatagaagaaaacttccccaacctaaagaaagagatggccataaaggtacaagaagcctatagaacaccaaataaatgggaccagaaaagaaaatcctctcgtcacataatnatcaaaacactaaatgcacagaacaaagaaagaatattaaaagctgcaagggaaaaaggccaagtaacatacaaaggtagacctatcagaattacaccagacttctcaacagagactatgaaagccagaagagcctggtcagaggtcatgcagactctaagagaacacaaatgccagcccaggctactatacccagcaaaactctcaatcaacatagatggagaaaccaaaatattccaggacaaaaccaaattcaaacagtatctatctaccaatccagccctacagaggatcctggaaggaaaactccaacacaaggaaggtacctgcaccaaagaaaggacaagatattaagcatctcacaacaaagccaaaaggagagaaccacaagcacataaagccacctacaaaaacaaacatancaggaaccaacagtcatctntctttaatatctctcaatattaatggactcaactcacctataaaaagacataagctaacagactggatacgcaaacaagatccagcattttgctgcatacaagaaacacacctcaataacaaagacagacactatctcagagtaaaaggatggaaaaaggtcttccaagcaaatggtcccaggaaacaagcnggagttgccatcctaatatccaataaaatagactttcaaccaaaagttatcaagcgtgatgaggaaggacacttcatattcatcaaggggaaaatccaccaagagaaagtctcaattctgaacatctatgccccaaatgcaagggcacccacattcataaaagaaactttactaaagctcaaaacacacattgaaccccacacaataatagtgggagacttcaacaccccactctcaccaatggacaggtcattgaaacagaaactaaacagagacacagtgaaactaanagaggttatgaaccaaatggatttaacagatatctacagaacatttcaccctaaaacaaaagaatacaccttcttctcagcacctcatggtaccttctccaaaatcgaccatataattggtcacaaaacaaccctcaacngatacaagaagattgaaataatnccatgcatcctatcagatcaccatggcctaaggctggtcttcaataacagcaaaaacnacagaaagcccacatacacgtggaaactgaacaactctctactcaatgataacttggtcagggaagaaataaagaaagaaattaaagacttcctggaatttaatgaaaatgttgacacatcatacccaaacttatgggacacaatgaaagcagtgctaagaggaaagttcatagcactaagtgccctggtaaagaaactggagagatcttacactaacaacttaacagcacacctgagagctctagaacaaaaagaagcaaactcacccaagaggagtagaaggcaggaaatagtcaaactcagggccgaaatcaaccaaatagaaacaaagagaacaatacaaagaatcaacaaaaccaaaagctggttctttgagagaatcaacaagatagataaacccctagccaaactaactaaagggccnagaggcagtatccaaattaacaaaatcagaaatgaaaagggagacataacaacagaaacggaggaaattcaaaaaatcatcagatcctactacaaaagcctatactcaacaaaactggaaaatctagatgaaatggatggttttctagacagataccacataccaaagttaaatcaagagcaggtaaactatctaaacaggcccatatcncacaaggaaatagaagaagtcattaaaaacctcccaaccaaaaaaagcccagggccagatggatttagtgcagaattctaccagaccttcaaagaagacctgataccaatnttcctcaaactattccataaaatagaaacagaaggaacactacctaactcgttctatgaagccacaattactctgatacctaaaccacacaaggacccaaccaaaaaagagaacttcagaccaatctcgcttatgaatatcgatgcaaaaatactcaataaaattcttgcaaaccgaatccaagaacacatcaaaaccatcattcaccacgatcaagtaggcttcatcccagggatgcaaggttggttcaatatacgaaaatccattaacgtaatccactatataaacaaactcaaagaaaaaaatcacatgatcatctccttagatgcagaaaaagcatttgacaaaatacaacaccccttcatgttaaaagtattggagagatcaggaattcaaggcccatacctaaacataataaaagcaatttactgcaaaccaacagccaatatcaaattaaatggaganatacttgaagcaatcccactgaaatcggggacaagacaaggatgcccactctccccatatctattcaatatagtactcgaagtgctagctagaacaataagacaacaaaaagagatcaaggggatacaaattggcaaagaagaaataaaggtatcactatttgcagatgatatgatagtatacataagcgaccccaaaaattctaccagagaacttctccagctgataaacaacttcagcaaagtggccggatataaaattaactcaaataaatcagtagccttcctttatacaaatgataaacaggctgagaaagaaattagggaaacaactcccttcacaatagccacaaataatataaaatatcttggggtaactctaaccaaacaagtgaaagacctgtatgacaataacttcaagtctctcaagaaagaaatcgaagaagatctcagaaaatggagagatctcccatgctcatggattggcagaattaacatagtaaaaatggccatcctaccaaaggcaatctacagattcaatgcaatccccatcaaaatcccaacacaattcttcaaagacatggaaagagcaattctcaaattcatctggaaaggcaaaaaacccagaatagcgaaaacaattcttaacaataaaagaacggctgggggaatcaccatccctgacctcaagctttactacagagcaatagtgataaaaactgcatggtattggtacagagacagacacgttgatcaatggaatagaattgaagacccagaaataaaaccacacacttacggacacttgatctttgacaaagaagccaaaaatatacaatggaaaaaagaaagcatcttcaataaatggtgctggtctaactggctgtctgtatgtagaaaaatgaaaatagacccatatttgtcaccttgcacaaagctcaagtccaagtggatcaaggacctcaacataaaaccagatacactgaatctaatagaagagaaagtgggaaagagccttgaactcattggcacagggggaaatttcctaaacagaactccaatggctcatgctctaagatcaagaattgataaatgggacctcatgaaactggaaagcttctgtaaggcaaaggacatagtcaataagacaaatcggcaacctacagattgggaaaaaatcttcactaaccccacatccgatagagggctaatatccaaaatatataaagaactcaagaagctaaccaccaaaaaaccaaacaacccaatcaaaaaatggggtatagaactaaaccgagaattcacaacngaggaatctcgaatggctgagaagcacctaaagaaatgttcaaagtccttagtgatcagagaaatgcaaatcaaaacgaccctgagattccaccttacaccaatcagaatggctaagatcaaaacctcaggtgacagcacatgttggngaggatgtggagaaagaggaacactcctccattgctggtgggattgcaaactggtacaaccactctggaaatcaatctggaggttcctcagaaaattggaaatagatctacctgaagacccagctataccactcttgggaatatacccaaaagatgccccaccatgccacaggggcacgtgttccactatgttcatagcggccttatttgtgatagccagaagctggaaacaacccagatgtcccacgacagaagaatggatacagaaaatgtggttcatttacacaatggaatactactcagctattaagaacgaggacatcctgagttttgcaggcaaatggatggaactagaaaatatcatcctgagtgaggtaactcagacccaaaaggacatgcatggtatgta",
+  "length_bp": 4684,
+  "sequence_length_bp": 4684,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "902..4682",
+      "start": 901,
+      "end": 4682,
+      "qualifiers": {
+        "product": "L1_Mur1_pol",
+        "number": "1",
+        "note": "L1_Mur1_orf2_900-4684 [Muridae]",
+        "translation": "LSLISLNINGLNSPIKRHKLTDWIRKQDPAFCCIQETHLNNKDRHYLRVKGWKKVFQA"
+      },
+      "label": "L1_Mur1_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "L1_Mur1_orf2"
+  ]
+}

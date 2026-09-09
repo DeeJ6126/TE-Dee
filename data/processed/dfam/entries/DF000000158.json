@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000158",
+  "name": "Helitron1Nb_Mam",
+  "description": "Helitron DNA transposon, Helitron1Nb_Mam subfamily",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Eutheria",
+  "display_classification": "RC/Helitron | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1116 BP; 406 A; 179 C; 221 G; 305 T; 5 other;"
+  },
+  "sequence": "tctatctatataaaacacttaggtatgtttccccaaggttcagctgggcgtggttttcacgtgatcactccagccaatgaacgcgcaagcatccagtgatcacgtgaaaaccacgcctgttaatttataaatgttgacactgacaggtgacaggtaggtagtgactgtttataagaattgtatgcatttctgagcatttatttacttaatctttttaaaattaagcttagaatttctacaacgtgtaacgttaaacatgtgtcacctattttgaacttaatacagtgcataaaagtatttataagaattgtatgcatttctgagcatttatttacttaatcaaaaattttatgcgttttgagcatttatttacttaatcaaaggtttaaaagttttaagaagtataaaaatggctgaaccatgtgtaagaactctgagaaaccatagaagaaatgctaatgaaacattagaggagagatcaaatagactacgagaccgaaatgaaactctacgatgacgaagacggacagagaacactgaagaaagagaagaacgattggaaatgagaagaaaaagagcgaaacgcctaggactaatcaaatagaagtaccggatgcgaataatcaacaagctgtaatcaantgtggaagagcataacataggaaatatgtgttacaactgtgagcactgcaatgcaagatattggggacaagagttaaacacatcgaataaatacactaaatgctgtcacgatggaaaggtttcactcgacccactgtctgagacacctactctattataagagctgcttncagggaatacatgcgaagaaacaaaaaactcacagagaacatatacgagagcgnaactcagcaatggcgttcacatcagtgggcgcngagattaaatcactgccngtatttagtcacggacaactatatgttgctctctcaagagttcgatcattggactcattaagtgttgtatctgagaagaataagattgttaattgtgtttacaatgaaatatatgaataaataaataaaatgcgttaatattttattaataactattaagatctgctagaacggcgtatgttacgccgggtacagctag",
+  "length_bp": 1116,
+  "sequence_length_bp": 1116,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Helitron1Nb_Mam"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000003037",
+  "name": "SINE_DR1",
+  "description": "Zebrafish non-LTR retroelement (SINE)",
+  "keywords": [
+    "SINE/"
+  ],
+  "species": "Danio",
+  "display_classification": "SINE/ | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 257 BP; 76 A; 57 C; 40 G; 81 T; 3 other;"
+  },
+  "sequence": "ttatgaagtgtgcttcacacaggtgagtgggcttgacaaaccacctgtagaaacactcttctctctctntaaataaaaaaaataaaaaacnctcccctccttactctagcacttaattctctgagcacnaacagttcctttgtataattagcacttcttgtgtgtattgcctcttcttgttgaatcgctgaatgcctcctcaattgtaagtcgctttggacaaaagcgtctgctaaatgactaaatgtaaatgtaaa",
+  "length_bp": 257,
+  "sequence_length_bp": 257,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SINE_DR1"
+  ]
+}

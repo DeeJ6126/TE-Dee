@@ -1,0 +1,49 @@
+{
+  "accession": "DF000274676",
+  "name": "AilMel-1.135",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "AilMel-1.135"
+  ],
+  "species": "Ailuropoda melanoleuca",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ailuropoda melanoleuca",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Ursidae",
+    "Ailuropoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 656 BP; 189 A; 195 C; 116 G; 154 T; 2 other;"
+  },
+  "sequence": "tgatgagggaacagaaggcaagctgaggacaaagcagaaactgacaccccgcaaccccccccccccccatgggatgtatgtgacattcctcaggcactcctggctgccctaaagcaaaggaaaaagaaatagttaacctatagagaccacaatcctgcaagacntgagtctccctcagtttacaaatgtcttagcgatctacaagaacgaagcatttctatcaataacctagcttccggaagggaatgtagatacaattaaatgtccttataacctgcagcccattgacagatacttgaagcgggcagagtgtaacgttcctccaggaagttcccaactatcttcatgttaatgccttgctagagggaaaaacaaccttaacttgacaatggcaaggcctccggtatcctgtgagtcttctttaacatatgaaagtactttctcaacctccctttttccttacctcccccaaccccatagtatataatcagccacccctcacaaccccggggcagcagctctttctgcccacgggtcctgtccccgtgctttaataaaccaccattttgcaccaaagacgtctcaagaattctttcttggtcgtcggctccggactccaccccactgaacctcacctatattccaaaaccncatca",
+  "length_bp": 656,
+  "sequence_length_bp": 656,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

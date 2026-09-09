@@ -1,0 +1,42 @@
+{
+  "accession": "DF003575214",
+  "name": "SINE_S.constricta_cons_2",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Sinonovacula constricta",
+  "display_classification": "SINE/tRNA | Sinonovacula constricta",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Heteroconchia",
+    "Euheterodonta",
+    "Imparidentia",
+    "Neoheterodontei",
+    "Cardiida",
+    "Tellinoidea",
+    "Solecurtidae",
+    "Sinonovacula"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 320 BP; 88 A; 76 C; 88 G; 68 T; 0 other;"
+  },
+  "sequence": "accggacctggtagcgcaatcggtagagcgtcggctccaggtacgggaggccccgggttcgatcccgggccgcgacataccaaagtcgttaaaaatggtagtggtatagctcccttgctaacgctcaagcaaatataagggtagttccacgactggttggcccggtgtcaggataatgtgactgggtgtggtatcatgccaggtgttcacggcatgctatacacagtgaaggcagcactatatctgcttcaagtggacaccgtctccagataactgaaatactgttggtgggacgataaacccaataaacaaacaaacaa",
+  "length_bp": 320,
+  "sequence_length_bp": 320,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

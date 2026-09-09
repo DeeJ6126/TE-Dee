@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277884",
+  "name": "LepWed-5.41",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LepWed-5.41"
+  ],
+  "species": "Leptonychotes weddellii",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Leptonychotes weddellii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Phocidae",
+    "Leptonychotes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 657 BP; 198 A; 191 C; 111 G; 156 T; 1 other;"
+  },
+  "sequence": "tgatgagggaacagaaggcaagctgaggacaaagcagaagctgacaccccacaacccccccccccatgggatatatgtgacattcctcaggcactcctggctgccctaaagctaaggaaaggaaaaacaaatagttaacttatagagatcacaatcctgcaagacatgagtctccctcagtttacaaatgtcttagcaatctacaagaacaaagcatttctatcaataacctagcttccagaaggaaatgtagatacaattaaatgtccttataacctgcagcccattgacagatacttgaagcgggcagagtgtaatgttcctccaggaagctcccaactatcttnatgttaatgccttgctagagggaaaaacaaccttaacttgacaatggcaaggcctccggtatcctgtgagtcttctttaacatatgaaaatccttttgaaacctcccttttccttacctcccccaaccccatagtatataatcagccacccctcacaaccccggtgcagcagctctttctgcccacgggtcctgtccccgtgctttaataaaccaccattttgcaccaaagacgtctcaagaattctttcttggtcgtcggctccggacctcaccccaccgaacctcacctatattccaaaaccccatca",
+  "length_bp": 657,
+  "sequence_length_bp": 657,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

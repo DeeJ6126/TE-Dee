@@ -1,0 +1,47 @@
+{
+  "accession": "DF003894004",
+  "name": "SVA2",
+  "description": "Retroelement with a variable number of GC-rich 40-bp tandem repeats",
+  "keywords": [
+    "Retroposon/SVA"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Retroposon/SVA | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 366 BP; 70 A; 112 C; 111 G; 73 T; 0 other;"
+  },
+  "sequence": "cgcaccgtctgggaagtgaggagcgcctctgcccggccgccgcaccgtctgggaagtgaggagcgcctctgcccggccgccgcaccgtctgggaagtgaggagcgcctctgcccggccgccgcaccgtctgggaagtgaggagcgcctctgcccggccgccgcaccgtctgggaagtgaggagcgcctctgcccggccgccgcaccgtctgggaagtgaggagcgcctctgcccggccgctgtgcaaccctccaagtgtgaagtgacagccttgtgtgtgatctttctgccctccccaagtttgcattttcgacattaaagtttactttttaattaaaagttttaaattggagaataaaaaaaaaa",
+  "length_bp": 366,
+  "sequence_length_bp": 366,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

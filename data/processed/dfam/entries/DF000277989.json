@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277989",
+  "name": "ManJav-1.85",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ManJav-1.85"
+  ],
+  "species": "Manis javanica",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Manis javanica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Pholidota",
+    "Manidae",
+    "Manis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 326 BP; 74 A; 71 C; 92 G; 88 T; 1 other;"
+  },
+  "sequence": "tgtgggtaaaattgcagtatttccagaatctctcgcctggccttagtgcatctccatatcaataggtgtttccaaggggtggagagaagtagtccatctccatatcaataggtaattacaagggggagcgagggcatatctggaccggagaggttgggtggggtccctttttgcagccgggtcgcgagagacacgggcgagcagaagtggacgactgcttgtaagcaataaacgggtttctcccactttatttctccctttgactgatttcggtttcaaaggtantttgccccgggctgggaacatattttccccccggagttaca",
+  "length_bp": 326,
+  "sequence_length_bp": 326,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

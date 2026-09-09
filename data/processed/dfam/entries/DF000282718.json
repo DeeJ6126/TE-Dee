@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282718",
+  "name": "SpeDau-1.396_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "SpeDau-1.396_LTR"
+  ],
+  "species": "Spermophilus dauricus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Spermophilus dauricus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Sciuridae",
+    "Xerinae",
+    "Marmotini",
+    "Spermophilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 284 BP; 51 A; 63 C; 98 G; 70 T; 2 other;"
+  },
+  "sequence": "tgctgagagccacagccgagtaggaatgacgcatggcattttgccagtggttgaaaggcgacccagcagccattgagatgatgttacccctgctgtccgcctgagctctcgggattcccggagagttcccattggttggggaagtgcnggaggagggatttccggaggaggnatttccggttggcgttcgggttcccgggagcgtgtgtggagtgtctggcggagttcagaaataaagtttgttcctgcttcagtggctcgtgatttgtgcccagccagactgc",
+  "length_bp": 284,
+  "sequence_length_bp": 284,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,46 @@
+{
+  "accession": "DF000276537",
+  "name": "EchTel-1.10",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-RTE"
+  ],
+  "species": "Echinops telfairi",
+  "display_classification": "SINE/tRNA-RTE | Echinops telfairi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Tenrecinae",
+    "Echinops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 191 BP; 38 A; 44 C; 61 G; 47 T; 1 other;"
+  },
+  "sequence": "aggagccctggtggtgtagtggttacgcgttgggctgcgatccgcatggtcggcagttcgaaaccaccagcagctccgcgggagaaagactgggctttctactcccgtaaacagttacagtctcggaaacccacagggggtcgctatgagtcagcattgactcgatggcagtgagtttggnttttttggtt",
+  "length_bp": 191,
+  "sequence_length_bp": 191,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

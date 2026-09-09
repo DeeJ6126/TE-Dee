@@ -1,0 +1,62 @@
+{
+  "accession": "DF000000212",
+  "name": "HSMAR1",
+  "description": "TcMar-Mariner DNA transposon, HSMAR1 subfamily",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "DNA/TcMar-Mariner | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1287 BP; 382 A; 281 C; 278 G; 346 T; 0 other;"
+  },
+  "sequence": "ttaggttggtgcaaaagtaattgcggtttttgcattgttggaatttgccgtttgatattggaatacattcttaaataaatgtggttatgttatacatcattttaatgggcatttctcgctttatgtttttttgctaatgacttattacttgctgtttattttatgtttattttagactatggaaatgatgttagacaaaaagcaaattcgagcgattttcttattcgagttcaaaatgggtcgtaaagcagcggagacaactcgcaacatcaacaacgcatttggcccaggaactgctaacgaacgtacagtgcagtggtggttcaagaagttttgcaaaggagacgagagccttgaagatgaggagcgtagtggccggccatcggaagttgacaacgaccaattgagagcaatcatcgaagctgatcctcttacaactacacgagaagttgccgaagaactcaacgtcgaccattctacggtcgttcggcatttgaagcaaattggaaaggtgaaaaagctcgataagtgggtgcctcatgagctgagcgaaaattaaaaaaatcgtcgttttgaagtgtcgtcttctcttattctacgcaacaacaacgaaccatttctcgatcggattgtgacgtgcgacgaaaagtggattttatacgacaaccggcgacgaccagctcagtggttggaccgagaagaagctccaaagcacttcccaaagccaaacttgcaccaaaaaaaggtcatggtcactgtttggtggtctgctgccggtctgatccactacagctttctgaatcccggcgaaaccattacatctgagaagtatgctcagcaaatcgatgagatgcaccgaaaactgcaacgcctgcagccggcattggtcaacagaaagggcccaattcttctccacgacaacgcccgaccgcacgtcgcacaaccaacgcttcaaaagttgaacgaattgggctacgaagttttgcctcatccgccatattcacctgacctctcgccaaccgactaccacttcttcaagcatctcgacaactttttgcagggaaaacgcttccacaaccagcaggatgcagaaaatgctttccaagagttcgtcgaatcccgaagcacggatttttacgctacaggaataaacaaacttatttctcgttggcaaaaatgtgttgattgtaatggttcctattttgattaataaagatgtgtttgagcctagttataatgatttaaaattcacggtccgaaaccgcaattacttttgcaccaacctaa",
+  "length_bp": 1287,
+  "sequence_length_bp": 1287,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "187..1207",
+      "start": 186,
+      "end": 1207,
+      "qualifiers": {
+        "product": "HSMAR1_tp",
+        "number": "1",
+        "note": "via tfasty with Mariner-13_HSal_tp [Simiiformes]",
+        "translation": "MLDKKQIRAIFLFEFKMGRKAAETTRNINNAFGPGTANERTVQWWFKKFCKGDESLED"
+      },
+      "label": "HSMAR1_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "HSMAR1"
+  ]
+}

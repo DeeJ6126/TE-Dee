@@ -1,0 +1,48 @@
+{
+  "accession": "DF000278125",
+  "name": "MegLyr-1.3",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Megaderma lyra",
+  "display_classification": "SINE/tRNA | Megaderma lyra",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Megadermatidae",
+    "Megaderma"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 118 BP; 30 A; 29 C; 36 G; 22 T; 1 other;"
+  },
+  "sequence": "gggagttccctggtggtgtagtggcttaaggcttcggcgctggcgctgtcagcgctgcggcctgggttcgattcccagccagggagctacccacataccaaaaagnaaaaaaaaaaaa",
+  "length_bp": 118,
+  "sequence_length_bp": 118,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

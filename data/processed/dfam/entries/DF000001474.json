@@ -1,0 +1,27 @@
+{
+  "accession": "DF000001474",
+  "name": "SSU-rRNA_Cel",
+  "description": "from Metazoa.",
+  "keywords": [
+    "rRNA/"
+  ],
+  "species": "Metazoa",
+  "display_classification": "rRNA/ | Metazoa",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 777 BP; 171 A; 175 C; 228 G; 146 T; 57 other;"
+  },
+  "sequence": "agagggcaagtctgntgccagnagccgcggtaattncagctccaatagcgtatgccaangctncngcagttagaaagctcgcagttggatctcgggggcgggncgcggtccgcnnnntgcntnggccggngtagngagnnnnaaaccaccggtcctannccgggncagncctccatgtgccngagcgtttgccctgnnnaaancngggcgttcagcgcaggcgccngcctgaataccgcanctaggaataatggaataggactccggttctttttgtnnnttctggaaccggntcnatgatcgagagggacggnccgggggcattcgtattgcgccgctagaggtnaaatncttggaccgacgcaagacgaacgaaagcgaaatcgtttgccaagaacgttttcattaatnaagaacgaaagtcgaaggttcgaagacgatcagataccgtcatagttccgaccgtaaacaatgccgacccgcgatccggcgggtttttgacccgccgggcagcgtgcgggaaaccagagtctttgggttctggggggaatatggttgcaaggctgaaacctggagaaancgacggaagggcancaccaggagtggagcntgcggcttaatttgactcaacacgggaaacctcanncggccnggacacggnngggactgacagattgatagctctttctcgattctgtgggtggtggtgcatggccattctaagttagtggannnnnnnnnctggttcattccgataacgaacgagactccggcatg",
+  "length_bp": 777,
+  "sequence_length_bp": 777,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SSU-rRNA_Cel"
+  ]
+}

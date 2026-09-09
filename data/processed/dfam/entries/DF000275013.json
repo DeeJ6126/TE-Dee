@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275013",
+  "name": "BeaHun-1.240",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Beatragus hunteri",
+  "display_classification": "DNA/hAT-Charlie | Beatragus hunteri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Alcelaphinae",
+    "Beatragus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 392 BP; 90 A; 123 C; 105 G; 73 T; 1 other;"
+  },
+  "sequence": "caggggtccccaacccccgggccacggaccggtaccggtccgtggcctgttaggaaccgggccgcacagcaggaggtgagcggcgggcgagcgagcgaagcttcatctgtatttacagccgctccccatcgctcgcattaccgcctgagctccgcctcctgtcagatcagcggcggcattagattctcataggagcgcgaaccctactgtgaactgcgcatgcgagggatctaggttgcgcgctccttatgagaatcatatcacagaaaataaagtgcacaataaatgtaatgcgcttgaatcatcccnaaaccatccccccccccccagtccgtggaaaaattgtcttccacgaaaccggtccctggtgccaaaaaggttggggaccgctg",
+  "length_bp": 392,
+  "sequence_length_bp": 392,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

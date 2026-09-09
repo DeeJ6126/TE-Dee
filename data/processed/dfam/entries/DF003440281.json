@@ -1,0 +1,48 @@
+{
+  "accession": "DF003440281",
+  "name": "nhAT1_pKuh",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Pipistrellus kuhlii",
+  "display_classification": "DNA/hAT-Charlie | Pipistrellus kuhlii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Pipistrellus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 193 BP; 38 A; 56 C; 58 G; 41 T; 0 other;"
+  },
+  "sequence": "gcaggcgtcttcaaactacggcccgcgggccacatgcggcccgcagaggagtctgatccggcccgccaggttttttgggcagtgagcgcagccgaggtgttacagtaggaattagtagttcatatagtccggccctccagctctctgagggaccgtgatctggcccccactttaaaaagtttgaggacccctg",
+  "length_bp": 193,
+  "sequence_length_bp": 193,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

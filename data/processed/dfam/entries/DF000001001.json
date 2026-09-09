@@ -1,0 +1,46 @@
+{
+  "accession": "DF000001001",
+  "name": "MLT1A0",
+  "description": "MLT1A0 Long Terminal Repeat for ERVL-MaLR retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT1A0"
+  ],
+  "species": "Euarchontoglires",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Euarchontoglires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 365 BP; 90 A; 93 C; 95 G; 86 T; 1 other;"
+  },
+  "sequence": "tgctatggtctgaatgtttgtgtccccccaaaattcatatgttgaaacctaacccccaangtgatggtattaggaggtggggcctttgggaggtgattaggtcatgagggcggagccctcatgaatgggattagtgcccttataaaagaggccccagagagctccctcgccccttccgccatgtgaggacacagcgagaaggcgccgtctatgaaccaggaagcgggccctcaccagacaccgaatctgccggcgccttgatcttggacttcccagcctccagaactgtgagaaataaatttctgttgtttataagccacccagtctatggtattttgttatagcagcccgaacggactaagaca",
+  "length_bp": 365,
+  "sequence_length_bp": 365,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLT1A0"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002828",
+  "name": "hAT-N50_DR",
+  "description": "Putative non-autonomous hAT DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Ac | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 701 BP; 274 A; 94 C; 116 G; 213 T; 4 other;"
+  },
+  "sequence": "cagtgttgggggtaacgcattacaagtaacgcgagttacgtaatataataatattacttttctaagtaacgagtaaagtaacgcattacttttaaaaaataagtaataatatttgagttacttttttgaaaatgtaacgcgagttactttttnagtttaattaattagcttttaaaaaaataaattgctgaattaaaattaaagtagtcacaatgaatcacgcagtcaatgagagaatgtgttcattattttgaacgcatcgaagaaaaggaaaaggggattatngtctcaatggacagtgattttacttaagacaaatagtacaaaagtagcaaacacattgctttaaactttcaataatctgtatatacggcatgtatagctctggggntcaggaagttctcagataacattatcctaaaatattattttaatgtttttaaaggtaaatgnaggtgtaggttatacagtgcgttgttaattgcagagctcctctatttaaaaaaaaaaaaaaaaaaaaacaagttctgaaagagatcaagcctcagccaggtaataaaaagtaacgcaaaagtaactcaaaagtaacgtaacgcattacttaccataaaaagtaactaagtaacgcaactagttacttttttggggagtaactcaatattgtaatgcattactttcaaaagtaactttccccaacactg",
+  "length_bp": 701,
+  "sequence_length_bp": 701,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "hAT-N50_DR"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "accession": "DF000004115",
+  "name": "SRV_MM-int",
+  "description": "ERV2 Endogenous Retrovirus from mouse.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "SRV_MM-int"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 6139 BP; 1813 A; 1373 C; 1399 G; 1536 T; 18 other;"
+  },
+  "sequence": "cctggcgcccaaacgtggggcagcgagaacgagagaccccgtgagggacgttactggaagaagggtcgaccgaaaattcaaaagtgaaacaaaggtgatcaccgcgggaacctgccgcgtcgagaccggtgagtcatagtaacgaaaatggggcaagaaataagtgatgagggaaactttagtttctccaatgcttggacatacctggttatattaaacagtttgtcacaactgtttgccatgtactgcctgctgctgttttacaaagtcctaaaggaaaagcgtagccctatacaacctgttggcaagtttctctgtgtgaaactcgtggttttcgtttccttttggcaagcagtacttattgctttgttggttatttcagaaaagcgtacctgggaatggcaaagtgcagaagctgtggccataggcctgcagggtttcataacctgcattgaaatgttctttgtggcaattgcccatcactatacgttctctgagtcagacagggatgacctggaggaagaggcggccaaatatcacgatcctgaatggcccccctttcagagacctcctccatctgcgccccctggaccacctgatggtgtcctagggatggctgtcttggaccctagaaaggaattgcaggataaaatctcagccctaaaacgacaaatagaattagaggaagagtatcaggacttaattaatcagctacaagaattaaagaccaggaagacgtctcgggagggcgaagccacccgagaaaatcccccgggtcctcgcgttcctcaacgcggagtccaaagacggcccctgccctctggctttggttcagccgcagatcgcccagaggagggagaggctgaggctttccctgtatcagagaccacagacgctcaaggggttgcttggagacatcacacaggtttcaatttccaaatcattaaagaattaaaaaatgcagtgtcacaatacggcgccactgctccttttactcttgcaatcctggaatctgccgcagaggagtggctgactcctggggattggaataccctagtgagagcagttcttagcggtggtgaccatcttatctggaaatcagagtatcatgagaattgtaaagagatggctaggaggaacgctcaggcaggcaatgcttggtcctttgatgccttagtgggagaagggcaattcgcttcaagtgatgaccagatgcaatatgacccaggcttattcgctcaaattcaaaacgcagctatgaaggcttggcgtaaactcccggtaaagggagaccctggtgcatctttgacagcagtcagacaagggcctgatgaaagattttctgattttgttcattgactgatgacaacagcagggaggatttttggtaatgcagaggcaggtgtagactatgtgaaacagcttgcgtttgaaaatgccaatcctgcctgccaagcagccattagaccctacaggaagaagacagacctcactgggtacatcagactctgttctgacatagggccctcctaccaacagggcttagctatggcggctgccatgcaaggacagtcagtaagagacttcttggcaagtagagacaaaaaggcctgttttaagtgtggcaagcctggacattttgcaaaagattgcagggtaggaaacgagtcaactctgagacggcccgggaaacagcctgggctatgcccgcgttgcaaactcggaaaacattgggctaataagtgtagatccaagacagatacacaagggaacacccttttccctaatcggggaaacgggagcaggggccagccccaggccccgaaccaacacaagccaaaacaggcttatggggcggtcagcttcatgccagcaagcaacaacaacccctttcagaacttagtcgagcaaccccaggaagcgcaggactggacctcagttccgccacccacacagtactaaccccagaaatgggacctcaggccctacccaccggagcgttcggaccgctctatccaaatgtgtttggcctgatagtgggaagaagcagtgctaccatgcagggactacaaattnttcctggtgttatagacaatgattatcaaggagagattaaggtaatggccaaggcaatacataatatagtcaccatccccacaggaaggaggatagctcagctattgttacttccattgcttcctactaatcacaaatataagagtcctaagagaggggatcaaggctttggttcctctgatgcatactgggtgcaacctatagttaaacaaaaacctatgatgacaatatggcttgatggaaaggcattccgaggcttggttgatacaggggccgatgtgactattataaaacaaagtgattggcccgccacctggcctctgaccccaaccttgacaaatctaaggggtattggccaaagtcaaaatccacaacaaagctctaaggtgctgaagtggaaagataaagaaggaaatacaggaaatatacaaccatatgtcatcccgggccttcccattaatctctggggccgagatctgttatcccagctgggattgattatgtgcagccccaatgaagtaatcatggctcagatgataaactctgggttttccccagggaaaggtttaggaaaaaatgaagatgggactacccatcccattgaggcccatggcaacactggaagatgaagcttggggtatttttgatgggggctgttgattcanctgcacccccagggcgttgtgccgatcccatcacctggaagggggactcgcccatctgggtggatcagtggnccctcaccaccaaaaaattacaagctgcccaattactagtgcaggagcaaatataggcaggacatttggaacagagtaactctccctggaataacccaatatttgtcatcaagaaaaaatcaggaaagtggagattgttacaagacttgagggctgttaatgtgacaatgatcctgatgggagccttgtaacctcggatgcccacacctgtgccaatacctttgggctactataaaatagttatggatttaaaagattgtttctttaccatcctcttgcatcttgaagacagaaagtgctttgcctttagtgttcctgctntaaactttagaggacctatgaaaagacatcagtggaaggtattacctctgggtatggctaatagccctaccttgtgccaaaaatttgtggcctccaacatagatgatgttagaaccatgtggaaacaaatctacatgattcattacgtggatcatatcttaatagcaggaaaagatggaagtcangtattccagtgttttgatgatcctaaaacagcttttcagactgcagggntacaaatagctacagaaaaggtacagttacaagatccctatacttgtttaggatttcagattattggcccacatattattnatattaaggccacttttagaactgattcccttaaaacgcttaatgattttcaaaaactattgggagatatcaattggatatgtccatatttaaaacttactagagaagatttgaagcctctgtttgatattctcaagggagatgctgaccctaagtctgaccgggctctaacagaggagggtagaaaagctttgcagaagattgaaagtgctatttcgtcccaatttgtaactcatattaattattctaagcctttatattttctgatctttaacaccaaattaactcctactgcgtttttttggcaaactgcacccatattatgggctcatctttcctcatatcctaagaaggtcctttattcatactatgtggctgtagctgatattattatattaggcagagataatagtcagaaatatttcggaaaagaccgtgatgccatagtgcaaccctatataaggcatcaggttgattggcttatgcaaaattctgaactttggcctatcgcatgtgcctcctttgctggacagcttgataatcattatctgccagacaaattggttcagttttgtaatcgccatgncgaattcatttttccgtctcgcaccgcacatgcacctatagaagaagcattgctagttttccctgatgtttcctcatcaggaacagctgtttatgcctttaaaggtcaagtaatctcctttgctacatcatcagtgtcagaccaattggttgaattgcatgctgttattgctgtgttccaagcgtttccgaatcaagccattaatanttacacagatngctcatatttagctcagtctgcccctctgctagaaactgctgtgcaaataaaacattcctcagaagcagctgatctctttttacagtgccaacaattaattttgaggagaaagtgtaaattttttataggacacctgagagcccacaacggactaccaggtcccatctctgagggaaataccaaggcagatctagccactcgtgtaaccgcggtgacttcatcagatccaccagctaacctggataaggccataagggcccatgagttacatcacttcaattcccaaacnttgaagatcatgtttaaaattaccagagaacaagctaggtaaattgtcaaataatatcggtcatgtgttacacctttacccgnnnntcatttgggtgtaaatccaaagggcctaataccaaacagcctctggcaaatggatgttactcgttataatgaatttggaaaccaaaaatatatacatgtatatgtagatacatacagtggtttcatttatgcgacattacaaactggagaagcaggcaaacatgtgatcactcatatgctcgctacantcactgtattgggtgtgcctaaacagataaagactgacaatggtccacgttatacaagctcaagtttccnccaattttctgagaaattggcaatgctacataaaacaggtattctctataatccacagggccaaagtatggtagaaagggcacatcaaaccattaaacatcaatttgaaaaaattaaaaggggggaatggtaccctaccaagggatcccccagaaatatccttcatcacacactctttattttaaattttttaactttggattctgaaggaaaatctgctgcagatagattttggcatcctgataccaaaaagaattttgcaacagtcctctggaaagacccattaaccggaacctggaatgggccagacccagtgcttatctggggaagaggttctgtctgcatatattcccaaacagcagatgccgcacgctggctgccagagagactgattaaacaaatagacaataataacagatccagggaggagaagccccctgagaaccctgtttcttctttgcagggaacatgaagattctcttcaaactggaacggatcaaccagcatacgccatataacctgacttgggaagtcctcagtgctgaaggagacatcatcaccagcgcctccaaggtggctccactggactcttggttccccgacttacgatttagtggggtacatctctttgactgtataaagtggggtcaacactctgatgtgtgccctgcagaaaatagctctaagagaaaatgtggaggccctggcnaagcatactgtgctggctggcactgtgtatccacaggccacatttggtggtccccgcctatagccacggacaaaattagaatcggtgtcgaaaactctgtggccattcagggatattactcctgtaatgggggacaacgaagataccagactacttattctcttgtctctcgggcccatactgttcaacaaactgatggcttttgtatgacagcagatagacgctattcaaatgaaacccatacaggtccattatcacaggctggaagtaggggactctaaaacctctgtcatcgagaccgacgaggaatagcccctaacttacgcgctaaaccagatagtcaatgacgggtaagagaacacctcaagacccctgcccctaattgggaggcctcaccaacctaagacaggagctcaaccaaaaaagggctgttgagtgtccagagatgggaaagggaggctagggtctgttccaacctaagacaggcacggtttccgtaagttttcccagccttcccttttgaaaaaattaaaaagggggacc",
+  "length_bp": 6139,
+  "sequence_length_bp": 6139,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "147..1959",
+      "start": 146,
+      "end": 1959,
+      "qualifiers": {
+        "product": "SRV_MM_gag",
+        "number": "1",
+        "note": "[Mus mouse genus]",
+        "translation": "MGQEISDEGNFSFSNAWTYLVILNSLSQLFAMYCLLXFYKVLKEKRSPIQPVSKFLCV"
+      },
+      "label": "SRV_MM_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "2680..5356",
+      "start": 2679,
+      "end": 5356,
+      "qualifiers": {
+        "product": "SRV_MM_pol",
+        "number": "1",
+        "note": "[Mus mouse genus]",
+        "translation": "GPWQHWKKRLGVFLTGAVDSAAPPGRCADPITWKGDSPVWVDQWSLTTEKLQAAQLXV"
+      },
+      "label": "SRV_MM_pol"
+    },
+    {
+      "type": "CDS",
+      "location": "1787..2720",
+      "start": 1786,
+      "end": 2720,
+      "qualifiers": {
+        "product": "SRV_MM_pro",
+        "number": "1",
+        "note": "[Mus mouse genus]",
+        "translation": "SGKREQGPAPGPEPTQAKTGLWGGQLHASKQQQSLSELSRATPGSAGLDLSSATHTVL"
+      },
+      "label": "SRV_MM_pro"
+    }
+  ],
+  "repbase_aliases": [
+    "SRV_MM-int"
+  ]
+}

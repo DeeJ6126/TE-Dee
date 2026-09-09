@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277373",
+  "name": "HipAmp-5.1278",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Hippopotamus amphibius",
+  "display_classification": "DNA/TcMar-Tigger | Hippopotamus amphibius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Ancodonta",
+    "Hippopotamidae",
+    "Hippopotamus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 236 BP; 54 A; 59 C; 68 G; 55 T; 0 other;"
+  },
+  "sequence": "cagttgacccttgaacaacacgggtttgaactgcgcgggtccacttatacgcggattttttttcaatagtaaatacgtactacagtactacacgatccgcggttggttgaatccgcggatgcgggaaccgcggatacggagggccgaatgagggccactgtaaagttatacgcggatttttcagactgcgcggagggtcggcgcccctaacccccgcgttgttcaagggtcaactg",
+  "length_bp": 236,
+  "sequence_length_bp": 236,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

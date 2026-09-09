@@ -1,0 +1,50 @@
+{
+  "accession": "DF000000512",
+  "name": "LTR4",
+  "description": "LTR4 (Long Terminal Repeat) for HERV3 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR4"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 596 BP; 137 A; 162 C; 127 G; 163 T; 7 other;"
+  },
+  "sequence": "tgaagcaggagatataaaaagaaagaaagagagaaaaacaagttttctgtactaggctgactcactccaaggcccagcgataggcagggctctgncagggctttgataacactatctgcaaagccggggcccagaaggaatgggctccagagnctctccctcccnncccggagcagggatgagaaaaacaagttcttcttatcagcttccccctttgaaattctttccccataccattattcctttgttctgctctcataactatttttgtaactatttctgcaagtttgcaaggattttgtaagttcctgttttcccntctgtgcagcacggcgaaggtcacaagacatgcctgagttgcaaaacctgtcactgtttgatnaactgcctttgttctgcttctgtaagcttgcttgcccgccccgcgggtttcgcgccactaactggccancccctttcagatgcatgtataaaagtcaagccctgtctttgttcggggctcagcctttggatgttaatccgctgggccggtggccacctaataaaatcctcctgttccacccattggtctctccggtcccctgattcccgcaaca",
+  "length_bp": 596,
+  "sequence_length_bp": 596,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR4"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000282544",
+  "name": "ProCap-1.241_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ProCap-1.241_LTR"
+  ],
+  "species": "Procavia capensis capensis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Procavia capensis capensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Hyracoidea",
+    "Procaviidae",
+    "Procavia",
+    "Procavia capensis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 415 BP; 128 A; 81 C; 96 G; 109 T; 1 other;"
+  },
+  "sequence": "tgttatggattgaattgtgtccccccaaaatatgtgttgtaaatcctaacctctatgcctgtggttataatcccatttgggaatgggttgtctttgttatgttaatgaggcaggattagtgtagggtgtatcttgagtcaatctcttttgagatataaaagagattaaacaagcaagcaagaagcagagatggggnaagagagatgccaagccacatgaagatctcccaggaacagaagctcgaagagacaaggaccttcctccagagccgacagagagagaaagccttcccctagagccggcaccctgaattcggacttctagcctcctaaactgtgagaaaataaatttctgtttgttaaagccacccacttgtggtatttctgttatagcagcactagataactaagacaga",
+  "length_bp": 415,
+  "sequence_length_bp": 415,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000278501",
+  "name": "MinSch-1.191",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MinSch-1.191"
+  ],
+  "species": "Miniopterus schreibersii",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Miniopterus schreibersii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Miniopterinae",
+    "Miniopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 864 BP; 204 A; 289 C; 184 G; 186 T; 1 other;"
+  },
+  "sequence": "tgttagacagacatgagcagagcaaggacgatgggccaggtacagaaactcaccagggcaggaagccccggatgcctagcaaggggcaaaactgggaaaacaagaaccttgtccccagggtaacctatcctcccccagcatatcgctggtcatgcggtttagaccccctgagcgtttcctccctaaagataacatctaggcctcagttgtatttcagctccaggcccagaaaagcagcaaaaccagacaagtggcgccgtggctgcctcaggaccagctacattgactaatgaccccctgccctggcaccgaccaatcagtggagaccacgaccctgaaagagcacacctggaaagctgatgaatattctattgagaccctcccctgagacctcccctaagatttccacctgcaagaaagagataaatacgctcaggacaaaggacccagcgcgcgctccccaccaggggagcacgccagcgccatctccntcccccttcttccctccgaggggaccccacgagacttgcaaccaggggagcaatgggcagcggcagctcgtcccgggcttaccccctgaacctgtctccaaggcccccttctctctctgacttctcagtgagccaaagcagcccagcccgggctctcctgttgcttcttctatgcccttccttgtttcactgtcccaagtatatttttgctgccatcatggacccaataccctttggctcagtgctgtgtagcccttccctttggatatccccatcccccatccccttttccttaaataaattcaatttttctttattcaccgtctgagatggctatttagcctgcccgcgcaccaccgaccttaacctttca",
+  "length_bp": 864,
+  "sequence_length_bp": 864,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

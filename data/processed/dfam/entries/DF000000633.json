@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000633",
+  "name": "HY5",
+  "description": "hY5 Y scRNA gene / pseudogene",
+  "keywords": [
+    "scRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "scRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 84 BP; 15 A; 19 C; 19 G; 31 T; 0 other;"
+  },
+  "sequence": "agttggtccgagtgttgtgggttattgttaagctgatttaacattgtctccccccacaaccacgcttgactagcttgctgtttt",
+  "length_bp": 84,
+  "sequence_length_bp": 84,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RRNA45"
+  ]
+}

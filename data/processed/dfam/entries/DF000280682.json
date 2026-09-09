@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280682",
+  "name": "SorAra-1.258",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/RTE-RTE"
+  ],
+  "species": "Sorex araneus",
+  "display_classification": "LINE/RTE-RTE | Sorex araneus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Soricidae",
+    "Soricinae",
+    "Sorex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 937 BP; 252 A; 241 C; 259 G; 185 T; 0 other;"
+  },
+  "sequence": "ccccctcgatggttcaccgcctcatcgtggcgagggggtggcaacggtgccaaccggcgaagagcgaaccaacaggtgctgcccagagatgcaggcaggtgcagggctggactccttgcatcgactgtgtcgatctggccagtactttctgtacgtgagcagcacgtccatgcacaaggtgtgtggcgtgtttgtcagcgtgcagatcgttacaacatgccacccgcacggcagagcctggcaagctacccgtggcgtattcgatatgccaaaaacagtaacaaaaatgggcctcattcccctgaccctggaagagcccccaatacggcagcgttgagaaggacgagcaaggagaggctgctaaaatctcagggccgaactaggctgccaaaacgaagaaggactaaaatgactgtctgcacttttaacgcacgtacgctggcatcggaagcatccatcgaggacctgatggtgcaagcgcagaagatcaagtacgacgtcattggattgaccgagacgagaaggcatcgatcacatcacgccgttttcgacactggagaagaactgttcctcggaacatgcgacagtagaggcgtcggtggtgtcggtgtcctcgtcaacacgaacttggccatgagcattgattcgttcgaatgcctaacaacccgaatcggacgcttacgtttgaatagatgtggctcattgccggcagtttctatcttcgtcgtctacgcaccaacatccaactacgacgaagaagaaattgagaagttctacatggagctggagaagttctataaagaagaccacaccttctacaaggtcattgtcggtgattttaacgccaagataggaccgagaaggtcgcccgaagaactccacatcgggacccacggcctagaatggaacgaacagggtgagagactgtctgagttca",
+  "length_bp": 937,
+  "sequence_length_bp": 937,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

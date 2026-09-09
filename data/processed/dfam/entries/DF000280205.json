@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280205",
+  "name": "PteAle-1.140",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Pteropus alecto",
+  "display_classification": "DNA/TcMar-Tigger | Pteropus alecto",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Megachiroptera",
+    "Pteropodidae",
+    "Pteropodinae",
+    "Pteropus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 399 BP; 97 A; 82 C; 98 G; 122 T; 0 other;"
+  },
+  "sequence": "cagacggtccccgacttacgatggttcgacttacgatttttcgactttacgatggtgcgaaagcgatacgcattcagtagaaaccgtacttcgaattttgaattttgatcttttcccgggctagcgatatgcggtacgatactctctcgtgatgctgggcagctcccagtcagccaggatcacgaggtaaacaacgatactctacagcgtattctttgtgttagatgattttgcccaactgtaggctaatgtaagtgttctgagcacgtttaaggtaggctaggctaagctatgatgttcggtaggttaggtgtattaaatgcattttcgacttacgatattttcaacttacgatgggtttatcgggacgtaaccccatcgtaagtcgaggagcatctg",
+  "length_bp": 399,
+  "sequence_length_bp": 399,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

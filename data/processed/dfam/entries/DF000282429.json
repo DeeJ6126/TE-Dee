@@ -1,0 +1,47 @@
+{
+  "accession": "DF000282429",
+  "name": "OryAfe-1.284_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OryAfe-1.284_LTR"
+  ],
+  "species": "Orycteropus afer",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Orycteropus afer",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tubulidentata",
+    "Orycteropodidae",
+    "Orycteropus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 401 BP; 121 A; 78 C; 94 G; 108 T; 0 other;"
+  },
+  "sequence": "tgttatggattgaattgtgtcccccaaaaatatgtgttgtaaatcctaacctctatgcctgtggttataatcccatttgggaatgggttgtctttgttatgttaatgaggcaggattagtgtagggtgtatcttgagtcaatctcttttgagatataaaagagattaaacaagcagagatgggggaagagagatgccaagccacatgaagatcgcccaggagcagaagctcaagagacaaggaccttcctccagagccgacagagagagaaagccttcccctagagccggcaccctgaattcggacttctagcctcctaaactgtgagaaaataaatttctgtttgttaaagccacccacttgtggtatttctgttatagcagcactagataactaagaca",
+  "length_bp": 401,
+  "sequence_length_bp": 401,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

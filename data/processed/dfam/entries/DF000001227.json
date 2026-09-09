@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001227",
+  "name": "UCON64",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Mammalia",
+  "display_classification": "Unknown/ | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 392 BP; 126 A; 87 C; 68 G; 96 T; 15 other;"
+  },
+  "sequence": "ccncgtgcgtggtcatgataaccatcacatnaantcctanatttcccaagccatggnataaatttcaaaccattatataaattgactttatnctgcacttgtggatgtcactaagctccgcccataccaatgacatcactgtttccatagtaactaatgcgcttcaaaaaggaaaaagcgnagggagacttaaaaaaagcaaaaaaanngagnnaaatangtggcataaacaaaatacgtgatggcgtggggtgctataaagnttttattgccacttgtttgagangacctgcataactcactcgtggctccgccactcgtgagtaatgcggtcatcccaaactcgtggcaataaaanctttatagcaccccacaccgtcacatattctata",
+  "length_bp": 392,
+  "sequence_length_bp": 392,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON64"
+  ]
+}

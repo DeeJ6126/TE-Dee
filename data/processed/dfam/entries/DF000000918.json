@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000918",
+  "name": "MER70A",
+  "description": "MER70A Long Terminal Repeat for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER70A"
+  ],
+  "species": "Euarchontoglires",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Euarchontoglires",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 472 BP; 90 A; 138 C; 130 G; 111 T; 3 other;"
+  },
+  "sequence": "tgcaggacagttctccgggtggccttggaccgacccagttctcccccctttctcgcttgtagttctcaagaataactgtagaatgtgctgggaatgcaacatcctgagatagggaggaactggccggaacagcccgggctctgttccagtcccccctagaaacaggatgtccttcaacgctttagcccagcgngtcacgtngcccctggggtataaaacccagggcgggctgctttccggggtccctcagctgcggtgcaagtggggcacgcgcagncgagactccatccgccccgggcagctttcctgagccttgggggaccggctcgcaatgaatcctaggcttctgttgtcccttgctgcctatctgtaagtaataaacccgcttcatgtaacttgttgcgtgtgtgggtgttctgtctcaccggactcagacaagttggtaaccagtgcacagtgaacctgcttcaca",
+  "length_bp": 472,
+  "sequence_length_bp": 472,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER70A"
+  ]
+}

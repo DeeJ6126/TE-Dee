@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001357",
+  "name": "CELE7",
+  "description": "CELE7 nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 363 BP; 125 A; 52 C; 52 G; 130 T; 4 other;"
+  },
+  "sequence": "tttcggaaatctacaaaatgacctattgcgccatgttgttccaacatttttcnattaaaaattagtgtcaaaatatagaaaatcacttgatttatctgaaaataacatttatttcagttgaaacatttgagaaagtgctcaaaaatngcctgaaagttgccaattgccgattatcgaattatcgatttttttcggcaattgncaactttcaggccaatttttgagcactttttcaaatttttcaactgaaataaatgttattttcagataaatcaagtgattttctatattttgacactaatttttaatgaaaaatgttggaanaacatggcgcaataggtcattttgtagaattgccgaaaa",
+  "length_bp": 363,
+  "sequence_length_bp": 363,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CELE7"
+  ]
+}

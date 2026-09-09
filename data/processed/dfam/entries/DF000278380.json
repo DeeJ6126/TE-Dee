@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278380",
+  "name": "MicMur-1.6",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Microcebus murinus",
+  "display_classification": "SINE/Alu | Microcebus murinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Cheirogaleidae",
+    "Microcebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 327 BP; 92 A; 77 C; 102 G; 56 T; 0 other;"
+  },
+  "sequence": "aggccgggcgcggtggctcacgcctgtaatcctagcactctgggaggccgaggcgggaggatcgctcgaggtcaggagttcgagaccagcctgagcaagagcgagaccccgtctctactaaaaatagaaagaaattagctggacaactaaaaatatatagaaaaaattagccgggcatggtggcgcatgcctgtagtcccagctactcgggaggctgaggcaggaggatcgcttgagcccaggagtttgaggttgctgtgagctaggctgacgccacggcactctagcccgggcaacagagtgagactctgtctcaaaaaaaaaaaa",
+  "length_bp": 327,
+  "sequence_length_bp": 327,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

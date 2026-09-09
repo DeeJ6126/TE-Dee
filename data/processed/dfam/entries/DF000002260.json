@@ -1,0 +1,51 @@
+{
+  "accession": "DF000002260",
+  "name": "HAT1N_DR",
+  "description": "Non-autonomous hAT DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/hAT-Ac | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 965 BP; 284 A; 204 C; 195 G; 271 T; 11 other;"
+  },
+  "sequence": "tagggatggctgacgtgaaactgacgtttcgacacagtgtcgagatcccgaagcgcaagtgtttcgaaacactgcaccgaagcatgatccgaaacacccaggtcacgtgactaaagtgtttcgaaacacctggtcacgtgactaaagcgattcaaagcatcgatcanttcagaagcgtttcgagacccggcgaatctgcatttgactgccanggtcagnaaaaatctctgtctcgtatggcctagtggaccgtgcgtgtgcacgntgntactgtgcttcgaatgacgttttgggttcgaatcccgacttgtacaaatactccgaaatcatggttttatgtattttaatcatgtttctgttttgtgtagcctagataggatacagctgcggatacgccatcaatttagcatcatttttgtaacactgtaaaacaataattaatatttttacagtacggttgggtttagggtttgggtagacgttaataaaatacaataaatgggaaatttaatgaataatataaataattcttgntaacttctggccaccgtntctgatctagcaacaaccctgttttangaccaaaacaagacanatttattcacaaagtgtttattcggatgtcagaccaatgttgaaacaaaacgatacaagaacaaagcattaccaactggtattaaagcatttcaaaacagctgtatcagcctggattcgaacccactatccccgcatggtagtcaganaccctaaccgctccactaaatcacttgaaggttcaagnctacaaagtggggtttaatacctcaatttgctcaactgttctttgctgaagctgtttcagtgcaatacataaaaaatgaccactaggtgtcaccgtagagtggggtttcgaaacgtttcgaagcttcgacacatttgcttcgactgtttcagtgtttcacgaagcctcgctttgcccaccacta",
+  "length_bp": 965,
+  "sequence_length_bp": 965,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "HAT1N_DR"
+  ]
+}

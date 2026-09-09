@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001484",
+  "name": "TIR43YW1_CE",
+  "description": "TIR43YW1_CE is a putative non-autonomous DNA transposon",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1740 BP; 579 A; 301 C; 266 G; 573 T; 21 other;"
+  },
+  "sequence": "ctcagacaaacgcttagtagcttaattagatttcaaccatattaaacgagatttcaaccatatttgtttagaaaatccatattgcattatatttgctccatattagattagaaatccatgttagattagatttcctccatatttcattagaaaacaaatctaatccaatatggcacgatctcagccatatttgattagatttgnccatattggattagattttgtccatattggattagaaatccatgttggattagatttcntccatatttcattagaaaacaaatctaatccaatatggtcgaaatctaatccaatatggcacgctctcagccatatttgattagatttcgcccatgttagattagaaatctcacgagaaatgggcgtattaaaataaataaataaataagaagaaaacggaaagtgcaaacgcgtagggcttaaaatttttnaaattaaaattgaagacctttaaaaagttttaaaataaaattatgatttgaaaataagaattatctcctgcaaataataatctaaagatgatgtccgctgactgactttgacgaatctccgaaaagtctccaactggtaatgtttttttcagaaacactttttttttcaaaatccggcaagaaatttcacggctacaactgtgacaacttcgatggttacaaacaacgaaataacatattctattaatttaaattaactcctacaaaccattacttttttcggtataattcgtggaaaaattatatcatttcacacaaatgatactagagctcttgctgcgaaaagcggaaacggtcaataccgtacttttaaagttttcatgaattttgtattttacgtctgttttgtgccaacccgcagaccatagttaaataaaattacttttcctagcatttacattttgatacaaaatactttaattcacacttccagcaaccaaaaagtatgatttaacgatttttttttagaaaaaactcttttccaaattttctgagactaaaaaaatctttgttctcttctattggttagtacgattggaggctaagattaacgaaagcggttaacaaactttttcaaatgaaaaaccttgatatcaagccgttcaagacttcaaaatacattccctctactcagttcatctaattttccttaacttatcgaagaaacaacgcgcgctaccaccaccagctatttaaccgaacagttcatcgaaagttcatgtgtgcagattggccgagtcggtaagaacacagtctttagaatataacatcctggatcgattccccacagtggcaactccagagaggcgcagtagcggngttnatagagcggctacagttatcaggcgagacagccagtgtgtagtgtaagatatatgcgagacatgagatgttttctcattttctttattttttccacattattttcgggtgaaacattcttcgaaaaaaaattattcagaaaatccgagccatattngattagatttcgtccatattggattagatttgttccatattggattagatttcntccatattngattaganttgttccatattggattagatttgttccatattggattagatttcaaccatatttgattggaaaatccatattggattagaataggaagcctattaattatgtccccattatatttgcncggnnncnnnncgnnnntggttgaaatctaattaagctactaagcgtttgtctgag",
+  "length_bp": 1740,
+  "sequence_length_bp": 1740,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TIR43YW1_CE"
+  ]
+}

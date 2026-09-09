@@ -1,0 +1,51 @@
+{
+  "accession": "DF000289961",
+  "name": "CsSE1",
+  "description": "Lineage-specific SINE element found in an lepidopteran insect",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Chilo suppressalis",
+  "display_classification": "SINE/tRNA | Chilo suppressalis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Pyraloidea",
+    "Crambidae",
+    "Crambinae",
+    "Chilo"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 287 BP; 65 A; 52 C; 70 G; 100 T; 0 other;"
+  },
+  "sequence": "tttgacgacctccgtggccgagtggtttgtacgccgggtttcatggtgtcgccgactcgagaggtcccgggttcgaatcccggtgggggcagatgtttgtgtgatgaatacgagcatttgtactccagtcatggatgtttaatatgtatttctatataaatatacttatatatgtacagtatatgtattctatccgttaccctagcatcccataacacaagccttacagtgcttactttggggctaggctaattggtgtgagtgttggaaatatttatttatttatt",
+  "length_bp": 287,
+  "sequence_length_bp": 287,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

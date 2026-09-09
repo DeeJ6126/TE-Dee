@@ -1,0 +1,49 @@
+{
+  "accession": "DF003440091",
+  "name": "DNA3_pDis",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Phyllostomus discolor",
+  "display_classification": "DNA/TcMar-Tigger | Phyllostomus discolor",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Phyllostominae",
+    "Phyllostomus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 165 BP; 39 A; 42 C; 34 G; 50 T; 0 other;"
+  },
+  "sequence": "caggcatacctcgttttattgcgcttcgctttattgcgcttcacagatgttgcgttttttacaaattgaaggcaagaccctccaccagcaaaaagattacgactatttactcgctttattgcggtggtctggaaccgaacccgcaatatctccgaggtatgcctg",
+  "length_bp": 165,
+  "sequence_length_bp": 165,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

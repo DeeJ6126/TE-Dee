@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282562",
+  "name": "PsaObe-6.3008_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PsaObe-6.3008_int"
+  ],
+  "species": "Psammomys obesus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Psammomys obesus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Gerbillinae",
+    "Psammomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1434 BP; 380 A; 318 C; 387 G; 349 T; 0 other;"
+  },
+  "sequence": "agtggtgccgaaacccgggagccgccgaaccccggagtggaggatcgcttcgaaggaccccgactgctcgtcgagtaaggattcaaagtcagtggcgtgagaaccgcggtacttttctgcaaggtatgatttctgtggtcttgttgtgttgtctgtgccttagttgtgggaaacgggaccatcaagacagtctatccgaagcagaaaagggaattaagaccggtaaatcccctaaggatgggaccaaggaagataaggctaaagcgctgaaggcgcgaaagctagttaagaagtttaagaaaccaaaacagactggtagcaaggaaaagaaaaaggtcgcctcgtcatcgagcgagccggagtctacagagagcgaaaacagctcttctgagaatcaacaaactgatgaggaatcagggctcgaccctgacgagcaggcagagttggatgaggaagcagctaaatatgaggaagggcgttaccgcccggatccgccaccatatgtggcctatgctggcacttccgggttctccatgcggaagtcagccactgaaaaacccaaatctgcagagacaaaattttccctgatatcagaaaaagagaggaagcggattaaaaccgcgttcccaatctgggaggacgctcgggtagttaatcagaccttatacccacctgaagtatatgaacaaataccggtaacaaatcaaagcttggcagcagctgtgctctctgctcttataatcattaaaggaccggatcttattttaataagatccaggggagctgtgtgtattttcccacaggaccaagaaaatccaatttgggttccggcgcaattgacccgggtggtgaagcaagatgagcctgaccctaactttgatcctgatcctgatgttgaacggactgctgacgagcttggaggtggagacccaggagattccactaatgactctctgggactaccttatttgccaatgtctatcttctgccttttcctattttaaggaatgggttggtgtgggcatgtttggagtgatgtttctcgcaggtttgttcctctgtttttggttgctctgccgttttaagagacagcaacatcttaaaaatgtggccatggtgcgggctatgctggctgtggaacagggagcatctccccaagtttggcttaacatgctcagtcgttgagacactgtctgaacttgtagcactcctgacgggcacaggttcccattgcaccaggatgctgttcaagacagacttctgcacctcccagggctcaggttcccattgcacgggactcaaggtgcagagggtctcttacactgtgtaaactccttgatcgctgacgctgttggctcagcaggctgatcggtaacctcatggtgtgttatttttctgattgagatggcctttaatatatataaaagggggaga",
+  "length_bp": 1434,
+  "sequence_length_bp": 1434,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

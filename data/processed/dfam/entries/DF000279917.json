@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279917",
+  "name": "PanTig-1.13",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Panthera tigris",
+  "display_classification": "SINE/tRNA | Panthera tigris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Felidae",
+    "Pantherinae",
+    "Panthera"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 194 BP; 36 A; 56 C; 47 G; 55 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccgactcttgatttcggctcaggtcatgatctcacggttcgtgggttcgagccccgcgtcgggctctgcgctgacagcgcggagcctgcttgggattctctctctctctctctctctctctctctctctctctctcaaaataaataaattaaaaaaaaaaaa",
+  "length_bp": 194,
+  "sequence_length_bp": 194,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

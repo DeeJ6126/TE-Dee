@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277446",
+  "name": "HipGal-1.168",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Hipposideros galeritus",
+  "display_classification": "DNA/PiggyBac | Hipposideros galeritus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Hipposideridae",
+    "Hipposideros"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 218 BP; 53 A; 57 C; 44 G; 64 T; 0 other;"
+  },
+  "sequence": "ccctccgtcgggcgcaactgatctcacagattcattgcacacaaattttcaaatatctaacagttaacttaagtatcgtgactcatcgcttccgtatcttccccctctaccgtaacctatcgccagtcgtgtttgtgacttagtacagtaaagacgtatttcatagcggcatctttgtgtgcaatgaatctgtgagatcagttgcgcccgacggaggg",
+  "length_bp": 218,
+  "sequence_length_bp": 218,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

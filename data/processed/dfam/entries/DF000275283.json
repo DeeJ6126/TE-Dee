@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275283",
+  "name": "CapPil-1.84",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Capromys pilorides",
+  "display_classification": "SINE/ID | Capromys pilorides",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Capromyidae",
+    "Capromys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 136 BP; 51 A; 32 C; 29 G; 24 T; 0 other;"
+  },
+  "sequence": "ggggctggggatttggctcagcggtagaatgcttgcctagcaagctggaagccctgggttcggtcctcggcaccaaaaacaaaaaataaacctcccctaaaaaacaattcaaccaaaaaaatacagtaaaatcaaa",
+  "length_bp": 136,
+  "sequence_length_bp": 136,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279848",
+  "name": "PanHod-1.199",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Pantholops hodgsonii",
+  "display_classification": "DNA/hAT-Charlie | Pantholops hodgsonii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Antilopinae",
+    "Pantholops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 197 BP; 56 A; 52 C; 48 G; 41 T; 0 other;"
+  },
+  "sequence": "tagagcaggggtccccaacctccgggatctaatgcctgatgatctgaggtggagctgatgtaataataatagaaataaagtgcacaataaatgtaatgcgcttgaatcatcccgaaaccatccccccccccccggtccgtggaaaaattgtcttccacgaaaccggtccctggtgccaaaaaggttggggaccgctg",
+  "length_bp": 197,
+  "sequence_length_bp": 197,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

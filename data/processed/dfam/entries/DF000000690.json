@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000690",
+  "name": "MADE2",
+  "description": "MADE2 (MAriner Derived Element 2), a non-autonomous DNA transposon",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Mariner | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 80 BP; 27 A; 15 C; 12 G; 26 T; 0 other;"
+  },
+  "sequence": "ttaggttgaaccatatgaaattgccgatattcgaccatttttgacctacaaaaatggcaatttcatatggttcaacctaa",
+  "length_bp": 80,
+  "sequence_length_bp": 80,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER116"
+  ]
+}

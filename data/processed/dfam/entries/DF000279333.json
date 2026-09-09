@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279333",
+  "name": "NeoSch-5.248",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Neomonachus schauinslandi",
+  "display_classification": "SINE/tRNA | Neomonachus schauinslandi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Phocidae",
+    "Neomonachus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 193 BP; 37 A; 62 C; 46 G; 48 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtctgccttcggctcaggtcatgatcccagggtcctgggatcgagccccgcatcgggctccctgctcagcggggagcctgcttctccctctccctctgccctccccctgcttgtgctctctctctctgtcaaataaataaataaaatctttaaaaaaaaaaaa",
+  "length_bp": 193,
+  "sequence_length_bp": 193,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

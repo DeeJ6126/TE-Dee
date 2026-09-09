@@ -1,0 +1,69 @@
+{
+  "accession": "DF000001541",
+  "name": "BEL_I",
+  "description": "BEL_I is an internal portion of BEL retrovirus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "BEL_I"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "Long terminal repeat of retrovirus-like element | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 5405 BP; 1399 A; 1409 C; 1219 G; 1369 T; 9 other;"
+  },
+  "sequence": "taaaaattggtccttcgagccggatnaccggaantgcgtttcnttcgggcatttgattttgattattggccttttggcaaacggtgatctatagattcctacatcgtatagaatcgttcccttctttcgaccaccatgcggagtgtgattcaacaacggggcttctgcaaaagccaaattactcgtgcgcataataatgccttaaaatttgttgatgacattcactcagtgcaaacaatagttgtccgcctggcgcaactacaggaaaattatttgcggttcgtacggctctcggaagagctgtatgcatttcaatcggaagccgattgggagaaccctgacgaggattttgacgcatatgaggacaaacattatgctacacacgctattctcagcaatactttggaggagttgagacgggatgtcacctcaaacagtattgatgccacagttcaagccgcagacacaccccagagaagtcatgtcgattttcagttcgagcgaattaaacttccgactttttccggaaattatgaggactggaaacatttttcggacatgtttattggatcgattgcttccaattcgagcctgacggattgccaacgatttcattatttaaaatcgtaccttgccggagacgcgcttgcattagttaaacatattccagttactaatgacaactatcgggaagcatgggagcggctggaacagcgatataacaaacaatcgctaattattcgatcgttcttaaacagtttcatgagccttccgagtgctataaattcaaatatcggcacagtgcggaaaattgccgatggtgcagacgaagttattcgtggtctacgagctcttaattgcgaagagagggatccctggctaattttcattctactttcaaaattagatagcgatacccgccaagcctgggctcagtgcgcagaatccgaggaaaaaggtgtgaccatcaaccgattcttgaaatttctcacatcacgctgcgatacgttggaggcttttganttaactcgatcaacccaagctcgacgcgcagctacnacgcaccacgcagacacgcatccaagacgggaagagccgaagtgcacatcgtgccagcagaatcaccaactgtttaagtgtcctcaattcatcgcactcgacattgcatctcgccgagacttcctcaaatcaagaaagctctgtttcaattgcctcagcccggctcatatggtgggcaactgtacatcgaggcatacttgtcggatctgccgccgcaagcatcatactttggttcatggctcgtcgcagccaattcaaaatggcaacaacattgacacagcaagtgttgacagccgcgatcgaccagcagtctcacatgcgggatctacaattggccacaatcaaccgctagctcgagaaggtcatcgcttgggaagcgagactcccgcggaaaacaactttacgcatcatactctggagaatattccggcggctggttctcagactctgttgccaaccatccttgctgacgtcatcgacgcctggggaaacactacaacctgcaggctgctcctggacactggatctacaataaccttggcatcggaatcatttgttcagcgaataggcgtgcgtcgaacgcacgcacggatttctattctcggtctcgccgccaacagcgcgggcgttacccgaggacgcgcacatatcaagctgcgctctcgtcattcgggccaaactgtcgaattggtctcgttcattctcacctcgctgacgtcatcacttcctgcccaagttattgacacctcatcctctacgtggaggcaaatctgcgagcttcctttggcagacccaacgttctgcacacctggagcaatcgatgtcattgttggatcggatcaactttggtctctatacacaggagatcggaaacactttggtaacgactttcctatcgctctcaatactgtatttggttggattcttgcaggctcttactctgcattcgatgatcaccctacttctgcggttactcatcacgcggacctagacacgatggttcgttcattcatggagatggacagcattcagcctaaccaggctctcctggacgccagcgatcccacagagcgtcattttgctgccacacacaagcgctcgacggacggggtgtacgtcgtcgagtatcccttcaaggagaaggcaccgcctattgattcgaccttgccacaggccatcaatcgcttcttctcgctggaacgcaaatttcgtcggtatccagaattgaagcagcagtacgaagctttcctggacgactacttgcaacgtggacatatggaacaactgacctcggctcaggttgaagagtccccagacacctgcttctatttgccgcaccacgctgtcatcaaactggacagtctgactaccaaatgtcgtgtagtttttgatggatcaggaaaggacagctctggagtatcgctcaatgacagactacatattggtccaccgattcaacgcgatcttcttggcgtttgtctacgcttccggcagcaccaatatgttttatgcgcagatgtcgaaaagatgtttcgaggcattaaagtctttaagccacacaccaattttcagcgcattgtttggcgcaagactgagaatgaacctctgcttcattttcgcctgctgacggttacctacggattggcaccgtcaccatttctggctgttcgagttctaaagcaacttgccgacgatcatggccatgaataccctgcagcagctcacgctcttctgcacgatgcctatgtggacgatatccctacaggcgccaacacattcgaggagcttatgattctcaaggacgagcttatagccctcttggataagggaaaattcaagctacgcaaatggagttctaatagttggcgtcttctgaaatcattaccagaggaagatagatgttttgaacctatccagctcctcaacaaatcagccgcggattcacctgtcaaagttcttggtatccaatggaaccctgggaaggacgtcctgtatctcaacctaaagggatgcgatgcgaccatttctccgacgaaaagagaactcttgtctcagctatcaagaatttatgatccgcttggactggtagcgccggtcacagttctactcaagctaatcttccaagaaagctggacaagtgtcctgcagtgggacgaccccattcctgaaagtctacgtacgcgctggagagccttagtagaggatttgccagcacttacgcaatgccaagtaccacggtatattgcgtcaccatttcgagatgttcaactacacggattcgccgacgcatcctcgcacgcctacggtgcggtagtttacgctcgagttgcagttggatgcagctttcaagtaactctggttgccgccaaaacacgggtggccccgatcaagcccgtatcaattccacgtttggagctaaacgctgcgttacttctatctcgattgctttctattgtcaaaacatcactaacaattcctcttttcagcacgagctgctggacagattcagaaattgtgctacactggctttcagctccccctcgacggtggaacacctacgtctgcaaccgaacttctgagatattgagcgactttccccgtagctgctggaaccatgttcgcacggaagacaatcctgcagattgtgcttcccgaggacttcatccgtcaaagcttctggagcatcgactgtggtggaaaggtccgtcctggctggccacacccacctctgagtggccaccttctacaagcaagttcagcgtatcttcaagtttcgatgtcaacaccgaagaacgagccataaagcccacgactctacataactttcctgatgaaagtatacacgagttactcatccacaaattctcaacctggacgcgtcttataagggtatctagctactgtcatcgctttattcacactcttcgatcccatcataggaattcggcaccattccttacgtctgaagagttgctggacgcacagcgccgacttattcgacatgtgcaacaaaaatcctttgccagagaatatgngcagctagagaatcgacgccagcttaacgctaaatcgcatcttatccggttttctccgtttctggatgattatggagtaatgcgagtcggtgggagaatcgagcaatctacactcaactataacgccaagcacccgattctgatacctaaagatacaccactagctggactcctggttcgacattttcatgtctcctatctgcacactggagttgatgcaacgttcaccaatcttcgtcagcagtactggattctgggagcccgcaatctcgtcagaaaggcagtcttccaatgcaaatcctgttttcttcaacgaaagggcacaagcaaccagatcatgggagagctaccaattcctcgagttcaagctagccgctgctttcaacacacagggctggactacgctggaccgatcgcaatcaaggaatcaaagggaagaactccacgcatcggaaaggcatggttttctattttcgtgtgcctcactacaaaggcacttcacatcgaggttgttagtgagctaactacacaggctttcatcgcagcctttcaacgattcattgcccgccgagcgaagcctactgacctgtattcggacaacggaacnacatttcatggaggcaagnaaactttggatgacatgagacgtctggccattcaacaagccaaagatgaggaactagcaggattctttgccaatgaagggatttcttggcactttatacccccgtctgctccacattttggagggatgtgggaagctggagttcgctcaattaaactccatatgaaacggatacttggatcaaaggctttaacgtttgaggagctctctactgtcctgacccaaattgaagctatcctgaattcacgcccgctgtgcccaactggggataattctttggatccactgacgcctgctcattttttgactggatctccgtatactgcattgcctgaaccctgtcgtctggatatgcaagtcaatcgattggagaggtggaatcagctgcaagccatggttcaaggcttttggaaaaggtggcatatggaatacctgacatctcttcatgagcggacaaagtggcatctggaaaccgagaatctgaagatcgacacactggtagtactcaaggagcccaatctaccgccctctaaatggattcttggccgcatcacngcagtgcacgcaggaatcgacaacaaggtccgagtcgttacagtgaagactgctcacggattgtacaaacgcccaattgccaaaatcgctgtactgcctctctgctgaacaaccgttcaggggggccggta",
+  "length_bp": 5405,
+  "sequence_length_bp": 5405,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "135..5378",
+      "start": 134,
+      "end": 5378,
+      "qualifiers": {
+        "product": "BEL_pol",
+        "number": "1",
+        "note": "via tfasty with BEL4_AG [Drosophila fruit fly genus]",
+        "translation": "MRSVIQQRGFCKSQITRAHNNALKFVDDIHSVQTIVVRLAQLQENYLRFVRLSEELYA"
+      },
+      "label": "BEL_pol"
+    }
+  ],
+  "repbase_aliases": []
+}

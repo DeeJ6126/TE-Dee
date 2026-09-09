@@ -1,0 +1,81 @@
+{
+  "accession": "DF000001592",
+  "name": "DOC6_DM",
+  "description": "DOC6_DM is a non-LTR retrotransposon",
+  "keywords": [
+    "LINE/I-Jockey"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "LINE/I-Jockey | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 4222 BP; 1557 A; 791 C; 639 G; 1235 T; 0 other;"
+  },
+  "sequence": "cagtcttcgactagctcttgtcgaacgcggatgtaaaatcttctattctctctgagaacattttggtgtacattaaatattttctgttttcttctttaattgtgatattcgcaaaaaactacaatcaaacgttcaagtgatgcaattggcgatgctgaagcatctgccgttgaaaaaatgcgtactaaaaggaataaaccactagtggagcgccagaacgaacggggctccaagcaatttacaaattattttcgtccactacaaactttagacgatgataatgatgataaacctattgaaacggacacacttgatgaaataataatcaaaccacctcctataacattaattaaacaaaatacaaaatttgtacacgagctaatggctaaaattaaaactgatgattactttattaaaaccatctcaattggaattaaaatatttttaccaaatatggactgtttcaatgcagcttgtaaccaactcaaggaacataactgtgagttctacacgtacgatactagatcaaacaagccatacaaagccattttatccgggctggataaactaccaattgaaactgtcaaatccatgctacaaaacctaggattacaatgcaccgaagtcaaaattgtggaaaagaaaactaagtctgatcatgaattattactgtacattgtttatttcgtaaacaaaagtatcacagtaaaggaactgcgcaaaaactttatgtatgtcaaccacactaaagtacgctgggagtataaagtgaaattgcagaataaaattactcaatgctacaattgccaactatttggacatggatcaaataattgttcagttaaaacatcatgtgcccattgtgctggatcacaccagactgccgtatgtatggacgtaaacaacaaaaaatgcgctaactgtaaaggcgaccatccatcgacagaactgacatgcccatgccgaatttcttatctcaatttactttccaaacgctcatcacaacgcattggaagaaataacttggaagctcatggaatgaggaattctaagcaacacatcgctccatctgctctctttggaaatcaaccccagatctcattgcctactcaaactaagagagtgcaacaactcaactttggtagctatagtaatgcactcaccaatattcatactttgcctaatcccaaagcaaatatcacaaatgaaactaatctcttttcatgtgaagagataaattctcttttgtctgaattaataacaagatttaatgaatgctccaataagggagagcaatttcaagtaatttctcagttagcgattaagtatgtttacacaaacaaataattttattgataatttgaatattatggcatggaatgctcgtgccgttagaaacaaacgtatagaactgatcaagttcttagaaaataatcacattcacatagcacttataaatgaaacgtggctgactcatagtgaccgttttaatatacccgaatacactatatacagaaatgacaggaaggaaagtaggggaggcggcgttgccattgcagttagtaacacattgatacatgaacaaataccctgcattaaaagtcatgttattgaaaatgtaggtatacaaatcaacactgactctaattccagtctaaaaatttactctatttactttgctggaaatacttcaaaatgtattcctagttcatgtgatttatcttgggaccataatcatttaaaaagtttgtatagatctgatctccttaagatctcacaaataaatggaaattttctaatttgcggggacttcaactcgcgccacagagcatggaagtgtacccgagccaatggttggggcaaaattctcaatgaactttcagatctgggaaaattcagtattttgtaccctacgcaacccacatatattccgcataaccataaagcaaaagcatcaacattggacctatgcctcactaatatccctaaccagctggctaatccagcagtaatgcaagagctttcctctgatcacctaccagtggttattaaatactctacaaattttatgcgcaatgtaaaaacatatccgattttgggaagggcaaattgggcgctttttaagagaattataaatgaaaggctgatggttgaagaggtggttgtcaactgctcacagatatcgactttggatattgataatttaatcggctctttcactagagtaatcaattatgcctttcttaaagcagtccctcataaacctatacatcactccaagcttacactccctgtacatataactgaattatttaaaacaagaaatattatccaaagacaatggtttaggtcacgtcatccattattaaaatcaagatgtgatcatttaaattacatcatacgaaaagagcttttcatttataataatgcaaaatggaacaataaacttcaaaagctggataaatgcagcaaacccttttggaatataaccaaagcaattaaaaaaagaaaacaaattgttccgtgtctaagtaaagctgatgaaatatacgcttctggaaaagaaaaagcgaatattcttgctgatgtctttcaactgaagcataatctgacacattcatattcaaaccaaaatacaattgaccaagtcaaaatatctttacaatctatagctgaaaccccaaacaacatcgcagaaatttgtagagtcacttatccagaggttttttcaattgtaaaagctctccatactagaaaatctcctggaattgatggaatacctaatatatccttgaaaaaccttcctacaagcgccattaatcatattgttaacattgccaatcactgtcttcaggcaggctatttcccacgggattggaagatagcaaaaatagttccaattctcaaaccaggaaaacctcctgataaccctgaaagctaccgaccaataagcctattaagcggattgtccaagattctggaaaaattaattaaattgagattggtgaaatttttggacatacacaacacactaccaacggtacagtatggttttagaaatggtctaaataccatactgccgaccttaaaactaagaaattatattaaagaaagtatccaatccaaacaatctgtagggctggttacacttgatattgaggctgcatttgatactgtatggcatgacggactgttgcacaaactaaagatgattggaactcccatatacctcattaaaatagttcaaaattttttgacacatcgatactttagcgttaatttgaacagtagtcaatctgctagacgaattttaaatgcaggtgtgccacagggttctgtcttaggacctacattgtttaatatttttacacacgatattccacaagctacaaactgtgtactttcactgtttgctgacgacgccgctgtctacagtgctggtttctcgtacagcgagataaatcaatccatgcagagttacttaaatgaattagacatatattacaaaaaatggaaaattaaaattaaccctaataaaacgaatgctatattttttacaaaaagaaggaaacctcgttatcttcctgatagacagttgcgaatactagactctccaatacaatgggttgacaacattcgatatttgggtataatttttgataaaaaactaacatttaaataccacatcaacaacacaattatgaaagttaataaaattatttgcacactgtaccctctaataaatcgtaaatctaaattatcaatatccaataagatcataatttttaaaacaatttttaatccaatattaatgtatgggtcacctgtttggggtagatgtgctcaaactcatatcaaaaaacttcaaatatgccaaaacaagctgttaaaattaataatgaacttaccttattacacaaacactaagtacctacatataaaagcaggtgtacaaaaagttcaacaaaaaatacaatattaacaatcttttgtttcaagtcttagtttttaagttagttgtaagtcaattaaggtttttcttctcccttgttttccttaataaataataaatattgttatacaaaaaactaaaaacaggtcaactagacataattaataaatatttcagatgaaagccttagctaaacactgtaaatacctaattataccattagctttaatgaaatgtacatatatatataagggataaagcacaaataaa",
+  "length_bp": 4222,
+  "sequence_length_bp": 4222,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "177..1344",
+      "start": 176,
+      "end": 1344,
+      "qualifiers": {
+        "product": "DOC6_DM_gag",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "MRTKRNKPLVERQNERGSKQFTNYFRPLQTLDDDNDDKPIETDTLDEIIIKPPPITLI"
+      },
+      "label": "DOC6_DM_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "1327..3979",
+      "start": 1326,
+      "end": 3979,
+      "qualifiers": {
+        "product": "DOC6_DM_pol",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "MFTQTNNFIDNLNIMAWNARAVRNKRIELIKFLENNHIHIALINETWLTHSDRFNIPE"
+      },
+      "label": "DOC6_DM_pol"
+    }
+  ],
+  "repbase_aliases": []
+}

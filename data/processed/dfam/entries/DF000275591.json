@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275591",
+  "name": "ChiLan-1.176",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Chinchilla lanigera",
+  "display_classification": "LINE/L1 | Chinchilla lanigera",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Chinchillidae",
+    "Chinchilla"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 681 BP; 135 A; 230 C; 233 G; 83 T; 0 other;"
+  },
+  "sequence": "gccccccgcgccttgcgcccaggcagcgagttctccgggagcggcagggctcctgggtccgagtgtgggccggactcataccaccacgattcccagccgaaaagcgcgcacagagccaggtaggccccacccaatcccggaggccaggacgcgagaacaaagaccccgcggacattgcagactgagttgctaggcgcagggaggcccaggggacgggcggggcgagcaggccctcggagccggccgagcaggctcccccagccccccgcgccttgcgcccaggcagcgagttctccgggagcggcagggctcctgggtccgagtgtgggccggactcataccaccacgattcccagctgaaaagcgcgcacagagccaggtaggccccacccaatcccggaggccaggacgcgagaacaaagaccccgcggacattgcagactgagtcgctgtggcggcagagaggagatcgggactgaacggcccagggtcttctctggctgggggcggggcgagcaggctctctgagccaggcaagcagactctctgagccccacgcaccctgcgccaagagagcaagtactccaggagctgcagggccagtggattcgagtctgtgctttgccttcgcccagaccctccagcgaggcgaaggctggggaagtctgtgactgctaccca",
+  "length_bp": 681,
+  "sequence_length_bp": 681,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282848",
+  "name": "ZapHud-6.1095_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ZapHud-6.1095_LTR"
+  ],
+  "species": "Zapus hudsonius",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Zapus hudsonius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Dipodoidea",
+    "Dipodidae",
+    "Zapodinae",
+    "Zapus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 344 BP; 61 A; 78 C; 102 G; 103 T; 0 other;"
+  },
+  "sequence": "tgtggtagtttgaatggatgtcccccaatagattcaggagttttattaaagcttgtctccagccgcctggctggaggaggtgtcactgtgggcggatcctagggtccagccctaaggtgttactgggggcggatctggaattccagcctaaggtatgcagagagcagtctgagctctgcctggagtccctgctgtttggctgcctgagtgtgcttgcttttggaggtgctggtggtggtttttctctctgcttggatctgtaagcttcaaataaatcccttcttcctcccataaactgtgcctggtttggaggttcatcccagcagcgtgagctgactacgaca",
+  "length_bp": 344,
+  "sequence_length_bp": 344,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

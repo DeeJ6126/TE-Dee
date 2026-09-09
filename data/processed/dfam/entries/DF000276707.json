@@ -1,0 +1,51 @@
+{
+  "accession": "DF000276707",
+  "name": "EllLut-1.20",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-RTE"
+  ],
+  "species": "Ellobius lutescens",
+  "display_classification": "SINE/tRNA-RTE | Ellobius lutescens",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Arvicolinae",
+    "Ellobius"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 256 BP; 67 A; 68 C; 58 G; 63 T; 0 other;"
+  },
+  "sequence": "gggctggagagatggctcagcggttaagagcactgcctgctcttccaaaggtcctgagttcaattcccagcaaccacatggtggctcacaaccatctgtaatgagatctggtgccctcttgaggaagagacctggtcagtcgtcctcatcaacttagaccatgaaacccaatatggacaagttcaacagaaccgccatatacgggctgcccatgcatgcttcagcattgccagggcataaatttcatttttcattt",
+  "length_bp": 256,
+  "sequence_length_bp": 256,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

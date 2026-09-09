@@ -1,0 +1,54 @@
+{
+  "accession": "DF000000312",
+  "name": "L1MEh_5end",
+  "description": "5' end of L1 retrotransposon, L1MEh_5end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Theria",
+  "display_classification": "LINE/L1 | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2235 BP; 857 A; 417 C; 506 G; 422 T; 33 other;"
+  },
+  "sequence": "taggggcttccggttcctgncaagatggcgaactagcacgggctgctggctccctcccccaaaatcaaccctggagaaactacagaagcgagagggaagcatggattcgaggaactaacataaaaactgtgagaaacccctggggagacngaaggctgtcttgaactggcgtgtgtgagatggtggtggcgtncggggagaggcngcggcagccgaagcggcagtgagaggacgggttggaggaaagcttttaagttctgctcttgcctctcccccgcattgccttgggacaatcattgcctgccccttcgccgcagaaatcggcagcagcagcccagaccgccggtgcaggtgtcctcgggagtaanatcagggcagcgcaaaagccctgctggggtgaggagctgatgaaaacaggtgcggactgaccagctgccctcgggcattcactcctccaccccctcccctccaaacccccagggctggtggattacaacctaaggagaccgcctcctcccagtgctgcttctccctaagagtttaaaggtgaaaccctgaccagaggagttgcctggtggagtgacagcgaacggtggtgcctggggctctccgccctggggctcatcccctcccctctccttaaactcaccgggactgacacagactagggcctggccttcggcccttccccaatacacattaccagacagagtagctgatacccccaggggaanatgagctcacaggccaaaataacnagacacctgaggagtacaactacttcaaaagaaagacaacaaactgaacaacatataccatctgaagcagaattattggaacagacggaccaagaatttaaaataagcataataaatatnctcaaagagataagggaagatattagcaatatgaagcaagaacaagaaatcataaaaaagaaccaagtggaaatattaggtatgaaaaatataatagttgaaataaagaacncaatagatgggataaatagcagaatggatacagctgaagaacgaattagtgagctggaagatcagattgaggaactctcccagaaggcagcaggaaaggataaagagatagaaaatataaaagaaaagctaagagatatggaggatagaagtagaagtgccaacatccgnataataggagtcccagaaggagaggaaaaagaaaatggagagaaggaaatatttgaagaaataatggaganaaatttcccagaattaaagaaagatgaaagacctcagattgaaagggctcatagagtgccaaacagganagataaaagaaaacccacacctagacacattatagtgaaatttaagaacatcaaagacaaagagaaaattctaaaagcttccagagagaaaagacagatcacctacaaaggaacaagaatcagattgacatcagacttctcaacagcaacactggatgcaagaagacaatggagtaatattttcaaagtattgaaggaaaanaactttgaacctagaattttatatccagccaaactgtcattcaaatgtgagggcgnaataaaaatattctcaggcatacaaggcctcagaaggtttgccacacaaagacccacnttgaaaacactcttggaggaagtacttcaaanagaagaaaaataaatccaggagatgcatggagatgcaggaaggaatgaagagcaacagaaagggtaaatatcttggtaaatttaaataaatattgactgtataaaacaaaaanaaaaangnattatatccataataacccagaactaaaattctagacaatatcaacatgatagggaagagagggnaaatggagtgagagcgtgctaaagtncttgtcttattngggaagaggtanagtattaatttaattagantttaataagtcaaggatgnatgttataatctttagggcaaccaccanaagaataaaaatagaatgtataacttttaaaccagcagaaagaaaatttaaatttcgattnatccaaaggaaagcaggaaaaaaggaaaaaanagaaagaaaaacagatgggacaaatagaaaacaaataataagatggcagaaataagtccnaatatancagtaattacaataaatgtaaatgggttaaactcaccaattaaaagacagagattntcagattggattnaaaaacaaaatccaacaatatgctgtctacaagagacacacttaaaacanaaggac",
+  "length_bp": 2235,
+  "sequence_length_bp": 2235,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "734..1658",
+      "start": 733,
+      "end": 1658,
+      "qualifiers": {
+        "product": "L1MEh_gag",
+        "number": "1",
+        "note": "[Mammalia]",
+        "translation": "MSSQAKITRHLRSTTTSKERQQTGQHIPSEAELLEQTDQEFKISIINILKEIREDISN"
+      },
+      "label": "L1MEh_gag"
+    }
+  ],
+  "repbase_aliases": []
+}

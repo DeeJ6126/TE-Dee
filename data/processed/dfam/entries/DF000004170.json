@@ -1,0 +1,50 @@
+{
+  "accession": "DF000004170",
+  "name": "MTC-int",
+  "description": "murids.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MTC-int"
+  ],
+  "species": "Muroidea",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1258 BP; 331 A; 197 C; 390 G; 331 T; 9 other;"
+  },
+  "sequence": "gaaattggtaccaggatagtggggtattgctgtgacagacctgaccatgttgttttggggaggattgtggaaggactttggaactttgggctagaaaagccattgagtgttnagagctcagtgggctgttctgtgggagcttggaagataagaatgttgagagcagtgcagatggaggcctggcttgtgaagtttcagagggagnttaaagactctatcagggccgtttgctattttgagttaagaatctgtggttctggtcagctggggctgaagaatcagctgtgattaacaagagaccagaaccactaaagtgaaacctttgctttactgggacaattgatgctggtcagctggagctgagaaattagcggtgattaagaagagaccagcatcactgaggtgaaatcttctgggaagtgtttcctcagagtcagcacacagaagctgtgttccagaggcggccaaggttgtacctcgtgctggcagccgaacttggtagtgtaagagtcacccaggtggtactggttttgaaggcatgaaggggtcatggagagcagctgaggcttggcactgtgagaggccaggagaggccattggtgaaggtgcagcctcagtngcagttgaaggcccaggactgaaggggtcatgnagagaagttgaggcttggcaccatgaagagagcccaggagaggctattggtgaaagtgcagcccagttgcagcggaagaccccagcattttggagatgccagtaccatgggatgaccaccaagaacagcagcagcngtggagtggagccggccngagcctagaagacaagctgtgtgtgctgcagagggcagagccggagaagtgacccaagccctttggaggagcccagaagatcgtgagtggatcccagacattggacactgagttatttacactgttggagtttggttttgctttgntctgattgtgactgtgccctggttcttccctcttgaagtaagaaagtatttaacttatttttgattttacaggagcccacagttgagagactgaatttttaaagagattttaaaagagactttggatttttaaagagactgaattttaaagtgtttgaatttgtaaagactgtgggacttttaaagtttgtaaaatgttttatattgtgatgttnatattaatgtgngatcttggggatgaacaagaaaggaaaggttgtggcttaatagtgatgtgtttgtgtgtcaagttgacaaggggtcagt",
+  "length_bp": 1258,
+  "sequence_length_bp": 1258,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MTC_I"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000968",
+  "name": "MER99",
+  "description": "Putative hAT DNA transposon, MER99 subfamily",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 831 BP; 249 A; 177 C; 147 G; 258 T; 0 other;"
+  },
+  "sequence": "tagtgtttccaaattcccgacagatattaatcttcgggattcgggaacgagaaatcggaattcccgggaattctcgggaattcccgaaatcataagttattcttaaaatacttccaacattcttcatactctttactcattattatggatatctaaaaatttgtttaataaataagaaatattaagtttagtagtatttacaaagaactgtagcctatagcgaatattcaaacactggaaaacgccagcgaacattattgggtagtattcgaataacgtaacattcggatctcctagcaaggttaacagcactacacagaatcacgtgtcgaaattgccaatttaaggacttattttgcttccaaaacttgttatttcttggaacaccactcataggatttgtataaagtatactatgcgtataaacttattaatatttattttatttgcaagaatgactcaccgttagcagcagacagggccacgaacacacacttataacatggcaacagctacaagcaagactgactgattagatcgtgaccgcttctctcctacgtgctcctgtcccggttcccggaaatgtcgaccttaaccttcgactccgcgtgtcagcgtttcctgctcttgctttcgacttgacgtcagtggattccttcgaaccagtaacgtctctatgttgattgttaagctttaattctcgcaggagaattataatactttttcccgttttcccgatttctcgactgatttttctcgggattcgggattcggaaaaacatataaatttcccgagaaatgccgggaaggaattcccgcatggaaacacta",
+  "length_bp": 831,
+  "sequence_length_bp": 831,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER99"
+  ]
+}

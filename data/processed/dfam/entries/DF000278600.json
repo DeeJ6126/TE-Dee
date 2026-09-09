@@ -1,0 +1,50 @@
+{
+  "accession": "DF000278600",
+  "name": "MonMon-1.11",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Monodon monoceros",
+  "display_classification": "SINE/tRNA | Monodon monoceros",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Monodontidae",
+    "Monodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 121 BP; 27 A; 35 C; 40 G; 19 T; 0 other;"
+  },
+  "sequence": "gggaattccctggcggtccagtggttaggactccgcgcttccactgcagggggcacgggttcgatccctggtcggggaactaagatcccgcatgccgcgcggcgcggccaaaaaaaaaaaa",
+  "length_bp": 121,
+  "sequence_length_bp": 121,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

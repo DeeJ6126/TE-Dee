@@ -1,0 +1,46 @@
+{
+  "accession": "DF000281092",
+  "name": "TriMan-1.113",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Trichechus manatus",
+  "display_classification": "DNA/hAT-Charlie | Trichechus manatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Sirenia",
+    "Trichechidae",
+    "Trichechus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 259 BP; 70 A; 65 C; 55 G; 69 T; 0 other;"
+  },
+  "sequence": "cagggcttcgaaccggttcgttccggttcgaacccctgctgagaatttgcatttccaccccagatatactgaatcagaatctacattttaacaagatccccaggtgattcttatgtataataaattttgagaaccactgctctactagtggttctcagaattggtccctaaccagcagcattagcatcgcctgggaacttgttagaaatgcaaattctcagcaggggttcgaaccggaacgaaccggttcgaagccctg",
+  "length_bp": 259,
+  "sequence_length_bp": 259,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,68 @@
+{
+  "accession": "DF000001723",
+  "name": "Transib5",
+  "description": "Transib5 is a family of Transib DNA transposons",
+  "keywords": [
+    "DNA/CMC-Transib"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "DNA/CMC-Transib | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3011 BP; 1032 A; 461 C; 528 G; 973 T; 17 other;"
+  },
+  "sequence": "cacagtggttccgtcagaggccaaaaataaaaaaaancgtctaaatatatttacgcataaagtaaccaaattgtctccaaatagtccaaatatttccagcaaaaccagtttttgcttcaaacctaacggttctttctaaaaatanaattaaagttatgcacacgtgttcatttgtgnagcgaaattgcacgcattgtaatttctgcattccaaaagcaaacttcaaaggcatcatactttcagtgaggagcttcgatttaaataatttaaaatggattttaaagtagaaggtatttactttgtttacaaaaacttataaataactaatcagttaactaagttaagtaaaattaatatcttcaaatggcctttttattgtcttttttgtgggtattttcatgtttacttaagcttttagttangttccttaaaaatgcagagctagactccttatatattaaattaagcatagttttacgataataaaagttttgagttcagctgcggaaacttgcggatgtgcttgtaatattgaatntactaaacgcccattctgttatttttgggttaagtttgcccagtgaagtccctttgtgtctttgtttttgtgtttcgcgtttgtgtcgttttgtcttttgtgtttgtgtcgttttgtcttttgtgtttgtgtataatcttccatnttaatttaacttntattatattaaacaagtaattgtattgatttgtttaaaatttgtttntgcttanggaagacgattcagagctctgtgtgtttccacacctatatatttttgatttacggtgcacaaagaagggtacccacggagaaaaactgantgtgttgnaaaaatttgtaagcaaattgtttatttttggactcgctacaatcggaaaaaagcttccttccttaagtaccaatgtgaatggctgaatcaaaagaaaacaattttattaaaatgcaaccataatatatctgagaaaattatggaaagtgatcatcgtggccgtccaaaagtagatttctcgatgtcatcatcaagatcaaagcgacgccgtttagctgaactggccgaaatagatgagaccgctgtatctgctttactcaatgaatttgaaaaaaaaaaattatttccagcagatccgattgaaataatttcactattaattgaggcaagcttgtctaaaaaccaatatcttttgataagaaactttgtaaacaccaaaataggctttgatttattttcaagttatcaaagtgtactacattcaaagaaaatgagataccctgaaaatattttcgttgatgaatctcacgctgaggtggagtttattaaataacacagcgtcaagtatattagagcttcaagctgaggtagtcgaaacactcactgataattgtgttaaaaatcgtttattaattggaaagtgaggattttatggaagtaccggtcatagcgaatataatccaaagtttttcaataatgatttacaggataaaagtttatttgtcacatcatacgtacctctccaactaatttcaaaagataaccaacaaataatttggaaaaacaacagaccatcgtcaacacgttactgcaggccagtacgatttcaatttaaaaagagacaacaaaactttcaatcgaagaggaaaagtattttaaggaaaaaataaaccttctgaatccaactgaagtatttgaaagataaaaagataaatgttgaacatagcttacaactagccatgctggatgggaaaatatgcaacgccttaagtgaatcttcgtctatgaaatgttacttatgtggagcaagtcccacagaaatgaataacttggcaaaatgtataagtaaagacgtaataactgaatatattgaatttggtttatccccacttcatgcgaaaattcgatttttcgagtattttttacatctttcctataagtccgaaataaaaatgtggcaggtgagaggttctgaccacaaaataaaagtaatgaaaagaaagcaaaaaatactgaaaaaatttcgcgaaaaaatgggaatcatagtagataagtctagggatggtgctaaatgttcttccaacgacggaaatgtggcaagaaaatttttttctaatccaaaattggcntcaaaaattaccggaataaatgaaaatttgatatatcgttgtgccacaatactacaagctattgcatcggggtataaaattaatattaacaaatttaatacatatgccctcgatacagcaaaggagttgatcaatgagtatccatgntactatttgccagctacagtccataaggtgctaattcatggatctgcagtaatacagcatgcgttagtgtcaattggagaactttcggaggaagctgcggaatctaacaatacggacttaaaaaaattagaattaatcacagccggaagatgtcacgcattacaacaaatgcagacattatgaattcacttctaataaggtccgacccatttataagcggacacagaaagctgggaaaaaaggataagtcagcgttatttgagtctgtatatgccttactagaggaggggtaataattattatcatattgttcattatcattaatttaaattaataaaaattgcaacaatttaacatttcctcactttgtttatatttgtttctggttatggtggagtttggggtttccctgggggaggtatattacgccaaatcatanncatgttcttactacatttaaaaaatatttttttagaccataagttatgattttatcagtcttctatgatgtatggtcatgttatatttgatttnaaaaaatgctgcatacttctncggggggaagaatatattgtttgccgaaaaaatggggttggagggccccaatctcaaaaatctttttcgcatgttttcataagctctattagatgcctaaaacgaaatcttaggcttctagctatattggaagtatttatggccgctgctccatacaagcggagccactgtg",
+  "length_bp": 3011,
+  "sequence_length_bp": 3011,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "779..2564",
+      "start": 778,
+      "end": 2564,
+      "qualifiers": {
+        "product": "Transib5",
+        "number": "1",
+        "note": "[Drosophila melanogaster]",
+        "translation": "MVHKEGYPRRKTECVEKICKQIVYFWTRYNRKKASFLKYQCEWLNQKKTILLKCNHNI"
+      },
+      "label": "Transib5"
+    }
+  ],
+  "repbase_aliases": []
+}

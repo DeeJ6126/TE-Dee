@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282163",
+  "name": "MesAur-6.175_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MesAur-6.175_int"
+  ],
+  "species": "Mesocricetus auratus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mesocricetus auratus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Cricetinae",
+    "Mesocricetus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2805 BP; 752 A; 661 C; 557 G; 824 T; 11 other;"
+  },
+  "sequence": "acagataccctcctcctctctagatctctgcctgacccactgaaaggacataaaacagagaatctgggattgtggctaaaaatgttggggaaattttttttctttcaggaacactggcagccaacgacactctgtgctcaccagcgctgctccccctcccttctagtctgtatactttatgctcttacttccacagggggaataaagagtcatttatggtggctacacacagcagctcccatgggagatggatcaccccagctgctggctgcgggccagtactcccctgatgcctggacacagtctttctgcgctgcgcctcgccttgggcagctagcagccaactcaagcagaatggccaaggtacaggttttaatgggttaatatgatgttgccatctgtatgtccttagtaataaaatgtctgttcatggnttttgcccattttctacttggatcatttgtttatgtcactgttgagttttatataggttctctatcagacgtgtggttgcttaaactttttcacataacttgtaccagaaaaaagtaagtacattttaccagcccttcatgcatggccaatcactgacaaagaggtgtggggctgggagngcacctcagtcggtagagcaagagactcctatttctgacttgtgccttcccccttttaaggagcaataaaatctactctgttaattagagttttctgttctaaaaaatttatgtaaactttgtaatttaacagtcacccaggtgataatggttttaaggacataagggcattttatttttgctataagttacccccttccctcagcctagacagagggacaatctagtcagcttctgccaacaaactctgctgccggacataattcatttacctttttgccttttattttggtcactgacagttttcttctttcactggctctgttatacatggcttgtttgcagaatgtcgtgcctttccagggcccggtagggcacacattacatgcaaaaatcctgcctgttccatctgcagcggatctacattcttgtcactgacagttttaagttactctgtctctttaaatgtcctgtctgtttgctaaggtaaaaccagttacagtcaggctggagggctctgagtaaaacatccctccacagcctctcagtttaaatccagttctccagacagatcctgcactaatgtcattgtagccatactaagtacagaaaaattttataacagggataaaccttactcagtcccctgtatatgttttcaaaggttaagcttaaaacaaataactgaaaacaaagttgtctatccagatttacctagacaacactcttaatgcttccagagacctgcagaatatggcatttaaaatgttaactnaaaagcttataatatcagacagagaatnccagatcctgacagtgacccaaagtctccaaagaagattacggggcaccccgatgtctacacgacgctgaccagtgggcgagatgcccnaatgcgacacctgctgccaggacctggcccagactgtggacaagcngcaggacactggagaattgattgcaccccttttgcctagacaaaataaggtcagtcttttccatgtccctcttccacagagagaaaaaactctcaccttacaggcctggcgaagattgatgctgttctttgatacttctgcctccagctaatggagacttgggtatggctaactgtatatggactggnccctgtcatttttaatagattcagaaactgtataaaatttatccttctcagatctctgatagtattaatggttagactgtagccagcttaatagctcatttaataaagttctgataagctgatagagcagtgactacctgctgttcagtcacaagctcaaggtttttagatttattttggttgtcatctaagtataaacttaaagggcttttcatcaggccaaaggcacctctgtccaatctatacctggctcnctggacagaagaaaaatgtacaagcttctagcccaaacctgtagtttttgctaggactcaaaggtatgagtctgttcctgctgttttacagatacccgatatctgctttttctacaatgtggatttcggtacagattgataatgctaatatgtctanaacttttatgtccttttgtataataaagttcacataggcttcagaggatcaaaagtcataaagcttggatccacttctcacaggtcaaaaggactccagataagtacagcctntgttatcccacctgtctgttcctgaggatgggattttctcccctggtcttgggactcccgcccttcctgatcactaaaactatgggcctaaagagttccgattaagtacataagttttaacttctgttcccagtttaaacatgtctcaaacaggtttccgcttctggcagacgcatccgagcatcagttgctgactacagcctgctcctaaagactgcgagccctggacttgctgtggatgtgaaccagtccagccgatgtggacactccctgtctcttcaacagagtctgccaaccagntgcttctgatagataccccattgcctgaattccctctttgcttttgactagcatttcagccttcttgggcccctgactgcgacaccccaaagtcagcaggaagtagcacggaaaagaatacgtcgccccttttccctggttgagatgctaagtcaaaaggaaactcccttacataggggacaagataacaataaaaattgtccactagtaacccaggattgggttacctataagaagagga",
+  "length_bp": 2805,
+  "sequence_length_bp": 2805,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

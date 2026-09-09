@@ -1,0 +1,41 @@
+{
+  "accession": "DF000000732",
+  "name": "MER135",
+  "description": "Unclassified, palindromic DNA transposon, MER135 subfamily",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/ | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 228 BP; 64 A; 55 C; 47 G; 61 T; 1 other;"
+  },
+  "sequence": "ctggaacataatgagccagattctcccagtgcgtaaactactccctgggagtaaattaggcacttttggaagctgcattaactctttcaggccactagggtaccatttagtaaattactgctccagtgcactaaatggtaccctagtggcctgaaagagttaatgcaccttcaaaagtgagcaatttactcccttctcaccggtaggatcaggcccaatatgttncag",
+  "length_bp": 228,
+  "sequence_length_bp": 228,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER135"
+  ]
+}

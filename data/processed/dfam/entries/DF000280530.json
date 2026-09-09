@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280530",
+  "name": "SagImp-1.146",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Saguinus imperator",
+  "display_classification": "SINE/Alu | Saguinus imperator",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Platyrrhini",
+    "Cebidae",
+    "Callitrichinae",
+    "Saguinus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 117 BP; 36 A; 31 C; 32 G; 18 T; 0 other;"
+  },
+  "sequence": "ggggcccaaagtggctccggccggatgtcgtggcgcttgcgaaggcgaggccaagagttcaaggccaaccaacctcagcaaccttacaagctctcattgattggcaaaaaaaaaaaa",
+  "length_bp": 117,
+  "sequence_length_bp": 117,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

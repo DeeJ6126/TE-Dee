@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277401",
+  "name": "HipArm-1.182",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Hipposideros armiger",
+  "display_classification": "DNA/PiggyBac | Hipposideros armiger",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Hipposideridae",
+    "Hipposideros"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 213 BP; 51 A; 56 C; 44 G; 62 T; 0 other;"
+  },
+  "sequence": "ccctccgtcgggcgcaactgatctcacagattcattgcacacaaattttcaaatatctaacagttaagtatcgtgactcatcgcttccgtatcttccccctctaccgtaacctatcgccagtcgtgtttgtgacttagtacagtaaagacgtatttcatagcggcatctttgtgtgcaatgaatctgtgagatcagttgcgcccgacggaggg",
+  "length_bp": 213,
+  "sequence_length_bp": 213,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

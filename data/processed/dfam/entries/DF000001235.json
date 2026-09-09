@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001235",
+  "name": "X12_LINE",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "LINE/I-Jockey"
+  ],
+  "species": "Mammalia",
+  "display_classification": "LINE/I-Jockey | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 371 BP; 87 A; 108 C; 100 G; 74 T; 2 other;"
+  },
+  "sequence": "cccggtcncccgtgccaggacatgcccgtggaatcgcgctggcgagaggaatggtcttcatcagcgacaacaaacaagttcctcgtcgccgaccctgccatctgtcctcctggtttccacctaccacgccgtatatgggctctgctgaacaggtttcggactggccaaggtcactgcgcagccaacctttacagatggggtcagcgcgaacatccaaattgcagctgtggccaaacgcagacgatgacgcacactgttgacgagtgccctttgtccagacttgacggtggtccgatgacactgaatanagcaaatgaagaagctgctgcctggcttggcaaggtacgcgttcgctaaagaagaaacggcat",
+  "length_bp": 371,
+  "sequence_length_bp": 371,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X12_LINE"
+  ]
+}

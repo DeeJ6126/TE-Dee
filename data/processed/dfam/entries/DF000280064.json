@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280064",
+  "name": "PipPip-6.2067",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Blackjack"
+  ],
+  "species": "Pipistrellus pipistrellus",
+  "display_classification": "DNA/hAT-Blackjack | Pipistrellus pipistrellus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Pipistrellus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 882 BP; 292 A; 150 C; 146 G; 292 T; 2 other;"
+  },
+  "sequence": "taaggtgaccagacgtcccgcttttggcgggacagtcccgatttttaacaatttgtcccgcgtcccgcggcgttttaaaaaagtcccgatttttggaaagaatgcacgacaagctagggaacggcgggagaacgggaagggaatatacggttttcggcggccatgtggctatttagccaggatatgagttttatattatttttgttaattttataatgttaaactttaataataacaaataattgttgagaactgattatcgagaactgcttatcaaagttcgcaacgacgaaaacattttgtaactgtctctcagacgatacacatcgtactgcgtgctagtaagctagttaaacaagtgatgtcattacaaatcagctattcagataatttaggtaagtaatttatttatttatttcataaatacataaattttcttgaatttagcagacagtactcgtattatttatattttatagtggcggcaaaaagtctagcgccggccttgaaagtgacacttacgacttacgttacaattaagtgttgagactttgaaagccattttatgtgtgaaatataatttaacaaattcttgtgaaaaatttcatgaccttttaaacaacgacagcaatctactaaaaaaaattcactcaaatgagaaatatgccaaagaataaaataatactatacataatttttttatttattatatttgtaaattgtacttatgttgaaatttaaaaaaatatattacaatactatttttgcgttctatgaaaatttttgttgctccatatagaccaaatttttaatcaagaaccccccccccccnccccngtcaatggtgtcccgctttaccaatgttaaaatctggtcacctta",
+  "length_bp": 882,
+  "sequence_length_bp": 882,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

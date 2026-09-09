@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276451",
+  "name": "DinBra-1.146",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Dinomys branickii",
+  "display_classification": "LINE/L1 | Dinomys branickii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Dinomyidae",
+    "Dinomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1314 BP; 373 A; 357 C; 370 G; 212 T; 2 other;"
+  },
+  "sequence": "ggatccggggaagatggcgaccaggtgagcagcaagggagcgaacctccttaataaacaccaccagctcgagacagacttggcgagcgtgaatgccgggacctcggctgggaagtttaaactgggcgtatttctctgagatgccgggggagatgtggtagggcggaccaggctgccggggcgagacgtgggaaagccccagacgctgggagccagggacgatccgcgcggggaagaagcttggctcggtccaagcgcngtgggagcgcggccgcctcggtccctcccgcctcccgagccggtgcagccccccggcgactcccgacagagatcggcttgctagcggcggagacgcccggcaatcccacgtttcgcgcgtgtcgggcgggccgcgcggagggccccaaacgccgccgggagcggagagaaagatttgctgggtcctagcgccccgagaatacggacagctcgatccctcccgccccccgacccggcgcagctctccggcgactcccgacagagatcggctctctggcggcggcaacgcccagcggtctcacgtttcgtgcgcatcgggcgggccgcgcagaaagccccaaaggatagactggcaccttggaaccttcatgcctgcagggactccaataactggtgagatatcggcgctcgcgaccagatcaccgagtgggggaggagatccatccctatacctgcagggaaccctgggagggtgggggagcggtcttacacacctcacccaggtcactaggtagggagtatctaaccaatatctgtacagccttttaagcggaactctcagcagaaagcttaagggacattctcccaaagagaaggaatcattcgagcagcctttgcagctgaccttcgcctgctgaactgcctttggaatttatagctccacatcttgaatctgatacccaaaaatgggaaaacagaggggcaaaacgcagtctcaaaactcaaccccacccagaacaagttttgaagaggaagaaacaagggaatcaggaagcctcataacttcaagatatgaaacgattgcatccgaaattaaacaactccaacaggccatgaaagagcttaaagcagaaataacccacatacccacaatgatttctcagataaaaaacgagatgaaaacaatgatggaagaaatgctccatctacacagacgagaaatagacaaaattctagaagaaaataggaaacaaatagaanccttacaagagcaattcaggaatgaattaccaataatgaaacaggtccaaagagaatgccaggatttgaaaactaa",
+  "length_bp": 1314,
+  "sequence_length_bp": 1314,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

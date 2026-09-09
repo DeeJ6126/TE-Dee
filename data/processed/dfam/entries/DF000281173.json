@@ -1,0 +1,47 @@
+{
+  "accession": "DF000281173",
+  "name": "TupChi-1.37",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Tupaia chinensis",
+  "display_classification": "SINE/tRNA | Tupaia chinensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Scandentia",
+    "Tupaiidae",
+    "Tupaia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 268 BP; 55 A; 76 C; 79 G; 57 T; 1 other;"
+  },
+  "sequence": "cntgggaaccagcagttagcgtaatggctatgtcgctggactcccacgtagtcgaccgcggttcgtgtcccggacccggtggcttaaaactcacgccgggcgcgtgtgcgtgcgtgcccaagatcccgagaggagaatggaggagaagggattgcggcgtgaccatcccccctggggggtgatttctcgctttctgtctctatgtctctctctgtctgtctggcgagcgcacgcgccctacagcgaaaatctctccaaaaaaaaaaaa",
+  "length_bp": 268,
+  "sequence_length_bp": 268,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

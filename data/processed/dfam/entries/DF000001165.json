@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001165",
+  "name": "X12_DNA",
+  "description": "Mariner transposon conserved in all mammals.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/TcMar-Tigger | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 325 BP; 76 A; 76 C; 75 G; 98 T; 0 other;"
+  },
+  "sequence": "cagccaactctcgattattcaggggctgattatccagtttgtggattatccaggccccttgcttctcctccttctccctcctgctgcctgccttttggccatttcactgctcattagcacctccaccagagggtggacaggagaaatgaaaggaaatgaaactcaaatcagtcaattttgctacttgttagcagctctggtaaaaggtttggtggaggaggaggttgaaactattggctaaaatgaggttttgggattatctgtggatttcaattatccatgctatccctgtcccccattaccacggataatcgagagttggctg",
+  "length_bp": 325,
+  "sequence_length_bp": 325,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "X12_DNA"
+  ]
+}

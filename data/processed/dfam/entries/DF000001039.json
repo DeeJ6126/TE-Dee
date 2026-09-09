@@ -1,0 +1,45 @@
+{
+  "accession": "DF000001039",
+  "name": "MLT-int",
+  "description": "Internal region of ERVL-MaLR retrotransposon, MLT-int subfamily",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT-int"
+  ],
+  "species": "Boreoeutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Boreoeutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1735 BP; 427 A; 375 C; 530 G; 374 T; 29 other;"
+  },
+  "sequence": "gaaattggtaccgagagtgggggtgctgctataacaaatacctaaaaatgtggaagcggctttggaactgggtaatgggtagaggctggaagagtttngaggtgcatgctagaaaaagcctanattgccgtgaacggancgttaagggcgattctggtgagggctcagaagaagaggagagctgtagagaaagcctcaatcttcttagagattacctaagtggtcgtgancagaatgttggtagaaatatggacggtaaaggccattctgatgaggtctcagacggaaatgaggaacatgttattggaaactggaggaaaggccatccttgttataaagtggcaaagaacttggctgaattgtgtccgtgtcctagngctttgtggaaggcagaacttangagcgatgaantaggatatttggcggaagaaatntctaagcaaagtgttgagggtgcngcgtggcttctcttgactgcttatagtaaaatgcgagaagagagaaatganttaaagacggaatttataatcaaaagggaagcagaacntaaagatttggaaaattctcagcctggccatgttgnaaagaatgaaaaagcgtgttcgggagagaanaccaagggtgtggccaagcgaccgtttgataaggagattagtatggatagaaggaagccaggtgctattcatcaagacaatggaagaatgaccccgaaggcatttcggagatcttcgaggctgcccctcccatcacaggcccagagtgcnagggcctngagggcagaacggtttcaagggcaggnnccantccccactgcccagngccgcctcagtctgctccccgtcttcggccgcccgnncagctgtggctcaagcgggcccaggtgcggctcgggccgccgctccggaaggcacaagccgtaaaccttggcggcgtccacgtggtgctaactctgcaggcgcgcagagtgcangagctgtgggggcatggctncctccacctagatttcaaagatgcgagacctggggcccaggcagaganctcgcggggcagggccaccgcagagagcccccactagggcaatgcccagtggagccgtggggtcgggnctgcagagagcccccactagggcaatgcctagtggagccgtgggggcggggccgcccccgagaccccagaactgtagagccaccagcgtgcaacnccagcctgggagagccgcaggcacgngactccaacccgtgagagctgccgcgtgggctgcgcccagcaaagccatgggggcggggctgcccggggccttgggggcccaacccccgccccagtgtgtccggaaggcgggacatggagtcaaagaagattattctcgagccttaagatttaatgttgtttgccctgttgggttttggacttacttgggacctgttacccctttcttctttcctatttctcccttttggaatgggaatgtctatcctatgcctgtcccaccattgtattttggaagcacataacttgtttgatttcacaggctcacagctggagaggaattttgcctcaggatgaatcgtaccttgagtctcacccatatctgatttagatgatatttagatgagactttggactttagactttngagttgatgctggaacgagttaagactttnggggctattgggatggaatgaatgtattttgcatgtgagaaggacatgaattttggggggccaggggcggaa",
+  "length_bp": 1735,
+  "sequence_length_bp": 1735,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLT-int"
+  ]
+}

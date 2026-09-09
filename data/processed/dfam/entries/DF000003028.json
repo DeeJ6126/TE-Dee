@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003028",
+  "name": "GSAT_MM",
+  "description": "Mouse gamma-satellite repetitive sequence.",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Mus",
+  "display_classification": "Satellite/ | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 471 BP; 196 A; 72 C; 127 G; 66 T; 10 other;"
+  },
+  "sequence": "gacctggaatatggcgagaaaactgaaaancgtggaaaatgagaaacgcacactgtaggacntggaatatggcgaggaaaactgaaaaacgtggaaaatgnagaaacgcacactgtaggacctggaatatggcgagaaaactgaaaancgtggaaaatgagaaacgcacactntaggacctggaatatggcgaaancactgaaaaacgtggaaaatgagaaatgcacactgtaggacctggaatatggcgagaaaactgaaaancgcggaaaatgagaaacgcacactgtaggacntggaatatggcgaggaaaactgaaaaacgtggaaaatgnagaaacgcacactgtaggacctggaatatggcgagaaaactgaaaancgtggaaaatgagaaacgcacactttaggacctggaatatggcgaaaacactgaaaaacgtggaaaatgagaaatgcacactgtaggac",
+  "length_bp": 471,
+  "sequence_length_bp": 471,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "GSAT_MM"
+  ]
+}

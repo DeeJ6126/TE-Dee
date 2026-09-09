@@ -1,0 +1,40 @@
+{
+  "accession": "DF003575747",
+  "name": "MULE_M.coruscus_14",
+  "description": "Repetitive sequence family identified in Mytilus coruscus",
+  "keywords": [
+    "DNA/MULE-MuDR"
+  ],
+  "species": "Mytilus coruscus",
+  "display_classification": "DNA/MULE-MuDR | Mytilus coruscus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Mytilida",
+    "Mytiloidea",
+    "Mytilidae",
+    "Mytilinae",
+    "Mytilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1796 BP; 629 A; 361 C; 270 G; 533 T; 3 other;"
+  },
+  "sequence": "ggtgtcttcctcctattcccactttttaaaaatcactattccttctattcccacatgcaaataacaatagatgttttgataaataatttgtttttataacaatcaaggttaattaaaaattcacctaagatttacctgtattttttaaaagaaaacatatttcttacactgtttaagtataatattatttaaaaaaaaatttaatacactgtttatttgtaatatgtttttcttcttcaaagaattacttaaaaataaagaataagtcagataaatagaagtaagattaaaaaatcattgaatttgtaaacttaaaaaattgtcatccgaacaaataaattgatgatagataatattataacaaactttcccatcttgcaagatttccatgtacaacaaacgcaagaagaacctaccagttttaccaaaaactgttgatgaaatcaacatagatggtatttgggcacgtactaccaaaggtgacccattcctgctaacagacgacaacacagttgggcgtatgttaatcttcagtactcaaaagaatctaacacacttagcagctgcagatatcatatatggtgatggtacattttactcctgtccgagcctattcttccaactttacacatttcacgcaatggttgacggcgcaatgtatccactggtacacagtttacttccagccaagagcgaactagtatacacaaggttcctgactttactcaaagatgtatgccaccaacaccaactacaacttcagcctaccactatcttcctggactatgaagtcgccatccgaaatgcagcatattctgtatttcctggcatcaacgcaaaaggctgttttttccactacacacaatgcatctggagaaaagcacaagaaacagggattcaggttccatacaaggaagacaacaacattcatcaactagtacgccgtgccgctgtccttccacttgtacctactgctgaggtcgaagatgtgtggtttaatgccctaacngacatagatcagattgatactaacatcaactacacgccctttacagactatgtaacaacatactgggtcgaanagaacagtcacctntggaaccattacacaacacagggaccgaggactacaaatcatctagagggatggcacagcaagctgaagaaacatgtccagcacccacatccaaacatctttaaactcataaaactactgaaacatgaggaagctttcaacgccctgaccatgatccagtatgcagccggtgggaagagagtggcccaaaaacgaaagtatgtcgaaatcaacaacagattagaagagcttaaggttagacaccgcaaccaggaagtcacaacagtacagtttggtgatgcagcctcccaccttcttcacgttgaatagattaataaactttaatagacttatatacagtgaatttctaatgtgtgtgctacaatgtgtgatttgttttagtgctgttaacttgtattgtttgtttcatattataatgcttgcttgaatctactgttgaatttgtgttataaaagaaataaaataatttacttatatttgtttccatttctttcatatttattttaattaaaaacacagaattcatacacatacaaaaataacctattacctatccaaaaaacacttgtcaattaaaagttgattaaacaatgtttatacagtataatcctttgtttgcacaagttttccccctattcccacatgaaattttaacttttcttaccagatttataaaaagtgggaataggaggaatgaacc",
+  "length_bp": 1796,
+  "sequence_length_bp": 1796,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

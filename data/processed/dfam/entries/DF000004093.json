@@ -1,0 +1,52 @@
+{
+  "accession": "DF000004093",
+  "name": "CATCH2LTR_DR",
+  "description": "Long terminal repeat of an endogenous retrovirus from zebrafish",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CATCH2LTR_DR"
+  ],
+  "species": "Danio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 825 BP; 222 A; 174 C; 158 G; 269 T; 2 other;"
+  },
+  "sequence": "tgtaaaagaggtcggtgggctgagcccagagctggacacgagctgtgctctctcctcacgcgtgcatgctgtgacatcgcgagcagactcctatagagctcgcacttgatcatgcgccgatcacgagcacaggcagccaatcaaaacgcagcttaggtctgcggtacattgagactgttaactggtttcattctgntcagacagagagaaaggtcgcatgctttgctttccgcctaattccagtcagttttgtgtgcgtcaatgatgagaagtaagtgtttatgcatcatttacatacctgttaccactgttttatcattatagtattgtattgagattattgatttatgcgcgagctcgtaaagaatcgcggactgccgcggctagtagtagcgatcttttatgtaaatataattgctttaaatgataatacatacatcgcctattaaatccatgctttttgttatatttccgcctaagttaaaagcctgttaatagtgagaattattattttatatacgtttatctgccttgcttcatctgctttgctcatgcatgtcagttataaatgtatattgtagtttagtgttgtgtataagtatttccacttgttactgttatccttattatctaaatttatttattaatgtatattttctttcttttgtttagaccacacacacacacacacacgcgcacacacacacacacacacaaagtgtgatggacattaaagagctttaaatggggttcaagtctccgtgttcttaccggcactccatggcgacgatcaaattcacctaaaaaccagctaactccnctaca",
+  "length_bp": 825,
+  "sequence_length_bp": 825,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CATCH2LTR_DR"
+  ]
+}

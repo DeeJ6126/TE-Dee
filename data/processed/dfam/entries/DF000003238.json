@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003238",
+  "name": "Harbinger-N11_DR",
+  "description": "Non-autonomous Harbinger DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/PIF-Harbinger"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/PIF-Harbinger | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1211 BP; 322 A; 288 C; 232 G; 365 T; 4 other;"
+  },
+  "sequence": "cgcctgtttcacaccgcaagcgtcagcggcgcgtgagcagagcgtgagcagcgcgtatgtcgagcagnagcagcacgcaggcgtttgcctttcacaccagctgcgtctgcagcgcgcagctcttcggcagctgctgcagagatcaacctatctctgtctattctatctagttacccatgtctctctatatacaaatacactttttaaacttttcatctgcaccaaggcccctcctatgctgtttctttaacctgcaaatgtttattttacaaattttatagatcaaatagtactgtatgcttctcaagctaacttatatgagaagtgtctacagtcagaagacaatcgcctgtgatatcatgtcatttgttttttgattgtcaggttgctgtagacctagttataataatatttatacaatatagttataatgatatttatacatgatcaaactagtgttactttctccgcttcagtgatgtccagcggcagaataacagctcgttaattcatgctcgtgcagangatgagacggacaaaagtaaccaatgcatgccattcttttacttattttcgtgttgtcagattcacagtgcaaacagctcccggtaggaataactcgagtgaacataaaacaaagccgattaaaactttcttcctctgctcagctgcacagaacacagcgagctcacatcatccagcatgcgtgtcgaactacactacccacaatacacttcgctatggactacaaatcccgtaaatattctatttcccctctcctacaacactagtgtgcaacttaagcaaaactgatactaaaattgttttacatttggttttgtagttcgggcctaaataaatgtttgttgccgtttttaatcgttttaagttcatttgantgactatatataaatcagttgacattattaacgcatttattgggtaaaattgctactttttactgtcattcaatgtgttttggtcattatcaatgcactgtcactttaattgagcgtgagcagcgcgtcaaaaatagacccagcgccgaaactatcgctgcactgctgcttcggcgacgctcacgcctcgctctgacgcgctgctgctgcgtgcggtatgaaagctctaatctgttaacatggacgccgaaaanacacgcgctgctcacgctctgctcacgcgccgctgacgcttgcggtgtgaaacaggcg",
+  "length_bp": 1211,
+  "sequence_length_bp": 1211,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Harbinger-N11_DR"
+  ]
+}

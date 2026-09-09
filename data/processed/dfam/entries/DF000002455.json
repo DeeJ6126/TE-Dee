@@ -1,0 +1,66 @@
+{
+  "accession": "DF000002455",
+  "name": "REX1-8_DR",
+  "description": "Non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/Rex-Babar"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/Rex-Babar | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3461 BP; 1012 A; 868 C; 710 G; 867 T; 4 other;"
+  },
+  "sequence": "agatggcggcgcccggtacggcagcggctactccggctccgtgtaacgatgtgcgttttatgttaaatgtgtcgtctgaatcgtctcagtcatgtacgagaaaagtctacaacagagacctactgcttggtctacgaaacacgaacttttcaaacgatttctctggaattatgtttgctttggatcacaaaattctcgacgagctaggtatcctacgactgcaagacccagaggcctgcaaagcagcggtctcccctcccgatactggccgatgctcgaggcgacgtaagcggtgggagggacgtagcactcgtcgcaagcggtgtgctagacctagcaagcgagggagtcgagcgggtattagcgcaaggctaaaagctaaaccatacagacctgcacttcctgcgattctgctttccaacgttcgctcgctggaaaacaaaatggactatctcagattggatctaaatacacaaaagaaggtgaaagattgcagcgccatcgtcctcaccgagacatggcttaaccacagcgttccagataacgctattcaggtggacggactaacaacattcagagcggacaggagtcacgcactcactggtaagctacgaggtggtggagtggcaatctacatcaataacaactggtgcacaaatgctaaagttctccgaagtcactgttctgaagacatagaatttttaacagttaaatgtcgtccagtatacttgccaagagaattctcagccgtgactattacagccgtgtatataccgcccagtgcgaatacaaaagacgcacttactacattgtatcaatctgtgagctcgatgcaggactcaaacccggactctgcctgtataatcgctggcgattttaatcaggccaaactaaagacagtactcccacacttttataaatatgtggactttgcaaccaggggagagaacattctggaccaggtctactcaaacatcaaacaggcatacagagctgttccccacccccatctgggtaactcggaccatctttctgttatacttatgccatcttacaggccactgttagtgagaaacaaagcttctgtgaagcagatccgaacctggccagagggggccacttcagccctccaagactgttttgactgcacagattgggctgttttcagggaggctgccacttccaaccagcttgttaatataacggaatacactgaatctgtgacaggatatatatccaaatgcatagaagatgtgaccgtcataaaacacattaccacaagggaaaacaataaaccatggttcaccagggaggtttgtgagcttctaaaagcacggaatgtagctttcaagtccggagacaaagaggccctcagaattgccagggccaacttgaaccggggcctgagagtagcaaagcgtgcctatggacgaaaaatccagtcacactttactgacataaatgaccccagacgcctctggcaaggcatccagtcagtaacagactacaggcctatacctccaccgtgtgaggacagcacagtcttcttaaactcactcaattcattcttcagccgttttgaggaaaacaacaacatcattccaacaaaagctccacactgtgtggacgatgtaatacttcaacttgaccctgctgatgtgcggaggacccttcaaaaggtcaacccctggaaggctgctggtcctgataatatacctgggcgtgtgcttagagactgtgcaaactcacttacagatgttctcacagatatttttaacatttctctgagtaaagccattataccagaaagcttcaaagctactactatcatcccgctacctaagaaatcaccagtcacaacactgaacgactaccggcctatagcacttacgtccatcataatgaagtgctttgaaaggctggttaaggctcacataacatctagcctacctgccacatttgaccctttccagtttgcttatcgttccaagcgttccactgatgatgccatagcaacagcacttcacctcagcctggctcatctggaaaacaaaaacagctgtgtgcggatgctgttcattgacttcagctctgcctttaacacagtcataccacaacacctggtgggaaaactcagagctgtaggcatcagcaccccactgtgcaactggttattagattttctcaccaacagaccacagacagtaagagtcggtgaaaactcctcacagaccatcatcatgaacactggggtccctcaaggatgtgtgttaagtcctctgctgttcacactgatgactcatgactgtggtgccagatacaactcaaatcacatcatcaaatttgcagatgacacgacagttgtgggcctcatcagcaacgacgacgactcggcctacagagatgaggtacatcaactcatcaactggtgtgacactaataatctacatctcaatgtaaataaaacaaaggaaataactgtggacttcaggaggaatcacaggtcacacccccccctcaccatctatggcagtgtggtagagtcagtgaaaagcaccaagttcctgggggtgcatattaccaatgacctgtcttggtctaccaacaccacctctctggtcaagaaagctcaccaacgcctccacttcctgcgcaggatgagaagagctaacctccctccaccggcactcactaccttctacaaaggtgccattgagagtattctcaccagcagtctctcagtctggtatggtagctgctctgctgctgaccggacagctctacagagggtggtgaggtcagctgagaagataatcggatcagccctaccatccattcaggacatatacccgctccgttgctacaaaagagctacaaacatcatcaaagacttcacccatcccacacataaactgttcactctcctaccatctgggaaacgctacagcagtatgcgttgcaagtctactagactcataaatagcttttttcctcaagctattagactgctcaactcactcatgaaaactggattataaaatcacaatccacagcccacacacacaaaaatctgtggaactgtgagaaaggcaaactcaantgtttttatgttaatattccttgcacgtgtaacatgtttacaaaattcacttacctctaagctgctactttgcactttgcacttttgccatactgcacctaattgcactacaataaatacctcaacttggtcatattctggaacaataggatatatggtaactgttcacagtttattantgtctattatttaatttatcttgtactatattagttaaatgtttagtttatgtctagtgtgtgtcatatttttgtttttnnaaattgcacattggagtatgggagaaacgcaatttcagtctgctgtgtaatgtactgttgcatggtttgattgacaataaagttgacttgacttgacttga",
+  "length_bp": 3461,
+  "sequence_length_bp": 3461,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "2..3035",
+      "start": 1,
+      "end": 3035,
+      "qualifiers": {
+        "product": "REX1-8_DR_pol",
+        "number": "1",
+        "note": "[Danio rerio]",
+        "translation": "MAAPGTAAATPAPCNDVRFMLNVSSESSQSCTRKVYNRDLLLGLRNTNFSNDFSGIMF"
+      },
+      "label": "REX1-8_DR_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "REX1-8_DR"
+  ]
+}

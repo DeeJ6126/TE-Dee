@@ -1,0 +1,48 @@
+{
+  "accession": "DF000003424",
+  "name": "PB1D10",
+  "description": "SINE1 SINE from rodents.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Myomorpha",
+  "display_classification": "SINE/Alu | Myomorpha",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 117 BP; 30 A; 32 C; 39 G; 16 T; 0 other;"
+  },
+  "sequence": "agccgggcgtggtggcgcacgcctgtaatcccagcactcgggaggctgaggcaggaggatcgcgagttcgaggccagcctgggctacatagcgagaccctgtctcaaaaaaacaaaa",
+  "length_bp": 117,
+  "sequence_length_bp": 117,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PB1D10"
+  ]
+}

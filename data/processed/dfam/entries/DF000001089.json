@@ -1,0 +1,39 @@
+{
+  "accession": "DF000001089",
+  "name": "UCON14",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON14 subfamily",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Tetrapoda",
+  "display_classification": "DNA/ | Tetrapoda",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 344 BP; 101 A; 65 C; 67 G; 106 T; 5 other;"
+  },
+  "sequence": "gtaagatttccaagatttctggtggganttctttacaanagatgcattntttccgttggggtttacaccgccatttggtctaattattcctgacatttcgcccatcatantgtgagcttcttcagaggaaagaaataacagcttgtctccttgagagcacttctgaaatttattcaattcgcactttgctcttaaagaagactggctatttatttctntcctctgaggaagctcatagtatgatgggcgaaacgtcaggaataattaagaaaaatggcggtgtaaaccccagcagaagaaatacatcttttgtaaatgactcccagcagaaatcttggaaatca",
+  "length_bp": 344,
+  "sequence_length_bp": 344,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON14"
+  ]
+}

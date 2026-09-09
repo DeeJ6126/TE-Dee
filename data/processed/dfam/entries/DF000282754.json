@@ -1,0 +1,49 @@
+{
+  "accession": "DF000282754",
+  "name": "TadBra-6.2216_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "TadBra-6.2216_LTR"
+  ],
+  "species": "Tadarida brasiliensis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Tadarida brasiliensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Molossidae",
+    "Tadarida"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 394 BP; 106 A; 91 C; 103 G; 92 T; 2 other;"
+  },
+  "sequence": "tgaaagggttagtaatgttttaaagggtaaaggtaaaagtttgcaaaaggcggaaactgtggaaattgtgttgcttgcatgacctttgctcagccttctgttgagtacggataaggattatctggattatccgcaaggcaatggataacccagcagatgccggacgagataccagaccagtccnactgcaaagtggacaatgggccaggcagagtacgtcagcaggaactgccggaagctaaaagtagggtatataaccgacaccccaaccgtnattcgaggctgaacccttttcggctcagcccgcctgcacccaggcgcatgcaataaagccattttgctctacattggccttgcgttgtggatgtgatctcccgccggctcagacctttta",
+  "length_bp": 394,
+  "sequence_length_bp": 394,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

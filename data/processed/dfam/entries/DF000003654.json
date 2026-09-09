@@ -1,0 +1,78 @@
+{
+  "accession": "DF000003654",
+  "name": "L1-8_DR",
+  "description": "L1-like non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Danio",
+  "display_classification": "LINE/L1 | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 5248 BP; 1647 A; 794 C; 1241 G; 1545 T; 21 other;"
+  },
+  "sequence": "atgacatccaagtttacatcgaaggcgcgagctgcaaagcagggcgcaatggcgagtgacgggcctgccgagattcgagaaaaagacgctcgattgggacacgttactacaccaccagggttcgcggagttacaggctgcgttaaaagcagcaatggatgaaatggcacgatttagtgcaaatttgtcaactttgcaggcagatgtaacgagtgtgaagactacgcagtttcagatgaaggcggacgcggccgccatggcgcaacggcttgacgaggcagaggctcgaattggagtgcttgaagacgagaacgagcgcctgcaacaaatggccgaaaaaagtgctaaagactgtgcagatcttcgggattcggtttcggatatggtaaacagggagcggcgcatgaatctacgtctaataggacttaaggaaaagtccgagaatggtaatctgcgggaatgtgtaaggctgattctctccgaggctctggatgtggatatctccgaaacggagttacagcgtgtccaccgatctttggttccaatgccggatgaaaacaagccccctcgccccgttattatgcgctttcacagttttctggaaagagagagggttatggcagcagtgagaatgaaagtgcgggaaggtggcagtatcatgtggaggagttctaaaatatcgctgtttcctgacatgacgagagatgtggcggaaaaaagacggcggttcacagcggtcagaaagaggcttcacgagctggatatccgttttactctggcgtatcctgcagtaatacgcttcacatggaaaggacagcgagtgagctttgatgatcataacaaggcgctgatgttattgtctgaaaaggactgaggtacggaagttgctttctggggacaaaagttatgttatttgatgctaagataaaaacaaacagactaggtctgcaaccaatgtaaggacaaagggatctacagcaagtttgatggggtgttaacatgcgatttacaagaacgttctggggcggggtcgacaggtggttccatcatcagcgcttcactgctcgtgtatggggaggggccttcttttagtgaaaggatgtaacttgggagggttcaaggggtttaagttcttgaagtcaatgtttacagagttcgtttatgtcttttatttttacttttttacttttgtatgtnnnnnnnnnatgttttttacagacagcaagtgtttatatatagttgggagacatgcatggaacggctaaatatttaaaaataatatcctggaatataaatggttctcataatccagttaaaagaagaaaatggttaggttaccttaaatctatagacgtggacattgctttaattcaagaaacgcatatgatgggtccagaggctgaaaaacttaaacgtgactgggtgggacaggtgtttcataattcatataatagtaagaggaatggggtagcaatattagtgcataagagggtaaattttgtcatgattaaacaaaagaaggatgaggaggggagatttatatggttggaagccatggttgatgggcaaaaagttaatatttgcaatatttatgctccaaataaggaggatagtgtattttttcatatggttaataagatgattgggggacaagcaggtaatcagttaataattgcaggtgattttaatcaggtgcaagatgcctatctggatagaacaacctaccataaaaatatgcccagagacagattagctatacaattaatgatgaaagatttggggttggtggacatatggaggcttgtcaatcctagagagagagagtataccttcttttcacataatcataaatcttactcaagaatagattactttttggtttctggtgatttagtagagtcagtagtagactgtaagataggcgtgattgctttgtcagatcacgcaccagtggagatgacattagacactaaatctaagacaataaaacaaaacagatggagattcaatatatccttgcttcaggacttaaattttagtacaaaattgggagctgacttaaaggaatttttcgagattaatgttggtaccacagagaggctgggaacggtatgggaagcatcaaaagcttatgtcaggggtaacgtaatacaatatgctagcttggtaaaaagacttgacaaggaaaaagttaaggacattgaggccagaattaaagttttagacaggcaattatcactaaagttttcagataatattttaaaacaagtctgcgatctgaaatatcagcttaatgatatttacaatagaaaagcagagtatgcaatgtttaggatgcgcacagctttctatgaaagtggagaaaaggctgataaattgttagcaaggcaattgaaacaaaaggatgctagtttcttaatttcagctatcaaaaatgaaaaagatgaagtggtgactgcaaacatggacattaataaggtctttgaaaagttttatagtaaactatatgaggcagagtcatccccagactgtactaaatatagagattttttctccaaaattacacttcccaccttgtcctcagaccagcttgagatgttggatgcaccaatagaagaatctgaaattagggctgcgataatgtcaatgaaggccgctaagtcaccaggtttagatggctttcctgccgaatactataagaagtacattgacattgttgcaccaatattggaaggggtgtataaggaaaccttgttactggagcagatgcccccaacatttaatgatgcgctaattacgttaattcttaaaaaggataaggatctttatgatcctgggagttatagaccagttagtttagaaaatgttgattgtaaaattttatctaaagtattagcattgaggttggagggcattttatccaatatcgtacatagcgaccaggtaggttttataaaagggagatcttcttctgataatcttcggtcactacttcatctcatctggcaaagccgcaatgagaatgatccagttgctgctttttcattagatgcgatgaaggcatttgatagagtagaatggggctatttaacttatacgttgcaaatgtttggctttgggccaacttttcttaagtgggtcaaggtgctatattccgccccacgtgcagccgttcttacaaatggcattatctcccctttctttaaattaaagcgaggcaccaggcaaggggaccccctgtctcctttgctttttactttgtttctggagcccttagcagttgcaattaggaatgacataagagtgaatggtgtccagttaggagagagggaatataagtgttttttatatgctgatgatattcttcttttgctttcaaatccaaggacatctatacctcctatgatggatactatcgaacgtttttctcaaatatctggttacaaagttaattgggtgaaatctgaggtaatgccagtgtctgtgggatgttcgttggctgatgtgagcgctttctcctttaaatggataccaactgggatgaagtatttaggtgttaggctctcaagggacttgtatgatgttgttcagatgaatataacccctatgcttcaaaatgttagaacaaactttgataaatggaaagtgttaaatttgtctttgtgggggaaggttaatgcaattaaaatgatggtatcatcaaagattaattatatctctatgatgatccctttggagtttcctgtatccatctttaagcaatacaatcaactagttagggactttctgtgggaagggaagaagcccagaataagtatgaaaaatatgtttaccactagaataaaggggggtttggcattaccaaatatagagctttataatactgcatttgagattattaaaatatgtaaacattggtcaggtgataatgtagagggtataagctggatcgaaatagagaaaacgctgactttcccattcagtgttattgatgctttatctcagaaatctttacattctattatgaatggggaagttaaccctatactggaacactcacagcaggtctggaaaaaaatacataagatatttaatttgtcccattataaacaaggctattcttcattatggaataaccctgctattaagataggaaagaaaacagtctattggaaggattggtgtaaaaaannnggcctgaaaacagttgatgatttatatggacagggngcactgtattcatttcaggagttgaaagacaaattcaatctantagataaaggggatttctggaaatatatacagctgcatagtagtataaganctgtgggatntaagccaggagcagaagaaantgttttattagggtttctaaatatgccaaagtcggtgcaaaccacatcttttgtttataagattgctgcaaacaacatgtatggaaaaagtgatcatttaagaattatctgggagaaagacctggaggtggaatttgaagagggtgaatgggaggcagtagtttctggtatagggggtactgtgagagatgttaggagtaaactcatacattacaagataattaatcgatattactggacnccagtaagactgcataggataggattaatggaaaataaccactgttggaaatgtggtcattctgtgggcacctttttacatttaacgtggagctgtcatttggtggctccattctggacaagagttattcaaaaccttgagaaatggctgggacaacctttaccttattcnccaagagtctgtcttcttggtgatacatccactttacagaacggaatatctaaagcacaggctgggctagtcgtcgcaggatgtattattgctgtgagactggtgctgcgaaattggaagaactcagatactccctcttttaaggattggattgagctgatgacttctactgcatcatatncgaacgtatgttggcaagacttcaggactccacccatacttttaatcagaaatggggtagctttttgcaatatttggagagcacgtaaaaggaaaattgaagggttgtcaatttgactgtctgttgtattgttttgtactattttatatttgttataatttttgttttgctattatttttattataatttgtttacattatttcctgaatgttgattttgtattgtgaattttatgttgtgtgggtataaaagttcaaaataaaataaaaaaagttcaatnacaaaaaaaaaagaaaaaaa",
+  "length_bp": 5248,
+  "sequence_length_bp": 5248,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "0..870",
+      "start": -1,
+      "end": 870,
+      "qualifiers": {
+        "product": "L1-8_DR_gag",
+        "number": "1",
+        "note": "may start frm a later methionine. [Danio]",
+        "translation": "MTSKFTSKARAAKQGAMASDGPAEIREKDARLGHVTTPPGFAELQAALKAAMDEMARF"
+      },
+      "label": "L1-8_DR_gag"
+    },
+    {
+      "type": "CDS",
+      "location": "1247..5060",
+      "start": 1246,
+      "end": 5060,
+      "qualifiers": {
+        "product": "L1-8_DR_pol",
+        "number": "1",
+        "note": "[Danio]",
+        "translation": "MHGTAKYLKIISWNINGSHNPVKRRKWLGYLKSKDVDIALIQETHMMGTEAEKLKRDW"
+      },
+      "label": "L1-8_DR_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "L1-8_DR"
+  ]
+}

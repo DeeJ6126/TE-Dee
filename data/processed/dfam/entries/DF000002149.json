@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002149",
+  "name": "RMER12C",
+  "description": "Long terminal repeat of ERV2 Endogenous Retrovirus from rodents.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RMER12C"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1369 BP; 390 A; 253 C; 287 G; 396 T; 43 other;"
+  },
+  "sequence": "tgtcaggagccatctagganaggctaaggctagcaggtggccttcctggaggtggcccacccgtttttgcatggtctgcgatgggtgagctcgatggcaaggtcccaaagagacttcatctcaggattgcttcttgcagctgatatgcctttcctgtcattattaaattaatataataatccctgggcattagcccaccctattgagcagatttcctgcagatcaacataaagatgaactttcatgaattaatgctgtttagacgaattaatgattctatagaattcctgatttgattcaaataattttaggaagaaagttttaagagatggtcttagttgctttgctagaaagatgtaataaagttagaatcaagaatagaatgtgcccactcctcataatagtaagtaaaggctgcataataagaaatacaatgagctttcataattacactaaaaagagannaataggcttgggacaaatttgtgttcaaggaaaaacatttaggtccaaggataaagccacaggtgtgcactatgataaggcaaggccatgtaaaaactgttgctttgaacttataatgagcatattagaatgaaacactgctttgaacttaanntatcaacatccttctgtaactcccattttatgtaacattttatctntgaggtaattttctaaagaactttttgtctaagaaggtataaaaaggccagagaaaagaaataaagttgttggttgaatggtttggcttggggagctcttgccccatccatccatccatccatccatccatccatccatccatccatccatccaaatgtatatgtntgtntgtatgtacatgtgtagggtgtgtangtatatgtgtatgtatgtangcatgcatgnatacntgtgnagttgtatgagacanatggtcgngcccgacananatgtgnatgtgtnnatgtgtanatgngnatgtgnatgnanatgtanatgtgtgtatgnatgtatatgtgtntgtgcatatntgcntgtataaagcatcttaattcttttcctttccttcctctctggttcacaaagagttaaccagcctagccagagaggcttctggctgcctggncagagaagggagcgntagcaataaatcctttacttaatcccccgctgttaggctacaggtgttaatcgcnnacctaagccagcggtttttancctcagaangagcaagaaagtttttaggactttttagaagttatcatcaagcattcagtacagttagagagctagaangccngagaccctcagnctttaaagccaccgccggngtcctactctgtgncccacttcaacccgctccaggccggganggctcccggca",
+  "length_bp": 1369,
+  "sequence_length_bp": 1369,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RMER12C"
+  ]
+}

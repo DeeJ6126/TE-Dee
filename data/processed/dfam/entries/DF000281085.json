@@ -1,0 +1,49 @@
+{
+  "accession": "DF000281085",
+  "name": "TraJav-5.490",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Tragulus javanicus",
+  "display_classification": "SINE/tRNA | Tragulus javanicus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Tragulina",
+    "Tragulidae",
+    "Tragulus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 334 BP; 93 A; 103 C; 93 G; 45 T; 0 other;"
+  },
+  "sequence": "ggggcttcccctggtggtccagtgggtaaggacaccgccttgcagtgcaaggggcgccggttcgatccctggcctgggaagatcccacgtgccgcggagcggctggaccgatgtgtccaattaccgagccggagctctggagcgcatgcgcccagagccggcgctctgcgacgacagacgccaccgcgatgggaggcccacacgggccaaagaacaaagacggatgaaaatagagaaatgaaagaccaatagaagtggcccgcccgctcccctccctccccaacccgacccccgcccaaaataaataaataaataaatctttaaaaaaaaaaaa",
+  "length_bp": 334,
+  "sequence_length_bp": 334,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

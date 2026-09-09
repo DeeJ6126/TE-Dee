@@ -1,0 +1,49 @@
+{
+  "accession": "DF000004124",
+  "name": "Lx5c_3end",
+  "description": "Non-LTR retrotransposon in murids - 3' UTR fragment.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Muroidea",
+  "display_classification": "LINE/L1 | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1548 BP; 444 A; 322 C; 465 G; 305 T; 12 other;"
+  },
+  "sequence": "tcaagacccagctataccactcctgggcatatacccaaaggacgctccatcctaccacaaggacacttgctcaactatgttcatagcagctttattcataatagccagaaactggaaacaacctagatgtccctcaaccgaagaatggataaagaaaatgtggtacatttacacaatggagtattactcagctgttaaaaaaaatgacatcatgaaatttgcaggcaaatggatggaactagaaaaaaatcatcctgagtgaggtaacccagacccagaaagacaaacatggtatgtactcacttataagtggatattagctgtaaagtaaaggataatcatgctacaatccacagacccagagaggctaagtaacaaggagggctcaaggggggacgcatggatctccctgggaaggggaaatagaatagattttgcgggtggactgggggcgggtggggatgggaacaggagggatcaggngtcgggggagggatggagggagagagtactgggagagacgactggaattggggggcatttngggggcgangtagaaacctagtgcagtggaaactcccnggaatctacgagggtgaccctagcgaagactcctagtaatgggggatacggagcctgaaccggccatcttctgtaaccaggcaaggcttccagtggngggactgggacaccaacccagccacaaaaccttcgacctacaatttgtcctgcctgcaagatgtgctggggtaanggtggcgcagaacttgtgggagtggccaaccaatgactggtccaacttgaggcccatgccacgagagggagcccacgcctgacactgcctgganggccaggaaccagaggctggatagcccagagacctaggatagaaccaaacacgactggcaaaaaaaaaaaaaaaagtcaatgaaatgattcctaatgatattctgctatactcatagatcggtgcctagcccaatcgtcatcagagaggcttcatccagcaactgatgggagcagatgcagagacccacagccaaacattaggcggagctcggggaaccccgcggaagagggggaggaaggattgtaggagccagaggggtcgaggacaccacgagaacacggcccacagaatcaactaancagggctcataggggctcacagagactgaagcgacaatcanggagcctgcatgggtctganctaggtcctctgcatatatgttatggttgtgtagcttggtgttcttgtgggactcctaacagtgggagcgggggctgtctctgactcttttgcctgctcttgggacccttttcctcctactgggttgcctcgtccagccttgatatgagggtntgtgcctagtcttattgcaacttgttatgccatgttcggttgatatccctgggaggcctgctcttttctgaagggaaacggaggaggagtggatctgggggagaggggaggtgggggggactgggaggagnggagggaggggaaactgcggtcgggatgtaatgtatgagagaagaataaataaa",
+  "length_bp": 1548,
+  "sequence_length_bp": 1548,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LX5c"
+  ]
+}

@@ -1,0 +1,113 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ZJU course paper template, adapted for the TE-KG manuscript
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesPackage{zjureport}
+
+\RequirePackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
+\PassOptionsToPackage{hyphens}{url}
+\RequirePackage[unicode=true,hidelinks,bookmarksnumbered=true]{hyperref}
+\RequirePackage{latexsym,amssymb,amsmath,amsbsy,amsopn,amstext,amsthm,amsxtra,color,bm,calc,ifpdf}
+\RequirePackage{graphicx}
+\RequirePackage{enumerate}
+\RequirePackage{fancyhdr}
+\RequirePackage{listings}
+\RequirePackage{multirow}
+\RequirePackage{makeidx}
+\RequirePackage{xcolor}
+\RequirePackage{fontspec}
+\RequirePackage{subfigure}
+\RequirePackage{booktabs}
+\RequirePackage{longtable}
+\RequirePackage{array}
+\RequirePackage{tcolorbox}
+\RequirePackage{fontawesome}
+
+\renewcommand{\abstractname}{\textbf{\large {摘\quad 要}}}
+
+\makeatletter
+\newcommand\dlmu[2][4cm]{\hskip1pt\underline{\hb@xt@ #1{\hss#2\hss}}\hskip3pt}
+\makeatother
+
+\def\equationautorefname{式}
+\def\footnoteautorefname{脚注}
+\def\itemautorefname{项}
+\def\figureautorefname{图}
+\def\tableautorefname{表}
+\def\partautorefname{篇}
+\def\appendixautorefname{附录}
+\def\chapterautorefname{章}
+\def\sectionautorefname{节}
+\def\subsectionautorefname{小节}
+\def\subsubsectionautorefname{小节}
+\def\paragraphautorefname{段落}
+\def\subparagraphautorefname{子段落}
+\def\FancyVerbLineautorefname{行}
+\def\theoremautorefname{定理}
+
+\newtheorem{Theorem}{定理}[section]
+\newtheorem{Lemma}[Theorem]{引理}
+\newtheorem{Corollary}[Theorem]{推论}
+\newtheorem{Proposition}[Theorem]{命题}
+\newtheorem{Definition}[Theorem]{定义}
+\newtheorem{Example}[Theorem]{例}
+
+\newcommand{\reference}{
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{参考文献}
+\bibliographystyle{unsrt}
+\bibliography{reference}
+}
+
+\newcommand{\tbox}[1]{
+\begin{center}
+\begin{tcolorbox}[colback=gray!10,
+                  colframe=black,
+                  width=0.95\textwidth,
+                  arc=1mm, auto outer arc,
+                  boxrule=0.5pt]
+{#1}
+\end{tcolorbox}
+\end{center}
+}
+
+\pagestyle{fancy}
+\setlength{\headheight}{15pt}
+\fancyhead[L]{}
+\fancyhead[C]{\fangsong TE-KG 知识图谱数据库论文}
+\fancyhead[R]{}
+
+{
+    \title{ \vspace{2cm} \heiti \Huge \textbf{{TE-KG：面向人类转座元件功能与疾病证据整合的知识图谱数据库}} \par
+    \vspace{1cm}
+    \vspace{1cm}
+    \vspace{2.6cm} }
+
+    \author{
+    \vspace{0.5cm}
+    \kaishu\Large 姓名\ \dlmu[9cm]{蒋贤迪} \qquad \\
+    \vspace{0.5cm}
+    \kaishu\Large 学号\ \dlmu[9cm]{3240105782} \qquad \\
+    \vspace{0.5cm}
+    \kaishu\Large 课程\ \dlmu[9cm]{设计研究方法与论文写作} \qquad \\
+    \vspace{0.5cm}
+    \kaishu\Large 单位\ \dlmu[9cm]{浙江大学}
+        }
+
+    \date{\today}
+}
+
+\newcommand{\cover}{
+\begin{figure}[t!]
+\centering
+    \subfigure{
+        \includegraphics[width=0.3\linewidth]{figures/zju_logo.png}
+    }
+    \subfigure{
+        \includegraphics[width=0.6\linewidth]{figures/zju_char.png}
+    }
+\end{figure}
+\maketitle
+\thispagestyle{empty}
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277673",
+  "name": "KogBre-1.19",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Kogia breviceps",
+  "display_classification": "LINE/L1 | Kogia breviceps",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Physeteridae",
+    "Kogia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 881 BP; 358 A; 148 C; 173 G; 202 T; 0 other;"
+  },
+  "sequence": "catgaaaagatgctcaacatcgctaattattagagaaatgcaaatcaaaactacaatgaggtaccacctcacaccggtcagaatggccatcattaaaaagtctacaaataacaaatgctggagagggtgtggagaaaagggaaccctcctacactgttggtgggaatgtaaattggtgcagccactatggaaaacagtatggaggttcctcaaaaaactaaaaatagagttgccatatgatccagcaatcccactcctgggcatatatccggacaaaactataattcaaaaagatacatgcacccctatgttcatagcagcactattcacaatagccaagacatggaaacaacctaaatgtccatcgacagatgaatggataaagaagatgtggtacatatatacaatggaatactactcagccataaaaaagaatgaaataatgccatttgcagcaacatggatggacctagagattatcatactaagtgaagtaagtcagaaagagaaagacaaataccatatgatatcacttatatgtggaatctaaaatatgacacaaatgaacttatctacgaaacagaaacagactcacagacatagagaacagacttgtggttgccaagggggaggggggtgggggagggatggattgggagtttgggattagcagatgcaaactattatatatagaatggataaacaacaaggtcctactgtatagcacagggaactatattcaatatcctgtgataaaccataatggaaaagaatatgaaaaagaatgtatatatatgtataactgaatcactttgctgtacagcagaaattaacacaacattgtaaatcaactatacttcaataaaataaattttaaaaaa",
+  "length_bp": 881,
+  "sequence_length_bp": 881,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

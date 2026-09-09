@@ -1,0 +1,48 @@
+{
+  "accession": "DF000001978",
+  "name": "ORR1G",
+  "description": "Long terminal repeat of retrovirus-like element.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ORR1G"
+  ],
+  "species": "Rodentia",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rodentia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 348 BP; 67 A; 90 C; 92 G; 89 T; 10 other;"
+  },
+  "sequence": "tggcttggttaagtgtccccaaaggcccatgtgttaaaggcttggtccccagcctgtggcgctattgggaggtggtggaacctttaagaggtggggcctagtgggaagtcttcaggtcattgggagtgcccttgaaggggatnntgggacccttgaccccttcctctctttncttgcttcctggccatgaggtgagcngctttctccgccacgcgctcccgccatgatgtnctgcctcgccacagncccaaagcaacggggccaancgaccatggaaagccgaaaccntgagccaaaataaaccttttctctttntaagttgttattntcaggtattttgtcacagca",
+  "length_bp": 348,
+  "sequence_length_bp": 348,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ORR1G"
+  ]
+}

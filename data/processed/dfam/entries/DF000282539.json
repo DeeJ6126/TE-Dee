@@ -1,0 +1,51 @@
+{
+  "accession": "DF000282539",
+  "name": "PlaGan-6.232_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PlaGan-6.232_LTR"
+  ],
+  "species": "Platanista minor",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Platanista minor",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Platanistidae",
+    "Platanista"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 342 BP; 94 A; 91 C; 71 G; 86 T; 0 other;"
+  },
+  "sequence": "tgtaaaaaattaataaacagaaacctcaattaaatagagtcgggagaccagaagggggagctctcacgccctgcgacgatagcagagcccaacaggaagaagaaagactcctcttctttcctggcaaggactcagccaatgaaaagccatggactctttgtttactatagccctcccaacttccttttcccctctataaaagcgttctccttcccttgccgtgcggggacttgcacgtggctcgccatggttgcagaccccgaattgcaattctctgctgatcccgaataaacccatctttgctggagaaatatctggcagtctatttgttttaggtcaaca",
+  "length_bp": 342,
+  "sequence_length_bp": 342,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

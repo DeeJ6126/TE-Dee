@@ -1,0 +1,53 @@
+{
+  "accession": "DF000280101",
+  "name": "PonAbe-1.32",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PonAbe-1.32"
+  ],
+  "species": "Pongo abelii",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Pongo abelii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Hominoidea",
+    "Hominidae",
+    "Ponginae",
+    "Pongo"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 379 BP; 78 A; 101 C; 85 G; 114 T; 1 other;"
+  },
+  "sequence": "tgatatggttnggctttgtgtccccacccaaatctcatcttgaattgtaatccccataatccccacgtgtcaagggagagaccaggtggaggtaattgaatcatgggggcggtttcccccatgctgttctcgtgatagtgagtgagttctcacgagatctgatggttttataaggggctcttcccccttcgctcggcacttctccttcctgccgccttgtgaagaaggtgccttgcttccccttcgccttccgccatgattgtaagtttcctgaggcctccccagccatgctgaactgtgagtcaattaaacctctttcctttataaattacccagtctcgggcagttctttatagcagtatgagaacggactaataca",
+  "length_bp": 379,
+  "sequence_length_bp": 379,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

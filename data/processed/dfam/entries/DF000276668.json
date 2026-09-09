@@ -1,0 +1,46 @@
+{
+  "accession": "DF000276668",
+  "name": "EleEdw-1.41",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Elephantulus edwardii",
+  "display_classification": "SINE/tRNA | Elephantulus edwardii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Macroscelidea",
+    "Macroscelididae",
+    "Elephantulus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 164 BP; 51 A; 39 C; 44 G; 29 T; 1 other;"
+  },
+  "sequence": "ggggagctctggtggcctagtggcaagaagctgcaactgcaatcccagaggtgcgcggttcgaatccaccagatgctctgccggggaaggaggggcaatctcctcctgtaccagtcagatctgatttgacggtacacacacacanaaataataaaaaaaaaaaa",
+  "length_bp": 164,
+  "sequence_length_bp": 164,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

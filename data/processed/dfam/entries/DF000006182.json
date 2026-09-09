@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006182",
+  "name": "Halyomorpha_halys-6_family-2346",
+  "description": "TcMar-Fot1 DNA Transposon",
+  "keywords": [
+    "DNA/TcMar-Fot1"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/TcMar-Fot1 | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 216 BP; 72 A; 30 C; 30 G; 83 T; 1 other;"
+  },
+  "sequence": "gggctacccgccatctngtattgtcaaaaattcaaggccaaagtaattttaatatttttttaaaaaaaaaataatatgattaataattttaattagactgaagaagttcctaagtttgttttcagagtaaaatacatacagaaatgttgttgattgtattttttatttgtacttaatttatgtgtccgtggctacccgaccttctactaattccat",
+  "length_bp": 216,
+  "sequence_length_bp": 216,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279505",
+  "name": "OdoVir-1.134",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/RTE-BovB"
+  ],
+  "species": "Odocoileus virginianus",
+  "display_classification": "LINE/RTE-BovB | Odocoileus virginianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Cervidae",
+    "Odocoileinae",
+    "Odocoileus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3410 BP; 1195 A; 668 C; 847 G; 696 T; 4 other;"
+  },
+  "sequence": "ctgagaggagctactccacgttcaaggtcaggaggggcagccgtgaggagatacccctcgtccaaggtaaggagcagcggctgtgctttgctggagcagccgtgaagagataccccacgtccaaggtaagagaaacccaagtaagacagtaggcgctgngagagggcatcagagggcagacagactgaaaaccacaatcacagaaaactaaccaatctgatcacatggaccacagccttgtctaactcaatgaaactatgagccatgccgtgtggggccacccaagacggacgggtcatggtggagagntctgacagaatgtggtccactggagaagggaatggcaaaccacttcagtattcttgccttgagaaccccatgaacagtatgaaaaggcaaaaagataggacactgaaagatgaactccccaggtcggtaggtgcccaatatgctactggagatcagtggagaaataactccagaaagaatgaagggacggagccaaagcaaaaacaacacccagttgtggatgtgactggtgatggaagcaaagtccgatgctgtaaagagcaatattgcataggaacctggaatgttaggtccatgaatcaaggcaaattggaagtggtcaaacaggagatggcaagagtgaacgtcgacattttaggaatcagcgaactaaaatggactggaatgggtgaatttaactcagatgaccattatatctactactgtgggcaggaatcccttagaagaaatggagtagccatcatagtcaacaaaagagtccgaaatgcagtacttggatgcaatctcaaaaacgacagaatgatctctgttcgtttccaaggcaaaccattcaatatcacagtaatccaagtctatgccccgaccagtaacgctgaagaagctgaagttgaacggttctatgaagacctacaagaccttctagaactaacacccaaaaaagatgtccttttcattataggggactggaatgcaaaagtaggaagtcaagaaacacctggagtaacaggcaaatttggccttggagtacagaatgaagcagggcaaaggctaatagagttttgccaagagaacgcactggtcatagcaaacaccctcttccaacaacacaagagaagactctacacatggacatcaccagatggtcaacaccgaaatcagattgattatattctttgcagccaaagatggagaagctctatacagtcagcaaaaacaagaccgggagctgactgtggctcagatcatgaactccttattgccaaattcagacttaaattgaagaaagtagggaaaaccactagaccattcaggtatgacctaaatcaaatcccttatgattatacagtggaagtgagaaatagatttaagggactagatctgatagacagagtgcctgatgaactatggacggaggttcgtgacattgtacaggagacagggatcaagaccatccccatggaaaagaaatgcaaaaaggcaaaatggttgtctgaggaggccttacaaatagctgtgaaaagaagagaagcgaaaagcaaaggagaaaaggaaagatattcccatttgaatgcagagttccaaagaatagcaaggagagataagaaagccttcctcagtgatcaatgcaaagaaatagaggaaaacaacagaatgggaaagactagagatctcttcaagaaaattagagataccaagggaacatttcatgcaaagatgggctcaataaaggacagaaatggtatggacctaacagaagcagaagatattaagaagaggtggcaagaatacacagaagaactgtacaaaaaagatcttcatgacccagataatcacgatggtgtgatcactcacctagagccagacatcctggaatgtgaagtcaagtgggccttaggaagcatcactacgaacaaagctagtggaggtgatggaattccagttgagctatttcaaatcctgaaagatgatgctgtgaaagtgctgcactcaatatgccagcaaatttggaaaactcagcagtggccacaggactggaaaaggtcagttttcattccaatcccaaagaaaggcaatgccaaagaatgctcaaactaccgcacaattgcactcatctcacacgctagcaaagtaatgctcaaaattctccaagccaggcttcagcagtacgtgaaccgtgaacttccagatgttcaagctggntttagaaaaggcagaggaaccagagatcaaattgccaacatccgctggatcatcgaaaaagcaagagagttccagaaaaacatctacttctgctttattgactatgccaaagcctttgactgtgtggatcacaacaaactgtggaaaattcttaaagagatgggaataccagaccacctgacctgcctcctgagaaatctgtatgcaggtcaggaagcaacagttagaactggacatggaacaacagactggttccaaatngggaaaggagtacgtcaaggctgtatattgtcaccctgcttatttaacttatatgcagagtacatcatgagaaacgctgggctggatgaagcacaagctggaatcaagattgccgggagaaatatcaataacctcagatatgcagatgacaccacccttatggcagaaagtgaagaagaactaaagagcctcttgatgaaagtgaaagaggagagtgaaaaagttggcttaaagctcaacattcagaaaactaagatcatggcatccggtcccatcacttcatggcaaatagatggggaaacagtggaaacagtgacagactttattttttggggctccaaaatcactgcagatggtgactgcagccatgaaattaaaagacgcttgctccttggaagaaaagttatgaccaacctagacagcatattaaaaagcagagacattactttgccaacaaaggtccgtctagtcaaagctatggtttttccagtagtcatgtatggatgtgagagttggactataaagaaagctgagcgccgaagaattgatgcttttgaactgtggtgttggagaagactcttgagagtcccttggactgcaaggagatccaaccagtccatcctaaaggaaatcagtcctgaatattcattggaaggactgatgctgaagctgaaactccaatactttggccacctgatgcgaagagctgactcattggaaaagaccctgatgctgggaaagattgaaggcaggaggagaaggggacgacagaggatgagatggttggatggcatcaccgactcgatggacatgagtttgagtaaactccgggagttggtgatggacagggaggcctggcgtgctgcagtccatggggtcgcaaagagtcggacacgactgagcgactgaactgaactgaa",
+  "length_bp": 3410,
+  "sequence_length_bp": 3410,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

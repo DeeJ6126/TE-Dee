@@ -1,0 +1,43 @@
+{
+  "accession": "DF003586473",
+  "name": "Amar_SINE-5_V",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "Amar_SINE-5_V"
+  ],
+  "species": "Archivesica marissinica",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Archivesica marissinica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Heteroconchia",
+    "Euheterodonta",
+    "Imparidentia",
+    "Neoheterodontei",
+    "Venerida",
+    "Glossoidea",
+    "Vesicomyidae",
+    "Archivesica"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 253 BP; 59 A; 61 C; 64 G; 69 T; 0 other;"
+  },
+  "sequence": "ggctgtccgattagcgcagtggttagcgcgctcgcttctcaccaatgcaacccgggttcgatcctcggaccgggaagtatgtgagatggtacggtggtcgccagatcggacaggtgggttttctccgggtactccggtttcctcccacacgaatgaccacatttacgctttcatccgcgccaacgagagtgattaatataagttgttagaacttgcttcgcaatcgttgtaaaataaataaagtttaaacttt",
+  "length_bp": 253,
+  "sequence_length_bp": 253,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

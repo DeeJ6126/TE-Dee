@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001493",
+  "name": "CELE11",
+  "description": "CELE11 nonautonomous Tc2-related DNA transposon.",
+  "keywords": [
+    "DNA/TcMar-Pogo"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Pogo | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 218 BP; 61 A; 34 C; 37 G; 74 T; 12 other;"
+  },
+  "sequence": "taccgtatttcctctattagtnttgcaccccnttgctcaactttgacagcatctcggttgtcgtttgttctatnnaaaaattgtcaactgacaaaatatttgtnanntntttttctatagtttgtagttngttaattattnatatcttcaaaacgaaccgagatataagctgtcaaagtngagcagtggggtgcaanactaatagaggaaatacggta",
+  "length_bp": 218,
+  "sequence_length_bp": 218,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CELE11"
+  ]
+}

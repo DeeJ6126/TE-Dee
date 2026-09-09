@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001166",
+  "name": "MARE11",
+  "description": "Repetitive element conserved in all mammals",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Mammalia",
+  "display_classification": "Unknown/ | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 197 BP; 51 A; 41 C; 36 G; 63 T; 6 other;"
+  },
+  "sequence": "ttcttgtaggtgcntatcgcttaactgcataatgctcctangagtcacgcagnccctaactggccccattagattgantgtgttgctactctggttaattgcatatcggctaattgcgtaattcagctacatntgcatactgaactgaggcccaaatgctnttctttatagtataattactctgaataaaacagtga",
+  "length_bp": 197,
+  "sequence_length_bp": 197,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MARE11"
+  ]
+}

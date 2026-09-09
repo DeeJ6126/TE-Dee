@@ -1,0 +1,671 @@
+{
+  "source_file": "D:\\wamp64\\www\\TE-\\data\\dfam\\Dfam-curated_only-1.embl.gz",
+  "graph_source": "D:\\wamp64\\www\\TE-\\data_update_fix\\te_kg2_final_standardized_new_standardized_fix.jsonl",
+  "dfam_entry_count": 26279,
+  "graph_unique_te_names": 279,
+  "matched_graph_te_names": 129,
+  "unmatched_graph_te_names": 150,
+  "coverage_ratio": 0.4624,
+  "sample_matched": [
+    {
+      "graph_te_name": "ACRO1",
+      "dfam_accession": "DF000000013",
+      "dfam_name": "ACRO1",
+      "sequence_length": 147,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "ACRO1"
+      ]
+    },
+    {
+      "graph_te_name": "AluJb",
+      "dfam_accession": "DF000000007",
+      "dfam_name": "AluJb",
+      "sequence_length": 312,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluJb"
+      ]
+    },
+    {
+      "graph_te_name": "AluJo",
+      "dfam_accession": "DF000000034",
+      "dfam_name": "AluJo",
+      "sequence_length": 312,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluJo"
+      ]
+    },
+    {
+      "graph_te_name": "AluJr",
+      "dfam_accession": "DF000000035",
+      "dfam_name": "AluJr",
+      "sequence_length": 312,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluJr"
+      ]
+    },
+    {
+      "graph_te_name": "AluSc",
+      "dfam_accession": "DF000000003",
+      "dfam_name": "AluSc",
+      "sequence_length": 309,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluSc"
+      ]
+    },
+    {
+      "graph_te_name": "AluSg",
+      "dfam_accession": "DF000000039",
+      "dfam_name": "AluSg",
+      "sequence_length": 310,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluSg"
+      ]
+    },
+    {
+      "graph_te_name": "AluSp",
+      "dfam_accession": "DF000000042",
+      "dfam_name": "AluSp",
+      "sequence_length": 313,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluSp"
+      ]
+    },
+    {
+      "graph_te_name": "AluSx",
+      "dfam_accession": "DF000000047",
+      "dfam_name": "AluSx",
+      "sequence_length": 312,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluSx"
+      ]
+    },
+    {
+      "graph_te_name": "AluSx1",
+      "dfam_accession": "DF000000048",
+      "dfam_name": "AluSx1",
+      "sequence_length": 312,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluSx1"
+      ]
+    },
+    {
+      "graph_te_name": "AluSz",
+      "dfam_accession": "DF000000051",
+      "dfam_name": "AluSz",
+      "sequence_length": 312,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluSz"
+      ]
+    },
+    {
+      "graph_te_name": "AluSz6",
+      "dfam_accession": "DF000000052",
+      "dfam_name": "AluSz6",
+      "sequence_length": 312,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluSz6"
+      ]
+    },
+    {
+      "graph_te_name": "AluY",
+      "dfam_accession": "DF000000002",
+      "dfam_name": "AluY",
+      "sequence_length": 311,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluY"
+      ]
+    },
+    {
+      "graph_te_name": "AluYa5",
+      "dfam_accession": "DF000000053",
+      "dfam_name": "AluYa5",
+      "sequence_length": 311,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluYa5"
+      ]
+    },
+    {
+      "graph_te_name": "AluYb8",
+      "dfam_accession": "DF000000055",
+      "dfam_name": "AluYb8",
+      "sequence_length": 318,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluYb8"
+      ]
+    },
+    {
+      "graph_te_name": "AluYb9",
+      "dfam_accession": "DF000000056",
+      "dfam_name": "AluYb9",
+      "sequence_length": 318,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluYb9"
+      ]
+    },
+    {
+      "graph_te_name": "AluYg6",
+      "dfam_accession": "DF000000634",
+      "dfam_name": "AluYg6",
+      "sequence_length": 311,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AluYg6"
+      ]
+    },
+    {
+      "graph_te_name": "AluYh7",
+      "dfam_accession": "DF000001321",
+      "dfam_name": "AluYh7",
+      "sequence_length": 311,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": []
+    },
+    {
+      "graph_te_name": "AluYi6",
+      "dfam_accession": "DF000001197",
+      "dfam_name": "AluYi6",
+      "sequence_length": 311,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": []
+    },
+    {
+      "graph_te_name": "AmnSINE1",
+      "dfam_accession": "DF000000067",
+      "dfam_name": "AmnSINE1",
+      "sequence_length": 575,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "AmnSINE1_GG"
+      ]
+    },
+    {
+      "graph_te_name": "CHARLIE8",
+      "dfam_accession": "DF000000107",
+      "dfam_name": "Charlie8",
+      "sequence_length": 2457,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "CHARLIE8"
+      ]
+    },
+    {
+      "graph_te_name": "Charlie9",
+      "dfam_accession": "DF000000108",
+      "dfam_name": "Charlie9",
+      "sequence_length": 2787,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "CHARLIE9"
+      ]
+    },
+    {
+      "graph_te_name": "ERVL",
+      "dfam_accession": "DF000000118",
+      "dfam_name": "ERVL",
+      "sequence_length": 5757,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "ERVL"
+      ]
+    },
+    {
+      "graph_te_name": "FAM",
+      "dfam_accession": "DF000000142",
+      "dfam_name": "FAM",
+      "sequence_length": 185,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": []
+    },
+    {
+      "graph_te_name": "FLAM C",
+      "dfam_accession": "DF000000144",
+      "dfam_name": "FLAM_C",
+      "sequence_length": 143,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": []
+    },
+    {
+      "graph_te_name": "FRAM",
+      "dfam_accession": "DF000000147",
+      "dfam_name": "FRAM",
+      "sequence_length": 176,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": []
+    },
+    {
+      "graph_te_name": "Golem",
+      "dfam_accession": "DF000000840",
+      "dfam_name": "Tigger3",
+      "sequence_length": 3029,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "GOLEM"
+      ]
+    },
+    {
+      "graph_te_name": "HAL1",
+      "dfam_accession": "DF000000154",
+      "dfam_name": "HAL1",
+      "sequence_length": 2507,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "HAL1"
+      ]
+    },
+    {
+      "graph_te_name": "HARLEQUIN",
+      "dfam_accession": "DF000000017",
+      "dfam_name": "Harlequin",
+      "sequence_length": 6896,
+      "model_type": "fragment_internal",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "HARLEQUIN"
+      ]
+    },
+    {
+      "graph_te_name": "HERV-Fc1",
+      "dfam_accession": "DF000000176",
+      "dfam_name": "HERV-Fc1",
+      "sequence_length": 4629,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "HERV-Fc1"
+      ]
+    },
+    {
+      "graph_te_name": "HERV-K",
+      "dfam_accession": "DF000000188",
+      "dfam_name": "HERVK",
+      "sequence_length": 7536,
+      "model_type": "fragment_internal",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "HERVK"
+      ]
+    },
+    {
+      "graph_te_name": "HERV-K14CI",
+      "dfam_accession": "DF000000193",
+      "dfam_name": "HERVK14C",
+      "sequence_length": 7434,
+      "model_type": "fragment_internal",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "HERV-K14CI"
+      ]
+    },
+    {
+      "graph_te_name": "HERV-K14I",
+      "dfam_accession": "DF000000192",
+      "dfam_name": "HERVK14",
+      "sequence_length": 6096,
+      "model_type": "fragment_internal",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "HERV-K14I"
+      ]
+    },
+    {
+      "graph_te_name": "HERV18",
+      "dfam_accession": "DF000000199",
+      "dfam_name": "HERVL18",
+      "sequence_length": 6047,
+      "model_type": "fragment_internal",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "HERV18"
+      ]
+    },
+    {
+      "graph_te_name": "HERV1_LTRc",
+      "dfam_accession": "DF000000166",
+      "dfam_name": "HERV1_LTRc",
+      "sequence_length": 491,
+      "model_type": "fragment_ltr",
+      "is_fragment": true,
+      "repbase_aliases": []
+    },
+    {
+      "graph_te_name": "HERV9",
+      "dfam_accession": "DF000000173",
+      "dfam_name": "HERV9",
+      "sequence_length": 8436,
+      "model_type": "fragment_internal",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "HERV9"
+      ]
+    },
+    {
+      "graph_te_name": "HERVK14C",
+      "dfam_accession": "DF000000193",
+      "dfam_name": "HERVK14C",
+      "sequence_length": 7434,
+      "model_type": "fragment_internal",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "HERV-K14CI"
+      ]
+    },
+    {
+      "graph_te_name": "HERVK9",
+      "dfam_accession": "DF000000196",
+      "dfam_name": "HERVK9",
+      "sequence_length": 6021,
+      "model_type": "fragment_internal",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "HERVK9I"
+      ]
+    },
+    {
+      "graph_te_name": "HERVL",
+      "dfam_accession": "DF000000198",
+      "dfam_name": "HERVL",
+      "sequence_length": 5654,
+      "model_type": "fragment_internal",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "HERVL"
+      ]
+    },
+    {
+      "graph_te_name": "HSAT5",
+      "dfam_accession": "DF000000207",
+      "dfam_name": "HSAT5",
+      "sequence_length": 86,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "HSAT5"
+      ]
+    },
+    {
+      "graph_te_name": "HSATII",
+      "dfam_accession": "DF000000211",
+      "dfam_name": "HSATII",
+      "sequence_length": 170,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "HSATII"
+      ]
+    },
+    {
+      "graph_te_name": "Hsmar1",
+      "dfam_accession": "DF000000212",
+      "dfam_name": "HSMAR1",
+      "sequence_length": 1287,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "HSMAR1"
+      ]
+    },
+    {
+      "graph_te_name": "Hsmar2",
+      "dfam_accession": "DF000000213",
+      "dfam_name": "HSMAR2",
+      "sequence_length": 1302,
+      "model_type": "full",
+      "is_fragment": false,
+      "repbase_aliases": [
+        "HSMAR2"
+      ]
+    },
+    {
+      "graph_te_name": "L1MB7",
+      "dfam_accession": "DF000000273",
+      "dfam_name": "L1MB7_3end",
+      "sequence_length": 931,
+      "model_type": "fragment_3end",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "L1MB7"
+      ]
+    },
+    {
+      "graph_te_name": "L1MC1",
+      "dfam_accession": "DF000000275",
+      "dfam_name": "L1MC1_3end",
+      "sequence_length": 1080,
+      "model_type": "fragment_3end",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "L1MC1"
+      ]
+    },
+    {
+      "graph_te_name": "L1MC5",
+      "dfam_accession": "DF000000280",
+      "dfam_name": "L1MC5_3end",
+      "sequence_length": 2694,
+      "model_type": "fragment_3end",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "L1MC5"
+      ]
+    },
+    {
+      "graph_te_name": "L1PA14",
+      "dfam_accession": "DF000000333",
+      "dfam_name": "L1PA14_3end",
+      "sequence_length": 908,
+      "model_type": "fragment_3end",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "L1PA14"
+      ]
+    },
+    {
+      "graph_te_name": "L1PA2",
+      "dfam_accession": "DF000000339",
+      "dfam_name": "L1PA2_3end",
+      "sequence_length": 902,
+      "model_type": "fragment_3end",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "L1PA2"
+      ]
+    },
+    {
+      "graph_te_name": "L1PA3",
+      "dfam_accession": "DF000000340",
+      "dfam_name": "L1PA3_3end",
+      "sequence_length": 902,
+      "model_type": "fragment_3end",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "L1PA3"
+      ]
+    },
+    {
+      "graph_te_name": "L1PA4",
+      "dfam_accession": "DF000000341",
+      "dfam_name": "L1PA4_3end",
+      "sequence_length": 902,
+      "model_type": "fragment_3end",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "L1PA4"
+      ]
+    },
+    {
+      "graph_te_name": "L1PA5",
+      "dfam_accession": "DF000000342",
+      "dfam_name": "L1PA5_3end",
+      "sequence_length": 901,
+      "model_type": "fragment_3end",
+      "is_fragment": true,
+      "repbase_aliases": [
+        "L1PA5"
+      ]
+    }
+  ],
+  "sample_unmatched": [
+    "3.0 kb insertion (Alu/SVA)",
+    "5'UTR/ORF1 SpIRE",
+    "AT-2",
+    "Alu",
+    "Alu SINEs",
+    "Alu hypomethylated region",
+    "Alu insertion",
+    "Alu insertion in promoter",
+    "Alu insertion near HLA-DQA1",
+    "Alu master copie",
+    "Alu retroposition event",
+    "Alu retrotransposition",
+    "Alu/LINE-1 repeat dating",
+    "AluYh3a3",
+    "Asymmetric transposon end",
+    "CMT1A-REP repeat",
+    "CR1",
+    "CREATE",
+    "CRISPR/Cas9 and piggyBac",
+    "Concurrent LINE-1 retrotransposition event",
+    "Crypton",
+    "DNA",
+    "DeuSINE",
+    "ERV",
+    "ERV insertion",
+    "ERV reactivation",
+    "ERV1",
+    "ERV2",
+    "ERV3",
+    "ERV9",
+    "ERVK",
+    "ERVL-MaLR",
+    "ERVe",
+    "Gypsy",
+    "HERV",
+    "HERV sequence",
+    "HERV-K LTR",
+    "HERV-R",
+    "HERV-W",
+    "HERV1_I-int",
+    "HERV9-int",
+    "HERV9N-int",
+    "HERVE-int",
+    "HERVH-int",
+    "HERVI-int",
+    "HERVK-int",
+    "HERVK22-int",
+    "HERVKC4-int",
+    "HERVL-int",
+    "HERVL18-int",
+    "Helitron",
+    "High copy number in HERV familie",
+    "HuRRS-P",
+    "Increased LINE-1 copy number",
+    "Intronic Alu",
+    "Kolobok",
+    "L1(Ta)",
+    "L1-FGGY",
+    "L1H",
+    "L1M",
+    "L1M2a",
+    "L1M5",
+    "L1ME5",
+    "L1P",
+    "L1P1",
+    "L1P1 and L1PA1 insertion",
+    "L1PA8 to L1PA3 familie",
+    "LAVA element",
+    "LINE",
+    "LINE-1",
+    "LINE-1 analyte",
+    "LINE-1 element in 3'UTR",
+    "LINE-1 families with different 5'UTR",
+    "LINE-1 insertion",
+    "LINE-1 overexpression",
+    "LINE-1 promoter",
+    "LINE-1 reduction",
+    "LINE-1 retrotransposition",
+    "LINE-1 retrotransposon",
+    "LINE-1/Alu singleton",
+    "LINE-2",
+    "LR",
+    "LTR",
+    "LTR10",
+    "LTR5_H",
+    "LTR5_Hs and MER51B reporter",
+    "LTR7A",
+    "MER1",
+    "MER11",
+    "MER20/MER39 expression cassette",
+    "MER41",
+    "MER44",
+    "MER46",
+    "MER47",
+    "MER5",
+    "MER51",
+    "MER61",
+    "MIR and AluSp",
+    "MIR and AluSp combination",
+    "MIR insertion in POLG",
+    "MLT1",
+    "Merlin",
+    "Mobile element",
+    "Mobile genetic element",
+    "MstII",
+    "NR_SVA_381",
+    "Penelope",
+    "Polymorphic TE",
+    "Polymorphic TEs in constrained gene",
+    "Pre-existing retrotransposon",
+    "Repetitive sequence",
+    "Retrotransposon",
+    "Retrotransposon insertion",
+    "Reverse transcriptase",
+    "SINE",
+    "SINE (chr11:47608036-47608220)",
+    "SINE-R",
+    "SINE/Alu sequence",
+    "SINE/LINE activity",
+    "SINE1/7SL"
+  ]
+}

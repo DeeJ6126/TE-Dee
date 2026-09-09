@@ -1,0 +1,52 @@
+{
+  "accession": "DF000002937",
+  "name": "hAT-N103_DR",
+  "description": "DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Charlie | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 687 BP; 214 A; 123 C; 132 G; 217 T; 1 other;"
+  },
+  "sequence": "catgtgtcaactcaaggcccgcgggccaaatccggcccgccatatcattttatgtggcccgcgagagcatatgattcacaccaaatgcgaatttaagtattcgtgcgagtagatacatacaatgcaaactgggtagcgcgaatgatgcgaatgcaagattcaacaaattcatcgtcttcgtcaagatattcaactcgagcgaaaatttgcgtgaggtgaaaaacatcccgcgagtaanctagagcgagtgacgcggtgctttttgttgaacccagcattataataaaagtccatgctgctttatatcgtatattgactataaactacatctcccataatgcatgtttgttttgcgacccagctcaaaattatttgttgttccatagttctgcttctctcaaatgtgacaaagttttggagaaaggtaatgacttgtctgatgatatttgtctttgttatttactttgatggaatgtgggtttcttaacctgataaaagattcatgttaaaataacccagagaagtaacatctattttacatttatgcaaatacatgtatttatttgttactttaatatgttataatgaaataaagagacaattatttaacaatatgttaaggagtagtaacatttatacagttacagttcgaagtggccctcagtgaaaatgagtttgacacccctg",
+  "length_bp": 687,
+  "sequence_length_bp": 687,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "hAT-N103_DR"
+  ]
+}

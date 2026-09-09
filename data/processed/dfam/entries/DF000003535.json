@@ -1,0 +1,63 @@
+{
+  "accession": "DF000003535",
+  "name": "MTE-int",
+  "description": "ERV3 Endogenous Retrovirus from rodents.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MTE-int"
+  ],
+  "species": "Myomorpha",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Myomorpha",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1580 BP; 388 A; 307 C; 502 G; 361 T; 22 other;"
+  },
+  "sequence": "gaaaattggtaccgagaagtggggccgttgctgtgataaacctgaccatgtggttcntaggcctttggaactggtttgcgggaggaatgtggaagagtttggagctncgggctagagaagccctagaatgctgtaagcagagcttaatgggccattctggtgggagttcggaagaccagaatgccganagaaatgcggacagtgaaggccggctcatgaggtttcagaggggaacaaggactctatcgggaactgggctagaggccattcgtgttacattctggcaaagaatctggctgcattctgcccgtgtcctgagaacttgagtgaggctgaattnaaaagtaatggactaatttgtttggcggaggaaatttcaagacagnatagcattcaggctgtggcatggttactgctcactgctcttanccaggtttacagtgagagagagcaacaaatgagcagaaagatgngaaaatgtgcagtttggcgaggaaaggaacgngngnaagtttaaagttgcagacaaggcagnnacgangagagcagctgtaattgttaaagagattagcgccattaaagagaaacctcgnactctgcactgggacaataggaaaggtgccctgagggcaagaccccacccatcgaaggctccancttgtgaaaatgcaaattcatttgaaaggagagagcctgaactgagaatgccgctgagagggttccctgctcgaaaacagccgcctaggaagtgttttcccaggntcagctcaggcacacagaggccgctgcagctgtggtccaagggggccaggctacatctcgagctggcagcagaacttggcagcgtcgtccacgtggtgctggttttgcaggcatgnaagatgcaagagtnanggggtcatggaggcttgcaccaaggttccagaaagccgctgaggccaggcaatgtgtggcagggtcggantccctgcaaggaggccctgagaggccactgcgtgaagctgtgaaggtgaagcctaagttgcagtggagaccccaggatgttggagatgccaggaccatgggacgtctgccgaggaaagctgcaggcacggagtggagccggcccaagagagaggctacgtgtgctgcaggcggcagagctggaggggcggggctacccaagccctttggagcccagatgattccatcacgagccccagatgccggacatggagctgcaggatttggtgtttgccctgctgggtttcggtcttgctttggtccgatctttccttgctatgcccccattcctcccttttggaatgggaatgtttactctgtgccattgtatgttggaagtatgtaacttgtttttgattttacaggggctcacagttaagagattgccttgagtctcagaagagactttggacttggacttttgaacagtgttggaactgttaagactatggggacttttgaagttggactgaatgcattttgcattatgagatggccatgagcctntgggggccaggggtggaatgttatggtttaaangtgatgtgtttgggtgtcaagttgacaaggggtggagt",
+  "length_bp": 1580,
+  "sequence_length_bp": 1580,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "745..1345",
+      "start": 744,
+      "end": 1345,
+      "qualifiers": {
+        "product": "MTE",
+        "number": "1",
+        "note": "[Rodentia]",
+        "translation": "EVFSQXQLRHTEATAAVVQGGQATSRAGSRTWQRRPHGAGFAGMXNARVXGSWRLAPR"
+      },
+      "label": "MTE"
+    }
+  ],
+  "repbase_aliases": [
+    "MTE-int"
+  ]
+}

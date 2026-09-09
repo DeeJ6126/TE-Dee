@@ -1,0 +1,48 @@
+{
+  "accession": "DF003440085",
+  "name": "DNA1_mMol",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Molossus molossus",
+  "display_classification": "DNA/TcMar-Tigger | Molossus molossus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Molossidae",
+    "Molossus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 739 BP; 224 A; 150 C; 124 G; 241 T; 0 other;"
+  },
+  "sequence": "cagtaaaccctcgattttgcggacctcgatttaacggacttcggatttaacggacaaaatttccggtccgtatgtcatatgtgaaaattaacaccctgttaattttaaaatgcttttaaccaagatttgcttataattaaattaacaggttattttttgttattaattcactgttatttttaacaaattttagcgaataggccatatgttggaaaaaacactgtagtaatttcgccgacataaataaatattacatatctacaactatagtctacatatttaaatccaagagtcaccgctcgtaaacaatgttcggcgaatgattagcacgtgatcacaccgcatcgcgcgcggtaattggttctgttgtcgcgtggcgtgactttctgcagcagttttaacgcgtgccggccgatgttcccacgtgcgctaagccacgccccagccgtgtgcatttgtttactcgcggtgactggtgaatgcacgcatttactagacctattcagtataaatttaaaattacagtaatacatatagaaaacttttctgtgaaattaaacttttcatacatacttaattttaattacacaaacgtgtctacataagtaaaaacaggtaaactaatttgtcaattttttaacatacgcattcggaaaacctactttattatataacggactttcggctttaacggacaccccctcgcccgaattagtccgttatatcgaggttttactgt",
+  "length_bp": 739,
+  "sequence_length_bp": 739,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

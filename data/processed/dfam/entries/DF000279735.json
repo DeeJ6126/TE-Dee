@@ -1,0 +1,46 @@
+{
+  "accession": "DF000279735",
+  "name": "OryAfe-1.5",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-RTE"
+  ],
+  "species": "Orycteropus afer",
+  "display_classification": "SINE/tRNA-RTE | Orycteropus afer",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tubulidentata",
+    "Orycteropodidae",
+    "Orycteropus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 192 BP; 43 A; 40 C; 59 G; 50 T; 0 other;"
+  },
+  "sequence": "ggagctctggtggcgtagtggataaggcatttggctgctaaccagaaggtcggtggttcaaacccaccagccgctccgcggaaggaagatggggcaatctacttccgtaaagatttacagcctcggaaacccaatgggggtcgctatgagtcggaatcgactcgatggcagtgagtttggtttttttttttt",
+  "length_bp": 192,
+  "sequence_length_bp": 192,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

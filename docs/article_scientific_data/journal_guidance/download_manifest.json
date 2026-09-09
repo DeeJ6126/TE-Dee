@@ -1,0 +1,101 @@
+[
+  {
+    "id": "submission",
+    "url": "https://www.nature.com/sdata/submission-guidelines",
+    "file": "official_pages/submission-guidelines.html",
+    "fetched_at_utc": "2026-09-02T14:58:47.4770391Z",
+    "bytes": 161056,
+    "sha256": "e807f0169f5a85c314f82bf62fe2c9c9e7badf099f349a45acc8c5c8dbd3867e",
+    "title": "Submission Guidelines | Scientific Data",
+    "status": 200,
+    "content_type": "text/html; charset=\"UTF-8\""
+  },
+  {
+    "id": "scope",
+    "url": "https://www.nature.com/sdata/aims-and-scope",
+    "file": "official_pages/aims-and-scope.html",
+    "fetched_at_utc": "2026-09-02T14:58:50.3404218Z",
+    "bytes": 113268,
+    "sha256": "607a75e743e7a3205fdaa99f436b90942c3832fa8cd7f537622b9d117a61da3c",
+    "title": "Aims and scope | Scientific Data",
+    "status": 200,
+    "content_type": "text/html; charset=\"UTF-8\""
+  },
+  {
+    "id": "data",
+    "url": "https://www.nature.com/sdata/policies/data-policies",
+    "file": "official_pages/data-policies.html",
+    "fetched_at_utc": "2026-09-02T14:58:53.3052931Z",
+    "bytes": 135074,
+    "sha256": "0f860defe22a89fce5b0f1abae0bc4d9204cf1a78f52fb41294ee4795316c289",
+    "title": "Data Policies | Scientific Data",
+    "status": 200,
+    "content_type": "text/html; charset=\"UTF-8\""
+  },
+  {
+    "id": "repositories",
+    "url": "https://www.nature.com/sdata/policies/repositories",
+    "file": "official_pages/repositories.html",
+    "fetched_at_utc": "2026-09-02T14:58:56.9455723Z",
+    "bytes": 114673,
+    "sha256": "cf5ab11f20112210ceb4ff8efb314b7d9085fb76a293b72ef19f66f62a864754",
+    "title": "Data Repository Guidance | Scientific Data",
+    "status": 200,
+    "content_type": "text/html; charset=\"UTF-8\""
+  },
+  {
+    "id": "editorial",
+    "url": "https://www.nature.com/sdata/policies/editorial-and-publishing-policies",
+    "file": "official_pages/editorial-and-publishing-policies.html",
+    "fetched_at_utc": "2026-09-02T14:58:59.6718797Z",
+    "bytes": 147802,
+    "sha256": "a1dc24412e4777ec374eb2ad584f25c3e2b0052b3df54f777c5157b938619ae7",
+    "title": "Editorial &amp; Publishing Policies | Scientific Data",
+    "status": 200,
+    "content_type": "text/html; charset=\"UTF-8\""
+  },
+  {
+    "id": "referees",
+    "url": "https://www.nature.com/sdata/policies/for-referees",
+    "file": "official_pages/for-referees.html",
+    "fetched_at_utc": "2026-09-02T14:59:02.1184133Z",
+    "bytes": 123781,
+    "sha256": "11bcfbefabc14b0099955167153aa8fb13a505805cf103a492e97411b82b01db",
+    "title": "For Referees | Scientific Data",
+    "status": 200,
+    "content_type": "text/html; charset=\"UTF-8\""
+  },
+  {
+    "id": "ai",
+    "url": "https://www.nature.com/sdata/policies/ai",
+    "file": "official_pages/ai-policy.html",
+    "fetched_at_utc": "2026-09-02T14:59:04.5424521Z",
+    "bytes": 118378,
+    "sha256": "b18f17a136777a2e3bf0f6fe94f097ac95b8dbd5ff657ee1fdeb48836d2dfee5",
+    "title": "Artificial Intelligence (AI) | Scientific Data",
+    "status": 200,
+    "content_type": "text/html; charset=\"UTF-8\""
+  },
+  {
+    "id": "fees",
+    "url": "https://www.nature.com/sdata/open-access",
+    "file": "official_pages/open-access.html",
+    "fetched_at_utc": "2026-09-02T14:59:07.4312827Z",
+    "bytes": 109179,
+    "sha256": "256b58012c53debfd16e551740f78735d0fe02216a9add1dcbcb3b18a6dad9ab",
+    "title": "Open Access Fees and Funding | Scientific Data",
+    "status": 200,
+    "content_type": "text/html; charset=\"UTF-8\""
+  },
+  {
+    "id": "human-checklist",
+    "url": "https://www.nature.com/documents/sdata-sensitive-data-checklist.docx",
+    "file": "official_files/sdata-sensitive-data-checklist.docx",
+    "fetched_at_utc": "2026-09-02T14:59:08.5542579Z",
+    "bytes": 62256,
+    "sha256": "fcc15ce2666e96e4e5c41500bd8b54d8b764fe71757a7c511d579c1988a8e291",
+    "title": "Human Data Checklist",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280261",
+  "name": "PtePar-1.85",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Pteronotus parnellii",
+  "display_classification": "DNA/hAT-Charlie | Pteronotus parnellii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Mormoopidae",
+    "Pteronotus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 262 BP; 87 A; 47 C; 50 G; 78 T; 0 other;"
+  },
+  "sequence": "cagcgattttcaaccggtgtgccgcaagaatttttaaaacatgcaatacctgactatttagtcaggggcactgacctcttttcccttagattgtcaaataaaaaaatgacaacagccaacacaacaatagccgtccggtgtgaatgaatcaaaattatacctattttttgtcagatcggcaaaaaatatatttttggtgtgccgcagaattttagtaattagtttatgtgtgccatgagatgaaaaaggttgaaaatcgctg",
+  "length_bp": 262,
+  "sequence_length_bp": 262,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

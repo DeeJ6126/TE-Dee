@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279476",
+  "name": "OctDeg-1.6",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Octodon degus",
+  "display_classification": "SINE/Alu | Octodon degus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Octodontidae",
+    "Octodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 156 BP; 46 A; 40 C; 48 G; 22 T; 0 other;"
+  },
+  "sequence": "gccgggcgtggtggcgcacgcctgtaatcccagcactcgggaggctgaggcaggaggatcgttgcgagttcgagaccagcctgggctacaaagtgagctcaaggccagcctgaactgcatagcgagaccctgtctcaaaaagacaaaaaaaaaaaa",
+  "length_bp": 156,
+  "sequence_length_bp": 156,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

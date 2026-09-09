@@ -1,0 +1,43 @@
+{
+  "accession": "DF003584356",
+  "name": "hAT-Ac-10_rCom",
+  "description": "Repetitive sequence family identified in Ricinus communis",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Ricinus communis",
+  "display_classification": "DNA/hAT-Ac | Ricinus communis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Viridiplantae",
+    "Streptophyta",
+    "Streptophytina",
+    "Embryophyta",
+    "Tracheophyta",
+    "Euphyllophyta",
+    "Spermatophyta",
+    "Magnoliopsida",
+    "Mesangiospermae",
+    "eudicotyledons",
+    "Gunneridae",
+    "Pentapetalae",
+    "rosids",
+    "fabids",
+    "Malpighiales",
+    "Euphorbiaceae",
+    "Acalyphoideae",
+    "Acalypheae",
+    "Ricinus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1242 BP; 383 A; 149 C; 139 G; 412 T; 159 other;"
+  },
+  "sequence": "gaggggaaacgccagcattttgaggaccctcgtcctatncntntgttancgcatantgtcaattancgntacnaannanagacttctttctntacttatnatcgtcgttgagtcaaacatnacgntctaaattcncacgnatnnannncttnnnnnnnanntggnaaaaagtatagcttnggtctatnancncnatacncatccgcttttacnatagaattcntgttagnaatnnnattantnnnttttctgatacgaatanttgnnttngnnatatananttttgnnaatttgantttaaaataganaanctcnaatntntntntanatntttagntcgtttattttacttttttanatannaannnanataatattggcctaatgacattaaaaattcaaacatttgtctctttttgcaaatttggcccatcttttaaatttttacttaaatggtccgatttggctaattgattgcaattatagccaaattaaaatctcggtcaaaattggatgctaccctcttaactctagatactaatctctttttactttaccaatatcgtttgcctcttaaaaaaaatacataaaatcacgacgaaagtgagaaaagaaatgacttcacccttcattcttcttcttgattcatgattttcacttgtcattcactttcctgttcatctataacctgaccttggtaactcgtgtgtgatgtgtaaatatatatggcagtgatgtgtaaattgttgataatgacacgtcaccctattttgaccgagattttaatttggctataattgcaatcaattagccaaatcgggccatttaagtaaaaattaaaaggatggaccaaattcgcaattggacgtaaaggtttgaatttttagtgtcattaggccttattaaataactttaaaatataatnnattaaaaaatgaaannttttanntntantnctntttnaananntnantatnannntatnannttntaaaaattaatattcgantntntataaaaanaaantnnanattnaantnaaatttattngnannnaaatnttnatntngnntttnatttnaataacnagnngtaacgnatataaaaatagttaaaanncaaattnntttnttattntanntgnttnnnnnaattntatngnaanataaaaagnannnatttaaagaatngaaantaaannatttnaaacgtaggattagtttggcncttannntatttata",
+  "length_bp": 1242,
+  "sequence_length_bp": 1242,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

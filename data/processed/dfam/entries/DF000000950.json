@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000950",
+  "name": "MER90a",
+  "description": "MER90a Long Terminal Repeat for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER90a"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 614 BP; 175 A; 184 C; 110 G; 144 T; 1 other;"
+  },
+  "sequence": "tgagaaagagaaaagcagcccctgacatccgggagctggcctggcactatcagctaggccttggtgttgctaggagctggcctggcactcacagctaggccttggtgttctcctgttgaacataaacaatttcacagaacaccaacatcagacaaggccactctgtgaccatgatggatcaagacaaaaacaagaccactccgtaatcatgtctgaacacagacaaaacatgaacattgtccaaaccacaaaaatgaccaaacatccccctntcctggctaatatgagtgactgctgcttctttaccaattacagctttagcctcgctctagtcttccctccttctagataagatttattaagatacccaatcatagaattacccccgcttcctgacagcatccaatccagagcaaagccccgcttccttaaaccctcccccaaatcacctaacacaagcccaaatcctataataagtcctttctaacaccctcttactgagacgccccacggttccccatggtgtgcgttctccctcgctgcaacgagcaataaacccaacttgttcaactacaggtgtgttcctggtggtctttggctggagggcattgaca",
+  "length_bp": 614,
+  "sequence_length_bp": 614,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER90a_LTR"
+  ]
+}

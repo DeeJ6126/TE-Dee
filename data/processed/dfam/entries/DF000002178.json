@@ -1,0 +1,48 @@
+{
+  "accession": "DF000002178",
+  "name": "RMER1C",
+  "description": "RMER1C subfamily",
+  "keywords": [
+    "Retroposon/L1-dep"
+  ],
+  "species": "Muridae",
+  "display_classification": "Retroposon/L1-dep | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1342 BP; 264 A; 331 C; 432 G; 300 T; 15 other;"
+  },
+  "sequence": "gctggaggacagcgagcctcgggcagatgagggcagggaggtgtgcggcagcctggagctcgcacagaacctgcccccggacgccctgcctagccgcaagatcaccctgactctgggcaacagcaggatatccgagacgagtctcagcgatggtccagtatttatggtgcttcagaaaccagaaaccttgaaccagaccaatgactcgttgcaatgaatatttgcatgtaaagctgtttgggcaaaaanaatactgtgtgacacactgcagtttccaatgccactatgacgaacganttgagaggnnagnnntgtgtgncagggcggagggcccatgggtcagtggtcctgantaagcgagccagnattcaagggatgtccgtggtccgtgttgccgccngaggccatgcggatgtccgtggtccgtgctgccgccggaggccatgttgatgtccgtggcccgtgctgccaccggaggccatgcggatgtccgtggtctgtgctgccgcctgaggccatgttgatgtccgtggnccgtgctgccgccgggggccatgtcgatgtccgtggcccgtgctgccgccggaggccgtgttgatgtccgtggcccgtgctgccaccgagggccatgctgatgtccgtggtctgtgctgccgcctgaggccatgttgatgtccgtggnccgtgctgccgccgggggccatgttgatgtccgtggcctgtgctgccgccggaggccatgttgatgtccgtggtccgtgctgccgccgagggccatgctgaggtccgtggtccgtgctgcngccggaggccatgttgatgtccgtggtccgtgctgtcgccagaaaccatgtggaagtccatgatccgtgctcccgctgactgtaaagggcaaggaagctncttttgcagtggtatcgatgactgcagactcacagttgagaaagagggacatggaaggcttctgtgacaaccctcctccccacccccaccccccaaaagtaacagcctagacaggaagccatcgaagagaactcttaaaaattgtgataaggatgctgaagtgtagctctccacagttgatggcttctggcgggggtgcgggtggggaaggactcagttttctttaaggggctggccactgggagtttgaccatgctccagtgagtatatgggcaacacaaattggacttggtatttttttcttctttctctctttttttttgggggggaggtcacaagggtgggagggcggacctgggaggactgggaagtgagtgtgatcggggtgcatgatgtgaaattcccaaataatcaataaaaatattatgttgaaaaaaaa",
+  "length_bp": 1342,
+  "sequence_length_bp": 1342,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

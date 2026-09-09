@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000243",
+  "name": "L1M3f_5end",
+  "description": "5' end of L1 retrotransposon, L1M3f_5end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Primates",
+  "display_classification": "LINE/L1 | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1263 BP; 450 A; 324 C; 281 G; 206 T; 2 other;"
+  },
+  "sequence": "gagacttccggttccaaaatggcggcgtagaagcaagctggcttcactccccccccccacagaaaaccaaaaacaaatatacagcgccgagattatcaccagcaatatcccagaactcaaatatgaggatgagacagttcccggggccacagagaagtgaaaaaactccgagcagacggtaagagaatcggacttccatatccgcgacgcccctccccccaatctgcccggcaccaagcgcgcggaaaatttccccccgactcacggtttctacactggaaaaagtgagatcgaggtggacaaccagcttccccaccatcttgggttccctggcaggagacctgtccctgcctcaacccacgggaagcatcgcgagtgcctgaagggagaaatatccctgaggacagccagagacaaaggggggaggcgggactaccatccccagccctggaaactctgctctgtaactcggccaaaggagacgccaaatcagagtggctgttcagcagcaccacgctgtaggaggtncgttccacaggtcccctgggcacgaacccctagccagccttcccacactgccgggatatcccctttgggacctcccccattcgggacgggcagcgctccgatcgtttactagagccgaggcaaacctgggcttaaggcgccatctagtgccgaaaaggaggcagcgacctagcgggaaaaaaaaaaagaaantcaacaggtaaattacaaagaatctctaagcaaacatatccaataaaaaccaaaacaagccagacagagaagactggaataaataactaatccttcaatgcaaagacatagacgtacatccacaagaaacaacagcaaacagggaaccatgacctccccaaacggacaaagcaaggaaccagtgactgaccctaacgagacggcgatatgtgagctctctgaccaagaattcaaaatagcagttttaaggaaactcagtgatctccaagataacacagaaaagcaattcagaaatttatcagagaaatttaacaaagagattgaaataattttaaaaaatcaaacagaaatcttggaactgagaaatacatttgctgaactgaaaaattcattagaggctctcaacagcagaatggatcaagcagaggaaagaatcagtgagctcgaagacaggctatttgaaaatacacagtcagaggagaaaaaagaaaaaagaatgaaaaggaacgaagatcgcctacaagatatagaaaattacctcaa",
+  "length_bp": 1263,
+  "sequence_length_bp": 1263,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1M1B_5"
+  ]
+}

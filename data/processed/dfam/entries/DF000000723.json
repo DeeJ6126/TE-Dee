@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000723",
+  "name": "MER126",
+  "description": "Unclassified, palindromic DNA transposon, MER126 subfamily",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 449 BP; 139 A; 80 C; 87 G; 143 T; 0 other;"
+  },
+  "sequence": "ttaaagagccgctgacgcctcatggaaaactttgaaaaacattctatttagaaacaattctgcttatatatcgtatattttctgtatttctcttccctcgttttttattactagggacatttgcatgaaaacaggatctttgtttcttaagagttcatctgctcctgctgcttattccccacctgaagtcataatcctctgtttgtgacatcacaattggttgctgtggaaatgattatgatgtcacaaacagaggattatgacttcaggtggggaataagcagcaggagcagatgaactcttaagaaacaaagatcctgttttcatgcaaatgtccttagtaataaaaaacgagggaagagaaatacggaaaacgcgatacgtaagcagaattgtttctaaatagaatgtttttcaaagttttccatgaggcgtcagcggctctttaa",
+  "length_bp": 449,
+  "sequence_length_bp": 449,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER126"
+  ]
+}

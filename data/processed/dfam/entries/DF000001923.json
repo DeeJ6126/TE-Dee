@@ -1,0 +1,51 @@
+{
+  "accession": "DF000001923",
+  "name": "MLTR13",
+  "description": "Long terminal repeat of retrovirus-like element.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLTR13"
+  ],
+  "species": "Muridae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1282 BP; 378 A; 278 C; 282 G; 341 T; 3 other;"
+  },
+  "sequence": "tggcgtggaccacatggctgaccactgctgcttgacaaagttccagcatatcgacatcgcggatcacaattctccagcatccttttactttcatctttgatgattctcactatgcgttatgggagtttccttatgctttttcctttgggaaattttgtatgggctttggtagaggatgtgaatgtatacaatggcagtctctctaaacaaaataattctttggaaaaaatctccgccaccgtggaaccatatagcgtgataactctgcctactcctacacaagaatccccnttgtgcccctgtttgcaccaagaatagagaagttaaagatttattaactgaaagatggttccagaaactcttaggcacttacacctggtcccaaggatgaaagcacacaatcgagagaaacaatgggcccagacccagagtctgaggccttggcagttgagggcaagagttcagttaataagtatagaacagtgcccacgattgattccctgggtacgtgacttacaggatgaatggcaagatctggtatgccccacgagaagcagattctgttaagaagttagactggcttgatcccgncctctgccatatacaggagcatacattgaaggaattaggatggtacggcataatggaaaaagagtaagatatcaggaccttccctttggggagcgtatgaggagaacaggcccatattgtaagactaaggcacataggaacgcaattaggaaacagctcaatgcttattatgctacatggtacaaacactgcatcatgccccttgaggaatgaaaattgctcttatgggtttgtttctcaggactcaatgtctggcacctcctgaccacaaaggctgaccacaaaggctgagagcgtgcaggaggaaatgtaaaggggcacctggtggggttgctgaaccttagaaaacaatagggacttagatgcttgctgaacttactgcttttgcttcaaagaaaaatactgtaataaagttgattacctctttcattctggatgttgaaaaatagggctaaaataggttaaaaacaatctgtgaaaangatcatacatctcttggaatcattaagtctgctttcaacattacctgtgattaagctactatgcaaatatagagtataaaaggtgtagcctttttttcaataaacacacagctatcctgattcaccctcagatcgtgtcagtctccttccctcgccgactccacacctcctctttgggacctgaaccccgctggagctggactccggca",
+  "length_bp": 1282,
+  "sequence_length_bp": 1282,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLTR13"
+  ]
+}

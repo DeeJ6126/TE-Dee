@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281814",
+  "name": "CteSoc-1.163_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CteSoc-1.163_LTR"
+  ],
+  "species": "Ctenomys sociabilis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Ctenomys sociabilis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Ctenomyidae",
+    "Ctenomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 583 BP; 162 A; 161 C; 117 G; 141 T; 2 other;"
+  },
+  "sequence": "tgttgtaggcagctgagttagatagaaatattctaggcagtcagacagggccaggccctcaaggagacaagatggcagacaaggtgactttgcaacttggaagagacagacactccctatgggccacacctcaagaccaagacaaaaagaggaaacacagctacatacttccctagggatgggcatcagggattgatattctaaataggtatcaatcaccttgaaagagcccaaatgagtcactagcccaacccccaacaggaagagaccctgtcccatattcatgcccgcttgctacgtgactcgcttccccatttggtnctggatttaatcaattttacctgagcaatggtgcttgtaatctcattggttgaccatagttttgtcccacctcttgtccacctaagcgagttcccatgtctttaccaccttagacccgcctcaccacatggttttcctctataaaagtccctggaagagacagcttccnggggaactacccgctcgggcccccctcctgtccctctctcggacaggagctttctttccctcaataaatctattctgctcataaaaaaaaaaa",
+  "length_bp": 583,
+  "sequence_length_bp": 583,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

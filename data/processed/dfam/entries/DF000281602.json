@@ -1,0 +1,51 @@
+{
+  "accession": "DF000281602",
+  "name": "BeaHun-5.3022_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "BeaHun-5.3022_LTR"
+  ],
+  "species": "Beatragus hunteri",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Beatragus hunteri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Alcelaphinae",
+    "Beatragus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 668 BP; 137 A; 177 C; 138 G; 216 T; 0 other;"
+  },
+  "sequence": "tgtcaggaagcatttaacaggaggcttcctgtgtgctgttttggatctgtcaggaatcctctgttccttattaattcctgaatattcaggaattaagaggagaggcaagcctctcccgggggctgaggaatccaggcatttccttcgttagtttttctatacggtgataagtaccctcttccttcttgtgaaccatacggtaaaagtgattgtttacaactctctctctctttaatatggatcgcctatgttttgtaagtctggaattttgatctttatctttgctgagaataactaccttgtaagacagtatatatgcccacaccatgttgattaaaacacctttgctccatcagagctttggtccccgtgtctttctttctctctctctctctctctctctctttttcaggctgattccctggagcgcagaggccctctgagttcactttcctgcccgggcttctaagaccctctcgagaaggcgctctgcgccttcaccccatcgagagggcgcctgaggccttcgtgaacagagcaagccccgtgtcaggggctttattggctttctgcgtaaaccaaggaatatcagcctctttctctctcctttactttcttatcggtcgactccggaccaccaggttccggtccattaaaggacctcaaca",
+  "length_bp": 668,
+  "sequence_length_bp": 668,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

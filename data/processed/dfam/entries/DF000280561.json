@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280561",
+  "name": "SaiTat-1.87",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Saiga tatarica tatarica",
+  "display_classification": "SINE/tRNA | Saiga tatarica tatarica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Antilopinae",
+    "Saiga",
+    "Saiga tatarica"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 282 BP; 78 A; 94 C; 76 G; 34 T; 0 other;"
+  },
+  "sequence": "ggacttccctggtggtccagtggttaagaatccgcctgccaatgcaggggacacgggttcgatccctggtccgggaagatcccacatgccgcggggcaactaagcccgtgcgccacaactactgagcccgcgcgcctagagcccgtgctccgcaacaagagaagccaccgcaatgagaagcccgcgcaccgcaactagagagtagcccccgctcgccgcaactagagaaagcccgcgcgcagcaacgaagacccagcgcagccaaaaataaataaataaaat",
+  "length_bp": 282,
+  "sequence_length_bp": 282,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

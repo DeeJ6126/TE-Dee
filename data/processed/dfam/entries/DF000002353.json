@@ -1,0 +1,53 @@
+{
+  "accession": "DF000002353",
+  "name": "Gypsy77-LTR_DR",
+  "description": "LTR retrotransposon from zebrafish: long terminal repeat",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "Gypsy77-LTR_DR"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1147 BP; 258 A; 194 C; 291 G; 365 T; 39 other;"
+  },
+  "sequence": "tgtggcgaataaaatgctctcccattttctcaaagtgccactagggggcgctgctccgncctgccctctntcgagcttccagaacnntacttccggggtcgggaggaagcggaaggtcaggtanacaataggagaccataaaagggggngnngagggttgctccggggggctgttgttgttgttggngttggngtcgctgggttttttattcgtgtgttggtggcgaaatcgtggggagagaaggaggngaggaacggntgtgananaaaggtggagagctgttggcttcgaagatggnngtgtgacganaaanactgnggngtggaagcgatngtggacgtggtgaccaggcganctacacnagcgattgngtgcgaggggtctgcaggatcttatggggatcgaaagcnaaggtggacctgtgcagaatcggcgtcgnttgccgggtcagtnacttnggtcattcgcatccattcatacacccacacantccacacccattgcaacncnatcncacaggctttctttacatttctctttctctcttgtttccgttanatcagccacacgttattattgtttgtttgattgattgtttgtttgatgttttctttcttttattttattgacttatctaagcagtgatttntttttttgttgttgttaaaaatcgttcaaccaagattgaacagtggtaaaaagaattagttattatttagaaaatatattcgttgtactgtgtgntaaaaatacaacagttgatttcatttaaagtgtgttgcgttgttattatttatccttttcttttgcattgtgtatggtggttgaatgccggccgtggctaaccagggtattagtaaatgtttttctttttggcaagnnaatcttgtctggcgcccaaagtttaattaaanatattgataactaattttttttttgttcgaggtccgctgggagtgagattaagggccgtgaaaanccgaaacttcctagtggtcacgtggactagcggttgagcgttggactgcggtgcagacgggcccgggttcgaatcccgccgaaaccggtttttgaaatttgaaatttttttttttccttcattcaaattatatttaaactgaattattattaccaaccaccgttaca",
+  "length_bp": 1147,
+  "sequence_length_bp": 1147,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Gypsy77-LTR_DR"
+  ]
+}

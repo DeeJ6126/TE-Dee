@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275129",
+  "name": "BosMut-5.295",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Bos mutus",
+  "display_classification": "DNA/PiggyBac | Bos mutus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bos"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 140 BP; 41 A; 33 C; 25 G; 41 T; 0 other;"
+  },
+  "sequence": "cacattattgaccagagacgtattaatacgtcttttgttacccgaacgttattgaccggagatgtttcaatattcacttacataacaaatcgccggccacaggcgttagtttctgcaaaaatcccccggtcaataatgtg",
+  "length_bp": 140,
+  "sequence_length_bp": 140,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

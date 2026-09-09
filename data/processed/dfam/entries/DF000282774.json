@@ -1,0 +1,47 @@
+{
+  "accession": "DF000282774",
+  "name": "TolMat-1.72_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "TolMat-1.72_int"
+  ],
+  "species": "Tolypeutes matacus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Tolypeutes matacus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Chlamyphoridae",
+    "Tolypeutes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1423 BP; 375 A; 274 C; 420 G; 351 T; 3 other;"
+  },
+  "sequence": "gattttggtaccaggagagtggggtgctgctattgcaaataccaaaaatgtggaaacggctttggaattgggtaatgggtagaggctggaagaattgtgaggtgcttgatagaaaaggcctagattgctttgaagagactgttggtagaaatatggatgctaaaggtacttccgatgaggccttagacggaaatgatgaatgtgtcattggaaactggaggaaaggcgatccttgttttaaagtggcagagaacttggcgaaattgagttctgatgtcggatggaaggcagaatttgaaagcgatgagcttggatatttagctgaggagatttccaagctaagtgtggaaagtgcagcctggtttctccttgcagcttatagtaaaatgcgagaggaaagggataagctgagaactgaactcctgggcacaaagaaaccagaaattgatggtttggaaaattctgagcttccggaaagcgagtccccagagaatagtgctccatgtgagggtttaactgaacatgganccagtcagccatttcagtgcaagtcaggattggaaatgcagttatccaggaaggatctgtggaaagtcctnttgtctgatggtttggacccctgtgtactacatgcaaaaccgacaagttttttgcgagatctgtatgaacggaaccactgccagcctggactaaaagggacagaaaagggacagattgaaggaaaaatcacttcaagggcagaaccatggaagctgaggtctggaccgaagacatcttctcgggccaagagagcgggcccacccatgtgtgtggaaagggtgagtctgccccggcgcttggagagggcgggccttccgccccattgttcaggaagagtgctaccaccccagtgttctcagaggttggagcctgtgccccggggattgcggagagtctggccgccaccccgatgcttgaagagggtggagccttcaccccagtgttcggggagagcatggccgctgcgcaagcacttggaaggggtggggctgccgctccatcaggcccggaggacaaaacatcgttccatagatgactctcagaccttgaaatctaatggagtatgccctgcagggtttcggaattgtttgggacccgtgacccctgttttccttccaatttctccctatgggaatgggaatgtttatcctatgcctgtccctccnttgtatattggaagcagataacttgttctctaggtttcacaggtccacagacggaggggaattgtgccccaggacagaccacacctataaccgattttgatgagactttgtacttagcattgttactgaaatgacttaaggcttttgggatattgtgatggaatgaatgtattttgcatgtagaaagaacatgtctttttggggtccagagggtggag",
+  "length_bp": 1423,
+  "sequence_length_bp": 1423,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

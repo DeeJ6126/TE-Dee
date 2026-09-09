@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280056",
+  "name": "PipPip-4.278",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Pipistrellus pipistrellus",
+  "display_classification": "RC/Helitron | Pipistrellus pipistrellus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Pipistrellus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 978 BP; 245 A; 284 C; 299 G; 149 T; 1 other;"
+  },
+  "sequence": "cctatctaataaaagagtaatatgcaaattaaccatcactccgctacacccacaagccacgcccaccagccaatcagagcgagtatgcaaattaacccaaccaagatggctgcggccacagagagcaggagggaggcttgggtttcccnggcaatggaggaagccaagctttccgcccgccctggccggcccaggcctccactcaaggctacaaagtttcaattatagaagataaataaatcccaacagaaatggctgcagccacggagcgagcaggaggcttggctccgctccaggctacaaagtttcaattgtagaaggtaaataaatcccagataccagggcctccgcttgggtcgccggggggcgtggccggcctgcaaaccaccacaggcccctcgcccaggccgccccacgccccaagggaacccccaccctgatccgggacacccttcagggcaaaccagctggcccccacccatgcaccaggcctctatcctatctaataaaagagtaatatgcagattgaccatcactccaacacacaagatggctgcccccatgtggtcaaagatcctgcccccatgtggacacaagatggccaccacaagatggccagcaggggagggcagttgggagggaccaggcctgcaggggagggcagttgggggtgaccaggcctgcaggggagggcagttgggggcaaacaggctggcaggggagcagttaggcatcaatcaggctggcaggggagtggttagggggtgatcaggctggcaggcagaagcggttaggggcaatcaggaaggcaggcaggcgagcagttgggagccagcagtcctggattgtgagagggatgtccgactgcccttgggcagtcggacatccctcgaggggtcccagattggagagggtgcaggctgggctgagggacaccccccccccccgtgcacgaatttcgtgcaccgggcctctagt",
+  "length_bp": 978,
+  "sequence_length_bp": 978,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

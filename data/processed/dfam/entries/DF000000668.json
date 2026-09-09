@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000668",
+  "name": "tRNA-Val-GTG",
+  "description": "tRNA-Val (decoding GTG) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 75 BP; 16 A; 22 C; 21 G; 16 T; 0 other;"
+  },
+  "sequence": "gtttccgtagtgtagtggttatcacgttcgcctcacacgcgaaaggtccccggttcgaaaccgggcggaaacacc",
+  "length_bp": 75,
+  "sequence_length_bp": 75,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TRNA_VAL"
+  ]
+}

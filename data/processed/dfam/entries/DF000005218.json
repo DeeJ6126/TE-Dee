@@ -1,0 +1,51 @@
+{
+  "accession": "DF000005218",
+  "name": "Halyomorpha_halys-3_family-34",
+  "description": "tRNA SINE element",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "SINE/tRNA | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 337 BP; 85 A; 81 C; 88 G; 77 T; 6 other;"
+  },
+  "sequence": "aagcgnccttatgcacngtcaatattantgacantactactgaantgataaaaatatcgaaagnattattgagcgtgtaagttaggtattgatagggacgtgacggccgtgcgggttggggcgcgggtcccagagcgctcggttcggaacgttgtgggttcgattcccacctggggcagttaaatatttatttctcggcggtcccgaaaaatgaatcttgacactcccaccttggttagtacgcggcggcaacctagtagccgccaggggttggcaaaaaggaccactaggcccacttgccggactagttccccccaccaaataccaataccagtac",
+  "length_bp": 337,
+  "sequence_length_bp": 337,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

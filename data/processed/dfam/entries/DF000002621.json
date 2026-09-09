@@ -1,0 +1,66 @@
+{
+  "accession": "DF000002621",
+  "name": "hAT-17_DR",
+  "description": "Autonomous hAT DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Ac"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Ac | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2679 BP; 833 A; 523 C; 566 G; 743 T; 14 other;"
+  },
+  "sequence": "ataataacacaaaaaatataattgattcaatattaagcaaaaatgttcatatttcgtgcagctctaacatgtatttcttgtaggatttaaacattttncatgtcnccttaaacgtgatcgcagctcattagcagagactccaaaacatggtgtctgaaattgtaaacatgccaaactttcatcacttaacctacaattataaatgatctgctgttcgatttcggacgcgncnctgtaatgggtatgtgacagaaaagaagacatccaaaacatgcagtgcgntggtcgnnnnnggtcctccaggaacgtggttgagaaacgctgttntagtataacgcatgtctaaactatttaccatcttttaaccgctntgttgtncactgtgctntgatcatctcatttaagcaaagtaaataaaagttttgattcattgtttttgtcctacagagaaaacatgcagtgccgtgtaggaaaagattaagggaagcagcaggcatcgatggatcaagttcatttgcaacaaacattttggaaaatcaaacggaagaatcatcggaagcaaaagatgataagaacgactccaccatttattatcaaacatcacaatccaggctaaatgccttggtttttaattttatcgtggaggatgtgcaacccatctcaattctagagcaacctggctttaggaagttgatcgaagccctaagcagaggcaaacgagtcatgagtccgaatgcattcgtcactaggcttgaaatggcatttgataaaatgaaaacggagctaaaagcgaaactcagcaaagtacagacattatgcacaaccgctgatatatggtcagtgcaggacagaagttattttggaatgacttgccactggcttgaagacaatctggaaaggaggtctgctgctcttgcctgcacaagaatccctagcaactacacttgtgaaacaattattgctaaaattcaagaaactcattcttcttttaacatcgagagcaaagttcaggcaaccgtcactgacaacggtaacaatttcgtcaaagcctttaaagagttttcttctgatgatgagcaagaagtggagcaaagtcagtttgaggatttgggcagtattctttgtgatggagatataggtggagatttctttctgagttatttcttaccaccacaccagcggtgtgcgggtcaaacattgaccacaattgcatcgaaggatctagcggaggccgtcacaaagggaccggctggcaaagttcgcagcagcgcagctggaaagtgtgcaaagatatggcacaaggccgagtcctccatggaaactgcagttgcaatggaatccattgcgaacatgaaattcacacttccttgcctgaatcagtggagctcggaatactacgccattaataagctgatgacactcaatgattcacaacttaatgaactgaccgaacttttgggtgtccctcactttacacctgatgaaacatcgtacctcactgaatatacagatgtcttcaaaccagtggcttttgctcttgaccttttgcagggcgaagaaaagtgttttcttggcatcgtgataccaacattgttgacccttaaaagaaagcttgaggaaaaggcagcaaacactcgccttttctccaaggccattgaagaaacggtaaaggcaattgacactcgcttcaagcaggtgtttgagagttctgatgccaggctggccacagtcaccacgcctcagttcagactgtggtggttaccagaagaggagagggaagtgcttcgggcacagttaattactgaagttctacaggtagaccaagggactgaagaaccagagactaatggaggcgccgttcacgaggatgaattcttctcgtatggacctggaagtcctggctacaaatgtggaaagagagaagcagcggaagaggtgtggctgtatctgcagggcacaaacaaagatctgaaatgcctcaatgaatttccaggggtgaaaaaagtgttcatcaagttcaatacaactttgccatcaagtgcccctgtacaacagctcttcaacagtgggggcaataacgtcaacccaaaaggaaatcctctcacagatgaacagtttgagcatgtgctcctgctacgctacaacagcaaaatcatctccgctttggaataaatcatgaggtaacattgctgaggtttgttgtaaaatagcttctttttacatgatttttttgtacagtataggtcatacatatgctctgtccttttttattttgtcccatcaaaatattaggttcacacaaaagcatttgccaccaaaaaaaactaatgtttatttcttagtaaacgtgtaaacaaagtttggactagtctagaactgtttatagaatgtgttagtcattgcataatgtagatgcatacgaatatttgtgtcatgtttagagctgtattatgcgtataaatgcgtaactaatcacacaaaagttgccacattacttggcactcgtacacacaatgcttggtggaaggaatgtttaatctgattatcattactaataaaattattttctgaattttggtctcctctatggtttctgcaattttgtaagggcagcattagagattttaccatgatcaggtgggaattaagcaattcatttgttgctactcatttccattt",
+  "length_bp": 2679,
+  "sequence_length_bp": 2679,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "723..2169",
+      "start": 722,
+      "end": 2169,
+      "qualifiers": {
+        "product": "hAT-17_DR_tp",
+        "number": "1",
+        "note": "[Danio rerio]",
+        "translation": "MSPNAFVTRLEMAFDKMKTELKAKLSKVQTLCTTADIWSVQDRSYFGMTCHWLEDNLE"
+      },
+      "label": "hAT-17_DR_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "hAT-17_DR"
+  ]
+}

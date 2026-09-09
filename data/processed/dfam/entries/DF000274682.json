@@ -1,0 +1,48 @@
+{
+  "accession": "DF000274682",
+  "name": "AilMel-1.21",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Ailuropoda melanoleuca",
+  "display_classification": "SINE/tRNA | Ailuropoda melanoleuca",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Ursidae",
+    "Ailuropoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 210 BP; 33 A; 69 C; 50 G; 57 T; 1 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccgactcttggtttcggctcaggtcatgatctcagggtcgtgggatcgagccccgcgtcgggctccgcgctcagcggggagtctgcttgagattctctctctccctctccctctgcccctccccctgctcnctctctctctctctctctctcaaataaataaataaatcttaaaaaaa",
+  "length_bp": 210,
+  "sequence_length_bp": 210,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

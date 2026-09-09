@@ -1,0 +1,51 @@
+{
+  "accession": "DF003445673",
+  "name": "Pman_ALU_4.139",
+  "description": "TE identified in the deer mouse genome",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Peromyscus maniculatus",
+  "display_classification": "SINE/Alu | Peromyscus maniculatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Neotominae",
+    "Peromyscus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1099 BP; 262 A; 278 C; 196 G; 356 T; 7 other;"
+  },
+  "sequence": "tatcggggactatgggggtccagcccctcgatagtcccctcccagggtccgggaagaatctacaaccagctgataatttaatctttgatganaagaaatgaatctacgtacacgaaactccttagtccatacactttattnttctgngtcagttctctctctacacagcttctattctgctctcatgcctagctcctttcttgcctgatttctctctacatttatctgctgtcccctctaagttctatcttaattctctcatcttagttctgccccatctaggttctcatccatctagttctttcccatcttagctcctctcccatctccttctttctcatcttgttcttccccatctggctcttcctcatcttccatctcgttcctctagtactctcttctagcccttcaatctagttcttccctcctagttcgttcctctccagttcttacccatctagttcttccattctcttttctcctctccgtctccttattctctcagttctccctaagtctctnaggnatccagttataaacccaagcaatagcaatcctctggcagagcaaggtcaccaggcttgaattctacggggtcataaaggcaggtaagaattttcctcaggcagtgaccgtcaggctttcttttacaacccaaaangggagtggtaaaggaggaggtcaactgagngctaatgatcggttagtatatcaaaaaggggatctatgtgctcagtctacattcctagaagtggttaggtaagaagttaggagtctattagtaaggctgtataagaaaggagggtctcaccctaaattgcacaagaaataaagctatccgcctgacctaggagacaggtgttgtttcgtttggccttggatgcttgataggtattttagataaatacactgttaggagttcttggaagcacacaagaaaatcattgtaggaaccagctaatatatatacaaaagctaaaatatcaccaagacttcttaagccatggcttgaccttcggagaagtccttgacttttccaagtagtagcttttgtgatagtagctgaattccattacgttttcctgcggcttgcagcatc",
+  "length_bp": 1099,
+  "sequence_length_bp": 1099,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

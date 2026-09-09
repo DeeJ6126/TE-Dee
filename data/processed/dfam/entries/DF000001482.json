@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001482",
+  "name": "TIR21T5A_CE",
+  "description": "TIR21T5A_CE is a putative non-autonomous DNA transposon",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 166 BP; 53 A; 37 C; 39 G; 37 T; 0 other;"
+  },
+  "sequence": "cacgtgtattcagctcgaccaacgcctcgaaaattttcaaaaaaggcgggaaaaaatatttgaattcgccaagaggaatttcaccgcagcgcgtgcaaaaatgtctgcatttgcgcgtgacggtgtttgcacaaattacaccgaatggtcgagctgaaaacacgtg",
+  "length_bp": 166,
+  "sequence_length_bp": 166,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TIR21T5A_CE"
+  ]
+}

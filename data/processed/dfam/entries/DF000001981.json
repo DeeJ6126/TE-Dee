@@ -1,0 +1,53 @@
+{
+  "accession": "DF000001981",
+  "name": "RLTR10D2",
+  "description": "Long terminal repeat of endogenous retrovirus.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR10D2"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 357 BP; 61 A; 99 C; 115 G; 82 T; 0 other;"
+  },
+  "sequence": "tgtgaggagcgggtgcggccgccgccccaagatggcgcccgggacggctgccaggtcttatgacctgcgcctgacttcctcattacctcagacttagccacatcccagccgcctgcactgcgcagacgccatgcctcgtcagctcgcctgaggtgtcgtcacttgctgtgaaccaatggactgccgttacgtgactggggtgattgggaggagtcagtagggtatttaaggcgcgccccggggttgttcgggggattcccgttcctgcattgcaatgcgaagtgttcctgaataaacctgcttgaagaaggacaacgtggtgttgcgtctttcctgctggtcggggtggatgcgaca",
+  "length_bp": 357,
+  "sequence_length_bp": 357,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR10D2"
+  ]
+}

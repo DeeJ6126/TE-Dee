@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276962",
+  "name": "EubJap-5.255",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/U-L1"
+  ],
+  "species": "Eubalaena japonica",
+  "display_classification": "SINE/U-L1 | Eubalaena japonica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Mysticeti",
+    "Balaenidae",
+    "Eubalaena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 169 BP; 64 A; 33 C; 32 G; 40 T; 0 other;"
+  },
+  "sequence": "gtgctcgcttcggcagcacatatactaaaattggaacgatacagagaagattagcatggcccctgcgcaaggatgacacgcaaattcgtgaagcgttccatatttttcagaagctagcacaccattgtaaagcaattatacttcaataaagatgtttaaaaaaaaaaaa",
+  "length_bp": 169,
+  "sequence_length_bp": 169,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

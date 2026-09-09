@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282511",
+  "name": "PerLon-1.175_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PerLon-1.175_LTR"
+  ],
+  "species": "Perognathus longimembris pacificus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Perognathus longimembris pacificus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Castorimorpha",
+    "Heteromyidae",
+    "Perognathinae",
+    "Perognathus",
+    "Perognathus longimembris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 269 BP; 55 A; 97 C; 47 G; 69 T; 1 other;"
+  },
+  "sequence": "tgttagcatttccctagcctcaggtcctcagctcctcccactagcccccagatccacccatacctaatgagccactcctactcactacctanctacttcccctttacccccagagagagaagctgccacctggataaggtgcagacgccatgtagctccctctcccgtgggaactatggccccactaataaacctccttatgaaccttcttctcctgtctgtgattatctccgcatggtcctctgggatggccgggacctatgctttca",
+  "length_bp": 269,
+  "sequence_length_bp": 269,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

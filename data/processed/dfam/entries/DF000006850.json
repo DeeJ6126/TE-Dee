@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006850",
+  "name": "R1-LOA-1b_Hpar",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "LINE/R1-LOA"
+  ],
+  "species": "Heliconius",
+  "display_classification": "LINE/R1-LOA | Heliconius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae",
+    "Heliconiini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1029 BP; 325 A; 180 C; 176 G; 347 T; 1 other;"
+  },
+  "sequence": "aataaaaaagtaaaaaaaaaattttaagttaaacggttttatattgcagataaatgtactaaaagctaaaaaataatttcatggaaattatgattactaaaataaaatcgtggggacacttnctacttaccactaggtgggtgaagtctcatgccatgtctttcgattgtagatattggacgtgccccacgattttattttagtaatcataatttccatgaaattattttttagcttttagtacatttatctgcaatataaaaccgtttaacttaaaattttttttttacttttttatttttaagtttttagtttttatttctcatgctattcaattcgttgagtgcctcattattgcaaggttaatggagaatgttacgatcgacccccccagaggtccaatagaggggcaaggctatgtacaacaagatgtgcctgaatcttgaggggaaaacgctaacgacatatcatttttatccaccctagtgccatacagttctcggcgcgcttttaccttttaccttgggtggtgtacccctagcgacgtctcatttttagccaccctatagccacacagtcctcgacaggataccagatcttgacttaggtgggagattcatattgtaattttgtatagtatactgtattatacttaccaagccctttattttgatacccatattgatgggattgaaaactacattatccgccattttgtagcagtggccatctttgattttgattttgtatagtgcactgaattctacttgacaagccctttcatttgatacccatattgatgggattgaaaaaaactaagttgtccgccatcttgtagcggcggccatcttggattcacaataatattgaatatggataattgtattgtcaccagaatcaaaggcgtataccaaatttcagatcaatcggttaacgggaagagggttaaatttcaattactaaatttgacccaaacaaatatacaaataaataaacaaacggggtgagctaaataaaaccgtttaaaaa",
+  "length_bp": 1029,
+  "sequence_length_bp": 1029,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

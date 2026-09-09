@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280751",
+  "name": "SpeDau-1.32",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Spermophilus dauricus",
+  "display_classification": "SINE/ID | Spermophilus dauricus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Sciuridae",
+    "Xerinae",
+    "Marmotini",
+    "Spermophilus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 206 BP; 49 A; 63 C; 36 G; 58 T; 0 other;"
+  },
+  "sequence": "gggctggggatgtggctcaagcggtagcgcgctcgcctggcatgcgtgcggcccgggttcgatcctcagcaccacataccaacaaagatgttgtgtccgccgagaactaaaaaataaatattaaaaaattctctctctctctctctctctctctctctctctctctctctctctctctctctcactctctctttaaaaaaaaaaaa",
+  "length_bp": 206,
+  "sequence_length_bp": 206,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

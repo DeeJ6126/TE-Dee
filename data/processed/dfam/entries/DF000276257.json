@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276257",
+  "name": "DasPun-1.200",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Dasyprocta punctata",
+  "display_classification": "Satellite/ | Dasyprocta punctata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Dasyproctidae",
+    "Dasyprocta"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 226 BP; 42 A; 84 C; 78 G; 22 T; 0 other;"
+  },
+  "sequence": "gcaacgcgccggcgccacgcggcgccagcttgcatcaagggagatctgatccgccttccggggatgggggctccgccgccccggaggagaaccagaaccggtccaaccggaccgcaacgcgccggcgccacgcggcgccagcttgcatcaagggagatctgatccgccttccggggatgggggctccgccgccccggaggagaaccagaaccggtccaaccggacc",
+  "length_bp": 226,
+  "sequence_length_bp": 226,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000005370",
+  "name": "Halyomorpha_halys-4_family-2103",
+  "description": "Academ-1 DNA Transposon",
+  "keywords": [
+    "DNA/Academ-1"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/Academ-1 | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 681 BP; 220 A; 96 C; 106 G; 241 T; 18 other;"
+  },
+  "sequence": "acagtccantcaactgaggaccagaaaaggaactcggtggaaagttttgtaaaagttctgaaaatttgctcatttatgttttttgggtgctnatcacgaatttcaactttgtgacctccaattttcccagaaatatatnaaaaattttaattttatttgtttttacgttaacatttattttcagcaacgacctatactaaattaagcaagagtaaattcnttacaatatttctactctatatattttttttttcgtaaaggacatcgtttagnagcacatcgttnttaggtctaacggtgggttcagtcgaacgaggaccaggaagggatctcggtggaaagttcaaaattcgcacatttntgttttcagngcgttgatcaatttnaactntatgacctcaaattttttccgnaagtttaaaacagaaaaataaatattttgttnnttcttttcttgtaacttgaaaaacatgttattcaaatgaatttaatacgaatattcatatatactaaattaaataagagcaaattaccnacaattttgattctgaagatttttttttttacgcacttcgttttgaattaagcaagaaattatgaaatgtagtccagtcaaatggggancagaagagntctcagtagaaanttnctgagaagtcctgaaaattgctcatttatgtt",
+  "length_bp": 681,
+  "sequence_length_bp": 681,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

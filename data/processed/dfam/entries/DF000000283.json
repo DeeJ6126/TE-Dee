@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000283",
+  "name": "L1MCb_5end",
+  "description": "5' end of L1 retrotransposon, L1MCb_5end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Eutheria",
+  "display_classification": "LINE/L1 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1197 BP; 420 A; 278 C; 258 G; 219 T; 22 other;"
+  },
+  "sequence": "tgacatgtaaagagcttggaagtcgtcactcccttcnacaacaagaaaaagctgaacaaactgaaaaatcaacgacttttcttggacccatcagagaactgaggtcgcagggcaaaccgccaccccgaaatctggagagacaggcgaatncagagaatcacagccgagatctgcttacctggagcagaagccgctggagncataaactggtaggaacacttaaatggtaattttgacgaattgctggaggctgagtgtggactagcntgagagtgagaaactcccgggggcccagtctaggggggcccccacactttcgtgggttttacctccaggaaccccaccaggttctcacggtgaagatccgagaaaaatcccctcgtggctctggcagggggaggggaaaagtaaccattntgaaatacgcccagagcgttctccataacaaagncctgccctncaggggaaaanactttaccagagccttatcccagcttnggggaagggnaattacccaactccagccccctctagccttcctgtctcacctaaggggagaaaaaaagctaagaaacacttgtgaaggtcacagcccagggacacaggcccactaaaagactgagatttaatcataagattatagaacgcttcccctcccccacaccttaccaccacatcaacagggctccagtataataacagtggattacagctgaaagagctgcaagacncagactctatttaagaaggagtncctagggaaacccaaagacaanaggggagacaaaaacaaggacactagaggaaantttagcctctggcacctacagctacagcaaacattaaacacagcccaactcctagccagatnaacataaaacctcacactaaaggcctatttacctcagttcctnttacccgatacatcatgtccggctttcaacaaaaaattacaaggcatgctaaaaggcaagaaaaaaaancacagtctgaagagacaaagcaagcatcagaaccagactcagatatgacanagatnttggaattatcagacngggaatttaaaataactatgattaatatgttaagggctctaatggaaaaagtagacaacatgcaagaacagatgggtaatgtaagcagagagatggaaactctaaganaagaatcaaaaggaaatgctagaaatnaaaacat",
+  "length_bp": 1197,
+  "sequence_length_bp": 1197,
+  "model_type": "fragment_5end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L1MCB_5"
+  ]
+}

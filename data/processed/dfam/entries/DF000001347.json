@@ -1,0 +1,55 @@
+{
+  "accession": "DF000001347",
+  "name": "Vingi-2_CE",
+  "description": "A family of Vingi non-LTR retrotransposons",
+  "keywords": [
+    "LINE/I-Jockey"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "LINE/I-Jockey | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1460 BP; 390 A; 393 C; 347 G; 223 T; 107 other;"
+  },
+  "sequence": "caacatgaagcagccggcaaagcgcacagtgatgacctgtctcgatcagcgcgcggcctttgataaggtacccattaagaagctctgtgtcgatcttcacgaatctctaaatgaagccaagatctcgaaatggctcacgaactatctgagcaaacggattatcaaagctaactttgggaaccgctngtcnagatggngnacnctncngggnggngtgcctcagggnncggtacctagcccnnncctnttctcnttctatacganaaatatgccantccacccggaaacngagatcaccnngtatgcggacgacacnncnatcctcgcccgggacacgaatccatttaaagccggggagttaattcaggagcacctggacctnctccacgacttcttcancgagaggaagatgtcgatctcggccgagaagtcnacggccgcnctcttcacgtgtgacacnaaggagttcaaancgangatcccggtgaantggaatggngcngnngtcccgacgacaaaccaagtncgtctnctnggngtncacctnaacacnatgtgtggntcnaaggatcacgtngnngnnaccaggaagaagatgatggcntcnacnaacatnctcnaagcactctcaggnaccaaatggggntgctcnaaaganctactggtcnccacggcaaaggcnctngtgaagcccgttgcgatctacggngcncctgcccggncacaactnctntcngaaacnaacctgnncaaactggaagccgcgnaccgnaacacnctgagaacttgctgcggcctnacaagcgacacncccatcgancatatctacgctgaagcccaaatgatgcctctgaaggaagaantcgagctggcaagacaacaancctanattgccacgataaaatctnntacgcatccaaacagggatctggagtcgagaaggaanaccgaaagaaggtcnaacagaccgagggagccacctctaaatctaccggaggcgaccaaaaccaacntgagnagactcgaaggnacgaaggcggaagctcaaaaagcaaaccacacnagattcgttcgcgaattcctgaactcggccccaccnaacaggatcctnggagccacgccgccaccattgaacagtncngaagagtnnagcctcccgaaanccaccagaacggaactggcnagactgcgntgtggacactccttactgatccccaagtacaaagcgagaatcgaaggaactcccgtcggnacatgcggntgtggggacaatgagggaggnntagatcactacctaacctgtggtagatcgcaccccatncnnaaagaaaatctgtggacgtccccaaaggaggccgcccgngccctcgggctggcctacaaaccctncgacccgggtggnggagcaacggcgagcgtctgagaacggcgctgcgccgcctgttgcacaacaacaacaa",
+  "length_bp": 1460,
+  "sequence_length_bp": 1460,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "1..1420",
+      "start": 0,
+      "end": 1420,
+      "qualifiers": {
+        "product": "Vingi-2_CE_pol",
+        "number": "1",
+        "note": "Fragment [Caenorhabditis elegans]",
+        "translation": "NMKQPAKRTVMTCLDQRAAFDKVPIKKLCVDLHESLNEAKISKWLTNYLSKRIIKANF"
+      },
+      "label": "Vingi-2_CE_pol"
+    }
+  ],
+  "repbase_aliases": [
+    "Vingi-2_CE"
+  ]
+}

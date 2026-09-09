@@ -1,0 +1,49 @@
+{
+  "accession": "DF000275611",
+  "name": "ChiLan-5.277",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Chinchilla lanigera",
+  "display_classification": "DNA/PiggyBac | Chinchilla lanigera",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Chinchillidae",
+    "Chinchilla"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 174 BP; 33 A; 49 C; 54 G; 36 T; 2 other;"
+  },
+  "sequence": "cacattcatgacggggccgtaattcgtatgtctcgctgccgggcggcttgaaccaccggtggtacatgcatgactgtcccatcgggcggcnttgnattgtaccaccggtggtacaagccgcccgatgggacagtcatgcatgtaccaccggtggttcaagccagcgggaacgtg",
+  "length_bp": 174,
+  "sequence_length_bp": 174,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

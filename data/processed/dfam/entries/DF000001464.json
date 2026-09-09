@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001464",
+  "name": "PALTTAA1_CE",
+  "description": "PALTTAA1_CE is a putative nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/PiggyBac | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 596 BP; 204 A; 92 C; 91 G; 205 T; 4 other;"
+  },
+  "sequence": "ttaaaggtggtgtagtcgaattttttttattgctttattagactcaaaattgtctgaaaacaccgaatttcataatgaaacttcttgaaaacttctcaaaaaaaaagttatgacggctcaaaaaatggcctaaaattagttaaaatttgaaatttgaccgacttgtcaatgtcgcagcggctggaaactantttttttgaaatcaccgtcnaattttgagtatacaagttaattatcttgcgttttcaactcgatttaggtattttaaagtcgatggacggcgagatttttnnaattttttaaaaccaaatctcgccgtccatcgactttaaaatacctaaatcgagttgaaaacgcaagataattaaattgtatactcaaaatttgacggtgatttcaaaaaaaaattgtttccagccgctgcgacattgacaagtcggtcaaatttcaaattttaactaattttaggccattttttgagccgtcataacttttttttgagaagttttcaagaagtttcattatgaaattcggtgttttcagacaattttgagtctaataaagcaataaaaaaaattcgactacaccacctttaa",
+  "length_bp": 596,
+  "sequence_length_bp": 596,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PALTTAA1_CE"
+  ]
+}

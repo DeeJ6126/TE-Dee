@@ -1,0 +1,50 @@
+{
+  "accession": "DF000004100",
+  "name": "ORR1D2",
+  "description": "rodents.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ORR1D2"
+  ],
+  "species": "Muroidea",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 370 BP; 69 A; 98 C; 96 G; 103 T; 4 other;"
+  },
+  "sequence": "tgtggtggtttgaatgagaaatgtcccccataggctcgggcatttgaacacttggtccccagttggtggcgctgtttggggaggtttaggaggtgcggccttgctggaggaagtacgtcactgggggcgggctttgagagttcaaagcctcgcnccacttccagttcgctctctctgcttcntgcttgcggttnaagatgtgagctctcagcttcctgctccngccgccatgcctgcctgcctgctgccatgcctccccgccatgatggactcttatccctctggaaccgtaagcccaaataaactctttcttctataagttgccttggtcatggtgttttatcacagcaacagaaaagtaactaataca",
+  "length_bp": 370,
+  "sequence_length_bp": 370,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ORR1D2_LTR"
+  ]
+}

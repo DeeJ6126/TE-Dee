@@ -1,0 +1,51 @@
+{
+  "accession": "DF000282024",
+  "name": "GliGli-6.5440_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "GliGli-6.5440_LTR"
+  ],
+  "species": "Glis glis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Glis glis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Gliridae",
+    "Glirinae",
+    "Glis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 343 BP; 61 A; 124 C; 82 G; 76 T; 0 other;"
+  },
+  "sequence": "tgatggattgaaccggttctccgagggggttctcctcccaaccctgcccccatgcccagttactgcttcccaaaagggtcccgccccttcctgggaaccgctcaggcttccggcgcgcgcgccatcccaccgaccaataagtttaaaggccacgcgggcctccaataagacgcaacaccgggtccggtcaaccaatggcaacgggccaactcagcttaagcccgtatttaatcccaagcgcggcggcgcgcgctctctctgatcgcctttcttctgaccccccgccgctcgaataaatctcttggctgcatggttgtctccggtgcggtttttttgcccttca",
+  "length_bp": 343,
+  "sequence_length_bp": 343,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

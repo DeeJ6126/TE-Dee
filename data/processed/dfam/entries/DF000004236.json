@@ -1,0 +1,47 @@
+{
+  "accession": "DF000004236",
+  "name": "ERV-1_LTR_ChrAsi",
+  "description": "Long Terminal Repeat for an ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ERV-1_LTR_ChrAsi"
+  ],
+  "species": "Chrysochloris asiatica",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Chrysochloris asiatica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Chrysochloridae",
+    "Chrysochlorinae",
+    "Chrysochloris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 520 BP; 105 A; 127 C; 122 G; 166 T; 0 other;"
+  },
+  "sequence": "tgtgatagttaaggttttgtgtcaacttgactgggccaggattcccagtggtttggcagttgagatgtggttatccccatggtgagatctaatacagtgtagttaactctatgatgattggctatgagcaggcgtagttaactctatgatgattggctatgagcagccaatcaattgaaaggatgtttcctcgggggtgtggcctgcttccaatataatggacactcaggcaaagcttgcttgctttctgctgggtctggatcttgcatctggctcgtcctccaacctccggttctttggacttgagccagtggcctgctctattatctgcctgcctgccgcctcctgctgacctgcctgcctgccggacctgcctgccgatcttggttcatctgacccggacttgggactctcccacctctacaattgtgagccatttccttgatataaacttctctttatatatatacatatataagtttcactggttttgcttctctagagaacccagcctaagaca",
+  "length_bp": 520,
+  "sequence_length_bp": 520,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

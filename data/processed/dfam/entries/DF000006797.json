@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006797",
+  "name": "nPIF-2_Hmel",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "DNA/PIF-Harbinger"
+  ],
+  "species": "Heliconius",
+  "display_classification": "DNA/PIF-Harbinger | Heliconius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae",
+    "Heliconiini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 202 BP; 67 A; 36 C; 37 G; 62 T; 0 other;"
+  },
+  "sequence": "cgcccgatgttaataatcaatcctaatccataaattgcaaccatagattgaaatatcaatccattttttgagtttagcttgccaataacctatcgaagtacttcattttcattggcatgcaggttagagattggatagatatgtcgaacaatccaagattgacgttaactggagataggagatacattattaacatcgggcg",
+  "length_bp": 202,
+  "sequence_length_bp": 202,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

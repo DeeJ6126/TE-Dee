@@ -1,0 +1,45 @@
+{
+  "accession": "DF000000907",
+  "name": "MER67A",
+  "description": "MER67A Long Terminal Repeat for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER67A"
+  ],
+  "species": "Boreoeutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Boreoeutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 543 BP; 130 A; 164 C; 91 G; 151 T; 7 other;"
+  },
+  "sequence": "tgacaaagattctctccttgaccaaactctagccaggctcctctgagccctcttctcgactaggcctcaaccttggcctataaagacttgaacaaacactaacatagtttctaacagctcaaggccgcatccctaggatgaccctagcccccccttaaagtgcctgcctgagaaaactcaaggctgccaaaagaatttactgtttgttccagccaacacctgaagatagggcccctgtctcccagtctctgtgggagggtaggagcctaacttcgataagcgccagttagcaaacccagatgggttnntcacatngacactnnccnaccttttgtaatttttcacttccctgactctactgagcccccgctcgtnccctctccctactccctcattctccctttaaaacgcccagtcacctctgtacaaatcgaagttgagttcagttcacgctggactcttttccctattgcaatagtatattactgattaaaatctgtccttaccgctttaactagtgtccggctttgtttatctttgaca",
+  "length_bp": 543,
+  "sequence_length_bp": 543,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER67A"
+  ]
+}

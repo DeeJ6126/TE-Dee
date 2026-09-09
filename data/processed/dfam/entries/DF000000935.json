@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000935",
+  "name": "MER8",
+  "description": "TcMar-Tigger DNA transposon, MER8 subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Primates",
+  "display_classification": "DNA/TcMar-Tigger | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 239 BP; 53 A; 62 C; 72 G; 52 T; 0 other;"
+  },
+  "sequence": "cagttgacccttgaacaacacgggtttgaactgcgcgggtccacttatacgcggatttttttcaaccaaacgcggatcgaaaatacagtattcgcgggatgcgaaacccgcgtatacggagggccgacttttcgtatacgcgggttccgcagggccgactgcgggacttgagtatgcgcggattttggtatacgcgggggtcctggaaccaatcccccgcgtataccgagggacgactg",
+  "length_bp": 239,
+  "sequence_length_bp": 239,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER8"
+  ]
+}

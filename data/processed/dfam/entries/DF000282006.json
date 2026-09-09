@@ -1,0 +1,48 @@
+{
+  "accession": "DF000282006",
+  "name": "GalVar-5.1663_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "GalVar-5.1663_int"
+  ],
+  "species": "Galeopterus variegatus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Galeopterus variegatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Dermoptera",
+    "Cynocephalidae",
+    "Galeopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1836 BP; 572 A; 403 C; 410 G; 448 T; 3 other;"
+  },
+  "sequence": "atttttggcgcccaaacgtggggcactggatacgggggacaccgtgaggaagacggcgcatcggagggtcgaccactgaaaatgaaagagtaaaaccttcgtccgccgcgggaacctgccgcgtcaggataaggtgagtaagcgcgcccgataatgggacaagaattaagaattaagaataagaattaagttgtcatgacgtctacataagacagttacaaaaagctttaaagacgcgaggagtaaaggttaaaacaagtgatctattaagattttttgatttcgtgaagaatctttgtccttggttcccagaagaagggactattaattataaaaggtggtctcgagttggagacgctttacaagatttctatgagactttcgggccggaaaaggtccccgttactgccttctcctattggaatttaatcagggacatgattcaggatagggaaaaatccccagaagtttcagaaactgtggcccaaactgaaaaaatgttaaaagccagttccaagactgacctccgaaatccctctccaccgcctagggaggacgtagatctaatctccctagaagatgagagtgaggaggtcaaggcagccagtgccatacctaagagatctaaaaagtatccactattaaaattccaggatgatgaggaggcncagaatcctgatccctcaggagttgattggggcgatctggacacagaggccactgaataccatgcaccagatgatgcattcctggctcagcctttgtcgcgccctctcccttacaatttgccctccgctcccgcggtggtgactgtatcagatcctttaaaaaatttagagtcaaaagttcaacaattagaaaaacaaattctcttagaggaaaaactccaggtcttaacgaccaaactgcaagaattacaaacaaaacgtaagaatacaacatgtcaaactaaagcgactggctattaccctccgttaaacaacaagttagccccccccacaggaagagctcccattcatgtagatcaaagtctttttgaccaacttgaggccttcccagtatccgaatctgtggataatgtgggacgaattacccgcaaacntgacaggctgggatttaatgttatcaaagagctaaaaggcgccatttcccaatatgggcccacagcgccttatacccttgctatattagaatctgtgnctgaaagctggctcactcctatagattggaacacccttgtcagagccacactctcggggggtgattacttactctggaagtccgaattttttgaaaattgcaaacacattgctagaaaaaaccttcaggctgataaagattggggtcttgatatgttgaccggctccggtgactattctagtattgagaaacaaaaaaactatgacccaggtctattttcccaaattcaaacagccgctttaaaggcttggagaaggctcccagctaagggggattcaagcgcttctcttacaggagtaaaacaagggcctgaagagcctttttcagattttgttaaccggctaatgacaacagcagataggttgttaggcaatgcggatgccaatcttgattgcataaaacaattggcttttgaaaatgctaatcccgcatgccaggcggccattaggccccgcaaaaataaaactgaccttcaaggatatattcgtctttgctcggacattggctcctcttatcaacaaggtttagccatggccgcagccctcagtggacaaacagtaaaggattttttagctaataaaggccaaaataataaaggttgctttaaatgtggcaagcctggtcattttgctaaaa",
+  "length_bp": 1836,
+  "sequence_length_bp": 1836,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

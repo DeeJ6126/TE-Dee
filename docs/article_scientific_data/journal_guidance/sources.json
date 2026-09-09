@@ -1,0 +1,11 @@
+[
+  {"id":"submission", "title":"Submission Guidelines", "url":"https://www.nature.com/sdata/submission-guidelines", "file":"official_pages/submission-guidelines.html", "expected":"Instructions for LaTeX users"},
+  {"id":"scope", "title":"Aims and scope", "url":"https://www.nature.com/sdata/aims-and-scope", "file":"official_pages/aims-and-scope.html", "expected":"Data Descriptor"},
+  {"id":"data", "title":"Data Policies", "url":"https://www.nature.com/sdata/policies/data-policies", "file":"official_pages/data-policies.html", "expected":"Requirements for initial submission"},
+  {"id":"repositories", "title":"Data Repository Guidance", "url":"https://www.nature.com/sdata/policies/repositories", "file":"official_pages/repositories.html", "expected":"repository"},
+  {"id":"editorial", "title":"Editorial and Publishing Policies", "url":"https://www.nature.com/sdata/policies/editorial-and-publishing-policies", "file":"official_pages/editorial-and-publishing-policies.html", "expected":"Code availability"},
+  {"id":"referees", "title":"For Referees", "url":"https://www.nature.com/sdata/policies/for-referees", "file":"official_pages/for-referees.html", "expected":"Criteria for publication"},
+  {"id":"ai", "title":"Artificial Intelligence (AI)", "url":"https://www.nature.com/sdata/policies/ai", "file":"official_pages/ai-policy.html", "expected":"Human accountability"},
+  {"id":"fees", "title":"Open Access Fees and Funding", "url":"https://www.nature.com/sdata/open-access", "file":"official_pages/open-access.html", "expected":"processing charge"},
+  {"id":"human-checklist", "title":"Human Data Checklist", "url":"https://www.nature.com/documents/sdata-sensitive-data-checklist.docx", "file":"official_files/sdata-sensitive-data-checklist.docx", "linked_from":"https://www.nature.com/sdata/policies/data-policies", "expected":"word/document.xml"}
+]

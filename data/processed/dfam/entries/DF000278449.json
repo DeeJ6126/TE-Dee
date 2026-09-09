@@ -1,0 +1,46 @@
+{
+  "accession": "DF000278449",
+  "name": "MicTal-1.20",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Nesogale talazaci",
+  "display_classification": "SINE/tRNA | Nesogale talazaci",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Oryzorictinae",
+    "Nesogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 142 BP; 33 A; 43 C; 45 G; 21 T; 0 other;"
+  },
+  "sequence": "gggctgagccccggtggcgtagtggttgtgcgcgggactgcggcccactgggatggaggttcaattccagctccacaggagcaaaggctgggcctcctactcccaccaccagagggcagtgatgccccccaaaaaaaaaaca",
+  "length_bp": 142,
+  "sequence_length_bp": 142,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

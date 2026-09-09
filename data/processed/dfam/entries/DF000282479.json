@@ -1,0 +1,51 @@
+{
+  "accession": "DF000282479",
+  "name": "PanHod-4.980_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PanHod-4.980_LTR"
+  ],
+  "species": "Pantholops hodgsonii",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Pantholops hodgsonii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Antilopinae",
+    "Pantholops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 384 BP; 120 A; 88 C; 103 G; 72 T; 1 other;"
+  },
+  "sequence": "tgttaggtagttagaataggaaaaaggagtccagaatggcggtggctaaaagacaaagaagggaaaagcccgcgaaaatagaacaaaggaaggtccgaggaccggagtgagaacctcaggtgaaacaaacagccctcctggctagcccaatttacatagggcaggctcagggggaggagaaaaaaacatataaaaagaggagccaaaattgagccgggggctctctctcntcttttgggtcggcccgccctcacgcctcgaggatgtattttcctttgcttgccaaataaaactgagctgtaacgctgtaacactggtccgtccgtcgcttcaaatttttgctgcggcgagacagaaccgaggaaattacacactcccccgaca",
+  "length_bp": 384,
+  "sequence_length_bp": 384,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

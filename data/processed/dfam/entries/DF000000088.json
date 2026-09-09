@@ -1,0 +1,41 @@
+{
+  "accession": "DF000000088",
+  "name": "Charlie14a",
+  "description": "hAT-Charlie DNA transposon, Charlie14a subfamily",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1166 BP; 368 A; 188 C; 204 G; 396 T; 10 other;"
+  },
+  "sequence": "cagcatttcccaaactgtgttccgtagaacactagtgttccgtgagatgttaataggtgttctgtgaaaaaaatcgatgctagcgatattttttcttctaaaatgtattttaaaatatatgtaagaaaaatactaaacacatttatatagttnttattattatgcgataatctgcctttaagaaatggtgtgccatacccgagaacgccaggaagtcgcatgagagatcacctgatgcatgaacgcgtgacgttcgatctgcgcattgatgcanaggcagcatttaccaactaaccatcgcgttgatgtatgtcgtctattcgatgatcgctggtctatgttatgtatcttgtcttataatttcaacatatatttgtgatattattcaatgtttattgtatattaaacatttatactacacaaactcattccccatggatctgtggctgaaagaaggaagttttaaacgaaaagcagagtcttgtggttctcaaactgtgtctgaatcaaacaagcaaaaagtcggaatacttcaaagtgaagatgaacaatcgcagccttcggtttctaaaaaatcgggaggtgagctgtccaagatgaaacaattaatgatttttggagcagcctaattcaagagtacccaaatattgcaaaacgtgcagtttgtgttcttccctttgctacaacgtacctgtgcgaaacgggattttcatattatgctgcaatgaaaacaaaatataggaatagacttgatgctgcacctgatatgaggatccgactcagcaacatcattcctaatattaagcggatatgtgatataaagaataaaaagancgtncactgttctcattttaaaatatttttggtgtatgtcatattttataacaaaaatgtaaatatanattgctttatcttgntatattttgttctttttaatntnaattaaaatgatttaatttctctattttnanttctgttataaagttaaatagcatatgaatcaaattttgatcatttcttgcagcaattaattcatctgtgagaccattttttgctgtctactttaatccaagcgcgcattatatctcatgagctcctgttggtgttccgtcaatacattataattttaaaagtgttccgtggtcaaataagtttgggaaatgctg",
+  "length_bp": 1166,
+  "sequence_length_bp": 1166,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

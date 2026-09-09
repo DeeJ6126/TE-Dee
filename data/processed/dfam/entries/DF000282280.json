@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282280",
+  "name": "NanGal-1.113_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "NanGal-1.113_LTR"
+  ],
+  "species": "Nannospalax galili",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Nannospalax galili",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Spalacidae",
+    "Spalacinae",
+    "Nannospalax"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 406 BP; 87 A; 98 C; 145 G; 72 T; 4 other;"
+  },
+  "sequence": "tgtgtcccgaggggcctgnttcctccgaggggcggggcctgctgcggagaattgactgtggagagttagccgcggagggaggggctttnggcgccatcttgggacagaagcngcgagaaaaagatggccccggcgtctcacccgcgtggacgcgagagggggcatttaccgacctggggcgagactgcgggcccacgaggcatgggcgaaagctaacggagactgtgggcgggcgcggaagcgatctggaatggcgggctgagccgcgcagagctgggcgccgggtgttcgtttctttgtaagttactccaccccccccaagatataaactatganaaattcacataaagatatgttatatggtttgtctgatagcgcaagagaccccgagagaactcgggcgaca",
+  "length_bp": 406,
+  "sequence_length_bp": 406,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

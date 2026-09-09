@@ -1,0 +1,51 @@
+{
+  "accession": "DF003445668",
+  "name": "Pman_ALU_4.539",
+  "description": "TE identified in the deer mouse genome",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Peromyscus maniculatus",
+  "display_classification": "SINE/Alu | Peromyscus maniculatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Neotominae",
+    "Peromyscus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 499 BP; 86 A; 138 C; 122 G; 138 T; 15 other;"
+  },
+  "sequence": "tgttgggagccaggccgatccaaggctttcccngaggccctgatgnanggagaaggaacatagttccttgtctnnanccaggaacangcttggcaaggccggtaatggcctggggccagggcctcgggggagctgnggcttcggntcctgggaacccgactcttccccccgnaggggctgtggttatcagtcccaaggccgctgtgtgctcggtctgtgacgcncttgagatatcctgtgttccctttgtgcaacattgcttgattagcttcctgctgacttcgtcccattgtatgatagctttctgctgactctgtcccattttccccctgnaaacngtatataagatgctgtacttcttaataaacttgcttggcataagncacagcttgtgcaagacctcctgatcccagcttttctgtcttctttattttctcatcccctggtcctccctctcaggaccctgtcactgaagaacgacctgctggtccaggtcant",
+  "length_bp": 499,
+  "sequence_length_bp": 499,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

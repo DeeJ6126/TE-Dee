@@ -1,0 +1,1190 @@
+{
+  "source": "all",
+  "api": {
+    "source": "all",
+    "root": "Transposable Elements (Mobile element) - Human",
+    "node_count": 1666,
+    "edge_count": 1665,
+    "decoded_bytes": 316559,
+    "request_ms": 210.587,
+    "connected_node_count": 1666
+  },
+  "environment": {
+    "viewport": {
+      "width": 1440,
+      "height": 960
+    },
+    "device_scale_factor": 1,
+    "browser_version": "148.0.7778.96",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.13.5",
+    "git_commit": "f8d4f568db6b83ef9431c503a98bbcc63455e4d8",
+    "dirty_files": [
+      "M .gitignore",
+      " M assets/js/renderers/g6/default-tree-mindmap.js",
+      " M assets/js/renderers/g6/large-force-graph/large-force-graph-core.js",
+      " M assets/js/renderers/g6/large-force-graph/large-force-graph-layout.js",
+      " M assets/js/renderers/g6/large-force-graph/large-force-graph-styles.js",
+      " M scripts/checks/check_large_force_graph_contract.js",
+      "?? docs/eval/runs/2026-07-15-all-te-large-static/README.md",
+      "?? docs/eval/runs/2026-07-15-all-te-large-static/baseline.json",
+      "?? docs/eval/runs/2026-07-15-all-te-large-static/desktop-baseline.png",
+      "?? docs/eval/runs/2026-07-15-all-te-large-static/desktop-layout.png",
+      "?? docs/eval/runs/2026-07-15-all-te-large-static/optimized-layout.json",
+      "?? docs/exec-plans/active/all-te-g6-performance-stabilization.md",
+      "?? scripts/checks/check_all_te_large_graph_browser.py",
+      "?? scripts/checks/check_all_te_large_graph_contract.js",
+      "?? scripts/checks/measure_all_te_graph_performance.py"
+    ]
+  },
+  "warmups": 2,
+  "measured_run_count": 5,
+  "runs": [
+    {
+      "label": "run-1",
+      "adapter_ms": 10.7,
+      "render_ms": 335.8,
+      "layout_ms": null,
+      "draw_ms": null,
+      "stable_ms": 516.0,
+      "page_to_interactive_ms": 729.2,
+      "hover_leave_ms": 47.7,
+      "legend_focus_ms": 29.6,
+      "legend_visibility_apply_ms": 159.1,
+      "observed_draw_calls": 2.0,
+      "long_tasks": [
+        {
+          "start": 55.899999998509884,
+          "duration": 92
+        },
+        {
+          "start": 212.89999999850988,
+          "duration": 370
+        },
+        {
+          "start": 583.8999999985099,
+          "duration": 83
+        }
+      ],
+      "longest_task_ms": 370.0,
+      "renderer_creates": 1,
+      "renderer_destroys": 0,
+      "interaction_counters": {
+        "renderer_creates": 2,
+        "renderer_destroys": 2,
+        "layout_calls": 0,
+        "draw_calls": 2,
+        "draw_call_source": "direct-probe-fallback"
+      },
+      "graph": {
+        "state": {
+          "mode": "taxonomy_graph",
+          "source": "taxonomy_graph",
+          "query": "",
+          "queryType": "",
+          "classQuery": "",
+          "treeVariant": "all",
+          "fixedView": true,
+          "expandModeEnabled": false,
+          "relationMinPmids": 0,
+          "visibleRelations": {},
+          "selectedNode": null,
+          "currentElements": [],
+          "lang": "en",
+          "historyDepth": 0
+        },
+        "loader": {
+          "ariaHidden": "true",
+          "className": "graph-preloader te-loader-default"
+        },
+        "host": {
+          "width": 1440,
+          "height": 803.625
+        },
+        "nodeCount": 932,
+        "edgeCount": 931,
+        "invalidEdgeCount": 0,
+        "layout": {
+          "type": "preset"
+        },
+        "legendItems": [
+          {
+            "key": "level-0",
+            "depth": 0,
+            "kind": "taxonomy-level",
+            "label": "Human TE",
+            "color": "rgb(20, 47, 124)",
+            "count": 1,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-1",
+            "depth": 1,
+            "kind": "taxonomy-level",
+            "label": "Class",
+            "color": "rgb(22, 54, 138)",
+            "count": 3,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-2",
+            "depth": 2,
+            "kind": "taxonomy-level",
+            "label": "Order",
+            "color": "rgb(24, 60, 152)",
+            "count": 49,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-3",
+            "depth": 3,
+            "kind": "taxonomy-level",
+            "label": "Superfamily",
+            "color": "rgb(26, 67, 166)",
+            "count": 92,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-4",
+            "depth": 4,
+            "kind": "taxonomy-level",
+            "label": "Family",
+            "color": "rgb(29, 73, 180)",
+            "count": 72,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-5",
+            "depth": 5,
+            "kind": "taxonomy-level",
+            "label": "Subfamily",
+            "color": "rgb(31, 80, 193)",
+            "count": 715,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-6",
+            "depth": 6,
+            "kind": "taxonomy-level",
+            "label": "Level 6",
+            "color": "rgb(33, 86, 207)",
+            "count": 426,
+            "visible": false,
+            "focusable": true
+          },
+          {
+            "key": "level-7",
+            "depth": 7,
+            "kind": "taxonomy-level",
+            "label": "Level 7",
+            "color": "rgb(35, 93, 221)",
+            "count": 71,
+            "visible": false,
+            "focusable": true
+          },
+          {
+            "key": "level-8",
+            "depth": 8,
+            "kind": "taxonomy-level",
+            "label": "Level 8",
+            "color": "rgb(37, 99, 235)",
+            "count": 231,
+            "visible": false,
+            "focusable": true
+          }
+        ]
+      },
+      "canvas": {
+        "count": 4,
+        "layers": [
+          {
+            "index": 0,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          },
+          {
+            "index": 1,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 400,
+            "pixelsDifferentFromFirst": 400,
+            "uniqueColors": 267,
+            "error": null
+          },
+          {
+            "index": 2,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          },
+          {
+            "index": 3,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          }
+        ],
+        "aggregateNontransparent": 400,
+        "aggregateDifferent": 400,
+        "contentLayerCount": 1
+      },
+      "errors": {
+        "console_errors": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "taxonomy_responses": [
+          {
+            "url": "http://127.0.0.1/TE-/api/taxonomy.php?view=tree&source=all",
+            "status": 200
+          }
+        ]
+      },
+      "instrumentation_limitations": []
+    },
+    {
+      "label": "run-2",
+      "adapter_ms": 11.0,
+      "render_ms": 272.0,
+      "layout_ms": null,
+      "draw_ms": null,
+      "stable_ms": 418.0,
+      "page_to_interactive_ms": 620.7,
+      "hover_leave_ms": 47.9,
+      "legend_focus_ms": 22.9,
+      "legend_visibility_apply_ms": 174.4,
+      "observed_draw_calls": 2.0,
+      "long_tasks": [
+        {
+          "start": 54.20000000298023,
+          "duration": 84
+        },
+        {
+          "start": 202.39999999850988,
+          "duration": 300
+        },
+        {
+          "start": 502.70000000298023,
+          "duration": 60
+        }
+      ],
+      "longest_task_ms": 300.0,
+      "renderer_creates": 1,
+      "renderer_destroys": 0,
+      "interaction_counters": {
+        "renderer_creates": 2,
+        "renderer_destroys": 2,
+        "layout_calls": 0,
+        "draw_calls": 2,
+        "draw_call_source": "direct-probe-fallback"
+      },
+      "graph": {
+        "state": {
+          "mode": "taxonomy_graph",
+          "source": "taxonomy_graph",
+          "query": "",
+          "queryType": "",
+          "classQuery": "",
+          "treeVariant": "all",
+          "fixedView": true,
+          "expandModeEnabled": false,
+          "relationMinPmids": 0,
+          "visibleRelations": {},
+          "selectedNode": null,
+          "currentElements": [],
+          "lang": "en",
+          "historyDepth": 0
+        },
+        "loader": {
+          "ariaHidden": "true",
+          "className": "graph-preloader te-loader-default"
+        },
+        "host": {
+          "width": 1440,
+          "height": 803.625
+        },
+        "nodeCount": 932,
+        "edgeCount": 931,
+        "invalidEdgeCount": 0,
+        "layout": {
+          "type": "preset"
+        },
+        "legendItems": [
+          {
+            "key": "level-0",
+            "depth": 0,
+            "kind": "taxonomy-level",
+            "label": "Human TE",
+            "color": "rgb(20, 47, 124)",
+            "count": 1,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-1",
+            "depth": 1,
+            "kind": "taxonomy-level",
+            "label": "Class",
+            "color": "rgb(22, 54, 138)",
+            "count": 3,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-2",
+            "depth": 2,
+            "kind": "taxonomy-level",
+            "label": "Order",
+            "color": "rgb(24, 60, 152)",
+            "count": 49,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-3",
+            "depth": 3,
+            "kind": "taxonomy-level",
+            "label": "Superfamily",
+            "color": "rgb(26, 67, 166)",
+            "count": 92,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-4",
+            "depth": 4,
+            "kind": "taxonomy-level",
+            "label": "Family",
+            "color": "rgb(29, 73, 180)",
+            "count": 72,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-5",
+            "depth": 5,
+            "kind": "taxonomy-level",
+            "label": "Subfamily",
+            "color": "rgb(31, 80, 193)",
+            "count": 715,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-6",
+            "depth": 6,
+            "kind": "taxonomy-level",
+            "label": "Level 6",
+            "color": "rgb(33, 86, 207)",
+            "count": 426,
+            "visible": false,
+            "focusable": true
+          },
+          {
+            "key": "level-7",
+            "depth": 7,
+            "kind": "taxonomy-level",
+            "label": "Level 7",
+            "color": "rgb(35, 93, 221)",
+            "count": 71,
+            "visible": false,
+            "focusable": true
+          },
+          {
+            "key": "level-8",
+            "depth": 8,
+            "kind": "taxonomy-level",
+            "label": "Level 8",
+            "color": "rgb(37, 99, 235)",
+            "count": 231,
+            "visible": false,
+            "focusable": true
+          }
+        ]
+      },
+      "canvas": {
+        "count": 4,
+        "layers": [
+          {
+            "index": 0,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          },
+          {
+            "index": 1,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 400,
+            "pixelsDifferentFromFirst": 400,
+            "uniqueColors": 267,
+            "error": null
+          },
+          {
+            "index": 2,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          },
+          {
+            "index": 3,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          }
+        ],
+        "aggregateNontransparent": 400,
+        "aggregateDifferent": 400,
+        "contentLayerCount": 1
+      },
+      "errors": {
+        "console_errors": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "taxonomy_responses": [
+          {
+            "url": "http://127.0.0.1/TE-/api/taxonomy.php?view=tree&source=all",
+            "status": 200
+          }
+        ]
+      },
+      "instrumentation_limitations": []
+    },
+    {
+      "label": "run-3",
+      "adapter_ms": 9.9,
+      "render_ms": 241.1,
+      "layout_ms": null,
+      "draw_ms": null,
+      "stable_ms": 386.3,
+      "page_to_interactive_ms": 584.3,
+      "hover_leave_ms": 43.2,
+      "legend_focus_ms": 17.9,
+      "legend_visibility_apply_ms": 159.2,
+      "observed_draw_calls": 2.0,
+      "long_tasks": [
+        {
+          "start": 56.80000000447035,
+          "duration": 82
+        },
+        {
+          "start": 197.60000000149012,
+          "duration": 267
+        },
+        {
+          "start": 465.40000000596046,
+          "duration": 55
+        }
+      ],
+      "longest_task_ms": 267.0,
+      "renderer_creates": 1,
+      "renderer_destroys": 0,
+      "interaction_counters": {
+        "renderer_creates": 2,
+        "renderer_destroys": 2,
+        "layout_calls": 0,
+        "draw_calls": 2,
+        "draw_call_source": "direct-probe-fallback"
+      },
+      "graph": {
+        "state": {
+          "mode": "taxonomy_graph",
+          "source": "taxonomy_graph",
+          "query": "",
+          "queryType": "",
+          "classQuery": "",
+          "treeVariant": "all",
+          "fixedView": true,
+          "expandModeEnabled": false,
+          "relationMinPmids": 0,
+          "visibleRelations": {},
+          "selectedNode": null,
+          "currentElements": [],
+          "lang": "en",
+          "historyDepth": 0
+        },
+        "loader": {
+          "ariaHidden": "true",
+          "className": "graph-preloader te-loader-default"
+        },
+        "host": {
+          "width": 1440,
+          "height": 803.625
+        },
+        "nodeCount": 932,
+        "edgeCount": 931,
+        "invalidEdgeCount": 0,
+        "layout": {
+          "type": "preset"
+        },
+        "legendItems": [
+          {
+            "key": "level-0",
+            "depth": 0,
+            "kind": "taxonomy-level",
+            "label": "Human TE",
+            "color": "rgb(20, 47, 124)",
+            "count": 1,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-1",
+            "depth": 1,
+            "kind": "taxonomy-level",
+            "label": "Class",
+            "color": "rgb(22, 54, 138)",
+            "count": 3,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-2",
+            "depth": 2,
+            "kind": "taxonomy-level",
+            "label": "Order",
+            "color": "rgb(24, 60, 152)",
+            "count": 49,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-3",
+            "depth": 3,
+            "kind": "taxonomy-level",
+            "label": "Superfamily",
+            "color": "rgb(26, 67, 166)",
+            "count": 92,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-4",
+            "depth": 4,
+            "kind": "taxonomy-level",
+            "label": "Family",
+            "color": "rgb(29, 73, 180)",
+            "count": 72,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-5",
+            "depth": 5,
+            "kind": "taxonomy-level",
+            "label": "Subfamily",
+            "color": "rgb(31, 80, 193)",
+            "count": 715,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-6",
+            "depth": 6,
+            "kind": "taxonomy-level",
+            "label": "Level 6",
+            "color": "rgb(33, 86, 207)",
+            "count": 426,
+            "visible": false,
+            "focusable": true
+          },
+          {
+            "key": "level-7",
+            "depth": 7,
+            "kind": "taxonomy-level",
+            "label": "Level 7",
+            "color": "rgb(35, 93, 221)",
+            "count": 71,
+            "visible": false,
+            "focusable": true
+          },
+          {
+            "key": "level-8",
+            "depth": 8,
+            "kind": "taxonomy-level",
+            "label": "Level 8",
+            "color": "rgb(37, 99, 235)",
+            "count": 231,
+            "visible": false,
+            "focusable": true
+          }
+        ]
+      },
+      "canvas": {
+        "count": 4,
+        "layers": [
+          {
+            "index": 0,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          },
+          {
+            "index": 1,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 400,
+            "pixelsDifferentFromFirst": 400,
+            "uniqueColors": 267,
+            "error": null
+          },
+          {
+            "index": 2,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          },
+          {
+            "index": 3,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          }
+        ],
+        "aggregateNontransparent": 400,
+        "aggregateDifferent": 400,
+        "contentLayerCount": 1
+      },
+      "errors": {
+        "console_errors": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "taxonomy_responses": [
+          {
+            "url": "http://127.0.0.1/TE-/api/taxonomy.php?view=tree&source=all",
+            "status": 200
+          }
+        ]
+      },
+      "instrumentation_limitations": []
+    },
+    {
+      "label": "run-4",
+      "adapter_ms": 10.1,
+      "render_ms": 261.9,
+      "layout_ms": null,
+      "draw_ms": null,
+      "stable_ms": 418.4,
+      "page_to_interactive_ms": 639.2,
+      "hover_leave_ms": 47.7,
+      "legend_focus_ms": 25.4,
+      "legend_visibility_apply_ms": 158.5,
+      "observed_draw_calls": 2.0,
+      "long_tasks": [
+        {
+          "start": 60.599999994039536,
+          "duration": 88
+        },
+        {
+          "start": 220.39999999850988,
+          "duration": 290
+        },
+        {
+          "start": 511,
+          "duration": 62
+        }
+      ],
+      "longest_task_ms": 290.0,
+      "renderer_creates": 1,
+      "renderer_destroys": 0,
+      "interaction_counters": {
+        "renderer_creates": 2,
+        "renderer_destroys": 2,
+        "layout_calls": 0,
+        "draw_calls": 2,
+        "draw_call_source": "direct-probe-fallback"
+      },
+      "graph": {
+        "state": {
+          "mode": "taxonomy_graph",
+          "source": "taxonomy_graph",
+          "query": "",
+          "queryType": "",
+          "classQuery": "",
+          "treeVariant": "all",
+          "fixedView": true,
+          "expandModeEnabled": false,
+          "relationMinPmids": 0,
+          "visibleRelations": {},
+          "selectedNode": null,
+          "currentElements": [],
+          "lang": "en",
+          "historyDepth": 0
+        },
+        "loader": {
+          "ariaHidden": "true",
+          "className": "graph-preloader te-loader-default"
+        },
+        "host": {
+          "width": 1440,
+          "height": 803.625
+        },
+        "nodeCount": 932,
+        "edgeCount": 931,
+        "invalidEdgeCount": 0,
+        "layout": {
+          "type": "preset"
+        },
+        "legendItems": [
+          {
+            "key": "level-0",
+            "depth": 0,
+            "kind": "taxonomy-level",
+            "label": "Human TE",
+            "color": "rgb(20, 47, 124)",
+            "count": 1,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-1",
+            "depth": 1,
+            "kind": "taxonomy-level",
+            "label": "Class",
+            "color": "rgb(22, 54, 138)",
+            "count": 3,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-2",
+            "depth": 2,
+            "kind": "taxonomy-level",
+            "label": "Order",
+            "color": "rgb(24, 60, 152)",
+            "count": 49,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-3",
+            "depth": 3,
+            "kind": "taxonomy-level",
+            "label": "Superfamily",
+            "color": "rgb(26, 67, 166)",
+            "count": 92,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-4",
+            "depth": 4,
+            "kind": "taxonomy-level",
+            "label": "Family",
+            "color": "rgb(29, 73, 180)",
+            "count": 72,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-5",
+            "depth": 5,
+            "kind": "taxonomy-level",
+            "label": "Subfamily",
+            "color": "rgb(31, 80, 193)",
+            "count": 715,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-6",
+            "depth": 6,
+            "kind": "taxonomy-level",
+            "label": "Level 6",
+            "color": "rgb(33, 86, 207)",
+            "count": 426,
+            "visible": false,
+            "focusable": true
+          },
+          {
+            "key": "level-7",
+            "depth": 7,
+            "kind": "taxonomy-level",
+            "label": "Level 7",
+            "color": "rgb(35, 93, 221)",
+            "count": 71,
+            "visible": false,
+            "focusable": true
+          },
+          {
+            "key": "level-8",
+            "depth": 8,
+            "kind": "taxonomy-level",
+            "label": "Level 8",
+            "color": "rgb(37, 99, 235)",
+            "count": 231,
+            "visible": false,
+            "focusable": true
+          }
+        ]
+      },
+      "canvas": {
+        "count": 4,
+        "layers": [
+          {
+            "index": 0,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          },
+          {
+            "index": 1,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 400,
+            "pixelsDifferentFromFirst": 400,
+            "uniqueColors": 267,
+            "error": null
+          },
+          {
+            "index": 2,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          },
+          {
+            "index": 3,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          }
+        ],
+        "aggregateNontransparent": 400,
+        "aggregateDifferent": 400,
+        "contentLayerCount": 1
+      },
+      "errors": {
+        "console_errors": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "taxonomy_responses": [
+          {
+            "url": "http://127.0.0.1/TE-/api/taxonomy.php?view=tree&source=all",
+            "status": 200
+          }
+        ]
+      },
+      "instrumentation_limitations": []
+    },
+    {
+      "label": "run-5",
+      "adapter_ms": 10.2,
+      "render_ms": 265.5,
+      "layout_ms": null,
+      "draw_ms": null,
+      "stable_ms": 414.9,
+      "page_to_interactive_ms": 614.1,
+      "hover_leave_ms": 50.7,
+      "legend_focus_ms": 25.7,
+      "legend_visibility_apply_ms": 200.9,
+      "observed_draw_calls": 2.0,
+      "long_tasks": [
+        {
+          "start": 51.30000000447035,
+          "duration": 80
+        },
+        {
+          "start": 199,
+          "duration": 294
+        },
+        {
+          "start": 494.20000000298023,
+          "duration": 60
+        }
+      ],
+      "longest_task_ms": 294.0,
+      "renderer_creates": 1,
+      "renderer_destroys": 0,
+      "interaction_counters": {
+        "renderer_creates": 2,
+        "renderer_destroys": 2,
+        "layout_calls": 0,
+        "draw_calls": 2,
+        "draw_call_source": "direct-probe-fallback"
+      },
+      "graph": {
+        "state": {
+          "mode": "taxonomy_graph",
+          "source": "taxonomy_graph",
+          "query": "",
+          "queryType": "",
+          "classQuery": "",
+          "treeVariant": "all",
+          "fixedView": true,
+          "expandModeEnabled": false,
+          "relationMinPmids": 0,
+          "visibleRelations": {},
+          "selectedNode": null,
+          "currentElements": [],
+          "lang": "en",
+          "historyDepth": 0
+        },
+        "loader": {
+          "ariaHidden": "true",
+          "className": "graph-preloader te-loader-default"
+        },
+        "host": {
+          "width": 1440,
+          "height": 803.625
+        },
+        "nodeCount": 932,
+        "edgeCount": 931,
+        "invalidEdgeCount": 0,
+        "layout": {
+          "type": "preset"
+        },
+        "legendItems": [
+          {
+            "key": "level-0",
+            "depth": 0,
+            "kind": "taxonomy-level",
+            "label": "Human TE",
+            "color": "rgb(20, 47, 124)",
+            "count": 1,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-1",
+            "depth": 1,
+            "kind": "taxonomy-level",
+            "label": "Class",
+            "color": "rgb(22, 54, 138)",
+            "count": 3,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-2",
+            "depth": 2,
+            "kind": "taxonomy-level",
+            "label": "Order",
+            "color": "rgb(24, 60, 152)",
+            "count": 49,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-3",
+            "depth": 3,
+            "kind": "taxonomy-level",
+            "label": "Superfamily",
+            "color": "rgb(26, 67, 166)",
+            "count": 92,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-4",
+            "depth": 4,
+            "kind": "taxonomy-level",
+            "label": "Family",
+            "color": "rgb(29, 73, 180)",
+            "count": 72,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-5",
+            "depth": 5,
+            "kind": "taxonomy-level",
+            "label": "Subfamily",
+            "color": "rgb(31, 80, 193)",
+            "count": 715,
+            "visible": true,
+            "focusable": true
+          },
+          {
+            "key": "level-6",
+            "depth": 6,
+            "kind": "taxonomy-level",
+            "label": "Level 6",
+            "color": "rgb(33, 86, 207)",
+            "count": 426,
+            "visible": false,
+            "focusable": true
+          },
+          {
+            "key": "level-7",
+            "depth": 7,
+            "kind": "taxonomy-level",
+            "label": "Level 7",
+            "color": "rgb(35, 93, 221)",
+            "count": 71,
+            "visible": false,
+            "focusable": true
+          },
+          {
+            "key": "level-8",
+            "depth": 8,
+            "kind": "taxonomy-level",
+            "label": "Level 8",
+            "color": "rgb(37, 99, 235)",
+            "count": 231,
+            "visible": false,
+            "focusable": true
+          }
+        ]
+      },
+      "canvas": {
+        "count": 4,
+        "layers": [
+          {
+            "index": 0,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          },
+          {
+            "index": 1,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 400,
+            "pixelsDifferentFromFirst": 400,
+            "uniqueColors": 267,
+            "error": null
+          },
+          {
+            "index": 2,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          },
+          {
+            "index": 3,
+            "cssWidth": 1440,
+            "cssHeight": 804,
+            "backingWidth": 1440,
+            "backingHeight": 804,
+            "nontransparent": 0,
+            "pixelsDifferentFromFirst": 0,
+            "uniqueColors": 1,
+            "error": null
+          }
+        ],
+        "aggregateNontransparent": 400,
+        "aggregateDifferent": 400,
+        "contentLayerCount": 1
+      },
+      "errors": {
+        "console_errors": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "taxonomy_responses": [
+          {
+            "url": "http://127.0.0.1/TE-/api/taxonomy.php?view=tree&source=all",
+            "status": 200
+          }
+        ]
+      },
+      "instrumentation_limitations": []
+    }
+  ],
+  "summary": {
+    "adapter_median_ms": 10.2,
+    "render_median_ms": 265.5,
+    "layout_median_ms": null,
+    "draw_median_ms": null,
+    "stable_median_ms": 418.0,
+    "page_to_interactive_median_ms": 620.7,
+    "hover_leave_median_ms": 47.7,
+    "legend_focus_median_ms": 25.4,
+    "legend_visibility_apply_median_ms": 159.2,
+    "longest_task_max_ms": 370.0
+  },
+  "limitations": [
+    "Timing values are local reference evidence, not cross-machine correctness assertions.",
+    "The unmeasured cold page is excluded; measured pages share one Chromium cache and use fresh pages.",
+    "Stable means loader hidden, taxonomy state/data present, and two animation frames; force motion may remain visible.",
+    "Repeated pages measure warm PHP/browser resources while each page creates a fresh taxonomy renderer.",
+    "Exact layout-start and live-instance counters are unavailable until later runtime diagnostics are implemented.",
+    "The bundled G6 runtime did not call the public graph.layout() method during render; layout duration is null and remains included in aggregate renderer.render().",
+    "The bundled G6 runtime did not call the public graph.draw() method during initial render; draw duration is null and remains included in aggregate renderer.render()."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280873",
+  "name": "TadBra-1.218",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Tadarida brasiliensis",
+  "display_classification": "DNA/TcMar-Tigger | Tadarida brasiliensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Molossidae",
+    "Tadarida"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 638 BP; 169 A; 137 C; 134 G; 198 T; 0 other;"
+  },
+  "sequence": "cagtcatgcgccgcataacgacgtttcggtcaacgacggaccgcatatacgacggtggtcccataagattataatggagctgaaaaattcctatcgcctagtgacgtcgtagccgtcgtaacgtcgtagcgcaacgcattactcacgtgtttgtggtgatgctggtgtaaacaaacctactgcgctgccagtcgtataaaagtatagcacatacaattatgtacagtacataatacttgataatgataataaacgactatgttactggtttatgtatttactatactatactttttatcgttattttagagtgtactctttctacttataaaaaaagtttgctgtaaaacagtatgccgtgttacgccggcagcagcctcatacatctcgtgtttaccgcgtctcttgattgcatcattttctcttgtgcttgatttaatctcgtgttgttttgtacagtaacatgctgtacaggcttgtagcctaggagcaataggctataccatatagcctaggtgtgtagtaggctataccatctaggtttgtgtaagtgcactctatgatgttcgcacaacgacgaaatcgcctaacgacgcatttctcagaacgtatccccgtcgttaagcggcgcatgactg",
+  "length_bp": 638,
+  "sequence_length_bp": 638,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

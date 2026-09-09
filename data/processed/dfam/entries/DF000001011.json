@@ -1,0 +1,42 @@
+{
+  "accession": "DF000001011",
+  "name": "MLT1F-int",
+  "description": "Internal region of ERVL-MaLR retrotransposon, MLT1F-int subfamily",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT1F-int"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1489 BP; 432 A; 277 C; 416 G; 349 T; 15 other;"
+  },
+  "sequence": "gattttggtacctggaagtggggtgctgccgtaacaaatacctaaaaatgtgggagtggctttggaaccgggcagtgggcggaagctggaaggattttgaggagcgtgntagngaaagcctaaantgccttgaacagactgttagtagaaatctggactttgaggangctgccggtgagggctcaaagggaagtgaggaanatgttattggaaactggaggaaaggggatccttgttatgtagtggcagaaagcttagcaanactgtcgcctgcagttatgtggaaagtagaaaatgtanctaatgaactnggtgatctagctaaggagatttccaagcaaagtgttgaaggtgccgcctggtttcttcttgctgcttatagtaaaatgcgagaggagagagataaactgagggaagaactgttaaacaaaaaggagccaggacttgatggttttgaaaattctcagcctctccagatggcaaangatgctaaaattaagaaatggcttccgagcaaagatcaaatccagggcactgtcaggaaaacatggtctaaagatgaagccgagggtgtgactgtaaaatcctttgttaagacctcagaaagatcaaaggtggtgcctcagagtactattcagtcanacaaaaggccctttaaagagattaagggtgtgcctcacagatcctctcaatcaaacaatagggcttctaagaagcttaagggcgttgtccctcagccgtctcagcagaagcccaaggtagagaagggcttatctcgaagagatttgtgggtgtggcttttgtctaatggagtgaaccccagtaagattcacaggagacccacaaagtttttaagagaattatatcagcagaaacactgccagcttggactgaaagggacagagacagtacaaaatgaaaagaggcctttggacccccaaanttctacnggcaggaagcaggctganaaaactactcagctgcaaacacgtgctacctttcatgaaaaaggaaggatgactcagagggcggaaccaagagcccagagggcggagccaagagccacggagaattattcccaggccttgagacctaatcaaggaacttccaacatttgcccggctggatttcagaattgctatggaccagtgactcctttgtgcctcccattttccccctttttgaacgggaatgtctatagcggttatcctatgcctgtcccaccattgtatgttgggtgtgtngggggcagataacttgtctctttagtttcacaggtctncagatcgagaggaactgtactcgaggagctgtacttaaggaactacacccgaggagcctcatccacacctggacctgatttagatgatgagattctggactttgagctgatgctgtaatgggatgagacttttggggatcttgggaggggggtgagtgtattttgcatgtgggagggacgtgaatcattgggggccagagggcagac",
+  "length_bp": 1489,
+  "sequence_length_bp": 1489,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

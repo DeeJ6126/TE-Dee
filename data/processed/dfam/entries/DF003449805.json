@@ -1,0 +1,36 @@
+{
+  "accession": "DF003449805",
+  "name": "",
+  "description": "Repetitive sequence family identified in Heligmosomoides polygyrus",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Heligmosomoides polygyrus",
+  "display_classification": "DNA/TcMar-Tc1 | Heligmosomoides polygyrus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Strongylida",
+    "Trichostrongyloidea",
+    "Heligmosomatidae",
+    "Heligmosomoides"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1502 BP; 424 A; 332 C; 347 G; 396 T; 3 other;"
+  },
+  "sequence": "ttcaaaaaagataggttcacccttgattttcttgtttctgcacgaaattcggttgcagtcgattccaaaactgtatcagtgaattgagcatagcaaaaaacgtaggagcaaaagacttgagcgaaatctgcaatgactgcaagaaatgaggaaggattgcgtgaaagcactcaactcgaggttgttcaaaaaagataggttcaccgtctaagaagacacggctagaaaggcaggtcagttgcaattactttgttagtcaatactcctcctagcaaagtgtttacagtaaaatgggccgcggttcgatgctttcaactgaagaacaagctcaaatcaaggcactcagtgaagcagggctaagccaccgccgaatttcgacgcagctgaagcgatcgcagaatgtgatcagcaaattcttaaggaatcctgatcaatatgggatgaagaagccttcaggacgtcccaggatcctttcctctcgagatgagagacaaatcgtgcgtatgatgtccaatgcatcggtcagcctggagcgggtgcgcaagagccttactaagaaagtcgcgagaggaactgtccgaaattgcctaatacgaaacggcaacattctacacactcaactcaattccgccccacgtttgactgcagcacacaagaagaataggctggaattcgtctccaacaacaaaagccgtntttggactaaggcaaatttttctcctcgttagatgttacgtcaactattccgattttttgtcattcaggtaattttttctgacgaaaagcgcttcaacctcgatgggcccgatggaaggcggtactattggcacgatttgcgcaaagagaagttgttttttccaaggaggaattttggaggcggtacagtgatggtgtgggcagcatttcacgcaggagggaaagtcgctattgcatttacgtcggcaaggatggactcccaggaataccaacaagtgctgcaaaaccacttgcttccattccttcaggaaaatgccgaccagaattggatcttccagcaagacaacgcctctgtacacgctagcaggtctacaaaggatttcttcagggcccattcaattgaagttctcgactggccggcatgttctccggacctcaatccgatggagaacatttgggggcaccttgtaagaagaatatacgaggagaacagaacgtactcgtctgtcgaaagncttaggatggcgattcttcgagcctggaacgacctccccattcgaactctggaaaatcatgttgcctcgatgccagcacgactcattgatgtagcaatgaattgcggaggaccaattgattactagtgatcactgattgttttatgtcttttcaatgaagctgttgtttcctggtgaacctatcttttttgaacaacctcgagttgaatgctttcatgcaatccttcctcatttcttgcngtcattgcagatttcgctcaagttttttgctcttatattttttgctatgct",
+  "length_bp": 1502,
+  "sequence_length_bp": 1502,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

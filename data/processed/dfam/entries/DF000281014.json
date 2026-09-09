@@ -1,0 +1,46 @@
+{
+  "accession": "DF000281014",
+  "name": "TolMat-4.836",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Tolypeutes matacus",
+  "display_classification": "DNA/hAT-Charlie | Tolypeutes matacus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Chlamyphoridae",
+    "Tolypeutes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 355 BP; 102 A; 72 C; 73 G; 108 T; 0 other;"
+  },
+  "sequence": "caggggttcttaaccaggggtccgtggaaagatttcagggggtccgtgagcttgaattgaaaaaaatcaacttattatctttattttctctgacctctaactgaaatctagcatttccttcacttatgaatgtatgcaataaattacagtagtattcatttcatatcacattacagttgttgcatatctcgaaaaatcgcttacgctcatccatacttcgaaattacggtagttgttagacccgacgctagttgagtgtcataaaactatctgccgctacattctgagaaggggtccgtggttttcacctgactggcaaaggggtccgtggaacaaaaaaggttaagaacccctg",
+  "length_bp": 355,
+  "sequence_length_bp": 355,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

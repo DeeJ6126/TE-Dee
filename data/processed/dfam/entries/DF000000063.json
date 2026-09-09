@@ -1,0 +1,50 @@
+{
+  "accession": "DF000000063",
+  "name": "AluYh9",
+  "description": "AluYh9 subfamily",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Hominoidea",
+  "display_classification": "SINE/Alu | Hominoidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 311 BP; 89 A; 78 C; 101 G; 43 T; 0 other;"
+  },
+  "sequence": "ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggcagaggcgggcggatcatgaggtcaggagatcgagaccatcctggctaacgcggtgaaaccccgtctctactaaaaatacaaaaaattagccgggcgtggtggcgggcgcctgtggtcccggctactcgggaggctgaggcaggagaatggcgtgaacccgggaggcggagcttgcagtgagctgagatcgcgccactgcaccccagcctgggcgacagagcgagactccgtctcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "length_bp": 311,
+  "sequence_length_bp": 311,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "AluYh9"
+  ]
+}

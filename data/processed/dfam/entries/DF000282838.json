@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282838",
+  "name": "ZapHud-1.74_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ZapHud-1.74_int"
+  ],
+  "species": "Zapus hudsonius",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Zapus hudsonius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Dipodoidea",
+    "Dipodidae",
+    "Zapodinae",
+    "Zapus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1188 BP; 313 A; 199 C; 340 G; 335 T; 1 other;"
+  },
+  "sequence": "gatttggtaccaggagtggggtgatttgctgagatgaatctgaccatgtggattttgatcttctggaacttgtgtgctggaggaatggacatggacttggtacttgcaactgaagatgccttccagagcggtaagccaagttttatggactattctggtgagaatttggaaatgctcagtgcagagagaattgcatttggaggcttggcttgtgaactttctaaggggaaggagagactgcagaaaaccttaatagaagtgtgtgcctgggccaaggggtggatgcgtcctactgcccatgcccagagagtttgaccaaggctgaatttaagaaatggactgtgtgcttggctacggatatgggactgagaatttaagatttgaagttggaaaaacctcaaagcaagtttaacttactggcccagagactggcttttgattatggcccaactgctttacattgaaacaatggagagatgcctgaggtgtttccacccaggaaggacagaaagatggactgtgcaaactctttggaaaggaaatcgctgaaagaaaggaatctgctcttcaaggtcacgtttattttgtccctgaattaacaacatggctgtgtcctgcatacctggtattgcttttggaagcatgaggaatgcatgcgtggagtgggtcgtgaagtgcacacggttccaggagccgctgctgagatgcggtatttggaacagggcgtgaagtccctgattggcaagtgaagccattggaaggtggaccgtggtttgcaatggagacccgaagacgttttggacataccaggactgtgcaagggctaccatggagcgctgttggcttgggatggaagtttccccagntactcagccaagctggagggacagaatcgaaaaatccggagactgtcagtcactggttgtgctgtgggacttgaactgcagatgtggatgtttgctgatgtttgttgagtttgcattggcccagtctttccttgttatgcctcatagcagttggaaatgtttgctctgtgccattatatgttaaaagtttgtaacttgttttgattttacaaaatttaaagttaaaagacaatcttaactttcagataagactgtgggacctttaaagttggactaaacataatatagatagttataattctattgggggccaggggtggat",
+  "length_bp": 1188,
+  "sequence_length_bp": 1188,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

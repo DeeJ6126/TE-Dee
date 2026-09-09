@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276128",
+  "name": "CteSoc-1.9",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B4"
+  ],
+  "species": "Ctenomys sociabilis",
+  "display_classification": "SINE/B4 | Ctenomys sociabilis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Ctenomyidae",
+    "Ctenomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 258 BP; 75 A; 68 C; 74 G; 41 T; 0 other;"
+  },
+  "sequence": "ggctggggagatagctcggcggtctaagcgcctgcctggcaagcgcaaggacccgggttcgatccccggtaccgcatgccgtgccagccccgcgccgtgccggccaccgaaaccgggcgtggtggcgcacgcctgtaatcccagcgctggggaggctgagacaggaggatcactatgagtccgagctgcgtagcgagaccctgtaccaaataaataaataaataaataaataaataaataaataaaaataaataaata",
+  "length_bp": 258,
+  "sequence_length_bp": 258,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

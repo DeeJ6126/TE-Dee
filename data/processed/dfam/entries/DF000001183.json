@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001183",
+  "name": "MamRep605b",
+  "description": "MamRep605b -- putative LTR of an unclassified retrotransposon",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MamRep605b"
+  ],
+  "species": "Theria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 901 BP; 257 A; 209 C; 220 G; 206 T; 9 other;"
+  },
+  "sequence": "aaaactgaggcaaaaggtcaggaaaaggacaagacactcaggtcagggaagggccaccctctgagactgaagctaacaagaatccacacaccatggatgggattagccgtctgcaggaaaccttcccagaagtaacccatcctacaatgtgatttggagacannttactgatgagattaaggtgcctccctanatgtcatcaggaagcagccaacctaaaatgtaatcaatgnaaaataatctgtaaacttggaaattgtaacatgttatgaaagtatgttgaaatgaagaagggtgatgntgtaatgacaagtgcaaacagaagggcggtggtctgcatggagtctagaaaaaggagagtcggagagtaagaatttgtcagtgtttctccagcactgtccaggggagagggtgccctgaccagtcgacagaaatattccgtccgttggacaggtacgtctctatagtggagaagggcgattcatcaggctaccacagcttgatgaaaatatcccttaagaccatccaactccctttgctctgattccgtgctcaccaagcaaccttctgattataatttggcttcccgngtagatttncctaccgggaagagaatgcgctgaccagccgacacgagtattccggtccgcttgacagttatatttctcattgtaaattaataaattggcattctggtttatanatcagtctcttgtgagtttggttagcgtgagtcagttccccagagcctgatcanctctgggtgaactgacaaaatcgagtttctgaacctgcaaagctgaggaccagaccctggaccgtggtgaccccaccaaggtgctgccaccctgcgaggcccggcctgaaacggccagccggccttccccctggcgacacccca",
+  "length_bp": 901,
+  "sequence_length_bp": 901,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

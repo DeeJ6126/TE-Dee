@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279399",
+  "name": "NycCou-1.192",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "NycCou-1.192"
+  ],
+  "species": "Nycticebus coucang",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Nycticebus coucang",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lorisiformes",
+    "Lorisidae",
+    "Nycticebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 393 BP; 94 A; 107 C; 80 G; 111 T; 1 other;"
+  },
+  "sequence": "tgatacagggttcccccattcaaggctggacaggggaccccagtttcctaggcctgggcaatttcatgaagggaacgccctgacattttgccccgagctggagggactgcattcattcatttgttaatacgctcattaactttgaaaaggtgttttccacctaccaagtcctggccaaatgtaattctcaagaccttatacccctagacaaaggacccangcggagacttcccacttgggtctttccctctgccagaagctctggtgctttttactccttctgtattcctttctgtctaataaatcctatcttaccactgatctgtggtccgtgggttcattcttcgaatccccgagaccaaggacctactgaagaaagaaattccggtaaca",
+  "length_bp": 393,
+  "sequence_length_bp": 393,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,66 @@
+{
+  "accession": "DF000003823",
+  "name": "hAT-22_DR",
+  "description": "Autonomous hAT DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "DNA/hAT-Charlie | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2615 BP; 773 A; 532 C; 570 G; 727 T; 13 other;"
+  },
+  "sequence": "caggggtgtcaaangtacggcccgcgggccgatcacggcccgcaancagatttnatgcggcccgcagattctatctcataatgcgttatttatggctcgctagctctgttaaaataaaccatagaagttaaaaatgtaattcctccttttaccacttgatgtcagcaccattctatgctatttgcctctgcacctgtggcgggaacttttctccgcttattactgccatggcgaccgcaaaaaaaaaagagaaaagttgacagtgagggccggcgctttcaggagcggtgggaattacaatacttctttactgaaaatcgaggcaattgtgtttgtctaatttgtaaagagacggttgccttgtttaaggatttcaacgttaagcggcattacgaaactagacatgctaaaatatacgacaagctaacagggagtgagcgcgctgaaaaagtgaaacaacttcaagctgctctagcatcacaacagcgattcttcacgcgggcctgtgagtcaaacgaaagcatcaccaaagccagctacgaagtggccatgttaatngctaaacatggcaaaccttttactgaaggtacgtttgtcaaagactgtattatgaaaatggtggagaacatttgccccgagagaaagcaagaatttatgaatgtttgcctggcacgaaacacggtggcacggagagttgaggacttatcatcagatattctgagacagctaggggacagaggagtggcttttgattatttctcattagcctgcgatgaaagcactgatgtatctgacactgcacaactgctgatttttttaagaggagttgacgacaacatgaacgtgtcagaggagctgcttgacctaaaaagccttaaagggcaaaccagaggaacggatttatttgtttctgtttgtgaagctgtcgatgatatgaaactgccatggagtaaagtttctgggatcattaccgatggcgcacctgctatggctggtgagcgaagcggattatccactctgatctgcaataaagtcagcgaagaagcaggtaacgctattaaacttcactgtatcattcaccagcaggctctctgcgccaaacatctgaaatttgacgatgttatgaaaccagtggcaaaggtaatcaactctattcgctcaaaagctctataccaccgacagtttcggcagtttttgcgtgacatccaagctgaatatggtgacgtaatatattacaacgatgtgaggtggctaagtcgggggtccgcactgcagcgatttttctctctcaaagaggaaataagacattttttggacgagaagggncaaccaatgaaacaactgtccgatcctgtatggctggcaaatctggcttttttggttgacataacgaagcatctgaatgagctaaatgtcaatcttcaaggaaaagatgcagtggtaagccagctatacgctcacatcaaggcctttggaatcaaactgcaacttttccaaagacacttgtccctaacagagccctgcaccgcgcacttcccagctttgaaagaggtcattgacagtttcccacaggacaatatcgatgtgcaaatgaagggttatgtgacagccatcgcatctctttctgtggaatttaacaaacgctttcaagactttgcagtaattgaaaaggacatgctgcttttctcttctccnttatcagcggaccctgataatgctcctccacggcttcagttggagctcattgagctgcagtgtgacgatgagtgccgcggaaaacaccagcagtgttctcttgttgacttttaccggcagctagacaaaggcaggtttcctgaaatgcgatcatttgctaagaaaatgctgagcttattcggntccacatatttgtgtgagcaaacattctcagtcatgaacttnaacaagaaccgattgaggtcaaagatgagtgactcccacttgcgtgacattttacgcatttcaaccactgccntcaagccggacctggtctctttactaaaatctagatctcagtatcacccttctcattaatgtcacgtgttcacacagcaaaaagcctaaanccattaatgcaatgcactaaagcaaactaaagcaagcatagtttactatatttactgtacatctgagtttatttcttgtggtggcaagtgactttcccagttgtgggatttataaggtagttggcttcctgaaagatcttgtaaaaggcaagagcaaaattcacttgttttaaaatttaatgataacagaccactttgcattacttaaaacgactgtttaaaatgttcatgaggcaaatatggaaatgtaaggtattctatacagtttgttaaattttatctgactctccagatatgaatgaaaggcagaaatgtgtgtttaaagttgttcatgcctgcctgagtggcttatatttggttatattgccatttgaaaaataaaggtaattgtgacaataaaaatngttttataacagtgtgtattttnatgtaacttttgtggtgaaaaaaatatcagaaggaactattggcccccgngcatcttcactttatcgaatttggccctctttgcaaaaagtttggacacccctg",
+  "length_bp": 2615,
+  "sequence_length_bp": 2615,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "174..2049",
+      "start": 173,
+      "end": 2049,
+      "qualifiers": {
+        "product": "hAT-22_DR_tp",
+        "number": "1",
+        "note": "[Danio rerio]",
+        "translation": "MLFASAPVAGTFLRLLLPWRPQKKKRKVDSEGRRFQERWELQYFFTENRGNCVCLICK"
+      },
+      "label": "hAT-22_DR_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "hAT-22_DR"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001480",
+  "name": "TC5A",
+  "description": "TC5B nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/TcMar-Tc4"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Tc4 | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1608 BP; 533 A; 276 C; 269 G; 529 T; 1 other;"
+  },
+  "sequence": "caagggaagtctttgagggggtccgtagatttggggttctcatgctaaaattcctacagaagagtgttagttatgatctctccaaaaaatttagctgccccggtcaagtttcagcaaagttatgacgttttgaaatttcagttaaaaacaccattgaaatccactgtcttaccatgcaatccacgcaaatctcagcttgcgtgaccaccgaaaatgtgacacccaccacattgagttgaaaaatgtcctcggtggccgagttgggagtgcgcgcgtctgataagatttaagctttggttcgattccttctatttttgaaatatttttgtaagttgaataaagttgtaaaacaactcattcaaacatttttgcgcatttttaaagtgattttattcttattcgggaacctagaatcattgtccgcactttttggaaatttttatttttttcatttttgctcaaaatttcttgatcaactccaagcaaaaaantcaaaaaatttcatttttctaaacaattatgaaattgctatgttgttgttcagaaatgtatgaaacgtacattacacaagttttaactctctattcgcaagtaaaccgtcgaaatgatctacatctcacgaactttgtgcaaaatatttaaccaactttgaagttgcataacttcgttgagataaattattttgaaaaatgatcaactaacaaaatgtttgttgaataacagtgaacaaagttttagttataaactttttgataccttcagccaccaaaaagttgtgaccgttttccaaaacacaatgttaatagaaaaactagccaaatgccaaccttgttttcttctttgtagctggaggtatcaaaaagtttataactaaaactttgttcactgttattcaacaaacattttgttagttgatcatttttcaaaataatttatctcaacgaagttatgcaacttcaaagttggttaaatattttgcacaaagttcgtgagatgtagatcatttcgacggtttacttgcgaatagagagttaaaacttgtgtaatgtacgtttcatacatttctgaacaacaacatagcaatttcataattgtttagaaaaatgaaattttttgaattttttgcttggagttgatcaagaaattttgagcaaaaatgaaaaaaataaaaatttccaaaaagtgcggacaatgattctaggttcccgaataagaataaaatcactttaaaaatgcgcaaaaatgtttgaatgagttgttttacaactttattcaacttacaaaaatatttcaaaaatagaaggaatcgaaccaaagcttaaatcttatcagacgcgcgcactcccaactcggccaccgaggacatttttcaactcaatgtggtgggtgtcacattttcggtggtcacgcaagctgagatttgcgtggattgcatggtaagacagtggatttcaatggtgtttttaactgaaatttcaaaacgtcataactttgctgaaacttgaccggggcagctaaattttttggagagatcataactaacactcttctgtaggaattttagcatgagaaccccaaatctacggaccccctcaaagacttcccttg",
+  "length_bp": 1608,
+  "sequence_length_bp": 1608,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TC5A"
+  ]
+}

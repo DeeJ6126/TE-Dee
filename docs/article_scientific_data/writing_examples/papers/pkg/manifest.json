@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "generated_at": "2026-09-03T15:38:07.035Z",
+  "request": {
+    "topic": "",
+    "title": "Building a PubMed knowledge graph",
+    "dois": [],
+    "pdf_url": "https://www.nature.com/articles/s41597-020-0543-2.pdf",
+    "si_requested": false,
+    "language_override": "",
+    "route_override": "open_access",
+    "source_url": "",
+    "api_fallback_web": null,
+    "api_fallback_web_for": [],
+    "no_api_fallback_web_for": []
+  },
+  "summary": {
+    "total": 1,
+    "downloaded": 1,
+    "seconds": 5.3
+  },
+  "results": [
+    {
+      "title": "Building a PubMed knowledge graph",
+      "status": "open_access_downloaded",
+      "provider": "direct_url",
+      "accessMode": "open_access",
+      "ok": true,
+      "file": "docs\\article_scientific_data\\writing_examples\\papers\\pkg\\PDFs\\Building_a_PubMed_knowledge_graph.pdf",
+      "bytes": 1953358,
+      "sha256": "efdad654fa96b42a528901206f10764e91d2faff28da5e8aec66b419c8481fa2",
+      "contentType": "application/pdf",
+      "format": "pdf",
+      "source": "https://www.nature.com/articles/s41597-020-0543-2.pdf",
+      "si_requested": false
+    }
+  ]
+}

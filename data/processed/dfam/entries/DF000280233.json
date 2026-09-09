@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280233",
+  "name": "PteBra-1.6",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Pteronura brasiliensis",
+  "display_classification": "SINE/tRNA | Pteronura brasiliensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Mustelidae",
+    "Lutrinae",
+    "Pteronura"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 198 BP; 35 A; 61 C; 47 G; 55 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtgggttaagcctctgccttcggctcaggtcatgatcccagggtcctgggatcgagccccgcatcgggctctctgctcagcggggagcctgcttccctctctctctctctctctgcctgcctctctgcctacttgtgatctctctctgtcaaataaataaataaaatctttaaaaaaaa",
+  "length_bp": 198,
+  "sequence_length_bp": 198,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282621",
+  "name": "RhiPru-5.54_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RhiPru-5.54_LTR"
+  ],
+  "species": "Rhizomys pruinosus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rhizomys pruinosus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Spalacidae",
+    "Rhizomyinae",
+    "Rhizomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 124 BP; 22 A; 37 C; 27 G; 38 T; 0 other;"
+  },
+  "sequence": "actcccctggcctccctctctgagaccagtggacccgcccgggagcgtgtcctaataaacctccttttatactttgttaatctggtttgatctggcctgttttgcgtcgggaaaaagcctttca",
+  "length_bp": 124,
+  "sequence_length_bp": 124,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

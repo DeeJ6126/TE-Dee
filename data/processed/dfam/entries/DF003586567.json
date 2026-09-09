@@ -1,0 +1,37 @@
+{
+  "accession": "DF003586567",
+  "name": "ZymTri_2023_family_1222",
+  "description": "Repetitive sequence family identified in Zymoseptoria tritici",
+  "keywords": [
+    "LINE/"
+  ],
+  "species": "Zymoseptoria tritici",
+  "display_classification": "LINE/ | Zymoseptoria tritici",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Fungi",
+    "Dikarya",
+    "Ascomycota",
+    "saccharomyceta",
+    "Pezizomycotina",
+    "leotiomyceta",
+    "dothideomyceta",
+    "Dothideomycetes",
+    "Dothideomycetidae",
+    "Mycosphaerellales",
+    "Mycosphaerellaceae",
+    "Zymoseptoria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 803 BP; 236 A; 210 C; 179 G; 177 T; 1 other;"
+  },
+  "sequence": "agacggccgaacagactgcaccttcacgcggtggccgtcgtaagtaccttcctcggaagggaaaccaagacagtctggaagaaacctcctcgaaaacctctcgaaatccgcccgaaatccttctcgaaatccgcctcgaaacacaagctacaacagaacaacggcacgattcgaacgaatagccctctacgctacgaacgagaagaagaaaagaagaagcagtccactctgccctatacgcgcacctcctcgaaatccgaatcgaaatcgcatgtcccttctctagagacttcgtcgccctcgaaggaagcatacatgcactttaaagagctagaactcggtggaatctacaactctgcgattaacctgcgtagctgtatgcgtttggaagcggcatacagttctacaaaggcatattaaggacaagagaaggcagcgagttggacagctgcttttgcactgcttttgcgcggcattttgcactgcttttgcactcatttcgaattcgcagcgtgcgtgcgaagcggaaggatccgctgaaaattctgcaaaaagcttggcgcgaaaattctgcagccctaggctgcagacaacgacactcgtttgatttcctttgtctcgcgtttntttaaagtcctttggcagtcttgccttaggcacggggtttcccctaaggtcaaagaataccgaaagaatttgattgtaaatagatctactgccttgcctttaggcaaggccgtcctacatagtcttggactccgaaaggacgtaaatggaacaaacaaacaaacaaacaaacaaac",
+  "length_bp": 803,
+  "sequence_length_bp": 803,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

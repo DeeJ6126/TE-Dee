@@ -1,0 +1,48 @@
+{
+  "accession": "DF000276445",
+  "name": "DicSum-5.54",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "DicSum-5.54"
+  ],
+  "species": "Dicerorhinus sumatrensis",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Dicerorhinus sumatrensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Perissodactyla",
+    "Rhinocerotidae",
+    "Dicerorhinus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 473 BP; 132 A; 102 C; 84 G; 155 T; 0 other;"
+  },
+  "sequence": "tgacaagagattttcacatattgaggtatatggggtaactattcgggttcaaaactgattcggcttgaactaaaaagcctgacttatggcctatcaaacatacattgtacatctgctttaaccattaaagtaaagaatgcactctcttaagataagaatgcatacttcccctcctacgccctattggtaacgccctattggtaacgcccggattagtccctttcctgacatcagggtcatgttgacctgctaatttgcaactgaatacctctttgaaactttgatgaaaatgtatcctgggcgtgtttaatgtatgttctttgttctaaaaagatataagactgtactgaaaaccatgcttctccggaacgctttctaaggccttcccgggttataatcctcactctggctcaagtaaaactcaccttatttctcttatctatagaatggttattggttattttgcgtcgaca",
+  "length_bp": 473,
+  "sequence_length_bp": 473,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

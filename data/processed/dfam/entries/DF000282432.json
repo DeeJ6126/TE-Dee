@@ -1,0 +1,47 @@
+{
+  "accession": "DF000282432",
+  "name": "OryAfe-1.313_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OryAfe-1.313_int"
+  ],
+  "species": "Orycteropus afer",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Orycteropus afer",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tubulidentata",
+    "Orycteropodidae",
+    "Orycteropus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1060 BP; 338 A; 188 C; 242 G; 291 T; 1 other;"
+  },
+  "sequence": "attggcgcccgaacagggacccggagcggagcggcgagcgcccgagaggacaccccacttgaaggaaagcggagctccgtaacaagaaaaagggtgagtgtgggtgaattaaataagttttctttaagccaggctgacatggggaattcagnatctcatgaaagggatcgttatatttctgttcttaaagcattagttcaggctagaggtttttcagtgtctaaaaaggagttagaggaatttttgcagtgtgtagatcactgttgcccttggtttcctcaggaaggaaccattgatttaacagcttgggagaccatcggtcaacaaatgaatgagcgtttaaaagaacatgggccggaggattttccagagcgtgtattttctatttggagtattttaaaactgtgtttagaattagataagggaataagtgtgggcatagatcctaaagtgggaaaggagaaaaatgtagatacagattcaaaattaaaagagttaaaattacaagaagaaatagttaaacagaagttagaaactgaaccctcagaagttaaggaagagaagttatatccttccttaaatccatttttaagtcaggctgtttcagctgcaaccatgcctgctagcacttgctctcctccaccttttaaccttttccctccctcagggaagcaagttaactgtttatcatccaccgtgcctcctttatcacctatacaagctatggtgcaaaaggcgagggccatggatgaggacattccattagaattgaaacatgtttttcccttaacagaatacatagatcagcagactaatcaaccgatgcgaggacataaagcattttcttttaaaactcttaaagatttgaaacaagctgctgccacctatgggccaacggcaccgtttgtaaaaaccttaatagaaaccattgctcaagaagttttgtgtccttatgattggtatatgctggctaaaactgcattagagggaggagattatttgatgtggaaaatgtattttcatgatttttgtacagagcaaagtatgagaaatcagcaac",
+  "length_bp": 1060,
+  "sequence_length_bp": 1060,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

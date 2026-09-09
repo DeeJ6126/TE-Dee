@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279860",
+  "name": "PanHod-1.98",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Pantholops hodgsonii",
+  "display_classification": "SINE/tRNA | Pantholops hodgsonii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Antilopinae",
+    "Pantholops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 355 BP; 102 A; 115 C; 89 G; 49 T; 0 other;"
+  },
+  "sequence": "gggcttccctggtggctcagtggtaaagaatccgcctgccaatgcaggagacacgggttcgatccctggtccgggaagatcccacatgccgcggagcaactaagcccgtgcgccacaactactgagcctgtgctctagagcccgggagccgcaactactgagcccacgtgccgcaactactgaagcccgcgcgccctagagcccgtgctccgcaacaagagaagccaccgcaatgagaagcccgcgcaccgcaactagagagtagcccccgctcgccgcaactagagaaaagcccgcgcagcaacgaagacccagcacagccaaaaataaataaataaaattatatttttaaaaa",
+  "length_bp": 355,
+  "sequence_length_bp": 355,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

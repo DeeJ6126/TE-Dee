@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000713",
+  "name": "MER117",
+  "description": "Putative hAT-Charlie DNA transposon, MER117 subfamily",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 197 BP; 34 A; 47 C; 74 G; 42 T; 0 other;"
+  },
+  "sequence": "cagggatggcaaataggtttcatctcgcgtgccaactccgatcgattggtagtggctgcctggagcgctgtgttgagaaggattctgaggccgcgtccgggctcagcgggaaagagtgccgtgatcgattagcgatgtctgccatgggcgcgggaggggggagtggcggcacgcgtgccacgtatttgccatccctg",
+  "length_bp": 197,
+  "sequence_length_bp": 197,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER117"
+  ]
+}

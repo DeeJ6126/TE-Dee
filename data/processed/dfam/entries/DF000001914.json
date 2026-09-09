@@ -1,0 +1,47 @@
+{
+  "accession": "DF000001914",
+  "name": "Lx6_3end",
+  "description": "Lx6_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Muroidea",
+  "display_classification": "LINE/L1 | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1874 BP; 567 A; 389 C; 486 G; 412 T; 20 other;"
+  },
+  "sequence": "aagatccagctataccactcttgggcatatacccaaaggacgctccatcctaccacaaggacacttgctcaaccatgttcattgcngctctattcataatagccagaaactggaaacaacctagatgtccctcaacagaagaatggataaagaaaatgtggtacatttacaaatggagtattactcagctgttaaaaaaannaacatcatgaaatttgcaggcaatggatggaactagaaaaaaatcatcctgagtgaggtaacccagacccagaaagacaaatatggtatgtattcacttatangtggatattagccgttaagtaaatgataaccaagctacaatccgtagacccagagaggttaggtanagagaagggnctagggggacgcatggatctccctgggaaggggaaatagaatagattttacgggtggactgggggcgggtggggacgggaacgggaaggatcaggtganggggagaggggtggagggagagaatgcggggagagacagctggaattgaggggcatttgaggggtggtatggaaacctagtgcagtggaaacttcctaaaatctatatatgaaggcgatcctaatgaagnctccnaataatggggganacggagtcccaactggccatctcttgtcgccaaacgaagcttccagtgncgggactgggttacatccaattgagttgttggccaaaggggtcccatggaaatccccaaacaacccaggctgttgccaagacaataggttgctctccgcaaactgacagcaaggccccattgctgaagacaacacccacacaactcattgaacatggagaagtcgagctggtgcctacatggagccttcacccctacgttctagtntctttggtacgggaaggtactctgcaggctaccaaaagagaaacgtaaacaccaacccagccacaaaacctttgacctacaatnntgtcctgcctgcaagatatgctagggcaatggtggcacaaagcttgtgggagtagccaaccaatgtctgatttgacttaaggcccactccacgagatggaacccatacccgacactgcttgggtgaccaagaaccagagactagatagcccagagacctagggtaaaaccaaatactactggtctaaaaanaaaaaagtagcgataaaatgactcctaatgatattctgctatactcatagatcagtgccttgttcagccatcatcagagaggcttcctcctgcagcagatgggaacagatacagagacccacagccagacattatgcagagatgagagaccttggaacactcagccctaaatgggatgtctccatcaaatccctcccctcagagctcagggaaccccgcggaagaggaggcggaaagantgtaagagccagaggggatggaggacaccaggagaacaaggccctctgaatcaactgagcaaggctcatatgaactcacagagactgaagcagcaagcacagggcctgcacgggtctgcaccaggtcctctgcgtatatattatggctttcagcttagtgtttttatgggactcctgagtgtgngaacgagtgggtctctgattcttgtgcctnctcttgggactcttttcctcctgttggnttgccttgtccaacttcgatgtganggtttttgctttatcttattatattttattttgtcatgtttggttgttatctcttagaagcctgttcttttctaatgagagacagaaagggagtggatccggaggggaggggaggtggggaggaactgggaggagtagagggaggggaaactgtaatcaggatatattgtatgagaaaagaatctattttcaataaaagaagaaagaaa",
+  "length_bp": 1874,
+  "sequence_length_bp": 1874,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,36 @@
+{
+  "accession": "DF003448888",
+  "name": "",
+  "description": "Repetitive sequence family identified in Heligmosomoides polygyrus",
+  "keywords": [
+    "Unknown/"
+  ],
+  "species": "Heligmosomoides polygyrus",
+  "display_classification": "Unknown/ | Heligmosomoides polygyrus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Strongylida",
+    "Trichostrongyloidea",
+    "Heligmosomatidae",
+    "Heligmosomoides"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 217 BP; 39 A; 69 C; 62 G; 39 T; 8 other;"
+  },
+  "sequence": "gcctaaggccccgtttatacttcgncgccgngcgacgcgacgccacgaaagccgccaatatcgatcgnccgcgncgcccgatcgatattggcggctttcgtggcgtcgcgtcgctcggccgcgacgaagtataaaccgggccttagggcccgtttatantccgcgacgcgnagcgatcgagcgacgcgatcgatcaatttggccactntacatgncg",
+  "length_bp": 217,
+  "sequence_length_bp": 217,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

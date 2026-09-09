@@ -1,0 +1,50 @@
+{
+  "accession": "DF003440225",
+  "name": "LTR20_pDis",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR20_pDis"
+  ],
+  "species": "Phyllostomus discolor",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Phyllostomus discolor",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Phyllostominae",
+    "Phyllostomus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 377 BP; 89 A; 102 C; 92 G; 93 T; 1 other;"
+  },
+  "sequence": "tgtcaggatgggcggggtaggacaagtgggaatctagttacaattagcattttggactacaaatatggccgccgtttggactacaagtaatatggcgactgaactctgacccggaagaggtggctgacgtcagaccaggagccaccaatgatatgttgcttctttgttcaccaagaaccaatcctcggctcccgcgcgaagtccagccatataaaactcccagcctttcccttctcccgcgcggtcttttcttagccccttctccgggcggggaaaacgtcgcccgggagcacaaacttccanaataaagctcatctgcctgtttccgtggctaattggctgtttatttcctcggcggggtctaagaaaaccttaca",
+  "length_bp": 377,
+  "sequence_length_bp": 377,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,52 @@
+{
+  "accession": "DF000282829",
+  "name": "XerIna-6.348_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "XerIna-6.348_LTR"
+  ],
+  "species": "Xerus inauris",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Xerus inauris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Sciuridae",
+    "Xerinae",
+    "Xerini",
+    "Xerus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 350 BP; 76 A; 119 C; 69 G; 84 T; 2 other;"
+  },
+  "sequence": "gtaaggtaaaaaacagcccttttgtaattagttttcgcatcccctctctaaaagcccaaggcagttcctgccccagggggttcctctcccgaatcttccacctgggaaaacaaagcctaaccgctcaggttagcacatcaaaagaagaccgctaccgcttatctgccccgccgattttaaagtgaccaatccntagctcgccacgcggtttgtagcgggccctataaaatccctcccncgcgtcccctctctctttttcctctttccttcgcccgggcgcccactcccctgaataaaggatctcctggctgcacagaggtgtccgtgtctggctggccgataccctaaca",
+  "length_bp": 350,
+  "sequence_length_bp": 350,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

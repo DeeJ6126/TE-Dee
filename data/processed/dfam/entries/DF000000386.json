@@ -1,0 +1,42 @@
+{
+  "accession": "DF000000386",
+  "name": "LTR108c_Mam",
+  "description": "LTR108c_Mam (Long Terminal Repeat) for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR108c_Mam"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 519 BP; 113 A; 126 C; 135 G; 144 T; 1 other;"
+  },
+  "sequence": "tgtgtaggatagagttattttacagctggactgggacagctctatgcttatctccggggacgcctggaagtctggcactgactcttggccaagataagggcgagtgggctaactaatgatttataatgtgctgtttaaagttcgaaactcccctggcggcacccagggccggtttgtttattgatggcttacacctggtgtaaccggttanacagcctggcttggctatgtgaccagaggggcataaaagactccgctggaaacttttagggagctctcccgaaaccaagattcatcgcacaaatcttggcggttcaatccggagacgaagcacgtcctcgtgcgaataagaaggaccctggggagctgcgcctggaagtctctcggacccccgatgcttgcctgcactctctttctcctgctgtaccgtatcctttgcctttattaaagccttacgtgagtatgctctgtggagtcttgtgagtcctttcaattatccgaacctgtgtaatctttgca",
+  "length_bp": 519,
+  "sequence_length_bp": 519,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

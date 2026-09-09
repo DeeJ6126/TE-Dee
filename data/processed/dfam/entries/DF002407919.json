@@ -1,0 +1,51 @@
+{
+  "accession": "DF002407919",
+  "name": "Acol_piggyBac_Ele6",
+  "description": "Curated TE family",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Anopheles coluzzii",
+  "display_classification": "DNA/PiggyBac | Anopheles coluzzii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Nematocera",
+    "Culicomorpha",
+    "Culicoidea",
+    "Culicidae",
+    "Anophelinae",
+    "Anopheles",
+    "Cellia",
+    "Pyretophorus",
+    "gambiae species",
+    "complex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1488 BP; 474 A; 266 C; 308 G; 435 T; 5 other;"
+  },
+  "sequence": "gggggcgtccatnaattacgtaacgctcaaagggggggagggggttccctgtagcgttacggtttgttacataggggagagggggggttcacattctgttacgtaacgcaatacaatcctatcactggtcactgacaaatgatcgcccacctgggtaagttttgcacttttatttctttatatcttttgatagggaatacgtgactgtggacggagggccagatgaaaatccacgataccgaaaagtaatcgacgtggcaattcgaaacttccttaaatataaactagatgccctatttctagcgaccaatgcaccaggcagaagtgcctttaaccgcgtagaaagaaggatggcaccattatctcgggaactagctggtctagttttaccacatgatcattatggatcacatctgaacgataaattgcaaactgccgatgtagaacttgaaaagaaaaactaaggtatgcaggagaaacgcttgcagaagtgtggaatgaactgatgttcgatggattccccgtggtatgcgaatatgttgatcctgctgtctctgagatatcaacggattcaattccttgttgggattctaaatggtttgctagccatgtacgctcttcgcagtattttttacaaattgtcaaatgtgcgaatcgtaaatgctgcagtgaacctagaagtagctattttaatgtaatgccggagcaattcttttctgcaccgattcgcatcgaacaaacagatgatggactaaaagctgttaaccccaatttatttgacagcgggtcatatgtttcactttttcttcgaaattccataagcattgctaaaatacttccaaaatcgctgctttcgtttagggagcagccatacgatttatattgcccttctgtccaaaagattatacaaaaccgaatttgtaaaaaatgtgaaatatattttgcatcacatgttttgctaaacgagcatttgagaatgcatgctagccaaggagaagggaaaaaaaccttacttcagaacaaaagaatgatgataggtttaaagaagtaatacacatacataatgaagatgccatatggaatgaagaagatgccaatgtaatcgaaacagatagtgttcccatcataaacattactgaacaattgaagccaatctggcaagatgtctaaaaatgctcaacatatatattatgcgtttctttaattataaattttttatctaactttcctttcattaattaaacattaattttaattaaacattaattaaaacaactctgcatactttataaaagcaatcaaataaaaaaatataaacccatatttttttgtatttgttgatgcaaaaccaaattaagggggggtgttcgatcatgcgttacgtaattttggaaggggggtctcctccaacgttacgntttgttacgntagggggggagggggtcgaaaantcgcaatttcngcgttacgtaattgatggacggcccc",
+  "length_bp": 1488,
+  "sequence_length_bp": 1488,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

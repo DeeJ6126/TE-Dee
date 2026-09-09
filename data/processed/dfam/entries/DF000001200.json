@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001200",
+  "name": "UCON39",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/TcMar-Tigger | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 185 BP; 61 A; 30 C; 40 G; 54 T; 0 other;"
+  },
+  "sequence": "cagtaaaacctcattaattcgaaacgcaagggactagaaaaaatggactttgaattaactaggttcggattatccgatatttttattaaagaacaatagggcatctagtcggctggggaatagcagttgcttcgaattacgcgctattttgaataaaccgatatcggcttaacgaggttttactg",
+  "length_bp": 185,
+  "sequence_length_bp": 185,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON39"
+  ]
+}

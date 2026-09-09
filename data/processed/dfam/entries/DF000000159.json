@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000159",
+  "name": "Helitron2Na_Mam",
+  "description": "Helitron DNA transposon, Helitron2Na_Mam subfamily",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Theria",
+  "display_classification": "RC/Helitron | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 324 BP; 90 A; 55 C; 72 G; 107 T; 0 other;"
+  },
+  "sequence": "ttgaccgaacgaagtgaggtctctgtttcaactcgaccgcttggcattttgcatttgtctgtctgtttgttccatgataactttcgaaggagttgactgattttgaccaaatttggtacactactaaagggtatcaagatacaccttaagttcgatttgtggttcagtctgccatcttgaaacaaaatggcagccgataaaagttttcaaatgggcatatcttctgtaatttttaatagatttcaatgaaatttggtacgtgggtagaggttacagagatatgtgattgcactgagtgaagtctgcagttcacagaaccactag",
+  "length_bp": 324,
+  "sequence_length_bp": 324,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

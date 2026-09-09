@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001454",
+  "name": "PAL8C_2",
+  "description": "PAL8C_2 is a nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/hAT | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 213 BP; 68 A; 38 C; 31 G; 74 T; 2 other;"
+  },
+  "sequence": "ggtacttatgggtttcgttccccccaaaatgntttttaattntctaacactacctttttaattttaatccacacgtgaatgtttattttaatactgttttcatttttacaaggcttagaaaatcatttccctaagcctgagaatgaaaaaaagttcacgtctcaattagaaaatatggaaatcattttggggggaacgaaacccataagtacc",
+  "length_bp": 213,
+  "sequence_length_bp": 213,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PAL8C_2"
+  ]
+}

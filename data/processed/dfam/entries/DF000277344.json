@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277344",
+  "name": "HipAmp-1.203",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "HipAmp-1.203"
+  ],
+  "species": "Hippopotamus amphibius",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Hippopotamus amphibius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Ancodonta",
+    "Hippopotamidae",
+    "Hippopotamus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 184 BP; 31 A; 56 C; 42 G; 53 T; 2 other;"
+  },
+  "sequence": "tccctcacctngcctttaaaaatgctttgctgaaacccttcggggagttcggggctttttagggcgtgagccaccccntctccttgcatggccctgcaataaacctttctctgctccaaactccgacgtttcggtttgtttggcctcactgtgcgtcgggcacacgaacttgcgttcggtaaca",
+  "length_bp": 184,
+  "sequence_length_bp": 184,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="494.28pt" height="311.004pt" viewBox="0 0 494.28 311.004" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-05T22:24:12.802377</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 311.004 
+L 494.28 311.004 
+L 494.28 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 7.2 142.02 
+L 151.742169 142.02 
+L 151.742169 7.2 
+L 7.2 7.2 
+z
+" clip-path="url(#p5ce87a8cf9)" style="fill: #ffffff; stroke: #d7dce8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 7.2 26.0748 
+L 151.742169 26.0748 
+L 151.742169 7.2 
+L 7.2 7.2 
+z
+" clip-path="url(#p5ce87a8cf9)" style="fill: #4967b8; stroke: #4967b8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11.8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="12.981687" y="19.887009" transform="rotate(-0 12.981687 19.887009)">Sequence</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 44.5344)">Consensus length: 6,064</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 56.03172)">bp.</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 67.47354)">Evidence source:</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 78.91536)">Repbase-backed sequence</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 90.35718)">record.</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_4">
+    <path d="M 174.868916 142.02 
+L 319.411084 142.02 
+L 319.411084 7.2 
+L 174.868916 7.2 
+z
+" clip-path="url(#p29d296a3c8)" style="fill: #ffffff; stroke: #d7dce8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 174.868916 26.0748 
+L 319.411084 26.0748 
+L 319.411084 7.2 
+L 174.868916 7.2 
+z
+" clip-path="url(#p29d296a3c8)" style="fill: #3c9a9a; stroke: #3c9a9a; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11.8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="180.650602" y="19.887009" transform="rotate(-0 180.650602 19.887009)">Representative locus</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(182.818735 44.4789)">Representative genome</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(182.818735 55.97622)">locus available in TE-</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(182.818735 67.41804)">KG: chr1:231646101-</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(182.818735 78.85986)">231652225.</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_6">
+    <path d="M 342.537831 142.02 
+L 487.08 142.02 
+L 487.08 7.2 
+L 342.537831 7.2 
+z
+" clip-path="url(#pfbd517f0d1)" style="fill: #ffffff; stroke: #d7dce8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 342.537831 26.0748 
+L 487.08 26.0748 
+L 487.08 7.2 
+L 342.537831 7.2 
+z
+" clip-path="url(#pfbd517f0d1)" style="fill: #c85f6a; stroke: #c85f6a; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11.8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="348.319518" y="19.887009" transform="rotate(-0 348.319518 19.887009)">Disease links</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 44.5344)">Graph relations connect</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 55.97622)">L1HS with cancer,</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 67.41804)">carcinoma, colorectal</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 78.85986)">cancer, lung cancer and</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 90.35718)">disturbed</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 101.799)">spermatogenesis.</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_8">
+    <path d="M 7.2 303.804 
+L 151.742169 303.804 
+L 151.742169 168.984 
+L 7.2 168.984 
+z
+" clip-path="url(#p6692d790c8)" style="fill: #ffffff; stroke: #d7dce8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 7.2 187.8588 
+L 151.742169 187.8588 
+L 151.742169 168.984 
+L 7.2 168.984 
+z
+" clip-path="url(#p6692d790c8)" style="fill: #7f6ab5; stroke: #7f6ab5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11.8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="12.981687" y="181.671009" transform="rotate(-0 12.981687 181.671009)">Literature evidence</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 206.3184)">Disease and regulation</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 217.81572)">claims link back to</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 229.25754)">PMID-level records.</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 240.69936)">Literature nodes are</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 252.14118)">evidence records rather</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 263.583)">than entity-composition</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(15.149819 275.08032)">counts.</text>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_10">
+    <path d="M 174.868916 303.804 
+L 319.411084 303.804 
+L 319.411084 168.984 
+L 174.868916 168.984 
+z
+" clip-path="url(#pd2d12d455b)" style="fill: #ffffff; stroke: #d7dce8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 174.868916 187.8588 
+L 319.411084 187.8588 
+L 319.411084 168.984 
+L 174.868916 168.984 
+z
+" clip-path="url(#pd2d12d455b)" style="fill: #65a765; stroke: #65a765; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 11.8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="180.650602" y="181.671009" transform="rotate(-0 180.650602 181.671009)">Expression context</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(182.818735 206.3184)">Expression summaries can</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(182.818735 217.76022)">be inspected across</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(182.818735 229.20204)">normal tissues, normal</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(182.818735 240.64386)">cell lines and cancer</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(182.818735 252.08568)">cell lines.</text>
+   </g>
+  </g>
+  <g id="axes_6">
+   <g id="patch_12">
+    <path d="M 342.537831 303.804 
+L 487.08 303.804 
+L 487.08 168.984 
+L 342.537831 168.984 
+z
+" clip-path="url(#p8e58a46fb5)" style="fill: #ffffff; stroke: #d7dce8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 342.537831 187.8588 
+L 487.08 187.8588 
+L 487.08 168.984 
+L 342.537831 168.984 
+z
+" clip-path="url(#p8e58a46fb5)" style="fill: #d89c3a; stroke: #d89c3a; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 11.8px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="348.319518" y="181.642431" transform="rotate(-0 348.319518 181.642431)">Assistant synthesis</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 206.3184)">The assistant retrieves</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 217.76022)">and organizes database</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 229.25754)">evidence, but it is not</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 240.69936)">an independent</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 252.14118)">scientific evidence</text>
+    <text style="font-size: 9.6px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1e2a3a" transform="translate(350.487651 263.583)">source.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5ce87a8cf9">
+   <rect x="7.2" y="7.2" width="144.542169" height="134.82"/>
+  </clipPath>
+  <clipPath id="p29d296a3c8">
+   <rect x="174.868916" y="7.2" width="144.542169" height="134.82"/>
+  </clipPath>
+  <clipPath id="pfbd517f0d1">
+   <rect x="342.537831" y="7.2" width="144.542169" height="134.82"/>
+  </clipPath>
+  <clipPath id="p6692d790c8">
+   <rect x="7.2" y="168.984" width="144.542169" height="134.82"/>
+  </clipPath>
+  <clipPath id="pd2d12d455b">
+   <rect x="174.868916" y="168.984" width="144.542169" height="134.82"/>
+  </clipPath>
+  <clipPath id="p8e58a46fb5">
+   <rect x="342.537831" y="168.984" width="144.542169" height="134.82"/>
+  </clipPath>
+ </defs>
+</svg>

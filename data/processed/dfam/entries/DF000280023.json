@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280023",
+  "name": "PhoPho-1.230",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "PhoPho-1.230"
+  ],
+  "species": "Phocoena phocoena",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Phocoena phocoena",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Phocoenidae",
+    "Phocoena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 630 BP; 167 A; 172 C; 152 G; 139 T; 0 other;"
+  },
+  "sequence": "tgaaaccgagcaggaccctgtggggctcctgggcacggaagcctttctgtgtcccccgtttcttgtttgtagggaataggcttcagcctccatgaccttccctgagttccaaagggcaggttcaaacagttgctaatcagggaagggaggggatgcagagacaagggaggagcagtcaagaaacaatagtgcagccttggggcagggtcctggttccgcctcaagggatacacataacaatatctttgagctcttctgcagaactaaaacccccaacaaatggaagatgttaactacttgatgaagcattcttcattccagagagaaggtcacagtttgataacctcgagaaccacagaagctcatcaggagaccacctgaggccagattaaaggagtgcaggccctgcacacaccctgatccttatcagcaaccccgcccttgaaccattgctataaaactcctcaccaaatccccccgggttgggacacacagtttttgagggcacgagcccgctgtgtccccctttgcctggcaaagcaataaagctattcttttctacttcacccaaaactctgtctccgagattcgattcggcaccggtgcacagaggccgagttttcggcatca",
+  "length_bp": 630,
+  "sequence_length_bp": 630,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

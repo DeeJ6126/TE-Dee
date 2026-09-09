@@ -1,0 +1,46 @@
+{
+  "accession": "DF000275707",
+  "name": "ChrAsi-1.14",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-RTE"
+  ],
+  "species": "Chrysochloris asiatica",
+  "display_classification": "SINE/tRNA-RTE | Chrysochloris asiatica",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Chrysochloridae",
+    "Chrysochlorinae",
+    "Chrysochloris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 157 BP; 41 A; 44 C; 44 G; 28 T; 0 other;"
+  },
+  "sequence": "tggagtcctggtgtggcgctgtaggataagcactggaccgcaaggtcggtttgaaccgcaaggtcggcggttcaaactcaccagccgctcctcggaaaccctatacagggtcgctatgagtcggaaccgactcgacggcacttaacaacaacaacaa",
+  "length_bp": 157,
+  "sequence_length_bp": 157,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF003440185",
+  "name": "LTR11_mMol",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR11_mMol"
+  ],
+  "species": "Molossus molossus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Molossus molossus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Molossidae",
+    "Molossus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 284 BP; 64 A; 92 C; 71 G; 57 T; 0 other;"
+  },
+  "sequence": "gagaaggcaagccaggtgcagccccttaggcagtgcagagaccccgcccctggcttttgtaattcccttacatccgccaaccgcctaaactacagcggaactagaaagcccccaaatacccggaggcttatcatgtataaaaggcggctggaacccgggctcggggctcagcctttggaggtgactccgctgggccagcaccggtgcgcattaaacagtccttttctaatcctccgagtgcgtgcagtctgtctcttcccgccgaccgaatttctgccacaaca",
+  "length_bp": 284,
+  "sequence_length_bp": 284,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

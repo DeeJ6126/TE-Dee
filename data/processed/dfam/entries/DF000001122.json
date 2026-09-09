@@ -1,0 +1,54 @@
+{
+  "accession": "DF000001122",
+  "name": "X9_LINE",
+  "description": "L1 retrotransposon, X9_LINE subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Amniota",
+  "display_classification": "LINE/L1 | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 936 BP; 259 A; 183 C; 252 G; 239 T; 3 other;"
+  },
+  "sequence": "taattttttatgatantagttcttggaagataaagataccntacaatgcctaaaaataaacctggatccgctaaagattcggcattttgctcccaagcttccgctagccgggagacgggcctgtctgctttcggtttcacaccatcgggaggtacagatttgacttatcaaacgatgtcggatttacttagtaagaactcggcggatattagtaaaaggttggacgcgattcaggctacaatggctgcaacggataagaagtttgaaagctttggttcaagactgcaggaggctgagaggaaaattgaagacacggagataacgatcgatggacacgacgctattctaactgagaataccaaagactgtaaagcgctgagaaatcgaattgatgacctggaaaacaagctcagattaagaaatgtcaggttggtaggggttcctgaaggcgcggagacgagagaagctgagatatttttttcgcaatggattatgaaggtgctggggatggataattttgaactccctctacaatgcgtcgtggcgcgtcatatccctgggaaggccaatcaggcaacaccccgcacggtncttgcggaatgtgcagctcttggaacgaggaacaacgttttgaaattggcacgtaaatctgagtccagttttcagggttcaagaatcttattttatccggattacagtcctgttcttcttcggcgtcggaaggcgtttgtgactgttaaaacgagaatgaaaaatatgggcctggaatacgcgttgctttatcctgccaggctgagggttcgctgtggaggccagacatatgtctttctttctcccacggatgctacagcgtttctggataagaaggaggcagactgcgcccgaacggtggaagaaatggcttcggaggactccggcacgaagagcgtattcttt",
+  "length_bp": 936,
+  "sequence_length_bp": 936,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "45..936",
+      "start": 44,
+      "end": 936,
+      "qualifiers": {
+        "product": "X9_LINE_gag",
+        "number": "1",
+        "note": "[Amniota]",
+        "translation": "MPKNKPGSAKDSAFCSQASASRETGLSAFGFTPSGGTDLTYQTMSDLLSKNSADISKR"
+      },
+      "label": "X9_LINE_gag"
+    }
+  ],
+  "repbase_aliases": [
+    "X9_LINE"
+  ]
+}

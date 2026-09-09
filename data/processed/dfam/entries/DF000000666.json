@@ -1,0 +1,33 @@
+{
+  "accession": "DF000000666",
+  "name": "tRNA-Tyr-TAC",
+  "description": "tRNA-Tyr (decoding TAC) gene / pseudogene",
+  "keywords": [
+    "tRNA/"
+  ],
+  "species": "Vertebrata",
+  "display_classification": "tRNA/ | Vertebrata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 74 BP; 14 A; 18 C; 24 G; 18 T; 0 other;"
+  },
+  "sequence": "ccttcgatagctcagctggtagagcggaggactgtagatccttaggtcgctggttcgattccggctcgaaggac",
+  "length_bp": 74,
+  "sequence_length_bp": 74,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "tRNA-Tyr-TAC"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277143",
+  "name": "GirTip-1.28",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA-Core-RTE"
+  ],
+  "species": "Giraffa tippelskirchi",
+  "display_classification": "SINE/tRNA-Core-RTE | Giraffa tippelskirchi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Giraffidae",
+    "Giraffa"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 202 BP; 44 A; 52 C; 59 G; 47 T; 0 other;"
+  },
+  "sequence": "gggcttcccttgtggctcagctggtaaagaatccgcctgcaatgcgggagacctgggttcgatccctgggttgggaagatcccctggagaagggaaaggctacccactccagtattctggcctggagaattccatggactgtatagtccatggggtcgcaaagagtcggacacgactgagcgactttcacttcacttcactt",
+  "length_bp": 202,
+  "sequence_length_bp": 202,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

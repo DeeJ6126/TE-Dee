@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277486",
+  "name": "HyaHya-1.130",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Hyaena hyaena",
+  "display_classification": "DNA/TcMar-Tigger | Hyaena hyaena",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Hyaenidae",
+    "Hyaena"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 731 BP; 185 A; 148 C; 144 G; 254 T; 0 other;"
+  },
+  "sequence": "cagtaaaaccttggattgcgagtaacttgttctgcgagtgttccgcaagacgagcaaacatttctaataaattttaacttgataaacgagcgatgtcttgcaatacgagtagtacgtgacgccgaacgtcacatgatcacaactgagccaatggctctctctctctctctcgctgcgggattgtggtctcaggccgcggtgtttggcagaaatcagtgatttttcagaacgttggaaggtgcccacaactggcactagtgtattttttgtcacttcaaagcacctatggacagtcctttgcttttccatacaagagtaagcttaggaatgctttgcttcattctaggtcaggctgcctgcagatatagaccctttcctctgctgccttattgccagttacattaaatacagtatatgattccgttagtgatagtgaaagtcgtcctacacaataaccctcctctctcttgtctccctcacaccagccacgaaggttttcaaaggtaagtgcaggttaatttgtttatttttctttatattttgtattttctttattattttgtattatattacagtattgtaatcatttttatatgaatatttttgggttgtggaacgaatcatctgagtttccattatttcttatggggaaattcgctttgatatacaagtgctttggattacaagcatgtttccggaacgaattatgctcgcaaaccaaggttttactg",
+  "length_bp": 731,
+  "sequence_length_bp": 731,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

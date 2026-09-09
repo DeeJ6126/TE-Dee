@@ -1,0 +1,45 @@
+{
+  "accession": "DF000001791",
+  "name": "ID2",
+  "description": "ID2 subfamily",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Rodentia",
+  "display_classification": "SINE/ID | Rodentia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 83 BP; 19 A; 21 C; 29 G; 14 T; 0 other;"
+  },
+  "sequence": "ggggctggggatgtagctcagtggtagagcgcttgcctagcaagcgcgaggccctgggttcgatcctcagcaccgcaaaaaaa",
+  "length_bp": 83,
+  "sequence_length_bp": 83,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

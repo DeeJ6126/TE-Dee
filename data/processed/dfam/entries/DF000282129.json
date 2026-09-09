@@ -1,0 +1,48 @@
+{
+  "accession": "DF000282129",
+  "name": "ManPen-6.133_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ManPen-6.133_LTR"
+  ],
+  "species": "Manis pentadactyla",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Manis pentadactyla",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Pholidota",
+    "Manidae",
+    "Manis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 353 BP; 79 A; 66 C; 101 G; 107 T; 0 other;"
+  },
+  "sequence": "tgtgggtaaaattgtaacatttccagaatatctcgcctggctttagtacatctgcatatcaataggcgttcagaggtggaaagaagtatggctttagtgcatttgcatctttcctcaggggtggagaagttcatctccatatcaatgggtgattacctgggcaacggagggcttatctgtacctgagaggtgagggggagggccggtgttgttgctgctggagcaggagaagagagacggcccgggactgcagtttgtgagcaataaacgggttttaaactttatttctccctttgactgatttcggtttttagaggtattttgccccgggatttcctttccccggacttaca",
+  "length_bp": 353,
+  "sequence_length_bp": 353,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

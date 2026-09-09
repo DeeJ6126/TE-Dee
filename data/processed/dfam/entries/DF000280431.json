@@ -1,0 +1,51 @@
+{
+  "accession": "DF000280431",
+  "name": "RhiPru-5.12",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Rhizomys pruinosus",
+  "display_classification": "LINE/L1 | Rhizomys pruinosus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Spalacidae",
+    "Rhizomyinae",
+    "Rhizomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3269 BP; 1326 A; 664 C; 606 G; 661 T; 12 other;"
+  },
+  "sequence": "aaaaaacagaaagggaacaaataaacgatctaacactgcagctaaaaacacttgagagacaacaacaaatgaaccctaaacccaacagacaggaagaaataacaaaaatcagagcagaaatcaatgaaatagaaacaaagaaaacaatacanaaaatcaatgaatccaaaagctggttctttgaaaagataaacaaaatagacagacctctagcccagttaaccaaaagaaagagagagcaactccaaatcaatagtattcgtgatgaaaggggaaacatcacaacagacaaagaaaagatccagacaatcatacgggaatacttcaaaaacctatactccactaaatttgaaaacctaagagaaatggatgaatatctgaaatcctgggaaccaacaaagcttaaccaagaagagattgacagtttaaacagacccataatatttgaggaaattgaagatgtaatnaaaaacctcccaactaaaaaaagcccnggcccagatggtttcacggcagaattctataaaacatttaaagaggtcctacaaccattgctactcaaactgttcagaaggatacaaacagagggaattctcccaaactccttctatgaagccagcatcactctaataccaaaaccaggcaaagacgcaagcaaaaaagaaagctatagacccatctcactaatgaacatagatgcaaaaattctcaacaaaatacttgcaaatcgcatacagacccacatcaaaaagatcatccatcatgaccaagttggattcataccagagatgcagggatggttcaacatacgtaaatcaataaatatcataaaacacataaatggactgaaagacaaaaaccacacgatcatctcaattgatgcagaaaaagcctttgacaagatccagcatcccttcatgtttaaagtcctagagggaatnggactgaagggaacattcctcaacgtgatcaaagccatatatagcaaacccacngccaacatcatcctaaatggagaaaaattggaaccatttcccttaaaggcgggaacccggcaaggctgccccctatcgccactcctcttcaacatagtgcttgaaacgcttgctagggcaataagacaagagaaggaaattaaaggagtactaatcggaaaagaggaagttaagctatccctttttgcagatgatatgatagtttacctaagggatgctaaaaactccaccagaaaactcctagaaatgattaagagtttcagtaaagtggcgggntacaaaattaacctagaaaaatcagtagcctttctttacaccaacaataagcaagtggagaaggaatataaggagaccttcccactcacaatagcctcaaaaataataagatacctgggaacaaacctaaccaaagacaccaaagacctctacaacaaaaattttaaacccctgaagaaggagattgaaaatgacatcaaaagatggaaagacctcccatgctcatggattgggaaaattaatatagtaaaaatgtccattttacccaaattgatatacagattcaacgcaatcccaatcaaaatccccatgagcttcttcacagacttggaaaaaaaatccttaaattcatatggaaaaacaaaagaccccgaatagctaaagcaaccctgagtgaaaaatgcaatacaggggggattgccctaccagacttcaaactatattacagggccatagtcataaagacagcctggtactggcacaaaaacagacccgttgaccaatggaacaaaattgaagatccaaacttgagctcatacaatttcagccacctcatatttgacaaaggggcaaaaaancctcaatggaggaaggatagcatcttcagcaaatggtgctggcaaaactggatcaccatttgtagaagaacaaaattaaacccctacctctcaccctgtacaaaaatcaactccaagtggatcaaagatctcaacgtgaagcccgaaaccctgaaggtgatagaagaaaaagttggcaacaacctacaagacataggcgtaggaaaagactttctaaatcagacagcagctgcacaggaagtaaggtcaacagttgacaaatgggacctcatnaaactcaaaagcttctgtacagcgaaagaaacaatcaaggaagtgaagagaaaacccacagagtgggaggaaatcttcaccagtgatacatctgacagagcattaacgtcaagaatatataaactactcaaaaaacaaagaagtaagaagacaaatgacctactcaaaagatggagtaaagagctgaacagagncttcaccagtgaggaattaaagatggctgagaaacatcttaaaaagtgttcaacatcattaataattaaggaaatgcaaattaaaaccactctcagatatcatctcactccaatanggctagctaagatcaagaaaacaaaagacancagatgctggagaggttgtggggaaaggggaacactcatccactgctggtgggaatgtaaacttgtacaaccactatggaaagcagtgtggagaacccttaaaagactcggaatgagcctaccacctgacccagtcataccactcctgggtatataccccaaagactcatcctaccgcaaagatacatgcacatccatgtttattgcagctctcttcacaatagcgaagagctggaaccaacccaaatgcccctcaacagacgagtggatgacaaaaatgtggtacatctacacaatggagtactattcagcggtaaagaaagatggcatcatgaactttgcaggtaaatggatggagctcgaagccattatgctgagtgaagtaacacagtcccagaaagacaaaggagaatggtttccctcatttgtggatgctaacaccaaatcccccagatgaaaggcaagctgaacgacattattgttatatttctgtttatctgaaagcaactatgttgttataatgtgaatctctcaacgggctctagaatccacccaccaattattttcagactctgtaattactgtatatgggtggagagtatgtatccatattttagagtaatataaaattaatggaggaaaatgtgaattcctaagcataaaaaaagactgagagaaagatgcaggacagttatggcagaatgcatgatctggggtggggtggggtggaagggaaaggggaatatgcctgaactgaattgaaaaatgatgtatgaaatacacaaaacatcaataaaaaaanaaaa",
+  "length_bp": 3269,
+  "sequence_length_bp": 3269,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

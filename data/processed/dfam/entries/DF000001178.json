@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001178",
+  "name": "UCON100",
+  "description": "DNA transposon conserved in all mammals.",
+  "keywords": [
+    "DNA/hAT-hAT19"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/hAT-hAT19 | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 122 BP; 30 A; 23 C; 18 G; 47 T; 4 other;"
+  },
+  "sequence": "ttgtgtttatattntttttctattaatccgtgacaaaccgtgaaatttgncattttcgccgtgaccaacccatgaaatttgtcanctttntccgtgatttacacggagccttagttataaat",
+  "length_bp": 122,
+  "sequence_length_bp": 122,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON100"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000276000",
+  "name": "CroInd-1.1",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Crocidura indochinensis",
+  "display_classification": "SINE/ID | Crocidura indochinensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Soricidae",
+    "Crocidurinae",
+    "Crocidura"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 177 BP; 38 A; 58 C; 58 G; 23 T; 0 other;"
+  },
+  "sequence": "gggccggagcgatagcacagcggtagggcgtttgccttgcacgcggccgacccaggacggacccgggttcgatccccggcatcccatatggtcccccgagcctgccaggagcgatttctgagcgcagagccaggagtaacccctgagcgccgccgggtgtggcccaaaaaaaaacaa",
+  "length_bp": 177,
+  "sequence_length_bp": 177,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

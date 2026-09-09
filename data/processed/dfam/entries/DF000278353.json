@@ -1,0 +1,46 @@
+{
+  "accession": "DF000278353",
+  "name": "MicHir-4.465",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Nesogale talazaci",
+  "display_classification": "DNA/hAT-Charlie | Nesogale talazaci",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Oryzorictinae",
+    "Nesogale"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 201 BP; 50 A; 52 C; 50 G; 49 T; 0 other;"
+  },
+  "sequence": "caggggtgtccaacccgcggcccgcgggccgcatgcggcccaggatggctatgaatgcggcccaacacaaaatcgtaaatttacttaaaacattatgagatttttttgtgattacgtgtcgcaatgtatttaatgtgtggcccaagacaactcttcttcttccagtgtggcccagagacgccaaaaggttggacacccctg",
+  "length_bp": 201,
+  "sequence_length_bp": 201,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

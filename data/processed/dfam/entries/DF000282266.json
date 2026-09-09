@@ -1,0 +1,50 @@
+{
+  "accession": "DF000282266",
+  "name": "MyoCoy-5.528_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MyoCoy-5.528_LTR"
+  ],
+  "species": "Myocastor coypus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Myocastor coypus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Myocastoridae",
+    "Myocastor"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 445 BP; 98 A; 101 C; 119 G; 126 T; 1 other;"
+  },
+  "sequence": "tgttatggtttatgtctagttgtccccccaaagcctcatgtagtcattgggcggggacttctagagtttgagacttgatccatgatccctgggattatgggttttagtactgatgggattatgggtngaagtacttctgggattatgggtgtagcctaaggcgggggctaaggcggagagcctgaatgtaatataaagagagacagagagacagactcgagctgttgctgctgctctgctgccctgtttggttggctacctctgccgccattttgttgctgttccgccgccatgaactggatgctctccgccctgctccactcagccttgggccagccgaatatggactgaaacctccacgaactgtgagctaaataaacctttccttccttcattttgagtgtcgggtatttgtcccagcaacgagcaaaaagtaactaagaca",
+  "length_bp": 445,
+  "sequence_length_bp": 445,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

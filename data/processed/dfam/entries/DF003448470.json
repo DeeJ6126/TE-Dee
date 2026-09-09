@@ -1,0 +1,36 @@
+{
+  "accession": "DF003448470",
+  "name": "",
+  "description": "Repetitive sequence family identified in Heligmosomoides bakeri",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Heligmosomoides bakeri",
+  "display_classification": "DNA/TcMar-Mariner | Heligmosomoides bakeri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Strongylida",
+    "Trichostrongyloidea",
+    "Heligmosomatidae",
+    "Heligmosomoides"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1291 BP; 371 A; 294 C; 292 G; 334 T; 0 other;"
+  },
+  "sequence": "tattaggttggtgcaaaaataatggccgttttcgtacttgctatgtttcagcattgataattaaacaaaatcttaaacgaatgcagtcatgttatacatcgttagaaagcacatttttcgcgctatcgtacgaaattattaccgtttctctatcaccatttcttcggtgatttcggatcgcttgcgaagatgctgtcaaaacgggaaattcgcgtcgttttgcttcacgagttcaaactcggccatagtgctgcggaagcaactcgaaatgtcatcaacgcatggggtgaggacaccacatctgaacgtaccacgcgtagatggttcgagaaattccgagctggagacttcagtctcgaagatcgggagggacgcggtcggctatcggaggttgacaacgatgagttgaaggcaatggtagatgccaacccaagaacatccacaagagaaattgctgaagagctaaacgttgaccacgcaaccgtagcacggcatttgaagaaaattggaaaggtaaaaaactcgataagtgggtgccgcacgagttgaccgaacatcagcaatctcgtcgtctcgaagtgtgttcgtctcttcttttgcgcaacaaaagcgatccttttctggaacgtattgtgacgtgtgacgaaaaatggattctctacgacaatcgacgacgttcaggtcaatggttggaccacgacgaagctccgaagcatttcccaaagccggcattgcaccaaagaaaggtcatggtgactgtttggtggtcagcagccggtttgatccaccacagcttcctggctccgggcgaaaccatcacagcggagaagtactgtgaggaactcgacaaaatgcaccaaaaattgcatcgaatttacccggcattgatcaacagaaaaggtgtaatcctactccatgacaacgcccgaccgcacgtttcattgatgacaacaaaaaagctgattgagttgggatatgaaactctcgaccatcctccatactcgccagacctttctcctacagactatcactttttcaagcatctcgacattttcctgcgcgagaaatgcttccgaaaccaagacgatgcaaaaaagggcattcgacgatttcgtcgcctccagaactccagaattttacgctgctggaatatctaaactagtttctcgttggcagaaatgtgttgattcttttggtggttatttcgattgaaaagctttcctttggagcgagttatagtatttcaaagtagttgcttcaaaacggccattatttttgcaccaccctaata",
+  "length_bp": 1291,
+  "sequence_length_bp": 1291,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

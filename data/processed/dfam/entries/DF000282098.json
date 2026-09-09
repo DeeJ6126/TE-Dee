@@ -1,0 +1,49 @@
+{
+  "accession": "DF000282098",
+  "name": "LepAme-6.1725_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LepAme-6.1725_int"
+  ],
+  "species": "Lepus americanus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Lepus americanus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Lagomorpha",
+    "Leporidae",
+    "Lepus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1450 BP; 348 A; 444 C; 360 G; 297 T; 1 other;"
+  },
+  "sequence": "tctggcgcgccaacgtgactgagagagagacagcgtgtcggactcggcgaggtcccccctggatttcggcaagtaggcccctcggtgttttgtgtgctgttcggttctgtgagggtgagcacagaaccccctcctacgcccctttccttgtccttgtcctcggtctaagtgaccccaggttaggcacacaccgcccagaagcgtaacgccgcttctcggctcctccttttactttcggttcgcccggcgaattcacataagggactgatcatcccagaattcggaaccaagtcatcttccctcactcgagagaggtgacgctccggagacaccgtgtgggcatacggccttgacctaacgaatcaaggaagtcccccactaagcacaggacatacgtacgatctgatacaccactgtctgttcgtctaacgtagggaaccccctgcagaatgccatcagccgctgaggtgctaggaatttgctttgttatggcagcagtgctgtgcgtgtctttcctttggctagagttggcgtggcgcgccgctcttaagcgctcaaacatgggaaagatacccccctctcagaancccacgcagattaccaaacataatgaatctgtgagtgataagagcctgtcactccaggcctctgcctcacaggcaacagttgatgacttagggagagagagctccgacagtgaaaatgacatgacagcagacaacgcagcaatgcctagtcagccaccccccaaatacccgtgggatgaacttagacgacctcgaggcgataacccatgcgaggtcatcccatccgcacccagtgaggatccccacatttgtggcagtccccgggcaccccaggctctcagggcagccgctagaccccatcccacccgcatgtttgccgttaatgtaggagcggacgcagaattcaggccctggattccaacgcccgtaaaaaggcttctgctaaccaagggccgaggatatgcttgtgtctttccagagaatgcgggacagcccatttgggtaccagccagaaacatcaagcctgcaactgacagccaaccagaaccagctgaacaagactgagagtccgccttgttagcggacgcacctgccctatcatcctaccctgaggaactgcccatagccacatccgctactgctttataccccactagctctggtcagccactcaaacggcccacagcctgtgtgcggtcacgccattcctgattaccattgttcctcattcctacccccatctgagcaagcactcctgtggtctcccgttttgagcgctggttagtcaacgacgggtaagatcccctgggggacaacctaagacaggcacagccgcgtacggagaccacatggaaacggggtcaacaatggtatggccaagaatcatgcctcccgttgctcaaaaataaacgaaaagggggaaa",
+  "length_bp": 1450,
+  "sequence_length_bp": 1450,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

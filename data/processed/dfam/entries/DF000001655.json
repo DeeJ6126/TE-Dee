@@ -1,0 +1,69 @@
+{
+  "accession": "DF000001655",
+  "name": "Invader4_I",
+  "description": "Invader4_I is an internal portion of Invader4 (LTR/Gypsy).",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "Invader4_I"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "Long terminal repeat of retrovirus-like element | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2383 BP; 756 A; 405 C; 600 G; 622 T; 0 other;"
+  },
+  "sequence": "tcagaagtgggatcgccttcgccacgagagaccagatctgatcagtatatggctgcgttggaggcacaaaaccgtaacctcatggaaataataagaaccatgcacgcaccgagagcatcggcgtcaaatgaaaagtccttgcacgtcgcactgccaaaattctgcgctgacagcgctggagcagatccatctgcatggtgcaccaccgtggatttaatctttgcagataatgcgcttgtaggcagtgcactcgtaatagcgttaagcaaagcattagaaggcagtgcatcgcaatggctgtcgcagatatgcttcgctggcatcacgtggccgcagtttaaagaactgttcatacagcgattcgtaggaatggagacgtcggctgctattttgatgaacgttttgaacggacgtccaacacctggagagagctttgcccagtatggaagtcgcattgtcaccttgttgctgtctaagtggaaggccaaggatttggaggagattgcggtttcggtagcgttggctcacatggcacaaatcgataataatttgttgcgttgggtgtttacgactaatgtggctacgcgcaatgagcttcagcaacaactgcaagcttacgccttcaagaaacgtaacaacgaagatgattctggcccagaaaaaaagttaagaatgcagttgcagaccatgtgccatttttgtgggaaagctggccacaaattcgccgaatgccgtgctcgaaaggaaggtacatcaaacacaaaaggaagaaactacagcgaaagcaacacgcctgggttaaaagatcgttcgaacataaaatgttttaaatgcgacgaaatgggacatgtggcgtctgtatgtcccaaaggccacaacaaatacatcgaaaagcgagttgacgtgtgcgaaactaagtgagccaagtggactgtgtttttcaattgggtgagccctttccattttttttttgattcggacgccgaatgttctttaataaaattaaaataaattaagtaacaaattgacatattggtttcgttttattgattaaatctaataaatttagtatgtacaaatccaaagttatcaaagccgttcaaaataatgcacatgagaatagtttggaaatactctttgacatcaatatagaagtaagcgataatgataaatgtaaattaagaaatatattggaaaagtatgccgatagtttcgtaactggaataccaaataaggcgcattgaaaattcgtttaagtaataaaaataaaagtgttcaagggcgcccatagcgactcagtttccattgctacagattttggatcaaatagatcgtttgcggtgtggtaaatatttttttcatttgttttagacatggccagcggattctatagaagagtcaagtatgtctttccttagagctcccagtcgcatcatagtggatcaaggcagaagctttgtcagcaacaagttccgtgagctttgttcaacaaacaggattgagttgttttcaatagctacagatgccagcagagcaaatgggcaggttgaaaacaaatgagcgtacaagcaaggaaaacatgcgaaaggatgtagagtagttcggtatgaggtcatgtgttaagtgagaagtatcatcgagtgattaatgtactagatggtcatcgacacaatttgaagtcgttagttatcaagcgaacatataaatattcgcatgaatgtaatggtgactcccaacagagaaaagagttgaaggatggcactagtgatcgtgcatctgtgtcccaagagagaaaagagtttaaagatggcactagtgatcgtgcatctgtgtcccaagaaaggaaacatttggcgaacgttatgaatagaatggcgtgtgaccgcactataacagctaactcgcagggacgagaagtgttatggcgggggtcaagtgatgatgactgcactataacagctaactcgcagggacgagaagtgttatggcgggggtcaagtgatgatgactgcactataacagctaactcgcagggacgagaagtgttatggcgggggtcaagtgatgatgactgcactataacagctaactcgcagggacgagaagtgttatggcgggggtcaagagattgggtgtgagagaagacacgccaatgttattatgagaaattaaagtcatggaaaatgtaaatagtttgaagttttgatatgtaaattggagatgtctttgtaaaagaaaaatcagtcatgagatgaattgtcaattaaataattactgattattacttgttgtcattaattgttcttaagttgacgaagttgtgtgacttggacttgattggtggattaggcacacgaggacgtgtgaaaggtcaggaaggccg",
+  "length_bp": 2383,
+  "sequence_length_bp": 2383,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "48..918",
+      "start": 47,
+      "end": 918,
+      "qualifiers": {
+        "product": "Invader4",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "MAALEAQNRNLMEIIRTMHAPRASASNEKSLHVTLPKFCADSAGADPSAWCTTVDLIF"
+      },
+      "label": "Invader4"
+    }
+  ],
+  "repbase_aliases": []
+}

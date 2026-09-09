@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001463",
+  "name": "PALTA5_CE",
+  "description": "PALTA5_CE is a putative nonautonomous DNA transposon",
+  "keywords": [
+    "DNA/TcMar-Tc1"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "DNA/TcMar-Tc1 | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 352 BP; 98 A; 74 C; 74 G; 98 T; 8 other;"
+  },
+  "sequence": "tatctcaaaaactagaagagctatcaaaaagttgtcaactaacaaaatgtagcncttaaaattttctacattttgttagttganaactttttgatagctctnctccccgcggagatacgcgcgtttaaagttttgagaggcgagagagtgtgggggaggggagacgcagngcgcgcgcgccgcctgcgtctcccccccccccacactctctcgccnctcaaactttaaacgcgcgtatctccgcggggagnagagctatnaaaaagttttcaactaacaaaatgtagaaaattttaagngctacaatttgttagttgacaattttttgatagcttttctagtttttgagata",
+  "length_bp": 352,
+  "sequence_length_bp": 352,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "PALTA5_CE"
+  ]
+}

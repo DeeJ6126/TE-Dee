@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276078",
+  "name": "CryFer-1.2",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Cryptoprocta ferox",
+  "display_classification": "SINE/tRNA | Cryptoprocta ferox",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Eupleridae",
+    "Euplerinae",
+    "Cryptoprocta"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 229 BP; 51 A; 65 C; 55 G; 58 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccggcttcggctcaggtcatgatctcacggttcgtgggttcgagccccgcgtcgggctctgtgctgacagctcagagcctggagcctgtcttcggattctgtgtctccctctctctctgaccctcccctgctcgcgctgtctctctctgtctctcaaaaataaataaaaaacataaaaaaaaattaaaaaaaaaaaa",
+  "length_bp": 229,
+  "sequence_length_bp": 229,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

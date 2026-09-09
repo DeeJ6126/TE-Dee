@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279178",
+  "name": "MyoCoy-1.121",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Myocastor coypus",
+  "display_classification": "DNA/hAT-Charlie | Myocastor coypus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Myocastoridae",
+    "Myocastor"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 203 BP; 56 A; 47 C; 55 G; 45 T; 0 other;"
+  },
+  "sequence": "cagcggttctcaacctgtgggtcgcgaccccggcgggggtcgaacgaccaaaacacaggggtcgcctaaagccattccgaatcataactgtagcaaaattacagttttgaagtagccaccaaaattattttttggtttggggtcaccgcaacatgaggaactgtattgcggggtcacggcattagaaaggttgagaaccactg",
+  "length_bp": 203,
+  "sequence_length_bp": 203,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

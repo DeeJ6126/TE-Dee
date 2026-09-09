@@ -1,0 +1,49 @@
+{
+  "accession": "DF000276169",
+  "name": "CunPac-5.214",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Cuniculus paca",
+  "display_classification": "DNA/TcMar-Tigger | Cuniculus paca",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Cuniculidae",
+    "Cuniculus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 813 BP; 241 A; 148 C; 178 G; 245 T; 1 other;"
+  },
+  "sequence": "cagtaaaaccttggattgcgagtaacttgttctgcgagtgttccgcaagacgagcaaacatttctaataaattttaacttgataaacgagcgatgtcttgcaatacgagtagtacgtgacgccgaacgtcacatgatcacaactgagccaatggttcttccctctctcnctgcgggattgtgggtgatcatctcccaacagcaagaggttatggaggagatctcgtctgcagaggaggaggagaaaaaggcggaggaatccctcacttcaaatgagattagggagatgtgtaaaatgtgggaaacagtgcaaaattttgtagaaaagcaccacccgaataaggctgtagcagtgcgagcgatgaatctgtttaacgacaatgcaatgtcacatttccgcgaaatcctcaaaaggaggcaaaagcaagtgtcattggataggttccttgttaaagttgcacgaaaagaaaaagattccattgagccaatagatagcagtgattccgttagtgatagtgaaagtcgtcctacacaataaccctcctctctcttgtctccctcacaccagccacgaaggttttcaaaggtaagtgcaggttaatttgtttatttttctttatattttgtattttctttattattttgtattatattacagtattgtaatcatttttatatgaatatttttgggttgtggaacgaatcatctgagtttccattatttcttatggggaaattcgctttgatatacaagtgctttggattacaagcatgtttccggaacgaattatgctcgcaaaccaaggttttactg",
+  "length_bp": 813,
+  "sequence_length_bp": 813,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

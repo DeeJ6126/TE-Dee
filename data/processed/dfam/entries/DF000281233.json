@@ -1,0 +1,50 @@
+{
+  "accession": "DF000281233",
+  "name": "TurTru-5.1462",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Tursiops truncatus",
+  "display_classification": "SINE/tRNA | Tursiops truncatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Delphinidae",
+    "Tursiops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 204 BP; 28 A; 63 C; 86 G; 27 T; 0 other;"
+  },
+  "sequence": "gggcttccctggtggcgcagtggttgggagtccgcctgccgatgcaggggacgcgggttcgtgccccggtccgggaggatcccgcgtgccgcggagcggctgggcccgtgggccatggccgctgggcctgcgcgtccggagcctgtgctccgcggcgggagaggccacggcggtgagaggcccgcgtaccgcaaaaaaaaaaaa",
+  "length_bp": 204,
+  "sequence_length_bp": 204,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,47 @@
+{
+  "accession": "DF000281906",
+  "name": "EchTel-6.1218_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EchTel-6.1218_LTR"
+  ],
+  "species": "Echinops telfairi",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Echinops telfairi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Afrotheria",
+    "Tenrecidae",
+    "Tenrecinae",
+    "Echinops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1160 BP; 364 A; 218 C; 283 G; 293 T; 2 other;"
+  },
+  "sequence": "tgttgggagccatcccagccatgctgtctagcaaagctacagcctggtggaagaagcttctgcagagcagagcttcccagggagggnttccaacatccctcaaatatttgctgttgttaaatccattcttgagaattttgtgcattgtcatgtttaccgcacctggagcggatgcgagggcagtcttgagaagtacgaatgaaaccagatctaaaacttgcttcaatatgacggggctttccttaactgaggcattggagaggcttagacagcgagacatctttgggaattctgagaaggatatgtgggaattgagtgaggaagaaaccccaaagttgaggtcagaggagaaaatgaaacccaccaaaaaaccctggattccattcagattaggtagtgggggactcttttggcctccccgatatagaggaccttatagactgcctcccccaactgacgcccctttaccttggacaggggcttacatagaaggagagagaatggttaacattaatagaaaacacgtaaaaggggaaacattaagtctttggcaaagaatcagacggtttggctccccatggtgcctcaggagtataaaaaataaaagagacataggtagacaatggaacagttaccatgggagagtttgtaaaggaaaatatttaactctgagaagcatttaactctgcttgtagatattaggctttgaagtagcacatgaggtagtttcattgtgttaagttagtcaacgaggaaaggaacattgtgagcaaaaaatagggcagtgagtaggatatgagtctaaccaaattttctgaacacctcaatcaagaatagtatgtgacgtataagacaagcagtacagagagaaagaaccaggaagaggacagaaagtgatagaaaaaagtacagaccttataatggtcttttatcaggttttagtggaaacaataagggtgactttggagttaatcataaggcattgtttttatgtagtggtctgcaaaactttttatggtataaataaagctgtttggaagaactcagcagagattgcttccaccagaacatctctcgtgtctgtctcgtctgtgttcgccgactccacacctccttcaggtatccagttcaaccctccctcccggagctggactccgnca",
+  "length_bp": 1160,
+  "sequence_length_bp": 1160,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

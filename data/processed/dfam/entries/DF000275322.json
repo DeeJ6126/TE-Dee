@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275322",
+  "name": "CatWag-1.26",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Catagonus wagneri",
+  "display_classification": "SINE/tRNA | Catagonus wagneri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Suina",
+    "Tayassuidae",
+    "Catagonus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 206 BP; 47 A; 58 C; 69 G; 29 T; 3 other;"
+  },
+  "sequence": "ggagttcccgctgtggcgcaacgggatcggcggcgtctctgnagcgccgggacgcaggttcgatccccggcccggcacagtgggttaaaggatccggcgttgccgcagctgcggcgtaggtcgcaactgcggctcggatctgatccctggcccgggaactccatatgccgcggggcggccaaaaaagaaaaaaaaaaanaaanaaa",
+  "length_bp": 206,
+  "sequence_length_bp": 206,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

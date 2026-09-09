@@ -1,0 +1,40 @@
+{
+  "accession": "DF000000123",
+  "name": "Eulor11",
+  "description": "Eulor11 (Euteleostomi-conserved low frequency repeat 11)",
+  "keywords": [
+    "DNA/"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/ | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 552 BP; 164 A; 110 C; 111 G; 164 T; 3 other;"
+  },
+  "sequence": "tgctctcantacgatagctttcaaaatctaattttgcccccttttaaatgtgctaaatataaatgcagaaacaaagaaatatacattgataagtaaagaagcacaggtgtaccttgcaggcagtataaaaaaagtcctttaagaggtcttgaaccagtgtccctacgtgctttatactgcagcccaatgtgcagccactagaccaccccaccacaggtaagaaatgagaaattttgagggctattgaacactgcgaattttcacagtggatcagcacaaagttatttagcacaggtgtttctgtaattgtgatacattgggaaaattcacagtgttcaatggccctcaaactcacacttccacctgcgtggtgcggtggtctagtgttagtacactgggctgtaatataaaacatgtaggaatactggctggctcaagacctgctaaaggtttttccttataccgtccgtgcttctttgttcgtctggatttctttgtttctgcatttatatttagcacatttanaaaaaggggcgaaacagattttncagg",
+  "length_bp": 552,
+  "sequence_length_bp": 552,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Eulor11"
+  ]
+}

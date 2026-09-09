@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001106",
+  "name": "UCON29",
+  "description": "Interspersed repeats conserved in mammals and birds, UCON29 subfamily",
+  "keywords": [
+    "DNA/Kolobok"
+  ],
+  "species": "Amniota",
+  "display_classification": "DNA/Kolobok | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 439 BP; 129 A; 82 C; 89 G; 132 T; 7 other;"
+  },
+  "sequence": "ttaaagtgcggttatggtcagaaaagtgactgtgtaaaaatggcaccttcttactcagcanatctgctccctgtgtgtnttctgagtcatatctgcttactttactgacaaaaacaagtttttactnctgttagcactgcagagccaatacagctacggaagagcgagctggattctattctgcctcatgcatcatcaacaaaattgtcagctaagttccgattgcagaatctttattactggtgatgatgtangaggcagaaagaacacagcttgattttcagatcccaggttgagtttgcagngctggcagttagaaaaatcatcttttgacttgtaaactgagcaaatttgatntggaagtcattgagagagaataaatatggaaccccacgatgtcatttttacagtcacttttcngagtataaccgcactttaa",
+  "length_bp": 439,
+  "sequence_length_bp": 439,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON29"
+  ]
+}

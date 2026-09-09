@@ -1,0 +1,47 @@
+{
+  "accession": "DF000277124",
+  "name": "GalVar-6.756",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Galeopterus variegatus",
+  "display_classification": "LINE/L1 | Galeopterus variegatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Dermoptera",
+    "Cynocephalidae",
+    "Galeopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 546 BP; 234 A; 71 C; 78 G; 160 T; 3 other;"
+  },
+  "sequence": "ttttttaattttatttaatgtttagatagaaaattattttctcaacatanaaacgaaggaaaacatcacaaattgaatttaaagtcaattgataaggaacaaatttaacacacaaagattaacatccttaatgcataaagaactcttaaaaatgaattagaaaaatcttaacagaaatttggtgaaggacatgagcagacaagtcacacaccccaaagaaacacacgtggctaataaatacattctaagatgttcntgcgggtggaaattaaaacagaaaaatgacatttttcatttctcaaactgaaaaaatatgatactgtataatactggtgctatgagagaaacaatgtcaaaatcttctagtataagtataaattggtaaaacttttttgaagaacagattggattcataaatagaagtctttaaaatgttcatacactttcaaccaattatcctacttcttgaaaccgtaagcaaataatcaaagaatttttnaatgtggaaggcagttatataaaggtaaaaaattgggaataaactga",
+  "length_bp": 546,
+  "sequence_length_bp": 546,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,47 @@
+{
+  "accession": "DF000275134",
+  "name": "BraVar-1.13",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Bradypus variegatus",
+  "display_classification": "LINE/L1 | Bradypus variegatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Pilosa",
+    "Folivora",
+    "Bradypodidae",
+    "Bradypus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3321 BP; 1163 A; 625 C; 792 G; 736 T; 5 other;"
+  },
+  "sequence": "agctaagatggcggcatagagaggagtggaagactgttagtccccccggaacaattcataaacgaccaaaaaactagtaaataacctggaataactgcggggagacaaacgtgactgtccactcatcatncaccaacctgaattgggaggaatgcccgagatcgcagcataaaatctgtaagtaaaaactgcggacccgagccgagagccgagagcccctccctcacggaagcctcgcggtgctagagagcagcactctctcagcccagctccaactggggttttaatgttaactgctcaatacagacagcgaatccccaacaagcagacagaggcttttggtgacgactgaccttgggagagtcgggggacatatctgtctcaggacggggagcccagaggatcgggtgctatctctggccgacgggtgaacctgggagcttttctgtccctttctctctctgtggagaaagcctcagccgttttcagcccgcagcgctttgcagtaaagaaagcctcagccattttaaaatcgaagcactctgaccagcagagtcagagaaacaaagaacctattgatatgcaaatgacctctctggagggggcatagcttcccaagaggaaagggaggggcccagctctactgcccgcctttccggaaccagaccccagagcctgggggaggagagccacgggccacacccccttacaccagncagtgacaggctgacaggcgccacctgccgggcagaaaagcacaggtgtgtcaatcctctaagananaccatcagggaaaccggatactgaatatttcctccttctgtgacctgagcctgttctcgtctgggaaaacctgattggggtggcctaggaggtcagatgcctagacaacagaaaactacaacctacactaagaaaaacgaagttatggcccagtcaaaggaacaaacgtacacttcaactgagatacaggaatttaaacaactaatgctaaatcaattcaaaaagtttagagaagatntcgcaaaagagatagaggctgtaaagaaaacactgggcatacataaggcagaaatcgaaagttcaaaaaaacaactagcagaatctatggaaatgaaaggcacaacacaagagacgaaagacacaatggaaacatacaacagcagatctcaagaggcagaagaaaacactcaggaactggagaacaaaacacctgaaagcctacacgcaaaggagcagatggagaaaagaatgaaaaaatatgagcaacgtctccgggaacttaaggacgaaacaaagtacaagaatgtacgtatcattggtgtcccagaaggagaagagaagggaaaaggggcagaagcaataatagaggaaataatcaatgaaaatttcccatctcttatgaaagacataaaattacagatccaagaagcgcagcgtactccaaacagaatagatctgaataggcctacgccaagacacttaataatcagattatcaaacgtcaaagacaaagagagaatcctgaaagcagcaagagaaaagcgatccatcacatacaaaggaagcttaataagactatgtgcggatctctcagcagaaaccatggaggcaagaaggaagtggtgtgatatatttaagatactgaaagagaaaaaccgccaaccaagaatcctatatccagcaaagctgtccttcaaatatgagggagagctcaaaatattttccgacaaacagacaatgagagactttgtgaacaagacacccgccctacaggaaatactaaagggagcactacagagtgataggagaagacaggagtgcgtggtttggaacacaattttgggagatggtagcacagcaatgtaagtacactgaacaaagataactatgaatatggttgagagaggaaggttgggagcatgtgagacaccagaagaaaggaggaaagataaagactgggactgtgtaactcggtgaaatctagagtgttcaacaattgtgataaaatgtacaaatatgttcttttacgagggagaacaagcaaatgtcaaccttgcaaggtgttaaaaatggggaggcattgggggagggatgcaatcaacgtaaactagagactgtaactaacagaatcattgtattatgcttcctttaatgtaacaaaggcgatataccaaggtaaatgcagataagaggggggataggggaggcgtgttagacacttgacattggtggtgttgtctgactctttactctactttgatttaaggttatttttccttttgctgcttcctagctgtcattttttttcctctttcttttgcctctctaccttctttgactctccctcctgccttgtggaagaaatgtagatgcccttatatagatagtggtgaaggtggtgaacacataaatatgtgaccatacagagaaccatcgattgtttacttaggatggaatgtatggcgtgtgaacaaaaccatcttaaaaaaaaatgggttgatgacaaaacctcgagggcaatatactgagtgaaataagccagacacataaggacaaatattgcagggtctcactgataggaactaattataatatgtaaactcatagacatgaaatataaggtaccaagatataggacgaggcttaagaatggggagcggttgcttagtatgagcagaatgttcaactaggatgaacttaaatgtttggaaatgaacagaggtgtcggtagcaagatgtgagaataactaacagtgccgaatggcgcgtgaatgaggtggaaaggggaagctcagagtcatatatgtcaccagaaggaaagttggaggtcaaaagatgggaatgtataaaactgaatcctatggtgggcaatgtccgtgattaactgtacaaatattagaaatctcttccatgaaccagaacaaatgtatgacaatacaactagaagttaataatagaggggcatatagggaagaaatatatacctattgcaaactatatactacagttagtagtatttcaacgttctttcataaacagtaacaaatgtactataccaacactacgagtcaacaattgaggggggttggttagggatatgggaggattcgagtttccttttctttttctttctttttccatctttcactttatttcttgtctggagtaatgaaaaggttctaaaaattgaacaaaaattaagtgtggtgatggatgcacagctgtatgagggtaccaggggcaactgattgtacactttggatctttggataattgtatggtatctgaacaatcccaataaaaattaaaaaaaaaaaa",
+  "length_bp": 3321,
+  "sequence_length_bp": 3321,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

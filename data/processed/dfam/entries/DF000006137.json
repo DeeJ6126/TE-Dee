@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006137",
+  "name": "Halyomorpha_halys-6_family-1884",
+  "description": "Academ-1 DNA Transposon",
+  "keywords": [
+    "DNA/Academ-1"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/Academ-1 | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 924 BP; 318 A; 117 C; 148 G; 327 T; 14 other;"
+  },
+  "sequence": "gaaatgttctagtgtagttggttttagtggcttatttaattttttgggatgctatacacaaagctgactgacatacaacaaaatttgtttcaggaattagagaaatcataaaaaaaaaaaaaacaacaacactaaaaatgaaaaaaattactaacgttttaagcaaacaataatccagtattaccatattattactctattataagaggtgcaattaccaacaattcatgtttttatttttttttgttcaatttttggttcttacgctatagtccagtcaaatggcgttcaaaaatggcttgaagtgggaaagttcgntntaattntttttagcggcttactttatgtttttggggtgctaaacacgaatctgaagttgtcnaacaaaacttttttcggnaaatatgagaaatcataaaaaaaaaaatcattttttttcggcttataacttacttgcaaagtgagctttttacgcaaaagataatcctatattaaaataaagatgagaaaattacctacaattcatgttcttataatttttgtgtacacgtgtggttttcgcatagaatactttggtcaaatgtngttcaaaaagggcttgaggtggaaagttctggtgtatttgtttttagtggttcacttnatgtttttggggtgctgaacacgaacctgaagttgtccaacaaacgttttcggtaaatatgagaaatcaaaaaaactaataaataaaacttacaattttttttttgtttctggcttataacttgcaaagtaancttttanacaaaagntaatcctatattaaaataaagatgagaaaattacctacagattatgtntaattacaatttttttttacgatgtgaggttntcgtgcnncaggtccaatgcaatagttcaatgttttcaaacaatgtttgaatg",
+  "length_bp": 924,
+  "sequence_length_bp": 924,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

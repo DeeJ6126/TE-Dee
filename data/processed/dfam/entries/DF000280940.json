@@ -1,0 +1,48 @@
+{
+  "accession": "DF000280940",
+  "name": "TapTer-1.138",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "TapTer-1.138"
+  ],
+  "species": "Tapirus terrestris",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Tapirus terrestris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Perissodactyla",
+    "Tapiridae",
+    "Tapirus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 581 BP; 133 A; 142 C; 129 G; 177 T; 0 other;"
+  },
+  "sequence": "tgtgggggatcagaattggccacctcaagatgtgtctctttaccttgctctgaaggaggctttgaccttcacccccccaactgtctaaagggatttgggatggaaggcctgtccctgggacgggccatcaccttggataactctgggtatcgatagactgggagggtctttgctacgcccattcttatcaaagttctgtttaccagacatttacatttgtaagggaaatctccatttgtaaaggtatctccttctctgtactgggaagaggggcggatgacctcatctctagaaacttgtcagtgtggaaggcgaggccttaaatctgcataataaccttactgtgcttttctggtaatctcccataactgacccaacccccaatatcctcgtttgtctatttaagaggagaacctccgccattttgtcgagagatactcagtttccccgggtctctcccatgtatacatgttataaagctttgtttgattttctcctgctattcggcctcatgtcaatttaatttgtagcccagccagaaaggacccagagtgggtagagaatgctctttctccccttca",
+  "length_bp": 581,
+  "sequence_length_bp": 581,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

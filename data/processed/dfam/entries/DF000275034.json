@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275034",
+  "name": "BisBis-1.121",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Bison bison",
+  "display_classification": "LINE/L1 | Bison bison",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bison"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 689 BP; 254 A; 117 C; 158 G; 157 T; 3 other;"
+  },
+  "sequence": "gagaacagtatggaggttccttaaaaanntgaccctgcaatcccactcctgggcatatatccggagaaaaacatgatccgaaaggatacatgcaccccaatgttcattgcagcactgtttacaatagccaagacatggaagcaacctaaatgtccatcgacagaggaatggataaagaagatgtggtacatatatacaatggaatattactcagccattaaaaagaatgaaataatgccatttgcagcaacatggatggacctagagantgtcatactgagtgaagtaagtcagacagagaaggagaaatatcgtatgacatcccttatatgtggaatctaaaaagaaatgatacaaatgaacttacttacaaaacagaaagagactcacagacttagagaacgaacttatggttgccagggggaaggatggggggaagggatagttagggagtttgggatggacatgtacacactgctatatttaaaatggataaccaacaaggacctactgtatagcacatggaactctgctcaatgttatgtggcagcctggatgggaggggagtttgggggagaatggatacatgtatatgtatggctgagtcccttcgctgttcacctgaaactatcacaacattgttaatcggctataccccaatacaaaataaaaagtttaaaaaaaaaaaa",
+  "length_bp": 689,
+  "sequence_length_bp": 689,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

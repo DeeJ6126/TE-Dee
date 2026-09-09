@@ -1,0 +1,51 @@
+{
+  "accession": "DF000002084",
+  "name": "RLTR30D_RN",
+  "description": "Long terminal repeat of retrovirus-like element.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR30D_RN"
+  ],
+  "species": "Muridae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 453 BP; 122 A; 129 C; 97 G; 104 T; 1 other;"
+  },
+  "sequence": "tgagaggacctaactcactccattttagaacaggcagccatgttaggccttaagcttcagtttcccagaaggacagccaaggcttctcggaaaaaccacagaaaangggcagccaatcagcaactgccccgacatctggccaggggcttacaacagatacggaaaaagtccctataaggtaaccctctctccctcgaggtacgaaccaatcagaagtgtacaaatatcccataccgtaagctcaaccaatcctgatgaaggtgacccaaccacaactggaaaacccctaactggctttaaaaggggcctgcgagcttccctcgtggtcgccattttgcttggatggttgacccgcccactgcatgctggctgtttctgcagaataaacgctctttcgtctttgcatactattcgagtctggggtcttctttcagcgattctcggacccttaca",
+  "length_bp": 453,
+  "sequence_length_bp": 453,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR30D_RN"
+  ]
+}

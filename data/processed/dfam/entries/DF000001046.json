@@ -1,0 +1,61 @@
+{
+  "accession": "DF000001046",
+  "name": "MST-int",
+  "description": "Internal region of ERVL-MaLR retrotransposon, MST-int subfamily",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MST-int"
+  ],
+  "species": "Primates",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1651 BP; 419 A; 368 C; 509 G; 347 T; 8 other;"
+  },
+  "sequence": "gaaaattggtaccgaggagtggggcattgctataaagatacctgaaaatgtggaagcggctttggaactgggtaacgggcagaggttggaagagtttggagggctcagaagaagacaggaagatgagggaaagtttggaacttcttagagactggttaaatggttgtgaccaaaatgctgatagtgatatggacagtgaagnccaggctgacgaggtctcagatggaaatgaggaacttattgggaactggagcaaaggtcacccntgttatgccttagcaaagaacttggctgcattgtgtccatgccctagggatctgtggaagtttgaacttaagagtgatgacttagggtatctggcggaagaaatttctaagcagcaaagcgttcaagatgtggcctggctgcttctaacagcctacgntcagatgcgggagcaaagaaatgacttaaagttggaacttatatttaaaagggaagcagagcgtaaaagtttggaaaatttgcagcctggccatgtggcagaaaagaaaaanccattttcaggagaggaattcaagcaggctgcggagcaaccacttgctagagagatttgcatgactaaaagggagccaagtgctaatanccaagacaatgggaaaaaggcctcgaaggcatttcagagatcttcgaggcagcccctcccatcacaggcccagaggcctaggaggaaagaatggtttcgtgggccaggcccagggccccgctgccctgcgcagcctcgggacactgctccccgcatcccggccgctccggctccagccgcggctcaaagggccccaggtacagctcgggccgccgcttcggagggcgcaagccataagccttggcggcttccacgtggtgttaagcctgcaggcgcacagaatgcaagagtgaaggaggcttggcagcctccgcctagatttcagaggatgtatgggaaagcctgggtgcccaggcagaagcctgctgcaggggcggagccctcacagagaacctctactagggcagtgccgaggggaaatgtggggttggagcccccacacagagtccccaccggggcactgcctagtggagctgtgggaagggggccaccgccctccagaccccagaatggtaganccaccggcagcttgcaccctgagcctggaaaagccgcaggcactcaactccaacccgtgagagcagccacgggggctgnaccctgcaaagccacaggggcggagctgcccaaggccttgggagcccaccccttgcaccagtgtgccctggatgcgggacatggagtcaaaggagattattttggagctttaagatttaatgactgccctgctgggtttcggacttgcgtggggcctgtagcccctttcttttggccgatttctcccttttggaatgggaatgtttacccaatgcctgtaccnccattgtatcttggaagtaaataacttgtttttgattttacaggctcataggtggaaggaacttgccttgtctcagatgagactttggactttggacttttgagttaatgctggaatgagttaagactttgggggactattgggaaggcatgattgtattttgcaatgtgagaaggacatgagatttgggggggccaggggcggaa",
+  "length_bp": 1651,
+  "sequence_length_bp": 1651,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "47..1466",
+      "start": 46,
+      "end": 1466,
+      "qualifiers": {
+        "product": "MST_gag",
+        "number": "1",
+        "note": "[Primates]",
+        "translation": "MWKRLWNWVTGRGWKSLEGSEEDRKMRESLELLRDLLNGCDQNADSDMDSKGQADEVS"
+      },
+      "label": "MST_gag"
+    }
+  ],
+  "repbase_aliases": [
+    "MST_I"
+  ]
+}

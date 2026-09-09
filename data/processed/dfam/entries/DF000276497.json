@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276497",
+  "name": "DipSte-1.9",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Dipodomys stephensi",
+  "display_classification": "SINE/ID | Dipodomys stephensi",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Castorimorpha",
+    "Heteromyidae",
+    "Dipodomyinae",
+    "Dipodomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 201 BP; 59 A; 44 C; 61 G; 37 T; 0 other;"
+  },
+  "sequence": "gggctgggaatgtggcttagtggtagagtgcttgcctagcatgcatgaagccctgggttcgattcctcagtaccacataaacagaaaaagccggaagtggcgctgtggctcaagtggtagagtgctagccttgagcaaaagaagctcagggacagtgcccaggccctgagttcaagccccaggactggcaaaaaaaaaaaa",
+  "length_bp": 201,
+  "sequence_length_bp": 201,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

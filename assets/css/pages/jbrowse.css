@@ -1,0 +1,227 @@
+        .jbrowse-shell {
+          background: #f5f9ff;
+          min-height: calc(100vh - 82px);
+          padding: 34px 0 56px;
+        }
+
+        .jbrowse-shell.is-embedded {
+          background: transparent;
+          min-height: auto;
+          padding: 0;
+        }
+
+        .jbrowse-embed-body {
+          margin: 0;
+          background: transparent;
+        }
+
+        .jbrowse-container {
+          max-width: 1560px;
+          margin: 0 auto;
+          padding: 0 28px;
+        }
+
+        .jbrowse-title {
+          margin: 0 0 18px;
+          font-size: 52px;
+          font-weight: 700;
+          color: #8a93a3;
+          line-height: 1.1;
+        }
+
+        .jbrowse-crumbs {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin-bottom: 26px;
+          font-size: 16px;
+          color: #70809a;
+        }
+
+        .jbrowse-crumbs a {
+          color: #2f63b9;
+          font-weight: 500;
+        }
+
+        .jbrowse-topbar {
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          align-items: stretch;
+          margin-bottom: 18px;
+          flex-wrap: wrap;
+        }
+
+        .jbrowse-summary {
+          background: #ffffff;
+          border: 1px solid #dbe7f8;
+          border-radius: 14px;
+          box-shadow: 0 10px 28px rgba(26, 60, 112, 0.08);
+          padding: 20px 22px;
+          min-width: 360px;
+          flex: 1 1 100%;
+        }
+
+        .jbrowse-summary h2 {
+          margin: 0 0 12px;
+          font-size: 24px;
+          color: #193458;
+          font-weight: 700;
+        }
+
+        .jbrowse-meta {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 12px 18px;
+        }
+
+        .jbrowse-meta-item {
+          min-width: 0;
+        }
+
+        .jbrowse-meta-label {
+          display: block;
+          font-size: 12px;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: #7a8baa;
+          margin-bottom: 4px;
+          font-weight: 700;
+        }
+
+        .jbrowse-meta-value {
+          display: block;
+          font-size: 17px;
+          line-height: 1.45;
+          color: #27466f;
+          word-break: break-word;
+        }
+
+        .jbrowse-note {
+          margin-top: 14px;
+          font-size: 14px;
+          line-height: 1.7;
+          color: #6a7f9e;
+        }
+
+        .jbrowse-track-toolbar {
+          margin-top: 18px;
+          padding-top: 16px;
+          border-top: 1px solid #e5edf9;
+        }
+
+        .jbrowse-control-row {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-end;
+          gap: 14px 18px;
+        }
+
+        .jbrowse-hit-picker {
+          min-width: min(420px, 100%);
+          flex: 1 1 420px;
+        }
+
+        .jbrowse-hit-picker-label {
+          display: block;
+          margin-bottom: 8px;
+          font-size: 12px;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: #7a8baa;
+          font-weight: 700;
+        }
+
+        .jbrowse-hit-picker-select {
+          width: 100%;
+          min-height: 44px;
+          padding: 10px 14px;
+          border-radius: 12px;
+          border: 1px solid #d7e3f7;
+          background: #fbfdff;
+          color: #27466f;
+          font-size: 14px;
+          line-height: 1.4;
+        }
+
+        .jbrowse-track-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+        }
+
+        .jbrowse-track-item {
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          padding: 10px 14px;
+          border-radius: 999px;
+          background: #f5f8ff;
+          border: 1px solid #e0e9f8;
+        }
+
+        .jbrowse-track-item input[type='checkbox'] {
+          width: 18px;
+          height: 18px;
+          accent-color: #3d8f57;
+          cursor: pointer;
+          margin: 0;
+          flex: 0 0 auto;
+        }
+
+        .jbrowse-track-dot {
+          width: 14px;
+          height: 14px;
+          border-radius: 50%;
+          flex: 0 0 auto;
+          border: 2px solid rgba(18, 43, 86, 0.12);
+        }
+
+        .jbrowse-track-name {
+          font-size: 15px;
+          color: #26466f;
+          font-weight: 700;
+          white-space: nowrap;
+        }
+
+        .jbrowse-browser-stage {
+          margin-top: 10px;
+        }
+
+        .jbrowse-browser-head {
+          margin: 0 0 10px;
+          padding: 0;
+          background: transparent;
+          border: 0;
+        }
+
+        .jbrowse-browser-head strong {
+          display: block;
+          font-size: 24px;
+          color: #1c3f73;
+          margin-bottom: 6px;
+        }
+
+        .jbrowse-browser-head span {
+          display: block;
+          font-size: 15px;
+          color: #6881a7;
+        }
+
+        #jbrowse_linear_genome_view {
+          height: 840px;
+          background: transparent;
+        }
+
+        .jbrowse-loading {
+          height: 840px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #587399;
+          font-size: 18px;
+          border-radius: 16px;
+          background: rgba(255, 255, 255, 0.62);
+          border: 1px solid rgba(219, 231, 248, 0.9);
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+        }

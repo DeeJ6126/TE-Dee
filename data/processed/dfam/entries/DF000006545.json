@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006545",
+  "name": "Helitron-like-1_Ldor",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "RC/Helitron"
+  ],
+  "species": "Heliconius",
+  "display_classification": "RC/Helitron | Heliconius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae",
+    "Heliconiini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 316 BP; 119 A; 59 C; 43 G; 94 T; 1 other;"
+  },
+  "sequence": "aaccgcatctaaagattagcgaaaacaacgcacagacattaaattgacataacttttttatttatgaaccgattgtcataaaatataccctagatgttttctggagcttgccaaaatccaatagtgaaaaccgcatctaaatcggntaagccaattctgagattagcgataacaaacgcacagacaaacagacaaaaattttaaaaatcattgttttgggttctattacgttaataaaggttcccaagaacattttttttaaatatcttccaagtacagacaccgaccctcttacagttttattataagtatagat",
+  "length_bp": 316,
+  "sequence_length_bp": 316,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

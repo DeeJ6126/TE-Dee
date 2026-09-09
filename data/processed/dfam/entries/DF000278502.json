@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278502",
+  "name": "MinSch-1.195",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Miniopterus schreibersii",
+  "display_classification": "DNA/TcMar-Tigger | Miniopterus schreibersii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Miniopterinae",
+    "Miniopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1017 BP; 299 A; 203 C; 227 G; 285 T; 3 other;"
+  },
+  "sequence": "cagtagtccccccttatccgcggtttcgctttccgcggtttcagttacccgcggtcaaccacggtccgaaaatattaaatggaaaattccagaaataaacaattcataagttttaaattgcgcgccgttctgagtagcgtgatgaaatcttcctctcctccccccggacgtgaatcatccctttgtccagcgtntccacgctgtatacgctccctgcccnttagtcacttagtagccgtctcggttatcagatcgactgtcgnggtatcgcagtgcttgtgttcaagtaacccttattttacttaataatggccccaaagcgcaagagtagtgatgctggcaattcggatatgccaaagagaagccgtaaagtgcttcctttaagtgaaaaggtgaaagttctcgacttaataaggaaagaaaaaaatcgtatgctgaggttgctaagatctacggtaagaacgaatcttctatccgtgaaattgtgaagaaggaaaaagaaattcgtgctagttttgctgtcgcacctcaaactgcaaaagttacggccacagtgcgtgataagtgcttagttaagatggaaaaggcattaaatttgtgggtggaagacatgaacagaaaacgtgttccgattgacggcaacgtgttgcgccagaaagcattgagcctatacgaagacttcagcaagggatcccctgaaacgagtgacaccaagccatttactgcaagtaagggatggctacacagattcaggaataggtttggactgaaaaatataaaaattactgagagagaccacattcacataacttttattacagtatattgttataattgttctattttattattgttgttgttaatctcttactgtgcctaacttataaattaaactttatcgtaggtatgtatgtataggaaaaaacatagtacatatagggttcggtactatctgtggtttcaggcatccactgggggtcttggaacgtatcccccgtggataaggggggactactg",
+  "length_bp": 1017,
+  "sequence_length_bp": 1017,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

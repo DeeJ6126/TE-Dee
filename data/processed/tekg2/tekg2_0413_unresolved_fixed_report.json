@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-13T10:39:08.596183+00:00",
+  "input_file": "D:\\wamp64\\www\\TE-\\data\\processed\\tekg2\\tekg2_0413_clean.jsonl",
+  "output_file": "D:\\wamp64\\www\\TE-\\data\\processed\\tekg2\\tekg2_0413_unresolved_fixed.jsonl",
+  "updated_records": 4,
+  "added_entities": 3,
+  "removed_relations": 1,
+  "actions": [
+    {
+      "pmid": "18952144",
+      "action": "added_function",
+      "name": "SVA insertion"
+    },
+    {
+      "pmid": "24062987",
+      "action": "added_gene",
+      "name": "chromosomal DNA"
+    },
+    {
+      "pmid": "41952195",
+      "action": "removed_relation",
+      "relation": {
+        "source": "Sox2-binding TE",
+        "relation": "involve in",
+        "target": "Neuronal development"
+      }
+    },
+    {
+      "pmid": "19294374",
+      "action": "added_protein",
+      "name": "Major Histocompatibility Complex"
+    }
+  ]
+}

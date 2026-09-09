@@ -1,0 +1,49 @@
+{
+  "accession": "DF000281945",
+  "name": "EriEur-1.145_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EriEur-1.145_int"
+  ],
+  "species": "Erinaceus europaeus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Erinaceus europaeus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Eulipotyphla",
+    "Erinaceidae",
+    "Erinaceinae",
+    "Erinaceus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1923 BP; 464 A; 512 C; 405 G; 537 T; 5 other;"
+  },
+  "sequence": "tatggcgcccaaccaacgtgggacctaacccgcccatcccccagataagtaaacttggctacccatccaccatgggctgcctttctacttatgaagaggtttcccaaagcctctactctttcttcatgagacagtttctctgtctctggaacattttgctctgggccacactttggttccctgaccgggaactttggttccttatgaccgtgatcgtagagcttgggagatgcacggagatttctcctggactttctggactccctctcccatgtttcccgaggagaaggactacattttgctccgggccacactttggttccttatgaccgtgatcgtagagcttgggagatgcgcggagatttcccctgggactttctggacttcctctcgcatgtttcccgcggagaaggactactctaacttgaagagcattctccagtaccctggcagtccccaagaatggagacacgtggttagttctaccctcctgattcgattctttcttcgatgggaagacgtttttaaaaatgggtgcctgcagcaatccngcaggaaccgtcagaagcaccctaaatggaatttcgaggagctttttggactaggacgccctccggggactcatgatgctacatggtgagatctggataatctggttcaaggtgaaagaagcaaaaactgcctaccgcttttctctcgattcccccctcgttgttctctctgaatatcttaagtttgctgtctgctttcagttgcgtttcgtaagagagtgatttgaatgactgaatttttgtatgacattgacttaaaaaaaatgctggacgcagccatgatttctagagacatccagaaacaatccaaaaaattgttttttcctcttttgatttttttttacgtcttggtataaatctgaaacgtttaatcctgaaaactgtatgagtatgggcggggtagatagcgcaatggttatgctaatgattctcatgcctgaggcttctaaccatggttcttctgtttacctttccacattttattgagtttaaactgtttaaacaaccttaaaatcatactagaaaggacttccaattataatggagttatcaattatagtaaacttctaatctgctacaagttttgtttnacaagtaagtgaattacagctgtcaagtcttcacatgaaaaagcatctgctcaaatgaaatccccggaaatccatttggacccctgttctctgacatcgcccacaagatggcatgactacaacgcnccccccgaaaccaatgatgtgacctggcacgacctgaagaaactgattcacagactccaaagctcactctctacagaaaagcggaattccggtggctgaccttccccatcgagacagacgtgcagcgtttcatcccctggcatttcttccgtggtcatctgctttggactgacacttctatcggacttactggtacacctcttggacactttacacaactttacagcagtttccctttacgctgctgggtttctcaaagactgaccgcagcagtccatggactttgcagccagcagccttgggactctataggccacgccccctcgcctgcaggccctgcccccagagncaggaaacccccccccttactaggtcctgcccacagaggcaggaaacgccctttgaggcatgaaacgcccccagaggcaagagatgcccccagaggcaagaaacgccctttcgcctgctaggcnctgccctttgaggcaggaaacgcccccctcaggcctccccttggcatcacactggttcttgctgctctcctacttgttcctccatgtcttgtgccagttcttttgaaaatgcctgtacgatataggtttctgttcaccccacactcctgatactatggccattagttaaaaagaaagggggaa",
+  "length_bp": 1923,
+  "sequence_length_bp": 1923,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

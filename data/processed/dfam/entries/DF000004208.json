@@ -1,0 +1,46 @@
+{
+  "accession": "DF000004208",
+  "name": "hAT-N8a_Testu",
+  "description": "hAT-Charlie DNA Transposon",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Testudinoidea",
+  "display_classification": "DNA/hAT-Charlie | Testudinoidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Testudinata",
+    "Testudines",
+    "Cryptodira",
+    "Durocryptodira"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 528 BP; 136 A; 108 C; 157 G; 127 T; 0 other;"
+  },
+  "sequence": "cagtggttctcaaccaggggtacgcgtacccctgggggtacgcagaggtcttccagggggtactcaactcatctagatcagtgtttctcaacctgggggttgcggcccccaggggggtcacgggacgggtttaggggggtcgcaagtgcagggccggcattagggggtggcaagcagggcaattgcccggggccccacgccacagggggccccgcgaagctaagttacatgcttcagccccgggcggcggggctcgggcttcagacaaggctcacaagtgaaaaacaggctcaagtatcacactgaaatgtaagtacaatatttatattccaatcgatttattttataattatatggtaaaaatgagaaagtaagcaatttttcagtaatagtgtgctgtgacacttttgtatttttatgtctgattttgtaagcaagtagtttttaagtgaggtgaaacttggggtacgcaagacaaatcagactcctgaaaggggtacagtagtctggaaaggttgagaaccactg",
+  "length_bp": 528,
+  "sequence_length_bp": 528,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

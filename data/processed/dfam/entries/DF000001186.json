@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001186",
+  "name": "UCON51",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "UCON51"
+  ],
+  "species": "Amniota",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Amniota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 250 BP; 45 A; 81 C; 73 G; 47 T; 4 other;"
+  },
+  "sequence": "tgctgcgtctgccaaccggtggccagacactagagcagacttaaccaattagcggagtcccccatccggtggctggactcgctgtgtgtgcgtcctgcacattaccgcagccgaggctcgaaccgggncccttgnggtccncgggcagcagctctaccaggtgagccaaaagggagcctccccctggccgagccggtaggagctgcgctaagctcgtctcagctggaagtcgctcttcgcatatcttnca",
+  "length_bp": 250,
+  "sequence_length_bp": 250,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "UCON51"
+  ]
+}

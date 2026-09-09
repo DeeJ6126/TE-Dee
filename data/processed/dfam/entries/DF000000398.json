@@ -1,0 +1,49 @@
+{
+  "accession": "DF000000398",
+  "name": "LTR10G",
+  "description": "LTR10G (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR10G"
+  ],
+  "species": "Simiiformes",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Simiiformes",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 523 BP; 114 A; 153 C; 94 G; 158 T; 4 other;"
+  },
+  "sequence": "tgtaagatacaatgaatttctctgagtttctcttcaaaggtttagcctgttaacttccttgtcctttgttctcaaactcaactttcttgttcctccttgcccctagttactgtaaancagcctacccccttcccgtcagctctaatcaataactcacatctgttcccttggttacctgcacccattgttcccccgaaactgcacgtctcacacgctccaccactgtacctcacgtcccccttcccttccatatttagaaaaatatttacaagtagccaatcgggtcagctcagattgtgcggtccgaccccagcccatgggggagtgacacagaggtagggactncgcgttagggataaaaaccccctgctctcctttgttcnntgtgctcttgcgatcttgattgacgcgagcggcacccttctgcagaagtaaattgccttgctgagaaaacttttgcctgagtgctggtttcactttgcggcaccgagcatttattcctagagcatttttatatccaaca",
+  "length_bp": 523,
+  "sequence_length_bp": 523,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR10G"
+  ]
+}

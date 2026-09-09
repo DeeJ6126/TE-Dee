@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001470",
+  "name": "RCA1",
+  "description": "C.elegans satellite-like repetitive DNA (a consensus).",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Caenorhabditis elegans",
+  "display_classification": "Satellite/ | Caenorhabditis elegans",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Rhabditida",
+    "Rhabditina",
+    "Rhabditomorpha",
+    "Rhabditoidea",
+    "Rhabditidae",
+    "Peloderinae",
+    "Caenorhabditis"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 176 BP; 70 A; 31 C; 27 G; 45 T; 3 other;"
+  },
+  "sequence": "gacgtcacagactacaaagactacatagactacaaactacggacagacggacnntatttttttatatataggtaatgataaaacntcgcagactacaaagactacatagactacaaactatggacagacgaactgtatttttttatatataagtaatgataatacgtcgcagacta",
+  "length_bp": 176,
+  "sequence_length_bp": 176,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RCA1"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278398",
+  "name": "MicMur-6.950",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Microcebus murinus",
+  "display_classification": "DNA/TcMar-Tigger | Microcebus murinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Cheirogaleidae",
+    "Microcebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 955 BP; 283 A; 182 C; 194 G; 296 T; 0 other;"
+  },
+  "sequence": "caggcagtccccgggttacggacgacccgacttacggcgttccgtacttacgaacgggctcccaaggctccccataaggataatttataattaaataattaaattaataattcgggaactagtttcttccgcgcatgtaaacaaacccgcatggcgtaagcggttcgttggcgcagcatctttacgctagcggctagtctcattgtttatacggtcgcttacgcacagcatcactttcgtcttaacttttttattcgattttgtgagtctgtgtttacccttatgaccatgcctccaaagcgaaagtccactgcaagtccaggtgagcctgcagcgaagagaaaggtgattacaatggaaacgaaagtagaaataattaagcgttcggagaaaggccagacgccatcattcattgggaaagcattaggcttcagtcgctcgactatcggaacaattataaaggataaagtgagaataatggaacatgtgaaaggcagtgctccaatgaaagcatcaattattactaagcagcgtagtggattaattattgaaatggaaaggttattattgatttggttagaagatcaaaataagcgtaacattcctattagcctagcgttgatgcaacattaggtgagtgttaacctttaatattcttttttgaaatttctcctatctcctatctaaactttttgtatgagtttgtttttatgttctgtttgtttgaattaaaagaaagagcacaatagtttctgtaacttattattacagtacaggggtattattattattacagtattacactgtattattattaccacatatgagccattatagtattgttattattattattaccgtatatgcgctgttcatcagggatccgagttacatacaaatccgacctaaagacgttctcaggaacgtatctcgtccgtaacccggggaccgcctg",
+  "length_bp": 955,
+  "sequence_length_bp": 955,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

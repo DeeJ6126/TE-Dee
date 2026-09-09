@@ -1,0 +1,50 @@
+{
+  "accession": "DF003576552",
+  "name": "LTR6_rFer_int",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR6_rFer_int"
+  ],
+  "species": "Rhinolophus ferrumequinum",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rhinolophus ferrumequinum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Rhinolophidae",
+    "Rhinolophinae",
+    "Rhinolophus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 913 BP; 170 A; 237 C; 325 G; 176 T; 5 other;"
+  },
+  "sequence": "catggcgcagcgagcagggtacggtgccggccaaagctctccgaagggcggtggagcagtttgtgcgtatgaacactcagtctcaggaagaccaggaggagcagctgccggagagctggacccccgtggaggggtgggaagacgtggacggttctccaaccagcataggccggagaaagcgaaggtcgttgcggccntgtgggctgggaagtgcttgctgaggcagcccggatgcgggacttgtagtcccaggaggaaacgcttgctgagtcctccgtgggagatgcgggtgaggtcaaggtcgtccctcacccccaggttggggaggacttggagccctcgccctgcggagagggcacacgttgtgaggccncngnacagccctggcgaatgactatggactatggggaattgccttccatccctaatttaatggaccgcttgactgtttgcttgggaacgtaccaccatgtagtggaactggcggatgtttgcttttgtgtctcgaccggccgccatcgagaatatgtaagcaccttgactgtgagccgctgttgttccagcacggtgccctgagagccctggctgtgcccaggaagtctggctgtgcccagagagagtggcggtgccctgagaggccctggctgngtccaggaagtctggctgtgcccagagagagtggcggtgccctgagaggccctggctgtgcccggggagactggtggtaccctaagaagcccaggaagtctggctgtgcccagaaggactggtggtgccctgagaaaccctggctgtgcccagagagcctggctgtgtccaggatattgcattcacctccaggctcctcgcacagggcccctcgcggaagacgcttgtcgcgtagattgtgaggcgagaccctgtaggggtggag",
+  "length_bp": 913,
+  "sequence_length_bp": 913,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

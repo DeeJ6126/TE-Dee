@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000471",
+  "name": "LTR26C",
+  "description": "LTR26C (Long Terminal Repeat) for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR26C"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 539 BP; 141 A; 155 C; 102 G; 141 T; 0 other;"
+  },
+  "sequence": "tgaagccgtcctcacagggttaacaagaattctggacagaaatatagttataattaagcattaatcaggctgcactttggcccacttccttgtaaccgaaagtcacgtagcactagatactgaccatttgcatccccattgttcctatagataggatttctgacgttagaatcataaggcttttgtttaagaattgcttaagatgtttttcagatcccgaattccagcgaaacagctgacgccaaccagtttgaagacccccacagaggaacggaatcagcatgagaatacagtttcttcatctccctgtcccatgacttcaccctgcactcttcgaccaatcaacgatctccacacttcggcccactccaaaacccttaaaaaccctagccccaaactcctcggggagacggatttgaggtttcctcccatctcctcgttcggcggccctacgattaaacctctttctctgctgcaacccggtgtctcggcgtattgacttgccgcgcgcatcgggcaacggacctattacggttaca",
+  "length_bp": 539,
+  "sequence_length_bp": 539,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

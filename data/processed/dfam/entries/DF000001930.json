@@ -1,0 +1,52 @@
+{
+  "accession": "DF000001930",
+  "name": "MLTR25A",
+  "description": "Long Terminal Repeat from an endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLTR25A"
+  ],
+  "species": "Murinae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Murinae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1106 BP; 321 A; 222 C; 302 G; 254 T; 7 other;"
+  },
+  "sequence": "tgccgagtccggcatggccttggtggggacagaatgacatggttcctgcccctgggacagggccagcaggcgtgggcctccacgagtgtcgatggctgctgtgggcataaggcttgtttgtataataatgtacatattttcacatnnnntcctccttcgaggaatgtcctccctgttaacgttaatgactccatgataatcagagacagcacgagtccgggaggcgaaggtgtggctaatgtctcagcaaaatggtaaacgctgggaccttcaggacagcccttaaggctgtgggaaagaactctaaaaacatgagttcgaaaatatataatttctcaactatgcaaaaatataaggatgcaatatgaattatatgaggggcttcacgaatctaaaggaacaaaggcagctgcgctatgagccagcttgtcagaaagatactaaggaaggagataaagagatttagggagtggtgatcgcaggagatcccacccagctaagtttttttgtttatgcttacaaaggcaggcagattcctgagttcaaggtcagcctgggacagagcgagnttaggcccaggcgtggtagaaatggtaatttcagggcggggtcccacccagctagcttatcgtctgtgcttaacagaggcaggcagatctctgaattcttttgcaatgttaaaagaaaatgtgtgcttgctgtctcctaagaatcaaggggctggggtcacgggatgctgattcataggataatcaaaaggaaacctggagtaaatgactggattgatatgtaaaataaaagactgggcttntgatctgcaggagatgagctatccagagaattttttagaatagcaagagagaactgcttggagaactgtctcgagcagaacatagagagagaggagagctgtctggagatctccagagaaagcagatcagagagaaagaaagcagaacagagagaaagcagnctggaaagctgtctcgagcagaacataggccgccagcttggacccacgatttgacttcgagtcgtttgttttcgccgctcccagacaccccttctctcagaacccctctccaagccgaggctggtccttggca",
+  "length_bp": 1106,
+  "sequence_length_bp": 1106,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLTR25A"
+  ]
+}

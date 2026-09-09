@@ -1,0 +1,44 @@
+{
+  "accession": "DF000000519",
+  "name": "LTR41C",
+  "description": "LTR41C (Long Terminal Repeat) for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR41C"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 701 BP; 121 A; 206 C; 159 G; 204 T; 11 other;"
+  },
+  "sequence": "tgtgccagttatcaatttattgcctctcagctccaaatccacctttgccctgctttgtgatactggagctggaccctgtaaacatttctcctttgccagctggcacgatgttaagctttgtcagtagagggcgctggagggacactgcaggaggaaggggcttctttcctggttccggtgtgcttttttgctcctgtggcacatggctgccagcggcatgcgggacacccagtggcgctcaccctccagcgagtttcgccggcacccctgcgaagtcttgtnagctccccagngggtggcttcccagcgagtttcaccagcaccccagaggcctgcttcccagcgagtttcgccggcanccccagcgggcggtttccngccanccccggcctgcggcacctcagcgaacttctccgccatccagtgggccacaccntctccacanaggagtctgaatctcagccttggagagggcctccttccaagtttgttccttccttgggtactctncctcagccctagaggtagtggctgctccctatatctgctattcctgtattctttagagttctctttaccccttnttagttaatcctattattagttaattcttagttantataataattctttatattaaattttccctgttcaaattactgntgtggtttctgtctcctgactggaccctgactgataca",
+  "length_bp": 701,
+  "sequence_length_bp": 701,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR41C"
+  ]
+}

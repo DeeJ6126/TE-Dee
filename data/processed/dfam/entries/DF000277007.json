@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277007",
+  "name": "EulFul-5.4295",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EulFul-5.4295"
+  ],
+  "species": "Eulemur fulvus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eulemur fulvus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Lemuridae",
+    "Eulemur"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 859 BP; 239 A; 197 C; 222 G; 200 T; 1 other;"
+  },
+  "sequence": "tgaagaacaggaattgatagtaggaaaatgtgtgctctctttgattctaactgatgctattcgcttctgtgactatgcttgcttttagttgtttgataaatatagttaatcagaatgaaaaacagggataagagcaaaggtaactccatgataggctaggcttcctggatgtgagaagctaacagcctagttctgcttctgtatatatggcttgctggcttggtgcttagcgtaagtggagccatggcaggcttcactaaagtaaaggaaaacaaagccccggggaggtaaccgcaagttacttcctgataaagggctggagagtccaggggccctccaaccaactaagtagataagaagagcaagacatgatcagcgcatgaacggcttgtgcagggcgtgtgttcccagtatcgcttgtaaccaaaaactagaaggtatgcaacaacagcccccctcccccgtcggagaccctcctcttcccctggatgacgttaactacaactggcgccagcgcgaaaagcccgaagcttagagtcaacnaaccaggagccaacgcgatcagccacttctaaaaaagaacaaataaactaaagggggatggagtgcagaccagtatgtcgtgtgcagactagtgtgtcgtgtgcagactaacgtgtcgtgtgaaaactagcatacagaaaagtataaaagcttaacctttaccccagggcggggtcctagttcgtggagaggccactgcgttggtgctctgggacttggaccctagctcgagctagccaataaactcctttgcctttttgcagcctcggtgactctgcctctctgttcctggggccgaggggaaccggctctaaca",
+  "length_bp": 859,
+  "sequence_length_bp": 859,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

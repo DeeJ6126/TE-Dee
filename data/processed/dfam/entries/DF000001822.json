@@ -1,0 +1,50 @@
+{
+  "accession": "DF000001822",
+  "name": "L1MdA_VII_3end",
+  "description": "L1MdA_VII_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Mus",
+  "display_classification": "LINE/L1 | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 996 BP; 342 A; 202 C; 242 G; 210 T; 0 other;"
+  },
+  "sequence": "ggaggatcccgcaatacctctcctgggcatatatccagaagatgtcccaaccggtaagaaggacacatgctccactatgttcatagcagccttatttataatagccagaagctggaaagaacccagatgcccctcaacagaggaatggatacaaaaaatgtggtacatttacacaatggagtactactcagctattaaaaagaatgaatttatgaaattcctaggcaaatggttggacctggagggcatcatcctgagtgaggtaacacaatcacaaaagaactcaaatgatatgtactcactgataagtggatattagcccagaaacttagtatacccgagatataagatacaatttgcaaaacacatgaaactgaagaagaacgaagaccaaagtgtggacactttgccccttcttagaattggaaacaatcacccatggaaggagttacagagacaaagtttggagctgagacaaaaggatggaccatctagagactgccatatccagggatccatcccataattagcctccaaacgatgacaccattgcatacactagcaagcgtttgctgaaaggaccctgatatagctgtctcttgtgagactaggccggggcctagcaaacacataagtggatgctcacagtcagctattggatggatcacagggcccccaatggaggagctagagaaagtatccaaggagctaaagagatctgcaaccctgtaggtgcaacaacattatgaactaaccagtaccccggagctcttgactctagctgcatatgtatcaaaagatggcctagtcggccatcactggaaagagaggcccattggacacgcaaactttatatgccccagtacaggggaacgccagggccaaaaagtgggaatgggtgggtaggggagtgggggggggagggtatgggggacttttgggatagcattggaaatgtaattgaggaaaatacgtaataaaaaaaatatatttaaa",
+  "length_bp": 996,
+  "sequence_length_bp": 996,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,49 @@
+{
+  "accession": "DF000004172",
+  "name": "Lx8b_3end",
+  "description": "Non-LTR retrotransposon in rodents - 3' UTR fragment.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Muroidea",
+  "display_classification": "LINE/L1 | Muroidea",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1891 BP; 595 A; 379 C; 475 G; 408 T; 34 other;"
+  },
+  "sequence": "atgatccagctataccactcttgggcatatacccaaaggactctatatcctactacagagatacctgctcatccatgttcattgctgctctattcacaatagccaggaaatggaaacagcctagatgtccatcaactgatgaatggataatgaaaatgtggtacatttacacaatggaatattattcagtgttaagaaaaatgaaattatgaaattcgcaggtaaatggatggagctggaaacaatcattctgagtgaggtaacccagacccagaaagacaaacgtcgcatgttttctctcatntgtggatgttagctttgaatctttagatgttgtgtttcgagnacccacgaggtcaggaaattagtaaggagcgcgagggagaggtttcagnaggagggaagggagatacggttgcancgaagtgnaggntagaaggaaataatagggaaggatngaangatggagtatgggaaggcgagggtagaggcgannacgaaagagaatatggggagagggataactaacactaaaggccttttgaaaaagtcatatggaaacctactactgtagaagcttctaaaatatacatacacatatatnaaaaggagttnaaatggagttaccctataacggggnaacaatgcccctactagacaccacaggctaacaaataaaaagcccagtgccaggaatgggttacctcttttggagttgttggccagtgaggtcccatagcccccaaacattacaggctattgccantgctcttggttaccctccagaacttgacggtaagaccctattgctgaagacacccttgagtcatagaacatggagaaatcaagctggtactgacctggaagcttcatccctactggctagctttcatagtgctggaaggtgctatgcacgctaccggaggagaaaagtaatcatcagtcttacccagctgtgaaccctgcgagctacaataatgactggcctggcaagacatgcccactggtgcaatagtggcacgaacgtcatgggagtaaccaaccactttctgattggatttaaggcccgctccacaagatgaaacccatacctggcaccgttatcggggccaagaacctgtggctagacaggtcataggccctaggggagaacctactactattattctgctaaatggacatagtattaaaccgactcctaatgacttatcgttataccgnncatagattagtgcatctctcaaccctcatcagagaagcttctttttgcagtagatggcgattaacacagagacccacaactggtcaangtgcagagaataagagactntgcagaatgctcagccctaaatgggacatctatatcacaccccctcctcccaaggctcagggatcattgtggnagaagagggcagaaagattgtaagagccagaggcggtggatgactacaaggaaacagtgttttccggacacagcagggcagctgcacatatgaactcacagcangttgtgacagcatgcacaagacctgcgcaagctcaagccagacaaaatcccagcatggagaggggaggtgggcacgaagtcccacccctagctgaggagctattggcaattgatagctgctgggagagggagagtcagttttctttaagggtgtaggtgcccctggtaggtcgaccacgctccagtggaaggccacacatccaagaatatntgggcagcacaaattggacttgatgggtttaaagannnnnaaacgncgnnnaaaannaaaaanaaggacacaaagttgggtgggtagggaaggggggatggatctgggaggagttggggagaagtgaatatgatcaaaatacattgtacgaaattctcaaagaactaanaaaa",
+  "length_bp": 1891,
+  "sequence_length_bp": 1891,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LX8B"
+  ]
+}

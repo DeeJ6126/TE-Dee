@@ -1,0 +1,51 @@
+{
+  "accession": "DF000275919",
+  "name": "CriGam-1.33",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Cricetomys gambianus",
+  "display_classification": "LINE/L1 | Cricetomys gambianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Nesomyidae",
+    "Cricetomyinae",
+    "Cricetomys"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3664 BP; 1314 A; 782 C; 816 G; 739 T; 13 other;"
+  },
+  "sequence": "ttttctcgatagataccacctaccaangttaaatcaagatcagataaacaatttaaacagacctataacccccaaggaaatagaagnggtcattaaaagtctcccaaccaaaaaagcccagggccagatggttttagcgcagaattctatcagacattcaaagaagagttaacaccaatactcctcaaattattccacaaaatagaaacagaaggaacactgccaaactcattctacgaggccacagtcaccctgatacccaaaccacacaaagattcaacaaagaaagagaattacagaccaatttccctcatgaacatagatgcaaaaatactcaataaaatactcgcaaaccgaatccaagaacacatcaaaaagatcatccaccatgatcaagtaggcttcatcccagagatgcagggatggttcaacatacgaaaatcagtcaatgtaatccaccatataaacaaactgaaagaaaaaaaacacatgatcatctcactagatgccgagaaagctttcgacaaaatccaacaccccttcatgataaaagtcttggagagattagggatacaagggacatacctaaacataataaaggcaatttacagcaagcccacagccaacatcaaattaaatggagagaaactcaaagcaattccactaaaatcaggaacaagacaaggttgtccnctctctccatacctattcaatatagtacttgaagttctagctagagcaataagacaacagaaggagatcaaggggatacaaattggaaaggaagaagtcaaagtatccttatttgcagatgatatgatagtatatataagcgaccccaaaaattctaccagggaactcctacagctgataaacaacttcagtgaagtggctggctacaagatcaactcaaaaaaatcagtagccctcctatatacaaatgacaaatggactgagaaagaaatcagggaaacaacacccttcacaatagccacaaataacataaaatatcttggggtgactctaaccaagcaagtgaaagacttgtatgacaaaaactttaagtctttgaagaaagaaattgaagaagatctcagaagatggaaagatctcccatgctcctggattggtaggattaacatagtaaaaatggccatcttaccaaaagcaatctacagattcaatgcaatccctatcaaaatcccaatacaattctttacagaccttgaaaggacaatactcaacttcatatggaaaaacaaaaaacccaggatagctaaaataatcctgaaaaataaaagaacttccggaggtatcaccattcctgatctcaagctgtactacagagctatagtaataaaaaccgcatggtattggcataaaaacagacacgttgatcaatggaaccgaatcgaagatccagacataaatccacacacttatggacacctgatcttcgataaagaagccagaaatatacaatggaaaaaagaaagcatctttaacaaatggtgctggtctaattggatgtctgcatgtagaagaatgcaaatagatccatatttatcaccctgcacaaaactcaagtccaagtggatcaaagacctcaacataaaaccagatacactgaacctgatagaagagaaagtggggaatagccttgaacgcattggcacaggagacaacttcctgaacagaacaccgatagctcaggcactaagatcaacgattaataaatgggacctcatgaaactgaaaagcttctgtaaggcaaaggacactgtcaataagacaaaacggcagcctacagaatgggaaaagattttcaccaactccacttccgatagagggctaatatccaaaatatataaagaactcaagaaactagacatcaacaaaacaaataatccaattnaaaaatggggtacagatctaaacaaagaattctcaaaagaggaatctcaaatggctgagaaacacttaaagaaatgttcaacatccttagccatcngggaaatgcaaatcaaaactactctgagattccatcttacacctgtcagaatggctaagatcaataacacaaatgacagctcatgctggcgaggatgtggagcaaggggaacactccttcattgctggtgggagtgcaaacttgtacagccactatggaaatcaatatggcgattcctcaggaaattggaaatcgacctacctcaagacccagctataccactcctgggcatatacccaaaggacgttccatcctaccacaaggacacttgctcaactatgttcatagcagctttattcataatagccagaaattggaaacaacctagatgcccctcaactgaagaatggataaagaaattgtggtacatttacacaatggagtattactcagctatttaaaaaaatgactncatgaattttgcaggcaaatggatggaactagaaaaaaatcatcctgagtgaggtaacccagtcccagaaagacaaacatggtatgtactcacttatatgtggatattaactgttaagcaaaggacaaaggtgctgcaatccacagacccagagagactatgcaacaaggagggccccagtggggacacagggatctccctggtaaaggggaaatagaacagatggtgcaggtgggctgggggaggatgggaatgggaagagaagggaccaggnngggggagagggatggagggagagaatatatggagagacgaccggaattggaggacatttagggggngatcgggagacctagtgcagtggaaactcactggaatcnacganggagaccctagcgaggacctctagcaatgggggatagggagcctgaacaggccatctcctgtaaccaggcaaggcttccagtggtgggactgggacaccatcccagccacaaaaccttcgacctataacctatcctccctacaggatccgctgggacaatggaagggcagaaccccatgccaaaggagggaacccatgcctgatactgcagggcaggccaggaactagagactggatagccaggagatgatttctaatgatatcctgctctgctcatagatcggtgcctagcccaatcttcatcagagaggcttcctccggcagctgatgggagcagatgcagaggcccagggccaaacatcgtgcagagctcggggaaccccgcggaagagggggaggagggattgcggggaccagaggggtcgaggacaccaggagaacaagccccacggagtcaactgaccagcactcttaggggctcacagagcctgaagcggcagacatggaacctgcagggtcccctaaatatgtcttgtggttgtctggcttggtgttcttgcagaactcctacaggctggagtgggggngggtctctgacccttttgcctgcccttgggacccttttcctcctgctgggttgcctagtccacccttgatgtagggattagtgcccggccttgttccatcttgttgtgccctgtttgagcggtaaccctgggaggactgctcttttctggggagagtagatctgggggagaggggagatgggggagctgggaggagtggagggaggggaggaggggtgtcgggatgtattatacgagagaagaaaaataaaataaataaanaaaataaa",
+  "length_bp": 3664,
+  "sequence_length_bp": 3664,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

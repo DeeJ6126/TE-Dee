@@ -1,0 +1,51 @@
+{
+  "accession": "DF000001971",
+  "name": "ORR1B1",
+  "description": "Mouse subfamily of LTR retrotransposons",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ORR1B1"
+  ],
+  "species": "Muridae",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Muridae",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 394 BP; 83 A; 95 C; 104 G; 110 T; 2 other;"
+  },
+  "sequence": "tgtggtggtttgaataggtatggcccccatagactcatgtgtttgaatgcttggcccatagggagtggcactattaggaggtgtggccttgttggagtaggtgtggccttgttggaggaagtgtgtcactgtgggggcgggctttgaggtctcctatgctcaagctncgcccagtgtggaacacagtctcctcctggctgcctncggatcaagatgtagaactctcagctccttctccagcaccatgtctgcctgcacgctgccatgcttcccgccatgatgataatggactgaacctctgaaactgtaagccagccccaattaaatgttttcctttataagagttgccttggtcatggtgtctcttcacagcaataaaaccctaactaagaca",
+  "length_bp": 394,
+  "sequence_length_bp": 394,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ORR1B1"
+  ]
+}

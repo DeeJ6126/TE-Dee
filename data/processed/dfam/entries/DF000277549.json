@@ -1,0 +1,49 @@
+{
+  "accession": "DF000277549",
+  "name": "HysCri-1.24",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/ID"
+  ],
+  "species": "Hystrix cristata",
+  "display_classification": "SINE/ID | Hystrix cristata",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Hystricidae",
+    "Hystrix"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 86 BP; 25 A; 20 C; 24 G; 17 T; 0 other;"
+  },
+  "sequence": "gggctggggatttagctcagtggttagagtgcttgccttgcaagcacaaggccctgagttcgatccccggcaccaaaaaaaaaaaa",
+  "length_bp": 86,
+  "sequence_length_bp": 86,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

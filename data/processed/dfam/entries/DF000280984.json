@@ -1,0 +1,46 @@
+{
+  "accession": "DF000280984",
+  "name": "TolMat-1.18",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Retroposon/L1-dep"
+  ],
+  "species": "Tolypeutes matacus",
+  "display_classification": "Retroposon/L1-dep | Tolypeutes matacus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Chlamyphoridae",
+    "Tolypeutes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1021 BP; 279 A; 215 C; 304 G; 220 T; 3 other;"
+  },
+  "sequence": "tgcgaatattctcgctgtcctgattttgtgataatcagggtaggctaaacattcgctatattagaaaccatgcatgtgtccccagacctagtttttctccctaggtctggtttttagaatgctggtgataaactaagcctgatttattatatgaccatcctgtatgggaaaagactgtaactttgggtatctttggtcaaccttaagagatatagcagggggacggatgtggctcgggtggttgggcgtccgtctcccatatggagggacctgggttcgatccccgggacctcccggtaaaaattaaaaaaagaaaaatatagaaggcgcgtgggccaccaggccccgtgcgcgggtgcgccgccaggccccgcgagcgggtgagccgccaggccccgcgcgcgggtgagccgccaggccccgcgcgcgggtgngccgccaggccccgcgagcgggtgagccgccaggccccgtgcgcgggtgcgccgccaggccccgcgagccacgcagcaagatgatgacgtaacaggagagtgacacaagggagagccaagacgagacgcaccgaaaaaccaggaactaaggtggcgcaggcggtaggacgcctctctcccacatcggaggttccgaggatcgaatcccagtgaagacaggaggagaaggatgagaagagagggcaggaaacggacacagagagttgcccagcgaatggacacagaaacagcaaaaacggggggggggggtaaaaatggataaaagtaaataaataaataaatccttaaaaaaatgtataggggaggaagatacggactatagttagtagtaatactttgacgatgctctttcatgatttgttaacaaatgtttcacaacaatgcagggtgtttgtggggggtgatgtgtgggagccctgtatgatgttatgcatgtttgttttgtaagntcacgatgtttactgaacacttatagtttatgtatgttcatgtatgaatgatatacttcaataaattgtttnaaaaaa",
+  "length_bp": 1021,
+  "sequence_length_bp": 1021,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

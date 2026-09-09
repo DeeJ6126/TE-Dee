@@ -1,0 +1,51 @@
+{
+  "accession": "DF000006693",
+  "name": "Mariner5_Hera",
+  "description": "Repeat from the Heliconius butterfly genus",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Heliconius",
+  "display_classification": "DNA/TcMar-Mariner | Heliconius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Amphiesmenoptera",
+    "Lepidoptera",
+    "Glossata",
+    "Neolepidoptera",
+    "Heteroneura",
+    "Ditrysia",
+    "Obtectomera",
+    "Papilionoidea",
+    "Nymphalidae",
+    "Heliconiinae",
+    "Heliconiini"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1059 BP; 365 A; 168 C; 161 G; 364 T; 1 other;"
+  },
+  "sequence": "gggatgcccgatgatcatcgattttcgatgatcatcgatgttagaagataaaatatcgatgttttaacatcgatgttgcattaataaaaacatcgtaacatcgatgttgcattaatgaaaacatcgtaacatcgatgttgcattaatgaaaacatcgtaacatcgaagtcagtatttcgataatgtgttccacattattttctgaactctaccaaactacgggaaaaatcctttgtctttcggttgacagcactgcacacaccacagactagactagtaactacaaagttcgtagttcgtagctgtttatgagtgaagtgtgtgtcgttttatcgtttatccaatgaaaataaaattattcttgcttggtttatacactaatgactaaagtttgtattagcaacatgtaagtaactacataatatagctgtttattacaacattcaaacaaacactttattaacaatttattgcgaactgggtctagcatgcttacctactttattatttttaggttatgctatctattaaggtgggccaaaaaaaatcttttttaattatagtaaaaatattgttctggactccaaaaaaatacgtatgctaaaagtgcagctcttaatttttatattaaggggtgtctcatcgcgattttcgatttcccatataaataacaaggagaattttgtgtttttcatttgaaactttgttgcgattaaactaatagtatcgatgtaaaagccaatatatattcttgtaggcaattaaacgatatacaaaaaagtctaatatatttttttgttaatttcactcatttaaaaattattcaaagttaaagtttaccaatttataaaaaaattaaagaaaaaaaaaaaaaaaacatcgatgttagctaacatcgatgttagctaccatcgatgttagctaacatcgatgntagctaacaacatcgatgttagccaacatcgatgttgttctttcgaattttatcgaacatcgatgttacagcttcgatgttgacatcaatgtcaacatcgatgtttttctaacatcgggcatccc",
+  "length_bp": 1059,
+  "sequence_length_bp": 1059,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

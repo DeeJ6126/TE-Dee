@@ -1,0 +1,36 @@
+{
+  "accession": "DF003448691",
+  "name": "",
+  "description": "Repetitive sequence family identified in Heligmosomoides bakeri",
+  "keywords": [
+    "PLE/Naiad"
+  ],
+  "species": "Heligmosomoides bakeri",
+  "display_classification": "PLE/Naiad | Heligmosomoides bakeri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Strongylida",
+    "Trichostrongyloidea",
+    "Heligmosomatidae",
+    "Heligmosomoides"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 708 BP; 187 A; 154 C; 83 G; 276 T; 8 other;"
+  },
+  "sequence": "atagtgtaaattacctcttgtttcantaatcgnggaccgttctttcttattcatataaggtgcgctgntttccatcccacatattgcacattaagacactgccctgataagcttaacataacagaagcacactgaagctagaaatcaaagtttcaagtagtttccccgtcggtagaatcatttcaaacttgatacaaaatccgtgaatgttttgaaaaagaagancgaaacccgctcttattgcactctatttacgacactgattcgtgtactcactcacttgttttctgctcctcatatatctacacttttccaatcaattttctcaaatttgtgtctaaccttttgtcttttcatattcattctttctacattttcttatccgatcaattttcccaaatttgtgtctaatttcttntcttttcatattcattctttctcatcttttcttcgtccgntctcccttctatttcatttcttatctctttacacataaacagattttaaagatagcttatactaacgctcctcttcttcactgaagagccacgggaggagcgtagcacaaaggttcgtctgaagacggtggcgaaacgaaccttatatcttttatattatgtaacattgttttatttatttatttanaattnaaaaatttaacactttacacctttctttacttctttgaatttctaccttttcttatgt",
+  "length_bp": 708,
+  "sequence_length_bp": 708,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

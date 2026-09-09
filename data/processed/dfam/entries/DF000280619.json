@@ -1,0 +1,52 @@
+{
+  "accession": "DF000280619",
+  "name": "SigHis-1.230",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "SigHis-1.230"
+  ],
+  "species": "Sigmodon hispidus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Sigmodon hispidus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Sigmodontinae",
+    "Sigmodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 385 BP; 87 A; 91 C; 118 G; 89 T; 0 other;"
+  },
+  "sequence": "tgtagcgggaaatcaggaactatacatgtgaacgatcgcgtcagaggactggagacgagcggggcgtggttaactggaaaggattccggaagtagacctccgagggagaggaccaggacaggaagccggcattctctcgcgagagttcccgaccagttgcgcgggttttcggactgatgacgcggcttccggggtgcgcagttcgggccagcggcgcgggagttcggacgtgcggcgtggggatgaggagttttccttagaaacgctccggcgcgctgcaaccttatcccttcattttctcttaaaaccttctctgttttgtaagtgattttcacaaaataaaccccatttaaaacatatctcacggcgggtttttaccgcgata",
+  "length_bp": 385,
+  "sequence_length_bp": 385,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

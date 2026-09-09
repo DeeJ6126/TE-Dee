@@ -1,0 +1,45 @@
+{
+  "accession": "DF000000326",
+  "name": "L1P4_orf2",
+  "description": "ORF2 from L1 retrotransposon, L1P4_orf2 subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "LINE/L1 | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3294 BP; 1421 A; 738 C; 514 G; 607 T; 14 other;"
+  },
+  "sequence": "atgacaggatcaaaacctcacatatcaatattaaccttgaatgtaaatggnctaaacgccccacttaaaaggcacagagtggcaagttggataaaaaaacaagacccanccgtctgctgtcttcaagagacccatctcacatgtaacgacacccataggctcaaagtaaagggntggagaaagatctatcacgcaaacggaaaacaaaaaagagcaggggtcgctattcttatatcagataaaacagactttaaaccaacaacagtaaaaaaggacaaagaagggcattacataatgataaagggttcaattcaacaagaagacttaactatcctaaatatatacgcacccaacattggagcacccagattcataaaacaagtncttctagacctacgaaaagacttagacagccacacaataatagtgggggacttcaacaccccactgacagcgttagacagatcatcgaggcagaaaactaacaaagaaattctggacttaaactcgacacttgaccaattggacctaatagacatctacagaatactccacccancaaccacagaatatacattcttctcatctgcacacggaacatactctaagatcgaccacatgctcggccataaagcaagtctcaataaattcaaaaaaatcgaaatcataccaaccatactctcggaccacagtgnaataaaaatagaaatcaataccaagaagatctctcaaaaccacacaattacatggaaattaaacaacttgctcctgaatgacttttgggtaaacaacgaaattaaggcagaaatcaaaaaattctttgaaatnaatgaaaacagagacacaacataccaaaatctctgggatgcagcnaaagcagtgttaagaggaaagtttatagcgctaaacgcctacatcaaaaagttagaaagatctcaaattaacaatctaacatcgcacctagaggaactagaaaaacaagaacaaaccaaccccaaagctagcagaagaaaagaaataactaaaatcagagcagaactgaacgaaattgagacncaaaaatccatacaaaggatcaacgaaaccaaaagttggttctttgaaaggataaacaagatcgatagaccgctagctagattaacaaagaaaaaaagagagaagatccaaataagcacaatcagaaatgacaaaggtgacattacaaccgatcccacagaaatacaaaagatcctcagagactattatgaacacctctatgcacacaaactagaaaatctagaggaaatggataaattcctggaaacacacaacctcccaagattgaaccaggaagaaattgaaaccctgaacagaccaatancgagttccgaaattgaatcagtaataaaaaacctaccaaccaaaaaaagccccggaccagatggattcacagccgaattctaccagacgtacaaagaagagctggtaccaatcctactgaaactattccaaaaaatcgaggaggagggactcctccctaactcattctacgaagccagcatcaccctgataccaaaacctggcaaagacacaacgaaaaaagaaaactncaggccaatatccctgatgaacatagacgcaaaaatcctcaacaaaatactagcaaaccgaatccagcagcacatcaaaaagttaattcaccacgatcaagtaggctttattcctgggatgcaaggttggttcaacatacgcaaatcaataaatgtgattcaccacataaacagaattaaaaacaaaaaccatatgatcatctcaatagacgcagaaaaagctttcgataaaatccaacatcccttcatgataaaaaccctcaacaaactaggcatcgaaggaacatacctcaaaataataagagccatctatgacaaacccacagccaacatcatactgaacgggcaaaagctggaagcattccccttgagaactggaacaagacaaggatgcccactctcaccactcctattcaacatagtactggaagtcctagccagagcaatcaggcaagagaaagaaataaaaggcatccaaataggaaaagaagaagtcaaactatctctcttcgctgacgatatgattctatacctagaaaaccctaaagactccgccaaaaggctcctagaactgataaacgacttcagtaaagtttcaggatacaaaatcaatgtacaaaaatcagtagcatttctatacaccaataacgttcaagctgagagccaaatcaagaacgcaatcccatttacaatagccacaaaaaaaataaaatacctaggaatacatctaaccaaggaggtgaaagatctctacaaggagaactacaaaacactgctgaaagaaatcanagatgacacaaacaaatggaaaaacattccatgctcatggattggaagaatcaatatcgttaaaatggccatactgcccaaagcaatctacagattcaacgctattcctatcaaactaccaacgtcatttttcacagaattagaaaaaactattctaaaattcatatggaaccaaaaaagagcccgaatagccaaagcaatcctaagcaaaaagaacaaagccggaggcatcacattacccgacttcaaactatactacaaggctacagtaaccaaaacagcatggtactggtacaaaaacagacacatagaccaatggaacagaatagagaacccagaaataaagccgcacacctacaaccatctgatcttcgacaaagtcgacaaaaataagcaatggggaaaggactccctattcaataaatggtgctgggataactggctagccatatgcagaagaatgaaactggacccctacctttcaccatatacaaaaattaactcaagatggattaaagacttaaatgtaagacctcaaactataaaaatcctagaagaaaacctaggaaataccnttctggacatcggccttggcaaagaatttatgactaagtcctcaaaagcaattgcaacaaaaacaaaaattgacaagtgggacctaattaaactaaagagcttctgcacagcaaaagaaactatcaacagagtaaacagacaacctacagaatgggagaaaatattcgcaaactatgcatccgacaaaggtctaatatccagaatctataaggaacttaaacaantcaacaagcaaaaaacaaataaccccattaaaaagtgggcaaaggacatgaacagacacttctcaaaagaagacatacaagcggccaacaaacatatgaaaaaatgctcaacatca",
+  "length_bp": 3294,
+  "sequence_length_bp": 3294,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

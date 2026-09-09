@@ -1,0 +1,53 @@
+{
+  "accession": "DF000282662",
+  "name": "SemEnt-1.251_int",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "SemEnt-1.251_int"
+  ],
+  "species": "Semnopithecus entellus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Semnopithecus entellus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Colobinae",
+    "Semnopithecus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2160 BP; 494 A; 684 C; 456 G; 517 T; 9 other;"
+  },
+  "sequence": "gttggtgccgaagacccgggaggagacccctcctcgggnccccnagggtctggggagcctcctcctcctcctcgctccacgccgcagacggaccaggacctgagacccgcttccctcactctcacggcctctctggggtaagtgcccttgtctcctctttacctccctcggccagaaatcctgcgcaggtccgaggtccatttggagccaccaagtggctcgggagacccgttcaggacggagacgtccgcctgaaggtaatctccactttggctccatgagcctccggtctgtctctgctggttccaaaggacgctttgaagccaggcagggatccacttccatttccattgtgtccattgtgtaagtaaagaggaaacanacgggaaacgcnccagtccaaatttccaaagagcacccccttagggtgcctcctagccaatttaaaaaccttacagcttgaacaagaccttaggaggaagcggttaattttcctttccactgtggcgtgatcgacctcagcaatttctgccagtggctaggcaagtggtctgaaattaattacatncaaggcttttcttacgctctcgtcccgatctgccctatactcctctttctctccccgctctctccaacccctcctcctcccctcatccagtcctccttcctcttccttacctactagtaatccactcggtcccgtgcctccttccgggcccccaactggctgtcttgagtcccctatctctgcccacaccctcctacagtgttagcacctttgcaagaggtggctagggcggaaggggtagtcagagtacatgtccctttttcattggctgatctttccaaaattgagaagcgtttaggtgatttctcagctaatcctaccatatacataaagaaatttagatacttttgtcaggcctgtgacttaacttggcataacctccaggttatcctaacctctaccctaaactgactgaggttctaacccagtatacccggttagatccggcctcccccacaggggccaccattttggcgtcttatttcatttctcaatcagctcctgacattcgtaagaaacttcaaaaggtagaggatggtccncagacaccaatacaagacctggttaagttagcctttaaggtctataactccagagaggagacggcaggctcgcctcgaacagaagttacagctcctancagcggctttacagcccagtcgtaaccccaggccagagagcacacaccccgcagactccaaggccacgaaaggagcctgctataagtgcggcaaggcaggacactatgccaacaggtgtccgcaaggtccccgagccccaacgcagccttgctataagtgcaaggcgtcaggacattgggccagtgaatgtcctaaccctcgtccaccagcagccccctgccctgcttgccagcagggaggacactggaagtctgattgccccaccctgagaacaggtgccgcgtctccacgtgaccccctttcccaggatgctgggagctccttccagctcctacatctggacgacaactacaactgaaggtgccgagactcggggacccccatcaccctcgccaagctgtgggtaactctcctggtagcgggtaagacaatcaattttttaatcaacagcgaggctacctattctgttttgccgtccttctctggacctggccttccatccaatatctctgtagtaggagtaagcggaaagccatccactccacaaaaactccactccttaattgctgcctggccaacaactactctgcgcactcgttcctcattcccagctaaaaagggcccctaccgaaagcaatcagtggaaatcagtttggctttcccccactcgcctcaaacttactaaattttcttaactatctcatactccccaaccttgccgggaccttccttctgggttttgcccntattccaacaaatgcttccatncctcgttcctatactaatactgtgccttattttattcttcatccgtacgtccaaatgccaaccatgggccccgaccttaacgacgccccttaacagcaggaagtagccagacagaccacggcgcccctttatcactattaccaataaaaggttggactgtttggacgaacggaggcaagatgg",
+  "length_bp": 2160,
+  "sequence_length_bp": 2160,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

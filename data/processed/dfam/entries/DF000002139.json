@@ -1,0 +1,53 @@
+{
+  "accession": "DF000002139",
+  "name": "RLTR9C",
+  "description": "ERV2 Endogenous Retrovirus from mouse.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "RLTR9C"
+  ],
+  "species": "Mus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 393 BP; 75 A; 118 C; 91 G; 98 T; 11 other;"
+  },
+  "sequence": "tgtaacctcctccagcctaggcaggctggttcagaccttacgccactgaggcggggccacctgcngtgcngctcctcanctcgnnagtttcctttgatgtgacactgcctgccacctgccngaggccgaaccggttctccaagattttccggagttaactgcaanctgtgaatttggcgacttactgctaaaaggctgtgctgacaacttggcatcncgaggacatcaagaaacttggcgtggcagagtttattattaaacatttgagccttgatcagantagcttgtcttggctccatttttctctcgcccgcctagtttccctctcttttcagccccngnttgcctcccaggctcgaacccggacatgagagccgcaggccggccccaaca",
+  "length_bp": 393,
+  "sequence_length_bp": 393,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "RLTR9C"
+  ]
+}

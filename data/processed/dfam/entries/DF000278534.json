@@ -1,0 +1,49 @@
+{
+  "accession": "DF000278534",
+  "name": "MinSch-5.2265",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Miniopterus schreibersii",
+  "display_classification": "DNA/PiggyBac | Miniopterus schreibersii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Miniopterinae",
+    "Miniopterus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 244 BP; 60 A; 66 C; 37 G; 81 T; 0 other;"
+  },
+  "sequence": "ccctttgcggtcgtttgtctactctcagccaccaaagcttttttaccgttccggtcgtatgtctgctctcagccaccacagcaaggaaccgtacgaatcttaactctattcattcatgtatcagttcataatttctcttgtttatccttcataatcttgcatgttatgtatcactgctctttcaatggaaattaattccgaccagtacgacacccatgtccaaatttaatacgaccgcaaaggg",
+  "length_bp": 244,
+  "sequence_length_bp": 244,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

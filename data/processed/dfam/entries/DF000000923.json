@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000923",
+  "name": "MER72B",
+  "description": "MER72B Long Terminal Repeat for ERV1 endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER72B"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 768 BP; 188 A; 233 C; 151 G; 190 T; 6 other;"
+  },
+  "sequence": "tgagaaataaaaataaaatcctaagccccccaaccgactgaacggaccccctcttggnccaaggggaccccagagaaaccttaaaaactgagttnncccggccatgacgggacgggaggtcggacacgcctcagtatgccccttccttattaacctttaaccagaattctttcctaaggagtaagcagaaaccagctctggaaaacaagaaacggacgactcattcctttatcgcctttagccaatcatctgaggccgcgaccggactccccctccctctttgcagtttcgacgtgacagctcaccagtttcacaatgcatcccttcctaaaaactgaccaccatctccggaccggttttggccgactcgcggaggatgcgcagtgagggttttcgtgtccnnntctgcttcaccttttgacgtcagagggccgaaaactccaccctcggatcatgctaacgccgccattttttgaacatgcgacccatgaagaggcatgaagctcaattgcgcatgcgcatgtttctcctttcataaatattcatgactcctcctatagcttattgaatatgtatatttagccaccccactcagcataaattcctgttccctttacccctccctcgaagtgcttcgctctcggcttctgccggaggctacgcttcccagcctgcgggatggccagcctgcaggctgcaaccctttatgagaaataaagctctcctttccaaatttatgaacctcgtgattcttcagttgacatacca",
+  "length_bp": 768,
+  "sequence_length_bp": 768,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER72B"
+  ]
+}

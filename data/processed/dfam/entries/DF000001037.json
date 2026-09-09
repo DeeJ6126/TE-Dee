@@ -1,0 +1,44 @@
+{
+  "accession": "DF000001037",
+  "name": "MLT2E",
+  "description": "MLT2E Long Terminal Repeat for ERVL endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MLT2E"
+  ],
+  "species": "Eutheria",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 628 BP; 120 A; 209 C; 151 G; 146 T; 2 other;"
+  },
+  "sequence": "tgtgctggattgtnctgttgtcaacttggttaagctgggaactacgtttcccagaatccccttccctgtatggttctgggttagagttggccaaagaggaacttgcgcgagatttgggaggcggaagtgaagcagcagccattactctctgaaggtcgtcgcggtcagacgcggtgagagacagacgcagaggtgcccagcgggttccagcttgtcctcgctctcccccgctccgcgtccagctcttcttcccgactgccggccctgctgaccaacagcggccccaggcccaccaccagacgcttggctgcggacccacagaggcggtagccacgcagaggcaacagctttccatagacctctccacnagctccccttcatggtcccacttcagcggctggacgtgcctggcttctcagatttccccgcaagctccgactcgtccacccgcgccagtgcttcaggaggggctggttagtgactttctctgatcctccaactcccccttccagaccttcacttccccagctcctcccacaattgtgtaaggtctaattcctataataaatcccttatcccataacactcatagtggctctgcttccctgactgaaccctgactgataca",
+  "length_bp": 628,
+  "sequence_length_bp": 628,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MLT2E"
+  ]
+}

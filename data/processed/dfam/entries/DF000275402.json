@@ -1,0 +1,51 @@
+{
+  "accession": "DF000275402",
+  "name": "CebCap-4.127",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Cebus capucinus",
+  "display_classification": "SINE/Alu | Cebus capucinus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Platyrrhini",
+    "Cebidae",
+    "Cebinae",
+    "Cebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 294 BP; 76 A; 76 C; 94 G; 48 T; 0 other;"
+  },
+  "sequence": "ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggccgaggcgggtggatcacgaggtcaagagatcgagaccatcctggtcaacatggtgaaaccccgtctctactaaaaatacaaaaaattagctgggcgtggtggcgcgcgcctgtagtcccagctactcgggaggctgaggcaggagaattgcctgaacccgggaggcggaggttgcggtgagccgagatcgcgccattgcactccagcctgggtaacaagagcgaaactccgtctcaaaaaaaaaaaa",
+  "length_bp": 294,
+  "sequence_length_bp": 294,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

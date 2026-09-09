@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000841",
+  "name": "Tigger3b",
+  "description": "TcMar-Tigger DNA transposon, Tigger3b subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Primates",
+  "display_classification": "DNA/TcMar-Tigger | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1231 BP; 398 A; 218 C; 236 G; 375 T; 4 other;"
+  },
+  "sequence": "cagtcatgcgccgcataacgacgtttcggtcaacgacggaccgcatatacgacggtggtcccataagattataatggagctgaaaaattcctatcgcctagtgacgtcgtagccgtcgtaacgtcgtagcgcaacgcattactcacgtgtttgtggtgatgctggtgtaaacaaacctactgcgctgccagtcgtataaaagtatagcacatacaattatgtacagtacataatacttgataatgataataaacgactatgttactggtttatgtatttactatactatactttttatcgttattttagagtgtactccttctacttattaaaaaaaaaagttaactgtaaaacagcctcaggcaggtccttcaggaggtattccagaagaaggcattgttatcataggagatgacagctccatgcgtgttattgcccctgaagaccttccagtgggacaagatgtggaggtggaagacagtgatattgatgatcctgaccctgtgtaggcctaggctaatgtgtgtgtttgtgtcttagtttttaacaaaaaagtttaaaaagtaaaaaaaaaataantttaaaaatagaaaaaagcttatagaataaggatataaagaaagaaaatatttttgtacagctgtacaatgtgtttgtgttttaagctaagtgttattacaaaagagtcaaaaagttnaaaaaattnaaaagtttataaagtaaaaaagttacagtaagctaaggttaatttattattgaagaaagaaaaatattttnaataaatttagtgtagcctaagtgtacagtgtttataaagtctacagtagtgtacagtaatgtcctaggccttcacattcactcaccactcactcactgactcacccagagcaacttccagtcctgcaagctccattcatggtaagtgccctatacaggtgtaccattttttatcttttataccgtatttttactgtaccttttctatgtttagatatgtttagatacacaaatacttaccattgtgttacaattgcctacagtattcagtacagtaacatgctgtacaggtttgtagcctaggagcaataggctataccatatagcctaggtgtgtagtaggctataccatctaggtttgtgtaagtacactctatgatgttcgcacaacgacgaaatcgcctaacgacgcatttctcagaacgtatccccgtcgttaagcgacgcatgactg",
+  "length_bp": 1231,
+  "sequence_length_bp": 1231,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Tigger3b"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275131",
+  "name": "BosMut-5.849",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/RTE-BovB"
+  ],
+  "species": "Bos mutus",
+  "display_classification": "LINE/RTE-BovB | Bos mutus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Bovinae",
+    "Bos"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 973 BP; 303 A; 177 C; 275 G; 217 T; 1 other;"
+  },
+  "sequence": "gtcaggaagcaacagttagaactggacatggaacaacagactggttccaaataggaaaaggagtacgtcaaggctgtatattgtcaccctgcttatttaacttatatgcagagtacatcatgagaaacgctggactggaagaaacacaagctggaatcaagattgccgggagaaatatcaataacctcagatatgcagatgacaccacccttatggcagaaagtgaagaggaactaaaaagcctcttgatgaaagtgaaagtggagagtgaaaaagttggcttaaagctcaacattcagaaaacgaagatcatggcatccggtcccatcacttcatgggaaatagatggggaaacagtggaaacagtgtcagactttatttttctgggctccaaaatcactgcagatggtgactgcagccatgaaattaaaagacgcttactccttggaaggaaagttatgaccaacctagatagcatattcaaaagcagagacattactttgccaacaaaggtccgtctagtcaaggctatggtttttccngtggtcatgtatggatgtgagagttggactgtgaagaaggctgagcgccgaagaattgatgcttttgaactgtggtgttggagaagactcttgagagtcccttggactgcaaggagatccaaccagtccattctgaaggagatcagccctgggatttctttggaaggaatgatgctaaagctgaaactccagtactttggccacctcatgcgaagagttgactcattggaaaagactctgatgctgggagggattgggggcaggaggagaaggggacgacagaggatgagatggctggatggcatcactgactcgatggacgtgagtctgagtgaactccgggagttggtgatggacagggaggcctggcgtgctgcgattcatggggtcgcaaagagtcggacacgactgagcgactgaactgaactgaa",
+  "length_bp": 973,
+  "sequence_length_bp": 973,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,51 @@
+{
+  "accession": "DF000277657",
+  "name": "JacJac-5.305",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Jaculus jaculus",
+  "display_classification": "SINE/tRNA | Jaculus jaculus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Dipodoidea",
+    "Dipodidae",
+    "Dipodinae",
+    "Jaculus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 235 BP; 50 A; 67 C; 60 G; 58 T; 0 other;"
+  },
+  "sequence": "gggctggagagatggcttagcggttaagcgcttgcctgtgaagcctaaggaccccggttcgaggctcgattccccaggacccacgttagccagatgcacaagggggcgcacgcgtctggagttcgtttgcagtggctggaggccctggcgcgcccattctctctctctctctctctatctgcctctttctctctctgtctgtcgctctcaaataaataaaaataaacaaaaaaaa",
+  "length_bp": 235,
+  "sequence_length_bp": 235,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

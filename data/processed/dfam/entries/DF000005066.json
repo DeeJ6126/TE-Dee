@@ -1,0 +1,51 @@
+{
+  "accession": "DF000005066",
+  "name": "Halyomorpha_halys-1_family-739",
+  "description": "hAT-Charlie DNA Transposon",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Halyomorpha halys",
+  "display_classification": "DNA/hAT-Charlie | Halyomorpha halys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Paraneoptera",
+    "Hemiptera",
+    "Prosorrhyncha",
+    "Heteroptera",
+    "Euheteroptera",
+    "Neoheteroptera",
+    "Panheteroptera",
+    "Pentatomomorpha",
+    "Pentatomoidea",
+    "Pentatomidae",
+    "Pentatominae",
+    "Halyomorpha"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 161 BP; 58 A; 20 C; 12 G; 71 T; 0 other;"
+  },
+  "sequence": "ttttttgtattacattctattctgagttcaataaatagtttcataatttccaagttcaatgtttctaatttacacctttctttgctatattttacgaaaaaggtagaaacattaatacatatatatttcctattaattgctattaaaatttttaaaaaaaa",
+  "length_bp": 161,
+  "sequence_length_bp": 161,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

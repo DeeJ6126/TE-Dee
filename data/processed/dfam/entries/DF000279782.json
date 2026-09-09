@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279782",
+  "name": "OtoGar-1.93",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Pogo"
+  ],
+  "species": "Otolemur garnettii",
+  "display_classification": "DNA/TcMar-Pogo | Otolemur garnettii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lorisiformes",
+    "Galagidae",
+    "Otolemur"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 190 BP; 56 A; 35 C; 53 G; 46 T; 0 other;"
+  },
+  "sequence": "cagtagaacctctgtaagttgaccacccaagggactgtaacaaactggtcaacatacggaggtggtcaacataaggaactaggcctactgtactgatacgtacatgtggtgcatgtccggtctatgaaaattaggtcaacttaaggaggtggtcaatgtagggaggtggtcaactatggaggttctactg",
+  "length_bp": 190,
+  "sequence_length_bp": 190,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

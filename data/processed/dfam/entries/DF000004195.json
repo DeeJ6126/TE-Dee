@@ -1,0 +1,48 @@
+{
+  "accession": "DF000004195",
+  "name": "hAT_Test-N1b",
+  "description": "hAT DNA Transposon",
+  "keywords": [
+    "DNA/hAT"
+  ],
+  "species": "Chrysemys",
+  "display_classification": "DNA/hAT | Chrysemys",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Sauropsida",
+    "Sauria",
+    "Archelosauria",
+    "Testudinata",
+    "Testudines",
+    "Cryptodira",
+    "Durocryptodira",
+    "Testudinoidea",
+    "Emydidae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 517 BP; 66 A; 176 C; 209 G; 66 T; 0 other;"
+  },
+  "sequence": "cataggcggcgagttatatgggcccgtggtgcccgtgctccaccaatatttaggaacgtgggcccggctccaccaatgtttgggcttaccgcgctttggggggccccgcgcttcagggggacgcggggtccagggcggcctggggggttagcggggggcctggcgccggcagcagcgagcgacccggccccagcccgccccgctccgccccgccggctcccggcgtcgctcgggggagggggcggaagccggaaagaggcggggcgggggcttgggggaaggggtggaatgggggggggcggagcaggggcgggctggggccgggtcgctcgctgctgccggcgccaggccccccgctaaccccccaggccgccctggaccccgcgtccccctgaagcgcggggccccccaaagcgcggggcccggggcggttgccccggtccgtcctatggacgggacggctctgcttggacccattctgggcaccaccaaaaattatacaaacctggcgcccatg",
+  "length_bp": 517,
+  "sequence_length_bp": 517,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,67 @@
+{
+  "accession": "DF000001583",
+  "name": "DMRT1C",
+  "description": "DMRT1C is a non-LTR retrotransposon, a consensus sequence.",
+  "keywords": [
+    "LINE/R1"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "LINE/R1 | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 5466 BP; 1366 A; 1567 C; 1596 G; 903 T; 34 other;"
+  },
+  "sequence": "ggggacgcgcgcgagtagccgggcgaatcgagtcggcgctcccggaaaaccccaaaattttccgtgtcgcggcggctcgatggagacaggagtggctgtctctaacacacagtgtcggcccgagtactcaccagcagaaggcagctccaagtatccatggatcgcccgccggcgccgatcctcagggccatggggcaggcagggtgagagaacttgcagcgaactttctcttcactatttctctttgtcgctttgttgtttctcttggcgtcgtggctgccaccagacttgccggtcacgccagctgatctcgcagtcagctnggaaagcagtgctggtaaacggctaaagcaccncggtctggcagcgctggtcggatgcacgagtccccnagcacaggtggcgccgttttctcggtgagcactcgccgacaaaagctancagctacgnaaatcgccaaacgatcggttcaccggtcgtagcatacatttatgggcggccgacgggtatccttggcaacatcccatggaaacccggagacagatccataancgagcaggagaggcagaacaagagtgtaaaaagtcaaggagcagaccaatagccaacccccccgcttaggcggcacactttaaatccggggctctggcgaccgagctggagcggtatatctcccaccgtcgcaactttcccctgctcacccaccccntaagtccacggcgcgtctgacccaaagtgggcggctacgtggcctgcgcctgttctcttgaccanccgggcagcagcaaaataaaaacccattcagcgtctgagccaagttggccggcggaatggtctgcgtctggccgcatcggccggcagaatatccaaaacctggcgaaaggtatnaagccgcaaacctggcaggaggtataaaatgcaacacttaactggaatgtctgnaaacaacnttattactccaggtggcagccacacatgtggaaatccaccctcggctaatcccgaggctagggcacggattctggaggccctaccaaacattctccccaaacccgccccgacggcggcacacttggccgtcggaccaagcaatgcaacaagtgcacccacaacggacgaagaaagcttggtgttcgggaaaaggtcaaaggtcctaaggaccccaccccagaacccgagcgatggcacccccaagaggccattagaagcgacatcccccctatcagagcccaaccagcaaagcgggtaaagaccccccagctagaaatcgaggagatgggagcaatcctggacgaccttctgacgaaggtcaaccacaacggggtgaggagcattaatctggcaatgaaaaactcattcgccagattgaaggagctccaactaaagctgcgcgcaaggctgccggaggcggagaattcgcatgtcggacgcacggcaagaaccgatgctagccaacagaccacccctaagcgcccctccagccacgaagaaccgagtaagggcaagtcccaaacaaaggatccgcgaagaaagcccagcgatccgaccaccagaaggcagcgggaccccagcgcctacttagggctccgccccaagccactgcagcgggaagtaagccgcaaccnagactgcagcancgaccgcccggaccgcgcaggaagagaccgccgagggagaggccngatgcgctggttatcaccccntcagctggcttaccgtacagcgaagtgctgtcgctggtcacaagaggccaggacgccaggctcagggccatcggggagaacgtaacgagggttaagaggacggccaaaggcgaactgctcctcgagctacgtgcctctgcccaagacttgacgcagaagctcaaggtggacatgggagcggtgctaggagaccgcgccagccttcgcgcgntaactcaatcaaaagtatttttgattcgcgacctngacgagcttactactgaagacgagctgaagagggccctggagtcccaggcagagatcccagcagcagtggtggctatcaagagcctccgncaaacgcagtacggagggaagtctgcngtaatagcagttccagccaatctggcggacccgctgatcaagcgcggcaagctgagggtaggatggtcccaatgcctgatcaaggagctggagccacgccaaagatgcttcaaatgtctggaggaaggccacatagcggcccactgtagaagcaccgtngacagaagccagtgctgcttcagatgcgggnccgcgggacacaaggccgctgagtgccccaacgaggctaagtgcttcttgtgcgcaagcagaggaagccaagcgaccaaccaccaagcaggcacccggaagtgcccattggcgggcaaaggagcaccaaaggcaccgcaatgatgcgtttgattcagctnaacctgaatcactgcacggcagcccaagacctgctagtgcagacggtgcgcgaacgcagagtggagcttgcgctacttagcgagccctaccggacggcggctagcccagactgggctttcgaccgcgccaagaaagcagcgatctggaggtgcagcagagaagcccaacaattaaccgatgttctttcggacatcggatttgttagggcnagggtgggcagatggtgggtgtacagccggacgctagaggccgcacccaggttctcatagcgggcgacttcaacgcatggtcagagagctggggcagttcaaccaccaacgcgagaggcaggatggtgctggaggcattcgcgacgttggacctggctcttctaaaccanggaaaccggcacacgttcaggcgcgccggactgggctctgtggtggacctcaccttcactagcggctcgtcgttcaggctaacgaggtggagactcagcgaggattacactggcagcgaccacttggccatcatttgcgacctgggatgccctccctcgtcccaagcccagatagcagcccaagccaggntaaaatacaagacggacactctggacacgcaggtattccgagagcagttcctacccacggcgagcagacaaggagccgagctgacggcagcggcgctgatgaggcagctgaaggccgcgtgcgacgccagcatgcaaacgagcaggacgcatagccgacaaagagcccctgtctactggtggaaccaggagatagagacggctcgtcgagagtgcctctccgccagacgtcgctatcaacgcgctagaggtgcggagtcctttgccgaacgccaatccgagtacagagcccgcagaaaagcactcaagatagccatacgggagagcaagcggaaatgcttcctcgacctatgcgattctgccgacagcgacccatggggaagtgcctacaaggtggtggtcaagaaggcntacacgaggactcccaagctactggacccagcgatgctccgcagtgtagcggaacatctgttccctttgatggatgggttacgccccgccgacccagccacaggggaccacgtcgaaaccgacgccacggtcagcagtgaagagatcctggagctggcgaaactgctgaaggacggcaaggcccccggacccgacggcatcccgancagggcgcttcggcttgctctctacctccagccagactcgtttgcgaaggcattcaccaagtgcctgacggaaggagtcttcccaagttgctggaagatacaaaagctgttgctcctcccaaaaccagggaagccacccgaggagccttcatcgttccggccgatatgcctcatcgatggaactggcaagctcctggagaaactggtgtgcattcggctagagagggctatcgccgacgcgggtgacctctcacggtcccagtttggcttcaggaaagcgcggtccaccgtcgacgcggtcaacagagtggtcgaagtagcggcccaggcaatcgagggcaccagatggaaggggggtagcaaagagtactgcctcatggtcacactagacatcaggaacgccttcaacacagcgaggtgggaccggatcctagaagcactaattggcttcggcgtcccagcctacctagtcaggatcatccgcagctacttctcggancgggtcctactgtgcgagtcgtcggaaggagtcttcaggcaccaggtcaccggtggagtcccgcaaggctcggttctcggcccgcttctgtggaacgccatgtacgacgggatacttcgcctaccgctggtcgggaggagcgagatcgtaggcttcgcggacgacgtggccttgctcgttgttgacaagcatcccggcaaggctgaggaaangtgtaaccgaaacatcagggccattgaacantggctcagctcaatggggctagagctggcgccggagaagacggaggctgtcctgattagctccaggaaggcagtggagacggccactgtcgaagtaggcggtacctcggtgtcctcctctcgggcaattaagtacctgggagtcatgatagacaccaggctttcgttccgngaacacctagcctacgctagctcgaaagcagcaggagtaaatcgggcgttatcaaccataatgttgaacacccgaggcccaaaacaggcgagcagacggctgctgacgagcgtcacccgngcgaccatgctatatgccgccccggtgtgggcaaaagcgcttgaaacagaaagctacgcccagggcctaaatgctacccatagactgtcggcactacgtatctgctgcgccttcagaacagtgtccaacgcggcggcattggtgatcgcaggaataccgcctctagacctgttagcgcaggaaaacaaagtggtcttcaaccaaacncacggtagaagcctctccccctgcgccaagagggcaatacgagcagaagcaaggcagcacaccctggagacatggcagcacaggtggaacaacgagcttaagggtcgctggacgcatcagctgatccccaatctcaagccgtggatagaacggaagcatggcgaaataacgttccatctaacgcagctggtcagtgggcacggttgctttcgcagctatctgaagcgctttggacacgaggaggcggatgattgcccatggtgcggaagtggacggagcgaaacngcagagcacgttctcttctcgtgcgataaatatgcaagggaacggagctctctggaaaccgtacttggcagcagactgaatgcggataacctagtcccattcatgctgcagggtgaggcggaatggcaagcggtcaacagcttcgccgcagcgataaccaccgagctcagaagagccgagagagccaggagggtccacgagtgagcaaatcctgatcgtcctcgcgaagcaatgcttcacggccataccgcggggggtcctggatttgccctccttactgttacattgttaattagttaatcttaatcttaaatgtctaataaacgaattaaaaaaaaa",
+  "length_bp": 5466,
+  "sequence_length_bp": 5466,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "1151..2373",
+      "start": 1150,
+      "end": 2373,
+      "qualifiers": {
+        "product": "DMRT1C_gag",
+        "number": "1",
+        "note": "via tfasty with I-1_AN_gag and DMRT1B_gag [Drosophila fruit fly"
+      },
+      "label": "DMRT1C_gag"
+    }
+  ],
+  "repbase_aliases": []
+}

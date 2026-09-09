@@ -1,0 +1,51 @@
+{
+  "accession": "DF002407941",
+  "name": "Acol_RTE_Ele2",
+  "description": "Curated TE family",
+  "keywords": [
+    "LINE/RTE"
+  ],
+  "species": "Anopheles coluzzii",
+  "display_classification": "LINE/RTE | Anopheles coluzzii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Nematocera",
+    "Culicomorpha",
+    "Culicoidea",
+    "Culicidae",
+    "Anophelinae",
+    "Anopheles",
+    "Cellia",
+    "Pyretophorus",
+    "gambiae species",
+    "complex"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 3325 BP; 956 A; 845 C; 886 G; 621 T; 17 other;"
+  },
+  "sequence": "ttgctctgtaatgggatgggatccgaagccccaccgagggataatacaggctctcccatccaactcctattccgacacgtcctcgtcgtgcagagtggtaacatgtgccnccacatatccaagcttgggtacacgggctngacccaaccccttgggcggatggtggcacatggcgaaccaggaggggggtgggtatcccgggaaactgggtgcctgaacgtcgggggggggcaacccgacgctaaacaaaacggccacgtgggcgcggggccagtcacccagtcccacgaancaacgactacggaaagcancaggaatntncgaaacggactccaacgataccgaccctacgcaatgcccccggacnacnctnaaaatgggctcatggaacgtacgcactctnagcgaagccggagccttgaaanaacttgatgacgccctagccacactgagcatggacctcgtagctctacaagagattcggtggctagggaacggtgtgcacaacaggcgtggtaagcattgctacgacatntactacagctgccacgaccgccaccgcgtgctcggaacgggtttcgccgtaggtccccggttgaaacccgcaatcatggatttcaaggctataaacgataggctatgcaccctgcgcatgcgaggcaaattctttaatataagcctcataaacgttcacgcccctaccgaagataaagaggaagaggagaaggaccttttttacggccgcctcgctagaaccgtagatgcgtgccccaggcatgacctcataatcatcctgggggacttcaacgcaaaagtcggtagggagccaatgtaccgccaatacactggctgtcacagtctgcatgagcacagtaacgataatggtagtagattggtccagttcgccgcagcgaacaatctggttgtaggaagtaccaaatttgcgcgcaaggaaatccacaagattacgtgggcgcacccgggtggagaatccttcaaccagatcgaccacgtgttaataagccgccgacgacagtcgagcctgttaaacgtcagaacntatcgaggagccaatatcgattccgatcactacttggttggcttagtgatacgttgtagaatcgcccgcccccgcgccaatgggggcggagaaaacacgcagcctcggctcaacacggactctctaagggacattactgtccaacaggaattcaaagccgctttagangagtctctactaccagaaaacagatacgaaactacgagcgagaggtggaacgctctaaaaacaaaaataataaactgtgcaagaaatatactcccaccacgtcgtggcaacaccaaatctggctggttcgacgatgaatgcagacaagtgaccgaacgtaagaatactgcataccgagcaatgcagcaacggcatagaacgcgggcatgcgcagaggaatattcacggctcagacgcgaagagaaacgagttcaccgctccaagaagcatgctttggaagagcaaaacatgcgggaactcgagcaaaccagagaggcgtacggaccgacacgaaagttttaccaagcgatagcaggtcaccgaaacaacgttgtacctaaggtaacctgctgtcgcaacaaggatggagatctggtcagtaaccagccagaggtcctctcgcggtgggctcagtactttgatgaattactcaacgaccagtttagcgaacagctagaagcgccactagcagatagtgtcatgctactgccacctagcatagaagaaacacgaaaggctatccgtcggctgaaaaataacaaggcacccggaaccgacggaattgcagccgaactggtcaagaatggaggtgcacgactagaaaacgagattcatcaaattgttactgaggtgtgggatagcgaatcgatgccttgtgattggaatctcggcatcatctaccccatatacaagaagggagacaggttggactgcaacaactacaggggtattacggtgttgaataccgcctataaaatattctccctgatccttcaggatcgccttgtcccgcacgtcgaagagatagtnggaaactatcaaagaggattccgaaacggaaaatcaaccactgatcagatcttcaccatgcggcagatcttggagaagatggctgaatacagaaacgacacataccatctcttcatngacttcaaagccgcatacgatagcatagccagggtaaaactgtacgacgctatgagctcntttggaatcccggccaaactgataaggctagttagaatgactatgaccaacgtcacatgccaggtgagggtggatggaaaactctcaggaccttttgctaccaccaagggtctgcgccagggggacgggcttgcctgtctcctattcaacttggcgctagagagggccatccgcgactcgagggtggagactacgggaaccatcttctataagtcaacccagatcctggcatacgctgatgatatagacatcattggtctgcggctctcctatgtagcagaagcctaccaagggatcgagcaggcggcagagaacctcggattgcagataaacgaggcaaagaccaaactgatggtggcaacatcagcgggcctaccaataaataatccgaatctacgtaggcgtgacgtacagataggtgaacgcacttttgaagtcgtcccagaattcacctatcttgggtcaaaggtcagcaacgacaacagcatggaagctgagttgcgcgcaaggatgctggctgccaaccggtcattctacagcctgaaaaagcagttcacctcaaagaacctgtcgcgacggacgaagctgggactatatagtacctatatagtaccggtactcacatacgcctctgagacatggacactgtccaaatctgacgaaaccctcttagccgcgttcgagaggaagatgctcagaaggatacttggccccgtatgtgtggaaggacaatggaggagccgctataatgacgagctatacgagatgtacggcgacctcactgtcgtacagcgtatcaagctcgccaggctccggtgggctggccatgttgtacgcatggaaacggacgacccagcccgtaaagtctttttaggccgtccacaaggacagaggaggcgtggtaggcccaaattgaggtggcaagatggcgtggaggcgtccgccattaaggccgggataacggactggcagacgaaggcgcgagaccgtgagcggtttcggacactcctgaggcaggccaagaccgcaaagcggttgtagcgccggataagtaagtaagtaagtaacgag",
+  "length_bp": 3325,
+  "sequence_length_bp": 3325,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

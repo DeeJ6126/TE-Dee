@@ -1,0 +1,41 @@
+{
+  "accession": "DF000000087",
+  "name": "Charlie13b",
+  "description": "hAT-Charlie DNA transposon, Charlie13b subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/hAT-Charlie | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 512 BP; 147 A; 128 C; 109 G; 125 T; 3 other;"
+  },
+  "sequence": "cangggcatccaacatgcggcccgcgggccaaatgcggcccgcctgaccccagggtgcggcccgcctgagatttttagcaaaaatgtttttacctaattagctagcacacatgaactagtagggccagnagggcctaaccacctgcccgccgcaccactgtgtaactgactgccgccaggtgtcatgctagcaggcttggatcaattagtaattgtaattgaagctgaatgtaattaattatataattttgagctgttcaagtttaattccactaaaattacatcatgaaactggggcattatgaaggattactgacaaaaggaaaataggtatgaataaagcctccatatgcacttgactcacgtttgagtcacgtccaatactcgtacgccaagcgtggaccctctcgactcaccattgttatcaataaaaaaattcatgcggcccgcacacatatggatttctgatcatgtggcccactattgaaaaaacntggacgcccctgccctag",
+  "length_bp": 512,
+  "sequence_length_bp": 512,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "Charlie13b"
+  ]
+}

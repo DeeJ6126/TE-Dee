@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003268",
+  "name": "CR1-54_DR",
+  "description": "CR1-like non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/L2"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/L2 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 803 BP; 257 A; 111 C; 137 G; 296 T; 2 other;"
+  },
+  "sequence": "aattaaatgtgtcaaaaacagcttgcatgtacttctctaaaagacatggcgntaaacaggttttatctcaggagaagttgtgattaaatactatggttatcgactcctgtcaaaggtatgtaaaggaaaattgaatatagttaattttagtttattagaaattctttatcaaataaggctgcaaaaatgtatttaaatctatgatccttatataagttggctaaacaaaatctacagtttaaaacctctggaattatatataaacaattttantaaaaacagttttcatcttgactatttaaaaacccatagcctgcttagttgggaaacatcactaagtttaaaaatggttgtgtagtttacaagattatgcatggtttctcctccccttctatctgactttttccagtttaaatctgtagaaaacagagtgactcgggtgcagctagagctgattgcattattccacttagaaaaacttcttttggtcaagcttgtttttcttttaaagcatcgcatcagtggaatttgataccacaatctgttagaaagtcatttaagtataattttaagaaatggcttcttatcaacattgtgaacactaggctttttgatgttgttgttgtgttgttgtttatttgagtattgtttttagtttgaatttgtatttttattgctttaaatctggcaaagggaccaccaatgaaaactagtctttgggctaatttgggtacatttacgttcttggggaacgttgattaatgtacactgtcccttgttgtgaaaaataaataaataataaa",
+  "length_bp": 803,
+  "sequence_length_bp": 803,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "CR1-54_DR"
+  ]
+}

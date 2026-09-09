@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277483",
+  "name": "HipGal-6.520",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/PiggyBac"
+  ],
+  "species": "Hipposideros galeritus",
+  "display_classification": "DNA/PiggyBac | Hipposideros galeritus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Hipposideridae",
+    "Hipposideros"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1303 BP; 433 A; 214 C; 233 G; 423 T; 0 other;"
+  },
+  "sequence": "ccctccgtcgggcgcaactgatctcacagattcattgcacacaaattttcaaatatctaacagttaacttaagtatcgtgactcatcgcttccgtatcttccccctctaccgtaacctatcgccagtcgtgtttgtgacttagtacagtaaagacgtatttcatagcggcatctttaatctcacagattcgttgcgcctatttgagatattttttatattttctcaacagatttttttgtatagtactatcctttcagacattccagaaagagattgtaagtatagttttattattgaaacttagtaattaggtattttattttctaattaatctgacagattcattgcgcctgtttagggtaatatttttcctttgtaggttttaccttctaaaatggctcaacctcaaagattttataatccagatgacccgaaagatgctgagatattgctacagatgttgatggagtctgataatgatgaaaatgaacttgaatttgaagacgaaagtgacacagatggtgaagatcaagttgaagaacgagaccaaaattctgacactgagcaagaaagttctccttcagaaagtgatcaagaaagtagtaacgaagaaatagatgaatattttattgggaaagataaaatataagtggcattaatgcacaagtgctatacctagagaatggaaatgaagttaaaaaaagacgtttatttttgaaacagttgagtagggaattggtagccgaacatatgaaccaaagagccgcaaaaaataggggaattccttcacttctccaacaaaaattgcagaagtttactacacctgctgtcaaagttcaagcagaagaacctgaggccaccacttcgtcaaacaaaaggaaacggtgtgcaccttgcgtaggaaacaaaagacaaaggtattccaaatacttctgtaaactttgcaaacaatttttgtgcttagaacatgcgacaatgatttgtgaacattgtttcaactcgaaattcgatggcaatgaagctgatgaagagcaatcagattagtttttgttattttattaaatgacaaattttgttttagttttatgttttgaatttctgttgatttttatactgaatttatgtaataaacatatattgtttttactttgtggcaaattaaaatttcattctgaataaataataagcatgcttacacgttattttcattcattttcaatttaaataaataaatgtcatacacgcatctagtagatgcattgcgcccgaactcgtaacttttgcattgcgcccgatggaggg",
+  "length_bp": 1303,
+  "sequence_length_bp": 1303,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

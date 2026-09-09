@@ -1,0 +1,36 @@
+{
+  "accession": "DF003447337",
+  "name": "",
+  "description": "Repetitive sequence family identified in Heligmosomoides bakeri",
+  "keywords": [
+    "LINE/CR1"
+  ],
+  "species": "Heligmosomoides bakeri",
+  "display_classification": "LINE/CR1 | Heligmosomoides bakeri",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Nematoda",
+    "Chromadorea",
+    "Strongylida",
+    "Trichostrongyloidea",
+    "Heligmosomatidae",
+    "Heligmosomoides"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 412 BP; 96 A; 88 C; 78 G; 113 T; 37 other;"
+  },
+  "sequence": "gtatgacggtattccccaaatagtttacanaaaatgtgctaattcnctctgcaagccgttttccatgattttcgacgttcccgtnatgttcggtgaagttccatcantttggaagtaggtcatngttacagccgtccctaaaggtcaggctaagnaagtgcaactttcttcgtttcgccctatnagtatnacncccacacccgtaaaagtnatggaaaagatcgtncgagataagntnnttncntggtttnctcggaanaatttaattccnnangagcaacacggcttcacnnctggngcntccactnccactcanctggcngactgcntctncgactggaatntngctttaaacaatggngantccgttgacgtcgtntatntcgatttgtcgaaagcnttcgataaagtt",
+  "length_bp": 412,
+  "sequence_length_bp": 412,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

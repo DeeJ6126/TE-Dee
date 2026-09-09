@@ -1,0 +1,50 @@
+{
+  "accession": "DF000275564",
+  "name": "CheMed-1.267",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CheMed-1.267"
+  ],
+  "species": "Cheirogaleus medius",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Cheirogaleus medius",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Cheirogaleidae",
+    "Cheirogaleus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 403 BP; 99 A; 144 C; 84 G; 76 T; 0 other;"
+  },
+  "sequence": "tgtaaggctggtggcgggcccccctcccctccctagatcaaaaaagaaaaggctcacgagaccagacccgccaaggacaaaactgccaggccccgctgagaggaaccacacccagatgtccacccggataagaagttccgctcctggattccacaaatacctccagcccctcctatttctcaatgaccacccgacagtcacaatgaaaaatccccagctcttccgccaagagtccctagggtataaaaggcctcagcccctccaaacggaggcgacttctggggcccccctctcttggggccccagaacctcgtccaggagtgtataataaagccacgtggtttggcccccactctttctctctgtctgtcttttcttgccgccgccgccgaaaaaccttaca",
+  "length_bp": 403,
+  "sequence_length_bp": 403,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,41 @@
+{
+  "accession": "DF000001163",
+  "name": "MARE10",
+  "description": "Repetitive element conserved in all mammals.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Mammalia",
+  "display_classification": "DNA/TcMar-Tigger | Mammalia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 324 BP; 85 A; 60 C; 58 G; 113 T; 8 other;"
+  },
+  "sequence": "tcacgccancacgttgaactgtttggacacttttctggatnacttaagcaacaagaagagttccnncntcctntctgtcggttatgtttctactncacagtaattgcagtgttttctactgtgctgtacagttttngaaataatttacgcaagtgtcgatttctacatttacaaatgtatacagcttaactagcagtttaaatggaaattttaataaatgctatgaattggtgcctaatttgcatattctgtcaattatctgtggtttgggataatccatgccaaggttttcccccattaccctgaataatcgagagttggctg",
+  "length_bp": 324,
+  "sequence_length_bp": 324,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MARE10"
+  ]
+}

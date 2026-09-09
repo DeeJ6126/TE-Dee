@@ -1,0 +1,48 @@
+{
+  "accession": "DF000277438",
+  "name": "HipGal-1.132",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tc2"
+  ],
+  "species": "Hipposideros galeritus",
+  "display_classification": "DNA/TcMar-Tc2 | Hipposideros galeritus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Hipposideridae",
+    "Hipposideros"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 238 BP; 61 A; 57 C; 58 G; 62 T; 0 other;"
+  },
+  "sequence": "ccgtgtttccccgaaaataagacctagccggagaagaagccctagcatgattcctccaggatatggagggcacgcacccctcacatgagggttttatgacctgtttcagggagaagggtgccttttccacaaactccttcagcttaaaatattcagtatgccaaggtgccatattttggcacctaaaatcatgcgagggcttattttccggctaggtcttattttcggggaaacaggg",
+  "length_bp": 238,
+  "sequence_length_bp": 238,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

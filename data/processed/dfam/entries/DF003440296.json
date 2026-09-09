@@ -1,0 +1,49 @@
+{
+  "accession": "DF003440296",
+  "name": "nMar3_rFer",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Rhinolophus ferrumequinum",
+  "display_classification": "DNA/TcMar-Tigger | Rhinolophus ferrumequinum",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Rhinolophidae",
+    "Rhinolophinae",
+    "Rhinolophus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 260 BP; 66 A; 50 C; 60 G; 84 T; 0 other;"
+  },
+  "sequence": "cagtggtacctcggttttcgaacgtctccgttgacgaacatttcggtttacgaacgccgtaaattttatggatctatggtatcattagatagtaaaattcatgctaaatttgcagttttaggggttgattttaaaggtctggaacggattaatccattttgcattactttctatggggaaaccgtgcctcggttttcgaacgtttcagaactcgaacggtcttccggaacggattacgttcgaaaaccgaggtaccactg",
+  "length_bp": 260,
+  "sequence_length_bp": 260,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

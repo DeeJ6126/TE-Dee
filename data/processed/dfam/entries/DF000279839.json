@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279839",
+  "name": "PanHod-1.113",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Pantholops hodgsonii",
+  "display_classification": "SINE/tRNA | Pantholops hodgsonii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Bovidae",
+    "Antilopinae",
+    "Pantholops"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 233 BP; 50 A; 78 C; 69 G; 35 T; 1 other;"
+  },
+  "sequence": "gggacttccctggtggtccagtggttaagaatctgccttccaatgcaggggacgcgggttcgatccctggtcggggaactaagatcccacatgccgcggggcaactaagcccgcgcgccacaactactgagcgctgcaactactgagcccgcgtgctctagagcccgtgcgccgcaactagagagagcccgcgcgccgcaactgaaagancccgcgtgccgcaactaagaccc",
+  "length_bp": 233,
+  "sequence_length_bp": 233,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

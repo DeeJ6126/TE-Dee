@@ -1,0 +1,57 @@
+{
+  "accession": "DF000000019",
+  "name": "Charlie2a",
+  "description": "hAT-Charlie DNA transposon, Charlie2a subfamily",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 2861 BP; 935 A; 480 C; 501 G; 936 T; 9 other;"
+  },
+  "sequence": "cagtggtcttcaaactggggtatgcatacccctgggggtacgcgaagactttccaaggggtacgcgggcacggatagttttaagggaatcaatttccagatcctcaacttccatatgtactctttcctaaaactgatctgcctgagaacgtacctgtggcgaagtctgccctttcccacctcccctttcacaatcgcccttctcccactttacaaaagaaaggcatacctctcacccatcccgaatcttactatggtgcattgccccggggtgtaaaaacctccggggcgccaaacaaagggacaattcgaaatattggtgttggggaagcctcctttaatgattaatcaaggcaccataaacccatggtagggcttcctgtctttccctgtcttatacatatttctgttaagggtgaagcntggcgttagaaacggggtattttggcccntgttgggatgttctgaattcagatatatngtagagtggggcggtgggagtgatgacaattttcgtttaacgaccttgcctcttccattccccgactattgtcaaagaatgcatcgctcttgagggagagtcccgtgagagcaaagcaaagagagcatcggtaagaaatactgaacgctaaaaacggcttttttcacgtatttaaacgtaagcaattcttttcagctattctcaatactcatccctaggacgtgtcattagctggaaagaaaagcaccttcgaacagccgaagcagtataggttagtgacgctgattcttttaaatgtaactggaatgttttccgggactaccaaatttttcaagatacattggataaaacccacggataaaanttttacgtgatttctttcagattcggtgtgcgttattcaataaggtagttaaaacctattttatcaaatcatatcatgaaatatttattccaattacagtcaatcctcatcttatttcatcttataaaatgtttaatattttctacctcctattaacaaaaaataaaattatatgctagctgccggaccgattagtttttagcagtatatacctttctctttcattaaatacataggaaaagtttgatcatgatgtctaacgaaattaatggagttatttctgatttttatacatgattcttatttaattattcccaaaagccgaacaccagagttcgatatacacatgcacacacatttaccaaaggaataccatgccttttatcatactcctcgcttcataaataacttataattttagctacacattacattgcattattacaaattaagtaatgagaaacagcatattgatttattatcttgtttttataacttattataaaaatagatnaattatattagatctacatnattttaatcttgactgcttttagtaatctatcttacaagatgcattccataatttatttctcagtggtttttataatattcctcgaaatgcatattaacacgtttatttgaattgaaaaatgaagtcagactttttctgacagaaagtaagtctgatttggctgattggtttgacaatgaggactggctttgccaattaggttatatggcggacattttccataaattgaatgagctaaatctgcagctccaaggttttgacgaaaatatatttaaagcacgtaataagataaaagcattttatcaaaaaatattgtattggcaaaggtgtattgaaattaacaatatttcgattttcccaaccctttctgagtatatcgggttaaacaaggtgcctctaagtgaaagagtaacaggtataattaatagtcatttgataagtcttggtaaagcctttttggtatacttcccagaaattgagaaagtgaatgactctaatgactgggtaacaaatccttttgcaagtcaggtggtttccaattctttgctttcaacaaaattgaaggaggacctaatcgagttgtcagctgatagatcattaaaaataatttttgatgatagatcactatgtgatttttggcatataactcggaaggagttcaaagaattgagtgacattgctataacaaaactccttccattcccatctacttatttatgtgaacaaggtttctcagcgcttacatctataaaaatgaaaaataggaatagaattgatgctgaaccctgtctcattctagcaataagtaatattcatccacggatacatgaactaattgggaaaanaaagccccatccatctcattaagagatgcatttccaataaaattttactttttatgtttaatatttatcaaaatttgtaatatatttatgttgttttgatcaattgtgtactaataataattgtaatgataactcaatccagaagaaaatttttaacacttagagccttatggtcacaggaaatntaaaaaattaaatttcaatttatatacatatttttgttgcagagaagtatgatagggtgatcaataaaagactttcaagcataaaaatatattacattaggataaaattctgtgggggaagtggaatggaaatacgagttcaaggagaaaaagagaacgatgtaaaatttccgactgttaaagaagagcttgttcatgtattttttaaatggatgatggtgggtatcaaatcgctatggtatttagattccattggatacatttaaaagagtgatgtaacagttttattttaaaatgtcaatatttacaatacgccagaaattacatcctttgcaactatttaaacttatgatgaaaaattttagatgtcaacttaaaaatgtgcgagggggtacatagtttttcaaaattcttttagggggtacgcgagcaaaaangtttgaagaccactg",
+  "length_bp": 2861,
+  "sequence_length_bp": 2861,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "1454..2243",
+      "start": 1453,
+      "end": 2243,
+      "qualifiers": {
+        "product": "Charlie2a_tp",
+        "number": "1",
+        "note": "[Eutheria]",
+        "translation": "YSLKCILTHLFELKNEVRLFLTESKSDLADWFDNEDWLCQLGYMADIFHKLNELNLQL"
+      },
+      "label": "Charlie2a_tp"
+    }
+  ],
+  "repbase_aliases": [
+    "CHARLIE2A"
+  ]
+}

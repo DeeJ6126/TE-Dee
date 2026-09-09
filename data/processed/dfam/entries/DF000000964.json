@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000964",
+  "name": "MER97a",
+  "description": "hAT-Tip100 DNA transposon, MER97a subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 890 BP; 274 A; 152 C; 181 G; 283 T; 0 other;"
+  },
+  "sequence": "cagtggcgtaccaagggcggggcggtgggagcggtccgccccgggtgcaggcaataagggggtgcattgtctgtagagaatttaaaaacaataataaaaccgactaaaagtcggtctgctttttattatcaccatgcgccggcaattctaaacaatgtcagtgataaaatactcctccccgaaaaatcttttgttggtctaagttctaaacaattgctgcggttactgttgagttttaataatatatatgtaagcttcaaattagcacatttttattacttatcctttaataaacattgtattctacatggaagttaattcggagaactcccagttatacagtcggcccccgacacacgcggactcagctacacgcgttcgtttcgagagtaagttcgtaacggttcggaatcgttcgagctcgcttcgggcgcagttcgtgtctccaacccctgtggtactacatattcctgcgtttaaacagtagattcgaaataaacaatgatagcacagtgattgtaaagacgaagaaacagaacttgagttacttcaattctgtcattctatgtgaccacttggagtttttatttgtgtttaaaatttaaaacagtgaaacagagtgcgaactgcgaggtgtaatatttttgtttggtaagtgcaaattttagttcatacatgaaatattttactgaatttgaataatatctttaaaattgaaatttattctttttaaattgttaattatttgttttaaaactaaagaacgaatcaagaaaataattattactgattattacatgattattactgaaaataattttgtcgtatagaggaggggggtgttaaaaaatgatccgctccgggtgtcaaatacgctaggtacgccactg",
+  "length_bp": 890,
+  "sequence_length_bp": 890,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER97A"
+  ]
+}

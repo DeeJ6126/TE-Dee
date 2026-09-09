@@ -1,0 +1,48 @@
+{
+  "accession": "DF003440288",
+  "name": "nL2-2_pKuh",
+  "description": "Bat1K Transposable Element",
+  "keywords": [
+    "LINE/L2"
+  ],
+  "species": "Pipistrellus kuhlii",
+  "display_classification": "LINE/L2 | Pipistrellus kuhlii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Vespertilionidae",
+    "Pipistrellus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 428 BP; 76 A; 148 C; 62 G; 122 T; 20 other;"
+  },
+  "sequence": "gcctggccctccatcccccnnatctgacctcatcttctacccatcccttcagtccttccagccacgctcttcatgctcccccanctcagggcctttgcactngctgttccctctgcctggaatgctcttccccnagatctccgcatggctggctccttcttcaggtctcngctcaaatgtcacctcctcagagaggccttccctgacctcnantctcagttagccacacccctncaactctctcacctcntcctgctttatttccttcatagcacttatcacaactnanttatttgcttatttncttgtttactgtctgcctcccctagaatgtaagctccatggggcaagaanctgctatttgttcactggccacctncagcncctagcatanagcaggcctccaataaatgganaatnaatgtntg",
+  "length_bp": 428,
+  "sequence_length_bp": 428,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

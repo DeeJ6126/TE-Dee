@@ -1,0 +1,50 @@
+{
+  "accession": "DF000277902",
+  "name": "LipVex-1.73",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Lipotes vexillifer",
+  "display_classification": "LINE/L1 | Lipotes vexillifer",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Whippomorpha",
+    "Cetacea",
+    "Odontoceti",
+    "Lipotidae",
+    "Lipotes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 252 BP; 92 A; 29 C; 41 G; 90 T; 0 other;"
+  },
+  "sequence": "gggatgtaatgtacagcatggtgactatagttaataatactgtattgcatatttgaaagttgctaagagagtagatcttaaaagttctcatcacaagaaaaaaaatttttttgtaactatgtatggtgacggatgttaactagacttattgtggtgatcatttcgcaatatatacaaatatcgaatcattatgttgtacacctgaaactaatataatgttatatgtcaattatacctcaataatttttaaaa",
+  "length_bp": 252,
+  "sequence_length_bp": 252,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

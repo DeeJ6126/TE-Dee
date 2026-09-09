@@ -1,0 +1,52 @@
+{
+  "accession": "DF000281682",
+  "name": "CebAlb-1.239_LTR",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "CebAlb-1.239_LTR"
+  ],
+  "species": "Cebus albifrons",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Cebus albifrons",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Platyrrhini",
+    "Cebidae",
+    "Cebinae",
+    "Cebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 462 BP; 115 A; 146 C; 88 G; 112 T; 1 other;"
+  },
+  "sequence": "ggtcttttaggctgactgacggcgccatggactgccatggtaacctctgtgacctgcacgtacacctccggatgagttcctggaactagaaagtctgaagtaactggaagaccacgaaaagnggaagaacgatcaacccctgcggcgcctaattaactttgagacattcttctattgttccttattcccgcctcaactgataaggcaattggactttgtaaccgaccttggtcaacctcgtgactccagaccctacgaccccctcccagcttgcaaaaaccgccctaaactgtaacttctgtaactttccactgcctaccccaaacctataaaaccaactcctatcccaccgccctccgctgactctcttttcggactcagcccgcccgcacccgggtgaataaacagccatgttgctcacacaaagcctgtttgggggtctcttcattcagagcattttaa",
+  "length_bp": 462,
+  "sequence_length_bp": 462,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

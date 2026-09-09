@@ -1,0 +1,40 @@
+{
+  "accession": "DF000001147",
+  "name": "Tigger19b",
+  "description": "TcMar-Tigger DNA transposon, Tigger19b subfamily",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Theria",
+  "display_classification": "DNA/TcMar-Tigger | Theria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 550 BP; 129 A; 139 C; 128 G; 151 T; 3 other;"
+  },
+  "sequence": "cagtcaactctcgattatccgcgggcggattatccgcattgcggcttatccgcggcaaatcttgctttcaagttcttattgacagttagcacctactctgcttaattacttgctttgttgacatctcagctccctctgtttactctgcacgcagagaagccctttgaaacccaaacacttaaccacctcccctgctccagggaaggtttgagagagggcagctctgcttaggctggtgctttgcatcagtctgagaggcgatgccgtctattcccagcgtggagtgggnngcagggaggagttgggcaggaggcaggatgaggaaactggacagcttcccagctcctcctgagtcaggtcttcacagtgtggcttcattattttgtttgaagtgttgtgaattcccagaacatcagacacacccatattcaaatgtaagtacaaaaacacattccaaagccaaatataaatgatttttggattatccgccgttttggattatccacgccnctgctcccctccattagcgcggataatcgagagttgactg",
+  "length_bp": 550,
+  "sequence_length_bp": 550,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

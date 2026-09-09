@@ -1,0 +1,52 @@
+{
+  "accession": "DF003445677",
+  "name": "Pman_ERV1_5.1528",
+  "description": "TE identified in the deer mouse genome",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "Pman_ERV1_5.1528"
+  ],
+  "species": "Peromyscus maniculatus",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Peromyscus maniculatus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Cricetidae",
+    "Neotominae",
+    "Peromyscus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 595 BP; 150 A; 126 C; 121 G; 198 T; 0 other;"
+  },
+  "sequence": "tgtgagaccaaaacaggaacaatataccttgcaagttaatgtgagaccaaaacaggaaaaatataccttgcaggttaagggttctgtttgcagttaagacagttaagaataagttcctgtttgtcctgtgttaagtcttgcaagttaaggtttctgtttgtaattaagaagttcctgtttgtcctgtgcaggttaaggtttctgtttgtagttaaagaataagttcctgtttgtcctgtgttaagtccttgcaagttaaggtttctatttgtaattaagaataagttcctgtttcttagatctgatgtaaactgcttgcgaccccattcacatgatgtatatccttacccttgttccttccctttcattgtatctttctaacaatgtataacagccaactctctcgcccctgtgaacaccttatctctcctataaaagggacctcaagaggccggcaggggctgctctctcaaatcccgacttagggtgagacagccggctggccagtcccgggtgcaccccaaaatacagcttgctttaattggacaatcgtggatttggtcttttctcctcgcgattctcaggtttaacactt",
+  "length_bp": 595,
+  "sequence_length_bp": 595,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

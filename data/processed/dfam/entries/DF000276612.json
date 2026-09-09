@@ -1,0 +1,50 @@
+{
+  "accession": "DF000276612",
+  "name": "ElaDav-1.110",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Elaphurus davidianus",
+  "display_classification": "SINE/tRNA | Elaphurus davidianus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Artiodactyla",
+    "Ruminantia",
+    "Pecora",
+    "Cervidae",
+    "Cervinae",
+    "Elaphurus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 243 BP; 77 A; 85 C; 57 G; 24 T; 0 other;"
+  },
+  "sequence": "gatcccacatgccgcggagcaactaagcccgtgcgccacaactactgagcctgtgctctagagcccgggagccacaactactgaagcccgcgcgccctagagcccgtgctccgcaacaagagaagccaccgcaatgagaagcccgcgcaccgcaactagagagtagcccccgctcgccgcaactagagaaagcccgcgcagcaacgaagacccagcacagccaaaaataaataaataaataaa",
+  "length_bp": 243,
+  "sequence_length_bp": 243,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

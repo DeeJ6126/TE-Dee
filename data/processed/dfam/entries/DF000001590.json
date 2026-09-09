@@ -1,0 +1,68 @@
+{
+  "accession": "DF000001590",
+  "name": "DOC4_DM",
+  "description": "DOC4_DM (LINE/I-Jockey) element.",
+  "keywords": [
+    "LINE/I-Jockey"
+  ],
+  "species": "melanogaster subgroup",
+  "display_classification": "LINE/I-Jockey | melanogaster subgroup",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Ecdysozoa",
+    "Panarthropoda",
+    "Arthropoda",
+    "Mandibulata",
+    "Pancrustacea",
+    "Hexapoda",
+    "Insecta",
+    "Dicondylia",
+    "Pterygota",
+    "Neoptera",
+    "Endopterygota",
+    "Diptera",
+    "Brachycera",
+    "Muscomorpha",
+    "Eremoneura",
+    "Cyclorrhapha",
+    "Schizophora",
+    "Acalyptratae",
+    "Ephydroidea",
+    "Drosophilidae",
+    "Drosophilinae",
+    "Drosophilini",
+    "Drosophila",
+    "Sophophora",
+    "melanogaster group"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 4616 BP; 1551 A; 1128 C; 838 G; 1093 T; 6 other;"
+  },
+  "sequence": "tcattaggcattcggcgagtgcagacgtgtttcgtgctgctctccaactaatgtataatcaactaataaataaatcacaaaatcagtgaaattaaaatgcaaaacgaaattcgtgagcaacgtcaacgtgaacaagacgagcgtcggctctcttcaatcaaaaacaacgcgtatttctcgttcgtttctacggaaacgctcaagccctcccaagaccagagagcgcactcttgctctccgtcgttgccaagcacagttccaaaatcttggagcgaagagtgcgcttccccaatgccgcaaccaacaacaaattacacacanactccgttaaccattgtaggcaagcctactctcttaagcctagctgcagtaactaccagcacggttgcctctctcacaactgcaatcgcatcgacaacaacaacaaccgcaacagtctcttcaactcaaacgattcagtcaacgacctcaccggcttttgcattgcaagcaaaacaattaacagctacaattaccgatttacgtgagtcaaagagcaatccaagtggccgcccgaattcggtcatgcagactggtatggatcgctacgtttttgtaaaacgtaaacggagtccgcaacgcacaacaggtaatagagccaaaataaattgtggtagcgaaacaaaaactactactaccaacaataaaaacatgtttgcactgctagcagaaaacgcaagcgaggaagctaataaaacgacagatagtgtatctcaaaaaccaaagcctccaccaatatacatccgagagattgctacgaacgcactggttaataaaatagttcagcttatcggaaataataattttcacgttatacctctaagaagaggaaaaattcaagaaactaagcttcaggttaaaaccgaagaccagtttcatgcggtttcgaagtttttaaacgtaaacggcaaaaaatattacacgtaccaactcaaaagcagtaaagggctgcaagtggtactaaaaggcattgagcctgatgtcacacccaatgaagttgcgaatgcacttcacgaaaagggctttaacgttaaatcagttattaatattcttaataaagataagaagccccaaccgctcttcaaggtcgagctagacccaactagccaaacactaaagagaaatgaagtgcacccaatttacaatctccaattcttattacaccgtaaaattactgtagaagaaccacataagcgtaatggtccagtacaatgctccaactgccaagaatatggccacaccaagacatattgtacccttccttccgtttgcgtcgcctgcggggatctgcacgaatctggcacttgcccggctaataaacttgatccaaattnaaaaaaatgtggcaattgtggtgaaaaccacacagctaattaccggggatgccctgtctacaaagatcttaaaagtcgcatgaacaaacgaattgcttcggctcgtagtactaataatacccaaaaatgtatggtaccctcccaatcgtttcctgacattttcttctccaacgccaaaatgtcatcccttcctccagtaagcaccataccgggtgtttcatttgctagtgccctaaaatcgggaacggaaggtcctgcgtccacaacagagttctcaaaagcgccgcaacctcgagccgtgccagacgacctgcaacaacccacaagtgccatcgaaaaaatnatgttatcattccaagcaacgatgacggaatttatgtcgttcatgagaacaacaatgcaggatcttacgcgtgccttagtacaagtacttgcatctcaacattcaaaataaaaaaatgtcctcccttcgtatatgtttatggaatgcgaatggcgtctcccgccacaaacttgatctcgctaggttcttgaaagataaagaagttgatattatgttgctctcagagacccatctaaccagcaagtacaattttcaaataaatggctacgtgttctacgccactaatcaccccgatggaaaagcacatggaggaaccggcatcttgatcagtagtcgcattaaacataacttccttgatcgttttgagaaaaactacctacaagctacatctgtggtggtccattctagtggcggtaatataactctggccgccgtctactgtccgccccgtttctcaattactgagaatcaatttatggaattcttttgcacccttggggatcaattttttgctgcgggcgactacaacgccaaacatacacactggggatcccgtttagtaaatcccaaaggtaaacagctatatactgcaattatcaatccgataaataggttgaactttctatcacctgggaaacccacatactggcctacagacccccgaaaactaccagatctgattgattttgcgatcgtaagaaaaattcctttagtgcttcttaacgctgtaacacttgaagatctctcatctgaccactcacccgtactcttcaacatttttcggcagccagaaattaaagaaaggccgcgtcatcttacaacatcagccacaaactggttaaagtataaaaaatatgtcagcacacacttagaactcaatcctatgctagacacaaattcagatatcgaaagttctgtaaaaacatttgagtcgataataacaaaagctgctagtgccgcaacacctcaaatganttctaagcaacacttaaaatatgggactacgaacaggcaaatcgagaacttagtgctagaaaaacgacgtctccgacgagagtggcaaacccacagatcaccagccacaaagcaacggctgaagacggcaacacgcgccctaacgaaagctcttaagaatgagaaggataaagaacatcgccggtatattgagaaactatcgccgacaaacacaaggcagtcattgtggaaggcaaatctttgcctaagtatgcctatggaagcagagatgcctattcgggataacactgggaaatgggcccgtagtgatgcagaaaaggcaaatgtatttgctgctcatctacaaaaggtgtttcagccgaacccaccatcaaatggctttacgctcccgcacgtctccgacggacaacctactgatccactgaattttcctccgaacgaaattgaaaaagttatcaaagaacaactgaatccaaaaaaagcacctggccatgacttaatatctccaaaaatgattatggagctaccaaactgtgctgtacgatatatcagcacattgttcaatgccatagctaaaaacaattattttcccaaccaatggaaaaaatccaccataattatgattccaaagccaggaaaagatagaacgcagccatcatcctacagaccaataagtcttctttcatgcatctctaagctctttgaaaaattactcatcattcgnatacaagcacacctgcaaactcgtaacacagttccatcgcatcaatttggattccgtcaaaatcatggaacaattgaacaagtgaacagaataacaacagagatcagaacttcttttgagcacaaggaatattgcacagccgtattcctcgacgtcgcccaagcattcgaccgagtgtggttggagggccttatgtataaaataaaaacactccttccaccaaatacacacaagctgcttgaatcttatcttttcaaaagaaaatttgctgtaaggtgcaatgcgaatacctccgaggaccatgtcatcgaagcgggagtccctcagggtagcgttcttggtccgacactgtatctcctatacacagctgacatccctacaagtgatcgaacaacactatcaacttttgctgatgacaccgcaattctcagccgatcgaaatgccctctgcaagcatcagcgcacctggctggtcacctaactgttgtggagaattggctggctaactggcgtattgcaatcaacgagcagaaatgcaaacatgtcacatttacgcttaataggcgtagctgtcccccattaactctaaataacgtccaaattccacgaagtgattcagccatttacctcggagttcatctagacagaagattaacttggcgtaagcacattgaagccaagaaaacgcatttgaagctgaaagccagtaggtttcactggcttatcaactcacgctctccactaagtttggactacaaggtgctgttatacaacacagttctaaaaccaatatggacatatggatgtcaactatggggcaatgcatgcaacagcaacattgaaataatacaacgagcacaatcaaaaatcctgcgaacaataactggtgcgccttggtacatccggaacgcgaacatccaccaggacctacggattccagttgtaaaaactgaaattgtccagcagaaggctaaatacctaaagcgacttgcaacgcatccaaatcaattggccaaatcacttatagaagtgaataatcacacgcgcctccaacgtaacgattcacctgcccagatgccaagacctagggccatttagtataactttataattaagtgagtagattaagatttgtaaacttattgttagtctctatataccaagagaagattcaatanaatttcgccaccccattaaaaaa",
+  "length_bp": 4616,
+  "sequence_length_bp": 4616,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [
+    {
+      "type": "CDS",
+      "location": "192..1743",
+      "start": 191,
+      "end": 1743,
+      "qualifiers": {
+        "product": "DOC4_DM_gag",
+        "number": "1",
+        "note": "[Drosophila fruit fly genus]",
+        "translation": "MPQPTTNYTQTPLTIVAKPPLLSLAAVTTSTVASLTTAIASTTTLTATVSSTQTIQST"
+      },
+      "label": "DOC4_DM_gag"
+    }
+  ],
+  "repbase_aliases": []
+}

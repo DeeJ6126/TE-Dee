@@ -1,0 +1,50 @@
+{
+  "accession": "DF000279806",
+  "name": "OtoGar-6.322",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "OtoGar-6.322"
+  ],
+  "species": "Otolemur garnettii",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Otolemur garnettii",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lorisiformes",
+    "Galagidae",
+    "Otolemur"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 631 BP; 151 A; 206 C; 112 G; 160 T; 2 other;"
+  },
+  "sequence": "tgtgagagccaaactagctccattttgttgtttacagcacaagctccattcttggctgtttacagcacaagccccattcctggctgtttaccgcataagttccattcctagcccctccgccccaacctctgccagtgaaacctgcagggccactccctgctgcctctcccccaccccaggttgcacagccactgagccgtaaactgagtcaccttaggcaaacagctgctataataaacaataagtttctattaccttgaaatacaggtaatcaggctgcaccaactctagcccccggttaagggaccccccacccctcacctgtaccaatccaaattcacctttactagtgaaatcatcagctaccaatgcaaatcctcctttacttcctcctttactaatgaaatcaccaaccaccaatgaaaagtgtactcgtaccggaccctacccctcttgctttctgtaccccataaaaacttcctccaccccgggttcggggctcntcctcggcttgcacgccaggagagtccagacccgggtctgaataaaacctcacctcgtgccttttacatcggagtgtgtctcggattcgtctgttggggctatttgggagaatttttcgggcntaaca",
+  "length_bp": 631,
+  "sequence_length_bp": 631,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

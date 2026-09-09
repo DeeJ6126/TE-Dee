@@ -1,0 +1,39 @@
+{
+  "accession": "DF003586481",
+  "name": "Cari_SINE-3_CORE",
+  "description": "Repetitive sequence family",
+  "keywords": [
+    "SINE/MIR"
+  ],
+  "species": "Crassostrea ariakensis",
+  "display_classification": "SINE/MIR | Crassostrea ariakensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Protostomia",
+    "Spiralia",
+    "Lophotrochozoa",
+    "Mollusca",
+    "Bivalvia",
+    "Autobranchia",
+    "Pteriomorphia",
+    "Ostreida",
+    "Ostreoidea",
+    "Ostreidae",
+    "Crassostrea"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 301 BP; 66 A; 75 C; 85 G; 75 T; 0 other;"
+  },
+  "sequence": "gtggagcacatggctcagtggtcatgggcgttaggccagtaaccgaaaggtcgctggttcaaaccccgctgtggtcacttgatgttgtgtgttgtgcacttagacaaggcactttatctacattgtctcagtccacccagctgaaattgggtaccggcttacgctgggggttaacctgcgatggactggtgtcccatccagggggagtcaatgactctcatccgcttagcaccacggaaaccggggataagcaccggccttatgcgccttcatggcacggagaaggatttaacttttaact",
+  "length_bp": 301,
+  "sequence_length_bp": 301,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000710",
+  "name": "MER113",
+  "description": "Putative hAT-Charlie DNA transposon, MER113 subfamily",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Charlie | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 521 BP; 158 A; 86 C; 108 G; 169 T; 0 other;"
+  },
+  "sequence": "cagtgtttcccaaagtgtgggacgcgtaccactggtggtacgcgagatgattttaggtggtacacggacacggcattaaataacattgaatcacatagtgagaaagttattcccttttcaattctctttcaatccttctgattacgtcaaggagaaagtctcagtttggtgctagtatgtctttaacacctctctaacacttgctaatctccctttttaacaaagagagagcaggcctcaggctcagagccttcggcaggcaacagtatctagctagaatttaataacattgttttgttttcattgtatttatttttacggttaccttctatttatggcaagtgatactggttttccatttacggtagtgatataaagtttccttttaaaataaatttatttaagtaaaaaagtgagtcgatttaaagaaaaatattaagtaaataatagtacaggtggtacgcggatatggcaaaaatcgtgaaggtggtacgcgaatgactgaagtttgggaaacactg",
+  "length_bp": 521,
+  "sequence_length_bp": 521,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER113"
+  ]
+}

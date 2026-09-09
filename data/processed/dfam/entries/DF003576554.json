@@ -1,0 +1,52 @@
+{
+  "accession": "DF003576554",
+  "name": "MarMar-1.240_ltr",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MarMar-1.240_ltr"
+  ],
+  "species": "Marmota marmota",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Marmota marmota",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Sciuridae",
+    "Xerinae",
+    "Marmotini",
+    "Marmota"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 292 BP; 68 A; 67 C; 86 G; 71 T; 0 other;"
+  },
+  "sequence": "tgtggtgagccgttctaattagaccgtggccgccattagaagatggcgccggcttccactgtggcctgtgataaacaactcctaatatggagaattggcacgcaatcccttaccaccctatgagaaaggtccacgtggcagcttaagattggtatgctggaggctttattaggctgtgcttgggcgctcggcgacgggtcgctagaagatgatacatgaatcaaggcctgaataaactgctgaaagaagaatcctgtgtcgtgttttcccttgccggcgaggggtcgcggca",
+  "length_bp": 292,
+  "sequence_length_bp": 292,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

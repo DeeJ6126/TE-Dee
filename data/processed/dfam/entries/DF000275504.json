@@ -1,0 +1,46 @@
+{
+  "accession": "DF000275504",
+  "name": "ChaVel-1.211",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Chaetophractus vellerosus",
+  "display_classification": "DNA/hAT-Charlie | Chaetophractus vellerosus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Xenarthra",
+    "Cingulata",
+    "Chlamyphoridae",
+    "Chaetophractus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 193 BP; 56 A; 28 C; 55 G; 54 T; 0 other;"
+  },
+  "sequence": "caggggttcttaacaaggggtccgtgagcttgaattgaaattcaaaaaaacattattcttgtggggacgtgttggtgcgggtgtgatatatttattaaataatacacagtatagtgtggacttagtaaggggtccgtggttttcacctgactggcaaaggggtccgtggaacaaaaaaggttaagaacccctg",
+  "length_bp": 193,
+  "sequence_length_bp": 193,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,50 @@
+{
+  "accession": "DF000280150",
+  "name": "ProCoq-1.244",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ProCoq-1.244"
+  ],
+  "species": "Propithecus coquereli",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Propithecus coquereli",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Strepsirrhini",
+    "Lemuriformes",
+    "Indriidae",
+    "Propithecus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 461 BP; 101 A; 132 C; 106 G; 122 T; 0 other;"
+  },
+  "sequence": "tgttaggtagatagcgagggattccgggtctcctagggacgaaagtgggtgctgctgcgattcacccccccccaatgggctttcagagaggctcatgggagatccgcatgcgcagtaagactcaggtcatgcaactcccaactgtccaatcaaagtggttccatggtgacgtctgagccacgagggaggtcccaatccgggcactataaaacaagacgcagaccataaccaagccctttttgcgcccttccttttgctctccctttgctgcgacaatgggtccggtcgtcatctgtggcgtatgtatcatgctctgtaaacctatatcttgctcttgccctataatcctatctttctctcctcaataaacctcattttcgtgcttgccttactttggcgcgtctggtcattcttcggccatgagcgcgccaagaaccgacatttcagactaaaacctgaca",
+  "length_bp": 461,
+  "sequence_length_bp": 461,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

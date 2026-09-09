@@ -1,0 +1,50 @@
+{
+  "accession": "DF000000970",
+  "name": "MER9a2",
+  "description": "MER9a2 Long Terminal Repeat for ERVK endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "MER9a2"
+  ],
+  "species": "Catarrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Catarrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 513 BP; 126 A; 139 C; 115 G; 131 T; 2 other;"
+  },
+  "sequence": "tgttgggaacaggccccccaaaatctggccataaactggccccaaaactggccataaacaaaatctctgcagcactgtgacatgttcatgatggccataacgcccacgctggaaggttgtgggtttaccggaatgagggcaaggaacacctggcccgcccagggcggaaaaccgcttaaaggcattcttaagccacaaacaatagcatgagcgatctgtgccttaaggacatgctcctgctgcagntaactagcccaacccatccctttanttcggcccatcccttcgtttcccataagggatacttttagttaatctaatatctatagaaacaatgctaatgactggcttgctgttaataaatacgtgggtaaatctctgttcggggctctcagctctgaaggctgtgagacccctgatttcccacttcacacctctatatttctgtgtgtgtgtctttaattcctctagcgccgctgggttagggtctccccgaccgagctggtctcggca",
+  "length_bp": 513,
+  "sequence_length_bp": 513,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER9a2"
+  ]
+}

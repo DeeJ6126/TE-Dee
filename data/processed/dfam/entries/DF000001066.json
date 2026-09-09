@@ -1,0 +1,27 @@
+{
+  "accession": "DF000001066",
+  "name": "SSU-rRNA_Hsa",
+  "description": "SSU rRNA gene /pseudogene",
+  "keywords": [
+    "rRNA/"
+  ],
+  "species": "Metazoa",
+  "display_classification": "rRNA/ | Metazoa",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1869 BP; 416 A; 500 C; 549 G; 400 T; 4 other;"
+  },
+  "sequence": "tacctggttgatcctgccagtaccatatgcttgtctcaaagattaagccatgcatgtctaagtacgcanggccggtacagtgaaactgcgaatggctcattaaatcagttatggttcctttggtcgctcgctcctctcctacttgganaactgtggtaattctagagctaatacatgccgacgggcgctgacccccttcgcgggggggatgcgtgcatttatcagatcaaaaccaacccggtcagcccctctccggccccggccggggggcgggcgccgncggctttggtgactctagataacctcgggccgatcgcacgccccccgtggcggcgacgacccattcgaacgtctgccctatcaactttcgatggtagtcgccgtgcctaccatggtgaccacgggtgacggggaatcagggttcgattccggagagggagcctgagaaacggctaccacatccaaggaaggcagcaggcgcgcaaattacccactcccgacccggggaggtagtgacgaaaaataacaatacaggactctttcgaggccctgtaattggaatgagtccactttaaatcctttaacgaggatccattggagggcaagtctggtgccagcagccgcggtaattccagctccaatagcgtatattaaagttgctgcagttaaaaagctcgtagttggatcttgggagcgggcgggcggtccgccgcgaggcgagccaccgcccgtccccgccccttgcctctcggcgccccctcgatgctcttagctgagtgtcccgcggggcccgaagcgtttactttgaaaaaattagagtgttcaaagcaggcccgagccgcctggataccgcagctaggaataatggaataggaccgcggttctattttgttggttttcggaactgaggccatgattaagagggacggccgggggcattcgtattgcgccgctagaggtgaaattcttggaccggcgcaggncggaccagagcgaaagcatttgccaagaatgttttcattaatcaagaacgaaagtcggaggttcgaagacgatcagataccgtcgtagttccgaccataaacgatgccgaccggcgatgcggcggcgttattcccatgacccgccgggcagcttccgggaaaccaaagtctttgggttccggggggagtatggttgcaaagctgaaacttaaaggaattgacggaagggcaccaccaggagtggagcctgcggcttaatttgactcaacacgggaaacctcacccggcccggacacggacaggattgacagattgatagctctttctcgattccgtgggtggtggtgcatggccgttcttagttggtggagcgatttgtctggttaattccgataacgaacgagactctggcatgctaactagttacgcgacccccgagcggtcggcgtcccccaacttcttagagggacaagtggcgttcagccacccgagattgagcaataacaggtctgtgatgcccttagatgtccggggctgcacgcgcgctacactgactggctcagcgtgtgcctaccctacgccggcaggcgcgggtaacccgttgaaccccattcgcgatggggatcggggattgcaattattccccatgaacgaggaattcccagtaagtgcgggtcataagcttgcgttgattaagtccctgccctttgtacacaccgcccgtcgctactaccgattggatggtttagtgaggccctcggatcggccccgccggggtcggcccacggccctggcggagcgctgagaagacggtcgaacttgactatctagaggaagtaaaagtcgtaacaaggtttccgtaggtgaacctgcggagggatcatta",
+  "length_bp": 1869,
+  "sequence_length_bp": 1869,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SSU-rRNA_Hsa"
+  ]
+}

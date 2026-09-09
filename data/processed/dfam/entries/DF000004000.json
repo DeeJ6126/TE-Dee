@@ -1,0 +1,51 @@
+{
+  "accession": "DF000004000",
+  "name": "BRSATI",
+  "description": "Satellite sequence from zebrafish genome",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Danio",
+  "display_classification": "Satellite/ | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 394 BP; 115 A; 80 C; 66 G; 130 T; 3 other;"
+  },
+  "sequence": "ctcattttcaacgtccaattcagaatgtgataaaaccagatccagccactaaaatgcatcattcttttttgttttagacaacatttcatgcactgttaaacatgttaaagcaagttgcaagtgaaaatctatgtctctgactgagtttgcattactgcttattttgacctctncgctggctngctggctgagaaaagctcattttcaacgtccaattcagaatgtgataaaaccagatccagccactaaaatgcatcattcttttttgttttagacaacatttcatgcactgttaaacatgttaaagcaagttgcaagtgaaaatctatgtctctgactgagtttgcattactgcttattttgacctctncgctggctgactggctgagaaaag",
+  "length_bp": 394,
+  "sequence_length_bp": 394,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "BRSATI"
+  ]
+}

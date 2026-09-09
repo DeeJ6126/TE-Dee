@@ -1,0 +1,3900 @@
+{
+  "case": {
+    "case_id": "P5A_B_017",
+    "question": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。",
+    "category": "graph_ranking",
+    "expected_best_mode": "agent",
+    "dt_expectation": {
+      "should_answer": true,
+      "max_expected_depth": "route_to_graph_analytics",
+      "should_suggest_agent": true
+    },
+    "agent_expectation": {
+      "should_answer": true,
+      "min_expected_depth": "ranked_graph_report",
+      "required_plugins": [
+        "Graph Analytics Plugin"
+      ],
+      "required_artifacts": [
+        "evidence_package",
+        "evidence_walk",
+        "report_plan"
+      ]
+    },
+    "comparison_metrics": [
+      "tool_call_accuracy",
+      "ranking_correctness",
+      "metric_transparency",
+      "cypher_execution_accuracy",
+      "artifact_success"
+    ]
+  },
+  "dt": {
+    "ok": true,
+    "http_status": 200,
+    "headers": {
+      "Date": "Wed, 27 May 2026 15:09:47 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Cache-Control": "no-cache, no-transform",
+      "X-Accel-Buffering": "no",
+      "Connection": "keep-alive, close",
+      "Content-Encoding": "none",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "text/event-stream; charset=utf-8"
+    },
+    "events": [
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-P5A_B_017",
+        "message": "Recognized entities: none yet.",
+        "payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "normalized_entities": []
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "normalized_entities": []
+        },
+        "display_text": "Recognized entities: none yet.",
+        "sequence": 1
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-dt-P5A_B_017",
+        "message": "系统执行了一次多证据综合的图分析，专注于识别用户的“图分析”意图。",
+        "payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "normalized_entities": []
+        },
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "normalized_entities": []
+        },
+        "display_text": "系统执行了一次多证据综合的图分析，专注于识别用户的“图分析”意图。",
+        "sequence": 2
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-P5A_B_017",
+        "plugin_name": "Entity Resolver",
+        "message": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will stabilize entity names first so the later tool calls do not drift across aliases.",
+        "sequence": 3
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-P5A_B_017",
+        "plugin_name": "Entity Resolver",
+        "display_label": "Resolved 0 entities",
+        "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+        "message": "No stable entity aliases were available for reuse in this round.",
+        "detail_payload_id": "tool-1",
+        "payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "graph_analytics",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "graph structure"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "graph_analytics",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "graph structure"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "display_text": "No stable entity aliases were available for reuse in this round.",
+        "sequence": 4
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-dt-P5A_B_017",
+        "plugin_name": "Cypher Explorer Plugin",
+        "message": "Entity Resolver could not resolve 'transposon' as a named entity. A custom Cypher query is needed to explore the graph schema, find nodes related to transposons, and identify diseases with the highest association scores.",
+        "node": "Deep Think",
+        "source": "Cypher Explorer Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "Entity Resolver could not resolve 'transposon' as a named entity. A custom Cypher query is needed to explore the graph schema, find nodes related to transposons, and identify diseases with the highest association scores.",
+        "sequence": 5
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-dt-P5A_B_017",
+        "plugin_name": "Cypher Explorer Plugin",
+        "display_label": "Explored 10 Cypher rows",
+        "summary": "The Cypher Explorer generated a read-only aggregation query and returned 10 rows.",
+        "message": "This read-only Cypher query expanded the graph exploration space beyond the fixed neighborhood plugins.",
+        "detail_payload_id": "tool-2",
+        "payload": {
+          "summary": "The Cypher Explorer generated a read-only aggregation query and returned 10 rows.",
+          "preview_items": [
+            {
+              "title": "Row 1",
+              "meta": "disease | association_strength",
+              "body": "disease=Cancer; association_strength=13"
+            },
+            {
+              "title": "Row 2",
+              "meta": "disease | association_strength",
+              "body": "disease=Crohn's disease; association_strength=10"
+            },
+            {
+              "title": "Row 3",
+              "meta": "disease | association_strength",
+              "body": "disease=Disease; association_strength=8"
+            },
+            {
+              "title": "Row 4",
+              "meta": "disease | association_strength",
+              "body": "disease=Autoimmune disease; association_strength=7"
+            },
+            {
+              "title": "Row 5",
+              "meta": "disease | association_strength",
+              "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Cypher Explorer Plugin",
+              "entity_scope": "Cypher row 1",
+              "claim": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+              },
+              "title": "Cypher row 1",
+              "meta": "disease | association_strength",
+              "body": "disease=Cancer; association_strength=13"
+            },
+            {
+              "source_plugin": "Cypher Explorer Plugin",
+              "entity_scope": "Cypher row 2",
+              "claim": "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+              },
+              "title": "Cypher row 2",
+              "meta": "disease | association_strength",
+              "body": "disease=Crohn's disease; association_strength=10"
+            },
+            {
+              "source_plugin": "Cypher Explorer Plugin",
+              "entity_scope": "Cypher row 3",
+              "claim": "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+              },
+              "title": "Cypher row 3",
+              "meta": "disease | association_strength",
+              "body": "disease=Disease; association_strength=8"
+            },
+            {
+              "source_plugin": "Cypher Explorer Plugin",
+              "entity_scope": "Cypher row 4",
+              "claim": "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+              },
+              "title": "Cypher row 4",
+              "meta": "disease | association_strength",
+              "body": "disease=Autoimmune disease; association_strength=7"
+            },
+            {
+              "source_plugin": "Cypher Explorer Plugin",
+              "entity_scope": "Cypher row 5",
+              "claim": "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+              },
+              "title": "Cypher row 5",
+              "meta": "disease | association_strength",
+              "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+              "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+              "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+              "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+              "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6"
+            ],
+            "coverage": {
+              "question_type": "graph_analytics",
+              "status": "ok",
+              "result_counts": {
+                "rows": 10,
+                "columns": 2
+              },
+              "required_evidence": [
+                "graph structure"
+              ],
+              "latency_ms": 10881
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+              "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+              "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+              "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+              "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6"
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Cypher Explorer Plugin",
+              "status": "ok",
+              "query_summary": "Generated and executed a validated read-only Cypher query for graph exploration.",
+              "display_summary": "The Cypher Explorer generated a read-only aggregation query and returned 10 rows.",
+              "result_counts": {
+                "rows": 10,
+                "columns": 2
+              },
+              "preview_items": [
+                {
+                  "title": "Row 1",
+                  "meta": "disease | association_strength",
+                  "body": "disease=Cancer; association_strength=13"
+                },
+                {
+                  "title": "Row 2",
+                  "meta": "disease | association_strength",
+                  "body": "disease=Crohn's disease; association_strength=10"
+                },
+                {
+                  "title": "Row 3",
+                  "meta": "disease | association_strength",
+                  "body": "disease=Disease; association_strength=8"
+                },
+                {
+                  "title": "Row 4",
+                  "meta": "disease | association_strength",
+                  "body": "disease=Autoimmune disease; association_strength=7"
+                },
+                {
+                  "title": "Row 5",
+                  "meta": "disease | association_strength",
+                  "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                  "title": "Cypher row 1",
+                  "meta": "disease | association_strength",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                  "title": "Cypher row 2",
+                  "meta": "disease | association_strength",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                  "title": "Cypher row 3",
+                  "meta": "disease | association_strength",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                  "title": "Cypher row 4",
+                  "meta": "disease | association_strength",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6",
+                  "title": "Cypher row 5",
+                  "meta": "disease | association_strength",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "query_purpose": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+              "result_shape": {
+                "row_count": 10,
+                "columns": [
+                  {
+                    "name": "disease",
+                    "type": "string"
+                  },
+                  {
+                    "name": "association_strength",
+                    "type": "integer"
+                  }
+                ]
+              },
+              "top_rows": [
+                {
+                  "disease": "Cancer",
+                  "association_strength": 13
+                },
+                {
+                  "disease": "Crohn's disease",
+                  "association_strength": 10
+                },
+                {
+                  "disease": "Disease",
+                  "association_strength": 8
+                },
+                {
+                  "disease": "Autoimmune disease",
+                  "association_strength": 7
+                },
+                {
+                  "disease": "Amyotrophic lateral sclerosis",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Colorectal cancer",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Genetic disease",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Schizophrenia",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Alzheimer's disease",
+                  "association_strength": 5
+                },
+                {
+                  "disease": "HIV infection",
+                  "association_strength": 5
+                }
+              ],
+              "why_it_matters": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13"
+            }
+          },
+          "raw_result": {
+            "cypher_result": {
+              "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+              "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength",
+              "validated_features": [
+                "WITH",
+                "ORDER BY",
+                "DISTINCT",
+                "AGGREGATION"
+              ],
+              "rows": [
+                {
+                  "disease": "Cancer",
+                  "association_strength": 13
+                },
+                {
+                  "disease": "Crohn's disease",
+                  "association_strength": 10
+                },
+                {
+                  "disease": "Disease",
+                  "association_strength": 8
+                },
+                {
+                  "disease": "Autoimmune disease",
+                  "association_strength": 7
+                },
+                {
+                  "disease": "Amyotrophic lateral sclerosis",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Colorectal cancer",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Genetic disease",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Schizophrenia",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Alzheimer's disease",
+                  "association_strength": 5
+                },
+                {
+                  "disease": "HIV infection",
+                  "association_strength": 5
+                }
+              ],
+              "column_schema": [
+                {
+                  "name": "disease",
+                  "type": "string"
+                },
+                {
+                  "name": "association_strength",
+                  "type": "integer"
+                }
+              ],
+              "result_counts": {
+                "rows": 10,
+                "columns": 2
+              },
+              "errors": []
+            },
+            "rows": [
+              {
+                "disease": "Cancer",
+                "association_strength": 13
+              },
+              {
+                "disease": "Crohn's disease",
+                "association_strength": 10
+              },
+              {
+                "disease": "Disease",
+                "association_strength": 8
+              },
+              {
+                "disease": "Autoimmune disease",
+                "association_strength": 7
+              },
+              {
+                "disease": "Amyotrophic lateral sclerosis",
+                "association_strength": 6
+              },
+              {
+                "disease": "Colorectal cancer",
+                "association_strength": 6
+              },
+              {
+                "disease": "Genetic disease",
+                "association_strength": 6
+              },
+              {
+                "disease": "Schizophrenia",
+                "association_strength": 6
+              },
+              {
+                "disease": "Alzheimer's disease",
+                "association_strength": 5
+              },
+              {
+                "disease": "HIV infection",
+                "association_strength": 5
+              }
+            ]
+          },
+          "raw_preview": {
+            "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+            "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength",
+            "validated_features": [
+              "WITH",
+              "ORDER BY",
+              "DISTINCT",
+              "AGGREGATION"
+            ],
+            "rows": [
+              {
+                "disease": "Cancer",
+                "association_strength": 13
+              },
+              {
+                "disease": "Crohn's disease",
+                "association_strength": 10
+              },
+              {
+                "disease": "Disease",
+                "association_strength": 8
+              },
+              {
+                "disease": "Autoimmune disease",
+                "association_strength": 7
+              },
+              {
+                "disease": "Amyotrophic lateral sclerosis",
+                "association_strength": 6
+              },
+              {
+                "disease": "Colorectal cancer",
+                "association_strength": 6
+              },
+              {
+                "disease": "Genetic disease",
+                "association_strength": 6
+              },
+              {
+                "disease": "Schizophrenia",
+                "association_strength": 6
+              },
+              {
+                "disease": "Alzheimer's disease",
+                "association_strength": 5
+              },
+              {
+                "disease": "HIV infection",
+                "association_strength": 5
+              }
+            ],
+            "column_schema": [
+              {
+                "name": "disease",
+                "type": "string"
+              },
+              {
+                "name": "association_strength",
+                "type": "integer"
+              }
+            ],
+            "result_counts": {
+              "rows": 10,
+              "columns": 2
+            },
+            "errors": []
+          },
+          "errors": [],
+          "result_counts": {
+            "rows": 10,
+            "columns": 2
+          },
+          "display_details": {
+            "summary": "The Cypher Explorer generated a read-only aggregation query and returned 10 rows.",
+            "preview_items": [
+              {
+                "title": "Row 1",
+                "meta": "disease | association_strength",
+                "body": "disease=Cancer; association_strength=13"
+              },
+              {
+                "title": "Row 2",
+                "meta": "disease | association_strength",
+                "body": "disease=Crohn's disease; association_strength=10"
+              },
+              {
+                "title": "Row 3",
+                "meta": "disease | association_strength",
+                "body": "disease=Disease; association_strength=8"
+              },
+              {
+                "title": "Row 4",
+                "meta": "disease | association_strength",
+                "body": "disease=Autoimmune disease; association_strength=7"
+              },
+              {
+                "title": "Row 5",
+                "meta": "disease | association_strength",
+                "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Cypher Explorer Plugin",
+                "entity_scope": "Cypher row 1",
+                "claim": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+                },
+                "title": "Cypher row 1",
+                "meta": "disease | association_strength",
+                "body": "disease=Cancer; association_strength=13"
+              },
+              {
+                "source_plugin": "Cypher Explorer Plugin",
+                "entity_scope": "Cypher row 2",
+                "claim": "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+                },
+                "title": "Cypher row 2",
+                "meta": "disease | association_strength",
+                "body": "disease=Crohn's disease; association_strength=10"
+              },
+              {
+                "source_plugin": "Cypher Explorer Plugin",
+                "entity_scope": "Cypher row 3",
+                "claim": "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+                },
+                "title": "Cypher row 3",
+                "meta": "disease | association_strength",
+                "body": "disease=Disease; association_strength=8"
+              },
+              {
+                "source_plugin": "Cypher Explorer Plugin",
+                "entity_scope": "Cypher row 4",
+                "claim": "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+                },
+                "title": "Cypher row 4",
+                "meta": "disease | association_strength",
+                "body": "disease=Autoimmune disease; association_strength=7"
+              },
+              {
+                "source_plugin": "Cypher Explorer Plugin",
+                "entity_scope": "Cypher row 5",
+                "claim": "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+                },
+                "title": "Cypher row 5",
+                "meta": "disease | association_strength",
+                "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+              "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength",
+              "validated_features": [
+                "WITH",
+                "ORDER BY",
+                "DISTINCT",
+                "AGGREGATION"
+              ],
+              "rows": [
+                {
+                  "disease": "Cancer",
+                  "association_strength": 13
+                },
+                {
+                  "disease": "Crohn's disease",
+                  "association_strength": 10
+                },
+                {
+                  "disease": "Disease",
+                  "association_strength": 8
+                },
+                {
+                  "disease": "Autoimmune disease",
+                  "association_strength": 7
+                },
+                {
+                  "disease": "Amyotrophic lateral sclerosis",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Colorectal cancer",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Genetic disease",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Schizophrenia",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Alzheimer's disease",
+                  "association_strength": 5
+                },
+                {
+                  "disease": "HIV infection",
+                  "association_strength": 5
+                }
+              ],
+              "column_schema": [
+                {
+                  "name": "disease",
+                  "type": "string"
+                },
+                {
+                  "name": "association_strength",
+                  "type": "integer"
+                }
+              ],
+              "result_counts": {
+                "rows": 10,
+                "columns": 2
+              },
+              "errors": []
+            },
+            "result_message": "This read-only Cypher query expanded the graph exploration space beyond the fixed neighborhood plugins."
+          }
+        },
+        "node": "Deep Think",
+        "source": "Cypher Explorer Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "The Cypher Explorer generated a read-only aggregation query and returned 10 rows.",
+          "preview_items": [
+            {
+              "title": "Row 1",
+              "meta": "disease | association_strength",
+              "body": "disease=Cancer; association_strength=13"
+            },
+            {
+              "title": "Row 2",
+              "meta": "disease | association_strength",
+              "body": "disease=Crohn's disease; association_strength=10"
+            },
+            {
+              "title": "Row 3",
+              "meta": "disease | association_strength",
+              "body": "disease=Disease; association_strength=8"
+            },
+            {
+              "title": "Row 4",
+              "meta": "disease | association_strength",
+              "body": "disease=Autoimmune disease; association_strength=7"
+            },
+            {
+              "title": "Row 5",
+              "meta": "disease | association_strength",
+              "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+            }
+          ],
+          "evidence_items": [
+            {
+              "source_plugin": "Cypher Explorer Plugin",
+              "entity_scope": "Cypher row 1",
+              "claim": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+              },
+              "title": "Cypher row 1",
+              "meta": "disease | association_strength",
+              "body": "disease=Cancer; association_strength=13"
+            },
+            {
+              "source_plugin": "Cypher Explorer Plugin",
+              "entity_scope": "Cypher row 2",
+              "claim": "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+              },
+              "title": "Cypher row 2",
+              "meta": "disease | association_strength",
+              "body": "disease=Crohn's disease; association_strength=10"
+            },
+            {
+              "source_plugin": "Cypher Explorer Plugin",
+              "entity_scope": "Cypher row 3",
+              "claim": "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+              },
+              "title": "Cypher row 3",
+              "meta": "disease | association_strength",
+              "body": "disease=Disease; association_strength=8"
+            },
+            {
+              "source_plugin": "Cypher Explorer Plugin",
+              "entity_scope": "Cypher row 4",
+              "claim": "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+              },
+              "title": "Cypher row 4",
+              "meta": "disease | association_strength",
+              "body": "disease=Autoimmune disease; association_strength=7"
+            },
+            {
+              "source_plugin": "Cypher Explorer Plugin",
+              "entity_scope": "Cypher row 5",
+              "claim": "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6",
+              "support_strength": "medium",
+              "raw_source_ref": {
+                "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+              },
+              "title": "Cypher row 5",
+              "meta": "disease | association_strength",
+              "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+            }
+          ],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+              "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+              "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+              "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+              "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6"
+            ],
+            "coverage": {
+              "question_type": "graph_analytics",
+              "status": "ok",
+              "result_counts": {
+                "rows": 10,
+                "columns": 2
+              },
+              "required_evidence": [
+                "graph structure"
+              ],
+              "latency_ms": 10881
+            },
+            "limitations": [],
+            "candidate_claims": [
+              "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+              "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+              "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+              "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+              "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6"
+            ],
+            "carry_forward_fields": {
+              "plugin_name": "Cypher Explorer Plugin",
+              "status": "ok",
+              "query_summary": "Generated and executed a validated read-only Cypher query for graph exploration.",
+              "display_summary": "The Cypher Explorer generated a read-only aggregation query and returned 10 rows.",
+              "result_counts": {
+                "rows": 10,
+                "columns": 2
+              },
+              "preview_items": [
+                {
+                  "title": "Row 1",
+                  "meta": "disease | association_strength",
+                  "body": "disease=Cancer; association_strength=13"
+                },
+                {
+                  "title": "Row 2",
+                  "meta": "disease | association_strength",
+                  "body": "disease=Crohn's disease; association_strength=10"
+                },
+                {
+                  "title": "Row 3",
+                  "meta": "disease | association_strength",
+                  "body": "disease=Disease; association_strength=8"
+                },
+                {
+                  "title": "Row 4",
+                  "meta": "disease | association_strength",
+                  "body": "disease=Autoimmune disease; association_strength=7"
+                },
+                {
+                  "title": "Row 5",
+                  "meta": "disease | association_strength",
+                  "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+                }
+              ],
+              "evidence_preview": [
+                {
+                  "claim": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                  "title": "Cypher row 1",
+                  "meta": "disease | association_strength",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                  "title": "Cypher row 2",
+                  "meta": "disease | association_strength",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                  "title": "Cypher row 3",
+                  "meta": "disease | association_strength",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                  "title": "Cypher row 4",
+                  "meta": "disease | association_strength",
+                  "support_strength": "medium"
+                },
+                {
+                  "claim": "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6",
+                  "title": "Cypher row 5",
+                  "meta": "disease | association_strength",
+                  "support_strength": "medium"
+                }
+              ],
+              "citations": [],
+              "query_purpose": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+              "result_shape": {
+                "row_count": 10,
+                "columns": [
+                  {
+                    "name": "disease",
+                    "type": "string"
+                  },
+                  {
+                    "name": "association_strength",
+                    "type": "integer"
+                  }
+                ]
+              },
+              "top_rows": [
+                {
+                  "disease": "Cancer",
+                  "association_strength": 13
+                },
+                {
+                  "disease": "Crohn's disease",
+                  "association_strength": 10
+                },
+                {
+                  "disease": "Disease",
+                  "association_strength": 8
+                },
+                {
+                  "disease": "Autoimmune disease",
+                  "association_strength": 7
+                },
+                {
+                  "disease": "Amyotrophic lateral sclerosis",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Colorectal cancer",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Genetic disease",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Schizophrenia",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Alzheimer's disease",
+                  "association_strength": 5
+                },
+                {
+                  "disease": "HIV infection",
+                  "association_strength": 5
+                }
+              ],
+              "why_it_matters": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13"
+            }
+          },
+          "raw_result": {
+            "cypher_result": {
+              "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+              "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength",
+              "validated_features": [
+                "WITH",
+                "ORDER BY",
+                "DISTINCT",
+                "AGGREGATION"
+              ],
+              "rows": [
+                {
+                  "disease": "Cancer",
+                  "association_strength": 13
+                },
+                {
+                  "disease": "Crohn's disease",
+                  "association_strength": 10
+                },
+                {
+                  "disease": "Disease",
+                  "association_strength": 8
+                },
+                {
+                  "disease": "Autoimmune disease",
+                  "association_strength": 7
+                },
+                {
+                  "disease": "Amyotrophic lateral sclerosis",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Colorectal cancer",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Genetic disease",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Schizophrenia",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Alzheimer's disease",
+                  "association_strength": 5
+                },
+                {
+                  "disease": "HIV infection",
+                  "association_strength": 5
+                }
+              ],
+              "column_schema": [
+                {
+                  "name": "disease",
+                  "type": "string"
+                },
+                {
+                  "name": "association_strength",
+                  "type": "integer"
+                }
+              ],
+              "result_counts": {
+                "rows": 10,
+                "columns": 2
+              },
+              "errors": []
+            },
+            "rows": [
+              {
+                "disease": "Cancer",
+                "association_strength": 13
+              },
+              {
+                "disease": "Crohn's disease",
+                "association_strength": 10
+              },
+              {
+                "disease": "Disease",
+                "association_strength": 8
+              },
+              {
+                "disease": "Autoimmune disease",
+                "association_strength": 7
+              },
+              {
+                "disease": "Amyotrophic lateral sclerosis",
+                "association_strength": 6
+              },
+              {
+                "disease": "Colorectal cancer",
+                "association_strength": 6
+              },
+              {
+                "disease": "Genetic disease",
+                "association_strength": 6
+              },
+              {
+                "disease": "Schizophrenia",
+                "association_strength": 6
+              },
+              {
+                "disease": "Alzheimer's disease",
+                "association_strength": 5
+              },
+              {
+                "disease": "HIV infection",
+                "association_strength": 5
+              }
+            ]
+          },
+          "raw_preview": {
+            "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+            "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength",
+            "validated_features": [
+              "WITH",
+              "ORDER BY",
+              "DISTINCT",
+              "AGGREGATION"
+            ],
+            "rows": [
+              {
+                "disease": "Cancer",
+                "association_strength": 13
+              },
+              {
+                "disease": "Crohn's disease",
+                "association_strength": 10
+              },
+              {
+                "disease": "Disease",
+                "association_strength": 8
+              },
+              {
+                "disease": "Autoimmune disease",
+                "association_strength": 7
+              },
+              {
+                "disease": "Amyotrophic lateral sclerosis",
+                "association_strength": 6
+              },
+              {
+                "disease": "Colorectal cancer",
+                "association_strength": 6
+              },
+              {
+                "disease": "Genetic disease",
+                "association_strength": 6
+              },
+              {
+                "disease": "Schizophrenia",
+                "association_strength": 6
+              },
+              {
+                "disease": "Alzheimer's disease",
+                "association_strength": 5
+              },
+              {
+                "disease": "HIV infection",
+                "association_strength": 5
+              }
+            ],
+            "column_schema": [
+              {
+                "name": "disease",
+                "type": "string"
+              },
+              {
+                "name": "association_strength",
+                "type": "integer"
+              }
+            ],
+            "result_counts": {
+              "rows": 10,
+              "columns": 2
+            },
+            "errors": []
+          },
+          "errors": [],
+          "result_counts": {
+            "rows": 10,
+            "columns": 2
+          },
+          "display_details": {
+            "summary": "The Cypher Explorer generated a read-only aggregation query and returned 10 rows.",
+            "preview_items": [
+              {
+                "title": "Row 1",
+                "meta": "disease | association_strength",
+                "body": "disease=Cancer; association_strength=13"
+              },
+              {
+                "title": "Row 2",
+                "meta": "disease | association_strength",
+                "body": "disease=Crohn's disease; association_strength=10"
+              },
+              {
+                "title": "Row 3",
+                "meta": "disease | association_strength",
+                "body": "disease=Disease; association_strength=8"
+              },
+              {
+                "title": "Row 4",
+                "meta": "disease | association_strength",
+                "body": "disease=Autoimmune disease; association_strength=7"
+              },
+              {
+                "title": "Row 5",
+                "meta": "disease | association_strength",
+                "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+              }
+            ],
+            "evidence_items": [
+              {
+                "source_plugin": "Cypher Explorer Plugin",
+                "entity_scope": "Cypher row 1",
+                "claim": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+                },
+                "title": "Cypher row 1",
+                "meta": "disease | association_strength",
+                "body": "disease=Cancer; association_strength=13"
+              },
+              {
+                "source_plugin": "Cypher Explorer Plugin",
+                "entity_scope": "Cypher row 2",
+                "claim": "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+                },
+                "title": "Cypher row 2",
+                "meta": "disease | association_strength",
+                "body": "disease=Crohn's disease; association_strength=10"
+              },
+              {
+                "source_plugin": "Cypher Explorer Plugin",
+                "entity_scope": "Cypher row 3",
+                "claim": "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+                },
+                "title": "Cypher row 3",
+                "meta": "disease | association_strength",
+                "body": "disease=Disease; association_strength=8"
+              },
+              {
+                "source_plugin": "Cypher Explorer Plugin",
+                "entity_scope": "Cypher row 4",
+                "claim": "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+                },
+                "title": "Cypher row 4",
+                "meta": "disease | association_strength",
+                "body": "disease=Autoimmune disease; association_strength=7"
+              },
+              {
+                "source_plugin": "Cypher Explorer Plugin",
+                "entity_scope": "Cypher row 5",
+                "claim": "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6",
+                "support_strength": "medium",
+                "raw_source_ref": {
+                  "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength"
+                },
+                "title": "Cypher row 5",
+                "meta": "disease | association_strength",
+                "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+              }
+            ],
+            "citations": [],
+            "raw_preview": {
+              "query_intent": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+              "generated_cypher": "MATCH (te:TE)--(d:Disease) WITH d, COUNT(DISTINCT te) AS teCount ORDER BY teCount DESC LIMIT 10 RETURN d.name AS disease, teCount AS association_strength",
+              "validated_features": [
+                "WITH",
+                "ORDER BY",
+                "DISTINCT",
+                "AGGREGATION"
+              ],
+              "rows": [
+                {
+                  "disease": "Cancer",
+                  "association_strength": 13
+                },
+                {
+                  "disease": "Crohn's disease",
+                  "association_strength": 10
+                },
+                {
+                  "disease": "Disease",
+                  "association_strength": 8
+                },
+                {
+                  "disease": "Autoimmune disease",
+                  "association_strength": 7
+                },
+                {
+                  "disease": "Amyotrophic lateral sclerosis",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Colorectal cancer",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Genetic disease",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Schizophrenia",
+                  "association_strength": 6
+                },
+                {
+                  "disease": "Alzheimer's disease",
+                  "association_strength": 5
+                },
+                {
+                  "disease": "HIV infection",
+                  "association_strength": 5
+                }
+              ],
+              "column_schema": [
+                {
+                  "name": "disease",
+                  "type": "string"
+                },
+                {
+                  "name": "association_strength",
+                  "type": "integer"
+                }
+              ],
+              "result_counts": {
+                "rows": 10,
+                "columns": 2
+              },
+              "errors": []
+            },
+            "result_message": "This read-only Cypher query expanded the graph exploration space beyond the fixed neighborhood plugins."
+          }
+        },
+        "display_text": "This read-only Cypher query expanded the graph exploration space beyond the fixed neighborhood plugins.",
+        "sequence": 6
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-dt-P5A_B_017",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results"
+        ],
+        "outputs_changed": [
+          "plugin_queue"
+        ],
+        "message": "I collected another evidence layer and will decide whether another plugin is still needed.",
+        "payload": {
+          "type": "reflection",
+          "plugin_name": "Cypher Explorer Plugin",
+          "result": {
+            "status": "ok",
+            "display_summary": "The Cypher Explorer generated a read-only aggregation query and returned 10 rows.",
+            "result_counts": {
+              "rows": 10,
+              "columns": 2
+            }
+          },
+          "remaining_candidates": [
+            "Graph Analytics Plugin"
+          ]
+        },
+        "message_payload": {
+          "type": "reflection",
+          "plugin_name": "Cypher Explorer Plugin",
+          "result": {
+            "status": "ok",
+            "display_summary": "The Cypher Explorer generated a read-only aggregation query and returned 10 rows.",
+            "result_counts": {
+              "rows": 10,
+              "columns": 2
+            }
+          },
+          "remaining_candidates": [
+            "Graph Analytics Plugin"
+          ]
+        },
+        "display_text": "I collected another evidence layer and will decide whether another plugin is still needed.",
+        "sequence": 7
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-dt-P5A_B_017",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results"
+        ],
+        "outputs_changed": [
+          "plugin_queue"
+        ],
+        "message": "The currently collected evidence is enough to move into synthesis.",
+        "payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "Cypher Explorer Plugin has already returned the top 10 diseases ranked by association strength (count of directly associated transposable elements). This fully answers the question, no further plugin needed."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "compressed_result": {
+                "key_findings": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "coverage": {
+                  "question_type": "graph_analytics",
+                  "status": "empty",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "required_evidence": [
+                    "graph structure"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "candidate_claims": [],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "empty",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "preview_items": [],
+                  "evidence_preview": [],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": []
+                  }
+                }
+              }
+            },
+            "Cypher Explorer Plugin": {
+              "plugin_name": "Cypher Explorer Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                  "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                  "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                  "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                  "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6"
+                ],
+                "coverage": {
+                  "question_type": "graph_analytics",
+                  "status": "ok",
+                  "result_counts": {
+                    "rows": 10,
+                    "columns": 2
+                  },
+                  "required_evidence": [
+                    "graph structure"
+                  ],
+                  "latency_ms": 10881
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                  "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                  "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                  "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                  "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6"
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Cypher Explorer Plugin",
+                  "status": "ok",
+                  "query_summary": "Generated and executed a validated read-only Cypher query for graph exploration.",
+                  "display_summary": "The Cypher Explorer generated a read-only aggregation query and returned 10 rows.",
+                  "result_counts": {
+                    "rows": 10,
+                    "columns": 2
+                  },
+                  "preview_items": [
+                    {
+                      "title": "Row 1",
+                      "meta": "disease | association_strength",
+                      "body": "disease=Cancer; association_strength=13"
+                    },
+                    {
+                      "title": "Row 2",
+                      "meta": "disease | association_strength",
+                      "body": "disease=Crohn's disease; association_strength=10"
+                    },
+                    {
+                      "title": "Row 3",
+                      "meta": "disease | association_strength",
+                      "body": "disease=Disease; association_strength=8"
+                    },
+                    {
+                      "title": "Row 4",
+                      "meta": "disease | association_strength",
+                      "body": "disease=Autoimmune disease; association_strength=7"
+                    },
+                    {
+                      "title": "Row 5",
+                      "meta": "disease | association_strength",
+                      "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                      "title": "Cypher row 1",
+                      "meta": "disease | association_strength",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                      "title": "Cypher row 2",
+                      "meta": "disease | association_strength",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                      "title": "Cypher row 3",
+                      "meta": "disease | association_strength",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                      "title": "Cypher row 4",
+                      "meta": "disease | association_strength",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6",
+                      "title": "Cypher row 5",
+                      "meta": "disease | association_strength",
+                      "support_strength": "medium"
+                    }
+                  ],
+                  "citations": [],
+                  "query_purpose": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "result_shape": {
+                    "row_count": 10,
+                    "columns": [
+                      {
+                        "name": "disease",
+                        "type": "string"
+                      },
+                      {
+                        "name": "association_strength",
+                        "type": "integer"
+                      }
+                    ]
+                  },
+                  "top_rows": [
+                    {
+                      "disease": "Cancer",
+                      "association_strength": 13
+                    },
+                    {
+                      "disease": "Crohn's disease",
+                      "association_strength": 10
+                    },
+                    {
+                      "disease": "Disease",
+                      "association_strength": 8
+                    },
+                    {
+                      "disease": "Autoimmune disease",
+                      "association_strength": 7
+                    },
+                    {
+                      "disease": "Amyotrophic lateral sclerosis",
+                      "association_strength": 6
+                    },
+                    {
+                      "disease": "Colorectal cancer",
+                      "association_strength": 6
+                    },
+                    {
+                      "disease": "Genetic disease",
+                      "association_strength": 6
+                    },
+                    {
+                      "disease": "Schizophrenia",
+                      "association_strength": 6
+                    },
+                    {
+                      "disease": "Alzheimer's disease",
+                      "association_strength": 5
+                    },
+                    {
+                      "disease": "HIV infection",
+                      "association_strength": 5
+                    }
+                  ],
+                  "why_it_matters": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13"
+                }
+              }
+            }
+          }
+        },
+        "message_payload": {
+          "type": "reflection",
+          "decision": {
+            "done": true,
+            "next_plugin": "",
+            "reason": "Cypher Explorer Plugin has already returned the top 10 diseases ranked by association strength (count of directly associated transposable elements). This fully answers the question, no further plugin needed."
+          },
+          "plugin_results": {
+            "Entity Resolver": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "compressed_result": {
+                "key_findings": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "coverage": {
+                  "question_type": "graph_analytics",
+                  "status": "empty",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "required_evidence": [
+                    "graph structure"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "candidate_claims": [],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "empty",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "preview_items": [],
+                  "evidence_preview": [],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": []
+                  }
+                }
+              }
+            },
+            "Cypher Explorer Plugin": {
+              "plugin_name": "Cypher Explorer Plugin",
+              "status": "ok",
+              "compressed_result": {
+                "key_findings": [
+                  "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                  "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                  "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                  "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                  "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6"
+                ],
+                "coverage": {
+                  "question_type": "graph_analytics",
+                  "status": "ok",
+                  "result_counts": {
+                    "rows": 10,
+                    "columns": 2
+                  },
+                  "required_evidence": [
+                    "graph structure"
+                  ],
+                  "latency_ms": 10881
+                },
+                "limitations": [],
+                "candidate_claims": [
+                  "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                  "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                  "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                  "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                  "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6"
+                ],
+                "carry_forward_fields": {
+                  "plugin_name": "Cypher Explorer Plugin",
+                  "status": "ok",
+                  "query_summary": "Generated and executed a validated read-only Cypher query for graph exploration.",
+                  "display_summary": "The Cypher Explorer generated a read-only aggregation query and returned 10 rows.",
+                  "result_counts": {
+                    "rows": 10,
+                    "columns": 2
+                  },
+                  "preview_items": [
+                    {
+                      "title": "Row 1",
+                      "meta": "disease | association_strength",
+                      "body": "disease=Cancer; association_strength=13"
+                    },
+                    {
+                      "title": "Row 2",
+                      "meta": "disease | association_strength",
+                      "body": "disease=Crohn's disease; association_strength=10"
+                    },
+                    {
+                      "title": "Row 3",
+                      "meta": "disease | association_strength",
+                      "body": "disease=Disease; association_strength=8"
+                    },
+                    {
+                      "title": "Row 4",
+                      "meta": "disease | association_strength",
+                      "body": "disease=Autoimmune disease; association_strength=7"
+                    },
+                    {
+                      "title": "Row 5",
+                      "meta": "disease | association_strength",
+                      "body": "disease=Amyotrophic lateral sclerosis; association_strength=6"
+                    }
+                  ],
+                  "evidence_preview": [
+                    {
+                      "claim": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                      "title": "Cypher row 1",
+                      "meta": "disease | association_strength",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                      "title": "Cypher row 2",
+                      "meta": "disease | association_strength",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                      "title": "Cypher row 3",
+                      "meta": "disease | association_strength",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                      "title": "Cypher row 4",
+                      "meta": "disease | association_strength",
+                      "support_strength": "medium"
+                    },
+                    {
+                      "claim": "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6",
+                      "title": "Cypher row 5",
+                      "meta": "disease | association_strength",
+                      "support_strength": "medium"
+                    }
+                  ],
+                  "citations": [],
+                  "query_purpose": "找出与转座子关联度最大的前10个疾病，基于直接关联的TE数量",
+                  "result_shape": {
+                    "row_count": 10,
+                    "columns": [
+                      {
+                        "name": "disease",
+                        "type": "string"
+                      },
+                      {
+                        "name": "association_strength",
+                        "type": "integer"
+                      }
+                    ]
+                  },
+                  "top_rows": [
+                    {
+                      "disease": "Cancer",
+                      "association_strength": 13
+                    },
+                    {
+                      "disease": "Crohn's disease",
+                      "association_strength": 10
+                    },
+                    {
+                      "disease": "Disease",
+                      "association_strength": 8
+                    },
+                    {
+                      "disease": "Autoimmune disease",
+                      "association_strength": 7
+                    },
+                    {
+                      "disease": "Amyotrophic lateral sclerosis",
+                      "association_strength": 6
+                    },
+                    {
+                      "disease": "Colorectal cancer",
+                      "association_strength": 6
+                    },
+                    {
+                      "disease": "Genetic disease",
+                      "association_strength": 6
+                    },
+                    {
+                      "disease": "Schizophrenia",
+                      "association_strength": 6
+                    },
+                    {
+                      "disease": "Alzheimer's disease",
+                      "association_strength": 5
+                    },
+                    {
+                      "disease": "HIV infection",
+                      "association_strength": 5
+                    }
+                  ],
+                  "why_it_matters": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13"
+                }
+              }
+            }
+          }
+        },
+        "display_text": "The currently collected evidence is enough to move into synthesis.",
+        "sequence": 8
+      },
+      {
+        "type": "synthesizing",
+        "session_id": "eval-dt-P5A_B_017",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "inputs_used": [
+          "plugin_results",
+          "evidence_bundle",
+          "citation_bundle"
+        ],
+        "outputs_changed": [
+          "supported_claims",
+          "answer"
+        ],
+        "message": "I am now synthesizing the plugin results into a final answer.",
+        "payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+              "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+              "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+              "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+              "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6"
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                "summary": "disease=Cancer; association_strength=13",
+                "citations": []
+              },
+              {
+                "claim": "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                "summary": "disease=Crohn's disease; association_strength=10",
+                "citations": []
+              },
+              {
+                "claim": "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                "summary": "disease=Disease; association_strength=8",
+                "citations": []
+              },
+              {
+                "claim": "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                "summary": "disease=Autoimmune disease; association_strength=7",
+                "citations": []
+              },
+              {
+                "claim": "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6",
+                "summary": "disease=Amyotrophic lateral sclerosis; association_strength=6",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "message_payload": {
+          "synthesized_evidence": {
+            "supported_claims": [
+              "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+              "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+              "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+              "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+              "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6"
+            ],
+            "conflicting_claims": [],
+            "missing_evidence": [],
+            "claim_clusters": [
+              {
+                "claim": "Cypher Explorer returned row 1: disease=Cancer; association_strength=13",
+                "summary": "disease=Cancer; association_strength=13",
+                "citations": []
+              },
+              {
+                "claim": "Cypher Explorer returned row 2: disease=Crohn's disease; association_strength=10",
+                "summary": "disease=Crohn's disease; association_strength=10",
+                "citations": []
+              },
+              {
+                "claim": "Cypher Explorer returned row 3: disease=Disease; association_strength=8",
+                "summary": "disease=Disease; association_strength=8",
+                "citations": []
+              },
+              {
+                "claim": "Cypher Explorer returned row 4: disease=Autoimmune disease; association_strength=7",
+                "summary": "disease=Autoimmune disease; association_strength=7",
+                "citations": []
+              },
+              {
+                "claim": "Cypher Explorer returned row 5: disease=Amyotrophic lateral sclerosis; association_strength=6",
+                "summary": "disease=Amyotrophic lateral sclerosis; association_strength=6",
+                "citations": []
+              }
+            ]
+          }
+        },
+        "display_text": "I am now synthesizing the plugin results into a final answer.",
+        "sequence": 9
+      },
+      {
+        "type": "answer",
+        "request_id": "req_af597e23f42a39c7",
+        "session_id": "eval-dt-P5A_B_017",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "message": "根据现有知识图谱数据，目前与转座子（TE）关联度最高的疾病是 **Cancer**（关联强度 13），其次为 **Crohn's disease**（10）、**Disease**（8）、**Autoimmune disease**（7）和 **Amyotrophic lateral sclerosis**（6）。这些结果直接来自图谱查询（Cypher Explorer）并基于节点间的连接数量或证据权重计算得出。\n\n支持事实（Top 5 及依据）：\n- **Cancer**：association_strength = 13  \n- **Crohn's disease**：association_strength = 10  \n- **Disease**（广义疾病节点）：association_strength = 8  \n- **Autoimmune disease**：association_strength = 7  \n- **Amyotrophic lateral sclerosis**：association_strength = 6  \n\n**说明**：当前证据仅包含前 5 名，无法列出完整的 Top 10 列表。如果图谱中其他疾病（如神经退行性疾病、炎症性疾病等）存在关联，但未被当前查询返回，需后续扩展查询范围才能补充。关联强度数值来自图谱内部计算，具体算法（如共现次数、文献支持数等）未在证据中明确，但可视为当前图谱中最稳定的排序依据。",
+        "language": "chinese",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "根据现有知识图谱数据，目前与转座子（TE）关联度最高的疾病是 **Cancer**（关联强度 13），其次为 **Crohn's disease**（10）、**Disease**（8）、**Autoimmune disease**（7）和 **Amyotrophic lateral sclerosis**（6）。这些结果直接来自图谱查询（Cypher Explorer）并基于节点间的连接数量或证据权重计算得出。\n\n支持事实（Top 5 及依据）：\n- **Cancer**：association_strength = 13  \n- **Crohn's disease**：association_strength = 10  \n- **Disease**（广义疾病节点）：association_strength = 8  \n- **Autoimmune disease**：association_strength = 7  \n- **Amyotrophic lateral sclerosis**：association_strength = 6  \n\n**说明**：当前证据仅包含前 5 名，无法列出完整的 Top 10 列表。如果图谱中其他疾病（如神经退行性疾病、炎症性疾病等）存在关联，但未被当前查询返回，需后续扩展查询范围才能补充。关联强度数值来自图谱内部计算，具体算法（如共现次数、文献支持数等）未在证据中明确，但可视为当前图谱中最稳定的排序依据。",
+        "sequence": 10
+      },
+      {
+        "type": "done",
+        "request_id": "req_af597e23f42a39c7",
+        "session_id": "eval-dt-P5A_B_017",
+        "node": "Deep Think",
+        "source": "Deep Think",
+        "payload": {
+          "answer": "根据现有知识图谱数据，目前与转座子（TE）关联度最高的疾病是 **Cancer**（关联强度 13），其次为 **Crohn's disease**（10）、**Disease**（8）、**Autoimmune disease**（7）和 **Amyotrophic lateral sclerosis**（6）。这些结果直接来自图谱查询（Cypher Explorer）并基于节点间的连接数量或证据权重计算得出。\n\n支持事实（Top 5 及依据）：\n- **Cancer**：association_strength = 13  \n- **Crohn's disease**：association_strength = 10  \n- **Disease**（广义疾病节点）：association_strength = 8  \n- **Autoimmune disease**：association_strength = 7  \n- **Amyotrophic lateral sclerosis**：association_strength = 6  \n\n**说明**：当前证据仅包含前 5 名，无法列出完整的 Top 10 列表。如果图谱中其他疾病（如神经退行性疾病、炎症性疾病等）存在关联，但未被当前查询返回，需后续扩展查询范围才能补充。关联强度数值来自图谱内部计算，具体算法（如共现次数、文献支持数等）未在证据中明确，但可视为当前图谱中最稳定的排序依据。",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "answer": "根据现有知识图谱数据，目前与转座子（TE）关联度最高的疾病是 **Cancer**（关联强度 13），其次为 **Crohn's disease**（10）、**Disease**（8）、**Autoimmune disease**（7）和 **Amyotrophic lateral sclerosis**（6）。这些结果直接来自图谱查询（Cypher Explorer）并基于节点间的连接数量或证据权重计算得出。\n\n支持事实（Top 5 及依据）：\n- **Cancer**：association_strength = 13  \n- **Crohn's disease**：association_strength = 10  \n- **Disease**（广义疾病节点）：association_strength = 8  \n- **Autoimmune disease**：association_strength = 7  \n- **Amyotrophic lateral sclerosis**：association_strength = 6  \n\n**说明**：当前证据仅包含前 5 名，无法列出完整的 Top 10 列表。如果图谱中其他疾病（如神经退行性疾病、炎症性疾病等）存在关联，但未被当前查询返回，需后续扩展查询范围才能补充。关联强度数值来自图谱内部计算，具体算法（如共现次数、文献支持数等）未在证据中明确，但可视为当前图谱中最稳定的排序依据。",
+          "language": "chinese",
+          "writing_failed": false,
+          "failure_stage": "",
+          "failure_reason": ""
+        },
+        "display_text": "",
+        "sequence": 11
+      }
+    ],
+    "answer": "根据现有知识图谱数据，目前与转座子（TE）关联度最高的疾病是 **Cancer**（关联强度 13），其次为 **Crohn's disease**（10）、**Disease**（8）、**Autoimmune disease**（7）和 **Amyotrophic lateral sclerosis**（6）。这些结果直接来自图谱查询（Cypher Explorer）并基于节点间的连接数量或证据权重计算得出。\n\n支持事实（Top 5 及依据）：\n- **Cancer**：association_strength = 13  \n- **Crohn's disease**：association_strength = 10  \n- **Disease**（广义疾病节点）：association_strength = 8  \n- **Autoimmune disease**：association_strength = 7  \n- **Amyotrophic lateral sclerosis**：association_strength = 6  \n\n**说明**：当前证据仅包含前 5 名，无法列出完整的 Top 10 列表。如果图谱中其他疾病（如神经退行性疾病、炎症性疾病等）存在关联，但未被当前查询返回，需后续扩展查询范围才能补充。关联强度数值来自图谱内部计算，具体算法（如共现次数、文献支持数等）未在证据中明确，但可视为当前图谱中最稳定的排序依据。",
+    "done_payload": {
+      "answer": "根据现有知识图谱数据，目前与转座子（TE）关联度最高的疾病是 **Cancer**（关联强度 13），其次为 **Crohn's disease**（10）、**Disease**（8）、**Autoimmune disease**（7）和 **Amyotrophic lateral sclerosis**（6）。这些结果直接来自图谱查询（Cypher Explorer）并基于节点间的连接数量或证据权重计算得出。\n\n支持事实（Top 5 及依据）：\n- **Cancer**：association_strength = 13  \n- **Crohn's disease**：association_strength = 10  \n- **Disease**（广义疾病节点）：association_strength = 8  \n- **Autoimmune disease**：association_strength = 7  \n- **Amyotrophic lateral sclerosis**：association_strength = 6  \n\n**说明**：当前证据仅包含前 5 名，无法列出完整的 Top 10 列表。如果图谱中其他疾病（如神经退行性疾病、炎症性疾病等）存在关联，但未被当前查询返回，需后续扩展查询范围才能补充。关联强度数值来自图谱内部计算，具体算法（如共现次数、文献支持数等）未在证据中明确，但可视为当前图谱中最稳定的排序依据。",
+      "language": "chinese",
+      "writing_failed": false,
+      "failure_stage": "",
+      "failure_reason": ""
+    },
+    "used_plugins": [
+      "Cypher Explorer Plugin",
+      "Entity Resolver"
+    ],
+    "citations": [],
+    "timings": {
+      "total_ms": 34883
+    },
+    "errors": []
+  },
+  "agent": {
+    "ok": false,
+    "http_status": 202,
+    "headers": {
+      "Date": "Wed, 27 May 2026 15:10:22 GMT",
+      "Server": "Apache/2.4.65 (Win64) PHP/8.3.28 mod_fcgid/2.3.10-dev",
+      "X-Powered-By": "PHP/8.3.28",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Content-Length": "165",
+      "Connection": "close",
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "create": {
+      "ok": true,
+      "run_id": "run_be69c2f697ec8baf",
+      "request_id": "req_cad5f9e627d077db",
+      "session_id": "eval-agent-P5A_B_017",
+      "status": "pending"
+    },
+    "run_id": "run_be69c2f697ec8baf",
+    "run": {
+      "run_id": "run_be69c2f697ec8baf",
+      "request_id": "req_cad5f9e627d077db",
+      "session_id": "eval-agent-P5A_B_017",
+      "question": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。",
+      "mode": "academic",
+      "status": "failed",
+      "created_at": "2026-05-27T15:10:22+00:00",
+      "updated_at": "2026-05-27T15:12:19+00:00",
+      "started_at": "2026-05-27T15:10:22+00:00",
+      "finished_at": "2026-05-27T15:12:19+00:00",
+      "current_stage": "Executing",
+      "workflow_state": {
+        "current_stage": "Executing",
+        "stage_statuses": {
+          "Understanding": "done",
+          "Planning": "done",
+          "Collecting": "done",
+          "Executing": "failed",
+          "Integrating": "pending",
+          "Writing": "pending"
+        },
+        "traversed_edges": [
+          "Understanding->Planning",
+          "Planning->Collecting",
+          "Collecting->Executing",
+          "Executing->Collecting"
+        ],
+        "complete": true
+      },
+      "events_count": 22,
+      "last_sequence": 22,
+      "answer": "",
+      "language": "chinese",
+      "writing_failed": true,
+      "failure_stage": "Executing",
+      "failure_reason": "llm: stage=executing provider=deepseek model=deepseek-v4-flash: Operation timed out after 45016 milliseconds with 0 bytes received relay=http://127.0.0.1:18087/chat",
+      "error": "",
+      "used_plugins": []
+    },
+    "events": [
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_017",
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "message": "Understanding",
+        "payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Understanding",
+          "stage_statuses": {
+            "Understanding": "active",
+            "Planning": "pending",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [],
+          "complete": false
+        },
+        "display_text": "Understanding",
+        "sequence": 1
+      },
+      {
+        "type": "node_llm_result",
+        "session_id": "eval-agent-P5A_B_017",
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "stage": "Understanding",
+        "schema_version": "understanding_result.v1",
+        "ok": true,
+        "artifact": {
+          "schema_version": "understanding_result.v1",
+          "stage": "understanding",
+          "language": "zh",
+          "question_summary": "询问在当前知识图谱中，哪个疾病与转座子的关联度最强，要求列出前10名并说明计算依据。",
+          "intent": "graph_analytics",
+          "entities": [
+            {
+              "type": "Disease",
+              "name": "疾病"
+            },
+            {
+              "type": "TransposableElement",
+              "name": "转座子"
+            }
+          ],
+          "ambiguities": [
+            "关联度的度量标准未明确：是边数量、权重、还是中心性？",
+            "疾病范围未限定：是否包括所有疾病节点，还是某种分类？",
+            "转座子范围未限定：是否包括所有类型（LINE, SINE, LTR等）？"
+          ],
+          "mode_boundary": "需要多步处理：先进行实体解析以规范化疾病和转座子概念，再执行图分析计算关联度并排序，可选文献综合以解释指标。推荐使用agent模式。",
+          "required_evidence": [
+            "entity normalization：需要解析疾病和转座子的规范实体及其别名链。",
+            "graph analytics：需要计算所有疾病节点与转座子节点之间的关联指标（如连接度、共现强度等），并输出前10名及具体分数。",
+            "literature synthesis：若关联度指标需要文献中已报道的关联证据支持，则需检索相关文献。"
+          ],
+          "warnings": [
+            "实体解析器之前返回空，可能无法直接解析出稳定实体名称。",
+            "关联度指标未指定，可能需采用默认度量（如共现边数）或询问用户。",
+            "图谱可能未覆盖所有疾病或转座子，结果可能不完整。"
+          ]
+        },
+        "errors": [],
+        "summary": "询问在当前知识图谱中，哪个疾病与转座子的关联度最强，要求列出前10名并说明计算依据。",
+        "message": "询问在当前知识图谱中，哪个疾病与转座子的关联度最强，要求列出前10名并说明计算依据。",
+        "payload": {
+          "stage": "Understanding",
+          "schema_version": "understanding_result.v1",
+          "ok": true,
+          "artifact": {
+            "schema_version": "understanding_result.v1",
+            "stage": "understanding",
+            "language": "zh",
+            "question_summary": "询问在当前知识图谱中，哪个疾病与转座子的关联度最强，要求列出前10名并说明计算依据。",
+            "intent": "graph_analytics",
+            "entities": [
+              {
+                "type": "Disease",
+                "name": "疾病"
+              },
+              {
+                "type": "TransposableElement",
+                "name": "转座子"
+              }
+            ],
+            "ambiguities": [
+              "关联度的度量标准未明确：是边数量、权重、还是中心性？",
+              "疾病范围未限定：是否包括所有疾病节点，还是某种分类？",
+              "转座子范围未限定：是否包括所有类型（LINE, SINE, LTR等）？"
+            ],
+            "mode_boundary": "需要多步处理：先进行实体解析以规范化疾病和转座子概念，再执行图分析计算关联度并排序，可选文献综合以解释指标。推荐使用agent模式。",
+            "required_evidence": [
+              "entity normalization：需要解析疾病和转座子的规范实体及其别名链。",
+              "graph analytics：需要计算所有疾病节点与转座子节点之间的关联指标（如连接度、共现强度等），并输出前10名及具体分数。",
+              "literature synthesis：若关联度指标需要文献中已报道的关联证据支持，则需检索相关文献。"
+            ],
+            "warnings": [
+              "实体解析器之前返回空，可能无法直接解析出稳定实体名称。",
+              "关联度指标未指定，可能需采用默认度量（如共现边数）或询问用户。",
+              "图谱可能未覆盖所有疾病或转座子，结果可能不完整。"
+            ]
+          },
+          "errors": [],
+          "summary": "询问在当前知识图谱中，哪个疾病与转座子的关联度最强，要求列出前10名并说明计算依据。"
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "stage": "Understanding",
+          "schema_version": "understanding_result.v1",
+          "ok": true,
+          "artifact": {
+            "schema_version": "understanding_result.v1",
+            "stage": "understanding",
+            "language": "zh",
+            "question_summary": "询问在当前知识图谱中，哪个疾病与转座子的关联度最强，要求列出前10名并说明计算依据。",
+            "intent": "graph_analytics",
+            "entities": [
+              {
+                "type": "Disease",
+                "name": "疾病"
+              },
+              {
+                "type": "TransposableElement",
+                "name": "转座子"
+              }
+            ],
+            "ambiguities": [
+              "关联度的度量标准未明确：是边数量、权重、还是中心性？",
+              "疾病范围未限定：是否包括所有疾病节点，还是某种分类？",
+              "转座子范围未限定：是否包括所有类型（LINE, SINE, LTR等）？"
+            ],
+            "mode_boundary": "需要多步处理：先进行实体解析以规范化疾病和转座子概念，再执行图分析计算关联度并排序，可选文献综合以解释指标。推荐使用agent模式。",
+            "required_evidence": [
+              "entity normalization：需要解析疾病和转座子的规范实体及其别名链。",
+              "graph analytics：需要计算所有疾病节点与转座子节点之间的关联指标（如连接度、共现强度等），并输出前10名及具体分数。",
+              "literature synthesis：若关联度指标需要文献中已报道的关联证据支持，则需检索相关文献。"
+            ],
+            "warnings": [
+              "实体解析器之前返回空，可能无法直接解析出稳定实体名称。",
+              "关联度指标未指定，可能需采用默认度量（如共现边数）或询问用户。",
+              "图谱可能未覆盖所有疾病或转座子，结果可能不完整。"
+            ]
+          },
+          "errors": [],
+          "summary": "询问在当前知识图谱中，哪个疾病与转座子的关联度最强，要求列出前10名并说明计算依据。"
+        },
+        "display_text": "询问在当前知识图谱中，哪个疾病与转座子的关联度最强，要求列出前10名并说明计算依据。",
+        "sequence": 2
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-agent-P5A_B_017",
+        "message": "Recognized entities: none yet.",
+        "payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "task_complexity": "research_synthesis",
+          "recommended_mode": "agent",
+          "task_complexity_reason": "Research, evidence, comparison, analytics, or report task.",
+          "normalized_entities": []
+        },
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "task_complexity": "research_synthesis",
+          "recommended_mode": "agent",
+          "task_complexity_reason": "Research, evidence, comparison, analytics, or report task.",
+          "normalized_entities": []
+        },
+        "display_text": "Recognized entities: none yet.",
+        "sequence": 3
+      },
+      {
+        "type": "analysis",
+        "session_id": "eval-agent-P5A_B_017",
+        "message": "Question type: graph_analytics. Complexity: multi_evidence_synthesis.",
+        "payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "task_complexity": "research_synthesis",
+          "recommended_mode": "agent",
+          "task_complexity_reason": "Research, evidence, comparison, analytics, or report task.",
+          "normalized_entities": []
+        },
+        "node": "Question Understanding Node",
+        "source": "Question Understanding Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "intent": "graph_analytics",
+          "complexity": "multi_evidence_synthesis",
+          "task_complexity": "research_synthesis",
+          "recommended_mode": "agent",
+          "task_complexity_reason": "Research, evidence, comparison, analytics, or report task.",
+          "normalized_entities": []
+        },
+        "display_text": "Question type: graph_analytics. Complexity: multi_evidence_synthesis.",
+        "sequence": 4
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_017",
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "message": "Planning",
+        "payload": {
+          "current_stage": "Planning",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "active",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Planning",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "active",
+            "Collecting": "pending",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning"
+          ],
+          "complete": false
+        },
+        "display_text": "Planning",
+        "sequence": 5
+      },
+      {
+        "type": "node_llm_result",
+        "session_id": "eval-agent-P5A_B_017",
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "stage": "Planning",
+        "schema_version": "research_plan.v1",
+        "ok": true,
+        "artifact": {
+          "schema_version": "research_plan.v1",
+          "stage": "planning",
+          "research_goal": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。",
+          "evidence_dimensions": [
+            "entity_normalization",
+            "graph_analytics"
+          ],
+          "plugin_route": [
+            {
+              "step": 1,
+              "plugin": "Entity Resolver",
+              "action": "resolve canonical entities for Disease and TransposableElement, including alias chains"
+            },
+            {
+              "step": 2,
+              "plugin": "Graph Analytics Plugin",
+              "action": "compute association strength between all Disease nodes and TransposableElement nodes, rank top 10 by default metric (co-occurrence edge count), and provide calculation basis"
+            },
+            {
+              "step": 3,
+              "fallback": true,
+              "plugin": "Cypher Explorer Plugin",
+              "action": "if Graph Analytics Plugin fails or returns insufficient data, use Cypher queries to manually compute disease-TE connections"
+            }
+          ],
+          "required_plugins": [
+            "Entity Resolver",
+            "Graph Analytics Plugin"
+          ],
+          "optional_plugins": [
+            "Cypher Explorer Plugin"
+          ],
+          "success_criteria": [
+            "Graph Analytics Plugin returns status 'ok' or 'partial'",
+            "Result contains at least one disease-TE association entry (top-k >= 1)",
+            "Each result entry includes a numeric association metric (sortable statistic) and description of calculation method"
+          ],
+          "risks": [
+            "Entity Resolver may return empty results as previously observed, making entity normalization impossible; fallback to Cypher Explorer Plugin may require manual entity name matching",
+            "Association metric is not explicitly specified; defaulting to co-occurrence edge count might not align with user's expectation; user may require literature-supported weights",
+            "Knowledge graph may not cover all known diseases or transposable element types (LINE, SINE, LTR, etc.), leading to incomplete top-10 list",
+            "Literature plugins are forbidden in this route, so external evidence to validate or explain associations cannot be retrieved; reliance solely on graph structure may miss important context"
+          ]
+        },
+        "errors": [],
+        "summary": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。",
+        "message": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。",
+        "payload": {
+          "stage": "Planning",
+          "schema_version": "research_plan.v1",
+          "ok": true,
+          "artifact": {
+            "schema_version": "research_plan.v1",
+            "stage": "planning",
+            "research_goal": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。",
+            "evidence_dimensions": [
+              "entity_normalization",
+              "graph_analytics"
+            ],
+            "plugin_route": [
+              {
+                "step": 1,
+                "plugin": "Entity Resolver",
+                "action": "resolve canonical entities for Disease and TransposableElement, including alias chains"
+              },
+              {
+                "step": 2,
+                "plugin": "Graph Analytics Plugin",
+                "action": "compute association strength between all Disease nodes and TransposableElement nodes, rank top 10 by default metric (co-occurrence edge count), and provide calculation basis"
+              },
+              {
+                "step": 3,
+                "fallback": true,
+                "plugin": "Cypher Explorer Plugin",
+                "action": "if Graph Analytics Plugin fails or returns insufficient data, use Cypher queries to manually compute disease-TE connections"
+              }
+            ],
+            "required_plugins": [
+              "Entity Resolver",
+              "Graph Analytics Plugin"
+            ],
+            "optional_plugins": [
+              "Cypher Explorer Plugin"
+            ],
+            "success_criteria": [
+              "Graph Analytics Plugin returns status 'ok' or 'partial'",
+              "Result contains at least one disease-TE association entry (top-k >= 1)",
+              "Each result entry includes a numeric association metric (sortable statistic) and description of calculation method"
+            ],
+            "risks": [
+              "Entity Resolver may return empty results as previously observed, making entity normalization impossible; fallback to Cypher Explorer Plugin may require manual entity name matching",
+              "Association metric is not explicitly specified; defaulting to co-occurrence edge count might not align with user's expectation; user may require literature-supported weights",
+              "Knowledge graph may not cover all known diseases or transposable element types (LINE, SINE, LTR, etc.), leading to incomplete top-10 list",
+              "Literature plugins are forbidden in this route, so external evidence to validate or explain associations cannot be retrieved; reliance solely on graph structure may miss important context"
+            ]
+          },
+          "errors": [],
+          "summary": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。"
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "stage": "Planning",
+          "schema_version": "research_plan.v1",
+          "ok": true,
+          "artifact": {
+            "schema_version": "research_plan.v1",
+            "stage": "planning",
+            "research_goal": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。",
+            "evidence_dimensions": [
+              "entity_normalization",
+              "graph_analytics"
+            ],
+            "plugin_route": [
+              {
+                "step": 1,
+                "plugin": "Entity Resolver",
+                "action": "resolve canonical entities for Disease and TransposableElement, including alias chains"
+              },
+              {
+                "step": 2,
+                "plugin": "Graph Analytics Plugin",
+                "action": "compute association strength between all Disease nodes and TransposableElement nodes, rank top 10 by default metric (co-occurrence edge count), and provide calculation basis"
+              },
+              {
+                "step": 3,
+                "fallback": true,
+                "plugin": "Cypher Explorer Plugin",
+                "action": "if Graph Analytics Plugin fails or returns insufficient data, use Cypher queries to manually compute disease-TE connections"
+              }
+            ],
+            "required_plugins": [
+              "Entity Resolver",
+              "Graph Analytics Plugin"
+            ],
+            "optional_plugins": [
+              "Cypher Explorer Plugin"
+            ],
+            "success_criteria": [
+              "Graph Analytics Plugin returns status 'ok' or 'partial'",
+              "Result contains at least one disease-TE association entry (top-k >= 1)",
+              "Each result entry includes a numeric association metric (sortable statistic) and description of calculation method"
+            ],
+            "risks": [
+              "Entity Resolver may return empty results as previously observed, making entity normalization impossible; fallback to Cypher Explorer Plugin may require manual entity name matching",
+              "Association metric is not explicitly specified; defaulting to co-occurrence edge count might not align with user's expectation; user may require literature-supported weights",
+              "Knowledge graph may not cover all known diseases or transposable element types (LINE, SINE, LTR, etc.), leading to incomplete top-10 list",
+              "Literature plugins are forbidden in this route, so external evidence to validate or explain associations cannot be retrieved; reliance solely on graph structure may miss important context"
+            ]
+          },
+          "errors": [],
+          "summary": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。"
+        },
+        "display_text": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。",
+        "sequence": 6
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_017",
+        "message": "Current knowledge gap: entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted..",
+        "payload": {
+          "gap_type": "entity normalization",
+          "why_needed": "The system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+          "priority": 100,
+          "candidate_tools": [
+            "Entity Resolver"
+          ]
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "gap_type": "entity normalization",
+          "why_needed": "The system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+          "priority": 100,
+          "candidate_tools": [
+            "Entity Resolver"
+          ]
+        },
+        "display_text": "Current knowledge gap: entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted..",
+        "sequence": 7
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_017",
+        "message": "Current knowledge gap: graph analytics because this question asks for global graph statistics, ranking, structure, or topology rather than a single local entity neighborhood..",
+        "payload": {
+          "gap_type": "graph analytics",
+          "why_needed": "This question asks for global graph statistics, ranking, structure, or topology rather than a single local entity neighborhood.",
+          "priority": 92,
+          "candidate_tools": [
+            "Graph Analytics Plugin"
+          ]
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "gap_type": "graph analytics",
+          "why_needed": "This question asks for global graph statistics, ranking, structure, or topology rather than a single local entity neighborhood.",
+          "priority": 92,
+          "candidate_tools": [
+            "Graph Analytics Plugin"
+          ]
+        },
+        "display_text": "Current knowledge gap: graph analytics because this question asks for global graph statistics, ranking, structure, or topology rather than a single local entity neighborhood..",
+        "sequence": 8
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_017",
+        "message": "Resolve the canonical identity and alias boundaries for the recognized entities.",
+        "payload": {
+          "subtask": "Resolve the canonical identity and alias boundaries for the recognized entities."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Resolve the canonical identity and alias boundaries for the recognized entities."
+        },
+        "display_text": "Resolve the canonical identity and alias boundaries for the recognized entities.",
+        "sequence": 9
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_017",
+        "message": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+        "payload": {
+          "subtask": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted."
+        },
+        "display_text": "Collect evidence for entity normalization because the system must resolve stable canonical entities and alias chains before any evidence lookup can be trusted.",
+        "sequence": 10
+      },
+      {
+        "type": "planning_step",
+        "session_id": "eval-agent-P5A_B_017",
+        "message": "Collect evidence for graph analytics because this question asks for global graph statistics, ranking, structure, or topology rather than a single local entity neighborhood.",
+        "payload": {
+          "subtask": "Collect evidence for graph analytics because this question asks for global graph statistics, ranking, structure, or topology rather than a single local entity neighborhood."
+        },
+        "node": "Planning Node",
+        "source": "Planning Node",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "subtask": "Collect evidence for graph analytics because this question asks for global graph statistics, ranking, structure, or topology rather than a single local entity neighborhood."
+        },
+        "display_text": "Collect evidence for graph analytics because this question asks for global graph statistics, ranking, structure, or topology rather than a single local entity neighborhood.",
+        "sequence": 11
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_017",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "message": "Collecting",
+        "payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Collecting",
+        "sequence": 12
+      },
+      {
+        "type": "node_llm_result",
+        "session_id": "eval-agent-P5A_B_017",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "stage": "Collecting",
+        "schema_version": "collection_decision.v1",
+        "ok": true,
+        "artifact": {
+          "schema_version": "collection_decision.v1",
+          "stage": "collecting",
+          "is_sufficient": false,
+          "missing_dimensions": [
+            "entity_normalization",
+            "graph_analytics"
+          ],
+          "next_plugin": "Entity Resolver",
+          "stop_reason": "insufficient_evidence",
+          "evidence_gaps": [
+            {
+              "dimension": "entity_normalization",
+              "severity": "critical",
+              "description": "当前未解析疾病和转座子的规范实体，无法进行后续图分析"
+            },
+            {
+              "dimension": "graph_analytics",
+              "severity": "critical",
+              "description": "未计算疾病与转座子之间的关联强度，无法生成 Top 10 列表"
+            }
+          ],
+          "decision_rationale": "当前执行阶段未运行任何插件，证据缺口集中在实体规范化与图分析。根据路由策略的主路径，需先通过 Entity Resolver 完成实体解析，再执行 Graph Analytics Plugin。is_sufficient 为 false，stop_reason 为 insufficient_evidence，下步使用 Entity Resolver。"
+        },
+        "errors": [],
+        "summary": "当前执行阶段未运行任何插件，证据缺口集中在实体规范化与图分析。根据路由策略的主路径，需先通过 Entity Resolver 完成实体解析，再执行 Graph Analytics Plugin。is_sufficient 为 false，stop_reason 为 insufficient_evidence，下步使用 Entity Resolver。",
+        "message": "当前执行阶段未运行任何插件，证据缺口集中在实体规范化与图分析。根据路由策略的主路径，需先通过 Entity Resolver 完成实体解析，再执行 Graph Analytics Plugin。is_sufficient 为 false，stop_reason 为 insufficient_evidence，下步使用 Entity Resolver。",
+        "payload": {
+          "stage": "Collecting",
+          "schema_version": "collection_decision.v1",
+          "ok": true,
+          "artifact": {
+            "schema_version": "collection_decision.v1",
+            "stage": "collecting",
+            "is_sufficient": false,
+            "missing_dimensions": [
+              "entity_normalization",
+              "graph_analytics"
+            ],
+            "next_plugin": "Entity Resolver",
+            "stop_reason": "insufficient_evidence",
+            "evidence_gaps": [
+              {
+                "dimension": "entity_normalization",
+                "severity": "critical",
+                "description": "当前未解析疾病和转座子的规范实体，无法进行后续图分析"
+              },
+              {
+                "dimension": "graph_analytics",
+                "severity": "critical",
+                "description": "未计算疾病与转座子之间的关联强度，无法生成 Top 10 列表"
+              }
+            ],
+            "decision_rationale": "当前执行阶段未运行任何插件，证据缺口集中在实体规范化与图分析。根据路由策略的主路径，需先通过 Entity Resolver 完成实体解析，再执行 Graph Analytics Plugin。is_sufficient 为 false，stop_reason 为 insufficient_evidence，下步使用 Entity Resolver。"
+          },
+          "errors": [],
+          "summary": "当前执行阶段未运行任何插件，证据缺口集中在实体规范化与图分析。根据路由策略的主路径，需先通过 Entity Resolver 完成实体解析，再执行 Graph Analytics Plugin。is_sufficient 为 false，stop_reason 为 insufficient_evidence，下步使用 Entity Resolver。"
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "stage": "Collecting",
+          "schema_version": "collection_decision.v1",
+          "ok": true,
+          "artifact": {
+            "schema_version": "collection_decision.v1",
+            "stage": "collecting",
+            "is_sufficient": false,
+            "missing_dimensions": [
+              "entity_normalization",
+              "graph_analytics"
+            ],
+            "next_plugin": "Entity Resolver",
+            "stop_reason": "insufficient_evidence",
+            "evidence_gaps": [
+              {
+                "dimension": "entity_normalization",
+                "severity": "critical",
+                "description": "当前未解析疾病和转座子的规范实体，无法进行后续图分析"
+              },
+              {
+                "dimension": "graph_analytics",
+                "severity": "critical",
+                "description": "未计算疾病与转座子之间的关联强度，无法生成 Top 10 列表"
+              }
+            ],
+            "decision_rationale": "当前执行阶段未运行任何插件，证据缺口集中在实体规范化与图分析。根据路由策略的主路径，需先通过 Entity Resolver 完成实体解析，再执行 Graph Analytics Plugin。is_sufficient 为 false，stop_reason 为 insufficient_evidence，下步使用 Entity Resolver。"
+          },
+          "errors": [],
+          "summary": "当前执行阶段未运行任何插件，证据缺口集中在实体规范化与图分析。根据路由策略的主路径，需先通过 Entity Resolver 完成实体解析，再执行 Graph Analytics Plugin。is_sufficient 为 false，stop_reason 为 insufficient_evidence，下步使用 Entity Resolver。"
+        },
+        "display_text": "当前执行阶段未运行任何插件，证据缺口集中在实体规范化与图分析。根据路由策略的主路径，需先通过 Entity Resolver 完成实体解析，再执行 Graph Analytics Plugin。is_sufficient 为 false，stop_reason 为 insufficient_evidence，下步使用 Entity Resolver。",
+        "sequence": 13
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_017",
+        "node": "Expert Execution Layer",
+        "source": "Expert Execution Layer",
+        "message": "Executing",
+        "payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing"
+          ],
+          "complete": false
+        },
+        "display_text": "Executing",
+        "sequence": 14
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-agent-P5A_B_017",
+        "plugin_name": "Entity Resolver",
+        "message": "I will stabilize entity names first so later evidence lookup does not drift across aliases.",
+        "node": "Evidence Collection Node",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will stabilize entity names first so later evidence lookup does not drift across aliases.",
+        "sequence": 15
+      },
+      {
+        "type": "node_llm_result",
+        "session_id": "eval-agent-P5A_B_017",
+        "node": "Expert Execution Review Node",
+        "source": "Expert Execution Review Node",
+        "stage": "ExecutingReview",
+        "schema_version": "tool_execution_review.v1",
+        "ok": true,
+        "artifact": {
+          "schema_version": "tool_execution_review.v1",
+          "stage": "executing",
+          "plugin_name": "Entity Resolver",
+          "plugin_result": {
+            "plugin_name": "Entity Resolver",
+            "status": "empty",
+            "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+            "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "result_counts": {
+              "resolved_entities": 0,
+              "alias_variants": 0
+            },
+            "latency_ms": 0,
+            "errors": [],
+            "compressed_result": {
+              "key_findings": [
+                "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+              ],
+              "coverage": {
+                "question_type": "graph_analytics",
+                "status": "empty",
+                "result_counts": {
+                  "resolved_entities": 0,
+                  "alias_variants": 0
+                },
+                "required_evidence": [
+                  "entity normalization",
+                  "graph analytics",
+                  "literature synthesis"
+                ],
+                "latency_ms": 0
+              },
+              "limitations": [
+                "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+              ],
+              "candidate_claims": [],
+              "carry_forward_fields": {
+                "plugin_name": "Entity Resolver",
+                "status": "empty",
+                "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+                "result_counts": {
+                  "resolved_entities": 0,
+                  "alias_variants": 0
+                },
+                "preview_items": [],
+                "evidence_preview": [],
+                "citations": [],
+                "raw_result_excerpt": {
+                  "alias_chains": []
+                }
+              }
+            },
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            }
+          },
+          "review_status": "reviewed",
+          "usable": false,
+          "evidence_summary": "Entity Resolver 返回了空结果（status: empty），未能从用户问题中解析出任何规范实体或别名链。resolved_entities 和 alias_variants 均为 0，且未产生任何证据项或引用。这意味着下游插件（如 Graph Analytics Plugin）无法获得具体的实体标识来进行图分析。",
+          "caveats": [
+            "用户问题中未提供具体的疾病名称或转座子类型，导致 Entity Resolver 无法通过默认匹配识别实体；可能需要更明确的查询术语或使用模糊匹配策略。",
+            "当前知识图谱可能没有收录常见的转座子（如 LINE、SINE）或疾病名称的标准别名，需要评估图谱覆盖度。",
+            "根据路由策略，后续应依赖 Graph Analytics Plugin 或 Cypher Explorer Plugin 进行基于上下文的图分析，但实体缺失将导致这些插件也无法精确计算关联度。"
+          ],
+          "normalized_findings": [
+            {
+              "finding_id": "ER-EMPTY-001",
+              "type": "missing_entity",
+              "description": "未解析出任何疾病实体",
+              "severity": "critical",
+              "entity_type": "Disease",
+              "expected_identifiers": []
+            },
+            {
+              "finding_id": "ER-EMPTY-002",
+              "type": "missing_entity",
+              "description": "未解析出任何转座子实体",
+              "severity": "critical",
+              "entity_type": "TransposableElement",
+              "expected_identifiers": []
+            },
+            {
+              "finding_id": "ER-EMPTY-003",
+              "type": "zero_result",
+              "description": "所有解析计数为零，没有别名变体",
+              "severity": "critical",
+              "count": 0
+            }
+          ]
+        },
+        "errors": [],
+        "summary": "Entity Resolver 返回了空结果（status: empty），未能从用户问题中解析出任何规范实体或别名链。resolved_entities 和 alias_variants 均为 0，且未产生任何证据项或引用。这意味着下游插件（如 Graph Analytics Plugin）无法获得具体的实体标识来进行图分析。",
+        "message": "Entity Resolver 返回了空结果（status: empty），未能从用户问题中解析出任何规范实体或别名链。resolved_entities 和 alias_variants 均为 0，且未产生任何证据项或引用。这意味着下游插件（如 Graph Analytics Plugin）无法获得具体的实体标识来进行图分析。",
+        "payload": {
+          "stage": "ExecutingReview",
+          "schema_version": "tool_execution_review.v1",
+          "ok": true,
+          "artifact": {
+            "schema_version": "tool_execution_review.v1",
+            "stage": "executing",
+            "plugin_name": "Entity Resolver",
+            "plugin_result": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "latency_ms": 0,
+              "errors": [],
+              "compressed_result": {
+                "key_findings": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "coverage": {
+                  "question_type": "graph_analytics",
+                  "status": "empty",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "required_evidence": [
+                    "entity normalization",
+                    "graph analytics",
+                    "literature synthesis"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "candidate_claims": [],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "empty",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "preview_items": [],
+                  "evidence_preview": [],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": []
+                  }
+                }
+              },
+              "preview_items": [],
+              "evidence_items": [],
+              "citations": [],
+              "raw_preview": {
+                "alias_chains": []
+              }
+            },
+            "review_status": "reviewed",
+            "usable": false,
+            "evidence_summary": "Entity Resolver 返回了空结果（status: empty），未能从用户问题中解析出任何规范实体或别名链。resolved_entities 和 alias_variants 均为 0，且未产生任何证据项或引用。这意味着下游插件（如 Graph Analytics Plugin）无法获得具体的实体标识来进行图分析。",
+            "caveats": [
+              "用户问题中未提供具体的疾病名称或转座子类型，导致 Entity Resolver 无法通过默认匹配识别实体；可能需要更明确的查询术语或使用模糊匹配策略。",
+              "当前知识图谱可能没有收录常见的转座子（如 LINE、SINE）或疾病名称的标准别名，需要评估图谱覆盖度。",
+              "根据路由策略，后续应依赖 Graph Analytics Plugin 或 Cypher Explorer Plugin 进行基于上下文的图分析，但实体缺失将导致这些插件也无法精确计算关联度。"
+            ],
+            "normalized_findings": [
+              {
+                "finding_id": "ER-EMPTY-001",
+                "type": "missing_entity",
+                "description": "未解析出任何疾病实体",
+                "severity": "critical",
+                "entity_type": "Disease",
+                "expected_identifiers": []
+              },
+              {
+                "finding_id": "ER-EMPTY-002",
+                "type": "missing_entity",
+                "description": "未解析出任何转座子实体",
+                "severity": "critical",
+                "entity_type": "TransposableElement",
+                "expected_identifiers": []
+              },
+              {
+                "finding_id": "ER-EMPTY-003",
+                "type": "zero_result",
+                "description": "所有解析计数为零，没有别名变体",
+                "severity": "critical",
+                "count": 0
+              }
+            ]
+          },
+          "errors": [],
+          "summary": "Entity Resolver 返回了空结果（status: empty），未能从用户问题中解析出任何规范实体或别名链。resolved_entities 和 alias_variants 均为 0，且未产生任何证据项或引用。这意味着下游插件（如 Graph Analytics Plugin）无法获得具体的实体标识来进行图分析。"
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "stage": "ExecutingReview",
+          "schema_version": "tool_execution_review.v1",
+          "ok": true,
+          "artifact": {
+            "schema_version": "tool_execution_review.v1",
+            "stage": "executing",
+            "plugin_name": "Entity Resolver",
+            "plugin_result": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "latency_ms": 0,
+              "errors": [],
+              "compressed_result": {
+                "key_findings": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "coverage": {
+                  "question_type": "graph_analytics",
+                  "status": "empty",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "required_evidence": [
+                    "entity normalization",
+                    "graph analytics",
+                    "literature synthesis"
+                  ],
+                  "latency_ms": 0
+                },
+                "limitations": [
+                  "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+                ],
+                "candidate_claims": [],
+                "carry_forward_fields": {
+                  "plugin_name": "Entity Resolver",
+                  "status": "empty",
+                  "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+                  "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+                  "result_counts": {
+                    "resolved_entities": 0,
+                    "alias_variants": 0
+                  },
+                  "preview_items": [],
+                  "evidence_preview": [],
+                  "citations": [],
+                  "raw_result_excerpt": {
+                    "alias_chains": []
+                  }
+                }
+              },
+              "preview_items": [],
+              "evidence_items": [],
+              "citations": [],
+              "raw_preview": {
+                "alias_chains": []
+              }
+            },
+            "review_status": "reviewed",
+            "usable": false,
+            "evidence_summary": "Entity Resolver 返回了空结果（status: empty），未能从用户问题中解析出任何规范实体或别名链。resolved_entities 和 alias_variants 均为 0，且未产生任何证据项或引用。这意味着下游插件（如 Graph Analytics Plugin）无法获得具体的实体标识来进行图分析。",
+            "caveats": [
+              "用户问题中未提供具体的疾病名称或转座子类型，导致 Entity Resolver 无法通过默认匹配识别实体；可能需要更明确的查询术语或使用模糊匹配策略。",
+              "当前知识图谱可能没有收录常见的转座子（如 LINE、SINE）或疾病名称的标准别名，需要评估图谱覆盖度。",
+              "根据路由策略，后续应依赖 Graph Analytics Plugin 或 Cypher Explorer Plugin 进行基于上下文的图分析，但实体缺失将导致这些插件也无法精确计算关联度。"
+            ],
+            "normalized_findings": [
+              {
+                "finding_id": "ER-EMPTY-001",
+                "type": "missing_entity",
+                "description": "未解析出任何疾病实体",
+                "severity": "critical",
+                "entity_type": "Disease",
+                "expected_identifiers": []
+              },
+              {
+                "finding_id": "ER-EMPTY-002",
+                "type": "missing_entity",
+                "description": "未解析出任何转座子实体",
+                "severity": "critical",
+                "entity_type": "TransposableElement",
+                "expected_identifiers": []
+              },
+              {
+                "finding_id": "ER-EMPTY-003",
+                "type": "zero_result",
+                "description": "所有解析计数为零，没有别名变体",
+                "severity": "critical",
+                "count": 0
+              }
+            ]
+          },
+          "errors": [],
+          "summary": "Entity Resolver 返回了空结果（status: empty），未能从用户问题中解析出任何规范实体或别名链。resolved_entities 和 alias_variants 均为 0，且未产生任何证据项或引用。这意味着下游插件（如 Graph Analytics Plugin）无法获得具体的实体标识来进行图分析。"
+        },
+        "display_text": "Entity Resolver 返回了空结果（status: empty），未能从用户问题中解析出任何规范实体或别名链。resolved_entities 和 alias_variants 均为 0，且未产生任何证据项或引用。这意味着下游插件（如 Graph Analytics Plugin）无法获得具体的实体标识来进行图分析。",
+        "sequence": 16
+      },
+      {
+        "type": "tool_result",
+        "session_id": "eval-agent-P5A_B_017",
+        "plugin_name": "Entity Resolver",
+        "display_label": "Resolved 0 entities",
+        "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+        "message": "No stable entity aliases were available for reuse in this round.",
+        "detail_payload_id": "tool-1",
+        "payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "graph_analytics",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "entity normalization",
+                "graph analytics",
+                "literature synthesis"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "node": "Evidence Collection Node",
+        "source": "Entity Resolver",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+          "preview_items": [],
+          "evidence_items": [],
+          "citations": [],
+          "compressed_result": {
+            "key_findings": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "coverage": {
+              "question_type": "graph_analytics",
+              "status": "empty",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "required_evidence": [
+                "entity normalization",
+                "graph analytics",
+                "literature synthesis"
+              ],
+              "latency_ms": 0
+            },
+            "limitations": [
+              "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context."
+            ],
+            "candidate_claims": [],
+            "carry_forward_fields": {
+              "plugin_name": "Entity Resolver",
+              "status": "empty",
+              "query_summary": "Resolved canonical entities and alias chains before the knowledge plugins ran.",
+              "display_summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+              "result_counts": {
+                "resolved_entities": 0,
+                "alias_variants": 0
+              },
+              "preview_items": [],
+              "evidence_preview": [],
+              "citations": [],
+              "raw_result_excerpt": {
+                "alias_chains": []
+              }
+            }
+          },
+          "raw_result": {
+            "alias_chains": []
+          },
+          "raw_preview": {
+            "alias_chains": []
+          },
+          "errors": [],
+          "result_counts": {
+            "resolved_entities": 0,
+            "alias_variants": 0
+          },
+          "display_details": {
+            "summary": "No stable named entities were resolved from the question, so downstream plugins will have to rely on broader keyword context.",
+            "preview_items": [],
+            "evidence_items": [],
+            "citations": [],
+            "raw_preview": {
+              "alias_chains": []
+            },
+            "result_message": "No stable entity aliases were available for reuse in this round."
+          }
+        },
+        "display_text": "No stable entity aliases were available for reuse in this round.",
+        "sequence": 17
+      },
+      {
+        "type": "reflection",
+        "session_id": "eval-agent-P5A_B_017",
+        "plugin_name": "Entity Resolver",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "inputs_used": [
+          "collection_state",
+          "compressed_result",
+          "routing_policy"
+        ],
+        "outputs_changed": [
+          "sufficiency_decision",
+          "remaining_candidates",
+          "closed_gaps"
+        ],
+        "message": "This tool did not produce a strong result. Next queued tools: Graph Analytics Plugin, Cypher Explorer Plugin. Sufficiency: The minimum evidence gate is still missing required dimensions.",
+        "payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver"
+            ],
+            "remaining_candidates": [
+              "Graph Analytics Plugin"
+            ],
+            "closed_gaps": [],
+            "active_gaps": [
+              "entity normalization",
+              "graph analytics",
+              "literature synthesis"
+            ],
+            "evidence_count": 0,
+            "citation_count": 0,
+            "question_type": "graph_analytics",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Graph Analytics Plugin"
+              ],
+              "fallback_path": [
+                "Cypher Explorer Plugin"
+              ],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin",
+                "Graph Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Graph Analytics Plugin",
+                  "Cypher Explorer Plugin"
+                ],
+                "require_sortable_statistics": true
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Graph Analytics Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ],
+                "min_result_count_key": "top_k",
+                "min_result_count": 1,
+                "require_sortable_statistics": true
+              },
+              "stop_conditions": {
+                "max_experts": 3,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": true,
+              "forbidden_shortcuts": [],
+              "question_type": "graph_analytics",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Graph Analytics Plugin",
+                "Cypher Explorer Plugin"
+              ]
+            },
+            "six_stage_collection_decisions": [
+              {
+                "schema_version": "collection_decision.v1",
+                "stage": "collecting",
+                "is_sufficient": false,
+                "missing_dimensions": [
+                  "entity_normalization",
+                  "graph_analytics"
+                ],
+                "next_plugin": "Entity Resolver",
+                "stop_reason": "insufficient_evidence",
+                "evidence_gaps": [
+                  {
+                    "dimension": "entity_normalization",
+                    "severity": "critical",
+                    "description": "当前未解析疾病和转座子的规范实体，无法进行后续图分析"
+                  },
+                  {
+                    "dimension": "graph_analytics",
+                    "severity": "critical",
+                    "description": "未计算疾病与转座子之间的关联强度，无法生成 Top 10 列表"
+                  }
+                ],
+                "decision_rationale": "当前执行阶段未运行任何插件，证据缺口集中在实体规范化与图分析。根据路由策略的主路径，需先通过 Entity Resolver 完成实体解析，再执行 Graph Analytics Plugin。is_sufficient 为 false，stop_reason 为 insufficient_evidence，下步使用 Entity Resolver。"
+              }
+            ],
+            "sufficiency_decision": {
+              "is_sufficient": false,
+              "reason": "The minimum evidence gate is still missing required dimensions.",
+              "missing_dimensions": [
+                "none of the preferred experts produced a usable result",
+                "no sortable graph statistics were collected"
+              ],
+              "recommended_next_experts": [
+                "Cypher Explorer Plugin",
+                "Graph Analytics Plugin"
+              ]
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": false,
+            "reason": "The minimum evidence gate is still missing required dimensions.",
+            "missing_dimensions": [
+              "none of the preferred experts produced a usable result",
+              "no sortable graph statistics were collected"
+            ],
+            "recommended_next_experts": [
+              "Cypher Explorer Plugin",
+              "Graph Analytics Plugin"
+            ]
+          }
+        },
+        "message_payload": {
+          "collection_state": {
+            "executed_experts": [
+              "Entity Resolver"
+            ],
+            "remaining_candidates": [
+              "Graph Analytics Plugin"
+            ],
+            "closed_gaps": [],
+            "active_gaps": [
+              "entity normalization",
+              "graph analytics",
+              "literature synthesis"
+            ],
+            "evidence_count": 0,
+            "citation_count": 0,
+            "question_type": "graph_analytics",
+            "routing_policy": {
+              "primary_path": [
+                "Entity Resolver",
+                "Graph Analytics Plugin"
+              ],
+              "fallback_path": [
+                "Cypher Explorer Plugin"
+              ],
+              "forbidden_path": [
+                "Literature Plugin",
+                "Literature Reading Plugin",
+                "Graph Plugin"
+              ],
+              "minimum_evidence_gate": {
+                "require_any_plugins": [
+                  "Graph Analytics Plugin",
+                  "Cypher Explorer Plugin"
+                ],
+                "require_sortable_statistics": true
+              },
+              "hard_stop_conditions": {
+                "primary_plugin": "Graph Analytics Plugin",
+                "allow_statuses": [
+                  "ok",
+                  "partial"
+                ],
+                "min_result_count_key": "top_k",
+                "min_result_count": 1,
+                "require_sortable_statistics": true
+              },
+              "stop_conditions": {
+                "max_experts": 3,
+                "stop_on_sufficient": true
+              },
+              "cypher_explorer_fallback": true,
+              "forbidden_shortcuts": [],
+              "question_type": "graph_analytics",
+              "candidate_experts": [
+                "Entity Resolver",
+                "Graph Analytics Plugin",
+                "Cypher Explorer Plugin"
+              ]
+            },
+            "six_stage_collection_decisions": [
+              {
+                "schema_version": "collection_decision.v1",
+                "stage": "collecting",
+                "is_sufficient": false,
+                "missing_dimensions": [
+                  "entity_normalization",
+                  "graph_analytics"
+                ],
+                "next_plugin": "Entity Resolver",
+                "stop_reason": "insufficient_evidence",
+                "evidence_gaps": [
+                  {
+                    "dimension": "entity_normalization",
+                    "severity": "critical",
+                    "description": "当前未解析疾病和转座子的规范实体，无法进行后续图分析"
+                  },
+                  {
+                    "dimension": "graph_analytics",
+                    "severity": "critical",
+                    "description": "未计算疾病与转座子之间的关联强度，无法生成 Top 10 列表"
+                  }
+                ],
+                "decision_rationale": "当前执行阶段未运行任何插件，证据缺口集中在实体规范化与图分析。根据路由策略的主路径，需先通过 Entity Resolver 完成实体解析，再执行 Graph Analytics Plugin。is_sufficient 为 false，stop_reason 为 insufficient_evidence，下步使用 Entity Resolver。"
+              }
+            ],
+            "sufficiency_decision": {
+              "is_sufficient": false,
+              "reason": "The minimum evidence gate is still missing required dimensions.",
+              "missing_dimensions": [
+                "none of the preferred experts produced a usable result",
+                "no sortable graph statistics were collected"
+              ],
+              "recommended_next_experts": [
+                "Cypher Explorer Plugin",
+                "Graph Analytics Plugin"
+              ]
+            }
+          },
+          "sufficiency_decision": {
+            "is_sufficient": false,
+            "reason": "The minimum evidence gate is still missing required dimensions.",
+            "missing_dimensions": [
+              "none of the preferred experts produced a usable result",
+              "no sortable graph statistics were collected"
+            ],
+            "recommended_next_experts": [
+              "Cypher Explorer Plugin",
+              "Graph Analytics Plugin"
+            ]
+          }
+        },
+        "display_text": "This tool did not produce a strong result. Next queued tools: Graph Analytics Plugin, Cypher Explorer Plugin. Sufficiency: The minimum evidence gate is still missing required dimensions.",
+        "sequence": 18
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_017",
+        "node": "Evidence Collection Node",
+        "source": "Evidence Collection Node",
+        "message": "Collecting",
+        "payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Collecting",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "active",
+            "Executing": "pending",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Collecting",
+        "sequence": 19
+      },
+      {
+        "type": "stage_state",
+        "session_id": "eval-agent-P5A_B_017",
+        "node": "Expert Execution Layer",
+        "source": "Expert Execution Layer",
+        "message": "Executing",
+        "payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "current_stage": "Executing",
+          "stage_statuses": {
+            "Understanding": "done",
+            "Planning": "done",
+            "Collecting": "done",
+            "Executing": "active",
+            "Integrating": "pending",
+            "Writing": "pending"
+          },
+          "traversed_edges": [
+            "Understanding->Planning",
+            "Planning->Collecting",
+            "Collecting->Executing",
+            "Executing->Collecting"
+          ],
+          "complete": false
+        },
+        "display_text": "Executing",
+        "sequence": 20
+      },
+      {
+        "type": "tool_selected",
+        "session_id": "eval-agent-P5A_B_017",
+        "plugin_name": "Graph Analytics Plugin",
+        "message": "I will use graph analytics now because this question is about ranking, counts, or global graph structure.",
+        "node": "Evidence Collection Node",
+        "source": "Graph Analytics Plugin",
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": [],
+        "display_text": "I will use graph analytics now because this question is about ranking, counts, or global graph structure.",
+        "sequence": 21
+      },
+      {
+        "type": "node_llm_error",
+        "session_id": "eval-agent-P5A_B_017",
+        "node": "Expert Execution Review Node",
+        "source": "Expert Execution Review Node",
+        "stage": "ExecutingReview",
+        "schema_version": "tool_execution_review.v1",
+        "ok": false,
+        "artifact": null,
+        "errors": [
+          "llm: stage=executing provider=deepseek model=deepseek-v4-flash: Operation timed out after 45016 milliseconds with 0 bytes received relay=http://127.0.0.1:18087/chat"
+        ],
+        "summary": "ExecutingReview LLM artifact failed: llm: stage=executing provider=deepseek model=deepseek-v4-flash: Operation timed out after 45016 milliseconds with 0 bytes received relay=http://127.0.0.1:18087/chat",
+        "message": "ExecutingReview LLM artifact failed: llm: stage=executing provider=deepseek model=deepseek-v4-flash: Operation timed out after 45016 milliseconds with 0 bytes received relay=http://127.0.0.1:18087/chat",
+        "payload": {
+          "stage": "ExecutingReview",
+          "schema_version": "tool_execution_review.v1",
+          "ok": false,
+          "artifact": null,
+          "errors": [
+            "llm: stage=executing provider=deepseek model=deepseek-v4-flash: Operation timed out after 45016 milliseconds with 0 bytes received relay=http://127.0.0.1:18087/chat"
+          ],
+          "summary": "ExecutingReview LLM artifact failed: llm: stage=executing provider=deepseek model=deepseek-v4-flash: Operation timed out after 45016 milliseconds with 0 bytes received relay=http://127.0.0.1:18087/chat"
+        },
+        "inputs_used": [],
+        "outputs_changed": [],
+        "message_payload": {
+          "stage": "ExecutingReview",
+          "schema_version": "tool_execution_review.v1",
+          "ok": false,
+          "artifact": null,
+          "errors": [
+            "llm: stage=executing provider=deepseek model=deepseek-v4-flash: Operation timed out after 45016 milliseconds with 0 bytes received relay=http://127.0.0.1:18087/chat"
+          ],
+          "summary": "ExecutingReview LLM artifact failed: llm: stage=executing provider=deepseek model=deepseek-v4-flash: Operation timed out after 45016 milliseconds with 0 bytes received relay=http://127.0.0.1:18087/chat"
+        },
+        "display_text": "ExecutingReview LLM artifact failed: llm: stage=executing provider=deepseek model=deepseek-v4-flash: Operation timed out after 45016 milliseconds with 0 bytes received relay=http://127.0.0.1:18087/chat",
+        "sequence": 22
+      }
+    ],
+    "answer": "",
+    "done_payload": {},
+    "used_plugins": [],
+    "citations": [],
+    "evidence_package": {},
+    "evidence_walk": {},
+    "report_plan": {},
+    "integrity_report": {},
+    "evaluation_report": {},
+    "models": {},
+    "writing_failed": false,
+    "failure_stage": "",
+    "failure_reason": "",
+    "timings": {
+      "total_ms": 117529
+    },
+    "errors": [
+      {
+        "type": "run_not_completed",
+        "run": {
+          "run_id": "run_be69c2f697ec8baf",
+          "request_id": "req_cad5f9e627d077db",
+          "session_id": "eval-agent-P5A_B_017",
+          "question": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。",
+          "mode": "academic",
+          "status": "failed",
+          "created_at": "2026-05-27T15:10:22+00:00",
+          "updated_at": "2026-05-27T15:12:19+00:00",
+          "started_at": "2026-05-27T15:10:22+00:00",
+          "finished_at": "2026-05-27T15:12:19+00:00",
+          "current_stage": "Executing",
+          "workflow_state": {
+            "current_stage": "Executing",
+            "stage_statuses": {
+              "Understanding": "done",
+              "Planning": "done",
+              "Collecting": "done",
+              "Executing": "failed",
+              "Integrating": "pending",
+              "Writing": "pending"
+            },
+            "traversed_edges": [
+              "Understanding->Planning",
+              "Planning->Collecting",
+              "Collecting->Executing",
+              "Executing->Collecting"
+            ],
+            "complete": true
+          },
+          "events_count": 22,
+          "last_sequence": 22,
+          "answer": "",
+          "language": "chinese",
+          "writing_failed": true,
+          "failure_stage": "Executing",
+          "failure_reason": "llm: stage=executing provider=deepseek model=deepseek-v4-flash: Operation timed out after 45016 milliseconds with 0 bytes received relay=http://127.0.0.1:18087/chat",
+          "error": "",
+          "used_plugins": []
+        }
+      }
+    ]
+  },
+  "evaluation": {
+    "schema_version": "mode_comparison_live_proxy.v1",
+    "case_id": "P5A_B_017",
+    "expected_best_mode": "agent",
+    "recommended_mode": "agent",
+    "dt_ok": true,
+    "agent_ok": false,
+    "dt_answer_length": 635,
+    "agent_answer_length": 0,
+    "dt_plugins": [
+      "Cypher Explorer Plugin",
+      "Entity Resolver"
+    ],
+    "agent_plugins": [],
+    "dt_latency_ms": 34883,
+    "agent_latency_ms": 117529,
+    "agent_artifact_score": 0.0,
+    "dt_artifact_score": 0.45,
+    "depth_delta": -0.45,
+    "agent_value_added": "none",
+    "agent_overkill": false,
+    "dt_errors": [],
+    "agent_errors": [
+      {
+        "type": "run_not_completed",
+        "run": {
+          "run_id": "run_be69c2f697ec8baf",
+          "request_id": "req_cad5f9e627d077db",
+          "session_id": "eval-agent-P5A_B_017",
+          "question": "现在知识图谱里，哪一个疾病与转座子关联度最大？列出 top 10 和计算依据。",
+          "mode": "academic",
+          "status": "failed",
+          "created_at": "2026-05-27T15:10:22+00:00",
+          "updated_at": "2026-05-27T15:12:19+00:00",
+          "started_at": "2026-05-27T15:10:22+00:00",
+          "finished_at": "2026-05-27T15:12:19+00:00",
+          "current_stage": "Executing",
+          "workflow_state": {
+            "current_stage": "Executing",
+            "stage_statuses": {
+              "Understanding": "done",
+              "Planning": "done",
+              "Collecting": "done",
+              "Executing": "failed",
+              "Integrating": "pending",
+              "Writing": "pending"
+            },
+            "traversed_edges": [
+              "Understanding->Planning",
+              "Planning->Collecting",
+              "Collecting->Executing",
+              "Executing->Collecting"
+            ],
+            "complete": true
+          },
+          "events_count": 22,
+          "last_sequence": 22,
+          "answer": "",
+          "language": "chinese",
+          "writing_failed": true,
+          "failure_stage": "Executing",
+          "failure_reason": "llm: stage=executing provider=deepseek model=deepseek-v4-flash: Operation timed out after 45016 milliseconds with 0 bytes received relay=http://127.0.0.1:18087/chat",
+          "error": "",
+          "used_plugins": []
+        }
+      }
+    ]
+  }
+}

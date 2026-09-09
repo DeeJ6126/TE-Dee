@@ -1,0 +1,50 @@
+{
+  "accession": "DF000001820",
+  "name": "L1MdA_VI_3end",
+  "description": "L1MdA_VI_3end subfamily",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Mus",
+  "display_classification": "LINE/L1 | Mus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Myomorpha",
+    "Muroidea",
+    "Muridae",
+    "Murinae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 990 BP; 340 A; 202 C; 237 G; 209 T; 2 other;"
+  },
+  "sequence": "ggaggatcccgcaatacctctcctgggcatatatccagaagatgttccaactagtaagaaagacacatgctccactatgttcatagcagccttatttataatagccagaagctggaaagaacccagatgcccctcaacagaggaatggatacaaaaaatgtggtacatttacacaatggagtactactcagctattaaaaagaatgaatttatgaaattcctaggcaaatggttggacctggagggcattatcctgagtgaggtaacccaatcacaaaagaactcaaatgatatgtactcactgataagtggatattagcccagaaacttagaatacccaagatataagttacaatttgcaaaacacatgaaactcaagaagaacgaagaccaaagtgtggacactttgccccttcttagaattgggaacaaaacacccatggaaggagttacagagacaaagtttggagctgagacaaaaggatggaccatctagagactgccatatccagggatccatcccataatcagcctccaaacgctgacaccattgcatacactagcaagattttgctgaaaggaccctgatatagctgtctcttgtgagactatgccggggcctagcaaacacagaagtggatgctcacagtcagctattggatggatcacagggcccccaatggaggagctagagaaagtacccaaggagctaaagggatctgcaaccctataggtggaacaacattatgaactaaccagtaccccggagctcttgactctagctgcatatgtatcaaaagatggcctagtcggccatcactggaaagagaggcccattggacntgcaaactttatatgccccagtacaggggaacgccagggccaaaaagtgggagtgggtgggtaggggagtgggggggagggtatgggggacttttgggatagcattggaaatgtaaatgaggaaaatacctaatnaaaaatattaaa",
+  "length_bp": 990,
+  "sequence_length_bp": 990,
+  "model_type": "fragment_3end",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": []
+}

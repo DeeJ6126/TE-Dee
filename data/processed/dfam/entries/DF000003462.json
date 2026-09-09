@@ -1,0 +1,52 @@
+{
+  "accession": "DF000003462",
+  "name": "L2-1B_DR",
+  "description": "Non-LTR retrotransposon from zebrafish",
+  "keywords": [
+    "LINE/L2"
+  ],
+  "species": "Danio rerio",
+  "display_classification": "LINE/L2 | Danio rerio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae",
+    "Danio"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1008 BP; 318 A; 222 C; 158 G; 310 T; 0 other;"
+  },
+  "sequence": "agttagtgcaaaatgcagctgccagagttcttaccaggtctagaaaatatgatcatatcaccccaattttatcctccttacactggcagttccgtattgattataaaatattcttctacctataaagctttaaatatctagctcctgtttatctaaccaacctctgtctcgctacaatccaacccgctctttaagatctcaaaactcagggcttctggtagtacccagaatagcaaagtccactaaaggaggtcgagccttctcatttatggctcctaaactctggaatagccttcctgataatgtccgaggctcagacacactctctcagttcaaaactagattaaagacctatctttttagtaaagcatacacacaatgcatcacataacggtatgatgcatgagtgtgctccacgcaggtgagtgggcttgacaacacctgtaggacacactcctcctgtcttaatgcaccagacattttgttagaaatactcatatgctttacatgtttgtttatataactgctattttcatttatagcacttcatttttgcattgacatttaatatctcttgtttaaatacactatgaacagcagctacgctaattattttctttgttctctatttccacctggggatactcatcccgaggcctctagagattgtgcagcgccattgatgcgatccaagacctgtgaagagatgatgccaaccatcgaggacttcaaggacaacacatacgaagagatgatgccaaccatcgaggacttcgaggacaacacatacacttaatacacaaatacacttcattaaacatgtacacatagacatcacctatatgctataaaactgcaggttaactatgtctgtatataataacttatatttgattgtaactttaacttaatttgattgtaatgcaataatgtgcaccttttgtaaagctgctttgaaacaataattattgtaaaaagcgctatacaaataaacttgaattgaatgaa",
+  "length_bp": 1008,
+  "sequence_length_bp": 1008,
+  "model_type": "fragment_ltr",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "L2-1B_DR"
+  ]
+}

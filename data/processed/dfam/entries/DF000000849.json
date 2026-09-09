@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000849",
+  "name": "Tigger6a",
+  "description": "TcMar-Tigger DNA transposon, Tigger6a subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/TcMar-Tigger | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1081 BP; 356 A; 212 C; 222 G; 291 T; 0 other;"
+  },
+  "sequence": "caggcagtcctcgctttgcacggttccgatatgcacgaatttcagttaccacggtttagttaaataacaccagtcccccaacaacacggttcaaatttcagttaccacggtatattaactgtgagtaattgcataaagtacaaacttcgctgctagctcttcagtccacaaatcactacgtaaataacagatgcgcatcatgatcagtgaccaatcacgtcacttctttcaaagtctgtcggtgattggtcactgcgcatctgttattcagttcacgcacagacagcaaagcgtgtagttgtgttgcctccttgtctcccagtgataaacccacgtgacattttacaaaaatggataatcgaaagagggaattggccaacaaagatgaaagtgcagcaaagaaacgaaaagtgataacgctggaagtgaaattcgaatcgaacgtaaatggagttatagaagaaatagctgaccgtgggaatgttgacactgccgccgttcgagagactctagatatgcagccagaggaacttagtgaaggcgaacttatcgacataaatgaggaaagtggttgtgacgaaaaggatgaagatgtcccagaggaagtgacgccggcaaaaaacttcacattaaaggaactctcggagatatttcacgacattgaaagcgcaaaggataaaatgttggaagctgatccaaacttagaaaggagtatgacaattcgccaaggcatagaaaagatgctcgctccgtatcgtaagttatacgacgagaagaaggcaagcactgttcaaactactcttgataagttttttacaaagaaataaaacactttaattctcaatgtttctaatgttttaaattacagtgtactaaataaatattagttttactatttttttcatttccctatacatttataaccgacagtaagagagtttttaatgttttgacaaaaatttttaaaggtcacggaacaatcgtaatttttcccattgattattaagatcgctttgcacggtttcagcttgcacggtcatttttacggtcccgcactaccgtgcaaagcgaggactgcctg",
+  "length_bp": 1081,
+  "sequence_length_bp": 1081,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TIGGER6A"
+  ]
+}

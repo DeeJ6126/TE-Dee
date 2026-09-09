@@ -1,0 +1,49 @@
+{
+  "accession": "DF000279470",
+  "name": "OctDeg-1.33",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/B4"
+  ],
+  "species": "Octodon degus",
+  "display_classification": "SINE/B4 | Octodon degus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Hystricomorpha",
+    "Octodontidae",
+    "Octodon"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 254 BP; 61 A; 71 C; 81 G; 41 T; 0 other;"
+  },
+  "sequence": "gggctggggagatagctcggcggtctaagcgcctgcctggcaagcgcaaggacccgggttcgatccccggtaccgcatgccgtgccggccccggaacccgggcgcgccgtgccggccaccgaaaccgggcgtggtggcgcacgcctgtaatcccagcgctggggaggctgagacaggaggatcactatgagtctgagctgcgtagcgagaccctgtaccaaataaataaataaataaataattttttaaaaaaa",
+  "length_bp": 254,
+  "sequence_length_bp": 254,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

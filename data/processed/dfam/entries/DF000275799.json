@@ -1,0 +1,48 @@
+{
+  "accession": "DF000275799",
+  "name": "CraTho-1.162",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Craseonycteris thonglongyai",
+  "display_classification": "DNA/hAT-Charlie | Craseonycteris thonglongyai",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Craseonycteridae",
+    "Craseonycteris"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 225 BP; 55 A; 55 C; 54 G; 61 T; 0 other;"
+  },
+  "sequence": "caggggtctccaaactacggcccgcgggccggatgcggcccgcgaggccctctcatccggcccgtggagacctttttatctgaataaaataatattaaataaataattaaaaacaacatctatgttttgattcttttttatttggacctcgagtgtgtagtcggcccccaaactgctgtttgatagttaatgcggcccgcgggctgaaaagtttggagacccctg",
+  "length_bp": 225,
+  "sequence_length_bp": 225,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

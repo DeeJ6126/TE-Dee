@@ -1,0 +1,51 @@
+{
+  "accession": "DF000281351",
+  "name": "XerIna-1.54",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "LINE/L1"
+  ],
+  "species": "Xerus inauris",
+  "display_classification": "LINE/L1 | Xerus inauris",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires",
+    "Rodentia",
+    "Sciuromorpha",
+    "Sciuridae",
+    "Xerinae",
+    "Xerini",
+    "Xerus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 481 BP; 176 A; 67 C; 121 G; 116 T; 1 other;"
+  },
+  "sequence": "actatggaaccaacctaggtgcccttcaacagatgaatggataaagaaaatgtggtatatatacacaatggaatattactcagccttaaagaagaatgaaattatggcatttgccggtaaatggatggagctggagaatatcatgctaagcgaaataagccaatcccaaaaaaccaaaggccgaatgttttctctgatatgcggatgctaattcacaataaggggggggggctagggaagaatagaggtactttggattaggcagaggggagtgaagggaggggagggggtatgggggtaggaaggatagtagaatgaatcggacattattaccctatgtgcatatatgattacacgaccggtgtgattctacatcatgtacaaccagaagaatgagaagttatactccatttatgtatgatgtgtcaaaatgcattctactgtcatgtataactaattagaacaaatnaaaaaaaaaaaa",
+  "length_bp": 481,
+  "sequence_length_bp": 481,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,48 @@
+{
+  "accession": "DF000279499",
+  "name": "OdoRos-1.19",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "SINE/tRNA"
+  ],
+  "species": "Odobenus rosmarus",
+  "display_classification": "SINE/tRNA | Odobenus rosmarus",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Caniformia",
+    "Odobenidae",
+    "Odobenus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 211 BP; 40 A; 68 C; 48 G; 55 T; 0 other;"
+  },
+  "sequence": "ggggcgcctgggtggctcagtcggttaagcgtccgactcttgatttcggctcaggtcatgatctcagggtcgtgagatcgagccccgcgtcgggctccgcgctcagcgcggagtctgcttgagattctctctctccctctccctctgcccctccccctgctcacgctctctctctctctcaaataaataaataaatctttaaaaaaaaaaa",
+  "length_bp": 211,
+  "sequence_length_bp": 211,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

@@ -1,0 +1,46 @@
+{
+  "accession": "DF000001062",
+  "name": "SAR",
+  "description": "SAR - minisatellite from Human Satellite I locus",
+  "keywords": [
+    "Satellite/"
+  ],
+  "species": "Primates",
+  "display_classification": "Satellite/ | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 84 BP; 24 A; 4 C; 14 G; 42 T; 0 other;"
+  },
+  "sequence": "acagtatataatatgtatttggtgtactttgatattttatgtacagtatataatatgtatttggtgtactttgatattttatgt",
+  "length_bp": 84,
+  "sequence_length_bp": 84,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "SAR"
+  ]
+}

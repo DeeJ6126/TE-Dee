@@ -1,0 +1,48 @@
+{
+  "accession": "DF000001972",
+  "name": "ORR1B1-int",
+  "description": "ERV3 Endogenous Retrovirus from Muridae.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "ORR1B1-int"
+  ],
+  "species": "Rodentia",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Rodentia",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Glires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1509 BP; 413 A; 262 C; 448 G; 370 T; 16 other;"
+  },
+  "sequence": "gaagttggtaccagggactggggtattgctgtgataggcctgaccatgcttttgtttggaggaatgtggactttgggactttggattaggaaagcagttgaacgctttaagcggggcttaatgggccatnctagtaggagcatggaagacagtggtgctgagggtgatttgaactgtgggggcccggctcaagaggtttcagaggagaagaatnttagtatgtggcctagagaccgttcttgtgatattttggcgaagaatgtggctgctttttgcccttgtccgaaaagtctgcctgaggctaaattgaagagttttggattaatngcgttggcagaggaaatttcaaaacagcctagtattgactntgtcgtgtggttattagtggccactcttatgnagatctataatgaaaaggagcaagctgagcaaggaaaaatacaaaatgtacagttcgaggagaaaaggggcaccaggaagtgnaatggagctaagtcctgtgttcaaggagataaanagattaaagaaaagcctgatgctaaatggaataaagggagtggtgacctcagggcaagaccccacccagctaagcttccaacttgtgaaaaggaattaaagaaaacgnnnggaattaaagaaaagcttaggnccaggcgtggtggtacacgcctttaatcccagcactcaggaggcagaggcaggcggatctctgagttcaaggccagcctggtctacagagcgagttccaggacagccaagcttaggcagtgaaggaaaccatcgaaaacagaaagctggtgaagatgtaattgaacgagggggccatgttccagccccagcaagcagcagaacttggcagcttcggccacgtggttctggctttagagtcaaggatanaagaaaggggttatggaatctccctccgcgactaaggaaagccgctgaggccaggcgtgtgtcaggggtgtccctgcatggaggcccagagaggccattgcgtgaagctgtgaaggtgaagcctggattgccttggagaccccaagatgttggagatgccagagctcgtgggatacctgccgaggaaagctgctaacagggagtggaaccagcccaagagaaagaagtgtgttgcagtcaacaaagctgaaaggagttggagatctgaagagcgctttgacatcagacatggagatgcagagtttggagtttgcccagctggttttcggtcttgctttggtccagtatttcctcactatgctcctttcctcccttttggaatggtaatgtatatcctgtgccattgtatgttggaagtatgtgatctgctttttnattttgattttacaggggattacagttaagagattgcatgagtctcagaagagactttgaactttggacttttaaacantgttgagactgtnatagactatggggacttttgaagttggactaaatgcattttgcattatgntatggctacaagcctatgggggccagggagtggaa",
+  "length_bp": 1509,
+  "sequence_length_bp": 1509,
+  "model_type": "fragment_internal",
+  "is_fragment": true,
+  "feature_table": [],
+  "repbase_aliases": [
+    "ORR1B1-int"
+  ]
+}

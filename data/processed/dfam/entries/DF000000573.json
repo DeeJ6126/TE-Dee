@@ -1,0 +1,48 @@
+{
+  "accession": "DF000000573",
+  "name": "LTR71A",
+  "description": "LTR71A (Long Terminal Repeat) for HERVP71A endogenous retrovirus",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "LTR71A"
+  ],
+  "species": "Haplorrhini",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Haplorrhini",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 459 BP; 127 A; 98 C; 128 G; 106 T; 0 other;"
+  },
+  "sequence": "tgtgagaaaacattttaaatggtccattttcaaggcatgataaatctaagtactggcagccagcctgcggatgtaacaaaccgcacggctcatgcacctagaaggtcacgataagcgaacagaatgtagaggaggggtcagcccataaaagggaagaaagtttcgttattgggaaatcgaaacttaagcggggaaggggaccggggtataaccttataagggggataatgaaacttaggcgacgtccgggaagattgtaaccccatagtactcgaccaatgaggaactgggggagggacttgcgtgctaggagataaattacctgctgtaactgccccgggtgtgcctgcctaccagacacccgatcttgcaagaccgccattaaaagtctcgcttccgctgttcttcgtgtctccgagtccattctttgggtttggacgggtgagtgtgtttctcaca",
+  "length_bp": 459,
+  "sequence_length_bp": 459,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "LTR71A"
+  ]
+}

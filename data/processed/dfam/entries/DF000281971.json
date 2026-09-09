@@ -1,0 +1,53 @@
+{
+  "accession": "DF000281971",
+  "name": "EryPat-1.303",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "Long terminal repeat of retrovirus-like element",
+    "EryPat-1.303"
+  ],
+  "species": "Erythrocebus patas",
+  "display_classification": "Long terminal repeat of retrovirus-like element | Erythrocebus patas",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires",
+    "Primates",
+    "Haplorrhini",
+    "Simiiformes",
+    "Catarrhini",
+    "Cercopithecoidea",
+    "Cercopithecidae",
+    "Cercopithecinae",
+    "Erythrocebus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1561 BP; 227 A; 574 C; 548 G; 205 T; 7 other;"
+  },
+  "sequence": "tgatggcagcggcggcccgtctggagcggccgctgcnaagacgccggctgcagcgggggaggcgcggccggggctgcgcgctccgcggagccggcgggagccgggaacaggcgggagccccgcccccttccgagttggcggggcgggagccccgccctcccgggcgcagctgcagccgcccagccgcggctgcggacccgggcatccctgcgctctcgggggcccgggaagcccccctgcccccgcaggctcggaagtgcctgctcccgctgcctggcctctccccgctcccggcgcccgctccgatttcggagcaaagttgnggccgagcccgggcgctgtcgcgacccggccgggtgtgcgcgcgctcggggcggcgctgacacgccagccccctgccgcctcggccccctccggactttgggcgccgacgagcacgggagggaggccgagggggngctgagggcggctcggcgcgggcctgcaggcgcccctcggcacgaacagcctgggcgccgtggacggcatgttgatggcggcaggaggcagacaggctcctgggcggaaaggggcgggtccccggtgaagccccaccttcaagccagggacggcctgaagcctgggggccgggctgccagttccgggtggagtccgcggnccggagtgagaacttatggtgctttttccgggcccgcccatggccgcccatggaccaatcagcacgcacttcctcccttctgaagcccataaaaaccccggactcagccagactcagacagacgtcgggacgacctgcctgcgganaggagctacccactncgggtctcctctccgctgagagctggacactcgtcgggacgacctgcctgcggaaaggagctacccacttcgggtctcctgagagctgttctgtcgctcaataaagctcctctccgccttgctcaccctccagttgtccgcgtacctcattcttcctggacgcgggacaagaactcgggacccgccgaatggcgggactgaaagagctgtaacacaaacagggctgaaacacgcccccccgctcgccacgttgcgggcgacgagaaggagagaagagctgcggcccttcggggagcccagacctaggggctccccgagccagggctgtgacaccctctttggggctctgcggttcctggcgtctccaagcttccgggcgccaccgcgttccccggtgcccgcagtggaagccgcttgcggtacgcctggtccagccgcagcctcgcanggagccggcgcccgtgccggcgcctggagctgcccgccccgccgcagcagccggcgtgcctggctgtgcgcagtggccggaccccgcgctcgctcgctcacacacccctcgccgctccgcgcctggctcgcccttggcaggcgtgggatccgggccggtagcgcgagccgagcgcagcctgccaggccgagtgggcggaacgagcccagcgggcccgagcaaaactcgggcaaaggcgccaccggccacagaggtttccggctggaaaagcgacaccccaaggatcccgtgaca",
+  "length_bp": 1561,
+  "sequence_length_bp": 1561,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

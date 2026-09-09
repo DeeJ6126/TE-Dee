@@ -1,0 +1,49 @@
+{
+  "accession": "DF000274903",
+  "name": "ArtJam-1.64",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Mariner"
+  ],
+  "species": "Artibeus jamaicensis",
+  "display_classification": "DNA/TcMar-Mariner | Artibeus jamaicensis",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Chiroptera",
+    "Microchiroptera",
+    "Phyllostomidae",
+    "Stenodermatinae",
+    "Artibeus"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 553 BP; 172 A; 87 C; 116 G; 178 T; 0 other;"
+  },
+  "sequence": "ttgggttggccaaaaagttcgtttagttttttccgtacgatggctctagtagtgcttagttgtctttaacttcattcgaaacaattttgttagattgtattgtgacagctgtcatatcagcgtgcatttaaaaaaacttatcaaaattggtgaatttttgtgcagccattttaatattgaagatggaagaaaatatgcaacattttcggcgtattatgctttattatttcaagaaaggtaaaaacgcaactgaaacgcaaaaaaagatttgtgcagtgtatggagaaggtgctgtgactgatcgaacgtgtcaaaagtggtttgcgaagtttcttggtactattgacattttggccaaataattctttgctgtggggctgtcttatgcattggaagatgtttagcagcacccctggcctctacccactagaagccaatagcgggagatagccgacatactcaaaatatccaaatcaataaagttattggtgaaaatgaaaaatgtgtcttttattttacggaaaaaactaaacggactttttggccaacccaa",
+  "length_bp": 553,
+  "sequence_length_bp": 553,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}

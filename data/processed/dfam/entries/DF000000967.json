@@ -1,0 +1,43 @@
+{
+  "accession": "DF000000967",
+  "name": "MER97d",
+  "description": "hAT-Tip100 DNA transposon, MER97d subfamily (non-autonomous)",
+  "keywords": [
+    "DNA/hAT-Tip100"
+  ],
+  "species": "Eutheria",
+  "display_classification": "DNA/hAT-Tip100 | Eutheria",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 1205 BP; 368 A; 200 C; 230 G; 406 T; 1 other;"
+  },
+  "sequence": "cagtggcgtaccaagggcggggcggtgggagcggtccgccccgggtgcaggcaataagggggtgcattgtctgtagagaatttaaaaacaataataaaaccgactaaaagtcggtctgctttttattatcaccatgcgccggcaattctaaacaatgtcagtgataaaatactcctccccgaaaaatcttttgttggtctaagttctaaacaattgctgcggttactgttgagttttaataatatatatgtaagcttcaaattagcacatttttattacttatcctttaataaacattgtattctacatggaagttaattcggagaactcccagttatacagtcggcccccgacacacgtggactcagctacacgcgttcgtttcgagagtaagttcgtaacggttcggaatcgttcgagctcgcttcgggcgcagttcgtgtctccaacccctgtggtactacatattcctgcgtttaaacagtagattcgaaataaacaatgatagcacagtgattgtaaagacgaagaaacagaacttgagttacttcaattctgtcattctatgtgaccacttggagtttttatttgtgtttaaaatttaaaacagtgaaacagagtgcgaactgcgaggtgtaatatttttgtttggtaaatgcaaattttagacttttcntatttgtatatctgttgcttcatgtgaaagaaacttttcgaaattaaaattaataaaaagtgttcttcgatcaactatgagcgaagatagattgacaaatctggctatactgtctattgaacatgaatatgcgaagaagatcaattttgacgaagtcattgacaaatttgcagaagttaaggctcgaaaacagaaactgtaatgttattattcattactgcgacagaccaatatgtaggtataattttttccttttttcaaaaaatacattaatgtaattaaaaagtattaatccattactttttttccttttttgtactgtaatatttattttttattttttatactggcatgattatatatacgaagttcaataaaagaaaattttcactgtctgcgtttcttttctggccattattattattcgtttcatttcatgattattactgaaaataattttgtcgtatagaggaggggggtgttaaaaaatgatccgctccgggtgtcaaatacgctaggtacgccactg",
+  "length_bp": 1205,
+  "sequence_length_bp": 1205,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "MER97d"
+  ]
+}

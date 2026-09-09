@@ -1,0 +1,51 @@
+{
+  "accession": "DF000004032",
+  "name": "TDR19",
+  "description": "Non-autonomous DNA transposon from zebrafish",
+  "keywords": [
+    "DNA/hAT-Charlie"
+  ],
+  "species": "Danio",
+  "display_classification": "DNA/hAT-Charlie | Danio",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Actinopterygii",
+    "Actinopteri",
+    "Neopterygii",
+    "Teleostei",
+    "Osteoglossocephalai",
+    "Clupeocephala",
+    "Otomorpha",
+    "Ostariophysi",
+    "Otophysi",
+    "Cypriniphysae",
+    "Cypriniformes",
+    "Cyprinoidei",
+    "Danionidae",
+    "Danioninae"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 392 BP; 85 A; 96 C; 102 G; 88 T; 21 other;"
+  },
+  "sequence": "taagagcttgattagctggntcaggtgtgtttgattagggttggagctaaactntgcagggcnncggccctccaggaccgagtttggacacctncaggggtgtcaaactcggttcctggagggccgnngccctgcanagtttagctccaaccctnntcaaancacacctgaccagnagnttntagaagncctgaagancttgattagctngntcaggtgtgtttgattagggttggagctaaactgtgcagggcnncggccctccaggaaccgagtttgacacccctgntctagaccgtaggtgtccaaactcggtcctggagggccggtgtcctgcagagtttagctccaaccctaatcaaacacacctgaaccagctaatcaagctctta",
+  "length_bp": 392,
+  "sequence_length_bp": 392,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "TDR19"
+  ]
+}

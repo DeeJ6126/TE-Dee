@@ -1,0 +1,46 @@
+{
+  "accession": "DF000000036",
+  "name": "AluJr4",
+  "description": "AluJr4 subfamily",
+  "keywords": [
+    "SINE/Alu"
+  ],
+  "species": "Primates",
+  "display_classification": "SINE/Alu | Primates",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Euarchontoglires"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 312 BP; 88 A; 78 C; 96 G; 49 T; 1 other;"
+  },
+  "sequence": "ggccgggcgcggtggctcacgcctgtaatcccagcactttgggaggccgaggcgggaggatcgcttgaggccaggagttcgagaccagcctgggcaacatagcgagaccccgtctctacaaaaaatttaaaaattagccgggcgtggtggcgcgcgcctgtagtcctagctactcgggaggctgaggcaggaggatcgcttgagcccaggagttcgaggttacagtgagctatgatcgcgccactgcactccagcctgggcgacagagcgagaccctgtctcnaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "length_bp": 312,
+  "sequence_length_bp": 312,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": [
+    "AluJr4"
+  ]
+}

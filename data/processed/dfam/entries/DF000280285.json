@@ -1,0 +1,49 @@
+{
+  "accession": "DF000280285",
+  "name": "PumCon-3.547",
+  "description": "Mammalian family identified by the Zoonomia project.",
+  "keywords": [
+    "DNA/TcMar-Tigger"
+  ],
+  "species": "Puma concolor",
+  "display_classification": "DNA/TcMar-Tigger | Puma concolor",
+  "classification": [
+    "cellular organisms",
+    "Eukaryota",
+    "Opisthokonta",
+    "Metazoa",
+    "Eumetazoa",
+    "Bilateria",
+    "Deuterostomia",
+    "Chordata",
+    "Craniata",
+    "Vertebrata",
+    "Gnathostomata",
+    "Teleostomi",
+    "Euteleostomi",
+    "Sarcopterygii",
+    "Dipnotetrapodomorpha",
+    "Tetrapoda",
+    "Amniota",
+    "Mammalia",
+    "Theria",
+    "Eutheria",
+    "Boreoeutheria",
+    "Laurasiatheria",
+    "Carnivora",
+    "Feliformia",
+    "Felidae",
+    "Felinae",
+    "Puma"
+  ],
+  "sequence_summary": {
+    "raw": "Sequence 576 BP; 149 A; 121 C; 139 G; 167 T; 0 other;"
+  },
+  "sequence": "cagttgacccttgaacaacacgggtttgaactgcgcaggtccacttatacgcggatttttttcgataaatacagtacagtactgtaaatgtattttctcttccttatgattttcttttttaaatttttttttaacgtttatttatttttgagacagagagagacagagcatgagcgggggaggggcagagagagagggagacacagaatccgaagcaggctccaggctctgagcgtcagcgcagagcccgacgcggggctcgaactcacgaaccgtgagatcgtgacctgagccgaagtcggacgcttaaccgactgagccacccaggcgccccttccttatgattttcttaataacattttcttttctctagcttactttattgtaagaatacagtatataatacatataacatacaaaatatgtgttaatcgactgtttatgttatcggtaaggcttccggtcaacagtaggctattagtagttaagttttgggggagtcaaaagttatacgcggattttcgactgcgcggggggtcggcgcccctaacccccgcgttgttcaagggtcaactg",
+  "length_bp": 576,
+  "sequence_length_bp": 576,
+  "model_type": "full",
+  "is_fragment": false,
+  "feature_table": [],
+  "repbase_aliases": []
+}
