@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Agent and DeepThink",
+    "locale": "en",
+    "output": "agent-deepthink-architecture-draft.html",
+    "animation": "trace",
+    "quality_profile": "showcase",
+    "viewBox": [1600, 920],
+    "legend": {
+      "mode": "hidden"
+    }
+  },
+  "components": [
+    { "id": "dtUnderstanding", "type": "backend", "label": "Understanding", "pos": [45, 105], "size": [260, 72] },
+    { "id": "dtPlanning", "type": "backend", "label": "Planning", "pos": [462, 105], "size": [260, 72] },
+    { "id": "dtExecuting", "type": "backend", "label": "Executing", "pos": [878, 105], "size": [260, 72] },
+    { "id": "dtWriting", "type": "frontend", "label": "Writing", "pos": [1295, 105], "size": [260, 72] },
+
+    { "id": "entityResolver", "type": "backend", "label": "Entity Resolver", "pos": [45, 340], "size": [200, 64] },
+    { "id": "siteNavigator", "type": "backend", "label": "Site Navigator", "pos": [263, 340], "size": [200, 64] },
+    { "id": "graphPlugin", "type": "backend", "label": "Graph", "pos": [481, 340], "size": [200, 64] },
+    { "id": "graphAnalytics", "type": "backend", "label": "Graph Analytics", "pos": [699, 340], "size": [200, 64] },
+    { "id": "cypherExplorer", "type": "backend", "label": "Cypher Explorer", "pos": [917, 340], "size": [200, 64] },
+    { "id": "literaturePlugin", "type": "backend", "label": "Literature", "pos": [1135, 340], "size": [200, 64] },
+    { "id": "literatureReading", "type": "backend", "label": "Literature Reading", "pos": [1355, 340], "size": [200, 64] },
+
+    { "id": "treePlugin", "type": "backend", "label": "Tree", "pos": [154, 452], "size": [200, 64] },
+    { "id": "expressionPlugin", "type": "backend", "label": "Expression", "pos": [372, 452], "size": [200, 64] },
+    { "id": "eqtlPlugin", "type": "backend", "label": "eQTL", "pos": [590, 452], "size": [200, 64] },
+    { "id": "genomePlugin", "type": "backend", "label": "Genome", "pos": [808, 452], "size": [200, 64] },
+    { "id": "sequencePlugin", "type": "backend", "label": "Sequence", "pos": [1026, 452], "size": [200, 64] },
+    { "id": "citationResolver", "type": "backend", "label": "Citation Resolver", "pos": [1244, 452], "size": [200, 64] },
+
+    { "id": "agentUnderstanding", "type": "backend", "label": "Understanding", "pos": [45, 725], "size": [210, 72] },
+    { "id": "agentPlanning", "type": "backend", "label": "Planning", "pos": [305, 725], "size": [210, 72] },
+    { "id": "agentCollecting", "type": "backend", "label": "Collecting", "pos": [565, 725], "size": [210, 72] },
+    { "id": "agentExecuting", "type": "backend", "label": "Executing", "pos": [825, 725], "size": [210, 72] },
+    { "id": "agentIntegrating", "type": "backend", "label": "Integrating", "pos": [1085, 725], "size": [210, 72] },
+    { "id": "agentWriting", "type": "frontend", "label": "Writing", "pos": [1345, 725], "size": [210, 72] }
+  ],
+  "boundaries": [
+    { "kind": "region", "label": "DeepThink", "wraps": ["dtUnderstanding", "dtPlanning", "dtExecuting", "dtWriting"], "pad": 32 },
+    { "kind": "region", "label": "Shared plugin system", "wraps": ["entityResolver", "siteNavigator", "graphPlugin", "graphAnalytics", "cypherExplorer", "literaturePlugin", "literatureReading", "treePlugin", "expressionPlugin", "eqtlPlugin", "genomePlugin", "sequencePlugin", "citationResolver"], "pad": 32 },
+    { "kind": "region", "label": "Agent", "wraps": ["agentUnderstanding", "agentPlanning", "agentCollecting", "agentExecuting", "agentIntegrating", "agentWriting"], "pad": 32 }
+  ],
+  "connections": [
+    { "id": "dtUnderstandPlan", "from": "dtUnderstanding", "to": "dtPlanning", "variant": "emphasis" },
+    { "id": "dtPlanExecute", "from": "dtPlanning", "to": "dtExecuting", "variant": "emphasis" },
+    { "id": "dtExecuteWrite", "from": "dtExecuting", "to": "dtWriting", "variant": "emphasis" },
+    { "id": "dtPluginCall", "from": "dtExecuting", "to": "graphAnalytics", "variant": "emphasis", "fromSide": "bottom", "toSide": "top" },
+    { "id": "dtEvidenceReturn", "from": "graphAnalytics", "to": "dtExecuting", "variant": "dashed", "fromSide": "top", "toSide": "bottom" },
+
+    { "id": "agentUnderstandPlan", "from": "agentUnderstanding", "to": "agentPlanning", "variant": "emphasis" },
+    { "id": "agentPlanCollect", "from": "agentPlanning", "to": "agentCollecting", "variant": "emphasis" },
+    { "id": "agentCollectExecute", "from": "agentCollecting", "to": "agentExecuting", "variant": "emphasis" },
+    { "id": "agentExecuteIntegrate", "from": "agentExecuting", "to": "agentIntegrating", "variant": "emphasis" },
+    { "id": "agentIntegrateWrite", "from": "agentIntegrating", "to": "agentWriting", "variant": "emphasis" },
+    { "id": "agentPluginCall", "from": "agentExecuting", "to": "eqtlPlugin", "variant": "emphasis", "fromSide": "top", "toSide": "bottom" },
+    { "id": "agentEvidenceReturn", "from": "eqtlPlugin", "to": "agentExecuting", "variant": "dashed", "fromSide": "bottom", "toSide": "top" }
+  ]
+}

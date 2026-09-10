@@ -258,6 +258,11 @@ function about_media_spec(string $sectionKey, string $heading): ?array
             'filename' => 'graph.png',
             'alt' => 'Knowledge Graph workspace showing network controls, legend filters, and a node detail card.',
         ],
+        'agent:Asking questions' => [
+            'filename' => 'agent-deepthink-architecture.html',
+            'type' => 'embed',
+            'alt' => 'Agent and DeepThink workflows connected to the shared plugin system.',
+        ],
     ];
     return $media[$sectionKey . ':' . $heading] ?? null;
 }
@@ -334,12 +339,18 @@ function about_media_spec(string $sectionKey, string $heading): ?array
     $mediaUrl = tekg_assets_url('img/about/' . $media['filename']);
     $mediaVersion = (int)@filemtime(tekg_assets_fs_path('img/about/' . $media['filename']));
     $isVideo = ($media['type'] ?? 'image') === 'video';
+    $isEmbed = ($media['type'] ?? 'image') === 'embed';
     $posterUrl = null;
     if ($isVideo && !empty($media['poster'])) {
         $posterVersion = (int)@filemtime(tekg_assets_fs_path('img/about/' . $media['poster']));
         $posterUrl = tekg_assets_url('img/about/' . $media['poster']) . '?v=' . $posterVersion;
     }
 ?>
+<?php if ($isEmbed): ?>
+                      <div class="about-architecture-embed">
+                        <iframe class="about-architecture-frame" src="<?= htmlspecialchars($mediaUrl . '?embed=1&v=' . $mediaVersion, ENT_QUOTES, 'UTF-8') ?>" title="<?= htmlspecialchars($media['alt'], ENT_QUOTES, 'UTF-8') ?>" loading="lazy" sandbox="allow-scripts"></iframe>
+                      </div>
+<?php else: ?>
                       <figure class="about-placeholder-media">
 <?php if ($isVideo): ?>
                         <video class="about-media-video" autoplay loop muted playsinline preload="metadata"<?= $posterUrl !== null ? ' poster="' . htmlspecialchars($posterUrl, ENT_QUOTES, 'UTF-8') . '"' : '' ?> aria-label="<?= htmlspecialchars($media['alt'], ENT_QUOTES, 'UTF-8') ?>">
@@ -349,6 +360,7 @@ function about_media_spec(string $sectionKey, string $heading): ?array
                         <img class="about-media-image" src="<?= htmlspecialchars($mediaUrl . '?v=' . $mediaVersion, ENT_QUOTES, 'UTF-8') ?>" alt="<?= htmlspecialchars($media['alt'], ENT_QUOTES, 'UTF-8') ?>" loading="lazy" decoding="async">
 <?php endif; ?>
                       </figure>
+<?php endif; ?>
 <?php endif; ?>
                     </section>
 <?php endforeach; ?>
