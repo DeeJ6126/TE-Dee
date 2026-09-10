@@ -56,6 +56,30 @@ function tekg_coexpression_catalog(): array {
     return ['version'=>$v['version_key'],'method'=>$v['method'],'thresholds'=>$thresholds,'default_selection'=>['feature'=>$v['default_te'],'feature_type'=>'TE','te'=>$v['default_te'],'context'=>$v['default_context']],'contexts'=>array_map(static fn($id,$label)=>['id'=>$id,'label'=>$label],array_keys(TEKG_COEXPRESSION_CONTEXTS),array_values(TEKG_COEXPRESSION_CONTEXTS)),'items'=>$items,'gene_items'=>$geneItems,'interpretation_limit'=>$v['interpretation_limit']];
 }
 
+function tekg_coexpression_te_availability(string $teName): ?array {
+    $trimmed=trim($teName);
+    if($trimmed==='' || !tekg_expression_is_public_te_name($trimmed))return null;
+    $v=tekg_coexpression_active_version();
+    $rows=tekg_coexpression_rows(
+        'SELECT center_te, context_key FROM coexpression_networks WHERE version_id=? AND LOWER(center_te)=LOWER(?) ORDER BY context_key',
+        [(int)$v['id'],$trimmed],
+        'is'
+    );
+    if($rows===[])return null;
+    $contexts=array_values(array_unique(array_filter(array_map(
+        static fn(array $row):string=>trim((string)($row['context_key']??'')),
+        $rows
+    ),static fn(string $context):bool=>array_key_exists($context,TEKG_COEXPRESSION_CONTEXTS))));
+    if($contexts===[])return null;
+    $preferred=in_array('normal_tissue',$contexts,true)?'normal_tissue':$contexts[0];
+    return [
+        'te'=>(string)$rows[0]['center_te'],
+        'contexts'=>$contexts,
+        'preferred_context'=>$preferred,
+        'labels'=>array_intersect_key(TEKG_COEXPRESSION_CONTEXTS,array_flip($contexts)),
+    ];
+}
+
 function tekg_coexpression_network_payload(array $v,array $n,array $selection,?string $selectedNodeId=null): array {
     $nodes=tekg_coexpression_rows('SELECT node_id id,label,feature_type,role,module_id,is_center,is_module_hub,degree_hint FROM coexpression_network_nodes WHERE network_id=? ORDER BY node_order',[(int)$n['id']],'i'); foreach($nodes as &$node){$node['is_center']=(int)$node['is_center']===1;$node['is_module_hub']=(int)$node['is_module_hub']===1;if($node['degree_hint']!==null)$node['degree_hint']=(float)$node['degree_hint'];}unset($node);
     if($selectedNodeId!==null){
@@ -73,7 +97,7 @@ function tekg_coexpression_network_payload(array $v,array $n,array $selection,?s
     return ['version'=>$v['version_key'],'selection'=>$selection,'module'=>['id'=>$n['module_id'],'type'=>$n['module_type'],'size'=>(int)$n['module_size'],'te_count'=>(int)$n['te_count'],'gene_count'=>(int)$n['gene_count'],'confidence'=>$n['confidence'],'candidate_label'=>$n['candidate_label'],'top_enriched_terms'=>array_values($terms)],'interpretation'=>['statement_en'=>$n['statement_en'],'statement_zh'=>$n['statement_zh'],'limit'=>$v['interpretation_limit']],'nodes'=>$nodes,'edges'=>$edges];
 }
 
-function tekg_coexpression_load_network(string $teName,string $context): array {
+function tekg_coexpression_load_network(string $teName,string $context,bool $includeEqtl=true): array {
     if(!array_key_exists($context,TEKG_COEXPRESSION_CONTEXTS))throw new CoexpressionRepositoryException('invalid_context','The requested co-expression context is invalid.');
     $v=tekg_coexpression_active_version(); $known=tekg_coexpression_rows('SELECT DISTINCT center_te FROM coexpression_networks WHERE version_id=? AND LOWER(center_te)=LOWER(?)',[(int)$v['id'],trim($teName)],'is');
     if(count($known)!==1)throw new CoexpressionRepositoryException('unknown_te','The requested TE is not present in the approved co-expression catalog.'); $te=$known[0]['center_te'];
@@ -81,7 +105,7 @@ function tekg_coexpression_load_network(string $teName,string $context): array {
     $network=tekg_coexpression_rows('SELECT * FROM coexpression_networks WHERE version_id=? AND center_te=? AND context_key=? LIMIT 1',[(int)$v['id'],$te,$context],'iss');
     if($network===[])throw new CoexpressionRepositoryException('network_unavailable',"No display network is available for {$te} in {$context}.",['available_contexts'=>$contexts]);
     $payload = tekg_coexpression_network_payload($v,$network[0],['feature'=>$te,'feature_type'=>'TE','te'=>$te,'context'=>$context,'available_contexts'=>$contexts]);
-    return tekg_coexpression_append_eqtl_edges($payload, $te);
+    return $includeEqtl ? tekg_coexpression_append_eqtl_edges($payload,$te) : $payload;
 }
 
 /** Append eQTL evidence to the existing co-expression payload without replacing its graph. */
@@ -189,7 +213,7 @@ function tekg_coexpression_eqtl_gene_is_high_confidence(string $gene): bool
     return isset($allowed[strtolower(trim($gene))]);
 }
 
-function tekg_coexpression_load_gene_network(string $geneName,string $context): array {
+function tekg_coexpression_load_gene_network(string $geneName,string $context,bool $includeEqtl=true): array {
     if(!array_key_exists($context,TEKG_COEXPRESSION_CONTEXTS))throw new CoexpressionRepositoryException('invalid_context','The requested co-expression context is invalid.');
     $v=tekg_coexpression_active_version();
     $known=tekg_coexpression_rows(
@@ -227,11 +251,11 @@ function tekg_coexpression_load_gene_network(string $geneName,string $context): 
     $n=$network[0];
     $selection=['feature'=>$gene,'feature_type'=>'Gene','gene'=>$gene,'context'=>$context,'available_contexts'=>$contexts,'source_center_te'=>$n['center_te']];
     $payload = tekg_coexpression_network_payload($v,$n,$selection,(string)$n['selected_node_id']);
-    return tekg_coexpression_append_eqtl_edges($payload, (string)$n['center_te'], $gene);
+    return $includeEqtl ? tekg_coexpression_append_eqtl_edges($payload,(string)$n['center_te'],$gene) : $payload;
 }
 
-function tekg_coexpression_load_feature_network(string $featureName,string $featureType,string $context): array {
+function tekg_coexpression_load_feature_network(string $featureName,string $featureType,string $context,bool $includeEqtl=true): array {
     return strcasecmp(trim($featureType),'Gene')===0
-        ? tekg_coexpression_load_gene_network($featureName,$context)
-        : tekg_coexpression_load_network($featureName,$context);
+        ? tekg_coexpression_load_gene_network($featureName,$context,$includeEqtl)
+        : tekg_coexpression_load_network($featureName,$context,$includeEqtl);
 }

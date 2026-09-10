@@ -46,6 +46,9 @@
         if(!section){ return; }
         event.preventDefault();
         setActiveSection(targetId);
+        if(targetId==='expression-detail-coexpression'){
+          window.__TEKG_EXPRESSION_COEXPRESSION?.expand?.();
+        }
         const url = new URL(window.location.href);
         url.hash = targetId;
         window.history.replaceState(window.history.state || {}, '', url.toString());
@@ -192,11 +195,17 @@
       const nextPage = doc.getElementById('expressionDetailPage');
       const livePage = document.getElementById('expressionDetailPage');
       if(!nextPage || !livePage){ throw new Error('Expression detail fragment was not found in the response.'); }
+      window.__TEKG_EXPRESSION_COEXPRESSION?.init?.(document.createElement('div'));
       livePage.outerHTML = nextPage.outerHTML;
       window.history.pushState({ expressionDetailUrl: url }, '', url);
       window.scrollTo(0, currentScrollY);
       const freshRoot = document.getElementById('expressionDetailPage');
-      if(freshRoot){ initDetailNav(freshRoot); initDetailCharts(freshRoot); initDetailAsync(freshRoot); }
+      if(freshRoot){
+        initDetailNav(freshRoot);
+        initDetailCharts(freshRoot);
+        initDetailAsync(freshRoot);
+        window.__TEKG_EXPRESSION_COEXPRESSION?.init?.(freshRoot);
+      }
     } catch(error){
       console.error('Expression detail refresh failed:', error);
       window.location.href = url;
@@ -220,7 +229,12 @@
   }
 
   const root=document.getElementById('expressionDetailPage');
-  if(root){ initDetailNav(root); initDetailCharts(root); initDetailAsync(root); }
+  if(root){
+    initDetailNav(root);
+    initDetailCharts(root);
+    initDetailAsync(root);
+    window.__TEKG_EXPRESSION_COEXPRESSION?.init?.(root);
+  }
   window.addEventListener('popstate', function(){ refreshDetailResults(window.location.href); });
 })();
 

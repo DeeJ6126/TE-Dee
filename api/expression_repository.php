@@ -3,6 +3,25 @@ declare(strict_types=1);
 
 require_once dirname(__DIR__) . '/path_config.php';
 
+const TEKG_EXPRESSION_HIDDEN_TE_NAMES = ['(cattc)n', '(gaatg)n'];
+
+function tekg_expression_is_public_te_name(string $teName): bool
+{
+    $normalized = strtolower(trim($teName));
+    return $normalized !== '' && !in_array($normalized, TEKG_EXPRESSION_HIDDEN_TE_NAMES, true);
+}
+
+function tekg_expression_public_te_sql(string $column = 'te_name'): string
+{
+    $placeholders = implode(', ', array_fill(0, count(TEKG_EXPRESSION_HIDDEN_TE_NAMES), '?'));
+    return 'LOWER(TRIM(' . $column . ')) NOT IN (' . $placeholders . ')';
+}
+
+function tekg_expression_public_te_params(): array
+{
+    return TEKG_EXPRESSION_HIDDEN_TE_NAMES;
+}
+
 function tekg_expression_config(): array
 {
     static $config = null;
@@ -211,12 +230,37 @@ function tekg_expression_fetch_catalog_items(string $query = '', int $limit = 18
 {
     $query = trim($query);
     $limit = max(1, min(180, $limit));
-    $where = "te_name IS NOT NULL AND TRIM(te_name) <> ''";
-    $params = [];
-    $types = '';
+    if ($query === '') {
+        $publicParams = tekg_expression_public_te_params();
+        $rows = tekg_expression_fetch_all(
+            "SELECT DISTINCT TRIM(w.center_te) AS name
+             FROM coexpression_networks w
+             JOIN coexpression_analysis_versions v ON v.id = w.version_id AND v.is_active = 1
+             JOIN expression_browse_summary e ON e.te_name COLLATE utf8mb4_0900_ai_ci = w.center_te
+             WHERE e.te_name IS NOT NULL AND TRIM(e.te_name) <> '' AND " . tekg_expression_public_te_sql() . "
+             ORDER BY name ASC
+             LIMIT ?",
+            array_merge($publicParams, [$limit]),
+            str_repeat('s', count($publicParams)) . 'i'
+        );
+
+        return array_values(array_filter(array_map(
+            static fn(array $row): array => ['name' => trim((string)($row['name'] ?? ''))],
+            $rows
+        ), static fn(array $item): bool => $item['name'] !== ''));
+    }
+    $where = "te_name IS NOT NULL AND TRIM(te_name) <> '' AND " . tekg_expression_public_te_sql();
+    $params = tekg_expression_public_te_params();
+    $types = str_repeat('s', count($params));
     if ($query !== '') {
         $where .= ' AND te_name LIKE ?';
         $params[] = '%' . $query . '%';
+        $types .= 's';
+    }
+    $orderSql = 'name ASC';
+    if ($query !== '') {
+        $orderSql = 'CASE WHEN te_name LIKE ? THEN 0 ELSE 1 END, name ASC';
+        $params[] = $query . '%';
         $types .= 's';
     }
     $params[] = $limit;
@@ -226,7 +270,7 @@ function tekg_expression_fetch_catalog_items(string $query = '', int $limit = 18
         "SELECT TRIM(te_name) AS name
          FROM expression_browse_summary
          WHERE {$where}
-         ORDER BY name ASC
+         ORDER BY {$orderSql}
          LIMIT ?",
         $params,
         $types
@@ -241,7 +285,7 @@ function tekg_expression_fetch_catalog_items(string $query = '', int $limit = 18
 function tekg_expression_resolve_te_name(string $teName): ?string
 {
     $trimmed = trim($teName);
-    if ($trimmed === '') {
+    if (!tekg_expression_is_public_te_name($trimmed)) {
         return null;
     }
 
@@ -316,9 +360,9 @@ function tekg_expression_fetch_browse_page(array $filters = [], int $page = 1, i
     $pageSize = max(1, min(100, $pageSize));
     $offset = ($page - 1) * $pageSize;
 
-    $where = [];
-    $params = [];
-    $types = '';
+    $where = [tekg_expression_public_te_sql()];
+    $params = tekg_expression_public_te_params();
+    $types = str_repeat('s', count($params));
 
     $keyword = trim((string)($filters['keyword'] ?? ''));
     if ($keyword !== '') {
@@ -359,6 +403,13 @@ function tekg_expression_fetch_browse_page(array $filters = [], int $page = 1, i
 
     $whereSql = $where === [] ? '' : ('WHERE ' . implode(' AND ', $where));
     $orderSql = tekg_expression_browse_sort_sql($sort);
+    $orderParams = [];
+    $orderTypes = '';
+    if ($keyword !== '' && tekg_expression_normalize_sort($sort) === 'default') {
+        $orderSql = 'CASE WHEN te_name LIKE ? THEN 0 ELSE 1 END, te_name ASC';
+        $orderParams[] = $keyword . '%';
+        $orderTypes = 's';
+    }
 
     $countRow = tekg_expression_fetch_one(
         'SELECT COUNT(*) AS total FROM expression_browse_summary ' . $whereSql,
@@ -369,8 +420,8 @@ function tekg_expression_fetch_browse_page(array $filters = [], int $page = 1, i
 
     $rows = tekg_expression_fetch_all(
         'SELECT * FROM expression_browse_summary ' . $whereSql . ' ORDER BY ' . $orderSql . ' LIMIT ? OFFSET ?',
-        array_merge($params, [$pageSize, $offset]),
-        $types . 'ii'
+        array_merge($params, $orderParams, [$pageSize, $offset]),
+        $types . $orderTypes . 'ii'
     );
 
     return [

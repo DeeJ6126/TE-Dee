@@ -66,7 +66,12 @@ try {
         tekg_coexpression_api_error(404, $code, "The requested {$featureType} is not present in the approved co-expression catalog.");
     }
 
-    tekg_coexpression_api_response(200, ['ok' => true] + tekg_coexpression_load_feature_network($feature, $featureType, $context), true);
+    $evidence = tekg_coexpression_api_query_string('evidence');
+    if (!in_array($evidence, ['', 'combined', 'coexpression'], true)) {
+        tekg_coexpression_api_error(400, 'invalid_evidence', 'The requested co-expression evidence mode is invalid.');
+    }
+    $includeEqtl = $evidence !== 'coexpression';
+    tekg_coexpression_api_response(200, ['ok' => true] + tekg_coexpression_load_feature_network($feature, $featureType, $context, $includeEqtl), true);
 } catch (CoexpressionRepositoryException $exception) {
     $status = match ($exception->errorCode()) {
         'invalid_context' => 400,

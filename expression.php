@@ -8,6 +8,10 @@ $pageExtraStylesheets = [
     tekg_assets_url('css/components/te-autocomplete.css'),
     tekg_assets_url('css/pages/expression.css'),
 ];
+$expressionPageVersion = max(
+    (int)@filemtime(tekg_assets_fs_path('js/components/te-autocomplete.js')),
+    (int)@filemtime(tekg_assets_fs_path('js/pages/expression.js'))
+);
 
 require __DIR__ . '/api/expression_data.php';
 
@@ -244,7 +248,7 @@ require __DIR__ . '/head.php';
         </div>
       </section>
       <script id="expression-page-data" type="application/json"><?= json_encode(['expressionCatalogApiUrl' => $expressionCatalogApiUrl], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?></script>
-      <script src="<?= htmlspecialchars(tekg_assets_url('js/components/te-autocomplete.js'), ENT_QUOTES, 'UTF-8') ?>"></script>
-      <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/expression.js'), ENT_QUOTES, 'UTF-8') ?>"></script>
+      <script src="<?= htmlspecialchars(tekg_assets_url('js/components/te-autocomplete.js') . '?v=' . $expressionPageVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
+      <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/expression.js') . '?v=' . $expressionPageVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
 <?php require __DIR__ . '/foot.php'; ?>
 

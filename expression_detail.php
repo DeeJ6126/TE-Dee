@@ -4,11 +4,17 @@ $pageTitle = TEKG_PRODUCT_NAME . ' Expression Detail';
 $activePage='expression';
 $protoCurrentPath=tekg_app_url('expression_detail.php');
 $protoSubtitle='Expression Detail View';
+$expressionDetailVersion=max(
+  (int)@filemtime(tekg_assets_fs_path('css/pages/expression_detail.css')),
+  (int)@filemtime(tekg_assets_fs_path('js/pages/expression_detail.js')),
+  (int)@filemtime(tekg_assets_fs_path('js/pages/expression_coexpression.js'))
+);
 $pageExtraStylesheets = [
-  tekg_assets_url('css/pages/expression_detail.css'),
+  tekg_assets_url('css/pages/expression_detail.css') . '?v=' . $expressionDetailVersion,
 ];
 require __DIR__ . '/site_i18n.php';
 require __DIR__ . '/api/expression_data.php';
+require __DIR__ . '/api/coexpression_repository.php';
 
 function exd_dataset_labels_from_summary(array $summary): array {
   $labels = [];
@@ -110,11 +116,16 @@ $teQuery=trim((string)($_GET['te']??''));
 $metric=tekg_expression_normalize_metric((string)($_GET['metric']??'median'));
 $chart=exd_chart_type((string)($_GET['chart']??'bar'));
 $sort=tekg_expression_normalize_sort((string)($_GET['sort']??'default'));
-$detail=null; $error=null;
+$detail=null; $error=null; $coexpressionAvailability=null;
 try { if($teQuery!=='') $detail=tekg_expression_fetch_detail_bundle($teQuery,$metric,$sort,$chart); }
 catch(Throwable $e){ $error=$e->getMessage(); }
+if(is_array($detail)){
+  try { $coexpressionAvailability=tekg_coexpression_te_availability((string)$detail['te_name']); }
+  catch(Throwable $e){ $coexpressionAvailability=null; }
+}
 $sections=[['id'=>'expression-detail-summary','label'=>'Summary']];
 if(is_array($detail)){
+  if(is_array($coexpressionAvailability)) $sections[]=['id'=>'expression-detail-coexpression','label'=>'Co-expression graph'];
   if(isset($detail['datasets']['normal_tissue'])) $sections[]=['id'=>'expression-detail-normal-tissue','label'=>'Normal Tissue'];
   if(isset($detail['datasets']['normal_cell_line'])) $sections[]=['id'=>'expression-detail-normal-cell-line','label'=>'Normal Cell Line'];
   if(isset($detail['datasets']['cancer_cell_line'])) $sections[]=['id'=>'expression-detail-cancer-cell-line','label'=>'Cancer Cell Line'];
@@ -191,6 +202,9 @@ require __DIR__ . '/head.php';
                 <h3>Summary</h3>
                 <?php require __DIR__ . '/templates/components/expression_detail_summary_cards.php'; ?>
               </section>
+              <?php if(is_array($coexpressionAvailability)): ?>
+                <?php require __DIR__ . '/templates/components/expression_coexpression_graph.php'; ?>
+              <?php endif; ?>
               <?php if(isset($detail['datasets']['normal_tissue'])) exd_render_section('expression-detail-normal-tissue','Normal Tissue',$detail['datasets']['normal_tissue'],$metric,$chart,(string)$detail['te_name'],'#7fa6d8'); ?>
               <?php if(isset($detail['datasets']['normal_cell_line'])) exd_render_section('expression-detail-normal-cell-line','Normal Cell Line',$detail['datasets']['normal_cell_line'],$metric,$chart,(string)$detail['te_name'],'#6fb6a6'); ?>
               <?php if(isset($detail['datasets']['cancer_cell_line'])) exd_render_section('expression-detail-cancer-cell-line','Cancer Cell Line',$detail['datasets']['cancer_cell_line'],$metric,$chart,(string)$detail['te_name'],'#d38fb4'); ?>
@@ -202,5 +216,9 @@ require __DIR__ . '/head.php';
   </div>
 </section>
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-<script src="<?= htmlspecialchars(tekg_assets_url('js/pages/expression_detail.js'), ENT_QUOTES, 'UTF-8') ?>"></script>
+<?php if(is_array($coexpressionAvailability)): ?>
+<script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/coexpression/coexpression-contract.js') . '?v=' . $expressionDetailVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
+<script src="<?= htmlspecialchars(tekg_assets_url('js/pages/expression_coexpression.js') . '?v=' . $expressionDetailVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
+<?php endif; ?>
+<script src="<?= htmlspecialchars(tekg_assets_url('js/pages/expression_detail.js') . '?v=' . $expressionDetailVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
 <?php require __DIR__ . '/foot.php'; ?>
