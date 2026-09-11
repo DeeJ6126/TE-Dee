@@ -5056,6 +5056,31 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       to { stroke-dashoffset: 0; }
     }
   </style>
+  <style id="tedee-plugin-details-style">
+    .tedee-plugin-details {
+      position: fixed;
+      z-index: 40;
+      width: min(23rem, calc(100vw - 2rem));
+      padding: 0.72rem 0.9rem;
+      border: 1px solid rgba(72, 106, 213, 0.34);
+      border-radius: 0.5rem;
+      background: rgba(248, 250, 255, 0.97);
+      color: #29456f;
+      box-shadow: 0 0.75rem 2rem rgba(35, 73, 141, 0.16);
+      pointer-events: none;
+    }
+    .tedee-plugin-details[hidden] { display: none; }
+    .tedee-plugin-details strong {
+      display: block;
+      margin-bottom: 0.25rem;
+      color: #214b8d;
+      font: 700 0.88rem/1.25 system-ui, sans-serif;
+    }
+    .tedee-plugin-details p {
+      margin: 0;
+      font: 500 0.76rem/1.45 system-ui, sans-serif;
+    }
+  </style>
 </head>
 <body>
   <!-- Toolbar: theme, live visual style, trace motion, presentation stage, and export.
@@ -5512,18 +5537,18 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
         <!-- Boundary labels (foreground masks keep routes out of titles) -->
         <g data-graph-role="structural-frame-label" data-composition-frame-id="0" data-composition-frame-kind="region" data-composition-frame-label="DeepThink">
-          <rect data-graph-role="structural-frame-label-mask" x="17" y="83" width="65.74194088387097" height="18" rx="3" class="c-mask"/>
-          <text data-boundary-label="" x="21" y="97.32258164516129" class="t-cloud" font-size="10.32258164516129" font-weight="600">DeepThink</text>
+          <rect data-graph-role="structural-frame-label-mask" x="17" y="78" width="92" height="25" rx="4" class="c-mask"/>
+          <text data-boundary-label="" x="21" y="97.32258164516129" class="t-cloud" font-size="14" font-weight="700">DeepThink</text>
         </g>
 
         <g data-graph-role="structural-frame-label" data-composition-frame-id="1" data-composition-frame-kind="region" data-composition-frame-label="Shared plugin system">
-          <rect data-graph-role="structural-frame-label-mask" x="17" y="318" width="133.87097974193546" height="18" rx="3" class="c-mask"/>
-          <text data-boundary-label="" x="21" y="332.3225816451613" class="t-cloud" font-size="10.32258164516129" font-weight="600">Shared plugin system</text>
+          <rect data-graph-role="structural-frame-label-mask" x="17" y="313" width="181" height="25" rx="4" class="c-mask"/>
+          <text data-boundary-label="" x="21" y="332.3225816451613" class="t-cloud" font-size="14" font-weight="700">Shared plugin system</text>
         </g>
 
         <g data-graph-role="structural-frame-label" data-composition-frame-id="2" data-composition-frame-kind="region" data-composition-frame-label="Agent">
-          <rect data-graph-role="structural-frame-label-mask" x="17" y="703" width="40.967744935483864" height="18" rx="3" class="c-mask"/>
-          <text data-boundary-label="" x="21" y="717.3225816451613" class="t-cloud" font-size="10.32258164516129" font-weight="600">Agent</text>
+          <rect data-graph-role="structural-frame-label-mask" x="17" y="698" width="58" height="25" rx="4" class="c-mask"/>
+          <text data-boundary-label="" x="21" y="717.3225816451613" class="t-cloud" font-size="14" font-weight="700">Agent</text>
         </g>
 
         <!-- Legend -->
@@ -15132,6 +15157,99 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       new MutationObserver(lockPresentation).observe(root, {
         attributes: true,
         attributeFilter: ['data-theme', 'data-preset', 'data-motion', 'data-ambient-motion']
+      });
+    }());
+  </script>
+  <script id="tedee-plugin-details-interaction">
+    (function () {
+      var pluginDetails = {
+        entityResolver: ['Entity Resolver', 'Identifies and normalizes TE, gene, disease, and other entity names.'],
+        siteNavigator: ['Site Navigator', 'Guides users to the most relevant pages, records, and exploration tools.'],
+        graphPlugin: ['Graph', 'Retrieves entities, relationships, and local knowledge graph context.'],
+        graphAnalytics: ['Graph Analytics', 'Summarizes neighborhoods, paths, and structural patterns in the graph.'],
+        cypherExplorer: ['Cypher Explorer', 'Runs constrained graph queries for structured exploration of stored relationships.'],
+        literaturePlugin: ['Literature', 'Finds indexed TE studies and the PubMed records supporting graph evidence.'],
+        literatureReading: ['Literature Reading', 'Reads selected articles and extracts evidence relevant to the question.'],
+        treePlugin: ['Tree', 'Retrieves TE taxonomy levels and classification relationships.'],
+        expressionPlugin: ['Expression', 'Queries TE expression profiles across tissues and cell-line contexts.'],
+        eqtlPlugin: ['eQTL', 'Retrieves TE-overlapping GTEx eQTL variants and their gene-tissue associations.'],
+        genomePlugin: ['Genome', 'Looks up genomic coordinates, annotations, and linked variant context.'],
+        sequencePlugin: ['Sequence', 'Retrieves available TE reference and genomic sequence information.'],
+        citationResolver: ['Citation Resolver', 'Resolves publication identifiers and prepares consistent citation details.']
+      };
+      var pluginIds = Object.keys(pluginDetails);
+      var svg = document.querySelector('.diagram-container svg');
+      if (!svg || !window.Archify || !Archify.focus) return;
+
+      var details = document.createElement('aside');
+      details.className = 'tedee-plugin-details';
+      details.hidden = true;
+      details.setAttribute('role', 'status');
+      details.setAttribute('aria-live', 'polite');
+      details.innerHTML = '<strong></strong><p></p>';
+      document.body.appendChild(details);
+
+      function hideDetails() {
+        details.hidden = true;
+      }
+
+      function showDetails(id, event, node) {
+        var content = pluginDetails[id];
+        if (!content) return;
+        details.querySelector('strong').textContent = content[0];
+        details.querySelector('p').textContent = content[1];
+        details.hidden = false;
+        var nodeRect = node.getBoundingClientRect();
+        var anchorX = typeof event.clientX === 'number' && event.clientX > 0 ? event.clientX : nodeRect.right;
+        var anchorY = typeof event.clientY === 'number' && event.clientY > 0 ? event.clientY : nodeRect.bottom;
+        var left = Math.min(window.innerWidth - details.offsetWidth - 12, Math.max(12, anchorX + 14));
+        var top = anchorY + 14;
+        if (top + details.offsetHeight > window.innerHeight - 12) {
+          top = Math.max(12, anchorY - details.offsetHeight - 14);
+        }
+        details.style.left = left + 'px';
+        details.style.top = top + 'px';
+      }
+
+      function activateNode(id, event, node) {
+        if (id === 'dtExecuting' || id === 'agentExecuting') {
+          hideDetails();
+          Archify.focus.setMany([id].concat(pluginIds), {
+            toggle: true,
+            mode: 'selection',
+            label: 'Shared plugin system',
+            hideChip: true
+          });
+          return true;
+        }
+        if (!pluginDetails[id]) return false;
+        var wasActive = Archify.focus.active() === id;
+        Archify.focus.set(id, { toggle: true, hideChip: true });
+        if (wasActive) hideDetails();
+        else showDetails(id, event, node);
+        return true;
+      }
+
+      svg.addEventListener('click', function (event) {
+        var node = event.target.closest('[data-node-id]');
+        if (!node || !activateNode(node.getAttribute('data-node-id'), event, node)) return;
+        event.preventDefault();
+        event.stopImmediatePropagation();
+      }, true);
+
+      svg.addEventListener('keydown', function (event) {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+        var node = event.target.closest('[data-node-id]');
+        if (!node || !activateNode(node.getAttribute('data-node-id'), event, node)) return;
+        event.preventDefault();
+        event.stopImmediatePropagation();
+      }, true);
+
+      document.addEventListener('pointerdown', function (event) {
+        if (!event.target.closest('[data-node-id]')) hideDetails();
+      });
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') hideDetails();
       });
     }());
   </script>
