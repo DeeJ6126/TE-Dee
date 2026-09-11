@@ -5,7 +5,6 @@
   const submitBtn = document.getElementById('previewDeepThinkSubmit');
   const statusEl = document.getElementById('previewDeepThinkStatus');
   const messagesEl = document.getElementById('previewDeepThinkMessages');
-  const clearGraphBtn = document.getElementById('previewDeepThinkClearGraph');
   const configNode = document.getElementById('preview-config');
   if (!root || !form || !input || !submitBtn || !statusEl || !messagesEl || !configNode) return;
 
@@ -342,17 +341,6 @@
     }
   });
 
-  clearGraphBtn?.addEventListener('click', () => {
-    const bridge = getGraphBridge();
-    if (!bridge) return;
-    if (typeof bridge.goBack === 'function') {
-      bridge.goBack();
-      setStatus('Ready');
-    } else if (typeof bridge.showTree === 'function') {
-      bridge.showTree();
-      setStatus('Ready');
-    }
-  });
-
   setStatus('Ready');
 })();
+

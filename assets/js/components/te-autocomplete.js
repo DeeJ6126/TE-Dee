@@ -63,7 +63,7 @@
       const query = String(input.value || '').trim();
       return {
         key: provider.queryAware === true
-          ? `provider:${source}:${query.toLowerCase()}`
+          ? `provider:${source}:${currentEntityType(root).toLowerCase()}:${query.toLowerCase()}`
           : `provider:${source}`,
         label: String(provider.label || 'TE').trim() || 'TE',
         connected: false,
@@ -127,6 +127,8 @@
       }
       const providerPromise = Promise.resolve(config.provider.loadOptions({
         query: String(input.value || '').trim(),
+        entityType: currentEntityType(root),
+        root,
       }))
         .then((items) => uniqueOptions(
           (Array.isArray(items) ? items : [])

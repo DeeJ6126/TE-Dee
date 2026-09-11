@@ -350,6 +350,7 @@
       throw new Error('G6 shared runner requires a container.');
     }
 
+    const renderProfile = options?.renderProfile === 'integrated' ? 'integrated' : 'coexpression';
     let graph = null;
     let fixedView = !!options.initialFixedView;
     let currentKeyNodeLevel = Math.max(1, Math.min(10, Number(options.initialKeyNodeLevel) || 1));
@@ -393,6 +394,7 @@
       onSelection: typeof options.onSelection === 'function' ? options.onSelection : noop,
       onDiseaseClassClick: typeof options.onDiseaseClassClick === 'function' ? options.onDiseaseClassClick : noop,
       onNodeExpand: typeof options.onNodeExpand === 'function' ? options.onNodeExpand : noop,
+      onNodeJump: typeof options.onNodeJump === 'function' ? options.onNodeJump : noop,
       onReady: typeof options.onReady === 'function' ? options.onReady : noop,
       setQueryUi: typeof options.setQueryUi === 'function' ? options.setQueryUi : noop,
       syncRouteState: typeof options.syncRouteState === 'function' ? options.syncRouteState : noop,
@@ -468,6 +470,26 @@
           margin-top: 10px;
           padding-top: 10px;
           border-top: 1px solid #e2e8f0;
+        }
+        .inspect-card__source-tabs {
+          display: flex;
+          gap: 6px;
+          margin: 9px 0 2px;
+        }
+        .inspect-card__source-tab {
+          border: 1px solid #cbd5e1;
+          border-radius: 6px;
+          background: #ffffff;
+          color: #52677f;
+          padding: 5px 8px;
+          font-size: 11px;
+          font-weight: 800;
+          cursor: pointer;
+        }
+        .inspect-card__source-tab.is-active {
+          border-color: #6688d8;
+          background: #edf3ff;
+          color: #244f9b;
         }
         .inspect-card__section-title {
           margin: 0 0 6px;
@@ -653,6 +675,12 @@
           const nodeAction = target.dataset.nodeAction;
           if (nodeAction && inspectCardState?.kind === 'node' && inspectCardState.node) {
             void handleNodeAction(nodeAction, inspectCardState.node);
+            return;
+          }
+          const sourceTab = target.dataset.sourceTab;
+          if (sourceTab && inspectCardState?.kind === 'node') {
+            inspectCardState = { ...inspectCardState, sourceTab: sourceTab };
+            renderInspectCard();
             return;
           }
           if (target.dataset.inspectAction === 'toggle') {
@@ -1060,6 +1088,9 @@
     }
 
     function renderNodeInspectCard(node) {
+      if (node?.integrated && Array.isArray(node.integrated.sources) && node.integrated.sources.length > 1) {
+        return renderIntegratedNodeInspectCard(node);
+      }
       if (node?.coexpression) return renderCoexpressionNodeInspectCard(node);
       const label = node.displayLabel || node.rawLabel || node.id || '';
       const type = node.nodeType || 'Node';
@@ -1120,6 +1151,53 @@
       ].join('');
     }
 
+    function renderIntegratedNodeInspectCard(node) {
+      const integrated = node.integrated || {};
+      const hasKnowledge = !!integrated.knowledge;
+      const hasTeGene = !!integrated.teGene;
+      const requested = String(inspectCardState?.sourceTab || '');
+      const active = requested === 'te_gene' && hasTeGene ? 'te_gene' : (hasKnowledge ? 'knowledge' : 'te_gene');
+      const payload = active === 'knowledge' ? integrated.knowledge : integrated.teGene;
+      const label = String(payload?.label || payload?.rawLabel || node.displayLabel || node.rawLabel || node.id || '');
+      const type = String(payload?.type || node.nodeType || 'Node');
+      const description = active === 'knowledge'
+        ? String(payload?.description || node.description || '').trim()
+        : (node.coexpressionIsCenter ? 'Selected entity in the TE-Gene network.' : (node.coexpressionIsModuleHub ? 'Highly connected member of the selected co-expression module.' : 'Member of the selected TE-Gene network.'));
+      const tabs = hasKnowledge && hasTeGene ? [
+        '<div class="inspect-card__source-tabs" role="tablist" aria-label="Evidence source">',
+        '<button class="inspect-card__source-tab' + (active === 'knowledge' ? ' is-active' : '') + '" type="button" data-source-tab="knowledge">Knowledge graph</button>',
+        '<button class="inspect-card__source-tab' + (active === 'te_gene' ? ' is-active' : '') + '" type="button" data-source-tab="te_gene">TE-Gene</button>',
+        '</div>',
+      ].join('') : '';
+      const details = active === 'knowledge'
+        ? [
+          kvRow('Type', type),
+          kvRow('Database connections', payload?.degree),
+          kvRow('Disease class', payload?.disease_class),
+          kvRow('Taxonomy source', payload?.taxonomy?.source),
+        ].filter(Boolean).join('')
+        : [
+          kvRow('Role', naturalNetworkRole(node)),
+          kvRow('Context', node.coexpressionSelection?.context),
+          kvRow('Module', node.coexpressionModule?.label || node.coexpressionModule?.module_label),
+          kvRow('Correlation to center', node.correlationToCenter == null ? '' : coexpressionMetric(node.correlationToCenter)),
+        ].filter(Boolean).join('');
+      return [
+        '<div class="inspect-card__body">',
+        '<h3 class="inspect-card__title">' + escapeHtml(label) + '</h3>',
+        '<div class="inspect-card__meta">' + escapeHtml(type) + '</div>',
+        tabs,
+        description ? '<div class="inspect-card__desc">' + escapeHtml(compactText(description, inspectCardState?.expanded ? 260 : 150)) + '</div>' : '',
+        inspectCardState?.expanded && details ? '<div class="inspect-card__section"><div class="inspect-card__kv">' + details + '</div></div>' : '',
+        active === 'te_gene' ? renderExpressionEvidenceHtml(node, !inspectCardState?.expanded) : '',
+        '<div class="inspect-card__actions">',
+        active === 'knowledge' && currentAllowNodeActions ? '<button class="inspect-card__button" type="button" data-node-action="jump">Jump</button>' : '',
+        active === 'knowledge' && currentAllowNodeActions ? '<button class="inspect-card__button" type="button" data-node-action="expand">Expand</button>' : '',
+        '<button class="inspect-card__button" type="button" data-inspect-action="toggle">' + (inspectCardState?.expanded ? 'Collapse' : 'Details') + '</button>',
+        '</div></div>',
+      ].join('');
+    }
+
     async function handleNodeAction(action, node) {
       const nextAction = String(action || '').trim().toLowerCase();
       if (!node) return false;
@@ -1145,6 +1223,11 @@
         const query = String(node.queryLabel || node.rawLabel || node.displayLabel || '').trim();
         if (!query) return false;
         hideInspectCard();
+        const handled = await Promise.resolve(hooks.onNodeJump(node, {
+          query: query,
+          queryType: normalizeQueryType(node.nodeType || ''),
+        }));
+        if (handled === true) return true;
         if (node.nodeType === 'DiseaseClass' || node.nodeType === 'DiseaseCategory') {
           const classQuery = String(node.classQuery || node.diseaseClass || query).trim();
           if (classQuery) {
@@ -1171,7 +1254,8 @@
     }
 
     function renderEdgeInspectCard(edge, nodes) {
-      if (edge?.coexpression && edge?.relationType === 'Co-expression') return renderCoexpressionEdgeInspectCard(edge, nodes);
+      const isTeGeneEdge = edge?.sourceGraph === 'te_gene' || (!edge?.sourceGraph && edge?.coexpression === true);
+      if (isTeGeneEdge && edge?.relationType === 'Co-expression') return renderCoexpressionEdgeInspectCard(edge, nodes);
       const source = resolveNode(edge?.source, nodes);
       const target = resolveNode(edge?.target, nodes);
       const sourceLabel = source?.displayLabel || source?.rawLabel || String(edge?.source || '');
@@ -1180,7 +1264,7 @@
       const relationType = String(edge?.relationType || '').trim();
       const isEqtl = relationType === 'eQTL' || relation === 'eQTL';
       const isBoth = relationType === 'Both' || relation === 'Both';
-      const isTeGeneEvidence = isEqtl || isBoth;
+      const isTeGeneEvidence = isTeGeneEdge && (isEqtl || isBoth);
       const eqtl = edge?.eqtlEvidence && typeof edge.eqtlEvidence === 'object' ? edge.eqtlEvidence : null;
       const pmids = Array.isArray(edge?.pmids) ? edge.pmids : [];
       const summary = isEqtl
@@ -1435,6 +1519,7 @@
     function isImportantLabelNode(node) {
       const nodeType = String(node?.nodeType || '');
       return nodeType === 'TE'
+        || nodeType === 'Gene'
         || nodeType === 'Disease'
         || nodeType === 'DiseaseClass'
         || nodeType === 'DiseaseCategory';
@@ -2023,6 +2108,8 @@
           diseaseClass: String(data.disease_class || ''),
           categoryLevel: Math.max(0, Number(data.category_level) || 0),
           taxonomy: data.taxonomy && typeof data.taxonomy === 'object' ? data.taxonomy : null,
+          integrated: data.integrated && typeof data.integrated === 'object' ? clonePlain(data.integrated) : null,
+          sourceGraph: String(data.sourceGraph || ''),
           coexpression: data.coexpression === true,
           coexpressionRole: String(data.coexpressionRole || ''),
           coexpressionSourceRole: String(data.coexpressionSourceRole || ''),
@@ -2148,6 +2235,10 @@
           support_jcr_q4_count: Number(data.support_jcr_q4_count ?? 0) || 0,
           support_journal_count: Number(data.support_journal_count ?? 0) || 0,
           support_publication_year_min: data.support_publication_year_min ?? null,
+          sourceGraph: String(data.sourceGraph || ''),
+          originalId: String(data.originalId || ''),
+          parallelIndex: Math.max(0, Number(data.parallelIndex) || 0),
+          parallelCount: Math.max(1, Number(data.parallelCount) || 1),
           support_publication_year_max: data.support_publication_year_max ?? null,
         });
       }
@@ -2483,6 +2574,9 @@
         graph = new Graph({
           container,
           autoFit: false,
+          transforms: renderProfile === 'integrated'
+            ? [{ type: 'process-parallel-edges', mode: 'bundle', distance: 28 }]
+            : [],
           data,
           node: {
             type: (d) => ((d.endpointHighlight || d.graphRipple) && rippleNodeAvailable ? 'path-finder-ripple-circle' : 'circle'),
@@ -2534,6 +2628,7 @@
             },
           },
           edge: {
+            type: (edge) => renderProfile === 'integrated' && edge.parallelCount > 1 ? 'quadratic' : 'line',
             style: {
               stroke: (edge) => {
                 if (edge.strokeColor) return edge.strokeColor;
@@ -2544,6 +2639,9 @@
               },
               lineWidth: (edge) => boundedEvidenceWidth(edge) + (edge.legendFocused ? 1.5 : 0),
               lineDash: (edge) => edge.lineDash || [],
+              curveOffset: (edge) => renderProfile === 'integrated' && edge.parallelCount > 1
+                ? (edge.parallelIndex - (edge.parallelCount - 1) / 2) * 28
+                : 0,
               opacity: (edge) => (typeof edge.legendOpacity === 'number' ? edge.legendOpacity : 1),
               labelText: (edge) => {
                 if (!currentShowEdgeLabels) return '';
@@ -2938,6 +3036,9 @@
             expression_ripple: node.graphRipple === true,
             disease_class: String(node.diseaseClass || ''),
             category_level: Number(node.categoryLevel || 0) || 0,
+            source_graph: String(node.sourceGraph || ''),
+            source_graphs: Array.isArray(node.integrated?.sources) ? [...node.integrated.sources] : [],
+            source_ids: node.integrated?.sourceIds ? clonePlain(node.integrated.sourceIds) : {},
           }))
         : [];
       const nodeById = new Map(nodes.map((node) => [String(node.id || ''), node]));
@@ -2987,6 +3088,10 @@
               support_publication_year_min: edge.support_publication_year_min ?? null,
               support_publication_year_max: edge.support_publication_year_max ?? null,
               evidence: String(edge.evidence || ''),
+              source_graph: String(edge.sourceGraph || ''),
+              original_id: String(edge.originalId || ''),
+              parallel_index: Number(edge.parallelIndex || 0),
+              parallel_count: Number(edge.parallelCount || 1),
             };
           })
         : [];

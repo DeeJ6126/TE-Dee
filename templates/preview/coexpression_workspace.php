@@ -16,9 +16,8 @@
                 </div>
               </div>
               <label class="coexpression-context-control" for="coexpression-context-select">
-                <span>Context</span>
-                <select id="coexpression-context-select" disabled>
-                  <option value="">Select context</option>
+                <select id="coexpression-context-select" aria-label="Expression dataset" disabled>
+                  <option value="">Select dataset</option>
                 </select>
               </label>
               <button id="coexpression-expression-layer" class="is-toggle is-active preview-graph-command" type="button" aria-pressed="true">
@@ -110,3 +109,4 @@
             <div class="detail" id="coexpression-node-details">Preparing co-expression workspace...</div>
           </section>
         </div>
+

@@ -21,6 +21,12 @@ def main() -> None:
     require("feature_type" in api and "gene" in api, "API lacks explicit Gene request handling.")
     require("resolveFeatureSelection" in mode and "featureType" in mode,
             "Co-expression controller still owns TE-only selection state.")
+    require("const PREFERRED_CONTEXT = 'normal_tissue'" in mode,
+            "TE-Gene Graph does not prefer Normal tissue by default.")
+    require("syncPendingFeatureControls" in mode and "els.load.disabled = !context" in mode,
+            "Exact Gene selections do not synchronize the Search button state.")
+    require(">Context<" not in workspace and 'aria-label="Expression dataset"' in workspace,
+            "The dataset selector still exposes a visible Context label.")
     require("searchParams.set('gene'" in coordinator and "featureType" in coordinator,
             "Gene-centered URL and workspace coordination are missing.")
     require("selected_gene" in adapter and "node.kind === 'gene'" in adapter,
@@ -30,3 +36,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     run_check(main)
+
