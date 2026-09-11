@@ -15177,6 +15177,19 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         sequencePlugin: ['Sequence', 'Retrieves available TE reference and genomic sequence information.'],
         citationResolver: ['Citation Resolver', 'Resolves publication identifiers and prepares consistent citation details.']
       };
+      var workflowDetails = {
+        dtUnderstanding: ['DeepThink · Understanding', 'Interprets the question and identifies the entities, intent, and evidence needed.'],
+        dtPlanning: ['DeepThink · Planning', 'Decomposes the question into a focused, evidence-oriented analysis plan.'],
+        dtExecuting: ['DeepThink · Executing', 'Selects and calls the shared plugins needed to carry out the analysis.'],
+        dtWriting: ['DeepThink · Writing', 'Synthesizes the collected evidence into a structured, readable response.'],
+        agentUnderstanding: ['Agent · Understanding', 'Interprets the request and identifies the relevant TE concepts and user goal.'],
+        agentPlanning: ['Agent · Planning', 'Chooses an efficient sequence of retrieval and analysis steps.'],
+        agentCollecting: ['Agent · Collecting', 'Gathers relevant records and evidence from the available data services.'],
+        agentExecuting: ['Agent · Executing', 'Invokes the shared plugins and tracks the results returned by each tool.'],
+        agentIntegrating: ['Agent · Integrating', 'Combines evidence from multiple plugins into one consistent result.'],
+        agentWriting: ['Agent · Writing', 'Presents the integrated result as a concise, evidence-bounded answer.']
+      };
+      var nodeDetails = Object.assign({}, pluginDetails, workflowDetails);
       var pluginIds = Object.keys(pluginDetails);
       var svg = document.querySelector('.diagram-container svg');
       if (!svg || !window.Archify || !Archify.focus) return;
@@ -15194,7 +15207,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       }
 
       function showDetails(id, event, node) {
-        var content = pluginDetails[id];
+        var content = nodeDetails[id];
         if (!content) return;
         details.querySelector('strong').textContent = content[0];
         details.querySelector('p').textContent = content[1];
@@ -15213,16 +15226,19 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
       function activateNode(id, event, node) {
         if (id === 'dtExecuting' || id === 'agentExecuting') {
-          hideDetails();
+          var active = Archify.focus.active();
+          var wasActive = Array.isArray(active) && active.indexOf(id) !== -1;
           Archify.focus.setMany([id].concat(pluginIds), {
             toggle: true,
             mode: 'selection',
             label: 'Shared plugin system',
             hideChip: true
           });
+          if (wasActive) hideDetails();
+          else showDetails(id, event, node);
           return true;
         }
-        if (!pluginDetails[id]) return false;
+        if (!nodeDetails[id]) return false;
         var wasActive = Archify.focus.active() === id;
         Archify.focus.set(id, { toggle: true, hideChip: true });
         if (wasActive) hideDetails();
