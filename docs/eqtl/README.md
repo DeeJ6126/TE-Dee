@@ -1,5 +1,7 @@
 # GTEx v11 eQTL TE-overlap Data
 
+Last reviewed: 2026-09-11
+
 This directory documents the versioned offline eQTL pipeline and its MySQL
 runtime dataset. The current active version is
 `gtex_v11_strict_te_overlap_v1` in MySQL `tekg_expression`.
@@ -116,10 +118,12 @@ elapsed time.
   and never exposes a partially imported candidate.
 
 Graph/API integration is implemented by `api/te_gene.php` and
-`api/te_gene_repository.php`. The Graph workspace presents aggregate edges
-named `Co-expression`, `eQTL`, or `Both`; the API remains MySQL-only and uses
-the active validated version plus the audited unique high-confidence Gene
-mapping rule.
+`api/te_gene_repository.php`. The TE-Gene Graph presents aggregate edges named
+`Co-expression`, `eQTL`, or `Both`; the API remains MySQL-only and uses the
+active validated version plus the audited unique high-confidence Gene mapping
+rule. Integrated Graph may display the same eQTL edge beside an independent
+Knowledge Graph edge, but it does not merge their provenance or write a new
+combined relation back to either database.
 
 The co-expression Gene-symbol to GTEx Gene audit is recorded in
 `docs/eqtl/gene_mapping_audit.md` and can be regenerated with:
