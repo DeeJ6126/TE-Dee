@@ -41,7 +41,7 @@ $quickLinks = [
                     <div class="home-welcome-visual" aria-hidden="true">
                       <img
                         class="home-welcome-image"
-                        src="<?= htmlspecialchars(tekg_assets_url('img/home-welcome-v2.png'), ENT_QUOTES, 'UTF-8') ?>"
+                        src="<?= htmlspecialchars(tekg_assets_url('img/brand/te-dee-logo.svg'), ENT_QUOTES, 'UTF-8') ?>"
                         alt=""
                         loading="lazy"
                       >
