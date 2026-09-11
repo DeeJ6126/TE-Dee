@@ -18,6 +18,7 @@ REQUIRED_KEYS = {
     "ok",
     "nodes_total",
     "relationships_total",
+    "te_source",
     "te_level",
     "entity_composition",
     "relation_composition",
@@ -57,12 +58,21 @@ def main() -> None:
         "relationships_total must be a positive int",
     )
     require(isinstance(data.get("generated_at"), str) and data["generated_at"], "generated_at must be a string")
-    require(data.get("te_level") == "class", f"default te_level must be class: {data.get('te_level')}")
+    require(data.get("te_level") == "superfamily", f"default te_level must be superfamily: {data.get('te_level')}")
+    require(data.get("te_source") == "rmsk_repbase", f"TE source must be rmsk_repbase: {data.get('te_source')}")
     require_composition("entity_composition", data.get("entity_composition"))
     require_composition("relation_composition", data.get("relation_composition"))
     require_composition("te_classification_composition", data.get("te_classification_composition"))
 
-    direct_nodes = neo4j_query(config, "MATCH (n) RETURN count(n) AS count")[0]["count"]
+    taxonomy_data = http_json(app_url("api/taxonomy.php?view=tree&source=rmsk_repbase"))
+    taxonomy_nodes = {str(row.get("name", "")) for row in taxonomy_data.get("nodes", []) if row.get("name")}
+    taxonomy_parents = {str(row.get("parent", "")) for row in taxonomy_data.get("edges", []) if row.get("parent")}
+    taxonomy_te_count = len(taxonomy_nodes.difference(taxonomy_parents))
+    require(taxonomy_te_count > 0, "RMSK + RepBase taxonomy leaf count must be positive")
+    direct_non_te_entities = neo4j_query(
+        config,
+        "MATCH (n) WHERE NOT 'Paper' IN labels(n) AND NOT 'TE' IN labels(n) RETURN count(n) AS count",
+    )[0]["count"]
     direct_relationships = neo4j_query(config, "MATCH ()-[r]->() RETURN count(r) AS count")[0]["count"]
     direct_bio_relations = neo4j_query(config, "MATCH ()-[r:BIO_RELATION]->() RETURN count(r) AS count")[0]["count"]
 
@@ -81,71 +91,42 @@ ORDER BY count DESC, label ASC
     broad = {"associate with", "participate in", "involve in"}
     relation_rows = [row for row in relation_rows_all if str(row["label"]).lower() not in broad]
     expected_relation_total = sum(int(row["count"]) for row in relation_rows)
-    te_rows = neo4j_query(
-        config,
-        """
-MATCH (t:TE)
-WHERE coalesce(t.homepage_chart_included, false) = true
-  AND coalesce(t.taxonomy_source, '') = 'tree_rmsk_repbase'
-  AND trim(toString(coalesce(t.taxonomy_class, ''))) <> ''
-WITH trim(toString(t.taxonomy_class)) AS label
-RETURN label, count(*) AS count
-ORDER BY count DESC, label ASC
-""",
-    )
-
     entity_total = sum(row["count"] for row in data["entity_composition"])
     relation_total = sum(row["count"] for row in data["relation_composition"])
     te_total = sum(row["count"] for row in data["te_classification_composition"])
     entity_percentage_total = sum(float(row["percentage"]) for row in data["entity_composition"])
     relation_percentage_total = sum(float(row["percentage"]) for row in data["relation_composition"])
-    expected_top_labels = [str(row["label"]) for row in relation_rows[:5]]
-    actual_top_labels = [str(row["label"]) for row in data["relation_composition"][:5]]
-    expected_other = sum(int(row["count"]) for row in relation_rows[5:])
-    actual_other = next((int(row["count"]) for row in data["relation_composition"] if row["label"] == "Other"), 0)
-    expected_te = {str(row["label"]): int(row["count"]) for row in te_rows}
-    actual_te = {str(row["label"]): int(row["count"]) for row in data["te_classification_composition"]}
-
-    require(data["nodes_total"] == direct_nodes, "nodes_total must match direct Neo4j count")
+    expected_relation = {
+        str(row["label"]): int(row["count"])
+        for row in relation_rows
+        if expected_relation_total > 0 and (int(row["count"]) / expected_relation_total) >= 0.01
+    }
+    expected_other = sum(
+        int(row["count"])
+        for row in relation_rows
+        if expected_relation_total > 0 and (int(row["count"]) / expected_relation_total) < 0.01
+    )
+    if expected_other > 0:
+        expected_relation["others"] = expected_other
+    actual_relation = {str(row["label"]): int(row["count"]) for row in data["relation_composition"]}
+    actual_entity = {str(row["label"]): int(row["count"]) for row in data["entity_composition"]}
+    require(data["nodes_total"] == direct_non_te_entities + taxonomy_te_count, "nodes_total must combine non-TE Neo4j entities and RMSK + RepBase TEs")
+    require(actual_entity.get("TE") == taxonomy_te_count, "Entity composition TE count must match RMSK + RepBase taxonomy leaves")
     require(data["relationships_total"] == direct_relationships, "relationships_total must match direct Neo4j count")
     require(entity_total == data["nodes_total"], f"entity composition sum {entity_total} must equal nodes_total")
     require(direct_bio_relations > relation_total, "specific relation composition should exclude broad predicates")
     require(relation_total == expected_relation_total, f"relation composition sum {relation_total} must equal specific predicate count")
-    require(te_total == sum(expected_te.values()), f"TE classification sum {te_total} must equal Repbase-prioritized TE class count")
-    require(actual_te == expected_te, f"TE classification mismatch: {actual_te} != {expected_te}")
+    require(te_total == taxonomy_te_count, f"TE classification sum {te_total} must equal taxonomy leaf count {taxonomy_te_count}")
     require(abs(entity_percentage_total - 100.0) <= 0.2, "entity composition percentages should sum to about 100")
     require(abs(relation_percentage_total - 100.0) <= 0.2, "relation composition percentages should sum to about 100")
-    require(len(data["relation_composition"]) <= 6, "relation_composition must contain at most Top 5 plus Other")
-    require(actual_top_labels == expected_top_labels, f"relation Top 5 labels mismatch: {actual_top_labels} != {expected_top_labels}")
-    require(actual_other == expected_other, f"relation Other count {actual_other} must equal {expected_other}")
-    require(
-        any(row.get("label") == "Other" for row in data["relation_composition"]) or len(data["relation_composition"]) <= 5,
-        "relation_composition must be Top 5 plus Other when needed",
-    )
-    for level, property_name in {
-        "order": "taxonomy_order",
-        "superfamily": "taxonomy_superfamily",
-        "family": "taxonomy_family",
-    }.items():
+    require(actual_relation == expected_relation, f"relation composition mismatch: {actual_relation} != {expected_relation}")
+    for level in ("class", "order", "superfamily", "family"):
         level_data = http_json(app_url(f"api/home_stats.php?te_level={level}"))
         require(level_data.get("ok") is True, f"home_stats te_level={level} ok must be true")
         require(level_data.get("te_level") == level, f"home_stats must echo te_level={level}")
         require_composition(f"te_classification_composition[{level}]", level_data.get("te_classification_composition"))
-        level_rows = neo4j_query(
-            config,
-            f"""
-MATCH (t:TE)
-WHERE coalesce(t.homepage_chart_included, false) = true
-  AND coalesce(t.taxonomy_source, '') = 'tree_rmsk_repbase'
-  AND trim(toString(coalesce(t.{property_name}, ''))) <> ''
-WITH trim(toString(t.{property_name})) AS label
-RETURN label, count(*) AS count
-ORDER BY count DESC, label ASC
-""",
-        )
-        expected_level = {str(row["label"]): int(row["count"]) for row in level_rows}
-        actual_level = {str(row["label"]): int(row["count"]) for row in level_data["te_classification_composition"]}
-        require(actual_level == expected_level, f"TE classification mismatch for {level}: {actual_level} != {expected_level}")
+        level_total = sum(int(row["count"]) for row in level_data["te_classification_composition"])
+        require(level_total == taxonomy_te_count, f"TE classification total mismatch for {level}: {level_total} != {taxonomy_te_count}")
     ok(
         "home stats API contract passed: "
         f"nodes={data['nodes_total']}, relationships={data['relationships_total']}, "

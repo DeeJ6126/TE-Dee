@@ -2,17 +2,25 @@
   const header = document.getElementById('protoHeader');
   const root = document.querySelector('[data-home-stats]');
   const tooltip = document.createElement('div');
-  let activeTeLevel = 'class';
+  let activeTeLevel = 'superfamily';
   let statsRequestEpoch = 0;
   const numberFormatter = new Intl.NumberFormat();
   const percentFormatter = new Intl.NumberFormat(undefined, {
     minimumFractionDigits: 1,
     maximumFractionDigits: 1,
   });
+  const bluePalette = [
+    '#2f6fbb', '#3978c0', '#4381c5', '#4d8aca',
+    '#5793cf', '#619cd4', '#6ba5d9', '#75aede',
+    '#7fb7e3', '#89c0e8', '#93c7eb', '#9dceee',
+    '#a7d5f1', '#b1dcf4', '#bbe1f6', '#c3e5f7',
+    '#cbe9f8', '#d1ecf9', '#d7effa', '#ddf2fb',
+    '#e2f4fb', '#e7f6fc', '#ecf8fd', '#f1fafd',
+  ];
   const palettes = {
-    entity: ['#2f6fbb', '#2a9d8f', '#e76f51', '#8f6ed5', '#d69f1f', '#5d7792', '#b45309', '#0f766e', '#be123c', '#4f46e5', '#64748b'],
-    te: ['#2f6fbb', '#e76f51', '#8f6ed5', '#2a9d8f'],
-    relation: ['#2563eb', '#dc2626', '#059669', '#7c3aed', '#ea580c', '#0891b2'],
+    entity: bluePalette,
+    te: bluePalette,
+    relation: bluePalette,
   };
 
   function syncHeader() {
@@ -115,11 +123,7 @@
       count.className = 'status-legend-count';
       count.textContent = formatNumber(row.count);
 
-      const percentage = document.createElement('span');
-      percentage.className = 'status-legend-percent';
-      percentage.textContent = `${percentFormatter.format(row.percentage)}%`;
-
-      item.append(swatch, label, count, percentage);
+      item.append(swatch, label, count);
       legend.appendChild(item);
     });
   }
@@ -308,7 +312,7 @@
       return;
     }
 
-    activeTeLevel = String(data.te_level || activeTeLevel || 'class');
+    activeTeLevel = String(data.te_level || activeTeLevel || 'superfamily');
     syncTeLevelButtons();
     if (!teOnly) {
       renderStaticCharts(data);
@@ -326,7 +330,7 @@
     const teOnly = options.teOnly === true && root.classList.contains('is-loaded');
     const requestEpoch = ++statsRequestEpoch;
     if (!teOnly) root.classList.add('is-loading');
-    activeTeLevel = teLevel || 'class';
+    activeTeLevel = teLevel || 'superfamily';
     syncTeLevelButtons();
     setTeLoading();
     const apiUrl = root.dataset.homeStatsUrl || 'api/home_stats.php';
@@ -357,7 +361,7 @@
   if (root) {
     root.querySelectorAll('[data-te-level]').forEach((button) => {
       button.addEventListener('click', () => {
-        const level = button.dataset.teLevel || 'class';
+        const level = button.dataset.teLevel || 'superfamily';
         if (level !== activeTeLevel) {
           loadHomeStats(level, { teOnly: true });
         }

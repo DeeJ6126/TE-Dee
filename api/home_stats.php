@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 require_once __DIR__ . '/runtime_config.php';
+require_once __DIR__ . '/taxonomy_lib.php';
 
 header('Content-Type: application/json; charset=utf-8');
 header('Cache-Control: no-store, max-age=0');
@@ -27,6 +28,7 @@ try {
     if ($database !== 'tekg3') {
         throw new RuntimeException("Homepage stats require Neo4j database tekg3; configured database is {$database}.");
     }
+    $teClassificationRecords = tekg_taxonomy_file_leaf_records('rmsk_repbase');
 } catch (Throwable $e) {
     http_response_code(500);
     echo json_encode(['ok' => false, 'error' => $e->getMessage()], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
@@ -46,14 +48,9 @@ if ($config['neo4j_password'] === '') {
 }
 
 $teLevel = home_stats_te_level();
-$teProperty = home_stats_te_property($teLevel);
 
 try {
     $results = home_stats_run_neo4j_statements($config, [
-        [
-            'statement' => 'MATCH (n) RETURN count(n) AS count',
-            'parameters' => [],
-        ],
         [
             'statement' => 'MATCH ()-[r]->() RETURN count(r) AS count',
             'parameters' => [],
@@ -63,6 +60,7 @@ try {
                 <<<'CYPHER'
 MATCH (n)
 WHERE NOT 'Paper' IN labels(n)
+  AND NOT 'TE' IN labels(n)
 WITH labels(n) AS node_labels
 WITH CASE
   WHEN size(node_labels) = 0 THEN 'Other'
@@ -86,35 +84,23 @@ ORDER BY count DESC, label ASC
 CYPHER,
             'parameters' => [],
         ],
-        [
-            'statement' =>
-                <<<'CYPHER'
-MATCH (t:TE)
-WHERE coalesce(t.homepage_chart_included, false) = true
-  AND coalesce(t.taxonomy_source, '') = 'tree_rmsk_repbase'
-  AND trim(toString(coalesce(t[$te_property], ''))) <> ''
-WITH trim(toString(t[$te_property])) AS label
-RETURN label, count(*) AS count
-ORDER BY count DESC, label ASC
-CYPHER,
-            'parameters' => ['te_property' => $teProperty],
-        ],
     ]);
 
-    $nodesTotal = max(0, (int)($results[0][0]['count'] ?? 0));
-    $relationshipsTotal = max(0, (int)($results[1][0]['count'] ?? 0));
-    $entityRows = $results[2] ?? [];
-    $relationRows = $results[3] ?? [];
-    $teClassificationRows = $results[4] ?? [];
+    $relationshipsTotal = max(0, (int)($results[0][0]['count'] ?? 0));
+    $entityRows = $results[1] ?? [];
+    $relationRows = $results[2] ?? [];
+    $entityComposition = home_stats_entity_composition($entityRows, count($teClassificationRecords));
+    $nodesTotal = array_sum(array_column($entityComposition, 'count'));
 
     echo json_encode([
         'ok' => true,
         'nodes_total' => $nodesTotal,
         'relationships_total' => $relationshipsTotal,
+        'te_source' => 'rmsk_repbase',
         'te_level' => $teLevel,
-        'entity_composition' => home_stats_entity_composition($entityRows),
+        'entity_composition' => $entityComposition,
         'relation_composition' => home_stats_relation_composition($relationRows),
-        'te_classification_composition' => home_stats_te_classification_composition($teClassificationRows),
+        'te_classification_composition' => home_stats_taxonomy_classification($teClassificationRecords, $teLevel),
         'generated_at' => gmdate('c'),
     ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 } catch (Throwable $e) {
@@ -124,14 +110,8 @@ CYPHER,
 
 function home_stats_te_level(): string
 {
-    $level = strtolower(trim((string)($_GET['te_level'] ?? 'class')));
-    return array_key_exists($level, home_stats_te_level_map()) ? $level : 'class';
-}
-
-function home_stats_te_property(string $level): string
-{
-    $map = home_stats_te_level_map();
-    return $map[$level] ?? $map['class'];
+    $level = strtolower(trim((string)($_GET['te_level'] ?? 'superfamily')));
+    return array_key_exists($level, home_stats_te_level_map()) ? $level : 'superfamily';
 }
 
 function home_stats_te_level_map(): array
@@ -144,7 +124,7 @@ function home_stats_te_level_map(): array
     ];
 }
 
-function home_stats_entity_composition(array $rows): array
+function home_stats_entity_composition(array $rows, int $taxonomyTeCount): array
 {
     $counts = [];
     foreach ($rows as $row) {
@@ -160,6 +140,8 @@ function home_stats_entity_composition(array $rows): array
         }
         $counts[$label] += max(0, (int)($row['count'] ?? 0));
     }
+    $counts['TE'] = max(0, $taxonomyTeCount);
+    arsort($counts, SORT_NUMERIC);
     $total = array_sum($counts);
 
     $composition = [];
@@ -230,18 +212,37 @@ function home_stats_is_paper_label(string $label): bool
     return in_array($normalized, ['paper', 'publication', 'literature'], true);
 }
 
-function home_stats_te_classification_composition(array $rows): array
+function home_stats_taxonomy_classification(array $records, string $level): array
 {
-    $total = 0;
-    foreach ($rows as $row) {
-        $total += max(0, (int)($row['count'] ?? 0));
+    $counts = [];
+    foreach ($records as $record) {
+        $path = is_array($record['path'] ?? null) ? $record['path'] : [];
+        $levels = ['class', 'order', 'superfamily', 'family'];
+        $targetIndex = array_search($level, $levels, true);
+        $label = '';
+        if ($targetIndex !== false) {
+            for ($index = $targetIndex; $index >= 0; $index--) {
+                $candidate = trim((string)($path[$levels[$index]] ?? ''));
+                if ($candidate !== '') {
+                    $label = $candidate;
+                    break;
+                }
+            }
+        }
+        $label = home_stats_clean_taxonomy_label($label !== '' ? $label : 'Others');
+        $counts[$label] = ($counts[$label] ?? 0) + 1;
     }
 
+    uksort($counts, static function (string $left, string $right) use ($counts): int {
+        $countOrder = $counts[$right] <=> $counts[$left];
+        return $countOrder !== 0 ? $countOrder : strcasecmp($left, $right);
+    });
+    $total = array_sum($counts);
+
     $composition = [];
-    foreach ($rows as $row) {
-        $count = max(0, (int)($row['count'] ?? 0));
+    foreach ($counts as $label => $count) {
         $composition[] = [
-            'label' => home_stats_clean_taxonomy_label((string)($row['label'] ?? 'Other')),
+            'label' => $label,
             'count' => $count,
             'percentage' => home_stats_percentage($count, $total),
         ];
@@ -252,6 +253,14 @@ function home_stats_te_classification_composition(array $rows): array
 function home_stats_clean_taxonomy_label(string $label): string
 {
     $label = trim($label);
+    $canonicalLabels = [
+        'retrotransposons' => 'Retrotransposon',
+        'dna transposons' => 'DNA Transposon',
+    ];
+    $canonicalKey = mb_strtolower($label);
+    if (isset($canonicalLabels[$canonicalKey])) {
+        return $canonicalLabels[$canonicalKey];
+    }
     $label = preg_replace('/^Class\s+/i', 'Class ', $label) ?? $label;
     return $label !== '' ? $label : 'Other';
 }

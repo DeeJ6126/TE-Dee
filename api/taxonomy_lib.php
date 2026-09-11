@@ -352,6 +352,74 @@ function tekg_taxonomy_file_tree_payload(string $source): array
     ];
 }
 
+function tekg_taxonomy_file_leaf_records(string $source = 'rmsk_repbase'): array
+{
+    $sourceKey = tekg_taxonomy_normalize_tree_source($source);
+    $sources = tekg_taxonomy_tree_sources();
+    if (!isset($sources[$sourceKey])) {
+        throw new InvalidArgumentException('Unsupported taxonomy tree source: ' . $source);
+    }
+
+    $lines = file((string)$sources[$sourceKey]['path'], FILE_IGNORE_NEW_LINES);
+    if ($lines === false) {
+        throw new RuntimeException('Unable to read taxonomy tree source: ' . $sourceKey);
+    }
+
+    $rows = [];
+    $stack = [];
+    foreach ($lines as $line) {
+        $parsed = tekg_taxonomy_parse_tree_line((string)$line);
+        if ($parsed === null) {
+            continue;
+        }
+        $label = trim((string)$parsed['label']);
+        $depth = (int)$parsed['depth'];
+        $path = $depth > 0 && isset($stack[$depth - 1]['path'])
+            ? (array)$stack[$depth - 1]['path']
+            : [];
+
+        if (preg_match('/^Class\s+[IVX]+:\s*(.+)$/i', $label, $match)) {
+            $path['class'] = trim((string)$match[1]);
+        } elseif (preg_match('/^Order:\s*(.+)$/i', $label, $match)) {
+            $path['order'] = trim((string)$match[1]);
+        } elseif (preg_match('/^Superfamily:\s*(.+)$/i', $label, $match)) {
+            $path['superfamily'] = trim((string)$match[1]);
+        } elseif (preg_match('/^Family:\s*(.+)$/i', $label, $match)) {
+            $path['family'] = trim((string)$match[1]);
+        } elseif ($depth === 1) {
+            $path['class'] = $label;
+        }
+
+        $row = ['name' => $label, 'depth' => $depth, 'path' => $path];
+        $rows[] = $row;
+        $stack[$depth] = $row;
+        foreach (array_keys($stack) as $stackDepth) {
+            if ((int)$stackDepth > $depth) {
+                unset($stack[$stackDepth]);
+            }
+        }
+    }
+
+    $records = [];
+    $seen = [];
+    $rowCount = count($rows);
+    for ($index = 0; $index < $rowCount; $index++) {
+        $depth = (int)$rows[$index]['depth'];
+        $nextDepth = $index + 1 < $rowCount ? (int)$rows[$index + 1]['depth'] : -1;
+        if ($nextDepth > $depth || $depth === 0) {
+            continue;
+        }
+        $name = trim((string)$rows[$index]['name']);
+        $key = function_exists('mb_strtolower') ? mb_strtolower($name) : strtolower($name);
+        if ($name === '' || isset($seen[$key])) {
+            continue;
+        }
+        $seen[$key] = true;
+        $records[] = ['name' => $name, 'path' => (array)$rows[$index]['path']];
+    }
+    return $records;
+}
+
 function tekg_taxonomy_loader_kinds(array $names, string $source = 'rmsk_repbase'): array
 {
     $tree = tekg_taxonomy_file_tree_payload($source);

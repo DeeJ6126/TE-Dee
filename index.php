@@ -66,6 +66,27 @@ $quickLinks = [
           </div>
           <div class="status-layout" data-home-stats data-home-stats-url="<?= htmlspecialchars(tekg_api_url('home_stats.php'), ENT_QUOTES, 'UTF-8') ?>">
             <div class="status-donut-grid">
+              <article class="status-donut-card" data-status-card="te">
+                <div class="status-donut-copy">
+                  <h4>TE Classification</h4>
+                </div>
+                <div class="status-donut-shell">
+                  <svg class="status-donut" viewBox="0 0 360 360" role="img" aria-label="TE classification donut chart" data-donut-chart="te"></svg>
+                  <div class="status-donut-center">
+                    <div class="status-donut-total" data-donut-total="te">--</div>
+                    <div class="status-donut-label" data-donut-label="te">TEs</div>
+                  </div>
+                </div>
+                <div class="status-level-control" role="group" aria-label="TE classification level">
+                  <button type="button" data-te-level="class">Class</button>
+                  <button type="button" data-te-level="order">Order</button>
+                  <button type="button" class="is-active" data-te-level="superfamily">Superfamily</button>
+                  <button type="button" data-te-level="family">Family</button>
+                </div>
+                <div class="status-legend" data-donut-legend="te">
+                  <div class="status-loading">Loading TE classification</div>
+                </div>
+              </article>
               <article class="status-donut-card" data-status-card="entity">
                 <div class="status-donut-copy">
                   <h4>Entity Composition</h4>
@@ -79,27 +100,6 @@ $quickLinks = [
                 </div>
                 <div class="status-legend" data-donut-legend="entity">
                   <div class="status-loading">Loading live entity statistics</div>
-                </div>
-              </article>
-              <article class="status-donut-card" data-status-card="te">
-                <div class="status-donut-copy">
-                  <h4>TE Classification</h4>
-                </div>
-                <div class="status-donut-shell">
-                  <svg class="status-donut" viewBox="0 0 360 360" role="img" aria-label="TE classification donut chart" data-donut-chart="te"></svg>
-                  <div class="status-donut-center">
-                    <div class="status-donut-total" data-donut-total="te">--</div>
-                    <div class="status-donut-label">TE Classes</div>
-                  </div>
-                </div>
-                <div class="status-level-control" role="group" aria-label="TE classification level">
-                  <button type="button" class="is-active" data-te-level="class">Class</button>
-                  <button type="button" data-te-level="order">Order</button>
-                  <button type="button" data-te-level="superfamily">Superfamily</button>
-                  <button type="button" data-te-level="family">Family</button>
-                </div>
-                <div class="status-legend" data-donut-legend="te">
-                  <div class="status-loading">Loading TE classification</div>
                 </div>
               </article>
               <article class="status-donut-card" data-status-card="relation">

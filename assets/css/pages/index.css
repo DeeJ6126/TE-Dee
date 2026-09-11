@@ -32,7 +32,7 @@
         .hero-content p {
           margin: 0;
           color: #526d96;
-          font-size: 15px;
+          font-size: 18px;
           line-height: 2.0;
           text-align: justify;
         }
@@ -260,7 +260,7 @@
         .status-legend-item {
           min-width: 0;
           display: grid;
-          grid-template-columns: 12px minmax(0, 1fr) auto auto;
+          grid-template-columns: 12px minmax(0, 1fr) auto;
           gap: 8px;
           align-items: center;
           padding: 7px 0;
@@ -284,16 +284,11 @@
           white-space: nowrap;
         }
 
-        .status-legend-count,
-        .status-legend-percent {
+        .status-legend-count {
           color: #60779a;
           font-size: 12px;
           font-weight: 800;
           white-space: nowrap;
-        }
-
-        .status-legend-percent {
-          color: #8396b1;
         }
 
         .status-level-control {
@@ -518,6 +513,6 @@
           }
 
           .status-legend-item {
-            grid-template-columns: 12px minmax(0, 1fr) auto auto;
+            grid-template-columns: 12px minmax(0, 1fr) auto;
           }
         }
