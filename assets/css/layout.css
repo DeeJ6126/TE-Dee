@@ -1,5 +1,5 @@
 ﻿:root {
-      --header-blue: #8fb7ec;
+      --header-blue: #2f63b9;
       --header-blue-strong: #214b8d;
       --header-line: #d9e5f7;
       --header-text: #18345f;
@@ -42,7 +42,7 @@
       margin: 0;
       padding: 0;
       background: var(--header-blue);
-      border-bottom: 1px solid rgba(33, 75, 141, 0.18);
+      border-bottom: 1px solid rgba(255,255,255,0.12);
       transition: background-color 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
     }
 
@@ -85,14 +85,14 @@
       margin: 0;
       font-size: 18px;
       font-weight: 800;
-      color: var(--header-blue-strong);
+      color: #fff;
       transition: color 0.22s ease;
     }
 
     .proto-brand-subtitle {
       margin: 4px 0 0;
       font-size: 12px;
-      color: #365f96;
+      color: rgba(255,255,255,0.76);
       transition: color 0.22s ease;
     }
 
@@ -124,7 +124,7 @@
       padding: 10px 14px;
       font-size: 14px;
       font-weight: 700;
-      color: var(--header-blue-strong);
+      color: rgba(255,255,255,0.94);
       transition: color 0.22s ease, opacity 0.22s ease;
     }
 
