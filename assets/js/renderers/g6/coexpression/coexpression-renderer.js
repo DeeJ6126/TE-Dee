@@ -2592,7 +2592,7 @@
               lineWidth: (d) => {
                 const coexpressionWidth = d.coexpressionIsCenter ? 5 : (d.coexpressionIsModuleHub ? 4 : 2);
                 const baseWidth = d.expressionLineWidth || ((d.endpointHighlight || d.graphRipple) ? 5 : coexpressionWidth);
-                return d.legendFocused ? baseWidth + 2 : baseWidth;
+                return baseWidth + (d.legendFocused ? 2 : 0) + (enrichmentNodeIds.has(String(d.id)) ? 3 : 0);
               },
               shadowColor: (d) => {
                 if (d.expressionAvailable) return `rgba(14, 165, 233, ${Math.max(0.18, d.expressionHaloOpacity || 0.18)})`;
@@ -2741,6 +2741,11 @@
           const node = data.nodes.find((item) => item.id === nodeId);
           if (!node) return;
           hideCoexpressionTooltip();
+          if (enrichmentSelectMode && String(node.nodeType).toLowerCase() === 'gene') {
+            hideInspectCard();
+            hooks.onSelection(node);
+            return;
+          }
           showInspectCard('node', node, event, data);
           hooks.onSelection(node);
           hooks.setDetail(node.displayLabel || node.rawLabel, node.description);
@@ -3255,7 +3260,7 @@
         );
         const coexpressionWidth = model.coexpressionIsCenter ? 5 : (model.coexpressionIsModuleHub ? 4 : 2);
         const baseWidth = model.expressionLineWidth || ((model.endpointHighlight || model.graphRipple) ? 5 : coexpressionWidth);
-        const lineWidth = model.legendFocused ? baseWidth + 2 : baseWidth;
+        const lineWidth = baseWidth + (model.legendFocused ? 2 : 0) + (enrichmentNodeIds.has(String(model.id)) ? 3 : 0);
         const important = model.importantLabel || isImportantLabelNode(model);
         const label = important ? importantLabelText(model) : secondaryLabelText(model);
         const rings = [];
@@ -3405,6 +3410,23 @@
       return loadGraph(buildCurrentRequest());
     }
 
+    let enrichmentSelectMode = false;
+    let enrichmentNodeIds = new Set();
+    function setEnrichmentSelection(state = {}) {
+      enrichmentSelectMode = state.active === true;
+      const next = new Set((state.nodeIds || []).map(String));
+      const changed = next.size !== enrichmentNodeIds.size || [...next].some((id) => !enrichmentNodeIds.has(id));
+      enrichmentNodeIds = next;
+      if (enrichmentSelectMode) hideInspectCard();
+      if (changed && graph) {
+        graph.updateNodeData((currentGraphData?.nodes || []).map((node) => ({
+          id: node.id, enrichmentSelected: next.has(String(node.id)),
+        })));
+        return graph.draw();
+      }
+      return Promise.resolve();
+    }
+
     function setLegendFocus(focus) {
       currentLegendFocus = normalizeLegendFocus(focus);
       return pushLegendFocusVisualState();
@@ -3469,6 +3491,7 @@
       setKeyNodeLevel,
       setLanguage,
       setLegendFocus,
+      setEnrichmentSelection,
       setElementVisibility,
       getGraph: () => graph,
       getCurrentQuery: () => currentQuery,

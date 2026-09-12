@@ -218,6 +218,9 @@
     setLegendFocus(focus) {
       return runner.setLegendFocus(focus);
     },
+    setEnrichmentSelection(state) {
+      return runner.setEnrichmentSelection(state);
+    },
     setVisible,
     stopLayout() {
       const graph = runner.getGraph();

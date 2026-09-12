@@ -6,7 +6,7 @@ require_once __DIR__ . '/gene_enrichment_helper.php';
 $input = json_decode((string) file_get_contents('php://input'), true);
 if (!is_array($input)) $input = $_POST;
 $provider = strtolower(trim((string) ($input['provider'] ?? 'string')));
-$species = trim((string) ($input['species_id'] ?? $input['species'] ?? ($provider === 'string' ? '9606' : 'human')));
+$species = $provider === 'string' ? '9606' : 'human';
 $genes = tekg_enrichment_genes($input['genes'] ?? []);
 if (!in_array($provider, ['string', 'enrichr'], true)) { echo json_encode(['success' => false, 'error' => 'Unsupported provider']); exit; }
 if (!$genes) { echo json_encode(['success' => false, 'error' => 'No genes selected']); exit; }

@@ -13,7 +13,8 @@ preview = read('preview.php')
 
 checks = {
     'selection controls': all(token in template for token in ('coexpression-gene-selection-count', 'coexpression-gene-select-all', 'coexpression-gene-clear', 'coexpression-run-enrichment')),
-    'provider and species': 'coexpression-enrichment-provider' in template and 'coexpression-enrichment-species' in template and all(value in script for value in ('fish', 'fly', 'worm', 'yeast')),
+    'human-only provider': 'coexpression-enrichment-provider' in template and 'coexpression-enrichment-species' not in template and "$species = $provider === 'string' ? '9606' : 'human';" in endpoint,
+    'legend tabs': 'data-enrichment-pane' in template and 'graph-legend-mode-switch' in template,
     'result panel': all(token in template for token in ('gene-enrichment-panel', 'data-enrichment-tab', 'gene-enrichment-csv')),
     'bridge integration': 'getVisibleSubgraph' in script and '__TEKG_COEXPRESSION_GRAPH_HOST' in script,
     'dual providers': "['string', 'enrichr']" in endpoint and 'tekg_enrichment_enrichr' in helper and 'tekg_enrichment_string' in helper,

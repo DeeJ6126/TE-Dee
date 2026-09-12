@@ -17,12 +17,29 @@ function tekg_enrichment_http(string $url, string $method = 'GET', array $fields
     if (!function_exists('curl_init')) return [false, 'cURL is unavailable'];
     $ch = curl_init($url);
     curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_CONNECTTIMEOUT => 10, CURLOPT_TIMEOUT => 60, CURLOPT_CUSTOMREQUEST => $method]);
+    // WAMP does not necessarily configure a PEM CA bundle. Use Windows trust
+    // roots while retaining peer and hostname verification.
+    if (PHP_OS_FAMILY === 'Windows' && defined('CURLSSLOPT_NATIVE_CA')) {
+        curl_setopt($ch, CURLOPT_SSL_OPTIONS, CURLSSLOPT_NATIVE_CA);
+    }
     if ($fields) {
         if ($form) curl_setopt($ch, CURLOPT_POSTFIELDS, $fields);
         else { curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($fields)); curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/x-www-form-urlencoded']); }
     }
-    $body = curl_exec($ch); $status = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE); curl_close($ch);
-    return ($body !== false && $status >= 200 && $status < 300) ? [true, (string)$body] : [false, 'Enrichment provider request failed'];
+    $body = curl_exec($ch);
+    $status = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $errno = curl_errno($ch);
+    curl_close($ch);
+    if ($body !== false && $status >= 200 && $status < 300) return [true, (string)$body];
+    $provider = str_contains((string)parse_url($url, PHP_URL_HOST), 'string-db.org') ? 'STRING' : 'Enrichr';
+    $reason = match ($errno) {
+        60, 77 => 'TLS certificate verification failed. Check the PHP CA certificate configuration.',
+        28 => 'Request timed out. Please try again.',
+        5, 6 => 'The provider hostname could not be resolved.',
+        7 => 'Could not connect to the provider.',
+        default => $errno ? 'Connection failed (cURL '.$errno.').' : 'Provider returned HTTP '.$status.'.',
+    };
+    return [false, $provider.': '.$reason];
 }
 
 function tekg_enrichment_enrichr_config(string $species): ?array {
@@ -66,6 +83,7 @@ function tekg_enrichment_enrichr(string $species, array $genes): array {
         $library = $config[$key];
         if ($library === '') continue;
         [$ok, $raw] = tekg_enrichment_http($config['base'].'/enrich?userListId='.$listId.'&backgroundType='.rawurlencode($library));
+        if (!$ok) return [false, $raw];
         $rows = $ok ? (json_decode($raw, true)[$library] ?? []) : [];
         foreach ($rows as $row) {
             if (!is_array($row) || count($row) < 7 || !is_numeric($row[6] ?? null)) continue;

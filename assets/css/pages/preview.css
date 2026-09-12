@@ -1437,11 +1437,6 @@
           }
         }
 
-        .coexpression-gene-tools { display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-left:auto; }
-        .coexpression-gene-tools button, .coexpression-gene-tools select { font:inherit; font-size:12px; min-height:30px; }
-        .coexpression-gene-tools span { color:#475569; font-size:12px; white-space:nowrap; }
-        .coexpression-gene-list { position:absolute; z-index:20; right:12px; top:58px; width:250px; max-height:260px; overflow:auto; background:#fff; border:1px solid #cbd5e1; border-radius:6px; padding:8px; box-shadow:0 12px 28px rgba(15,23,42,.18); }
-        .coexpression-gene-list label { display:flex; align-items:center; gap:8px; padding:5px 3px; font-size:13px; }
         .gene-enrichment-panel { position:fixed; z-index:1200; right:24px; bottom:24px; width:min(920px, calc(100vw - 48px)); max-height:min(760px, calc(100vh - 48px)); overflow:auto; background:#fff; border:1px solid #cbd5e1; border-radius:8px; box-shadow:0 18px 50px rgba(15,23,42,.28); }
         .gene-enrichment-panel.is-minimized .gene-enrichment-status, .gene-enrichment-panel.is-minimized .gene-enrichment-controls, .gene-enrichment-panel.is-minimized .gene-enrichment-body, .gene-enrichment-panel.is-minimized .gene-enrichment-pagination { display:none; }
         .gene-enrichment-head { display:flex; justify-content:space-between; align-items:center; padding:12px 16px; border-bottom:1px solid #e2e8f0; }
@@ -1465,7 +1460,7 @@
         .gene-enrichment-empty { padding:28px; color:#64748b; text-align:center; }
         .gene-enrichment-pagination { display:flex; gap:10px; align-items:center; justify-content:flex-end; padding:0 16px 14px; font-size:12px; color:#475569; }
         .gene-enrichment-pagination button { border:1px solid #cbd5e1; background:#fff; border-radius:5px; padding:5px 9px; cursor:pointer; }
-        @media (max-width: 900px) { .coexpression-gene-tools { margin-left:0; width:100%; } .gene-enrichment-body { grid-template-columns:1fr; } .gene-enrichment-panel { right:12px; bottom:12px; width:calc(100vw - 24px); } }
+        @media (max-width: 900px) { .gene-enrichment-body { grid-template-columns:1fr; } .gene-enrichment-panel { right:12px; bottom:12px; width:calc(100vw - 24px); } }
 
         .preview-stage.is-immersive {
           background: #ffffff;
@@ -1815,3 +1810,36 @@
             border-radius: 16px;
           }
         }
+
+/* Enrichment reuses Graph legend components; only arrangement and compact sizing differ. */
+.coexpression-legend-pane { display:flex; flex-direction:column; gap:8px; }
+#coexpression-legend [hidden] { display:none !important; }
+.enrichment-selection-tools { display:flex; gap:8px; }
+.graph-legend-apply.enrichment-secondary { background:#fff; color:#2563eb; }
+.graph-legend-apply.enrichment-secondary[aria-pressed="true"] { background:#2563eb; color:#fff; }
+.enrichment-selection-count { font-size:12px; color:#475569; margin:12px 0; }
+.graph-legend-panel.enrichment-gene-list-panel { left:calc(100% + 12px); bottom:0; width:420px; min-height:160px; max-height:calc(100vh - 48px); box-sizing:border-box; resize:vertical; overflow:hidden; }
+.enrichment-list-heading { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:12px; }
+.enrichment-list-heading .graph-legend-title { margin:0; }
+.graph-legend-list.enrichment-gene-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px 12px; min-height:0; flex:1 1 auto; overflow-y:auto; overflow-x:hidden; padding:4px; }
+.enrichment-gene-grid { align-content:start; }
+.enrichment-gene-grid .graph-legend-check, .enrichment-gene-grid .graph-legend-swatch { flex-shrink:0; }
+.enrichment-list-heading { flex-shrink:0; }
+.gene-enrichment-head { cursor:move; touch-action:none; user-select:none; }
+.enrichment-gene-grid .graph-legend-item { font-size:11px; gap:6px; }
+.enrichment-gene-grid .graph-legend-text { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.gene-enrichment-panel { border-radius:18px; border-color:rgba(203,213,225,.9); box-shadow:0 18px 40px rgba(37,99,235,.12); }
+.gene-enrichment-panel[hidden] { display:none !important; }
+.gene-enrichment-bar i { background:#2563eb; }
+@media(max-width:700px) { .graph-legend-panel.enrichment-gene-list-panel { left:0; bottom:calc(100% + 12px); width:min(340px,calc(100vw - 60px)); } }
+
+.gene-enrichment-panel { display:flex; flex-direction:column; overflow:hidden; min-width:360px; max-width:100vw; max-height:100vh; box-sizing:border-box; }
+.gene-enrichment-head, .gene-enrichment-status, .gene-enrichment-controls, .gene-enrichment-pagination { flex-shrink:0; }
+.gene-enrichment-body { flex:1 1 auto; min-height:0; overflow:auto; }
+.gene-enrichment-panel.is-minimized { height:auto !important; min-height:0; }
+.enrichment-resize { position:absolute; width:18px; height:18px; z-index:5; touch-action:none; }
+.enrichment-resize-nw { top:0; left:0; cursor:nwse-resize; }
+.enrichment-resize-ne { top:0; right:0; cursor:nesw-resize; }
+.enrichment-resize-sw { bottom:0; left:0; cursor:nesw-resize; }
+.enrichment-resize-se { bottom:0; right:0; cursor:nwse-resize; }
+#gene-enrichment-plot svg { width:100%; min-width:340px; display:block; font:12px Arial,sans-serif; fill:#334155; }
