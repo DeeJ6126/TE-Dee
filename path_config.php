@@ -5,7 +5,11 @@ if (!defined('TEKG_ROOT_DIR')) {
     define('TEKG_ROOT_DIR', __DIR__);
 }
 if (!defined('TEKG_APP_URL_BASE')) {
-    define('TEKG_APP_URL_BASE', '/tedee');
+    // Keep /tedee as the deployment default, while allowing the WAMP checkout
+    // to be opened directly at /TE- without generating broken asset URLs.
+    $tekgRequestPath = (string)($_SERVER['REQUEST_URI'] ?? '');
+    $tekgLocalBase = preg_match('#^/TE-(?:/|$)#i', $tekgRequestPath) === 1 ? '/TE-' : '/tedee';
+    define('TEKG_APP_URL_BASE', $tekgLocalBase);
 }
 if (!defined('TEKG_PRODUCT_NAME')) {
     define('TEKG_PRODUCT_NAME', 'TE-Dee');

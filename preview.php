@@ -14,6 +14,7 @@ $previewVersion = max(
     (int)@filemtime(tekg_assets_fs_path('js/pages/preview/te-loader.js')),
     (int)@filemtime(tekg_assets_fs_path('js/pages/preview/preview-deepthink.js')),
     (int)@filemtime(tekg_assets_fs_path('js/pages/preview/coexpression-mode.js')),
+    (int)@filemtime(tekg_assets_fs_path('js/pages/preview/gene-enrichment.js')),
     (int)@filemtime(tekg_assets_fs_path('js/pages/preview/integrated-mode.js')),
     (int)@filemtime(tekg_assets_fs_path('js/pages/preview/preview-workspace-mode.js')),
     (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/index-g6-type-meta.js')),
@@ -147,6 +148,7 @@ $previewConfig = [
       <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/integrated/integrated-contract.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
       <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/integrated/integrated-adapter.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
       <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/preview/coexpression-mode.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
+      <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/preview/gene-enrichment.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
       <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/preview/integrated-mode.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
       <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/preview/preview-workspace-mode.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
       <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/preview/preview-shell.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>

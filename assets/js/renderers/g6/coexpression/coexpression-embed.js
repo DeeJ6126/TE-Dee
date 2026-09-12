@@ -238,6 +238,13 @@
     getVisibleSubgraph() {
       return runner.getVisibleSubgraph();
     },
+    getVisibleGenes() {
+      const visible = runner.getVisibleSubgraph();
+      return (visible.nodes || [])
+        .filter((node) => String(node.kind || node.feature_type || node.nodeType || '').toLowerCase() === 'gene')
+        .map((node) => ({ id: String(node.id || ''), label: String(node.label || node.displayLabel || node.id || '') }))
+        .filter((node) => node.id || node.label);
+    },
     getInteractionSnapshot(nodeId) {
       const graph = runner.getGraph();
       const visible = runner.getVisibleSubgraph();

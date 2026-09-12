@@ -32,8 +32,10 @@ def runtime_files():
 def main() -> int:
     failures = []
     path_config = (ROOT / "path_config.php").read_text(encoding="utf-8-sig")
-    if "define('TEKG_APP_URL_BASE', '/tedee');" not in path_config:
-        failures.append("path_config.php does not define /tedee as the canonical URL base")
+    if "'/tedee'" not in path_config:
+        failures.append("path_config.php does not retain /tedee as the deployment URL base")
+    if "REQUEST_URI" not in path_config or "'/TE-'" not in path_config:
+        failures.append("path_config.php does not support the local /TE- checkout URL")
     if "define('TEKG_PRODUCT_NAME', 'TE-Dee');" not in path_config:
         failures.append("path_config.php does not define the TE-Dee public product name")
 

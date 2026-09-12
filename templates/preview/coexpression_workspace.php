@@ -33,7 +33,23 @@
                   <button id="coexpression-export-svg" type="button" role="menuitem">SVG</button>
                 </div>
               </div>
+              <div class="coexpression-gene-tools" aria-label="Gene enrichment selection">
+                <span id="coexpression-gene-selection-count">Genes selected: 0</span>
+                <button id="coexpression-gene-list-toggle" type="button" class="preview-graph-command" aria-expanded="false">Genes</button>
+                <button id="coexpression-gene-select-all" type="button" class="preview-graph-command">Select all</button>
+                <button id="coexpression-gene-clear" type="button" class="preview-graph-command">Clear</button>
+                <select id="coexpression-enrichment-provider" aria-label="Enrichment provider">
+                  <option value="string" selected>STRING</option>
+                  <option value="enrichr">Enrichr</option>
+                </select>
+                <select id="coexpression-enrichment-species" aria-label="Enrichment species">
+                  <option value="9606" selected>Human</option>
+                  <option value="10090">Mouse</option>
+                </select>
+                <button id="coexpression-run-enrichment" type="button" class="preview-graph-command" disabled>GO/KEGG enrichment</button>
+              </div>
             </div>
+            <div id="coexpression-gene-list" class="coexpression-gene-list" hidden></div>
             <div class="g6-surface-stack preview-g6-surface-stack">
               <div id="coexpression-iframe-host" class="coexpression-iframe-host"></div>
               <div id="coexpression-preloader" class="graph-preloader" aria-hidden="true">
@@ -109,3 +125,10 @@
             <div class="detail" id="coexpression-node-details">Preparing co-expression workspace...</div>
           </section>
         </div>
+        <aside id="gene-enrichment-panel" class="gene-enrichment-panel qa-drawer" hidden aria-label="Gene enrichment results">
+          <header class="gene-enrichment-head"><h2>Gene enrichment</h2><div><button id="gene-enrichment-minimize" type="button" aria-label="Minimize enrichment">-</button><button id="gene-enrichment-close" type="button" aria-label="Close enrichment">×</button></div></header>
+          <div id="gene-enrichment-status" class="gene-enrichment-status" role="status"></div>
+          <div class="gene-enrichment-controls"><button data-enrichment-tab="go" class="is-active" type="button">GO</button><button data-enrichment-tab="kegg" type="button">KEGG</button><button id="gene-enrichment-csv" type="button">CSV</button><label>Top <select id="gene-enrichment-top"><option>5</option><option selected>10</option><option>15</option><option>20</option><option value="all">All</option></select></label></div>
+          <div class="gene-enrichment-body"><div id="gene-enrichment-table"></div><div id="gene-enrichment-plot"></div></div>
+          <div id="gene-enrichment-pagination" class="gene-enrichment-pagination"></div>
+        </aside>

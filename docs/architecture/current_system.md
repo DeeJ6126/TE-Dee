@@ -114,6 +114,13 @@ sequence and genome detail data.
   importer inputs rather than browser runtime sources.
 - Co-expression results are correlation evidence only, not causal or regulatory
   proof.
+- TE-Gene Graph supports Gene enrichment for currently visible Gene nodes.
+  Users can select Genes by clicking nodes or through a synchronized Gene
+  checklist, with Select all and Clear actions. The enrichment panel supports
+  STRING and Enrichr and normalizes provider responses through
+  api/gene_enrichment.php and api/gene_enrichment_helper.php into GO/KEGG
+  rows. Results are statistical functional enrichment of the submitted Gene
+  set; they do not establish TE regulation or causality.
 
 ## eQTL
 

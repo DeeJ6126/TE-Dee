@@ -1439,6 +1439,36 @@
           }
         }
 
+        .coexpression-gene-tools { display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-left:auto; }
+        .coexpression-gene-tools button, .coexpression-gene-tools select { font:inherit; font-size:12px; min-height:30px; }
+        .coexpression-gene-tools span { color:#475569; font-size:12px; white-space:nowrap; }
+        .coexpression-gene-list { position:absolute; z-index:20; right:12px; top:58px; width:250px; max-height:260px; overflow:auto; background:#fff; border:1px solid #cbd5e1; border-radius:6px; padding:8px; box-shadow:0 12px 28px rgba(15,23,42,.18); }
+        .coexpression-gene-list label { display:flex; align-items:center; gap:8px; padding:5px 3px; font-size:13px; }
+        .gene-enrichment-panel { position:fixed; z-index:1200; right:24px; bottom:24px; width:min(920px, calc(100vw - 48px)); max-height:min(760px, calc(100vh - 48px)); overflow:auto; background:#fff; border:1px solid #cbd5e1; border-radius:8px; box-shadow:0 18px 50px rgba(15,23,42,.28); }
+        .gene-enrichment-panel.is-minimized .gene-enrichment-status, .gene-enrichment-panel.is-minimized .gene-enrichment-controls, .gene-enrichment-panel.is-minimized .gene-enrichment-body, .gene-enrichment-panel.is-minimized .gene-enrichment-pagination { display:none; }
+        .gene-enrichment-head { display:flex; justify-content:space-between; align-items:center; padding:12px 16px; border-bottom:1px solid #e2e8f0; }
+        .gene-enrichment-head h2 { margin:0; font-size:18px; color:#1e293b; }
+        .gene-enrichment-head button { border:0; background:transparent; font-size:20px; color:#475569; cursor:pointer; margin-left:8px; }
+        .gene-enrichment-status { padding:8px 16px; color:#475569; font-size:13px; }
+        .gene-enrichment-controls { display:flex; align-items:center; gap:8px; padding:0 16px 10px; }
+        .gene-enrichment-controls button { border:1px solid #cbd5e1; background:#fff; border-radius:6px; padding:7px 12px; color:#334155; cursor:pointer; }
+        .gene-enrichment-controls button.is-active { border-color:#3b66c4; color:#2452a3; background:#eff6ff; }
+        .gene-enrichment-controls label { margin-left:auto; color:#475569; font-size:13px; }
+        .gene-enrichment-body { display:grid; grid-template-columns:minmax(0,1.25fr) minmax(260px,1fr); gap:12px; padding:0 16px 12px; }
+        #gene-enrichment-table { overflow:auto; border:1px solid #e2e8f0; }
+        #gene-enrichment-table table { width:100%; border-collapse:collapse; font-size:12px; }
+        #gene-enrichment-table th, #gene-enrichment-table td { padding:8px 9px; border-bottom:1px solid #e2e8f0; text-align:left; vertical-align:top; }
+        #gene-enrichment-table th { color:#334155; background:#f8fafc; }
+        #gene-enrichment-table td:nth-child(2) { max-width:220px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+        #gene-enrichment-plot { min-height:220px; padding:8px; border:1px solid #e2e8f0; overflow:auto; }
+        .gene-enrichment-bar { margin:8px 0; font-size:12px; color:#334155; }
+        .gene-enrichment-bar span { display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+        .gene-enrichment-bar i { display:block; height:8px; margin-top:3px; border-radius:4px; background:#4f46a5; }
+        .gene-enrichment-empty { padding:28px; color:#64748b; text-align:center; }
+        .gene-enrichment-pagination { display:flex; gap:10px; align-items:center; justify-content:flex-end; padding:0 16px 14px; font-size:12px; color:#475569; }
+        .gene-enrichment-pagination button { border:1px solid #cbd5e1; background:#fff; border-radius:5px; padding:5px 9px; cursor:pointer; }
+        @media (max-width: 900px) { .coexpression-gene-tools { margin-left:0; width:100%; } .gene-enrichment-body { grid-template-columns:1fr; } .gene-enrichment-panel { right:12px; bottom:12px; width:calc(100vw - 24px); } }
+
         .preview-stage.is-immersive {
           background: #ffffff;
         }
