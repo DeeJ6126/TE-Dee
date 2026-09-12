@@ -152,7 +152,7 @@ function tekg_expression_browse_sort_sql(string $sort): string
     return match (tekg_expression_normalize_sort($sort)) {
         'high_to_low' => 'global_top_context_median_value DESC, te_name ASC',
         'low_to_high' => 'global_top_context_median_value ASC, te_name ASC',
-        default => 'te_name ASC',
+        default => "CASE WHEN te_name REGEXP '^[0-9]' THEN 1 ELSE 0 END, te_name ASC",
     };
 }
 
