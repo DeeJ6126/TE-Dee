@@ -72,7 +72,7 @@ frontend thinking/status stream.
   supplied to LLM planning/collection prompts.
 - Plugin results are evidence inputs, not final answers. Writing stages must
   respect evidence boundaries and should expose unsupported or missing evidence.
-- The multi-turn layer does not change the twelve public plugins, routing
+- The multi-turn layer preserves the public plugin contracts, routing
   policy, Agent stage count, or DeepThink stage count.
 
 ## Hard Constraints

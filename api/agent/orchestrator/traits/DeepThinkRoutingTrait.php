@@ -272,6 +272,13 @@ trait TekgDeepThinkRoutingTrait
                 'reason' => 'The expression layer already returned a direct usable hit, so no extra evidence layer is needed for this simple expression question.',
             ];
         }
+        if ($intent === 'eqtl' && $this->pluginHasUsableResult($pluginResults, 'eQTL Plugin')) {
+            return [
+                'done' => true,
+                'next_plugin' => '',
+                'reason' => 'The eQTL layer already returned direct usable associations, so no extra evidence layer is needed for this lookup.',
+            ];
+        }
         if ($intent === 'classification' && $this->pluginHasUsableResult($pluginResults, 'Tree Plugin')) {
             return [
                 'done' => true,
@@ -331,6 +338,7 @@ trait TekgDeepThinkRoutingTrait
             'sequence' => ['Sequence Plugin'],
             'genome' => ['Genome Plugin'],
             'expression' => ['Expression Plugin'],
+            'eqtl' => ['eQTL Plugin'],
             'classification' => ['Tree Plugin'],
             'literature' => ['Literature Plugin', 'Literature Reading Plugin'],
             'graph_analytics' => ['Graph Analytics Plugin', 'Cypher Explorer Plugin'],
@@ -359,6 +367,9 @@ trait TekgDeepThinkRoutingTrait
         }
         if (($analysis['asks_for_expression'] ?? false) && !in_array('Expression Plugin', $order, true)) {
             $order[] = 'Expression Plugin';
+        }
+        if (($analysis['asks_for_eqtl'] ?? false) && !in_array('eQTL Plugin', $order, true)) {
+            $order[] = 'eQTL Plugin';
         }
         if (($analysis['asks_for_classification'] ?? false) && !in_array('Tree Plugin', $order, true)) {
             $order[] = 'Tree Plugin';
@@ -391,6 +402,7 @@ trait TekgDeepThinkRoutingTrait
             'Literature Reading Plugin' => 'Synthesize retrieved papers into grouped supported and conflicting claims.',
             'Tree Plugin' => 'Recover lineage and classification context.',
             'Expression Plugin' => 'Recover expression-related biological context.',
+            'eQTL Plugin' => 'Retrieve GTEx eQTL associations for variants that strictly overlap mapped TE instances.',
             'Genome Plugin' => 'Recover genomic locus and browser context.',
             'Sequence Plugin' => 'Recover sequence, consensus length, and structure facts.',
             default => 'Use a plugin.',

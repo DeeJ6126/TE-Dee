@@ -133,3 +133,78 @@ function tekg_variant_load(string $query, string $source = 'eqtl', string $view 
     }
     return ['source' => $source, 'view' => $view, 'scope' => $publicScope, 'rows' => $rows, 'total' => (int)($count[0]['total'] ?? 0), 'page' => $page, 'page_size' => $pageSize, 'available' => true, 'metadata' => ['eqtl_version' => $eqtl['version_key'], 'genome_build' => $eqtl['genome_build'], 'tissue_scope' => 'all']];
 }
+
+function tekg_variant_load_top_eqtl_associations(string $query, int $limit = 10): array
+{
+    $limit = min(25, max(1, $limit));
+    $eqtl = tekg_variant_active_version();
+    $scope = tekg_variant_scope($query, (int)$eqtl['id']);
+    $publicScope = $scope;
+    unset($publicScope['keys']);
+
+    if (!$scope['variant_available']) {
+        return [
+            'scope' => $publicScope,
+            'rows' => [],
+            'total' => 0,
+            'available' => false,
+            'unavailable_reason' => (string)($scope['reason'] ?? ''),
+            'metadata' => [
+                'eqtl_version' => (string)$eqtl['version_key'],
+                'genome_build' => (string)$eqtl['genome_build'],
+                'tissue_scope' => 'all',
+            ],
+        ];
+    }
+
+    $keys = (array)$scope['keys'];
+    $in = tekg_variant_placeholders(count($keys));
+    $base = [(int)$eqtl['id'], ...$keys];
+    $types = 'i' . str_repeat('s', count($keys));
+    $count = tekg_variant_rows(
+        "SELECT COUNT(*) AS total
+         FROM eqtl_variant_gene_tissue_associations a
+         WHERE a.version_id=?
+           AND EXISTS (
+               SELECT 1 FROM eqtl_te_variant_overlaps o
+               WHERE o.version_id=a.version_id
+                 AND o.variant_key=a.variant_key
+                 AND o.te_instance_key IN ($in)
+           )",
+        $base,
+        $types
+    );
+    $rows = tekg_variant_rows(
+        "SELECT v.variant_id,v.chrom,v.variant_start,v.variant_end,v.ref,v.alt,
+                g.gene_id,g.gene_name,t.tissue_key,t.display_name tissue_name,
+                a.pval_nominal,a.slope,a.slope_se,a.af,a.ma_count
+         FROM eqtl_variant_gene_tissue_associations a
+         JOIN eqtl_variants v ON v.version_id=a.version_id AND v.variant_key=a.variant_key
+         JOIN eqtl_genes g ON g.version_id=a.version_id AND g.gene_id=a.gene_id
+         JOIN eqtl_tissues t ON t.version_id=a.version_id AND t.tissue_key=a.tissue_key
+         WHERE a.version_id=?
+           AND EXISTS (
+               SELECT 1 FROM eqtl_te_variant_overlaps o
+               WHERE o.version_id=a.version_id
+                 AND o.variant_key=a.variant_key
+                 AND o.te_instance_key IN ($in)
+           )
+         ORDER BY a.pval_nominal ASC,v.variant_id ASC,g.gene_name ASC,t.display_name ASC
+         LIMIT ?",
+        [...$base, $limit],
+        $types . 'i'
+    );
+
+    return [
+        'scope' => $publicScope,
+        'rows' => $rows,
+        'total' => (int)($count[0]['total'] ?? 0),
+        'available' => true,
+        'metadata' => [
+            'eqtl_version' => (string)$eqtl['version_key'],
+            'genome_build' => (string)$eqtl['genome_build'],
+            'tissue_scope' => 'all',
+            'representative_order' => 'pval_nominal_asc',
+        ],
+    ];
+}

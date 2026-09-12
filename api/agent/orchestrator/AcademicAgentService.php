@@ -1468,6 +1468,7 @@ final class TekgAcademicAgentService
             'Literature Plugin',
             'Literature Reading Plugin',
             'Expression Plugin',
+            'eQTL Plugin',
         ], true);
     }
 

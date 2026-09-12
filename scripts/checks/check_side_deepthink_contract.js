@@ -118,10 +118,10 @@ requireMatch(
   'Preview assistant drawer must use the same aside + .side-dt-drawer structure as the shared component.'
 );
 
-requireMatch(
+forbidMatch(
   previewPhp,
-  /id="previewDeepThinkClearGraph"[\s\S]*>\s*Back\s*<\/button>/,
-  'Preview assistant must keep the Back button for graph navigation.'
+  /id="previewDeepThinkClearGraph"|preview-deepthink-clear[^>]*>\s*Back\s*<\/button>/,
+  'Preview assistant must not render a Back button.'
 );
 
 requireMatch(
@@ -142,10 +142,10 @@ requireMatch(
   'Preview shell must continue driving the shared is-open state from preview drawer state.'
 );
 
-requireMatch(
+forbidMatch(
   previewDeepThinkJs,
-  /goBack[\s\S]*showTree/,
-  'Preview Deep Think must keep Back/showTree graph navigation behavior.'
+  /previewDeepThinkClearGraph/,
+  'Preview Deep Think must not bind the removed Back control.'
 );
 
 requireMatch(

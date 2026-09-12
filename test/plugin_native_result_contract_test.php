@@ -34,6 +34,7 @@ $expectedPlugins = [
     'Literature Reading Plugin' => TekgAgentLiteratureReadingPlugin::class,
     'Tree Plugin' => TekgAgentTreePlugin::class,
     'Expression Plugin' => TekgAgentExpressionPlugin::class,
+    'eQTL Plugin' => TekgAgentEqtlPlugin::class,
     'Genome Plugin' => TekgAgentGenomePlugin::class,
     'Sequence Plugin' => TekgAgentSequencePlugin::class,
     'Citation Resolver' => TekgAgentCitationResolverPlugin::class,
@@ -49,7 +50,7 @@ assert_same(array_keys($expectedPlugins), $catalogNames, 'catalog names must mat
 
 $registryFiles = tekg_agent_plugin_files();
 tekg_agent_require_plugin_files();
-assert_same(count($expectedPlugins), count($registryFiles), 'registry must contain exactly twelve plugin files');
+assert_same(count($expectedPlugins), count($registryFiles), 'registry file count matches the public plugin catalog');
 foreach ($expectedPlugins as $expectedName => $className) {
     $plugin = (new ReflectionClass($className))->newInstanceWithoutConstructor();
     assert_same($expectedName, $plugin->getName(), "{$className} public name");

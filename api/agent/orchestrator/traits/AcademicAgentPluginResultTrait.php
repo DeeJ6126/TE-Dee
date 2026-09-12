@@ -58,6 +58,7 @@ trait TekgAcademicAgentPluginResultTrait
             'Literature Reading Plugin' => 'I will synthesize the retrieved citations into grouped claims, conflicts, and remaining evidence gaps.',
             'Tree Plugin' => 'I will place the recognized entities in their lineage to recover classification context where needed.',
             'Expression Plugin' => 'I will inspect the expression layer to see whether it contributes useful supporting biological context.',
+            'eQTL Plugin' => 'I will query GTEx associations for variants that strictly overlap the recognized TE.',
             'Genome Plugin' => 'I will check whether representative loci and browser entry points exist for the current TE entities.',
             'Sequence Plugin' => 'I will match the recognized TE aliases against the Repbase-backed sequence records to recover consensus length, annotation, and structure hints.',
             'Citation Resolver' => 'I will normalize and deduplicate the citation records so the final answer can use stable references.',
@@ -87,6 +88,7 @@ trait TekgAcademicAgentPluginResultTrait
             'Literature Reading Plugin' => 'I will synthesize the retrieved citations now so later steps receive grouped claims instead of a flat citation list.',
             'Tree Plugin' => 'I will use the lineage tree now because classification context is still missing.',
             'Expression Plugin' => 'I will inspect the expression layer now because expression context is still relevant.',
+            'eQTL Plugin' => 'I will inspect the GTEx eQTL layer now because TE-overlapping variant-gene associations are requested.',
             'Genome Plugin' => 'I will inspect the genome layer now because locus-level context is still relevant.',
             'Sequence Plugin' => 'I will inspect the sequence layer now because sequence-level facts are still required.',
             'Citation Resolver' => 'I will normalize the citation layer now so the final answer can cite stable records.',
@@ -223,6 +225,8 @@ trait TekgAcademicAgentPluginResultTrait
                 $collectedResults['tree_result'] = $result;
             } elseif ($pluginName === 'Expression Plugin') {
                 $collectedResults['expression_result'] = $result;
+            } elseif ($pluginName === 'eQTL Plugin') {
+                $collectedResults['eqtl_result'] = $result;
             } elseif ($pluginName === 'Genome Plugin') {
                 $collectedResults['genome_result'] = $result;
             } elseif ($pluginName === 'Sequence Plugin') {
@@ -295,6 +299,7 @@ trait TekgAcademicAgentPluginResultTrait
                     'literature_synthesis' => $collectedResults['literature_synthesis'] ?? null,
                     'tree_result' => $collectedResults['tree_result'] ?? null,
                     'expression_result' => $collectedResults['expression_result'] ?? null,
+                    'eqtl_result' => $collectedResults['eqtl_result'] ?? null,
                     'genome_result' => $collectedResults['genome_result'] ?? null,
                     'sequence_result' => $collectedResults['sequence_result'] ?? null,
                     'citation_result' => $collectedResults['citation_result'] ?? null,
@@ -321,6 +326,7 @@ trait TekgAcademicAgentPluginResultTrait
                     'literature_synthesis' => $collectedResults['literature_synthesis'] ?? null,
                     'tree_result' => $collectedResults['tree_result'] ?? null,
                     'expression_result' => $collectedResults['expression_result'] ?? null,
+                    'eqtl_result' => $collectedResults['eqtl_result'] ?? null,
                     'genome_result' => $collectedResults['genome_result'] ?? null,
                     'sequence_result' => $collectedResults['sequence_result'] ?? null,
                     'citation_result' => $collectedResults['citation_result'] ?? null,
@@ -341,6 +347,7 @@ trait TekgAcademicAgentPluginResultTrait
                     'literature_synthesis' => $collectedResults['literature_synthesis'] ?? null,
                     'tree_result' => $collectedResults['tree_result'] ?? null,
                     'expression_result' => $collectedResults['expression_result'] ?? null,
+                    'eqtl_result' => $collectedResults['eqtl_result'] ?? null,
                     'genome_result' => $collectedResults['genome_result'] ?? null,
                     'sequence_result' => $collectedResults['sequence_result'] ?? null,
                     'citation_result' => $collectedResults['citation_result'] ?? null,
@@ -403,6 +410,7 @@ trait TekgAcademicAgentPluginResultTrait
                     'literature_synthesis' => $collectedResults['literature_synthesis'] ?? null,
                     'tree_result' => $collectedResults['tree_result'] ?? null,
                     'expression_result' => $collectedResults['expression_result'] ?? null,
+                    'eqtl_result' => $collectedResults['eqtl_result'] ?? null,
                     'genome_result' => $collectedResults['genome_result'] ?? null,
                     'sequence_result' => $collectedResults['sequence_result'] ?? null,
                     'citation_result' => $collectedResults['citation_result'] ?? null,

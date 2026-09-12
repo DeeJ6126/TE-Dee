@@ -10,7 +10,7 @@ relay. See `api/docs/intelligent_qa_runtime_audit_2026-07-28.md` for the startin
 snapshot and `api/docs/intelligent_qa_plugin_contract_hardening_2026-07-28.md`
 for the implemented behavior and current verification evidence.
 
-Current plugin maintenance state: all twelve public names remain unchanged;
+Current plugin maintenance state: the shared native plugin contract remains unchanged;
 both orchestrators enforce one native result contract; scientific evidence is
 separated from diagnostics; Literature Reading fallback is explicit; Agent and
 DeepThink share bounded UI/LLM projections; and Agent uses selective execution
@@ -133,6 +133,7 @@ Registered plugins include:
 - Literature Reading Plugin
 - Tree Plugin
 - Expression Plugin
+- eQTL Plugin
 - Genome Plugin
 - Sequence Plugin
 - Citation Resolver

@@ -154,6 +154,35 @@
       "cypher_explorer_fallback": false,
       "forbidden_shortcuts": []
     },
+    "eqtl": {
+      "primary_path": [
+        "Entity Resolver",
+        "eQTL Plugin"
+      ],
+      "fallback_path": [],
+      "forbidden_path": [
+        "Literature Plugin",
+        "Literature Reading Plugin"
+      ],
+      "minimum_evidence_gate": {
+        "require_any_plugins": [
+          "eQTL Plugin"
+        ]
+      },
+      "hard_stop_conditions": {
+        "primary_plugin": "eQTL Plugin",
+        "allow_statuses": [
+          "ok",
+          "partial"
+        ]
+      },
+      "stop_conditions": {
+        "max_experts": 2,
+        "stop_on_sufficient": true
+      },
+      "cypher_explorer_fallback": false,
+      "forbidden_shortcuts": []
+    },
     "genome": {
       "primary_path": [
         "Entity Resolver",

@@ -5,6 +5,7 @@ $previewVersion = max(
     (int)@filemtime(__FILE__),
     (int)@filemtime(__DIR__ . '/templates/preview/knowledge_graph_workspace.php'),
     (int)@filemtime(__DIR__ . '/templates/preview/coexpression_workspace.php'),
+    (int)@filemtime(__DIR__ . '/templates/preview/integrated_graph_workspace.php'),
     (int)@filemtime(tekg_assets_fs_path('css/components/te-autocomplete.css')),
     (int)@filemtime(tekg_assets_fs_path('css/pages/preview.css')),
     (int)@filemtime(tekg_assets_fs_path('js/components/te-autocomplete.js')),
@@ -13,6 +14,7 @@ $previewVersion = max(
     (int)@filemtime(tekg_assets_fs_path('js/pages/preview/te-loader.js')),
     (int)@filemtime(tekg_assets_fs_path('js/pages/preview/preview-deepthink.js')),
     (int)@filemtime(tekg_assets_fs_path('js/pages/preview/coexpression-mode.js')),
+    (int)@filemtime(tekg_assets_fs_path('js/pages/preview/integrated-mode.js')),
     (int)@filemtime(tekg_assets_fs_path('js/pages/preview/preview-workspace-mode.js')),
     (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/index-g6-type-meta.js')),
     (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/default-tree-mindmap.js')),
@@ -20,6 +22,7 @@ $previewVersion = max(
     (int)@filemtime(tekg_assets_fs_path('js/renderers/canvas-force/disease-classification-adapter.js')),
     (int)@filemtime(tekg_assets_fs_path('html/preview_g6_embed.html')),
     (int)@filemtime(tekg_assets_fs_path('html/preview_coexpression_embed.html')),
+    (int)@filemtime(tekg_assets_fs_path('html/preview_integrated_embed.html')),
     (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/g6-svg-export.js')),
     (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/index-g6.bootstrap.js')),
     (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/index-g6-shared.js')),
@@ -27,7 +30,10 @@ $previewVersion = max(
     (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/coexpression/coexpression-contract.js')),
     (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/coexpression/coexpression-dynamic-adapter.js')),
     (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/coexpression/coexpression-renderer.js')),
-    (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/coexpression/coexpression-embed.js'))
+    (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/coexpression/coexpression-embed.js')),
+    (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/integrated/integrated-contract.js')),
+    (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/integrated/integrated-adapter.js')),
+    (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/integrated/integrated-embed.js'))
 );
 $pageTitle = TEKG_PRODUCT_NAME . ' Graph';
 $activePage = 'preview';
@@ -66,6 +72,7 @@ $previewConfig = [
           <div class="preview-workspace-mode" id="previewWorkspaceMode" role="tablist" aria-label="Graph workspace mode">
             <button id="preview-mode-knowledge" class="preview-workspace-mode-tab is-active" type="button" role="tab" aria-controls="previewGraphWorkspace" aria-selected="true" aria-pressed="true">Knowledge Graph</button>
             <button id="preview-mode-coexpression" class="preview-workspace-mode-tab" type="button" role="tab" aria-controls="previewCoexpressionWorkspace" aria-selected="false" aria-pressed="false">TE-Gene Graph</button>
+            <button id="preview-mode-integrated" class="preview-workspace-mode-tab" type="button" role="tab" aria-controls="previewIntegratedWorkspace" aria-selected="false" aria-pressed="false">Integrated Graph</button>
           </div>
           <button id="back-graph" class="preview-graph-command" type="button" disabled hidden><span id="back-text">Back</span></button>
         </div>
@@ -75,6 +82,7 @@ $previewConfig = [
 
 <?php require __DIR__ . '/templates/preview/knowledge_graph_workspace.php'; ?>
 <?php require __DIR__ . '/templates/preview/coexpression_workspace.php'; ?>
+<?php require __DIR__ . '/templates/preview/integrated_graph_workspace.php'; ?>
 
         <div class="qa-overlay-layer side-dt preview-side-dt-root is-open" id="qaOverlay">
           <aside class="qa-drawer side-dt-drawer" id="qaDrawer">
@@ -87,7 +95,6 @@ $previewConfig = [
                     <p class="preview-deepthink-status" id="previewDeepThinkStatus">Ready</p>
                   </div>
                   <div class="preview-deepthink-actions">
-                    <button class="preview-deepthink-clear side-dt-close" id="previewDeepThinkClearGraph" type="button">Back</button>
                     <button class="side-dt-minimize" id="previewDeepThinkMinimize" type="button" aria-label="Minimize Deep Think assistant" title="Minimize">-</button>
                   </div>
                 </header>
@@ -136,7 +143,11 @@ $previewConfig = [
       <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/preview/te-loader.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
       <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/index-g6.bootstrap.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
       <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/coexpression/coexpression-contract.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
+      <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/coexpression/coexpression-dynamic-adapter.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
+      <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/integrated/integrated-contract.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
+      <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/integrated/integrated-adapter.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
       <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/preview/coexpression-mode.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
+      <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/preview/integrated-mode.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
       <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/preview/preview-workspace-mode.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
       <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/preview/preview-shell.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>
       <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/preview/preview-deepthink.js') . '?v=' . $previewVersion, ENT_QUOTES, 'UTF-8') ?>"></script>

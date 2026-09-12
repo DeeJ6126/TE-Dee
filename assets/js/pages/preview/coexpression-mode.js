@@ -7,6 +7,7 @@
   if (!contract || !paths || !workspace) return;
 
   const CACHE_LIMIT = 6;
+  const PREFERRED_CONTEXT = 'normal_tissue';
   const LOADING_STATES = new Set(['loading-catalog', 'loading-network', 'loading-iframe', 'rendering']);
   const els = {
     te: document.getElementById('coexpression-te-search'),
@@ -278,7 +279,7 @@
   function enableFeatureInput() {
     els.te.disabled = false;
     els.searchType.disabled = false;
-    els.load.disabled = false;
+    els.load.disabled = !itemForFeature(els.te.value, els.searchType.value);
   }
 
   function itemForFeature(feature, featureType = els.searchType?.value) {
@@ -318,11 +319,31 @@
     els.context.replaceChildren(fragment);
     const nextContext = available.has(preferredContext)
       ? preferredContext
-      : (available.has(catalog.defaultSelection.context) ? catalog.defaultSelection.context : [...available][0] || '');
+      : (available.has(PREFERRED_CONTEXT)
+        ? PREFERRED_CONTEXT
+        : (available.has(catalog.defaultSelection.context) ? catalog.defaultSelection.context : [...available][0] || ''));
     els.context.value = nextContext;
     els.context.disabled = !item || !nextContext;
     currentAvailableContexts = item ? item.availableContexts.slice() : [];
     return nextContext;
+  }
+
+  function syncPendingFeatureControls(preferredContext = PREFERRED_CONTEXT) {
+    const type = syncSearchType(els.searchType.value);
+    const item = itemForFeature(els.te.value, type);
+    if (!item) {
+      els.context.disabled = true;
+      els.load.disabled = true;
+      return null;
+    }
+    const context = populateContextOptions(item, preferredContext);
+    els.load.disabled = !context;
+    if (currentState === 'awaiting-selection') setState('idle');
+    return {
+      feature: featureItemName(item, type),
+      featureType: type,
+      context,
+    };
   }
 
   function loadCatalog() {
@@ -468,13 +489,18 @@
     option.textContent = `Select a ${type} first`;
     els.context.replaceChildren(option);
     els.context.disabled = true;
+    els.load.disabled = true;
     els.te.value = '';
     currentSelection = null;
     stableSelection = null;
     currentAvailableContexts = [];
     currentNetwork = null;
     currentNonblank = false;
-    setState('awaiting-selection', `Select a ${type} to explore its co-expression network.`);
+    if (type === 'Gene') {
+      setState('idle');
+    } else {
+      setState('awaiting-selection', `Select a ${type} to explore its co-expression network.`);
+    }
   }
 
   async function activate(options = {}) {
@@ -980,25 +1006,25 @@
     syncSearchType(els.searchType.value);
     awaitFeatureSelection(els.searchType.value);
   });
+  els.te.addEventListener('input', () => {
+    syncPendingFeatureControls();
+  });
   els.te.addEventListener('change', () => {
-    const item = itemForFeature(els.te.value, els.searchType.value);
-    if (item) {
-      populateContextOptions(item, els.context.value);
-      return;
-    }
-    els.context.disabled = true;
+    syncPendingFeatureControls();
   });
   els.load.addEventListener('click', () => {
+    const pending = syncPendingFeatureControls(els.context.value || PREFERRED_CONTEXT);
+    if (!pending) return;
     const coordinator = window.__TEKG_PREVIEW_WORKSPACE_MODE;
     if (coordinator && typeof coordinator.requestCoexpressionSelection === 'function') {
       void coordinator.requestCoexpressionSelection({
-        feature: els.te.value,
-        featureType: normalizeFeatureType(els.searchType.value),
-        context: els.context.value,
+        feature: pending.feature,
+        featureType: pending.featureType,
+        context: pending.context,
       }, { history: 'push' });
       return;
     }
-    void activate({ feature: els.te.value, featureType: normalizeFeatureType(els.searchType.value), context: els.context.value });
+    void activate(pending);
   });
   els.te.addEventListener('keydown', (event) => {
     if (event.key !== 'Enter') return;

@@ -15,6 +15,7 @@ def main() -> None:
     workspace = read("templates/preview/coexpression_workspace.php")
     embed = read("assets/js/renderers/g6/coexpression/coexpression-embed.js")
     shell = read("assets/js/pages/preview/preview-shell.js")
+    integrated = read("assets/js/pages/preview/integrated-mode.js")
 
     loader_path = ROOT / "assets/js/pages/preview/te-loader.js"
     require(loader_path.exists(), "The shared TE Loader module is missing.")
@@ -77,6 +78,12 @@ def main() -> None:
         "preview-workspace-mode-change" in shell
         and ":not([hidden])" in shell,
         "DeepThink bounds are not anchored to the visible workspace.",
+    )
+    require(
+        "integrated-graph-frame" in integrated
+        and "coexpression-graph-frame" not in integrated
+        and "g6-dynamic-frame" not in integrated,
+        "Integrated Graph does not own a separate third iframe.",
     )
 
     ok("Preview dual-mode parity and state ownership contracts passed")

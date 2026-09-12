@@ -79,6 +79,13 @@ Compact routing reference for LLM planners. Plugin names below are exact default
 - **requires:** TE entity from normalized entities or Graph Plugin fallback; expression runtime and MySQL.
 - **evidence boundary:** Returned profiles summarize available runtime data. `partial`, `empty`, or connection errors are system states, not biological negatives.
 
+### eQTL Plugin
+- **purpose:** Retrieve GTEx v11 variant-gene-tissue associations for variants whose reference intervals strictly overlap mapped TE instances.
+- **use when:** The user explicitly asks for a TE's eQTL, QTL, expression quantitative trait locus, associated variants, genes, tissues, effect slopes, or nominal p values.
+- **do not use as:** Proof that the TE itself causally regulates the associated gene, a co-expression lookup, or a genome-wide QTL search outside mapped TE instances.
+- **requires:** A normalized TE entity and the active validated GTEx v11 strict TE-overlap tables in MySQL.
+- **evidence boundary:** Rows are statistical variant-gene associations conditioned on strict positional overlap between the variant reference interval and a mapped TE instance. Representative rows are ordered by ascending nominal p value; empty or unavailable results are not biological negatives.
+
 ### Genome Plugin
 - **purpose:** Retrieve TE genomic hit summaries, representative loci, sample hits, and JBrowse URLs.
 - **use when:** The question asks about loci, chromosomes, genomic context, coordinates, or JBrowse.

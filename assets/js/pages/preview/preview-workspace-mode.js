@@ -3,10 +3,12 @@
 
   const knowledgeWorkspace = document.getElementById('previewGraphWorkspace');
   const coexpressionWorkspace = document.getElementById('previewCoexpressionWorkspace');
+  const integratedWorkspace = document.getElementById('previewIntegratedWorkspace');
   const workspaceControl = document.getElementById('previewWorkspaceMode');
   const topControls = workspaceControl?.closest('.preview-top-controls');
   const knowledgeTab = document.getElementById('preview-mode-knowledge');
   const coexpressionTab = document.getElementById('preview-mode-coexpression');
+  const integratedTab = document.getElementById('preview-mode-integrated');
   const taxonomyControl = document.getElementById('previewTaxonomyMode');
   const taxonomyDisplayControl = document.getElementById('previewTaxonomyDisplayMode');
   const taxonomyTreeTab = document.getElementById('preview-taxonomy-display-tree');
@@ -15,19 +17,21 @@
   const taxonomyRmskRepbaseTab = document.getElementById('preview-taxonomy-rmsk-repbase');
   const knowledgeToolbar = knowledgeWorkspace?.querySelector('.preview-graph-toolbar');
   const coexpressionToolbar = coexpressionWorkspace?.querySelector('.preview-graph-toolbar');
+  const integratedToolbar = integratedWorkspace?.querySelector('.preview-graph-toolbar');
   const edgeLabelsButton = document.getElementById('toggle-edge-labels');
   const coexpressionContextControl = coexpressionWorkspace?.querySelector('.coexpression-context-control');
   const coexpressionExpressionButton = document.getElementById('coexpression-expression-layer');
   const sharedBack = document.getElementById('back-graph');
   const sharedBackText = document.getElementById('back-text');
   const coexpressionMode = window.__TEKG_COEXPRESSION_MODE;
+  const integratedMode = window.__TEKG_INTEGRATED_MODE;
   if (
-    !knowledgeWorkspace || !coexpressionWorkspace || !workspaceControl || !topControls
-    || !knowledgeTab || !coexpressionTab || !taxonomyControl || !taxonomyDisplayControl
+    !knowledgeWorkspace || !coexpressionWorkspace || !integratedWorkspace || !workspaceControl || !topControls
+    || !knowledgeTab || !coexpressionTab || !integratedTab || !taxonomyControl || !taxonomyDisplayControl
     || !taxonomyTreeTab || !taxonomyGraphTab || !taxonomyAllTab
-    || !taxonomyRmskRepbaseTab || !knowledgeToolbar || !coexpressionToolbar
+    || !taxonomyRmskRepbaseTab || !knowledgeToolbar || !coexpressionToolbar || !integratedToolbar
     || !edgeLabelsButton || !coexpressionContextControl || !coexpressionExpressionButton || !sharedBack
-    || !sharedBackText || !coexpressionMode
+    || !sharedBackText || !coexpressionMode || !integratedMode
   ) return;
 
   let currentMode = 'knowledge';
@@ -42,6 +46,7 @@
   let restoringBrowserRoute = false;
 
   function normalizeBackTarget(selection = {}) {
+    selection = selection || {};
     const mode = String(selection.mode || '').trim();
     if (selection.kind === 'taxonomy' || mode === 'tree' || mode === 'taxonomy_graph') {
       return {
@@ -89,6 +94,11 @@
   }
 
   function updateSharedBackButton() {
+    if (currentMode === 'integrated') {
+      sharedBack.hidden = true;
+      sharedBack.disabled = true;
+      return;
+    }
     if (currentMode !== 'coexpression') {
       window.__TEKG_G6_BRIDGE?.refreshBackButton?.();
       return;
@@ -163,6 +173,9 @@
     if (mode === 'coexpression') {
       coexpressionToolbar.insertBefore(topControls, coexpressionContextControl);
       coexpressionToolbar.insertBefore(sharedBack, coexpressionExpressionButton);
+    } else if (mode === 'integrated') {
+      integratedToolbar.insertBefore(topControls, integratedToolbar.firstChild);
+      topControls.appendChild(sharedBack);
     } else {
       knowledgeToolbar.insertBefore(topControls, edgeLabelsButton);
       topControls.appendChild(sharedBack);
@@ -184,13 +197,18 @@
 
   function setWorkspaceVisibility(mode) {
     const showKnowledge = mode === 'knowledge';
+    const showCoexpression = mode === 'coexpression';
+    const showIntegrated = mode === 'integrated';
     placeTopControls(mode);
     knowledgeWorkspace.hidden = !showKnowledge;
     knowledgeWorkspace.setAttribute('aria-hidden', showKnowledge ? 'false' : 'true');
-    coexpressionWorkspace.hidden = showKnowledge;
-    coexpressionWorkspace.setAttribute('aria-hidden', showKnowledge ? 'true' : 'false');
+    coexpressionWorkspace.hidden = !showCoexpression;
+    coexpressionWorkspace.setAttribute('aria-hidden', showCoexpression ? 'false' : 'true');
+    integratedWorkspace.hidden = !showIntegrated;
+    integratedWorkspace.setAttribute('aria-hidden', showIntegrated ? 'false' : 'true');
     updateTab(knowledgeTab, showKnowledge);
-    updateTab(coexpressionTab, !showKnowledge);
+    updateTab(coexpressionTab, showCoexpression);
+    updateTab(integratedTab, showIntegrated);
     syncTopControlVisibility();
     updateSharedBackButton();
   }
@@ -209,7 +227,7 @@
   }
 
   function clearGraphParams(url) {
-    ['mode', 'te', 'gene', 'context', 'q', 'type', 'class', 'tree', 'taxonomy', 'nodes', 'relations', 'min_pmids'].forEach((key) => {
+    ['mode', 'te', 'gene', 'context', 'q', 'type', 'class', 'tree', 'taxonomy', 'nodes', 'relations', 'min_pmids', 'te_gene_edges', 'expression'].forEach((key) => {
       url.searchParams.delete(key);
     });
     return url;
@@ -306,11 +324,47 @@
     return url;
   }
 
+  function routeForIntegrated(selection = {}) {
+    selection = selection || {};
+    const url = clearGraphParams(new URL(window.location.href));
+    url.searchParams.set('mode', 'integrated');
+    const feature = String(selection.feature || selection.q || selection.query || '').trim();
+    const featureType = String(selection.featureType || selection.type || 'TE').trim() || 'TE';
+    const context = String(selection.context || '').trim();
+    if (feature) url.searchParams.set('q', feature);
+    if (featureType) url.searchParams.set('type', featureType);
+    if (context && context !== 'normal_tissue') url.searchParams.set('context', context);
+    serializeAppliedRouteValue(url, 'nodes', selection.nodeTypes, selection.visibleTypes);
+    serializeAppliedRouteValue(url, 'relations', selection.relationTypes, selection.visibleRelations);
+    const minPmids = Math.max(0, Number.parseInt(selection.minPmids || '0', 10) || 0);
+    if (minPmids > 0) url.searchParams.set('min_pmids', String(minPmids));
+    if (selection.edgeScope === 'center') url.searchParams.set('te_gene_edges', 'center');
+    if (selection.expressionEnabled === false) url.searchParams.set('expression', 'off');
+    return url;
+  }
+
+  function integratedRouteFromParams(params) {
+    return {
+      feature: params.get('q') || undefined,
+      featureType: params.get('type') || 'TE',
+      context: params.get('context') || undefined,
+      routeFilters: {
+        nodes: parseAppliedRouteValue(params, 'nodes'),
+        relations: parseAppliedRouteValue(params, 'relations'),
+        minPmids: params.has('min_pmids')
+          ? Math.max(0, Number.parseInt(params.get('min_pmids') || '0', 10) || 0)
+          : 0,
+        edgeScope: params.get('te_gene_edges') === 'center' ? 'center' : 'all',
+        expressionEnabled: params.get('expression') !== 'off',
+      },
+    };
+  }
+
   function writeRoute(action, state) {
     if (action !== 'push' && action !== 'replace') return false;
     const url = state.mode === 'coexpression'
       ? routeForCoexpression(state.selection)
-      : routeForKnowledge(state.knowledge);
+      : (state.mode === 'integrated' ? routeForIntegrated(state.selection) : routeForKnowledge(state.knowledge));
     const next = `${url.pathname}${url.search}${url.hash}`;
     const current = `${window.location.pathname}${window.location.search}${window.location.hash}`;
     if (next === current) return false;
@@ -387,29 +441,40 @@
   }
 
   async function setMode(mode, options = {}) {
-    const requestedMode = mode === 'coexpression' ? 'coexpression' : 'knowledge';
+    const requestedMode = ['coexpression', 'integrated'].includes(mode) ? mode : 'knowledge';
+    const previousMode = currentMode;
     const epoch = ++transitionEpoch;
     const changed = requestedMode !== currentMode;
-    const explicitFeatureType = String(options.featureType || (options.gene ? 'Gene' : 'TE')).toLowerCase() === 'gene' ? 'Gene' : 'TE';
+    const rawFeatureType = String(options.featureType || options.type || (options.gene ? 'Gene' : 'TE')).trim() || 'TE';
+    const explicitFeatureType = requestedMode === 'integrated'
+      ? rawFeatureType
+      : (rawFeatureType.toLowerCase() === 'gene' ? 'Gene' : 'TE');
     const explicitFeature = String(options.feature || options.gene || options.te || '').trim();
     const explicitContext = String(options.context || '').trim();
 
     if (requestedMode === 'knowledge') {
       const coexpressionState = coexpressionMode.getDiagnostics();
+      const integratedSelection = integratedMode.getSelection();
       const hasStableCoexpressionView = ['ready', 'empty', 'unavailable'].includes(
         coexpressionState.state,
       );
-      const coexpressionSelection = !options.restoreRoute && hasStableCoexpressionView
+      const coexpressionSelection = !options.restoreRoute && previousMode === 'integrated'
+        ? integratedSelection
+        : (!options.restoreRoute && hasStableCoexpressionView
         ? (coexpressionState.stableSelection || coexpressionState.selection)
-        : null;
+        : null);
       currentMode = 'knowledge';
       if (changed) switchCount += 1;
       setWorkspaceVisibility('knowledge');
       await coexpressionMode.deactivate();
+      await integratedMode.deactivate();
       if (epoch !== transitionEpoch) return currentMode;
 
       const selectedFeature = String(coexpressionSelection?.feature || coexpressionSelection?.gene || coexpressionSelection?.te || '').trim();
-      const selectedFeatureType = String(coexpressionSelection?.featureType || coexpressionSelection?.feature_type || (coexpressionSelection?.gene ? 'Gene' : 'TE')).toLowerCase() === 'gene' ? 'Gene' : 'TE';
+      const rawSelectedFeatureType = String(coexpressionSelection?.featureType || coexpressionSelection?.feature_type || (coexpressionSelection?.gene ? 'Gene' : 'TE')).trim() || 'TE';
+      const selectedFeatureType = previousMode === 'integrated'
+        ? rawSelectedFeatureType
+        : (rawSelectedFeatureType.toLowerCase() === 'gene' ? 'Gene' : 'TE');
       if (selectedFeature) {
         const knowledge = {
           mode: 'dynamic',
@@ -457,6 +522,42 @@
       return currentMode;
     }
 
+    if (requestedMode === 'integrated') {
+      let accepted = explicitFeature ? {
+        feature: explicitFeature,
+        featureType: explicitFeatureType,
+        context: explicitContext,
+        routeFilters: options.routeFilters,
+      } : null;
+      if (!accepted && currentMode === 'knowledge') {
+        const state = window.__TEKG_G6_BRIDGE?.getState?.() || retainedKnowledgeState || {};
+        if (String(state.mode || '') === 'dynamic' && state.query) {
+          accepted = { feature: state.query, featureType: state.queryType || 'TE', context: explicitContext };
+        }
+      }
+      if (!accepted && currentMode === 'coexpression') {
+        accepted = coexpressionMode.getDiagnostics().selection || null;
+      }
+      if (!accepted && currentMode === 'knowledge') {
+        try { accepted = await integratedMode.getDefaultSelection(); } catch (_error) {}
+      }
+      if (!accepted && currentMode === 'integrated') accepted = integratedMode.getSelection();
+      currentMode = 'integrated';
+      if (changed) switchCount += 1;
+      setWorkspaceVisibility('integrated');
+      await coexpressionMode.deactivate();
+      if (accepted && accepted.feature) {
+        const loaded = await integratedMode.activate(accepted);
+        if (loaded) writeRoute(options.history || 'replace', { mode: 'integrated', selection: loaded });
+      } else {
+        writeRoute(options.history, { mode: 'integrated', selection: null });
+        await integratedMode.resume();
+      }
+      if (epoch !== transitionEpoch) return currentMode;
+      notifyModeChange();
+      return currentMode;
+    }
+
     let selection = explicitFeature ? {
       feature: explicitFeature,
       featureType: explicitFeatureType,
@@ -467,7 +568,12 @@
       selection = await selectionFromKnowledge({ context: explicitContext });
       if (epoch !== transitionEpoch) return currentMode;
     }
-    if (!selection) {
+    if (!selection && previousMode === 'integrated') {
+      const retained = integratedMode.getSelection();
+      const retainedType = String(retained?.featureType || '').toLowerCase();
+      if (retained && (retainedType === 'te' || retainedType === 'gene')) selection = { ...retained };
+    }
+    if (!selection && previousMode !== 'integrated') {
       const retained = coexpressionMode.getDiagnostics().selection;
       if (retained?.feature || retained?.gene || retained?.te) selection = { ...retained };
     }
@@ -481,6 +587,7 @@
     currentMode = 'coexpression';
     if (changed) switchCount += 1;
     setWorkspaceVisibility('coexpression');
+    await integratedMode.deactivate();
     const selectedFeature = String(selection?.feature || selection?.gene || selection?.te || '').trim();
     const selectedFeatureType = String(selection?.featureType || selection?.feature_type || (selection?.gene ? 'Gene' : 'TE')).toLowerCase() === 'gene' ? 'Gene' : 'TE';
     if (selectedFeature) {
@@ -529,6 +636,16 @@
     });
   }
 
+  function requestIntegratedSelection(selection, options = {}) {
+    return setMode('integrated', {
+      feature: selection?.feature || selection?.q || selection?.query,
+      featureType: selection?.featureType || selection?.type || 'TE',
+      context: selection?.context,
+      routeFilters: selection?.routeFilters,
+      history: options.history || 'push',
+    });
+  }
+
   function ensureKnowledgeForGraphAction() {
     return setMode('knowledge');
   }
@@ -545,8 +662,10 @@
       switchCount,
       knowledgeVisible: !knowledgeWorkspace.hidden,
       coexpressionVisible: !coexpressionWorkspace.hidden,
+      integratedVisible: !integratedWorkspace.hidden,
       knowledgeSelected: knowledgeTab.getAttribute('aria-selected') === 'true',
       coexpressionSelected: coexpressionTab.getAttribute('aria-selected') === 'true',
+      integratedSelected: integratedTab.getAttribute('aria-selected') === 'true',
       pendingKnowledgeLoads,
       sharedBackHistory: sharedBackHistory.map((item) => ({ ...item })),
     };
@@ -564,6 +683,9 @@
   }, true);
   coexpressionTab.addEventListener('click', () => {
     void setMode('coexpression', { history: 'push' });
+  });
+  integratedTab.addEventListener('click', () => {
+    void setMode('integrated', { history: 'push' });
   });
   taxonomyAllTab.addEventListener('click', () => {
     void setTreeVariant('all', { history: 'push' });
@@ -604,12 +726,14 @@
     });
   });
 
-  [knowledgeTab, coexpressionTab].forEach((tab) => {
+  [knowledgeTab, coexpressionTab, integratedTab].forEach((tab) => {
     tab.addEventListener('keydown', (event) => {
       if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
       event.preventDefault();
-      const nextMode = currentMode === 'knowledge' ? 'coexpression' : 'knowledge';
-      (nextMode === 'knowledge' ? knowledgeTab : coexpressionTab).focus();
+      const modes = ['knowledge', 'coexpression', 'integrated'];
+      const offset = event.key === 'ArrowRight' ? 1 : -1;
+      const nextMode = modes[(modes.indexOf(currentMode) + offset + modes.length) % modes.length];
+      ({ knowledge: knowledgeTab, coexpression: coexpressionTab, integrated: integratedTab })[nextMode].focus();
       void setMode(nextMode, { history: 'push' });
     });
   });
@@ -617,6 +741,7 @@
   window.__TEKG_PREVIEW_WORKSPACE_MODE = {
     setMode,
     requestCoexpressionSelection,
+    requestIntegratedSelection,
     goBackEntity,
     navigateGraph,
     getMode: () => currentMode,
@@ -627,6 +752,7 @@
     getTaxonomyDisplayMode: () => window.__TEKG_G6_BRIDGE?.getTaxonomyDisplayMode?.() || 'tree',
     routeForKnowledge,
     routeForCoexpression,
+    routeForIntegrated,
     writeRoute,
   };
 
@@ -645,6 +771,11 @@
       context: params.get('context') || undefined,
       history: 'none',
     });
+  } else if (params.get('mode') === 'integrated') {
+    void setMode('integrated', {
+      ...integratedRouteFromParams(params),
+      history: 'none',
+    });
   }
 
   window.addEventListener('popstate', () => {
@@ -657,6 +788,16 @@
         feature: gene || route.get('te') || undefined,
         featureType: gene ? 'Gene' : 'TE',
         context: route.get('context') || undefined,
+        history: 'none',
+      }).finally(() => {
+        restoringBrowserRoute = false;
+        resetSharedBackHistory();
+      });
+      return;
+    }
+    if (route.get('mode') === 'integrated') {
+      void setMode('integrated', {
+        ...integratedRouteFromParams(route),
         history: 'none',
       }).finally(() => {
         restoringBrowserRoute = false;

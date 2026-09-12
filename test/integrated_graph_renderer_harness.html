@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Integrated Graph renderer harness</title><style>html,body,iframe{width:100%;height:100%;margin:0;border:0}</style></head>
+<body>
+  <iframe id="harness-frame" src="../assets/html/preview_integrated_embed.html"></iframe>
+  <script src="../assets/js/renderers/g6/integrated/integrated-contract.js"></script>
+  <script>
+    window.__TEKG_INTEGRATED_GRAPH_HOST = { setStatus: function(){}, setDetail: function(){}, setDetailHtml: function(){},
+      onSelection: function(){}, onNodeExpand: function(){ return false; }, onNodeJump: function(){ return false; },
+      onReady: function(){}, onNonblank: function(report){ window.__INTEGRATED_HARNESS_REPORT = report; },
+      onError: function(message){ window.__INTEGRATED_HARNESS_ERROR = message; } };
+    const frame = document.getElementById('harness-frame');
+    frame.addEventListener('load', function () {
+      const wait = window.setInterval(async function () {
+        const bridge = frame.contentWindow && frame.contentWindow.__TEKG_INTEGRATED_EMBED;
+        if (!bridge) return;
+        window.clearInterval(wait);
+        const merged = window.__TEKG_INTEGRATED_CONTRACT.mergeSourceElements({
+          knowledgeElements: [
+            {data:{id:'kg-te',label:'L1HS',rawLabel:'L1HS',type:'TE'}},
+            {data:{id:'kg-gene',label:'IFI16',rawLabel:'IFI16',type:'Gene'}},
+            {data:{id:'kg-edge',source:'kg-te',target:'kg-gene',relation:'regulates',relationType:'REGULATES',pmids:['1']}}
+          ],
+          teGeneElements: [
+            {data:{id:'te',label:'L1HS',rawLabel:'L1HS',type:'TE',coexpression:true,coexpressionIsCenter:true}},
+            {data:{id:'gene',label:'IFI16',rawLabel:'IFI16',type:'Gene',coexpression:true}},
+            {data:{id:'co-edge',source:'te',target:'gene',relation:'Both',relationType:'Both',coexpression:true,correlation:0.8,fdr:0.01}}
+          ]
+        });
+        await bridge.renderElements(merged,{query:'L1HS',queryType:'TE'},{showEdgeLabels:true});
+        window.__INTEGRATED_HARNESS_ELEMENTS = merged;
+        window.__INTEGRATED_HARNESS_READY = true;
+      }, 50);
+    });
+  </script>
+</body>
+</html>

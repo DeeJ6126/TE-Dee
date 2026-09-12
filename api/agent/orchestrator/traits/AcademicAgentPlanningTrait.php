@@ -123,6 +123,17 @@ trait TekgAcademicAgentPlanningTrait
             ];
         }
 
+        if (($analysis['asks_for_eqtl'] ?? false) || $intent === 'eqtl') {
+            $gaps[] = [
+                'gap_type' => $zh ? 'eQTL 关联' : 'eQTL associations',
+                'why_needed' => $zh
+                    ? '回答需要查询与已映射 TE 实例严格重叠的 GTEx 变异-基因关联。'
+                    : 'The answer needs GTEx variant-gene associations whose variants strictly overlap mapped TE instances.',
+                'priority' => 78,
+                'candidate_tools' => ['eQTL Plugin'],
+            ];
+        }
+
         if (($analysis['asks_for_genome'] ?? false) || $intent === 'genome') {
             $gaps[] = [
                 'gap_type' => $zh ? '基因组位点' : 'genomic loci',
@@ -203,6 +214,7 @@ trait TekgAcademicAgentPlanningTrait
             'Literature Reading Plugin' => 60,
             'Tree Plugin' => 70,
             'Expression Plugin' => 80,
+            'eQTL Plugin' => 82,
             'Genome Plugin' => 90,
             'Sequence Plugin' => 100,
             'Citation Resolver' => 110,

@@ -113,6 +113,7 @@ projections retain `generation_mode`, so metadata-only fallback is visible.
 | Literature Reading Plugin | Cluster citation-level claims | Citations + LLM | Yes | Title/abstract synthesis can over-claim |
 | Tree Plugin | TE/disease classification context | Taxonomy runtime | No | Classification context is not mechanism evidence |
 | Expression Plugin | TE expression context | Expression runtime/MySQL | No | Runtime failure must not be read as no expression |
+| eQTL Plugin | TE-overlapping GTEx associations | MySQL GTEx v11 eQTL tables | No | Variant overlap and association do not alone establish a TE-mediated mechanism |
 | Genome Plugin | Representative loci and JBrowse links | JBrowse hit JSON | No | Representative locus is not all loci |
 | Sequence Plugin | Repbase-backed sequence records | Processed Repbase match | No | Structure hints are not strict classification |
 | Citation Resolver | Normalize and deduplicate citations | Upstream citations | No | Does not verify claim support |

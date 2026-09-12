@@ -65,6 +65,7 @@ manufacture supported claims from titles.
 - Literature Reading Plugin
 - Tree Plugin
 - Expression Plugin
+- eQTL Plugin
 - Genome Plugin
 - Sequence Plugin
 - Citation Resolver

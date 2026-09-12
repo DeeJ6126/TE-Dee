@@ -384,6 +384,7 @@ trait TekgAcademicAgentEvidenceTrait
             'Site Navigator Plugin' => (bool)($analysis['asks_for_site_navigation'] ?? false),
             'Tree Plugin' => (bool)($analysis['asks_for_classification'] ?? false),
             'Expression Plugin' => (bool)($analysis['asks_for_expression'] ?? false),
+            'eQTL Plugin' => (bool)($analysis['asks_for_eqtl'] ?? false),
             'Genome Plugin' => (bool)($analysis['asks_for_genome'] ?? false),
             'Sequence Plugin' => (bool)($analysis['asks_for_sequence'] ?? false),
             'Graph Analytics Plugin' => (bool)($analysis['asks_for_graph_analytics'] ?? false),
@@ -411,7 +412,7 @@ trait TekgAcademicAgentEvidenceTrait
 
     private function isHardStopIntent(string $intent): bool
     {
-        return in_array($intent, ['sequence', 'relationship', 'classification', 'expression', 'genome', 'graph_analytics'], true);
+        return in_array($intent, ['sequence', 'relationship', 'classification', 'expression', 'eqtl', 'genome', 'graph_analytics'], true);
     }
 
     private function evaluateHardStopCondition(array $analysis, array $pluginResults, array $routingPolicy): ?array

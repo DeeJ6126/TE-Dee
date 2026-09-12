@@ -1,10 +1,10 @@
 # First-Draft Editorial Record
 
-Prepared 3-4 September 2026. This accompanies the [English draft](manuscript_en.md)
+Prepared 3-4 September 2026 and revised 8 September 2026. This accompanies the [English draft](manuscript_en.md)
 and [section-aligned Chinese translation](manuscript_zh.md); it is not manuscript
-text. The English draft contains 4,147 words before the references by the
+text. The English draft contains 3,806 words before the references by the
 bundled checker's token rule, including tables and author placeholders; the
-abstract contains 150 words. No figures are included.
+abstract contains 145 words. No figures are included.
 
 ## Writing Decisions
 
@@ -22,7 +22,7 @@ Data Overview separates the dated literature snapshot from the eQTL version.
 | MatKG | Connect extraction-quality claims to a recoverable review sample |
 
 The five original PDFs remain in [writing_examples](../writing_examples/README.md).
-They inform exposition, not the scientific evidence cited for TE-KG. The
+They inform exposition, not the scientific evidence cited for TE-Dee. The
 [current Scientific Data instructions](https://www.nature.com/sdata/submission-guidelines)
 were checked on 3 September 2026: the title avoids the dataset brand, colon and
 parentheses; the abstract is below 170 words; no Results, Discussion or
@@ -123,7 +123,7 @@ the [Nature Portfolio AI policy](https://www.nature.com/nature-portfolio/editori
   hashes and manifest arithmetic. [Draft checker](../scripts/check_first_draft.py)
   checks bilingual sections, citations, numeric literals, terminology tokens,
   tables and placeholders. Its output is [verification.json](verification.json).
-  Both passed on 4 September 2026: 118 legacy sources, ten retained copies,
+  Both passed initially on 4 September 2026; the bilingual draft checker was rerun successfully on 8 September 2026. The retained-source check reported 118 legacy sources, ten retained copies,
   nine official downloads and five paper PDFs were unchanged; 165 local links
   resolved. All 13 bilingual sections passed the mechanical consistency checks.
 - No bulk eQTL computation, database modification, website/SVG edit, Git commit

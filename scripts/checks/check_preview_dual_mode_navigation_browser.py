@@ -188,6 +188,26 @@ def main() -> None:
                 "te=L1HS" in page.url and "context=normal_tissue" in page.url,
                 f"Forward did not restore the canonical Co-expression route: {page.url}",
             )
+            page.evaluate(
+                """() => {
+                  window.__testKnowledgeFrameWindow = document.querySelector('#g6-dynamic-frame')?.contentWindow || null;
+                  window.__testCoexpressionFrameWindow = document.querySelector('#coexpression-graph-frame')?.contentWindow || null;
+                }"""
+            )
+            page.click("#preview-mode-integrated")
+            page.wait_for_function(
+                "() => window.__TEKG_PREVIEW_WORKSPACE_MODE.getMode() === 'integrated'",
+                timeout=30_000,
+            )
+            page.click("#preview-mode-coexpression")
+            wait_ready(page, "L1HS", "normal_tissue")
+            require(
+                page.evaluate(
+                    "() => window.__testKnowledgeFrameWindow === document.querySelector('#g6-dynamic-frame')?.contentWindow"
+                    " && window.__testCoexpressionFrameWindow === document.querySelector('#coexpression-graph-frame')?.contentWindow"
+                ),
+                "Visiting Integrated Graph replaced an existing graph iframe/G6 instance.",
+            )
             require(not errors, f"Browser errors: {errors[:5]}")
         finally:
             page.close()

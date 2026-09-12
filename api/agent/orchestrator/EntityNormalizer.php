@@ -39,7 +39,8 @@ final class TekgAgentEntityNormalizer
             'question_keywords' => $keywords,
             'question_tokens' => $tokens,
             'asks_for_papers' => $asksForPapers,
-            'asks_for_expression' => $this->containsAny($question, ['expression', 'expressed', 'cell line', 'cell lines', 'tissue', 'context', 'transcriptome', '表达', '组织', '细胞系', '转录组']),
+            'asks_for_eqtl' => $intent === 'eqtl',
+            'asks_for_expression' => $intent !== 'eqtl' && $this->containsAny($question, ['expression', 'expressed', 'cell line', 'cell lines', 'tissue', 'context', 'transcriptome', '表达', '组织', '细胞系', '转录组']),
             'asks_for_genome' => $intent !== 'expression' && $this->containsAny($question, ['genome', 'genomic', 'browser', 'locus', 'location', 'located', 'located at', 'where is', 'chromosome', 'chr', 'coordinate', '基因组', '基因组浏览器', '位点', '位置', '定位', '染色体', '坐标', '位于哪里', '位于哪', '位于', '在哪里', '在哪个染色体', '在哪条染色体', '哪个染色体', '哪条染色体', '基因组位置', '基因组坐标', '染色体位置']),
             'asks_for_classification' => $this->containsAny($question, ['classif', 'subfamily', 'family', 'tree', 'category', 'lineage', 'taxonomy', '分类', '亚家族', '家族', '树', '谱系']),
             'asks_for_sequence' => $this->containsAny($question, ['sequence', 'consensus', 'repbase', 'length', 'orf', 'orfs', 'utr', 'promoter', 'motif', 'structure', 'annotation', '序列', '共识序列', '长度', '结构', '注释', '启动子', '基序']),
@@ -196,6 +197,9 @@ final class TekgAgentEntityNormalizer
 
     private function detectIntent(string $question): string
     {
+        if ($this->containsAny($question, ['eqtl', 'e-qtl', 'expression quantitative trait locus', 'expression quantitative trait loci', 'qtl', '表达数量性状位点', '表达数量性状基因座', '数量性状位点'])) {
+            return 'eqtl';
+        }
         if ($this->containsAny($question, ['topology', 'topological', 'graph structure', 'largest number', 'most associated', 'most connected', 'highest degree', 'strongest', 'strongest association', 'graph association', 'rank', 'ranked', 'ranking', 'most common', 'node labels', 'cypher', 'graph exploration', 'relation type', 'relation types', 'distribution', '最多', '最大', '拓扑', '结构', '关联度', '关系类型'])) {
             return 'graph_analytics';
         }
@@ -240,7 +244,7 @@ final class TekgAgentEntityNormalizer
         if ($hasCompareWords || $intent === 'comparison' || $entityCount >= 2) {
             return 'multi_evidence_synthesis';
         }
-        if (in_array($intent, ['literature', 'classification', 'expression', 'genome', 'sequence'], true) || $targetCount >= 2) {
+        if (in_array($intent, ['literature', 'classification', 'expression', 'eqtl', 'genome', 'sequence'], true) || $targetCount >= 2) {
             return 'single_hop_reasoning';
         }
         return 'simple_lookup';
@@ -268,7 +272,7 @@ final class TekgAgentEntityNormalizer
             return $this->makeTaskComplexity('simple_lookup', 'deepthink', 'Direct site navigation covered by Deep Think.');
         }
 
-        if (in_array($intent, ['sequence', 'genome', 'expression', 'classification'], true) || $hasSiteNavigationWords) {
+        if (in_array($intent, ['sequence', 'genome', 'expression', 'eqtl', 'classification'], true) || $hasSiteNavigationWords) {
             return $this->makeTaskComplexity('simple_lookup', 'deepthink', 'Direct lookup covered by Deep Think.');
         }
 

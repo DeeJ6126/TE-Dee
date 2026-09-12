@@ -37,7 +37,7 @@ def main() -> None:
     assert_contains(shared, "Inspect card")
     assert_contains(shared, "showInspectCard('node', node, event, data)")
     assert_contains(shared, "showInspectCard('edge', edge, event, data)")
-    assert_contains(shared, "graph.on('canvas:click', () => {")
+    assert_contains(shared, ".on('canvas:click', () => {")
     assert_contains(shared, "hideInspectCard()")
     assert_contains(shared, "pmid: String(data.pmid || '')")
     assert_contains(shared, "taxonomy: data.taxonomy && typeof data.taxonomy === 'object' ? data.taxonomy : null")

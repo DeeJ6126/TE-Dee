@@ -118,7 +118,7 @@ assert.strictEqual(elements[0].data.degree, 1);
 assert.strictEqual(elements[2].data.degree, 2);
 assert.strictEqual(elements[0].data.preferProvidedDescription, true);
 assert.match(elements[0].data.description, /Selected TE/);
-assert.strictEqual(elements[3].data.relation, 'positive correlation');
+assert.strictEqual(elements[3].data.relation, 'Co-expression');
 assert.strictEqual(elements[3].data.correlation, 0.9);
 assert.match(elements[3].data.evidence, /Correlation does not imply causation/);
 assert.ok(
