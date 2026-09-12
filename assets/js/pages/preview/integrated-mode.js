@@ -13,9 +13,7 @@
     submit: document.getElementById('integrated-search-submit'),
     context: document.getElementById('integrated-context-select'),
     expression: document.getElementById('integrated-expression-layer'),
-    expand: document.getElementById('integrated-expand-mode'),
     labels: document.getElementById('integrated-edge-labels'),
-    fixed: document.getElementById('integrated-fixed-view'),
     exportToggle: document.getElementById('integrated-export-menu-toggle'),
     exportMenu: document.getElementById('integrated-export-menu'),
     exportCsv: document.getElementById('integrated-export-csv'),
@@ -25,8 +23,11 @@
     preloader: document.getElementById('integrated-preloader'),
     state: document.getElementById('integrated-state'),
     legend: document.getElementById('integrated-legend'),
+    legendTabs: Array.from(document.querySelectorAll('[data-integrated-legend-mode]')),
     legendList: document.getElementById('integrated-legend-list'),
+    relationControls: document.getElementById('integrated-relation-controls'),
     minPmids: document.getElementById('integrated-min-pmids'),
+    edgeScopeControl: document.getElementById('integrated-edge-scope-control'),
     edgeScope: document.getElementById('integrated-edge-scope'),
     detail: document.getElementById('integrated-node-details'),
   };
@@ -47,8 +48,7 @@
   let requestCounts = { knowledge: 0, teGene: 0, catalog: 0 };
   let expressionEnabled = true;
   let showLabels = false;
-  let fixedView = true;
-  let expandMode = false;
+  let activeLegendMode = 'entity';
   let visibleTypes = {};
   let visibleRelations = {};
   let renderCount = 0;
@@ -219,41 +219,135 @@
       }).slice(0, 180);
     });
   }
+  let currentLegendModel = null;
+
+  function setLegendMode(mode) {
+    activeLegendMode = mode === 'relation' ? 'relation' : 'entity';
+    const relationMode = activeLegendMode === 'relation';
+    els.legendTabs.forEach(function (tab) {
+      const active = tab.dataset.integratedLegendMode === activeLegendMode;
+      tab.classList.toggle('is-active', active);
+      tab.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+    els.relationControls.hidden = !relationMode;
+    els.edgeScopeControl.hidden = !relationMode || !sourceAvailability.te_gene;
+    renderLegendList();
+  }
+
   function renderLegend() {
-    const nodeTypes = new Map(); const relations = new Map();
+    const entityTypes = new Map();
+    const relations = new Map();
+    const typeMeta = window.__TEKG_G6_TYPE_META || {};
+    const typeColors = typeMeta.colors || {};
+    const typeLabels = typeMeta.labels || {};
+    const typeOrder = Array.isArray(typeMeta.legendOrder) ? typeMeta.legendOrder : [];
+    const fallbackEntityColors = ['#4e79ff', '#ff7a7a', '#41b883', '#8a7cf8', '#59bfb6', '#72b6ff', '#ffb066', '#a98cf6'];
+
     masterElements.forEach(function (element) {
       const data = element.data || {};
       if (data.source && data.target) {
-        const key = String(data.relationKey || data.relationType || data.relation || 'Relation');
-        relations.set(key, (relations.get(key) || 0) + 1);
-      } else {
-        const key = String(data.type || 'TE'); nodeTypes.set(key, (nodeTypes.get(key) || 0) + 1);
+        const relationType = String(data.relationType || '').trim();
+        const relation = String(data.relation || data.relationKey || relationType || 'RELATION').trim();
+        const classification = /CLASSIFIED_AS|HAS_SUBCATEGORY|TOP_CLASS_RELATION|DISEASE_CLASSIFICATION/i.test(relationType);
+        if (classification) {
+          visibleRelations[relation] = false;
+          return;
+        }
+        relations.set(relation, (relations.get(relation) || 0) + 1);
+        if (!(relation in visibleRelations)) visibleRelations[relation] = true;
+        return;
       }
+      const rawType = String(data.type || 'TE');
+      const type = rawType === 'DiseaseClass' || rawType === 'DiseaseCategory' ? 'Disease' : rawType;
+      const sources = data.integrated && Array.isArray(data.integrated.sources)
+        ? data.integrated.sources
+        : [data.sourceGraph || 'knowledge'];
+      const record = entityTypes.get(type) || { count: 0, sources: new Set() };
+      record.count += 1;
+      sources.forEach(function (source) { record.sources.add(source); });
+      entityTypes.set(type, record);
+      if (!(rawType in visibleTypes)) visibleTypes[rawType] = true;
     });
-    nodeTypes.forEach(function (_count, key) { if (!(key in visibleTypes)) visibleTypes[key] = true; });
-    relations.forEach(function (_count, key) { if (!(key in visibleRelations)) visibleRelations[key] = true; });
-    const rows = [];
+
+    currentLegendModel = { entityTypes: entityTypes, relations: relations, typeColors: typeColors, typeLabels: typeLabels, typeOrder: typeOrder, fallbackEntityColors: fallbackEntityColors };
+    renderLegendList();
+    els.legend.hidden = masterElements.length === 0;
+  }
+
+  function renderLegendList() {
+    if (!currentLegendModel) return;
+    const model = currentLegendModel;
     function html(value) {
       return String(value || '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
     }
-    function relationClass(key) {
-      if (key === 'Co-expression') return ' coexpression-edge-line';
-      if (key === 'eQTL') return ' coexpression-edge-line coexpression-edge-eqtl';
-      if (key === 'Both') return ' coexpression-edge-line coexpression-edge-both';
-      return '';
+    function hashString(input) {
+      let hash = 0;
+      const text = String(input || '');
+      for (let index = 0; index < text.length; index += 1) hash = ((hash << 5) - hash + text.charCodeAt(index)) | 0;
+      return Math.abs(hash);
     }
-    nodeTypes.forEach(function (count, key) {
-      rows.push('<label class="graph-legend-item" data-highlight-kind="entity" data-highlight-value="' + html(key) + '" tabindex="0" aria-pressed="false"><input class="graph-legend-check" type="checkbox" data-integrated-type="' + html(key) + '"' + (visibleTypes[key] !== false ? ' checked' : '') + '><span class="graph-legend-swatch"></span><span class="graph-legend-text">' + html(key) + '</span><span class="graph-legend-count">' + count + '</span></label>');
-    });
-    if (nodeTypes.has('TE') || nodeTypes.has('Gene')) {
-      rows.push('<div class="graph-legend-item coexpression-legend-static" data-highlight-kind="module-hub" data-highlight-value="module-hub" tabindex="0" aria-pressed="false"><span class="coexpression-module-hub-mark" aria-hidden="true"></span><span class="graph-legend-text">Module hub</span></div>');
-      rows.push('<div class="graph-legend-item coexpression-legend-static" data-highlight-kind="relative-expression" data-highlight-value="relative-expression" tabindex="0" aria-pressed="false"><span class="coexpression-expression-mark" aria-hidden="true"></span><span class="graph-legend-text">Relative expression activity</span></div>');
+    const relationColors = ['#2563eb', '#dc2626', '#059669', '#7c3aed', '#ea580c', '#0891b2', '#be123c', '#4f46e5', '#65a30d', '#9333ea'];
+    function relationStyle(relation) {
+      const fixed = {
+        'Co-expression': { color: '#2563eb', dashed: false },
+        eQTL: { color: '#d97706', dashed: false },
+        Both: { color: '#0f766e', dashed: false },
+      };
+      return fixed[relation] || {
+        color: relationColors[hashString(relation) % relationColors.length],
+        dashed: /CLASSIFICATION|CATEGORY|TAXONOMY|SYNTHETIC/i.test(relation),
+      };
     }
-    relations.forEach(function (count, key) {
-      rows.push('<label class="graph-legend-item" data-highlight-kind="relation" data-highlight-value="' + html(key) + '" tabindex="0" aria-pressed="false"><input class="graph-legend-check" type="checkbox" data-integrated-relation="' + html(key) + '"' + (visibleRelations[key] !== false ? ' checked' : '') + '><span class="graph-relation-line' + relationClass(key) + '"></span><span class="graph-legend-text">' + html(key) + '</span><span class="graph-legend-count">' + count + '</span></label>');
+    if (activeLegendMode === 'relation') {
+      const teGeneOrder = ['Co-expression', 'eQTL', 'Both'];
+      const relationNames = Array.from(model.relations.keys()).sort(function (left, right) {
+        const li = teGeneOrder.indexOf(left);
+        const ri = teGeneOrder.indexOf(right);
+        if (li >= 0 || ri >= 0) return (li >= 0 ? 100 + li : 0) - (ri >= 0 ? 100 + ri : 0);
+        return left.localeCompare(right);
+      });
+      const rows = relationNames.map(function (relation, index) {
+        const style = relationStyle(relation);
+        const checked = visibleRelations[relation] !== false ? ' checked' : '';
+        const active = activeLegendFocus && activeLegendFocus.kind === 'relation' && activeLegendFocus.value === relation
+          ? ' is-highlight-active'
+          : '';
+        const previous = index > 0 ? relationNames[index - 1] : '';
+        const divider = teGeneOrder.includes(relation) && !teGeneOrder.includes(previous) && index > 0
+          ? '<div class="coexpression-legend-divider" aria-hidden="true"></div>'
+          : '';
+        return divider + '<div class="graph-legend-item' + active + '" data-highlight-kind="relation" data-highlight-value="' + html(relation) + '"><input class="graph-legend-check" type="checkbox" data-integrated-relation="' + html(relation) + '" aria-label="' + html(relation) + '"' + checked + '><span class="graph-relation-line' + (style.dashed ? ' is-dashed' : '') + '" style="--legend-color:' + style.color + ';"></span><span class="graph-legend-text">' + html(relation) + '</span></div>';
+      });
+      els.legendList.innerHTML = rows.length ? rows.join('') : '<div class="graph-legend-empty">No relation types in the current graph.</div>';
+      return;
+    }
+
+    const orderedTypes = Array.from(model.entityTypes.keys()).sort(function (left, right) {
+      const li = model.typeOrder.indexOf(left); const ri = model.typeOrder.indexOf(right);
+      if (li >= 0 || ri >= 0) return (li >= 0 ? li : 999) - (ri >= 0 ? ri : 999);
+      return left.localeCompare(right);
     });
+    const rows = orderedTypes.map(function (type, index) {
+      const record = model.entityTypes.get(type);
+      const teGeneStyle = record.sources.has('te_gene');
+      const specialClass = teGeneStyle && type === 'TE'
+        ? ' coexpression-legend-te'
+        : (teGeneStyle && type === 'Gene' ? ' coexpression-legend-gene' : '');
+      const color = teGeneStyle && type === 'Gene'
+        ? '#1aa486'
+        : (teGeneStyle && type === 'TE' ? '#3b66c4' : (model.typeColors[type] || model.fallbackEntityColors[index % model.fallbackEntityColors.length]));
+      const checked = visibleTypes[type] !== false ? ' checked' : '';
+      const active = activeLegendFocus && activeLegendFocus.kind === 'entity' && activeLegendFocus.value === type
+        ? ' is-highlight-active'
+        : '';
+      return '<div class="graph-legend-item' + (type === 'Disease' ? ' is-disease-combined' : '') + active + '" data-highlight-kind="entity" data-highlight-value="' + html(type) + '"><input class="graph-legend-check" type="checkbox" data-integrated-type="' + html(type) + '" aria-label="' + html(model.typeLabels[type] || type) + '"' + checked + '><span class="graph-legend-swatch' + specialClass + '" style="--legend-color:' + html(color) + ';"></span><span class="graph-legend-text">' + html(model.typeLabels[type] || type) + '</span></div>';
+    });
+    const hasTeGene = Array.from(model.entityTypes.values()).some(function (record) { return record.sources.has('te_gene'); });
+    if (hasTeGene) {
+      rows.push('<div class="graph-legend-item coexpression-legend-static" data-highlight-kind="module-hub" data-highlight-value="module-hub" tabindex="0" aria-pressed="false"><span class="coexpression-hub-ring" aria-hidden="true"></span><span class="graph-legend-text">Module hub</span></div>');
+      rows.push('<div class="graph-legend-item coexpression-legend-static" data-highlight-kind="relative-expression" data-highlight-value="relative-expression" tabindex="0" aria-pressed="false"><span class="coexpression-activity-ring" aria-hidden="true"></span><span class="graph-legend-text">Relative expression activity</span></div>');
+    }
     els.legendList.innerHTML = rows.join('');
-    els.legend.hidden = masterElements.length === 0;
   }
   async function expressionOverlay(network, signal) {
     const names = Array.from(new Set((network && network.nodes || []).map(function (node) {
@@ -291,7 +385,7 @@
     activeLegendFocus = normalized;
     els.legendList.querySelectorAll('[data-highlight-kind][data-highlight-value]').forEach(function (row) {
       const active = normalized && row.dataset.highlightKind === normalized.kind && row.dataset.highlightValue === normalized.value;
-      row.classList.toggle('is-focused', !!active);
+      row.classList.toggle('is-highlight-active', !!active);
       row.setAttribute('aria-pressed', active ? 'true' : 'false');
     });
     return (await waitForBridge()).setLegendFocus(normalized);
@@ -387,7 +481,6 @@
       }
       els.expression.disabled = !context;
       if (!sourceAvailability.knowledge && !sourceAvailability.te_gene) throw new Error('No graph evidence is available for this entity.');
-      els.expand.disabled = !sourceAvailability.knowledge;
       els.minPmids.disabled = !sourceAvailability.knowledge;
       els.edgeScope.disabled = !sourceAvailability.te_gene;
       masterElements = contract.mergeSourceElements({ knowledgeElements: knowledgeElements, teGeneElements: teGeneElements, query: { q: feature, type: featureType } });
@@ -420,7 +513,7 @@
     }
   }
   async function expandKnowledgeNode(node) {
-    if (!expandMode || !selection) return false;
+    if (!selection) return false;
     const sourceId = String(node && node.integrated && node.integrated.sourceIds && node.integrated.sourceIds.knowledge || '');
     if (!sourceId) return false;
     const url = new URL(graphUrl(selection.feature, selection.featureType), window.location.origin);
@@ -524,7 +617,6 @@
     currentExpressionOverlay = { ...currentExpressionOverlay, enabled: expressionEnabled };
     const bridge = await waitForBridge(); await bridge.setExpressionOverlay(currentExpressionOverlay); syncRoute();
   });
-  els.expand.addEventListener('click', function () { expandMode = !expandMode; setToggle(els.expand, expandMode, 'Expand mode'); });
   els.labels.addEventListener('click', async function () {
     showLabels = !showLabels; setToggle(els.labels, showLabels, 'Show relations');
     if (stableSelection) {
@@ -539,12 +631,22 @@
       syncRoute();
     }
   });
-  els.fixed.addEventListener('click', async function () { fixedView = !fixedView; setToggle(els.fixed, fixedView, 'Fixed view'); (await waitForBridge()).setFixedView(fixedView); });
-  els.legendList.addEventListener('change', function (event) {
-    const type = event.target.dataset.integratedType; const relation = event.target.dataset.integratedRelation;
-    if (type) visibleTypes[type] = event.target.checked; if (relation) visibleRelations[relation] = event.target.checked; applyFilters(); syncRoute();
+  els.legend.addEventListener('change', function (event) {
+    const type = event.target.dataset.integratedType;
+    const relation = event.target.dataset.integratedRelation;
+    if (!type && !relation) return;
+    if (type === 'Disease') {
+      ['Disease', 'DiseaseClass', 'DiseaseCategory'].forEach(function (diseaseType) {
+        if (diseaseType in visibleTypes) visibleTypes[diseaseType] = event.target.checked;
+      });
+    } else if (type) {
+      visibleTypes[type] = event.target.checked;
+    }
+    if (relation) visibleRelations[relation] = event.target.checked;
+    applyFilters();
+    syncRoute();
   });
-  els.legendList.addEventListener('click', function (event) {
+  els.legend.addEventListener('click', function (event) {
     if (event.target.closest('.graph-legend-check, select, button')) return;
     const row = event.target.closest('[data-highlight-kind][data-highlight-value]');
     if (!row) return;
@@ -552,11 +654,14 @@
     const active = activeLegendFocus && activeLegendFocus.kind === focus.kind && activeLegendFocus.value === focus.value;
     void setLegendFocus(active ? null : focus);
   });
-  els.legendList.addEventListener('keydown', function (event) {
+  els.legend.addEventListener('keydown', function (event) {
     if (event.key !== 'Enter' && event.key !== ' ') return;
     const row = event.target.closest('[data-highlight-kind][data-highlight-value]');
     if (!row || event.target.matches('input, select, button')) return;
     event.preventDefault(); row.click();
+  });
+  els.legendTabs.forEach(function (tab) {
+    tab.addEventListener('click', function () { setLegendMode(tab.dataset.integratedLegendMode); });
   });
   els.minPmids.addEventListener('change', function () { applyFilters(); syncRoute(); });
   els.edgeScope.addEventListener('change', function () { applyFilters(); syncRoute(); });
@@ -566,8 +671,9 @@
     const dataUrl = await (await waitForBridge()).exportPngDataUrl(); const link = document.createElement('a'); link.href = dataUrl; link.download = 'integrated-graph.png'; link.click();
   });
   els.exportSvg.addEventListener('click', async function () { download(await (await waitForBridge()).exportSvgString(), 'image/svg+xml', 'integrated-graph.svg'); });
-  setToggle(els.expression, true, 'Expression activity'); setToggle(els.expand, false, 'Expand mode');
-  setToggle(els.labels, false, 'Show relations'); setToggle(els.fixed, true, 'Fixed view');
+  setToggle(els.expression, true, 'Expression activity');
+  setToggle(els.labels, false, 'Show relations');
+  setLegendMode(activeLegendMode);
   window.TEKGTeAutocomplete?.registerSource?.('integrated-entities', {
     label: 'Integrated graph entity',
     queryAware: true,

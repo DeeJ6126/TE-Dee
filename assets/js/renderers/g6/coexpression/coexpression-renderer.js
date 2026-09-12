@@ -1519,6 +1519,7 @@
     function isImportantLabelNode(node) {
       const nodeType = String(node?.nodeType || '');
       return nodeType === 'TE'
+        || nodeType === 'Gene'
         || nodeType === 'Disease'
         || nodeType === 'DiseaseClass'
         || nodeType === 'DiseaseCategory';

@@ -22,9 +22,7 @@
                 </select>
               </label>
               <button id="integrated-expression-layer" class="is-toggle is-active preview-graph-command" type="button" aria-pressed="true">Expression activity: On</button>
-              <button id="integrated-expand-mode" class="is-toggle preview-graph-command" type="button" aria-pressed="false">Expand mode: Off</button>
               <button id="integrated-edge-labels" class="is-toggle preview-graph-command" type="button" aria-pressed="false">Show relations: Off</button>
-              <button id="integrated-fixed-view" class="is-toggle is-active preview-graph-command" type="button" aria-pressed="true">Fixed view: On</button>
               <div id="integrated-export-menu-wrap" class="graph-export-menu-wrap">
                 <button id="integrated-export-menu-toggle" class="graph-export-action preview-graph-command" type="button" aria-haspopup="true" aria-expanded="false" disabled>Export</button>
                 <div id="integrated-export-menu" class="graph-export-menu" role="menu" hidden>
@@ -47,14 +45,23 @@
               </div>
               <div id="integrated-state" class="coexpression-state integrated-state" role="status" aria-live="polite" hidden></div>
               <aside id="integrated-legend" class="graph-legend-panel integrated-legend" aria-label="Integrated Graph legend" hidden>
-                <div class="graph-legend-title">Integrated Graph Legend</div>
-                <div id="integrated-legend-list" class="graph-legend-list"></div>
-                <div class="graph-relation-controls">
-                  <label for="integrated-min-pmids">Min PMID</label>
-                  <input id="integrated-min-pmids" class="graph-relation-min-pmids" type="number" min="0" max="99" value="0">
-                  <label for="integrated-edge-scope">TE-Gene edges</label>
-                  <select id="integrated-edge-scope"><option value="all">All selected edges</option><option value="center">Center edges</option></select>
+                <div class="graph-legend-mode-switch" role="tablist" aria-label="Integrated graph legend mode">
+                  <button class="graph-legend-tab is-active" type="button" data-integrated-legend-mode="entity" aria-pressed="true">Entity</button>
+                  <span class="graph-legend-mode-separator" aria-hidden="true">/</span>
+                  <button class="graph-legend-tab" type="button" data-integrated-legend-mode="relation" aria-pressed="false">Relation</button>
                 </div>
+                <div id="integrated-relation-controls" class="graph-relation-controls" hidden>
+                  <label class="graph-relation-min-pmids-label" for="integrated-min-pmids">Min PMID</label>
+                  <input id="integrated-min-pmids" class="graph-relation-min-pmids" type="number" min="0" max="99" step="1" value="0">
+                </div>
+                <div id="integrated-legend-list" class="graph-legend-list"></div>
+                <label id="integrated-edge-scope-control" class="coexpression-edge-scope-control" for="integrated-edge-scope" hidden>
+                  <span>Edges</span>
+                  <select id="integrated-edge-scope">
+                    <option value="center">Center edges</option>
+                    <option value="all" selected>All selected edges</option>
+                  </select>
+                </label>
               </aside>
             </div>
             <div class="detail" id="integrated-node-details">Select an entity to combine its available graph evidence.</div>

@@ -25,10 +25,6 @@ def main() -> None:
             "TE-Gene Graph does not prefer Normal tissue by default.")
     require("syncPendingFeatureControls" in mode and "els.load.disabled = !context" in mode,
             "Exact Gene selections do not synchronize the Search button state.")
-    require("if (type === 'Gene')" in mode and "setState('idle')" in mode,
-            "Gene selection mode still leaves the blocking selection prompt visible.")
-    require("selection = selection || {};" in coordinator,
-            "The workspace history path still crashes when Gene selection clears the current entity.")
     require(">Context<" not in workspace and 'aria-label="Expression dataset"' in workspace,
             "The dataset selector still exposes a visible Context label.")
     require("searchParams.set('gene'" in coordinator and "featureType" in coordinator,

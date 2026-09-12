@@ -7,7 +7,7 @@ integrated = (ROOT / 'assets/js/pages/preview/integrated-mode.js').read_text(enc
 template = (ROOT / 'templates/preview/integrated_graph_workspace.php').read_text(encoding='utf-8')
 autocomplete = (ROOT / 'assets/js/components/te-autocomplete.js').read_text(encoding='utf-8')
 required = [
-    'preview-mode-integrated',
+    'preview-workspace-mode-select',
     'previewIntegratedWorkspace',
     'templates/preview/integrated_graph_workspace.php',
     'js/pages/preview/integrated-mode.js',
@@ -16,10 +16,11 @@ required = [
 missing = [token for token in required if token not in preview + workspace]
 if missing:
     raise SystemExit('Integrated Graph static contract missing: ' + ', '.join(missing))
-for existing in ('previewGraphWorkspace', 'previewCoexpressionWorkspace', 'preview-mode-knowledge', 'preview-mode-coexpression'):
+for existing in ('previewGraphWorkspace', 'previewCoexpressionWorkspace', 'previewIntegratedWorkspace', 'value="knowledge"', 'value="coexpression"', 'value="integrated"'):
     if existing not in preview + workspace:
         raise SystemExit('Existing workspace contract was removed: ' + existing)
-for token in ('integrated-entities', 'path_finder.php', 'loadCatalog()', 'RESULT_CACHE_LIMIT = 6', 'Promise.allSettled'):
+for token in ('integrated-entities', 'path_finder.php', 'loadCatalog()', 'RESULT_CACHE_LIMIT = 6', 'Promise.allSettled',
+              'data-integrated-legend-mode="entity"', 'data-integrated-legend-mode="relation"'):
     if token not in integrated + template:
         raise SystemExit('Integrated search/cache contract missing: ' + token)
 for token in ('nodes', 'relations', 'min_pmids', 'te_gene_edges', 'expression'):

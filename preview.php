@@ -70,11 +70,13 @@ $previewConfig = [
             <button id="preview-taxonomy-all" class="preview-taxonomy-mode-tab" type="button" role="tab" aria-selected="false" aria-pressed="false">All</button>
             <button id="preview-taxonomy-rmsk-repbase" class="preview-taxonomy-mode-tab is-active" type="button" role="tab" aria-selected="true" aria-pressed="true">RMSK + RepBase</button>
           </div>
-          <div class="preview-workspace-mode" id="previewWorkspaceMode" role="tablist" aria-label="Graph workspace mode">
-            <button id="preview-mode-knowledge" class="preview-workspace-mode-tab is-active" type="button" role="tab" aria-controls="previewGraphWorkspace" aria-selected="true" aria-pressed="true">Knowledge Graph</button>
-            <button id="preview-mode-coexpression" class="preview-workspace-mode-tab" type="button" role="tab" aria-controls="previewCoexpressionWorkspace" aria-selected="false" aria-pressed="false">TE-Gene Graph</button>
-            <button id="preview-mode-integrated" class="preview-workspace-mode-tab" type="button" role="tab" aria-controls="previewIntegratedWorkspace" aria-selected="false" aria-pressed="false">Integrated Graph</button>
-          </div>
+          <label class="preview-workspace-mode" id="previewWorkspaceMode" for="preview-workspace-mode-select">
+            <select id="preview-workspace-mode-select" aria-label="Graph mode">
+              <option value="knowledge">Knowledge Graph</option>
+              <option value="coexpression">TE-Gene Graph</option>
+              <option value="integrated">Integrated Graph</option>
+            </select>
+          </label>
           <button id="back-graph" class="preview-graph-command" type="button" disabled hidden><span id="back-text">Back</span></button>
         </div>
         <button class="preview-fullscreen-btn" id="previewFullscreenBtn" type="button" aria-label="Enter fullscreen preview">

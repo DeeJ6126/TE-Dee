@@ -1,37 +1,45 @@
-# TE-KG Architecture Entry
+# TE-Dee Architecture Entry
 
-This is the root architecture entry. It keeps only the current map and hard
-facts. For details, continue into `docs/architecture/`.
+Last reviewed: 2026-09-11
 
-## Current Facts
+TE-Dee (Transposable Element Data Exploration Engine) is a multi-store
+scientific web database built from root-level PHP pages, browser JavaScript,
+MySQL, Neo4j, and file-backed scientific artifacts.
 
-- TE-KG is a local PHP + browser JavaScript + Neo4j + MySQL project.
-- The current Neo4j runtime database target is `tekg3`.
-- Runtime pages still live in the repository root, such as `index.php`,
-  `browse.php`, `preview.php`, `expression.php`, and `path_finder.php`.
-- TE taxonomy runtime truth is Neo4j / `api/taxonomy.php`.
-- Expression runtime data root is `data/bulk_expression_web`.
-- Non-agent tasks should not primarily modify `api/agent/` unless explicitly
-  requested.
+## Current Runtime Shape
 
-## Read First
+- Public URL base: `/tedee/`.
+- Public pages remain in the repository root.
+- Neo4j database `tekg3` supplies literature-derived knowledge relations,
+  paths, disease hierarchy payloads, and the canonical taxonomy API through
+  `api/taxonomy.php`.
+- MySQL `tekg_catalog` supplies the active Repbase + RMSK Browse catalog and
+  Home classification statistics.
+- MySQL `tekg_expression` supplies expression summaries, Co-expression
+  networks, GTEx eQTL overlap summaries, and TE-Gene graph payloads.
+- `preview.php` exposes Knowledge Graph, TE-Gene Graph, and Integrated Graph.
+- Runtime secrets are local to `api/config.local.php`; public code reads them
+  through `api/runtime_config.php`.
+- Active expression assets are rooted at `data/bulk_expression_web`.
+- Large source, derived, and runtime datasets live under `data/` and are not
+  ordinary Git payloads.
 
-1. `AGENTS.md`
-2. `AI_HANDOFF.md`
-3. `docs/architecture/index.md`
-4. `docs/architecture/current_system.md`
-5. `docs/architecture/graph_runtime.md`
-6. `docs/architecture/data_sources.md`
-7. `docs/architecture/database_contract.md`
-8. `docs/architecture/frontend_contract.md`
+Internal identifiers such as database names and `/app/tekg` remain stable
+infrastructure names. They are not user-facing branding.
 
-## Harness Entrypoints
+## Read By Task
 
-- Execution plans: `docs/exec-plans/`
-- Quality score: `docs/QUALITY_SCORE.md`
-- Reliability notes: `docs/RELIABILITY.md`
-- Runnable checks: `scripts/checks/`
+- System map: `docs/architecture/current_system.md`
+- Database/data flow: `docs/architecture/database_overview.md`
+- Runtime sources: `docs/architecture/data_sources.md`
+- Verifiable contracts: `docs/architecture/database_contract.md`
+- Graph runtime: `docs/architecture/graph_runtime.md`
+- Frontend boundaries: `docs/architecture/frontend_contract.md`
+- Co-expression: `docs/coexpression/README.md` and
+  `docs/coexpression/frontend_contract.md`
+- GTEx eQTL: `docs/eqtl/README.md`
+- Agent/DeepThink: `api/README.md` and `api/docs/`
 
-Historical handoffs and topic notes can explain why the project moved in a
-particular direction, but current facts must be verified against this entry,
-`current_system.md`, live code, and runnable checks.
+Historical handoffs and dated plans explain earlier decisions but are not
+current runtime truth. Prefer the files above, live code, active database
+metadata, and focused checks under `scripts/checks/`.

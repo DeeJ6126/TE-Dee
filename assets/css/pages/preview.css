@@ -62,7 +62,26 @@
         }
 
         .preview-workspace-mode {
-          grid-template-columns: repeat(3, minmax(128px, auto));
+          display: inline-flex;
+          padding: 0;
+          border: 0;
+          background: transparent;
+          box-shadow: none;
+        }
+
+        .preview-workspace-mode > select {
+          width: 210px;
+          min-width: 210px;
+          min-height: 40px;
+          border: 1px solid #d8e0ea;
+          border-radius: 8px;
+          background: #ffffff;
+          color: #36516f;
+          padding: 0 34px 0 11px;
+          font-size: 13px;
+          font-weight: 700;
+          letter-spacing: 0;
+          cursor: pointer;
         }
 
         .preview-taxonomy-mode {
@@ -257,7 +276,9 @@
         }
 
         .coexpression-context-control > select {
-          min-height: 38px;
+          width: 210px;
+          min-width: 210px;
+          min-height: 40px;
           max-width: 210px;
           border: 1px solid #d8e0ea;
           border-radius: 8px;
@@ -266,6 +287,8 @@
           padding: 0 34px 0 11px;
           font-size: 13px;
           font-weight: 700;
+          letter-spacing: 0;
+          cursor: pointer;
         }
 
         #coexpression-expression-layer {
@@ -435,15 +458,18 @@
         }
 
         .integrated-context-control > select {
-          min-width: 160px;
+          width: 210px;
+          min-width: 210px;
           min-height: 40px;
           border: 1px solid #d8e0ea;
-          border-radius: 6px;
+          border-radius: 8px;
           background: #ffffff;
           color: #36516f;
-          padding: 0 34px 0 12px;
+          padding: 0 34px 0 11px;
           font-size: 13px;
           font-weight: 700;
+          letter-spacing: 0;
+          cursor: pointer;
         }
 
         .integrated-state {
@@ -464,34 +490,6 @@
           left: 50%;
           transform: translate(-50%, -50%);
           pointer-events: auto;
-        }
-
-        .integrated-legend {
-          width: 274px;
-        }
-
-        .integrated-legend .graph-relation-controls {
-          display: grid;
-          grid-template-columns: minmax(72px, auto) minmax(0, 1fr);
-          align-items: center;
-          gap: 8px;
-          margin-top: 10px;
-          padding-top: 10px;
-          border-top: 1px solid #e2e8f0;
-          font-size: 11px;
-          font-weight: 800;
-          color: #52677f;
-        }
-
-        .integrated-legend select,
-        .integrated-legend input {
-          min-width: 0;
-          min-height: 32px;
-          border: 1px solid #d8e0ea;
-          border-radius: 6px;
-          background: #ffffff;
-          color: #36516f;
-          padding: 0 8px;
         }
 
         .coexpression-state {

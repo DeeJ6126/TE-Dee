@@ -1,133 +1,100 @@
-# TE/Gene Co-expression Workspace
+# TE/Gene Co-expression Data And Runtime
 
-This directory documents TE/gene co-expression data audits, method design,
-parameter choices, interpretation boundaries, and display-planning notes. The
-corresponding data outputs live under:
+Last reviewed: 2026-09-11
 
-```text
-data/coexpression/
-```
+This directory documents Co-expression audits, method choices, interpretation
+boundaries, offline artifacts, and the browser runtime.
 
-## Current Main Analysis Standard
+## Analysis Standard
 
-As of 2026-06-10, the main module-analysis result is fixed as:
+The accepted main analysis is:
 
 ```text
 Input network: data/coexpression/analysis/v1/abs0.4_fdr0.05/
 Module result: data/coexpression/modules/v1_abs0.4_fdr0.05_res1.8/
-Correlation method: Spearman correlation
+Correlation: Spearman
 Edge filter: |correlation| >= 0.4 and FDR <= 0.05
-Module input edges: positive edges only, correlation > 0
+Module input: positive edges only
 Module algorithm: NetworkX Louvain
 Random seed: 42
 Resolution: 1.8
 ```
 
-`resolution = 1.8` was selected because normal cell line modules were too coarse
-at `resolution = 1.0`, while higher settings risked over-splitting into many
-small modules. Parameter scans indicated that `|r| >= 0.4`, `FDR <= 0.05`, and
-`resolution = 1.8` balance TE-gene signal retention and module granularity.
+The chosen thresholds balance retained TE-Gene signal and module granularity.
+Alternative folders are sensitivity analyses, not competing production
+versions.
 
-## Main Data Layers
+## Offline Data Layers
 
-```text
-data/coexpression/networks/v1/
-```
+- `data/coexpression/networks/v1/`: computed feature-feature networks.
+- `data/coexpression/analysis/v1/`: filtered networks and summaries.
+- `data/coexpression/modules/v1_abs0.4_fdr0.05_res1.8/`: accepted modules.
+- `data/coexpression/modules/parameter_scan/`: resolution scans.
+- `data/coexpression/display_subgraphs/`: versioned display/import artifacts.
 
-Full feature-feature co-expression networks. Each dataset contains high-confidence
-TE features and selected high-variance genes. This layer is the raw computed
-network and is not recommended for direct frontend display.
+These files preserve provenance and support imports. Production browser requests
+read validated MySQL tables rather than treating these files as an ad hoc
+runtime database.
 
-```text
-data/coexpression/analysis/v1/
-```
+## Runtime Interfaces
 
-Filtered networks and network summaries. Current sensitivity folders include
-multiple absolute-correlation thresholds.
+- `api/coexpression.php`, `api/coexpression_repository.php`: legacy-compatible
+  catalog/network interface and Gene-centered behavior.
+- `api/te_gene.php`, `api/te_gene_repository.php`: current TE-Gene payload
+  combining Co-expression and active eQTL evidence.
+- `api/graph_expression.php`: measured expression overlay.
+- `assets/js/pages/preview/coexpression-mode.js`: parent controller.
+- `assets/js/renderers/g6/coexpression/`: dedicated G6 renderer.
+- `assets/js/pages/preview/integrated-mode.js`: reuse of TE-Gene evidence in
+  Integrated Graph without changing its scientific meaning.
 
-```text
-data/coexpression/modules/
-```
+The TE-Gene Graph and Integrated Graph have independent renderer instances.
+Integrated Graph visually merges matching TE/Gene nodes with Knowledge Graph
+nodes but retains source-specific edges and evidence.
 
-Module detection outputs. The main result is
-`v1_abs0.4_fdr0.05_res1.8/`; other folders are sensitivity checks.
+## Network Selection
 
-```text
-data/coexpression/modules/parameter_scan/
-```
+A runtime unit is a selected TE or Gene in an available expression/eQTL context.
+Approved display networks are bounded for browser rendering. Gene selection is
+case-insensitive but exact and deterministically chooses the approved network
+where the Gene has the strongest visible incident-edge representation.
+Selection provenance retains the source center TE.
 
-Normal cell line parameter scans used to choose Louvain resolution.
+Unknown features and unavailable contexts remain explicit. They never fall back
+to L1HS.
 
-```text
-data/coexpression/display_subgraphs/
-```
+## Expression Activity
 
-Versioned display subgraphs and quality/tier summary tables. These files are
-scientific provenance and importer inputs. The browser and HTTP APIs must not
-read them at runtime.
-
-## Current Frontend Runtime
-
-As of 2026-07-25, `preview.php` includes a separate Co-expression workspace next
-to the Knowledge Graph workspace. The two modes share page-level placement and
-interaction conventions, but they retain separate iframes, G6 instances,
-bridges, APIs, state, details, legends, and exports.
-
-Production Co-expression data is read from isolated MySQL
-`coexpression_*` tables through:
-
-- `api/coexpression.php`
-- `api/coexpression_repository.php`
-- `assets/js/pages/preview/coexpression-mode.js`
-- `assets/js/renderers/g6/coexpression/`
-
-The active analysis version is `v1_abs0.4_fdr0.05_res1.8`. A runtime network is
-one selected TE or Gene in one context class, capped at 100 nodes and 150 edges.
-TE searches use their approved stored display network. Gene searches
-deterministically choose the approved stored network in which the Gene has the
-highest visible incident-edge count and re-root that payload on the Gene.
-Unknown features and unavailable contexts remain explicit; they never fall
-back to `L1HS`.
-
-Expression activity is a TE and Gene visual layer in the Co-expression toolbar.
-It uses measured MySQL summaries through `api/graph_expression.php` and does
-not alter co-expression edges or force-layout parameters. CSV, Canvas PNG, and
-final-position vector SVG exports are available from the same toolbar. See
-`frontend_contract.md` for the complete display and acceptance contract.
+Expression activity is a measured visual overlay for TE and Gene nodes. It is
+loaded from MySQL summaries and does not change edge weights, graph topology,
+force parameters, or the statistical definition of Co-expression.
 
 ## Interpretation Boundary
 
-Co-expression edges represent statistical association. They must not be written
-as regulation, activation, inhibition, mechanism, or causality without additional
-evidence.
+- Co-expression is statistical association, not regulation or causality.
+- Module membership is a community in correlation space, not a validated
+  pathway.
+- Expression level and network centrality are different quantities.
+- A safe enrichment statement is that a TE belongs to a module whose Gene
+  members are enriched for a term; this alone does not assign that function to
+  the TE.
+- A TE-Gene edge labeled Both retains separate Co-expression and eQTL evidence;
+  it is not a stronger causal claim by definition.
 
-Modules represent network communities in expression correlation space. They are
-not equivalent to true pathways, regulatory networks, or experimentally
-validated functional units. In papers or frontend text, describe them as
-"co-expression modules" or "expression-associated modules."
+## Representative Runtime Cases
 
-## Representative Cases
-
-- `L1HS`: dense baseline across all three context classes.
-- `LTR5 / cancer_cell_line`: smaller gene-rich high-confidence graph with low
-  expression activity.
-- `MER11B / cancer_cell_line`: TE-only, zero-Gene, not-interpretable graph.
-- `HERVH-int / cancer_cell_line`: dense gene-rich graph with high activity.
-- `CR1 / normal_tissue`: small gene-rich high-confidence graph.
-- `CR1 / cancer_cell_line`: deliberately unavailable context with recoverable
-  alternatives.
-- `C1orf116 / cancer_cell_line`: Gene-centered search, sourced from the
-  `HERVH-int` approved display network with the Gene as the sole visual center.
-- Avoid over-claiming TE function from module enrichment. The safe claim is:
-  "this TE lies in a module whose gene members are enriched for X."
+- L1HS: dense baseline across available context classes.
+- LTR5 / cancer cell line: smaller Gene-rich graph.
+- MER11B / cancer cell line: TE-only display.
+- HERVH-int / cancer cell line: dense Gene-rich display.
+- CR1 / normal tissue: small Gene-rich display.
+- CR1 / cancer cell line: intentionally unavailable, with alternatives.
+- C1orf116 / cancer cell line: Gene-centered rerooted display.
 
 ## Related Documents
 
+- `frontend_contract.md`: browser behavior and acceptance contract.
 - `data_audit.md`: expression matrix and metadata audit.
-- `method_design.md`: early method design notes.
-- `feature_annotation_status_zh.md`: legacy Chinese feature annotation status.
-- `annotation_optimization_plan.md`: feature annotation improvement plan.
-- `display_tier_recommendations.md`: display tier recommendations for offline
-  subgraphs.
-- `frontend_contract.md`: accepted browser runtime, visual semantics, and
-  representative acceptance matrix.
+- `method_design.md`: method design history.
+- `display_tier_recommendations.md`: offline display-tier decisions.
+- `../eqtl/README.md`: eQTL scientific and runtime contract.

@@ -6,9 +6,7 @@
   const integratedWorkspace = document.getElementById('previewIntegratedWorkspace');
   const workspaceControl = document.getElementById('previewWorkspaceMode');
   const topControls = workspaceControl?.closest('.preview-top-controls');
-  const knowledgeTab = document.getElementById('preview-mode-knowledge');
-  const coexpressionTab = document.getElementById('preview-mode-coexpression');
-  const integratedTab = document.getElementById('preview-mode-integrated');
+  const workspaceSelect = document.getElementById('preview-workspace-mode-select');
   const taxonomyControl = document.getElementById('previewTaxonomyMode');
   const taxonomyDisplayControl = document.getElementById('previewTaxonomyDisplayMode');
   const taxonomyTreeTab = document.getElementById('preview-taxonomy-display-tree');
@@ -20,6 +18,7 @@
   const integratedToolbar = integratedWorkspace?.querySelector('.preview-graph-toolbar');
   const edgeLabelsButton = document.getElementById('toggle-edge-labels');
   const coexpressionContextControl = coexpressionWorkspace?.querySelector('.coexpression-context-control');
+  const integratedContextControl = integratedWorkspace?.querySelector('.integrated-context-control');
   const coexpressionExpressionButton = document.getElementById('coexpression-expression-layer');
   const sharedBack = document.getElementById('back-graph');
   const sharedBackText = document.getElementById('back-text');
@@ -27,10 +26,10 @@
   const integratedMode = window.__TEKG_INTEGRATED_MODE;
   if (
     !knowledgeWorkspace || !coexpressionWorkspace || !integratedWorkspace || !workspaceControl || !topControls
-    || !knowledgeTab || !coexpressionTab || !integratedTab || !taxonomyControl || !taxonomyDisplayControl
+    || !workspaceSelect || !taxonomyControl || !taxonomyDisplayControl
     || !taxonomyTreeTab || !taxonomyGraphTab || !taxonomyAllTab
     || !taxonomyRmskRepbaseTab || !knowledgeToolbar || !coexpressionToolbar || !integratedToolbar
-    || !edgeLabelsButton || !coexpressionContextControl || !coexpressionExpressionButton || !sharedBack
+    || !edgeLabelsButton || !coexpressionContextControl || !integratedContextControl || !coexpressionExpressionButton || !sharedBack
     || !sharedBackText || !coexpressionMode || !integratedMode
   ) return;
 
@@ -162,19 +161,12 @@
     }
   }
 
-  function updateTab(tab, selected) {
-    tab.classList.toggle('is-active', selected);
-    tab.setAttribute('aria-selected', selected ? 'true' : 'false');
-    tab.setAttribute('aria-pressed', selected ? 'true' : 'false');
-    tab.tabIndex = selected ? 0 : -1;
-  }
-
   function placeTopControls(mode) {
     if (mode === 'coexpression') {
       coexpressionToolbar.insertBefore(topControls, coexpressionContextControl);
       coexpressionToolbar.insertBefore(sharedBack, coexpressionExpressionButton);
     } else if (mode === 'integrated') {
-      integratedToolbar.insertBefore(topControls, integratedToolbar.firstChild);
+      integratedToolbar.insertBefore(topControls, integratedContextControl);
       topControls.appendChild(sharedBack);
     } else {
       knowledgeToolbar.insertBefore(topControls, edgeLabelsButton);
@@ -206,9 +198,7 @@
     coexpressionWorkspace.setAttribute('aria-hidden', showCoexpression ? 'false' : 'true');
     integratedWorkspace.hidden = !showIntegrated;
     integratedWorkspace.setAttribute('aria-hidden', showIntegrated ? 'false' : 'true');
-    updateTab(knowledgeTab, showKnowledge);
-    updateTab(coexpressionTab, showCoexpression);
-    updateTab(integratedTab, showIntegrated);
+    workspaceSelect.value = mode;
     syncTopControlVisibility();
     updateSharedBackButton();
   }
@@ -663,16 +653,16 @@
       knowledgeVisible: !knowledgeWorkspace.hidden,
       coexpressionVisible: !coexpressionWorkspace.hidden,
       integratedVisible: !integratedWorkspace.hidden,
-      knowledgeSelected: knowledgeTab.getAttribute('aria-selected') === 'true',
-      coexpressionSelected: coexpressionTab.getAttribute('aria-selected') === 'true',
-      integratedSelected: integratedTab.getAttribute('aria-selected') === 'true',
+      knowledgeSelected: workspaceSelect.value === 'knowledge',
+      coexpressionSelected: workspaceSelect.value === 'coexpression',
+      integratedSelected: workspaceSelect.value === 'integrated',
       pendingKnowledgeLoads,
       sharedBackHistory: sharedBackHistory.map((item) => ({ ...item })),
     };
   }
 
-  knowledgeTab.addEventListener('click', () => {
-    void setMode('knowledge', { history: 'push' });
+  workspaceSelect.addEventListener('change', () => {
+    void setMode(workspaceSelect.value, { history: 'push' });
   });
 
   coexpressionToolbar.addEventListener('click', (event) => {
@@ -681,12 +671,6 @@
     event.stopImmediatePropagation();
     void goBackEntity();
   }, true);
-  coexpressionTab.addEventListener('click', () => {
-    void setMode('coexpression', { history: 'push' });
-  });
-  integratedTab.addEventListener('click', () => {
-    void setMode('integrated', { history: 'push' });
-  });
   taxonomyAllTab.addEventListener('click', () => {
     void setTreeVariant('all', { history: 'push' });
   });
@@ -723,18 +707,6 @@
     writeRoute(event.detail?.history || 'push', {
       mode: 'knowledge',
       knowledge: retainedKnowledgeState,
-    });
-  });
-
-  [knowledgeTab, coexpressionTab, integratedTab].forEach((tab) => {
-    tab.addEventListener('keydown', (event) => {
-      if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
-      event.preventDefault();
-      const modes = ['knowledge', 'coexpression', 'integrated'];
-      const offset = event.key === 'ArrowRight' ? 1 : -1;
-      const nextMode = modes[(modes.indexOf(currentMode) + offset + modes.length) % modes.length];
-      ({ knowledge: knowledgeTab, coexpression: coexpressionTab, integrated: integratedTab })[nextMode].focus();
-      void setMode(nextMode, { history: 'push' });
     });
   });
 

@@ -99,3 +99,8 @@ api/config.local.php
 *.vcf
 *.vcf.gz
 *.tbi
+
+# Local AI maintainer context (intentionally not published)
+/AGENTS.md
+/AI_HANDOFF.md
+/docs/ai/
