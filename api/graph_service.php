@@ -335,6 +335,7 @@ CYPHER,
             <<<'CYPHER'
 MATCH (n)
 WHERE elementId(n) = $nodeId
+  AND NOT n:TaxonomyNode
 RETURN
   elementId(n) AS element_id,
   labels(n) AS labels,
@@ -363,6 +364,7 @@ CYPHER,
 MATCH (n)
 WHERE toLower(coalesce(n.name, '')) = toLower($name)
   AND $nodeType IN labels(n)
+  AND NOT n:TaxonomyNode
 RETURN
   elementId(n) AS element_id,
   labels(n) AS labels,
@@ -1667,6 +1669,7 @@ CYPHER,
             <<<'CYPHER'
 MATCH (n)
 WHERE ($nodeType = '' OR $nodeType IN labels(n))
+  AND NOT n:TaxonomyNode
   AND (
     toLower(coalesce(n.name, '')) = toLower($exact)
     OR coalesce(n.pmid, '') = $pmid
@@ -1704,6 +1707,7 @@ CYPHER,
             <<<'CYPHER'
 MATCH (n)
 WHERE ($nodeType = '' OR $nodeType IN labels(n))
+  AND NOT n:TaxonomyNode
   AND toLower(coalesce(n.name, '')) CONTAINS toLower($keyword)
 RETURN
   elementId(n) AS element_id,
