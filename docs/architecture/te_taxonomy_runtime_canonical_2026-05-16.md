@@ -6,28 +6,26 @@
 
 TE taxonomy 的运行时权威源是当前应用连接的 Neo4j `tekg3` 数据库。
 
-运行时页面、API、G6 前端树、QA 和 agent 分类能力都应以 `TE` 节点上的 `taxonomy_*` 属性为准。旧的 lineage JSON/CSV 和 G6 demo data 不再作为运行时分类来源。
+运行时分类树/图从独立的 `:TaxonomyNode` 及 `TAXONOMY_PARENT_OF` 关系读取；文献实体 `:TE` 只保存扁平化分类注释。两类节点没有关系，分类节点不会进入知识图谱。两份 TXT 是可编辑的导入输入，不由 PHP 在请求期间解析。
 
 ## 权威字段
 
 Neo4j `tekg3` 中 `TE` 节点的核心分类字段是：
 
 ```text
-taxonomy_group
 taxonomy_status
 taxonomy_source
-taxonomy_canonical_name
 taxonomy_class
 taxonomy_subclass
 taxonomy_order
 taxonomy_superfamily
 taxonomy_family
 taxonomy_subclade
-is_leaf_standard
-homepage_chart_included
 ```
 
-其中 `taxonomy_class` / `taxonomy_order` / `taxonomy_superfamily` / `taxonomy_family` / `taxonomy_subclade` 组成展示路径。
+`taxonomy_group`、`taxonomy_canonical_name`、`is_leaf_standard`、`homepage_chart_included` 不再存于 Neo4j。API 需要兼容旧响应时，从 `TE.name` 生成 canonical name，并以 `taxonomy_source == tree_rmsk_repbase && taxonomy_status == leaf` 推导权威叶节点。匹配方式与名称冲突只在导入审计报告中记录。
+
+每个 `TaxonomyNode` 有 `node_key`（来源与完整原始标签祖先路径的 SHA-256）、`source`、`name`、`raw_label`、`rank`、`depth`、`is_leaf` 和 `path_key`。两棵树以 `source` 隔离；边方向为父节点到子节点。导入清单记录两个 TXT 的 SHA-256，不能用同名分类节点合并不同层级或来源。
 
 ## 运行时入口
 
@@ -42,7 +40,8 @@ api/taxonomy.php
 ```text
 api/taxonomy.php
 api/taxonomy.php?names=L1HS,AluJb,SVA
-api/taxonomy.php?view=tree
+api/taxonomy.php?view=tree&source=rmsk_repbase
+api/taxonomy.php?view=tree&source=all
 api/taxonomy.php?view=summary
 ```
 
@@ -60,7 +59,7 @@ Search、Browse、G6、QA、agent TreePlugin 和 EntityNormalizer 应复用该 h
 index.php -> tekg_taxonomy_fetch_items() -> tekg_taxonomy_homepage_payload()
 ```
 
-该路径直接读取 Neo4j `tekg3` 的 `homepage_chart_included` 和 `taxonomy_*` 字段。
+该路径从 `:TE` 的 `taxonomy_source`、`taxonomy_status` 和等级属性推导权威叶节点。Home 的完整分类统计从 `:TaxonomyNode` 权威树叶节点读取，不依赖只有 225 个文献实体的 `:TE` 集合。Home 的实体组成将分类节点排除在非 TE 计数之外，避免与 1,501 个权威叶节点重复；关系总数仍统计 Neo4j 的全部关系（包括分类边），关系饼图只统计 `BIO_RELATION`。
 
 ## 保留与删除
 
@@ -72,6 +71,8 @@ data/taxonomy/transposon_tree/tree_all.txt
 data/taxonomy/te_234/*
 data/terminology/*
 scripts/normalize/build_tekg3_from_tekg21.py
+scripts/taxonomy/taxonomy_model.py
+scripts/taxonomy/rebuild_neo4j_taxonomy.py
 ```
 
 已移除的旧运行时真相源：
@@ -83,6 +84,8 @@ assets/data/graph_demo_data.js
 ```
 
 `data/processed/tekg3_homepage_taxonomy.json` 暂时保留为首页 ring chart 的 fallback cache。首页运行时优先通过 PHP helper 实时查询 Neo4j `tekg3` 并生成 ring chart views；只有 Neo4j 查询失败时才回退到该 JSON 文件。
+
+新导入清单位于 `data/processed/neo4j_taxonomy_import.json`。运行 `scripts/taxonomy/rebuild_neo4j_taxonomy.py --dry-run` 生成清单后，用 `--apply-active` 直接更新 `tekg3` 中的分类子图和文献 `:TE` 分类属性；脚本核对 TXT 与 `:TE` 名称是否仍对应清单，不创建临时数据库，也不重建整个知识图谱。
 
 ## 验证
 

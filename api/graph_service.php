@@ -2049,7 +2049,6 @@ CYPHER,
         }
 
         return [
-            'group' => $item['taxonomy_group'] ?? null,
             'status' => $item['taxonomy_status'] ?? null,
             'source' => $item['taxonomy_source'] ?? null,
             'canonical_name' => $item['taxonomy_canonical_name'] ?? null,

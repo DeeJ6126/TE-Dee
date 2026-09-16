@@ -48,7 +48,7 @@ try {
         $payload = [
             'ok' => true,
             'source' => tekg_taxonomy_normalize_tree_source($source),
-        ] + tekg_taxonomy_file_tree_payload($source);
+        ] + tekg_taxonomy_neo4j_tree_payload($source);
 
         echo json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
         exit;
@@ -62,9 +62,7 @@ try {
         'database' => tekg_taxonomy_database_name($config),
     ];
 
-    if ($view === 'tree') {
-        $payload += tekg_taxonomy_tree_payload($items);
-    } elseif ($view === 'summary') {
+    if ($view === 'summary') {
         $payload['summary'] = tekg_taxonomy_summary_payload($items);
     } else {
         $payload['items'] = $items;

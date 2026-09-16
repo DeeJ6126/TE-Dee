@@ -28,7 +28,7 @@ try {
     if ($database !== 'tekg3') {
         throw new RuntimeException("Homepage stats require Neo4j database tekg3; configured database is {$database}.");
     }
-    $teClassificationRecords = tekg_taxonomy_file_leaf_records('rmsk_repbase');
+    $teClassificationRecords = tekg_taxonomy_neo4j_leaf_records('rmsk_repbase', $config);
 } catch (Throwable $e) {
     http_response_code(500);
     echo json_encode(['ok' => false, 'error' => $e->getMessage()], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
@@ -61,6 +61,7 @@ try {
 MATCH (n)
 WHERE NOT 'Paper' IN labels(n)
   AND NOT 'TE' IN labels(n)
+  AND NOT 'TaxonomyNode' IN labels(n)
 WITH labels(n) AS node_labels
 WITH CASE
   WHEN size(node_labels) = 0 THEN 'Other'

@@ -71,7 +71,7 @@ def main() -> None:
     require(taxonomy_te_count > 0, "RMSK + RepBase taxonomy leaf count must be positive")
     direct_non_te_entities = neo4j_query(
         config,
-        "MATCH (n) WHERE NOT 'Paper' IN labels(n) AND NOT 'TE' IN labels(n) RETURN count(n) AS count",
+        "MATCH (n) WHERE NOT 'Paper' IN labels(n) AND NOT 'TE' IN labels(n) AND NOT 'TaxonomyNode' IN labels(n) RETURN count(n) AS count",
     )[0]["count"]
     direct_relationships = neo4j_query(config, "MATCH ()-[r]->() RETURN count(r) AS count")[0]["count"]
     direct_bio_relations = neo4j_query(config, "MATCH ()-[r:BIO_RELATION]->() RETURN count(r) AS count")[0]["count"]

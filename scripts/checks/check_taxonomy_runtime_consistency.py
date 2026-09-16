@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import base64
 from collections import Counter
 import json
@@ -11,8 +12,18 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
-
 ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from scripts.taxonomy.rebuild_neo4j_taxonomy import (
+    Neo4jClient,
+    database_url,
+    verify_database,
+    verify_input_hashes,
+)
+
+
 API_BASE = "http://127.0.0.1/tedee/api"
 REPRESENTATIVE_TE = ["L1HS", "AluJb", "MER131", "SVA", "ERVL"]
 
@@ -108,7 +119,6 @@ def check_neo4j_taxonomy(config: dict[str, str], failures: list[str]) -> dict[st
         MATCH (t:TE)
         WHERE t.name IN $names
         RETURN t.name AS name,
-               t.taxonomy_group AS taxonomy_group,
                t.taxonomy_status AS taxonomy_status,
                t.taxonomy_source AS taxonomy_source,
                t.taxonomy_class AS taxonomy_class,
@@ -116,9 +126,7 @@ def check_neo4j_taxonomy(config: dict[str, str], failures: list[str]) -> dict[st
                t.taxonomy_order AS taxonomy_order,
                t.taxonomy_superfamily AS taxonomy_superfamily,
                t.taxonomy_family AS taxonomy_family,
-               t.taxonomy_subclade AS taxonomy_subclade,
-               t.is_leaf_standard AS is_leaf_standard,
-               t.homepage_chart_included AS homepage_chart_included
+               t.taxonomy_subclade AS taxonomy_subclade
         ORDER BY t.name
         """,
         {"names": REPRESENTATIVE_TE},
@@ -129,8 +137,6 @@ def check_neo4j_taxonomy(config: dict[str, str], failures: list[str]) -> dict[st
         if row is None:
             failures.append(f"Neo4j missing representative TE: {name}")
             continue
-        if not row.get("taxonomy_group"):
-            failures.append(f"Neo4j missing taxonomy_group for {name}")
         if not row.get("taxonomy_status"):
             failures.append(f"Neo4j missing taxonomy_status for {name}")
         if not any(value for value in taxonomy_path(row).values()):
@@ -154,7 +160,7 @@ def check_taxonomy_api(expected: dict[str, dict[str, Any]], failures: list[str])
         if item is None:
             failures.append(f"taxonomy API missing {name}")
             continue
-        for key in ["taxonomy_group", "taxonomy_status", "taxonomy_source"]:
+        for key in ["taxonomy_status", "taxonomy_source"]:
             if item.get(key) != row.get(key):
                 failures.append(f"taxonomy API mismatch for {name}.{key}: {item.get(key)!r} != {row.get(key)!r}")
         if item.get("path") != taxonomy_path(row):
@@ -186,8 +192,8 @@ def check_graph_api(expected: dict[str, dict[str, Any]], failures: list[str]) ->
         if not isinstance(taxonomy, dict):
             failures.append(f"graph API missing taxonomy payload for {name}")
             continue
-        if taxonomy.get("group") != row.get("taxonomy_group"):
-            failures.append(f"graph API taxonomy group mismatch for {name}")
+        if taxonomy.get("status") != row.get("taxonomy_status"):
+            failures.append(f"graph API taxonomy status mismatch for {name}")
         if taxonomy.get("path") != taxonomy_path(row):
             failures.append(f"graph API taxonomy path mismatch for {name}")
 
@@ -219,41 +225,51 @@ def check_homepage_uses_realtime_taxonomy(failures: list[str]) -> None:
         failures.append("homepage ring chart reads JSON before realtime Neo4j taxonomy")
 
 
-def check_taxonomy_report_counts(failures: list[str]) -> None:
-    report_path = ROOT / "data" / "processed" / "tekg3_taxonomy_standardization_report.json"
-    if not report_path.is_file():
-        failures.append("taxonomy standardization report is missing")
-        return
-    report = json.loads(report_path.read_text(encoding="utf-8"))
-    final = report.get("final")
-    if not isinstance(final, dict):
-        failures.append("taxonomy report missing final map")
-        return
-    final_counts = dict(Counter(str(item.get("group", "")) for item in final.values() if isinstance(item, dict)))
-    if report.get("counts") != final_counts:
-        failures.append(f"taxonomy report top-level counts are not post-merge counts: {report.get('counts')} != {final_counts}")
-    if report.get("post_merge_counts") != final_counts:
-        failures.append("taxonomy report missing or stale post_merge_counts")
-    items = report.get("items")
-    if isinstance(items, list):
-        input_counts = dict(Counter(str(item.get("group", "")) for item in items if isinstance(item, dict)))
-        if report.get("input_counts") != input_counts:
-            failures.append("taxonomy report missing or stale input_counts")
+def check_taxonomy_tree_api(manifest: dict[str, Any], failures: list[str]) -> None:
+    for source in ("rmsk_repbase", "all"):
+        try:
+            payload = http_json(f"{API_BASE}/taxonomy.php?view=tree&source={source}")
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+            failures.append(f"taxonomy tree API request failed for {source}: {exc}")
+            continue
+        if payload.get("ok") is not True:
+            failures.append(f"taxonomy tree API returned non-ok for {source}")
+            continue
+        expected_nodes = {(row["raw_label"], row["depth"]) for row in manifest["trees"][source]["nodes"]}
+        actual_nodes = {(row["original_label"], row["depth"]) for row in payload.get("nodes", [])}
+        if actual_nodes != expected_nodes:
+            failures.append(f"taxonomy tree API node set differs for {source}")
+        names = {row["node_key"]: row["raw_label"] for row in manifest["trees"][source]["nodes"]}
+        expected_edges = {(names[row["child_key"]], names[row["parent_key"]]) for row in manifest["trees"][source]["edges"]}
+        actual_edges = {(row["child"], row["parent"]) for row in payload.get("edges", [])}
+        if actual_edges != expected_edges:
+            failures.append(f"taxonomy tree API edge set differs for {source}")
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--database", default="tekg3")
+    parser.add_argument("--manifest", type=Path, default=ROOT / "data" / "processed" / "neo4j_taxonomy_import.json")
+    args = parser.parse_args()
     failures: list[str] = []
+    manifest = json.loads(args.manifest.read_text(encoding="utf-8"))
+    verify_input_hashes(manifest)
     config = read_local_config()
     missing = [key for key in ["neo4j_url", "neo4j_user", "neo4j_password"] if not config.get(key)]
     if missing:
         failures.append(f"api/config.local.php missing keys: {', '.join(missing)}")
         expected: dict[str, dict[str, Any]] = {}
     else:
+        config["neo4j_url"] = database_url(config["neo4j_url"], args.database)
+        try:
+            verify_database(Neo4jClient(config, args.database), manifest)
+        except (RuntimeError, ValueError) as exc:
+            failures.append(str(exc))
         expected = check_neo4j_taxonomy(config, failures)
-    if expected:
+    if expected and args.database == "tekg3":
         check_taxonomy_api(expected, failures)
         check_graph_api(expected, failures)
-    check_taxonomy_report_counts(failures)
+        check_taxonomy_tree_api(manifest, failures)
     check_homepage_uses_realtime_taxonomy(failures)
     check_legacy_runtime_references(failures)
 

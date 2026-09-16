@@ -104,6 +104,9 @@ function tekg_taxonomy_normalize_item(array $row): array
         'subclade' => $row['taxonomy_subclade'] ?? null,
     ];
     $name = trim((string)($row['name'] ?? ''));
+    $source = (string)($row['taxonomy_source'] ?? 'none');
+    $status = (string)($row['taxonomy_status'] ?? 'unresolved');
+    $isAuthoritativeLeaf = $source === 'tree_rmsk_repbase' && $status === 'leaf';
     $pathLabels = array_values(array_filter(
         array_map(static fn($value): string => trim((string)$value), array_values($path)),
         static fn(string $value): bool => $value !== ''
@@ -114,15 +117,14 @@ function tekg_taxonomy_normalize_item(array $row): array
 
     return [
         'name' => $name,
-        'taxonomy_group' => $row['taxonomy_group'] ?? null,
-        'taxonomy_status' => $row['taxonomy_status'] ?? null,
-        'taxonomy_source' => $row['taxonomy_source'] ?? null,
-        'taxonomy_canonical_name' => $row['taxonomy_canonical_name'] ?? $name,
+        'taxonomy_status' => $status,
+        'taxonomy_source' => $source,
+        'taxonomy_canonical_name' => $name,
         'path' => $path,
         'path_labels' => $pathLabels,
         'display_path' => implode(' --- ', array_merge(['TE'], $pathLabels)),
-        'is_leaf_standard' => (bool)($row['is_leaf_standard'] ?? false),
-        'homepage_chart_included' => (bool)($row['homepage_chart_included'] ?? false),
+        'is_leaf_standard' => $isAuthoritativeLeaf,
+        'homepage_chart_included' => $isAuthoritativeLeaf,
     ];
 }
 
@@ -134,20 +136,16 @@ function tekg_taxonomy_fetch_items(?array $names = null, ?array $config = null):
         $config,
         <<<'CYPHER'
 MATCH (t:TE)
-WHERE size($names) = 0 OR t.name IN $names OR t.taxonomy_canonical_name IN $names
+WHERE size($names) = 0 OR t.name IN $names
 RETURN t.name AS name,
-       t.taxonomy_group AS taxonomy_group,
        t.taxonomy_status AS taxonomy_status,
        t.taxonomy_source AS taxonomy_source,
-       t.taxonomy_canonical_name AS taxonomy_canonical_name,
        t.taxonomy_class AS taxonomy_class,
        t.taxonomy_subclass AS taxonomy_subclass,
        t.taxonomy_order AS taxonomy_order,
        t.taxonomy_superfamily AS taxonomy_superfamily,
        t.taxonomy_family AS taxonomy_family,
-       t.taxonomy_subclade AS taxonomy_subclade,
-       t.is_leaf_standard AS is_leaf_standard,
-       t.homepage_chart_included AS homepage_chart_included
+       t.taxonomy_subclade AS taxonomy_subclade
 ORDER BY toLower(t.name)
 CYPHER,
         ['names' => $names]
@@ -221,6 +219,117 @@ function tekg_taxonomy_normalize_tree_source(string $source): string
 function tekg_taxonomy_is_file_tree_source(string $source): bool
 {
     return array_key_exists(tekg_taxonomy_normalize_tree_source($source), tekg_taxonomy_tree_sources());
+}
+
+function tekg_taxonomy_neo4j_tree_payload(string $source, ?array $config = null): array
+{
+    $sourceKey = tekg_taxonomy_normalize_tree_source($source);
+    $sources = tekg_taxonomy_tree_sources();
+    if (!isset($sources[$sourceKey])) {
+        throw new InvalidArgumentException('Unsupported taxonomy tree source: ' . $source);
+    }
+    $config ??= tekg_taxonomy_config();
+    $rows = tekg_taxonomy_run_neo4j(
+        $config,
+        <<<'CYPHER'
+MATCH (n:TaxonomyNode {source: $source})
+OPTIONAL MATCH (parent:TaxonomyNode)-[:TAXONOMY_PARENT_OF]->(n)
+RETURN n.node_key AS node_key,
+       n.raw_label AS raw_label,
+       n.depth AS depth,
+       n.is_leaf AS is_leaf,
+       n.path_key AS path_key,
+       parent.node_key AS parent_key,
+       parent.raw_label AS parent_label,
+       parent.source AS parent_source
+ORDER BY n.depth, toLower(n.raw_label), n.node_key
+CYPHER,
+        ['source' => $sourceKey]
+    );
+    if ($rows === []) {
+        throw new RuntimeException('Neo4j taxonomy tree is empty for source: ' . $sourceKey);
+    }
+    $nodes = [];
+    $edges = [];
+    $seenLabels = [];
+    foreach ($rows as $row) {
+        $label = trim((string)($row['raw_label'] ?? ''));
+        $nodeKey = trim((string)($row['node_key'] ?? ''));
+        if ($label === '' || $nodeKey === '' || isset($seenLabels[$label])) {
+            throw new RuntimeException('Neo4j taxonomy contains an empty or repeated label: ' . $label);
+        }
+        $seenLabels[$label] = true;
+        $nodes[] = [
+            'name' => $label,
+            'original_label' => $label,
+            'depth' => (int)($row['depth'] ?? 0),
+            'description' => $label . ' taxonomy node from Neo4j ' . $sourceKey . '.',
+        ];
+        if (!empty($row['parent_key'])) {
+            if ((string)($row['parent_source'] ?? '') !== $sourceKey) {
+                throw new RuntimeException('Cross-source taxonomy edge for ' . $label);
+            }
+            $edges[] = [
+                'child' => $label,
+                'parent' => (string)$row['parent_label'],
+                'relation' => 'SUBFAMILY_OF',
+            ];
+        }
+    }
+    $root = (string)$sources[$sourceKey]['root'];
+    if (!isset($seenLabels[$root]) || count($edges) !== count($nodes) - 1) {
+        throw new RuntimeException('Neo4j taxonomy tree is incomplete for source: ' . $sourceKey);
+    }
+    return [
+        'root' => $root,
+        'root_label' => $root,
+        'tree_source' => $sourceKey,
+        'label' => (string)$sources[$sourceKey]['label'],
+        'description' => (string)$sources[$sourceKey]['description'],
+        'node_count' => count($nodes),
+        'edge_count' => count($edges),
+        'nodes' => $nodes,
+        'edges' => $edges,
+    ];
+}
+
+function tekg_taxonomy_neo4j_leaf_records(string $source = 'rmsk_repbase', ?array $config = null): array
+{
+    $sourceKey = tekg_taxonomy_normalize_tree_source($source);
+    if (!isset(tekg_taxonomy_tree_sources()[$sourceKey])) {
+        throw new InvalidArgumentException('Unsupported taxonomy leaf source: ' . $source);
+    }
+    $rows = tekg_taxonomy_run_neo4j(
+        $config ?? tekg_taxonomy_config(),
+        <<<'CYPHER'
+MATCH (n:TaxonomyNode {source: $source, is_leaf: true})
+RETURN n.raw_label AS name, n.path_key AS path_key
+ORDER BY toLower(n.raw_label)
+CYPHER,
+        ['source' => $sourceKey]
+    );
+    if ($rows === []) {
+        throw new RuntimeException('Neo4j taxonomy has no leaves for source: ' . $sourceKey);
+    }
+    $records = [];
+    foreach ($rows as $row) {
+        $labels = json_decode((string)($row['path_key'] ?? ''), true);
+        if (!is_array($labels)) {
+            throw new RuntimeException('Invalid taxonomy path_key for ' . (string)$row['name']);
+        }
+        $path = [];
+        foreach ($labels as $label) {
+            if (preg_match('/^Class [^:]+:\s*(.+)$/u', (string)$label, $match)) {
+                $path['class'] = trim($match[1]);
+            } elseif (preg_match('/^Subclass [^:]+:\s*(.+)$/u', (string)$label, $match)) {
+                $path['subclass'] = trim($match[1]);
+            } elseif (preg_match('/^(Order|Superfamily|Family|Subclade):\s*(.+)$/u', (string)$label, $match)) {
+                $path[strtolower($match[1])] = trim($match[2]);
+            }
+        }
+        $records[] = ['name' => (string)$row['name'], 'path' => $path];
+    }
+    return $records;
 }
 
 function tekg_taxonomy_parse_tree_line(string $line): ?array
@@ -422,7 +531,7 @@ function tekg_taxonomy_file_leaf_records(string $source = 'rmsk_repbase'): array
 
 function tekg_taxonomy_loader_kinds(array $names, string $source = 'rmsk_repbase'): array
 {
-    $tree = tekg_taxonomy_file_tree_payload($source);
+    $tree = tekg_taxonomy_neo4j_tree_payload($source);
     $root = (string)($tree['root'] ?? 'Transposable Elements - Human');
     $labels = [];
     foreach ((array)($tree['nodes'] ?? []) as $node) {
@@ -581,7 +690,6 @@ function tekg_taxonomy_summary_payload(array $items): array
         'with_taxonomy_class' => 0,
         'homepage_chart_included' => 0,
         'is_leaf_standard' => 0,
-        'taxonomy_groups' => [],
         'taxonomy_sources' => [],
     ];
     foreach ($items as $item) {
@@ -594,16 +702,11 @@ function tekg_taxonomy_summary_payload(array $items): array
         if (!empty($item['is_leaf_standard'])) {
             $summary['is_leaf_standard']++;
         }
-        $group = (string)($item['taxonomy_group'] ?? '');
-        if ($group !== '') {
-            $summary['taxonomy_groups'][$group] = ($summary['taxonomy_groups'][$group] ?? 0) + 1;
-        }
         $source = (string)($item['taxonomy_source'] ?? '');
         if ($source !== '') {
             $summary['taxonomy_sources'][$source] = ($summary['taxonomy_sources'][$source] ?? 0) + 1;
         }
     }
-    ksort($summary['taxonomy_groups']);
     ksort($summary['taxonomy_sources']);
     return $summary;
 }
@@ -795,7 +898,7 @@ function tekg_taxonomy_homepage_payload(array $items): array
             'total_te_nodes' => count($items),
             'classified_for_homepage' => count($included),
             'excluded_non_leaf' => count(array_filter($items, static fn(array $item): bool => (string)($item['taxonomy_status'] ?? '') === 'non_leaf')),
-            'excluded_unresolved' => count(array_filter($items, static fn(array $item): bool => (string)($item['taxonomy_group'] ?? '') === 'unresolved')),
+            'excluded_unresolved' => count(array_filter($items, static fn(array $item): bool => (string)($item['taxonomy_status'] ?? '') === 'unresolved')),
         ],
     ];
 }

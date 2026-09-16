@@ -15,6 +15,10 @@ if str(SCRIPTS_ROOT) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_ROOT))
 
 from path_helpers import api_path, data_path, taxonomy_path  # noqa: E402
+from taxonomy.taxonomy_model import (  # noqa: E402
+    build_source_tree,
+    parse_tree_line,
+)
 
 
 CONFIG_PATH = api_path("config.local.php")
@@ -174,69 +178,23 @@ def extract_rank(display_name: str) -> tuple[str, str] | None:
 
 
 def parse_tree_content(raw_line: str) -> tuple[int, str]:
-    line = raw_line.rstrip("\n")
-    if not line.strip():
-        return 0, ""
-    if line.strip() in {VERTICAL_MARK}:
-        return 0, ""
-    leading_blocks = (len(line) - len(line.lstrip(" "))) // 4
-    depth = leading_blocks + line.count(VERTICAL_MARK)
-    branch_pattern = "|".join(re.escape(mark) for mark in BRANCH_MARKS)
-    marker_matches = list(re.finditer(rf"({branch_pattern})\s*", line))
-    if marker_matches:
-        marker_match = marker_matches[-1]
-        depth += 1
-        content = line[marker_match.end() :].strip()
-    else:
-        content = re.sub(rf"^[\s{re.escape(VERTICAL_MARK)}{''.join(re.escape(mark) for mark in BRANCH_MARKS)}]+", "", line).strip()
-    return depth, content
+    return parse_tree_line(raw_line) or (0, "")
 
 
 def parse_tree(tree_file: Path, tree_source: str) -> tuple[dict[str, list[TreeNode]], dict[str, list[TreeNode]]]:
-    stack: dict[int, dict[str, Any]] = {}
     exact_map: dict[str, list[TreeNode]] = defaultdict(list)
     normalized_map: dict[str, list[TreeNode]] = defaultdict(list)
-    tree_lines = tree_file.read_text(encoding="utf-8").splitlines()
-    entries: list[dict[str, Any]] = []
-
-    for raw_line in tree_lines:
-        depth, content = parse_tree_content(raw_line)
-        if not content or content in ROOT_NAMES:
+    source = {"tree_rmsk_repbase": "rmsk_repbase", "tree_all": "all"}.get(tree_source, tree_source)
+    tree = build_source_tree(tree_file, source)
+    for entry in tree.nodes:
+        if entry.rank == "root":
             continue
-        path: dict[str, str] = {}
-        parent_entry = None
-        if depth > 0:
-            parent_entry = stack.get(depth - 1)
-            if parent_entry is not None:
-                path = dict(parent_entry["path"])
-        rank_info = extract_rank(content)
-        same_depth_entry = stack.get(depth)
-        if rank_info is None and same_depth_entry is not None and len(same_depth_entry["path"]) > len(path):
-            path = dict(same_depth_entry["path"])
-        display_name = rank_info[1] if rank_info else content
-        if rank_info:
-            path[rank_info[0]] = display_name
-
-        entry = {
-            "display_name": display_name,
-            "raw_name": content,
-            "depth": depth,
-            "path": path,
-            "children": 0,
-        }
-        if depth > 0 and (depth - 1) in stack:
-            stack[depth - 1]["children"] += 1
-        stack = {key: value for key, value in stack.items() if key < depth}
-        stack[depth] = entry
-        entries.append(entry)
-
-    for entry in entries:
         node = TreeNode(
-            display_name=entry["display_name"],
-            raw_name=entry["raw_name"],
-            depth=entry["depth"],
-            is_leaf=entry["children"] == 0,
-            path=entry["path"],
+            display_name=entry.name,
+            raw_name=entry.raw_label,
+            depth=entry.depth,
+            is_leaf=entry.is_leaf,
+            path=dict(entry.path),
             tree_source=tree_source,
         )
         for alias in display_aliases(node.display_name):
@@ -814,48 +772,10 @@ def write_outputs(classifications: list[Classification], operations: list[dict[s
 
 
 def main() -> None:
-    config = load_config()
-    base_url = config["neo4j_url"]
-    user = config["neo4j_user"]
-    password = config["neo4j_password"]
-    source_url = tx_url(base_url, SOURCE_DB)
-    target_url = tx_url(base_url, TARGET_DB)
-
-    rep_exact, rep_norm = parse_tree(taxonomy_path("tree_rmsk_repbase.txt"), "tree_rmsk_repbase")
-    all_exact, all_norm = parse_tree(taxonomy_path("tree_all.txt"), "tree_all")
-    rep_text_lower = taxonomy_path("tree_rmsk_repbase.txt").read_text(encoding="utf-8").lower()
-    all_text_lower = taxonomy_path("tree_all.txt").read_text(encoding="utf-8").lower()
-
-    recreate_database(base_url, user, password, TARGET_DB)
-    constraints, indexes = fetch_source_schema(source_url, user, password)
-    nodes, relationships = fetch_graph_snapshot(source_url, user, password)
-    import_graph(target_url, user, password, nodes, relationships)
-
-    te_names = fetch_te_names(target_url, user, password)
-    classifications = classify_te_names(te_names, rep_exact, rep_norm, all_exact, all_norm, rep_text_lower, all_text_lower)
-    operations = apply_name_standardization(target_url, user, password, classifications)
-    final_map = build_final_classifications(classifications)
-    write_taxonomy_properties(target_url, user, password, final_map)
-    finalize_target_schema(target_url, user, password, constraints, indexes)
-    homepage_stats = build_homepage_stats(final_map)
-    write_outputs(classifications, operations, final_map, homepage_stats)
-
-    print(
-        json.dumps(
-            {
-                "target_db": TARGET_DB,
-                "node_count": len(nodes),
-                "relationship_count": len(relationships),
-                "te_count": len(te_names),
-                "classification_counts": dict(Counter(item.group for item in classifications)),
-                "status_counts": dict(Counter(item.status for item in classifications)),
-                "operations": len(operations),
-                "homepage_stats_path": str(HOMEPAGE_STATS_PATH),
-                "report_path": str(REPORT_PATH),
-            },
-            ensure_ascii=False,
-            indent=2,
-        )
+    raise SystemExit(
+        "This tekg21-to-tekg3 rebuild entry point is retired. "
+        "Use scripts/taxonomy/rebuild_neo4j_taxonomy.py so current tekg3 "
+        "literature nodes and relationships are preserved."
     )
 
 
