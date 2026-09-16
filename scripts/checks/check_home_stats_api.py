@@ -73,8 +73,11 @@ def main() -> None:
         config,
         "MATCH (n) WHERE NOT 'Paper' IN labels(n) AND NOT 'TE' IN labels(n) AND NOT 'TaxonomyNode' IN labels(n) RETURN count(n) AS count",
     )[0]["count"]
-    direct_relationships = neo4j_query(config, "MATCH ()-[r]->() RETURN count(r) AS count")[0]["count"]
     direct_bio_relations = neo4j_query(config, "MATCH ()-[r:BIO_RELATION]->() RETURN count(r) AS count")[0]["count"]
+    direct_taxonomy_relationships = neo4j_query(
+        config,
+        "MATCH (:TaxonomyNode {source: 'rmsk_repbase'})-[r:TAXONOMY_PARENT_OF]->(:TaxonomyNode {source: 'rmsk_repbase'}) RETURN count(r) AS count",
+    )[0]["count"]
 
     relation_rows_all = neo4j_query(
         config,
@@ -90,6 +93,7 @@ ORDER BY count DESC, label ASC
     )
     broad = {"associate with", "participate in", "involve in"}
     relation_rows = [row for row in relation_rows_all if str(row["label"]).lower() not in broad]
+    relation_rows.append({"label": "Taxonomic classification", "count": direct_taxonomy_relationships})
     expected_relation_total = sum(int(row["count"]) for row in relation_rows)
     entity_total = sum(row["count"] for row in data["entity_composition"])
     relation_total = sum(row["count"] for row in data["relation_composition"])
@@ -112,14 +116,18 @@ ORDER BY count DESC, label ASC
     actual_entity = {str(row["label"]): int(row["count"]) for row in data["entity_composition"]}
     require(data["nodes_total"] == direct_non_te_entities + taxonomy_te_count, "nodes_total must combine non-TE Neo4j entities and RMSK + RepBase TEs")
     require(actual_entity.get("TE") == taxonomy_te_count, "Entity composition TE count must match RMSK + RepBase taxonomy leaves")
-    require(data["relationships_total"] == direct_relationships, "relationships_total must match direct Neo4j count")
+    require(data["relationships_total"] == expected_relation_total, "relationships_total must match the displayed relation composition")
     require(entity_total == data["nodes_total"], f"entity composition sum {entity_total} must equal nodes_total")
-    require(direct_bio_relations > relation_total, "specific relation composition should exclude broad predicates")
+    require(sum(int(row["count"]) for row in relation_rows_all) == direct_bio_relations, "BIO_RELATION predicate rows must match the direct count")
     require(relation_total == expected_relation_total, f"relation composition sum {relation_total} must equal specific predicate count")
     require(te_total == taxonomy_te_count, f"TE classification sum {te_total} must equal taxonomy leaf count {taxonomy_te_count}")
     require(abs(entity_percentage_total - 100.0) <= 0.2, "entity composition percentages should sum to about 100")
     require(abs(relation_percentage_total - 100.0) <= 0.2, "relation composition percentages should sum to about 100")
     require(actual_relation == expected_relation, f"relation composition mismatch: {actual_relation} != {expected_relation}")
+    require(
+        actual_relation.get("Taxonomic classification") == direct_taxonomy_relationships,
+        "relation composition must contain the authoritative taxonomy relationship count as one slice",
+    )
     for level in ("class", "order", "superfamily", "family"):
         level_data = http_json(app_url(f"api/home_stats.php?te_level={level}"))
         require(level_data.get("ok") is True, f"home_stats te_level={level} ok must be true")

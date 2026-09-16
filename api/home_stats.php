@@ -52,10 +52,6 @@ $teLevel = home_stats_te_level();
 try {
     $results = home_stats_run_neo4j_statements($config, [
         [
-            'statement' => 'MATCH ()-[r]->() RETURN count(r) AS count',
-            'parameters' => [],
-        ],
-        [
             'statement' =>
                 <<<'CYPHER'
 MATCH (n)
@@ -85,13 +81,29 @@ ORDER BY count DESC, label ASC
 CYPHER,
             'parameters' => [],
         ],
+        [
+            'statement' =>
+                <<<'CYPHER'
+MATCH (parent:TaxonomyNode {source: $source})-[r:TAXONOMY_PARENT_OF]->(child:TaxonomyNode {source: $source})
+RETURN count(r) AS count
+CYPHER,
+            'parameters' => ['source' => 'rmsk_repbase'],
+        ],
     ]);
 
-    $relationshipsTotal = max(0, (int)($results[0][0]['count'] ?? 0));
-    $entityRows = $results[1] ?? [];
-    $relationRows = $results[2] ?? [];
+    $entityRows = $results[0] ?? [];
+    $relationRows = $results[1] ?? [];
+    $taxonomyRelationshipCount = max(0, (int)($results[2][0]['count'] ?? 0));
+    if ($taxonomyRelationshipCount > 0) {
+        $relationRows[] = [
+            'label' => 'Taxonomic classification',
+            'count' => $taxonomyRelationshipCount,
+        ];
+    }
     $entityComposition = home_stats_entity_composition($entityRows, count($teClassificationRecords));
+    $relationComposition = home_stats_relation_composition($relationRows);
     $nodesTotal = array_sum(array_column($entityComposition, 'count'));
+    $relationshipsTotal = array_sum(array_column($relationComposition, 'count'));
 
     echo json_encode([
         'ok' => true,
@@ -100,7 +112,7 @@ CYPHER,
         'te_source' => 'rmsk_repbase',
         'te_level' => $teLevel,
         'entity_composition' => $entityComposition,
-        'relation_composition' => home_stats_relation_composition($relationRows),
+        'relation_composition' => $relationComposition,
         'te_classification_composition' => home_stats_taxonomy_classification($teClassificationRecords, $teLevel),
         'generated_at' => gmdate('c'),
     ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
@@ -204,6 +216,12 @@ function home_stats_relation_composition(array $rows): array
             'percentage' => home_stats_percentage($otherCount, $total),
         ];
     }
+    usort($composition, static function (array $left, array $right): int {
+        $countComparison = ((int)$right['count']) <=> ((int)$left['count']);
+        return $countComparison !== 0
+            ? $countComparison
+            : strcmp((string)$left['label'], (string)$right['label']);
+    });
     return $composition;
 }
 

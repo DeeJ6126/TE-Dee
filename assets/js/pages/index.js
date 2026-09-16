@@ -89,7 +89,8 @@
           index,
         };
       })
-      .filter((row) => row.count > 0);
+      .filter((row) => row.count > 0)
+      .sort((left, right) => (right.count - left.count) || (left.index - right.index));
   }
 
   function colorRows(kind, rows) {
@@ -178,16 +179,20 @@
     track.setAttribute('r', '136');
     svg.appendChild(track);
 
+    const total = rows.reduce((sum, row) => sum + row.count, 0);
+    let remainingSweep = 360 * Math.max(0, Math.min(1, progress));
     let startAngle = -90;
     rows.forEach((row) => {
-      const sweep = 360 * (row.percentage / 100) * progress;
-      if (sweep <= 0) {
+      const fullSweep = total > 0 ? 360 * (row.count / total) : 0;
+      const visibleSweep = Math.min(fullSweep, Math.max(0, remainingSweep));
+      if (visibleSweep <= 0) {
+        startAngle += fullSweep;
         return;
       }
 
       const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
       path.setAttribute('class', 'status-donut-segment');
-      path.setAttribute('d', buildDonutPath(180, 180, 168, 104, startAngle, startAngle + sweep));
+      path.setAttribute('d', buildDonutPath(180, 180, 168, 104, startAngle, startAngle + visibleSweep));
       path.setAttribute('fill', row.color);
       path.setAttribute('tabindex', '0');
       path.setAttribute('aria-label', `${row.label}: ${formatNumber(row.count)} (${percentFormatter.format(row.percentage)}%)`);
@@ -214,7 +219,8 @@
         hideTooltip();
       });
       svg.appendChild(path);
-      startAngle += 360 * (row.percentage / 100);
+      remainingSweep -= visibleSweep;
+      startAngle += fullSweep;
     });
   }
 

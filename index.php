@@ -107,10 +107,10 @@ $quickLinks = [
                   <h4>Relation Composition</h4>
                 </div>
                 <div class="status-donut-shell">
-                  <svg class="status-donut" viewBox="0 0 360 360" role="img" aria-label="Relation predicate composition donut chart" data-donut-chart="relation"></svg>
+                  <svg class="status-donut" viewBox="0 0 360 360" role="img" aria-label="Relation composition donut chart" data-donut-chart="relation"></svg>
                   <div class="status-donut-center">
                     <div class="status-donut-total" data-donut-total="relation">--</div>
-                    <div class="status-donut-label">Bio relation</div>
+                    <div class="status-donut-label">Relations</div>
                   </div>
                 </div>
                 <div class="status-legend" data-donut-legend="relation">
