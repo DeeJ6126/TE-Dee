@@ -731,6 +731,25 @@ that total; resolving aliases or adding All-only entries will not. Recheck the
 Home count after the team's classification decision rather than forcing it to
 remain 1,501.
 
+#### Resolution applied on 2026-09-16
+
+The team added `L1P`, `MER44`, `MER46`, and `MER47` as genuine leaves to both
+TXT trees. Neo4j was updated incrementally with four source-scoped nodes and
+four parent edges per tree (eight physical `:TaxonomyNode` records and eight
+edges in total). The existing literature `:TE` records for those four names
+were classified as leaves.
+
+Seven other literature names were resolved as aliases of existing internal
+classification nodes: `LINE`, `LTR`, `Merlin`, `Penelope`, `Retrotransposon`,
+`SINE3`, and `retroposon`. Their existing `:TE` records received non-leaf
+taxonomy paths without creating duplicate taxonomy nodes. `Mobile genetic
+element` intentionally remains `taxonomy_source=none` and
+`taxonomy_status=unresolved` because the All TXT wrapper is not part of the
+runtime tree. The update did not add, delete, or rename any `:TE` node.
+
+After this update the RMSK+Repbase tree has 1,505 leaves, the All tree has
+1,541 leaves, and the Home TE count is 1,505.
+
 ## Final acceptance criteria
 
 - Both TXT files parse with zero path mismatches and recorded SHA-256 hashes.

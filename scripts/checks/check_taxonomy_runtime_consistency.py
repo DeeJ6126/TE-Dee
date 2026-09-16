@@ -211,18 +211,21 @@ def check_legacy_runtime_references(failures: list[str]) -> None:
 
 def check_homepage_uses_realtime_taxonomy(failures: list[str]) -> None:
     index_path = ROOT / "index.php"
+    api_path = ROOT / "api" / "home_stats.php"
     if not index_path.is_file():
         failures.append("index.php is missing")
         return
-    text = index_path.read_text(encoding="utf-8", errors="replace")
-    if "api/taxonomy_lib.php" not in text:
-        failures.append("homepage ring chart does not load api/taxonomy_lib.php")
-    if "tekg_taxonomy_homepage_payload(" not in text:
-        failures.append("homepage ring chart does not build views from realtime Neo4j taxonomy")
-    json_pos = text.find("tekg3_homepage_taxonomy.json")
-    live_pos = text.find("tekg_taxonomy_homepage_payload(")
-    if json_pos != -1 and (live_pos == -1 or json_pos < live_pos):
-        failures.append("homepage ring chart reads JSON before realtime Neo4j taxonomy")
+    if not api_path.is_file():
+        failures.append("api/home_stats.php is missing")
+        return
+    index_text = index_path.read_text(encoding="utf-8", errors="replace")
+    api_text = api_path.read_text(encoding="utf-8", errors="replace")
+    if "home_stats.php" not in index_text:
+        failures.append("homepage does not request the live home-stats API")
+    if "taxonomy_lib.php" not in api_text:
+        failures.append("home-stats API does not load taxonomy_lib.php")
+    if "tekg_taxonomy_neo4j_leaf_records('rmsk_repbase'" not in api_text:
+        failures.append("home-stats API does not count authoritative Neo4j taxonomy leaves")
 
 
 def check_taxonomy_tree_api(manifest: dict[str, Any], failures: list[str]) -> None:

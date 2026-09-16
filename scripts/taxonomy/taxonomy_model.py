@@ -20,6 +20,15 @@ SOURCE_ROOTS = {
 }
 RANKS = ("class", "subclass", "order", "superfamily", "family", "subclade")
 SLIM_PROPERTIES = ("taxonomy_source", "taxonomy_status") + tuple(f"taxonomy_{rank}" for rank in RANKS)
+LITERATURE_NAME_ALIASES = {
+    "LINE": "Non-LTR Retrotransposons (LINEs)",
+    "LTR": "LTR Retrotransposons",
+    "Merlin": "Merlin/IS1016",
+    "Penelope": "Penelope / Neptune",
+    "Retrotransposon": "Retrotransposons",
+    "SINE3": "SINE3/5S",
+    "retroposon": "Retrotransposons",
+}
 BRANCH_PATTERN = re.compile(r"(?:├──|└──)\s*")
 RANK_PATTERNS = (
     ("class", re.compile(r"^Class [^:]+:\s*(.+)$")),
@@ -230,16 +239,17 @@ def _select_match(candidates: list[TaxonomyNodeRecord]) -> TaxonomyNodeRecord | 
 def classify_te_names(names: list[str], trees: dict[str, SourceTree]) -> list[TeClassification]:
     results: list[TeClassification] = []
     for original_name in sorted(set(names)):
+        lookup_name = LITERATURE_NAME_ALIASES.get(original_name, original_name)
         matched: TaxonomyNodeRecord | None = None
         method = "none"
         ambiguous = False
         for source in ("rmsk_repbase", "all"):
             nodes = trees[source].nodes
             lookups = (
-                ("exact", [node for node in nodes if node.name == original_name]),
-                ("exact_alias", [node for node in nodes if original_name in display_aliases(node.name) and node.name != original_name]),
-                ("normalized", [node for node in nodes if normalized_key(node.name) == normalized_key(original_name) and node.name != original_name]),
-                ("normalized_alias", [node for node in nodes if any(normalized_key(alias) == normalized_key(original_name) for alias in display_aliases(node.name)) and normalized_key(node.name) != normalized_key(original_name)]),
+                ("explicit_alias", [node for node in nodes if node.name == lookup_name]) if lookup_name != original_name else ("exact", [node for node in nodes if node.name == original_name]),
+                ("exact_alias", [node for node in nodes if lookup_name in display_aliases(node.name) and node.name != lookup_name]),
+                ("normalized", [node for node in nodes if normalized_key(node.name) == normalized_key(lookup_name) and node.name != lookup_name]),
+                ("normalized_alias", [node for node in nodes if any(normalized_key(alias) == normalized_key(lookup_name) for alias in display_aliases(node.name)) and normalized_key(node.name) != normalized_key(lookup_name)]),
             )
             for candidate_method, candidates in lookups:
                 if not candidates:
