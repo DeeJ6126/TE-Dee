@@ -120,7 +120,7 @@
                     <button id="coexpression-gene-clear" class="graph-legend-apply enrichment-secondary" type="button">Reset</button>
                   </div>
                   <section id="coexpression-gene-list-panel" class="graph-legend-panel enrichment-gene-list-panel" hidden aria-label="Gene List">
-                    <div class="enrichment-list-heading"><span class="graph-legend-title">Gene List</span><button id="coexpression-gene-select-all" class="graph-legend-tab" type="button">All</button></div>
+                    <div class="enrichment-list-heading"><span class="graph-legend-title">Gene List</span><button id="coexpression-gene-select-all" class="graph-legend-tab" type="button">Select All</button></div>
                     <div id="coexpression-gene-list" class="graph-legend-list enrichment-gene-grid"></div>
                   </section>
                 </div>

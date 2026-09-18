@@ -104,6 +104,7 @@
     setViewState: function (state) { return runner.setViewState(state || {}); },
     setFixedView: function (fixed) { return runner.setFixedView(fixed === true); },
     setLegendFocus: function (focus) { return runner.setLegendFocus(focus); },
+    setEnrichmentSelection: function (state) { return runner.setEnrichmentSelection(state); },
     inspectNode: function (id) { return runner.inspectNode(id); },
     inspectEdge: function (id) { return runner.inspectEdge(id); },
     exportPngDataUrl: function () { return runner.exportPngDataUrl(); },

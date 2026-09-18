@@ -46,10 +46,13 @@
               <div id="integrated-state" class="coexpression-state integrated-state" role="status" aria-live="polite" hidden></div>
               <aside id="integrated-legend" class="graph-legend-panel integrated-legend" aria-label="Integrated Graph legend" hidden>
                 <div class="graph-legend-mode-switch" role="tablist" aria-label="Integrated graph legend mode">
-                  <button class="graph-legend-tab is-active" type="button" data-integrated-legend-mode="entity" aria-pressed="true">Entity</button>
+                  <button class="graph-legend-tab is-active" type="button" data-integrated-legend-mode="entity" data-enrichment-pane="legend" aria-pressed="true">Entity</button>
                   <span class="graph-legend-mode-separator" aria-hidden="true">/</span>
-                  <button class="graph-legend-tab" type="button" data-integrated-legend-mode="relation" aria-pressed="false">Relation</button>
+                  <button class="graph-legend-tab" type="button" data-integrated-legend-mode="relation" data-enrichment-pane="legend" aria-pressed="false">Relation</button>
+                  <span class="graph-legend-mode-separator" aria-hidden="true">/</span>
+                  <button class="graph-legend-tab" type="button" data-enrichment-pane="enrichment" aria-pressed="false">GO/KEGG</button>
                 </div>
+                <div id="integrated-legend-pane">
                 <div id="integrated-relation-controls" class="graph-relation-controls" hidden>
                   <label class="graph-relation-min-pmids-label" for="integrated-min-pmids">Min PMID</label>
                   <input id="integrated-min-pmids" class="graph-relation-min-pmids" type="number" min="0" max="99" step="1" value="0">
@@ -62,6 +65,23 @@
                     <option value="all" selected>All selected edges</option>
                   </select>
                 </label>
+                </div>
+                <div id="integrated-enrichment-pane" hidden>
+                  <div class="enrichment-selection-tools">
+                    <button id="integrated-gene-select" class="graph-legend-apply enrichment-secondary" type="button" aria-pressed="false">Select</button>
+                    <button id="integrated-gene-list-toggle" class="graph-legend-apply enrichment-secondary" type="button" aria-expanded="false">List</button>
+                  </div>
+                  <p id="integrated-gene-selection-count" class="enrichment-selection-count" aria-live="polite">Genes selected: 0</p>
+                  <label class="coexpression-edge-scope-control" for="integrated-enrichment-provider"><span>Provider</span><select id="integrated-enrichment-provider"><option value="string">STRING</option><option value="enrichr">Enrichr</option></select></label>
+                  <div class="graph-legend-footer enrichment-selection-tools">
+                    <button id="integrated-run-enrichment" class="graph-legend-apply" type="button" disabled>Run</button>
+                    <button id="integrated-gene-clear" class="graph-legend-apply enrichment-secondary" type="button">Reset</button>
+                  </div>
+                  <section id="integrated-gene-list-panel" class="graph-legend-panel enrichment-gene-list-panel" hidden aria-label="Integrated Gene List">
+                    <div class="enrichment-list-heading"><span class="graph-legend-title">Gene List</span><button id="integrated-gene-select-all" class="graph-legend-tab" type="button">Select All</button></div>
+                    <div id="integrated-gene-list" class="graph-legend-list enrichment-gene-grid enrichment-gene-grid-grouped"></div>
+                  </section>
+                </div>
               </aside>
             </div>
             <div class="detail" id="integrated-node-details">Select an entity to combine its available graph evidence.</div>

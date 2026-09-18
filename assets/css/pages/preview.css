@@ -1813,7 +1813,7 @@
 
 /* Enrichment reuses Graph legend components; only arrangement and compact sizing differ. */
 .coexpression-legend-pane { display:flex; flex-direction:column; gap:8px; }
-#coexpression-legend [hidden] { display:none !important; }
+#coexpression-legend [hidden], #integrated-legend [hidden] { display:none !important; }
 .enrichment-selection-tools { display:flex; gap:8px; }
 .graph-legend-apply.enrichment-secondary { background:#fff; color:#2563eb; }
 .graph-legend-apply.enrichment-secondary[aria-pressed="true"] { background:#2563eb; color:#fff; }
@@ -1828,6 +1828,13 @@
 .gene-enrichment-head { cursor:move; touch-action:none; user-select:none; }
 .enrichment-gene-grid .graph-legend-item { font-size:11px; gap:6px; }
 .enrichment-gene-grid .graph-legend-text { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.enrichment-gene-grid-grouped { display:block !important; }
+.enrichment-gene-source-group { display:block; }
+.enrichment-gene-source-title { margin:2px 0 8px; color:#334155; font-size:11px; font-weight:800; }
+.enrichment-gene-source-items { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px 12px; }
+.enrichment-gene-source-divider { height:1px; margin:12px 0; background:#cbd5e1; }
+.enrichment-gene-source-empty { grid-column:1 / -1; color:#64748b; font-size:11px; }
+.graph-legend-swatch.integrated-enrichment-knowledge { --legend-color:#8a7cf8; }
 .gene-enrichment-panel { border-radius:18px; border-color:rgba(203,213,225,.9); box-shadow:0 18px 40px rgba(37,99,235,.12); }
 .gene-enrichment-panel[hidden] { display:none !important; }
 .gene-enrichment-bar i { background:#2563eb; }
