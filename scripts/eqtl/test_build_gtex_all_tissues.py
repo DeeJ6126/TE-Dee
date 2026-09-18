@@ -110,7 +110,9 @@ class GTExAllTissuesFixtureTests(unittest.TestCase):
             self.catalog,
             self.output,
             expected_count=2,
+            version_key="test_casefold_v2",
         )
+        self.assertEqual(finalized["analysis_version"], "test_casefold_v2")
         self.assertEqual(finalized["counts"]["tissue_count"], 2)
         self.assertEqual(finalized["counts"]["source_association_count"], 6)
         audit = (self.output / "missing_browse_te.tsv").read_text(encoding="utf-8")

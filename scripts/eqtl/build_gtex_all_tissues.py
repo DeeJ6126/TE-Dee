@@ -600,6 +600,7 @@ def finalize_all_tissue_run(
     output_root: Path,
     *,
     expected_count: int = 50,
+    version_key: str = "gtex_v11_strict_te_overlap_v1",
 ) -> dict:
     archive = Path(archive)
     te_bed = Path(te_bed)
@@ -657,7 +658,8 @@ def finalize_all_tissue_run(
     if preflight.get("status") != "passed":
         raise ValueError("Preflight disk gate did not pass.")
     manifest = {
-        "analysis_version": "gtex_v11_strict_te_overlap_v1",
+        "analysis_version": version_key,
+        "te_name_matching": "casefold BED name to unique Browse catalog name; no alias inference",
         "manifest_schema_version": MANIFEST_SCHEMA_VERSION,
         "status": "complete",
         "coordinate_contract": {
@@ -723,6 +725,7 @@ def main() -> None:
     parser.add_argument("--continue-on-error", action="store_true")
     parser.add_argument("--preflight-report-only", action="store_true")
     parser.add_argument("--finalize-only", action="store_true")
+    parser.add_argument("--version-key", default="gtex_v11_strict_te_overlap_v1")
     args = parser.parse_args()
     if args.preflight_report_only:
         report = build_preflight_report(args.archive, args.output_root)
@@ -734,6 +737,7 @@ def main() -> None:
             args.te_bed,
             args.browse_catalog,
             args.output_root,
+            version_key=args.version_key,
         )
         print(json.dumps(manifest["counts"], indent=2, sort_keys=True))
         return

@@ -1,6 +1,7 @@
 import unittest
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 import pandas as pd
@@ -10,6 +11,17 @@ from scripts.eqtl import gtex_overlap_core as core
 
 
 class CompatibilityTests(unittest.TestCase):
+    def test_bed_case_mapping(self):
+        with tempfile.TemporaryDirectory() as directory:
+            bed = Path(directory) / "repeats.bed"
+            bed.write_text("chr1\t10\t20\tCharlie10\t0\t+\tDNA\thAT\nchrY\t30\t40\tTigger1\t0\t-\tDNA\tTcMar\n", encoding="utf8")
+            frame, counts = core.load_te_intervals(bed, {"CHARLIE10", "TIGGER1"})
+            self.assertEqual(set(frame.te_name), {"CHARLIE10", "TIGGER1"})
+            self.assertEqual(counts["approved_te_names_with_intervals"], 2)
+            self.assertEqual(frame.iloc[0].te_instance_id, "CHARLIE10@chr1:10-20:+")
+            with self.assertRaisesRegex(ValueError, "Ambiguous"):
+                core.load_te_intervals(bed, {"Charlie10", "CHARLIE10"})
+
     def test_public_aliases_reference_core_objects(self):
         self.assertIs(overlap.parse_variant_id, core.parse_variant_id)
         self.assertIs(overlap.match_variant_intervals, core.match_variant_intervals)

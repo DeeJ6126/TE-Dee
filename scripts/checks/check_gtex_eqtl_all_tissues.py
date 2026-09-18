@@ -143,7 +143,8 @@ def main() -> int:
     require(summary_total == int(manifest["counts"]["te_gene_tissue_summary_count"]), "All-tissue summary count drift.")
     audit = pd.read_csv(root / "missing_browse_te.tsv", sep="\t")
     require(len(audit) == 276 and audit["te_name"].nunique() == 276, "Browse TE mapping audit must contain 276 unique names.")
-    require(int(audit["has_hg38_instance"].sum()) == 202, "Browse TE mapping audit should contain 202 mapped names.")
+    require(int(audit["has_hg38_instance"].sum()) == int(manifest["counts"]["approved_te_names_with_intervals"]), "Browse TE mapped-name count differs from the version manifest.")
+    require(int(audit["instance_count"].sum()) == int(manifest["counts"]["approved_te_interval_count"]), "Browse TE instance count differs from the version manifest.")
     require(not any(root.glob(".*.tmp-*")), "Temporary output directories remain after completion.")
 
     mysql_counts = verify_mysql_artifacts(root) if args.require_mysql else {}

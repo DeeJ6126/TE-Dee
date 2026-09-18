@@ -98,6 +98,12 @@ def load_approved_te_names(path: Path) -> set[str]:
 def load_te_intervals(path: Path, approved_names: set[str]) -> tuple[pd.DataFrame, dict[str, int]]:
     if not path.is_file():
         raise FileNotFoundError(f"RepeatMasker BED not found: {path}")
+    canonical_names = {}
+    for name in sorted(approved_names):
+        key = name.casefold()
+        if key in canonical_names:
+            raise ValueError(f"Ambiguous case-insensitive approved TE name: {name}")
+        canonical_names[key] = name
     rows, total_rows, invalid_rows, non_primary_rows = [], 0, 0, 0
     with path.open("r", encoding="utf-8") as handle:
         for line_number, line in enumerate(handle, start=1):
@@ -106,8 +112,8 @@ def load_te_intervals(path: Path, approved_names: set[str]) -> tuple[pd.DataFram
             if len(parts) < 8:
                 invalid_rows += 1
                 continue
-            te_name = parts[3].strip()
-            if te_name not in approved_names:
+            te_name = canonical_names.get(parts[3].strip().casefold())
+            if te_name is None:
                 continue
             try:
                 chrom, start, end = normalize_chromosome(parts[0]), int(parts[1]), int(parts[2])
