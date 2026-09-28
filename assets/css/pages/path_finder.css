@@ -145,8 +145,16 @@
   font-size: 13px;
 }
 
+.path-finder-note[hidden] {
+  display: none;
+}
+
 .path-results-panel {
   padding: 18px;
+}
+
+.path-results-panel[hidden] {
+  display: none;
 }
 
 .path-results-head {
@@ -229,11 +237,6 @@
   font-size: 14px;
 }
 
-.path-graph-title span {
-  color: #6f83a3;
-  font-size: 12px;
-}
-
 .path-graph-actions {
   display: flex;
   flex-wrap: wrap;
@@ -241,78 +244,8 @@
   gap: 8px;
 }
 
-.path-graph-toggle,
-.path-graph-export {
-  min-height: 34px;
-  border: 1px solid #c9d9ef;
-  border-radius: 6px;
-  background: #ffffff;
-  color: #31588f;
-  font-size: 12px;
-  font-weight: 800;
-  padding: 0 13px;
-  cursor: pointer;
-}
-
-.path-graph-toggle.is-on,
-.path-graph-export {
-  border-color: #2f63b9;
-  background: #2f63b9;
-  color: #ffffff;
-}
-
-.path-graph-export:disabled {
-  border-color: #cbd5e1;
-  background: #e5edf7;
-  color: #7b8fa9;
-  cursor: not-allowed;
-}
-
 .path-command-control {
   border-radius: 6px;
-}
-
-.path-graph-export-menu-wrap {
-  position: relative;
-  display: inline-flex;
-}
-
-.path-graph-export-menu {
-  position: absolute;
-  top: calc(100% + 8px);
-  right: 0;
-  z-index: 30;
-  min-width: 132px;
-  padding: 6px;
-  border: 1px solid rgba(148, 163, 184, 0.35);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.16);
-}
-
-.path-graph-export-menu[hidden] {
-  display: none !important;
-}
-
-.path-graph-export-menu button {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  min-height: 32px;
-  padding: 7px 9px;
-  border: 0;
-  border-radius: 6px;
-  background: transparent;
-  color: #0f172a;
-  font-weight: 700;
-  text-align: left;
-  cursor: pointer;
-}
-
-.path-graph-export-menu button:hover,
-.path-graph-export-menu button:focus-visible {
-  background: #ecfeff;
-  outline: none;
 }
 
 .path-graph-surface {
@@ -386,10 +319,13 @@
   border-radius: 8px;
   padding: 13px 14px;
   background: #f8fbff;
+  border-color: color-mix(in srgb, var(--path-node-color, #94a3b8) 42%, white);
+  background: color-mix(in srgb, var(--path-node-color, #94a3b8) 11%, white);
 }
 
 .compact-path-node strong {
   color: #214b8d;
+  color: color-mix(in srgb, var(--path-node-color, #94a3b8) 56%, #18345f);
   font-size: 15px;
 }
 
@@ -410,6 +346,7 @@
   padding: 8px 2px;
   background: transparent;
   color: #63758e;
+  color: color-mix(in srgb, var(--path-edge-color, #94a3b8) 88%, white);
   cursor: pointer;
   font: inherit;
 }

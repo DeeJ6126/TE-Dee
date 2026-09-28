@@ -44,17 +44,6 @@
           gap: 10px;
         }
 
-        .preview-workspace-mode,
-        .preview-taxonomy-mode,
-        .preview-taxonomy-display-mode {
-          display: inline-grid;
-          padding: 3px;
-          border: 1px solid rgba(219, 231, 243, 0.95);
-          border-radius: 8px;
-          background: rgba(255, 255, 255, 0.96);
-          box-shadow: 0 12px 26px rgba(15, 23, 42, 0.12);
-        }
-
         .preview-workspace-mode[hidden],
         .preview-taxonomy-mode[hidden],
         .preview-taxonomy-display-mode[hidden] {
@@ -91,33 +80,6 @@
         .preview-taxonomy-display-mode {
           display: inline-grid;
           grid-template-columns: repeat(2, minmax(68px, auto));
-        }
-
-        .preview-workspace-mode-tab,
-        .preview-taxonomy-mode-tab {
-          min-height: 38px;
-          border: 0;
-          border-radius: 6px;
-          padding: 0 14px;
-          background: transparent;
-          color: #52677f;
-          font-size: 13px;
-          font-weight: 700;
-          letter-spacing: 0;
-          cursor: pointer;
-        }
-
-        .preview-workspace-mode-tab:hover,
-        .preview-taxonomy-mode-tab:hover {
-          background: #f4f7fb;
-          color: #244f8f;
-        }
-
-        .preview-workspace-mode-tab.is-active,
-        .preview-taxonomy-mode-tab.is-active {
-          background: #eaf2ff;
-          color: #174a91;
-          box-shadow: 0 1px 3px rgba(30, 64, 175, 0.16);
         }
 
         .preview-graph-panel {
@@ -1324,15 +1286,6 @@
           border-bottom: 3px solid #0f766e !important;
         }
 
-        .graph-export-menu-wrap {
-          position: relative;
-          display: inline-flex;
-        }
-
-        .preview-graph-toolbar .graph-export-action {
-          border-bottom: 3px solid #0f766e !important;
-        }
-
         .preview-graph-toolbar .preview-graph-command {
           border-radius: 6px !important;
         }
@@ -1345,58 +1298,6 @@
 
         .preview-graph-toolbar .taxonomy-source-toggle {
           min-width: 210px;
-        }
-
-        .graph-export-menu {
-          position: absolute;
-          top: calc(100% + 8px);
-          right: 0;
-          z-index: 30;
-          min-width: 132px;
-          padding: 6px;
-          border: 1px solid rgba(148, 163, 184, 0.35);
-          border-radius: 8px;
-          background: rgba(255, 255, 255, 0.96);
-          box-shadow: 0 16px 32px rgba(15, 23, 42, 0.16);
-        }
-
-        .graph-export-menu button {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          width: 100%;
-          min-height: 32px;
-          padding: 7px 9px;
-          border: 0;
-          border-radius: 6px;
-          background: transparent;
-          color: #0f172a;
-          font-weight: 700;
-          text-align: left;
-          cursor: pointer;
-        }
-
-        .graph-export-menu button:hover,
-        .graph-export-menu button:focus-visible {
-          background: #ecfeff;
-          outline: none;
-        }
-
-        .graph-export-menu button[disabled] {
-          color: #94a3b8;
-          cursor: not-allowed;
-        }
-
-        .graph-export-menu button[disabled]:hover,
-        .graph-export-menu button[disabled]:focus-visible {
-          background: transparent;
-        }
-
-        .graph-export-menu button span {
-          margin-left: 14px;
-          color: #64748b;
-          font-size: 11px;
-          font-weight: 700;
         }
 
         .preview-graph-toolbar button.is-toggle.is-active,

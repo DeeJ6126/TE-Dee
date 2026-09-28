@@ -22,9 +22,9 @@
                 </select>
               </label>
               <button id="integrated-expression-layer" class="is-toggle is-active preview-graph-command" type="button" aria-pressed="true">Expression activity: On</button>
-              <button id="integrated-edge-labels" class="is-toggle preview-graph-command" type="button" aria-pressed="false">Show relations: Off</button>
+              <button id="integrated-edge-labels" class="is-toggle preview-graph-command graph-ui-command" type="button" aria-pressed="false">Show relations: Off</button>
               <div id="integrated-export-menu-wrap" class="graph-export-menu-wrap">
-                <button id="integrated-export-menu-toggle" class="graph-export-action preview-graph-command" type="button" aria-haspopup="true" aria-expanded="false" disabled>Export</button>
+                <button id="integrated-export-menu-toggle" class="graph-export-action preview-graph-command graph-ui-command" type="button" aria-haspopup="true" aria-expanded="false" disabled>Export</button>
                 <div id="integrated-export-menu" class="graph-export-menu" role="menu" hidden>
                   <button id="integrated-export-csv" type="button" role="menuitem">CSV</button>
                   <button id="integrated-export-png" type="button" role="menuitem">PNG</button>

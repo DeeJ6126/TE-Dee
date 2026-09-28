@@ -220,8 +220,7 @@
   font-weight: 700;
 }
 
-.side-dt-close,
-.side-dt-minimize {
+.side-dt-close {
   border: 1px solid rgba(76, 103, 168, 0.22);
   border-radius: 12px;
   background: #fff;
@@ -239,18 +238,25 @@
   flex: 0 0 36px;
   width: 36px;
   height: 36px;
-  padding: 0 0 8px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--side-dt-blue-dark);
   place-items: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 800;
   line-height: 1;
+  cursor: pointer;
   z-index: 5;
 }
 
-.side-dt-minimize:hover,
+.side-dt-minimize:hover {
+  color: var(--side-dt-blue);
+}
+
 .side-dt-minimize:focus-visible {
-  border-color: rgba(72, 106, 213, 0.48);
-  background: rgba(72, 106, 213, 0.08);
-  outline: none;
+  outline: 2px solid var(--side-dt-blue);
+  outline-offset: 2px;
 }
 
 .side-dt-messages {

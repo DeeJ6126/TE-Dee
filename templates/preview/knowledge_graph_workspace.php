@@ -23,10 +23,10 @@
               <button id="toggle-non-key-nodes" class="non-key-legacy" type="button" style="display:none">
                 <span id="non-key-nodes-text">Hide non-key nodes: Off</span>
               </button>
-              <button id="toggle-edge-labels" class="is-toggle preview-graph-command" type="button" aria-pressed="false"><span id="edge-labels-text">Show relations: Off</span></button>
+              <button id="toggle-edge-labels" class="is-toggle preview-graph-command graph-ui-command" type="button" aria-pressed="false"><span id="edge-labels-text">Show relations: Off</span></button>
               <button id="toggle-fixed-view" class="is-toggle preview-graph-command" type="button" aria-pressed="true"><span id="fixed-view-text">Fixed view: On</span></button>
               <div id="export-menu-wrap" class="graph-export-menu-wrap">
-                <button id="export-menu-toggle" class="graph-export-action preview-graph-command" type="button" aria-haspopup="true" aria-expanded="false" disabled>
+                <button id="export-menu-toggle" class="graph-export-action preview-graph-command graph-ui-command" type="button" aria-haspopup="true" aria-expanded="false" disabled>
                   <span id="export-menu-text">Export</span>
                 </button>
                 <div id="export-menu" class="graph-export-menu" role="menu" hidden>

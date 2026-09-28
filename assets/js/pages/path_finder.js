@@ -6,6 +6,8 @@
   const targetInput = document.getElementById('pathTarget');
   const maxDepthSelect = document.getElementById('pathMaxDepth');
   const submitButton = document.getElementById('pathSubmit');
+  const finderNoteEl = document.getElementById('pathFinderNote');
+  const resultsPanelEl = document.getElementById('pathResultsPanel');
   const statusEl = document.getElementById('pathStatus');
   const resultsEl = document.getElementById('pathResults');
   const viewToggleEl = document.getElementById('pathViewToggle');
@@ -20,7 +22,7 @@
   const graphExportPngButton = document.getElementById('pathGraphExportPng');
   const graphExportSvgButton = document.getElementById('pathGraphExportSvg');
 
-  if (!form || !sourceTypeSelect || !sourceInput || !targetTypeSelect || !targetInput || !maxDepthSelect || !submitButton || !statusEl || !resultsEl) {
+  if (!form || !sourceTypeSelect || !sourceInput || !targetTypeSelect || !targetInput || !maxDepthSelect || !submitButton || !resultsPanelEl || !statusEl || !resultsEl) {
     return;
   }
 
@@ -391,7 +393,7 @@
       skipInitialStatus: true,
       graphDataOptions: {
         showAllLabels: true, // Path results always keep node names visible.
-        showEdgeLabels: graphShowRelations, // 含义：是否显示边上的关系名称。TE-Dee default: controlled by Show relations, initially false.
+        showEdgeLabels: graphShowRelations, // Path defaults to showing relation labels; the toolbar can toggle them.
         allowInspectCard: true, // Reuse the Knowledge Graph relation card for edge evidence.
         allowNodeActions: false, // 含义：是否允许节点卡片里的 Jump/Expand 按钮。TE-Dee default: true; Path Finder disables Jump/Expand.
         restrictToAnchorComponent: false, // 含义：过滤后是否只保留与 anchor 连通的组件。TE-Dee default: true.
@@ -425,7 +427,7 @@
 
   function updateGraphToggleButtons() {
     if (graphShowRelationsButton) {
-      graphShowRelationsButton.classList.toggle('is-on', graphShowRelations);
+      graphShowRelationsButton.classList.toggle('is-active', graphShowRelations);
       graphShowRelationsButton.setAttribute('aria-pressed', String(graphShowRelations));
       graphShowRelationsButton.textContent = `Show relations: ${graphShowRelations ? 'On' : 'Off'}`;
     }
@@ -483,6 +485,15 @@
     return String(node && node.type ? node.type : 'Node').trim() || 'Node';
   }
 
+  function entityLegendColor(node) {
+    const colors = window.__TEKG_G6_TYPE_META?.colors || {};
+    return colors[nodeType(node)] || '#94a3b8';
+  }
+
+  function relationLegendColor(edge) {
+    return window.__TEKG_G6_SHARED?.relationStyleForType?.(relationName(edge))?.color || '#94a3b8';
+  }
+
   function evidencePanelId(path, edgeIndex) {
     const pathId = String(path.id || 'path').replace(/[^a-z0-9_-]+/gi, '-');
     return `${pathId}-evidence-${edgeIndex + 1}`;
@@ -498,13 +509,13 @@
         const relation = relationName(edge);
         const panelId = evidencePanelId(path, edgeIndex);
         parts.push(`
-          <button class="compact-path-edge" type="button" data-path-edge-index="${edgeIndex}" aria-expanded="false" aria-controls="${escapeHtml(panelId)}" aria-label="Show literature supporting ${escapeHtml(relation)}">
+          <button class="compact-path-edge" style="--path-edge-color:${relationLegendColor(edge)}" type="button" data-path-edge-index="${edgeIndex}" aria-expanded="false" aria-controls="${escapeHtml(panelId)}" aria-label="Show literature supporting ${escapeHtml(relation)}">
             <span class="compact-path-edge-label">${escapeHtml(relation)}</span>
             <span class="compact-path-edge-arrow" aria-hidden="true"></span>
           </button>
         `);
       }
-      parts.push(`<span class="compact-path-node"><strong>${escapeHtml(nodeLabel(node))}</strong><small>${escapeHtml(nodeType(node))}</small></span>`);
+      parts.push(`<span class="compact-path-node" style="--path-node-color:${entityLegendColor(node)}"><strong>${escapeHtml(nodeLabel(node))}</strong><small>${escapeHtml(nodeType(node))}</small></span>`);
     });
     return `<div class="compact-path-strip" aria-label="Path relationships">${parts.join('')}</div>`;
   }
@@ -623,6 +634,9 @@
   function renderResults(payload) {
     currentPayload = payload;
     const paths = Array.isArray(payload.paths) ? payload.paths : [];
+    if (finderNoteEl) {
+      finderNoteEl.hidden = paths.length === 0;
+    }
     const searchedThroughHop = Math.max(0, Number(payload.searched_through_hop || 0));
     const safetyLimitText = searchedThroughHop > 0
       ? `Search reached hop ${searchedThroughHop} before the safety limit.`
@@ -681,6 +695,10 @@
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
+    if (finderNoteEl) {
+      finderNoteEl.hidden = true;
+    }
+    resultsPanelEl.hidden = false;
     const source = sourceInput.value.trim();
     const target = targetInput.value.trim();
     const sourceType = sourceTypeSelect.value || 'TE';

@@ -8,8 +8,13 @@ $pageTitle = TEKG_PRODUCT_NAME . ' Academic Agent';
 $activePage = 'agent';
 $protoCurrentPath = tekg_app_url('agent.php');
 $protoSubtitle = 'Traceable academic research assistant';
+$agentCssVersion = (string) max(
+    (int)@filemtime(tekg_assets_fs_path('css/components/graph-ui-controls.css')),
+    (int)@filemtime(tekg_assets_fs_path('css/pages/agent.css'))
+);
 $pageExtraStylesheets = [
-    tekg_assets_url('css/pages/agent.css'),
+    tekg_assets_url('css/components/graph-ui-controls.css') . '?v=' . $agentCssVersion,
+    tekg_assets_url('css/pages/agent.css') . '?v=' . $agentCssVersion,
 ];
 $agentJsPath = __DIR__ . '/assets/js/pages/agent.js';
 $deepThinkClientPath = __DIR__ . '/assets/js/components/deepthink-client.js';
@@ -23,7 +28,6 @@ $ui = [
     'start_title' => 'Start a conversation',
     'start_title_deepthink' => 'Use Deep Think to start chatting',
     'start_title_agent' => 'Use Agent to start chatting',
-    'start_subtitle' => 'Choose a mode, then send your first message below.',
     'message_label' => 'Message',
     'placeholder_agent' => 'Ask about TEs, disease mechanisms, papers, expression, or genomic loci...',
     'placeholder_deepthink' => 'Ask Deep Think about sequences, graph relations, papers, expression, loci, or topology...',
@@ -123,12 +127,11 @@ require __DIR__ . '/head.php';
         <section class="agent-empty-state" id="agentEmptyState">
           <div class="agent-mode-hero" id="agentModeHero">
             <h1 class="agent-empty-title" id="agentEmptyTitle"><?= htmlspecialchars($ui['start_title_deepthink'], ENT_QUOTES, 'UTF-8') ?></h1>
-            <p class="agent-empty-subtitle"><?= htmlspecialchars($ui['start_subtitle'], ENT_QUOTES, 'UTF-8') ?></p>
-            <div class="agent-mode-picker" id="agentModePicker" role="tablist" aria-label="Chat mode">
-              <button type="button" class="agent-mode-pill is-active" id="modeDeepThink" data-mode-choice="deepthink" aria-pressed="true">
+            <div class="agent-mode-picker graph-ui-segmented" id="agentModePicker" role="tablist" aria-label="Chat mode">
+              <button type="button" class="agent-mode-pill graph-ui-tab is-active" id="modeDeepThink" data-mode-choice="deepthink" aria-pressed="true">
                 <?= htmlspecialchars($ui['mode_deepthink'], ENT_QUOTES, 'UTF-8') ?>
               </button>
-              <button type="button" class="agent-mode-pill" id="modeAgent" data-mode-choice="agent" aria-pressed="false">
+              <button type="button" class="agent-mode-pill graph-ui-tab" id="modeAgent" data-mode-choice="agent" aria-pressed="false">
                 <?= htmlspecialchars($ui['mode_agent'], ENT_QUOTES, 'UTF-8') ?>
               </button>
             </div>

@@ -1,0 +1,124 @@
+.preview-taxonomy-mode,
+.preview-taxonomy-display-mode,
+.graph-ui-segmented {
+  display: inline-grid;
+  padding: 3px;
+  border: 1px solid rgba(219, 231, 243, 0.95);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 12px 26px rgba(15, 23, 42, 0.12);
+}
+
+.preview-workspace-mode-tab,
+.preview-taxonomy-mode-tab,
+.graph-ui-tab {
+  min-height: 38px;
+  border: 0;
+  border-radius: 6px;
+  padding: 0 14px;
+  background: transparent;
+  color: #52677f;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+
+.preview-workspace-mode-tab:hover,
+.preview-taxonomy-mode-tab:hover,
+.graph-ui-tab:hover {
+  background: #f4f7fb;
+  color: #244f8f;
+}
+
+.preview-workspace-mode-tab.is-active,
+.preview-taxonomy-mode-tab.is-active,
+.graph-ui-tab.is-active {
+  background: #eaf2ff;
+  color: #174a91;
+  box-shadow: 0 1px 3px rgba(30, 64, 175, 0.16);
+}
+
+.graph-ui-command {
+  border: 0;
+  border-bottom: 3px solid #0f766e;
+  border-radius: 6px;
+  background: #e7eef7;
+  color: #1e293b;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+}
+
+.graph-ui-command.is-active {
+  border-bottom-color: #2563eb;
+  color: #1d4ed8;
+  background: #eff6ff;
+}
+
+.graph-ui-command:disabled {
+  opacity: 0.68;
+  cursor: not-allowed;
+}
+
+.graph-export-menu-wrap {
+  position: relative;
+  display: inline-flex;
+}
+
+.graph-export-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 30;
+  min-width: 132px;
+  padding: 6px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.16);
+}
+
+.graph-export-menu[hidden] {
+  display: none;
+}
+
+.graph-export-menu button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 32px;
+  padding: 7px 9px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: #0f172a;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.graph-export-menu button:hover,
+.graph-export-menu button:focus-visible {
+  background: #ecfeff;
+  outline: none;
+}
+
+.graph-export-menu button[disabled] {
+  color: #94a3b8;
+  cursor: not-allowed;
+}
+
+.graph-export-menu button[disabled]:hover,
+.graph-export-menu button[disabled]:focus-visible {
+  background: transparent;
+}
+
+.graph-export-menu button span {
+  margin-left: 14px;
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 700;
+}

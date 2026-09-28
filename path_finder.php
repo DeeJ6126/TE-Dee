@@ -6,17 +6,22 @@ $pageTitle = TEKG_PRODUCT_NAME . ' Path';
 $activePage = 'path_finder';
 $protoCurrentPath = tekg_app_url('path_finder.php');
 $protoSubtitle = 'Find interpretable paths between TE-Dee entities';
-$pageExtraStylesheets = [
-    tekg_assets_url('css/components/te-autocomplete.css'),
-    tekg_assets_url('css/pages/path_finder.css'),
-];
 $pathFinderEntityTypes = path_finder_entity_type_options();
 $pathFinderVersion = max(
     (int)@filemtime(__FILE__),
+    (int)@filemtime(tekg_assets_fs_path('css/pages/path_finder.css')),
+    (int)@filemtime(tekg_assets_fs_path('css/components/graph-ui-controls.css')),
     (int)@filemtime(tekg_assets_fs_path('js/components/te-autocomplete.js')),
     (int)@filemtime(tekg_assets_fs_path('js/pages/path_finder.js')),
+    (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/index-g6-type-meta.js')),
+    (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/index-g6-shared.js')),
     (int)@filemtime(tekg_assets_fs_path('js/renderers/g6/g6-svg-export.js'))
 );
+$pageExtraStylesheets = [
+    tekg_assets_url('css/components/te-autocomplete.css') . '?v=' . $pathFinderVersion,
+    tekg_assets_url('css/pages/path_finder.css') . '?v=' . $pathFinderVersion,
+    tekg_assets_url('css/components/graph-ui-controls.css') . '?v=' . $pathFinderVersion,
+];
 
 require __DIR__ . '/head.php';
 ?>
@@ -75,12 +80,12 @@ require __DIR__ . '/head.php';
                   <button class="path-submit path-command-control" id="pathSubmit" type="submit">Find paths</button>
                 </div>
               </form>
-              <div class="path-finder-note">Select a relationship arrow to inspect its supporting literature.</div>
+              <div class="path-finder-note" id="pathFinderNote" hidden>Select a relationship arrow to inspect its supporting literature.</div>
             </section>
 
-            <section class="path-results-panel" aria-live="polite">
+            <section class="path-results-panel" id="pathResultsPanel" aria-live="polite" hidden>
               <div class="path-results-head">
-                <div class="path-results-status" id="pathStatus">Enter two entities and run a search to inspect relationship paths.</div>
+                <div class="path-results-status" id="pathStatus"></div>
                 <div class="path-results-view-toggle path-command-control" id="pathViewToggle" role="group" aria-label="Path result view" hidden>
                   <button class="path-view-toggle path-command-control is-active" id="pathTableView" type="button" aria-pressed="true">Table</button>
                   <button class="path-view-toggle path-command-control" id="pathGraphView" type="button" aria-pressed="false">Graph</button>
@@ -91,13 +96,12 @@ require __DIR__ . '/head.php';
                 <div class="path-graph-toolbar">
                   <div class="path-graph-title">
                     <strong>Graph result</strong>
-                    <span>Only nodes and edges from the current paths are shown.</span>
                   </div>
                   <div class="path-graph-actions">
-                    <button class="path-graph-toggle path-command-control is-on" id="pathGraphShowRelations" type="button" aria-pressed="true">Show relations: On</button>
-                    <div class="path-graph-export-menu-wrap" id="pathGraphExportWrap">
-                      <button class="path-graph-export path-command-control" id="pathGraphExport" type="button" aria-haspopup="true" aria-expanded="false" disabled>Export</button>
-                      <div class="path-graph-export-menu" id="pathGraphExportMenu" role="menu" hidden>
+                    <button class="graph-ui-command is-active" id="pathGraphShowRelations" type="button" aria-pressed="true">Show relations: On</button>
+                    <div class="graph-export-menu-wrap" id="pathGraphExportWrap">
+                      <button class="graph-ui-command" id="pathGraphExport" type="button" aria-haspopup="true" aria-expanded="false" disabled>Export</button>
+                      <div class="graph-export-menu" id="pathGraphExportMenu" role="menu" hidden>
                         <button id="pathGraphExportCsv" type="button" role="menuitem">CSV</button>
                         <button id="pathGraphExportPng" type="button" role="menuitem">PNG</button>
                         <button id="pathGraphExportSvg" type="button" role="menuitem">SVG</button>
@@ -114,9 +118,9 @@ require __DIR__ . '/head.php';
     </div>
     <script src="<?= htmlspecialchars(tekg_assets_url('js/components/te-autocomplete.js') . '?v=' . $pathFinderVersion, ENT_QUOTES, 'UTF-8') ?>" defer></script>
     <script src="<?= htmlspecialchars(tekg_assets_url('vendor/g6/g6.min.js'), ENT_QUOTES, 'UTF-8') ?>" defer></script>
-    <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/index-g6-type-meta.js'), ENT_QUOTES, 'UTF-8') ?>" defer></script>
+    <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/index-g6-type-meta.js') . '?v=' . $pathFinderVersion, ENT_QUOTES, 'UTF-8') ?>" defer></script>
     <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/g6-svg-export.js') . '?v=' . $pathFinderVersion, ENT_QUOTES, 'UTF-8') ?>" defer></script>
-    <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/index-g6-shared.js'), ENT_QUOTES, 'UTF-8') ?>" defer></script>
-    <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/path_finder.js'), ENT_QUOTES, 'UTF-8') ?>" defer></script>
+    <script src="<?= htmlspecialchars(tekg_assets_url('js/renderers/g6/index-g6-shared.js') . '?v=' . $pathFinderVersion, ENT_QUOTES, 'UTF-8') ?>" defer></script>
+    <script src="<?= htmlspecialchars(tekg_assets_url('js/pages/path_finder.js') . '?v=' . $pathFinderVersion, ENT_QUOTES, 'UTF-8') ?>" defer></script>
   </body>
 </html>

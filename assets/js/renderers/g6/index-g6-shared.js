@@ -37,6 +37,39 @@
   const TYPE_COLORS = TYPE_META.colors || {};
   const TYPE_STROKES = TYPE_META.strokes || {};
 
+  function hashString(input) {
+    let hash = 0;
+    const text = String(input || '');
+    for (let index = 0; index < text.length; index += 1) {
+      hash = ((hash << 5) - hash + text.charCodeAt(index)) | 0;
+    }
+    return Math.abs(hash);
+  }
+
+  const RELATION_STYLE_COLORS = [
+    '#2563eb',
+    '#dc2626',
+    '#059669',
+    '#7c3aed',
+    '#ea580c',
+    '#0891b2',
+    '#be123c',
+    '#4f46e5',
+    '#65a30d',
+    '#9333ea',
+  ];
+
+  function relationStyleForType(relationType) {
+    const type = String(relationType || 'RELATION').trim() || 'RELATION';
+    const index = hashString(type) % RELATION_STYLE_COLORS.length;
+    const dashed = /CLASSIFICATION|CATEGORY|TAXONOMY|SYNTHETIC/i.test(type);
+    return {
+      color: RELATION_STYLE_COLORS[index],
+      dashed,
+      lineDash: dashed ? [8, 6] : [],
+    };
+  }
+
   const RELATION_LABELS_EN = {
     SUBFAMILY_OF: 'contains',
     EVIDENCE_RELATION: 'literature support',
@@ -1674,39 +1707,6 @@
       return 'Not listed.';
     }
 
-    function hashString(input) {
-      let hash = 0;
-      const text = String(input || '');
-      for (let index = 0; index < text.length; index += 1) {
-        hash = ((hash << 5) - hash + text.charCodeAt(index)) | 0;
-      }
-      return Math.abs(hash);
-    }
-
-    const RELATION_STYLE_COLORS = [
-      '#2563eb',
-      '#dc2626',
-      '#059669',
-      '#7c3aed',
-      '#ea580c',
-      '#0891b2',
-      '#be123c',
-      '#4f46e5',
-      '#65a30d',
-      '#9333ea',
-    ];
-
-    function relationStyleForType(relationType) {
-      const type = String(relationType || 'RELATION').trim() || 'RELATION';
-      const index = hashString(type) % RELATION_STYLE_COLORS.length;
-      const dashed = /CLASSIFICATION|CATEGORY|TAXONOMY|SYNTHETIC/i.test(type);
-      return {
-        color: RELATION_STYLE_COLORS[index],
-        dashed,
-        lineDash: dashed ? [8, 6] : [],
-      };
-    }
-
     function isClassificationRelation(relationType) {
       return /CLASSIFIED_AS|HAS_SUBCATEGORY|TOP_CLASS_RELATION|DISEASE_CLASSIFICATION/i.test(String(relationType || ''));
     }
@@ -3018,5 +3018,6 @@
   window.__TEKG_G6_SHARED = {
     createRunner,
     escapeHtml,
+    relationStyleForType,
   };
 }());

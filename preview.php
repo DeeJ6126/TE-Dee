@@ -7,6 +7,7 @@ $previewVersion = max(
     (int)@filemtime(__DIR__ . '/templates/preview/coexpression_workspace.php'),
     (int)@filemtime(__DIR__ . '/templates/preview/integrated_graph_workspace.php'),
     (int)@filemtime(tekg_assets_fs_path('css/components/te-autocomplete.css')),
+    (int)@filemtime(tekg_assets_fs_path('css/components/graph-ui-controls.css')),
     (int)@filemtime(tekg_assets_fs_path('css/pages/preview.css')),
     (int)@filemtime(tekg_assets_fs_path('js/components/te-autocomplete.js')),
     (int)@filemtime(tekg_assets_fs_path('js/components/deepthink-client.js')),
@@ -46,6 +47,7 @@ $pageExtraStylesheets = [
     tekg_assets_url('css/tekg_runtime.css') . '?v=' . $previewVersion,
     tekg_assets_url('css/components/te-autocomplete.css') . '?v=' . $previewVersion,
     tekg_assets_url('css/components/side-deepthink.css') . '?v=' . $previewVersion,
+    tekg_assets_url('css/components/graph-ui-controls.css') . '?v=' . $previewVersion,
     tekg_assets_url('css/pages/preview.css') . '?v=' . $previewVersion,
 ];
 require __DIR__ . '/head.php';
