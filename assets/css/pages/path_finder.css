@@ -139,16 +139,6 @@
   opacity: 0.65;
 }
 
-.path-finder-note {
-  margin-top: 14px;
-  color: #6f83a3;
-  font-size: 13px;
-}
-
-.path-finder-note[hidden] {
-  display: none;
-}
-
 .path-results-panel {
   padding: 18px;
 }

@@ -80,7 +80,6 @@ require __DIR__ . '/head.php';
                   <button class="path-submit path-command-control" id="pathSubmit" type="submit">Find paths</button>
                 </div>
               </form>
-              <div class="path-finder-note" id="pathFinderNote" hidden>Select a relationship arrow to inspect its supporting literature.</div>
             </section>
 
             <section class="path-results-panel" id="pathResultsPanel" aria-live="polite" hidden>

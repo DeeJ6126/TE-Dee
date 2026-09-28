@@ -6,7 +6,6 @@
   const targetInput = document.getElementById('pathTarget');
   const maxDepthSelect = document.getElementById('pathMaxDepth');
   const submitButton = document.getElementById('pathSubmit');
-  const finderNoteEl = document.getElementById('pathFinderNote');
   const resultsPanelEl = document.getElementById('pathResultsPanel');
   const statusEl = document.getElementById('pathStatus');
   const resultsEl = document.getElementById('pathResults');
@@ -634,9 +633,6 @@
   function renderResults(payload) {
     currentPayload = payload;
     const paths = Array.isArray(payload.paths) ? payload.paths : [];
-    if (finderNoteEl) {
-      finderNoteEl.hidden = paths.length === 0;
-    }
     const searchedThroughHop = Math.max(0, Number(payload.searched_through_hop || 0));
     const safetyLimitText = searchedThroughHop > 0
       ? `Search reached hop ${searchedThroughHop} before the safety limit.`
@@ -695,9 +691,6 @@
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
-    if (finderNoteEl) {
-      finderNoteEl.hidden = true;
-    }
     resultsPanelEl.hidden = false;
     const source = sourceInput.value.trim();
     const target = targetInput.value.trim();
