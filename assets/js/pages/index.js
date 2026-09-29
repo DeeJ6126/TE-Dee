@@ -17,6 +17,10 @@
     '#cbe9f8', '#d1ecf9', '#d7effa', '#ddf2fb',
     '#e2f4fb', '#e7f6fc', '#ecf8fd', '#f1fafd',
   ];
+  const overviewTePalette = [
+    bluePalette[0], bluePalette[14], bluePalette[5],
+    bluePalette[18], bluePalette[9],
+  ];
   const palettes = {
     entity: bluePalette,
     te: bluePalette,
@@ -94,7 +98,9 @@
   }
 
   function colorRows(kind, rows) {
-    const palette = palettes[kind] || palettes.entity;
+    const palette = kind === 'te' && (activeTeLevel === 'class' || activeTeLevel === 'order')
+      ? overviewTePalette
+      : (palettes[kind] || palettes.entity);
     return rows.map((row, index) => ({
       ...row,
       color: palette[index % palette.length],
@@ -194,6 +200,10 @@
       path.setAttribute('class', 'status-donut-segment');
       path.setAttribute('d', buildDonutPath(180, 180, 168, 104, startAngle, startAngle + visibleSweep));
       path.setAttribute('fill', row.color);
+      if (kind === 'te' && (activeTeLevel === 'class' || activeTeLevel === 'order')) {
+        path.setAttribute('stroke', '#ffffff');
+        path.setAttribute('stroke-width', '1.5');
+      }
       path.setAttribute('tabindex', '0');
       path.setAttribute('aria-label', `${row.label}: ${formatNumber(row.count)} (${percentFormatter.format(row.percentage)}%)`);
       path.addEventListener('mouseenter', (event) => {
