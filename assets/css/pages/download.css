@@ -164,18 +164,13 @@
 }
 
 .download-table tbody tr.dataset-detail-row td {
-  padding: 0 12px 20px 40px;
+  padding: 12px 12px 20px 40px;
   background: #f8fbff;
 }
 
 .dataset-detail-inner {
   color: #647994;
   font-size: 14px;
-}
-
-.dataset-detail-inner p {
-  margin: 0 0 12px;
-  line-height: 1.65;
 }
 
 .download-file-list {

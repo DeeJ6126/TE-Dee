@@ -78,7 +78,6 @@
       detailRow.innerHTML = `
         <td colspan="5">
           <div class="dataset-detail-inner">
-            <p>${escapeHtml(row.description)}</p>
             <ul class="download-file-list">${renderFiles(row.files)}</ul>
           </div>
         </td>
