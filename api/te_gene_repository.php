@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/coexpression_repository.php';
 
-const TEKG_EQTL_VERSION_KEY = 'gtex_v11_strict_te_overlap_v1';
+const TEKG_EQTL_VERSION_KEY = 'gtex_v11_strict_te_overlap_v2_casefold';
 const TEKG_GENE_MAPPING_AUDIT_VERSION = 'gene_mapping_audit_v1';
 const TEKG_GENE_MAPPING_ARTIFACT = 'data/coexpression/feature_annotation/feature_annotation.tsv';
 

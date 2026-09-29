@@ -577,8 +577,62 @@ def consolidate(
                 )
                 for tissue in members
             }
-            if staged_tissues != expected_tissues:
+            unknown_tissues = set(staged_tissues) - set(expected_tissues)
+            mismatched_tissues = {
+                tissue for tissue, counts in staged_tissues.items()
+                if expected_tissues.get(tissue) != counts
+            }
+            if unknown_tissues or mismatched_tissues:
                 raise ValueError("Resume staging Tissue inventory/counts do not match manifest.")
+            if set(staged_tissues) != set(expected_tissues):
+                te_keys = {
+                    str(instance_id): str(instance_key)
+                    for instance_id, instance_key in connection.execute(
+                        "SELECT te_instance_id,te_instance_key FROM te_instances"
+                    )
+                }
+                variant_cache = {
+                    str(variant_id): (
+                        str(variant_key), str(chrom), int(start), int(end),
+                        str(ref), str(alt),
+                    )
+                    for variant_key, variant_id, chrom, start, end, ref, alt
+                    in connection.execute(
+                        "SELECT variant_key,variant_id,chrom,variant_start,variant_end,ref,alt "
+                        "FROM variants"
+                    )
+                }
+                variant_key_owners = {
+                    attributes[0]: variant_id
+                    for variant_id, attributes in variant_cache.items()
+                }
+                overlap_seen = {
+                    (str(instance_key), str(variant_key))
+                    for instance_key, variant_key in connection.execute(
+                        "SELECT te_instance_key,variant_key FROM overlaps"
+                    )
+                }
+                for tissue, member in members.items():
+                    if tissue in staged_tissues:
+                        continue
+                    source_count, evidence_count = expected_tissues[tissue]
+                    connection.execute(
+                        "INSERT INTO tissues VALUES (?,?,?,?,?)",
+                        (
+                            tissue, tissue.replace("_", " "), member.parquet_name,
+                            source_count, evidence_count,
+                        ),
+                    )
+                    _insert_tissue_evidence(
+                        connection,
+                        tissue,
+                        artifact_root / tissue / "te_variant_gene_overlaps.parquet",
+                        variant_cache,
+                        variant_key_owners,
+                        te_keys,
+                        overlap_seen,
+                    )
+                    connection.commit()
             for child in temp.iterdir():
                 if child.name != "staging":
                     if child.is_dir():

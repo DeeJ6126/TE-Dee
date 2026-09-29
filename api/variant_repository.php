@@ -4,7 +4,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/expression_repository.php';
 require_once __DIR__ . '/taxonomy_lib.php';
 
-const TEKG_VARIANT_EQTL_VERSION = 'gtex_v11_strict_te_overlap_v1';
+const TEKG_VARIANT_EQTL_VERSION = 'gtex_v11_strict_te_overlap_v2_casefold';
 
 final class TeVariantRepositoryException extends RuntimeException
 {
