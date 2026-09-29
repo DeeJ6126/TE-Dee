@@ -24,7 +24,7 @@
                 <span id="coexpression-expression-layer-text">Expression activity: On</span>
               </button>
               <div id="coexpression-export-menu-wrap" class="graph-export-menu-wrap">
-                <button id="coexpression-export-menu-toggle" class="graph-export-action preview-graph-command" type="button" aria-haspopup="true" aria-expanded="false" disabled>
+                <button id="coexpression-export-menu-toggle" class="graph-export-action preview-graph-command graph-ui-command" type="button" aria-haspopup="true" aria-expanded="false" disabled>
                   Export
                 </button>
                 <div id="coexpression-export-menu" class="graph-export-menu" role="menu" hidden>

@@ -112,13 +112,13 @@
         }
 
         .status-section {
-          padding: 54px 0 26px;
+          padding: 16px 0 26px;
           background: #fff;
         }
 
         .section-title {
           text-align: center;
-          margin-bottom: 46px;
+          margin-bottom: 28px;
         }
 
         .section-title h3 {
@@ -257,6 +257,11 @@
           align-self: center;
         }
 
+        .status-donut-card[data-status-card="entity"] .status-legend,
+        .status-donut-card[data-status-card="relation"] .status-legend {
+          align-self: start;
+        }
+
         .status-legend-item {
           min-width: 0;
           display: grid;
@@ -301,7 +306,7 @@
 
         .status-level-control button {
           border: 1px solid #d8e4f4;
-          border-radius: 999px;
+          border-radius: 8px;
           background: #ffffff;
           color: #274b7c;
           cursor: pointer;
@@ -402,7 +407,7 @@
         }
 
         .links-section {
-          padding: 34px 0 70px;
+          padding: 34px 0 12px;
           background: #fff;
         }
 
@@ -417,7 +422,7 @@
           border: 2px solid #d7e2f3;
           border-radius: 10px;
           padding: 18px 10px 16px;
-          min-height: 206px;
+          min-height: 176px;
           box-shadow: none;
           text-align: center;
         }
