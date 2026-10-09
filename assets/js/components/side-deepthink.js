@@ -31,9 +31,6 @@
 
   const storageKey = String(config.sessionStorageKey || 'tekg-side-deepthink-session');
   let sessionId = '';
-  try {
-    sessionId = window.localStorage.getItem(storageKey) || '';
-  } catch (_error) {}
 
   let activeAbortController = null;
   let activeTurn = null;
@@ -501,9 +498,11 @@
     if (event.request_id) turn.requestId = String(event.request_id);
     if (event.session_id) {
       sessionId = String(event.session_id);
-      try {
-        window.localStorage.setItem(storageKey, sessionId);
-      } catch (_error) {}
+    }
+
+    if (event.type === 'context_notice') {
+      if (event.message) createMessage('notice', String(event.message));
+      return;
     }
 
     if (event.type === 'stage_state') {

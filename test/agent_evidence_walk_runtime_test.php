@@ -1,111 +1,46 @@
 <?php
 declare(strict_types=1);
+require_once __DIR__ . '/../api/agent/bootstrap.php';
+require_once __DIR__ . '/../api/agent/plugin_registry.php';
+tekg_agent_require_academic_agent_service();
+require_once __DIR__ . '/qa_loop_wrapper_test_support.php';
 
-require_once __DIR__ . '/../api/agent/bootstrap/evidence_support.php';
-
-function assert_true(bool $condition, string $message): void
-{
-    if (!$condition) {
-        fwrite(STDERR, "Assertion failed: {$message}\n");
-        exit(1);
-    }
+$service = new TekgAcademicAgentService(wrapper_config([
+    wrapper_turn([wrapper_call('graph', 'graph_lookup', ['te' => ['L1HS'], 'disease' => 'cancer'])]),
+    wrapper_turn([wrapper_call('literature', 'literature_search', ['te' => ['L1HS'], 'disease' => 'cancer'])]), wrapper_finish(),
+    wrapper_turn([], 'The supplied records report an observation of L1HS in cancer (PMID 12345).'),
+]));
+wrapper_inject($service, ['Graph Plugin' => new WrapperFixturePlugin('Graph Plugin'), 'Literature Plugin' => new WrapperFixturePlugin('Literature Plugin')]);
+$session = 'agent-walk-native-' . bin2hex(random_bytes(6));
+$response = $service->handle(['question' => 'Find local L1HS cancer evidence.', 'session_id' => $session]);
+wrapper_same(false, $response['failed'], 'The wrapper uses the real evidence pipeline.');
+$package = $response['evidence_package'];
+$walk = $response['evidence_walk'];
+$plan = $response['report_plan'];
+wrapper_same(true, EvidencePackage::validate($package)['ok'], 'The actual runtime package validates.');
+wrapper_same(true, EvidenceWalk::validate($walk)['ok'], 'The actual runtime evidence walk validates.');
+wrapper_same(true, ReportPlan::validate($plan)['ok'], 'The actual runtime report plan validates.');
+wrapper_same(count($package['claims']), count($walk['claim_nodes']), 'Every package claim creates a walk claim node.');
+wrapper_same(count($package['evidence_items']), count($walk['support_edges']), 'Every original evidence item supplies an actual support edge.');
+$claims = array_column($package['claims'], null, 'id');
+$evidence = array_column($package['evidence_items'], null, 'id');
+$nodes = array_column($walk['claim_nodes'], null, 'id');
+$citations = array_column($package['citation_map'], null, 'id');
+foreach ($walk['support_edges'] as $edge) {
+    wrapper_assert(isset($claims[$edge['claim_id']], $nodes[$edge['claim_node_id']], $evidence[$edge['evidence_id']]), 'Support edges refer to real claim/node/evidence IDs.');
+    wrapper_same($edge['claim_id'], $evidence[$edge['evidence_id']]['claim_id'], 'A support edge never maps evidence to a different claim.');
 }
-
-function assert_contains(string $needle, string $haystack, string $message): void
-{
-    assert_true(str_contains($haystack, $needle), $message);
+foreach ($walk['citation_refs'] as $ref) {
+    wrapper_assert(isset($citations[$ref['citation_id']]), 'Every citation reference points to a supplied package citation.');
+    wrapper_same('12345', $ref['citation']['pmid'], 'Citation references retain supplied stable identities.');
 }
-
-function assert_not_contains(string $needle, string $haystack, string $message): void
-{
-    assert_true(!str_contains($haystack, $needle), $message);
+foreach ($plan['claim_sequence'] as $item) {
+    wrapper_assert(isset($claims[$item['claim_id']], $nodes[$item['claim_node_id']]), 'Report order uses real evidence walk IDs.');
 }
-
-function assert_call_uses_arguments(string $source, string $callName, array $needles, string $message): void
-{
-    $position = strpos($source, $callName);
-    assert_true($position !== false, $message . " missing {$callName}");
-    $snippet = substr($source, $position, 1000);
-    foreach ($needles as $needle) {
-        assert_true(str_contains($snippet, $needle), $message . " missing {$needle}");
-    }
-}
-
-$serviceSource = (string)file_get_contents(__DIR__ . '/../api/agent/orchestrator/AcademicAgentService.php');
-$traitSource = (string)file_get_contents(__DIR__ . '/../api/agent/orchestrator/traits/AcademicAgentPluginResultTrait.php');
-
-foreach ([
-    "contracts/EvidenceWalk.php",
-    "contracts/ReportPlan.php",
-    "contracts/ReportIntegrityGate.php",
-] as $requiredContract) {
-    assert_contains($requiredContract, $serviceSource, "AcademicAgentService requires {$requiredContract}");
-}
-
-foreach ([
-    'EvidenceWalk::fromEvidencePackage(',
-    'EvidenceWalk::validate(',
-    'ReportPlan::fromEvidenceWalk(',
-    'ReportPlan::validate(',
-    '->writeEvidenceWalkDraft(',
-    '->polishEvidenceWalkAnswer(',
-    'ReportIntegrityGate::normalizeUrlsInText(',
-    'ReportIntegrityGate::check(',
-] as $runtimeNeedle) {
-    assert_contains($runtimeNeedle, $serviceSource, "Agent runtime contains {$runtimeNeedle}");
-}
-assert_contains('$claimEvidenceMap = (array)$integratingNode->parsed_json;', $serviceSource, 'Agent runtime stores claimEvidenceMap from integrating node');
-assert_contains('$writingDecision = (array)$writingDecisionNode->parsed_json;', $serviceSource, 'Agent runtime stores writingDecision from writing node');
-assert_call_uses_arguments($serviceSource, '->writeEvidenceWalkDraft(', ['$claimEvidenceMap', '$writingDecision'], 'Draft writer call receives claim map and writing decision');
-assert_call_uses_arguments($serviceSource, '->polishEvidenceWalkAnswer(', ['$claimEvidenceMap', '$writingDecision'], 'Polisher call receives claim map and writing decision');
-assert_contains('$draftReport = ReportIntegrityGate::normalizeUrlsInText($draftReport);', $serviceSource, 'Draft report URL text is normalized before integrity checks');
-assert_contains('$polishedReport = ReportIntegrityGate::normalizeUrlsInText($polishedReport);', $serviceSource, 'Polished report URL text is normalized before integrity checks');
-assert_contains('$answer = ReportIntegrityGate::normalizeUrlsInText($answer);', $serviceSource, 'Final user-visible answer URL text is normalized before emit');
-assert_contains('$workflowState[\'stage_statuses\'][\'Writing\'] = $writingFailed ? \'failed\' : \'done\';', $serviceSource, 'Writing workflow state reflects writing failure instead of always marking done');
-assert_contains('buildDirectSiteNavigationWritingResult(', $serviceSource, 'Agent runtime has direct site navigation writing path');
-assert_contains("'writing_strategy' => 'direct_site_navigation'", $serviceSource, 'Direct site navigation writing path records deterministic strategy');
-assert_contains('$siteResult[\'results\'][\'answer_markdown\']', $serviceSource, 'Direct site navigation writing path uses plugin answer_markdown');
-assert_contains('$directSiteNavigationWriting !== null', $serviceSource, 'Direct site navigation writing path bypasses normal writer calls');
-
-assert_not_contains('->writeEvidencePackageAnswer(', $serviceSource, 'Agent runtime no longer calls old evidence_package writer');
-
-foreach ([
-    "'evidence_walk' => \$evidenceWalk",
-    "'report_plan' => \$reportPlan",
-    "'draft_report' => \$draftReport",
-    "'polished_report' => \$polishedReport",
-    "'integrity_report' => \$integrityReport",
-    "'claim_evidence_map' => \$claimEvidenceMap",
-    "'writing_decision' => \$writingDecision",
-    "'writer_draft' => \$writingModel",
-    "'writer_polisher' => \$polisherModel",
-] as $responseNeedle) {
-    assert_contains($responseNeedle, $serviceSource, "Agent response/models include {$responseNeedle}");
-}
-
-$contracts = tekg_agent_node_contracts();
-$writerContract = $contracts['Answer Writer Node'] ?? null;
-assert_true(is_array($writerContract), 'Answer Writer Node contract exists');
-foreach (['evidence_package', 'evidence_walk', 'report_plan'] as $inputKey) {
-    assert_true(in_array($inputKey, $writerContract['input'] ?? [], true), "Answer Writer Node contract input includes {$inputKey}");
-}
-foreach (['draft_report', 'polished_report', 'integrity_report'] as $outputKey) {
-    assert_true(in_array($outputKey, $writerContract['output'] ?? [], true), "Answer Writer Node contract output includes {$outputKey}");
-}
-foreach (['supported_claims', 'citation_bundle'] as $legacyInput) {
-    assert_true(!in_array($legacyInput, $writerContract['input'] ?? [], true), "Answer Writer Node contract input excludes {$legacyInput}");
-}
-
-foreach ([
-    "'evidence_walk' => \$evidenceWalk",
-    "'report_plan' => \$reportPlan",
-    "'draft_report' => \$draftReport",
-    "'polished_report' => \$polishedReport",
-    "'integrity_report' => \$integrityReport",
-    "'claim_evidence_map' => \$claimEvidenceMap",
-    "'writing_decision' => \$writingDecision",
-] as $nodePayloadNeedle) {
-    assert_contains($nodePayloadNeedle, $traitSource, "Answer Writer Node payload contains {$nodePayloadNeedle}");
-}
-
-echo "Agent EvidenceWalk runtime tests passed.\n";
+wrapper_same(true, $response['integrity_report']['final']['ok'] ?? null, 'The published final answer passes the actual integrity gate.');
+wrapper_same(true, $response['integrity_report']['user_facing']['ok'] ?? null, 'The published answer passes the actual user-facing audit.');
+wrapper_same($response['answer'], $response['draft_report'] ?? null, 'The preserved draft is the real final-writer text.');
+wrapper_same('', $response['polished_report'] ?? null, 'No separate removed polisher is represented as having run.');
+wrapper_same([], $response['six_stage_artifacts'], 'Removed independent review nodes do not produce fabricated claim maps.');
+wrapper_cleanup($session);
+echo "Agent EvidenceWalk native-loop runtime tests passed.\n";

@@ -74,7 +74,8 @@ final class TekgAgentGraphAnalyticsPlugin implements TekgAgentPluginInterface
     private function selectQueryPlan(string $question, array $analysis, array $entities, array $targetTypes): array
     {
         $normalizedQuestion = tekg_agent_lower($question);
-        $teEntities = array_values(array_filter($entities, static fn(array $entity): bool => ($entity['type'] ?? '') === 'TE'));
+        $teEntities = array_values(array_filter($entities, static fn(array $entity): bool => ($entity['type'] ?? '') === 'TE'
+            && !in_array(tekg_agent_normalize_lookup_token((string)($entity['canonical_label'] ?? $entity['label'] ?? '')), ['te', 'tes', 'transposableelements', 'transposableelement', 'humantransposons', 'humantransposableelements'], true)));
         $targetTypes = $targetTypes !== [] ? $targetTypes : ['Disease', 'Function', 'Gene', 'Protein', 'RNA', 'Mutation', 'Paper', 'TE'];
 
         if (str_contains($normalizedQuestion, 'relation type') || str_contains($normalizedQuestion, 'relation types') || str_contains($normalizedQuestion, 'most frequent relation')) {
@@ -93,7 +94,8 @@ final class TekgAgentGraphAnalyticsPlugin implements TekgAgentPluginInterface
             $entity = $teEntities[0];
             return [
                 'query_class' => 'top_targets_for_te',
-                'metric_definition' => 'Count relations from the selected TE to connected target nodes of a chosen label.',
+                'metric_definition' => 'Count stored outgoing relations from the selected TE to each target node. This is graph record count, not biological association strength.',
+                'metric_unit' => 'stored relations',
                 'query_summary' => 'Ranked the most connected target nodes for the selected TE entity.',
                 'cypher' => "MATCH (t:TE)-[r]->(m:$targetType)
                              WHERE replace(replace(replace(toLower(trim(coalesce(t.name,''))), '-', ''), '_', ''), ' ', '') = replace(replace(replace(toLower(trim(\$entity)), '-', ''), '_', ''), ' ', '')
@@ -101,24 +103,26 @@ final class TekgAgentGraphAnalyticsPlugin implements TekgAgentPluginInterface
                                     count(r) AS value,
                                     '$targetType' AS node_type,
                                     collect(DISTINCT type(r))[0..5] AS relation_types
-                             ORDER BY value DESC
+                             ORDER BY value DESC, label ASC
                              LIMIT 10",
                 'params' => ['entity' => (string)($entity['canonical_label'] ?? $entity['label'] ?? '')],
                 'default_limit' => 10,
             ];
         }
 
-        if ((bool)($analysis['asks_for_graph_analytics'] ?? false) && $this->containsAny($normalizedQuestion, ['disease', 'diseases', '疾病'])) {
+        if (((bool)($analysis['asks_for_graph_analytics'] ?? false) || ($analysis['intent'] ?? '') === 'graph_analytics') && $this->containsAny($normalizedQuestion, ['disease', 'diseases', '疾病'])) {
             return [
                 'query_class' => 'top_diseases_by_te_count',
-                'metric_definition' => 'Count distinct TE nodes connected to each disease.',
+                'metric_definition' => 'Count distinct TE nodes with a stored outgoing relationship to each Disease node. This is local graph connectivity, not biological association strength.',
+                'metric_unit' => 'distinct linked TE nodes',
                 'query_summary' => 'Ranked diseases by the number of linked TE entities.',
                 'cypher' => "MATCH (t:TE)-[r]->(d:Disease)
                              RETURN coalesce(d.name,'') AS label,
                                     count(DISTINCT t) AS value,
+                                    count(r) AS relation_count,
                                     'Disease' AS node_type,
                                     collect(DISTINCT type(r))[0..5] AS relation_types
-                             ORDER BY value DESC
+                             ORDER BY value DESC, label ASC
                              LIMIT 10",
                 'params' => [],
                 'default_limit' => 10,
@@ -180,13 +184,15 @@ final class TekgAgentGraphAnalyticsPlugin implements TekgAgentPluginInterface
                 'source' => $rootId,
                 'target' => $nodeId,
                 'label' => (string)$value,
-                'relation_type' => 'ANALYTIC_SCORE',
+                'relation_type' => 'GRAPH_METRIC_COUNT',
             ];
         }
 
         return tekg_agent_json_safe([
             'query_class' => (string)($plan['query_class'] ?? 'graph_analytics'),
             'metric_definition' => (string)($plan['metric_definition'] ?? ''),
+            'metric_unit' => (string)($plan['metric_unit'] ?? 'stored relations'),
+            'metric_boundary' => 'Counts and ranks describe local graph contents and do not measure biological association strength, evidence quality, or causality.',
             'generated_cypher' => $generatedCypher,
             'validated_features' => $validatedFeatures,
             'top_k' => $topK,
@@ -218,18 +224,22 @@ final class TekgAgentGraphAnalyticsPlugin implements TekgAgentPluginInterface
             }
             $items[] = tekg_agent_make_evidence_item(
                 $this->getName(),
-                $label . ' ranked with an analytics score of ' . $value . ' under the current graph metric.',
+                $label . ' has ' . $value . ' ' . (string)($analytics['metric_unit'] ?? 'counted graph records')
+                    . '. Metric: ' . (string)($analytics['metric_definition'] ?? '')
+                    . ' This rank does not measure biological association strength or evidence quality.',
                 $label,
                 'medium',
                 [
                     'query_class' => (string)($analytics['query_class'] ?? ''),
                     'value' => $value,
                     'node_type' => $nodeType,
+                    'metric_definition' => (string)($analytics['metric_definition'] ?? ''),
+                    'metric_unit' => (string)($analytics['metric_unit'] ?? 'counted graph records'),
                 ],
                 [
                     'title' => $label,
-                    'meta' => $nodeType . ' | score ' . $value,
-                    'body' => 'This row came from a graph analytics aggregation query.',
+                    'meta' => $nodeType . ' | ' . $value . ' ' . (string)($analytics['metric_unit'] ?? 'counted graph records'),
+                    'body' => (string)($analytics['metric_definition'] ?? '') . ' Counts do not measure biological association strength.',
                 ],
                 [
                     'evidence_type' => 'graph_metric',
@@ -244,7 +254,7 @@ final class TekgAgentGraphAnalyticsPlugin implements TekgAgentPluginInterface
                         'rank' => (int)($row['rank'] ?? 0),
                         'metric_value' => $value,
                     ],
-                    'quality_flags' => ['derived_metric'],
+                    'quality_flags' => ['derived_metric', 'count_not_association_strength'],
                 ]
             );
         }
@@ -260,7 +270,7 @@ final class TekgAgentGraphAnalyticsPlugin implements TekgAgentPluginInterface
             }
             $items[] = [
                 'title' => (string)($row['label'] ?? ''),
-                'meta' => trim((string)($row['node_type'] ?? '') . ' | score ' . (string)($row['value'] ?? 0)),
+                'meta' => trim((string)($row['node_type'] ?? '') . ' | ' . (string)($row['value'] ?? 0) . ' ' . (string)($analytics['metric_unit'] ?? 'counted graph records')),
                 'body' => 'Relation types: ' . implode(', ', array_map('strval', (array)($row['relation_types'] ?? []))),
             ];
         }
@@ -284,7 +294,7 @@ final class TekgAgentGraphAnalyticsPlugin implements TekgAgentPluginInterface
         if ($top === []) {
             return 'This round did not produce a stable analytics ranking.';
         }
-        return (string)($top['label'] ?? 'The top row') . ' is currently the strongest result under the metric "' . (string)($plan['metric_definition'] ?? '') . '".';
+        return (string)($top['label'] ?? 'The top row') . ' has the highest returned count under the metric "' . (string)($plan['metric_definition'] ?? '') . '".';
     }
 
     private function preferredTargetType(array $targetTypes): string

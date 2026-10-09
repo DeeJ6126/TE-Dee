@@ -4,6 +4,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/../api/agent/bootstrap.php';
 require_once __DIR__ . '/../api/agent/plugin_registry.php';
 tekg_agent_require_academic_agent_service();
+require_once __DIR__ . '/qa_loop_wrapper_test_support.php';
 
 function agent_context_assert_true(bool $condition, string $message): void
 {
@@ -72,92 +73,12 @@ final class AgentContextFixturePlugin implements TekgAgentPluginInterface
 
 function agent_context_fixtures(array $contextFixture): array
 {
-    return [
-        'agent_test_mode' => true,
-        'agent_polisher_enabled' => false,
-        'agent_json_fixtures' => [
-            'conversation_context' => $contextFixture,
-            'answer_structure' => [
-                'response_mode' => 'evidence_summary',
-                'opening_claim' => 'Expression evidence is available.',
-                'section_plan' => [],
-                'claim_order' => ['The local expression dataset contains expression evidence for L1HS.'],
-                'citation_policy' => 'Use no citation when none is supplied.',
-                'uncertainty_notes' => [],
-            ],
-        ],
-        'agent_text_fixtures' => [
-            'evidence_walk_draft' => 'The local expression dataset contains expression evidence for L1HS.',
-        ],
-        'six_stage_node_fixtures' => [
-            'understanding' => [
-                'schema_version' => 'understanding_result.v1',
-                'stage' => 'understanding',
-                'language' => 'en',
-                'question_summary' => 'Retrieve expression evidence for L1HS.',
-                'intent' => 'expression',
-                'entities' => [['name' => 'L1HS', 'type' => 'TE']],
-                'ambiguities' => [],
-                'mode_boundary' => 'agent_research',
-                'required_evidence' => ['expression'],
-                'warnings' => [],
-            ],
-            'planning' => [
-                'schema_version' => 'research_plan.v1',
-                'stage' => 'planning',
-                'research_goal' => 'Retrieve local expression evidence.',
-                'evidence_dimensions' => ['expression'],
-                'plugin_route' => ['Entity Resolver', 'Expression Plugin'],
-                'required_plugins' => ['Expression Plugin'],
-                'optional_plugins' => [],
-                'success_criteria' => ['Expression evidence is returned.'],
-                'risks' => [],
-            ],
-            'collecting' => [
-                'schema_version' => 'collection_decision.v1',
-                'stage' => 'collecting',
-                'is_sufficient' => false,
-                'missing_dimensions' => ['expression'],
-                'next_plugin' => 'Entity Resolver',
-                'stop_reason' => '',
-                'evidence_gaps' => ['expression'],
-                'decision_rationale' => 'Run the validated route.',
-            ],
-            'executing' => [
-                'schema_version' => 'tool_execution_review.v1',
-                'stage' => 'executing',
-                'plugin_name' => 'Expression Plugin',
-                'plugin_result' => ['status' => 'ok'],
-                'review_status' => 'reviewed',
-                'usable' => true,
-                'evidence_summary' => 'Expression evidence is usable.',
-                'caveats' => [],
-                'normalized_findings' => ['Expression evidence is available.'],
-            ],
-            'integrating' => [
-                'schema_version' => 'claim_evidence_map.v1',
-                'stage' => 'integrating',
-                'claims' => ['The local expression dataset contains expression evidence for L1HS.'],
-                'evidence_links' => [],
-                'unsupported_claims' => [],
-                'conflicts' => [],
-                'limitations' => [],
-                'integrity_notes' => [],
-            ],
-            'writing' => [
-                'schema_version' => 'writing_decision.v1',
-                'stage' => 'writing',
-                'writing_strategy' => 'Answer directly in user-facing language.',
-                'required_sections' => [],
-                'forbidden_claims' => [],
-                'citation_requirements' => [],
-                'tone' => 'concise',
-                'final_checks' => ['Do not expose internal labels.'],
-            ],
-        ],
-    ];
+    return wrapper_config([
+        wrapper_turn([wrapper_call('expression', 'expression_lookup', ['te' => ['L1HS']])]),
+        wrapper_finish(),
+        wrapper_turn([], 'The local expression dataset contains expression evidence for L1HS.'),
+    ], ['agent_json_fixtures' => ['conversation_context' => $contextFixture]]);
 }
-
 function agent_context_service(array $contextFixture): array
 {
     $service = new TekgAcademicAgentService(agent_context_fixtures($contextFixture));
@@ -208,6 +129,7 @@ agent_context_assert_true(str_contains((string)($ambiguousResponse['answer'] ?? 
 agent_context_assert_true(str_contains((string)($ambiguousResponse['answer'] ?? ''), 'SVA_F'), 'Clarification names the second candidate');
 agent_context_assert_same(0, $ambiguousEntity->runCount, 'Ambiguous follow-up skips Entity Resolver');
 agent_context_assert_same(0, $ambiguousExpression->runCount, 'Ambiguous follow-up skips Expression Plugin');
+agent_context_assert_same(1, count(tekg_agent_load_session_memory($ambiguousSession)['recent_turns']), 'A clarification does not append a successful Agent turn');
 agent_context_cleanup($ambiguousSession);
 
 $sessionId = 'agent-multiturn-success-test';
@@ -251,6 +173,27 @@ $savedMemory = tekg_agent_load_session_memory($sessionId);
 agent_context_assert_same(2, count($savedMemory['recent_turns'] ?? []), 'Both successful Agent turns are recorded');
 agent_context_assert_same('What about its expression?', $savedMemory['recent_turns'][1]['original_question'] ?? null, 'Stored turn preserves original follow-up');
 agent_context_assert_true(str_contains((string)($savedMemory['recent_turns'][1]['effective_question'] ?? ''), 'L1HS'), 'Stored turn preserves effective entity question');
+$beforeFailure = tekg_agent_load_session_memory($sessionId);
+$failureConfig = agent_context_fixtures([
+    'status' => 'resolved_follow_up', 'effective_question' => 'L1HS expression profile.',
+    'inherited_entities' => ['L1HS'], 'reason' => 'The follow-up refers to the sole previously resolved TE.',
+]);
+$failureConfig['qa_native_fixtures'] = [['ok' => false, 'error' => 'Fixture writing service unavailable.', 'error_type' => 'transport_error']];
+$failureService = new TekgAcademicAgentService($failureConfig);
+wrapper_inject($failureService, ['Entity Resolver' => $entityPlugin, 'Expression Plugin' => $expressionPlugin]);
+$failure = $failureService->handle(['question' => 'What about its expression?', 'request_id' => 'agent-multiturn-failed-request', 'session_id' => $sessionId]);
+agent_context_assert_same(true, $failure['failed'] ?? null, 'A failed follow-up is visibly failed');
+agent_context_assert_same('', $failure['answer'] ?? null, 'A failed follow-up does not invent expression evidence');
+agent_context_assert_same($beforeFailure['recent_turns'], tekg_agent_load_session_memory($sessionId)['recent_turns'], 'A failed follow-up cannot alter successful conversation memory');
 agent_context_cleanup($sessionId);
 
+$isolatedSession = 'agent-multiturn-isolation-test';
+agent_context_cleanup($isolatedSession);
+[$isolatedService, $isolatedEntity, $isolatedExpression] = agent_context_service([]);
+$isolated = $isolatedService->handle(['question' => 'What about its expression?', 'request_id' => 'agent-multiturn-isolation-request', 'session_id' => $isolatedSession]);
+agent_context_assert_same('needs_clarification', $isolated['context_resolution']['status'] ?? null, 'A different Agent session cannot inherit L1HS');
+agent_context_assert_same(0, $isolatedEntity->runCount, 'An isolated unresolved pronoun skips entity bootstrap');
+agent_context_assert_same(0, $isolatedExpression->runCount, 'An isolated session pronoun executes no expression lookup');
+agent_context_assert_same([], tekg_agent_load_session_memory($isolatedSession)['recent_turns'], 'An isolated clarification is not saved as a successful scientific answer');
+agent_context_cleanup($isolatedSession);
 echo "Agent multi-turn context runtime tests passed.\n";

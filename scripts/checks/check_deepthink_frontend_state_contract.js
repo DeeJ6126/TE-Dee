@@ -66,6 +66,18 @@ const afterStage = reduce(afterReflection, {
 assert(afterStage.progressVisible === true, 'First real stage_state must reveal progress.');
 assert(afterStage.stage === 'Planning', 'Real stage_state must set the visible stage.');
 
+const firstExecuting = reduce(afterStage, {
+  type: 'stage_state',
+  payload: { current_stage: 'Executing', status: 'started' },
+});
+const repeatedExecuting = reduce(firstExecuting, {
+  type: 'stage_state',
+  payload: { current_stage: 'Executing', status: 'started' },
+});
+assert(repeatedExecuting.stage === 'Executing', 'Repeated Executing events must keep the same four-stage execution state.');
+assert(repeatedExecuting.progressVisible === true, 'Repeated Executing events must retain visible progress.');
+assert(repeatedExecuting.done === false && repeatedExecuting.failed === false, 'Evidence-loop reentry must remain active and successful.');
+
 const afterError = reduce(afterStage, { type: 'error', message: 'Writing failed.' });
 assert(afterError.failed === true, 'Error must record failure.');
 assert(afterError.done === false, 'Error must continue waiting for done.');
@@ -131,6 +143,16 @@ function fakeProgressStage(stage) {
   };
 }
 const completedProgressStages = client.DEEPTHINK_STAGES.map(fakeProgressStage);
+const executingProgressStages = client.DEEPTHINK_STAGES.map(fakeProgressStage);
+client.applyProgressState({
+  hidden: false,
+  querySelectorAll() {
+    return executingProgressStages;
+  },
+}, repeatedExecuting);
+assert(executingProgressStages[2].classList.contains('is-active'), 'Repeated Executing must leave the execution indicator active.');
+assert(!executingProgressStages[3].classList.contains('is-active') && !executingProgressStages[3].classList.contains('is-done'), 'Repeated Executing must not advance Writing.');
+
 client.applyProgressState({
   hidden: false,
   querySelectorAll() {

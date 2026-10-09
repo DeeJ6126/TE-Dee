@@ -14,4 +14,9 @@ assert(source.includes('sessionId = String(runState.session_id);'), 'Run-state e
 assert(source.includes('sessionId = String(payload.session_id);'), 'Agent responses must update the in-memory session ID.');
 assert(source.includes('sessionId = String(streamEvent.session_id);'), 'DeepThink events must update the in-memory session ID.');
 
+const sideSource = fs.readFileSync(path.resolve(__dirname, '..', '..', 'assets', 'js', 'components', 'side-deepthink.js'), 'utf8');
+assert(!sideSource.includes('localStorage.getItem(storageKey)'), 'The floating dialogue must not restore an invisible old session.');
+assert(!sideSource.includes('localStorage.setItem(storageKey, sessionId)'), 'The floating dialogue session ID stays in page memory.');
+assert(sideSource.includes("event.type === 'context_notice'"), 'Floating dialogue shows context retention notices.');
+assert(source.match(/event\.type === 'context_notice'/g)?.length === 2, 'Both page modes display context notices without advancing stages.');
 console.log('Agent conversation session scope check passed.');

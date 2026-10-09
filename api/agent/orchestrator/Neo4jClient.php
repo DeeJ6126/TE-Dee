@@ -100,7 +100,13 @@ final class TekgAgentNeo4jClient
             $headers[] = 'Authorization: Basic ' . base64_encode($user . ':' . $password);
         }
 
-        $response = tekg_agent_http_request($url, 'POST', $headers, $payload, 45, (bool)($this->config['ssl_verify'] ?? false));
+        $timeout = 45;
+        if (isset($this->config['qa_deadline'])) {
+            $remaining = (int)ceil((float)$this->config['qa_deadline'] - microtime(true));
+            if ($remaining < 1) { throw new RuntimeException('The research deadline was reached before the graph query.'); }
+            $timeout = min($timeout, $remaining);
+        }
+        $response = tekg_agent_http_request($url, 'POST', $headers, $payload, $timeout, (bool)($this->config['ssl_verify'] ?? false));
         $decoded = json_decode((string)$response['body'], true);
         if (!is_array($decoded)) {
             throw new RuntimeException('Neo4j returned invalid JSON.');

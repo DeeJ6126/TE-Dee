@@ -552,7 +552,11 @@
       }
     }
     const nextIndex = WORKFLOW_STAGE_INDEX[next.current_stage] ?? currentIndex;
-    if (nextIndex < currentIndex) {
+    const returningToCollection = String(turn.workflow.current_stage || '') === 'Executing'
+      && next.current_stage === 'Collecting'
+      && next.stage_statuses.Collecting === 'active'
+      && next.traversed_edges.includes(WORKFLOW_BACK_EDGE);
+    if (nextIndex < currentIndex && !returningToCollection) {
       return;
     }
     turn.workflow = next;
@@ -829,6 +833,11 @@
 
   function handleDeepThinkStreamEvent(turn, event) {
     const streamState = applyDeepThinkStreamState(turn, event);
+
+    if (event.type === 'context_notice') {
+      if (event.message) createThinkingLine(turn, String(event.message), 'bullet');
+      return;
+    }
 
     if (event.type === 'analysis' || event.type === 'planning' || event.type === 'planning_step'
       || event.type === 'tool_progress' || event.type === 'reflection' || event.type === 'synthesizing') {
@@ -1241,6 +1250,11 @@
       if (event.message) {
         createThinkingLine(turn, String(event.message), 'bullet');
       }
+      return;
+    }
+
+    if (event.type === 'context_notice') {
+      if (event.message) createThinkingLine(turn, String(event.message), 'bullet');
       return;
     }
 

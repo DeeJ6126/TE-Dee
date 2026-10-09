@@ -55,18 +55,16 @@ assert_same([], $entityPackage['claims'], 'entity-resolution diagnostics do not 
 
 tekg_agent_require_academic_agent_service();
 tekg_agent_require_deepthink_service();
-$aggregateFixture = [
-    'Entity Resolver' => ['evidence_items' => [$diagnostic]],
-    'Graph Plugin' => ['evidence_items' => [$scientificFixture]],
-];
-foreach ([
-    'Agent' => new TekgAcademicAgentService([]),
-    'DeepThink' => new TekgDeepThinkService([]),
-] as $runtime => $service) {
-    $aggregated = (new ReflectionMethod($service, 'aggregateEvidence'))->invoke($service, $aggregateFixture);
-    assert_same(1, count($aggregated), "{$runtime} excludes diagnostics from scientific evidence aggregation");
-    assert_same('L1HS is associated with cancer.', $aggregated[0]['claim'] ?? null, "{$runtime} retains scientific graph evidence");
-}
+$nativeEvidence = static function (string $name, array $items): array {
+    return ['plugin_name'=>$name,'status'=>'ok','query_summary'=>'Fixture evidence.', 'results'=>[],
+        'display_label'=>$name,'display_summary'=>'Fixture evidence.', 'display_details'=>[], 'result_counts'=>[],
+        'evidence_items'=>$items,'citations'=>[],'errors'=>[],'latency_ms'=>0];
+};
+$aggregatePackage = EvidencePackage::fromPluginResults('L1HS and cancer.', ['intent'=>'relationship'], [
+    $nativeEvidence('Entity Resolver', [$diagnostic]), $nativeEvidence('Graph Plugin', [$scientificFixture]),
+]);
+assert_same(1,count($aggregatePackage['claims']),'The shared runtime evidence builder excludes diagnostics.');
+assert_same('L1HS is associated with cancer.',$aggregatePackage['claims'][0]['text']??null,'The shared builder preserves the scientific graph record.');
 
 $sitePlugin = new TekgAgentSiteNavigatorPlugin();
 $siteResult = $sitePlugin->run([

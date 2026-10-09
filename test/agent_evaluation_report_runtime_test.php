@@ -1,66 +1,46 @@
 <?php
 declare(strict_types=1);
-
-require_once __DIR__ . '/../api/agent/contracts/ModeComparisonEvaluation.php';
 require_once __DIR__ . '/../api/agent/bootstrap.php';
+require_once __DIR__ . '/../api/agent/plugin_registry.php';
+tekg_agent_require_academic_agent_service();
+require_once __DIR__ . '/qa_loop_wrapper_test_support.php';
 
-function assert_true(bool $condition, string $message): void
-{
-    if (!$condition) {
-        fwrite(STDERR, "Assertion failed: {$message}\n");
-        exit(1);
-    }
+$service = new TekgAcademicAgentService(wrapper_config([
+    wrapper_turn([wrapper_call('graph', 'graph_lookup', ['te' => ['L1HS'], 'disease' => 'cancer'])]), wrapper_finish(),
+    wrapper_turn([], 'The supplied record reports an observation of L1HS in cancer (PMID 12345).'),
+]));
+wrapper_inject($service, ['Graph Plugin' => new WrapperFixturePlugin('Graph Plugin')]);
+$session = 'agent-evaluation-native-' . bin2hex(random_bytes(6));
+$response = $service->handle(['question' => 'Find local L1HS cancer evidence.', 'session_id' => $session]);
+wrapper_same(false, $response['failed'], 'The real shared loop produces a validated Agent response.');
+$report = $response['evaluation_report'] ?? [];
+wrapper_assert($report !== [], 'The response exposes its actual evaluation report.');
+foreach (['has_evidence_package', 'has_evidence_walk', 'has_report_plan', 'integrity_ok', 'answer_present'] as $key) {
+    wrapper_same(true, $report[$key] ?? null, 'The evaluation reports real runtime field ' . $key);
 }
+wrapper_same(count($response['evidence_package']['claims']), $report['claim_count'], 'Evaluation claim count comes from the real package.');
+wrapper_same(count($response['evidence_walk']['walk_steps']), $report['walk_step_count'], 'Evaluation walk count comes from the real walk.');
+wrapper_same(count($response['report_plan']['sections']), $report['report_section_count'], 'Evaluation section count comes from the real report plan.');
+wrapper_same($response['models'], $report['models'], 'Evaluation preserves the actual shared-model metadata.');
+wrapper_same(['shared' => 'deepseek-flash'], $report['models'], 'Evaluation cannot imply a separate writer or polisher model.');
+wrapper_same(false, $report['writing_failed'], 'Evaluation retains the actual writing outcome.');
+wrapper_cleanup($session);
 
-function assert_contains(string $needle, string $haystack, string $message): void
-{
-    assert_true(str_contains($haystack, $needle), $message . "\nMissing: {$needle}");
-}
-
-function assert_not_contains(string $needle, string $haystack, string $message): void
-{
-    assert_true(!str_contains($haystack, $needle), $message . "\nForbidden: {$needle}");
-}
-
-$serviceSource = (string)file_get_contents(__DIR__ . '/../api/agent/orchestrator/AcademicAgentService.php');
-$bootstrapSource = (string)file_get_contents(__DIR__ . '/../api/agent/bootstrap.php');
-
-assert_contains("contracts/ModeComparisonEvaluation.php", $serviceSource, 'AcademicAgentService requires ModeComparisonEvaluation');
-assert_contains("\$response['evaluation_report'] = \$evaluationReport", $serviceSource, 'Agent response includes evaluation_report');
-assert_contains('ModeComparisonEvaluation::fromAgentResponse(', $serviceSource, 'Agent runtime builds evaluation_report from same response artifacts');
-assert_contains("'agent_polisher_model'", $bootstrapSource, 'bootstrap resolves agent_polisher_model');
-assert_contains('TEKG_AGENT_POLISHER_MODEL', $bootstrapSource, 'bootstrap supports polisher model env override');
-assert_contains("'agent_writing_model' => trim((string)(\$local['agent_writing_model'] ?? tekg_agent_env_value(['TEKG_AGENT_WRITING_MODEL'], 'deepseek-v4-pro')))", $bootstrapSource, 'bootstrap default policy keeps Agent writer configurable with stable pro fallback');
-assert_contains("'agent_polisher_model' => trim((string)(\$local['agent_polisher_model'] ?? tekg_agent_env_value(['TEKG_AGENT_POLISHER_MODEL'], \$controlModel)))", $bootstrapSource, 'bootstrap default policy keeps polisher configurable and defaults to the control model');
-assert_contains("'agent_polisher_enabled' => tekg_agent_bool_value(\$local['agent_polisher_enabled'] ?? tekg_agent_env_value(['TEKG_AGENT_POLISHER_ENABLED'], 'false'), false)", $bootstrapSource, 'bootstrap default policy keeps the Agent polisher disabled');
-assert_not_contains('config.local.php', $serviceSource, 'AcademicAgentService must not depend on private local config paths');
-
-$agentResponse = [
-    'question' => 'LINE-1 是如何导致癌症的？',
-    'analysis' => ['intent' => 'mechanism', 'task_complexity' => 'research_synthesis'],
-    'answer' => 'Evidence-walk answer.',
-    'used_plugins' => ['Graph Plugin', 'Literature Plugin', 'Literature Reading Plugin'],
-    'citations' => [['pmid' => '12345']],
-    'evidence_package' => [
-        'claims' => [['id' => 'claim_1']],
-        'citation_map' => [['id' => 'citation_1']],
-        'route_map' => [['id' => 'route_1']],
-    ],
-    'evidence_walk' => [
-        'walk_steps' => [['id' => 'walk_step_1']],
-        'claim_nodes' => [['id' => 'claim_node_1']],
-        'support_edges' => [['id' => 'support_edge_1']],
-    ],
-    'report_plan' => ['sections' => [['title' => 'Mechanism Chain']]],
-    'integrity_report' => ['draft' => ['ok' => true], 'polish' => ['ok' => true], 'warnings' => []],
-    'writing_failed' => false,
-    'models' => ['writer_draft' => 'deepseek-v4-flash', 'writer_polisher' => 'deepseek-v4-flash'],
-    'timings' => ['writing_ms' => 7000],
-];
-$report = ModeComparisonEvaluation::fromAgentResponse($agentResponse, ['expected_best_mode' => 'agent']);
-assert_true($report['has_evidence_package'] === true, 'fromAgentResponse detects evidence_package');
-assert_true($report['has_evidence_walk'] === true, 'fromAgentResponse detects evidence_walk');
-assert_true($report['has_report_plan'] === true, 'fromAgentResponse detects report_plan');
-assert_true($report['integrity_ok'] === true, 'fromAgentResponse detects integrity status');
-
-echo "Agent evaluation report runtime tests passed.\n";
+$badIntegrity = $response;
+$badIntegrity['integrity_report'] = ['final' => ['ok' => false], 'user_facing' => ['ok' => true]];
+wrapper_same(false, ModeComparisonEvaluation::fromAgentResponse($badIntegrity)['integrity_ok'], 'An invalid final report cannot receive a passing evaluation.');
+$badPresentation = $response;
+$badPresentation['integrity_report'] = ['final' => ['ok' => true], 'user_facing' => ['ok' => false]];
+wrapper_same(false, ModeComparisonEvaluation::fromAgentResponse($badPresentation)['integrity_ok'], 'A failed user-facing audit cannot receive a passing evaluation.');
+$legacyIntegrity = $response;
+$legacyIntegrity['integrity_report'] = ['draft' => ['ok' => true]];
+wrapper_same(true, ModeComparisonEvaluation::fromAgentResponse($legacyIntegrity)['integrity_ok'], 'Historical draft-only reports remain readable through the evaluator.');
+$failedResponse = $response;
+$failedResponse['answer'] = '';
+$failedResponse['writing_failed'] = true;
+$failedResponse['failure_stage'] = 'Writing';
+$failedReport = ModeComparisonEvaluation::fromAgentResponse($failedResponse);
+wrapper_same(false, $failedReport['answer_present'], 'The evaluator does not treat a missing answer as present.');
+wrapper_same(true, $failedReport['writing_failed'], 'The evaluator preserves failure instead of hiding it.');
+wrapper_same('Writing', $failedReport['failure_stage'], 'The evaluator preserves the failed stage.');
+echo "Agent evaluation report native-loop runtime tests passed.\n";

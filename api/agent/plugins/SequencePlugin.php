@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+require_once dirname(__DIR__) . '/contracts/SequenceDelivery.php';
+
 final class TekgAgentSequencePlugin implements TekgAgentPluginInterface
 {
     private ?array $dataset = null;
@@ -16,7 +18,7 @@ final class TekgAgentSequencePlugin implements TekgAgentPluginInterface
         $question = trim((string)($context['question'] ?? ''));
         $chains = tekg_agent_context_alias_chains($context);
         $dataset = $this->loadDataset();
-        $showFullSequence = $this->wantsFullSequence($question);
+        $showFullSequence = SequenceDelivery::requested($question);
 
         $matches = [];
         foreach ($chains as $chain) {
@@ -62,7 +64,9 @@ final class TekgAgentSequencePlugin implements TekgAgentPluginInterface
             $evidenceItems[] = tekg_agent_make_evidence_item(
                 $this->getName(),
                 $name . ' maps to a Repbase-backed sequence record' .
-                ($length !== null ? ' with a consensus length of ' . $length . ' bp' : '') . '.',
+                ($length !== null ? ' with a consensus length of ' . $length . ' bp' : '') . '.' .
+                ($showFullSequence && $sequence !== '' && strlen($sequence) === $length && preg_match('/\A[ACGTRYSWKMBDHVN]+\z/i', $sequence) === 1
+                    ? ' The stored ' . strlen($sequence) . '-bp consensus nucleotide sequence is available for exact FASTA delivery.' : ''),
                 $name,
                 (($match['alias_mode'] ?? 'strict') === 'strict') ? 'high' : 'medium',
                 [
@@ -293,9 +297,11 @@ final class TekgAgentSequencePlugin implements TekgAgentPluginInterface
             (string)($entry['description'] ?? ''),
             implode(' ', array_map('strval', is_array($entry['keywords'] ?? null) ? $entry['keywords'] : [])),
         ]))));
-        $hints = [];
+        $hasNonLtr = preg_match('/\bnon[- ]?ltr\b/iu', $text) === 1;
+        $text = preg_replace('/\bnon[- ]?ltr\b/iu', '', $text) ?? $text;
+        $hints = $hasNonLtr ? ['NON-LTR'] : [];
         foreach (['ltr', 'orf1', 'orf2', 'env', 'gag', 'pol', 'sine', 'line', 'dna transposon', 'retrovirus', 'vntr'] as $keyword) {
-            if (str_contains($text, $keyword)) {
+            if (preg_match('/(?<![\p{L}\p{N}_])' . preg_quote($keyword, '/') . '(?:s)?(?![\p{L}\p{N}_])/iu', $text) === 1) {
                 $hints[] = strtoupper($keyword);
             }
         }

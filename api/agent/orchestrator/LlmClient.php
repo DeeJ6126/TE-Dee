@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/../config/agent_prompts.php';
 require_once __DIR__ . '/../contracts/NodeLlmResult.php';
+require_once __DIR__ . '/../contracts/AgentModelPolicy.php';
 require_once __DIR__ . '/../contracts/UserFacingWritingContext.php';
 
 final class TekgAgentLlmClient
@@ -12,6 +13,184 @@ final class TekgAgentLlmClient
 
     public function __construct(private readonly array $config)
     {
+    }
+
+    /**
+     * Continue one native tool conversation. The caller owns the complete message
+     * history, including assistant reasoning_content and matching tool_call_id.
+     * reasoning_content is protocol state and must never be sent to the UI.
+     */
+    public function requestToolTurn(array $messages, array $tools, array $options = []): array
+    {
+        $model = AgentModelPolicy::resolve($this->config);
+        $provider = $this->inferProvider($model);
+        if (!empty($this->config['llm_relay_url'])) {
+            return $this->toolTurnError($model, $provider, 'native_tools_unsupported', 'The configured relay does not support native tool turns.');
+        }
+        $url = $provider === 'qwen' ? (string)($this->config['dashscope_url'] ?? '') : (string)($this->config['deepseek_url'] ?? '');
+        $key = $provider === 'qwen' ? (string)($this->config['dashscope_key'] ?? '') : (string)($this->config['deepseek_key'] ?? '');
+        if ($url === '' || $key === '') {
+            return $this->toolTurnError($model, $provider, 'missing_credentials', 'Provider credentials are missing.');
+        }
+        $toolChoice = (string)($options['tool_choice'] ?? ($tools !== [] ? 'auto' : 'none'));
+        if (!in_array($toolChoice, ['auto', 'none'], true) || ($tools === [] && $toolChoice !== 'none')) {
+            return $this->toolTurnError($model, $provider, 'invalid_request', 'tool_choice must be auto or none, with tools supplied for auto.');
+        }
+        if ($messages === [] || !array_is_list($messages) || !array_is_list($tools)) {
+            return $this->toolTurnError($model, $provider, 'invalid_request', 'Messages and tools must be lists, and messages cannot be empty.');
+        }
+        foreach ($messages as $message) {
+            if (!is_array($message) || !in_array($message['role'] ?? null, ['system', 'user', 'assistant', 'tool'], true)) {
+                return $this->toolTurnError($model, $provider, 'invalid_request', 'Conversation contains an invalid message role.');
+            }
+            if (($message['role'] ?? '') === 'tool' && (!is_string($message['tool_call_id'] ?? null) || $message['tool_call_id'] === '')) {
+                return $this->toolTurnError($model, $provider, 'invalid_request', 'Tool results require a tool_call_id.');
+            }
+        }
+        $toolNames = [];
+        foreach ($tools as $tool) {
+            $name = $tool['function']['name'] ?? null;
+            if (!is_array($tool) || ($tool['type'] ?? '') !== 'function' || !is_string($name)
+                || preg_match('/^[A-Za-z0-9_-]{1,64}$/D', $name) !== 1 || isset($toolNames[$name])) {
+                return $this->toolTurnError($model, $provider, 'invalid_request', 'Tools require unique valid function names.');
+            }
+            $toolNames[$name] = true;
+        }
+        $payload = [
+            'model' => $model,
+            'messages' => $messages,
+            'stream' => false,
+            'thinking' => ['type' => (bool)($options['enable_thinking'] ?? true) ? 'enabled' : 'disabled'],
+            'max_tokens' => max(512, min(32768, (int)($options['max_tokens'] ?? $this->config['llm_tool_turn_max_tokens'] ?? 8192))),
+        ];
+        // Keep tools even for the final tool_choice=none turn. DeepSeek uses this
+        // parameter to determine whether prior reasoning belongs to the context.
+        if ($tools !== []) {
+            $payload['tools'] = $tools;
+            $payload['tool_choice'] = $toolChoice;
+        }
+        if (isset($options['reasoning_effort']) && in_array($options['reasoning_effort'], ['low', 'high', 'max'], true)) {
+            $payload['reasoning_effort'] = $options['reasoning_effort'];
+        }
+        $timeout = max(1, min(180, (int)($options['timeout'] ?? $this->config['llm_tool_turn_timeout'] ?? 90)));
+        $retries = max(0, min(2, (int)($options['max_retries'] ?? $this->config['llm_tool_turn_max_retries'] ?? 1)));
+        $deadline = microtime(true) + max(1, min(540, (int)($options['total_timeout'] ?? $timeout * ($retries + 1))));
+        $stage = preg_replace('/[^A-Za-z0-9_-]/', '_', (string)($options['stage'] ?? 'tool_turn')) ?: 'tool_turn';
+        $decoded = [];
+        for ($attempt = 0; $attempt <= $retries; $attempt++) {
+            $remaining = (int)ceil($deadline - microtime(true));
+            if ($remaining < 1) {
+                return $this->toolTurnError($model, $provider, 'timeout', 'Model turn exceeded its total timeout.', '', $attempt);
+            }
+            try {
+                $decoded = $this->httpJson($url, $payload, ['Authorization: Bearer ' . $key], min($timeout, $remaining), $stage);
+                break;
+            } catch (Throwable $e) {
+                [$errorType, $retryable] = $this->toolTurnExceptionType($e);
+                if (!$retryable || $attempt === $retries) {
+                    return $this->toolTurnError($model, $provider, $errorType, $this->safeToolTurnError($e->getMessage(), $key), '', $attempt + 1);
+                }
+                $delay = max(0, min(1000000, (int)($this->config['llm_tool_turn_retry_delay_us'] ?? 100000))) * ($attempt + 1);
+                if (microtime(true) + $delay / 1000000 >= $deadline) {
+                    return $this->toolTurnError($model, $provider, 'timeout', 'Model turn exceeded its total timeout.', '', $attempt + 1);
+                }
+                usleep($delay);
+            }
+        }
+        if (isset($decoded['error']) || ($decoded['ok'] ?? true) === false) {
+            return $this->toolTurnError($model, $provider, 'upstream_error', 'Provider returned an error response.', '', $attempt + 1);
+        }
+        $choice = $decoded['choices'][0] ?? null;
+        if (!is_array($choice) || !is_array($choice['message'] ?? null)) {
+            return $this->toolTurnError($model, $provider, 'invalid_response', 'Provider returned no assistant message.', '', $attempt + 1);
+        }
+        $finish = is_string($choice['finish_reason'] ?? null) ? $choice['finish_reason'] : '';
+        if (!in_array($finish, ['stop', 'tool_calls'], true)) {
+            $errorType = $finish === 'length' ? 'incomplete_response' : 'invalid_finish_reason';
+            return $this->toolTurnError($model, $provider, $errorType, $finish === 'length'
+                ? 'Provider stopped at its output limit before completing the turn.'
+                : 'Provider returned an unsupported finish_reason.', $finish === 'length' ? $finish : '', $attempt + 1);
+        }
+        $message = $choice['message'];
+        if (($message['role'] ?? 'assistant') !== 'assistant'
+            || (isset($message['content']) && !is_string($message['content']))
+            || (isset($message['reasoning_content']) && !is_string($message['reasoning_content']))) {
+            return $this->toolTurnError($model, $provider, 'invalid_response', 'Provider returned an invalid assistant message.', $finish, $attempt + 1);
+        }
+        $content = (string)($message['content'] ?? '');
+        $reasoning = (string)($message['reasoning_content'] ?? '');
+        $calls = $message['tool_calls'] ?? [];
+        if (!is_array($calls) || !array_is_list($calls)) {
+            return $this->toolTurnError($model, $provider, 'invalid_tool_calls', 'Provider returned an invalid tool call list.', $finish, $attempt + 1);
+        }
+        if (($finish === 'tool_calls') !== ($calls !== []) || ($toolChoice === 'none' && $calls !== [])) {
+            return $this->toolTurnError($model, $provider, 'invalid_tool_calls', 'Tool calls conflict with finish_reason or tool_choice.', $finish, $attempt + 1);
+        }
+        $seenIds = [];
+        $normalizedCalls = [];
+        foreach ($calls as $call) {
+            $id = $call['id'] ?? null;
+            $name = $call['function']['name'] ?? null;
+            $arguments = $call['function']['arguments'] ?? null;
+            if (!is_array($call) || ($call['type'] ?? '') !== 'function' || !is_string($id) || $id === ''
+                || isset($seenIds[$id]) || !is_string($name) || !isset($toolNames[$name])) {
+                return $this->toolTurnError($model, $provider, 'invalid_tool_calls', 'Provider returned an unknown function or invalid tool call ID.', $finish, $attempt + 1);
+            }
+            if (!is_string($arguments)) {
+                return $this->toolTurnError($model, $provider, 'invalid_tool_arguments', 'Tool arguments must be a JSON object string.', $finish, $attempt + 1);
+            }
+            // The research engine decodes arguments at depth 32 as well. Reject
+            // deeper data here before a successful turn can reach execution.
+            $parsedArguments = json_decode($arguments, false, 32);
+            if (json_last_error() !== JSON_ERROR_NONE || !$parsedArguments instanceof stdClass) {
+                return $this->toolTurnError($model, $provider, 'invalid_tool_arguments', 'Tool arguments are not a complete JSON object.', $finish, $attempt + 1);
+            }
+            $seenIds[$id] = true;
+            $normalizedCalls[] = ['id' => $id, 'type' => 'function', 'function' => ['name' => $name, 'arguments' => $arguments]];
+        }
+        if ($calls === [] && trim($content) === '') {
+            return $this->toolTurnError($model, $provider, 'empty_response', 'Provider returned neither tool calls nor an answer.', $finish, $attempt + 1);
+        }
+        return [
+            'ok' => true,
+            'provider' => $provider,
+            'model' => $model,
+            'content' => $content,
+            'reasoning_content' => $reasoning,
+            'tool_calls' => $normalizedCalls,
+            'finish_reason' => $finish,
+            'error' => null,
+            'error_type' => null,
+            'attempts' => $attempt + 1,
+        ];
+    }
+
+    private function toolTurnError(string $model, string $provider, string $type, string $error, string $finish = '', int $attempts = 0): array
+    {
+        return ['ok' => false, 'provider' => $provider, 'model' => $model, 'content' => '', 'reasoning_content' => '',
+            'tool_calls' => [], 'finish_reason' => $finish, 'error' => $error, 'error_type' => $type, 'attempts' => $attempts];
+    }
+
+    /** @return array{0:string,1:bool} */
+    private function toolTurnExceptionType(Throwable $e): array
+    {
+        $message = $e->getMessage();
+        if (preg_match('/LLM provider returned HTTP (\d{3})/', $message, $matches) === 1) {
+            $status = (int)$matches[1];
+            return ['upstream_http_error', $status === 408 || $status === 429 || $status >= 500];
+        }
+        if (preg_match('/tim(?:ed? ?out|eout)|operation timed|maximum time/i', $message) === 1) {
+            return ['timeout', true];
+        }
+        if (preg_match('/invalid JSON/i', $message) === 1) {
+            return ['invalid_response', false];
+        }
+        return ['transport_error', true];
+    }
+
+    private function safeToolTurnError(string $message, string $key): string
+    {
+        return $this->truncateHttpErrorText($this->redactHttpErrorSecrets(str_replace($key, '[redacted]', $message)), 520);
     }
 
     public function complete(
@@ -25,6 +204,7 @@ final class TekgAgentLlmClient
         string $confidence,
         array $limits
     ): array {
+        $model = AgentModelPolicy::resolve($this->config);
         $provider = $this->inferProvider($model);
         $messages = [
             ['role' => 'system', 'content' => $this->systemPrompt($language)],
@@ -39,6 +219,7 @@ final class TekgAgentLlmClient
 
     public function narrateEvent(string $model, string $language, array $event): ?string
     {
+        $model = AgentModelPolicy::resolve($this->config);
         $provider = $this->inferProvider($model);
         if (!$this->canCallModel($provider)) {
             return null;
@@ -65,6 +246,7 @@ final class TekgAgentLlmClient
 
     public function generateJson(string $model, string $instruction, array $payload, ?int $timeout = null, string $stage = 'json'): ?array
     {
+        $model = AgentModelPolicy::resolve($this->config);
         if ((bool)($this->config['agent_test_mode'] ?? false)) {
             $fixtures = (array)($this->config['agent_json_fixtures'] ?? []);
             if (array_key_exists($stage, $fixtures)) {
@@ -91,8 +273,8 @@ final class TekgAgentLlmClient
         try {
             $effectiveTimeout = $timeout ?? (int)($this->config['llm_json_timeout'] ?? 20);
             $response = !empty($this->config['llm_relay_url'])
-                ? $this->callRelay($provider, $model, $messages, false, $effectiveTimeout, $stage)
-                : $this->callProvider($provider, $model, $messages, false, $effectiveTimeout, $stage);
+                ? $this->callRelay($provider, $model, $messages, false, $effectiveTimeout, $stage, true, true)
+                : $this->callProvider($provider, $model, $messages, false, $effectiveTimeout, $stage, true, true);
         } catch (Throwable) {
             return null;
         }
@@ -130,6 +312,7 @@ final class TekgAgentLlmClient
         array $payload,
         ?int $timeout = null
     ): ?array {
+        $model = AgentModelPolicy::resolve($this->config);
         $prompts = require __DIR__ . '/../config/conversation_context_prompts.php';
         $key = TekgAgentPromptLibrary::normalizeLanguage($language) === 'chinese' ? 'zh' : 'en';
         return $this->generateJson(
@@ -143,6 +326,7 @@ final class TekgAgentLlmClient
 
     public function runSixStageNode(string $stage, string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         $stage = strtolower(trim($stage));
         $schema = $this->sixStageSchema($stage);
         if ($schema === null) {
@@ -187,8 +371,8 @@ final class TekgAgentLlmClient
         try {
             $effectiveTimeout = $timeout ?? (int)($this->config['llm_six_stage_node_timeout'] ?? $this->config['llm_json_timeout'] ?? 20);
             $response = !empty($this->config['llm_relay_url'])
-                ? $this->callRelay($provider, $model, $messages, false, $effectiveTimeout, 'six_stage_' . $stage)
-                : $this->callProvider($provider, $model, $messages, false, $effectiveTimeout, 'six_stage_' . $stage);
+                ? $this->callRelay($provider, $model, $messages, false, $effectiveTimeout, 'six_stage_' . $stage, true, true)
+                : $this->callProvider($provider, $model, $messages, false, $effectiveTimeout, 'six_stage_' . $stage, true, true);
         } catch (Throwable $e) {
             return new NodeLlmResult(
                 $stage,
@@ -218,36 +402,43 @@ final class TekgAgentLlmClient
 
     public function runUnderstandingNode(string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->runSixStageNode('understanding', $model, $language, $payload, $timeout);
     }
 
     public function runPlanningNode(string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->runSixStageNode('planning', $model, $language, $payload, $timeout);
     }
 
     public function runCollectingNode(string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->runSixStageNode('collecting', $model, $language, $payload, $timeout);
     }
 
     public function runExecutingReviewNode(string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->runSixStageNode('executing', $model, $language, $payload, $timeout);
     }
 
     public function runIntegratingNode(string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->runSixStageNode('integrating', $model, $language, $payload, $timeout);
     }
 
     public function runWritingDecisionNode(string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->runSixStageNode('writing', $model, $language, $payload, $timeout);
     }
 
     public function runDeepThinkNode(string $stage, string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         $stage = strtolower(trim($stage));
         $schemas = require __DIR__ . '/../config/dt_node_schemas.php';
         $schema = $schemas[$stage] ?? null;
@@ -284,8 +475,8 @@ final class TekgAgentLlmClient
         try {
             $effectiveTimeout = $timeout ?? (int)($this->config['llm_json_timeout'] ?? 20);
             $response = !empty($this->config['llm_relay_url'])
-                ? $this->callRelay($provider, $model, $messages, false, $effectiveTimeout, 'dt_' . $stage, false)
-                : $this->callProvider($provider, $model, $messages, false, $effectiveTimeout, 'dt_' . $stage, false);
+                ? $this->callRelay($provider, $model, $messages, false, $effectiveTimeout, 'dt_' . $stage, false, true)
+                : $this->callProvider($provider, $model, $messages, false, $effectiveTimeout, 'dt_' . $stage, false, true);
         } catch (Throwable $e) {
             return new NodeLlmResult(
                 $stage,
@@ -314,21 +505,25 @@ final class TekgAgentLlmClient
 
     public function runDeepThinkUnderstandingNode(string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->runDeepThinkNode('understanding', $model, $language, $payload, $timeout);
     }
 
     public function runDeepThinkPlanningNode(string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->runDeepThinkNode('planning', $model, $language, $payload, $timeout);
     }
 
     public function runDeepThinkExecutingNode(string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->runDeepThinkNode('executing', $model, $language, $payload, $timeout);
     }
 
     public function runDeepThinkWritingNode(string $model, string $language, array $payload, ?int $timeout = null): NodeLlmResult
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->runDeepThinkNode('writing', $model, $language, $payload, $timeout);
     }
 
@@ -358,6 +553,7 @@ final class TekgAgentLlmClient
 
     public function assessSufficiency(string $model, array $payload, ?int $timeout = null): ?array
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->generateJson(
             $model,
             $this->jsonInstructionPrompt('sufficiency', $this->languageFromPayload($payload)),
@@ -369,6 +565,7 @@ final class TekgAgentLlmClient
 
     public function generateAnswerStructure(string $model, array $payload, ?int $timeout = null): ?array
     {
+        $model = AgentModelPolicy::resolve($this->config);
         return $this->generateJson(
             $model,
             $this->jsonInstructionPrompt('answer_structure', $this->languageFromPayload($payload)),
@@ -392,6 +589,7 @@ final class TekgAgentLlmClient
         array $limits,
         ?int $timeout = null
     ): array {
+        $model = AgentModelPolicy::resolve($this->config);
         $provider = $this->inferProvider($model);
         $messages = [
             ['role' => 'system', 'content' => $this->systemPrompt($language)],
@@ -430,6 +628,7 @@ final class TekgAgentLlmClient
         array $limits,
         ?int $timeout = null
     ): array {
+        $model = AgentModelPolicy::resolve($this->config);
         $fixture = $this->textFixtureResponse('evidence_walk_draft', $model);
         if ($fixture !== null) {
             return $fixture;
@@ -471,6 +670,7 @@ final class TekgAgentLlmClient
         array $integrityReport,
         ?int $timeout = null
     ): array {
+        $model = AgentModelPolicy::resolve($this->config);
         $fixture = $this->textFixtureResponse('evidence_walk_polish', $model);
         if ($fixture !== null) {
             return $fixture;
@@ -512,6 +712,7 @@ final class TekgAgentLlmClient
         array $extraContext = [],
         ?int $timeout = null
     ): array {
+        $model = AgentModelPolicy::resolve($this->config);
         $provider = $this->inferProvider($model);
         $messages = [
             ['role' => 'system', 'content' => $this->systemPrompt($language)],
@@ -550,6 +751,7 @@ final class TekgAgentLlmClient
         string $hint = '',
         ?int $timeout = null
     ): array {
+        $model = AgentModelPolicy::resolve($this->config);
         $provider = $this->inferProvider($model);
         $messages = [
             ['role' => 'system', 'content' => $this->systemPrompt($language)],
@@ -909,9 +1111,12 @@ final class TekgAgentLlmClient
         bool $enableThinking = true,
         int $timeout = 90,
         string $stage = 'llm',
-        bool $retryEmptyContent = true
+        bool $retryEmptyContent = true,
+        bool $jsonMode = false
     ): array
     {
+        $model = AgentModelPolicy::resolve($this->config);
+        $provider = $this->inferProvider($model);
         $payload = [
             'provider' => $provider,
             'model' => $model,
@@ -920,6 +1125,9 @@ final class TekgAgentLlmClient
             'enable_thinking' => $enableThinking,
             'timeout' => $timeout,
         ];
+        if ($jsonMode) {
+            $payload['response_format'] = ['type' => 'json_object'];
+        }
         $decoded = $this->httpJson((string)$this->config['llm_relay_url'], $payload, [], $timeout, $stage);
         $response = $decoded['response'] ?? [];
         $content = (string)($response['choices'][0]['message']['content'] ?? '');
@@ -946,35 +1154,33 @@ final class TekgAgentLlmClient
         bool $enableThinking = true,
         int $timeout = 90,
         string $stage = 'llm',
-        bool $retryEmptyContent = true
+        bool $retryEmptyContent = true,
+        bool $jsonMode = false
     ): array
     {
+        $model = AgentModelPolicy::resolve($this->config);
+        $provider = $this->inferProvider($model);
         $url = $provider === 'qwen' ? (string)($this->config['dashscope_url'] ?? '') : (string)($this->config['deepseek_url'] ?? '');
         $key = $provider === 'qwen' ? (string)($this->config['dashscope_key'] ?? '') : (string)($this->config['deepseek_key'] ?? '');
         if ($url === '' || $key === '') {
             return ['ok' => false, 'provider' => $provider, 'model' => $model, 'content' => '', 'error' => 'Provider credentials are missing.'];
         }
 
-        $decoded = $this->httpJson($url, [
+        $requestPayload = [
             'model' => $model,
             'messages' => $messages,
             'temperature' => 0.2,
-            'enable_thinking' => $enableThinking,
-        ], [
-            'Authorization: Bearer ' . $key,
-        ], $timeout, $stage);
-
+            'thinking' => ['type' => $enableThinking ? 'enabled' : 'disabled'],
+        ];
+        if ($jsonMode) {
+            $requestPayload['response_format'] = ['type' => 'json_object'];
+        }
+        $headers = ['Authorization: Bearer ' . $key];
+        $decoded = $this->httpJson($url, $requestPayload, $headers, $timeout, $stage);
         $content = (string)($decoded['choices'][0]['message']['content'] ?? '');
         if ($retryEmptyContent && trim($content) === '') {
             $this->backoffBeforeEmptyContentRetry();
-            $decoded = $this->httpJson($url, [
-                'model' => $model,
-                'messages' => $messages,
-                'temperature' => 0.2,
-                'enable_thinking' => $enableThinking,
-            ], [
-                'Authorization: Bearer ' . $key,
-            ], $timeout, $stage);
+            $decoded = $this->httpJson($url, $requestPayload, $headers, $timeout, $stage);
             $content = (string)($decoded['choices'][0]['message']['content'] ?? '');
         }
         $trimmedContent = trim($content);
@@ -1005,6 +1211,11 @@ final class TekgAgentLlmClient
 
     private function httpJson(string $url, array $payload, array $headers, int $timeout = 90, string $stage = 'llm'): array
     {
+        if (isset($this->config['qa_deadline'])) {
+            $remaining = (int)ceil((float)$this->config['qa_deadline'] - microtime(true));
+            if ($remaining < 1) { throw new RuntimeException('The research run exceeded its model-call deadline.'); }
+            $timeout = min($timeout, $remaining);
+        }
         $body = json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
         $allHeaders = array_merge(['Content-Type: application/json', 'Accept: application/json'], $headers);
         $response = tekg_agent_http_request(
@@ -1027,6 +1238,14 @@ final class TekgAgentLlmClient
         }
         if ((int)$response['status'] >= 400) {
             throw new RuntimeException('LLM provider returned HTTP ' . (int)$response['status'] . $this->formatHttpErrorDetail($decoded, $rawBody));
+        }
+        $requestId = trim((string)($this->config['request_id'] ?? ''));
+        if ($requestId !== '' && function_exists('tekg_agent_append_diagnostic_log')) {
+            tekg_agent_append_diagnostic_log($requestId, 'llm_model_call_completed', [
+                'stage' => $stage,
+                'requested_model' => (string)($payload['model'] ?? ''),
+                'served_model' => (string)($decoded['model'] ?? $decoded['response']['model'] ?? ''),
+            ]);
         }
         return $decoded;
     }

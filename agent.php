@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/path_config.php';
 require_once __DIR__ . '/site_i18n.php';
+require_once __DIR__ . '/api/agent/contracts/AgentModelPolicy.php';
 
 $pageTitle = TEKG_PRODUCT_NAME . ' Academic Agent';
 $activePage = 'agent';
@@ -67,7 +68,7 @@ if (is_file(__DIR__ . '/api/config.local.php')) {
     }
 }
 
-$defaultAgentModel = trim((string)($local['deepseek_reasoner_model'] ?? $local['deepseek_model'] ?? 'deepseek-reasoner'));
+$defaultAgentModel = AgentModelPolicy::resolve($local);
 
 $agentResearchTemplates = [
     [

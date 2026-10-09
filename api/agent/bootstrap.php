@@ -5,6 +5,8 @@ require_once dirname(__DIR__) . '/expression_data.php';
 require_once dirname(__DIR__) . '/runtime_config.php';
 require_once dirname(__DIR__, 2) . '/path_config.php';
 require_once dirname(__DIR__, 2) . '/site_i18n.php';
+require_once __DIR__ . '/contracts/AgentModelPolicy.php';
+require_once __DIR__ . '/orchestrator/QaCacheRetention.php';
 
 function tekg_agent_env_value(array $names, ?string $default = null): ?string
 {
@@ -90,24 +92,25 @@ function tekg_agent_config(): array
     }
     $local = tekg_agent_local_config();
     $neo4jConfig = tekg_runtime_neo4j_config($local);
-    $controlModel = trim((string)($local['agent_control_model'] ?? tekg_agent_env_value(['TEKG_AGENT_CONTROL_MODEL'], 'deepseek-v4-flash')));
+    $model = AgentModelPolicy::resolve(['agent_model' => $local['agent_model'] ?? tekg_agent_env_value(['TEKG_AGENT_MODEL'], AgentModelPolicy::DEFAULT_MODEL)]);
     $config = [
+        'agent_model' => $model,
         'dashscope_url' => trim((string)($local['dashscope_url'] ?? tekg_agent_env_value(['DASHSCOPE_API_URL_BIOLOGY', 'DASHSCOPE_API_URL'], 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions'))),
         'dashscope_key' => trim((string)($local['dashscope_key'] ?? tekg_agent_env_value(['DASHSCOPE_API_KEY_BIOLOGY', 'DASHSCOPE_API_KEY'], ''))),
         'dashscope_model' => trim((string)($local['dashscope_model'] ?? tekg_agent_env_value(['DASHSCOPE_MODEL_BIOLOGY', 'DASHSCOPE_MODEL'], 'qwen3.5-35b-a3b'))),
-        'agent_control_model' => $controlModel,
-        'agent_core_model' => trim((string)($local['agent_core_model'] ?? tekg_agent_env_value(['TEKG_AGENT_CORE_MODEL'], 'deepseek-v4-pro'))),
-        'agent_sufficiency_model' => trim((string)($local['agent_sufficiency_model'] ?? tekg_agent_env_value(['TEKG_AGENT_SUFFICIENCY_MODEL'], $controlModel))),
-        'agent_expert_model' => trim((string)($local['agent_expert_model'] ?? tekg_agent_env_value(['TEKG_AGENT_EXPERT_MODEL'], 'deepseek-v4-pro'))),
-        'agent_narrator_model' => trim((string)($local['agent_narrator_model'] ?? tekg_agent_env_value(['TEKG_AGENT_NARRATOR_MODEL'], $controlModel))),
-        'agent_answer_structure_model' => trim((string)($local['agent_answer_structure_model'] ?? tekg_agent_env_value(['TEKG_AGENT_ANSWER_STRUCTURE_MODEL'], $controlModel))),
-        'agent_writing_model' => trim((string)($local['agent_writing_model'] ?? tekg_agent_env_value(['TEKG_AGENT_WRITING_MODEL'], 'deepseek-v4-pro'))),
-        'agent_polisher_model' => trim((string)($local['agent_polisher_model'] ?? tekg_agent_env_value(['TEKG_AGENT_POLISHER_MODEL'], $controlModel))),
+        'agent_control_model' => $model,
+        'agent_core_model' => $model,
+        'agent_sufficiency_model' => $model,
+        'agent_expert_model' => $model,
+        'agent_narrator_model' => $model,
+        'agent_answer_structure_model' => $model,
+        'agent_writing_model' => $model,
+        'agent_polisher_model' => $model,
         'agent_polisher_enabled' => tekg_agent_bool_value($local['agent_polisher_enabled'] ?? tekg_agent_env_value(['TEKG_AGENT_POLISHER_ENABLED'], 'false'), false),
         'deepseek_url' => trim((string)($local['deepseek_url'] ?? tekg_agent_env_value(['DEEPSEEK_API_URL'], 'https://api.deepseek.com/v1/chat/completions'))),
         'deepseek_key' => trim((string)($local['deepseek_key'] ?? tekg_agent_env_value(['DEEPSEEK_API_KEY'], ''))),
-        'deepseek_model' => trim((string)($local['deepseek_model'] ?? tekg_agent_env_value(['DEEPSEEK_MODEL'], 'deepseek-chat'))),
-        'deepseek_reasoner_model' => trim((string)($local['deepseek_reasoner_model'] ?? tekg_agent_env_value(['DEEPSEEK_REASONER_MODEL'], 'deepseek-reasoner'))),
+        'deepseek_model' => $model,
+        'deepseek_reasoner_model' => $model,
         'llm_relay_url' => trim((string)($local['llm_relay_url'] ?? tekg_agent_env_value(['BIOLOGY_LLM_RELAY_URL', 'LLM_RELAY_URL'], ''))),
         'ssl_verify' => (bool)($local['ssl_verify'] ?? false),
         'agent_execution_timeout' => (int)($local['agent_execution_timeout'] ?? tekg_agent_env_value(['TEKG_AGENT_EXECUTION_TIMEOUT'], '7200')),
@@ -124,6 +127,7 @@ function tekg_agent_config(): array
         'pubmed_email' => trim((string)tekg_agent_env_value(['PUBMED_EMAIL'], '')),
         'pubmed_cache_dir' => tekg_agent_pubmed_cache_dir(),
     ];
+    QaCacheRetention::maybePrune(TEKG_DATA_FS_DIR . '/cache/agent');
     return $config;
 }
 
@@ -253,13 +257,35 @@ function tekg_agent_load_session_memory(string $sessionId): array
     if (!is_array($decoded)) {
         return tekg_agent_default_session_memory();
     }
+    $privatePath = tekg_agent_conversation_file($sessionId);
+    $history = is_file($privatePath) && !is_link($privatePath) ? json_decode((string)file_get_contents($privatePath), true) : null;
+    if (is_array($history)) { $decoded = array_replace($decoded, array_intersect_key($history, array_flip(['dialogue_turns', 'dialogue_history']))); }
     return array_replace(tekg_agent_default_session_memory(), $decoded);
+}
+
+function tekg_agent_conversation_file(string $sessionId): string
+{
+    return tekg_agent_ensure_dir(TEKG_DATA_FS_DIR . '/cache/agent/.conversations') . '/' . hash('sha256', $sessionId) . '.json';
+}
+
+function tekg_agent_atomic_json_file(string $path, array $value): void
+{
+    if (is_link($path)) { throw new RuntimeException('Invalid conversation cache path.'); }
+    $encoded = json_encode($value, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR);
+    $temporary = $path . '.' . bin2hex(random_bytes(8)) . '.tmp';
+    try {
+        if (file_put_contents($temporary, $encoded, LOCK_EX) === false || !rename($temporary, $path)) {
+            throw new RuntimeException('Conversation persistence is unavailable.');
+        }
+    } finally { if (is_file($temporary)) { @unlink($temporary); } }
 }
 
 function tekg_agent_save_session_memory(string $sessionId, array $memory): void
 {
     $path = tekg_agent_session_file($sessionId);
-    file_put_contents($path, json_encode($memory, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
+    $history = array_intersect_key($memory, array_flip(['dialogue_turns', 'dialogue_history']));
+    tekg_agent_atomic_json_file(tekg_agent_conversation_file($sessionId), $history);
+    tekg_agent_atomic_json_file($path, array_diff_key($memory, $history));
 }
 
 function tekg_agent_json_response(int $status, array $payload): void
@@ -277,7 +303,7 @@ function tekg_agent_append_diagnostic_log(string $requestId, string $event, arra
         'event' => $event,
         'payload' => tekg_agent_json_safe($payload),
     ];
-    $path = rtrim(tekg_agent_diagnostics_dir(), '/\\') . '/answer-chain.jsonl';
+    $path = rtrim(tekg_agent_diagnostics_dir(), '/\\') . '/answer-chain-' . gmdate('Y-m-d') . '.jsonl';
     @file_put_contents($path, json_encode($record, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . PHP_EOL, FILE_APPEND | LOCK_EX);
 }
 

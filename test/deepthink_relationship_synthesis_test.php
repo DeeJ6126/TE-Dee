@@ -3,83 +3,66 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/../api/agent/bootstrap.php';
 require_once __DIR__ . '/../api/agent/plugin_registry.php';
-require_once __DIR__ . '/../api/agent/orchestrator/DeepThinkService.php';
-tekg_agent_require_academic_agent_service();
+require_once __DIR__ . '/qa_loop_wrapper_test_support.php';
+tekg_agent_require_deepthink_service();
 
-function assert_true(bool $condition, string $message): void
-{
-    if (!$condition) {
-        fwrite(STDERR, "Assertion failed: {$message}\n");
-        exit(1);
-    }
-}
-
-function call_deepthink_private(TekgDeepThinkService $service, string $methodName, array $args): mixed
-{
-    $method = new ReflectionMethod($service, $methodName);
-    return $method->invokeArgs($service, $args);
-}
-
-$service = new TekgDeepThinkService([
-    'deepseek_model' => 'deepseek-v4-flash',
-    'deepseek_reasoner_model' => 'deepseek-v4-flash',
+$citation = ['pmid' => '12345', 'title' => 'Retrieved L1HS cancer observation', 'url' => 'https://pubmed.ncbi.nlm.nih.gov/12345/'];
+$disease = tekg_agent_make_evidence_item('Graph Plugin', 'The supplied graph links L1HS to Cancer.', 'L1HS', 'medium', [],
+    ['title' => 'Cancer'], ['citations' => [$citation], 'evidence_type' => 'graph_relation']);
+$function = tekg_agent_make_evidence_item('Graph Plugin', 'The supplied graph links L1HS to Insertional mutagenesis.', 'L1HS', 'medium', [],
+    ['title' => 'Insertional mutagenesis'], ['citations' => [$citation], 'evidence_type' => 'graph_relation']);
+$plugin = new WrapperFixturePlugin('Graph Plugin', [
+    'results' => ['rows' => [
+        ['source_name' => 'L1HS', 'target_type' => 'Disease', 'target_name' => 'Cancer', 'relation_type' => 'BIO_RELATION', 'pmids' => ['12345']],
+        ['source_name' => 'L1HS', 'target_type' => 'Function', 'target_name' => 'Insertional mutagenesis', 'relation_type' => 'BIO_RELATION', 'pmids' => ['12345']],
+    ]],
+    'evidence_items' => [$disease, $function], 'citations' => [$citation],
 ]);
 
-$analysis = [
-    'intent' => 'relationship',
-    'answer_language' => 'chinese',
-];
+// Both synthesis and explicit listing use the actual native writer. There is
+// no deterministic list-answer branch when a model call fails.
+foreach (['请整合 L1HS 与 Cancer 的信息。', '列出 L1HS 的全部关系。'] as $question) {
+    $writerCalled = false;
+    $modelAnswer = '现有图谱记录将 L1HS 与 Cancer、Insertional mutagenesis 相关联；这些记录不足以单独认定因果关系，也不能视为全部关系（PMID 12345）。';
+    $writer = static function(array $messages, array $tools, array $options) use (&$writerCalled, $modelAnswer): array {
+        $writerCalled = true;
+        wrapper_same('none', $options['tool_choice'], 'Relationship synthesis uses the evidence-only final writer.');
+        $history = json_encode($messages, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR);
+        wrapper_assert(str_contains($history, 'Cancer') && str_contains($history, 'Insertional mutagenesis'), 'Writer receives both retrieved relation categories.');
+        wrapper_assert(str_contains($history, 'supplied PMIDs/URLs'), 'Writing limits citations to returned original sources.');
+        wrapper_assert(str_contains($history, 'not calibrated biological strength or causality'), 'Graph relations are not treated as causal strength.');
+        return wrapper_turn([], $modelAnswer);
+    };
+    $service = new TekgDeepThinkService(wrapper_config([
+        wrapper_turn([wrapper_call('graph', 'graph_lookup', ['te' => ['L1HS'], 'target_types' => ['Disease', 'Function']])]),
+        wrapper_finish(), $writer,
+    ]));
+    wrapper_inject($service, ['Graph Plugin' => $plugin]);
+    $session = 'native-relations-' . bin2hex(random_bytes(8));
+    try {
+        $response = $service->handle(['question' => $question, 'language' => 'chinese', 'session_id' => $session]);
+        wrapper_assert(!$response['failed'] && $writerCalled, 'The actual writer completes the relationship answer: ' . ($response['failure_reason'] ?? 'writer was not invoked'));
+        wrapper_same($modelAnswer, $response['answer'], 'The workflow publishes the validated model synthesis.');
+        wrapper_same(['12345'], $response['integrity_report']['final']['cited_pmids'], 'The final citation belongs to retrieved evidence.');
+        wrapper_assert(!str_contains($response['answer'], 'Graph Plugin') && !str_contains($response['answer'], 'BIO_RELATION'), 'Public prose avoids internal graph vocabulary.');
+    } finally { wrapper_cleanup($session); }
+}
 
-$pluginResults = [
-    'Graph Plugin' => [
-        'status' => 'ok',
-        'results' => [
-            'rows' => [
-                [
-                    'source_name' => 'L1HS',
-                    'target_type' => 'Disease',
-                    'target_labels' => ['Disease'],
-                    'target_name' => 'Cancer',
-                    'relation_type' => 'BIO_RELATION',
-                    'relation_description' => 'L1HS mobilization in somatic tissues contributes to diseases such as cancer.',
-                ],
-                [
-                    'source_name' => 'L1HS',
-                    'target_type' => 'Function',
-                    'target_labels' => ['Function'],
-                    'target_name' => 'Insertional mutagenesis',
-                    'relation_type' => 'BIO_RELATION',
-                    'relation_description' => 'LINE-1 retrotransposition mediates insertional mutagenesis in cancer.',
-                ],
-            ],
-        ],
-    ],
-];
+$invalidCitation = new TekgDeepThinkService(wrapper_config([
+    wrapper_turn([wrapper_call('graph', 'graph_lookup', ['te' => ['L1HS']])]), wrapper_finish(),
+    wrapper_turn([], 'The relationship is reported (PMID 999999).'),
+    wrapper_turn([], 'The relationship is reported (PMID 999999).'),
+]));
+wrapper_inject($invalidCitation, ['Graph Plugin' => $plugin]);
+$response = $invalidCitation->handle(['question' => 'Summarize L1HS graph relationships.', 'language' => 'english']);
+wrapper_assert($response['failed'] && $response['answer'] === '', 'Invented citations are rejected after a bounded repair rather than returned.');
 
-$synthesisQuestion = '你整合一下L1HS的信息';
-$synthesisAnswer = call_deepthink_private(
-    $service,
-    'buildDeterministicAnswer',
-    [$synthesisQuestion, 'chinese', $analysis, $pluginResults, []]
-);
-assert_true($synthesisAnswer === null, 'Integration/synthesis relationship questions should use synthesis writing, not the full relationship list dump.');
+$unavailableWriter = new TekgDeepThinkService(wrapper_config([
+    wrapper_turn([wrapper_call('graph', 'graph_lookup', ['te' => ['L1HS']])]), wrapper_finish(),
+    ['ok' => false, 'error' => 'Fixture writer timeout.', 'error_type' => 'timeout'],
+]));
+wrapper_inject($unavailableWriter, ['Graph Plugin' => $plugin]);
+$response = $unavailableWriter->handle(['question' => 'List all L1HS graph relationships.', 'language' => 'english']);
+wrapper_assert($response['failed'] && $response['answer'] === '', 'Writer failure never activates the retired deterministic full-list answer.');
 
-$listQuestion = '列出 L1HS 的全部关系';
-$listAnswer = call_deepthink_private(
-    $service,
-    'buildDeterministicAnswer',
-    [$listQuestion, 'chinese', $analysis, $pluginResults, []]
-);
-assert_true(is_array($listAnswer), 'Explicit list-all relationship questions should keep the deterministic full relationship list.');
-assert_true(($listAnswer['path'] ?? '') === 'direct_full_relationship_list', 'Explicit list-all relationship questions keep the direct list path.');
-
-$writingContext = call_deepthink_private(
-    $service,
-    'extraWritingContext',
-    [$synthesisQuestion, $analysis, $pluginResults]
-);
-assert_true(isset($writingContext['relationship_groups']), 'Synthesis relationship questions should pass grouped graph context into the writer.');
-assert_true(isset($writingContext['relationship_groups']['Disease']), 'Grouped graph context should include disease relations.');
-assert_true(isset($writingContext['relationship_groups']['Function']), 'Grouped graph context should include function relations.');
-
-echo "DeepThink relationship synthesis tests passed.\n";
+echo "DeepThink native relationship synthesis tests passed.\n";

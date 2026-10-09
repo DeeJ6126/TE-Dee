@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+require_once __DIR__ . '/SequenceDelivery.php';
+
 final class UserFacingWritingContext
 {
     public static function sanitizeAnswer(string $answer): string
@@ -22,7 +24,8 @@ final class UserFacingWritingContext
             '/\bassociation[_-]not[_-]causality\b/iu' => 'reported associations do not by themselves establish causation',
             '/\bkeyword[_-]derived\b/iu' => 'inferred from record keywords',
             '/\bmetadata[_-]or[_-]abstract[_-]level\b/iu' => 'based on citation metadata or abstracts',
-            '/\bsupport[ -]strength\b/iu' => 'level of support',
+            '/\bsupport[_ -]strength\b/iu' => 'level of support',
+            '/\bsupport accounting\b/iu' => 'sources and limits',
             '/\bevidence dimensions?\b/iu' => 'types of available data',
             '/\bclaim counts?\b/iu' => 'number of findings',
             '/\bevidence counts?\b/iu' => 'number of records',
@@ -48,7 +51,7 @@ final class UserFacingWritingContext
             'registered_plugin_name' => '/\b(?:Entity Resolver|Graph(?: Analytics)? Plugin|Cypher Explorer Plugin|Expression Plugin|Genome Plugin|Sequence Plugin|Tree Plugin|Literature(?: Reading)? Plugin|Citation Resolver|Site Navigator Plugin)\b|图谱插件|序列插件|表达插件|文献插件/iu',
             'internal_identifier' => '/\b(?:claim|evidence|citation|route)(?:_id)?_[A-Za-z0-9_-]+\b/iu',
             'raw_quality_flag' => '/\b(?:association[_-]not[_-]causality|keyword[_-]derived|metadata[_-]or[_-]abstract[_-]level|raw quality flags?)\b/iu',
-            'support_accounting' => '/\bsupport[ -]strength\b|\b(?:claim|evidence)[ -](?:count|dimensions?)\b|\b\w+[ -](?:claims|evidence dimensions)\b|支持强度|(?:论断|证据)(?:数量|维度|计数)/iu',
+            'support_accounting' => '/\bsupport[_ -]strength\b|\bsupport accounting\b|\b(?:claim|evidence)[_ -](?:count|dimensions?)\b|支持强度|(?:论断|证据)(?:数量|维度|计数)/iu',
             'internal_audit_heading' => '/^#{1,6}\s*(?:Evidence Inventory|Citation Assessment|Question Scope|Final Answer|证据清单|引用评估|问题范围|最终答案)\s*$/imu',
             'internal_source_language' => '/\b(?:internal data|internal database|internal TE-Dee|internal pipeline)\b|\bTE-Dee\b.{0,40}\bpipeline\b|内部(?:数据|数据库|流程|管线)|TE-Dee.{0,20}(?:流程|管线)/iu',
             'internal_mapping_language' => '/\bclaim[ -]evidence map\b|\bevidence accounting\b|论断[ -]?证据映射|证据计数/iu',
@@ -68,12 +71,24 @@ final class UserFacingWritingContext
             static fn(array $fact): string => (string)($fact['statement'] ?? ''),
             array_filter((array)($writingContext['facts'] ?? []), 'is_array')
         ));
+        // Complete supplied abstracts are scientific source material too. Titles alone are not.
+        $abstractText = implode(' ', array_map(
+            static fn(array $reference): string => trim((string)($reference['abstract_text'] ?? '')),
+            array_filter((array)($writingContext['references'] ?? []), 'is_array')
+        ));
+        $factText .= ' ' . (preg_replace('/\bORF([12])p\b/iu', 'ORF$1', $abstractText) ?? $abstractText);
+        // Explicit text transformations may preserve features in the supplied text with attribution.
+        $factText .= ' ' . (string)($writingContext['conversation_material'] ?? '');
+        $factText = self::featureVocabulary($factText);
+        $featureAnswer = self::featureVocabulary($answer);
         foreach ([
             '/\bfull[- ]length (?:element|sequence)\b/iu',
-            '/\bORF\s*[12]\b/iu',
-            '/\b(?:5|3)(?:[\x{2032}\x{2019}\x{0027}-]|-prime)?\s*UTR\b/iu',
+            '/\bORF\s*1(?:p)?\b/iu',
+            '/\bORF\s*2(?:p)?\b/iu',
+            '/\b5(?:[\x{2032}\x{2019}\x{0027}-]|-prime)?\s*UTR\b/iu',
+            '/\b3(?:[\x{2032}\x{2019}\x{0027}-]|-prime)?\s*UTR\b/iu',
         ] as $unsupportedDetailPattern) {
-            if (preg_match($unsupportedDetailPattern, $answer) === 1
+            if (preg_match($unsupportedDetailPattern, $featureAnswer) === 1
                 && preg_match($unsupportedDetailPattern, $factText) !== 1
             ) {
                 $violations[] = 'unsupported_structure_expansion';
@@ -201,7 +216,7 @@ final class UserFacingWritingContext
             'references' => array_values($references),
             'limitations' => array_values($limitations),
             'factual_boundaries' => self::factualBoundaries($facts, $question),
-            'presentation_guidance' => self::presentationGuidance((string)($reportPlan['report_type'] ?? 'research_report')),
+            'presentation_guidance' => self::presentationGuidance((string)($reportPlan['report_type'] ?? 'research_report'), $question),
         ];
     }
 
@@ -274,12 +289,31 @@ final class UserFacingWritingContext
             'references' => array_values($references),
             'limitations' => array_values($plainLimitations),
             'factual_boundaries' => self::factualBoundaries($facts, $question),
-            'presentation_guidance' => self::presentationGuidance($reportType),
+            'presentation_guidance' => self::presentationGuidance($reportType, $question),
         ];
     }
 
-    private static function presentationGuidance(string $reportType): array
+    private static function featureVocabulary(string $text): string
     {
+        $text = str_replace(['′','’'], "'", $text);
+        $patterns = [
+            '/\bfirst\s+open reading frame\b|\bopen reading frame\s*(?:1|one)\b/iu' => 'ORF1',
+            '/\bsecond\s+open reading frame\b|\bopen reading frame\s*(?:2|two)\b/iu' => 'ORF2',
+            '/\b([53])(?:[\x{0027}]?[- ]*|[- ]prime[- ]*)(?:untranslated region|UTR)\b/iu' => '$1 UTR',
+            '/\bfull[- ]length\s+(?:human\s+)?(?:LINE[- ]?1|L1HS|L1Hs|L1)\b/iu' => 'full-length element',
+        ];
+        return preg_replace(array_keys($patterns), array_values($patterns), $text) ?? $text;
+    }
+
+    private static function presentationGuidance(string $reportType, string $question = ''): array
+    {
+        if (SequenceDelivery::requested($question)) {
+            return [
+                'For a sequence-delivery request, keep the explanation brief: record name, measured length, source, exact versus broad alias match, and any retrieval limitation.',
+                'When a stored sequence is available, tell the reader its FASTA follows. Do not generate nucleotide bases; the application delivers the retrieved sequence.',
+                'Do not introduce ORFs, UTRs, motifs, or full-length biological structure, including speculative discussions of their absence, unless the user also explicitly asks about them.',
+            ];
+        }
         if (trim($reportType) !== 'research_report') {
             return ['Answer directly and include only findings needed for the question.'];
         }
@@ -298,8 +332,12 @@ final class UserFacingWritingContext
         )));
         $boundaries = [
             'Use only the supplied facts. A reference title is not evidence for an additional scientific claim.',
+            'When a reference supplies abstract_text, you may use findings explicitly stated in that abstract with its citation. Abstracts are not full-text review, and metadata-only records cannot establish a mechanism.',
         ];
         $normalizedQuestion = strtolower($question);
+        if (SequenceDelivery::requested($question)) {
+            $boundaries[] = 'The application appends the exact stored sequence as FASTA after successful writing. When a supplied fact confirms the stored nucleotide sequence is available for exact FASTA delivery, explain its source and length, and say the FASTA follows. Do not say it is unavailable merely because nucleotide bases are omitted from this writing context. Do not generate nucleotide bases yourself.';
+        }
         if (in_array('Repbase-backed sequence data', $sources, true) || preg_match('/\bsequence\b|序列/iu', $normalizedQuestion) === 1) {
             $boundaries[] = 'For sequence, do not infer completeness, ORFs, UTRs, motifs, or structural features unless a supplied fact states them.';
         }
@@ -308,6 +346,15 @@ final class UserFacingWritingContext
         }
         if (in_array('TE-Dee expression data', $sources, true) || preg_match('/\bexpression\b|表达/iu', $normalizedQuestion) === 1) {
             $boundaries[] = 'Do not infer the assay platform, normalization method, absolute abundance, or biological mechanism from expression rankings.';
+        }
+        if (in_array('TE-Dee taxonomy', $sources, true) || preg_match('/classification|subfamily|taxonomy|分类|亚家族/iu', $question) === 1) {
+            $boundaries[] = 'Use the explicit taxonomy rank fields. Family, superfamily, subclade, leaf and subfamily are different fields. If subfamily is not recorded, say that it is unavailable and report the recorded family or lineage; never infer rank from a path position.';
+        }
+        if (in_array('GTEx TE-overlap associations', $sources, true)) {
+            $boundaries[] = 'Report eQTL slopes, nominal p values and tissues exactly as supplied. Do not infer LD independence, replication, statistical power, normalization units, calibrated biological effect size, or between-tissue comparability unless those facts are explicitly provided. A positive slope describes the recorded association direction, not causal TE regulation.';
+        }
+        if (in_array('TE-Dee graph data', $sources, true)) {
+            $boundaries[] = 'For rankings, state the supplied metric and its units. Counts of TE nodes, relations, or publications do not measure biological association strength, causality, or a validated effect size. Do not invent a strength score or treat a missing-value default as a measurement.';
         }
         return $boundaries;
     }
@@ -366,7 +413,18 @@ final class UserFacingWritingContext
             'journal' => trim((string)($citation['journal'] ?? '')),
             'authors' => trim((string)($citation['authors'] ?? '')),
             'url' => $url,
-        ], static fn(string $value): bool => $value !== '');
+            'abstract_text' => trim((string)($citation['abstract_text'] ?? (($citation['material_level'] ?? '') === 'graph_summary' ? '' : ($citation['abstract_summary'] ?? '')))),
+            'record_summary' => ($citation['material_level'] ?? '') === 'graph_summary' ? trim((string)($citation['abstract_summary'] ?? '')) : '',
+            'material_level' => trim((string)($citation['material_level'] ?? '')),
+            'entity_scopes' => array_values((array)($citation['entity_scopes'] ?? [])),
+        ], static fn(mixed $value): bool => is_array($value) ? $value !== [] : $value !== '');
+        if (isset($references[$key]) || isset($citations[$key])) {
+            require_once dirname(__DIR__) . '/orchestrator/CitationResolver.php';
+            $public = (new TekgAgentCitationResolver())->mergeCitationRecords(
+                (array)($references[$key] ?? $citations[$key]),
+                $public
+            );
+        }
         $citations[$key] = $public;
         $references[$key] = $public;
     }
@@ -392,6 +450,7 @@ final class UserFacingWritingContext
             'Graph Plugin', 'Graph Analytics Plugin', 'Cypher Explorer Plugin' => 'TE-Dee graph data',
             'Expression Plugin' => 'TE-Dee expression data',
             'Genome Plugin' => 'TE-Dee genome browser',
+            'eQTL Plugin' => 'GTEx TE-overlap associations',
             'Sequence Plugin' => 'Repbase-backed sequence data',
             'Tree Plugin' => 'TE-Dee taxonomy',
             'Literature Plugin', 'Literature Reading Plugin', 'Citation Resolver' => 'Literature evidence',

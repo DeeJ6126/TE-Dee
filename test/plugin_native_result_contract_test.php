@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/../api/agent/bootstrap.php';
 require_once __DIR__ . '/../api/agent/plugin_registry.php';
+tekg_agent_require_academic_agent_service();
+require_once __DIR__ . '/qa_loop_wrapper_test_support.php';
 
 function assert_true(bool $condition, string $message): void
 {
@@ -153,18 +155,37 @@ foreach (PluginResultContract::requiredFields() as $field) {
     assert_true(array_key_exists($field, $enforced), "contract failure includes {$field}");
 }
 
-$academicSource = (string)file_get_contents(__DIR__ . '/../api/agent/orchestrator/AcademicAgentService.php');
-$deepThinkSource = (string)file_get_contents(__DIR__ . '/../api/agent/orchestrator/traits/DeepThinkRoutingTrait.php');
-foreach (['AcademicAgentService' => $academicSource, 'DeepThinkRoutingTrait' => $deepThinkSource] as $runtime => $source) {
-    $runOffset = strpos($source, '$result = $plugin->run([');
-    $enforceOffset = strpos($source, '$result = PluginResultContract::enforce($pluginName, $result);');
-    $augmentOffset = strpos($source, '$result = $this->augmentPluginResult($pluginName, $result, $analysis, $planning);');
-    assert_true($runOffset !== false, "{$runtime} runs plugins");
-    assert_true($enforceOffset !== false, "{$runtime} enforces the native result contract");
-    assert_true($augmentOffset !== false, "{$runtime} augments plugin results");
-    assert_true($runOffset < $enforceOffset && $enforceOffset < $augmentOffset, "{$runtime} validates after run and before augmentation");
+final class MalformedNativeFixturePlugin implements TekgAgentPluginInterface
+{
+    public int $runCount = 0;
+    public function __construct(private readonly array $invalidResult) {}
+    public function getName(): string { return 'Graph Plugin'; }
+    public function run(array $context): array { $this->runCount++; return $this->invalidResult; }
 }
-assert_same(2, substr_count($academicSource, 'PluginResultContract::enforce('), 'Agent validates business plugins and Citation Resolver');
-assert_same(1, substr_count($deepThinkSource, 'PluginResultContract::enforce('), 'DeepThink validates its shared plugin execution path once');
+$malformedPlugin = new MalformedNativeFixturePlugin($missing);
+$service = new TekgAcademicAgentService(wrapper_config([
+    wrapper_turn([wrapper_call('bad-native', 'graph_lookup', ['te' => ['L1HS']])]),
+    wrapper_turn([wrapper_call('valid-native', 'literature_search', ['te' => ['L1HS'], 'disease' => 'cancer'])]), wrapper_finish(),
+    wrapper_turn([], 'The supplied record reports an observation of L1HS in cancer (PMID 12345).'),
+]));
+wrapper_inject($service, ['Graph Plugin' => $malformedPlugin, 'Literature Plugin' => new WrapperFixturePlugin('Literature Plugin')]);
+$session = 'plugin-native-contract-' . bin2hex(random_bytes(6));
+$events = [];
+$response = $service->stream(['question' => 'Find local L1HS cancer evidence.', 'session_id' => $session],
+    static function (array $event) use (&$events): void { $events[] = $event; });
+assert_same(false, $response['failed'], 'A malformed native result can be followed by a valid independent evidence lookup');
+assert_same(1, $malformedPlugin->runCount, 'The actual registry invokes the injected native plugin');
+$graphResult = array_values(array_filter($response['plugin_calls'], static fn(array $result): bool => $result['plugin_name'] === 'Graph Plugin'))[0] ?? [];
+assert_same('error', $graphResult['status'] ?? null, 'The runtime registry enforces the native contract before storing the result');
+assert_same([], $graphResult['evidence_items'] ?? null, 'The invalid native result cannot enter stored scientific evidence');
+assert_true(str_contains($graphResult['errors'][0] ?? '', 'Plugin result contract violation'), 'The real runtime retains the contract failure explanation');
+foreach ($response['evidence_package']['claims'] as $claim) {
+    assert_same('Literature Plugin', $claim['source_plugin'], 'Only the valid independent source contributes package claims');
+}
+assert_true(!in_array('error', array_column($events, 'type'), true), 'A recoverable plugin contract failure does not trigger a terminal UI error');
+$toolEvent = array_values(array_filter($events, static fn(array $event): bool => $event['type'] === 'tool_result' && $event['plugin_name'] === 'Graph Plugin'))[0] ?? [];
+assert_same('error', $toolEvent['payload']['status'] ?? null, 'The inspector exposes the original native-contract failure state');
+wrapper_terminal($events, false);
+wrapper_cleanup($session);
 
 echo "Plugin native result contract tests passed.\n";

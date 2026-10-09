@@ -419,15 +419,26 @@ function tekg_agent_dedupe_citations(array $citations): array
 {
     $seen = [];
     $deduped = [];
+    $resolver = null;
     foreach ($citations as $citation) {
         if (!is_array($citation)) {
             continue;
         }
         $key = tekg_agent_citation_key($citation);
-        if ($key === '' || isset($seen[$key])) {
+        if ($key === '') {
             continue;
         }
-        $seen[$key] = true;
+        if (isset($seen[$key])) {
+            // Keep this helper's PMID/DOI/URL/title identity contract, while
+            // sharing material preservation with the Citation Resolver. This
+            // file is also loaded directly by standalone evidence contracts.
+            require_once dirname(__DIR__) . '/orchestrator/CitationResolver.php';
+            $resolver ??= new TekgAgentCitationResolver();
+            $index = $seen[$key];
+            $deduped[$index] = $resolver->mergeCitationRecords($deduped[$index], tekg_agent_json_safe($citation));
+            continue;
+        }
+        $seen[$key] = count($deduped);
         $deduped[] = tekg_agent_json_safe($citation);
     }
     return $deduped;

@@ -26,18 +26,44 @@ final class TekgAgentGraphPlugin implements TekgAgentPluginInterface
         $diseaseEntities = array_values(array_filter($entities, static fn(array $item): bool => ($item['type'] ?? '') === 'Disease'));
 
         try {
-            if (count($teEntities) >= 2) {
+            if ($teEntities !== [] && $diseaseEntities !== []) {
+                $rows = [];
+                $coverage = [];
+                foreach ($this->diseasePairRequests($teEntities, $diseaseEntities) as $request) {
+                    $pairRows = $this->queryDiseasePair($request['te'], $request['disease']);
+                    $requestedTe = (string)($request['te']['canonical_label'] ?? $request['te']['label'] ?? '');
+                    $requestedDisease = (string)($request['disease']['canonical_label'] ?? $request['disease']['label'] ?? '');
+                    foreach ($pairRows as &$row) {
+                        $row['requested_te'] = $requestedTe;
+                        $row['requested_disease'] = $requestedDisease;
+                    }
+                    unset($row);
+                    $rows = array_merge($rows, $pairRows);
+                    $coverage[] = [
+                        'te' => $requestedTe,
+                        'disease' => $requestedDisease,
+                        'returned_relations' => count($pairRows),
+                        'row_limit' => 20,
+                        'status' => $pairRows === [] ? 'empty' : 'ok',
+                        'matched_te_aliases' => array_values(array_unique(array_column($pairRows, 'matched_alias'))),
+                        'matched_disease_aliases' => array_values(array_unique(array_column($pairRows, 'matched_disease_alias'))),
+                        'broad_alias_used' => count(array_filter($pairRows, static fn(array $row): bool => ($row['alias_mode'] ?? '') === 'broad')) > 0,
+                        'boundary' => 'Returned rows are bounded graph retrieval, not biological evidence strength or proof of absence.',
+                    ];
+                }
+                return $this->finish($started, $intent, 'Queried each requested TE-disease pair in the local graph.', $rows, [], $coverage);
+            }
+
+            if (count($teEntities) >= 2 && $intent !== 'comparison' && !($analysis['compare_mode'] ?? false)) {
                 $rows = $this->queryTePairRelationship($teEntities[0], $teEntities[1]);
                 return $this->finish($started, $intent, 'Compared two TE entities in the local graph.', $rows);
             }
 
-            if ($teEntities !== [] && $diseaseEntities !== []) {
-                $rows = $this->queryDiseasePair($teEntities[0], $diseaseEntities[0]);
-                return $this->finish($started, $intent, 'Queried a TE-disease evidence pair in the local graph.', $rows);
-            }
-
             if ($teEntities !== []) {
-                $rows = $this->queryTypedRelations($teEntities[0], $this->normalizeTargetTypes($targetTypes, $intent));
+                $rows = [];
+                foreach ($teEntities as $entity) {
+                    $rows = array_merge($rows, $this->queryTypedRelations($entity, $this->normalizeTargetTypes($targetTypes, $intent)));
+                }
                 return $this->finish($started, $intent, 'Collected structured relations from the local graph.', $rows);
             }
 
@@ -50,6 +76,17 @@ final class TekgAgentGraphPlugin implements TekgAgentPluginInterface
         } catch (Throwable $error) {
             return $this->finish($started, $intent, 'Graph query failed.', [], [$error->getMessage()]);
         }
+    }
+
+    private function diseasePairRequests(array $teEntities, array $diseaseEntities): array
+    {
+        $requests = [];
+        foreach ($teEntities as $te) {
+            foreach ($diseaseEntities as $disease) {
+                $requests[] = ['te' => $te, 'disease' => $disease];
+            }
+        }
+        return $requests;
     }
 
     private function queryTypedRelations(array $entity, array $targetTypes): array
@@ -208,7 +245,7 @@ final class TekgAgentGraphPlugin implements TekgAgentPluginInterface
         return $this->neo4j->run($cypher);
     }
 
-    private function finish(float $started, string $intent, string $querySummary, array $rows, array $errors = []): array
+    private function finish(float $started, string $intent, string $querySummary, array $rows, array $errors = [], array $coverage = []): array
     {
         $grouped = [];
         $evidenceItems = [];
@@ -281,6 +318,7 @@ final class TekgAgentGraphPlugin implements TekgAgentPluginInterface
             'results' => [
                 'rows' => $rows,
                 'by_type' => $grouped,
+                'query_coverage' => $coverage,
                 'graph_elements' => $graphElements,
             ],
             'display_label' => $displayLabel,
@@ -290,7 +328,7 @@ final class TekgAgentGraphPlugin implements TekgAgentPluginInterface
                 'preview_items' => $previewItems,
                 'evidence_items' => $evidenceItems,
                 'citations' => $citations,
-                'raw_preview' => ['rows' => $rows, 'by_type' => $grouped, 'graph_elements' => $graphElements],
+                'raw_preview' => ['rows' => $rows, 'by_type' => $grouped, 'query_coverage' => $coverage, 'graph_elements' => $graphElements],
                 'result_message' => $resultMessage,
             ],
             'result_counts' => $resultCounts,

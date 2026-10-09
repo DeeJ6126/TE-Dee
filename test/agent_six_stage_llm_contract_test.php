@@ -280,7 +280,7 @@ $runnerPayload = ['question' => 'How is LINE-1 related to cancer?', 'language' =
 $productionFixtureResult = $productionFixtureClient->runUnderstandingNode('fake-model', 'en', $runnerPayload);
 assert_same(false, $productionFixtureResult->ok, 'production config does not consume six-stage fixtures without explicit test mode');
 assert_true(
-    (bool)preg_grep('/stage=understanding.*provider=deepseek.*model=fake-model/', $productionFixtureResult->errors),
+    (bool)preg_grep('/stage=understanding.*provider=deepseek.*model=deepseek-flash/', $productionFixtureResult->errors),
     'production fixture guard failure includes stage provider and model'
 );
 
@@ -334,7 +334,7 @@ $zhClient = new TekgAgentLlmClient([
     'llm_relay_url' => 'http://fixture-relay.local/chat',
     'request_id' => 'six-stage-zh-contract',
 ]);
-$zhResult = $zhClient->runUnderstandingNode('deepseek-v4-flash', 'chinese', [
+$zhResult = $zhClient->runUnderstandingNode('deepseek-flash', 'chinese', [
     'question' => '请解释 LINE-1 与癌症之间的证据。',
     'language' => 'chinese',
 ]);
@@ -343,6 +343,8 @@ $capturedRequest = (array)($GLOBALS['six_stage_contract_http_request'] ?? []);
 $capturedPayload = json_decode((string)($capturedRequest['body'] ?? ''), true);
 assert_true(is_array($capturedPayload), 'zh runner sends JSON payload to relay');
 assert_same(20, $capturedPayload['timeout'] ?? null, 'relay payload includes effective timeout');
+assert_same('deepseek-flash', $capturedPayload['model'] ?? null, 'structured calls use the trusted shared Flash choice');
+assert_same('json_object', $capturedPayload['response_format']['type'] ?? null, 'structured calls request JSON mode rather than permissive prose');
 $userPrompt = (string)($capturedPayload['messages'][1]['content'] ?? '');
 assert_contains_string('只返回 JSON。', $userPrompt, 'zh runner uses Chinese six-stage prompt');
 assert_contains_string('understanding_result.v1', $userPrompt, 'zh runner includes expected schema prompt');
@@ -360,7 +362,7 @@ foreach ([
         ],
     ], JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
     unset($GLOBALS['six_stage_contract_http_request']);
-    $catalogResult = $zhClient->{$catalogCase['method']}('deepseek-v4-flash', 'en', [
+    $catalogResult = $zhClient->{$catalogCase['method']}('deepseek-flash', 'en', [
         'question' => 'Collect LINE-1 evidence.',
         'plugin_directory' => $catalogSentinel,
     ]);
@@ -384,7 +386,7 @@ $GLOBALS['six_stage_contract_http_response'] = json_encode([
     ],
 ], JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
 unset($GLOBALS['six_stage_contract_http_request']);
-$sufficiency = $zhClient->assessSufficiency('deepseek-v4-flash', [
+$sufficiency = $zhClient->assessSufficiency('deepseek-flash', [
     'question' => 'Is the LINE-1 evidence enough?',
     'plugin_directory' => $catalogSentinel,
 ]);
@@ -415,7 +417,7 @@ $retryClient = new TekgAgentLlmClient([
     'llm_relay_url' => 'http://fixture-relay.local/chat',
     'request_id' => 'six-stage-empty-content-retry',
 ]);
-$retryResult = $retryClient->runExecutingReviewNode('deepseek-v4-flash', 'en', [
+$retryResult = $retryClient->runExecutingReviewNode('deepseek-flash', 'en', [
     'question' => 'Review the plugin result.',
     'plugin_name' => 'Literature Reading Plugin',
     'plugin_result' => ['status' => 'ok'],
@@ -444,7 +446,7 @@ $GLOBALS['six_stage_contract_http_response_queue'] = [
 $relayErrorClient = new TekgAgentLlmClient([
     'llm_relay_url' => 'http://fixture-relay.local/chat?api_key=sk-secret-url-key',
 ]);
-$relayErrorResult = $relayErrorClient->runUnderstandingNode('deepseek-v4-flash', 'en', [
+$relayErrorResult = $relayErrorClient->runUnderstandingNode('deepseek-flash', 'en', [
     'question' => 'How is LINE-1 related to cancer?',
     'language' => 'english',
 ]);

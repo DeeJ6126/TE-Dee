@@ -70,18 +70,19 @@ assert_contains('Do not expose internal workflow vocabulary in the final answer.
 assert_contains('不要在最终回答中暴露内部工作流词汇。', (string)$agentNodePrompts['writing']['zh'], 'Chinese WritingDecision follows the shared presentation policy');
 assert_contains('不要在最终回答中暴露内部工作流词汇。', (string)$dtNodePrompts['writing']['zh'], 'Chinese DeepThink Writing follows the shared presentation policy');
 
-$deepThinkService = file_get_contents($root . '/api/agent/orchestrator/DeepThinkService.php');
-assert_true(is_string($deepThinkService), 'DeepThink service source is readable');
-assert_contains('UserFacingWritingContext::fromEvidenceItems(', $deepThinkService, 'DeepThink builds a user-facing evidence projection');
-assert_contains("'writing_context' => \$writingContext", $deepThinkService, 'DeepThink final writing receives only the projected evidence context');
-assert_contains('UserFacingWritingContext::auditAnswer($answer, $question, $writingContext)', $deepThinkService, 'DeepThink checks the generated answer for internal presentation leakage');
-assert_not_contains("'plugin_results' => \$this->compressedPluginResults(\$pluginResults),\n                'evidence' => \$evidence,", $deepThinkService, 'DeepThink final writing no longer receives raw plugin and evidence payloads together');
-
-$agentService = file_get_contents($root . '/api/agent/orchestrator/AcademicAgentService.php');
-assert_true(is_string($agentService), 'Agent service source is readable');
-assert_contains('UserFacingWritingContext::auditAnswer($draftReport, $question, $userFacingWritingContext)', $agentService, 'Agent audits the draft as user-facing prose');
-assert_contains('$polisherEnabled || $presentationRepairRequired', $agentService, 'Agent repairs presentation leakage even when routine polishing is disabled');
-assert_contains('UserFacingWritingContext::auditAnswer($polishedReport, $question, $userFacingWritingContext)', $agentService, 'Agent audits repaired prose before returning it');
+$sharedLoop = file_get_contents($root . '/api/agent/orchestrator/QaResearchLoop.php');
+assert_true(is_string($sharedLoop), 'Shared native workflow source is readable');
+assert_contains('UserFacingWritingContext::fromInternal(', $sharedLoop, 'Both modes project original retrieved material into a writing context');
+assert_contains('UserFacingWritingContext::auditAnswer($answer, $this->question, $context)', $sharedLoop, 'Both modes audit generated and repaired prose');
+assert_contains("\$this->request(\$tools, 'none', 'qa_writing')", $sharedLoop, 'Final model turn receives a continuous history with tool calls disabled');
+assert_contains("\$this->request(\$tools, 'none', 'qa_writing_repair')", $sharedLoop, 'Presentation repair runs on the same model history');
+assert_contains('cite only supplied PMIDs/URLs', $sharedLoop, 'Final writing limits references to original retrieved sources');
+assert_contains('private reasoning_content', $sharedLoop, 'Private reasoning is excluded from final prose');
+foreach (['DeepThinkService.php', 'AcademicAgentService.php'] as $serviceFile) {
+    $service = file_get_contents($root . '/api/agent/orchestrator/' . $serviceFile);
+    assert_true(is_string($service), 'Service wrapper is readable');
+    assert_contains('TekgAgentQaResearchLoop', $service, 'Both services execute the shared native writing constraints');
+}
 
 $reportPlan = ReportPlan::fromEvidenceWalk(
     'Generate a research report for L1HS including sequence, genomic location, expression, disease links, and literature evidence.',

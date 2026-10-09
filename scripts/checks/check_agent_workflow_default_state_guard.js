@@ -46,6 +46,7 @@ const WORKFLOW_FORWARD_EDGES = [
   'Executing->Integrating',
   'Integrating->Writing',
 ];
+const WORKFLOW_BACK_EDGE = 'Executing->Collecting';
 const WORKFLOW_STAGE_INDEX = WORKFLOW_STAGES.reduce((map, stage, index) => {
   map[stage.id] = index;
   return map;
@@ -136,6 +137,56 @@ assert(
   appliedStates.length === 1,
   'A real active workflow_state should be rendered exactly once after the default state is ignored.'
 );
+
+const executionState = {
+  current_stage: 'Executing',
+  stage_statuses: {
+    ...pendingStatuses,
+    Understanding: 'done',
+    Planning: 'done',
+    Collecting: 'done',
+    Executing: 'active',
+  },
+  traversed_edges: ['Understanding->Planning', 'Planning->Collecting', 'Collecting->Executing'],
+  complete: false,
+};
+setWorkflowState(turn, executionState);
+const collectionState = {
+  ...executionState,
+  current_stage: 'Collecting',
+  stage_statuses: { ...executionState.stage_statuses, Collecting: 'active', Executing: 'pending' },
+};
+setWorkflowState(turn, collectionState);
+assert(turn.workflow.current_stage === 'Executing', 'A stale Collecting state without a back edge must not regress Executing.');
+
+const returnedCollectionState = {
+  ...collectionState,
+  traversed_edges: [...executionState.traversed_edges, 'Executing->Collecting'],
+};
+setWorkflowState(turn, returnedCollectionState);
+assert(turn.workflow.current_stage === 'Collecting', 'An explicit Executing->Collecting transition must resume collection.');
+assert(turn.workflow.stage_statuses.Collecting === 'active', 'Resumed collection must show Collecting active.');
+assert(turn.workflow.stage_statuses.Executing === 'pending', 'Resumed collection must retain the server Executing status.');
+
+setWorkflowState(turn, { ...executionState, traversed_edges: returnedCollectionState.traversed_edges });
+setWorkflowState(turn, returnedCollectionState);
+assert(turn.workflow.current_stage === 'Collecting', 'A second explicitly reported evidence cycle must also be accepted.');
+setWorkflowState(turn, { ...executionState, traversed_edges: returnedCollectionState.traversed_edges });
+setWorkflowState(turn, {
+  ...returnedCollectionState,
+  current_stage: 'Planning',
+  stage_statuses: { ...pendingStatuses, Understanding: 'done', Planning: 'active' },
+});
+assert(turn.workflow.current_stage === 'Executing', 'An old Planning state must remain rejected even when a back edge was previously traversed.');
+
+setWorkflowState(turn, {
+  ...executionState,
+  current_stage: 'Integrating',
+  stage_statuses: { ...executionState.stage_statuses, Executing: 'done', Integrating: 'active' },
+  traversed_edges: [...returnedCollectionState.traversed_edges, 'Executing->Integrating'],
+});
+setWorkflowState(turn, returnedCollectionState);
+assert(turn.workflow.current_stage === 'Integrating', 'A stale collection state must not rewind integration.');
 
 setWorkflowState(turn, {
   current_stage: 'Writing',

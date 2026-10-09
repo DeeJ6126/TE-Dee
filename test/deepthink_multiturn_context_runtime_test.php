@@ -4,6 +4,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/../api/agent/bootstrap.php';
 require_once __DIR__ . '/../api/agent/plugin_registry.php';
 tekg_agent_require_deepthink_service();
+require_once __DIR__ . '/qa_loop_wrapper_test_support.php';
 
 function dt_context_assert_true(bool $condition, string $message): void
 {
@@ -72,59 +73,12 @@ final class DeepThinkContextFixturePlugin implements TekgAgentPluginInterface
 
 function dt_context_config(mixed $contextFixture): array
 {
-    return [
-        'agent_test_mode' => true,
-        'agent_json_fixtures' => ['conversation_context' => $contextFixture],
-        'dt_node_fixtures' => [
-            'understanding' => [
-                'schema_version' => 'dt_understanding.v1',
-                'stage' => 'understanding',
-                'question_summary' => '查询 AluY 的基因组位置。',
-                'answer_language' => 'zh',
-                'intent' => 'genome',
-                'entities' => [['name' => 'AluY', 'canonical_label' => 'AluY', 'type' => 'TE']],
-                'answer_goal' => '总结本地基因组位置证据。',
-                'evidence_requirements' => ['genome'],
-                'warnings' => [],
-            ],
-            'planning' => [
-                'schema_version' => 'dt_planning.v1',
-                'stage' => 'planning',
-                'business_plugins' => ['Genome Plugin'],
-                'execution_goal' => '检索基因组位置证据。',
-                'citation_resolver_allowed' => false,
-                'rationale' => '基因组问题需要 Genome Plugin。',
-            ],
-            'executing' => [
-                [
-                    'schema_version' => 'dt_executing.v1',
-                    'stage' => 'executing',
-                    'done' => false,
-                    'next_plugin' => 'Genome Plugin',
-                    'reason' => '检索基因组位置。',
-                    'evidence_summary' => [],
-                    'gaps' => ['genome'],
-                ],
-                [
-                    'schema_version' => 'dt_executing.v1',
-                    'stage' => 'executing',
-                    'done' => true,
-                    'next_plugin' => null,
-                    'reason' => '基因组证据已足够。',
-                    'evidence_summary' => ['存在代表性位置记录。'],
-                    'gaps' => [],
-                ],
-            ],
-            'writing' => [
-                'schema_version' => 'dt_writing.v1',
-                'stage' => 'writing',
-                'answer_markdown' => '本地基因组数据中有 AluY 的代表性位置记录。',
-                'limitations' => [],
-            ],
-        ],
-    ];
+    return wrapper_config([
+        wrapper_turn([wrapper_call('genome', 'genome_lookup', ['te' => ['AluY']])]),
+        wrapper_finish(),
+        wrapper_turn([], '本地基因组数据中有 AluY 的代表性位置记录。'),
+    ], ['agent_json_fixtures' => ['conversation_context' => $contextFixture]]);
 }
-
 function dt_context_service(mixed $contextFixture): array
 {
     $service = new TekgDeepThinkService(dt_context_config($contextFixture));
@@ -175,6 +129,7 @@ dt_context_assert_true(str_contains((string)($ambiguous['answer'] ?? ''), 'L1HS'
 dt_context_assert_true(str_contains((string)($ambiguous['answer'] ?? ''), 'SVA_F'), 'Chinese clarification names SVA_F');
 dt_context_assert_same(0, $ambiguousEntity->runCount, 'Ambiguous DeepThink skips Entity Resolver');
 dt_context_assert_same(0, $ambiguousGenome->runCount, 'Ambiguous DeepThink skips Genome Plugin');
+dt_context_assert_same(1, count(tekg_agent_load_session_memory($ambiguousSession)['recent_turns']), 'A clarification does not append a successful DeepThink turn');
 dt_context_cleanup($ambiguousSession);
 
 $sessionId = 'deepthink-multiturn-success-test';
@@ -207,8 +162,19 @@ dt_context_assert_true(str_contains((string)($lastGenomeContext['question'] ?? '
 $savedMemory = tekg_agent_load_session_memory($sessionId);
 dt_context_assert_same(2, count($savedMemory['recent_turns'] ?? []), 'Both successful DeepThink turns are recorded');
 dt_context_assert_same('那它的基因组位置呢？', $savedMemory['recent_turns'][1]['original_question'] ?? null, 'Stored DeepThink turn preserves original question');
+$beforeFailure = tekg_agent_load_session_memory($sessionId);
+$failureConfig = dt_context_config([
+    'status' => 'resolved_follow_up', 'effective_question' => '查询 AluY 的基因组位置。',
+    'inherited_entities' => ['AluY'], 'reason' => '追问指向唯一的活跃 TE。',
+]);
+$failureConfig['qa_native_fixtures'] = [['ok' => false, 'error' => 'Fixture model unavailable.', 'error_type' => 'transport_error']];
+$failureService = new TekgDeepThinkService($failureConfig);
+wrapper_inject($failureService, ['Entity Resolver' => $entityPlugin, 'Genome Plugin' => $genomePlugin]);
+$failure = $failureService->handle(['question' => '那它的基因组位置呢？', 'request_id' => 'deepthink-multiturn-failed-request', 'session_id' => $sessionId]);
+dt_context_assert_same(true, $failure['failed'] ?? null, 'A failed DeepThink follow-up is visibly failed');
+dt_context_assert_same('', $failure['answer'] ?? null, 'A failed follow-up does not invent genomic evidence');
+dt_context_assert_same($beforeFailure['recent_turns'], tekg_agent_load_session_memory($sessionId)['recent_turns'], 'A failed DeepThink follow-up cannot alter successful conversation memory');
 dt_context_cleanup($sessionId);
-
 $isolatedSession = 'deepthink-multiturn-isolation-test';
 dt_context_cleanup($isolatedSession);
 [$isolatedService, $isolatedEntity, $isolatedGenome] = dt_context_service(null);

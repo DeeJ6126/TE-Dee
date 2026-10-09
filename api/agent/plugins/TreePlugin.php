@@ -46,27 +46,42 @@ final class TekgAgentTreePlugin implements TekgAgentPluginInterface
         }
 
         foreach ($teEntities as $entity) {
-            $path = $this->tePath((string)$entity['label']);
-            if ($path !== []) {
-                $results[] = ['kind' => 'te_path', 'label' => (string)$entity['label'], 'path' => $path];
+            $classification = $this->teClassification((string)$entity['label']);
+            if ($classification !== null) {
+                $path = $classification['path'];
+                $rankText = implode('; ', array_map(
+                    static fn(string $rank, string $label): string => $rank . ': ' . $label,
+                    array_keys($classification['ranks']),
+                    array_values($classification['ranks'])
+                ));
+                $missingText = $classification['unrecorded_ranks'] === [] ? ''
+                    : ' The taxonomy record does not provide ' . implode(', ', $classification['unrecorded_ranks']) . '; do not infer these ranks from path position or the leaf name.';
+                $claim = (string)$entity['label'] . ' recorded taxonomy ranks: ' . $rankText . '.' . $missingText;
+                $record = ['kind' => 'te_path', 'label' => (string)$entity['label']] + $classification;
+                $results[] = $record;
                 $evidence[] = tekg_agent_make_evidence_item(
                     $this->getName(),
-                    (string)$entity['label'] . ' classification path: ' . implode(' -> ', $path) . '.',
+                    $claim,
                     (string)$entity['label'],
                     'medium',
-                    ['kind' => 'te_path', 'label' => (string)$entity['label'], 'path' => $path],
-                    ['title' => (string)$entity['label'], 'meta' => implode(' -> ', $path)],
+                    $record,
+                    ['title' => (string)$entity['label'], 'meta' => $rankText, 'body' => $claim],
                     [
                         'evidence_type' => 'classification_context',
                         'coverage_dimension' => 'classification_context',
                         'subject' => (string)$entity['label'],
                         'object' => end($path) ?: null,
-                        'provenance' => ['source' => 'taxonomy_runtime'],
+                        'provenance' => [
+                            'source' => 'taxonomy_runtime',
+                            'taxonomy_source' => $classification['taxonomy_source'],
+                            'taxonomy_status' => $classification['taxonomy_status'],
+                        ],
+                        'quality_flags' => ['recorded_ranks_only'],
                     ]
                 );
                 $previewItems[] = [
                     'title' => (string)$entity['label'],
-                    'meta' => implode(' -> ', $path),
+                    'meta' => $rankText,
                 ];
             }
         }
@@ -140,11 +155,31 @@ final class TekgAgentTreePlugin implements TekgAgentPluginInterface
 
     private function tePath(string $name): array
     {
+        return $this->teClassification($name)['path'] ?? [];
+    }
+
+    private function teClassification(string $name): ?array
+    {
         $item = tekg_taxonomy_find_item($name, $this->loadTaxonomyItems());
         if (!is_array($item)) {
-            return [];
+            return null;
         }
-        return array_values(array_filter(array_merge(['TE'], (array)($item['path_labels'] ?? []))));
+        $ranks = [];
+        foreach (['class', 'subclass', 'order', 'superfamily', 'family', 'subclade', 'subfamily'] as $rank) {
+            $label = trim((string)($item['path'][$rank] ?? ''));
+            if ($label !== '') {
+                $ranks[$rank] = $label;
+            }
+        }
+        return [
+            'path' => array_values(array_filter(array_merge(['TE'], (array)($item['path_labels'] ?? [])))),
+            'ranks' => $ranks,
+            'unrecorded_ranks' => array_values(array_diff(['class', 'order', 'superfamily', 'family', 'subfamily'], array_keys($ranks))),
+            'leaf_name' => (string)($item['name'] ?? $name),
+            'leaf_rank' => null,
+            'taxonomy_source' => (string)($item['taxonomy_source'] ?? 'none'),
+            'taxonomy_status' => (string)($item['taxonomy_status'] ?? 'unresolved'),
+        ];
     }
 
     private function diseaseTopClass(string $name): ?string

@@ -202,4 +202,23 @@ assert_not_contains('sequences.', $citationCleanupJson, 'malformed one-word cita
 assert_contains('Human L1HS complete L1 consensus.', $citationCleanupJson, 'usable citation titles are cleaned and retained');
 assert_contains('Repbase curators', $citationCleanupJson, 'available citation authors are retained rather than inviting invention');
 
+$abstractContext = UserFacingWritingContext::fromEvidenceItems(
+    'What papers support LINE-1 in a disease?',
+    [],
+    [['pmid'=>'12345','abstract_text'=>str_repeat('Experimental observation. ', 20).'LINE-1 ORF1p was experimentally measured.','material_level'=>'abstract','entity_scopes'=>['LINE-1']]]
+);
+assert_contains('ORF1p was experimentally measured.', $abstractContext['references'][0]['abstract_text'] ?? '', 'complete abstract survives user-facing projection');
+assert_true(UserFacingWritingContext::auditAnswer('The paper measured LINE-1 ORF1 protein (PMID 12345).','What papers support LINE-1 in a disease?',$abstractContext)['ok'], 'an ORF supported by supplied abstract is not rejected as unsupported');
+assert_true(!UserFacingWritingContext::auditAnswer('The paper measured LINE-1 ORF2 protein.','What papers support LINE-1 in a disease?',$abstractContext)['ok'], 'an ORF missing from both facts and abstracts remains rejected');
+$duplicateContext = UserFacingWritingContext::fromEvidenceItems('Summarize the available papers.', [], [
+    ['pmid'=>'12345','title'=>'Study','abstract_text'=>'The complete supplied abstract must survive.','material_level'=>'abstract','entity_scopes'=>['L1HS']],
+    ['pmid'=>'12345','title'=>'Study','abstract_text'=>'','material_level'=>'metadata'],
+]);
+assert_contains('must survive.', $duplicateContext['references'][0]['abstract_text'] ?? '', 'later metadata cannot replace full scientific source text in writing projection');
+assert_true(($duplicateContext['references'][0]['material_level'] ?? '') === 'abstract', 'writing projection retains actual material level after duplicates');
+$normalScientific = 'The supplied papers support specific claims, but do not establish causal claims. Some supported claims remain preliminary.';
+assert_true(UserFacingWritingContext::auditAnswer($normalScientific)['ok'], 'ordinary scientific claims are not internal bookkeeping');
+$orfVocabulary = ['facts'=>[], 'references'=>[['abstract_text'=>'The protein encoded by the first open reading frame of human L1Hs was measured.']]];
+assert_true(UserFacingWritingContext::auditAnswer('The ORF1-encoded protein was measured.','Explain the supplied study.',$orfVocabulary)['ok'], 'first open reading frame and ORF1 name the same supplied feature');
+assert_true(!UserFacingWritingContext::auditAnswer('The ORF2-encoded protein was measured.','Explain the supplied study.',$orfVocabulary)['ok'], 'vocabulary normalization cannot invent the second reading frame');
 echo "User-facing writing context tests passed.\n";

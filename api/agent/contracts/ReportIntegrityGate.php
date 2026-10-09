@@ -46,6 +46,12 @@ final class ReportIntegrityGate
         $routeIds = self::extractIds((array)($evidencePackage['route_map'] ?? []));
         $allowedPmids = self::allowedPmids($evidencePackage);
         $allowedUrls = self::allowedUrls($evidencePackage);
+        // These identities are supplied prose references, admitted only by the server's text-task path.
+        foreach ((array)($evidencePackage['conversation_material_references'] ?? []) as $reference) {
+            if (!is_array($reference)) { continue; }
+            if (preg_match('/^\d{1,12}$/D', (string)($reference['pmid'] ?? ''))) { $allowedPmids[(string)$reference['pmid']] = true; }
+            self::addUrl($allowedUrls, $reference['url'] ?? null);
+        }
 
         foreach ($citedPmids as $pmid) {
             if (!isset($allowedPmids[$pmid])) {

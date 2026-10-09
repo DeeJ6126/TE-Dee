@@ -5,12 +5,23 @@ Compact routing reference for LLM planners. Plugin names below are exact default
 ## Invocation Rules
 
 - Call plugins only when needed to answer the user or close an explicit evidence gap. Do not fan out speculatively or call many plugins "just in case".
-- Call each plugin at most once per run.
+- The native runtime may call the same tool again with different explicit scopes, focus or page. Exact successful queries are reused; failed requests have bounded retries. Multi-entity Graph/Literature calls cover each selected entity within their budget; eQTL calls require one TE per invocation.
 - `Entity Resolver` is bootstrap-only. Do not select it as a business plugin.
-- `Citation Resolver` is post-processing-only. Run it only after upstream plugins have produced citations.
+- `Citation Resolver` is post-processing-only. In the native runtime citation material is merged by shared code after upstream tools produce it, without a separate model node.
 - A plugin result is bounded evidence, not a license to infer unsupported mechanisms, causality, negatives, or completeness.
 - `support_strength` measures scientific claim support. Routing confidence, query success, rank, and citation count are diagnostics rather than scientific evidence.
 - Native results use `ok`, `partial`, `empty`, or `error`; `partial` retains usable data together with visible limitations.
+
+## Native Adapters And Material Access
+
+`QaToolRegistry` exposes explicit function arguments over the registered plugins.
+`read_evidence` is a run-owned material reader, not a scientific inference tool;
+it returns complete retained abstracts or records by an existing opaque ID.
+`finish_research` closes retrieval and starts final writing, not a scientific
+plugin. The same ongoing model interprets retrieved material, so the legacy
+Literature Reading LLM plugin is not independently invoked by the native loop.
+Titles are metadata, graph annotation summaries are not fetched paper abstracts,
+and neither can silently become full-text evidence.
 
 ## Default Plugins
 
@@ -40,7 +51,7 @@ Compact routing reference for LLM planners. Plugin names below are exact default
 - **use when:** The question asks for distributions, top connected entities, rankings, or supported topology summaries.
 - **do not use as:** Free-form schema exploration or biological-strength scoring.
 - **requires:** Neo4j `tekg3`; question and relevant entity or target context.
-- **evidence boundary:** Metrics describe the current query and graph contents. Counts and ranks do not establish biological importance or causality.
+- **evidence boundary:** Metrics include their definition and unit. Global disease rankings count distinct linked TE nodes; connectivity is not biological association strength. Counts and ranks do not establish biological importance or causality.
 
 ### Cypher Explorer Plugin
 - **purpose:** Generate, validate, and execute read-only Cypher when fixed graph tools are insufficient.
@@ -54,7 +65,7 @@ Compact routing reference for LLM planners. Plugin names below are exact default
 - **use when:** The user explicitly asks for literature, papers, citations, evidence review, or a synthesis that requires literature support.
 - **do not use as:** Full-text reading, semantic claim verification, or automatic proof that a citation supports a claim.
 - **requires:** Question and resolved entity context; may consume Graph Plugin citations; uses Neo4j, PubMed services, and cache.
-- **retrieval boundary:** PubMed queries must use Entity Resolver output. Unsafe generic abbreviations such as bare `TE` are expanded to transposable-element domain phrases. External records must match the resolved TE scope and, when present, the resolved disease scope in title or available abstract text before entering synthesis.
+- **retrieval boundary:** PubMed queries cover each requested TE/disease scope, use complete supplied abstracts, and expose failures or budget exclusions in query_coverage. Each run is bounded to six queries and 24 candidate records. PubMed queries must use Entity Resolver output. Unsafe generic abbreviations such as bare `TE` are expanded to transposable-element domain phrases. External records must match the resolved TE scope and, when present, the resolved disease scope in title or available abstract text before entering synthesis.
 - **evidence boundary:** The deterministic relevance gate removes obvious scope mismatches but does not establish scientific claim support. Citation metadata and available title/abstract-level material remain bounded evidence.
 
 ### Literature Reading Plugin
@@ -63,14 +74,14 @@ Compact routing reference for LLM planners. Plugin names below are exact default
 - **do not use as:** A standalone retriever, full-text reader, or fallback when Literature Plugin citations are absent or unusable.
 - **requires:** Usable `Literature Plugin` citations and LLM configuration.
 - **evidence boundary:** Synthesis is limited to supplied citation material, commonly title/metadata/abstract level. Do not overstate claims beyond that material.
-- **fallback boundary:** If structured LLM synthesis is unavailable, preserve citation metadata with `generation_mode=metadata_fallback`; do not create supported claims from titles.
+- **fallback boundary:** If abstract text or structured LLM synthesis is unavailable, preserve citation metadata with `generation_mode=metadata_fallback`; do not create supported claims from titles. Supported claims are derived only from clusters citing supplied abstract-backed records; abstract review does not imply full-text review.
 
 ### Tree Plugin
 - **purpose:** Retrieve TE lineage paths or disease top-level classification context.
 - **use when:** The user asks about taxonomy, family, subfamily, lineage, tree, or disease class.
 - **do not use as:** Mechanism evidence or a second taxonomy truth source.
 - **requires:** Normalized entities and the canonical taxonomy runtime or disease map.
-- **evidence boundary:** Classification context only. A taxonomy path does not support mechanistic or causal claims.
+- **evidence boundary:** Classification context only. Use explicit rank fields; a missing subfamily cannot be inferred from the path position or leaf label. A taxonomy path does not support mechanistic or causal claims.
 
 ### Expression Plugin
 - **purpose:** Retrieve TE expression profiles and explicitly separated highest contexts by median expression and by maximum observed expression.

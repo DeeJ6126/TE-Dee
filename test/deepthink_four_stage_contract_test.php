@@ -118,10 +118,10 @@ $GLOBALS['dt_contract_responses'] = array_map(
 );
 
 $results = [
-    $client->runDeepThinkUnderstandingNode('deepseek-v4-flash', 'en', ['question' => 'LINE-1 relations']),
-    $client->runDeepThinkPlanningNode('deepseek-v4-flash', 'en', ['understanding' => $fixtures['understanding'], 'plugin_directory' => 'DT_CATALOG_SENTINEL']),
-    $client->runDeepThinkExecutingNode('deepseek-v4-flash', 'en', ['planning' => $fixtures['planning'], 'plugin_directory' => 'DT_CATALOG_SENTINEL']),
-    $client->runDeepThinkWritingNode('deepseek-v4-flash', 'en', ['execution' => $fixtures['executing']]),
+    $client->runDeepThinkUnderstandingNode('deepseek-flash', 'en', ['question' => 'LINE-1 relations']),
+    $client->runDeepThinkPlanningNode('deepseek-flash', 'en', ['understanding' => $fixtures['understanding'], 'plugin_directory' => 'DT_CATALOG_SENTINEL']),
+    $client->runDeepThinkExecutingNode('deepseek-flash', 'en', ['planning' => $fixtures['planning'], 'plugin_directory' => 'DT_CATALOG_SENTINEL']),
+    $client->runDeepThinkWritingNode('deepseek-flash', 'en', ['execution' => $fixtures['executing']]),
 ];
 foreach ($results as $result) {
     assert_true($result instanceof NodeLlmResult, 'DT wrapper returns NodeLlmResult');
@@ -137,7 +137,7 @@ foreach ($GLOBALS['dt_contract_requests'] as $request) {
     $promptsSentToRelay[] = (string)($payload['messages'][1]['content'] ?? '');
 }
 assert_same(
-    ['deepseek-v4-flash', 'deepseek-v4-flash', 'deepseek-v4-flash', 'deepseek-v4-flash'],
+    ['deepseek-flash', 'deepseek-flash', 'deepseek-flash', 'deepseek-flash'],
     $models,
     'All four DT nodes send the same flash model to the relay'
 );
@@ -150,7 +150,7 @@ $GLOBALS['dt_contract_requests'] = [];
 $GLOBALS['dt_contract_responses'] = [[
     'body' => json_encode(['response' => ['choices' => [['message' => ['content' => '']]]]], JSON_THROW_ON_ERROR),
 ]];
-$empty = $client->runDeepThinkUnderstandingNode('deepseek-v4-flash', 'en', ['question' => 'LINE-1 relations']);
+$empty = $client->runDeepThinkUnderstandingNode('deepseek-flash', 'en', ['question' => 'LINE-1 relations']);
 assert_same(false, $empty->ok, 'Empty DT artifact fails');
 assert_same(1, count($GLOBALS['dt_contract_requests']), 'Empty DT artifact is not implicitly retried');
 

@@ -68,12 +68,35 @@ frontend thinking/status stream.
 - Conversation continuity is limited to the currently open page. The frontend
   keeps the session ID only in JavaScript memory and never restores it from
   `localStorage`, so reloads and new tabs start without prior page context.
-- The plugin directory is read from `api/agent/plugins/PLUGIN_CATALOG.md` and
-  supplied to LLM planning/collection prompts.
+- Native function schemas come from `QaToolRegistry`; `PLUGIN_CATALOG.md` documents the scientific boundaries and adapter purposes.
 - Plugin results are evidence inputs, not final answers. Writing stages must
   respect evidence boundaries and should expose unsupported or missing evidence.
 - The multi-turn layer preserves the public plugin contracts, routing
   policy, Agent stage count, or DeepThink stage count.
+
+## Complete Dialogue And Retention (2026-10-09)
+
+Both modes prepend complete successful user/assistant turns to the next model
+request. Up to 12 complete turns and 1 MiB of original text are retained; a
+single pair above 512 KiB is explicitly omitted. Whole turns are removed at the
+limit, with a `context_notice` shown in both page modes and the floating window.
+The existing three-turn bounded summary remains an entity-reference helper,
+while `ConversationMemory::historyView` supplies the actual model history.
+Legacy summaries cannot reconstruct missing original messages.
+
+Text tasks can summarize, translate or rewrite provided conversation material
+without an irrelevant TE lookup. User text remains user-attributed, and previous
+assistant prose is not validated scientific evidence. New scientific queries
+retrieve sources again; text transformations may retain supplied source IDs
+without claiming independent verification.
+
+Full dialogue is stored atomically under denied `.conversations` paths; the
+older session files contain only bounded summaries. Original evidence/history,
+completed async runs, inactive sessions and dated diagnostics retain seven days.
+`QaCacheRetention` checks at most daily when QA config is loaded. Running native
+stores are locked, pending/running async jobs are preserved, and PubMed source
+caches, evaluation records and rollback snapshots are excluded. Manual preview:
+`php scripts/checks/prune_qa_cache.php --dry-run`; explicit application: `--apply`.
 
 ## Hard Constraints
 
@@ -86,6 +109,39 @@ frontend thinking/status stream.
 - Do not rely on historical markdown as runtime truth. Verify the current code
   and local config before changing behavior.
 
+## Shared Model And Evidence Retrieval
+
+As of 2026-10-08, `AgentModelPolicy` supplies one trusted `agent_model` for
+Agent, DeepThink, and model-assisted plugins. The default is `deepseek-flash`;
+the legacy `deepseek-v4-flash` name is normalized to it. Stage-specific legacy
+configuration and request model overrides do not select a different model.
+Structured generation requests use JSON mode; explanation writers use normal
+completions. Both modes now use one shared native tool conversation; the four/six stages remain UI phases driven by actual operations.
+
+PubMed retrieval preserves complete abstracts, uses versioned caches, and
+queries each requested TE/disease scope within an explicit budget. Citation
+normalization and final writing projections retain material and scope metadata.
+Tree results expose recorded rank fields, and graph rankings describe actual
+count metrics instead of default strength scores. See the plugin catalog for
+scientific boundaries.
+
+## Native Tool Runtime
+
+`QaResearchLoop` owns a continuous messages history (including protocol reasoning
+state) and the final model answer. `QaToolRegistry` validates explicit scopes and
+parameters before adapting the existing scientific plugins. `QaEvidenceStore`
+retains run-owned originals in the existing denied `.native_runs` cache path;
+`read_evidence` retrieves original records by opaque IDs instead of replacing
+them with previews.
+
+The same tool may run again with different parameters. Exact successful queries
+are reused; failed retrievals have a bounded retry. Agent defaults to 12 tool
+actions/480 seconds, DeepThink to 6/240. The model decides follow-up searches and
+pages; budget and scope checks are code-enforced. Final writing uses the same
+history with tool_choice=none and real citation/presentation checks. The old
+independent narration, ExecutingReview, sufficiency, draft/polish node chain is
+not used by this runtime. API polling/SSE interfaces and public UI phases remain.
+
 ## Common Checks
 
 ```powershell
@@ -96,6 +152,9 @@ php -l api/agent_run_execute.php
 php -l api/agent/orchestrator/DeepThinkService.php
 php -l api/agent/orchestrator/AcademicAgentService.php
 php test/agent_model_config_test.php
+php test/agent_native_tool_turn_test.php
+php test/qa_tool_registry_test.php
+php test/qa_native_loop_runtime_test.php
 php test/agent_six_stage_runtime_test.php
 php test/agent_six_stage_llm_contract_test.php
 php test/conversation_memory_test.php

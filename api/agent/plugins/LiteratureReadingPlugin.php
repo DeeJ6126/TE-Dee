@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+require_once dirname(__DIR__) . "/contracts/AgentModelPolicy.php";
+
 final class TekgAgentLiteratureReadingPlugin implements TekgAgentPluginInterface
 {
     public function __construct(
@@ -21,7 +23,7 @@ final class TekgAgentLiteratureReadingPlugin implements TekgAgentPluginInterface
         $analysis = tekg_agent_context_analysis($context);
         $literature = tekg_agent_context_plugin_result($context, 'Literature Plugin');
         $citations = tekg_agent_plugin_result_citations($literature);
-        $selected = array_slice($citations, 0, 12);
+        $selected = $this->selectCitations($citations, 12);
 
         if ($selected === []) {
             return [
@@ -57,23 +59,30 @@ final class TekgAgentLiteratureReadingPlugin implements TekgAgentPluginInterface
             ];
         }
 
-        $model = trim((string)($context['config']['deepseek_model'] ?? $this->config['deepseek_model'] ?? 'deepseek-chat'));
-        $synthesis = $this->synthesize($question, $analysis, $selected, $model);
+        $model = AgentModelPolicy::resolve($this->config);
+        $hasAbstract = count(array_filter($selected, fn(array $citation): bool => $this->citationAbstract($citation) !== '')) > 0;
+        $synthesis = $hasAbstract ? $this->synthesize($question, $analysis, $selected, $model) : null;
         $generationMode = $synthesis !== null ? 'llm' : 'metadata_fallback';
-        $errors = $synthesis !== null ? [] : ['LLM synthesis was unavailable or invalid; citation metadata was preserved without generating supported claims.'];
+        $errors = $synthesis !== null ? array_values((array)($synthesis['citation_validation_errors'] ?? [])) : [$hasAbstract
+            ? 'LLM synthesis was unavailable or invalid; citation metadata was preserved without generating supported claims.'
+            : 'No abstract text was available; citation metadata was preserved without generating supported claims.'];
         $claimClusters = $synthesis !== null ? array_values((array)($synthesis['claim_clusters'] ?? [])) : [];
         $supportedClaims = $synthesis !== null ? array_values((array)($synthesis['supported_claims'] ?? [])) : [];
         $conflictingClaims = $synthesis !== null ? array_values((array)($synthesis['conflicting_claims'] ?? [])) : [];
         $missingEvidence = $synthesis !== null
             ? array_values((array)($synthesis['missing_evidence'] ?? []))
-            : ['Claim synthesis was not available; inspect the selected citation metadata directly.'];
-        $metadataSummary = array_values(array_map(static fn(array $citation): array => [
+            : [$hasAbstract ? 'Claim synthesis was not available; inspect the selected citation material directly.' : 'No abstract text was available for scientific claim synthesis.'];
+        $metadataSummary = array_values(array_map(fn(array $citation): array => [
             'title' => trim((string)($citation['title'] ?? '')),
             'pmid' => trim((string)($citation['pmid'] ?? '')),
             'journal' => trim((string)($citation['journal'] ?? '')),
             'year' => trim((string)($citation['year'] ?? '')),
             'url' => trim((string)($citation['url'] ?? '')),
-            'abstract_summary' => trim((string)($citation['abstract_summary'] ?? '')),
+            'abstract_text' => $this->citationAbstract($citation),
+            'abstract_summary' => $this->citationAbstract($citation),
+            'material_level' => $this->citationAbstract($citation) !== '' ? 'abstract' : 'metadata',
+            'entity_scopes' => array_values((array)($citation['entity_scopes'] ?? [])),
+            'query_scopes' => array_values((array)($citation['query_scopes'] ?? [])),
         ], $selected));
 
         $previewItems = [];
@@ -113,7 +122,7 @@ final class TekgAgentLiteratureReadingPlugin implements TekgAgentPluginInterface
                     'subject' => $claim,
                     'provenance' => ['source' => 'literature_reading_llm'],
                     'citations' => $clusterCitations,
-                    'quality_flags' => ['metadata_or_abstract_level'],
+                    'quality_flags' => ['abstract_level', 'full_text_not_retrieved'],
                 ]
             );
         }
@@ -201,16 +210,27 @@ final class TekgAgentLiteratureReadingPlugin implements TekgAgentPluginInterface
             'answer_language' => (string)($analysis['answer_language'] ?? $analysis['language'] ?? 'english'),
             'process_language' => (string)($analysis['process_language'] ?? $analysis['answer_language'] ?? $analysis['language'] ?? 'english'),
             'intent' => (string)($analysis['intent'] ?? 'literature'),
+            'evidence_policy' => [
+                'Use the supplied complete abstract_text for scientific claims, and preserve each citation entity_scopes/query_scopes when comparing entities.',
+                'Titles and bibliographic metadata identify records; they cannot generate supported biological claims without abstract text.',
+                'Only cite supplied PMIDs or titles. Every supported claim must occur in a claim_cluster with citations containing available abstract text.',
+                'An abstract is not full text. An association or biomarker observation supports that observation, not an unreported causal mechanism.',
+                'When a requested entity or mechanism lacks supplied supporting text, list that specific evidence gap rather than infer it from another entity.',
+            ],
             'citations' => array_map(function (array $citation): array {
                 return [
                     'title' => (string)($citation['title'] ?? ''),
                     'pmid' => (string)($citation['pmid'] ?? ''),
                     'journal' => (string)($citation['journal'] ?? ''),
                     'year' => (string)($citation['year'] ?? ''),
-                    'abstract_summary' => (string)($citation['abstract_summary'] ?? ''),
+                    'abstract_text' => $this->citationAbstract($citation),
+                    'abstract_summary' => $this->citationAbstract($citation),
+                    'material_level' => $this->citationAbstract($citation) !== '' ? 'abstract' : 'metadata',
+                    'entity_scopes' => array_values((array)($citation['entity_scopes'] ?? [])),
+                    'query_scopes' => array_values((array)($citation['query_scopes'] ?? [])),
                     'relevance' => (string)($citation['relevance'] ?? ''),
                 ];
-            }, array_slice($citations, 0, 10)),
+            }, $citations),
         ];
 
         $generated = $this->llm->generateJson(
@@ -222,9 +242,94 @@ final class TekgAgentLiteratureReadingPlugin implements TekgAgentPluginInterface
         );
 
         if ($this->isValidSynthesis($generated)) {
-            return $generated;
+            return $this->validateSynthesisCitations($generated, $citations);
         }
         return null;
+    }
+
+    private function citationAbstract(array $citation): string
+    {
+        $abstract = trim((string)($citation['abstract_text'] ?? ''));
+        return $abstract !== '' ? $abstract : trim((string)($citation['abstract_summary'] ?? ''));
+    }
+
+    private function selectCitations(array $citations, int $limit): array
+    {
+        $groups = [];
+        foreach ($citations as $citation) {
+            if (!is_array($citation)) {
+                continue;
+            }
+            $scopes = array_values(array_filter(array_map('strval', (array)($citation['entity_scopes'] ?? []))));
+            $key = $scopes[0] ?? '_unscoped';
+            $groups[$key][] = $citation;
+        }
+        foreach ($groups as &$group) {
+            usort($group, fn(array $left, array $right): int => ($this->citationAbstract($right) !== '') <=> ($this->citationAbstract($left) !== ''));
+        }
+        unset($group);
+        // Unscoped local metadata should not occupy the full budget before per-TE abstracts.
+        if (isset($groups['_unscoped'])) {
+            $unscoped = $groups['_unscoped'];
+            unset($groups['_unscoped']);
+            $groups['_unscoped'] = $unscoped;
+        }
+        $selected = [];
+        $seen = [];
+        while ($groups !== [] && count($selected) < $limit) {
+            foreach ($groups as $key => &$group) {
+                $citation = array_shift($group);
+                if ($group === []) {
+                    unset($groups[$key]);
+                }
+                if (!is_array($citation)) {
+                    continue;
+                }
+                $citationKey = tekg_agent_citation_key($citation);
+                if (!isset($seen[$citationKey])) {
+                    $selected[] = $citation;
+                    $seen[$citationKey] = true;
+                }
+                if (count($selected) >= $limit) {
+                    break;
+                }
+            }
+            unset($group);
+        }
+        return $selected;
+    }
+
+    private function validateSynthesisCitations(array $synthesis, array $citations): array
+    {
+        $validClusters = [];
+        $validClaims = [];
+        $missingEvidence = array_values((array)$synthesis['missing_evidence']);
+        $validationErrors = [];
+        foreach ((array)$synthesis['claim_clusters'] as $cluster) {
+            if (!is_array($cluster)) {
+                continue;
+            }
+            $references = $this->clusterCitations($cluster, $citations);
+            $abstractReferences = array_values(array_filter($references, fn(array $citation): bool => $this->citationAbstract($citation) !== ''));
+            $claim = trim((string)($cluster['claim'] ?? ''));
+            if ($claim === '' || $abstractReferences === []) {
+                if ($claim !== '') {
+                    $missingEvidence[] = 'No supplied abstract-backed citation validated the proposed claim: ' . $claim;
+                    $validationErrors[] = 'Rejected a claim cluster without a supplied abstract-backed citation.';
+                }
+                continue;
+            }
+            $cluster['citations'] = array_values(array_map(static fn(array $citation): string => trim((string)($citation['pmid'] ?? '')) ?: trim((string)($citation['title'] ?? '')), $abstractReferences));
+            $validClusters[] = $cluster;
+            $validClaims[] = $claim;
+        }
+        $synthesis['claim_clusters'] = $validClusters;
+        // Canonical claims come from citation-validated clusters. The model's duplicate
+        // supported_claims field may paraphrase them and carries no independent evidence.
+        $synthesis['supported_claims'] = array_values(array_unique($validClaims));
+        $synthesis['missing_evidence'] = array_values(array_unique($missingEvidence));
+        $synthesis['citation_validation_errors'] = array_values(array_unique($validationErrors));
+        return $synthesis;
     }
 
     private function isValidSynthesis(mixed $synthesis): bool

@@ -1,47 +1,32 @@
 <?php
 declare(strict_types=1);
-
-function assert_true(bool $condition, string $message): void
-{
-    if (!$condition) {
-        fwrite(STDERR, "Assertion failed: {$message}\n");
-        exit(1);
-    }
+require_once __DIR__ . '/../api/agent/bootstrap.php';
+require_once __DIR__ . '/../api/agent/plugin_registry.php';
+tekg_agent_require_academic_agent_service();
+require_once __DIR__ . '/qa_loop_wrapper_test_support.php';
+final class TimedNativeLookup implements TekgAgentPluginInterface {
+    public array $context=[];
+    public function __construct(private readonly Closure $advance) {}
+    public function getName(): string { return 'Graph Plugin'; }
+    public function run(array $context): array { $this->context=$context; ($this->advance)(); return (new WrapperFixturePlugin($this->getName()))->run($context); }
 }
-
-function assert_same($expected, $actual, string $message): void
-{
-    if ($expected !== $actual) {
-        fwrite(STDERR, "Assertion failed: {$message}\nExpected: " . var_export($expected, true) . "\nActual: " . var_export($actual, true) . "\n");
-        exit(1);
-    }
-}
-
-$bootstrapSource = (string)file_get_contents(__DIR__ . '/../api/agent/bootstrap.php');
-$runStoreSource = (string)file_get_contents(__DIR__ . '/../api/agent/bootstrap/run_store.php');
-$localConfig = require __DIR__ . '/../api/config.local.php';
-
-foreach ([
-    "'TEKG_AGENT_EXECUTION_TIMEOUT'], '7200'" => 'default Agent execution timeout is 2 hours',
-    "'TEKG_AGENT_LLM_NARRATOR_TIMEOUT'], '60'" => 'default narrator timeout is 60 seconds',
-    "'TEKG_AGENT_LLM_JSON_TIMEOUT'], '120'" => 'default JSON timeout is 120 seconds',
-    "'TEKG_AGENT_LLM_SIX_STAGE_NODE_TIMEOUT'], '1200'" => 'default six-stage node timeout is 20 minutes',
-    "'TEKG_AGENT_LLM_ANSWER_CHAT_TIMEOUT'], '1200'" => 'default answer chat timeout is 20 minutes',
-    "'TEKG_AGENT_LLM_ANSWER_REASONER_TIMEOUT'], '1200'" => 'default answer reasoner timeout is 20 minutes',
-] as $needle => $message) {
-    assert_true(str_contains($bootstrapSource, $needle), $message);
-}
-
-assert_same(7200, (int)($localConfig['agent_execution_timeout'] ?? 0), 'local Agent execution timeout is 2 hours');
-assert_same(60, (int)($localConfig['llm_narrator_timeout'] ?? 0), 'local narrator timeout is 60 seconds');
-assert_same(120, (int)($localConfig['llm_json_timeout'] ?? 0), 'local JSON timeout is 120 seconds');
-assert_same(1200, (int)($localConfig['llm_six_stage_node_timeout'] ?? 0), 'local six-stage node timeout is 20 minutes');
-assert_same(1200, (int)($localConfig['llm_answer_chat_timeout'] ?? 0), 'local answer chat timeout is 20 minutes');
-assert_same(1200, (int)($localConfig['llm_answer_reasoner_timeout'] ?? 0), 'local answer reasoner timeout is 20 minutes');
-
-assert_true(
-    preg_match('/timeoutSeconds\s*=\s*max\(\s*90\s*,\s*\(int\)\(\$config\[[^\]]+agent_execution_timeout[^\]]+\]\s*\?\?\s*7200\)\)\s*\+\s*30\s*;/s', $runStoreSource) === 1,
-    'stale timeout remains configured Agent execution timeout plus 30 seconds'
-);
-
-echo "Agent timeout config tests passed.\n";
+$start=microtime(true); $clock=$start;
+$lookup=new TimedNativeLookup(static function() use (&$clock): void { $clock+=41; });
+$options=[];
+$service=new TekgAcademicAgentService(wrapper_config([
+ wrapper_turn([wrapper_call('lookup','graph_lookup',['te'=>['L1HS']])]),
+ static function(array $messages,array $tools,array $writerOptions) use (&$options): array {
+  $options=$writerOptions; wrapper_same('none',$options['tool_choice'],'Exhausted research budget permits only final writing.');
+  return wrapper_turn([],'A retrieved record describes L1HS in cancer (PMID 12345). Retrieval stopped at its time limit, so this is not exhaustive.');
+ },
+],['qa_agent_seconds'=>60,'qa_test_clock'=>static function() use (&$clock): float { return $clock; }]));
+wrapper_inject($service,['Graph Plugin'=>$lookup]);
+$session='native-timeout-'.bin2hex(random_bytes(6));
+$r=$service->handle(['question'=>'Find L1HS evidence in cancer.','session_id'=>$session,'execution_timeout'=>999999,'qa_agent_seconds'=>999999]);
+wrapper_same(false,$r['failed'],'Retained evidence can be delivered after research cutoff.');
+wrapper_same('time_budget',$r['tool_loop']['stop_reason'],'The actual clock closes research.');
+wrapper_assert(abs($lookup->context['config']['qa_deadline']-($start+40))<0.001,'Tools cannot spend the writing reserve.');
+wrapper_assert($options['timeout']<=19 && $options['total_timeout']<=19,'Final calls respect remaining total time.');
+wrapper_same(2,$r['tool_loop']['model_steps'],'No additional research request runs after cutoff.');
+wrapper_cleanup($session);
+echo "Agent native deadline and writing reserve tests passed.\n";

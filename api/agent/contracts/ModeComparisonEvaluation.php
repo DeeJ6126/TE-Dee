@@ -204,6 +204,10 @@ final class ModeComparisonEvaluation
         if ($integrityReport === []) {
             return false;
         }
+        if (isset($integrityReport['final'])) {
+            return (bool)($integrityReport['final']['ok'] ?? false)
+                && (!isset($integrityReport['user_facing']) || (bool)($integrityReport['user_facing']['ok'] ?? false));
+        }
         $draftOk = (bool)($integrityReport['draft']['ok'] ?? false);
         $polishOk = (bool)($integrityReport['polish']['ok'] ?? false);
         return $draftOk && ($polishOk || !isset($integrityReport['polish']));

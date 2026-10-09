@@ -3,114 +3,85 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/../api/agent/bootstrap.php';
 require_once __DIR__ . '/../api/agent/plugin_registry.php';
-require_once __DIR__ . '/../api/agent/contracts/NodeLlmResult.php';
 tekg_agent_require_academic_agent_service();
+require_once __DIR__ . '/qa_loop_wrapper_test_support.php';
 
-function assert_true(bool $condition, string $message): void
+/** A native lookup failure is recoverable; usable partial evidence is retained. */
+final class ResilientNativeGraphFixture implements TekgAgentPluginInterface
 {
-    if (!$condition) {
-        fwrite(STDERR, "Assertion failed: {$message}\n");
-        exit(1);
+    public int $runCount = 0;
+    public function getName(): string { return 'Graph Plugin'; }
+    public function run(array $context): array
+    {
+        $this->runCount++;
+        if ($this->runCount === 1) {
+            return ['plugin_name' => $this->getName(), 'status' => 'error', 'query_summary' => 'Graph lookup unavailable.',
+                'results' => [], 'display_label' => 'Graph lookup unavailable', 'display_summary' => 'Temporary graph retrieval failure.',
+                'display_details' => [], 'result_counts' => [], 'evidence_items' => [], 'citations' => [],
+                'errors' => ['Fixture graph connection failed.'], 'latency_ms' => 0];
+        }
+        return (new WrapperFixturePlugin($this->getName(), [
+            'status' => 'partial', 'errors' => ['One requested source was unavailable; the supplied record remains usable.'],
+        ]))->run($context);
     }
 }
 
-function assert_same($expected, $actual, string $message): void
-{
-    if ($expected !== $actual) {
-        fwrite(STDERR, "Assertion failed: {$message}\nExpected: " . var_export($expected, true) . "\nActual: " . var_export($actual, true) . "\n");
-        exit(1);
-    }
-}
+$graph = new ResilientNativeGraphFixture();
+$researchHistory = [];
+$service = new TekgAcademicAgentService(wrapper_config([
+    wrapper_turn([wrapper_call('attempt1', 'graph_lookup', ['te' => ['L1HS'], 'disease' => 'Cancer'])]),
+    static function (array $messages) use (&$researchHistory): array {
+        $researchHistory = $messages;
+        $last = json_decode($messages[array_key_last($messages)]['content'], true, 32, JSON_THROW_ON_ERROR);
+        wrapper_same('error', $last['status'], 'The failed lookup is visible as an error rather than scientific evidence.');
+        wrapper_assert($last['errors'] !== [], 'The model receives the original retrieval failure.');
+        return wrapper_turn([wrapper_call('attempt2', 'graph_lookup', ['te' => ['L1HS'], 'disease' => 'Cancer'])]);
+    },
+    wrapper_finish(),
+    static function (array $messages, array $tools, array $options): array {
+        wrapper_same('none', $options['tool_choice'], 'Only final writing follows source recovery; no independent JSON review node is inserted.');
+        $partial = false;
+        foreach ($messages as $message) {
+            if (($message['role'] ?? '') !== 'tool') { continue; }
+            $material = json_decode($message['content'], true);
+            $partial = $partial || ($material['status'] ?? '') === 'partial';
+        }
+        wrapper_assert($partial, 'The final writer receives usable partial evidence and its limitation.');
+        return wrapper_turn([], 'The supplied record reports an observation of L1HS in cancer (PMID 12345). Some requested source material was unavailable.');
+    },
+]));
+wrapper_inject($service, ['Graph Plugin' => $graph]);
+$events = [];
+$session = 'native-retrieval-resilience-' . bin2hex(random_bytes(6));
+$response = $service->stream(['question' => 'Find L1HS evidence in cancer.', 'session_id' => $session], static function (array $event) use (&$events): void { $events[] = $event; });
+wrapper_same(false, $response['failed'], 'A recoverable retrieval failure does not terminate the run.');
+wrapper_same(2, $graph->runCount, 'One explicit retry executes the same failed lookup and obtains partial evidence.');
+wrapper_same(4, $response['tool_loop']['model_steps'], 'Research, retry, finish and writing use the shared conversation without extra review calls.');
+wrapper_same('error', $response['plugin_calls'][0]['status'], 'A genuine plugin failure is not relabelled success.');
+wrapper_same([], $response['plugin_calls'][0]['evidence_items'], 'Failed retrieval contributes no scientific claims.');
+wrapper_same('partial', $response['plugin_calls'][1]['status'], 'Usable data retains its partial state.');
+wrapper_assert($response['plugin_calls'][1]['evidence_items'] !== [] && $response['plugin_calls'][1]['citations'] !== [], 'Partial evidence and citations reach final synthesis.');
+wrapper_assert($response['evidence_package']['claims'] !== [], 'The recovered scientific record reaches the evidence package.');
+$toolEvents = array_values(array_filter($events, static fn(array $event): bool => $event['type'] === 'tool_result'));
+wrapper_same(['error', 'partial'], array_column(array_column($toolEvents, 'payload'), 'status'), 'The UI reflects actual retrieval states.');
+wrapper_assert($toolEvents[1]['payload']['errors'] !== [] && $toolEvents[1]['payload']['citations'] !== [], 'The UI retains both limitations and usable references.');
+wrapper_assert(!in_array('error', array_column($events, 'type'), true), 'Recoverable tool errors are not global workflow failures.');
+wrapper_terminal($events, false);
+wrapper_cleanup($session);
 
-$service = new TekgAcademicAgentService(['agent_test_mode' => true]);
-$reflection = new ReflectionClass($service);
+// A model transport failure after retrieval never creates a deterministic answer.
+$failedService = new TekgAcademicAgentService(wrapper_config([
+    wrapper_turn([wrapper_call('retrieve', 'graph_lookup', ['te' => ['L1HS']])]),
+    wrapper_finish(),
+    ['ok' => false, 'error_type' => 'transport_error', 'error' => 'The final model turn was unavailable.'],
+]));
+wrapper_inject($failedService, ['Graph Plugin' => new WrapperFixturePlugin('Graph Plugin')]);
+$failedEvents = [];
+$failedSession = 'native-writer-failure-' . bin2hex(random_bytes(6));
+$failed = $failedService->stream(['question' => 'Summarize L1HS evidence.', 'session_id' => $failedSession], static function (array $event) use (&$failedEvents): void { $failedEvents[] = $event; });
+wrapper_same(true, $failed['failed'], 'A failed final model turn produces a terminal failed run.');
+wrapper_same('', $failed['answer'], 'Recovered source evidence is not converted into a fabricated fallback answer.');
+wrapper_terminal($failedEvents, true);
+wrapper_cleanup($failedSession);
 
-assert_true($reflection->hasMethod('shouldContinueAfterExecutingReviewFailure'), 'AcademicAgentService exposes a review failure policy helper');
-assert_true($reflection->hasMethod('applyExecutingReviewFailureCaveat'), 'AcademicAgentService exposes a review failure caveat helper');
-assert_true($reflection->hasMethod('toolPayloadForUi'), 'AcademicAgentService exposes tool payload builder');
-assert_true($reflection->hasMethod('executingReviewRequired'), 'AcademicAgentService exposes selective review policy');
-assert_true($reflection->hasMethod('markExecutingReviewNotRequired'), 'AcademicAgentService records deterministic review skips');
-
-$policyMethod = $reflection->getMethod('shouldContinueAfterExecutingReviewFailure');
-$caveatMethod = $reflection->getMethod('applyExecutingReviewFailureCaveat');
-$toolPayloadMethod = $reflection->getMethod('toolPayloadForUi');
-$reviewRequiredMethod = $reflection->getMethod('executingReviewRequired');
-$markNotRequiredMethod = $reflection->getMethod('markExecutingReviewNotRequired');
-
-foreach (['Entity Resolver', 'Site Navigator Plugin', 'Tree Plugin', 'Genome Plugin', 'Citation Resolver'] as $pluginName) {
-    assert_same(false, $reviewRequiredMethod->invoke($service, $pluginName, ['status' => 'ok', 'evidence_items' => []]), "{$pluginName} skips LLM review");
-}
-foreach (['Graph Plugin', 'Graph Analytics Plugin', 'Cypher Explorer Plugin', 'Literature Plugin', 'Literature Reading Plugin', 'Expression Plugin'] as $pluginName) {
-    assert_same(true, $reviewRequiredMethod->invoke($service, $pluginName, ['status' => 'ok', 'evidence_items' => []]), "{$pluginName} keeps LLM review");
-}
-assert_same(false, $reviewRequiredMethod->invoke($service, 'Sequence Plugin', [
-    'status' => 'ok',
-    'evidence_items' => [tekg_agent_make_evidence_item('Sequence Plugin', 'Exact sequence record.', 'L1HS', 'high', [], [], ['evidence_type' => 'sequence_record'])],
-]), 'exact sequence retrieval skips LLM review');
-assert_same(true, $reviewRequiredMethod->invoke($service, 'Sequence Plugin', [
-    'status' => 'ok',
-    'evidence_items' => [tekg_agent_make_evidence_item('Sequence Plugin', 'Keyword hint.', 'L1HS', 'low', [], [], ['evidence_type' => 'structure_hint', 'quality_flags' => ['keyword_derived']])],
-]), 'interpretive sequence hints keep LLM review');
-assert_same(false, $reviewRequiredMethod->invoke($service, 'Graph Plugin', ['status' => 'empty', 'evidence_items' => []]), 'empty plugin result skips LLM review');
-
-$notRequired = $markNotRequiredMethod->invoke($service, ['plugin_name' => 'Genome Plugin', 'status' => 'ok'], 'Deterministic retrieval does not require interpretation.');
-assert_same('not_required', $notRequired['executing_review_status'] ?? null, 'skipped review status is explicit');
-assert_true(str_contains($notRequired['executing_review_reason'] ?? '', 'Deterministic retrieval'), 'skipped review reason is explicit');
-
-$reviewFailure = new NodeLlmResult(
-    'executing',
-    '',
-    null,
-    false,
-    ['llm: stage=executing provider=deepseek model=deepseek-v4-flash: Relay returned an empty response.'],
-    'tool_execution_review.v1'
-);
-
-$okPluginResult = [
-    'plugin_name' => 'Literature Reading Plugin',
-    'status' => 'ok',
-    'display_summary' => 'Synthesized 3 reviewed papers into 2 supported claims.',
-    'query_summary' => 'Literature reading succeeded.',
-    'evidence_items' => [
-        [
-            'claim' => 'LINE-1 activation has literature support in Alzheimer disease contexts.',
-            'citations' => ['pmid:123'],
-        ],
-    ],
-    'citations' => [
-        ['id' => 'pmid:123', 'title' => 'LINE-1 and neurodegeneration evidence'],
-    ],
-    'result_counts' => ['reviewed' => 3],
-    'errors' => [],
-];
-
-assert_same(
-    true,
-    $policyMethod->invoke($service, $okPluginResult, $reviewFailure),
-    'ExecutingReview LLM failure is non-fatal when the plugin body returned ok evidence'
-);
-
-$withCaveat = $caveatMethod->invoke($service, $okPluginResult, $reviewFailure);
-assert_same('ok', (string)($withCaveat['status'] ?? ''), 'Plugin status remains ok after review caveat');
-assert_true((array)($withCaveat['evidence_items'] ?? []) !== [], 'Plugin evidence remains available after review caveat');
-assert_true((array)($withCaveat['citations'] ?? []) !== [], 'Plugin citations remain available after review caveat');
-assert_true(in_array('review_failed', (array)($withCaveat['warnings'] ?? []), true), 'Plugin result records review_failed warning');
-assert_true(str_contains((string)($withCaveat['executing_review_status'] ?? ''), 'review_failed'), 'Plugin result records review_failed status');
-assert_true(str_contains(implode(' ', (array)($withCaveat['caveats'] ?? [])), 'ExecutingReview unavailable'), 'Plugin result carries ExecutingReview unavailable caveat');
-
-$toolPayload = $toolPayloadMethod->invoke($service, $withCaveat);
-assert_true(in_array('review_failed', (array)($toolPayload['warnings'] ?? []), true), 'Tool result event payload carries review_failed warning');
-assert_same('review_failed', (string)($toolPayload['executing_review_status'] ?? ''), 'Tool result event payload carries review_failed status');
-assert_true(str_contains(implode(' ', (array)($toolPayload['caveats'] ?? [])), 'ExecutingReview unavailable'), 'Tool result event payload carries ExecutingReview unavailable caveat');
-
-$failedPluginResult = $okPluginResult;
-$failedPluginResult['status'] = 'error';
-$failedPluginResult['errors'] = ['Literature Reading Plugin failed to parse source papers.'];
-
-assert_same(
-    false,
-    $policyMethod->invoke($service, $failedPluginResult, $reviewFailure),
-    'ExecutingReview policy does not convert a real plugin failure into success'
-);
-
-echo "Agent executing review resilience tests passed.\n";
+echo "Agent native retrieval resilience tests passed.\n";

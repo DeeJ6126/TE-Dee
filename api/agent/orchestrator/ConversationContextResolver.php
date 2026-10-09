@@ -1,5 +1,7 @@
 <?php
 declare(strict_types=1);
+require_once __DIR__ . '/ConversationMaterials.php';
+require_once dirname(__DIR__) . '/contracts/SequenceDelivery.php';
 
 final class ConversationContextResolver
 {
@@ -24,6 +26,10 @@ final class ConversationContextResolver
             $this->entityLabels((array)($probe['normalized_entities'] ?? [])),
             $this->explicitTeTokens($question)
         ));
+        if (ConversationMaterials::isTextTask($question)) {
+            // Text references are resolved by the main model over the complete dialogue.
+            return ConversationContextResult::standalone($question, $explicitEntities);
+        }
         if (!$this->hasFollowUpSignal($question)) {
             return ConversationContextResult::standalone($question, $explicitEntities);
         }
@@ -110,6 +116,9 @@ final class ConversationContextResolver
         if ($effectiveQuestion === '' || tekg_agent_strlen($effectiveQuestion) > self::MAX_EFFECTIVE_QUESTION) {
             return null;
         }
+        if (SequenceDelivery::requested($question) && !SequenceDelivery::requested($effectiveQuestion)) {
+            return null;
+        }
         $inherited = $this->entityLabels((array)($generated['inherited_entities'] ?? []));
         if ($inherited === []) {
             return null;
@@ -145,6 +154,8 @@ final class ConversationContextResolver
 
     private function hasFollowUpSignal(string $question): bool
     {
+        // A bare full-sequence/FASTA request depends on the previously discussed TE.
+        if (SequenceDelivery::requested($question)) { return true; }
         return preg_match(
             '/\b(?:it|its|they|their|them|those|these|what\s+about|how\s+about|previous\s+result|those\s+links|these\s+diseases)\b|(?:它|它的|它们|那它|那么|上述|这些关联|刚才的结果|前面的结果|还有)/iu',
             $question

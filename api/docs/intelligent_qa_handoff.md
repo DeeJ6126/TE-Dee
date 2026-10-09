@@ -1,6 +1,22 @@
 # TE-Dee Intelligent QA Handoff
 
-Last reviewed: 2026-07-30
+Last reviewed: 2026-10-09
+
+Closeout update: complete cross-turn dialogue now reaches the research and final
+writing model. `ConversationMemory::historyView` retains up to 12 whole successful
+turns and 1 MiB of original text (512 KiB per pair). The prior three-turn summary
+only supports entity resolution. Full dialogue lives in private `.conversations`
+files, not the old summary files. Both page modes and the floating window show
+context eviction/omission notices and keep their session ID in page memory.
+`ConversationMaterials` permits explicit supplied-text tasks while preserving
+fresh-source requirements for new scientific queries. Source identifiers retained
+for editing are context references, not verified scientific findings.
+
+`QaCacheRetention` performs daily request-triggered cleanup of seven-day-old
+native records, completed async results, sessions, private conversations and
+dated diagnostics. Active native records and pending/running jobs are preserved;
+PubMed source cache, evaluation output and maintenance snapshots are excluded.
+See `scripts/checks/prune_qa_cache.php` for a safe preview/apply CLI.
 
 Runtime audit note: 2026-07-28. The live frontend, endpoints, orchestrators,
 model configuration, prompts, plugin registry, evidence contracts, tests, and
@@ -10,12 +26,11 @@ relay. See `api/docs/intelligent_qa_runtime_audit_2026-07-28.md` for the startin
 snapshot and `api/docs/intelligent_qa_plugin_contract_hardening_2026-07-28.md`
 for the implemented behavior and current verification evidence.
 
-Current plugin maintenance state: the shared native plugin contract remains unchanged;
-both orchestrators enforce one native result contract; scientific evidence is
-separated from diagnostics; Literature Reading fallback is explicit; Agent and
-DeepThink share bounded UI/LLM projections; and Agent uses selective execution
-review. Future plugin work should preserve these contracts rather than adding a
-second result shape.
+Current plugin maintenance state: both modes use the shared native tool loop and
+validated plugin contract. Scientific evidence is separated from diagnostics;
+the model can read original material and revisit scopes within its budget.
+The old separate ExecutingReview/Literature Reading model chain is retired from
+the active runtime. Future plugin work should preserve the shared contracts.
 
 Multi-turn context note: 2026-07-30. Agent and DeepThink now share a bounded
 context resolver before entity normalization and routing. It retains at most
@@ -70,12 +85,11 @@ Understanding -> Planning -> Executing -> Writing
 Current important behavior:
 
 - The model for DeepThink stages is resolved in the service and currently uses
-  `deepseek-v4-flash`.
-- Planning selects only validated business plugins.
-- Executing may call each planned business plugin at most once.
-- Citation Resolver is post-processing and may run outside the business-plugin
-  set.
-- Literature Reading requires usable Literature Plugin results.
+  `deepseek-flash`.
+- Planning uses native function schemas with explicit arguments.
+- Executing can revisit a tool with a different validated scope, focus or page; exact queries are deduplicated.
+- Citation merging remains post-processing, without a separate model call.
+- The ongoing model reads original abstracts through read_evidence; a separate Literature Reading model is not used by the native runtime.
 - Writing is the final answer source. If Writing fails, the failure must be
   exposed instead of hidden behind a rule-composed answer.
 
@@ -89,18 +103,26 @@ Understanding -> Planning -> Collecting -> Executing -> Integrating -> Writing
 
 Current important behavior:
 
-- Agent uses deterministic normalization and planning helpers plus LLM node
-  artifacts.
-- Collecting decides whether more evidence is needed.
-- Executing runs plugins and can review plugin output with an ExecutingReview
-  LLM artifact.
-- Integrating builds structured evidence materials such as evidence package,
-  evidence walk, report plan, answer structure, and claim mapping.
-- Writing runs a writing decision, draft generation, optional polishing, and
-  integrity checks.
-
-Agent is more expressive than DeepThink but slower and more failure-prone,
-especially near Writing.
+- Agent and DeepThink share `QaResearchLoop`, `QaToolRegistry`, and `QaEvidenceStore`.
+- The model continues one messages history through native tool calls. Reasoning
+  protocol content is retained privately, never displayed or treated as evidence.
+- Tools have explicit validated parameters and can be called again to inspect
+  different scopes, query focus or pages. Repeated identical successful queries
+  reuse their original evidence, and retrieval failures may be retried within bounds.
+- The four/six stage names describe real normalization, decision, execution,
+  evidence integration and final writing operations. They do not each require
+  separate LLM JSON nodes or fabricated progress.
+- Final writing uses the same task history. Citation/presentation checks are
+  preserved, one real model repair is allowed, and requested FASTA is appended
+  from verified original records. No deterministic scientific answer replaces
+  a failed writer.
+- Native private transcripts/original records live under denied `.native_runs`;
+  evidence IDs can only read records from the current run instance.
+- Agent defaults to 12 actions and 480 seconds; DeepThink to 6 and 240. Research
+  model and HTTP operations have a cutoff that reserves final-writing time.
+- Existing async Agent endpoints and DeepThink SSE, open-page conversation scope,
+  and bounded antecedent resolution remain. A new question refetches scientific
+  evidence; old answer text is not evidence.
 
 ## Models And Config
 
@@ -112,9 +134,25 @@ before debugging model behavior:
 - `api/agent/orchestrator/DeepThinkService.php`
 - `api/agent/orchestrator/AcademicAgentService.php`
 
-At the latest review, local config set Agent core/expert/narrator/writing style
-models to `deepseek-v4-pro`, while DeepThink still used
-`deepseek-v4-flash`. Timeouts were also much larger than older documents stated.
+Current model policy (2026-10-08): `api/agent/contracts/AgentModelPolicy.php`
+provides one `agent_model` for every QA stage and model-assisted plugin. Its
+default is `deepseek-flash`; old Flash aliases normalize to the current API
+name. Legacy per-stage config and incoming model parameters cannot switch one
+stage to Pro. Existing server credentials remain private and are unchanged.
+The native tool loop now drives both modes. The four/six stage UI is retained,
+while the old independent control/review/writing node chain is retired.
+
+PubMed EFetch now overrides the shared JSON parameter with XML, retains complete
+abstract text, and versions its cache to exclude old empty-abstract entries.
+Multi-TE queries cover each TE/disease pair with bounded retrieval. Duplicate
+citations preserve complete material through collection, normalization,
+evidence packaging, and writing. Reading derives its supported claims from
+citation-validated clusters and does not treat titles as biological evidence.
+
+Taxonomy results carry explicit ranks and missing-rank fields. L1HS has recorded
+family L1PA; no subfamily field is stored. Global disease rankings use distinct
+linked TE counts and state that connectivity is not biological association
+strength. Undefined graph scoring fields cannot become a synthetic score.
 
 ## Plugin System
 
@@ -199,16 +237,14 @@ the Writing indicator from continuing to spin after an answer is shown.
   projection rather than raw plugin/evidence structures. Do not remove this
   boundary or expose raw flags, IDs, plugin names, or evidence-accounting terms
   in final prose.
-- `SequencePlugin::structureHints()` still has a separate upstream data issue:
-  substring matching can read `Non-LTR` as an `LTR` hint. The writing projection
-  suppresses unrequested structure hints, but the plugin parser itself remains
-  a future scoped fix.
+- Sequence metadata hints remain keyword-derived. The Non-LTR substring parser issue
+  was fixed in the native-loop pass; hints are not verified structural annotation.
 
 ## Recommended Next Maintenance Tasks
 
 1. Keep `api/README.md` and `api/docs/` current after every Agent/DeepThink
    change.
-2. Fix and test the `Non-LTR` structure-hint substring match in SequencePlugin.
+2. Keep keyword metadata distinct from verified sequence annotation and biological taxonomy.
 3. Use the 36-question evaluation findings to address scoped answer-quality
    failures, especially missing requested evidence, long path-query failures,
    literature precision, and remaining internal writing vocabulary.
