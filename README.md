@@ -135,9 +135,29 @@ Database and browser integration checks require their corresponding runtime serv
 - [QA plugin catalogue](api/agent/plugins/PLUGIN_CATALOG.md)
 - [Apache deployment](deploy/apache/README.md)
 
-## Citation and licensing
+## Citation
 
-For research using TE-Dee data, cite the [figshare dataset](https://doi.org/10.6084/m9.figshare.33945424) using the citation and version information supplied in that record. For code-based analyses, also record the repository commit used.
+If you use TE-Dee in your research, please cite:
+
+> Jiang, X., Fang, Y., Fang, Q., Zhang, S., Li, G., Xu, H., Feng, C. & Chen, M. An integrated data exploration engine of knowledge, expression and genetic association for human transposable elements. *bioRxiv* (2026). https://doi.org/10.64898/2026.10.09.757957.
+
+The [preprint, version 1](https://www.biorxiv.org/content/10.64898/2026.10.09.757957v1) was posted on 15 October 2026.
+
+```bibtex
+@article{jiang2026tedee,
+  title   = {An integrated data exploration engine of knowledge, expression and genetic association for human transposable elements},
+  author  = {Jiang, Xiandi and Fang, Yixi and Fang, Qiuyu and Zhang, Shilong and Li, Guanliang and Xu, He and Feng, Cong and Chen, Ming},
+  journal = {bioRxiv},
+  year    = {2026},
+  doi     = {10.64898/2026.10.09.757957},
+  url     = {https://www.biorxiv.org/content/10.64898/2026.10.09.757957v1},
+  note    = {Preprint, version 1}
+}
+```
+
+For reuse of released datasets, also cite the [figshare dataset](https://doi.org/10.6084/m9.figshare.33945424) using the citation and version information supplied in that record. For code-based analyses, record the repository commit used.
+
+## Licensing
 
 The deposited dataset is released under **CC BY 4.0**, as specified in its figshare record. Upstream resources retain their respective usage terms. This repository currently has no project-wide software license; contact the maintainers regarding code reuse. Bundled third-party libraries retain their own licenses.
 
